@@ -1695,6 +1695,2606 @@ export const ddlData: Record<string, DDLItem[]> = {
       "type": "conference"
     }
   ],
+  "journal-ddl": [
+    {
+      "id": "journal-ddl-ieee-comsoc-magazine-explainable-artificial-intelligence-for",
+      "title": "Explainable Artificial Intelligence for Wireless Communications",
+      "deadline": "2026-05-15T23:59:59",
+      "dateRange": "2026-05-15",
+      "location": "IEEE ComSoc",
+      "isOnline": true,
+      "tags": [
+        "IEEE",
+        "ComSoc"
+      ],
+      "url": "https://www.comsoc.org/publications/magazines/ieee-communications-magazine/cfp/explainable-artificial-intelligence",
+      "status": "upcoming",
+      "description": "December 2026 15 May 2026",
+      "stage": "Call for Papers",
+      "source": "IEEE Communications Magazine CFP",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-ieee-jsac-digital-twins-for-wireless-networks-enabling-appli",
+      "title": "Digital Twins for Wireless Networks: Enabling Application-Aware and Closed-Loop Optimization",
+      "deadline": "2026-05-15T23:59:59",
+      "dateRange": "2026-05-15",
+      "location": "IEEE JSAC",
+      "isOnline": true,
+      "tags": [
+        "IEEE",
+        "ComSoc"
+      ],
+      "url": "https://www.comsoc.org/publications/journals/ieee-jsac/cfp/digital-twins-wireless-networks-enabling-application-aware-and",
+      "status": "upcoming",
+      "description": "Fourth Quarter 2026 15 May 2026",
+      "stage": "Call for Papers",
+      "source": "IEEE JSAC CFP",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-ieee-sps-special-issues-ieee-jstsp-special-issue-on-wireless",
+      "title": "IEEE JSTSP Special Issue on Wireless Foundation Models for AI-native 6G and Beyond",
+      "deadline": "2026-05-15T23:59:59",
+      "dateRange": "2026-05-15",
+      "location": "IEEE Signal Processing Society",
+      "isOnline": true,
+      "tags": [
+        "IEEE",
+        "Signal Processing"
+      ],
+      "url": "https://signalprocessingsociety.org/events/ieee-jstsp-special-issue-wireless-foundation-models-ai-native-6g-and-beyond",
+      "status": "upcoming",
+      "description": "Submission deadline: 15-May-2026 Publication date: December-2026",
+      "stage": "Special Issue",
+      "source": "IEEE SPS Special Issue Deadlines",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-design-methodologies-and-applications-on-c",
+      "title": "Design Methodologies and Applications on Compliant Mechanisms",
+      "deadline": "2026-05-31T23:59:59",
+      "dateRange": "2026-05-31",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/333226/design-methodologies-and-applications-on-compliant-mechanisms",
+      "status": "upcoming",
+      "description": "Guest editors: Matteo Verotti, Guimin Chen, Just Herder, Jonathan Hopkins  •_Impact Factor 5.3_•_CiteScore 11.4_ Submission deadline:**31 May 2026**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-journal-of-materiomics-2026-05-31",
+      "title": "Journal of Materiomics",
+      "deadline": "2026-05-31T23:59:59",
+      "dateRange": "2026-05-31",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/journal/journal-of-materiomics",
+      "status": "upcoming",
+      "description": "•_Impact Factor 9.6_•_CiteScore 16.8_ Submission deadline:**31 May 2026**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-ieee-comsoc-magazine-fluid-antennas-the-next-wave-of-mimo-ev",
+      "title": "Fluid Antennas: The Next Wave of MIMO Evolution for 6G and Beyond",
+      "deadline": "2026-05-31T23:59:59",
+      "dateRange": "2026-05-31",
+      "location": "IEEE ComSoc",
+      "isOnline": true,
+      "tags": [
+        "IEEE",
+        "ComSoc"
+      ],
+      "url": "https://www.comsoc.org/publications/magazines/ieee-communications-magazine/cfp/fluid-antennas-next-wave-mimo-evolution-6g",
+      "status": "upcoming",
+      "description": "First Quarter 2027 31 May 2026",
+      "stage": "Call for Papers",
+      "source": "IEEE Communications Magazine CFP",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-ieee-comsoc-magazine-quantum-enabled-ai-for-future-communica",
+      "title": "Quantum-Enabled AI for Future Communications",
+      "deadline": "2026-05-31T23:59:59",
+      "dateRange": "2026-05-31",
+      "location": "IEEE ComSoc",
+      "isOnline": true,
+      "tags": [
+        "IEEE",
+        "ComSoc"
+      ],
+      "url": "https://www.comsoc.org/publications/magazines/ieee-communications-magazine/cfp/quantum-enabled-ai-future-communications",
+      "status": "upcoming",
+      "description": "Fourth Quarter 2026 31 May 2026",
+      "stage": "Call for Papers",
+      "source": "IEEE Communications Magazine CFP",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-artificial-intelligence-and-machine-learni",
+      "title": "Artificial Intelligence and Machine Learning for Critical Infrastructure Protection and Homeland Security",
+      "deadline": "2026-06-01T23:59:59",
+      "dateRange": "2026-06-01",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/333161/artificial-intelligence-and-machine-learning-for-critical-infrastructure-protection-and-homeland-security",
+      "status": "upcoming",
+      "description": "Guest editors: Selcuk Uluagac, Rebecca Montanari, Francesco Flammini, Carlo Mazzocca  •_Impact Factor 5.3_•_CiteScore 10.8_ Submission deadline:**01 June 2026**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-sustainable-digital-research-infrastructur",
+      "title": "Sustainable Digital Research Infrastructures for the Edge-to-Cloud Continuum",
+      "deadline": "2026-06-06T23:59:59",
+      "dateRange": "2026-06-06",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/333080/sustainable-digital-research-infrastructures-for-the-edge-to-cloud-continuum",
+      "status": "upcoming",
+      "description": "Guest editors: Raffaele R. Bruno, Kostas Chounos, Shashikant Ilager  •_Impact Factor 4.3_•_CiteScore 11.5_ Submission deadline:**06 June 2026**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-call-for-papers-for-the-exercise-as-medici",
+      "title": "Call for papers for The Exercise as Medicine in Chronic Disease 2026 Symposium",
+      "deadline": "2026-06-08T23:59:59",
+      "dateRange": "2026-06-08",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/333183/call-for-papers-for-the-exercise-as-medicine-in-chronic-disease-2026-symposium",
+      "status": "upcoming",
+      "description": " •_Impact Factor 10.3_•_CiteScore 19.9_ Submission deadline:**08 June 2026**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-ieee-sps-special-issues-ieee-jstsp-special-issue-on-autonomo",
+      "title": "IEEE JSTSP Special Issue on Autonomous and Evolutive Optimization in Networked AI",
+      "deadline": "2026-06-15T23:59:59",
+      "dateRange": "2026-06-15",
+      "location": "IEEE Signal Processing Society",
+      "isOnline": true,
+      "tags": [
+        "IEEE",
+        "Signal Processing"
+      ],
+      "url": "https://signalprocessingsociety.org/events/ieee-jstsp-special-issue-autonomous-and-evolutive-optimization-networked-ai",
+      "status": "upcoming",
+      "description": "Submission deadline: 15 June 2026 Publication date: January 2027",
+      "stage": "Special Issue",
+      "source": "IEEE SPS Special Issue Deadlines",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-2",
+      "title": "Metal-Air Batteries: Advances in Materials, Design, and Practical Deployment",
+      "deadline": "2026-06-20T23:59:59",
+      "dateRange": "2026-06-20",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Metal-Air Batteries",
+        "Materials"
+      ],
+      "url": "https://www.sciencedirect.com/browse/calls-for-papers",
+      "status": "upcoming",
+      "description": "金属-空气电池材料进展、设计优化与实际应用专题。",
+      "stage": "Special Issue",
+      "source": "Elsevier Chinese CFP seed",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-1",
+      "title": "Future Batteries for Sustainability",
+      "deadline": "2026-06-30T23:59:59",
+      "dateRange": "2026-06-30",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Battery",
+        "Sustainability",
+        "ISSN 2950-2640"
+      ],
+      "url": "https://www.sciencedirect.com/browse/calls-for-papers",
+      "status": "upcoming",
+      "description": "电池可持续发展专题。",
+      "stage": "Special Issue",
+      "source": "Elsevier Chinese CFP seed",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-3",
+      "title": "Sustainability and Circular Economy in Electric Energy Storage",
+      "deadline": "2026-06-30T23:59:59",
+      "dateRange": "2026-06-30",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Energy Storage",
+        "Circular Economy"
+      ],
+      "url": "https://www.sciencedirect.com/browse/calls-for-papers",
+      "status": "upcoming",
+      "description": "电能存储设备可持续发展及循环经济专题。",
+      "stage": "Special Issue",
+      "source": "Elsevier Chinese CFP seed",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-4",
+      "title": "Advances in Sustainable Materials and Interfaces for Emerging Solar Cells",
+      "deadline": "2026-06-30T23:59:59",
+      "dateRange": "2026-06-30",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Solar Cells",
+        "Materials",
+        "ISSN 2950-4775"
+      ],
+      "url": "https://www.sciencedirect.com/browse/calls-for-papers",
+      "status": "upcoming",
+      "description": "新兴太阳能电池可持续材料与界面进展专题。",
+      "stage": "Special Issue",
+      "source": "Elsevier Chinese CFP seed",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-5",
+      "title": "Removal of Micropollutants",
+      "deadline": "2026-06-30T23:59:59",
+      "dateRange": "2026-06-30",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Water Treatment",
+        "Micropollutants"
+      ],
+      "url": "https://www.sciencedirect.com/browse/calls-for-papers",
+      "status": "upcoming",
+      "description": "微污染物去除专题，可在两个期刊中选择投稿。",
+      "stage": "VSI: ReMP",
+      "source": "Elsevier Chinese CFP seed",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-6",
+      "title": "Thermal and Fire Safety of Renewable Energy and Storage Systems",
+      "deadline": "2026-06-30T23:59:59",
+      "dateRange": "2026-06-30",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Thermal Safety",
+        "Renewable Energy"
+      ],
+      "url": "https://www.sciencedirect.com/browse/calls-for-papers",
+      "status": "upcoming",
+      "description": "可再生能源及储能系统热安全与防火研究专题。",
+      "stage": "Special Issue",
+      "source": "Elsevier Chinese CFP seed",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-7",
+      "title": "AI-Driven Systematic Pathways to Green Transformation",
+      "deadline": "2026-06-30T23:59:59",
+      "dateRange": "2026-06-30",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "AI",
+        "Green Transformation"
+      ],
+      "url": "https://www.sciencedirect.com/browse/calls-for-papers",
+      "status": "upcoming",
+      "description": "人工智能驱动下的绿色转型系统路径专题。",
+      "stage": "Special Issue",
+      "source": "Elsevier Chinese CFP seed",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-8",
+      "title": "Heterogeneously Integrated Photonic Chips",
+      "deadline": "2026-06-30T23:59:59",
+      "dateRange": "2026-06-30",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Photonics",
+        "Chip",
+        "ISSN 2772-2724"
+      ],
+      "url": "https://www.sciencedirect.com/browse/calls-for-papers",
+      "status": "upcoming",
+      "description": "异质集成光子芯片专题。",
+      "stage": "Special Issue",
+      "source": "Elsevier Chinese CFP seed",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-9",
+      "title": "Digital Twin and Scenario-Based Assessments for Sustainable Energy Technologies",
+      "deadline": "2026-06-30T23:59:59",
+      "dateRange": "2026-06-30",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Digital Twin",
+        "Sustainable Energy"
+      ],
+      "url": "https://www.sciencedirect.com/browse/calls-for-papers",
+      "status": "upcoming",
+      "description": "面向可持续能源技术的数字孪生与情景评估专题。",
+      "stage": "Special Issue",
+      "source": "Elsevier Chinese CFP seed",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-10",
+      "title": "Photo(Electro)catalytic Approaches for Clean Energy and Environment",
+      "deadline": "2026-06-30T23:59:59",
+      "dateRange": "2026-06-30",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Catalysis",
+        "Clean Energy"
+      ],
+      "url": "https://www.sciencedirect.com/browse/calls-for-papers",
+      "status": "upcoming",
+      "description": "光/电催化技术在清洁能源与环境领域应用专题。",
+      "stage": "Special Issue",
+      "source": "Elsevier Chinese CFP seed",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-special-issue-24th-european-transport-cong",
+      "title": "Special Issue: 24th European Transport Congress, Vienna 2026",
+      "deadline": "2026-06-30T23:59:59",
+      "dateRange": "2026-06-30",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/333035/special-issue-24th-european-transport-congress-vienna-2026",
+      "status": "upcoming",
+      "description": "Guest editors: Bingyu Zhao, Guenter Emberger, Sebastian Belz, Takeru Shibayama, Jonas De Vos  Submission deadline:**30 June 2026**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-selected-and-extended-papers-of-the-6th-in",
+      "title": "Selected and extended papers of the 6th International Workshop on Dynamic Logic: New Trends and Applications (DaLí 2025)",
+      "deadline": "2026-06-30T23:59:59",
+      "dateRange": "2026-06-30",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/332989/selected-and-extended-papers-of-the-6th-international-workshop-on-dynamic-logic-new-trends-and-applications-dali-2025",
+      "status": "upcoming",
+      "description": "Guest editors: Alexandre A. Madeira, Jing Wang  •_Impact Factor 1.2_•_CiteScore 2.8_ Submission deadline:**30 June 2026**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-special-section-on-extended-reality-for-in",
+      "title": "Special Section on eXtended Reality for Industrial and Occupational Supports (XRIOS)",
+      "deadline": "2026-07-01T23:59:59",
+      "dateRange": "2026-07-01",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/284319/special-section-on-extended-reality-for-industrial-and-occupational-supports-xrios",
+      "status": "upcoming",
+      "description": "Guest editors: Hyungil Kim, Isaac Cho, Myounghoon Jeon, Heejin Jeong, Kangsoo Kim  •_Impact Factor 2.8_•_CiteScore 6.1_ Submission deadline:**01 July 2026**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-review-of-precision-electroweak-measuremen",
+      "title": "Review of Precision Electroweak Measurements, Theory and Phenomenology",
+      "deadline": "2026-07-01T23:59:59",
+      "dateRange": "2026-07-01",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/332974/review-of-precision-electroweak-measurements-theory-and-phenomenology",
+      "status": "upcoming",
+      "description": "Guest editors: Giulia Zanderighi  •_Impact Factor 29.5_•_CiteScore 49.9_ Submission deadline:**01 July 2026**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-resilience-in-the-age-of-permacrisis-2026-",
+      "title": "Resilience in the Age of Permacrisis",
+      "deadline": "2026-07-15T23:59:59",
+      "dateRange": "2026-07-15",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/333219/resilience-in-the-age-of-permacrisis",
+      "status": "upcoming",
+      "description": "Guest editor: Carol M Connell  •_Impact Factor 2.5_•_CiteScore 6.9_ Submission deadline:**15 July 2026**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-nuclear-theory-in-the-supercomputing-era-2",
+      "title": "Nuclear Theory in the Supercomputing Era-2026",
+      "deadline": "2026-07-15T23:59:59",
+      "dateRange": "2026-07-15",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/333144/nuclear-theory-in-the-supercomputing-era-2026",
+      "status": "upcoming",
+      "description": "Guest editors: Praveen Chandra Srivastava, James Vary, Shirokov M Andrey, Takaharu Otsuka, Venkata Krishna Brahmam Kota  Submission deadline:**15 July 2026**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-regional-state-of-wildfires-reviews-of-the",
+      "title": "Regional State of Wildfires: Reviews of the 2025-26 Fire Season",
+      "deadline": "2026-07-15T23:59:59",
+      "dateRange": "2026-07-15",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/333076/regional-state-of-wildfires-reviews-of-the-2025-26-fire-season",
+      "status": "upcoming",
+      "description": "Guest editor: David Bowman  Submission deadline:**15 July 2026**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-ieee-sps-special-issues-ieee-tmm-special-section-on-multimod",
+      "title": "IEEE TMM Special Section on Multimodal Video Compression and Reconstruction: Theory, Algorithms, and Applications",
+      "deadline": "2026-07-30T23:59:59",
+      "dateRange": "2026-07-30",
+      "location": "IEEE Signal Processing Society",
+      "isOnline": true,
+      "tags": [
+        "IEEE",
+        "Signal Processing"
+      ],
+      "url": "https://signalprocessingsociety.org/events/ieee-tmm-special-section-multimodal-video-compression-and-reconstruction-theory-algorithms",
+      "status": "upcoming",
+      "description": "Submission deadline: 30-July-2026 Publication date (tentative): Q1, 2027",
+      "stage": "Special Issue",
+      "source": "IEEE SPS Special Issue Deadlines",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-esg-and-sri-investment-challenges-2026-07-",
+      "title": "ESG and SRI Investment Challenges",
+      "deadline": "2026-07-31T23:59:59",
+      "dateRange": "2026-07-31",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/333134/esg-and-sri-investment-challenges",
+      "status": "upcoming",
+      "description": "Guest editors: Andrew Urquhart, Ailie Charteris  •_Impact Factor 5.6_•_CiteScore 7.3_ Submission deadline:**31 July 2026**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-stress-and-alzheimer-s-disease-2026-07-31",
+      "title": "Stress and Alzheimer's disease",
+      "deadline": "2026-07-31T23:59:59",
+      "dateRange": "2026-07-31",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/312225/stress-and-alzheimers-disease",
+      "status": "upcoming",
+      "description": "Guest editors: Pranav Vemula, Reshma Bhagat & Carla Yuede  •_Impact Factor 2.5_•_CiteScore 6.1_ Submission deadline:**31 July 2026**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-ieee-sps-special-issues-ieee-journal-on-selected-topics-in-s",
+      "title": "IEEE Journal on Selected Topics in Signal Processing Signal Processing for Trustworthiness in 6G Wireless Ecosystems",
+      "deadline": "2026-07-31T23:59:59",
+      "dateRange": "2026-07-31",
+      "location": "IEEE Signal Processing Society",
+      "isOnline": true,
+      "tags": [
+        "IEEE",
+        "Signal Processing"
+      ],
+      "url": "https://signalprocessingsociety.org/events/ieee-journal-selected-topics-signal-processing-signal-processing-trustworthiness-6g-wireless",
+      "status": "upcoming",
+      "description": "Submission deadline: 31 July 2026 Publication date: March 2027",
+      "stage": "Special Issue",
+      "source": "IEEE SPS Special Issue Deadlines",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-technological-advances-and-considerations-",
+      "title": "Technological Advances and Considerations for the Valorisation of Seafood Wastes",
+      "deadline": "2026-08-01T23:59:59",
+      "dateRange": "2026-08-01",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/333293/technological-advances-and-considerations-for-the-valorisation-of-seafood-wastes",
+      "status": "upcoming",
+      "description": "Guest editors: Ehiaze Ehimen; Vignesh Kumaravel; Anna Masek; Tannaz Alizadeh Ashrafi  •_Impact Factor 7.9_•_CiteScore 7.3_ Submission deadline:**01 August 2026**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-migration-within-the-current-global-transf",
+      "title": "Migration within the Current Global Transformations: Aspirations, Constraints, and Unequal Choices",
+      "deadline": "2026-08-01T23:59:59",
+      "dateRange": "2026-08-01",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/333204/migration-within-the-current-global-transformations-aspirations-constraints-and-unequal-choices",
+      "status": "upcoming",
+      "description": "Guest editors: Loukia-Maria Fratsea, PhD, Alin Croitoru, PhD  Submission deadline:**01 August 2026**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-ieee-sps-special-issues-ieee-tmm-special-section-on-generati",
+      "title": "IEEE TMM Special Section on Generative AI for World Simulations and Communications",
+      "deadline": "2026-08-01T23:59:59",
+      "dateRange": "2026-08-01",
+      "location": "IEEE Signal Processing Society",
+      "isOnline": true,
+      "tags": [
+        "IEEE",
+        "Signal Processing"
+      ],
+      "url": "https://signalprocessingsociety.org/events/ieee-tmm-special-section-generative-ai-world-simulations-and-communications",
+      "status": "upcoming",
+      "description": "Submission deadline: 01-August-2026 Publication date (tentative): Q1, 2027",
+      "stage": "Special Issue",
+      "source": "IEEE SPS Special Issue Deadlines",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-instabilities-and-turbulent-mixing-2026-08",
+      "title": "Instabilities and Turbulent Mixing",
+      "deadline": "2026-08-08T23:59:59",
+      "dateRange": "2026-08-08",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/333014/instabilities-and-turbulent-mixing",
+      "status": "upcoming",
+      "description": "Guest editors: Ye Zhou, Daniel Israel, Eric Johnsen  •_Impact Factor 2.9_•_CiteScore 4.6_ Submission deadline:**08 August 2026**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-catalysis-today-2026-08-31",
+      "title": "Catalysis Today",
+      "deadline": "2026-08-31T23:59:59",
+      "dateRange": "2026-08-31",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/journal/catalysis-today",
+      "status": "upcoming",
+      "description": "•_Impact Factor 5.3_•_CiteScore 11.2_ Submission deadline:**31 August 2026**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-journal-of-co2-utilization-2026-08-31",
+      "title": "Journal of CO2 Utilization",
+      "deadline": "2026-08-31T23:59:59",
+      "dateRange": "2026-08-31",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/journal/journal-of-co2-utilization",
+      "status": "upcoming",
+      "description": "•_Impact Factor 8.4_•_CiteScore 15.2_ Submission deadline:**31 August 2026**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-quaternary-seafloor-geology-investigating-",
+      "title": "Quaternary seafloor geology: investigating environmental forcing factors and Earth ‘sphere interaction in the Mediterranean Sea",
+      "deadline": "2026-08-31T23:59:59",
+      "dateRange": "2026-08-31",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/333041/quaternary-seafloor-geology-investigating-environmental-forcing-factors-and-earth-sphere-interaction-in-the-mediterranean-sea",
+      "status": "upcoming",
+      "description": "Guest editors: Daniele Spatola, Rossella Di Mento, Elena Scacchia and Fabiano Gamberi  •_Impact Factor 1.8_•_CiteScore 5.9_ Submission deadline:**31 August 2026**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-call-for-paper-for-special-issue-on-intell",
+      "title": "Call for Paper for Special Issue on Intelligent Operation and Maintenance for High-Speed Railways",
+      "deadline": "2026-09-10T23:59:59",
+      "dateRange": "2026-09-10",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/333154/call-for-paper-for-special-issue-on-intelligent-operation-and-maintenance-for-high-speed-railways",
+      "status": "upcoming",
+      "description": " •_CiteScore 1.7_ Submission deadline:**10 September 2026**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-patient-reported-outcomes-where-it-counts-",
+      "title": "Patient Reported Outcomes Where It Counts: Implementation and Impact in Clinical Care",
+      "deadline": "2026-09-14T23:59:59",
+      "dateRange": "2026-09-14",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/333075/patient-reported-outcomes-where-it-counts-implementation-and-impact-in-clinical-care",
+      "status": "upcoming",
+      "description": "Guest editors: Judith F. Baumhauer & Jeffery R. Houck  Submission deadline:**14 September 2026**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-methodological-advances-in-the-measurement",
+      "title": "Methodological Advances in the Measurement of Patient-Reported Outcomes",
+      "deadline": "2026-09-14T23:59:59",
+      "dateRange": "2026-09-14",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/333074/methodological-advances-in-the-measurement-of-patient-reported-outcomes",
+      "status": "upcoming",
+      "description": "Guest editors: Felix Fischer & Xiaodan Tang  Submission deadline:**14 September 2026**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-60-years-of-fragrance-safety-science-and-i",
+      "title": "60 Years of Fragrance Safety Science and Innovation at RIFM",
+      "deadline": "2026-09-30T23:59:59",
+      "dateRange": "2026-09-30",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/333244/60-years-of-fragrance-safety-science-and-innovation-at-rifm",
+      "status": "upcoming",
+      "description": "Guest editors: Pamela Lein and Kamil Jurowski  •_Impact Factor 3.5_•_CiteScore 9.9_ Submission deadline:**30 September 2026**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-intelligent-reservoir-characterisation-for",
+      "title": "Intelligent Reservoir Characterisation for Complex Carbonates",
+      "deadline": "2026-09-30T23:59:59",
+      "dateRange": "2026-09-30",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/333187/intelligent-reservoir-characterisation-for-complex-carbonates",
+      "status": "upcoming",
+      "description": " •_CiteScore 3.1_ Submission deadline:**30 September 2026**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-proceedings-of-the-recovery-of-biological-",
+      "title": "Proceedings of the Recovery of Biological Products XXI Conference",
+      "deadline": "2026-09-30T23:59:59",
+      "dateRange": "2026-09-30",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/333118/proceedings-of-the-recovery-of-biological-products-xxi-conference",
+      "status": "upcoming",
+      "description": "Guest editors: Cristiana Boi, Todd Przybycien, Hanne Bak, Sanchayita Ghose  •_Impact Factor 9.0_•_CiteScore 15.1_ Submission deadline:**30 September 2026**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-innovative-nature-based-solutions-2026-09-",
+      "title": "Innovative nature-based solutions",
+      "deadline": "2026-09-30T23:59:59",
+      "dateRange": "2026-09-30",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/333019/innovative-nature-based-solutions",
+      "status": "upcoming",
+      "description": "Guest editors: Professor Magdalena Gajewska, Assistant Professor Alexandros Stefanakis, Associate Professor Katarzyna Kołecka and Associate professor Diederik Rousseau  •_Impact Factor 4.1_•_CiteScore 8.6_ Submission dea",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-7th-international-conference-on-applied-su",
+      "title": "7th International Conference on Applied Surface Science (VSI: ICASS 2026)",
+      "deadline": "2026-10-01T23:59:59",
+      "dateRange": "2026-10-01",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/333285/7th-international-conference-on-applied-surface-science-vsi-icass-2026",
+      "status": "upcoming",
+      "description": "Guest editors: Prof. Dr. Henrik Rudolph, Prof. Dr. WeiXin Huang, Prof. Dr. Andrew Teplyakov, Prof. Dr. Byungchan Han, Prof. Dr. Maria Dinescu  •_Impact Factor 6.9_•_CiteScore 13.4_ Submission deadline:**01 October 2026**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-b-vitamins-and-one-carbon-metabolism-2026-",
+      "title": "B-Vitamins and One-Carbon Metabolism",
+      "deadline": "2026-10-01T23:59:59",
+      "dateRange": "2026-10-01",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/333208/b-vitamins-and-one-carbon-metabolism",
+      "status": "upcoming",
+      "description": "Guest editors: Julia L. Finkelstein & Jean-Louis Guéant  •_Impact Factor 3.8_•_CiteScore 6.9_ Submission deadline:**01 October 2026**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-current-perspectives-and-best-practices-fo",
+      "title": "Current perspectives and best practices for quantifying biomechanics with wearable inertial sensors",
+      "deadline": "2026-10-01T23:59:59",
+      "dateRange": "2026-10-01",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/333138/current-perspectives-and-best-practices-for-quantifying-biomechanics-with-wearable-inertial-sensors",
+      "status": "upcoming",
+      "description": "Guest editors: Dr. Jocelyn Hafer, Dr. Stephen Cain  •_Impact Factor 2.4_•_CiteScore 4.9_ Submission deadline:**01 October 2026**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-recent-advancements-in-lightning-physics-m",
+      "title": "Recent Advancements in Lightning Physics, Modelling, Protection, and Safety",
+      "deadline": "2026-10-01T23:59:59",
+      "dateRange": "2026-10-01",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/333089/recent-advancements-in-lightning-physics-modelling-protection-and-safety",
+      "status": "upcoming",
+      "description": "Guest editors: Pantelis Mikropoulos; Thomas Tsovilis; Alexandre Piantini  •_Impact Factor 4.2_•_CiteScore 8.2_ Submission deadline:**01 October 2026**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-nuclear-science-user-facilities-20-years-o",
+      "title": "Nuclear Science User Facilities: 20 Years of Enabling Innovation in Nuclear Materials",
+      "deadline": "2026-10-01T23:59:59",
+      "dateRange": "2026-10-01",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/333032/nuclear-science-user-facilities-20-years-of-enabling-innovation-in-nuclear-materials",
+      "status": "upcoming",
+      "description": "Guest editors: Mukesh Bachhav, Maria Okuniewski, Stephen Taller  •_Impact Factor 3.2_•_CiteScore 6.2_ Submission deadline:**01 October 2026**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-advanced-materials-for-next-generation-ene",
+      "title": "Advanced Materials for Next-Generation Energy Storage and Conversion Technologies",
+      "deadline": "2026-10-11T23:59:59",
+      "dateRange": "2026-10-11",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/333023/advanced-materials-for-next-generation-energy-storage-and-conversion-technologies",
+      "status": "upcoming",
+      "description": "Guest editors: Yu Zhang; Zhiheng Lyu; Ming Zhao  •_Impact Factor 4.6_•_CiteScore 7.5_ Submission deadline:**11 October 2026**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-special-issue-on-highlights-from-eurova-20",
+      "title": "Special Issue on Highlights from EuroVA 2026",
+      "deadline": "2026-10-15T23:59:59",
+      "dateRange": "2026-10-15",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/333225/special-issue-on-highlights-from-eurova-2026",
+      "status": "upcoming",
+      "description": "Guest editors: Daniel Archambault; Fernando Paulovich  •_Impact Factor 2.8_•_CiteScore 6.1_ Submission deadline:**15 October 2026**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-agentic-ai-and-advanced-analytics-for-resi",
+      "title": "Agentic AI and Advanced Analytics for Resilient and Sustainable Power Systems",
+      "deadline": "2026-10-15T23:59:59",
+      "dateRange": "2026-10-15",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/333042/agentic-ai-and-advanced-analytics-for-resilient-and-sustainable-power-systems",
+      "status": "upcoming",
+      "description": "Guest editors: Krishna Kumar, Hady Habib Fayek, Sivakumar Nadarajan, Nitin Singh  •_Impact Factor 7.0_•_CiteScore 17.3_ Submission deadline:**15 October 2026**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-urban-ecological-space-for-climate-adaptat",
+      "title": "Urban Ecological Space for Climate Adaptation and Mitigation",
+      "deadline": "2026-10-15T23:59:59",
+      "dateRange": "2026-10-15",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/332983/urban-ecological-space-for-climate-adaptation-and-mitigation",
+      "status": "upcoming",
+      "description": "Guest editors: Carla Sofia Santos Ferreira, Cong Cong, Tomás de Figueiredo, Rares Halbac-Cotoara-Zamfir, Zahra Kalantari  •_Impact Factor 8.0_•_CiteScore 14.7_ Submission deadline:**15 October 2026**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-redox-and-metabolism-in-cancer-drivers-of-",
+      "title": "Redox and Metabolism in Cancer: Drivers of Adaptation and Therapeutic Response",
+      "deadline": "2026-10-16T23:59:59",
+      "dateRange": "2026-10-16",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/333018/redox-and-metabolism-in-cancer-drivers-of-adaptation-and-therapeutic-response",
+      "status": "upcoming",
+      "description": "Guest editors: Giuseppe Filomeni and Chiara Pecorari  •_Impact Factor 11.9_•_CiteScore 19.5_ Submission deadline:**16 October 2026**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-advanced-materials-for-next-generation-rec",
+      "title": "Advanced Materials for Next-Generation Rechargeable Batteries and Electrocatalysis",
+      "deadline": "2026-10-31T23:59:59",
+      "dateRange": "2026-10-31",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/333337/advanced-materials-for-next-generation-rechargeable-batteries-and-electrocatalysis",
+      "status": "upcoming",
+      "description": "Guest editors: Yaping Chen; Xiaobo Zheng; Mengwei Yuan; Song Chen; Liu Lin  •_Impact Factor 4.6_•_CiteScore 7.5_ Submission deadline:**31 October 2026**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-tracking-the-quaternary-vertebrate-footpri",
+      "title": "Tracking the Quaternary: Vertebrate Footprints, Paleoenvironments and Processes",
+      "deadline": "2026-10-31T23:59:59",
+      "dateRange": "2026-10-31",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/333215/tracking-the-quaternary-vertebrate-footprints-paleoenvironments-and-processes",
+      "status": "upcoming",
+      "description": "Guest editors: Ignacio Díaz Martínez, Jérémy Duveau and Kevin G. Hatala  •_Impact Factor 2.2_•_CiteScore 3.8_ Submission deadline:**31 October 2026**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-advances-in-artificial-intelligence-for-en",
+      "title": "Advances in Artificial Intelligence for Energy Systems and Subsurface Engineering",
+      "deadline": "2026-10-31T23:59:59",
+      "dateRange": "2026-10-31",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/333214/advances-in-artificial-intelligence-for-energy-systems-and-subsurface-engineering",
+      "status": "upcoming",
+      "description": " •_Impact Factor 3.6_•_CiteScore 6.8_ Submission deadline:**31 October 2026**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-income-and-wealth-distribution-labor-marke",
+      "title": "Income and Wealth Distribution, Labor Market, and Subjective Well-being in China – in Honor of Professor John Knight",
+      "deadline": "2026-10-31T23:59:59",
+      "dateRange": "2026-10-31",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/333216/income-and-wealth-distribution-labor-market-and-subjective-well-being-in-china-in-honor-of-professor-john-knight",
+      "status": "upcoming",
+      "description": "Guest editors: Sai Ding, Ximing Yue, Lina Song, Shi Li  •_Impact Factor 5.5_•_CiteScore 8.2_ Submission deadline:**31 October 2026**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-heavy-metal-contamination-in-soils-and-veg",
+      "title": "Heavy Metal Contamination in Soils and Vegetables: Ecological and Health Risks assessment, and Sustainable Mitigation",
+      "deadline": "2026-10-31T23:59:59",
+      "dateRange": "2026-10-31",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/333180/heavy-metal-contamination-in-soils-and-vegetables-ecological-and-health-risks-assessment-and-sustainable-mitigation",
+      "status": "upcoming",
+      "description": "Guest editors: Vinod Kumar, Renato Somma and Maja Radziemska  •_Impact Factor 4.6_•_CiteScore 7.2_ Submission deadline:**31 October 2026**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-complementary-therapies-and-approaches-for",
+      "title": "Complementary Therapies and Approaches for Health Promotion and Treatment",
+      "deadline": "2026-10-31T23:59:59",
+      "dateRange": "2026-10-31",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/333176/complementary-therapies-and-approaches-for-health-promotion-and-treatment",
+      "status": "upcoming",
+      "description": "Guest editors: Prof Liye Zou, Dr Yanjie Zhang, Dr Lin Luo, Dr Qian Yu, Dr Yanxia Chen, Dr Yuke Teng, Dr Xinxing Li  •_Impact Factor 3.5_•_CiteScore 7.7_ Submission deadline:**31 October 2026**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-the-future-of-bioelectronics-for-organoid-",
+      "title": "The Future of Bioelectronics for Organoid Engineering and Regenerative Medicine",
+      "deadline": "2026-10-31T23:59:59",
+      "dateRange": "2026-10-31",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/333155/the-future-of-bioelectronics-for-organoid-engineering-and-regenerative-medicine",
+      "status": "upcoming",
+      "description": "Guest editors: Luke P. Lee; Xiao Yang; Deok-Ho Kim; Sei Kwang Hahn; Man Bock Gu  •_Impact Factor 10.5_•_CiteScore 20.9_ Submission deadline:**31 October 2026**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-recent-advances-in-surface-enhanced-raman-",
+      "title": "Recent Advances in Surface-enhanced Raman Spectroscopy (SERS) in Diagnostics and Nanomedicine",
+      "deadline": "2026-10-31T23:59:59",
+      "dateRange": "2026-10-31",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/332984/recent-advances-in-surface-enhanced-raman-spectroscopy-sers-in-diagnostics-and-nanomedicine",
+      "status": "upcoming",
+      "description": "Guest editors: Kaustabh Kumar Maiti; U. S Dinish  •_Impact Factor 3.7_•_CiteScore 7.2_ Submission deadline:**31 October 2026**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-bayesian-workflow-for-geotechnical-enginee",
+      "title": "Bayesian workflow for geotechnical engineering data analysis",
+      "deadline": "2026-10-31T23:59:59",
+      "dateRange": "2026-10-31",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/332985/bayesian-workflow-for-geotechnical-engineering-data-analysis",
+      "status": "upcoming",
+      "description": "Guest editors: Nezam Bozorgzadeh, Yu Feng  •_Impact Factor 6.2_•_CiteScore 9.0_ Submission deadline:**31 October 2026**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-jnnfm-at-50-2026-11-01",
+      "title": "JNNFM at 50",
+      "deadline": "2026-11-01T23:59:59",
+      "dateRange": "2026-11-01",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/333289/jnnfm-at-50",
+      "status": "upcoming",
+      "description": "Guest editors: Rob Poole, Jonathan Rothstein  •_Impact Factor 2.8_•_CiteScore 5.3_ Submission deadline:**01 November 2026**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-applied-studies-in-innovative-learning-and",
+      "title": "Applied Studies in Innovative Learning and Teaching",
+      "deadline": "2026-11-01T23:59:59",
+      "dateRange": "2026-11-01",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/333266/applied-studies-in-innovative-learning-and-teaching",
+      "status": "upcoming",
+      "description": "Guest editors: Gert Rijlaarsdam PhD., Jingxian Wang, PhD., Paula López, PhD., Per Henning Uppstad, PhD., Valeri Murnikov, PhD.  Submission deadline:**01 November 2026**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-microbiology-and-climate-change-2026-11-01",
+      "title": "Microbiology and climate change",
+      "deadline": "2026-11-01T23:59:59",
+      "dateRange": "2026-11-01",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/333191/microbiology-and-climate-change",
+      "status": "upcoming",
+      "description": "Guest editors: Celia Garcia and Jason A Tetro  •_Impact Factor 5.8_•_CiteScore 10.0_ Submission deadline:**01 November 2026**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-30-years-of-apmr-2026-11-01",
+      "title": "30 Years of APMR",
+      "deadline": "2026-11-01T23:59:59",
+      "dateRange": "2026-11-01",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/333136/30-years-of-apmr",
+      "status": "upcoming",
+      "description": "This Special Issue welcomes high-quality review papers that advance management knowledge in regional or global contexts.  •_Impact Factor 5.6_•_CiteScore 11.4_ Submission deadline:**01 November 2026**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-steel-and-steel-concrete-composite-structu",
+      "title": "Steel and steel-concrete composite structures in extreme cold-region environments",
+      "deadline": "2026-11-07T23:59:59",
+      "dateRange": "2026-11-07",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/333209/steel-and-steel-concrete-composite-structures-in-extreme-cold-region-environments",
+      "status": "upcoming",
+      "description": "Guest editors: Jia-Bao Yan, Xudong Qian, Amin Heidarpour  •_Impact Factor 4.3_•_CiteScore 7.8_ Submission deadline:**07 November 2026**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-special-issue-on-reconfigurable-transition",
+      "title": "Special Issue on Reconfigurable Transition Systems: Semantics, Logics and Applications",
+      "deadline": "2026-11-30T23:59:59",
+      "dateRange": "2026-11-30",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/333325/special-issue-on-reconfigurable-transition-systems-semantics-logics-and-applications",
+      "status": "upcoming",
+      "description": " •_Impact Factor 1.2_•_CiteScore 2.8_ Submission deadline:**30 November 2026**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-jlamp-reacts-2025-2026-11-30",
+      "title": "JLAMP_ReacTS 2025",
+      "deadline": "2026-11-30T23:59:59",
+      "dateRange": "2026-11-30",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/333323/jlamp_reacts-2025",
+      "status": "upcoming",
+      "description": "Guest editors: José Proença, Umberto Rivieccio  •_Impact Factor 1.2_•_CiteScore 2.8_ Submission deadline:**30 November 2026**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-special-issue-on-embodied-medical-robotics",
+      "title": "Special Issue on Embodied Medical Robotics: From Mechanical Intelligence to Multimodal Cognitive Autonomy",
+      "deadline": "2026-11-30T23:59:59",
+      "dateRange": "2026-11-30",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/333300/special-issue-on-embodied-medical-robotics-from-mechanical-intelligence-to-multimodal-cognitive-autonomy",
+      "status": "upcoming",
+      "description": " •_Impact Factor 5.4_•_CiteScore 7.3_ Submission deadline:**30 November 2026**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-materials-technologies-for-controlling-wet",
+      "title": "Materials Technologies for Controlling Wetting, Icing and Liquid–Surface Interactions",
+      "deadline": "2026-11-30T23:59:59",
+      "dateRange": "2026-11-30",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/333288/materials-technologies-for-controlling-wetting-icing-and-liquid-surface-interactions",
+      "status": "upcoming",
+      "description": "Guest editors: Dr. Filomena Piscitelli, Dr. Bartlomiej Przybyszewski, Dr. Julio Mora Nogués, Dr. Mariachiara Gallia  •_Impact Factor 8.7_•_CiteScore 15.3_ Submission deadline:**30 November 2026**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-bridging-data-driven-innovation-and-sustai",
+      "title": "Bridging Data-Driven Innovation and Sustainable Practices",
+      "deadline": "2026-11-30T23:59:59",
+      "dateRange": "2026-11-30",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/333290/bridging-data-driven-innovation-and-sustainable-practices",
+      "status": "upcoming",
+      "description": "Guest editors: Taha Arbaoui, Khaled Hadj-Hamou, Malek Masmoudi  •_Impact Factor 6.5_•_CiteScore 13.2_ Submission deadline:**30 November 2026**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-imaging-for-patient-selection-in-acute-isc",
+      "title": "Imaging for Patient Selection in Acute Ischemic Stroke",
+      "deadline": "2026-11-30T23:59:59",
+      "dateRange": "2026-11-30",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/333193/imaging-for-patient-selection-in-acute-ischemic-stroke",
+      "status": "upcoming",
+      "description": "Guest editors: Yunyun Xiong and Marc Fisher  Submission deadline:**30 November 2026**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-a-perspective-on-biomarkers-of-aging-from-",
+      "title": "A perspective on biomarkers of aging: from molecules to functional and cognitive capacity",
+      "deadline": "2026-11-30T23:59:59",
+      "dateRange": "2026-11-30",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/333162/a-perspective-on-biomarkers-of-aging-from-molecules-to-functional-and-cognitive-capacity",
+      "status": "upcoming",
+      "description": "Guest editor: Dr. Sara Gloria Aguilar-Navarro  •_Impact Factor 1.4_•_CiteScore 3.0_ Submission deadline:**30 November 2026**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-enabling-sustainable-chemical-processes-th",
+      "title": "Enabling Sustainable Chemical Processes through Green Solvents",
+      "deadline": "2026-11-30T23:59:59",
+      "dateRange": "2026-11-30",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/333069/enabling-sustainable-chemical-processes-through-green-solvents",
+      "status": "upcoming",
+      "description": "Guest editors: Vesna Najdanovic, Stephen Worrall, Ana Vital Morgado Nunes  •_CiteScore 17.1_ Submission deadline:**30 November 2026**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-illuminating-the-future-advances-in-photob",
+      "title": "Illuminating the Future: Advances in Photobiotechnology for a Sustainable Bioeconomy",
+      "deadline": "2026-11-30T23:59:59",
+      "dateRange": "2026-11-30",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/332986/illuminating-the-future-advances-in-photobiotechnology-for-a-sustainable-bioeconomy",
+      "status": "upcoming",
+      "description": "Guest editors: Antonio Luiz B. Pinheiro; Janusz M. Dabrowski; Pedro Jorge Louro Crugeira  •_Impact Factor 3.7_•_CiteScore 7.2_ Submission deadline:**30 November 2026**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-organized-films-and-functional-materials-a",
+      "title": "Organized Films and Functional Materials: Advances in Structure, Interfaces, and Applications",
+      "deadline": "2026-12-01T23:59:59",
+      "dateRange": "2026-12-01",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/333327/organized-films-and-functional-materials-advances-in-structure-interfaces-and-applications",
+      "status": "upcoming",
+      "description": "Guest editors: Simona Bettini  •_Impact Factor 6.3_•_CiteScore 8.5_ Submission deadline:**01 December 2026**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-ai-in-acute-stroke-imaging-pearls-and-pitf",
+      "title": "AI in Acute Stroke Imaging: Pearls and Pitfalls",
+      "deadline": "2026-12-01T23:59:59",
+      "dateRange": "2026-12-01",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/333196/ai-in-acute-stroke-imaging-pearls-and-pitfalls",
+      "status": "upcoming",
+      "description": "Guest editors: Smriti Agarwal, Kevin N. Sheth, George WJ Harston, Lisa Herzog and Ondrej Volny  Submission deadline:**01 December 2026**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-integration-of-european-reference-networks",
+      "title": "Integration of European Reference Networks into national healthcare systems",
+      "deadline": "2026-12-01T23:59:59",
+      "dateRange": "2026-12-01",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/333201/integration-of-european-reference-networks-into-national-healthcare-systems",
+      "status": "upcoming",
+      "description": "Guest editors: Birute Tumiene, Ursula Unterberger and Luz Yadira Bravo Gallego  •_Impact Factor 1.7_•_CiteScore 3.7_ Submission deadline:**01 December 2026**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-strategies-for-enhancing-the-durability-of",
+      "title": "Strategies for Enhancing the Durability of Low-Carbon Concrete and the Corrosion Prevention of Embedded Steel Reinforcement",
+      "deadline": "2026-12-01T23:59:59",
+      "dateRange": "2026-12-01",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/333109/strategies-for-enhancing-the-durability-of-low-carbon-concrete-and-the-corrosion-prevention-of-embedded-steel-reinforcement",
+      "status": "upcoming",
+      "description": "Guest editors: Haoxin Li, Yuyang Pang, Jiuwen Bao, Weina Meng  •_Impact Factor 8.0_•_CiteScore 13.9_ Submission deadline:**01 December 2026**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-global-air-quality-advances-in-monitoring-",
+      "title": "Global Air Quality: Advances in Monitoring, Forecasting, and Applications",
+      "deadline": "2026-12-10T23:59:59",
+      "dateRange": "2026-12-10",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/333085/global-air-quality-advances-in-monitoring-forecasting-and-applications",
+      "status": "upcoming",
+      "description": "Guest editors: Shupeng Zhu, Jing Wei, Sibo Chen  Submission deadline:**10 December 2026**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-nanomaterials-and-emerging-contaminants-in",
+      "title": "Nanomaterials and emerging contaminants in plant systems: multi-omics and plant-microbiome interactions",
+      "deadline": "2026-12-11T23:59:59",
+      "dateRange": "2026-12-11",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/333153/nanomaterials-and-emerging-contaminants-in-plant-systems-multi-omics-and-plant-microbiome-interactions",
+      "status": "upcoming",
+      "description": "Guest editors: Dr. Roberto Berni, Dr. Gea Guerriero, Prof. Giancarlo Renella, Prof. Sergio Esposito  •_Impact Factor 7.7_•_CiteScore 6.6_ Submission deadline:**11 December 2026**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-intelligent-transport-and-sustainable-mobi",
+      "title": "Intelligent Transport and Sustainable Mobility in Urban Systems: Models, Data, Management and Policy Insights",
+      "deadline": "2026-12-17T23:59:59",
+      "dateRange": "2026-12-17",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/333031/intelligent-transport-and-sustainable-mobility-in-urban-systems-models-data-management-and-policy-insights",
+      "status": "upcoming",
+      "description": "Guest editors: José Luis Moura, Luigi dell’Olio, António Lobo, Sérgio Pedro Duarte  •_Impact Factor 4.4_•_CiteScore 8.7_ Submission deadline:**17 December 2026**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-third-special-issue-on-mixture-models-2026",
+      "title": "Third Special Issue on Mixture Models",
+      "deadline": "2026-12-20T23:59:59",
+      "dateRange": "2026-12-20",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/332654/third-special-issue-on-mixture-models",
+      "status": "upcoming",
+      "description": "Guest editors: Matthieu Marbac, Wan-Lun Wang, Weixin Yao  •_Impact Factor 2.5_•_CiteScore 4.0_ Submission deadline:**20 December 2026**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-special-issue-on-panel-data-analysis-2026-",
+      "title": "Special Issue on Panel Data Analysis",
+      "deadline": "2026-12-20T23:59:59",
+      "dateRange": "2026-12-20",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/333079/special-issue-on-panel-data-analysis",
+      "status": "upcoming",
+      "description": "Guest editors: Badi Baltagi, Kazuhiko Hayakawa, Degui Li, Vasilis Sarafidis, Erricos Kontoghiorghes  •_Impact Factor 2.5_•_CiteScore 4.0_ Submission deadline:**20 December 2026**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-advances-in-combustion-science-and-technol",
+      "title": "Advances in Combustion Science and Technology: Innovations and Applications",
+      "deadline": "2026-12-30T23:59:59",
+      "dateRange": "2026-12-30",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/333108/advances-in-combustion-science-and-technology-innovations-and-applications",
+      "status": "upcoming",
+      "description": "Guest editors: Jingyu Ran, Selim Ceylan, Lele Feng, Daya Pandey  •_CiteScore 2.2_ Submission deadline:**30 December 2026**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-11",
+      "title": "IEEE Communications Magazine Call for Papers",
+      "deadline": "2026-12-31T23:59:59",
+      "dateRange": "2026-12-31",
+      "location": "IEEE ComSoc",
+      "isOnline": true,
+      "tags": [
+        "IEEE",
+        "Communications",
+        "Special Issue"
+      ],
+      "url": "https://www.comsoc.org/publications/magazines/ieee-communications-magazine/cfp",
+      "status": "ongoing",
+      "description": "IEEE ComSoc Magazine CFP 入口，实际 DDL 需按专题详情页继续拆分。",
+      "stage": "CFP board",
+      "source": "IEEE official seed",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-12",
+      "title": "IEEE JSAC Call for Papers",
+      "deadline": "2026-12-31T23:59:59",
+      "dateRange": "2026-12-31",
+      "location": "IEEE ComSoc",
+      "isOnline": true,
+      "tags": [
+        "IEEE",
+        "JSAC",
+        "Selected Areas"
+      ],
+      "url": "https://www.comsoc.org/publications/journals/ieee-jsac/cfp",
+      "status": "ongoing",
+      "description": "通信领域重点期刊专题入口，用作 crawler seed。",
+      "stage": "CFP board",
+      "source": "IEEE official seed",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-13",
+      "title": "IEEE Signal Processing Society Special Issue Deadlines",
+      "deadline": "2026-12-31T23:59:59",
+      "dateRange": "2026-12-31",
+      "location": "IEEE SPS",
+      "isOnline": true,
+      "tags": [
+        "IEEE",
+        "Signal Processing"
+      ],
+      "url": "https://signalprocessingsociety.org/publications-resources/special-issue-deadlines",
+      "status": "ongoing",
+      "description": "SPS 特刊截止日列表入口，覆盖信号、语音、图像、多媒体方向。",
+      "stage": "Deadline board",
+      "source": "IEEE official seed",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-14",
+      "title": "IEEE Access Special Sections",
+      "deadline": "2026-12-31T23:59:59",
+      "dateRange": "2026-12-31",
+      "location": "IEEE Access",
+      "isOnline": true,
+      "tags": [
+        "IEEE Access",
+        "Special Section"
+      ],
+      "url": "https://ieeeaccess.ieee.org/sections/special-sections/",
+      "status": "ongoing",
+      "description": "IEEE Access Special Sections 入口，注意术语通常为 Special Section。",
+      "stage": "Special Section",
+      "source": "IEEE official seed",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-15",
+      "title": "ScienceDirect Browse Calls for Papers",
+      "deadline": "2026-12-31T23:59:59",
+      "dateRange": "2026-12-31",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect",
+        "CFP"
+      ],
+      "url": "https://www.sciencedirect.com/browse/calls-for-papers",
+      "status": "ongoing",
+      "description": "Elsevier 主要 CFP 总入口，适合作为 crawler 主入口。",
+      "stage": "CFP board",
+      "source": "Elsevier official seed",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-16",
+      "title": "IEEE Access / IEEE Author Portal Submission Route",
+      "deadline": "2026-12-31T23:59:59",
+      "dateRange": "2026-12-31",
+      "location": "IEEE Author Portal",
+      "isOnline": true,
+      "tags": [
+        "IEEE",
+        "Author Portal"
+      ],
+      "url": "https://ieee.atyponrex.com/",
+      "status": "ongoing",
+      "description": "IEEE 投稿系统入口，后续用于保存 Special Section / Article Type 选择说明。",
+      "stage": "Submission platform",
+      "source": "IEEE official seed",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-modern-approaches-to-mathematical-modeling",
+      "title": "Modern Approaches to Mathematical Modeling of Infectious Diseases: Theory, Computation, and Applications",
+      "deadline": "2026-12-31T23:59:59",
+      "dateRange": "2026-12-31",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/333297/modern-approaches-to-mathematical-modeling-of-infectious-diseases-theory-computation-and-applications",
+      "status": "upcoming",
+      "description": "Guest editors: Carla M.A Pinto, Julia Calatayud, Marc Jornet  •_Impact Factor 5.6_•_CiteScore 9.9_ Submission deadline:**31 December 2026**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-from-clay-fundamentals-to-hybrid-materials",
+      "title": "From Clay Fundamentals to Hybrid Materials and Polymer Nanocomposites: A Tribute to Y. Fukushima",
+      "deadline": "2026-12-31T23:59:59",
+      "dateRange": "2026-12-31",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/333307/from-clay-fundamentals-to-hybrid-materials-and-polymer-nanocomposites-a-tribute-to-y-fukushima",
+      "status": "upcoming",
+      "description": "Guest editors: Makoto Ogawa, Eduardo Ruiz-Hitzky, Takeo Ebina and Tetsuji Itoh  •_Impact Factor 5.8_•_CiteScore 10.3_ Submission deadline:**31 December 2026**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-interkingdom-microbial-interactions-in-the",
+      "title": "Interkingdom microbial interactions in the gastrointestinal tract",
+      "deadline": "2026-12-31T23:59:59",
+      "dateRange": "2026-12-31",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/333291/interkingdom-microbial-interactions-in-the-gastrointestinal-tract",
+      "status": "upcoming",
+      "description": "Guest editors: Greg Young and Andy Nelson  Submission deadline:**31 December 2026**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-papers-in-memory-of-thomas-augustin-2026-1",
+      "title": "Papers in Memory of Thomas Augustin",
+      "deadline": "2026-12-31T23:59:59",
+      "dateRange": "2026-12-31",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/333213/papers-in-memory-of-thomas-augustin",
+      "status": "upcoming",
+      "description": "Guest editors: Christoph Jansen; Georg Schollmeyer; Julian Rodemann; Rudolf Seising.  •_Impact Factor 3.0_•_CiteScore 6.2_ Submission deadline:**31 December 2026**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-abrasive-and-non-abrasive-post-processing-",
+      "title": "Abrasive and Non-Abrasive Post-Processing Technologies for Additively Manufactured Surfaces",
+      "deadline": "2026-12-31T23:59:59",
+      "dateRange": "2026-12-31",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/333242/abrasive-and-non-abrasive-post-processing-technologies-for-additively-manufactured-surfaces",
+      "status": "upcoming",
+      "description": "Guest editor: Mamilla Ravi Sankar  Submission deadline:**31 December 2026**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-brain-health-frailty-and-resilience-after-",
+      "title": "Brain Health, Frailty and Resilience After Stroke",
+      "deadline": "2026-12-31T23:59:59",
+      "dateRange": "2026-12-31",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/333194/brain-health-frailty-and-resilience-after-stroke",
+      "status": "upcoming",
+      "description": "Guest editors: Sook-Lei Liew, Lara Boyd, Amy Brodtmann and Brenton Hordacre  Submission deadline:**31 December 2026**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-advances-in-robotic-forming-2026-12-31",
+      "title": "Advances in Robotic Forming",
+      "deadline": "2026-12-31T23:59:59",
+      "dateRange": "2026-12-31",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/333224/advances-in-robotic-forming",
+      "status": "upcoming",
+      "description": "Guest editors: Junying Min, Jinjin Ha, Glenn Daehn, Xunzhong Guo  •_Impact Factor 6.0_•_CiteScore 11.2_ Submission deadline:**31 December 2026**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-estiv-2026-ensuring-safety-advancing-scien",
+      "title": "ESTIV 2026: Ensuring Safety, Advancing Science - Bridging to the Future with NAMs",
+      "deadline": "2026-12-31T23:59:59",
+      "dateRange": "2026-12-31",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/333171/estiv-2026-ensuring-safety-advancing-science-bridging-to-the-future-with-nams",
+      "status": "upcoming",
+      "description": "Guest editors: Helena Kandarova, Luiz Ladeira and Mohamed Fathi Abdallah  •_Impact Factor 2.7_•_CiteScore 5.5_ Submission deadline:**31 December 2026**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-the-nexus-of-opportunities-non-co-greenhou",
+      "title": "The Nexus of Opportunities: Non-CO₂ Greenhouse Gas Mitigations in Developing Countries",
+      "deadline": "2026-12-31T23:59:59",
+      "dateRange": "2026-12-31",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/333107/the-nexus-of-opportunities-non-co2-greenhouse-gas-mitigations-in-developing-countries",
+      "status": "upcoming",
+      "description": " Submission deadline:**31 December 2026**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-bioactive-compounds-and-therapeutic-potent",
+      "title": "Bioactive Compounds and Therapeutic Potentials of Curcuma, Medicinal Plants, Medicinal Mushrooms, and Natural Food Colorants",
+      "deadline": "2026-12-31T23:59:59",
+      "dateRange": "2026-12-31",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/333156/bioactive-compounds-and-therapeutic-potentials-of-curcuma-medicinal-plants-medicinal-mushrooms-and-natural-food-colorants",
+      "status": "upcoming",
+      "description": "Guest editor: Dr. Lam T Duong  Submission deadline:**31 December 2026**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-international-conference-on-bio-sensing-te",
+      "title": "International Conference on Bio-Sensing Technology 2026",
+      "deadline": "2026-12-31T23:59:59",
+      "dateRange": "2026-12-31",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/333117/international-conference-on-bio-sensing-technology-2026",
+      "status": "upcoming",
+      "description": "Guest editor: Richard Luxton  •_Impact Factor 7.6_•_CiteScore 11.0_ Submission deadline:**31 December 2026**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-advanced-mri-for-stroke-outcome-prediction",
+      "title": "Advanced MRI for Stroke Outcome Prediction and Image-Aided Treatment",
+      "deadline": "2026-12-31T23:59:59",
+      "dateRange": "2026-12-31",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/333120/advanced-mri-for-stroke-outcome-prediction-and-image-aided-treatment",
+      "status": "upcoming",
+      "description": "Guest editors: Phillip Zhe Sun, Esra Zihni, Vivek Prabhakaran, Risto A. Kauppinen and Fahmeed Hyder  Submission deadline:**31 December 2026**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-neuroimaging-in-africa-progress-priorities",
+      "title": "Neuroimaging in Africa: Progress, Priorities, and Possibilities",
+      "deadline": "2026-12-31T23:59:59",
+      "dateRange": "2026-12-31",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/333040/neuroimaging-in-africa-progress-priorities-and-possibilities",
+      "status": "upcoming",
+      "description": "Guest editors: Kirsty Donald, Derek Jones, Karen Chetcuti, Godwin Ogbole and Jo Wilmshurst  •_Impact Factor 4.5_•_CiteScore 10.8_ Submission deadline:**31 December 2026**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-materials-science-and-engineering-b-2026-1",
+      "title": "Materials Science and Engineering: B",
+      "deadline": "2026-12-31T23:59:59",
+      "dateRange": "2026-12-31",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/journal/materials-science-and-engineering-b",
+      "status": "upcoming",
+      "description": "•_Impact Factor 4.6_•_CiteScore 7.5_ Submission deadline:**31 December 2026**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-solar-chemistry-and-photocatalysis-energy-",
+      "title": "Solar Chemistry and Photocatalysis: Energy and Environmental Applications (1)",
+      "deadline": "2026-12-31T23:59:59",
+      "dateRange": "2026-12-31",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/332987/solar-chemistry-and-photocatalysis-energy-and-environmental-applications-1",
+      "status": "upcoming",
+      "description": "Guest editors: Ewa K. Kowalska; Wojciech Macyk; Francesco Parrino; Zhishun Wei; Zuzanna Bielan  •_Impact Factor 4.7_•_CiteScore 7.8_ Submission deadline:**31 December 2026**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-electrochemistry-communications-2026-12-31",
+      "title": "Electrochemistry Communications",
+      "deadline": "2026-12-31T23:59:59",
+      "dateRange": "2026-12-31",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/journal/electrochemistry-communications",
+      "status": "upcoming",
+      "description": "•_Impact Factor 4.2_•_CiteScore 7.9_ Submission deadline:**31 December 2026**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-urban-air-mobility-systems-shaping-future-",
+      "title": "Urban Air Mobility Systems: Shaping Future Mobility and Societal Transformation",
+      "deadline": "2027-01-01T23:59:59",
+      "dateRange": "2027-01-01",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/333169/urban-air-mobility-systems-shaping-future-mobility-and-societal-transformation",
+      "status": "upcoming",
+      "description": "Guest editors: Hongliang Ding, Hui-Jun Sun, Kun Wang, Shaopeng Zhong  •_Impact Factor 5.7_•_CiteScore 9.2_ Submission deadline:**01 January 2027**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-synthetic-cathinones-2027-01-01",
+      "title": "Synthetic Cathinones",
+      "deadline": "2027-01-01T23:59:59",
+      "dateRange": "2027-01-01",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/333065/synthetic-cathinones",
+      "status": "upcoming",
+      "description": "Guest editors: Foster Olive and Scott Rawls  •_Impact Factor 4.6_•_CiteScore 9.4_ Submission deadline:**01 January 2027**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-recent-advances-on-shape-and-topology-opti",
+      "title": "Recent Advances on Shape and Topology Optimization: Mathematical Analysis, Numerical Methods, and Applications",
+      "deadline": "2027-01-01T23:59:59",
+      "dateRange": "2027-01-01",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/332975/recent-advances-on-shape-and-topology-optimization-mathematical-analysis-numerical-methods-and-applications",
+      "status": "upcoming",
+      "description": "Guest editors: Shengfeng Zhu, Jan Sokolowski, Wei Gong  •_Impact Factor 3.8_•_CiteScore 6.6_ Submission deadline:**01 January 2027**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-surface-driven-mechanisms-in-next-generati",
+      "title": "Surface-Driven Mechanisms in Next-Generation Electrochemical Energy Storage Devices (VSI: Surface-Driven Energy Storage Technologies)",
+      "deadline": "2027-01-02T23:59:59",
+      "dateRange": "2027-01-02",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/333090/surface-driven-mechanisms-in-next-generation-electrochemical-energy-storage-devices-vsi-surface-driven-energy-storage-technologies",
+      "status": "upcoming",
+      "description": "Guest editors: Dr. Sanu Mathew Simon, Dr. Nilanthy Balakrishnan, Dr. Irshad Kammakakam  •_Impact Factor 4.4_•_CiteScore 3.9_ Submission deadline:**02 January 2027**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-challenging-assumptions-in-neuropsychology",
+      "title": "Challenging assumptions in neuropsychology",
+      "deadline": "2027-01-15T23:59:59",
+      "dateRange": "2027-01-15",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/333106/challenging-assumptions-in-neuropsychology",
+      "status": "upcoming",
+      "description": "Guest editors: Elena Rusconi, Sergio Della Sala and Naama Friedmann  •_Impact Factor 3.3_•_CiteScore 6.1_ Submission deadline:**15 January 2027**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-components-operationally-reversibility-and",
+      "title": "Components Operationally: Reversibility and System Engineering",
+      "deadline": "2027-01-31T23:59:59",
+      "dateRange": "2027-01-31",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/333326/components-operationally-reversibility-and-system-engineering",
+      "status": "upcoming",
+      "description": "Guest editors: Claudio Antares Mezzina  •_Impact Factor 1.2_•_CiteScore 2.8_ Submission deadline:**31 January 2027**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-defect-engineered-advanced-materials-for-s",
+      "title": "Defect-Engineered Advanced Materials for Sustainable Energy Applications",
+      "deadline": "2027-01-31T23:59:59",
+      "dateRange": "2027-01-31",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/333135/defect-engineered-advanced-materials-for-sustainable-energy-applications",
+      "status": "upcoming",
+      "description": "Guest editors: Sang-Il Choi, Suresh Sundaramurthy, Bhargavi Rani Anne  •_Impact Factor 3.3_•_CiteScore 5.4_ Submission deadline:**31 January 2027**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-advancing-team-based-youth-sport-research-",
+      "title": "Advancing Team-Based Youth Sport Research and Practice",
+      "deadline": "2027-01-31T23:59:59",
+      "dateRange": "2027-01-31",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/333116/advancing-team-based-youth-sport-research-and-practice",
+      "status": "upcoming",
+      "description": "Guest editors: Dr. Sam Elliott, Dr. Chris S Whatman, Dr. Simon Walters, Dr. Deb Agnew  Submission deadline:**31 January 2027**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-theoretical-foundations-of-interprofession",
+      "title": "Theoretical Foundations of Interprofessional Practice",
+      "deadline": "2027-01-31T23:59:59",
+      "dateRange": "2027-01-31",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/333132/theoretical-foundations-of-interprofessional-practice",
+      "status": "upcoming",
+      "description": "Guest editors: Dr. Barret Michalec, Christine Arenson  •_CiteScore 2.2_ Submission deadline:**31 January 2027**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-intersection-of-nanomaterials-and-stretcha",
+      "title": "Intersection of Nanomaterials and Stretchable Electronics",
+      "deadline": "2027-01-31T23:59:59",
+      "dateRange": "2027-01-31",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/333078/intersection-of-nanomaterials-and-stretchable-electronics",
+      "status": "upcoming",
+      "description": "Guest editors: Yanchao Mao, Yanhao Yu  •_CiteScore 0.7_ Submission deadline:**31 January 2027**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-emerging-challenges-and-solutions-in-batte",
+      "title": "Emerging Challenges and Solutions in Battery Safety: Materials, Mechanisms, and Mitigation",
+      "deadline": "2027-01-31T23:59:59",
+      "dateRange": "2027-01-31",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/333084/emerging-challenges-and-solutions-in-battery-safety-materials-mechanisms-and-mitigation",
+      "status": "upcoming",
+      "description": "Guest editors: Jun Xu; Xiang Gao; Wenquan Lu  •_Impact Factor 7.9_•_CiteScore 14.9_ Submission deadline:**31 January 2027**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-selected-papers-from-second-ensbe-2026-adv",
+      "title": "Selected Papers from Second ENSBE 2026 — Advances and Challenges in Electrochemical Sensors and Biosensors",
+      "deadline": "2027-01-31T23:59:59",
+      "dateRange": "2027-01-31",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/332990/selected-papers-from-second-ensbe-2026-advances-and-challenges-in-electrochemical-sensors-and-biosensors",
+      "status": "upcoming",
+      "description": "Guest editors: Rafael Machado Dornellas; Rodrigo Alejandro Abarza Muñoz; João Victor Nicolini; Helen Ferraz; Felipe Silva Semaan  •_Impact Factor 4.1_•_CiteScore 8.1_ Submission deadline:**31 January 2027**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-ai-driven-modelling-and-en-hancement-for-t",
+      "title": "AI-Driven Modelling and En-hancement for Transportation Re-silience under Disasters",
+      "deadline": "2027-02-12T23:59:59",
+      "dateRange": "2027-02-12",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/333141/ai-driven-modelling-and-en-hancement-for-transportation-re-silience-under-disasters",
+      "status": "upcoming",
+      "description": "Guest editors: Dr. Zhao Zhang, Dr. Xiangdong Xu, Dr. Jiangping Zhou, Dr. Albert Solé Ribalta  •_Impact Factor 7.7_•_CiteScore 14.2_ Submission deadline:**12 February 2027**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-coordination-chemistry-for-catalysis-a-spe",
+      "title": "Coordination chemistry for catalysis - a special issue in honor of Professor Matthias Beller",
+      "deadline": "2027-02-28T23:59:59",
+      "dateRange": "2027-02-28",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/333329/coordination-chemistry-for-catalysis-a-special-issue-in-honor-of-professor-matthias-beller",
+      "status": "upcoming",
+      "description": "Guest editors: Paul Dyson, Robert Franke, Qiang Xu  •_Impact Factor 23.5_•_CiteScore 38.2_ Submission deadline:**28 February 2027**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-keynote-papers-of-the-17th-international-c",
+      "title": "Keynote Papers of the 17th International Conference on the Chemistry of Cement, 2027, New Delhi",
+      "deadline": "2027-02-28T23:59:59",
+      "dateRange": "2027-02-28",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/333015/keynote-papers-of-the-17th-international-conference-on-the-chemistry-of-cement-2027-new-delhi",
+      "status": "upcoming",
+      "description": "Guest editors: Kimberly Kurtis, Marta Palacios  •_Impact Factor 13.1_•_CiteScore 23.5_ Submission deadline:**28 February 2027**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-state-of-the-science-practice-and-emerging",
+      "title": "State of the science, practice, and emerging trends in PTSD treatment",
+      "deadline": "2027-03-01T23:59:59",
+      "dateRange": "2027-03-01",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/333070/state-of-the-science-practice-and-emerging-trends-in-ptsd-treatment",
+      "status": "upcoming",
+      "description": "Guest editors: Dr. Nicholas A. Livingston and Dr. Kelly Harper  Submission deadline:**01 March 2027**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-optimization-control-theory-and-artificial",
+      "title": "Optimization, Control Theory, and Artificial Intelligence: Converging Methodologies for Engineering Applications",
+      "deadline": "2027-03-01T23:59:59",
+      "dateRange": "2027-03-01",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/333017/optimization-control-theory-and-artificial-intelligence-converging-methodologies-for-engineering-applications",
+      "status": "upcoming",
+      "description": "Guest editors: Necati Ozdemir; Ender Ozcan; Anthony Siming Chen  •_Impact Factor 8.0_•_CiteScore 9.5_ Submission deadline:**01 March 2027**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-sustainability-of-artificial-intelligence-",
+      "title": "Sustainability of Artificial Intelligence in Radiology",
+      "deadline": "2027-03-10T23:59:59",
+      "dateRange": "2027-03-10",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/333330/sustainability-of-artificial-intelligence-in-radiology",
+      "status": "upcoming",
+      "description": "Guest editors: Florence Doo & Michail Klontzas  Submission deadline:**10 March 2027**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-quality-improvement-innovations-2027-03-30",
+      "title": "Quality Improvement: Innovations",
+      "deadline": "2027-03-30T23:59:59",
+      "dateRange": "2027-03-30",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/333172/quality-improvement-innovations",
+      "status": "upcoming",
+      "description": "Guest editors: Dr. Ambereen Kurwa Mehta  •_Impact Factor 3.5_•_CiteScore 6.2_ Submission deadline:**30 March 2027**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-curated-collection-on-methods-in-tourism-r",
+      "title": "Curated Collection on Methods in Tourism Research: Advances & Best Practices",
+      "deadline": "2027-03-31T23:59:59",
+      "dateRange": "2027-03-31",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/333091/curated-collection-on-methods-in-tourism-research-advances-best-practices",
+      "status": "upcoming",
+      "description": "Guest editors: Jorge E. Araña Padilla, Katarzyna Czernek-Marszałek  •_Impact Factor 7.8_•_CiteScore 16.2_ Submission deadline:**31 March 2027**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-klebsiella-pneumoniae-antimicrobial-resist",
+      "title": "Klebsiella pneumoniae: Antimicrobial resistance, hypervirulent K. pneumoniae, therapeutic strategies and infection control",
+      "deadline": "2027-04-30T23:59:59",
+      "dateRange": "2027-04-30",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/333267/klebsiella-pneumoniae-antimicrobial-resistance-hypervirulent-k-pneumoniae-therapeutic-strategies-and-infection-control",
+      "status": "upcoming",
+      "description": "Guest editors: Xi Li & Ruichao Li  •_Impact Factor 4.6_•_CiteScore 5.8_ Submission deadline:**30 April 2027**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-special-issue-on-ai-disruption-in-global-c",
+      "title": "Special Issue on AI Disruption in Global Capital Markets",
+      "deadline": "2027-04-30T23:59:59",
+      "dateRange": "2027-04-30",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/333140/special-issue-on-ai-disruption-in-global-capital-markets",
+      "status": "upcoming",
+      "description": "Guest editors: Sean Cao, Allen Huang, Katsuyuki Kubo, Yohei Yamamoto, Clara Zhou  •_Impact Factor 5.3_•_CiteScore 7.2_ Submission deadline:**30 April 2027**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-single-atom-catalysts-2027-05-01",
+      "title": "Single Atom Catalysts",
+      "deadline": "2027-05-01T23:59:59",
+      "dateRange": "2027-05-01",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/333268/single-atom-catalysts",
+      "status": "upcoming",
+      "description": "Guest editors: Christian Papp, Gareth Steven Parkinson, Lars C. Grabow  •_Impact Factor 1.8_•_CiteScore 3.5_ Submission deadline:**01 May 2027**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-sudden-unexpected-death-in-epilepsy-mechan",
+      "title": "Sudden Unexpected Death in Epilepsy: Mechanisms and Interventions",
+      "deadline": "2027-05-10T23:59:59",
+      "dateRange": "2027-05-10",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/333276/sudden-unexpected-death-in-epilepsy-mechanisms-and-interventions",
+      "status": "upcoming",
+      "description": "Guest editors: Carie R Boychuk, Ian Wenker  •_Impact Factor 5.1_•_CiteScore 10.9_ Submission deadline:**10 May 2027**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-economic-and-management-challenges-in-urba",
+      "title": "Economic and Management Challenges in Urban Air Mobility and Drone Systems",
+      "deadline": "2027-05-13T23:59:59",
+      "dateRange": "2027-05-13",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/333033/economic-and-management-challenges-in-urban-air-mobility-and-drone-systems",
+      "status": "upcoming",
+      "description": "Guest editors: Tao Feng, Bo Zou, Lingxiao Wu  Submission deadline:**13 May 2027**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-advances-and-future-directions-in-choice-m",
+      "title": "Advances and future directions in choice modelling for environmental valuation",
+      "deadline": "2027-05-15T23:59:59",
+      "dateRange": "2027-05-15",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/333277/advances-and-future-directions-in-choice-modelling-for-environmental-valuation",
+      "status": "upcoming",
+      "description": "Guest editors: Erlend Dancke Sandorf, Klaus Glenk, Jürgen Meyerhoff  •_Impact Factor 2.4_•_CiteScore 5.6_ Submission deadline:**15 May 2027**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-hydrodynamic-cavitation-devices-modelling-",
+      "title": "Hydrodynamic Cavitation: Devices, Modelling and Applications",
+      "deadline": "2027-05-31T23:59:59",
+      "dateRange": "2027-05-31",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/333272/hydrodynamic-cavitation-devices-modelling-and-applications",
+      "status": "upcoming",
+      "description": "Guest editors: Professor Vivek Ranade, Professor Giancarlo Cravotto, Professor Matevz Dular,  •_Impact Factor 9.7_•_CiteScore 17.7_ Submission deadline:**31 May 2027**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-special-issue-on-innovative-research-and-e",
+      "title": "Special Issue on Innovative Research and Engineering Translation of Biomaterials for Regenerative Medicine",
+      "deadline": "2027-05-31T23:59:59",
+      "dateRange": "2027-05-31",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/333243/special-issue-on-innovative-research-and-engineering-translation-of-biomaterials-for-regenerative-medicine",
+      "status": "upcoming",
+      "description": " •_CiteScore 23.3_ Submission deadline:**31 May 2027**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-academic-engagement-promises-potential-and",
+      "title": "Academic Engagement: Promises, Potential, and Unintended Consequences",
+      "deadline": "2027-06-01T23:59:59",
+      "dateRange": "2027-06-01",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/333137/academic-engagement-promises-potential-and-unintended-consequences",
+      "status": "upcoming",
+      "description": "Guest editors: David B. Audretsch, Maksim Belitski, Antje Fiedler, Donald F. Kuratko, Albert N. Link, Donald S. Siegel  •_Impact Factor 8.0_•_CiteScore 15.0_ Submission deadline:**01 June 2027**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-advanced-diffusion-technologies-for-the-ge",
+      "title": "Advanced Diffusion Technologies for the Generation of High-Performance Metallurgical Layers (VSI: High-Perf Diff Layers)",
+      "deadline": "2027-06-30T23:59:59",
+      "dateRange": "2027-06-30",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/333328/advanced-diffusion-technologies-for-the-generation-of-high-performance-metallurgical-layers-vsi-high-perf-diff-layers",
+      "status": "upcoming",
+      "description": "Guest editors: Ivan Enrique I. Campos-Silva  •_Impact Factor 6.1_•_CiteScore 10.2_ Submission deadline:**30 June 2027**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-open-science-in-orofacial-pain-research-20",
+      "title": "Open Science in Orofacial Pain Research",
+      "deadline": "2027-07-01T23:59:59",
+      "dateRange": "2027-07-01",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/333184/open-science-in-orofacial-pain-research",
+      "status": "upcoming",
+      "description": "Guest editors: Dr. Noéli Boscato, Dr. Anelise Fernandes Montagner  Submission deadline:**01 July 2027**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-planning-and-design-for-urban-underground-",
+      "title": "Planning and Design for Urban Underground Spaces and Their Impact on Human Behaviour",
+      "deadline": "2027-08-31T23:59:59",
+      "dateRange": "2027-08-31",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/333336/planning-and-design-for-urban-underground-spaces-and-their-impact-on-human-behaviour",
+      "status": "upcoming",
+      "description": "Guest editors: Jenny Jianqiang Cui, Liang Ma, Dong Lin, Yena Song, Zhipeng Zhou  •_Impact Factor 7.4_•_CiteScore 13.0_ Submission deadline:**31 August 2027**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-sciencedirect-cfp-advances-in-in-situ-condition-preserved-co",
+      "title": "Advances in In-Situ Condition-preserved Coring and Testing of Deep Rocks",
+      "deadline": "2027-12-31T23:59:59",
+      "dateRange": "2027-12-31",
+      "location": "ScienceDirect",
+      "isOnline": true,
+      "tags": [
+        "Elsevier",
+        "ScienceDirect"
+      ],
+      "url": "https://www.sciencedirect.com/special-issue/333186/advances-in-in-situ-condition-preserved-coring-and-testing-of-deep-rocks",
+      "status": "upcoming",
+      "description": " •_Impact Factor 6.1_•_CiteScore 9.4_ Submission deadline:**31 December 2027**",
+      "stage": "Call for Papers",
+      "source": "ScienceDirect Browse Calls for Papers",
+      "type": "journal"
+    }
+  ],
   "programming-ddl": [
     {
       "id": "programming-ddl-codeforces-global-round-2026-06-20",
@@ -2055,332 +4655,6 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Recurring",
       "source": "Curated coverage seed",
       "type": "contest"
-    }
-  ],
-  "multimodal-ddl": [
-    {
-      "id": "multimodal-ddl-vqa-challenge-2026-2026-07-01",
-      "title": "VQA Challenge 2026",
-      "deadline": "2026-07-01T23:59:59",
-      "dateRange": "Jul 2026",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "VQA",
-        "Vision-Language"
-      ],
-      "url": "https://visualqa.org",
-      "status": "upcoming",
-      "description": "视觉问答评测入口。",
-      "stage": "Submission",
-      "source": "Benchmark demo",
-      "type": "challenge"
-    },
-    {
-      "id": "multimodal-ddl-textvqa-refresh-2026-08-01",
-      "title": "TextVQA Refresh",
-      "deadline": "2026-08-01T23:59:59",
-      "dateRange": "Aug 2026",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "OCR",
-        "VQA"
-      ],
-      "url": "https://textvqa.org",
-      "status": "upcoming",
-      "description": "OCR + VQA 评测入口。",
-      "stage": "Result upload",
-      "source": "Benchmark demo",
-      "type": "challenge"
-    },
-    {
-      "id": "multimodal-ddl-mmmu-challenge-2026-2026-08-15",
-      "title": "MMMU Challenge 2026",
-      "deadline": "2026-08-15T23:59:59",
-      "dateRange": "Aug 2026",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "MM Understanding",
-        "Reasoning"
-      ],
-      "url": "https://mmmu-benchmark.github.io",
-      "status": "upcoming",
-      "description": "多模态理解 benchmark 入口。",
-      "stage": "Leaderboard",
-      "source": "Benchmark demo",
-      "type": "challenge"
-    },
-    {
-      "id": "multimodal-ddl-image-captioning-challenge-2026-08-28",
-      "title": "Image Captioning Challenge",
-      "deadline": "2026-08-28T23:59:59",
-      "dateRange": "Aug 2026",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "Captioning",
-        "COCO"
-      ],
-      "url": "https://cocodataset.org",
-      "status": "upcoming",
-      "description": "图像描述挑战入口。",
-      "stage": "Submission",
-      "source": "Curated coverage seed",
-      "type": "challenge"
-    },
-    {
-      "id": "multimodal-ddl-mmlu-pro-vision-reasoning-track-2026-09-18",
-      "title": "MMLU-Pro Vision Reasoning Track",
-      "deadline": "2026-09-18T23:59:59",
-      "dateRange": "Sep 2026",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "Reasoning",
-        "VLM"
-      ],
-      "url": "https://www.kaggle.com/competitions",
-      "status": "upcoming",
-      "description": "多模态推理榜单入口。",
-      "stage": "Leaderboard",
-      "source": "Curated coverage seed",
-      "type": "challenge"
-    },
-    {
-      "id": "multimodal-ddl-video-captioning-challenge-2026-09-25",
-      "title": "Video Captioning Challenge",
-      "deadline": "2026-09-25T23:59:59",
-      "dateRange": "Sep 2026",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "Video Captioning",
-        "Generation"
-      ],
-      "url": "https://www.kaggle.com/competitions",
-      "status": "upcoming",
-      "description": "视频描述挑战入口。",
-      "stage": "Submission",
-      "source": "Curated coverage seed",
-      "type": "challenge"
-    },
-    {
-      "id": "multimodal-ddl-aigc-evaluation-2026-2026-09-30",
-      "title": "AIGC Evaluation 2026",
-      "deadline": "2026-09-30T23:59:59",
-      "dateRange": "Sep 2026",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "AIGC",
-        "Generation"
-      ],
-      "url": "https://www.kaggle.com/competitions",
-      "status": "upcoming",
-      "description": "生成式 AI 评测入口。",
-      "stage": "Final submit",
-      "source": "Kaggle-style demo",
-      "type": "challenge"
-    },
-    {
-      "id": "multimodal-ddl-video-mme-leaderboard-freeze-2026-10-12",
-      "title": "Video-MME Leaderboard Freeze",
-      "deadline": "2026-10-12T23:59:59",
-      "dateRange": "Oct 2026",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "Video",
-        "VLM"
-      ],
-      "url": "https://video-mme.github.io",
-      "status": "upcoming",
-      "description": "视频理解评测入口。",
-      "stage": "Leaderboard",
-      "source": "Benchmark demo",
-      "type": "challenge"
-    },
-    {
-      "id": "multimodal-ddl-chartqa-challenge-2026-10-22",
-      "title": "ChartQA Challenge",
-      "deadline": "2026-10-22T23:59:59",
-      "dateRange": "Oct 2026",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "ChartQA",
-        "Document"
-      ],
-      "url": "https://github.com/vis-nlp/ChartQA",
-      "status": "upcoming",
-      "description": "图表问答评测入口。",
-      "stage": "Submission",
-      "source": "Curated coverage seed",
-      "type": "challenge"
-    },
-    {
-      "id": "multimodal-ddl-audio-visual-scene-challenge-2026-11-05",
-      "title": "Audio-Visual Scene Challenge",
-      "deadline": "2026-11-05T23:59:59",
-      "dateRange": "Nov 2026",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "Audio",
-        "Video"
-      ],
-      "url": "https://www.kaggle.com/competitions",
-      "status": "upcoming",
-      "description": "音视频多模态挑战入口。",
-      "stage": "Submission",
-      "source": "Curated coverage seed",
-      "type": "challenge"
-    },
-    {
-      "id": "multimodal-ddl-docvqa-task-refresh-2026-11-18",
-      "title": "DocVQA Task Refresh",
-      "deadline": "2026-11-18T23:59:59",
-      "dateRange": "Nov 2026",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "DocVQA",
-        "OCR"
-      ],
-      "url": "https://rrc.cvc.uab.es/?ch=17",
-      "status": "upcoming",
-      "description": "文档问答评测入口。",
-      "stage": "Result upload",
-      "source": "Curated coverage seed",
-      "type": "challenge"
-    },
-    {
-      "id": "multimodal-ddl-cvpr-vlm-workshop-paper-2026-12-01",
-      "title": "CVPR VLM Workshop Paper",
-      "deadline": "2026-12-01T23:59:59",
-      "dateRange": "Dec 2026",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "VLM",
-        "Workshop"
-      ],
-      "url": "https://cvpr.thecvf.com",
-      "status": "upcoming",
-      "description": "VLM workshop paper 入口。",
-      "stage": "Workshop paper",
-      "source": "Curated coverage seed",
-      "type": "program"
-    },
-    {
-      "id": "multimodal-ddl-mmbench-leaderboard-snapshot-2026-12-12",
-      "title": "MMBench Leaderboard Snapshot",
-      "deadline": "2026-12-12T23:59:59",
-      "dateRange": "Dec 2026",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "MMBench",
-        "VLM"
-      ],
-      "url": "https://opencompass.org.cn/leaderboard-multimodal",
-      "status": "upcoming",
-      "description": "多模态综合评测入口。",
-      "stage": "Leaderboard",
-      "source": "Curated coverage seed",
-      "type": "challenge"
-    },
-    {
-      "id": "multimodal-ddl-multimodal-safety-red-team-2026-12-20",
-      "title": "Multimodal Safety Red Team",
-      "deadline": "2026-12-20T23:59:59",
-      "dateRange": "Dec 2026",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "Safety",
-        "Red Team"
-      ],
-      "url": "https://openreview.net/",
-      "status": "upcoming",
-      "description": "多模态安全评测入口。",
-      "stage": "Report",
-      "source": "Curated coverage seed",
-      "type": "challenge"
-    },
-    {
-      "id": "multimodal-ddl-llava-bench-refresh-2027-01-05",
-      "title": "LLaVA Bench Refresh",
-      "deadline": "2027-01-05T23:59:59",
-      "dateRange": "Jan 2027",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "LLaVA",
-        "VLM"
-      ],
-      "url": "https://llava-vl.github.io",
-      "status": "upcoming",
-      "description": "VLM 对话能力评测入口。",
-      "stage": "Evaluation",
-      "source": "Curated coverage seed",
-      "type": "challenge"
-    },
-    {
-      "id": "multimodal-ddl-acl-multimodal-nlp-workshop-2027-01-25",
-      "title": "ACL Multimodal NLP Workshop",
-      "deadline": "2027-01-25T23:59:59",
-      "dateRange": "Jan 2027",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "Multimodal NLP",
-        "Workshop"
-      ],
-      "url": "https://www.aclweb.org",
-      "status": "upcoming",
-      "description": "多模态 NLP workshop 入口。",
-      "stage": "Paper",
-      "source": "Curated coverage seed",
-      "type": "program"
-    },
-    {
-      "id": "multimodal-ddl-speech-to-image-evaluation-track-2027-02-08",
-      "title": "Speech-to-Image Evaluation Track",
-      "deadline": "2027-02-08T23:59:59",
-      "dateRange": "Feb 2027",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "Speech",
-        "Generation"
-      ],
-      "url": "https://www.kaggle.com/competitions",
-      "status": "upcoming",
-      "description": "语音到图像生成评测入口。",
-      "stage": "Submission",
-      "source": "Curated coverage seed",
-      "type": "challenge"
-    },
-    {
-      "id": "multimodal-ddl-robotics-vla-benchmark-2027-03-10",
-      "title": "Robotics VLA Benchmark",
-      "deadline": "2027-03-10T23:59:59",
-      "dateRange": "Mar 2027",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "VLA",
-        "Robotics"
-      ],
-      "url": "https://openreview.net/",
-      "status": "upcoming",
-      "description": "视觉-语言-动作模型评测入口。",
-      "stage": "Leaderboard",
-      "source": "Curated coverage seed",
-      "type": "challenge"
     }
   ],
   "holiday-ddl": [
@@ -3762,7 +6036,332 @@ export const ddlData: Record<string, DDLItem[]> = {
       "type": "holiday"
     }
   ],
-  "journal-ddl": []
+  "multimodal-ddl": [
+    {
+      "id": "multimodal-ddl-vqa-challenge-2026-2026-07-01",
+      "title": "VQA Challenge 2026",
+      "deadline": "2026-07-01T23:59:59",
+      "dateRange": "Jul 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "VQA",
+        "Vision-Language"
+      ],
+      "url": "https://visualqa.org",
+      "status": "upcoming",
+      "description": "视觉问答评测入口。",
+      "stage": "Submission",
+      "source": "Benchmark demo",
+      "type": "challenge"
+    },
+    {
+      "id": "multimodal-ddl-textvqa-refresh-2026-08-01",
+      "title": "TextVQA Refresh",
+      "deadline": "2026-08-01T23:59:59",
+      "dateRange": "Aug 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "OCR",
+        "VQA"
+      ],
+      "url": "https://textvqa.org",
+      "status": "upcoming",
+      "description": "OCR + VQA 评测入口。",
+      "stage": "Result upload",
+      "source": "Benchmark demo",
+      "type": "challenge"
+    },
+    {
+      "id": "multimodal-ddl-mmmu-challenge-2026-2026-08-15",
+      "title": "MMMU Challenge 2026",
+      "deadline": "2026-08-15T23:59:59",
+      "dateRange": "Aug 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "MM Understanding",
+        "Reasoning"
+      ],
+      "url": "https://mmmu-benchmark.github.io",
+      "status": "upcoming",
+      "description": "多模态理解 benchmark 入口。",
+      "stage": "Leaderboard",
+      "source": "Benchmark demo",
+      "type": "challenge"
+    },
+    {
+      "id": "multimodal-ddl-image-captioning-challenge-2026-08-28",
+      "title": "Image Captioning Challenge",
+      "deadline": "2026-08-28T23:59:59",
+      "dateRange": "Aug 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "Captioning",
+        "COCO"
+      ],
+      "url": "https://cocodataset.org",
+      "status": "upcoming",
+      "description": "图像描述挑战入口。",
+      "stage": "Submission",
+      "source": "Curated coverage seed",
+      "type": "challenge"
+    },
+    {
+      "id": "multimodal-ddl-mmlu-pro-vision-reasoning-track-2026-09-18",
+      "title": "MMLU-Pro Vision Reasoning Track",
+      "deadline": "2026-09-18T23:59:59",
+      "dateRange": "Sep 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "Reasoning",
+        "VLM"
+      ],
+      "url": "https://www.kaggle.com/competitions",
+      "status": "upcoming",
+      "description": "多模态推理榜单入口。",
+      "stage": "Leaderboard",
+      "source": "Curated coverage seed",
+      "type": "challenge"
+    },
+    {
+      "id": "multimodal-ddl-video-captioning-challenge-2026-09-25",
+      "title": "Video Captioning Challenge",
+      "deadline": "2026-09-25T23:59:59",
+      "dateRange": "Sep 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "Video Captioning",
+        "Generation"
+      ],
+      "url": "https://www.kaggle.com/competitions",
+      "status": "upcoming",
+      "description": "视频描述挑战入口。",
+      "stage": "Submission",
+      "source": "Curated coverage seed",
+      "type": "challenge"
+    },
+    {
+      "id": "multimodal-ddl-aigc-evaluation-2026-2026-09-30",
+      "title": "AIGC Evaluation 2026",
+      "deadline": "2026-09-30T23:59:59",
+      "dateRange": "Sep 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "AIGC",
+        "Generation"
+      ],
+      "url": "https://www.kaggle.com/competitions",
+      "status": "upcoming",
+      "description": "生成式 AI 评测入口。",
+      "stage": "Final submit",
+      "source": "Kaggle-style demo",
+      "type": "challenge"
+    },
+    {
+      "id": "multimodal-ddl-video-mme-leaderboard-freeze-2026-10-12",
+      "title": "Video-MME Leaderboard Freeze",
+      "deadline": "2026-10-12T23:59:59",
+      "dateRange": "Oct 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "Video",
+        "VLM"
+      ],
+      "url": "https://video-mme.github.io",
+      "status": "upcoming",
+      "description": "视频理解评测入口。",
+      "stage": "Leaderboard",
+      "source": "Benchmark demo",
+      "type": "challenge"
+    },
+    {
+      "id": "multimodal-ddl-chartqa-challenge-2026-10-22",
+      "title": "ChartQA Challenge",
+      "deadline": "2026-10-22T23:59:59",
+      "dateRange": "Oct 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "ChartQA",
+        "Document"
+      ],
+      "url": "https://github.com/vis-nlp/ChartQA",
+      "status": "upcoming",
+      "description": "图表问答评测入口。",
+      "stage": "Submission",
+      "source": "Curated coverage seed",
+      "type": "challenge"
+    },
+    {
+      "id": "multimodal-ddl-audio-visual-scene-challenge-2026-11-05",
+      "title": "Audio-Visual Scene Challenge",
+      "deadline": "2026-11-05T23:59:59",
+      "dateRange": "Nov 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "Audio",
+        "Video"
+      ],
+      "url": "https://www.kaggle.com/competitions",
+      "status": "upcoming",
+      "description": "音视频多模态挑战入口。",
+      "stage": "Submission",
+      "source": "Curated coverage seed",
+      "type": "challenge"
+    },
+    {
+      "id": "multimodal-ddl-docvqa-task-refresh-2026-11-18",
+      "title": "DocVQA Task Refresh",
+      "deadline": "2026-11-18T23:59:59",
+      "dateRange": "Nov 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "DocVQA",
+        "OCR"
+      ],
+      "url": "https://rrc.cvc.uab.es/?ch=17",
+      "status": "upcoming",
+      "description": "文档问答评测入口。",
+      "stage": "Result upload",
+      "source": "Curated coverage seed",
+      "type": "challenge"
+    },
+    {
+      "id": "multimodal-ddl-cvpr-vlm-workshop-paper-2026-12-01",
+      "title": "CVPR VLM Workshop Paper",
+      "deadline": "2026-12-01T23:59:59",
+      "dateRange": "Dec 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "VLM",
+        "Workshop"
+      ],
+      "url": "https://cvpr.thecvf.com",
+      "status": "upcoming",
+      "description": "VLM workshop paper 入口。",
+      "stage": "Workshop paper",
+      "source": "Curated coverage seed",
+      "type": "program"
+    },
+    {
+      "id": "multimodal-ddl-mmbench-leaderboard-snapshot-2026-12-12",
+      "title": "MMBench Leaderboard Snapshot",
+      "deadline": "2026-12-12T23:59:59",
+      "dateRange": "Dec 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "MMBench",
+        "VLM"
+      ],
+      "url": "https://opencompass.org.cn/leaderboard-multimodal",
+      "status": "upcoming",
+      "description": "多模态综合评测入口。",
+      "stage": "Leaderboard",
+      "source": "Curated coverage seed",
+      "type": "challenge"
+    },
+    {
+      "id": "multimodal-ddl-multimodal-safety-red-team-2026-12-20",
+      "title": "Multimodal Safety Red Team",
+      "deadline": "2026-12-20T23:59:59",
+      "dateRange": "Dec 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "Safety",
+        "Red Team"
+      ],
+      "url": "https://openreview.net/",
+      "status": "upcoming",
+      "description": "多模态安全评测入口。",
+      "stage": "Report",
+      "source": "Curated coverage seed",
+      "type": "challenge"
+    },
+    {
+      "id": "multimodal-ddl-llava-bench-refresh-2027-01-05",
+      "title": "LLaVA Bench Refresh",
+      "deadline": "2027-01-05T23:59:59",
+      "dateRange": "Jan 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "LLaVA",
+        "VLM"
+      ],
+      "url": "https://llava-vl.github.io",
+      "status": "upcoming",
+      "description": "VLM 对话能力评测入口。",
+      "stage": "Evaluation",
+      "source": "Curated coverage seed",
+      "type": "challenge"
+    },
+    {
+      "id": "multimodal-ddl-acl-multimodal-nlp-workshop-2027-01-25",
+      "title": "ACL Multimodal NLP Workshop",
+      "deadline": "2027-01-25T23:59:59",
+      "dateRange": "Jan 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "Multimodal NLP",
+        "Workshop"
+      ],
+      "url": "https://www.aclweb.org",
+      "status": "upcoming",
+      "description": "多模态 NLP workshop 入口。",
+      "stage": "Paper",
+      "source": "Curated coverage seed",
+      "type": "program"
+    },
+    {
+      "id": "multimodal-ddl-speech-to-image-evaluation-track-2027-02-08",
+      "title": "Speech-to-Image Evaluation Track",
+      "deadline": "2027-02-08T23:59:59",
+      "dateRange": "Feb 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "Speech",
+        "Generation"
+      ],
+      "url": "https://www.kaggle.com/competitions",
+      "status": "upcoming",
+      "description": "语音到图像生成评测入口。",
+      "stage": "Submission",
+      "source": "Curated coverage seed",
+      "type": "challenge"
+    },
+    {
+      "id": "multimodal-ddl-robotics-vla-benchmark-2027-03-10",
+      "title": "Robotics VLA Benchmark",
+      "deadline": "2027-03-10T23:59:59",
+      "dateRange": "Mar 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "VLA",
+        "Robotics"
+      ],
+      "url": "https://openreview.net/",
+      "status": "upcoming",
+      "description": "视觉-语言-动作模型评测入口。",
+      "stage": "Leaderboard",
+      "source": "Curated coverage seed",
+      "type": "challenge"
+    }
+  ]
 };
 
 export const getDDLByTopic = (topicId: string) => ddlData[topicId] || [];
