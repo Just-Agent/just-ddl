@@ -1,14 +1,14 @@
 import { useMemo } from 'react';
 import { useParams, Link } from 'react-router';
 import { motion } from 'framer-motion';
-import { ArrowLeft, Trophy, Bot, Eye, MessageSquare, GraduationCap, Code2, CalendarHeart, Layers, Star, Github, ExternalLink } from 'lucide-react';
+import { ArrowLeft, Trophy, Bot, Eye, MessageSquare, GraduationCap, BookOpen, Code2, CalendarHeart, Layers, Star, Github, ExternalLink } from 'lucide-react';
 import { getTopicById } from '@/data/topics';
 import { getDDLByTopic } from '@/data/ddl-data';
 import { useSubscriptions } from '@/hooks/useSubscriptions';
 import DDLCard from '@/components/DDLCard';
 
 const iconMap: Record<string, typeof Trophy> = {
-  Trophy, Bot, Eye, MessageSquare, GraduationCap, Code2, CalendarHeart, Layers,
+  Trophy, Bot, Eye, MessageSquare, GraduationCap, BookOpen, Code2, CalendarHeart, Layers,
 };
 
 export default function TopicDetail() {

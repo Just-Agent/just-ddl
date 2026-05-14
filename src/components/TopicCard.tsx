@@ -1,11 +1,11 @@
 import { Link } from 'react-router';
 import { motion } from 'framer-motion';
-import { Trophy, Bot, Eye, MessageSquare, GraduationCap, Code2, CalendarHeart, Layers, ArrowRight, Star, ExternalLink } from 'lucide-react';
+import { Trophy, Bot, Eye, MessageSquare, GraduationCap, BookOpen, Code2, CalendarHeart, Layers, ArrowRight, Star, ExternalLink } from 'lucide-react';
 import type { Topic } from '@/data/topics';
 import { useSubscriptions } from '@/hooks/useSubscriptions';
 
 const iconMap: Record<string, typeof Trophy> = {
-  Trophy, Bot, Eye, MessageSquare, GraduationCap, Code2, CalendarHeart, Layers,
+  Trophy, Bot, Eye, MessageSquare, GraduationCap, BookOpen, Code2, CalendarHeart, Layers,
 };
 
 export default function TopicCard({ topic, index }: { topic: Topic; index: number }) {

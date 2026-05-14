@@ -4,6 +4,7 @@ const topics = [
   { label: 'CV', href: 'https://just-agent.github.io/cv-ddl/' },
   { label: 'NLP', href: 'https://just-agent.github.io/nlp-ddl/' },
   { label: 'Academic', href: 'https://just-agent.github.io/academic-ddl/' },
+  { label: 'Journal', href: 'https://just-agent.github.io/journal-ddl/' },
   { label: 'Programming', href: 'https://just-agent.github.io/programming-ddl/' },
   { label: 'Holiday', href: 'https://just-agent.github.io/holiday-ddl/' },
   { label: 'Multimodal', href: 'https://just-agent.github.io/multimodal-ddl/' },

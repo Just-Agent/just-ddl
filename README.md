@@ -57,6 +57,7 @@ graph TD
 | CV-DDL | [Just-Agent/cv-ddl](https://github.com/Just-Agent/cv-ddl) | [访问](https://just-agent.github.io/cv-ddl/) | Demo 已完善 |
 | NLP-DDL | [Just-Agent/nlp-ddl](https://github.com/Just-Agent/nlp-ddl) | [访问](https://just-agent.github.io/nlp-ddl/) | Demo 已完善 |
 | Academic-DDL | [Just-Agent/academic-ddl](https://github.com/Just-Agent/academic-ddl) | [访问](https://just-agent.github.io/academic-ddl/) | Demo 已完善 |
+| Journal-DDL | [Just-Agent/journal-ddl](https://github.com/Just-Agent/journal-ddl) | [访问](https://just-agent.github.io/journal-ddl/) | 数据流已接入 |
 | Programming-DDL | [Just-Agent/programming-ddl](https://github.com/Just-Agent/programming-ddl) | [访问](https://just-agent.github.io/programming-ddl/) | Demo 已完善 |
 | Holiday-DDL | [Just-Agent/holiday-ddl](https://github.com/Just-Agent/holiday-ddl) | [访问](https://just-agent.github.io/holiday-ddl/) | Demo 已完善 |
 | Multimodal-DDL | [Just-Agent/multimodal-ddl](https://github.com/Just-Agent/multimodal-ddl) | [访问](https://just-agent.github.io/multimodal-ddl/) | Demo 已完善 |
@@ -77,6 +78,7 @@ graph TD
 | 总入口 | `just-ddl` | React + Vite + GitHub Pages |
 | 已上线专题 | `hackathon-ddl`, `agent-ddl` | React + Vite + GitHub Pages |
 | Demo 完善专题 | `cv-ddl`, `nlp-ddl`, `academic-ddl`, `programming-ddl`, `holiday-ddl`, `multimodal-ddl` | 已发布可搜索、可筛选、带 seed DDL 的静态专题页 |
+| 期刊 CFP 专题 | `journal-ddl` | 已接入 `data/items.json`、crawler seed、validator、link-check |
 
 > 本项目约定生产构建、打包和 Pages 发布全部由 GitHub Actions 完成。本地没有生产环境时，不在本地强行构建。
 
@@ -97,8 +99,9 @@ npm run dev
 | 2 | 发布 Hackathon、Agent、Just-DDL 三个 Pages | 完成 |
 | 3 | 为所有规划专题补齐 README、Pages 和 demo DDL | 完成 |
 | 4 | 为每个专题建立独立数据抓取 workflow | 计划中 |
-| 5 | 接入微信小程序专题页 | 计划中 |
-| 6 | PC / App 支持个人 DDL、本地加密和多端同步 | 计划中 |
+| 5 | 期刊 Special Issue / Special Section CFP 专题 | 完成 |
+| 6 | 接入微信小程序专题页 | 计划中 |
+| 7 | PC / App 支持个人 DDL、本地加密和多端同步 | 计划中 |
 
 ## 贡献
 
