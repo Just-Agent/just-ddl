@@ -36,6 +36,8 @@ export default function TopicDetail() {
 
   const Icon = iconMap[topic.icon] || Trophy;
   const subscribed = isSubscribed(topic.id);
+  const activeItems = items.filter(d => d.status !== 'ended');
+  const nextItem = activeItems[0];
 
   return (
     <div className="mx-auto max-w-4xl px-4 py-6 sm:px-6 sm:py-8">
@@ -57,7 +59,7 @@ export default function TopicDetail() {
               <h1 className="text-lg font-bold" style={{ color: '#1C1917' }}>{topic.name}</h1>
               <span className="rounded-full px-2 py-0.5 text-[10px] font-medium" style={{ background: `${topic.color}12`, color: topic.color }}>{topic.category}</span>
               <span className="rounded-full px-2 py-0.5 text-[10px] font-medium" style={{ background: topic.status === 'published' ? '#ECFDF5' : '#F5F5F4', color: topic.status === 'published' ? '#047857' : '#78716C' }}>
-                {topic.status === 'published' ? '已发布' : '专题骨架'}
+                {topic.status === 'published' ? '已发布' : 'Demo 已完善'}
               </span>
             </div>
             <p className="mt-1 text-xs" style={{ color: '#78716C' }}>{topic.description}</p>
@@ -87,6 +89,25 @@ export default function TopicDetail() {
           <span key={t} className="rounded-md px-2 py-0.5 text-[10px] font-medium" style={{ background: '#FFF7ED', color: '#78716C' }}>{t}</span>
         ))}
       </div>
+
+      <section className="mt-4 grid grid-cols-2 gap-3 sm:grid-cols-4">
+        <div className="rounded-xl border bg-white p-3" style={{ borderColor: '#FED7AA' }}>
+          <p className="text-[10px] font-medium uppercase tracking-wider" style={{ color: '#A8A29E' }}>Total</p>
+          <p className="mt-1 text-lg font-bold" style={{ color: '#1C1917' }}>{items.length}</p>
+        </div>
+        <div className="rounded-xl border bg-white p-3" style={{ borderColor: '#FED7AA' }}>
+          <p className="text-[10px] font-medium uppercase tracking-wider" style={{ color: '#A8A29E' }}>Active</p>
+          <p className="mt-1 text-lg font-bold" style={{ color: topic.color }}>{activeItems.length}</p>
+        </div>
+        <div className="rounded-xl border bg-white p-3" style={{ borderColor: '#FED7AA' }}>
+          <p className="text-[10px] font-medium uppercase tracking-wider" style={{ color: '#A8A29E' }}>Next</p>
+          <p className="mt-1 truncate text-xs font-semibold" style={{ color: '#1C1917' }}>{nextItem?.stage || '暂无'}</p>
+        </div>
+        <div className="rounded-xl border bg-white p-3" style={{ borderColor: '#FED7AA' }}>
+          <p className="text-[10px] font-medium uppercase tracking-wider" style={{ color: '#A8A29E' }}>Sources</p>
+          <p className="mt-1 text-lg font-bold" style={{ color: '#1C1917' }}>{new Set(items.map(i => i.source).filter(Boolean)).size}</p>
+        </div>
+      </section>
 
       {/* DDL List */}
       <section className="mt-6 space-y-3">

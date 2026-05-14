@@ -57,7 +57,7 @@ export default function TopicCard({ topic, index }: { topic: Topic; index: numbe
           <div className="flex items-center gap-1.5">
             <span className="text-[11px] font-medium" style={{ color: topic.color }}>{topic.category}</span>
             <span className="rounded-full px-1.5 py-0.5 text-[10px] font-medium" style={{ background: topic.status === 'published' ? '#ECFDF5' : '#F5F5F4', color: topic.status === 'published' ? '#047857' : '#78716C' }}>
-              {topic.status === 'published' ? '已发布' : '骨架'}
+              {topic.status === 'published' ? '已发布' : 'Demo'}
             </span>
           </div>
         </div>

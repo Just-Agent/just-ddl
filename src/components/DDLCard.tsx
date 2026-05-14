@@ -1,6 +1,6 @@
 import { Link } from 'react-router';
 import { motion } from 'framer-motion';
-import { MapPin, Globe, Star, ExternalLink } from 'lucide-react';
+import { CalendarDays, MapPin, Globe, Star, ExternalLink, Database } from 'lucide-react';
 import type { DDLItem } from '@/data/ddl-data';
 import Countdown from './Countdown';
 import { useSubscriptions } from '@/hooks/useSubscriptions';
@@ -29,11 +29,14 @@ export default function DDLCard({ item, index, topicColor = '#F97316' }: { item:
       <div className="flex-1 min-w-0">
         <div className="flex items-center gap-2">
           <h4 className="truncate text-sm font-semibold" style={{ color: '#1C1917' }}>{item.title}</h4>
+          {item.stage && <span className="shrink-0 rounded-full px-1.5 py-0.5 text-[10px] font-medium" style={{ background: topicColor + '12', color: topicColor }}>{item.stage}</span>}
           {item.status === 'ended' && <span className="shrink-0 rounded-full px-1.5 py-0.5 text-[10px] font-medium" style={{ background: '#F5F5F4', color: '#A8A29E' }}>已结束</span>}
         </div>
+        {item.description && <p className="mt-1 text-[11px] leading-relaxed" style={{ color: '#78716C' }}>{item.description}</p>}
         <div className="mt-1 flex flex-wrap items-center gap-x-3 gap-y-1 text-[11px]" style={{ color: '#A8A29E' }}>
           <span className="flex items-center gap-1">{item.isOnline ? <Globe size={11} /> : <MapPin size={11} />}{item.location}</span>
-          <span>{item.dateRange}</span>
+          <span className="flex items-center gap-1"><CalendarDays size={11} />{item.dateRange}</span>
+          {item.source && <span className="flex items-center gap-1"><Database size={11} />{item.source}</span>}
           {item.prize && <span style={{ color: '#F97316' }}>{item.prize}</span>}
         </div>
         <div className="mt-1.5 flex flex-wrap gap-1">
