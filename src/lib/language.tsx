@@ -42,6 +42,46 @@ const topicCopy: Record<string, Record<Language, { name: string; description: st
     zh: { name: '多模态', description: '多模态理解、VLM、AIGC、视频和音频评测挑战截止日。' },
     en: { name: 'Multimodal', description: 'Multimodal understanding, VLM, AIGC, video, and audio evaluation challenge deadlines.' },
   },
+  'security-ddl': {
+    zh: { name: '安全与 CTF', description: 'CTF、网络安全会议、漏洞赏金、攻防演练和安全研究专题截止日。' },
+    en: { name: 'Security & CTF', description: 'CTF, cybersecurity conferences, bug bounty windows, red-team drills, and security research deadlines.' },
+  },
+  'data-science-ddl': {
+    zh: { name: '数据科学', description: 'Kaggle、天池、DataCastle、数据挖掘会议与数据挑战赛截止日。' },
+    en: { name: 'Data Science', description: 'Kaggle, Tianchi, DataCastle, data mining conferences, and data challenge deadlines.' },
+  },
+  'open-source-ddl': {
+    zh: { name: '开源计划', description: 'GSoC、OSPP、LFX、Outreachy、开源实习与社区贡献计划截止日。' },
+    en: { name: 'Open Source', description: 'GSoC, OSPP, LFX, Outreachy, open-source internships, and community program deadlines.' },
+  },
+  'robotics-ddl': {
+    zh: { name: '机器人', description: '机器人竞赛、ICRA/IROS challenge、自动驾驶和具身智能评测节点。' },
+    en: { name: 'Robotics', description: 'Robotics competitions, ICRA/IROS challenges, autonomous driving, and embodied AI evaluation windows.' },
+  },
+  'startup-ddl': {
+    zh: { name: '创业与孵化', description: '创业大赛、加速器申请、创新创业项目、路演和 grant 申请截止日。' },
+    en: { name: 'Startup', description: 'Startup competitions, accelerator applications, innovation programs, demo days, and grant deadlines.' },
+  },
+  'design-ddl': {
+    zh: { name: '设计与产品', description: 'UX、产品设计、服务设计、交互设计、工业设计和创意挑战赛截止日。' },
+    en: { name: 'Design & Product', description: 'UX, product design, service design, interaction design, industrial design, and creative challenge deadlines.' },
+  },
+  'exam-ddl': {
+    zh: { name: '考试考证', description: '升学考试、语言考试、职业资格、报名缴费和准考证打印提醒。' },
+    en: { name: 'Exams', description: 'Academic exams, language tests, professional certificates, registration windows, and admit-card reminders.' },
+  },
+  'scholarship-ddl': {
+    zh: { name: '奖学金申请', description: '奖学金、访问学者、暑研、交换项目、博士申请和 fellowship 截止日。' },
+    en: { name: 'Scholarships', description: 'Scholarships, visiting programs, summer research, exchange programs, PhD applications, and fellowships.' },
+  },
+  'game-dev-ddl': {
+    zh: { name: '游戏开发', description: 'Game Jam、独立游戏节、学生游戏竞赛、引擎挑战和作品提交截止日。' },
+    en: { name: 'Game Dev', description: 'Game jams, indie festivals, student game competitions, engine challenges, and submission deadlines.' },
+  },
+  'biotech-ddl': {
+    zh: { name: '生命科学', description: '生物医药、医学影像、基因组、蛋白质设计和健康 AI 挑战截止日。' },
+    en: { name: 'Biotech', description: 'Biomedical, medical imaging, genomics, protein design, and health AI challenge deadlines.' },
+  },
 };
 
 const categoryCopy: Record<string, Record<Language, string>> = {
@@ -51,6 +91,11 @@ const categoryCopy: Record<string, Record<Language, string>> = {
   学术期刊: { zh: '学术期刊', en: 'Journals' },
   专业竞赛: { zh: '专业竞赛', en: 'Competitions' },
   日常通用: { zh: '日常通用', en: 'Everyday' },
+  安全开源: { zh: '安全开源', en: 'Security & Open Source' },
+  产业创业: { zh: '产业创业', en: 'Startup' },
+  设计创作: { zh: '设计创作', en: 'Design & Creation' },
+  考试申请: { zh: '考试申请', en: 'Exams & Applications' },
+  生命健康: { zh: '生命健康', en: 'Life & Health' },
 };
 
 const tagCopy: Record<string, Record<Language, string>> = {
@@ -71,7 +116,7 @@ const dictionary = {
     nav: { plaza: '主题广场', my: '我的 DDL', about: '关于', github: 'GitHub', repo: '仓库' },
     network: {
       roadmap: '路线图',
-      topics: ['黑客松', '智能体', '视觉', 'NLP', '学术', '期刊', '编程', '节假日', '多模态'],
+      topics: ['黑客松', '智能体', '视觉', 'NLP', '学术', '期刊', '编程', '节假日', '多模态', '安全', '数据', '开源', '机器人', '创业', '设计', '考试', '奖学金', '游戏', '生命科学'],
     },
     home: {
       title: '主题广场',
@@ -167,7 +212,7 @@ const dictionary = {
     nav: { plaza: 'Topic Plaza', my: 'My DDL', about: 'About', github: 'GitHub', repo: 'Repo' },
     network: {
       roadmap: 'Roadmap',
-      topics: ['Hackathon', 'Agent', 'CV', 'NLP', 'Academic', 'Journal', 'Programming', 'Holiday', 'Multimodal'],
+      topics: ['Hackathon', 'Agent', 'CV', 'NLP', 'Academic', 'Journal', 'Programming', 'Holiday', 'Multimodal', 'Security', 'Data', 'Open Source', 'Robotics', 'Startup', 'Design', 'Exams', 'Scholarships', 'Game Dev', 'Biotech'],
     },
     home: {
       title: 'Topic Plaza',

@@ -1,19 +1,8 @@
 import { useLanguage } from '@/lib/language';
-
-const topics = [
-  { key: 'hackathon', href: 'https://just-agent.github.io/hackathon-ddl/' },
-  { key: 'agent', href: 'https://just-agent.github.io/agent-ddl/' },
-  { key: 'cv', href: 'https://just-agent.github.io/cv-ddl/' },
-  { key: 'nlp', href: 'https://just-agent.github.io/nlp-ddl/' },
-  { key: 'academic', href: 'https://just-agent.github.io/academic-ddl/' },
-  { key: 'journal', href: 'https://just-agent.github.io/journal-ddl/' },
-  { key: 'programming', href: 'https://just-agent.github.io/programming-ddl/' },
-  { key: 'holiday', href: 'https://just-agent.github.io/holiday-ddl/' },
-  { key: 'multimodal', href: 'https://just-agent.github.io/multimodal-ddl/' },
-];
+import { topics } from '@/data/topics';
 
 export default function NetworkBar() {
-  const { copy } = useLanguage();
+  const { copy, topicName } = useLanguage();
 
   return (
     <div className="border-b border-white/10 bg-[#101626] text-white">
@@ -26,13 +15,13 @@ export default function NetworkBar() {
           Just-DDL Network
         </a>
         <div className="flex min-w-0 items-center gap-3 overflow-x-auto">
-          {topics.map((topic, index) => (
+          {topics.map((topic) => (
             <a
-              key={topic.key}
-              href={topic.href}
+              key={topic.id}
+              href={topic.site}
               className="whitespace-nowrap text-white/70 transition-colors hover:text-white"
             >
-              {copy.network.topics[index]}
+              {topicName(topic)}
             </a>
           ))}
           <a

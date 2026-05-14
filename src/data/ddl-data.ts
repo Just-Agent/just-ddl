@@ -350,6 +350,150 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Registration",
       "source": "Curated coverage seed",
       "type": "hackathon"
+    },
+    {
+      "id": "hackathon-ddl-hackdavis-2027-2027-01-15",
+      "title": "HackDavis 2027",
+      "deadline": "2027-01-15T23:59:59",
+      "dateRange": "Jan 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "coverage",
+        "seed"
+      ],
+      "url": "https://just-agent.github.io/just-ddl/",
+      "status": "upcoming",
+      "description": "HackDavis 2027 ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "challenge"
+    },
+    {
+      "id": "hackathon-ddl-hacknyu-2027-2027-02-02",
+      "title": "HackNYU 2027",
+      "deadline": "2027-02-02T23:59:59",
+      "dateRange": "Feb 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "coverage",
+        "seed"
+      ],
+      "url": "https://just-agent.github.io/just-ddl/",
+      "status": "upcoming",
+      "description": "HackNYU 2027 ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "challenge"
+    },
+    {
+      "id": "hackathon-ddl-hackduke-2027-2027-02-20",
+      "title": "HackDuke 2027",
+      "deadline": "2027-02-20T23:59:59",
+      "dateRange": "Feb 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "coverage",
+        "seed"
+      ],
+      "url": "https://just-agent.github.io/just-ddl/",
+      "status": "upcoming",
+      "description": "HackDuke 2027 ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "challenge"
+    },
+    {
+      "id": "hackathon-ddl-hackumass-2027-2027-03-10",
+      "title": "HackUMass 2027",
+      "deadline": "2027-03-10T23:59:59",
+      "dateRange": "Mar 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "coverage",
+        "seed"
+      ],
+      "url": "https://just-agent.github.io/just-ddl/",
+      "status": "upcoming",
+      "description": "HackUMass 2027 ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "challenge"
+    },
+    {
+      "id": "hackathon-ddl-shellhacks-2027-2027-03-28",
+      "title": "ShellHacks 2027",
+      "deadline": "2027-03-28T23:59:59",
+      "dateRange": "Mar 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "coverage",
+        "seed"
+      ],
+      "url": "https://just-agent.github.io/just-ddl/",
+      "status": "upcoming",
+      "description": "ShellHacks 2027 ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "challenge"
+    },
+    {
+      "id": "hackathon-ddl-hack-the-6ix-2027-2027-04-15",
+      "title": "Hack the 6ix 2027",
+      "deadline": "2027-04-15T23:59:59",
+      "dateRange": "Apr 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "coverage",
+        "seed"
+      ],
+      "url": "https://just-agent.github.io/just-ddl/",
+      "status": "upcoming",
+      "description": "Hack the 6ix 2027 ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "challenge"
+    },
+    {
+      "id": "hackathon-ddl-global-climate-hack-2027-2027-05-03",
+      "title": "Global Climate Hack 2027",
+      "deadline": "2027-05-03T23:59:59",
+      "dateRange": "May 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "coverage",
+        "seed"
+      ],
+      "url": "https://just-agent.github.io/just-ddl/",
+      "status": "upcoming",
+      "description": "Global Climate Hack 2027 ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "challenge"
+    },
+    {
+      "id": "hackathon-ddl-ai-for-education-hackathon-2027-2027-05-21",
+      "title": "AI for Education Hackathon 2027",
+      "deadline": "2027-05-21T23:59:59",
+      "dateRange": "May 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "coverage",
+        "seed"
+      ],
+      "url": "https://just-agent.github.io/just-ddl/",
+      "status": "upcoming",
+      "description": "AI for Education Hackathon 2027 ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "challenge"
     }
   ],
   "agent-ddl": [
@@ -679,6 +823,150 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Paper",
       "source": "Academic coverage seed",
       "type": "challenge"
+    },
+    {
+      "id": "agent-ddl-agentbench-reliability-track-2027-01-15",
+      "title": "AgentBench Reliability Track",
+      "deadline": "2027-01-15T23:59:59",
+      "dateRange": "Jan 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "coverage",
+        "seed"
+      ],
+      "url": "https://just-agent.github.io/just-ddl/",
+      "status": "upcoming",
+      "description": "AgentBench Reliability Track ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "challenge"
+    },
+    {
+      "id": "agent-ddl-browsergym-agent-league-2027-02-02",
+      "title": "BrowserGym Agent League",
+      "deadline": "2027-02-02T23:59:59",
+      "dateRange": "Feb 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "coverage",
+        "seed"
+      ],
+      "url": "https://just-agent.github.io/just-ddl/",
+      "status": "upcoming",
+      "description": "BrowserGym Agent League ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "challenge"
+    },
+    {
+      "id": "agent-ddl-toolbench-tool-use-challenge-2027-02-20",
+      "title": "ToolBench Tool-Use Challenge",
+      "deadline": "2027-02-20T23:59:59",
+      "dateRange": "Feb 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "coverage",
+        "seed"
+      ],
+      "url": "https://just-agent.github.io/just-ddl/",
+      "status": "upcoming",
+      "description": "ToolBench Tool-Use Challenge ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "challenge"
+    },
+    {
+      "id": "agent-ddl-multi-agent-negotiation-cup-2027-03-10",
+      "title": "Multi-Agent Negotiation Cup",
+      "deadline": "2027-03-10T23:59:59",
+      "dateRange": "Mar 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "coverage",
+        "seed"
+      ],
+      "url": "https://just-agent.github.io/just-ddl/",
+      "status": "upcoming",
+      "description": "Multi-Agent Negotiation Cup ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "challenge"
+    },
+    {
+      "id": "agent-ddl-agent-memory-benchmark-sprint-2027-03-28",
+      "title": "Agent Memory Benchmark Sprint",
+      "deadline": "2027-03-28T23:59:59",
+      "dateRange": "Mar 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "coverage",
+        "seed"
+      ],
+      "url": "https://just-agent.github.io/just-ddl/",
+      "status": "upcoming",
+      "description": "Agent Memory Benchmark Sprint ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "challenge"
+    },
+    {
+      "id": "agent-ddl-mcp-apps-hackathon-2027-04-15",
+      "title": "MCP Apps Hackathon",
+      "deadline": "2027-04-15T23:59:59",
+      "dateRange": "Apr 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "coverage",
+        "seed"
+      ],
+      "url": "https://just-agent.github.io/just-ddl/",
+      "status": "upcoming",
+      "description": "MCP Apps Hackathon ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "challenge"
+    },
+    {
+      "id": "agent-ddl-agent-safety-red-team-track-2027-05-03",
+      "title": "Agent Safety Red-Team Track",
+      "deadline": "2027-05-03T23:59:59",
+      "dateRange": "May 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "coverage",
+        "seed"
+      ],
+      "url": "https://just-agent.github.io/just-ddl/",
+      "status": "upcoming",
+      "description": "Agent Safety Red-Team Track ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "challenge"
+    },
+    {
+      "id": "agent-ddl-enterprise-agent-workflow-challenge-2027-05-21",
+      "title": "Enterprise Agent Workflow Challenge",
+      "deadline": "2027-05-21T23:59:59",
+      "dateRange": "May 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "coverage",
+        "seed"
+      ],
+      "url": "https://just-agent.github.io/just-ddl/",
+      "status": "upcoming",
+      "description": "Enterprise Agent Workflow Challenge ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "challenge"
     }
   ],
   "cv-ddl": [
@@ -1005,6 +1293,150 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Paper",
       "source": "Curated coverage seed",
       "type": "conference"
+    },
+    {
+      "id": "cv-ddl-ai-city-challenge-2027-2027-01-15",
+      "title": "AI City Challenge 2027",
+      "deadline": "2027-01-15T23:59:59",
+      "dateRange": "Jan 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "coverage",
+        "seed"
+      ],
+      "url": "https://just-agent.github.io/just-ddl/",
+      "status": "upcoming",
+      "description": "AI City Challenge 2027 ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "challenge"
+    },
+    {
+      "id": "cv-ddl-motchallenge-benchmark-refresh-2027-02-02",
+      "title": "MOTChallenge Benchmark Refresh",
+      "deadline": "2027-02-02T23:59:59",
+      "dateRange": "Feb 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "coverage",
+        "seed"
+      ],
+      "url": "https://just-agent.github.io/just-ddl/",
+      "status": "upcoming",
+      "description": "MOTChallenge Benchmark Refresh ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "challenge"
+    },
+    {
+      "id": "cv-ddl-davis-video-segmentation-track-2027-02-20",
+      "title": "DAVIS Video Segmentation Track",
+      "deadline": "2027-02-20T23:59:59",
+      "dateRange": "Feb 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "coverage",
+        "seed"
+      ],
+      "url": "https://just-agent.github.io/just-ddl/",
+      "status": "upcoming",
+      "description": "DAVIS Video Segmentation Track ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "challenge"
+    },
+    {
+      "id": "cv-ddl-coco-detection-challenge-refresh-2027-03-10",
+      "title": "COCO Detection Challenge Refresh",
+      "deadline": "2027-03-10T23:59:59",
+      "dateRange": "Mar 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "coverage",
+        "seed"
+      ],
+      "url": "https://just-agent.github.io/just-ddl/",
+      "status": "upcoming",
+      "description": "COCO Detection Challenge Refresh ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "challenge"
+    },
+    {
+      "id": "cv-ddl-medical-segmentation-decathlon-refresh-2027-03-28",
+      "title": "Medical Segmentation Decathlon Refresh",
+      "deadline": "2027-03-28T23:59:59",
+      "dateRange": "Mar 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "coverage",
+        "seed"
+      ],
+      "url": "https://just-agent.github.io/just-ddl/",
+      "status": "upcoming",
+      "description": "Medical Segmentation Decathlon Refresh ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "challenge"
+    },
+    {
+      "id": "cv-ddl-openimages-challenge-track-2027-04-15",
+      "title": "OpenImages Challenge Track",
+      "deadline": "2027-04-15T23:59:59",
+      "dateRange": "Apr 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "coverage",
+        "seed"
+      ],
+      "url": "https://just-agent.github.io/just-ddl/",
+      "status": "upcoming",
+      "description": "OpenImages Challenge Track ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "challenge"
+    },
+    {
+      "id": "cv-ddl-cvpr-robust-vision-workshop-2027-05-03",
+      "title": "CVPR Robust Vision Workshop",
+      "deadline": "2027-05-03T23:59:59",
+      "dateRange": "May 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "coverage",
+        "seed"
+      ],
+      "url": "https://just-agent.github.io/just-ddl/",
+      "status": "upcoming",
+      "description": "CVPR Robust Vision Workshop ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "challenge"
+    },
+    {
+      "id": "cv-ddl-visual-localization-benchmark-sprint-2027-05-21",
+      "title": "Visual Localization Benchmark Sprint",
+      "deadline": "2027-05-21T23:59:59",
+      "dateRange": "May 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "coverage",
+        "seed"
+      ],
+      "url": "https://just-agent.github.io/just-ddl/",
+      "status": "upcoming",
+      "description": "Visual Localization Benchmark Sprint ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "challenge"
     }
   ],
   "nlp-ddl": [
@@ -1331,6 +1763,150 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Paper",
       "source": "Curated coverage seed",
       "type": "conference"
+    },
+    {
+      "id": "nlp-ddl-sigdial-2027-paper-submission-2027-01-15",
+      "title": "SIGDIAL 2027 Paper Submission",
+      "deadline": "2027-01-15T23:59:59",
+      "dateRange": "Jan 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "coverage",
+        "seed"
+      ],
+      "url": "https://just-agent.github.io/just-ddl/",
+      "status": "upcoming",
+      "description": "SIGDIAL 2027 Paper Submission ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "challenge"
+    },
+    {
+      "id": "nlp-ddl-bea-shared-task-2027-2027-02-02",
+      "title": "BEA Shared Task 2027",
+      "deadline": "2027-02-02T23:59:59",
+      "dateRange": "Feb 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "coverage",
+        "seed"
+      ],
+      "url": "https://just-agent.github.io/just-ddl/",
+      "status": "upcoming",
+      "description": "BEA Shared Task 2027 ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "challenge"
+    },
+    {
+      "id": "nlp-ddl-clpsych-shared-task-2027-2027-02-20",
+      "title": "CLPsych Shared Task 2027",
+      "deadline": "2027-02-20T23:59:59",
+      "dateRange": "Feb 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "coverage",
+        "seed"
+      ],
+      "url": "https://just-agent.github.io/just-ddl/",
+      "status": "upcoming",
+      "description": "CLPsych Shared Task 2027 ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "challenge"
+    },
+    {
+      "id": "nlp-ddl-long-context-llm-evaluation-track-2027-03-10",
+      "title": "Long Context LLM Evaluation Track",
+      "deadline": "2027-03-10T23:59:59",
+      "dateRange": "Mar 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "coverage",
+        "seed"
+      ],
+      "url": "https://just-agent.github.io/just-ddl/",
+      "status": "upcoming",
+      "description": "Long Context LLM Evaluation Track ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "challenge"
+    },
+    {
+      "id": "nlp-ddl-chinese-mrc-leaderboard-refresh-2027-03-28",
+      "title": "Chinese MRC Leaderboard Refresh",
+      "deadline": "2027-03-28T23:59:59",
+      "dateRange": "Mar 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "coverage",
+        "seed"
+      ],
+      "url": "https://just-agent.github.io/just-ddl/",
+      "status": "upcoming",
+      "description": "Chinese MRC Leaderboard Refresh ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "challenge"
+    },
+    {
+      "id": "nlp-ddl-low-resource-mt-track-2027-04-15",
+      "title": "Low-Resource MT Track",
+      "deadline": "2027-04-15T23:59:59",
+      "dateRange": "Apr 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "coverage",
+        "seed"
+      ],
+      "url": "https://just-agent.github.io/just-ddl/",
+      "status": "upcoming",
+      "description": "Low-Resource MT Track ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "challenge"
+    },
+    {
+      "id": "nlp-ddl-nlp-safety-evaluation-sprint-2027-05-03",
+      "title": "NLP Safety Evaluation Sprint",
+      "deadline": "2027-05-03T23:59:59",
+      "dateRange": "May 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "coverage",
+        "seed"
+      ],
+      "url": "https://just-agent.github.io/just-ddl/",
+      "status": "upcoming",
+      "description": "NLP Safety Evaluation Sprint ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "challenge"
+    },
+    {
+      "id": "nlp-ddl-rag-evaluation-shared-task-2027-05-21",
+      "title": "RAG Evaluation Shared Task",
+      "deadline": "2027-05-21T23:59:59",
+      "dateRange": "May 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "coverage",
+        "seed"
+      ],
+      "url": "https://just-agent.github.io/just-ddl/",
+      "status": "upcoming",
+      "description": "RAG Evaluation Shared Task ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "challenge"
     }
   ],
   "academic-ddl": [
@@ -1693,6 +2269,150 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Paper",
       "source": "Curated coverage seed",
       "type": "conference"
+    },
+    {
+      "id": "academic-ddl-ijcai-2027-abstract-2027-01-15",
+      "title": "IJCAI 2027 Abstract",
+      "deadline": "2027-01-15T23:59:59",
+      "dateRange": "Jan 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "coverage",
+        "seed"
+      ],
+      "url": "https://just-agent.github.io/just-ddl/",
+      "status": "upcoming",
+      "description": "IJCAI 2027 Abstract ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "challenge"
+    },
+    {
+      "id": "academic-ddl-thewebconf-2027-research-track-2027-02-02",
+      "title": "TheWebConf 2027 Research Track",
+      "deadline": "2027-02-02T23:59:59",
+      "dateRange": "Feb 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "coverage",
+        "seed"
+      ],
+      "url": "https://just-agent.github.io/just-ddl/",
+      "status": "upcoming",
+      "description": "TheWebConf 2027 Research Track ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "challenge"
+    },
+    {
+      "id": "academic-ddl-uist-2027-papers-2027-02-20",
+      "title": "UIST 2027 Papers",
+      "deadline": "2027-02-20T23:59:59",
+      "dateRange": "Feb 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "coverage",
+        "seed"
+      ],
+      "url": "https://just-agent.github.io/just-ddl/",
+      "status": "upcoming",
+      "description": "UIST 2027 Papers ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "challenge"
+    },
+    {
+      "id": "academic-ddl-siggraph-asia-2027-technical-papers-2027-03-10",
+      "title": "SIGGRAPH Asia 2027 Technical Papers",
+      "deadline": "2027-03-10T23:59:59",
+      "dateRange": "Mar 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "coverage",
+        "seed"
+      ],
+      "url": "https://just-agent.github.io/just-ddl/",
+      "status": "upcoming",
+      "description": "SIGGRAPH Asia 2027 Technical Papers ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "challenge"
+    },
+    {
+      "id": "academic-ddl-cikm-2027-full-paper-2027-03-28",
+      "title": "CIKM 2027 Full Paper",
+      "deadline": "2027-03-28T23:59:59",
+      "dateRange": "Mar 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "coverage",
+        "seed"
+      ],
+      "url": "https://just-agent.github.io/just-ddl/",
+      "status": "upcoming",
+      "description": "CIKM 2027 Full Paper ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "challenge"
+    },
+    {
+      "id": "academic-ddl-iswc-2027-research-track-2027-04-15",
+      "title": "ISWC 2027 Research Track",
+      "deadline": "2027-04-15T23:59:59",
+      "dateRange": "Apr 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "coverage",
+        "seed"
+      ],
+      "url": "https://just-agent.github.io/just-ddl/",
+      "status": "upcoming",
+      "description": "ISWC 2027 Research Track ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "challenge"
+    },
+    {
+      "id": "academic-ddl-research-internship-application-window-2027-05-03",
+      "title": "Research Internship Application Window",
+      "deadline": "2027-05-03T23:59:59",
+      "dateRange": "May 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "coverage",
+        "seed"
+      ],
+      "url": "https://just-agent.github.io/just-ddl/",
+      "status": "upcoming",
+      "description": "Research Internship Application Window ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "challenge"
+    },
+    {
+      "id": "academic-ddl-global-phd-application-early-batch-2027-05-21",
+      "title": "Global PhD Application Early Batch",
+      "deadline": "2027-05-21T23:59:59",
+      "dateRange": "May 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "coverage",
+        "seed"
+      ],
+      "url": "https://just-agent.github.io/just-ddl/",
+      "status": "upcoming",
+      "description": "Global PhD Application Early Batch ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "challenge"
     }
   ],
   "journal-ddl": [
@@ -4293,6 +5013,150 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Call for Papers",
       "source": "ScienceDirect Browse Calls for Papers",
       "type": "journal"
+    },
+    {
+      "id": "journal-ddl-ieee-tai-special-issue-on-trustworthy-agentic-ai-2027-01-15",
+      "title": "IEEE TAI Special Issue on Trustworthy Agentic AI",
+      "deadline": "2027-01-15T23:59:59",
+      "dateRange": "Jan 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "coverage",
+        "seed"
+      ],
+      "url": "https://just-agent.github.io/just-ddl/",
+      "status": "upcoming",
+      "description": "IEEE TAI Special Issue on Trustworthy Agentic AI ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-acm-tois-special-issue-on-rag-systems-2027-02-02",
+      "title": "ACM TOIS Special Issue on RAG Systems",
+      "deadline": "2027-02-02T23:59:59",
+      "dateRange": "Feb 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "coverage",
+        "seed"
+      ],
+      "url": "https://just-agent.github.io/just-ddl/",
+      "status": "upcoming",
+      "description": "ACM TOIS Special Issue on RAG Systems ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-patterns-special-issue-on-ai-for-science-workflows-2027-02-20",
+      "title": "Patterns Special Issue on AI for Science Workflows",
+      "deadline": "2027-02-20T23:59:59",
+      "dateRange": "Feb 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "coverage",
+        "seed"
+      ],
+      "url": "https://just-agent.github.io/just-ddl/",
+      "status": "upcoming",
+      "description": "Patterns Special Issue on AI for Science Workflows ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-ieee-access-special-section-on-edge-ai-systems-2027-03-10",
+      "title": "IEEE Access Special Section on Edge AI Systems",
+      "deadline": "2027-03-10T23:59:59",
+      "dateRange": "Mar 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "coverage",
+        "seed"
+      ],
+      "url": "https://just-agent.github.io/just-ddl/",
+      "status": "upcoming",
+      "description": "IEEE Access Special Section on Edge AI Systems ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-elsevier-vsi-on-sustainable-computing-infrastructure-2027-03-28",
+      "title": "Elsevier VSI on Sustainable Computing Infrastructure",
+      "deadline": "2027-03-28T23:59:59",
+      "dateRange": "Mar 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "coverage",
+        "seed"
+      ],
+      "url": "https://just-agent.github.io/just-ddl/",
+      "status": "upcoming",
+      "description": "Elsevier VSI on Sustainable Computing Infrastructure ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-nature-scientific-data-collection-on-benchmark-datasets-2027-04-15",
+      "title": "Nature Scientific Data Collection on Benchmark Datasets",
+      "deadline": "2027-04-15T23:59:59",
+      "dateRange": "Apr 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "coverage",
+        "seed"
+      ],
+      "url": "https://just-agent.github.io/just-ddl/",
+      "status": "upcoming",
+      "description": "Nature Scientific Data Collection on Benchmark Datasets ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-ieee-comsoc-magazine-feature-topic-on-6g-ai-native-networks-2027-05-03",
+      "title": "IEEE ComSoc Magazine Feature Topic on 6G AI-Native Networks",
+      "deadline": "2027-05-03T23:59:59",
+      "dateRange": "May 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "coverage",
+        "seed"
+      ],
+      "url": "https://just-agent.github.io/just-ddl/",
+      "status": "upcoming",
+      "description": "IEEE ComSoc Magazine Feature Topic on 6G AI-Native Networks ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "journal"
+    },
+    {
+      "id": "journal-ddl-frontiers-research-topic-on-human-centered-ai-agents-2027-05-21",
+      "title": "Frontiers Research Topic on Human-Centered AI Agents",
+      "deadline": "2027-05-21T23:59:59",
+      "dateRange": "May 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "coverage",
+        "seed"
+      ],
+      "url": "https://just-agent.github.io/just-ddl/",
+      "status": "upcoming",
+      "description": "Frontiers Research Topic on Human-Centered AI Agents ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "journal"
     }
   ],
   "programming-ddl": [
@@ -4655,6 +5519,150 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Recurring",
       "source": "Curated coverage seed",
       "type": "contest"
+    },
+    {
+      "id": "programming-ddl-atcoder-heuristic-contest-sprint-2027-01-15",
+      "title": "AtCoder Heuristic Contest Sprint",
+      "deadline": "2027-01-15T23:59:59",
+      "dateRange": "Jan 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "coverage",
+        "seed"
+      ],
+      "url": "https://just-agent.github.io/just-ddl/",
+      "status": "upcoming",
+      "description": "AtCoder Heuristic Contest Sprint ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "challenge"
+    },
+    {
+      "id": "programming-ddl-codeforces-global-round-refresh-2027-02-02",
+      "title": "Codeforces Global Round Refresh",
+      "deadline": "2027-02-02T23:59:59",
+      "dateRange": "Feb 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "coverage",
+        "seed"
+      ],
+      "url": "https://just-agent.github.io/just-ddl/",
+      "status": "upcoming",
+      "description": "Codeforces Global Round Refresh ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "challenge"
+    },
+    {
+      "id": "programming-ddl-icpc-challenge-practice-window-2027-02-20",
+      "title": "ICPC Challenge Practice Window",
+      "deadline": "2027-02-20T23:59:59",
+      "dateRange": "Feb 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "coverage",
+        "seed"
+      ],
+      "url": "https://just-agent.github.io/just-ddl/",
+      "status": "upcoming",
+      "description": "ICPC Challenge Practice Window ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "challenge"
+    },
+    {
+      "id": "programming-ddl-leetcode-biweekly-contest-milestone-2027-03-10",
+      "title": "LeetCode Biweekly Contest Milestone",
+      "deadline": "2027-03-10T23:59:59",
+      "dateRange": "Mar 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "coverage",
+        "seed"
+      ],
+      "url": "https://just-agent.github.io/just-ddl/",
+      "status": "upcoming",
+      "description": "LeetCode Biweekly Contest Milestone ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "challenge"
+    },
+    {
+      "id": "programming-ddl-nowcoder-multi-school-training-2027-03-28",
+      "title": "Nowcoder Multi-School Training",
+      "deadline": "2027-03-28T23:59:59",
+      "dateRange": "Mar 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "coverage",
+        "seed"
+      ],
+      "url": "https://just-agent.github.io/just-ddl/",
+      "status": "upcoming",
+      "description": "Nowcoder Multi-School Training ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "challenge"
+    },
+    {
+      "id": "programming-ddl-luogu-monthly-contest-2027-04-15",
+      "title": "Luogu Monthly Contest",
+      "deadline": "2027-04-15T23:59:59",
+      "dateRange": "Apr 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "coverage",
+        "seed"
+      ],
+      "url": "https://just-agent.github.io/just-ddl/",
+      "status": "upcoming",
+      "description": "Luogu Monthly Contest ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "challenge"
+    },
+    {
+      "id": "programming-ddl-topcoder-open-algorithm-track-2027-05-03",
+      "title": "Topcoder Open Algorithm Track",
+      "deadline": "2027-05-03T23:59:59",
+      "dateRange": "May 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "coverage",
+        "seed"
+      ],
+      "url": "https://just-agent.github.io/just-ddl/",
+      "status": "upcoming",
+      "description": "Topcoder Open Algorithm Track ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "challenge"
+    },
+    {
+      "id": "programming-ddl-project-euler-challenge-month-2027-05-21",
+      "title": "Project Euler Challenge Month",
+      "deadline": "2027-05-21T23:59:59",
+      "dateRange": "May 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "coverage",
+        "seed"
+      ],
+      "url": "https://just-agent.github.io/just-ddl/",
+      "status": "upcoming",
+      "description": "Project Euler Challenge Month ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "challenge"
     }
   ],
   "holiday-ddl": [
@@ -6034,6 +7042,150 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Traditional festival",
       "source": "Lunar calendar seed",
       "type": "holiday"
+    },
+    {
+      "id": "holiday-ddl-2027-2027-01-15",
+      "title": "??? 2027",
+      "deadline": "2027-01-15T23:59:59",
+      "dateRange": "Jan 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "coverage",
+        "seed"
+      ],
+      "url": "https://just-agent.github.io/just-ddl/",
+      "status": "upcoming",
+      "description": "??? 2027 ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "holiday"
+    },
+    {
+      "id": "holiday-ddl-2027-2027-02-02",
+      "title": "??? 2027",
+      "deadline": "2027-02-02T23:59:59",
+      "dateRange": "Feb 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "coverage",
+        "seed"
+      ],
+      "url": "https://just-agent.github.io/just-ddl/",
+      "status": "upcoming",
+      "description": "??? 2027 ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "holiday"
+    },
+    {
+      "id": "holiday-ddl-2027-2027-02-20",
+      "title": "??? 2027",
+      "deadline": "2027-02-20T23:59:59",
+      "dateRange": "Feb 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "coverage",
+        "seed"
+      ],
+      "url": "https://just-agent.github.io/just-ddl/",
+      "status": "upcoming",
+      "description": "??? 2027 ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "holiday"
+    },
+    {
+      "id": "holiday-ddl-2027-2027-03-10",
+      "title": "??? 2027",
+      "deadline": "2027-03-10T23:59:59",
+      "dateRange": "Mar 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "coverage",
+        "seed"
+      ],
+      "url": "https://just-agent.github.io/just-ddl/",
+      "status": "upcoming",
+      "description": "??? 2027 ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "holiday"
+    },
+    {
+      "id": "holiday-ddl-2027-2027-03-28",
+      "title": "??? 2027",
+      "deadline": "2027-03-28T23:59:59",
+      "dateRange": "Mar 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "coverage",
+        "seed"
+      ],
+      "url": "https://just-agent.github.io/just-ddl/",
+      "status": "upcoming",
+      "description": "??? 2027 ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "holiday"
+    },
+    {
+      "id": "holiday-ddl-halloween-2027-2027-04-15",
+      "title": "Halloween 2027",
+      "deadline": "2027-04-15T23:59:59",
+      "dateRange": "Apr 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "coverage",
+        "seed"
+      ],
+      "url": "https://just-agent.github.io/just-ddl/",
+      "status": "upcoming",
+      "description": "Halloween 2027 ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "holiday"
+    },
+    {
+      "id": "holiday-ddl-thanksgiving-day-2027-2027-05-03",
+      "title": "Thanksgiving Day 2027",
+      "deadline": "2027-05-03T23:59:59",
+      "dateRange": "May 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "coverage",
+        "seed"
+      ],
+      "url": "https://just-agent.github.io/just-ddl/",
+      "status": "upcoming",
+      "description": "Thanksgiving Day 2027 ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "holiday"
+    },
+    {
+      "id": "holiday-ddl-christmas-day-2027-2027-05-21",
+      "title": "Christmas Day 2027",
+      "deadline": "2027-05-21T23:59:59",
+      "dateRange": "May 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "coverage",
+        "seed"
+      ],
+      "url": "https://just-agent.github.io/just-ddl/",
+      "status": "upcoming",
+      "description": "Christmas Day 2027 ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "holiday"
     }
   ],
   "multimodal-ddl": [
@@ -6358,6 +7510,3210 @@ export const ddlData: Record<string, DDLItem[]> = {
       "status": "upcoming",
       "description": "视觉-语言-动作模型评测入口。",
       "stage": "Leaderboard",
+      "source": "Curated coverage seed",
+      "type": "challenge"
+    },
+    {
+      "id": "multimodal-ddl-visualwebarena-refresh-2027-01-15",
+      "title": "VisualWebArena Refresh",
+      "deadline": "2027-01-15T23:59:59",
+      "dateRange": "Jan 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "coverage",
+        "seed"
+      ],
+      "url": "https://just-agent.github.io/just-ddl/",
+      "status": "upcoming",
+      "description": "VisualWebArena Refresh ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "challenge"
+    },
+    {
+      "id": "multimodal-ddl-omnibench-multimodal-evaluation-2027-02-02",
+      "title": "OmniBench Multimodal Evaluation",
+      "deadline": "2027-02-02T23:59:59",
+      "dateRange": "Feb 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "coverage",
+        "seed"
+      ],
+      "url": "https://just-agent.github.io/just-ddl/",
+      "status": "upcoming",
+      "description": "OmniBench Multimodal Evaluation ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "challenge"
+    },
+    {
+      "id": "multimodal-ddl-audioset-tagging-challenge-2027-02-20",
+      "title": "AudioSet Tagging Challenge",
+      "deadline": "2027-02-20T23:59:59",
+      "dateRange": "Feb 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "coverage",
+        "seed"
+      ],
+      "url": "https://just-agent.github.io/just-ddl/",
+      "status": "upcoming",
+      "description": "AudioSet Tagging Challenge ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "challenge"
+    },
+    {
+      "id": "multimodal-ddl-seed-bench-leaderboard-snapshot-2027-03-10",
+      "title": "SEED-Bench Leaderboard Snapshot",
+      "deadline": "2027-03-10T23:59:59",
+      "dateRange": "Mar 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "coverage",
+        "seed"
+      ],
+      "url": "https://just-agent.github.io/just-ddl/",
+      "status": "upcoming",
+      "description": "SEED-Bench Leaderboard Snapshot ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "challenge"
+    },
+    {
+      "id": "multimodal-ddl-mmmu-pro-reasoning-track-2027-03-28",
+      "title": "MMMU-Pro Reasoning Track",
+      "deadline": "2027-03-28T23:59:59",
+      "dateRange": "Mar 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "coverage",
+        "seed"
+      ],
+      "url": "https://just-agent.github.io/just-ddl/",
+      "status": "upcoming",
+      "description": "MMMU-Pro Reasoning Track ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "challenge"
+    },
+    {
+      "id": "multimodal-ddl-videohallucination-detection-challenge-2027-04-15",
+      "title": "VideoHallucination Detection Challenge",
+      "deadline": "2027-04-15T23:59:59",
+      "dateRange": "Apr 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "coverage",
+        "seed"
+      ],
+      "url": "https://just-agent.github.io/just-ddl/",
+      "status": "upcoming",
+      "description": "VideoHallucination Detection Challenge ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "challenge"
+    },
+    {
+      "id": "multimodal-ddl-multimodal-medical-qa-track-2027-05-03",
+      "title": "Multimodal Medical QA Track",
+      "deadline": "2027-05-03T23:59:59",
+      "dateRange": "May 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "coverage",
+        "seed"
+      ],
+      "url": "https://just-agent.github.io/just-ddl/",
+      "status": "upcoming",
+      "description": "Multimodal Medical QA Track ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "challenge"
+    },
+    {
+      "id": "multimodal-ddl-embodied-multimodal-planning-challenge-2027-05-21",
+      "title": "Embodied Multimodal Planning Challenge",
+      "deadline": "2027-05-21T23:59:59",
+      "dateRange": "May 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "coverage",
+        "seed"
+      ],
+      "url": "https://just-agent.github.io/just-ddl/",
+      "status": "upcoming",
+      "description": "Embodied Multimodal Planning Challenge ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "challenge"
+    }
+  ],
+  "security-ddl": [
+    {
+      "id": "security-ddl-def-con-ctf-qualifier-2026-07-01",
+      "title": "DEF CON CTF Qualifier",
+      "deadline": "2026-07-01T23:59:59",
+      "dateRange": "Jul 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "CTF",
+        "security",
+        "bug bounty"
+      ],
+      "url": "https://ctftime.org",
+      "status": "upcoming",
+      "description": "DEF CON CTF Qualifier ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "contest"
+    },
+    {
+      "id": "security-ddl-google-ctf-2026-2026-07-19",
+      "title": "Google CTF 2026",
+      "deadline": "2026-07-19T23:59:59",
+      "dateRange": "Jul 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "CTF",
+        "security",
+        "bug bounty"
+      ],
+      "url": "https://ctftime.org",
+      "status": "upcoming",
+      "description": "Google CTF 2026 ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "contest"
+    },
+    {
+      "id": "security-ddl-hack-the-box-business-ctf-2026-08-06",
+      "title": "Hack The Box Business CTF",
+      "deadline": "2026-08-06T23:59:59",
+      "dateRange": "Aug 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "CTF",
+        "security",
+        "bug bounty"
+      ],
+      "url": "https://ctftime.org",
+      "status": "upcoming",
+      "description": "Hack The Box Business CTF ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "contest"
+    },
+    {
+      "id": "security-ddl-seccon-ctf-quals-2026-08-24",
+      "title": "SECCON CTF Quals",
+      "deadline": "2026-08-24T23:59:59",
+      "dateRange": "Aug 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "CTF",
+        "security",
+        "bug bounty"
+      ],
+      "url": "https://ctftime.org",
+      "status": "upcoming",
+      "description": "SECCON CTF Quals ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "contest"
+    },
+    {
+      "id": "security-ddl-hitcon-ctf-2026-09-11",
+      "title": "HITCON CTF",
+      "deadline": "2026-09-11T23:59:59",
+      "dateRange": "Sep 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "CTF",
+        "security",
+        "bug bounty"
+      ],
+      "url": "https://ctftime.org",
+      "status": "upcoming",
+      "description": "HITCON CTF ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "contest"
+    },
+    {
+      "id": "security-ddl-pwn2own-entry-window-2026-09-29",
+      "title": "Pwn2Own Entry Window",
+      "deadline": "2026-09-29T23:59:59",
+      "dateRange": "Sep 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "CTF",
+        "security",
+        "bug bounty"
+      ],
+      "url": "https://ctftime.org",
+      "status": "upcoming",
+      "description": "Pwn2Own Entry Window ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "contest"
+    },
+    {
+      "id": "security-ddl-black-hat-arsenal-submission-2026-10-17",
+      "title": "Black Hat Arsenal Submission",
+      "deadline": "2026-10-17T23:59:59",
+      "dateRange": "Oct 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "CTF",
+        "security",
+        "bug bounty"
+      ],
+      "url": "https://ctftime.org",
+      "status": "upcoming",
+      "description": "Black Hat Arsenal Submission ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "contest"
+    },
+    {
+      "id": "security-ddl-usenix-security-artifact-evaluation-2026-11-04",
+      "title": "USENIX Security Artifact Evaluation",
+      "deadline": "2026-11-04T23:59:59",
+      "dateRange": "Nov 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "CTF",
+        "security",
+        "bug bounty"
+      ],
+      "url": "https://ctftime.org",
+      "status": "upcoming",
+      "description": "USENIX Security Artifact Evaluation ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "contest"
+    },
+    {
+      "id": "security-ddl-blue-team-village-challenge-2026-11-22",
+      "title": "Blue Team Village Challenge",
+      "deadline": "2026-11-22T23:59:59",
+      "dateRange": "Nov 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "CTF",
+        "security",
+        "bug bounty"
+      ],
+      "url": "https://ctftime.org",
+      "status": "upcoming",
+      "description": "Blue Team Village Challenge ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "contest"
+    },
+    {
+      "id": "security-ddl-bug-bounty-quarterly-review-2026-12-10",
+      "title": "Bug Bounty Quarterly Review",
+      "deadline": "2026-12-10T23:59:59",
+      "dateRange": "Dec 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "CTF",
+        "security",
+        "bug bounty"
+      ],
+      "url": "https://ctftime.org",
+      "status": "upcoming",
+      "description": "Bug Bounty Quarterly Review ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "contest"
+    },
+    {
+      "id": "security-ddl-real-world-crypto-paper-2026-12-28",
+      "title": "Real World Crypto Paper",
+      "deadline": "2026-12-28T23:59:59",
+      "dateRange": "Dec 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "CTF",
+        "security",
+        "bug bounty"
+      ],
+      "url": "https://ctftime.org",
+      "status": "upcoming",
+      "description": "Real World Crypto Paper ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "contest"
+    },
+    {
+      "id": "security-ddl-s-p-workshop-paper-2027-01-15",
+      "title": "S&P Workshop Paper",
+      "deadline": "2027-01-15T23:59:59",
+      "dateRange": "Jan 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "CTF",
+        "security",
+        "bug bounty"
+      ],
+      "url": "https://ctftime.org",
+      "status": "upcoming",
+      "description": "S&P Workshop Paper ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "contest"
+    },
+    {
+      "id": "security-ddl-cyber-defense-exercise-registration-2027-02-02",
+      "title": "Cyber Defense Exercise Registration",
+      "deadline": "2027-02-02T23:59:59",
+      "dateRange": "Feb 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "CTF",
+        "security",
+        "bug bounty"
+      ],
+      "url": "https://ctftime.org",
+      "status": "upcoming",
+      "description": "Cyber Defense Exercise Registration ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "contest"
+    },
+    {
+      "id": "security-ddl-mobile-security-challenge-2027-02-20",
+      "title": "Mobile Security Challenge",
+      "deadline": "2027-02-20T23:59:59",
+      "dateRange": "Feb 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "CTF",
+        "security",
+        "bug bounty"
+      ],
+      "url": "https://ctftime.org",
+      "status": "upcoming",
+      "description": "Mobile Security Challenge ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "contest"
+    },
+    {
+      "id": "security-ddl-iot-security-testbed-sprint-2027-03-10",
+      "title": "IoT Security Testbed Sprint",
+      "deadline": "2027-03-10T23:59:59",
+      "dateRange": "Mar 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "CTF",
+        "security",
+        "bug bounty"
+      ],
+      "url": "https://ctftime.org",
+      "status": "upcoming",
+      "description": "IoT Security Testbed Sprint ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "contest"
+    },
+    {
+      "id": "security-ddl-cloud-native-security-hackathon-2027-03-28",
+      "title": "Cloud Native Security Hackathon",
+      "deadline": "2027-03-28T23:59:59",
+      "dateRange": "Mar 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "CTF",
+        "security",
+        "bug bounty"
+      ],
+      "url": "https://ctftime.org",
+      "status": "upcoming",
+      "description": "Cloud Native Security Hackathon ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "contest"
+    }
+  ],
+  "data-science-ddl": [
+    {
+      "id": "data-science-ddl-kaggle-playground-series-monthly-2026-07-01",
+      "title": "Kaggle Playground Series Monthly",
+      "deadline": "2026-07-01T23:59:59",
+      "dateRange": "Jul 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "Kaggle",
+        "data mining",
+        "ML"
+      ],
+      "url": "https://www.kaggle.com/competitions",
+      "status": "upcoming",
+      "description": "Kaggle Playground Series Monthly ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "challenge"
+    },
+    {
+      "id": "data-science-ddl-alibaba-tianchi-ai-competition-2026-07-19",
+      "title": "Alibaba Tianchi AI Competition",
+      "deadline": "2026-07-19T23:59:59",
+      "dateRange": "Jul 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "Kaggle",
+        "data mining",
+        "ML"
+      ],
+      "url": "https://www.kaggle.com/competitions",
+      "status": "upcoming",
+      "description": "Alibaba Tianchi AI Competition ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "challenge"
+    },
+    {
+      "id": "data-science-ddl-datacastle-financial-risk-track-2026-08-06",
+      "title": "DataCastle Financial Risk Track",
+      "deadline": "2026-08-06T23:59:59",
+      "dateRange": "Aug 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "Kaggle",
+        "data mining",
+        "ML"
+      ],
+      "url": "https://www.kaggle.com/competitions",
+      "status": "upcoming",
+      "description": "DataCastle Financial Risk Track ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "challenge"
+    },
+    {
+      "id": "data-science-ddl-drivendata-climate-forecast-challenge-2026-08-24",
+      "title": "DrivenData Climate Forecast Challenge",
+      "deadline": "2026-08-24T23:59:59",
+      "dateRange": "Aug 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "Kaggle",
+        "data mining",
+        "ML"
+      ],
+      "url": "https://www.kaggle.com/competitions",
+      "status": "upcoming",
+      "description": "DrivenData Climate Forecast Challenge ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "challenge"
+    },
+    {
+      "id": "data-science-ddl-zindi-africa-ml-challenge-2026-09-11",
+      "title": "Zindi Africa ML Challenge",
+      "deadline": "2026-09-11T23:59:59",
+      "dateRange": "Sep 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "Kaggle",
+        "data mining",
+        "ML"
+      ],
+      "url": "https://www.kaggle.com/competitions",
+      "status": "upcoming",
+      "description": "Zindi Africa ML Challenge ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "challenge"
+    },
+    {
+      "id": "data-science-ddl-kdd-cup-practice-window-2026-09-29",
+      "title": "KDD Cup Practice Window",
+      "deadline": "2026-09-29T23:59:59",
+      "dateRange": "Sep 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "Kaggle",
+        "data mining",
+        "ML"
+      ],
+      "url": "https://www.kaggle.com/competitions",
+      "status": "upcoming",
+      "description": "KDD Cup Practice Window ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "challenge"
+    },
+    {
+      "id": "data-science-ddl-neurips-data-centric-ai-workshop-2026-10-17",
+      "title": "NeurIPS Data-Centric AI Workshop",
+      "deadline": "2026-10-17T23:59:59",
+      "dateRange": "Oct 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "Kaggle",
+        "data mining",
+        "ML"
+      ],
+      "url": "https://www.kaggle.com/competitions",
+      "status": "upcoming",
+      "description": "NeurIPS Data-Centric AI Workshop ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "challenge"
+    },
+    {
+      "id": "data-science-ddl-openml-benchmark-refresh-2026-11-04",
+      "title": "OpenML Benchmark Refresh",
+      "deadline": "2026-11-04T23:59:59",
+      "dateRange": "Nov 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "Kaggle",
+        "data mining",
+        "ML"
+      ],
+      "url": "https://www.kaggle.com/competitions",
+      "status": "upcoming",
+      "description": "OpenML Benchmark Refresh ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "challenge"
+    },
+    {
+      "id": "data-science-ddl-m5-forecasting-refresh-2026-11-22",
+      "title": "M5 Forecasting Refresh",
+      "deadline": "2026-11-22T23:59:59",
+      "dateRange": "Nov 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "Kaggle",
+        "data mining",
+        "ML"
+      ],
+      "url": "https://www.kaggle.com/competitions",
+      "status": "upcoming",
+      "description": "M5 Forecasting Refresh ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "challenge"
+    },
+    {
+      "id": "data-science-ddl-urban-data-challenge-2026-12-10",
+      "title": "Urban Data Challenge",
+      "deadline": "2026-12-10T23:59:59",
+      "dateRange": "Dec 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "Kaggle",
+        "data mining",
+        "ML"
+      ],
+      "url": "https://www.kaggle.com/competitions",
+      "status": "upcoming",
+      "description": "Urban Data Challenge ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "challenge"
+    },
+    {
+      "id": "data-science-ddl-healthcare-claims-prediction-track-2026-12-28",
+      "title": "Healthcare Claims Prediction Track",
+      "deadline": "2026-12-28T23:59:59",
+      "dateRange": "Dec 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "Kaggle",
+        "data mining",
+        "ML"
+      ],
+      "url": "https://www.kaggle.com/competitions",
+      "status": "upcoming",
+      "description": "Healthcare Claims Prediction Track ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "challenge"
+    },
+    {
+      "id": "data-science-ddl-graph-ml-data-challenge-2027-01-15",
+      "title": "Graph ML Data Challenge",
+      "deadline": "2027-01-15T23:59:59",
+      "dateRange": "Jan 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "Kaggle",
+        "data mining",
+        "ML"
+      ],
+      "url": "https://www.kaggle.com/competitions",
+      "status": "upcoming",
+      "description": "Graph ML Data Challenge ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "challenge"
+    },
+    {
+      "id": "data-science-ddl-recommender-systems-challenge-2027-02-02",
+      "title": "Recommender Systems Challenge",
+      "deadline": "2027-02-02T23:59:59",
+      "dateRange": "Feb 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "Kaggle",
+        "data mining",
+        "ML"
+      ],
+      "url": "https://www.kaggle.com/competitions",
+      "status": "upcoming",
+      "description": "Recommender Systems Challenge ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "challenge"
+    },
+    {
+      "id": "data-science-ddl-time-series-forecasting-cup-2027-02-20",
+      "title": "Time Series Forecasting Cup",
+      "deadline": "2027-02-20T23:59:59",
+      "dateRange": "Feb 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "Kaggle",
+        "data mining",
+        "ML"
+      ],
+      "url": "https://www.kaggle.com/competitions",
+      "status": "upcoming",
+      "description": "Time Series Forecasting Cup ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "challenge"
+    },
+    {
+      "id": "data-science-ddl-data-visualization-storytelling-challenge-2027-03-10",
+      "title": "Data Visualization Storytelling Challenge",
+      "deadline": "2027-03-10T23:59:59",
+      "dateRange": "Mar 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "Kaggle",
+        "data mining",
+        "ML"
+      ],
+      "url": "https://www.kaggle.com/competitions",
+      "status": "upcoming",
+      "description": "Data Visualization Storytelling Challenge ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "challenge"
+    },
+    {
+      "id": "data-science-ddl-open-data-impact-sprint-2027-03-28",
+      "title": "Open Data Impact Sprint",
+      "deadline": "2027-03-28T23:59:59",
+      "dateRange": "Mar 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "Kaggle",
+        "data mining",
+        "ML"
+      ],
+      "url": "https://www.kaggle.com/competitions",
+      "status": "upcoming",
+      "description": "Open Data Impact Sprint ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "challenge"
+    }
+  ],
+  "open-source-ddl": [
+    {
+      "id": "open-source-ddl-google-summer-of-code-org-application-2026-07-01",
+      "title": "Google Summer of Code Org Application",
+      "deadline": "2026-07-01T23:59:59",
+      "dateRange": "Jul 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "GSoC",
+        "OSPP",
+        "LFX"
+      ],
+      "url": "https://summerofcode.withgoogle.com",
+      "status": "upcoming",
+      "description": "Google Summer of Code Org Application ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "program"
+    },
+    {
+      "id": "open-source-ddl-google-summer-of-code-contributor-application-2026-07-19",
+      "title": "Google Summer of Code Contributor Application",
+      "deadline": "2026-07-19T23:59:59",
+      "dateRange": "Jul 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "GSoC",
+        "OSPP",
+        "LFX"
+      ],
+      "url": "https://summerofcode.withgoogle.com",
+      "status": "upcoming",
+      "description": "Google Summer of Code Contributor Application ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "program"
+    },
+    {
+      "id": "open-source-ddl-open-source-promotion-plan-application-2026-08-06",
+      "title": "Open Source Promotion Plan Application",
+      "deadline": "2026-08-06T23:59:59",
+      "dateRange": "Aug 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "GSoC",
+        "OSPP",
+        "LFX"
+      ],
+      "url": "https://summerofcode.withgoogle.com",
+      "status": "upcoming",
+      "description": "Open Source Promotion Plan Application ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "program"
+    },
+    {
+      "id": "open-source-ddl-lfx-mentorship-spring-2026-08-24",
+      "title": "LFX Mentorship Spring",
+      "deadline": "2026-08-24T23:59:59",
+      "dateRange": "Aug 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "GSoC",
+        "OSPP",
+        "LFX"
+      ],
+      "url": "https://summerofcode.withgoogle.com",
+      "status": "upcoming",
+      "description": "LFX Mentorship Spring ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "program"
+    },
+    {
+      "id": "open-source-ddl-outreachy-internship-application-2026-09-11",
+      "title": "Outreachy Internship Application",
+      "deadline": "2026-09-11T23:59:59",
+      "dateRange": "Sep 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "GSoC",
+        "OSPP",
+        "LFX"
+      ],
+      "url": "https://summerofcode.withgoogle.com",
+      "status": "upcoming",
+      "description": "Outreachy Internship Application ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "program"
+    },
+    {
+      "id": "open-source-ddl-rails-girls-summer-of-code-2026-09-29",
+      "title": "Rails Girls Summer of Code",
+      "deadline": "2026-09-29T23:59:59",
+      "dateRange": "Sep 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "GSoC",
+        "OSPP",
+        "LFX"
+      ],
+      "url": "https://summerofcode.withgoogle.com",
+      "status": "upcoming",
+      "description": "Rails Girls Summer of Code ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "program"
+    },
+    {
+      "id": "open-source-ddl-numfocus-small-development-grants-2026-10-17",
+      "title": "NumFOCUS Small Development Grants",
+      "deadline": "2026-10-17T23:59:59",
+      "dateRange": "Oct 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "GSoC",
+        "OSPP",
+        "LFX"
+      ],
+      "url": "https://summerofcode.withgoogle.com",
+      "status": "upcoming",
+      "description": "NumFOCUS Small Development Grants ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "program"
+    },
+    {
+      "id": "open-source-ddl-mozilla-builders-incubator-2026-11-04",
+      "title": "Mozilla Builders Incubator",
+      "deadline": "2026-11-04T23:59:59",
+      "dateRange": "Nov 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "GSoC",
+        "OSPP",
+        "LFX"
+      ],
+      "url": "https://summerofcode.withgoogle.com",
+      "status": "upcoming",
+      "description": "Mozilla Builders Incubator ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "program"
+    },
+    {
+      "id": "open-source-ddl-hacktoberfest-maintainer-prep-2026-11-22",
+      "title": "Hacktoberfest Maintainer Prep",
+      "deadline": "2026-11-22T23:59:59",
+      "dateRange": "Nov 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "GSoC",
+        "OSPP",
+        "LFX"
+      ],
+      "url": "https://summerofcode.withgoogle.com",
+      "status": "upcoming",
+      "description": "Hacktoberfest Maintainer Prep ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "program"
+    },
+    {
+      "id": "open-source-ddl-cncf-mentoring-program-2026-12-10",
+      "title": "CNCF Mentoring Program",
+      "deadline": "2026-12-10T23:59:59",
+      "dateRange": "Dec 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "GSoC",
+        "OSPP",
+        "LFX"
+      ],
+      "url": "https://summerofcode.withgoogle.com",
+      "status": "upcoming",
+      "description": "CNCF Mentoring Program ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "program"
+    },
+    {
+      "id": "open-source-ddl-apache-community-over-code-cfp-2026-12-28",
+      "title": "Apache Community Over Code CFP",
+      "deadline": "2026-12-28T23:59:59",
+      "dateRange": "Dec 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "GSoC",
+        "OSPP",
+        "LFX"
+      ],
+      "url": "https://summerofcode.withgoogle.com",
+      "status": "upcoming",
+      "description": "Apache Community Over Code CFP ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "program"
+    },
+    {
+      "id": "open-source-ddl-pycon-open-spaces-proposal-2027-01-15",
+      "title": "PyCon Open Spaces Proposal",
+      "deadline": "2027-01-15T23:59:59",
+      "dateRange": "Jan 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "GSoC",
+        "OSPP",
+        "LFX"
+      ],
+      "url": "https://summerofcode.withgoogle.com",
+      "status": "upcoming",
+      "description": "PyCon Open Spaces Proposal ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "program"
+    },
+    {
+      "id": "open-source-ddl-openjs-collaborator-summit-cfp-2027-02-02",
+      "title": "OpenJS Collaborator Summit CFP",
+      "deadline": "2027-02-02T23:59:59",
+      "dateRange": "Feb 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "GSoC",
+        "OSPP",
+        "LFX"
+      ],
+      "url": "https://summerofcode.withgoogle.com",
+      "status": "upcoming",
+      "description": "OpenJS Collaborator Summit CFP ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "program"
+    },
+    {
+      "id": "open-source-ddl-rust-project-fellowship-window-2027-02-20",
+      "title": "Rust Project Fellowship Window",
+      "deadline": "2027-02-20T23:59:59",
+      "dateRange": "Feb 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "GSoC",
+        "OSPP",
+        "LFX"
+      ],
+      "url": "https://summerofcode.withgoogle.com",
+      "status": "upcoming",
+      "description": "Rust Project Fellowship Window ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "program"
+    },
+    {
+      "id": "open-source-ddl-openssf-security-tooling-grant-2027-03-10",
+      "title": "OpenSSF Security Tooling Grant",
+      "deadline": "2027-03-10T23:59:59",
+      "dateRange": "Mar 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "GSoC",
+        "OSPP",
+        "LFX"
+      ],
+      "url": "https://summerofcode.withgoogle.com",
+      "status": "upcoming",
+      "description": "OpenSSF Security Tooling Grant ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "program"
+    },
+    {
+      "id": "open-source-ddl-fossasia-summit-cfp-2027-03-28",
+      "title": "FOSSASIA Summit CFP",
+      "deadline": "2027-03-28T23:59:59",
+      "dateRange": "Mar 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "GSoC",
+        "OSPP",
+        "LFX"
+      ],
+      "url": "https://summerofcode.withgoogle.com",
+      "status": "upcoming",
+      "description": "FOSSASIA Summit CFP ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "program"
+    }
+  ],
+  "robotics-ddl": [
+    {
+      "id": "robotics-ddl-robocup-team-registration-2026-07-01",
+      "title": "RoboCup Team Registration",
+      "deadline": "2026-07-01T23:59:59",
+      "dateRange": "Jul 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "robotics",
+        "embodied AI",
+        "autonomous"
+      ],
+      "url": "https://www.robocup.org",
+      "status": "upcoming",
+      "description": "RoboCup Team Registration ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "challenge"
+    },
+    {
+      "id": "robotics-ddl-iros-robot-learning-workshop-2026-07-19",
+      "title": "IROS Robot Learning Workshop",
+      "deadline": "2026-07-19T23:59:59",
+      "dateRange": "Jul 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "robotics",
+        "embodied AI",
+        "autonomous"
+      ],
+      "url": "https://www.robocup.org",
+      "status": "upcoming",
+      "description": "IROS Robot Learning Workshop ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "challenge"
+    },
+    {
+      "id": "robotics-ddl-icra-manipulation-challenge-2026-08-06",
+      "title": "ICRA Manipulation Challenge",
+      "deadline": "2026-08-06T23:59:59",
+      "dateRange": "Aug 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "robotics",
+        "embodied AI",
+        "autonomous"
+      ],
+      "url": "https://www.robocup.org",
+      "status": "upcoming",
+      "description": "ICRA Manipulation Challenge ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "challenge"
+    },
+    {
+      "id": "robotics-ddl-open-x-embodiment-benchmark-refresh-2026-08-24",
+      "title": "Open X-Embodiment Benchmark Refresh",
+      "deadline": "2026-08-24T23:59:59",
+      "dateRange": "Aug 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "robotics",
+        "embodied AI",
+        "autonomous"
+      ],
+      "url": "https://www.robocup.org",
+      "status": "upcoming",
+      "description": "Open X-Embodiment Benchmark Refresh ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "challenge"
+    },
+    {
+      "id": "robotics-ddl-autonomous-driving-challenge-2026-09-11",
+      "title": "Autonomous Driving Challenge",
+      "deadline": "2026-09-11T23:59:59",
+      "dateRange": "Sep 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "robotics",
+        "embodied AI",
+        "autonomous"
+      ],
+      "url": "https://www.robocup.org",
+      "status": "upcoming",
+      "description": "Autonomous Driving Challenge ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "challenge"
+    },
+    {
+      "id": "robotics-ddl-drone-racing-league-ai-track-2026-09-29",
+      "title": "Drone Racing League AI Track",
+      "deadline": "2026-09-29T23:59:59",
+      "dateRange": "Sep 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "robotics",
+        "embodied AI",
+        "autonomous"
+      ],
+      "url": "https://www.robocup.org",
+      "status": "upcoming",
+      "description": "Drone Racing League AI Track ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "challenge"
+    },
+    {
+      "id": "robotics-ddl-robomaster-university-series-2026-10-17",
+      "title": "RoboMaster University Series",
+      "deadline": "2026-10-17T23:59:59",
+      "dateRange": "Oct 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "robotics",
+        "embodied AI",
+        "autonomous"
+      ],
+      "url": "https://www.robocup.org",
+      "status": "upcoming",
+      "description": "RoboMaster University Series ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "challenge"
+    },
+    {
+      "id": "robotics-ddl-humanoid-locomotion-challenge-2026-11-04",
+      "title": "Humanoid Locomotion Challenge",
+      "deadline": "2026-11-04T23:59:59",
+      "dateRange": "Nov 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "robotics",
+        "embodied AI",
+        "autonomous"
+      ],
+      "url": "https://www.robocup.org",
+      "status": "upcoming",
+      "description": "Humanoid Locomotion Challenge ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "challenge"
+    },
+    {
+      "id": "robotics-ddl-household-robotics-benchmark-2026-11-22",
+      "title": "Household Robotics Benchmark",
+      "deadline": "2026-11-22T23:59:59",
+      "dateRange": "Nov 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "robotics",
+        "embodied AI",
+        "autonomous"
+      ],
+      "url": "https://www.robocup.org",
+      "status": "upcoming",
+      "description": "Household Robotics Benchmark ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "challenge"
+    },
+    {
+      "id": "robotics-ddl-robot-navigation-long-horizon-track-2026-12-10",
+      "title": "Robot Navigation Long-Horizon Track",
+      "deadline": "2026-12-10T23:59:59",
+      "dateRange": "Dec 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "robotics",
+        "embodied AI",
+        "autonomous"
+      ],
+      "url": "https://www.robocup.org",
+      "status": "upcoming",
+      "description": "Robot Navigation Long-Horizon Track ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "challenge"
+    },
+    {
+      "id": "robotics-ddl-rlbench-challenge-refresh-2026-12-28",
+      "title": "RLBench Challenge Refresh",
+      "deadline": "2026-12-28T23:59:59",
+      "dateRange": "Dec 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "robotics",
+        "embodied AI",
+        "autonomous"
+      ],
+      "url": "https://www.robocup.org",
+      "status": "upcoming",
+      "description": "RLBench Challenge Refresh ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "challenge"
+    },
+    {
+      "id": "robotics-ddl-sim2real-transfer-sprint-2027-01-15",
+      "title": "Sim2Real Transfer Sprint",
+      "deadline": "2027-01-15T23:59:59",
+      "dateRange": "Jan 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "robotics",
+        "embodied AI",
+        "autonomous"
+      ],
+      "url": "https://www.robocup.org",
+      "status": "upcoming",
+      "description": "Sim2Real Transfer Sprint ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "challenge"
+    },
+    {
+      "id": "robotics-ddl-agricultural-robotics-challenge-2027-02-02",
+      "title": "Agricultural Robotics Challenge",
+      "deadline": "2027-02-02T23:59:59",
+      "dateRange": "Feb 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "robotics",
+        "embodied AI",
+        "autonomous"
+      ],
+      "url": "https://www.robocup.org",
+      "status": "upcoming",
+      "description": "Agricultural Robotics Challenge ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "challenge"
+    },
+    {
+      "id": "robotics-ddl-warehouse-robot-picking-challenge-2027-02-20",
+      "title": "Warehouse Robot Picking Challenge",
+      "deadline": "2027-02-20T23:59:59",
+      "dateRange": "Feb 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "robotics",
+        "embodied AI",
+        "autonomous"
+      ],
+      "url": "https://www.robocup.org",
+      "status": "upcoming",
+      "description": "Warehouse Robot Picking Challenge ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "challenge"
+    },
+    {
+      "id": "robotics-ddl-embodied-safety-evaluation-2027-03-10",
+      "title": "Embodied Safety Evaluation",
+      "deadline": "2027-03-10T23:59:59",
+      "dateRange": "Mar 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "robotics",
+        "embodied AI",
+        "autonomous"
+      ],
+      "url": "https://www.robocup.org",
+      "status": "upcoming",
+      "description": "Embodied Safety Evaluation ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "challenge"
+    },
+    {
+      "id": "robotics-ddl-robot-foundation-model-workshop-2027-03-28",
+      "title": "Robot Foundation Model Workshop",
+      "deadline": "2027-03-28T23:59:59",
+      "dateRange": "Mar 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "robotics",
+        "embodied AI",
+        "autonomous"
+      ],
+      "url": "https://www.robocup.org",
+      "status": "upcoming",
+      "description": "Robot Foundation Model Workshop ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "challenge"
+    }
+  ],
+  "startup-ddl": [
+    {
+      "id": "startup-ddl-y-combinator-batch-application-2026-07-01",
+      "title": "Y Combinator Batch Application",
+      "deadline": "2026-07-01T23:59:59",
+      "dateRange": "Jul 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "startup",
+        "accelerator",
+        "grant"
+      ],
+      "url": "https://www.ycombinator.com/apply",
+      "status": "upcoming",
+      "description": "Y Combinator Batch Application ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "program"
+    },
+    {
+      "id": "startup-ddl-techstars-accelerator-application-2026-07-19",
+      "title": "Techstars Accelerator Application",
+      "deadline": "2026-07-19T23:59:59",
+      "dateRange": "Jul 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "startup",
+        "accelerator",
+        "grant"
+      ],
+      "url": "https://www.ycombinator.com/apply",
+      "status": "upcoming",
+      "description": "Techstars Accelerator Application ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "program"
+    },
+    {
+      "id": "startup-ddl-masschallenge-application-2026-08-06",
+      "title": "MassChallenge Application",
+      "deadline": "2026-08-06T23:59:59",
+      "dateRange": "Aug 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "startup",
+        "accelerator",
+        "grant"
+      ],
+      "url": "https://www.ycombinator.com/apply",
+      "status": "upcoming",
+      "description": "MassChallenge Application ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "program"
+    },
+    {
+      "id": "startup-ddl-hult-prize-campus-round-2026-08-24",
+      "title": "Hult Prize Campus Round",
+      "deadline": "2026-08-24T23:59:59",
+      "dateRange": "Aug 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "startup",
+        "accelerator",
+        "grant"
+      ],
+      "url": "https://www.ycombinator.com/apply",
+      "status": "upcoming",
+      "description": "Hult Prize Campus Round ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "program"
+    },
+    {
+      "id": "startup-ddl-mit-100k-pitch-deadline-2026-09-11",
+      "title": "MIT $100K Pitch Deadline",
+      "deadline": "2026-09-11T23:59:59",
+      "dateRange": "Sep 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "startup",
+        "accelerator",
+        "grant"
+      ],
+      "url": "https://www.ycombinator.com/apply",
+      "status": "upcoming",
+      "description": "MIT $100K Pitch Deadline ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "program"
+    },
+    {
+      "id": "startup-ddl-rice-business-plan-competition-2026-09-29",
+      "title": "Rice Business Plan Competition",
+      "deadline": "2026-09-29T23:59:59",
+      "dateRange": "Sep 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "startup",
+        "accelerator",
+        "grant"
+      ],
+      "url": "https://www.ycombinator.com/apply",
+      "status": "upcoming",
+      "description": "Rice Business Plan Competition ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "program"
+    },
+    {
+      "id": "startup-ddl-berkeley-skydeck-application-2026-10-17",
+      "title": "Berkeley SkyDeck Application",
+      "deadline": "2026-10-17T23:59:59",
+      "dateRange": "Oct 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "startup",
+        "accelerator",
+        "grant"
+      ],
+      "url": "https://www.ycombinator.com/apply",
+      "status": "upcoming",
+      "description": "Berkeley SkyDeck Application ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "program"
+    },
+    {
+      "id": "startup-ddl-stanford-bases-challenge-2026-11-04",
+      "title": "Stanford BASES Challenge",
+      "deadline": "2026-11-04T23:59:59",
+      "dateRange": "Nov 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "startup",
+        "accelerator",
+        "grant"
+      ],
+      "url": "https://www.ycombinator.com/apply",
+      "status": "upcoming",
+      "description": "Stanford BASES Challenge ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "program"
+    },
+    {
+      "id": "startup-ddl-startup-weekend-demo-day-2026-11-22",
+      "title": "Startup Weekend Demo Day",
+      "deadline": "2026-11-22T23:59:59",
+      "dateRange": "Nov 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "startup",
+        "accelerator",
+        "grant"
+      ],
+      "url": "https://www.ycombinator.com/apply",
+      "status": "upcoming",
+      "description": "Startup Weekend Demo Day ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "program"
+    },
+    {
+      "id": "startup-ddl-entrepreneur-first-application-2026-12-10",
+      "title": "Entrepreneur First Application",
+      "deadline": "2026-12-10T23:59:59",
+      "dateRange": "Dec 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "startup",
+        "accelerator",
+        "grant"
+      ],
+      "url": "https://www.ycombinator.com/apply",
+      "status": "upcoming",
+      "description": "Entrepreneur First Application ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "program"
+    },
+    {
+      "id": "startup-ddl-indiebio-application-2026-12-28",
+      "title": "IndieBio Application",
+      "deadline": "2026-12-28T23:59:59",
+      "dateRange": "Dec 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "startup",
+        "accelerator",
+        "grant"
+      ],
+      "url": "https://www.ycombinator.com/apply",
+      "status": "upcoming",
+      "description": "IndieBio Application ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "program"
+    },
+    {
+      "id": "startup-ddl-climatetech-startup-grant-2027-01-15",
+      "title": "ClimateTech Startup Grant",
+      "deadline": "2027-01-15T23:59:59",
+      "dateRange": "Jan 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "startup",
+        "accelerator",
+        "grant"
+      ],
+      "url": "https://www.ycombinator.com/apply",
+      "status": "upcoming",
+      "description": "ClimateTech Startup Grant ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "program"
+    },
+    {
+      "id": "startup-ddl-ai-startup-pitch-cup-2027-02-02",
+      "title": "AI Startup Pitch Cup",
+      "deadline": "2027-02-02T23:59:59",
+      "dateRange": "Feb 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "startup",
+        "accelerator",
+        "grant"
+      ],
+      "url": "https://www.ycombinator.com/apply",
+      "status": "upcoming",
+      "description": "AI Startup Pitch Cup ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "program"
+    },
+    {
+      "id": "startup-ddl-university-innovation-fund-window-2027-02-20",
+      "title": "University Innovation Fund Window",
+      "deadline": "2027-02-20T23:59:59",
+      "dateRange": "Feb 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "startup",
+        "accelerator",
+        "grant"
+      ],
+      "url": "https://www.ycombinator.com/apply",
+      "status": "upcoming",
+      "description": "University Innovation Fund Window ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "program"
+    },
+    {
+      "id": "startup-ddl-social-impact-venture-challenge-2027-03-10",
+      "title": "Social Impact Venture Challenge",
+      "deadline": "2027-03-10T23:59:59",
+      "dateRange": "Mar 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "startup",
+        "accelerator",
+        "grant"
+      ],
+      "url": "https://www.ycombinator.com/apply",
+      "status": "upcoming",
+      "description": "Social Impact Venture Challenge ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "program"
+    },
+    {
+      "id": "startup-ddl-hardware-startup-demo-sprint-2027-03-28",
+      "title": "Hardware Startup Demo Sprint",
+      "deadline": "2027-03-28T23:59:59",
+      "dateRange": "Mar 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "startup",
+        "accelerator",
+        "grant"
+      ],
+      "url": "https://www.ycombinator.com/apply",
+      "status": "upcoming",
+      "description": "Hardware Startup Demo Sprint ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "program"
+    }
+  ],
+  "design-ddl": [
+    {
+      "id": "design-ddl-ux-design-awards-submission-2026-07-01",
+      "title": "UX Design Awards Submission",
+      "deadline": "2026-07-01T23:59:59",
+      "dateRange": "Jul 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "UX",
+        "product",
+        "design"
+      ],
+      "url": "https://ux-design-awards.com",
+      "status": "upcoming",
+      "description": "UX Design Awards Submission ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "contest"
+    },
+    {
+      "id": "design-ddl-core77-design-awards-2026-07-19",
+      "title": "Core77 Design Awards",
+      "deadline": "2026-07-19T23:59:59",
+      "dateRange": "Jul 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "UX",
+        "product",
+        "design"
+      ],
+      "url": "https://ux-design-awards.com",
+      "status": "upcoming",
+      "description": "Core77 Design Awards ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "contest"
+    },
+    {
+      "id": "design-ddl-if-design-student-award-2026-08-06",
+      "title": "iF Design Student Award",
+      "deadline": "2026-08-06T23:59:59",
+      "dateRange": "Aug 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "UX",
+        "product",
+        "design"
+      ],
+      "url": "https://ux-design-awards.com",
+      "status": "upcoming",
+      "description": "iF Design Student Award ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "contest"
+    },
+    {
+      "id": "design-ddl-red-dot-design-concept-2026-08-24",
+      "title": "Red Dot Design Concept",
+      "deadline": "2026-08-24T23:59:59",
+      "dateRange": "Aug 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "UX",
+        "product",
+        "design"
+      ],
+      "url": "https://ux-design-awards.com",
+      "status": "upcoming",
+      "description": "Red Dot Design Concept ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "contest"
+    },
+    {
+      "id": "design-ddl-service-design-award-2026-09-11",
+      "title": "Service Design Award",
+      "deadline": "2026-09-11T23:59:59",
+      "dateRange": "Sep 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "UX",
+        "product",
+        "design"
+      ],
+      "url": "https://ux-design-awards.com",
+      "status": "upcoming",
+      "description": "Service Design Award ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "contest"
+    },
+    {
+      "id": "design-ddl-interaction-awards-2026-09-29",
+      "title": "Interaction Awards",
+      "deadline": "2026-09-29T23:59:59",
+      "dateRange": "Sep 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "UX",
+        "product",
+        "design"
+      ],
+      "url": "https://ux-design-awards.com",
+      "status": "upcoming",
+      "description": "Interaction Awards ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "contest"
+    },
+    {
+      "id": "design-ddl-awwwards-sites-of-the-year-2026-10-17",
+      "title": "Awwwards Sites of the Year",
+      "deadline": "2026-10-17T23:59:59",
+      "dateRange": "Oct 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "UX",
+        "product",
+        "design"
+      ],
+      "url": "https://ux-design-awards.com",
+      "status": "upcoming",
+      "description": "Awwwards Sites of the Year ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "contest"
+    },
+    {
+      "id": "design-ddl-figma-community-design-jam-2026-11-04",
+      "title": "Figma Community Design Jam",
+      "deadline": "2026-11-04T23:59:59",
+      "dateRange": "Nov 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "UX",
+        "product",
+        "design"
+      ],
+      "url": "https://ux-design-awards.com",
+      "status": "upcoming",
+      "description": "Figma Community Design Jam ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "contest"
+    },
+    {
+      "id": "design-ddl-adobe-creative-jam-2026-11-22",
+      "title": "Adobe Creative Jam",
+      "deadline": "2026-11-22T23:59:59",
+      "dateRange": "Nov 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "UX",
+        "product",
+        "design"
+      ],
+      "url": "https://ux-design-awards.com",
+      "status": "upcoming",
+      "description": "Adobe Creative Jam ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "contest"
+    },
+    {
+      "id": "design-ddl-product-hunt-makers-festival-2026-12-10",
+      "title": "Product Hunt Makers Festival",
+      "deadline": "2026-12-10T23:59:59",
+      "dateRange": "Dec 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "UX",
+        "product",
+        "design"
+      ],
+      "url": "https://ux-design-awards.com",
+      "status": "upcoming",
+      "description": "Product Hunt Makers Festival ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "contest"
+    },
+    {
+      "id": "design-ddl-design-for-america-studio-deadline-2026-12-28",
+      "title": "Design for America Studio Deadline",
+      "deadline": "2026-12-28T23:59:59",
+      "dateRange": "Dec 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "UX",
+        "product",
+        "design"
+      ],
+      "url": "https://ux-design-awards.com",
+      "status": "upcoming",
+      "description": "Design for America Studio Deadline ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "contest"
+    },
+    {
+      "id": "design-ddl-accessibility-design-challenge-2027-01-15",
+      "title": "Accessibility Design Challenge",
+      "deadline": "2027-01-15T23:59:59",
+      "dateRange": "Jan 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "UX",
+        "product",
+        "design"
+      ],
+      "url": "https://ux-design-awards.com",
+      "status": "upcoming",
+      "description": "Accessibility Design Challenge ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "contest"
+    },
+    {
+      "id": "design-ddl-speculative-futures-design-sprint-2027-02-02",
+      "title": "Speculative Futures Design Sprint",
+      "deadline": "2027-02-02T23:59:59",
+      "dateRange": "Feb 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "UX",
+        "product",
+        "design"
+      ],
+      "url": "https://ux-design-awards.com",
+      "status": "upcoming",
+      "description": "Speculative Futures Design Sprint ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "contest"
+    },
+    {
+      "id": "design-ddl-open-source-design-cfp-2027-02-20",
+      "title": "Open Source Design CFP",
+      "deadline": "2027-02-20T23:59:59",
+      "dateRange": "Feb 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "UX",
+        "product",
+        "design"
+      ],
+      "url": "https://ux-design-awards.com",
+      "status": "upcoming",
+      "description": "Open Source Design CFP ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "contest"
+    },
+    {
+      "id": "design-ddl-product-strategy-case-competition-2027-03-10",
+      "title": "Product Strategy Case Competition",
+      "deadline": "2027-03-10T23:59:59",
+      "dateRange": "Mar 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "UX",
+        "product",
+        "design"
+      ],
+      "url": "https://ux-design-awards.com",
+      "status": "upcoming",
+      "description": "Product Strategy Case Competition ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "contest"
+    },
+    {
+      "id": "design-ddl-design-systems-documentation-challenge-2027-03-28",
+      "title": "Design Systems Documentation Challenge",
+      "deadline": "2027-03-28T23:59:59",
+      "dateRange": "Mar 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "UX",
+        "product",
+        "design"
+      ],
+      "url": "https://ux-design-awards.com",
+      "status": "upcoming",
+      "description": "Design Systems Documentation Challenge ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "contest"
+    }
+  ],
+  "exam-ddl": [
+    {
+      "id": "exam-ddl-item-2026-07-01",
+      "title": "??????????????",
+      "deadline": "2026-07-01T23:59:59",
+      "dateRange": "Jul 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "exam",
+        "certificate",
+        "registration"
+      ],
+      "url": "https://www.neea.edu.cn",
+      "status": "upcoming",
+      "description": "?????????????? ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "program"
+    },
+    {
+      "id": "exam-ddl-item-2026-07-19",
+      "title": "???????????????",
+      "deadline": "2026-07-19T23:59:59",
+      "dateRange": "Jul 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "exam",
+        "certificate",
+        "registration"
+      ],
+      "url": "https://www.neea.edu.cn",
+      "status": "upcoming",
+      "description": "??????????????? ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "program"
+    },
+    {
+      "id": "exam-ddl-item-2026-08-06",
+      "title": "???????????",
+      "deadline": "2026-08-06T23:59:59",
+      "dateRange": "Aug 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "exam",
+        "certificate",
+        "registration"
+      ],
+      "url": "https://www.neea.edu.cn",
+      "status": "upcoming",
+      "description": "??????????? ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "program"
+    },
+    {
+      "id": "exam-ddl-item-2026-08-24",
+      "title": "????????",
+      "deadline": "2026-08-24T23:59:59",
+      "dateRange": "Aug 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "exam",
+        "certificate",
+        "registration"
+      ],
+      "url": "https://www.neea.edu.cn",
+      "status": "upcoming",
+      "description": "???????? ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "program"
+    },
+    {
+      "id": "exam-ddl-item-2026-09-11",
+      "title": "????????",
+      "deadline": "2026-09-11T23:59:59",
+      "dateRange": "Sep 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "exam",
+        "certificate",
+        "registration"
+      ],
+      "url": "https://www.neea.edu.cn",
+      "status": "upcoming",
+      "description": "???????? ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "program"
+    },
+    {
+      "id": "exam-ddl-gre-general-test-planning-2026-09-29",
+      "title": "GRE General Test Planning",
+      "deadline": "2026-09-29T23:59:59",
+      "dateRange": "Sep 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "exam",
+        "certificate",
+        "registration"
+      ],
+      "url": "https://www.neea.edu.cn",
+      "status": "upcoming",
+      "description": "GRE General Test Planning ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "program"
+    },
+    {
+      "id": "exam-ddl-gmat-focus-exam-planning-2026-10-17",
+      "title": "GMAT Focus Exam Planning",
+      "deadline": "2026-10-17T23:59:59",
+      "dateRange": "Oct 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "exam",
+        "certificate",
+        "registration"
+      ],
+      "url": "https://www.neea.edu.cn",
+      "status": "upcoming",
+      "description": "GMAT Focus Exam Planning ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "program"
+    },
+    {
+      "id": "exam-ddl-item-2026-11-04",
+      "title": "???????????",
+      "deadline": "2026-11-04T23:59:59",
+      "dateRange": "Nov 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "exam",
+        "certificate",
+        "registration"
+      ],
+      "url": "https://www.neea.edu.cn",
+      "status": "upcoming",
+      "description": "??????????? ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "program"
+    },
+    {
+      "id": "exam-ddl-item-2026-11-22",
+      "title": "?????????",
+      "deadline": "2026-11-22T23:59:59",
+      "dateRange": "Nov 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "exam",
+        "certificate",
+        "registration"
+      ],
+      "url": "https://www.neea.edu.cn",
+      "status": "upcoming",
+      "description": "????????? ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "program"
+    },
+    {
+      "id": "exam-ddl-item-2026-12-10",
+      "title": "?????????",
+      "deadline": "2026-12-10T23:59:59",
+      "dateRange": "Dec 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "exam",
+        "certificate",
+        "registration"
+      ],
+      "url": "https://www.neea.edu.cn",
+      "status": "upcoming",
+      "description": "????????? ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "program"
+    },
+    {
+      "id": "exam-ddl-item-2026-12-28",
+      "title": "??????",
+      "deadline": "2026-12-28T23:59:59",
+      "dateRange": "Dec 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "exam",
+        "certificate",
+        "registration"
+      ],
+      "url": "https://www.neea.edu.cn",
+      "status": "upcoming",
+      "description": "?????? ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "program"
+    },
+    {
+      "id": "exam-ddl-item-2027-01-15",
+      "title": "?????????",
+      "deadline": "2027-01-15T23:59:59",
+      "dateRange": "Jan 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "exam",
+        "certificate",
+        "registration"
+      ],
+      "url": "https://www.neea.edu.cn",
+      "status": "upcoming",
+      "description": "????????? ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "program"
+    },
+    {
+      "id": "exam-ddl-item-2027-02-02",
+      "title": "???????",
+      "deadline": "2027-02-02T23:59:59",
+      "dateRange": "Feb 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "exam",
+        "certificate",
+        "registration"
+      ],
+      "url": "https://www.neea.edu.cn",
+      "status": "upcoming",
+      "description": "??????? ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "program"
+    },
+    {
+      "id": "exam-ddl-aws-certification-voucher-window-2027-02-20",
+      "title": "AWS Certification Voucher Window",
+      "deadline": "2027-02-20T23:59:59",
+      "dateRange": "Feb 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "exam",
+        "certificate",
+        "registration"
+      ],
+      "url": "https://www.neea.edu.cn",
+      "status": "upcoming",
+      "description": "AWS Certification Voucher Window ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "program"
+    },
+    {
+      "id": "exam-ddl-pmp-exam-application-window-2027-03-10",
+      "title": "PMP Exam Application Window",
+      "deadline": "2027-03-10T23:59:59",
+      "dateRange": "Mar 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "exam",
+        "certificate",
+        "registration"
+      ],
+      "url": "https://www.neea.edu.cn",
+      "status": "upcoming",
+      "description": "PMP Exam Application Window ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "program"
+    },
+    {
+      "id": "exam-ddl-cfa-exam-registration-deadline-2027-03-28",
+      "title": "CFA Exam Registration Deadline",
+      "deadline": "2027-03-28T23:59:59",
+      "dateRange": "Mar 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "exam",
+        "certificate",
+        "registration"
+      ],
+      "url": "https://www.neea.edu.cn",
+      "status": "upcoming",
+      "description": "CFA Exam Registration Deadline ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "program"
+    }
+  ],
+  "scholarship-ddl": [
+    {
+      "id": "scholarship-ddl-csc-2026-07-01",
+      "title": "CSC ????????????????",
+      "deadline": "2026-07-01T23:59:59",
+      "dateRange": "Jul 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "scholarship",
+        "fellowship",
+        "application"
+      ],
+      "url": "https://www.csc.edu.cn",
+      "status": "upcoming",
+      "description": "CSC ???????????????? ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "program"
+    },
+    {
+      "id": "scholarship-ddl-fulbright-foreign-student-program-2026-07-19",
+      "title": "Fulbright Foreign Student Program",
+      "deadline": "2026-07-19T23:59:59",
+      "dateRange": "Jul 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "scholarship",
+        "fellowship",
+        "application"
+      ],
+      "url": "https://www.csc.edu.cn",
+      "status": "upcoming",
+      "description": "Fulbright Foreign Student Program ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "program"
+    },
+    {
+      "id": "scholarship-ddl-chevening-scholarship-application-2026-08-06",
+      "title": "Chevening Scholarship Application",
+      "deadline": "2026-08-06T23:59:59",
+      "dateRange": "Aug 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "scholarship",
+        "fellowship",
+        "application"
+      ],
+      "url": "https://www.csc.edu.cn",
+      "status": "upcoming",
+      "description": "Chevening Scholarship Application ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "program"
+    },
+    {
+      "id": "scholarship-ddl-erasmus-mundus-application-window-2026-08-24",
+      "title": "Erasmus Mundus Application Window",
+      "deadline": "2026-08-24T23:59:59",
+      "dateRange": "Aug 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "scholarship",
+        "fellowship",
+        "application"
+      ],
+      "url": "https://www.csc.edu.cn",
+      "status": "upcoming",
+      "description": "Erasmus Mundus Application Window ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "program"
+    },
+    {
+      "id": "scholarship-ddl-daad-scholarship-window-2026-09-11",
+      "title": "DAAD Scholarship Window",
+      "deadline": "2026-09-11T23:59:59",
+      "dateRange": "Sep 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "scholarship",
+        "fellowship",
+        "application"
+      ],
+      "url": "https://www.csc.edu.cn",
+      "status": "upcoming",
+      "description": "DAAD Scholarship Window ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "program"
+    },
+    {
+      "id": "scholarship-ddl-rhodes-scholarship-application-2026-09-29",
+      "title": "Rhodes Scholarship Application",
+      "deadline": "2026-09-29T23:59:59",
+      "dateRange": "Sep 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "scholarship",
+        "fellowship",
+        "application"
+      ],
+      "url": "https://www.csc.edu.cn",
+      "status": "upcoming",
+      "description": "Rhodes Scholarship Application ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "program"
+    },
+    {
+      "id": "scholarship-ddl-gates-cambridge-scholarship-2026-10-17",
+      "title": "Gates Cambridge Scholarship",
+      "deadline": "2026-10-17T23:59:59",
+      "dateRange": "Oct 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "scholarship",
+        "fellowship",
+        "application"
+      ],
+      "url": "https://www.csc.edu.cn",
+      "status": "upcoming",
+      "description": "Gates Cambridge Scholarship ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "program"
+    },
+    {
+      "id": "scholarship-ddl-knight-hennessy-scholars-2026-11-04",
+      "title": "Knight-Hennessy Scholars",
+      "deadline": "2026-11-04T23:59:59",
+      "dateRange": "Nov 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "scholarship",
+        "fellowship",
+        "application"
+      ],
+      "url": "https://www.csc.edu.cn",
+      "status": "upcoming",
+      "description": "Knight-Hennessy Scholars ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "program"
+    },
+    {
+      "id": "scholarship-ddl-mit-summer-research-program-2026-11-22",
+      "title": "MIT Summer Research Program",
+      "deadline": "2026-11-22T23:59:59",
+      "dateRange": "Nov 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "scholarship",
+        "fellowship",
+        "application"
+      ],
+      "url": "https://www.csc.edu.cn",
+      "status": "upcoming",
+      "description": "MIT Summer Research Program ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "program"
+    },
+    {
+      "id": "scholarship-ddl-epfl-excellence-fellowship-2026-12-10",
+      "title": "EPFL Excellence Fellowship",
+      "deadline": "2026-12-10T23:59:59",
+      "dateRange": "Dec 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "scholarship",
+        "fellowship",
+        "application"
+      ],
+      "url": "https://www.csc.edu.cn",
+      "status": "upcoming",
+      "description": "EPFL Excellence Fellowship ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "program"
+    },
+    {
+      "id": "scholarship-ddl-eth-zurich-excellence-scholarship-2026-12-28",
+      "title": "ETH Zurich Excellence Scholarship",
+      "deadline": "2026-12-28T23:59:59",
+      "dateRange": "Dec 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "scholarship",
+        "fellowship",
+        "application"
+      ],
+      "url": "https://www.csc.edu.cn",
+      "status": "upcoming",
+      "description": "ETH Zurich Excellence Scholarship ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "program"
+    },
+    {
+      "id": "scholarship-ddl-nus-research-scholarship-window-2027-01-15",
+      "title": "NUS Research Scholarship Window",
+      "deadline": "2027-01-15T23:59:59",
+      "dateRange": "Jan 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "scholarship",
+        "fellowship",
+        "application"
+      ],
+      "url": "https://www.csc.edu.cn",
+      "status": "upcoming",
+      "description": "NUS Research Scholarship Window ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "program"
+    },
+    {
+      "id": "scholarship-ddl-hkpfs-application-deadline-2027-02-02",
+      "title": "HKPFS Application Deadline",
+      "deadline": "2027-02-02T23:59:59",
+      "dateRange": "Feb 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "scholarship",
+        "fellowship",
+        "application"
+      ],
+      "url": "https://www.csc.edu.cn",
+      "status": "upcoming",
+      "description": "HKPFS Application Deadline ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "program"
+    },
+    {
+      "id": "scholarship-ddl-jsps-postdoctoral-fellowship-2027-02-20",
+      "title": "JSPS Postdoctoral Fellowship",
+      "deadline": "2027-02-20T23:59:59",
+      "dateRange": "Feb 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "scholarship",
+        "fellowship",
+        "application"
+      ],
+      "url": "https://www.csc.edu.cn",
+      "status": "upcoming",
+      "description": "JSPS Postdoctoral Fellowship ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "program"
+    },
+    {
+      "id": "scholarship-ddl-marie-curie-doctoral-networks-2027-03-10",
+      "title": "Marie Curie Doctoral Networks",
+      "deadline": "2027-03-10T23:59:59",
+      "dateRange": "Mar 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "scholarship",
+        "fellowship",
+        "application"
+      ],
+      "url": "https://www.csc.edu.cn",
+      "status": "upcoming",
+      "description": "Marie Curie Doctoral Networks ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "program"
+    },
+    {
+      "id": "scholarship-ddl-undergraduate-research-fellowship-window-2027-03-28",
+      "title": "Undergraduate Research Fellowship Window",
+      "deadline": "2027-03-28T23:59:59",
+      "dateRange": "Mar 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "scholarship",
+        "fellowship",
+        "application"
+      ],
+      "url": "https://www.csc.edu.cn",
+      "status": "upcoming",
+      "description": "Undergraduate Research Fellowship Window ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "program"
+    }
+  ],
+  "game-dev-ddl": [
+    {
+      "id": "game-dev-ddl-global-game-jam-site-registration-2026-07-01",
+      "title": "Global Game Jam Site Registration",
+      "deadline": "2026-07-01T23:59:59",
+      "dateRange": "Jul 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "game jam",
+        "indie game",
+        "Unity"
+      ],
+      "url": "https://itch.io/jams",
+      "status": "upcoming",
+      "description": "Global Game Jam Site Registration ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "contest"
+    },
+    {
+      "id": "game-dev-ddl-ludum-dare-60-2026-07-19",
+      "title": "Ludum Dare 60",
+      "deadline": "2026-07-19T23:59:59",
+      "dateRange": "Jul 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "game jam",
+        "indie game",
+        "Unity"
+      ],
+      "url": "https://itch.io/jams",
+      "status": "upcoming",
+      "description": "Ludum Dare 60 ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "contest"
+    },
+    {
+      "id": "game-dev-ddl-gmtk-game-jam-2026-08-06",
+      "title": "GMTK Game Jam",
+      "deadline": "2026-08-06T23:59:59",
+      "dateRange": "Aug 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "game jam",
+        "indie game",
+        "Unity"
+      ],
+      "url": "https://itch.io/jams",
+      "status": "upcoming",
+      "description": "GMTK Game Jam ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "contest"
+    },
+    {
+      "id": "game-dev-ddl-itch-io-brackeys-game-jam-2026-08-24",
+      "title": "itch.io Brackeys Game Jam",
+      "deadline": "2026-08-24T23:59:59",
+      "dateRange": "Aug 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "game jam",
+        "indie game",
+        "Unity"
+      ],
+      "url": "https://itch.io/jams",
+      "status": "upcoming",
+      "description": "itch.io Brackeys Game Jam ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "contest"
+    },
+    {
+      "id": "game-dev-ddl-independent-games-festival-submission-2026-09-11",
+      "title": "Independent Games Festival Submission",
+      "deadline": "2026-09-11T23:59:59",
+      "dateRange": "Sep 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "game jam",
+        "indie game",
+        "Unity"
+      ],
+      "url": "https://itch.io/jams",
+      "status": "upcoming",
+      "description": "Independent Games Festival Submission ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "contest"
+    },
+    {
+      "id": "game-dev-ddl-student-game-competition-entry-2026-09-29",
+      "title": "Student Game Competition Entry",
+      "deadline": "2026-09-29T23:59:59",
+      "dateRange": "Sep 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "game jam",
+        "indie game",
+        "Unity"
+      ],
+      "url": "https://itch.io/jams",
+      "status": "upcoming",
+      "description": "Student Game Competition Entry ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "contest"
+    },
+    {
+      "id": "game-dev-ddl-unreal-engine-challenge-2026-10-17",
+      "title": "Unreal Engine Challenge",
+      "deadline": "2026-10-17T23:59:59",
+      "dateRange": "Oct 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "game jam",
+        "indie game",
+        "Unity"
+      ],
+      "url": "https://itch.io/jams",
+      "status": "upcoming",
+      "description": "Unreal Engine Challenge ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "contest"
+    },
+    {
+      "id": "game-dev-ddl-unity-student-challenge-2026-11-04",
+      "title": "Unity Student Challenge",
+      "deadline": "2026-11-04T23:59:59",
+      "dateRange": "Nov 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "game jam",
+        "indie game",
+        "Unity"
+      ],
+      "url": "https://itch.io/jams",
+      "status": "upcoming",
+      "description": "Unity Student Challenge ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "contest"
+    },
+    {
+      "id": "game-dev-ddl-godot-wild-jam-2026-11-22",
+      "title": "Godot Wild Jam",
+      "deadline": "2026-11-22T23:59:59",
+      "dateRange": "Nov 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "game jam",
+        "indie game",
+        "Unity"
+      ],
+      "url": "https://itch.io/jams",
+      "status": "upcoming",
+      "description": "Godot Wild Jam ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "contest"
+    },
+    {
+      "id": "game-dev-ddl-game-off-by-github-2026-12-10",
+      "title": "Game Off by GitHub",
+      "deadline": "2026-12-10T23:59:59",
+      "dateRange": "Dec 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "game jam",
+        "indie game",
+        "Unity"
+      ],
+      "url": "https://itch.io/jams",
+      "status": "upcoming",
+      "description": "Game Off by GitHub ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "contest"
+    },
+    {
+      "id": "game-dev-ddl-a-maze-awards-submission-2026-12-28",
+      "title": "A MAZE. Awards Submission",
+      "deadline": "2026-12-28T23:59:59",
+      "dateRange": "Dec 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "game jam",
+        "indie game",
+        "Unity"
+      ],
+      "url": "https://itch.io/jams",
+      "status": "upcoming",
+      "description": "A MAZE. Awards Submission ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "contest"
+    },
+    {
+      "id": "game-dev-ddl-indiecade-submission-2027-01-15",
+      "title": "IndieCade Submission",
+      "deadline": "2027-01-15T23:59:59",
+      "dateRange": "Jan 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "game jam",
+        "indie game",
+        "Unity"
+      ],
+      "url": "https://itch.io/jams",
+      "status": "upcoming",
+      "description": "IndieCade Submission ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "contest"
+    },
+    {
+      "id": "game-dev-ddl-games-for-change-awards-2027-02-02",
+      "title": "Games for Change Awards",
+      "deadline": "2027-02-02T23:59:59",
+      "dateRange": "Feb 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "game jam",
+        "indie game",
+        "Unity"
+      ],
+      "url": "https://itch.io/jams",
+      "status": "upcoming",
+      "description": "Games for Change Awards ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "contest"
+    },
+    {
+      "id": "game-dev-ddl-ai-npc-challenge-2027-02-20",
+      "title": "AI NPC Challenge",
+      "deadline": "2027-02-20T23:59:59",
+      "dateRange": "Feb 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "game jam",
+        "indie game",
+        "Unity"
+      ],
+      "url": "https://itch.io/jams",
+      "status": "upcoming",
+      "description": "AI NPC Challenge ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "contest"
+    },
+    {
+      "id": "game-dev-ddl-procedural-generation-jam-2027-03-10",
+      "title": "Procedural Generation Jam",
+      "deadline": "2027-03-10T23:59:59",
+      "dateRange": "Mar 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "game jam",
+        "indie game",
+        "Unity"
+      ],
+      "url": "https://itch.io/jams",
+      "status": "upcoming",
+      "description": "Procedural Generation Jam ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "contest"
+    },
+    {
+      "id": "game-dev-ddl-serious-games-health-track-2027-03-28",
+      "title": "Serious Games Health Track",
+      "deadline": "2027-03-28T23:59:59",
+      "dateRange": "Mar 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "game jam",
+        "indie game",
+        "Unity"
+      ],
+      "url": "https://itch.io/jams",
+      "status": "upcoming",
+      "description": "Serious Games Health Track ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "contest"
+    }
+  ],
+  "biotech-ddl": [
+    {
+      "id": "biotech-ddl-dream-challenge-registration-2026-07-01",
+      "title": "DREAM Challenge Registration",
+      "deadline": "2026-07-01T23:59:59",
+      "dateRange": "Jul 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "biotech",
+        "medical AI",
+        "genomics"
+      ],
+      "url": "https://grand-challenge.org",
+      "status": "upcoming",
+      "description": "DREAM Challenge Registration ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "challenge"
+    },
+    {
+      "id": "biotech-ddl-casp-protein-prediction-target-window-2026-07-19",
+      "title": "CASP Protein Prediction Target Window",
+      "deadline": "2026-07-19T23:59:59",
+      "dateRange": "Jul 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "biotech",
+        "medical AI",
+        "genomics"
+      ],
+      "url": "https://grand-challenge.org",
+      "status": "upcoming",
+      "description": "CASP Protein Prediction Target Window ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "challenge"
+    },
+    {
+      "id": "biotech-ddl-kaggle-biomedical-image-challenge-2026-08-06",
+      "title": "Kaggle Biomedical Image Challenge",
+      "deadline": "2026-08-06T23:59:59",
+      "dateRange": "Aug 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "biotech",
+        "medical AI",
+        "genomics"
+      ],
+      "url": "https://grand-challenge.org",
+      "status": "upcoming",
+      "description": "Kaggle Biomedical Image Challenge ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "challenge"
+    },
+    {
+      "id": "biotech-ddl-miccai-grand-challenge-registration-2026-08-24",
+      "title": "MICCAI Grand Challenge Registration",
+      "deadline": "2026-08-24T23:59:59",
+      "dateRange": "Aug 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "biotech",
+        "medical AI",
+        "genomics"
+      ],
+      "url": "https://grand-challenge.org",
+      "status": "upcoming",
+      "description": "MICCAI Grand Challenge Registration ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "challenge"
+    },
+    {
+      "id": "biotech-ddl-ismb-eccb-proceedings-paper-2026-09-11",
+      "title": "ISMB/ECCB Proceedings Paper",
+      "deadline": "2026-09-11T23:59:59",
+      "dateRange": "Sep 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "biotech",
+        "medical AI",
+        "genomics"
+      ],
+      "url": "https://grand-challenge.org",
+      "status": "upcoming",
+      "description": "ISMB/ECCB Proceedings Paper ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "challenge"
+    },
+    {
+      "id": "biotech-ddl-recomb-paper-submission-2026-09-29",
+      "title": "RECOMB Paper Submission",
+      "deadline": "2026-09-29T23:59:59",
+      "dateRange": "Sep 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "biotech",
+        "medical AI",
+        "genomics"
+      ],
+      "url": "https://grand-challenge.org",
+      "status": "upcoming",
+      "description": "RECOMB Paper Submission ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "challenge"
+    },
+    {
+      "id": "biotech-ddl-single-cell-perturbation-challenge-2026-10-17",
+      "title": "Single-Cell Perturbation Challenge",
+      "deadline": "2026-10-17T23:59:59",
+      "dateRange": "Oct 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "biotech",
+        "medical AI",
+        "genomics"
+      ],
+      "url": "https://grand-challenge.org",
+      "status": "upcoming",
+      "description": "Single-Cell Perturbation Challenge ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "challenge"
+    },
+    {
+      "id": "biotech-ddl-genomics-variant-calling-benchmark-2026-11-04",
+      "title": "Genomics Variant Calling Benchmark",
+      "deadline": "2026-11-04T23:59:59",
+      "dateRange": "Nov 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "biotech",
+        "medical AI",
+        "genomics"
+      ],
+      "url": "https://grand-challenge.org",
+      "status": "upcoming",
+      "description": "Genomics Variant Calling Benchmark ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "challenge"
+    },
+    {
+      "id": "biotech-ddl-drug-discovery-benchmark-sprint-2026-11-22",
+      "title": "Drug Discovery Benchmark Sprint",
+      "deadline": "2026-11-22T23:59:59",
+      "dateRange": "Nov 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "biotech",
+        "medical AI",
+        "genomics"
+      ],
+      "url": "https://grand-challenge.org",
+      "status": "upcoming",
+      "description": "Drug Discovery Benchmark Sprint ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "challenge"
+    },
+    {
+      "id": "biotech-ddl-protein-design-hackathon-2026-12-10",
+      "title": "Protein Design Hackathon",
+      "deadline": "2026-12-10T23:59:59",
+      "dateRange": "Dec 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "biotech",
+        "medical AI",
+        "genomics"
+      ],
+      "url": "https://grand-challenge.org",
+      "status": "upcoming",
+      "description": "Protein Design Hackathon ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "challenge"
+    },
+    {
+      "id": "biotech-ddl-medical-qa-safety-evaluation-2026-12-28",
+      "title": "Medical QA Safety Evaluation",
+      "deadline": "2026-12-28T23:59:59",
+      "dateRange": "Dec 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "biotech",
+        "medical AI",
+        "genomics"
+      ],
+      "url": "https://grand-challenge.org",
+      "status": "upcoming",
+      "description": "Medical QA Safety Evaluation ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "challenge"
+    },
+    {
+      "id": "biotech-ddl-digital-pathology-challenge-2027-01-15",
+      "title": "Digital Pathology Challenge",
+      "deadline": "2027-01-15T23:59:59",
+      "dateRange": "Jan 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "biotech",
+        "medical AI",
+        "genomics"
+      ],
+      "url": "https://grand-challenge.org",
+      "status": "upcoming",
+      "description": "Digital Pathology Challenge ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "challenge"
+    },
+    {
+      "id": "biotech-ddl-wearable-health-data-challenge-2027-02-02",
+      "title": "Wearable Health Data Challenge",
+      "deadline": "2027-02-02T23:59:59",
+      "dateRange": "Feb 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "biotech",
+        "medical AI",
+        "genomics"
+      ],
+      "url": "https://grand-challenge.org",
+      "status": "upcoming",
+      "description": "Wearable Health Data Challenge ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "challenge"
+    },
+    {
+      "id": "biotech-ddl-clinical-nlp-shared-task-2027-02-20",
+      "title": "Clinical NLP Shared Task",
+      "deadline": "2027-02-20T23:59:59",
+      "dateRange": "Feb 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "biotech",
+        "medical AI",
+        "genomics"
+      ],
+      "url": "https://grand-challenge.org",
+      "status": "upcoming",
+      "description": "Clinical NLP Shared Task ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "challenge"
+    },
+    {
+      "id": "biotech-ddl-ai-for-healthcare-workshop-paper-2027-03-10",
+      "title": "AI for Healthcare Workshop Paper",
+      "deadline": "2027-03-10T23:59:59",
+      "dateRange": "Mar 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "biotech",
+        "medical AI",
+        "genomics"
+      ],
+      "url": "https://grand-challenge.org",
+      "status": "upcoming",
+      "description": "AI for Healthcare Workshop Paper ?????????? crawler ??????????",
+      "stage": "Coverage",
+      "source": "Curated coverage seed",
+      "type": "challenge"
+    },
+    {
+      "id": "biotech-ddl-biocreative-track-submission-2027-03-28",
+      "title": "BioCreative Track Submission",
+      "deadline": "2027-03-28T23:59:59",
+      "dateRange": "Mar 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "biotech",
+        "medical AI",
+        "genomics"
+      ],
+      "url": "https://grand-challenge.org",
+      "status": "upcoming",
+      "description": "BioCreative Track Submission ?????????? crawler ??????????",
+      "stage": "Coverage",
       "source": "Curated coverage seed",
       "type": "challenge"
     }
