@@ -1,6 +1,6 @@
 import { Link } from 'react-router';
 import { motion } from 'framer-motion';
-import { Trophy, Bot, Eye, MessageSquare, GraduationCap, Code2, CalendarHeart, Layers, ArrowRight, Star } from 'lucide-react';
+import { Trophy, Bot, Eye, MessageSquare, GraduationCap, Code2, CalendarHeart, Layers, ArrowRight, Star, ExternalLink } from 'lucide-react';
 import type { Topic } from '@/data/topics';
 import { useSubscriptions } from '@/hooks/useSubscriptions';
 
@@ -54,16 +54,29 @@ export default function TopicCard({ topic, index }: { topic: Topic; index: numbe
 
         <div className="mt-4 flex items-center justify-between border-t pt-3" style={{ borderColor: '#F5F5F4' }}>
           <span className="text-[11px] font-medium" style={{ color: '#A8A29E' }}>{topic.itemCount} 个DDL</span>
-          <span className="text-[11px] font-medium" style={{ color: topic.color }}>{topic.category}</span>
+          <div className="flex items-center gap-1.5">
+            <span className="text-[11px] font-medium" style={{ color: topic.color }}>{topic.category}</span>
+            <span className="rounded-full px-1.5 py-0.5 text-[10px] font-medium" style={{ background: topic.status === 'published' ? '#ECFDF5' : '#F5F5F4', color: topic.status === 'published' ? '#047857' : '#78716C' }}>
+              {topic.status === 'published' ? '已发布' : '骨架'}
+            </span>
+          </div>
         </div>
 
-        <Link to={`/topic/${topic.id}`}
-          className="mt-3 flex items-center justify-center gap-1 rounded-xl py-2 text-xs font-medium transition-all"
-          style={{ background: '#FFF7ED', color: '#F97316' }}
-          onMouseEnter={e => { e.currentTarget.style.background = '#F97316'; e.currentTarget.style.color = '#FFFFFF'; }}
-          onMouseLeave={e => { e.currentTarget.style.background = '#FFF7ED'; e.currentTarget.style.color = '#F97316'; }}>
-          查看全部 <ArrowRight size={12} />
-        </Link>
+        <div className="mt-3 grid grid-cols-[1fr_auto] gap-2">
+          <Link to={`/topic/${topic.id}`}
+            className="flex items-center justify-center gap-1 rounded-xl py-2 text-xs font-medium transition-all"
+            style={{ background: '#FFF7ED', color: '#F97316' }}
+            onMouseEnter={e => { e.currentTarget.style.background = '#F97316'; e.currentTarget.style.color = '#FFFFFF'; }}
+            onMouseLeave={e => { e.currentTarget.style.background = '#FFF7ED'; e.currentTarget.style.color = '#F97316'; }}>
+            查看全部 <ArrowRight size={12} />
+          </Link>
+          <a href={topic.site} target="_blank" rel="noopener noreferrer"
+            className="flex h-9 w-9 items-center justify-center rounded-xl border transition-all"
+            style={{ borderColor: '#FED7AA', color: topic.color }}
+            aria-label={`${topic.name} GitHub Pages`}>
+            <ExternalLink size={13} />
+          </a>
+        </div>
       </div>
     </motion.div>
   );

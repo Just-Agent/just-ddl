@@ -77,7 +77,7 @@ export default function About() {
       {/* Open source */}
       <section className="mt-8 text-center">
         <p className="text-xs" style={{ color: '#A8A29E' }}>Just DDL 是开源项目，欢迎贡献代码和数据</p>
-        <a href="https://github.com/just-ddl" target="_blank" rel="noopener noreferrer"
+        <a href="https://github.com/Just-Agent/just-ddl" target="_blank" rel="noopener noreferrer"
           className="mt-3 inline-flex items-center gap-1.5 rounded-xl px-5 py-2 text-xs font-medium text-white transition-all" style={{ background: '#F97316' }}>
           GitHub 仓库
         </a>

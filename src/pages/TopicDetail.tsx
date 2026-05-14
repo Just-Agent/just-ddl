@@ -1,7 +1,7 @@
 import { useMemo } from 'react';
 import { useParams, Link } from 'react-router';
 import { motion } from 'framer-motion';
-import { ArrowLeft, Trophy, Bot, Eye, MessageSquare, GraduationCap, Code2, CalendarHeart, Layers, Star, Github } from 'lucide-react';
+import { ArrowLeft, Trophy, Bot, Eye, MessageSquare, GraduationCap, Code2, CalendarHeart, Layers, Star, Github, ExternalLink } from 'lucide-react';
 import { getTopicById } from '@/data/topics';
 import { getDDLByTopic } from '@/data/ddl-data';
 import { useSubscriptions } from '@/hooks/useSubscriptions';
@@ -56,6 +56,9 @@ export default function TopicDetail() {
             <div className="flex items-center gap-2 flex-wrap">
               <h1 className="text-lg font-bold" style={{ color: '#1C1917' }}>{topic.name}</h1>
               <span className="rounded-full px-2 py-0.5 text-[10px] font-medium" style={{ background: `${topic.color}12`, color: topic.color }}>{topic.category}</span>
+              <span className="rounded-full px-2 py-0.5 text-[10px] font-medium" style={{ background: topic.status === 'published' ? '#ECFDF5' : '#F5F5F4', color: topic.status === 'published' ? '#047857' : '#78716C' }}>
+                {topic.status === 'published' ? '已发布' : '专题骨架'}
+              </span>
             </div>
             <p className="mt-1 text-xs" style={{ color: '#78716C' }}>{topic.description}</p>
             <div className="mt-3 flex flex-wrap items-center gap-2">
@@ -67,6 +70,10 @@ export default function TopicDetail() {
               <a href={`https://github.com/${topic.repo}`} target="_blank" rel="noopener noreferrer"
                 className="flex items-center gap-1.5 rounded-lg border px-3 py-1.5 text-xs font-medium transition-all" style={{ borderColor: '#FED7AA', color: '#78716C' }}>
                 <Github size={12} /> {topic.repo}
+              </a>
+              <a href={topic.site} target="_blank" rel="noopener noreferrer"
+                className="flex items-center gap-1.5 rounded-lg border px-3 py-1.5 text-xs font-medium transition-all" style={{ borderColor: '#FED7AA', color: topic.color }}>
+                <ExternalLink size={12} /> GitHub Pages
               </a>
               <span className="text-xs" style={{ color: '#A8A29E' }}>{topic.itemCount} 个DDL · {items.filter(d => d.status !== 'ended').length} 个进行中</span>
             </div>
