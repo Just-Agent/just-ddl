@@ -22,7 +22,7 @@ export const topics: Topic[] = [
     "repo": "Just-Agent/hackathon-ddl",
     "site": "https://just-agent.github.io/hackathon-ddl/",
     "status": "published",
-    "itemCount": 26,
+    "itemCount": 18,
     "category": "技术赛事",
     "tags": [
       "coding",
@@ -39,7 +39,7 @@ export const topics: Topic[] = [
     "repo": "Just-Agent/agent-ddl",
     "site": "https://just-agent.github.io/agent-ddl/",
     "status": "published",
-    "itemCount": 26,
+    "itemCount": 18,
     "category": "技术赛事",
     "tags": [
       "LLM",
@@ -56,7 +56,7 @@ export const topics: Topic[] = [
     "repo": "Just-Agent/cv-ddl",
     "site": "https://just-agent.github.io/cv-ddl/",
     "status": "published",
-    "itemCount": 26,
+    "itemCount": 18,
     "category": "技术赛事",
     "tags": [
       "CVPR",
@@ -73,7 +73,7 @@ export const topics: Topic[] = [
     "repo": "Just-Agent/nlp-ddl",
     "site": "https://just-agent.github.io/nlp-ddl/",
     "status": "published",
-    "itemCount": 26,
+    "itemCount": 18,
     "category": "技术赛事",
     "tags": [
       "ACL",
@@ -90,7 +90,7 @@ export const topics: Topic[] = [
     "repo": "Just-Agent/academic-ddl",
     "site": "https://just-agent.github.io/academic-ddl/",
     "status": "published",
-    "itemCount": 28,
+    "itemCount": 20,
     "category": "学术科研",
     "tags": [
       "conference",
@@ -107,7 +107,7 @@ export const topics: Topic[] = [
     "repo": "Just-Agent/journal-ddl",
     "site": "https://just-agent.github.io/journal-ddl/",
     "status": "published",
-    "itemCount": 152,
+    "itemCount": 144,
     "category": "学术期刊",
     "tags": [
       "journal",
@@ -124,7 +124,7 @@ export const topics: Topic[] = [
     "repo": "Just-Agent/programming-ddl",
     "site": "https://just-agent.github.io/programming-ddl/",
     "status": "published",
-    "itemCount": 28,
+    "itemCount": 20,
     "category": "专业竞赛",
     "tags": [
       "ICPC",
@@ -141,7 +141,7 @@ export const topics: Topic[] = [
     "repo": "Just-Agent/holiday-ddl",
     "site": "https://just-agent.github.io/holiday-ddl/",
     "status": "published",
-    "itemCount": 86,
+    "itemCount": 78,
     "category": "日常通用",
     "tags": [
       "festival",
@@ -158,7 +158,7 @@ export const topics: Topic[] = [
     "repo": "Just-Agent/multimodal-ddl",
     "site": "https://just-agent.github.io/multimodal-ddl/",
     "status": "published",
-    "itemCount": 26,
+    "itemCount": 18,
     "category": "技术赛事",
     "tags": [
       "MM",
@@ -169,14 +169,14 @@ export const topics: Topic[] = [
   {
     "id": "security-ddl",
     "name": "Security & CTF",
-    "description": "CTF???????????????????????????",
+    "description": "CTF、网络安全会议、漏洞赏金、攻防演练和安全研究专题截止日",
     "icon": "Code2",
     "color": "#DC2626",
     "repo": "Just-Agent/just-ddl",
     "site": "https://just-agent.github.io/just-ddl/#/topic/security-ddl",
     "status": "demo",
     "itemCount": 16,
-    "category": "????",
+    "category": "安全开源",
     "tags": [
       "CTF",
       "security",
@@ -186,14 +186,14 @@ export const topics: Topic[] = [
   {
     "id": "data-science-ddl",
     "name": "Data Science",
-    "description": "Kaggle????DataCastle????????????????",
+    "description": "Kaggle、天池、DataCastle、数据挖掘会议与数据挑战赛截止日",
     "icon": "Layers",
     "color": "#2563EB",
     "repo": "Just-Agent/just-ddl",
     "site": "https://just-agent.github.io/just-ddl/#/topic/data-science-ddl",
     "status": "demo",
     "itemCount": 16,
-    "category": "????",
+    "category": "技术赛事",
     "tags": [
       "Kaggle",
       "data mining",
@@ -203,14 +203,14 @@ export const topics: Topic[] = [
   {
     "id": "open-source-ddl",
     "name": "Open Source",
-    "description": "GSoC?OSPP?LFX?Outreachy???????????????",
+    "description": "GSoC、OSPP、LFX、Outreachy、开源实习与社区贡献计划截止日",
     "icon": "Code2",
     "color": "#059669",
     "repo": "Just-Agent/just-ddl",
     "site": "https://just-agent.github.io/just-ddl/#/topic/open-source-ddl",
     "status": "demo",
     "itemCount": 16,
-    "category": "????",
+    "category": "安全开源",
     "tags": [
       "GSoC",
       "OSPP",
@@ -220,14 +220,14 @@ export const topics: Topic[] = [
   {
     "id": "robotics-ddl",
     "name": "Robotics",
-    "description": "??????ICRA/IROS challenge??????????????",
+    "description": "机器人竞赛、ICRA/IROS challenge、自动驾驶和具身智能评测节点",
     "icon": "Bot",
     "color": "#7C3AED",
     "repo": "Just-Agent/just-ddl",
     "site": "https://just-agent.github.io/just-ddl/#/topic/robotics-ddl",
     "status": "demo",
     "itemCount": 16,
-    "category": "????",
+    "category": "技术赛事",
     "tags": [
       "robotics",
       "embodied AI",
@@ -237,14 +237,14 @@ export const topics: Topic[] = [
   {
     "id": "startup-ddl",
     "name": "Startup",
-    "description": "????????????????????? grant ?????",
+    "description": "创业大赛、加速器申请、创新创业项目、路演和 grant 申请截止日",
     "icon": "Trophy",
     "color": "#EA580C",
     "repo": "Just-Agent/just-ddl",
     "site": "https://just-agent.github.io/just-ddl/#/topic/startup-ddl",
     "status": "demo",
     "itemCount": 16,
-    "category": "????",
+    "category": "产业创业",
     "tags": [
       "startup",
       "accelerator",
@@ -254,14 +254,14 @@ export const topics: Topic[] = [
   {
     "id": "design-ddl",
     "name": "Design & Product",
-    "description": "UX?????????????????????????????",
+    "description": "UX、产品设计、服务设计、交互设计、工业设计和创意挑战赛截止日",
     "icon": "Eye",
     "color": "#DB2777",
     "repo": "Just-Agent/just-ddl",
     "site": "https://just-agent.github.io/just-ddl/#/topic/design-ddl",
     "status": "demo",
     "itemCount": 16,
-    "category": "????",
+    "category": "设计创作",
     "tags": [
       "UX",
       "product",
@@ -271,14 +271,14 @@ export const topics: Topic[] = [
   {
     "id": "exam-ddl",
     "name": "Exams",
-    "description": "???????????????????????????",
+    "description": "升学考试、语言考试、职业资格、报名缴费和准考证打印提醒",
     "icon": "GraduationCap",
     "color": "#0891B2",
     "repo": "Just-Agent/just-ddl",
     "site": "https://just-agent.github.io/just-ddl/#/topic/exam-ddl",
     "status": "demo",
     "itemCount": 16,
-    "category": "????",
+    "category": "考试申请",
     "tags": [
       "exam",
       "certificate",
@@ -288,14 +288,14 @@ export const topics: Topic[] = [
   {
     "id": "scholarship-ddl",
     "name": "Scholarships",
-    "description": "?????????????????????? fellowship ???",
+    "description": "奖学金、访问学者、暑研、交换项目、博士申请和 fellowship 截止日",
     "icon": "BookOpen",
     "color": "#CA8A04",
     "repo": "Just-Agent/just-ddl",
     "site": "https://just-agent.github.io/just-ddl/#/topic/scholarship-ddl",
     "status": "demo",
     "itemCount": 16,
-    "category": "????",
+    "category": "考试申请",
     "tags": [
       "scholarship",
       "fellowship",
@@ -305,14 +305,14 @@ export const topics: Topic[] = [
   {
     "id": "game-dev-ddl",
     "name": "Game Dev",
-    "description": "Game Jam??????????????????????????",
+    "description": "Game Jam、独立游戏节、学生游戏竞赛、引擎挑战和作品提交截止日",
     "icon": "Trophy",
     "color": "#9333EA",
     "repo": "Just-Agent/just-ddl",
     "site": "https://just-agent.github.io/just-ddl/#/topic/game-dev-ddl",
     "status": "demo",
     "itemCount": 16,
-    "category": "????",
+    "category": "设计创作",
     "tags": [
       "game jam",
       "indie game",
@@ -322,14 +322,14 @@ export const topics: Topic[] = [
   {
     "id": "biotech-ddl",
     "name": "Biotech",
-    "description": "?????????????????????? AI ?????",
+    "description": "生物医药、医学影像、基因组、蛋白质设计和健康 AI 挑战截止日",
     "icon": "GraduationCap",
     "color": "#16A34A",
     "repo": "Just-Agent/just-ddl",
     "site": "https://just-agent.github.io/just-ddl/#/topic/biotech-ddl",
     "status": "demo",
     "itemCount": 16,
-    "category": "????",
+    "category": "生命健康",
     "tags": [
       "biotech",
       "medical AI",
@@ -339,17 +339,17 @@ export const topics: Topic[] = [
 ];
 
 export const categories = [
-  "??",
-  "????",
-  "????",
-  "????",
-  "????",
-  "????",
-  "????",
-  "????",
-  "????",
-  "????",
-  "????"
+  "全部",
+  "技术赛事",
+  "学术科研",
+  "学术期刊",
+  "专业竞赛",
+  "日常通用",
+  "安全开源",
+  "产业创业",
+  "设计创作",
+  "考试申请",
+  "生命健康"
 ];
 
 export function getTopicById(id: string) { return topics.find(t => t.id === id); }

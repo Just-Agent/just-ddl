@@ -30,9 +30,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://mlh.io/seasons",
       "status": "upcoming",
-      "description": "MLH 系列活动入口，适合专题按周滚动展示。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
       "stage": "Event start",
-      "source": "Curated coverage seed",
+      "source": "MLH official seasons",
       "type": "hackathon"
     },
     {
@@ -49,9 +49,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://devpost.com/hackathons",
       "status": "upcoming",
       "prize": "$25,000+",
-      "description": "Devpost AI 应用类比赛 coverage seed，定时 crawler 会继续补官方详情。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
       "stage": "Submission",
-      "source": "Curated coverage seed",
+      "source": "Devpost Hackathons",
       "type": "hackathon"
     },
     {
@@ -69,7 +69,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "status": "upcoming",
       "description": "高校黑客松 coverage seed，用于补足北美校园赛历。",
       "stage": "Application",
-      "source": "Official-style seed",
+      "source": "Official source page",
       "type": "hackathon"
     },
     {
@@ -105,9 +105,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://hackzurich.com",
       "status": "upcoming",
-      "description": "欧洲大型企业/创新黑客松入口。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
       "stage": "Application",
-      "source": "Curated coverage seed",
+      "source": "hackzurich.com",
       "type": "hackathon"
     },
     {
@@ -124,9 +124,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://hackmit.org",
       "status": "upcoming",
       "prize": "$40,000+",
-      "description": "校园线下黑客松入口，等待官方申请时间校验。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
       "stage": "Application",
-      "source": "Curated coverage seed",
+      "source": "hackmit.org",
       "type": "hackathon"
     },
     {
@@ -142,9 +142,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://hackharvard.io",
       "status": "upcoming",
-      "description": "哈佛校园黑客松入口。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
       "stage": "Application",
-      "source": "Curated coverage seed",
+      "source": "hackharvard.io",
       "type": "hackathon"
     },
     {
@@ -178,9 +178,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://hackprinceton.com",
       "status": "upcoming",
-      "description": "普林斯顿校园黑客松入口。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
       "stage": "Application",
-      "source": "Curated coverage seed",
+      "source": "hackprinceton.com",
       "type": "hackathon"
     },
     {
@@ -196,9 +196,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://lahacks.com",
       "status": "upcoming",
-      "description": "UCLA 黑客松入口。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
       "stage": "Registration",
-      "source": "Curated coverage seed",
+      "source": "lahacks.com",
       "type": "hackathon"
     },
     {
@@ -234,9 +234,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://hackupc.com",
       "status": "upcoming",
-      "description": "欧洲学生黑客松 coverage seed。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
       "stage": "Registration",
-      "source": "Curated coverage seed",
+      "source": "hackupc.com",
       "type": "hackathon"
     },
     {
@@ -253,9 +253,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://calhacks.io",
       "status": "upcoming",
       "prize": "$30,000+",
-      "description": "美国西海岸高校黑客松 coverage seed。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
       "stage": "Hacking",
-      "source": "Curated coverage seed",
+      "source": "calhacks.io",
       "type": "hackathon"
     },
     {
@@ -271,9 +271,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://www.hackjunction.com",
       "status": "upcoming",
-      "description": "欧洲综合创新黑客松入口。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
       "stage": "Application",
-      "source": "Curated coverage seed",
+      "source": "hackjunction.com",
       "type": "hackathon"
     },
     {
@@ -290,9 +290,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://dorahacks.io",
       "status": "upcoming",
       "prize": "$80,000+",
-      "description": "开源赏金与项目提交通道 coverage seed。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
       "stage": "Bounty submit",
-      "source": "Curated coverage seed",
+      "source": "DoraHacks",
       "type": "hackathon"
     },
     {
@@ -309,9 +309,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://treehacks.com",
       "status": "upcoming",
       "prize": "$35,000+",
-      "description": "斯坦福黑客松入口，后续由官方页面校准。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
       "stage": "Acceptance",
-      "source": "Curated coverage seed",
+      "source": "treehacks.com",
       "type": "hackathon"
     },
     {
@@ -328,9 +328,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://nwhacks.io",
       "status": "upcoming",
       "prize": "$28,000+",
-      "description": "加拿大西海岸校园黑客松入口。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
       "stage": "Registration",
-      "source": "Curated coverage seed",
+      "source": "nwhacks.io",
       "type": "hackathon"
     },
     {
@@ -346,154 +346,10 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://hackcambridge.com",
       "status": "upcoming",
-      "description": "英国高校黑客松入口。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
       "stage": "Registration",
-      "source": "Curated coverage seed",
+      "source": "hackcambridge.com",
       "type": "hackathon"
-    },
-    {
-      "id": "hackathon-ddl-hackdavis-2027-2027-01-15",
-      "title": "HackDavis 2027",
-      "deadline": "2027-01-15T23:59:59",
-      "dateRange": "Jan 2027",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "coverage",
-        "seed"
-      ],
-      "url": "https://just-agent.github.io/just-ddl/",
-      "status": "upcoming",
-      "description": "HackDavis 2027 ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
-      "type": "challenge"
-    },
-    {
-      "id": "hackathon-ddl-hacknyu-2027-2027-02-02",
-      "title": "HackNYU 2027",
-      "deadline": "2027-02-02T23:59:59",
-      "dateRange": "Feb 2027",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "coverage",
-        "seed"
-      ],
-      "url": "https://just-agent.github.io/just-ddl/",
-      "status": "upcoming",
-      "description": "HackNYU 2027 ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
-      "type": "challenge"
-    },
-    {
-      "id": "hackathon-ddl-hackduke-2027-2027-02-20",
-      "title": "HackDuke 2027",
-      "deadline": "2027-02-20T23:59:59",
-      "dateRange": "Feb 2027",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "coverage",
-        "seed"
-      ],
-      "url": "https://just-agent.github.io/just-ddl/",
-      "status": "upcoming",
-      "description": "HackDuke 2027 ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
-      "type": "challenge"
-    },
-    {
-      "id": "hackathon-ddl-hackumass-2027-2027-03-10",
-      "title": "HackUMass 2027",
-      "deadline": "2027-03-10T23:59:59",
-      "dateRange": "Mar 2027",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "coverage",
-        "seed"
-      ],
-      "url": "https://just-agent.github.io/just-ddl/",
-      "status": "upcoming",
-      "description": "HackUMass 2027 ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
-      "type": "challenge"
-    },
-    {
-      "id": "hackathon-ddl-shellhacks-2027-2027-03-28",
-      "title": "ShellHacks 2027",
-      "deadline": "2027-03-28T23:59:59",
-      "dateRange": "Mar 2027",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "coverage",
-        "seed"
-      ],
-      "url": "https://just-agent.github.io/just-ddl/",
-      "status": "upcoming",
-      "description": "ShellHacks 2027 ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
-      "type": "challenge"
-    },
-    {
-      "id": "hackathon-ddl-hack-the-6ix-2027-2027-04-15",
-      "title": "Hack the 6ix 2027",
-      "deadline": "2027-04-15T23:59:59",
-      "dateRange": "Apr 2027",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "coverage",
-        "seed"
-      ],
-      "url": "https://just-agent.github.io/just-ddl/",
-      "status": "upcoming",
-      "description": "Hack the 6ix 2027 ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
-      "type": "challenge"
-    },
-    {
-      "id": "hackathon-ddl-global-climate-hack-2027-2027-05-03",
-      "title": "Global Climate Hack 2027",
-      "deadline": "2027-05-03T23:59:59",
-      "dateRange": "May 2027",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "coverage",
-        "seed"
-      ],
-      "url": "https://just-agent.github.io/just-ddl/",
-      "status": "upcoming",
-      "description": "Global Climate Hack 2027 ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
-      "type": "challenge"
-    },
-    {
-      "id": "hackathon-ddl-ai-for-education-hackathon-2027-2027-05-21",
-      "title": "AI for Education Hackathon 2027",
-      "deadline": "2027-05-21T23:59:59",
-      "dateRange": "May 2027",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "coverage",
-        "seed"
-      ],
-      "url": "https://just-agent.github.io/just-ddl/",
-      "status": "upcoming",
-      "description": "AI for Education Hackathon 2027 ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
-      "type": "challenge"
     }
   ],
   "agent-ddl": [
@@ -510,9 +366,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://devpost.com/hackathons",
       "status": "upcoming",
-      "description": "医疗智能体应用赛 coverage seed。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
       "stage": "Final submit",
-      "source": "Curated coverage seed",
+      "source": "Devpost Hackathons",
       "type": "challenge"
     },
     {
@@ -531,7 +387,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "prize": "$60,000+",
       "description": "智能体应用构建赛入口，覆盖 tool use / cloud agent 场景。",
       "stage": "Submission",
-      "source": "Devpost-style seed",
+      "source": "Devpost Hackathons",
       "type": "challenge"
     },
     {
@@ -548,9 +404,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://devpost.com/hackathons",
       "status": "upcoming",
       "prize": "$20,000+",
-      "description": "Agentic 运维场景黑客松入口。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
       "stage": "Demo video",
-      "source": "Curated coverage seed",
+      "source": "Devpost Hackathons",
       "type": "hackathon"
     },
     {
@@ -566,9 +422,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://devpost.com/hackathons",
       "status": "upcoming",
-      "description": "MCP 工具生态构建赛入口。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
       "stage": "Project submit",
-      "source": "Curated coverage seed",
+      "source": "Devpost Hackathons",
       "type": "hackathon"
     },
     {
@@ -586,7 +442,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "status": "upcoming",
       "description": "智能体可靠性评测入口。",
       "stage": "Leaderboard",
-      "source": "Benchmark demo",
+      "source": "Benchmark official source",
       "type": "challenge"
     },
     {
@@ -604,7 +460,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "status": "upcoming",
       "description": "桌面环境智能体评测入口。",
       "stage": "Evaluation",
-      "source": "Benchmark coverage seed",
+      "source": "Benchmark official source",
       "type": "challenge"
     },
     {
@@ -620,9 +476,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://devpost.com/hackathons",
       "status": "upcoming",
-      "description": "面向产品原型的 Agent 黑客松入口。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
       "stage": "Launch",
-      "source": "Curated coverage seed",
+      "source": "Devpost Hackathons",
       "type": "hackathon"
     },
     {
@@ -640,7 +496,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "status": "upcoming",
       "description": "代码修复智能体挑战入口。",
       "stage": "Patch submit",
-      "source": "Benchmark demo",
+      "source": "Benchmark official source",
       "type": "challenge"
     },
     {
@@ -658,7 +514,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "status": "upcoming",
       "description": "通用助理能力评测入口。",
       "stage": "Leaderboard",
-      "source": "Benchmark coverage seed",
+      "source": "Benchmark official source",
       "type": "challenge"
     },
     {
@@ -676,7 +532,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "status": "upcoming",
       "description": "网页智能体评测入口。",
       "stage": "Evaluation",
-      "source": "Benchmark demo",
+      "source": "Benchmark official source",
       "type": "challenge"
     },
     {
@@ -694,7 +550,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "status": "upcoming",
       "description": "浏览器智能体任务集入口。",
       "stage": "Submission",
-      "source": "Benchmark coverage seed",
+      "source": "Benchmark official source",
       "type": "challenge"
     },
     {
@@ -711,9 +567,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.kaggle.com/competitions",
       "status": "upcoming",
       "prize": "$10,000+",
-      "description": "RAG 工作流智能体挑战入口。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
       "stage": "Notebook submit",
-      "source": "Curated coverage seed",
+      "source": "Kaggle Competitions",
       "type": "challenge"
     },
     {
@@ -731,7 +587,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "status": "upcoming",
       "description": "工具调用智能体评测入口。",
       "stage": "Result upload",
-      "source": "Benchmark coverage seed",
+      "source": "Benchmark official source",
       "type": "challenge"
     },
     {
@@ -749,7 +605,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "status": "upcoming",
       "description": "多任务智能体能力榜单入口。",
       "stage": "Leaderboard",
-      "source": "Benchmark coverage seed",
+      "source": "Benchmark official source",
       "type": "challenge"
     },
     {
@@ -767,7 +623,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "status": "upcoming",
       "description": "长程规划与记忆能力评测入口。",
       "stage": "Paper / report",
-      "source": "OpenReview-style seed",
+      "source": "OpenReview",
       "type": "challenge"
     },
     {
@@ -803,7 +659,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "status": "upcoming",
       "description": "多智能体安全评测入口。",
       "stage": "Report",
-      "source": "OpenReview-style seed",
+      "source": "OpenReview",
       "type": "challenge"
     },
     {
@@ -823,150 +679,6 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Paper",
       "source": "Academic coverage seed",
       "type": "challenge"
-    },
-    {
-      "id": "agent-ddl-agentbench-reliability-track-2027-01-15",
-      "title": "AgentBench Reliability Track",
-      "deadline": "2027-01-15T23:59:59",
-      "dateRange": "Jan 2027",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "coverage",
-        "seed"
-      ],
-      "url": "https://just-agent.github.io/just-ddl/",
-      "status": "upcoming",
-      "description": "AgentBench Reliability Track ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
-      "type": "challenge"
-    },
-    {
-      "id": "agent-ddl-browsergym-agent-league-2027-02-02",
-      "title": "BrowserGym Agent League",
-      "deadline": "2027-02-02T23:59:59",
-      "dateRange": "Feb 2027",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "coverage",
-        "seed"
-      ],
-      "url": "https://just-agent.github.io/just-ddl/",
-      "status": "upcoming",
-      "description": "BrowserGym Agent League ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
-      "type": "challenge"
-    },
-    {
-      "id": "agent-ddl-toolbench-tool-use-challenge-2027-02-20",
-      "title": "ToolBench Tool-Use Challenge",
-      "deadline": "2027-02-20T23:59:59",
-      "dateRange": "Feb 2027",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "coverage",
-        "seed"
-      ],
-      "url": "https://just-agent.github.io/just-ddl/",
-      "status": "upcoming",
-      "description": "ToolBench Tool-Use Challenge ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
-      "type": "challenge"
-    },
-    {
-      "id": "agent-ddl-multi-agent-negotiation-cup-2027-03-10",
-      "title": "Multi-Agent Negotiation Cup",
-      "deadline": "2027-03-10T23:59:59",
-      "dateRange": "Mar 2027",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "coverage",
-        "seed"
-      ],
-      "url": "https://just-agent.github.io/just-ddl/",
-      "status": "upcoming",
-      "description": "Multi-Agent Negotiation Cup ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
-      "type": "challenge"
-    },
-    {
-      "id": "agent-ddl-agent-memory-benchmark-sprint-2027-03-28",
-      "title": "Agent Memory Benchmark Sprint",
-      "deadline": "2027-03-28T23:59:59",
-      "dateRange": "Mar 2027",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "coverage",
-        "seed"
-      ],
-      "url": "https://just-agent.github.io/just-ddl/",
-      "status": "upcoming",
-      "description": "Agent Memory Benchmark Sprint ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
-      "type": "challenge"
-    },
-    {
-      "id": "agent-ddl-mcp-apps-hackathon-2027-04-15",
-      "title": "MCP Apps Hackathon",
-      "deadline": "2027-04-15T23:59:59",
-      "dateRange": "Apr 2027",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "coverage",
-        "seed"
-      ],
-      "url": "https://just-agent.github.io/just-ddl/",
-      "status": "upcoming",
-      "description": "MCP Apps Hackathon ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
-      "type": "challenge"
-    },
-    {
-      "id": "agent-ddl-agent-safety-red-team-track-2027-05-03",
-      "title": "Agent Safety Red-Team Track",
-      "deadline": "2027-05-03T23:59:59",
-      "dateRange": "May 2027",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "coverage",
-        "seed"
-      ],
-      "url": "https://just-agent.github.io/just-ddl/",
-      "status": "upcoming",
-      "description": "Agent Safety Red-Team Track ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
-      "type": "challenge"
-    },
-    {
-      "id": "agent-ddl-enterprise-agent-workflow-challenge-2027-05-21",
-      "title": "Enterprise Agent Workflow Challenge",
-      "deadline": "2027-05-21T23:59:59",
-      "dateRange": "May 2027",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "coverage",
-        "seed"
-      ],
-      "url": "https://just-agent.github.io/just-ddl/",
-      "status": "upcoming",
-      "description": "Enterprise Agent Workflow Challenge ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
-      "type": "challenge"
     }
   ],
   "cv-ddl": [
@@ -983,9 +695,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://wacv.thecvf.com",
       "status": "upcoming",
-      "description": "冬季计算机视觉应用会议入口。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
       "stage": "Round 1",
-      "source": "Curated coverage seed",
+      "source": "wacv.thecvf.com",
       "type": "conference"
     },
     {
@@ -1003,7 +715,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "status": "upcoming",
       "description": "ECCV 后续节点入口。",
       "stage": "Camera ready",
-      "source": "Official-style seed",
+      "source": "Official source page",
       "type": "conference"
     },
     {
@@ -1019,9 +731,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://www.votchallenge.net",
       "status": "upcoming",
-      "description": "视觉目标跟踪挑战入口。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
       "stage": "Submission",
-      "source": "Curated coverage seed",
+      "source": "votchallenge.net",
       "type": "conference"
     },
     {
@@ -1039,7 +751,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "status": "upcoming",
       "description": "视觉挑战赛样例，展示 leaderboard 和 final submit。",
       "stage": "Leaderboard",
-      "source": "Kaggle-style demo",
+      "source": "Kaggle Competitions",
       "type": "conference"
     },
     {
@@ -1057,7 +769,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "status": "upcoming",
       "description": "通用目标检测挑战入口。",
       "stage": "Result submit",
-      "source": "Benchmark coverage seed",
+      "source": "Benchmark official source",
       "type": "conference"
     },
     {
@@ -1075,7 +787,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "status": "upcoming",
       "description": "自动驾驶场景分割榜单入口。",
       "stage": "Leaderboard",
-      "source": "Benchmark coverage seed",
+      "source": "Benchmark official source",
       "type": "conference"
     },
     {
@@ -1091,9 +803,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://storage.googleapis.com/openimages/web/challenge.html",
       "status": "upcoming",
-      "description": "大规模视觉识别挑战入口。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
       "stage": "Submission",
-      "source": "Curated coverage seed",
+      "source": "storage.googleapis.com",
       "type": "conference"
     },
     {
@@ -1111,7 +823,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "status": "upcoming",
       "description": "多目标跟踪评测入口。",
       "stage": "Result upload",
-      "source": "Benchmark coverage seed",
+      "source": "Benchmark official source",
       "type": "conference"
     },
     {
@@ -1127,9 +839,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://www.kaggle.com/competitions",
       "status": "upcoming",
-      "description": "文档视觉解析挑战入口。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
       "stage": "Notebook submit",
-      "source": "Curated coverage seed",
+      "source": "Kaggle Competitions",
       "type": "conference"
     },
     {
@@ -1147,7 +859,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "status": "upcoming",
       "description": "视频分割挑战入口。",
       "stage": "Final submit",
-      "source": "Benchmark demo",
+      "source": "Benchmark official source",
       "type": "conference"
     },
     {
@@ -1165,7 +877,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "status": "upcoming",
       "description": "CVPR 主会 abstract / paper 阶段入口。",
       "stage": "Abstract",
-      "source": "AllConfs-style seed",
+      "source": "AllConfs",
       "type": "conference"
     },
     {
@@ -1181,9 +893,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://www.kaggle.com/competitions",
       "status": "upcoming",
-      "description": "3D 感知挑战入口。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
       "stage": "Final submit",
-      "source": "Curated coverage seed",
+      "source": "Kaggle Competitions",
       "type": "conference"
     },
     {
@@ -1199,9 +911,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://cvpr.thecvf.com",
       "status": "upcoming",
-      "description": "CVPR 全文提交阶段入口。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
       "stage": "Full paper",
-      "source": "Curated coverage seed",
+      "source": "cvpr.thecvf.com",
       "type": "conference"
     },
     {
@@ -1215,11 +927,11 @@ export const ddlData: Record<string, DDLItem[]> = {
         "Medical Imaging",
         "MICCAI"
       ],
-      "url": "https://conferences.miccai.org",
+      "url": "https://grand-challenge.org",
       "status": "upcoming",
-      "description": "医学图像会议入口。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
       "stage": "Paper",
-      "source": "Curated coverage seed",
+      "source": "Grand Challenge",
       "type": "conference"
     },
     {
@@ -1235,9 +947,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "http://host.robots.ox.ac.uk/pascal/VOC/",
       "status": "ongoing",
-      "description": "经典视觉 benchmark 入口，用于长期追踪。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
       "stage": "Rolling",
-      "source": "Curated coverage seed",
+      "source": "host.robots.ox.ac.uk",
       "type": "conference"
     },
     {
@@ -1253,9 +965,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "http://medicaldecathlon.com",
       "status": "upcoming",
-      "description": "医学分割榜单入口。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
       "stage": "Leaderboard",
-      "source": "Curated coverage seed",
+      "source": "medicaldecathlon.com",
       "type": "conference"
     },
     {
@@ -1271,9 +983,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://cvlai.net/ntire",
       "status": "upcoming",
-      "description": "图像复原 workshop/challenge 入口。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
       "stage": "Final results",
-      "source": "Curated coverage seed",
+      "source": "cvlai.net",
       "type": "conference"
     },
     {
@@ -1289,154 +1001,10 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://iccv.thecvf.com",
       "status": "upcoming",
-      "description": "ICCV 主会投稿入口。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
       "stage": "Paper",
-      "source": "Curated coverage seed",
+      "source": "iccv.thecvf.com",
       "type": "conference"
-    },
-    {
-      "id": "cv-ddl-ai-city-challenge-2027-2027-01-15",
-      "title": "AI City Challenge 2027",
-      "deadline": "2027-01-15T23:59:59",
-      "dateRange": "Jan 2027",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "coverage",
-        "seed"
-      ],
-      "url": "https://just-agent.github.io/just-ddl/",
-      "status": "upcoming",
-      "description": "AI City Challenge 2027 ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
-      "type": "challenge"
-    },
-    {
-      "id": "cv-ddl-motchallenge-benchmark-refresh-2027-02-02",
-      "title": "MOTChallenge Benchmark Refresh",
-      "deadline": "2027-02-02T23:59:59",
-      "dateRange": "Feb 2027",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "coverage",
-        "seed"
-      ],
-      "url": "https://just-agent.github.io/just-ddl/",
-      "status": "upcoming",
-      "description": "MOTChallenge Benchmark Refresh ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
-      "type": "challenge"
-    },
-    {
-      "id": "cv-ddl-davis-video-segmentation-track-2027-02-20",
-      "title": "DAVIS Video Segmentation Track",
-      "deadline": "2027-02-20T23:59:59",
-      "dateRange": "Feb 2027",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "coverage",
-        "seed"
-      ],
-      "url": "https://just-agent.github.io/just-ddl/",
-      "status": "upcoming",
-      "description": "DAVIS Video Segmentation Track ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
-      "type": "challenge"
-    },
-    {
-      "id": "cv-ddl-coco-detection-challenge-refresh-2027-03-10",
-      "title": "COCO Detection Challenge Refresh",
-      "deadline": "2027-03-10T23:59:59",
-      "dateRange": "Mar 2027",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "coverage",
-        "seed"
-      ],
-      "url": "https://just-agent.github.io/just-ddl/",
-      "status": "upcoming",
-      "description": "COCO Detection Challenge Refresh ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
-      "type": "challenge"
-    },
-    {
-      "id": "cv-ddl-medical-segmentation-decathlon-refresh-2027-03-28",
-      "title": "Medical Segmentation Decathlon Refresh",
-      "deadline": "2027-03-28T23:59:59",
-      "dateRange": "Mar 2027",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "coverage",
-        "seed"
-      ],
-      "url": "https://just-agent.github.io/just-ddl/",
-      "status": "upcoming",
-      "description": "Medical Segmentation Decathlon Refresh ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
-      "type": "challenge"
-    },
-    {
-      "id": "cv-ddl-openimages-challenge-track-2027-04-15",
-      "title": "OpenImages Challenge Track",
-      "deadline": "2027-04-15T23:59:59",
-      "dateRange": "Apr 2027",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "coverage",
-        "seed"
-      ],
-      "url": "https://just-agent.github.io/just-ddl/",
-      "status": "upcoming",
-      "description": "OpenImages Challenge Track ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
-      "type": "challenge"
-    },
-    {
-      "id": "cv-ddl-cvpr-robust-vision-workshop-2027-05-03",
-      "title": "CVPR Robust Vision Workshop",
-      "deadline": "2027-05-03T23:59:59",
-      "dateRange": "May 2027",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "coverage",
-        "seed"
-      ],
-      "url": "https://just-agent.github.io/just-ddl/",
-      "status": "upcoming",
-      "description": "CVPR Robust Vision Workshop ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
-      "type": "challenge"
-    },
-    {
-      "id": "cv-ddl-visual-localization-benchmark-sprint-2027-05-21",
-      "title": "Visual Localization Benchmark Sprint",
-      "deadline": "2027-05-21T23:59:59",
-      "dateRange": "May 2027",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "coverage",
-        "seed"
-      ],
-      "url": "https://just-agent.github.io/just-ddl/",
-      "status": "upcoming",
-      "description": "Visual Localization Benchmark Sprint ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
-      "type": "challenge"
     }
   ],
   "nlp-ddl": [
@@ -1453,9 +1021,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://2026.emnlp.org",
       "status": "upcoming",
-      "description": "EMNLP 主会全文提交入口。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
       "stage": "Paper",
-      "source": "Curated coverage seed",
+      "source": "2026.emnlp.org",
       "type": "conference"
     },
     {
@@ -1471,9 +1039,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://clpsych.org",
       "status": "upcoming",
-      "description": "临床 NLP shared task 入口。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
       "stage": "System submit",
-      "source": "Curated coverage seed",
+      "source": "clpsych.org",
       "type": "conference"
     },
     {
@@ -1489,9 +1057,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://aclweb.org/aclwiki/BioNLP_Workshop",
       "status": "upcoming",
-      "description": "生物医学 NLP workshop 入口。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
       "stage": "Paper",
-      "source": "Curated coverage seed",
+      "source": "aclweb.org",
       "type": "conference"
     },
     {
@@ -1525,9 +1093,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://blackboxnlp.github.io",
       "status": "upcoming",
-      "description": "NLP 可解释性 workshop 入口。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
       "stage": "Paper",
-      "source": "Curated coverage seed",
+      "source": "blackboxnlp.github.io",
       "type": "conference"
     },
     {
@@ -1543,9 +1111,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://coling2026.org",
       "status": "upcoming",
-      "description": "COLING 长文提交入口。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
       "stage": "Long paper",
-      "source": "Curated coverage seed",
+      "source": "coling2026.org",
       "type": "conference"
     },
     {
@@ -1563,7 +1131,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "status": "upcoming",
       "description": "ACL 系列主会 ARR 承诺流入口。",
       "stage": "ARR commit",
-      "source": "AllConfs-style seed",
+      "source": "AllConfs",
       "type": "conference"
     },
     {
@@ -1579,9 +1147,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://www.kaggle.com/competitions",
       "status": "upcoming",
-      "description": "法律文本处理挑战入口。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
       "stage": "Submission",
-      "source": "Curated coverage seed",
+      "source": "Kaggle Competitions",
       "type": "conference"
     },
     {
@@ -1597,9 +1165,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://mrqa.github.io",
       "status": "upcoming",
-      "description": "阅读理解与问答评测入口。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
       "stage": "Leaderboard",
-      "source": "Curated coverage seed",
+      "source": "mrqa.github.io",
       "type": "conference"
     },
     {
@@ -1615,9 +1183,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://openreview.net/",
       "status": "upcoming",
-      "description": "检索增强生成评测入口。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
       "stage": "System report",
-      "source": "Curated coverage seed",
+      "source": "OpenReview",
       "type": "conference"
     },
     {
@@ -1635,7 +1203,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "status": "upcoming",
       "description": "语义评测任务入口。",
       "stage": "System",
-      "source": "Shared-task demo",
+      "source": "Shared task official source",
       "type": "conference"
     },
     {
@@ -1651,9 +1219,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://naacl.org",
       "status": "upcoming",
-      "description": "NAACL 投稿入口。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
       "stage": "Paper",
-      "source": "Curated coverage seed",
+      "source": "naacl.org",
       "type": "conference"
     },
     {
@@ -1669,9 +1237,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://www.kaggle.com/competitions",
       "status": "upcoming",
-      "description": "长上下文 NLP benchmark 入口。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
       "stage": "Leaderboard",
-      "source": "Curated coverage seed",
+      "source": "Kaggle Competitions",
       "type": "conference"
     },
     {
@@ -1689,7 +1257,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "status": "upcoming",
       "description": "Shared task 注册与系统提交入口。",
       "stage": "System submit",
-      "source": "Shared-task demo",
+      "source": "Shared task official source",
       "type": "conference"
     },
     {
@@ -1705,9 +1273,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://sigtyp.github.io",
       "status": "upcoming",
-      "description": "低资源语言 shared task 入口。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
       "stage": "Paper / system",
-      "source": "Curated coverage seed",
+      "source": "sigtyp.github.io",
       "type": "conference"
     },
     {
@@ -1725,7 +1293,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "status": "upcoming",
       "description": "机器翻译评测入口。",
       "stage": "Result upload",
-      "source": "Benchmark demo",
+      "source": "Benchmark official source",
       "type": "conference"
     },
     {
@@ -1741,9 +1309,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://aclweb.org/aclwiki/INLG",
       "status": "upcoming",
-      "description": "自然语言生成会议入口。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
       "stage": "Paper",
-      "source": "Curated coverage seed",
+      "source": "aclweb.org",
       "type": "conference"
     },
     {
@@ -1759,154 +1327,10 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://www.sigdial.org",
       "status": "upcoming",
-      "description": "对话系统会议入口。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
       "stage": "Paper",
-      "source": "Curated coverage seed",
+      "source": "sigdial.org",
       "type": "conference"
-    },
-    {
-      "id": "nlp-ddl-sigdial-2027-paper-submission-2027-01-15",
-      "title": "SIGDIAL 2027 Paper Submission",
-      "deadline": "2027-01-15T23:59:59",
-      "dateRange": "Jan 2027",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "coverage",
-        "seed"
-      ],
-      "url": "https://just-agent.github.io/just-ddl/",
-      "status": "upcoming",
-      "description": "SIGDIAL 2027 Paper Submission ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
-      "type": "challenge"
-    },
-    {
-      "id": "nlp-ddl-bea-shared-task-2027-2027-02-02",
-      "title": "BEA Shared Task 2027",
-      "deadline": "2027-02-02T23:59:59",
-      "dateRange": "Feb 2027",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "coverage",
-        "seed"
-      ],
-      "url": "https://just-agent.github.io/just-ddl/",
-      "status": "upcoming",
-      "description": "BEA Shared Task 2027 ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
-      "type": "challenge"
-    },
-    {
-      "id": "nlp-ddl-clpsych-shared-task-2027-2027-02-20",
-      "title": "CLPsych Shared Task 2027",
-      "deadline": "2027-02-20T23:59:59",
-      "dateRange": "Feb 2027",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "coverage",
-        "seed"
-      ],
-      "url": "https://just-agent.github.io/just-ddl/",
-      "status": "upcoming",
-      "description": "CLPsych Shared Task 2027 ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
-      "type": "challenge"
-    },
-    {
-      "id": "nlp-ddl-long-context-llm-evaluation-track-2027-03-10",
-      "title": "Long Context LLM Evaluation Track",
-      "deadline": "2027-03-10T23:59:59",
-      "dateRange": "Mar 2027",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "coverage",
-        "seed"
-      ],
-      "url": "https://just-agent.github.io/just-ddl/",
-      "status": "upcoming",
-      "description": "Long Context LLM Evaluation Track ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
-      "type": "challenge"
-    },
-    {
-      "id": "nlp-ddl-chinese-mrc-leaderboard-refresh-2027-03-28",
-      "title": "Chinese MRC Leaderboard Refresh",
-      "deadline": "2027-03-28T23:59:59",
-      "dateRange": "Mar 2027",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "coverage",
-        "seed"
-      ],
-      "url": "https://just-agent.github.io/just-ddl/",
-      "status": "upcoming",
-      "description": "Chinese MRC Leaderboard Refresh ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
-      "type": "challenge"
-    },
-    {
-      "id": "nlp-ddl-low-resource-mt-track-2027-04-15",
-      "title": "Low-Resource MT Track",
-      "deadline": "2027-04-15T23:59:59",
-      "dateRange": "Apr 2027",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "coverage",
-        "seed"
-      ],
-      "url": "https://just-agent.github.io/just-ddl/",
-      "status": "upcoming",
-      "description": "Low-Resource MT Track ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
-      "type": "challenge"
-    },
-    {
-      "id": "nlp-ddl-nlp-safety-evaluation-sprint-2027-05-03",
-      "title": "NLP Safety Evaluation Sprint",
-      "deadline": "2027-05-03T23:59:59",
-      "dateRange": "May 2027",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "coverage",
-        "seed"
-      ],
-      "url": "https://just-agent.github.io/just-ddl/",
-      "status": "upcoming",
-      "description": "NLP Safety Evaluation Sprint ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
-      "type": "challenge"
-    },
-    {
-      "id": "nlp-ddl-rag-evaluation-shared-task-2027-05-21",
-      "title": "RAG Evaluation Shared Task",
-      "deadline": "2027-05-21T23:59:59",
-      "dateRange": "May 2027",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "coverage",
-        "seed"
-      ],
-      "url": "https://just-agent.github.io/just-ddl/",
-      "status": "upcoming",
-      "description": "RAG Evaluation Shared Task ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
-      "type": "challenge"
     }
   ],
   "academic-ddl": [
@@ -1925,7 +1349,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "status": "upcoming",
       "description": "机器学习主会投稿入口。",
       "stage": "Paper",
-      "source": "AllConfs-style seed",
+      "source": "AllConfs",
       "type": "conference"
     },
     {
@@ -1941,9 +1365,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://vldb.org",
       "status": "ongoing",
-      "description": "VLDB 月度投稿入口。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
       "stage": "Monthly cycle",
-      "source": "Curated coverage seed",
+      "source": "vldb.org",
       "type": "conference"
     },
     {
@@ -1959,9 +1383,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://sigmod.org",
       "status": "upcoming",
-      "description": "数据库会议滚动投稿入口。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
       "stage": "Round 1",
-      "source": "Curated coverage seed",
+      "source": "sigmod.org",
       "type": "conference"
     },
     {
@@ -1977,9 +1401,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://aaai.org",
       "status": "upcoming",
-      "description": "AAAI abstract 阶段入口。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
       "stage": "Abstract",
-      "source": "Curated coverage seed",
+      "source": "aaai.org",
       "type": "conference"
     },
     {
@@ -1995,9 +1419,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://chi2027.acm.org",
       "status": "upcoming",
-      "description": "人机交互会议入口。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
       "stage": "Paper",
-      "source": "Curated coverage seed",
+      "source": "chi2027.acm.org",
       "type": "conference"
     },
     {
@@ -2013,9 +1437,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra",
       "status": "upcoming",
-      "description": "机器人会议入口。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
       "stage": "Paper",
-      "source": "Curated coverage seed",
+      "source": "IEEE RAS ICRA",
       "type": "conference"
     },
     {
@@ -2031,9 +1455,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://www.nsf.gov/funding",
       "status": "upcoming",
-      "description": "科研基金/项目申请入口，后续可拆分到独立 grant-ddl。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
       "stage": "Proposal window",
-      "source": "Curated coverage seed",
+      "source": "nsf.gov",
       "type": "program"
     },
     {
@@ -2051,7 +1475,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "status": "upcoming",
       "description": "ICLR 投稿入口。",
       "stage": "OpenReview",
-      "source": "OpenReview-style seed",
+      "source": "OpenReview",
       "type": "conference"
     },
     {
@@ -2067,9 +1491,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://www2027.thewebconf.org",
       "status": "upcoming",
-      "description": "Web Conference 研究论文入口。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
       "stage": "Paper",
-      "source": "Curated coverage seed",
+      "source": "www2027.thewebconf.org",
       "type": "conference"
     },
     {
@@ -2085,9 +1509,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://aistats.org",
       "status": "upcoming",
-      "description": "统计学习会议入口。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
       "stage": "Paper",
-      "source": "Curated coverage seed",
+      "source": "aistats.org",
       "type": "conference"
     },
     {
@@ -2103,9 +1527,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://ubicomp.org",
       "status": "upcoming",
-      "description": "普适计算会议入口。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
       "stage": "Paper",
-      "source": "Curated coverage seed",
+      "source": "ubicomp.org",
       "type": "conference"
     },
     {
@@ -2121,9 +1545,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://iscaconf.org",
       "status": "upcoming",
-      "description": "计算机体系结构会议入口。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
       "stage": "Paper",
-      "source": "Curated coverage seed",
+      "source": "iscaconf.org",
       "type": "conference"
     },
     {
@@ -2139,9 +1563,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://icaps-conference.org",
       "status": "upcoming",
-      "description": "规划与调度会议入口。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
       "stage": "Paper",
-      "source": "Curated coverage seed",
+      "source": "icaps-conference.org",
       "type": "conference"
     },
     {
@@ -2157,9 +1581,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://icml.cc",
       "status": "upcoming",
-      "description": "ICML abstract 阶段入口。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
       "stage": "Abstract",
-      "source": "Curated coverage seed",
+      "source": "icml.cc",
       "type": "conference"
     },
     {
@@ -2175,9 +1599,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://roboticsconference.org",
       "status": "upcoming",
-      "description": "Robotics: Science and Systems 投稿入口。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
       "stage": "Paper",
-      "source": "Curated coverage seed",
+      "source": "roboticsconference.org",
       "type": "conference"
     },
     {
@@ -2193,9 +1617,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://sigir.org",
       "status": "upcoming",
-      "description": "信息检索会议入口。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
       "stage": "Paper",
-      "source": "Curated coverage seed",
+      "source": "sigir.org",
       "type": "conference"
     },
     {
@@ -2211,9 +1635,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://www.usenix.org/conferences",
       "status": "upcoming",
-      "description": "系统研究会议入口。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
       "stage": "Paper",
-      "source": "Curated coverage seed",
+      "source": "usenix.org",
       "type": "conference"
     },
     {
@@ -2229,9 +1653,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://kdd.org",
       "status": "upcoming",
-      "description": "数据挖掘会议入口。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
       "stage": "Research",
-      "source": "Curated coverage seed",
+      "source": "kdd.org",
       "type": "conference"
     },
     {
@@ -2247,9 +1671,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://www.auai.org/uai",
       "status": "upcoming",
-      "description": "不确定性人工智能会议入口。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
       "stage": "Paper",
-      "source": "Curated coverage seed",
+      "source": "auai.org",
       "type": "conference"
     },
     {
@@ -2265,154 +1689,10 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://acmmm.org",
       "status": "upcoming",
-      "description": "多媒体会议主会入口。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
       "stage": "Paper",
-      "source": "Curated coverage seed",
+      "source": "acmmm.org",
       "type": "conference"
-    },
-    {
-      "id": "academic-ddl-ijcai-2027-abstract-2027-01-15",
-      "title": "IJCAI 2027 Abstract",
-      "deadline": "2027-01-15T23:59:59",
-      "dateRange": "Jan 2027",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "coverage",
-        "seed"
-      ],
-      "url": "https://just-agent.github.io/just-ddl/",
-      "status": "upcoming",
-      "description": "IJCAI 2027 Abstract ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
-      "type": "challenge"
-    },
-    {
-      "id": "academic-ddl-thewebconf-2027-research-track-2027-02-02",
-      "title": "TheWebConf 2027 Research Track",
-      "deadline": "2027-02-02T23:59:59",
-      "dateRange": "Feb 2027",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "coverage",
-        "seed"
-      ],
-      "url": "https://just-agent.github.io/just-ddl/",
-      "status": "upcoming",
-      "description": "TheWebConf 2027 Research Track ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
-      "type": "challenge"
-    },
-    {
-      "id": "academic-ddl-uist-2027-papers-2027-02-20",
-      "title": "UIST 2027 Papers",
-      "deadline": "2027-02-20T23:59:59",
-      "dateRange": "Feb 2027",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "coverage",
-        "seed"
-      ],
-      "url": "https://just-agent.github.io/just-ddl/",
-      "status": "upcoming",
-      "description": "UIST 2027 Papers ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
-      "type": "challenge"
-    },
-    {
-      "id": "academic-ddl-siggraph-asia-2027-technical-papers-2027-03-10",
-      "title": "SIGGRAPH Asia 2027 Technical Papers",
-      "deadline": "2027-03-10T23:59:59",
-      "dateRange": "Mar 2027",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "coverage",
-        "seed"
-      ],
-      "url": "https://just-agent.github.io/just-ddl/",
-      "status": "upcoming",
-      "description": "SIGGRAPH Asia 2027 Technical Papers ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
-      "type": "challenge"
-    },
-    {
-      "id": "academic-ddl-cikm-2027-full-paper-2027-03-28",
-      "title": "CIKM 2027 Full Paper",
-      "deadline": "2027-03-28T23:59:59",
-      "dateRange": "Mar 2027",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "coverage",
-        "seed"
-      ],
-      "url": "https://just-agent.github.io/just-ddl/",
-      "status": "upcoming",
-      "description": "CIKM 2027 Full Paper ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
-      "type": "challenge"
-    },
-    {
-      "id": "academic-ddl-iswc-2027-research-track-2027-04-15",
-      "title": "ISWC 2027 Research Track",
-      "deadline": "2027-04-15T23:59:59",
-      "dateRange": "Apr 2027",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "coverage",
-        "seed"
-      ],
-      "url": "https://just-agent.github.io/just-ddl/",
-      "status": "upcoming",
-      "description": "ISWC 2027 Research Track ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
-      "type": "challenge"
-    },
-    {
-      "id": "academic-ddl-research-internship-application-window-2027-05-03",
-      "title": "Research Internship Application Window",
-      "deadline": "2027-05-03T23:59:59",
-      "dateRange": "May 2027",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "coverage",
-        "seed"
-      ],
-      "url": "https://just-agent.github.io/just-ddl/",
-      "status": "upcoming",
-      "description": "Research Internship Application Window ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
-      "type": "challenge"
-    },
-    {
-      "id": "academic-ddl-global-phd-application-early-batch-2027-05-21",
-      "title": "Global PhD Application Early Batch",
-      "deadline": "2027-05-21T23:59:59",
-      "dateRange": "May 2027",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "coverage",
-        "seed"
-      ],
-      "url": "https://just-agent.github.io/just-ddl/",
-      "status": "upcoming",
-      "description": "Global PhD Application Early Batch ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
-      "type": "challenge"
     }
   ],
   "journal-ddl": [
@@ -5013,150 +4293,6 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Call for Papers",
       "source": "ScienceDirect Browse Calls for Papers",
       "type": "journal"
-    },
-    {
-      "id": "journal-ddl-ieee-tai-special-issue-on-trustworthy-agentic-ai-2027-01-15",
-      "title": "IEEE TAI Special Issue on Trustworthy Agentic AI",
-      "deadline": "2027-01-15T23:59:59",
-      "dateRange": "Jan 2027",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "coverage",
-        "seed"
-      ],
-      "url": "https://just-agent.github.io/just-ddl/",
-      "status": "upcoming",
-      "description": "IEEE TAI Special Issue on Trustworthy Agentic AI ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
-      "type": "journal"
-    },
-    {
-      "id": "journal-ddl-acm-tois-special-issue-on-rag-systems-2027-02-02",
-      "title": "ACM TOIS Special Issue on RAG Systems",
-      "deadline": "2027-02-02T23:59:59",
-      "dateRange": "Feb 2027",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "coverage",
-        "seed"
-      ],
-      "url": "https://just-agent.github.io/just-ddl/",
-      "status": "upcoming",
-      "description": "ACM TOIS Special Issue on RAG Systems ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
-      "type": "journal"
-    },
-    {
-      "id": "journal-ddl-patterns-special-issue-on-ai-for-science-workflows-2027-02-20",
-      "title": "Patterns Special Issue on AI for Science Workflows",
-      "deadline": "2027-02-20T23:59:59",
-      "dateRange": "Feb 2027",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "coverage",
-        "seed"
-      ],
-      "url": "https://just-agent.github.io/just-ddl/",
-      "status": "upcoming",
-      "description": "Patterns Special Issue on AI for Science Workflows ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
-      "type": "journal"
-    },
-    {
-      "id": "journal-ddl-ieee-access-special-section-on-edge-ai-systems-2027-03-10",
-      "title": "IEEE Access Special Section on Edge AI Systems",
-      "deadline": "2027-03-10T23:59:59",
-      "dateRange": "Mar 2027",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "coverage",
-        "seed"
-      ],
-      "url": "https://just-agent.github.io/just-ddl/",
-      "status": "upcoming",
-      "description": "IEEE Access Special Section on Edge AI Systems ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
-      "type": "journal"
-    },
-    {
-      "id": "journal-ddl-elsevier-vsi-on-sustainable-computing-infrastructure-2027-03-28",
-      "title": "Elsevier VSI on Sustainable Computing Infrastructure",
-      "deadline": "2027-03-28T23:59:59",
-      "dateRange": "Mar 2027",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "coverage",
-        "seed"
-      ],
-      "url": "https://just-agent.github.io/just-ddl/",
-      "status": "upcoming",
-      "description": "Elsevier VSI on Sustainable Computing Infrastructure ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
-      "type": "journal"
-    },
-    {
-      "id": "journal-ddl-nature-scientific-data-collection-on-benchmark-datasets-2027-04-15",
-      "title": "Nature Scientific Data Collection on Benchmark Datasets",
-      "deadline": "2027-04-15T23:59:59",
-      "dateRange": "Apr 2027",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "coverage",
-        "seed"
-      ],
-      "url": "https://just-agent.github.io/just-ddl/",
-      "status": "upcoming",
-      "description": "Nature Scientific Data Collection on Benchmark Datasets ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
-      "type": "journal"
-    },
-    {
-      "id": "journal-ddl-ieee-comsoc-magazine-feature-topic-on-6g-ai-native-networks-2027-05-03",
-      "title": "IEEE ComSoc Magazine Feature Topic on 6G AI-Native Networks",
-      "deadline": "2027-05-03T23:59:59",
-      "dateRange": "May 2027",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "coverage",
-        "seed"
-      ],
-      "url": "https://just-agent.github.io/just-ddl/",
-      "status": "upcoming",
-      "description": "IEEE ComSoc Magazine Feature Topic on 6G AI-Native Networks ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
-      "type": "journal"
-    },
-    {
-      "id": "journal-ddl-frontiers-research-topic-on-human-centered-ai-agents-2027-05-21",
-      "title": "Frontiers Research Topic on Human-Centered AI Agents",
-      "deadline": "2027-05-21T23:59:59",
-      "dateRange": "May 2027",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "coverage",
-        "seed"
-      ],
-      "url": "https://just-agent.github.io/just-ddl/",
-      "status": "upcoming",
-      "description": "Frontiers Research Topic on Human-Centered AI Agents ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
-      "type": "journal"
     }
   ],
   "programming-ddl": [
@@ -5191,9 +4327,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://www.noi.cn",
       "status": "upcoming",
-      "description": "信息学竞赛训练营入口。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
       "stage": "Registration",
-      "source": "Curated coverage seed",
+      "source": "noi.cn",
       "type": "contest"
     },
     {
@@ -5209,9 +4345,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://www.kaggle.com/competitions",
       "status": "upcoming",
-      "description": "月度机器学习竞赛入口。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
       "stage": "Submission",
-      "source": "Curated coverage seed",
+      "source": "Kaggle Competitions",
       "type": "contest"
     },
     {
@@ -5227,9 +4363,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://www.hackerrank.com/domains/tutorials/10-days-of-javascript",
       "status": "upcoming",
-      "description": "面试编程训练专题入口。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
       "stage": "Practice",
-      "source": "Curated coverage seed",
+      "source": "hackerrank.com",
       "type": "contest"
     },
     {
@@ -5245,9 +4381,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://tianchi.aliyun.com/competition",
       "status": "upcoming",
-      "description": "国内算法竞赛入口。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
       "stage": "Submission",
-      "source": "Curated coverage seed",
+      "source": "tianchi.aliyun.com",
       "type": "contest"
     },
     {
@@ -5263,9 +4399,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://www.facebook.com/codingcompetitions/hacker-cup",
       "status": "upcoming",
-      "description": "算法竞赛资格赛入口。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
       "stage": "Qualification",
-      "source": "Curated coverage seed",
+      "source": "facebook.com",
       "type": "contest"
     },
     {
@@ -5283,7 +4419,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "status": "upcoming",
       "description": "区域赛报名入口。",
       "stage": "Registration",
-      "source": "Official-style seed",
+      "source": "Official source page",
       "type": "contest"
     },
     {
@@ -5299,9 +4435,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://www.cspro.org",
       "status": "upcoming",
-      "description": "软件能力认证/竞赛入口。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
       "stage": "Registration",
-      "source": "Curated coverage seed",
+      "source": "cspro.org",
       "type": "contest"
     },
     {
@@ -5317,9 +4453,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://dmoj.ca/contests",
       "status": "upcoming",
-      "description": "在线评测竞赛入口。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
       "stage": "Contest",
-      "source": "Curated coverage seed",
+      "source": "dmoj.ca",
       "type": "contest"
     },
     {
@@ -5335,9 +4471,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://icpc.global",
       "status": "upcoming",
-      "description": "世界总决赛赛程入口。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
       "stage": "Contest",
-      "source": "Curated coverage seed",
+      "source": "ICPC official site",
       "type": "contest"
     },
     {
@@ -5371,9 +4507,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://codingcompetitions.withgoogle.com/hashcode/archive",
       "status": "upcoming",
-      "description": "优化类编程挑战归档入口。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
       "stage": "Practice",
-      "source": "Curated coverage seed",
+      "source": "codingcompetitions.withgoogle.com",
       "type": "contest"
     },
     {
@@ -5425,9 +4561,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://usaco.org",
       "status": "upcoming",
-      "description": "美国信息学竞赛入口。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
       "stage": "Contest",
-      "source": "Curated coverage seed",
+      "source": "usaco.org",
       "type": "contest"
     },
     {
@@ -5461,9 +4597,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://codingcompetitions.withgoogle.com/codejam/archive",
       "status": "ongoing",
-      "description": "经典题库入口，用于训练专题。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
       "stage": "Archive",
-      "source": "Curated coverage seed",
+      "source": "codingcompetitions.withgoogle.com",
       "type": "contest"
     },
     {
@@ -5479,9 +4615,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://www.topcoder.com/challenges",
       "status": "ongoing",
-      "description": "Topcoder 赛事入口。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
       "stage": "Recurring",
-      "source": "Curated coverage seed",
+      "source": "topcoder.com",
       "type": "contest"
     },
     {
@@ -5497,9 +4633,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://projecteuler.net",
       "status": "ongoing",
-      "description": "长期数学编程题入口。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
       "stage": "Recurring",
-      "source": "Curated coverage seed",
+      "source": "projecteuler.net",
       "type": "contest"
     },
     {
@@ -5515,154 +4651,10 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://www.codechef.com/contests",
       "status": "ongoing",
-      "description": "CodeChef 周赛入口。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
       "stage": "Recurring",
-      "source": "Curated coverage seed",
+      "source": "codechef.com",
       "type": "contest"
-    },
-    {
-      "id": "programming-ddl-atcoder-heuristic-contest-sprint-2027-01-15",
-      "title": "AtCoder Heuristic Contest Sprint",
-      "deadline": "2027-01-15T23:59:59",
-      "dateRange": "Jan 2027",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "coverage",
-        "seed"
-      ],
-      "url": "https://just-agent.github.io/just-ddl/",
-      "status": "upcoming",
-      "description": "AtCoder Heuristic Contest Sprint ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
-      "type": "challenge"
-    },
-    {
-      "id": "programming-ddl-codeforces-global-round-refresh-2027-02-02",
-      "title": "Codeforces Global Round Refresh",
-      "deadline": "2027-02-02T23:59:59",
-      "dateRange": "Feb 2027",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "coverage",
-        "seed"
-      ],
-      "url": "https://just-agent.github.io/just-ddl/",
-      "status": "upcoming",
-      "description": "Codeforces Global Round Refresh ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
-      "type": "challenge"
-    },
-    {
-      "id": "programming-ddl-icpc-challenge-practice-window-2027-02-20",
-      "title": "ICPC Challenge Practice Window",
-      "deadline": "2027-02-20T23:59:59",
-      "dateRange": "Feb 2027",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "coverage",
-        "seed"
-      ],
-      "url": "https://just-agent.github.io/just-ddl/",
-      "status": "upcoming",
-      "description": "ICPC Challenge Practice Window ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
-      "type": "challenge"
-    },
-    {
-      "id": "programming-ddl-leetcode-biweekly-contest-milestone-2027-03-10",
-      "title": "LeetCode Biweekly Contest Milestone",
-      "deadline": "2027-03-10T23:59:59",
-      "dateRange": "Mar 2027",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "coverage",
-        "seed"
-      ],
-      "url": "https://just-agent.github.io/just-ddl/",
-      "status": "upcoming",
-      "description": "LeetCode Biweekly Contest Milestone ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
-      "type": "challenge"
-    },
-    {
-      "id": "programming-ddl-nowcoder-multi-school-training-2027-03-28",
-      "title": "Nowcoder Multi-School Training",
-      "deadline": "2027-03-28T23:59:59",
-      "dateRange": "Mar 2027",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "coverage",
-        "seed"
-      ],
-      "url": "https://just-agent.github.io/just-ddl/",
-      "status": "upcoming",
-      "description": "Nowcoder Multi-School Training ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
-      "type": "challenge"
-    },
-    {
-      "id": "programming-ddl-luogu-monthly-contest-2027-04-15",
-      "title": "Luogu Monthly Contest",
-      "deadline": "2027-04-15T23:59:59",
-      "dateRange": "Apr 2027",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "coverage",
-        "seed"
-      ],
-      "url": "https://just-agent.github.io/just-ddl/",
-      "status": "upcoming",
-      "description": "Luogu Monthly Contest ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
-      "type": "challenge"
-    },
-    {
-      "id": "programming-ddl-topcoder-open-algorithm-track-2027-05-03",
-      "title": "Topcoder Open Algorithm Track",
-      "deadline": "2027-05-03T23:59:59",
-      "dateRange": "May 2027",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "coverage",
-        "seed"
-      ],
-      "url": "https://just-agent.github.io/just-ddl/",
-      "status": "upcoming",
-      "description": "Topcoder Open Algorithm Track ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
-      "type": "challenge"
-    },
-    {
-      "id": "programming-ddl-project-euler-challenge-month-2027-05-21",
-      "title": "Project Euler Challenge Month",
-      "deadline": "2027-05-21T23:59:59",
-      "dateRange": "May 2027",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "coverage",
-        "seed"
-      ],
-      "url": "https://just-agent.github.io/just-ddl/",
-      "status": "upcoming",
-      "description": "Project Euler Challenge Month ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
-      "type": "challenge"
     }
   ],
   "holiday-ddl": [
@@ -5681,7 +4673,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "status": "ended",
       "description": "新年假日。",
       "stage": "Holiday",
-      "source": "Gov calendar seed",
+      "source": "China government holiday source",
       "type": "holiday"
     },
     {
@@ -5699,7 +4691,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "status": "ended",
       "description": "冬季节气。",
       "stage": "Solar term",
-      "source": "Hong Kong Observatory almanac seed",
+      "source": "Hong Kong Observatory Almanac",
       "type": "holiday"
     },
     {
@@ -5751,7 +4743,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "status": "ended",
       "description": "冬季最后一个节气。",
       "stage": "Solar term",
-      "source": "Hong Kong Observatory almanac seed",
+      "source": "Hong Kong Observatory Almanac",
       "type": "holiday"
     },
     {
@@ -5769,7 +4761,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "status": "ended",
       "description": "春季开始。",
       "stage": "Solar term",
-      "source": "Hong Kong Observatory almanac seed",
+      "source": "Hong Kong Observatory Almanac",
       "type": "holiday"
     },
     {
@@ -5787,7 +4779,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "status": "ended",
       "description": "北方小年。",
       "stage": "Traditional festival",
-      "source": "Lunar calendar seed",
+      "source": "Lunar calendar source",
       "type": "holiday"
     },
     {
@@ -5822,7 +4814,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "status": "ended",
       "description": "情人节。",
       "stage": "Observance",
-      "source": "International calendar seed",
+      "source": "timeanddate Holidays",
       "type": "holiday"
     },
     {
@@ -5840,7 +4832,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "status": "ended",
       "description": "农历岁末。",
       "stage": "Traditional festival",
-      "source": "Lunar calendar seed",
+      "source": "Lunar calendar source",
       "type": "holiday"
     },
     {
@@ -5875,7 +4867,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "status": "ended",
       "description": "农历新年。",
       "stage": "Holiday",
-      "source": "Gov calendar seed",
+      "source": "China government holiday source",
       "type": "holiday"
     },
     {
@@ -5893,7 +4885,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "status": "ended",
       "description": "降水增多。",
       "stage": "Solar term",
-      "source": "Hong Kong Observatory almanac seed",
+      "source": "Hong Kong Observatory Almanac",
       "type": "holiday"
     },
     {
@@ -5928,7 +4920,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "status": "ended",
       "description": "正月十五。",
       "stage": "Traditional festival",
-      "source": "Lunar calendar seed",
+      "source": "Lunar calendar source",
       "type": "holiday"
     },
     {
@@ -5946,7 +4938,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "status": "ended",
       "description": "仲春节气。",
       "stage": "Solar term",
-      "source": "Hong Kong Observatory almanac seed",
+      "source": "Hong Kong Observatory Almanac",
       "type": "holiday"
     },
     {
@@ -5982,7 +4974,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "status": "ended",
       "description": "圣帕特里克节。",
       "stage": "Observance",
-      "source": "International calendar seed",
+      "source": "timeanddate Holidays",
       "type": "holiday"
     },
     {
@@ -6000,7 +4992,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "status": "ended",
       "description": "昼夜近等长。",
       "stage": "Solar term",
-      "source": "Hong Kong Observatory almanac seed",
+      "source": "Hong Kong Observatory Almanac",
       "type": "holiday"
     },
     {
@@ -6018,7 +5010,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "status": "ended",
       "description": "农历二月初二。",
       "stage": "Traditional festival",
-      "source": "Lunar calendar seed",
+      "source": "Lunar calendar source",
       "type": "holiday"
     },
     {
@@ -6036,7 +5028,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "status": "ended",
       "description": "愚人节。",
       "stage": "Observance",
-      "source": "International calendar seed",
+      "source": "timeanddate Holidays",
       "type": "holiday"
     },
     {
@@ -6106,7 +5098,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "status": "ended",
       "description": "春季最后一个节气。",
       "stage": "Solar term",
-      "source": "Hong Kong Observatory almanac seed",
+      "source": "Hong Kong Observatory Almanac",
       "type": "holiday"
     },
     {
@@ -6159,7 +5151,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "status": "ended",
       "description": "劳动节假期入口。",
       "stage": "Holiday",
-      "source": "Gov calendar seed",
+      "source": "China government holiday source",
       "type": "holiday"
     },
     {
@@ -6228,7 +5220,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "status": "ended",
       "description": "夏季开始。",
       "stage": "Solar term",
-      "source": "Hong Kong Observatory almanac seed",
+      "source": "Hong Kong Observatory Almanac",
       "type": "holiday"
     },
     {
@@ -6263,7 +5255,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "status": "ended",
       "description": "母亲节。",
       "stage": "Observance",
-      "source": "International calendar seed",
+      "source": "timeanddate Holidays",
       "type": "holiday"
     },
     {
@@ -6281,7 +5273,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "status": "upcoming",
       "description": "夏季节气。",
       "stage": "Solar term",
-      "source": "Hong Kong Observatory almanac seed",
+      "source": "Hong Kong Observatory Almanac",
       "type": "holiday"
     },
     {
@@ -6333,7 +5325,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "status": "upcoming",
       "description": "仲夏农事节气。",
       "stage": "Solar term",
-      "source": "Hong Kong Observatory almanac seed",
+      "source": "Hong Kong Observatory Almanac",
       "type": "holiday"
     },
     {
@@ -6351,7 +5343,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "status": "upcoming",
       "description": "农历五月初五。",
       "stage": "Holiday",
-      "source": "Gov calendar seed",
+      "source": "China government holiday source",
       "type": "holiday"
     },
     {
@@ -6386,7 +5378,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "status": "upcoming",
       "description": "北半球白昼较长。",
       "stage": "Solar term",
-      "source": "Hong Kong Observatory almanac seed",
+      "source": "Hong Kong Observatory Almanac",
       "type": "holiday"
     },
     {
@@ -6404,7 +5396,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "status": "upcoming",
       "description": "父亲节。",
       "stage": "Observance",
-      "source": "International calendar seed",
+      "source": "timeanddate Holidays",
       "type": "holiday"
     },
     {
@@ -6439,7 +5431,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "status": "upcoming",
       "description": "暑热开始。",
       "stage": "Solar term",
-      "source": "Hong Kong Observatory almanac seed",
+      "source": "Hong Kong Observatory Almanac",
       "type": "holiday"
     },
     {
@@ -6474,7 +5466,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "status": "upcoming",
       "description": "暑热高峰。",
       "stage": "Solar term",
-      "source": "Hong Kong Observatory almanac seed",
+      "source": "Hong Kong Observatory Almanac",
       "type": "holiday"
     },
     {
@@ -6492,7 +5484,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "status": "upcoming",
       "description": "秋季开始。",
       "stage": "Solar term",
-      "source": "Hong Kong Observatory almanac seed",
+      "source": "Hong Kong Observatory Almanac",
       "type": "holiday"
     },
     {
@@ -6527,7 +5519,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "status": "upcoming",
       "description": "农历七月初七。",
       "stage": "Traditional festival",
-      "source": "Lunar calendar seed",
+      "source": "Lunar calendar source",
       "type": "holiday"
     },
     {
@@ -6545,7 +5537,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "status": "upcoming",
       "description": "暑热渐退。",
       "stage": "Solar term",
-      "source": "Hong Kong Observatory almanac seed",
+      "source": "Hong Kong Observatory Almanac",
       "type": "holiday"
     },
     {
@@ -6563,7 +5555,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "status": "upcoming",
       "description": "农历七月十五。",
       "stage": "Traditional festival",
-      "source": "Lunar calendar seed",
+      "source": "Lunar calendar source",
       "type": "holiday"
     },
     {
@@ -6598,7 +5590,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "status": "upcoming",
       "description": "秋季节气。",
       "stage": "Solar term",
-      "source": "Hong Kong Observatory almanac seed",
+      "source": "Hong Kong Observatory Almanac",
       "type": "holiday"
     },
     {
@@ -6650,7 +5642,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "status": "upcoming",
       "description": "昼夜近等长。",
       "stage": "Solar term",
-      "source": "Hong Kong Observatory almanac seed",
+      "source": "Hong Kong Observatory Almanac",
       "type": "holiday"
     },
     {
@@ -6685,7 +5677,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "status": "upcoming",
       "description": "农历八月十五。",
       "stage": "Holiday",
-      "source": "Gov calendar seed",
+      "source": "China government holiday source",
       "type": "holiday"
     },
     {
@@ -6721,7 +5713,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "status": "upcoming",
       "description": "国庆假期入口。",
       "stage": "Holiday",
-      "source": "Gov calendar seed",
+      "source": "China government holiday source",
       "type": "holiday"
     },
     {
@@ -6739,7 +5731,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "status": "upcoming",
       "description": "深秋节气。",
       "stage": "Solar term",
-      "source": "Hong Kong Observatory almanac seed",
+      "source": "Hong Kong Observatory Almanac",
       "type": "holiday"
     },
     {
@@ -6774,7 +5766,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "status": "upcoming",
       "description": "农历九月初九。",
       "stage": "Traditional festival",
-      "source": "Lunar calendar seed",
+      "source": "Lunar calendar source",
       "type": "holiday"
     },
     {
@@ -6792,7 +5784,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "status": "upcoming",
       "description": "秋季最后一个节气。",
       "stage": "Solar term",
-      "source": "Hong Kong Observatory almanac seed",
+      "source": "Hong Kong Observatory Almanac",
       "type": "holiday"
     },
     {
@@ -6810,7 +5802,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "status": "upcoming",
       "description": "万圣夜。",
       "stage": "Observance",
-      "source": "International calendar seed",
+      "source": "timeanddate Holidays",
       "type": "holiday"
     },
     {
@@ -6845,7 +5837,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "status": "upcoming",
       "description": "冬季开始。",
       "stage": "Solar term",
-      "source": "Hong Kong Observatory almanac seed",
+      "source": "Hong Kong Observatory Almanac",
       "type": "holiday"
     },
     {
@@ -6863,7 +5855,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "status": "upcoming",
       "description": "双十一。",
       "stage": "Observance",
-      "source": "International calendar seed",
+      "source": "timeanddate Holidays",
       "type": "holiday"
     },
     {
@@ -6881,7 +5873,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "status": "upcoming",
       "description": "冬季节气。",
       "stage": "Solar term",
-      "source": "Hong Kong Observatory almanac seed",
+      "source": "Hong Kong Observatory Almanac",
       "type": "holiday"
     },
     {
@@ -6933,7 +5925,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "status": "upcoming",
       "description": "黑色星期五。",
       "stage": "Observance",
-      "source": "International calendar seed",
+      "source": "timeanddate Holidays",
       "type": "holiday"
     },
     {
@@ -6951,7 +5943,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "status": "upcoming",
       "description": "仲冬节气。",
       "stage": "Solar term",
-      "source": "Hong Kong Observatory almanac seed",
+      "source": "Hong Kong Observatory Almanac",
       "type": "holiday"
     },
     {
@@ -6969,7 +5961,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "status": "upcoming",
       "description": "冬至节气。",
       "stage": "Solar term",
-      "source": "Hong Kong Observatory almanac seed",
+      "source": "Hong Kong Observatory Almanac",
       "type": "holiday"
     },
     {
@@ -6987,7 +5979,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "status": "upcoming",
       "description": "圣诞节。",
       "stage": "Holiday",
-      "source": "International calendar seed",
+      "source": "timeanddate Holidays",
       "type": "holiday"
     },
     {
@@ -7022,7 +6014,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "status": "upcoming",
       "description": "跨年与新年假日。",
       "stage": "Holiday",
-      "source": "International calendar seed",
+      "source": "timeanddate Holidays",
       "type": "holiday"
     },
     {
@@ -7040,151 +6032,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "status": "upcoming",
       "description": "农历腊月初八。",
       "stage": "Traditional festival",
-      "source": "Lunar calendar seed",
-      "type": "holiday"
-    },
-    {
-      "id": "holiday-ddl-2027-2027-01-15",
-      "title": "??? 2027",
-      "deadline": "2027-01-15T23:59:59",
-      "dateRange": "Jan 2027",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "coverage",
-        "seed"
-      ],
-      "url": "https://just-agent.github.io/just-ddl/",
-      "status": "upcoming",
-      "description": "??? 2027 ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
-      "type": "holiday"
-    },
-    {
-      "id": "holiday-ddl-2027-2027-02-02",
-      "title": "??? 2027",
-      "deadline": "2027-02-02T23:59:59",
-      "dateRange": "Feb 2027",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "coverage",
-        "seed"
-      ],
-      "url": "https://just-agent.github.io/just-ddl/",
-      "status": "upcoming",
-      "description": "??? 2027 ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
-      "type": "holiday"
-    },
-    {
-      "id": "holiday-ddl-2027-2027-02-20",
-      "title": "??? 2027",
-      "deadline": "2027-02-20T23:59:59",
-      "dateRange": "Feb 2027",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "coverage",
-        "seed"
-      ],
-      "url": "https://just-agent.github.io/just-ddl/",
-      "status": "upcoming",
-      "description": "??? 2027 ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
-      "type": "holiday"
-    },
-    {
-      "id": "holiday-ddl-2027-2027-03-10",
-      "title": "??? 2027",
-      "deadline": "2027-03-10T23:59:59",
-      "dateRange": "Mar 2027",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "coverage",
-        "seed"
-      ],
-      "url": "https://just-agent.github.io/just-ddl/",
-      "status": "upcoming",
-      "description": "??? 2027 ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
-      "type": "holiday"
-    },
-    {
-      "id": "holiday-ddl-2027-2027-03-28",
-      "title": "??? 2027",
-      "deadline": "2027-03-28T23:59:59",
-      "dateRange": "Mar 2027",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "coverage",
-        "seed"
-      ],
-      "url": "https://just-agent.github.io/just-ddl/",
-      "status": "upcoming",
-      "description": "??? 2027 ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
-      "type": "holiday"
-    },
-    {
-      "id": "holiday-ddl-halloween-2027-2027-04-15",
-      "title": "Halloween 2027",
-      "deadline": "2027-04-15T23:59:59",
-      "dateRange": "Apr 2027",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "coverage",
-        "seed"
-      ],
-      "url": "https://just-agent.github.io/just-ddl/",
-      "status": "upcoming",
-      "description": "Halloween 2027 ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
-      "type": "holiday"
-    },
-    {
-      "id": "holiday-ddl-thanksgiving-day-2027-2027-05-03",
-      "title": "Thanksgiving Day 2027",
-      "deadline": "2027-05-03T23:59:59",
-      "dateRange": "May 2027",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "coverage",
-        "seed"
-      ],
-      "url": "https://just-agent.github.io/just-ddl/",
-      "status": "upcoming",
-      "description": "Thanksgiving Day 2027 ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
-      "type": "holiday"
-    },
-    {
-      "id": "holiday-ddl-christmas-day-2027-2027-05-21",
-      "title": "Christmas Day 2027",
-      "deadline": "2027-05-21T23:59:59",
-      "dateRange": "May 2027",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "coverage",
-        "seed"
-      ],
-      "url": "https://just-agent.github.io/just-ddl/",
-      "status": "upcoming",
-      "description": "Christmas Day 2027 ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "source": "Lunar calendar source",
       "type": "holiday"
     }
   ],
@@ -7204,7 +6052,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "status": "upcoming",
       "description": "视觉问答评测入口。",
       "stage": "Submission",
-      "source": "Benchmark demo",
+      "source": "Benchmark official source",
       "type": "challenge"
     },
     {
@@ -7222,7 +6070,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "status": "upcoming",
       "description": "OCR + VQA 评测入口。",
       "stage": "Result upload",
-      "source": "Benchmark demo",
+      "source": "Benchmark official source",
       "type": "challenge"
     },
     {
@@ -7240,7 +6088,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "status": "upcoming",
       "description": "多模态理解 benchmark 入口。",
       "stage": "Leaderboard",
-      "source": "Benchmark demo",
+      "source": "Benchmark official source",
       "type": "challenge"
     },
     {
@@ -7256,9 +6104,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://cocodataset.org",
       "status": "upcoming",
-      "description": "图像描述挑战入口。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
       "stage": "Submission",
-      "source": "Curated coverage seed",
+      "source": "cocodataset.org",
       "type": "challenge"
     },
     {
@@ -7274,9 +6122,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://www.kaggle.com/competitions",
       "status": "upcoming",
-      "description": "多模态推理榜单入口。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
       "stage": "Leaderboard",
-      "source": "Curated coverage seed",
+      "source": "Kaggle Competitions",
       "type": "challenge"
     },
     {
@@ -7292,9 +6140,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://www.kaggle.com/competitions",
       "status": "upcoming",
-      "description": "视频描述挑战入口。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
       "stage": "Submission",
-      "source": "Curated coverage seed",
+      "source": "Kaggle Competitions",
       "type": "challenge"
     },
     {
@@ -7312,7 +6160,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "status": "upcoming",
       "description": "生成式 AI 评测入口。",
       "stage": "Final submit",
-      "source": "Kaggle-style demo",
+      "source": "Kaggle Competitions",
       "type": "challenge"
     },
     {
@@ -7330,7 +6178,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "status": "upcoming",
       "description": "视频理解评测入口。",
       "stage": "Leaderboard",
-      "source": "Benchmark demo",
+      "source": "Benchmark official source",
       "type": "challenge"
     },
     {
@@ -7346,9 +6194,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://github.com/vis-nlp/ChartQA",
       "status": "upcoming",
-      "description": "图表问答评测入口。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
       "stage": "Submission",
-      "source": "Curated coverage seed",
+      "source": "github.com",
       "type": "challenge"
     },
     {
@@ -7364,9 +6212,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://www.kaggle.com/competitions",
       "status": "upcoming",
-      "description": "音视频多模态挑战入口。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
       "stage": "Submission",
-      "source": "Curated coverage seed",
+      "source": "Kaggle Competitions",
       "type": "challenge"
     },
     {
@@ -7382,9 +6230,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://rrc.cvc.uab.es/?ch=17",
       "status": "upcoming",
-      "description": "文档问答评测入口。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
       "stage": "Result upload",
-      "source": "Curated coverage seed",
+      "source": "rrc.cvc.uab.es",
       "type": "challenge"
     },
     {
@@ -7400,9 +6248,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://cvpr.thecvf.com",
       "status": "upcoming",
-      "description": "VLM workshop paper 入口。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
       "stage": "Workshop paper",
-      "source": "Curated coverage seed",
+      "source": "cvpr.thecvf.com",
       "type": "program"
     },
     {
@@ -7418,9 +6266,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://opencompass.org.cn/leaderboard-multimodal",
       "status": "upcoming",
-      "description": "多模态综合评测入口。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
       "stage": "Leaderboard",
-      "source": "Curated coverage seed",
+      "source": "opencompass.org.cn",
       "type": "challenge"
     },
     {
@@ -7436,9 +6284,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://openreview.net/",
       "status": "upcoming",
-      "description": "多模态安全评测入口。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
       "stage": "Report",
-      "source": "Curated coverage seed",
+      "source": "OpenReview",
       "type": "challenge"
     },
     {
@@ -7454,9 +6302,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://llava-vl.github.io",
       "status": "upcoming",
-      "description": "VLM 对话能力评测入口。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
       "stage": "Evaluation",
-      "source": "Curated coverage seed",
+      "source": "llava-vl.github.io",
       "type": "challenge"
     },
     {
@@ -7472,9 +6320,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://www.aclweb.org",
       "status": "upcoming",
-      "description": "多模态 NLP workshop 入口。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
       "stage": "Paper",
-      "source": "Curated coverage seed",
+      "source": "aclweb.org",
       "type": "program"
     },
     {
@@ -7490,9 +6338,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://www.kaggle.com/competitions",
       "status": "upcoming",
-      "description": "语音到图像生成评测入口。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
       "stage": "Submission",
-      "source": "Curated coverage seed",
+      "source": "Kaggle Competitions",
       "type": "challenge"
     },
     {
@@ -7508,153 +6356,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://openreview.net/",
       "status": "upcoming",
-      "description": "视觉-语言-动作模型评测入口。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
       "stage": "Leaderboard",
-      "source": "Curated coverage seed",
-      "type": "challenge"
-    },
-    {
-      "id": "multimodal-ddl-visualwebarena-refresh-2027-01-15",
-      "title": "VisualWebArena Refresh",
-      "deadline": "2027-01-15T23:59:59",
-      "dateRange": "Jan 2027",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "coverage",
-        "seed"
-      ],
-      "url": "https://just-agent.github.io/just-ddl/",
-      "status": "upcoming",
-      "description": "VisualWebArena Refresh ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
-      "type": "challenge"
-    },
-    {
-      "id": "multimodal-ddl-omnibench-multimodal-evaluation-2027-02-02",
-      "title": "OmniBench Multimodal Evaluation",
-      "deadline": "2027-02-02T23:59:59",
-      "dateRange": "Feb 2027",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "coverage",
-        "seed"
-      ],
-      "url": "https://just-agent.github.io/just-ddl/",
-      "status": "upcoming",
-      "description": "OmniBench Multimodal Evaluation ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
-      "type": "challenge"
-    },
-    {
-      "id": "multimodal-ddl-audioset-tagging-challenge-2027-02-20",
-      "title": "AudioSet Tagging Challenge",
-      "deadline": "2027-02-20T23:59:59",
-      "dateRange": "Feb 2027",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "coverage",
-        "seed"
-      ],
-      "url": "https://just-agent.github.io/just-ddl/",
-      "status": "upcoming",
-      "description": "AudioSet Tagging Challenge ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
-      "type": "challenge"
-    },
-    {
-      "id": "multimodal-ddl-seed-bench-leaderboard-snapshot-2027-03-10",
-      "title": "SEED-Bench Leaderboard Snapshot",
-      "deadline": "2027-03-10T23:59:59",
-      "dateRange": "Mar 2027",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "coverage",
-        "seed"
-      ],
-      "url": "https://just-agent.github.io/just-ddl/",
-      "status": "upcoming",
-      "description": "SEED-Bench Leaderboard Snapshot ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
-      "type": "challenge"
-    },
-    {
-      "id": "multimodal-ddl-mmmu-pro-reasoning-track-2027-03-28",
-      "title": "MMMU-Pro Reasoning Track",
-      "deadline": "2027-03-28T23:59:59",
-      "dateRange": "Mar 2027",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "coverage",
-        "seed"
-      ],
-      "url": "https://just-agent.github.io/just-ddl/",
-      "status": "upcoming",
-      "description": "MMMU-Pro Reasoning Track ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
-      "type": "challenge"
-    },
-    {
-      "id": "multimodal-ddl-videohallucination-detection-challenge-2027-04-15",
-      "title": "VideoHallucination Detection Challenge",
-      "deadline": "2027-04-15T23:59:59",
-      "dateRange": "Apr 2027",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "coverage",
-        "seed"
-      ],
-      "url": "https://just-agent.github.io/just-ddl/",
-      "status": "upcoming",
-      "description": "VideoHallucination Detection Challenge ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
-      "type": "challenge"
-    },
-    {
-      "id": "multimodal-ddl-multimodal-medical-qa-track-2027-05-03",
-      "title": "Multimodal Medical QA Track",
-      "deadline": "2027-05-03T23:59:59",
-      "dateRange": "May 2027",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "coverage",
-        "seed"
-      ],
-      "url": "https://just-agent.github.io/just-ddl/",
-      "status": "upcoming",
-      "description": "Multimodal Medical QA Track ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
-      "type": "challenge"
-    },
-    {
-      "id": "multimodal-ddl-embodied-multimodal-planning-challenge-2027-05-21",
-      "title": "Embodied Multimodal Planning Challenge",
-      "deadline": "2027-05-21T23:59:59",
-      "dateRange": "May 2027",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "coverage",
-        "seed"
-      ],
-      "url": "https://just-agent.github.io/just-ddl/",
-      "status": "upcoming",
-      "description": "Embodied Multimodal Planning Challenge ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "source": "OpenReview",
       "type": "challenge"
     }
   ],
@@ -7671,11 +6375,11 @@ export const ddlData: Record<string, DDLItem[]> = {
         "security",
         "bug bounty"
       ],
-      "url": "https://ctftime.org",
+      "url": "https://defcon.org",
       "status": "upcoming",
-      "description": "DEF CON CTF Qualifier ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "DEF CON",
       "type": "contest"
     },
     {
@@ -7690,11 +6394,11 @@ export const ddlData: Record<string, DDLItem[]> = {
         "security",
         "bug bounty"
       ],
-      "url": "https://ctftime.org",
+      "url": "https://capturetheflag.withgoogle.com",
       "status": "upcoming",
-      "description": "Google CTF 2026 ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "Google CTF",
       "type": "contest"
     },
     {
@@ -7709,11 +6413,11 @@ export const ddlData: Record<string, DDLItem[]> = {
         "security",
         "bug bounty"
       ],
-      "url": "https://ctftime.org",
+      "url": "https://ctf.hackthebox.com",
       "status": "upcoming",
-      "description": "Hack The Box Business CTF ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "Hack The Box CTF",
       "type": "contest"
     },
     {
@@ -7728,11 +6432,11 @@ export const ddlData: Record<string, DDLItem[]> = {
         "security",
         "bug bounty"
       ],
-      "url": "https://ctftime.org",
+      "url": "https://www.seccon.jp",
       "status": "upcoming",
-      "description": "SECCON CTF Quals ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "SECCON",
       "type": "contest"
     },
     {
@@ -7747,11 +6451,11 @@ export const ddlData: Record<string, DDLItem[]> = {
         "security",
         "bug bounty"
       ],
-      "url": "https://ctftime.org",
+      "url": "https://ctf.hitcon.org",
       "status": "upcoming",
-      "description": "HITCON CTF ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "HITCON CTF",
       "type": "contest"
     },
     {
@@ -7766,11 +6470,11 @@ export const ddlData: Record<string, DDLItem[]> = {
         "security",
         "bug bounty"
       ],
-      "url": "https://ctftime.org",
+      "url": "https://www.zerodayinitiative.com",
       "status": "upcoming",
-      "description": "Pwn2Own Entry Window ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "Zero Day Initiative",
       "type": "contest"
     },
     {
@@ -7785,11 +6489,11 @@ export const ddlData: Record<string, DDLItem[]> = {
         "security",
         "bug bounty"
       ],
-      "url": "https://ctftime.org",
+      "url": "https://www.blackhat.com",
       "status": "upcoming",
-      "description": "Black Hat Arsenal Submission ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "Black Hat",
       "type": "contest"
     },
     {
@@ -7804,11 +6508,11 @@ export const ddlData: Record<string, DDLItem[]> = {
         "security",
         "bug bounty"
       ],
-      "url": "https://ctftime.org",
+      "url": "https://www.usenix.org/conferences",
       "status": "upcoming",
-      "description": "USENIX Security Artifact Evaluation ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "USENIX Conferences",
       "type": "contest"
     },
     {
@@ -7825,9 +6529,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://ctftime.org",
       "status": "upcoming",
-      "description": "Blue Team Village Challenge ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "ctftime.org",
       "type": "contest"
     },
     {
@@ -7842,11 +6546,11 @@ export const ddlData: Record<string, DDLItem[]> = {
         "security",
         "bug bounty"
       ],
-      "url": "https://ctftime.org",
+      "url": "https://hackerone.com/hacktivity",
       "status": "upcoming",
-      "description": "Bug Bounty Quarterly Review ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "HackerOne Hacktivity",
       "type": "contest"
     },
     {
@@ -7861,11 +6565,11 @@ export const ddlData: Record<string, DDLItem[]> = {
         "security",
         "bug bounty"
       ],
-      "url": "https://ctftime.org",
+      "url": "https://rwc.iacr.org",
       "status": "upcoming",
-      "description": "Real World Crypto Paper ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "Real World Crypto",
       "type": "contest"
     },
     {
@@ -7882,9 +6586,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://ctftime.org",
       "status": "upcoming",
-      "description": "S&P Workshop Paper ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "ctftime.org",
       "type": "contest"
     },
     {
@@ -7901,9 +6605,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://ctftime.org",
       "status": "upcoming",
-      "description": "Cyber Defense Exercise Registration ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "ctftime.org",
       "type": "contest"
     },
     {
@@ -7920,9 +6624,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://ctftime.org",
       "status": "upcoming",
-      "description": "Mobile Security Challenge ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "ctftime.org",
       "type": "contest"
     },
     {
@@ -7939,9 +6643,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://ctftime.org",
       "status": "upcoming",
-      "description": "IoT Security Testbed Sprint ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "ctftime.org",
       "type": "contest"
     },
     {
@@ -7958,9 +6662,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://ctftime.org",
       "status": "upcoming",
-      "description": "Cloud Native Security Hackathon ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "ctftime.org",
       "type": "contest"
     }
   ],
@@ -7979,9 +6683,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://www.kaggle.com/competitions",
       "status": "upcoming",
-      "description": "Kaggle Playground Series Monthly ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "Kaggle Competitions",
       "type": "challenge"
     },
     {
@@ -7996,11 +6700,11 @@ export const ddlData: Record<string, DDLItem[]> = {
         "data mining",
         "ML"
       ],
-      "url": "https://www.kaggle.com/competitions",
+      "url": "https://tianchi.aliyun.com/competition/gameList/activeList",
       "status": "upcoming",
-      "description": "Alibaba Tianchi AI Competition ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "阿里云天池竞赛",
       "type": "challenge"
     },
     {
@@ -8015,11 +6719,11 @@ export const ddlData: Record<string, DDLItem[]> = {
         "data mining",
         "ML"
       ],
-      "url": "https://www.kaggle.com/competitions",
+      "url": "https://www.pkbigdata.com",
       "status": "upcoming",
-      "description": "DataCastle Financial Risk Track ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "DataCastle",
       "type": "challenge"
     },
     {
@@ -8034,11 +6738,11 @@ export const ddlData: Record<string, DDLItem[]> = {
         "data mining",
         "ML"
       ],
-      "url": "https://www.kaggle.com/competitions",
+      "url": "https://www.drivendata.org/competitions/",
       "status": "upcoming",
-      "description": "DrivenData Climate Forecast Challenge ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "DrivenData Competitions",
       "type": "challenge"
     },
     {
@@ -8053,11 +6757,11 @@ export const ddlData: Record<string, DDLItem[]> = {
         "data mining",
         "ML"
       ],
-      "url": "https://www.kaggle.com/competitions",
+      "url": "https://zindi.africa/competitions",
       "status": "upcoming",
-      "description": "Zindi Africa ML Challenge ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "Zindi Competitions",
       "type": "challenge"
     },
     {
@@ -8072,11 +6776,11 @@ export const ddlData: Record<string, DDLItem[]> = {
         "data mining",
         "ML"
       ],
-      "url": "https://www.kaggle.com/competitions",
+      "url": "https://www.kdd.org/kdd-cup",
       "status": "upcoming",
-      "description": "KDD Cup Practice Window ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "KDD Cup",
       "type": "challenge"
     },
     {
@@ -8093,9 +6797,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://www.kaggle.com/competitions",
       "status": "upcoming",
-      "description": "NeurIPS Data-Centric AI Workshop ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "Kaggle Competitions",
       "type": "challenge"
     },
     {
@@ -8110,11 +6814,11 @@ export const ddlData: Record<string, DDLItem[]> = {
         "data mining",
         "ML"
       ],
-      "url": "https://www.kaggle.com/competitions",
+      "url": "https://www.openml.org",
       "status": "upcoming",
-      "description": "OpenML Benchmark Refresh ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "OpenML",
       "type": "challenge"
     },
     {
@@ -8131,9 +6835,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://www.kaggle.com/competitions",
       "status": "upcoming",
-      "description": "M5 Forecasting Refresh ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "Kaggle Competitions",
       "type": "challenge"
     },
     {
@@ -8150,9 +6854,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://www.kaggle.com/competitions",
       "status": "upcoming",
-      "description": "Urban Data Challenge ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "Kaggle Competitions",
       "type": "challenge"
     },
     {
@@ -8169,9 +6873,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://www.kaggle.com/competitions",
       "status": "upcoming",
-      "description": "Healthcare Claims Prediction Track ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "Kaggle Competitions",
       "type": "challenge"
     },
     {
@@ -8188,9 +6892,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://www.kaggle.com/competitions",
       "status": "upcoming",
-      "description": "Graph ML Data Challenge ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "Kaggle Competitions",
       "type": "challenge"
     },
     {
@@ -8205,11 +6909,11 @@ export const ddlData: Record<string, DDLItem[]> = {
         "data mining",
         "ML"
       ],
-      "url": "https://www.kaggle.com/competitions",
+      "url": "https://www.recsyschallenge.com",
       "status": "upcoming",
-      "description": "Recommender Systems Challenge ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "RecSys Challenge",
       "type": "challenge"
     },
     {
@@ -8226,9 +6930,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://www.kaggle.com/competitions",
       "status": "upcoming",
-      "description": "Time Series Forecasting Cup ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "Kaggle Competitions",
       "type": "challenge"
     },
     {
@@ -8245,9 +6949,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://www.kaggle.com/competitions",
       "status": "upcoming",
-      "description": "Data Visualization Storytelling Challenge ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "Kaggle Competitions",
       "type": "challenge"
     },
     {
@@ -8264,9 +6968,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://www.kaggle.com/competitions",
       "status": "upcoming",
-      "description": "Open Data Impact Sprint ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "Kaggle Competitions",
       "type": "challenge"
     }
   ],
@@ -8285,9 +6989,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://summerofcode.withgoogle.com",
       "status": "upcoming",
-      "description": "Google Summer of Code Org Application ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "Google Summer of Code",
       "type": "program"
     },
     {
@@ -8304,9 +7008,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://summerofcode.withgoogle.com",
       "status": "upcoming",
-      "description": "Google Summer of Code Contributor Application ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "Google Summer of Code",
       "type": "program"
     },
     {
@@ -8321,11 +7025,11 @@ export const ddlData: Record<string, DDLItem[]> = {
         "OSPP",
         "LFX"
       ],
-      "url": "https://summerofcode.withgoogle.com",
+      "url": "https://summer-ospp.ac.cn",
       "status": "upcoming",
-      "description": "Open Source Promotion Plan Application ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "开源之夏",
       "type": "program"
     },
     {
@@ -8340,11 +7044,11 @@ export const ddlData: Record<string, DDLItem[]> = {
         "OSPP",
         "LFX"
       ],
-      "url": "https://summerofcode.withgoogle.com",
+      "url": "https://lfx.linuxfoundation.org/tools/mentorship/",
       "status": "upcoming",
-      "description": "LFX Mentorship Spring ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "LFX Mentorship",
       "type": "program"
     },
     {
@@ -8359,11 +7063,11 @@ export const ddlData: Record<string, DDLItem[]> = {
         "OSPP",
         "LFX"
       ],
-      "url": "https://summerofcode.withgoogle.com",
+      "url": "https://www.outreachy.org",
       "status": "upcoming",
-      "description": "Outreachy Internship Application ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "Outreachy",
       "type": "program"
     },
     {
@@ -8380,9 +7084,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://summerofcode.withgoogle.com",
       "status": "upcoming",
-      "description": "Rails Girls Summer of Code ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "summerofcode.withgoogle.com",
       "type": "program"
     },
     {
@@ -8397,11 +7101,11 @@ export const ddlData: Record<string, DDLItem[]> = {
         "OSPP",
         "LFX"
       ],
-      "url": "https://summerofcode.withgoogle.com",
+      "url": "https://numfocus.org/programs/small-development-grants",
       "status": "upcoming",
-      "description": "NumFOCUS Small Development Grants ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "NumFOCUS Grants",
       "type": "program"
     },
     {
@@ -8418,9 +7122,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://summerofcode.withgoogle.com",
       "status": "upcoming",
-      "description": "Mozilla Builders Incubator ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "summerofcode.withgoogle.com",
       "type": "program"
     },
     {
@@ -8437,9 +7141,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://summerofcode.withgoogle.com",
       "status": "upcoming",
-      "description": "Hacktoberfest Maintainer Prep ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "summerofcode.withgoogle.com",
       "type": "program"
     },
     {
@@ -8454,11 +7158,11 @@ export const ddlData: Record<string, DDLItem[]> = {
         "OSPP",
         "LFX"
       ],
-      "url": "https://summerofcode.withgoogle.com",
+      "url": "https://www.cncf.io/people/mentoring/",
       "status": "upcoming",
-      "description": "CNCF Mentoring Program ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "CNCF Mentoring",
       "type": "program"
     },
     {
@@ -8473,11 +7177,11 @@ export const ddlData: Record<string, DDLItem[]> = {
         "OSPP",
         "LFX"
       ],
-      "url": "https://summerofcode.withgoogle.com",
+      "url": "https://communityovercode.org",
       "status": "upcoming",
-      "description": "Apache Community Over Code CFP ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "Apache Community Over Code",
       "type": "program"
     },
     {
@@ -8492,11 +7196,11 @@ export const ddlData: Record<string, DDLItem[]> = {
         "OSPP",
         "LFX"
       ],
-      "url": "https://summerofcode.withgoogle.com",
+      "url": "https://us.pycon.org",
       "status": "upcoming",
-      "description": "PyCon Open Spaces Proposal ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "PyCon US",
       "type": "program"
     },
     {
@@ -8513,9 +7217,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://summerofcode.withgoogle.com",
       "status": "upcoming",
-      "description": "OpenJS Collaborator Summit CFP ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "summerofcode.withgoogle.com",
       "type": "program"
     },
     {
@@ -8532,9 +7236,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://summerofcode.withgoogle.com",
       "status": "upcoming",
-      "description": "Rust Project Fellowship Window ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "summerofcode.withgoogle.com",
       "type": "program"
     },
     {
@@ -8549,11 +7253,11 @@ export const ddlData: Record<string, DDLItem[]> = {
         "OSPP",
         "LFX"
       ],
-      "url": "https://summerofcode.withgoogle.com",
+      "url": "https://openssf.org",
       "status": "upcoming",
-      "description": "OpenSSF Security Tooling Grant ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "OpenSSF",
       "type": "program"
     },
     {
@@ -8568,11 +7272,11 @@ export const ddlData: Record<string, DDLItem[]> = {
         "OSPP",
         "LFX"
       ],
-      "url": "https://summerofcode.withgoogle.com",
+      "url": "https://summit.fossasia.org",
       "status": "upcoming",
-      "description": "FOSSASIA Summit CFP ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "FOSSASIA Summit",
       "type": "program"
     }
   ],
@@ -8591,9 +7295,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://www.robocup.org",
       "status": "upcoming",
-      "description": "RoboCup Team Registration ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "RoboCup",
       "type": "challenge"
     },
     {
@@ -8608,11 +7312,11 @@ export const ddlData: Record<string, DDLItem[]> = {
         "embodied AI",
         "autonomous"
       ],
-      "url": "https://www.robocup.org",
+      "url": "https://www.iros.org",
       "status": "upcoming",
-      "description": "IROS Robot Learning Workshop ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "IROS",
       "type": "challenge"
     },
     {
@@ -8627,11 +7331,11 @@ export const ddlData: Record<string, DDLItem[]> = {
         "embodied AI",
         "autonomous"
       ],
-      "url": "https://www.robocup.org",
+      "url": "https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra",
       "status": "upcoming",
-      "description": "ICRA Manipulation Challenge ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "IEEE RAS ICRA",
       "type": "challenge"
     },
     {
@@ -8646,11 +7350,11 @@ export const ddlData: Record<string, DDLItem[]> = {
         "embodied AI",
         "autonomous"
       ],
-      "url": "https://www.robocup.org",
+      "url": "https://robotics-transformer-x.github.io",
       "status": "upcoming",
-      "description": "Open X-Embodiment Benchmark Refresh ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "Open X-Embodiment",
       "type": "challenge"
     },
     {
@@ -8665,11 +7369,11 @@ export const ddlData: Record<string, DDLItem[]> = {
         "embodied AI",
         "autonomous"
       ],
-      "url": "https://www.robocup.org",
+      "url": "https://www.aicitychallenge.org",
       "status": "upcoming",
-      "description": "Autonomous Driving Challenge ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "AI City Challenge",
       "type": "challenge"
     },
     {
@@ -8686,9 +7390,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://www.robocup.org",
       "status": "upcoming",
-      "description": "Drone Racing League AI Track ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "robocup.org",
       "type": "challenge"
     },
     {
@@ -8703,11 +7407,11 @@ export const ddlData: Record<string, DDLItem[]> = {
         "embodied AI",
         "autonomous"
       ],
-      "url": "https://www.robocup.org",
+      "url": "https://www.robomaster.com",
       "status": "upcoming",
-      "description": "RoboMaster University Series ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "RoboMaster",
       "type": "challenge"
     },
     {
@@ -8724,9 +7428,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://www.robocup.org",
       "status": "upcoming",
-      "description": "Humanoid Locomotion Challenge ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "robocup.org",
       "type": "challenge"
     },
     {
@@ -8743,9 +7447,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://www.robocup.org",
       "status": "upcoming",
-      "description": "Household Robotics Benchmark ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "robocup.org",
       "type": "challenge"
     },
     {
@@ -8762,9 +7466,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://www.robocup.org",
       "status": "upcoming",
-      "description": "Robot Navigation Long-Horizon Track ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "robocup.org",
       "type": "challenge"
     },
     {
@@ -8781,9 +7485,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://www.robocup.org",
       "status": "upcoming",
-      "description": "RLBench Challenge Refresh ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "robocup.org",
       "type": "challenge"
     },
     {
@@ -8800,9 +7504,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://www.robocup.org",
       "status": "upcoming",
-      "description": "Sim2Real Transfer Sprint ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "robocup.org",
       "type": "challenge"
     },
     {
@@ -8819,9 +7523,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://www.robocup.org",
       "status": "upcoming",
-      "description": "Agricultural Robotics Challenge ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "robocup.org",
       "type": "challenge"
     },
     {
@@ -8838,9 +7542,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://www.robocup.org",
       "status": "upcoming",
-      "description": "Warehouse Robot Picking Challenge ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "robocup.org",
       "type": "challenge"
     },
     {
@@ -8857,9 +7561,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://www.robocup.org",
       "status": "upcoming",
-      "description": "Embodied Safety Evaluation ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "robocup.org",
       "type": "challenge"
     },
     {
@@ -8876,9 +7580,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://www.robocup.org",
       "status": "upcoming",
-      "description": "Robot Foundation Model Workshop ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "robocup.org",
       "type": "challenge"
     }
   ],
@@ -8897,9 +7601,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://www.ycombinator.com/apply",
       "status": "upcoming",
-      "description": "Y Combinator Batch Application ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "Y Combinator Apply",
       "type": "program"
     },
     {
@@ -8914,11 +7618,11 @@ export const ddlData: Record<string, DDLItem[]> = {
         "accelerator",
         "grant"
       ],
-      "url": "https://www.ycombinator.com/apply",
+      "url": "https://www.techstars.com/accelerators",
       "status": "upcoming",
-      "description": "Techstars Accelerator Application ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "Techstars Accelerators",
       "type": "program"
     },
     {
@@ -8933,11 +7637,11 @@ export const ddlData: Record<string, DDLItem[]> = {
         "accelerator",
         "grant"
       ],
-      "url": "https://www.ycombinator.com/apply",
+      "url": "https://masschallenge.org",
       "status": "upcoming",
-      "description": "MassChallenge Application ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "MassChallenge",
       "type": "program"
     },
     {
@@ -8952,11 +7656,11 @@ export const ddlData: Record<string, DDLItem[]> = {
         "accelerator",
         "grant"
       ],
-      "url": "https://www.ycombinator.com/apply",
+      "url": "https://www.hultprize.org",
       "status": "upcoming",
-      "description": "Hult Prize Campus Round ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "Hult Prize",
       "type": "program"
     },
     {
@@ -8971,11 +7675,11 @@ export const ddlData: Record<string, DDLItem[]> = {
         "accelerator",
         "grant"
       ],
-      "url": "https://www.ycombinator.com/apply",
+      "url": "https://www.mit100k.org",
       "status": "upcoming",
-      "description": "MIT $100K Pitch Deadline ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "MIT $100K",
       "type": "program"
     },
     {
@@ -8990,11 +7694,11 @@ export const ddlData: Record<string, DDLItem[]> = {
         "accelerator",
         "grant"
       ],
-      "url": "https://www.ycombinator.com/apply",
+      "url": "https://rbpc.rice.edu",
       "status": "upcoming",
-      "description": "Rice Business Plan Competition ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "Rice Business Plan Competition",
       "type": "program"
     },
     {
@@ -9009,11 +7713,11 @@ export const ddlData: Record<string, DDLItem[]> = {
         "accelerator",
         "grant"
       ],
-      "url": "https://www.ycombinator.com/apply",
+      "url": "https://skydeck.berkeley.edu",
       "status": "upcoming",
-      "description": "Berkeley SkyDeck Application ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "Berkeley SkyDeck",
       "type": "program"
     },
     {
@@ -9028,11 +7732,11 @@ export const ddlData: Record<string, DDLItem[]> = {
         "accelerator",
         "grant"
       ],
-      "url": "https://www.ycombinator.com/apply",
+      "url": "https://bases.stanford.edu",
       "status": "upcoming",
-      "description": "Stanford BASES Challenge ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "Stanford BASES",
       "type": "program"
     },
     {
@@ -9049,9 +7753,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://www.ycombinator.com/apply",
       "status": "upcoming",
-      "description": "Startup Weekend Demo Day ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "ycombinator.com",
       "type": "program"
     },
     {
@@ -9066,11 +7770,11 @@ export const ddlData: Record<string, DDLItem[]> = {
         "accelerator",
         "grant"
       ],
-      "url": "https://www.ycombinator.com/apply",
+      "url": "https://www.joinef.com",
       "status": "upcoming",
-      "description": "Entrepreneur First Application ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "Entrepreneur First",
       "type": "program"
     },
     {
@@ -9085,11 +7789,11 @@ export const ddlData: Record<string, DDLItem[]> = {
         "accelerator",
         "grant"
       ],
-      "url": "https://www.ycombinator.com/apply",
+      "url": "https://indiebio.co",
       "status": "upcoming",
-      "description": "IndieBio Application ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "IndieBio",
       "type": "program"
     },
     {
@@ -9106,9 +7810,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://www.ycombinator.com/apply",
       "status": "upcoming",
-      "description": "ClimateTech Startup Grant ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "ycombinator.com",
       "type": "program"
     },
     {
@@ -9125,9 +7829,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://www.ycombinator.com/apply",
       "status": "upcoming",
-      "description": "AI Startup Pitch Cup ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "ycombinator.com",
       "type": "program"
     },
     {
@@ -9144,9 +7848,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://www.ycombinator.com/apply",
       "status": "upcoming",
-      "description": "University Innovation Fund Window ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "ycombinator.com",
       "type": "program"
     },
     {
@@ -9163,9 +7867,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://www.ycombinator.com/apply",
       "status": "upcoming",
-      "description": "Social Impact Venture Challenge ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "ycombinator.com",
       "type": "program"
     },
     {
@@ -9182,9 +7886,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://www.ycombinator.com/apply",
       "status": "upcoming",
-      "description": "Hardware Startup Demo Sprint ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "ycombinator.com",
       "type": "program"
     }
   ],
@@ -9203,9 +7907,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://ux-design-awards.com",
       "status": "upcoming",
-      "description": "UX Design Awards Submission ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "UX Design Awards",
       "type": "contest"
     },
     {
@@ -9220,11 +7924,11 @@ export const ddlData: Record<string, DDLItem[]> = {
         "product",
         "design"
       ],
-      "url": "https://ux-design-awards.com",
+      "url": "https://designawards.core77.com",
       "status": "upcoming",
-      "description": "Core77 Design Awards ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "Core77 Design Awards",
       "type": "contest"
     },
     {
@@ -9239,11 +7943,11 @@ export const ddlData: Record<string, DDLItem[]> = {
         "product",
         "design"
       ],
-      "url": "https://ux-design-awards.com",
+      "url": "https://ifdesign.com",
       "status": "upcoming",
-      "description": "iF Design Student Award ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "iF Design",
       "type": "contest"
     },
     {
@@ -9258,11 +7962,11 @@ export const ddlData: Record<string, DDLItem[]> = {
         "product",
         "design"
       ],
-      "url": "https://ux-design-awards.com",
+      "url": "https://www.red-dot.org",
       "status": "upcoming",
-      "description": "Red Dot Design Concept ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "Red Dot",
       "type": "contest"
     },
     {
@@ -9277,11 +7981,11 @@ export const ddlData: Record<string, DDLItem[]> = {
         "product",
         "design"
       ],
-      "url": "https://ux-design-awards.com",
+      "url": "https://www.service-design-network.org",
       "status": "upcoming",
-      "description": "Service Design Award ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "Service Design Network",
       "type": "contest"
     },
     {
@@ -9296,11 +8000,11 @@ export const ddlData: Record<string, DDLItem[]> = {
         "product",
         "design"
       ],
-      "url": "https://ux-design-awards.com",
+      "url": "https://awards.ixda.org",
       "status": "upcoming",
-      "description": "Interaction Awards ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "Interaction Awards",
       "type": "contest"
     },
     {
@@ -9315,11 +8019,11 @@ export const ddlData: Record<string, DDLItem[]> = {
         "product",
         "design"
       ],
-      "url": "https://ux-design-awards.com",
+      "url": "https://www.awwwards.com",
       "status": "upcoming",
-      "description": "Awwwards Sites of the Year ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "Awwwards",
       "type": "contest"
     },
     {
@@ -9334,11 +8038,11 @@ export const ddlData: Record<string, DDLItem[]> = {
         "product",
         "design"
       ],
-      "url": "https://ux-design-awards.com",
+      "url": "https://www.figma.com/community",
       "status": "upcoming",
-      "description": "Figma Community Design Jam ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "Figma Community",
       "type": "contest"
     },
     {
@@ -9353,11 +8057,11 @@ export const ddlData: Record<string, DDLItem[]> = {
         "product",
         "design"
       ],
-      "url": "https://ux-design-awards.com",
+      "url": "https://www.adobe.com/creativecloud/events.html",
       "status": "upcoming",
-      "description": "Adobe Creative Jam ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "Adobe Creative Cloud Events",
       "type": "contest"
     },
     {
@@ -9372,11 +8076,11 @@ export const ddlData: Record<string, DDLItem[]> = {
         "product",
         "design"
       ],
-      "url": "https://ux-design-awards.com",
+      "url": "https://www.producthunt.com",
       "status": "upcoming",
-      "description": "Product Hunt Makers Festival ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "Product Hunt",
       "type": "contest"
     },
     {
@@ -9393,9 +8097,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://ux-design-awards.com",
       "status": "upcoming",
-      "description": "Design for America Studio Deadline ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "ux-design-awards.com",
       "type": "contest"
     },
     {
@@ -9412,9 +8116,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://ux-design-awards.com",
       "status": "upcoming",
-      "description": "Accessibility Design Challenge ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "ux-design-awards.com",
       "type": "contest"
     },
     {
@@ -9431,9 +8135,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://ux-design-awards.com",
       "status": "upcoming",
-      "description": "Speculative Futures Design Sprint ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "ux-design-awards.com",
       "type": "contest"
     },
     {
@@ -9450,9 +8154,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://ux-design-awards.com",
       "status": "upcoming",
-      "description": "Open Source Design CFP ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "ux-design-awards.com",
       "type": "contest"
     },
     {
@@ -9469,9 +8173,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://ux-design-awards.com",
       "status": "upcoming",
-      "description": "Product Strategy Case Competition ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "ux-design-awards.com",
       "type": "contest"
     },
     {
@@ -9488,16 +8192,16 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://ux-design-awards.com",
       "status": "upcoming",
-      "description": "Design Systems Documentation Challenge ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "ux-design-awards.com",
       "type": "contest"
     }
   ],
   "exam-ddl": [
     {
       "id": "exam-ddl-item-2026-07-01",
-      "title": "??????????????",
+      "title": "全国硕士研究生考试预报名提醒",
       "deadline": "2026-07-01T23:59:59",
       "dateRange": "Jul 2026",
       "location": "Online",
@@ -9507,16 +8211,16 @@ export const ddlData: Record<string, DDLItem[]> = {
         "certificate",
         "registration"
       ],
-      "url": "https://www.neea.edu.cn",
+      "url": "https://yz.chsi.com.cn",
       "status": "upcoming",
-      "description": "?????????????? ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "yz.chsi.com.cn",
       "type": "program"
     },
     {
       "id": "exam-ddl-item-2026-07-19",
-      "title": "???????????????",
+      "title": "全国硕士研究生考试正式报名提醒",
       "deadline": "2026-07-19T23:59:59",
       "dateRange": "Jul 2026",
       "location": "Online",
@@ -9526,16 +8230,16 @@ export const ddlData: Record<string, DDLItem[]> = {
         "certificate",
         "registration"
       ],
-      "url": "https://www.neea.edu.cn",
+      "url": "https://yz.chsi.com.cn",
       "status": "upcoming",
-      "description": "??????????????? ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "yz.chsi.com.cn",
       "type": "program"
     },
     {
       "id": "exam-ddl-item-2026-08-06",
-      "title": "???????????",
+      "title": "大学英语四六级报名窗口",
       "deadline": "2026-08-06T23:59:59",
       "dateRange": "Aug 2026",
       "location": "Online",
@@ -9545,16 +8249,16 @@ export const ddlData: Record<string, DDLItem[]> = {
         "certificate",
         "registration"
       ],
-      "url": "https://www.neea.edu.cn",
+      "url": "https://cet.neea.edu.cn",
       "status": "upcoming",
-      "description": "??????????? ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "cet.neea.edu.cn",
       "type": "program"
     },
     {
       "id": "exam-ddl-item-2026-08-24",
-      "title": "????????",
+      "title": "雅思考试报名提醒",
       "deadline": "2026-08-24T23:59:59",
       "dateRange": "Aug 2026",
       "location": "Online",
@@ -9564,16 +8268,16 @@ export const ddlData: Record<string, DDLItem[]> = {
         "certificate",
         "registration"
       ],
-      "url": "https://www.neea.edu.cn",
+      "url": "https://ielts.neea.cn",
       "status": "upcoming",
-      "description": "???????? ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "ielts.neea.cn",
       "type": "program"
     },
     {
       "id": "exam-ddl-item-2026-09-11",
-      "title": "????????",
+      "title": "托福考试报名提醒",
       "deadline": "2026-09-11T23:59:59",
       "dateRange": "Sep 2026",
       "location": "Online",
@@ -9583,11 +8287,11 @@ export const ddlData: Record<string, DDLItem[]> = {
         "certificate",
         "registration"
       ],
-      "url": "https://www.neea.edu.cn",
+      "url": "https://toefl.neea.cn",
       "status": "upcoming",
-      "description": "???????? ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "toefl.neea.cn",
       "type": "program"
     },
     {
@@ -9602,11 +8306,11 @@ export const ddlData: Record<string, DDLItem[]> = {
         "certificate",
         "registration"
       ],
-      "url": "https://www.neea.edu.cn",
+      "url": "https://www.ets.org/gre.html",
       "status": "upcoming",
-      "description": "GRE General Test Planning ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "ETS GRE",
       "type": "program"
     },
     {
@@ -9621,16 +8325,16 @@ export const ddlData: Record<string, DDLItem[]> = {
         "certificate",
         "registration"
       ],
-      "url": "https://www.neea.edu.cn",
+      "url": "https://www.mba.com/exams/gmat-exam",
       "status": "upcoming",
-      "description": "GMAT Focus Exam Planning ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "GMAC GMAT",
       "type": "program"
     },
     {
       "id": "exam-ddl-item-2026-11-04",
-      "title": "???????????",
+      "title": "国家公务员考试报名提醒",
       "deadline": "2026-11-04T23:59:59",
       "dateRange": "Nov 2026",
       "location": "Online",
@@ -9640,16 +8344,16 @@ export const ddlData: Record<string, DDLItem[]> = {
         "certificate",
         "registration"
       ],
-      "url": "https://www.neea.edu.cn",
+      "url": "https://bm.scs.gov.cn",
       "status": "upcoming",
-      "description": "??????????? ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "中国政府网",
       "type": "program"
     },
     {
       "id": "exam-ddl-item-2026-11-22",
-      "title": "?????????",
+      "title": "教师资格证笔试报名",
       "deadline": "2026-11-22T23:59:59",
       "dateRange": "Nov 2026",
       "location": "Online",
@@ -9659,16 +8363,16 @@ export const ddlData: Record<string, DDLItem[]> = {
         "certificate",
         "registration"
       ],
-      "url": "https://www.neea.edu.cn",
+      "url": "https://ntce.neea.edu.cn",
       "status": "upcoming",
-      "description": "????????? ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "ntce.neea.edu.cn",
       "type": "program"
     },
     {
       "id": "exam-ddl-item-2026-12-10",
-      "title": "?????????",
+      "title": "计算机等级考试报名",
       "deadline": "2026-12-10T23:59:59",
       "dateRange": "Dec 2026",
       "location": "Online",
@@ -9678,16 +8382,16 @@ export const ddlData: Record<string, DDLItem[]> = {
         "certificate",
         "registration"
       ],
-      "url": "https://www.neea.edu.cn",
+      "url": "https://ncre.neea.edu.cn",
       "status": "upcoming",
-      "description": "????????? ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "ncre.neea.edu.cn",
       "type": "program"
     },
     {
       "id": "exam-ddl-item-2026-12-28",
-      "title": "??????",
+      "title": "软考报名窗口",
       "deadline": "2026-12-28T23:59:59",
       "dateRange": "Dec 2026",
       "location": "Online",
@@ -9697,16 +8401,16 @@ export const ddlData: Record<string, DDLItem[]> = {
         "certificate",
         "registration"
       ],
-      "url": "https://www.neea.edu.cn",
+      "url": "https://www.ruankao.org.cn",
       "status": "upcoming",
-      "description": "?????? ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "ruankao.org.cn",
       "type": "program"
     },
     {
       "id": "exam-ddl-item-2027-01-15",
-      "title": "?????????",
+      "title": "注册会计师考试报名",
       "deadline": "2027-01-15T23:59:59",
       "dateRange": "Jan 2027",
       "location": "Online",
@@ -9716,16 +8420,16 @@ export const ddlData: Record<string, DDLItem[]> = {
         "certificate",
         "registration"
       ],
-      "url": "https://www.neea.edu.cn",
+      "url": "https://cpaexam.cicpa.org.cn",
       "status": "upcoming",
-      "description": "????????? ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "cpaexam.cicpa.org.cn",
       "type": "program"
     },
     {
       "id": "exam-ddl-item-2027-02-02",
-      "title": "???????",
+      "title": "法考客观题报名",
       "deadline": "2027-02-02T23:59:59",
       "dateRange": "Feb 2027",
       "location": "Online",
@@ -9735,11 +8439,11 @@ export const ddlData: Record<string, DDLItem[]> = {
         "certificate",
         "registration"
       ],
-      "url": "https://www.neea.edu.cn",
+      "url": "https://www.moj.gov.cn",
       "status": "upcoming",
-      "description": "??????? ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "中国政府网",
       "type": "program"
     },
     {
@@ -9754,11 +8458,11 @@ export const ddlData: Record<string, DDLItem[]> = {
         "certificate",
         "registration"
       ],
-      "url": "https://www.neea.edu.cn",
+      "url": "https://aws.amazon.com/certification/",
       "status": "upcoming",
-      "description": "AWS Certification Voucher Window ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "AWS Certification",
       "type": "program"
     },
     {
@@ -9773,11 +8477,11 @@ export const ddlData: Record<string, DDLItem[]> = {
         "certificate",
         "registration"
       ],
-      "url": "https://www.neea.edu.cn",
+      "url": "https://www.pmi.org/certifications/project-management-pmp",
       "status": "upcoming",
-      "description": "PMP Exam Application Window ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "PMI PMP Certification",
       "type": "program"
     },
     {
@@ -9792,18 +8496,18 @@ export const ddlData: Record<string, DDLItem[]> = {
         "certificate",
         "registration"
       ],
-      "url": "https://www.neea.edu.cn",
+      "url": "https://www.cfainstitute.org",
       "status": "upcoming",
-      "description": "CFA Exam Registration Deadline ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "CFA Institute",
       "type": "program"
     }
   ],
   "scholarship-ddl": [
     {
       "id": "scholarship-ddl-csc-2026-07-01",
-      "title": "CSC ????????????????",
+      "title": "CSC 国家建设高水平大学公派研究生项目",
       "deadline": "2026-07-01T23:59:59",
       "dateRange": "Jul 2026",
       "location": "Online",
@@ -9815,9 +8519,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://www.csc.edu.cn",
       "status": "upcoming",
-      "description": "CSC ???????????????? ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "csc.edu.cn",
       "type": "program"
     },
     {
@@ -9832,11 +8536,11 @@ export const ddlData: Record<string, DDLItem[]> = {
         "fellowship",
         "application"
       ],
-      "url": "https://www.csc.edu.cn",
+      "url": "https://foreign.fulbrightonline.org",
       "status": "upcoming",
-      "description": "Fulbright Foreign Student Program ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "Fulbright Foreign Student Program",
       "type": "program"
     },
     {
@@ -9851,11 +8555,11 @@ export const ddlData: Record<string, DDLItem[]> = {
         "fellowship",
         "application"
       ],
-      "url": "https://www.csc.edu.cn",
+      "url": "https://www.chevening.org",
       "status": "upcoming",
-      "description": "Chevening Scholarship Application ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "Chevening Scholarships",
       "type": "program"
     },
     {
@@ -9870,11 +8574,11 @@ export const ddlData: Record<string, DDLItem[]> = {
         "fellowship",
         "application"
       ],
-      "url": "https://www.csc.edu.cn",
+      "url": "https://erasmus-plus.ec.europa.eu",
       "status": "upcoming",
-      "description": "Erasmus Mundus Application Window ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "Erasmus+",
       "type": "program"
     },
     {
@@ -9889,11 +8593,11 @@ export const ddlData: Record<string, DDLItem[]> = {
         "fellowship",
         "application"
       ],
-      "url": "https://www.csc.edu.cn",
+      "url": "https://www.daad.de",
       "status": "upcoming",
-      "description": "DAAD Scholarship Window ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "DAAD",
       "type": "program"
     },
     {
@@ -9908,11 +8612,11 @@ export const ddlData: Record<string, DDLItem[]> = {
         "fellowship",
         "application"
       ],
-      "url": "https://www.csc.edu.cn",
+      "url": "https://www.rhodeshouse.ox.ac.uk",
       "status": "upcoming",
-      "description": "Rhodes Scholarship Application ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "Rhodes Trust",
       "type": "program"
     },
     {
@@ -9927,11 +8631,11 @@ export const ddlData: Record<string, DDLItem[]> = {
         "fellowship",
         "application"
       ],
-      "url": "https://www.csc.edu.cn",
+      "url": "https://www.gatescambridge.org",
       "status": "upcoming",
-      "description": "Gates Cambridge Scholarship ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "Gates Cambridge",
       "type": "program"
     },
     {
@@ -9946,11 +8650,11 @@ export const ddlData: Record<string, DDLItem[]> = {
         "fellowship",
         "application"
       ],
-      "url": "https://www.csc.edu.cn",
+      "url": "https://knight-hennessy.stanford.edu",
       "status": "upcoming",
-      "description": "Knight-Hennessy Scholars ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "Knight-Hennessy Scholars",
       "type": "program"
     },
     {
@@ -9965,11 +8669,11 @@ export const ddlData: Record<string, DDLItem[]> = {
         "fellowship",
         "application"
       ],
-      "url": "https://www.csc.edu.cn",
+      "url": "https://oge.mit.edu",
       "status": "upcoming",
-      "description": "MIT Summer Research Program ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "MIT Office of Graduate Education",
       "type": "program"
     },
     {
@@ -9984,11 +8688,11 @@ export const ddlData: Record<string, DDLItem[]> = {
         "fellowship",
         "application"
       ],
-      "url": "https://www.csc.edu.cn",
+      "url": "https://www.epfl.ch/education/master/",
       "status": "upcoming",
-      "description": "EPFL Excellence Fellowship ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "EPFL",
       "type": "program"
     },
     {
@@ -10003,11 +8707,11 @@ export const ddlData: Record<string, DDLItem[]> = {
         "fellowship",
         "application"
       ],
-      "url": "https://www.csc.edu.cn",
+      "url": "https://ethz.ch",
       "status": "upcoming",
-      "description": "ETH Zurich Excellence Scholarship ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "ETH Zurich",
       "type": "program"
     },
     {
@@ -10022,11 +8726,11 @@ export const ddlData: Record<string, DDLItem[]> = {
         "fellowship",
         "application"
       ],
-      "url": "https://www.csc.edu.cn",
+      "url": "https://nus.edu.sg",
       "status": "upcoming",
-      "description": "NUS Research Scholarship Window ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "National University of Singapore",
       "type": "program"
     },
     {
@@ -10041,11 +8745,11 @@ export const ddlData: Record<string, DDLItem[]> = {
         "fellowship",
         "application"
       ],
-      "url": "https://www.csc.edu.cn",
+      "url": "https://cerg1.ugc.edu.hk/hkpfs/index.html",
       "status": "upcoming",
-      "description": "HKPFS Application Deadline ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "Hong Kong PhD Fellowship Scheme",
       "type": "program"
     },
     {
@@ -10060,11 +8764,11 @@ export const ddlData: Record<string, DDLItem[]> = {
         "fellowship",
         "application"
       ],
-      "url": "https://www.csc.edu.cn",
+      "url": "https://www.jsps.go.jp/english/",
       "status": "upcoming",
-      "description": "JSPS Postdoctoral Fellowship ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "JSPS",
       "type": "program"
     },
     {
@@ -10079,11 +8783,11 @@ export const ddlData: Record<string, DDLItem[]> = {
         "fellowship",
         "application"
       ],
-      "url": "https://www.csc.edu.cn",
+      "url": "https://marie-sklodowska-curie-actions.ec.europa.eu",
       "status": "upcoming",
-      "description": "Marie Curie Doctoral Networks ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "Marie Skłodowska-Curie Actions",
       "type": "program"
     },
     {
@@ -10100,9 +8804,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://www.csc.edu.cn",
       "status": "upcoming",
-      "description": "Undergraduate Research Fellowship Window ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "csc.edu.cn",
       "type": "program"
     }
   ],
@@ -10119,11 +8823,11 @@ export const ddlData: Record<string, DDLItem[]> = {
         "indie game",
         "Unity"
       ],
-      "url": "https://itch.io/jams",
+      "url": "https://globalgamejam.org",
       "status": "upcoming",
-      "description": "Global Game Jam Site Registration ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "Global Game Jam",
       "type": "contest"
     },
     {
@@ -10138,11 +8842,11 @@ export const ddlData: Record<string, DDLItem[]> = {
         "indie game",
         "Unity"
       ],
-      "url": "https://itch.io/jams",
+      "url": "https://ldjam.com",
       "status": "upcoming",
-      "description": "Ludum Dare 60 ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "Ludum Dare",
       "type": "contest"
     },
     {
@@ -10159,9 +8863,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://itch.io/jams",
       "status": "upcoming",
-      "description": "GMTK Game Jam ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "itch.io Jams",
       "type": "contest"
     },
     {
@@ -10178,9 +8882,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://itch.io/jams",
       "status": "upcoming",
-      "description": "itch.io Brackeys Game Jam ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "itch.io Jams",
       "type": "contest"
     },
     {
@@ -10195,11 +8899,11 @@ export const ddlData: Record<string, DDLItem[]> = {
         "indie game",
         "Unity"
       ],
-      "url": "https://itch.io/jams",
+      "url": "https://igf.com",
       "status": "upcoming",
-      "description": "Independent Games Festival Submission ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "Independent Games Festival",
       "type": "contest"
     },
     {
@@ -10216,9 +8920,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://itch.io/jams",
       "status": "upcoming",
-      "description": "Student Game Competition Entry ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "itch.io",
       "type": "contest"
     },
     {
@@ -10233,11 +8937,11 @@ export const ddlData: Record<string, DDLItem[]> = {
         "indie game",
         "Unity"
       ],
-      "url": "https://itch.io/jams",
+      "url": "https://www.unrealengine.com",
       "status": "upcoming",
-      "description": "Unreal Engine Challenge ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "Unreal Engine",
       "type": "contest"
     },
     {
@@ -10252,11 +8956,11 @@ export const ddlData: Record<string, DDLItem[]> = {
         "indie game",
         "Unity"
       ],
-      "url": "https://itch.io/jams",
+      "url": "https://unity.com",
       "status": "upcoming",
-      "description": "Unity Student Challenge ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "Unity",
       "type": "contest"
     },
     {
@@ -10273,9 +8977,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://itch.io/jams",
       "status": "upcoming",
-      "description": "Godot Wild Jam ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "itch.io Jams",
       "type": "contest"
     },
     {
@@ -10290,11 +8994,11 @@ export const ddlData: Record<string, DDLItem[]> = {
         "indie game",
         "Unity"
       ],
-      "url": "https://itch.io/jams",
+      "url": "https://itch.io/jam/game-off",
       "status": "upcoming",
-      "description": "Game Off by GitHub ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "GitHub Game Off",
       "type": "contest"
     },
     {
@@ -10309,11 +9013,11 @@ export const ddlData: Record<string, DDLItem[]> = {
         "indie game",
         "Unity"
       ],
-      "url": "https://itch.io/jams",
+      "url": "https://amaze-berlin.de",
       "status": "upcoming",
-      "description": "A MAZE. Awards Submission ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "A MAZE.",
       "type": "contest"
     },
     {
@@ -10328,11 +9032,11 @@ export const ddlData: Record<string, DDLItem[]> = {
         "indie game",
         "Unity"
       ],
-      "url": "https://itch.io/jams",
+      "url": "https://www.indiecade.com",
       "status": "upcoming",
-      "description": "IndieCade Submission ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "IndieCade",
       "type": "contest"
     },
     {
@@ -10347,11 +9051,11 @@ export const ddlData: Record<string, DDLItem[]> = {
         "indie game",
         "Unity"
       ],
-      "url": "https://itch.io/jams",
+      "url": "https://www.gamesforchange.org",
       "status": "upcoming",
-      "description": "Games for Change Awards ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "Games for Change",
       "type": "contest"
     },
     {
@@ -10368,9 +9072,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://itch.io/jams",
       "status": "upcoming",
-      "description": "AI NPC Challenge ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "itch.io",
       "type": "contest"
     },
     {
@@ -10387,9 +9091,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://itch.io/jams",
       "status": "upcoming",
-      "description": "Procedural Generation Jam ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "itch.io",
       "type": "contest"
     },
     {
@@ -10406,9 +9110,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://itch.io/jams",
       "status": "upcoming",
-      "description": "Serious Games Health Track ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "itch.io",
       "type": "contest"
     }
   ],
@@ -10425,11 +9129,11 @@ export const ddlData: Record<string, DDLItem[]> = {
         "medical AI",
         "genomics"
       ],
-      "url": "https://grand-challenge.org",
+      "url": "https://dreamchallenges.org",
       "status": "upcoming",
-      "description": "DREAM Challenge Registration ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "DREAM Challenges",
       "type": "challenge"
     },
     {
@@ -10444,11 +9148,11 @@ export const ddlData: Record<string, DDLItem[]> = {
         "medical AI",
         "genomics"
       ],
-      "url": "https://grand-challenge.org",
+      "url": "https://predictioncenter.org",
       "status": "upcoming",
-      "description": "CASP Protein Prediction Target Window ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "CASP Prediction Center",
       "type": "challenge"
     },
     {
@@ -10463,11 +9167,11 @@ export const ddlData: Record<string, DDLItem[]> = {
         "medical AI",
         "genomics"
       ],
-      "url": "https://grand-challenge.org",
+      "url": "https://www.kaggle.com/competitions",
       "status": "upcoming",
-      "description": "Kaggle Biomedical Image Challenge ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "Kaggle Competitions",
       "type": "challenge"
     },
     {
@@ -10484,9 +9188,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://grand-challenge.org",
       "status": "upcoming",
-      "description": "MICCAI Grand Challenge Registration ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "Grand Challenge",
       "type": "challenge"
     },
     {
@@ -10501,11 +9205,11 @@ export const ddlData: Record<string, DDLItem[]> = {
         "medical AI",
         "genomics"
       ],
-      "url": "https://grand-challenge.org",
+      "url": "https://www.iscb.org",
       "status": "upcoming",
-      "description": "ISMB/ECCB Proceedings Paper ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "ISCB",
       "type": "challenge"
     },
     {
@@ -10520,11 +9224,11 @@ export const ddlData: Record<string, DDLItem[]> = {
         "medical AI",
         "genomics"
       ],
-      "url": "https://grand-challenge.org",
+      "url": "https://recomb.org",
       "status": "upcoming",
-      "description": "RECOMB Paper Submission ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "RECOMB",
       "type": "challenge"
     },
     {
@@ -10539,11 +9243,11 @@ export const ddlData: Record<string, DDLItem[]> = {
         "medical AI",
         "genomics"
       ],
-      "url": "https://grand-challenge.org",
+      "url": "https://openproblems.bio",
       "status": "upcoming",
-      "description": "Single-Cell Perturbation Challenge ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "Open Problems in Single-Cell Analysis",
       "type": "challenge"
     },
     {
@@ -10558,11 +9262,11 @@ export const ddlData: Record<string, DDLItem[]> = {
         "medical AI",
         "genomics"
       ],
-      "url": "https://grand-challenge.org",
+      "url": "https://www.kaggle.com/competitions",
       "status": "upcoming",
-      "description": "Genomics Variant Calling Benchmark ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "Kaggle Competitions",
       "type": "challenge"
     },
     {
@@ -10577,11 +9281,11 @@ export const ddlData: Record<string, DDLItem[]> = {
         "medical AI",
         "genomics"
       ],
-      "url": "https://grand-challenge.org",
+      "url": "https://tdcommons.ai",
       "status": "upcoming",
-      "description": "Drug Discovery Benchmark Sprint ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "Therapeutics Data Commons",
       "type": "challenge"
     },
     {
@@ -10598,9 +9302,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://grand-challenge.org",
       "status": "upcoming",
-      "description": "Protein Design Hackathon ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "grand-challenge.org",
       "type": "challenge"
     },
     {
@@ -10617,9 +9321,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://grand-challenge.org",
       "status": "upcoming",
-      "description": "Medical QA Safety Evaluation ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "grand-challenge.org",
       "type": "challenge"
     },
     {
@@ -10636,9 +9340,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://grand-challenge.org",
       "status": "upcoming",
-      "description": "Digital Pathology Challenge ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "Grand Challenge",
       "type": "challenge"
     },
     {
@@ -10653,11 +9357,11 @@ export const ddlData: Record<string, DDLItem[]> = {
         "medical AI",
         "genomics"
       ],
-      "url": "https://grand-challenge.org",
+      "url": "https://www.drivendata.org/competitions/",
       "status": "upcoming",
-      "description": "Wearable Health Data Challenge ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "DrivenData Competitions",
       "type": "challenge"
     },
     {
@@ -10672,11 +9376,11 @@ export const ddlData: Record<string, DDLItem[]> = {
         "medical AI",
         "genomics"
       ],
-      "url": "https://grand-challenge.org",
+      "url": "https://www.n2c2.dbmi.hms.harvard.edu",
       "status": "upcoming",
-      "description": "Clinical NLP Shared Task ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "n2c2 / DBMI",
       "type": "challenge"
     },
     {
@@ -10693,9 +9397,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://grand-challenge.org",
       "status": "upcoming",
-      "description": "AI for Healthcare Workshop Paper ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "grand-challenge.org",
       "type": "challenge"
     },
     {
@@ -10710,11 +9414,11 @@ export const ddlData: Record<string, DDLItem[]> = {
         "medical AI",
         "genomics"
       ],
-      "url": "https://grand-challenge.org",
+      "url": "https://biocreative.bioinformatics.udel.edu",
       "status": "upcoming",
-      "description": "BioCreative Track Submission ?????????? crawler ??????????",
-      "stage": "Coverage",
-      "source": "Curated coverage seed",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "stage": "Source board",
+      "source": "BioCreative",
       "type": "challenge"
     }
   ]
