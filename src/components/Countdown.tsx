@@ -1,4 +1,5 @@
 import { useCountdown } from '@/hooks/useCountdown';
+import { useLanguage } from '@/lib/language';
 
 const urgencyStyles: Record<string, { bg: string; text: string }> = {
   critical: { bg: '#F43F5E', text: '#FFFFFF' },
@@ -9,6 +10,7 @@ const urgencyStyles: Record<string, { bg: string; text: string }> = {
 
 export default function Countdown({ deadline, size = 'md' }: { deadline: string; size?: 'sm' | 'md' | 'lg' }) {
   const { days, hours, minutes, seconds, urgency } = useCountdown(deadline);
+  const { copy } = useLanguage();
   const style = urgencyStyles[urgency];
   const isEnded = urgency === 'ended';
 
@@ -16,7 +18,7 @@ export default function Countdown({ deadline, size = 'md' }: { deadline: string;
   const unitClass = size === 'lg' ? 'text-xs' : size === 'sm' ? 'text-[9px]' : 'text-[10px]';
 
   if (isEnded) return (
-    <span className="inline-flex items-center rounded-full px-2 py-0.5 text-[11px] font-medium" style={{ background: style.bg, color: style.text }}>已结束</span>
+    <span className="inline-flex items-center rounded-full px-2 py-0.5 text-[11px] font-medium" style={{ background: style.bg, color: style.text }}>{copy.ddl.ended}</span>
   );
 
   return (

@@ -6,6 +6,7 @@ import { useSubscriptions } from '@/hooks/useSubscriptions';
 import { getAllDDL, type DDLItem } from '@/data/ddl-data';
 import { getTopicById } from '@/data/topics';
 import DDLCard from '@/components/DDLCard';
+import { useLanguage } from '@/lib/language';
 
 interface DDLWithColor extends DDLItem {
   topicColor?: string;
@@ -13,8 +14,9 @@ interface DDLWithColor extends DDLItem {
 
 export default function MyDDL() {
   const { subscribedIds } = useSubscriptions();
+  const { copy } = useLanguage();
 
-  const allDDL = getAllDDL();
+  const allDDL = useMemo(() => getAllDDL(), []);
 
   const subscribedItems = useMemo(() => {
     const items: DDLWithColor[] = [];
@@ -65,30 +67,30 @@ export default function MyDDL() {
   const endedItems = topicItems.filter(d => d.status === 'ended');
 
   return (
-    <div className="mx-auto max-w-4xl px-4 py-6 sm:px-6 sm:py-8">
+    <div className="mx-auto max-w-5xl px-4 py-8 sm:px-6 sm:py-10">
       <motion.div initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }}>
-        <h1 className="text-xl font-bold sm:text-2xl" style={{ color: '#1C1917' }}>
-          <Heart size={22} className="mr-1.5 inline" style={{ color: '#F43F5E', fill: '#F43F5E' }} /> 我的DDL
+        <h1 className="text-2xl font-black sm:text-3xl" style={{ color: '#0F172A' }}>
+          <Heart size={25} className="mr-1.5 inline" style={{ color: '#F43F5E', fill: '#F43F5E' }} /> {copy.my.title}
         </h1>
-        <p className="mt-1 text-xs sm:text-sm" style={{ color: '#78716C' }}>
-          已订阅 <strong style={{ color: '#F97316' }}>{subscribedTopics.length}</strong> 个专题，单独收藏 <strong style={{ color: '#F97316' }}>{subscribedItems.length}</strong> 个DDL
+        <p className="mt-2 text-sm" style={{ color: '#64748B' }}>
+          {copy.my.summary} <strong style={{ color: '#0F766E' }}>{subscribedTopics.length}</strong> {copy.my.topics}，{copy.my.individual} <strong style={{ color: '#0F766E' }}>{subscribedItems.length}</strong> {copy.my.items}
         </p>
       </motion.div>
 
       {topicItems.length === 0 ? (
-        <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="mt-10 rounded-2xl border py-14 text-center" style={{ background: 'white', borderColor: '#FED7AA' }}>
+        <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="mt-10 rounded-3xl border bg-white py-14 text-center shadow-sm" style={{ borderColor: '#E2E8F0' }}>
           <Pin size={36} className="mx-auto" style={{ color: '#D6D3D1' }} />
-          <h3 className="mt-4 text-sm font-semibold" style={{ color: '#1C1917' }}>还没有订阅任何内容</h3>
-          <p className="mt-1 text-xs" style={{ color: '#A8A29E' }}>去专题广场订阅你关心的领域</p>
-          <Link to="/" className="mt-4 inline-flex items-center gap-1 rounded-xl px-5 py-2 text-xs font-medium text-white" style={{ background: '#F97316' }}>
-            浏览专题广场 <ArrowRight size={12} />
+          <h3 className="mt-4 text-sm font-bold" style={{ color: '#0F172A' }}>{copy.my.emptyTitle}</h3>
+          <p className="mt-1 text-xs" style={{ color: '#94A3B8' }}>{copy.my.emptyCopy}</p>
+          <Link to="/" className="mt-4 inline-flex items-center gap-1 rounded-2xl px-5 py-2.5 text-xs font-black text-white" style={{ background: '#0F766E' }}>
+            {copy.my.browse} <ArrowRight size={12} />
           </Link>
         </motion.div>
       ) : (
         <>
           {activeItems.length > 0 && (
             <section className="mt-6">
-              <h2 className="text-xs font-semibold uppercase tracking-wider" style={{ color: '#F97316' }}>进行中 ({activeItems.length})</h2>
+              <h2 className="text-xs font-black uppercase tracking-[0.18em]" style={{ color: '#0F766E' }}>{copy.my.active} ({activeItems.length})</h2>
               <div className="mt-3 space-y-3">
                 {activeItems.map((item, i) => (
                   <DDLCard key={item.id} item={item} index={i} topicColor={item.topicColor || '#F97316'} />
@@ -99,7 +101,7 @@ export default function MyDDL() {
 
           {endedItems.length > 0 && (
             <section className="mt-8">
-              <h2 className="text-xs font-semibold uppercase tracking-wider" style={{ color: '#A8A29E' }}>已结束 ({endedItems.length})</h2>
+              <h2 className="text-xs font-black uppercase tracking-[0.18em]" style={{ color: '#94A3B8' }}>{copy.my.ended} ({endedItems.length})</h2>
               <div className="mt-3 space-y-3 opacity-60">
                 {endedItems.map((item, i) => (
                   <DDLCard key={item.id} item={item} index={i} topicColor={item.topicColor || '#D6D3D1'} />
@@ -110,18 +112,18 @@ export default function MyDDL() {
         </>
       )}
 
-      <section className="mt-10 rounded-2xl border p-5" style={{ background: 'linear-gradient(135deg, #FFF7ED, #FFF1F2)', borderColor: '#FED7AA' }}>
+      <section className="mt-10 rounded-3xl border p-5 shadow-sm" style={{ background: 'linear-gradient(135deg, #ECFDF5, #F8FAFC)', borderColor: '#D1FAE5' }}>
         <div className="flex items-center gap-3">
           <div className="flex h-10 w-10 items-center justify-center rounded-xl" style={{ background: 'white' }}>
-            <Monitor size={18} style={{ color: '#F97316' }} />
+            <Monitor size={18} style={{ color: '#0F766E' }} />
           </div>
           <div>
-            <h3 className="text-sm font-semibold" style={{ color: '#1C1917' }}>自定义个人DDL</h3>
-            <p className="text-xs" style={{ color: '#78716C' }}>下载 PC 客户端，创建属于你的私人截止日，本地加密存储</p>
+            <h3 className="text-sm font-bold" style={{ color: '#0F172A' }}>{copy.my.customTitle}</h3>
+            <p className="text-xs" style={{ color: '#475569' }}>{copy.my.customCopy}</p>
           </div>
         </div>
         <p className="mt-3 text-[11px] leading-relaxed" style={{ color: '#A8A29E' }}>
-          网页端仅支持浏览和收藏官方公开DDL。如需添加个人自定义截止日（如课程作业、项目节点、个人目标），请使用 PC EXE 客户端或移动APP。
+          {copy.my.customNote}
         </p>
       </section>
     </div>

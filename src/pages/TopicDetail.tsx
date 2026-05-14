@@ -1,13 +1,31 @@
 import { useMemo } from 'react';
-import { useParams, Link } from 'react-router';
+import { Link, useParams } from 'react-router';
 import { motion } from 'framer-motion';
-import { ArrowLeft, Trophy, Bot, Eye, MessageSquare, GraduationCap, BookOpen, Code2, CalendarHeart, Layers, Star, Github, ExternalLink } from 'lucide-react';
+import {
+  ArrowLeft,
+  Bot,
+  BookOpen,
+  CalendarHeart,
+  Code2,
+  Database,
+  ExternalLink,
+  Eye,
+  Github,
+  GraduationCap,
+  Layers,
+  MessageSquare,
+  RadioTower,
+  Star,
+  Trophy,
+  type LucideIcon,
+} from 'lucide-react';
 import { getTopicById } from '@/data/topics';
 import { getDDLByTopic } from '@/data/ddl-data';
 import { useSubscriptions } from '@/hooks/useSubscriptions';
 import DDLCard from '@/components/DDLCard';
+import { useLanguage } from '@/lib/language';
 
-const iconMap: Record<string, typeof Trophy> = {
+const iconMap: Record<string, LucideIcon> = {
   Trophy, Bot, Eye, MessageSquare, GraduationCap, BookOpen, Code2, CalendarHeart, Layers,
 };
 
@@ -15,6 +33,7 @@ export default function TopicDetail() {
   const { topicId } = useParams<{ topicId: string }>();
   const topic = getTopicById(topicId || '');
   const { isSubscribed, toggle } = useSubscriptions();
+  const { copy, topicName, topicDescription, categoryName, tagName } = useLanguage();
 
   const items = useMemo(() => {
     if (!topicId) return [];
@@ -27,97 +46,123 @@ export default function TopicDetail() {
 
   if (!topic) {
     return (
-      <div className="mx-auto max-w-6xl px-4 py-12 text-center">
-        <h2 className="text-lg font-bold" style={{ color: '#1C1917' }}>专题不存在</h2>
-        <Link to="/" className="mt-4 inline-block text-sm" style={{ color: '#F97316' }}>返回专题广场</Link>
+      <div className="mx-auto max-w-6xl px-4 py-16 text-center">
+        <h2 className="text-xl font-black" style={{ color: '#0F172A' }}>{copy.detail.missing}</h2>
+        <Link to="/" className="mt-4 inline-flex items-center gap-2 rounded-2xl px-4 py-2 text-sm font-bold text-white" style={{ background: '#0F766E' }}>
+          <ArrowLeft size={14} /> {copy.detail.back}
+        </Link>
       </div>
     );
   }
 
   const Icon = iconMap[topic.icon] || Trophy;
   const subscribed = isSubscribed(topic.id);
-  const activeItems = items.filter(d => d.status !== 'ended');
+  const activeItems = items.filter(item => item.status !== 'ended');
   const nextItem = activeItems[0];
+  const sourceCount = new Set(items.map(item => item.source).filter(Boolean)).size;
 
   return (
-    <div className="mx-auto max-w-4xl px-4 py-6 sm:px-6 sm:py-8">
-      {/* Breadcrumb */}
-      <Link to="/" className="inline-flex items-center gap-1 text-xs font-medium transition-colors" style={{ color: '#A8A29E' }}
-        onMouseEnter={e => e.currentTarget.style.color = '#F97316'}
-        onMouseLeave={e => e.currentTarget.style.color = '#A8A29E'}>
-        <ArrowLeft size={12} /> 专题广场
+    <div className="mx-auto max-w-5xl px-4 py-8 sm:px-6 sm:py-10">
+      <Link
+        to="/"
+        className="inline-flex items-center gap-2 rounded-full border bg-white px-3 py-2 text-xs font-bold transition hover:-translate-y-0.5"
+        style={{ borderColor: '#E2E8F0', color: '#475569' }}
+      >
+        <ArrowLeft size={13} /> {copy.detail.back}
       </Link>
 
-      {/* Topic Header */}
-      <motion.section initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} className="mt-4 rounded-2xl border bg-white p-5 sm:p-6" style={{ borderColor: '#FED7AA' }}>
-        <div className="flex items-start gap-4">
-          <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl" style={{ background: `${topic.color}12`, color: topic.color }}>
-            <Icon size={24} />
-          </div>
-          <div className="flex-1 min-w-0">
-            <div className="flex items-center gap-2 flex-wrap">
-              <h1 className="text-lg font-bold" style={{ color: '#1C1917' }}>{topic.name}</h1>
-              <span className="rounded-full px-2 py-0.5 text-[10px] font-medium" style={{ background: `${topic.color}12`, color: topic.color }}>{topic.category}</span>
-              <span className="rounded-full px-2 py-0.5 text-[10px] font-medium" style={{ background: topic.status === 'published' ? '#ECFDF5' : '#F5F5F4', color: topic.status === 'published' ? '#047857' : '#78716C' }}>
-                {topic.status === 'published' ? '已发布' : 'Demo 已完善'}
-              </span>
+      <motion.section
+        initial={{ opacity: 0, y: 16 }}
+        animate={{ opacity: 1, y: 0 }}
+        className="mt-5 overflow-hidden rounded-3xl border bg-white shadow-sm"
+        style={{ borderColor: '#E2E8F0' }}
+      >
+        <div className="h-2" style={{ background: `linear-gradient(90deg, ${topic.color}, transparent)` }} />
+        <div className="p-5 sm:p-7">
+          <div className="flex flex-col gap-5 md:flex-row md:items-start md:justify-between">
+            <div className="flex min-w-0 gap-4">
+              <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl" style={{ background: `${topic.color}16`, color: topic.color }}>
+                <Icon size={28} />
+              </div>
+              <div className="min-w-0">
+                <div className="flex flex-wrap items-center gap-2">
+                  <h1 className="text-2xl font-black" style={{ color: '#0F172A' }}>{topicName(topic)}</h1>
+                  <span className="rounded-full px-2.5 py-1 text-[11px] font-black" style={{ background: `${topic.color}12`, color: topic.color }}>{categoryName(topic.category)}</span>
+                  <span className="rounded-full px-2.5 py-1 text-[11px] font-black" style={{ background: topic.status === 'published' ? '#DCFCE7' : '#FEF3C7', color: topic.status === 'published' ? '#047857' : '#92400E' }}>
+                    {topic.status === 'published' ? copy.detail.published : copy.detail.demo}
+                  </span>
+                </div>
+                <p className="mt-3 max-w-2xl text-sm leading-7" style={{ color: '#475569' }}>{topicDescription(topic)}</p>
+                <div className="mt-4 flex flex-wrap gap-1.5">
+                  {topic.tags.map(tag => (
+                    <span key={tag} className="rounded-full px-2.5 py-1 text-[11px] font-semibold" style={{ background: '#F1F5F9', color: '#475569' }}>{tagName(tag)}</span>
+                  ))}
+                </div>
+              </div>
             </div>
-            <p className="mt-1 text-xs" style={{ color: '#78716C' }}>{topic.description}</p>
-            <div className="mt-3 flex flex-wrap items-center gap-2">
-              <button onClick={() => toggle(topic.id)}
-                className="flex items-center gap-1.5 rounded-lg px-3 py-1.5 text-xs font-medium transition-all"
-                style={{ background: subscribed ? '#FFF7ED' : '#F5F5F4', color: subscribed ? '#F97316' : '#78716C', border: subscribed ? '1px solid #F97316' : '1px solid transparent' }}>
-                <Star size={12} style={{ fill: subscribed ? '#F97316' : 'none' }} /> {subscribed ? '已订阅' : '订阅专题'}
+
+            <div className="flex flex-wrap gap-2 md:justify-end">
+              <button
+                onClick={() => toggle(topic.id)}
+                className="flex items-center gap-2 rounded-2xl border px-4 py-2 text-xs font-black transition hover:-translate-y-0.5"
+                style={{ background: subscribed ? `${topic.color}12` : 'white', borderColor: subscribed ? topic.color : '#E2E8F0', color: subscribed ? topic.color : '#475569' }}
+              >
+                <Star size={14} style={{ fill: subscribed ? topic.color : 'none' }} /> {subscribed ? copy.detail.subscribed : copy.detail.subscribe}
               </button>
-              <a href={`https://github.com/${topic.repo}`} target="_blank" rel="noopener noreferrer"
-                className="flex items-center gap-1.5 rounded-lg border px-3 py-1.5 text-xs font-medium transition-all" style={{ borderColor: '#FED7AA', color: '#78716C' }}>
-                <Github size={12} /> {topic.repo}
+              <a
+                href={`https://github.com/${topic.repo}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 rounded-2xl border bg-white px-4 py-2 text-xs font-black transition hover:-translate-y-0.5"
+                style={{ borderColor: '#E2E8F0', color: '#475569' }}
+              >
+                <Github size={14} /> {copy.detail.repo}
               </a>
-              <a href={topic.site} target="_blank" rel="noopener noreferrer"
-                className="flex items-center gap-1.5 rounded-lg border px-3 py-1.5 text-xs font-medium transition-all" style={{ borderColor: '#FED7AA', color: topic.color }}>
-                <ExternalLink size={12} /> GitHub Pages
+              <a
+                href={topic.site}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 rounded-2xl px-4 py-2 text-xs font-black text-white transition hover:-translate-y-0.5"
+                style={{ background: topic.color }}
+              >
+                <ExternalLink size={14} /> {copy.detail.pages}
               </a>
-              <span className="text-xs" style={{ color: '#A8A29E' }}>{topic.itemCount} 个DDL · {items.filter(d => d.status !== 'ended').length} 个进行中</span>
             </div>
           </div>
         </div>
       </motion.section>
 
-      {/* Tag pills */}
-      <div className="mt-4 flex flex-wrap gap-1.5">
-        {topic.tags.map(t => (
-          <span key={t} className="rounded-md px-2 py-0.5 text-[10px] font-medium" style={{ background: '#FFF7ED', color: '#78716C' }}>{t}</span>
-        ))}
-      </div>
-
-      <section className="mt-4 grid grid-cols-2 gap-3 sm:grid-cols-4">
-        <div className="rounded-xl border bg-white p-3" style={{ borderColor: '#FED7AA' }}>
-          <p className="text-[10px] font-medium uppercase tracking-wider" style={{ color: '#A8A29E' }}>Total</p>
-          <p className="mt-1 text-lg font-bold" style={{ color: '#1C1917' }}>{items.length}</p>
-        </div>
-        <div className="rounded-xl border bg-white p-3" style={{ borderColor: '#FED7AA' }}>
-          <p className="text-[10px] font-medium uppercase tracking-wider" style={{ color: '#A8A29E' }}>Active</p>
-          <p className="mt-1 text-lg font-bold" style={{ color: topic.color }}>{activeItems.length}</p>
-        </div>
-        <div className="rounded-xl border bg-white p-3" style={{ borderColor: '#FED7AA' }}>
-          <p className="text-[10px] font-medium uppercase tracking-wider" style={{ color: '#A8A29E' }}>Next</p>
-          <p className="mt-1 truncate text-xs font-semibold" style={{ color: '#1C1917' }}>{nextItem?.stage || '暂无'}</p>
-        </div>
-        <div className="rounded-xl border bg-white p-3" style={{ borderColor: '#FED7AA' }}>
-          <p className="text-[10px] font-medium uppercase tracking-wider" style={{ color: '#A8A29E' }}>Sources</p>
-          <p className="mt-1 text-lg font-bold" style={{ color: '#1C1917' }}>{new Set(items.map(i => i.source).filter(Boolean)).size}</p>
-        </div>
+      <section className="mt-5 grid grid-cols-2 gap-3 sm:grid-cols-4">
+        {[
+          { label: copy.detail.total, value: items.length, icon: Database },
+          { label: copy.detail.active, value: activeItems.length, icon: RadioTower },
+          { label: copy.detail.sources, value: sourceCount, icon: Github },
+          { label: copy.detail.next, value: nextItem?.stage || nextItem?.title || '-', icon: ExternalLink },
+        ].map(stat => {
+          const IconStat = stat.icon;
+          return (
+            <div key={stat.label} className="rounded-3xl border bg-white p-4 shadow-sm" style={{ borderColor: '#E2E8F0' }}>
+              <IconStat size={15} style={{ color: topic.color }} />
+              <p className="mt-2 truncate text-xl font-black" style={{ color: '#0F172A' }}>{stat.value}</p>
+              <p className="mt-1 text-xs font-bold" style={{ color: '#64748B' }}>{stat.label}</p>
+            </div>
+          );
+        })}
       </section>
 
-      {/* DDL List */}
-      <section className="mt-6 space-y-3">
-        <h2 className="text-sm font-bold" style={{ color: '#1C1917' }}>全部截止日</h2>
-        {items.map((item, i) => (
-          <DDLCard key={item.id} item={item} index={i} topicColor={topic.color} />
+      <section className="mt-8 space-y-3">
+        <div className="flex items-center justify-between gap-4">
+          <h2 className="text-xl font-black" style={{ color: '#0F172A' }}>{copy.detail.allDeadlines}</h2>
+          <span className="rounded-full border bg-white px-3 py-1.5 text-xs font-bold" style={{ borderColor: '#E2E8F0', color: '#64748B' }}>
+            {activeItems.length} {copy.detail.active}
+          </span>
+        </div>
+        {items.map((item, index) => (
+          <DDLCard key={item.id} item={item} index={index} topicColor={topic.color} />
         ))}
         {items.length === 0 && (
-          <div className="rounded-2xl border py-12 text-center" style={{ background: 'white', borderColor: '#FED7AA' }}>
-            <p className="text-sm" style={{ color: '#A8A29E' }}>暂无数据</p>
+          <div className="rounded-3xl border bg-white py-14 text-center" style={{ borderColor: '#E2E8F0' }}>
+            <p className="text-sm font-semibold" style={{ color: '#94A3B8' }}>{copy.detail.empty}</p>
           </div>
         )}
       </section>
