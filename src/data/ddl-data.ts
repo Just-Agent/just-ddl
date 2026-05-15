@@ -7158,7 +7158,7 @@ export const ddlData: Record<string, DDLItem[]> = {
         "OSPP",
         "LFX"
       ],
-      "url": "https://www.cncf.io/people/mentoring/",
+      "url": "https://github.com/cncf/mentoring",
       "status": "upcoming",
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
       "stage": "Source board",
@@ -8057,7 +8057,7 @@ export const ddlData: Record<string, DDLItem[]> = {
         "product",
         "design"
       ],
-      "url": "https://www.adobe.com/creativecloud/events.html",
+      "url": "https://event.adobe.com/creativejamaustin",
       "status": "upcoming",
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
       "stage": "Source board",
@@ -9427,3 +9427,4 @@ export const ddlData: Record<string, DDLItem[]> = {
 export const getDDLByTopic = (topicId: string) => ddlData[topicId] || [];
 export const getAllDDL = () => Object.values(ddlData).flat();
 export const getDDLById = (id: string) => getAllDDL().find(d => d.id === id);
+
