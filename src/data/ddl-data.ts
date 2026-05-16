@@ -7214,7 +7214,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.aicitychallenge.org",
       "status": "upcoming",
       "description": "Parsed from official AI City Challenge Important Dates section.",
-      "stage": "Milestone",
+      "stage": "Deadline",
       "source": "AI City Challenge",
       "type": "challenge"
     },
@@ -7254,7 +7254,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.aicitychallenge.org",
       "status": "upcoming",
       "description": "Parsed from official AI City Challenge Important Dates section.",
-      "stage": "Deadline",
+      "stage": "Milestone",
       "source": "AI City Challenge",
       "type": "challenge"
     }
