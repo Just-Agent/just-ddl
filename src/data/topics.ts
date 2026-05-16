@@ -192,7 +192,7 @@ export const topics: Topic[] = [
     "repo": "Just-Agent/data-science-ddl",
     "site": "https://just-agent.github.io/data-science-ddl/",
     "status": "published",
-    "itemCount": 16,
+    "itemCount": 9,
     "category": "技术赛事",
     "tags": [
       "Kaggle",
