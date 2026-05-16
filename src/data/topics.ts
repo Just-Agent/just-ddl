@@ -294,7 +294,7 @@ export const topics: Topic[] = [
     "repo": "Just-Agent/scholarship-ddl",
     "site": "https://just-agent.github.io/scholarship-ddl/",
     "status": "published",
-    "itemCount": 16,
+    "itemCount": 1,
     "category": "考试申请",
     "tags": [
       "scholarship",
@@ -328,7 +328,7 @@ export const topics: Topic[] = [
     "repo": "Just-Agent/biotech-ddl",
     "site": "https://just-agent.github.io/biotech-ddl/",
     "status": "published",
-    "itemCount": 16,
+    "itemCount": 2,
     "category": "生命健康",
     "tags": [
       "biotech",

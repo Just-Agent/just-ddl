@@ -7901,307 +7901,22 @@ export const ddlData: Record<string, DDLItem[]> = {
   ],
   "scholarship-ddl": [
     {
-      "id": "scholarship-ddl-csc-2026-07-01",
-      "title": "CSC 国家建设高水平大学公派研究生项目",
-      "deadline": "2026-07-01T23:59:59",
-      "dateRange": "Jul 2026",
+      "id": "chevening-offer-deadline-9-july-2026",
+      "title": "Chevening - Offer deadline",
+      "deadline": "2026-07-09T23:59:59Z",
+      "dateRange": "9 July 2026",
       "location": "Online",
       "isOnline": true,
       "tags": [
         "scholarship",
-        "fellowship",
-        "application"
+        "Chevening",
+        "UK"
       ],
-      "url": "https://www.csc.edu.cn",
+      "url": "https://www.chevening.org/scholarships/application-timeline/",
       "status": "upcoming",
-      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
-      "stage": "Source board",
-      "source": "csc.edu.cn",
-      "type": "program"
-    },
-    {
-      "id": "scholarship-ddl-fulbright-foreign-student-program-2026-07-19",
-      "title": "Fulbright Foreign Student Program",
-      "deadline": "2026-07-19T23:59:59",
-      "dateRange": "Jul 2026",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "scholarship",
-        "fellowship",
-        "application"
-      ],
-      "url": "https://foreign.fulbrightonline.org",
-      "status": "upcoming",
-      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
-      "stage": "Source board",
-      "source": "Fulbright Foreign Student Program",
-      "type": "program"
-    },
-    {
-      "id": "scholarship-ddl-chevening-scholarship-application-2026-08-06",
-      "title": "Chevening Scholarship Application",
-      "deadline": "2026-08-06T23:59:59",
-      "dateRange": "Aug 2026",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "scholarship",
-        "fellowship",
-        "application"
-      ],
-      "url": "https://www.chevening.org",
-      "status": "upcoming",
-      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
-      "stage": "Source board",
+      "description": "Parsed from the official Chevening application timeline.",
+      "stage": "Offer deadline",
       "source": "Chevening Scholarships",
-      "type": "program"
-    },
-    {
-      "id": "scholarship-ddl-erasmus-mundus-application-window-2026-08-24",
-      "title": "Erasmus Mundus Application Window",
-      "deadline": "2026-08-24T23:59:59",
-      "dateRange": "Aug 2026",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "scholarship",
-        "fellowship",
-        "application"
-      ],
-      "url": "https://erasmus-plus.ec.europa.eu",
-      "status": "upcoming",
-      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
-      "stage": "Source board",
-      "source": "Erasmus+",
-      "type": "program"
-    },
-    {
-      "id": "scholarship-ddl-daad-scholarship-window-2026-09-11",
-      "title": "DAAD Scholarship Window",
-      "deadline": "2026-09-11T23:59:59",
-      "dateRange": "Sep 2026",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "scholarship",
-        "fellowship",
-        "application"
-      ],
-      "url": "https://www.daad.de",
-      "status": "upcoming",
-      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
-      "stage": "Source board",
-      "source": "DAAD",
-      "type": "program"
-    },
-    {
-      "id": "scholarship-ddl-rhodes-scholarship-application-2026-09-29",
-      "title": "Rhodes Scholarship Application",
-      "deadline": "2026-09-29T23:59:59",
-      "dateRange": "Sep 2026",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "scholarship",
-        "fellowship",
-        "application"
-      ],
-      "url": "https://www.rhodeshouse.ox.ac.uk",
-      "status": "upcoming",
-      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
-      "stage": "Source board",
-      "source": "Rhodes Trust",
-      "type": "program"
-    },
-    {
-      "id": "scholarship-ddl-gates-cambridge-scholarship-2026-10-17",
-      "title": "Gates Cambridge Scholarship",
-      "deadline": "2026-10-17T23:59:59",
-      "dateRange": "Oct 2026",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "scholarship",
-        "fellowship",
-        "application"
-      ],
-      "url": "https://www.gatescambridge.org",
-      "status": "upcoming",
-      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
-      "stage": "Source board",
-      "source": "Gates Cambridge",
-      "type": "program"
-    },
-    {
-      "id": "scholarship-ddl-knight-hennessy-scholars-2026-11-04",
-      "title": "Knight-Hennessy Scholars",
-      "deadline": "2026-11-04T23:59:59",
-      "dateRange": "Nov 2026",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "scholarship",
-        "fellowship",
-        "application"
-      ],
-      "url": "https://knight-hennessy.stanford.edu",
-      "status": "upcoming",
-      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
-      "stage": "Source board",
-      "source": "Knight-Hennessy Scholars",
-      "type": "program"
-    },
-    {
-      "id": "scholarship-ddl-mit-summer-research-program-2026-11-22",
-      "title": "MIT Summer Research Program",
-      "deadline": "2026-11-22T23:59:59",
-      "dateRange": "Nov 2026",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "scholarship",
-        "fellowship",
-        "application"
-      ],
-      "url": "https://oge.mit.edu",
-      "status": "upcoming",
-      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
-      "stage": "Source board",
-      "source": "MIT Office of Graduate Education",
-      "type": "program"
-    },
-    {
-      "id": "scholarship-ddl-epfl-excellence-fellowship-2026-12-10",
-      "title": "EPFL Excellence Fellowship",
-      "deadline": "2026-12-10T23:59:59",
-      "dateRange": "Dec 2026",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "scholarship",
-        "fellowship",
-        "application"
-      ],
-      "url": "https://www.epfl.ch/education/master/",
-      "status": "upcoming",
-      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
-      "stage": "Source board",
-      "source": "EPFL",
-      "type": "program"
-    },
-    {
-      "id": "scholarship-ddl-eth-zurich-excellence-scholarship-2026-12-28",
-      "title": "ETH Zurich Excellence Scholarship",
-      "deadline": "2026-12-28T23:59:59",
-      "dateRange": "Dec 2026",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "scholarship",
-        "fellowship",
-        "application"
-      ],
-      "url": "https://ethz.ch",
-      "status": "upcoming",
-      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
-      "stage": "Source board",
-      "source": "ETH Zurich",
-      "type": "program"
-    },
-    {
-      "id": "scholarship-ddl-nus-research-scholarship-window-2027-01-15",
-      "title": "NUS Research Scholarship Window",
-      "deadline": "2027-01-15T23:59:59",
-      "dateRange": "Jan 2027",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "scholarship",
-        "fellowship",
-        "application"
-      ],
-      "url": "https://nus.edu.sg",
-      "status": "upcoming",
-      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
-      "stage": "Source board",
-      "source": "National University of Singapore",
-      "type": "program"
-    },
-    {
-      "id": "scholarship-ddl-hkpfs-application-deadline-2027-02-02",
-      "title": "HKPFS Application Deadline",
-      "deadline": "2027-02-02T23:59:59",
-      "dateRange": "Feb 2027",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "scholarship",
-        "fellowship",
-        "application"
-      ],
-      "url": "https://cerg1.ugc.edu.hk/hkpfs/index.html",
-      "status": "upcoming",
-      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
-      "stage": "Source board",
-      "source": "Hong Kong PhD Fellowship Scheme",
-      "type": "program"
-    },
-    {
-      "id": "scholarship-ddl-jsps-postdoctoral-fellowship-2027-02-20",
-      "title": "JSPS Postdoctoral Fellowship",
-      "deadline": "2027-02-20T23:59:59",
-      "dateRange": "Feb 2027",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "scholarship",
-        "fellowship",
-        "application"
-      ],
-      "url": "https://www.jsps.go.jp/english/",
-      "status": "upcoming",
-      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
-      "stage": "Source board",
-      "source": "JSPS",
-      "type": "program"
-    },
-    {
-      "id": "scholarship-ddl-marie-curie-doctoral-networks-2027-03-10",
-      "title": "Marie Curie Doctoral Networks",
-      "deadline": "2027-03-10T23:59:59",
-      "dateRange": "Mar 2027",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "scholarship",
-        "fellowship",
-        "application"
-      ],
-      "url": "https://marie-sklodowska-curie-actions.ec.europa.eu",
-      "status": "upcoming",
-      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
-      "stage": "Source board",
-      "source": "Marie Skłodowska-Curie Actions",
-      "type": "program"
-    },
-    {
-      "id": "scholarship-ddl-undergraduate-research-fellowship-window-2027-03-28",
-      "title": "Undergraduate Research Fellowship Window",
-      "deadline": "2027-03-28T23:59:59",
-      "dateRange": "Mar 2027",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "scholarship",
-        "fellowship",
-        "application"
-      ],
-      "url": "https://www.csc.edu.cn",
-      "status": "upcoming",
-      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
-      "stage": "Source board",
-      "source": "csc.edu.cn",
       "type": "program"
     }
   ],
@@ -8513,307 +8228,43 @@ export const ddlData: Record<string, DDLItem[]> = {
   ],
   "biotech-ddl": [
     {
-      "id": "biotech-ddl-dream-challenge-registration-2026-07-01",
-      "title": "DREAM Challenge Registration",
-      "deadline": "2026-07-01T23:59:59",
-      "dateRange": "Jul 2026",
+      "id": "dd-health-66-flu-shot-learning",
+      "title": "Flu Shot Learning: Predict H1N1 and Seasonal Flu Vaccines",
+      "deadline": "2027-07-30T23:59:00Z",
+      "dateRange": "July 30, 2027, 11:59 p.m. UTC",
       "location": "Online",
       "isOnline": true,
       "tags": [
         "biotech",
-        "medical AI",
-        "genomics"
+        "health",
+        "DrivenData",
+        "competition"
       ],
-      "url": "https://dreamchallenges.org",
+      "url": "https://www.drivendata.org/competitions/66/flu-shot-learning/",
       "status": "upcoming",
-      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
-      "stage": "Source board",
-      "source": "DREAM Challenges",
+      "description": "Parsed from DrivenData health competitions listing. Deadline is read from the card end-date tooltip.",
+      "stage": "Deadline",
+      "source": "DrivenData Health Competitions",
       "type": "challenge"
     },
     {
-      "id": "biotech-ddl-casp-protein-prediction-target-window-2026-07-19",
-      "title": "CASP Protein Prediction Target Window",
-      "deadline": "2026-07-19T23:59:59",
-      "dateRange": "Jul 2026",
+      "id": "dd-health-44-dengai-predicting-disease-spread",
+      "title": "DengAI: Predicting Disease Spread",
+      "deadline": "2027-10-05T23:59:00Z",
+      "dateRange": "Oct. 5, 2027, 11:59 p.m. UTC",
       "location": "Online",
       "isOnline": true,
       "tags": [
         "biotech",
-        "medical AI",
-        "genomics"
+        "health",
+        "DrivenData",
+        "competition"
       ],
-      "url": "https://predictioncenter.org",
+      "url": "https://www.drivendata.org/competitions/44/dengai-predicting-disease-spread/",
       "status": "upcoming",
-      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
-      "stage": "Source board",
-      "source": "CASP Prediction Center",
-      "type": "challenge"
-    },
-    {
-      "id": "biotech-ddl-kaggle-biomedical-image-challenge-2026-08-06",
-      "title": "Kaggle Biomedical Image Challenge",
-      "deadline": "2026-08-06T23:59:59",
-      "dateRange": "Aug 2026",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "biotech",
-        "medical AI",
-        "genomics"
-      ],
-      "url": "https://www.kaggle.com/competitions",
-      "status": "upcoming",
-      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
-      "stage": "Source board",
-      "source": "Kaggle Competitions",
-      "type": "challenge"
-    },
-    {
-      "id": "biotech-ddl-miccai-grand-challenge-registration-2026-08-24",
-      "title": "MICCAI Grand Challenge Registration",
-      "deadline": "2026-08-24T23:59:59",
-      "dateRange": "Aug 2026",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "biotech",
-        "medical AI",
-        "genomics"
-      ],
-      "url": "https://grand-challenge.org",
-      "status": "upcoming",
-      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
-      "stage": "Source board",
-      "source": "Grand Challenge",
-      "type": "challenge"
-    },
-    {
-      "id": "biotech-ddl-ismb-eccb-proceedings-paper-2026-09-11",
-      "title": "ISMB/ECCB Proceedings Paper",
-      "deadline": "2026-09-11T23:59:59",
-      "dateRange": "Sep 2026",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "biotech",
-        "medical AI",
-        "genomics"
-      ],
-      "url": "https://www.iscb.org",
-      "status": "upcoming",
-      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
-      "stage": "Source board",
-      "source": "ISCB",
-      "type": "challenge"
-    },
-    {
-      "id": "biotech-ddl-recomb-paper-submission-2026-09-29",
-      "title": "RECOMB Paper Submission",
-      "deadline": "2026-09-29T23:59:59",
-      "dateRange": "Sep 2026",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "biotech",
-        "medical AI",
-        "genomics"
-      ],
-      "url": "https://recomb.org",
-      "status": "upcoming",
-      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
-      "stage": "Source board",
-      "source": "RECOMB",
-      "type": "challenge"
-    },
-    {
-      "id": "biotech-ddl-single-cell-perturbation-challenge-2026-10-17",
-      "title": "Single-Cell Perturbation Challenge",
-      "deadline": "2026-10-17T23:59:59",
-      "dateRange": "Oct 2026",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "biotech",
-        "medical AI",
-        "genomics"
-      ],
-      "url": "https://openproblems.bio",
-      "status": "upcoming",
-      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
-      "stage": "Source board",
-      "source": "Open Problems in Single-Cell Analysis",
-      "type": "challenge"
-    },
-    {
-      "id": "biotech-ddl-genomics-variant-calling-benchmark-2026-11-04",
-      "title": "Genomics Variant Calling Benchmark",
-      "deadline": "2026-11-04T23:59:59",
-      "dateRange": "Nov 2026",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "biotech",
-        "medical AI",
-        "genomics"
-      ],
-      "url": "https://www.kaggle.com/competitions",
-      "status": "upcoming",
-      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
-      "stage": "Source board",
-      "source": "Kaggle Competitions",
-      "type": "challenge"
-    },
-    {
-      "id": "biotech-ddl-drug-discovery-benchmark-sprint-2026-11-22",
-      "title": "Drug Discovery Benchmark Sprint",
-      "deadline": "2026-11-22T23:59:59",
-      "dateRange": "Nov 2026",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "biotech",
-        "medical AI",
-        "genomics"
-      ],
-      "url": "https://tdcommons.ai",
-      "status": "upcoming",
-      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
-      "stage": "Source board",
-      "source": "Therapeutics Data Commons",
-      "type": "challenge"
-    },
-    {
-      "id": "biotech-ddl-protein-design-hackathon-2026-12-10",
-      "title": "Protein Design Hackathon",
-      "deadline": "2026-12-10T23:59:59",
-      "dateRange": "Dec 2026",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "biotech",
-        "medical AI",
-        "genomics"
-      ],
-      "url": "https://grand-challenge.org",
-      "status": "upcoming",
-      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
-      "stage": "Source board",
-      "source": "grand-challenge.org",
-      "type": "challenge"
-    },
-    {
-      "id": "biotech-ddl-medical-qa-safety-evaluation-2026-12-28",
-      "title": "Medical QA Safety Evaluation",
-      "deadline": "2026-12-28T23:59:59",
-      "dateRange": "Dec 2026",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "biotech",
-        "medical AI",
-        "genomics"
-      ],
-      "url": "https://grand-challenge.org",
-      "status": "upcoming",
-      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
-      "stage": "Source board",
-      "source": "grand-challenge.org",
-      "type": "challenge"
-    },
-    {
-      "id": "biotech-ddl-digital-pathology-challenge-2027-01-15",
-      "title": "Digital Pathology Challenge",
-      "deadline": "2027-01-15T23:59:59",
-      "dateRange": "Jan 2027",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "biotech",
-        "medical AI",
-        "genomics"
-      ],
-      "url": "https://grand-challenge.org",
-      "status": "upcoming",
-      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
-      "stage": "Source board",
-      "source": "Grand Challenge",
-      "type": "challenge"
-    },
-    {
-      "id": "biotech-ddl-wearable-health-data-challenge-2027-02-02",
-      "title": "Wearable Health Data Challenge",
-      "deadline": "2027-02-02T23:59:59",
-      "dateRange": "Feb 2027",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "biotech",
-        "medical AI",
-        "genomics"
-      ],
-      "url": "https://www.drivendata.org/competitions/",
-      "status": "upcoming",
-      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
-      "stage": "Source board",
-      "source": "DrivenData Competitions",
-      "type": "challenge"
-    },
-    {
-      "id": "biotech-ddl-clinical-nlp-shared-task-2027-02-20",
-      "title": "Clinical NLP Shared Task",
-      "deadline": "2027-02-20T23:59:59",
-      "dateRange": "Feb 2027",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "biotech",
-        "medical AI",
-        "genomics"
-      ],
-      "url": "https://www.n2c2.dbmi.hms.harvard.edu",
-      "status": "upcoming",
-      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
-      "stage": "Source board",
-      "source": "n2c2 / DBMI",
-      "type": "challenge"
-    },
-    {
-      "id": "biotech-ddl-ai-for-healthcare-workshop-paper-2027-03-10",
-      "title": "AI for Healthcare Workshop Paper",
-      "deadline": "2027-03-10T23:59:59",
-      "dateRange": "Mar 2027",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "biotech",
-        "medical AI",
-        "genomics"
-      ],
-      "url": "https://grand-challenge.org",
-      "status": "upcoming",
-      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
-      "stage": "Source board",
-      "source": "grand-challenge.org",
-      "type": "challenge"
-    },
-    {
-      "id": "biotech-ddl-biocreative-track-submission-2027-03-28",
-      "title": "BioCreative Track Submission",
-      "deadline": "2027-03-28T23:59:59",
-      "dateRange": "Mar 2027",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "biotech",
-        "medical AI",
-        "genomics"
-      ],
-      "url": "https://biocreative.bioinformatics.udel.edu",
-      "status": "upcoming",
-      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
-      "stage": "Source board",
-      "source": "BioCreative",
+      "description": "Parsed from DrivenData health competitions listing. Deadline is read from the card end-date tooltip.",
+      "stage": "Deadline",
+      "source": "DrivenData Health Competitions",
       "type": "challenge"
     }
   ]
