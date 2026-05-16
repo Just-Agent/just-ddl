@@ -1,0 +1,111 @@
+name: New Topic Proposal
+description: Propose a new Just-DDL topic before creating an independent repository.
+title: "[New Topic]: "
+labels: ["new-topic", "proposal"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for proposing a new Just-DDL topic.
+
+        New topics should start as a Proposal in the Hub. If accepted, maintainers will create or connect an independent `xxx-ddl` repository with the standard crawler, validator, link-check, Pages, and Actions workflow.
+
+  - type: input
+    id: topic_name
+    attributes:
+      label: Topic name
+      description: Chinese and English names are both welcome.
+      placeholder: "机器人 / Robotics"
+    validations:
+      required: true
+
+  - type: input
+    id: repo_slug
+    attributes:
+      label: Suggested repository slug
+      description: Use the `<topic-slug>-ddl` format.
+      placeholder: "robotics-ddl"
+    validations:
+      required: true
+
+  - type: textarea
+    id: scope
+    attributes:
+      label: Topic scope
+      description: What deadlines belong in this topic? What should be excluded?
+      placeholder: "Includes robotics competitions, ICRA/IROS challenges, embodied AI benchmarks..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: audience
+    attributes:
+      label: Target users
+      description: Who will subscribe to this topic?
+      placeholder: "Researchers, students, competition teams, developers..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: sources
+    attributes:
+      label: Data sources
+      description: List official or authoritative sources. Include URLs and explain why each source is trustworthy.
+      placeholder: |
+        1. Official source:
+        2. Authoritative aggregator:
+        3. Backup source:
+    validations:
+      required: true
+
+  - type: input
+    id: expected_count
+    attributes:
+      label: Expected active item count
+      description: How many upcoming DDL items can this topic keep after launch?
+      placeholder: "10-30"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: update_frequency
+    attributes:
+      label: Expected update frequency
+      options:
+        - Weekly
+        - Daily
+        - Monthly
+        - Event-season only
+        - Manual review needed
+    validations:
+      required: true
+
+  - type: textarea
+    id: crawler_plan
+    attributes:
+      label: Crawler plan
+      description: Which pages or APIs can be parsed? What fields can be extracted?
+      placeholder: "Parse official timeline cards; extract title, deadline, URL, source, tags..."
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: acceptance
+    attributes:
+      label: Acceptance checklist
+      options:
+        - label: I understand that accepted topics should use one independent repository.
+          required: true
+        - label: I can provide at least one official or authoritative source.
+          required: true
+        - label: I understand that crawler, validator, link-check, Pages, and Actions are required before Hub listing.
+          required: true
+        - label: I understand that data must link back to source pages and cannot be based only on screenshots or unsourced summaries.
+          required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Extra context
+      description: Add screenshots, examples, related repositories, or maintenance notes.
+      placeholder: "Anything else maintainers should know."
