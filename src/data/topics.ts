@@ -311,7 +311,7 @@ export const topics: Topic[] = [
     "repo": "Just-Agent/game-dev-ddl",
     "site": "https://just-agent.github.io/game-dev-ddl/",
     "status": "published",
-    "itemCount": 16,
+    "itemCount": 25,
     "category": "设计创作",
     "tags": [
       "game jam",

@@ -9727,6 +9727,114 @@ export const ddlData: Record<string, DDLItem[]> = {
   ],
   "game-dev-ddl": [
     {
+      "id": "itchio-jam-gdevelop-big-game-jam-9",
+      "title": "GDevelop BIG Game Jam #9",
+      "deadline": "2026-05-24T19:00:00Z",
+      "deadlineType": "end",
+      "tags": [
+        "game jam"
+      ],
+      "url": "https://itch.io/jam/gdevelop-big-game-jam-9",
+      "status": "upcoming",
+      "description": "Parsed from itch.io/jams. Deadline is the jam end time.",
+      "stage": "upcoming",
+      "source": "itch.io Jams",
+      "type": "contest",
+      "dateRange": "2026-05-24",
+      "location": "Online",
+      "isOnline": true
+    },
+    {
+      "id": "itchio-jam-coolmath-game-jam-2026",
+      "title": "The $20K Coolmath Game Jam 2026",
+      "deadline": "2026-06-08T06:59:59Z",
+      "deadlineType": "end",
+      "tags": [
+        "game jam"
+      ],
+      "url": "https://itch.io/jam/coolmath-game-jam-2026",
+      "status": "upcoming",
+      "description": "Parsed from itch.io/jams. Deadline is the jam end time.",
+      "stage": "upcoming",
+      "source": "itch.io Jams",
+      "type": "contest",
+      "dateRange": "2026-06-08",
+      "location": "Online",
+      "isOnline": true
+    },
+    {
+      "id": "itchio-jam-noise-jam-3",
+      "title": "NOISE JAM 3",
+      "deadline": "2026-06-13T08:00:00Z",
+      "deadlineType": "end-computed",
+      "tags": [
+        "game jam"
+      ],
+      "url": "https://itch.io/jam/noise-jam-3",
+      "status": "upcoming",
+      "description": "Parsed from itch.io/jams. Deadline is computed from the listed start time plus jam duration.",
+      "stage": "upcoming",
+      "source": "itch.io Jams",
+      "type": "contest",
+      "dateRange": "2026-06-13",
+      "location": "Online",
+      "isOnline": true
+    },
+    {
+      "id": "itchio-jam-nes-jam-2026",
+      "title": "NES Jam 2026",
+      "deadline": "2026-06-15T11:00:00Z",
+      "deadlineType": "end-computed",
+      "tags": [
+        "game jam"
+      ],
+      "url": "https://itch.io/jam/nes-jam-2026",
+      "status": "upcoming",
+      "description": "Parsed from itch.io/jams. Deadline is computed from the listed start time plus jam duration.",
+      "stage": "upcoming",
+      "source": "itch.io Jams",
+      "type": "contest",
+      "dateRange": "2026-06-15",
+      "location": "Online",
+      "isOnline": true
+    },
+    {
+      "id": "itchio-jam-metroidvania-month-32",
+      "title": "Metroidvania Month 32",
+      "deadline": "2026-06-16T02:00:00Z",
+      "deadlineType": "end",
+      "tags": [
+        "game jam"
+      ],
+      "url": "https://itch.io/jam/metroidvania-month-32",
+      "status": "upcoming",
+      "description": "Parsed from itch.io/jams. Deadline is the jam end time.",
+      "stage": "upcoming",
+      "source": "itch.io Jams",
+      "type": "contest",
+      "dateRange": "2026-06-16",
+      "location": "Online",
+      "isOnline": true
+    },
+    {
+      "id": "itchio-jam-comfy-jam-summer-2026",
+      "title": "Comfy Jam: Summer🏖️",
+      "deadline": "2026-06-19T22:00:00Z",
+      "deadlineType": "end-computed",
+      "tags": [
+        "game jam"
+      ],
+      "url": "https://itch.io/jam/comfy-jam-summer-2026",
+      "status": "upcoming",
+      "description": "Parsed from itch.io/jams. Deadline is computed from the listed start time plus jam duration.",
+      "stage": "upcoming",
+      "source": "itch.io Jams",
+      "type": "contest",
+      "dateRange": "2026-06-19",
+      "location": "Online",
+      "isOnline": true
+    },
+    {
       "id": "game-dev-ddl-global-game-jam-site-registration-2026-07-01",
       "title": "Global Game Jam Site Registration",
       "deadline": "2026-07-01T23:59:59",
@@ -9744,6 +9852,24 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Source board",
       "source": "Global Game Jam",
       "type": "contest"
+    },
+    {
+      "id": "itchio-jam-toxic-yuri-vn-jam-2",
+      "title": "TOXIC YURI VN JAM 2",
+      "deadline": "2026-07-13T04:00:00Z",
+      "deadlineType": "end-computed",
+      "tags": [
+        "game jam"
+      ],
+      "url": "https://itch.io/jam/toxic-yuri-vn-jam-2",
+      "status": "upcoming",
+      "description": "Parsed from itch.io/jams. Deadline is computed from the listed start time plus jam duration.",
+      "stage": "upcoming",
+      "source": "itch.io Jams",
+      "type": "contest",
+      "dateRange": "2026-07-13",
+      "location": "Online",
+      "isOnline": true
     },
     {
       "id": "game-dev-ddl-ludum-dare-60-2026-07-19",
@@ -9803,6 +9929,24 @@ export const ddlData: Record<string, DDLItem[]> = {
       "type": "contest"
     },
     {
+      "id": "itchio-jam-brackeys-16",
+      "title": "Brackeys Game Jam 2026.2",
+      "deadline": "2026-08-30T10:00:00Z",
+      "deadlineType": "end-computed",
+      "tags": [
+        "game jam"
+      ],
+      "url": "https://itch.io/jam/brackeys-16",
+      "status": "upcoming",
+      "description": "Parsed from itch.io/jams. Deadline is computed from the listed start time plus jam duration.",
+      "stage": "upcoming",
+      "source": "itch.io Jams",
+      "type": "contest",
+      "dateRange": "2026-08-30",
+      "location": "Online",
+      "isOnline": true
+    },
+    {
       "id": "game-dev-ddl-independent-games-festival-submission-2026-09-11",
       "title": "Independent Games Festival Submission",
       "deadline": "2026-09-11T23:59:59",
@@ -9820,6 +9964,24 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Source board",
       "source": "Independent Games Festival",
       "type": "contest"
+    },
+    {
+      "id": "itchio-jam-gbjam-14",
+      "title": "GBJam 14",
+      "deadline": "2026-09-21T11:00:00Z",
+      "deadlineType": "end-computed",
+      "tags": [
+        "game jam"
+      ],
+      "url": "https://itch.io/jam/gbjam-14",
+      "status": "upcoming",
+      "description": "Parsed from itch.io/jams. Deadline is computed from the listed start time plus jam duration.",
+      "stage": "upcoming",
+      "source": "itch.io Jams",
+      "type": "contest",
+      "dateRange": "2026-09-21",
+      "location": "Online",
+      "isOnline": true
     },
     {
       "id": "game-dev-ddl-student-game-competition-entry-2026-09-29",
