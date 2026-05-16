@@ -1,0 +1,42 @@
+name: Sync Topic Data
+
+on:
+  repository_dispatch:
+    types: [topic-updated]
+  workflow_dispatch:
+    inputs:
+      topic_id:
+        description: 'Optional single topic id to sync, for example cv-ddl'
+        required: false
+        type: string
+  schedule:
+    - cron: '17 */6 * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-topic-data
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '24'
+      - name: Sync child topic data
+        run: node scripts/sync-topic-data.mjs
+        env:
+          JUST_DDL_DISPATCH_TOPIC: ${{ github.event.client_payload.topic_id || github.event.inputs.topic_id || '' }}
+      - name: Install dependencies
+        run: npm ci
+      - name: Build Hub
+        run: npm run build
+      - name: Commit synced Hub data
+        uses: stefanzweifel/git-auto-commit-action@v7
+        with:
+          commit_message: 'data: sync child topic ddl data'
+          file_pattern: 'src/data/topics.ts src/data/ddl-data.ts'
