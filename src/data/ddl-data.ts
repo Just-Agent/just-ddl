@@ -1,4 +1,5 @@
 export interface DDLItem {
+  [key: string]: unknown;
   id: string;
   title: string;
   deadline: string;
@@ -10073,3 +10074,11 @@ export const ddlData: Record<string, DDLItem[]> = {
     }
   ]
 };
+
+export function getDDLByTopic(topicId: string): DDLItem[] {
+  return ddlData[topicId] || [];
+}
+
+export function getAllDDL(): DDLItem[] {
+  return Object.values(ddlData).flat();
+}
