@@ -243,7 +243,7 @@ export const topics: Topic[] = [
     "repo": "Just-Agent/startup-ddl",
     "site": "https://just-agent.github.io/startup-ddl/",
     "status": "published",
-    "itemCount": 16,
+    "itemCount": 10,
     "category": "产业创业",
     "tags": [
       "startup",
