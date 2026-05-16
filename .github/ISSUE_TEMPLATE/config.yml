@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: New topic guide
+    url: https://github.com/Just-Agent/just-ddl/blob/main/docs/new-topic-guide.md
+    about: Read the topic proposal and independent repository standards first.
