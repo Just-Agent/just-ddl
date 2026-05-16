@@ -150,6 +150,7 @@ export function getTopicById(id: string) { return topics.find(t => t.id === id);
 
 function writeData(ddlData) {
   const content = `export interface DDLItem {
+  [key: string]: unknown;
   id: string;
   title: string;
   deadline: string;
@@ -167,6 +168,14 @@ function writeData(ddlData) {
 }
 
 export const ddlData: Record<string, DDLItem[]> = ${JSON.stringify(ddlData, null, 2)};
+
+export function getDDLByTopic(topicId: string): DDLItem[] {
+  return ddlData[topicId] || [];
+}
+
+export function getAllDDL(): DDLItem[] {
+  return Object.values(ddlData).flat();
+}
 `;
   fs.writeFileSync(DATA_PATH, content, 'utf8');
 }
