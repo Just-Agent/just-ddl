@@ -56,7 +56,7 @@ export const topics: Topic[] = [
     "repo": "Just-Agent/cv-ddl",
     "site": "https://just-agent.github.io/cv-ddl/",
     "status": "published",
-    "itemCount": 18,
+    "itemCount": 33,
     "category": "技术赛事",
     "tags": [
       "CVPR",
