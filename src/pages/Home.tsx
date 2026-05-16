@@ -299,7 +299,7 @@ export default function Home() {
             <p className="mt-2 max-w-2xl text-sm leading-6" style={{ color: '#64748B' }}>{copy.home.ctaCopy}</p>
           </div>
           <a
-            href="https://github.com/Just-Agent/just-ddl"
+            href="https://github.com/Just-Agent/just-ddl/issues/new?template=new-topic.yml"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex shrink-0 items-center justify-center gap-2 rounded-2xl px-5 py-3 text-sm font-black text-white transition hover:-translate-y-0.5"
