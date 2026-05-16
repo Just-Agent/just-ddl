@@ -114,10 +114,24 @@ function normalizeItems(topic, items) {
   if (!Array.isArray(items) || items.length === 0) {
     throw new Error(`${topic.id}: fetched items.json is empty or not an array`);
   }
-  const errors = items.flatMap(item => validateItem(topic.id, item));
+  const normalized = items.map(item => {
+    const deadlineDate = Number.isNaN(Date.parse(item.deadline))
+      ? ''
+      : new Date(item.deadline).toISOString().slice(0, 10);
+    return {
+      ...item,
+      dateRange: item.dateRange || deadlineDate || 'TBD',
+      location: item.location || (item.isOnline === false ? 'TBD' : 'Online'),
+      isOnline: typeof item.isOnline === 'boolean' ? item.isOnline : true,
+      tags: Array.isArray(item.tags) ? item.tags : [],
+      status: item.status || 'upcoming'
+    };
+  });
+
+  const errors = normalized.flatMap(item => validateItem(topic.id, item));
   if (errors.length) throw new Error(errors.join('\n'));
 
-  return [...items].sort((a, b) => {
+  return normalized.sort((a, b) => {
     const dateDiff = Date.parse(a.deadline) - Date.parse(b.deadline);
     if (dateDiff !== 0) return dateDiff;
     return String(a.title).localeCompare(String(b.title), 'zh-CN');
