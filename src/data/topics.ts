@@ -335,6 +335,23 @@ export const topics: Topic[] = [
       "medical AI",
       "genomics"
     ]
+  },
+  {
+    "id": "sports-ddl",
+    "name": "Sports",
+    "description": "体育赛事、报名节点和赛历倒计时，重点覆盖乒乓球、羽毛球、马拉松与田径。",
+    "icon": "Medal",
+    "color": "#0EA5E9",
+    "repo": "Just-Agent/sports-ddl",
+    "site": "https://just-agent.github.io/sports-ddl/",
+    "status": "published",
+    "itemCount": 31,
+    "category": "体育赛事",
+    "tags": [
+      "table tennis",
+      "badminton",
+      "marathon"
+    ]
   }
 ];
 
@@ -349,7 +366,8 @@ export const categories = [
   "产业创业",
   "设计创作",
   "考试申请",
-  "生命健康"
+  "生命健康",
+  "体育赛事"
 ];
 
 export function getTopicById(id: string) { return topics.find(t => t.id === id); }

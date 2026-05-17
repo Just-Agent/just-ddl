@@ -82,6 +82,10 @@ const topicCopy: Record<string, Record<Language, { name: string; description: st
     zh: { name: '生命科学', description: '生物医药、医学影像、基因组、蛋白质设计和健康 AI 挑战截止日。' },
     en: { name: 'Biotech', description: 'Biomedical, medical imaging, genomics, protein design, and health AI challenge deadlines.' },
   },
+  'sports-ddl': {
+    zh: { name: '体育赛事', description: '体育赛事、报名节点和赛历倒计时，重点覆盖乒乓球、羽毛球、马拉松与田径。' },
+    en: { name: 'Sports', description: 'Sports event countdowns and calendar checkpoints, focused on table tennis, badminton, marathons, and athletics.' },
+  },
 };
 
 const categoryCopy: Record<string, Record<Language, string>> = {
@@ -96,6 +100,7 @@ const categoryCopy: Record<string, Record<Language, string>> = {
   设计创作: { zh: '设计创作', en: 'Design & Creation' },
   考试申请: { zh: '考试申请', en: 'Exams & Applications' },
   生命健康: { zh: '生命健康', en: 'Life & Health' },
+  体育赛事: { zh: '体育赛事', en: 'Sports' },
 };
 
 const tagCopy: Record<string, Record<Language, string>> = {
@@ -109,6 +114,9 @@ const tagCopy: Record<string, Record<Language, string>> = {
   vacation: { zh: '假期', en: 'vacation' },
   journal: { zh: '期刊', en: 'journal' },
   'special issue': { zh: '专题', en: 'special issue' },
+  'table tennis': { zh: '乒乓球', en: 'table tennis' },
+  badminton: { zh: '羽毛球', en: 'badminton' },
+  marathon: { zh: '马拉松', en: 'marathon' },
 };
 
 const dictionary = {
@@ -116,7 +124,7 @@ const dictionary = {
     nav: { plaza: '主题广场', my: '我的 DDL', about: '关于', github: 'GitHub', repo: '仓库' },
     network: {
       roadmap: '路线图',
-      topics: ['黑客松', '智能体', '视觉', 'NLP', '学术', '期刊', '编程', '节假日', '多模态', '安全', '数据', '开源', '机器人', '创业', '设计', '考试', '奖学金', '游戏', '生命科学'],
+      topics: ['黑客松', '智能体', '视觉', 'NLP', '学术', '期刊', '编程', '节假日', '多模态', '安全', '数据', '开源', '机器人', '创业', '设计', '考试', '奖学金', '游戏', '生命科学', '体育'],
     },
     home: {
       title: '主题广场',
@@ -172,6 +180,14 @@ const dictionary = {
       empty: '暂无数据',
       published: '在线',
       demo: '筹备中',
+      sportsPlazaTitle: '体育子专题小广场',
+      sportsPlazaCopy: '乒乓球、羽毛球、路跑与田径先拆成可折叠小专题；pin 住后可以优先展开，后续也能接到个人主页。',
+      sportSubtopic: '子专题',
+      pinSubtopic: 'Pin 子专题',
+      pinnedSubtopic: '已 Pin',
+      expand: '展开',
+      collapse: '收起',
+      events: '条事件',
     },
     my: {
       title: '我的 DDL',
@@ -221,6 +237,7 @@ const dictionary = {
     },
     footer: {
       line: 'Just DDL · 专注每一个截止日 · 社区驱动维护',
+      miniProgram: '微信小程序版本即将上线，敬请期待',
       disclaimer: '数据仅供参考，请以官方信息为准',
     },
   },
@@ -228,7 +245,7 @@ const dictionary = {
     nav: { plaza: 'Topic Plaza', my: 'My DDL', about: 'About', github: 'GitHub', repo: 'Repo' },
     network: {
       roadmap: 'Roadmap',
-      topics: ['Hackathon', 'Agent', 'CV', 'NLP', 'Academic', 'Journal', 'Programming', 'Holiday', 'Multimodal', 'Security', 'Data', 'Open Source', 'Robotics', 'Startup', 'Design', 'Exams', 'Scholarships', 'Game Dev', 'Biotech'],
+      topics: ['Hackathon', 'Agent', 'CV', 'NLP', 'Academic', 'Journal', 'Programming', 'Holiday', 'Multimodal', 'Security', 'Data', 'Open Source', 'Robotics', 'Startup', 'Design', 'Exams', 'Scholarships', 'Game Dev', 'Biotech', 'Sports'],
     },
     home: {
       title: 'Topic Plaza',
@@ -284,6 +301,14 @@ const dictionary = {
       empty: 'No data yet',
       published: 'live',
       demo: 'preparing',
+      sportsPlazaTitle: 'Sports Subtopic Plaza',
+      sportsPlazaCopy: 'Table tennis, badminton, running, and athletics are grouped into collapsible mini topics. Pin one to keep it opened first.',
+      sportSubtopic: 'Subtopic',
+      pinSubtopic: 'Pin subtopic',
+      pinnedSubtopic: 'Pinned',
+      expand: 'Expand',
+      collapse: 'Collapse',
+      events: 'events',
     },
     my: {
       title: 'My DDL',
@@ -333,6 +358,7 @@ const dictionary = {
     },
     footer: {
       line: 'Just DDL · Every deadline in focus · Community-maintained',
+      miniProgram: 'WeChat Mini Program version is coming soon. Stay tuned.',
       disclaimer: 'Data is for reference only; always verify with the official source.',
     },
   },

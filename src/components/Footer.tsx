@@ -16,6 +16,7 @@ export default function Footer() {
             github.com/Just-Agent/just-ddl
           </a>
         </p>
+        <p className="mt-1 text-[11px] font-semibold" style={{ color: '#0F766E' }}>{copy.footer.miniProgram}</p>
         <p className="mt-1 text-[11px]" style={{ color: '#A8A29E' }}>{copy.footer.disclaimer}</p>
       </div>
     </footer>

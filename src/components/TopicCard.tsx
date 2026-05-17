@@ -13,6 +13,7 @@ import {
   Eye,
   GraduationCap,
   Layers,
+  Medal,
   MessageSquare,
   RadioTower,
   Star,
@@ -25,7 +26,7 @@ import { useSubscriptions } from '@/hooks/useSubscriptions';
 import { useLanguage } from '@/lib/language';
 
 const iconMap: Record<string, LucideIcon> = {
-  Trophy, Bot, Eye, MessageSquare, GraduationCap, BookOpen, Code2, CalendarHeart, Layers,
+  Trophy, Bot, Eye, MessageSquare, GraduationCap, BookOpen, Code2, CalendarHeart, Layers, Medal,
 };
 
 const dayMs = 24 * 60 * 60 * 1000;
