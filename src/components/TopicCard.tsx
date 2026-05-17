@@ -11,6 +11,7 @@ import {
   Database,
   ExternalLink,
   Eye,
+  Gamepad2,
   GraduationCap,
   Layers,
   Medal,
@@ -26,7 +27,7 @@ import { useSubscriptions } from '@/hooks/useSubscriptions';
 import { useLanguage } from '@/lib/language';
 
 const iconMap: Record<string, LucideIcon> = {
-  Trophy, Bot, Eye, MessageSquare, GraduationCap, BookOpen, Code2, CalendarHeart, Layers, Medal,
+  Trophy, Bot, Eye, MessageSquare, GraduationCap, BookOpen, Code2, CalendarHeart, Layers, Medal, Gamepad2,
 };
 
 const dayMs = 24 * 60 * 60 * 1000;

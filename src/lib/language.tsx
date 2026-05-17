@@ -78,13 +78,17 @@ const topicCopy: Record<string, Record<Language, { name: string; description: st
     zh: { name: '游戏开发', description: 'Game Jam、独立游戏节、学生游戏竞赛、引擎挑战和作品提交截止日。' },
     en: { name: 'Game Dev', description: 'Game jams, indie festivals, student game competitions, engine challenges, and submission deadlines.' },
   },
+  'game-ddl': {
+    zh: { name: '电竞赛事', description: '英雄联盟、王者荣耀、VALORANT、Dota 2、CS2 与电竞世界杯等赛事赛历和报名/开赛节点。' },
+    en: { name: 'Esports', description: 'League of Legends, Honor of Kings, VALORANT, Dota 2, CS2, Esports World Cup, and esports calendar checkpoints.' },
+  },
   'biotech-ddl': {
     zh: { name: '生命科学', description: '生物医药、医学影像、基因组、蛋白质设计和健康 AI 挑战截止日。' },
     en: { name: 'Biotech', description: 'Biomedical, medical imaging, genomics, protein design, and health AI challenge deadlines.' },
   },
   'sports-ddl': {
-    zh: { name: '体育赛事', description: '体育赛事、报名节点和赛历倒计时，重点覆盖乒乓球、羽毛球、马拉松与田径。' },
-    en: { name: 'Sports', description: 'Sports event countdowns and calendar checkpoints, focused on table tennis, badminton, marathons, and athletics.' },
+    zh: { name: '体育赛事', description: '体育赛事、报名节点和赛历倒计时，覆盖乒乓球、羽毛球、篮球、台球、匹克球、马拉松与田径。' },
+    en: { name: 'Sports', description: 'Sports event countdowns across table tennis, badminton, basketball, billiards, pickleball, marathons, and athletics.' },
   },
 };
 
@@ -101,6 +105,7 @@ const categoryCopy: Record<string, Record<Language, string>> = {
   考试申请: { zh: '考试申请', en: 'Exams & Applications' },
   生命健康: { zh: '生命健康', en: 'Life & Health' },
   体育赛事: { zh: '体育赛事', en: 'Sports' },
+  电竞赛事: { zh: '电竞赛事', en: 'Esports' },
 };
 
 const tagCopy: Record<string, Record<Language, string>> = {
@@ -117,6 +122,14 @@ const tagCopy: Record<string, Record<Language, string>> = {
   'table tennis': { zh: '乒乓球', en: 'table tennis' },
   badminton: { zh: '羽毛球', en: 'badminton' },
   marathon: { zh: '马拉松', en: 'marathon' },
+  basketball: { zh: '篮球', en: 'basketball' },
+  billiards: { zh: '台球', en: 'billiards' },
+  pickleball: { zh: '匹克球', en: 'pickleball' },
+  'League of Legends': { zh: '英雄联盟', en: 'League of Legends' },
+  王者荣耀: { zh: '王者荣耀', en: 'Honor of Kings' },
+  VALORANT: { zh: 'VALORANT', en: 'VALORANT' },
+  CS2: { zh: 'CS2', en: 'CS2' },
+  'Dota 2': { zh: 'Dota 2', en: 'Dota 2' },
 };
 
 const dictionary = {
@@ -124,7 +137,7 @@ const dictionary = {
     nav: { plaza: '主题广场', my: '我的 DDL', about: '关于', github: 'GitHub', repo: '仓库' },
     network: {
       roadmap: '路线图',
-      topics: ['黑客松', '智能体', '视觉', 'NLP', '学术', '期刊', '编程', '节假日', '多模态', '安全', '数据', '开源', '机器人', '创业', '设计', '考试', '奖学金', '游戏', '生命科学', '体育'],
+      topics: ['黑客松', '智能体', '视觉', 'NLP', '学术', '期刊', '编程', '节假日', '多模态', '安全', '数据', '开源', '机器人', '创业', '设计', '考试', '奖学金', '游戏', '生命科学', '体育', '电竞'],
     },
     home: {
       title: '主题广场',
@@ -181,7 +194,9 @@ const dictionary = {
       published: '在线',
       demo: '筹备中',
       sportsPlazaTitle: '体育子专题小广场',
-      sportsPlazaCopy: '乒乓球、羽毛球、路跑与田径先拆成可折叠小专题；pin 住后可以优先展开，后续也能接到个人主页。',
+      sportsPlazaCopy: '乒乓球、羽毛球、篮球、台球、匹克球、路跑与田径拆成可折叠小专题；pin 住后可以优先展开，后续也能接到个人主页。',
+      gamePlazaTitle: '电竞子专题小广场',
+      gamePlazaCopy: '英雄联盟、王者荣耀、VALORANT、CS2、Dota 2 和综合电竞拆成可折叠小专题；pin 住后可以优先展开。',
       sportSubtopic: '子专题',
       pinSubtopic: 'Pin 子专题',
       pinnedSubtopic: '已 Pin',
@@ -245,7 +260,7 @@ const dictionary = {
     nav: { plaza: 'Topic Plaza', my: 'My DDL', about: 'About', github: 'GitHub', repo: 'Repo' },
     network: {
       roadmap: 'Roadmap',
-      topics: ['Hackathon', 'Agent', 'CV', 'NLP', 'Academic', 'Journal', 'Programming', 'Holiday', 'Multimodal', 'Security', 'Data', 'Open Source', 'Robotics', 'Startup', 'Design', 'Exams', 'Scholarships', 'Game Dev', 'Biotech', 'Sports'],
+      topics: ['Hackathon', 'Agent', 'CV', 'NLP', 'Academic', 'Journal', 'Programming', 'Holiday', 'Multimodal', 'Security', 'Data', 'Open Source', 'Robotics', 'Startup', 'Design', 'Exams', 'Scholarships', 'Game Dev', 'Biotech', 'Sports', 'Esports'],
     },
     home: {
       title: 'Topic Plaza',
@@ -302,7 +317,9 @@ const dictionary = {
       published: 'live',
       demo: 'preparing',
       sportsPlazaTitle: 'Sports Subtopic Plaza',
-      sportsPlazaCopy: 'Table tennis, badminton, running, and athletics are grouped into collapsible mini topics. Pin one to keep it opened first.',
+      sportsPlazaCopy: 'Table tennis, badminton, basketball, billiards, pickleball, running, and athletics are grouped into collapsible mini topics. Pin one to keep it opened first.',
+      gamePlazaTitle: 'Esports Subtopic Plaza',
+      gamePlazaCopy: 'League of Legends, Honor of Kings, VALORANT, CS2, Dota 2, and multi-title esports are grouped into collapsible mini topics. Pin one to keep it opened first.',
       sportSubtopic: 'Subtopic',
       pinSubtopic: 'Pin subtopic',
       pinnedSubtopic: 'Pinned',

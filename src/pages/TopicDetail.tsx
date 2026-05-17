@@ -11,6 +11,7 @@ import {
   Database,
   ExternalLink,
   Eye,
+  Gamepad2,
   Github,
   GraduationCap,
   Layers,
@@ -30,13 +31,12 @@ import DDLCard from '@/components/DDLCard';
 import { useLanguage } from '@/lib/language';
 
 const iconMap: Record<string, LucideIcon> = {
-  Trophy, Bot, Eye, MessageSquare, GraduationCap, BookOpen, Code2, CalendarHeart, Layers, Medal,
+  Trophy, Bot, Eye, MessageSquare, GraduationCap, BookOpen, Code2, CalendarHeart, Layers, Medal, Gamepad2,
 };
 
-const PINNED_SPORTS_SUBTOPICS_KEY = 'just-ddl-pinned-sports-subtopics';
 const dayMs = 24 * 60 * 60 * 1000;
 
-interface SportSubtopicGroup {
+interface SubtopicGroup {
   id: string;
   name: string;
   items: DDLItem[];
@@ -45,20 +45,22 @@ interface SportSubtopicGroup {
   sourceCount: number;
 }
 
-function getSportSubtopic(item: DDLItem) {
+function getItemSubtopic(item: DDLItem) {
   return {
     id: typeof item.subtopic === 'string' ? item.subtopic : 'other',
-    name: typeof item.subtopicName === 'string' ? item.subtopicName : '其他赛事',
+    name: typeof item.subtopicName === 'string' ? item.subtopicName : '其他',
   };
 }
 
-function SportsSubtopicPlaza({
+function TopicSubtopicPlaza({
   groups,
   topicColor,
+  storageKey,
   labels,
 }: {
-  groups: SportSubtopicGroup[];
+  groups: SubtopicGroup[];
   topicColor: string;
+  storageKey: string;
   labels: {
     title: string;
     copy: string;
@@ -76,7 +78,7 @@ function SportsSubtopicPlaza({
   const { language } = useLanguage();
   const [pinnedSubtopics, setPinnedSubtopics] = useState<Set<string>>(() => {
     try {
-      const raw = localStorage.getItem(PINNED_SPORTS_SUBTOPICS_KEY);
+      const raw = localStorage.getItem(storageKey);
       return raw ? new Set(JSON.parse(raw)) : new Set();
     } catch {
       return new Set();
@@ -104,7 +106,7 @@ function SportsSubtopicPlaza({
       const next = new Set(prev);
       if (next.has(id)) next.delete(id); else next.add(id);
       try {
-        localStorage.setItem(PINNED_SPORTS_SUBTOPICS_KEY, JSON.stringify([...next]));
+        localStorage.setItem(storageKey, JSON.stringify([...next]));
       } catch {
         /* localStorage can be unavailable in restricted browsers */
       }
@@ -237,11 +239,11 @@ export default function TopicDetail() {
     });
   }, [topicId]);
 
-  const sportsGroups = useMemo<SportSubtopicGroup[]>(() => {
-    if (topicId !== 'sports-ddl') return [];
-    const groups = new Map<string, SportSubtopicGroup>();
+  const subtopicGroups = useMemo<SubtopicGroup[]>(() => {
+    if (!topicId || !['sports-ddl', 'game-ddl'].includes(topicId)) return [];
+    const groups = new Map<string, SubtopicGroup>();
     for (const item of items) {
-      const subtopic = getSportSubtopic(item);
+      const subtopic = getItemSubtopic(item);
       const group = groups.get(subtopic.id) || {
         id: subtopic.id,
         name: subtopic.name,
@@ -372,13 +374,14 @@ export default function TopicDetail() {
         })}
       </section>
 
-      {topic.id === 'sports-ddl' && (
-        <SportsSubtopicPlaza
-          groups={sportsGroups}
+      {['sports-ddl', 'game-ddl'].includes(topic.id) && subtopicGroups.length > 0 && (
+        <TopicSubtopicPlaza
+          groups={subtopicGroups}
           topicColor={topic.color}
+          storageKey={`just-ddl-pinned-${topic.id}-subtopics`}
           labels={{
-            title: copy.detail.sportsPlazaTitle,
-            copy: copy.detail.sportsPlazaCopy,
+            title: topic.id === 'game-ddl' ? copy.detail.gamePlazaTitle : copy.detail.sportsPlazaTitle,
+            copy: topic.id === 'game-ddl' ? copy.detail.gamePlazaCopy : copy.detail.sportsPlazaCopy,
             subtopic: copy.detail.sportSubtopic,
             pin: copy.detail.pinSubtopic,
             pinned: copy.detail.pinnedSubtopic,
