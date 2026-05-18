@@ -273,7 +273,7 @@ function TopicSubtopicPlaza({
 
                 {isExpanded && (
                   <div
-                    className={`border-t p-4 ${eventViewMode === 'grid' ? 'grid gap-3 lg:grid-cols-2' : 'space-y-3'}`}
+                    className={`border-t p-4 ${eventViewMode === 'grid' ? 'grid gap-4 md:grid-cols-2 xl:grid-cols-3' : 'space-y-3'}`}
                     style={{ borderColor: '#E2E8F0', background: '#F8FAFC' }}
                   >
                     {group.items.map((item, index) => (
@@ -382,7 +382,7 @@ export default function TopicDetail() {
   const sourceCount = new Set(items.map(item => item.source).filter(Boolean)).size;
 
   return (
-    <div className="mx-auto max-w-5xl px-4 py-8 sm:px-6 sm:py-10">
+    <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 sm:py-10">
       <Link
         to="/"
         className="inline-flex items-center gap-2 rounded-full border bg-white px-3 py-2 text-xs font-bold transition hover:-translate-y-0.5"
@@ -550,7 +550,7 @@ export default function TopicDetail() {
             </div>
           </div>
         </div>
-        <div className={eventViewMode === 'grid' ? 'grid gap-5 lg:grid-cols-2' : 'space-y-3'}>
+        <div className={eventViewMode === 'grid' ? 'grid gap-5 md:grid-cols-2 xl:grid-cols-3' : 'space-y-3'}>
           {items.map((item, index) => (
             <DDLCard key={item.id} item={item} index={index} topicColor={topic.color} variant={eventViewMode} visualMode={eventVisualMode} />
           ))}

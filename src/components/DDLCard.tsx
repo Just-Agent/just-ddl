@@ -10,6 +10,65 @@ export type DDLCardVariant = 'list' | 'grid';
 export type DDLCardVisualMode = 'vivid' | 'simple';
 
 const sourcePreviewRules: Array<[RegExp, string]> = [
+  [/mlh\.io\/seasons\/2026\/events/i, 'mlh-2026-events.jpg'],
+  [/devpost\.com\/hackathons/i, 'devpost-hackathons.jpg'],
+  [/pennapps\.com/i, 'pennapps.jpg'],
+  [/hackthenorth\.com/i, 'hack-the-north.jpg'],
+  [/spaceappschallenge\.org/i, 'space-apps.jpg'],
+  [/ijcai\.org/i, 'ijcai.jpg'],
+  [/os-world\.github\.io/i, 'os-world.jpg'],
+  [/swebench\.com/i, 'swe-bench.jpg'],
+  [/huggingface\.co\/spaces\/gaia-benchmark/i, 'huggingface-gaia.jpg'],
+  [/webarena\.dev/i, 'webarena.jpg'],
+  [/github\.com\/ServiceNow\/BrowserGym/i, 'github-browsergym.jpg'],
+  [/kaggle\.com\/competitions/i, 'kaggle-competitions.jpg'],
+  [/cvpr\.thecvf\.com\/Conferences\/2026\/Workshops/i, 'cvpr.jpg'],
+  [/sites\.google\.com\/view\/ai4rwc2026/i, 'ai4rwc.jpg'],
+  [/eventbasemultimodalvision\.github\.io/i, 'event-based-multimodal-vision.jpg'],
+  [/emr-workshop\.github\.io/i, 'emr-workshop.jpg'],
+  [/aclweb\.org\/aclwiki\/BioNLP_Workshop/i, 'aclweb.jpg'],
+  [/semeval\.github\.io/i, 'semeval.jpg'],
+  [/neurips\.cc/i, 'neurips.jpg'],
+  [/vldb\.org/i, 'vldb.jpg'],
+  [/sigmod\.org/i, 'sigmod.jpg'],
+  [/aaai\.org/i, 'aaai.jpg'],
+  [/chi2027\.acm\.org/i, 'chi-2027.jpg'],
+  [/ieee-ras\.org\/conferences-workshops\/fully-sponsored\/icra/i, 'ieee-ras-icra.jpg'],
+  [/nsf\.gov\/funding/i, 'nsf-funding.jpg'],
+  [/iclr\.cc/i, 'iclr.jpg'],
+  [/aistats\.org/i, 'aistats.jpg'],
+  [/comsoc\.org\/publications\/(journals|magazines)\/.*\/cfp/i, 'ieee-comsoc-cfp.jpg'],
+  [/signalprocessingsociety\.org\/events\/ieee/i, 'ieee-sps-cfp.jpg'],
+  [/ieeeaccess\.ieee\.org\/sections\/special-sections/i, 'ieee-access-special-sections.jpg'],
+  [/codeforces\.com/i, 'codeforces.jpg'],
+  [/icpc\.global/i, 'icpc.jpg'],
+  [/atcoder\.jp/i, 'atcoder.jpg'],
+  [/ctftime\.org/i, 'ctftime.jpg'],
+  [/defcon\.org/i, 'defcon.jpg'],
+  [/capturetheflag\.withgoogle\.com/i, 'google-ctf.jpg'],
+  [/ctf\.hackthebox\.com/i, 'hackthebox-ctf.jpg'],
+  [/summerofcode\.withgoogle\.com/i, 'gsoc.jpg'],
+  [/summer-ospp\.ac\.cn/i, 'ospp.jpg'],
+  [/lfx\.linuxfoundation\.org\/tools\/mentorship/i, 'lfx-mentorship.jpg'],
+  [/outreachy\.org/i, 'outreachy.jpg'],
+  [/aicitychallenge\.org/i, 'aicity-challenge.jpg'],
+  [/techstars\.com\/accelerators/i, 'techstars.jpg'],
+  [/ux-design-awards\.com\/enter\/dates/i, 'ux-design-awards.jpg'],
+  [/itch\.io\/jam/i, 'itch-jam.jpg'],
+  [/ldjam\.com/i, 'ldjam.jpg'],
+  [/igf\.com/i, 'igf.jpg'],
+  [/pro\.eslgaming\.com\/tour\/csgo\/cologne/i, 'esl-cologne.jpg'],
+  [/thespike\.gg\/events/i, 'thespike-valorant.jpg'],
+  [/lolesports\.com/i, 'lolesports.jpg'],
+  [/esportsworldcup\.com/i, 'esports-world-cup.jpg'],
+  [/blast\.tv\/cs\/tournaments\/pgl-singapore-major-2026/i, 'blast-pgl.jpg'],
+  [/timeanddate\.com\/holidays/i, 'timeanddate-holidays.jpg'],
+  [/gov\.uk\/bank-holidays/i, 'govuk-bank-holidays.jpg'],
+  [/opm\.gov\/policy-data-oversight\/pay-leave\/federal-holidays/i, 'opm-federal-holidays.jpg'],
+  [/gov\.cn/i, 'gov-cn.jpg'],
+  [/yz\.chsi\.com\.cn/i, 'chsi-yz.jpg'],
+  [/cet\.neea\.edu\.cn/i, 'neea-cet.jpg'],
+  [/drivendata\.org\/competitions/i, 'drivendata.jpg'],
   [/bwfbadminton\.com\/calendar/i, 'bwf-calendar.png'],
   [/ittf\.com\/2026-events-calendar/i, 'ittf-2026-events.png'],
   [/worldtabletennis\.com\/eventslist/i, 'wtt-events.png'],
@@ -44,14 +103,6 @@ function sourceLabelFor(item: DDLItem) {
     return new URL(item.url).hostname.replace(/^www\./, '');
   } catch {
     return 'Official source';
-  }
-}
-
-function hostLabelFor(item: DDLItem) {
-  try {
-    return new URL(String(item.sourceUrl || item.url)).hostname.replace(/^www\./, '');
-  } catch {
-    return sourceLabelFor(item);
   }
 }
 
@@ -117,7 +168,8 @@ function SourcePreview({
   const previewImage = sourcePreviewFor(item);
   const previewLabel = sourceLabelFor(item);
   const sourceMode = sourceModeFor(item, language);
-  const hostLabel = hostLabelFor(item);
+
+  if (!previewImage) return null;
 
   return (
     <a
@@ -129,32 +181,26 @@ function SourcePreview({
       aria-label={copy.ddl.official}
       title={copy.ddl.official}
     >
-      {previewImage ? (
-        <img
-          src={previewImage}
-          alt={`${previewLabel} preview`}
-          className="h-full w-full object-cover transition duration-500 group-hover:scale-[1.04]"
-          loading="lazy"
-        />
-      ) : (
-        <div
-          className="flex h-full w-full flex-col justify-between p-5"
-          style={{ background: `linear-gradient(135deg, ${topicColor}, color-mix(in srgb, ${topicColor} 54%, #020617))` }}
-        >
-          <div className="text-[11px] font-black uppercase tracking-[0.18em] text-white/70">{hostLabel}</div>
-          <div className="mb-12">
-            <p className="line-clamp-2 text-2xl font-black leading-tight text-white">{previewLabel}</p>
-            <p className="mt-2 line-clamp-1 text-xs font-semibold text-white/70">{item.title}</p>
-          </div>
-        </div>
-      )}
+      <img
+        src={previewImage}
+        alt={`${previewLabel} preview`}
+        className="h-full w-full object-cover transition duration-500 group-hover:scale-[1.04]"
+        loading="lazy"
+      />
       <div className="absolute inset-0 bg-gradient-to-t from-slate-950/64 via-slate-950/8 to-transparent" />
-      <span className="absolute left-4 bottom-4 rounded-full bg-slate-950/78 px-3 py-1.5 text-xs font-black text-white shadow-sm">
-        {sourceMode}
-      </span>
-      <span className="absolute bottom-4 left-[92px] max-w-[calc(100%-150px)] truncate rounded-full bg-white px-3 py-1.5 text-xs font-black shadow-sm" style={{ color: '#020617' }}>
-        {previewLabel}
-      </span>
+      {isGrid && (
+        <span className="absolute left-4 top-4 max-w-[calc(100%-88px)] truncate rounded-full bg-slate-950/78 px-3 py-1.5 text-xs font-black text-white shadow-sm backdrop-blur">
+          {item.title}
+        </span>
+      )}
+      <div className="absolute inset-x-4 bottom-4 flex items-center gap-2 pr-12">
+        <span className="shrink-0 rounded-full bg-slate-950/78 px-3 py-1.5 text-xs font-black text-white shadow-sm">
+          {sourceMode}
+        </span>
+        <span className="min-w-0 flex-1 truncate rounded-full bg-white px-3 py-1.5 text-xs font-black shadow-sm" style={{ color: '#020617' }}>
+          {previewLabel}
+        </span>
+      </div>
       <span className="absolute bottom-4 right-4 flex h-9 w-9 items-center justify-center rounded-full bg-white shadow-sm" style={{ color: topicColor }}>
         <ExternalLink size={16} />
       </span>
@@ -182,6 +228,7 @@ export default function DDLCard({
   const subscribed = isSubscribed(item.id);
   const isGrid = variant === 'grid';
   const isVivid = visualMode === 'vivid';
+  const hasSourcePreview = Boolean(sourcePreviewFor(item));
 
   if (isVivid && isGrid) {
     return (
@@ -189,16 +236,23 @@ export default function DDLCard({
         initial={{ opacity: 0, y: 16 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: index * 0.04, duration: 0.35 }}
-        className="group flex min-h-[430px] flex-col overflow-hidden rounded-3xl border bg-white shadow-sm transition-all duration-200"
+        className={`group flex ${hasSourcePreview ? 'min-h-[430px]' : 'min-h-[330px]'} flex-col overflow-hidden rounded-3xl border bg-white shadow-sm transition-all duration-200`}
         style={{ borderColor: '#DCE6F3' }}
         whileHover={{ y: -3, boxShadow: `0 26px 70px -38px ${topicColor}` }}
       >
-        <SourcePreview item={item} topicColor={topicColor} isGrid />
+        {hasSourcePreview && <SourcePreview item={item} topicColor={topicColor} isGrid />}
         <div className="flex flex-1 flex-col gap-4 p-5">
           {topicLabel && (
             <span className="inline-flex self-start rounded-full px-2 py-0.5 text-[10px] font-black" style={{ background: `${topicColor}12`, color: topicColor }}>
               {topicLabel}
             </span>
+          )}
+          {!hasSourcePreview && (
+            <div className="flex flex-wrap items-center gap-2">
+              <span className="rounded-full px-2.5 py-1 text-[11px] font-black" style={{ background: `${topicColor}12`, color: topicColor }}>
+                {sourceLabelFor(item)}
+              </span>
+            </div>
           )}
           <div className="flex flex-wrap items-center gap-2 text-xs font-black" style={{ color: '#52627A' }}>
             <span>{item.tags[0] || item.type || 'DDL'}</span>
@@ -254,7 +308,7 @@ export default function DDLCard({
         }} />
       </div>
 
-      {isVivid && !isGrid && (
+      {isVivid && !isGrid && hasSourcePreview && (
         <SourcePreview item={item} topicColor={topicColor} isGrid={false} />
       )}
 
