@@ -5,10 +5,32 @@ import Countdown from './Countdown';
 import { useSubscriptions } from '@/hooks/useSubscriptions';
 import { useLanguage } from '@/lib/language';
 
+const sourcePreviewRules: Array<[RegExp, string]> = [
+  [/bwfbadminton\.com\/calendar/i, 'bwf-calendar.png'],
+  [/ittf\.com\/2026-events-calendar/i, 'ittf-2026-events.png'],
+  [/worldtabletennis\.com\/eventslist/i, 'wtt-events.png'],
+  [/majorleaguepickleball\.co/i, 'mlp-schedule.png'],
+  [/ppatour\.com\/schedule/i, 'ppa-tour.png'],
+  [/matchroompool\.com\/uk-open-pool-championship/i, 'matchroom-uk-open-pool.png'],
+  [/nba\.com\/playoffs\/2026\/nba-finals/i, 'nba-finals.png'],
+  [/fiba\.basketball\/en\/events\/fiba-u17-basketball-world-cup-2026/i, 'fiba-u17-world-cup.png'],
+  [/fiba\.basketball\/en\/events\/fiba-womens-basketball-world-cup-2026/i, 'fiba-womens-world-cup.png'],
+  [/fiba\.basketball\/en\/events\/?$/i, 'fiba-events.png'],
+  [/poolplayers\.com\/world-pool-championships/i, 'apa-world-pool.png'],
+  [/poolplayers\.com\/us-amateur-championship/i, 'apa-us-amateur.png'],
+  [/worldathletics\.org\/competitions\/world-athletics-u20-championships/i, 'world-athletics-u20.png'],
+  [/sydneymarathon\.com/i, 'sydney-marathon.png'],
+  [/bmw-berlin-marathon\.com/i, 'berlin-marathon.png'],
+  [/chicagomarathon\.com/i, 'chicago-marathon.png'],
+  [/tcsnewyorkcitymarathon\.org/i, 'nyc-marathon.png'],
+  [/waterfront\.co\.uk\/what-s-on\/betvictor-northern-ireland-open/i, 'northern-ireland-open-snooker.png'],
+];
+
 function sourcePreviewFor(item: DDLItem) {
   if (typeof item.previewImage === 'string' && item.previewImage) return item.previewImage;
   const sourceUrl = String(item.sourceUrl || item.url || '');
-  if (sourceUrl.includes('bwfbadminton.com/calendar')) return 'assets/source-previews/bwf-calendar.png';
+  const rule = sourcePreviewRules.find(([pattern]) => pattern.test(sourceUrl));
+  if (rule) return `assets/source-previews/${rule[1]}`;
   return '';
 }
 
@@ -19,6 +41,19 @@ function sourceLabelFor(item: DDLItem) {
   } catch {
     return 'Official source';
   }
+}
+
+function sourceModeFor(item: DDLItem, language: 'zh' | 'en') {
+  const sourceUrl = String(item.sourceUrl || item.url || '');
+  const isSharedCalendar = [
+    /bwfbadminton\.com\/calendar/i,
+    /ittf\.com\/2026-events-calendar/i,
+    /worldtabletennis\.com\/eventslist/i,
+    /majorleaguepickleball\.co/i,
+    /ppatour\.com\/schedule/i,
+  ].some(pattern => pattern.test(sourceUrl));
+  if (isSharedCalendar) return language === 'zh' ? '共享赛历' : 'Shared calendar';
+  return language === 'zh' ? '官方页面' : 'Official page';
 }
 
 export default function DDLCard({
@@ -35,11 +70,12 @@ export default function DDLCard({
   variant?: 'list' | 'grid';
 }) {
   const { isSubscribed, toggle } = useSubscriptions();
-  const { copy } = useLanguage();
+  const { copy, language } = useLanguage();
   const subscribed = isSubscribed(item.id);
   const isGrid = variant === 'grid';
   const previewImage = sourcePreviewFor(item);
   const previewLabel = sourceLabelFor(item);
+  const sourceMode = sourceModeFor(item, language);
 
   return (
     <motion.div
@@ -70,6 +106,9 @@ export default function DDLCard({
           <img src={previewImage} alt={`${previewLabel} preview`} className="h-full w-full object-cover transition duration-500 group-hover:scale-[1.04]" loading="lazy" />
           <span className="absolute left-2 top-2 rounded-full bg-white/90 px-2 py-1 text-[10px] font-black shadow-sm" style={{ color: topicColor }}>
             {previewLabel}
+          </span>
+          <span className="absolute bottom-2 left-2 rounded-full bg-slate-950/80 px-2 py-1 text-[10px] font-black text-white shadow-sm">
+            {sourceMode}
           </span>
           <span className="absolute bottom-2 right-2 flex h-7 w-7 items-center justify-center rounded-full bg-white/90 shadow-sm" style={{ color: topicColor }}>
             <ExternalLink size={13} />
