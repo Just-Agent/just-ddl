@@ -22,6 +22,8 @@ import {
   MessageSquare,
   Pin,
   RadioTower,
+  SlidersHorizontal,
+  Sparkles,
   Star,
   Trophy,
   type LucideIcon,
@@ -29,7 +31,7 @@ import {
 import { getTopicById } from '@/data/topics';
 import { getDDLByTopic, type DDLItem } from '@/data/ddl-data';
 import { useSubscriptions } from '@/hooks/useSubscriptions';
-import DDLCard from '@/components/DDLCard';
+import DDLCard, { type DDLCardVisualMode } from '@/components/DDLCard';
 import { useLanguage } from '@/lib/language';
 
 const iconMap: Record<string, LucideIcon> = {
@@ -48,6 +50,7 @@ interface SubtopicGroup {
 }
 
 type EventViewMode = 'list' | 'grid';
+type EventVisualMode = DDLCardVisualMode;
 
 function getItemSubtopic(item: DDLItem) {
   return {
@@ -62,6 +65,8 @@ function TopicSubtopicPlaza({
   storageKey,
   eventViewMode,
   onEventViewModeChange,
+  eventVisualMode,
+  onEventVisualModeChange,
   labels,
 }: {
   groups: SubtopicGroup[];
@@ -69,6 +74,8 @@ function TopicSubtopicPlaza({
   storageKey: string;
   eventViewMode: EventViewMode;
   onEventViewModeChange: (mode: EventViewMode) => void;
+  eventVisualMode: EventVisualMode;
+  onEventVisualModeChange: (mode: EventVisualMode) => void;
   labels: {
     title: string;
     copy: string;
@@ -83,6 +90,8 @@ function TopicSubtopicPlaza({
     events: string;
     listView: string;
     gridView: string;
+    vividMode: string;
+    simpleMode: string;
   };
 }) {
   const { language } = useLanguage();
@@ -153,29 +162,52 @@ function TopicSubtopicPlaza({
             <h2 className="mt-2 text-xl font-black" style={{ color: '#0F172A' }}>{labels.title}</h2>
             <p className="mt-2 max-w-3xl text-sm leading-7" style={{ color: '#475569' }}>{labels.copy}</p>
           </div>
-          <div className="rounded-2xl px-3 py-2 text-xs font-black" style={{ background: `${topicColor}12`, color: topicColor }}>
-            {groups.reduce((sum, group) => sum + group.items.length, 0)} {labels.events}
-          </div>
-          <div className="inline-flex rounded-2xl border bg-white p-1" style={{ borderColor: '#E2E8F0' }}>
-            {[
-              { id: 'list' as const, label: labels.listView, icon: List },
-              { id: 'grid' as const, label: labels.gridView, icon: LayoutGrid },
-            ].map(option => {
-              const Icon = option.icon;
-              const active = eventViewMode === option.id;
-              return (
-                <button
-                  key={option.id}
-                  onClick={() => onEventViewModeChange(option.id)}
-                  className="flex items-center gap-1.5 whitespace-nowrap rounded-xl px-3 py-1.5 text-xs font-black transition"
-                  style={{ background: active ? `${topicColor}12` : 'transparent', color: active ? topicColor : '#64748B' }}
-                  aria-pressed={active}
-                  title={option.label}
-                >
-                  <Icon size={14} /> {option.label}
-                </button>
-              );
-            })}
+          <div className="flex flex-wrap items-center gap-2">
+            <div className="rounded-2xl px-3 py-2 text-xs font-black" style={{ background: `${topicColor}12`, color: topicColor }}>
+              {groups.reduce((sum, group) => sum + group.items.length, 0)} {labels.events}
+            </div>
+            <div className="inline-flex rounded-2xl border bg-white p-1" style={{ borderColor: '#E2E8F0' }}>
+              {[
+                { id: 'list' as const, label: labels.listView, icon: List },
+                { id: 'grid' as const, label: labels.gridView, icon: LayoutGrid },
+              ].map(option => {
+                const Icon = option.icon;
+                const active = eventViewMode === option.id;
+                return (
+                  <button
+                    key={option.id}
+                    onClick={() => onEventViewModeChange(option.id)}
+                    className="flex items-center gap-1.5 whitespace-nowrap rounded-xl px-3 py-1.5 text-xs font-black transition"
+                    style={{ background: active ? `${topicColor}12` : 'transparent', color: active ? topicColor : '#64748B' }}
+                    aria-pressed={active}
+                    title={option.label}
+                  >
+                    <Icon size={14} /> {option.label}
+                  </button>
+                );
+              })}
+            </div>
+            <div className="inline-flex rounded-2xl border bg-white p-1" style={{ borderColor: '#E2E8F0' }}>
+              {[
+                { id: 'vivid' as const, label: labels.vividMode, icon: Sparkles },
+                { id: 'simple' as const, label: labels.simpleMode, icon: SlidersHorizontal },
+              ].map(option => {
+                const Icon = option.icon;
+                const active = eventVisualMode === option.id;
+                return (
+                  <button
+                    key={option.id}
+                    onClick={() => onEventVisualModeChange(option.id)}
+                    className="flex items-center gap-1.5 whitespace-nowrap rounded-xl px-3 py-1.5 text-xs font-black transition"
+                    style={{ background: active ? `${topicColor}12` : 'transparent', color: active ? topicColor : '#64748B' }}
+                    aria-pressed={active}
+                    title={option.label}
+                  >
+                    <Icon size={14} /> {option.label}
+                  </button>
+                );
+              })}
+            </div>
           </div>
         </div>
 
@@ -245,7 +277,7 @@ function TopicSubtopicPlaza({
                     style={{ borderColor: '#E2E8F0', background: '#F8FAFC' }}
                   >
                     {group.items.map((item, index) => (
-                      <DDLCard key={item.id} item={item} index={index} topicColor={topicColor} variant={eventViewMode} />
+                      <DDLCard key={item.id} item={item} index={index} topicColor={topicColor} variant={eventViewMode} visualMode={eventVisualMode} />
                     ))}
                   </div>
                 )}
@@ -265,9 +297,16 @@ export default function TopicDetail() {
   const { copy, topicName, topicDescription, categoryName, tagName } = useLanguage();
   const [eventViewMode, setEventViewMode] = useState<EventViewMode>(() => {
     try {
-      return localStorage.getItem('just-ddl-topic-event-view') === 'grid' ? 'grid' : 'list';
+      return localStorage.getItem('just-ddl-topic-event-view') === 'list' ? 'list' : 'grid';
     } catch {
-      return 'list';
+      return 'grid';
+    }
+  });
+  const [eventVisualMode, setEventVisualMode] = useState<EventVisualMode>(() => {
+    try {
+      return localStorage.getItem('just-ddl-topic-visual-mode') === 'simple' ? 'simple' : 'vivid';
+    } catch {
+      return 'vivid';
     }
   });
 
@@ -278,6 +317,14 @@ export default function TopicDetail() {
       /* localStorage can be unavailable in restricted browsers */
     }
   }, [eventViewMode]);
+
+  useEffect(() => {
+    try {
+      localStorage.setItem('just-ddl-topic-visual-mode', eventVisualMode);
+    } catch {
+      /* localStorage can be unavailable in restricted browsers */
+    }
+  }, [eventVisualMode]);
 
   const items = useMemo(() => {
     if (!topicId) return [];
@@ -430,6 +477,8 @@ export default function TopicDetail() {
           storageKey={`just-ddl-pinned-${topic.id}-subtopics`}
           eventViewMode={eventViewMode}
           onEventViewModeChange={setEventViewMode}
+          eventVisualMode={eventVisualMode}
+          onEventVisualModeChange={setEventVisualMode}
           labels={{
             title: topic.id === 'game-ddl' ? copy.detail.gamePlazaTitle : copy.detail.sportsPlazaTitle,
             copy: topic.id === 'game-ddl' ? copy.detail.gamePlazaCopy : copy.detail.sportsPlazaCopy,
@@ -444,6 +493,8 @@ export default function TopicDetail() {
             events: copy.detail.events,
             listView: copy.my.listView,
             gridView: copy.my.gridView,
+            vividMode: copy.detail.vividMode,
+            simpleMode: copy.detail.simpleMode,
           }}
         />
       )}
@@ -476,11 +527,32 @@ export default function TopicDetail() {
                 );
               })}
             </div>
+            <div className="inline-flex rounded-2xl border bg-white p-1" style={{ borderColor: '#E2E8F0' }}>
+              {[
+                { id: 'vivid' as const, label: copy.detail.vividMode, icon: Sparkles },
+                { id: 'simple' as const, label: copy.detail.simpleMode, icon: SlidersHorizontal },
+              ].map(option => {
+                const Icon = option.icon;
+                const active = eventVisualMode === option.id;
+                return (
+                  <button
+                    key={option.id}
+                    onClick={() => setEventVisualMode(option.id)}
+                    className="flex items-center gap-1.5 whitespace-nowrap rounded-xl px-3 py-1.5 text-xs font-black transition"
+                    style={{ background: active ? `${topic.color}12` : 'transparent', color: active ? topic.color : '#64748B' }}
+                    aria-pressed={active}
+                    title={option.label}
+                  >
+                    <Icon size={14} /> {option.label}
+                  </button>
+                );
+              })}
+            </div>
           </div>
         </div>
-        <div className={eventViewMode === 'grid' ? 'grid gap-3 lg:grid-cols-2' : 'space-y-3'}>
+        <div className={eventViewMode === 'grid' ? 'grid gap-5 lg:grid-cols-2' : 'space-y-3'}>
           {items.map((item, index) => (
-            <DDLCard key={item.id} item={item} index={index} topicColor={topic.color} variant={eventViewMode} />
+            <DDLCard key={item.id} item={item} index={index} topicColor={topic.color} variant={eventViewMode} visualMode={eventVisualMode} />
           ))}
         </div>
         {items.length === 0 && (

@@ -203,6 +203,8 @@ const dictionary = {
       expand: '展开',
       collapse: '收起',
       events: '条事件',
+      vividMode: 'Vivid',
+      simpleMode: 'Simple',
     },
     my: {
       title: '我的 DDL',
@@ -326,6 +328,8 @@ const dictionary = {
       expand: 'Expand',
       collapse: 'Collapse',
       events: 'events',
+      vividMode: 'Vivid',
+      simpleMode: 'Simple',
     },
     my: {
       title: 'My DDL',

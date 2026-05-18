@@ -13,19 +13,23 @@ import {
   List,
   Monitor,
   Pin,
+  SlidersHorizontal,
   SortAsc,
+  Sparkles,
 } from 'lucide-react';
 import { useSubscriptions } from '@/hooks/useSubscriptions';
 import { getAllDDL, type DDLItem } from '@/data/ddl-data';
 import { getTopicById, topics, type Topic } from '@/data/topics';
-import DDLCard from '@/components/DDLCard';
+import DDLCard, { type DDLCardVisualMode } from '@/components/DDLCard';
 import { useLanguage } from '@/lib/language';
 
 type OrganizeMode = 'topic' | 'time' | 'name';
 type DisplayMode = 'list' | 'grid';
+type VisualMode = DDLCardVisualMode;
 
 const ORGANIZE_STORAGE_KEY = 'just-ddl-my-organize-mode';
 const DISPLAY_STORAGE_KEY = 'just-ddl-my-display-mode';
+const VISUAL_STORAGE_KEY = 'just-ddl-my-visual-mode';
 
 interface DDLWithMeta extends DDLItem {
   topicColor: string;
@@ -69,6 +73,15 @@ function initialDisplayMode(): DisplayMode {
   return 'list';
 }
 
+function initialVisualMode(): VisualMode {
+  try {
+    return localStorage.getItem(VISUAL_STORAGE_KEY) === 'simple' ? 'simple' : 'vivid';
+  } catch {
+    /* localStorage can be unavailable in restricted browsers */
+  }
+  return 'vivid';
+}
+
 function findTopicForItem(item: DDLItem) {
   return topics.find(topic => item.id === topic.id || item.id.startsWith(`${topic.id}-`));
 }
@@ -93,6 +106,7 @@ export default function MyDDL() {
   const { language, copy, topicName, categoryName } = useLanguage();
   const [organizeMode, setOrganizeModeState] = useState<OrganizeMode>(initialOrganizeMode);
   const [displayMode, setDisplayModeState] = useState<DisplayMode>(initialDisplayMode);
+  const [visualMode, setVisualModeState] = useState<VisualMode>(initialVisualMode);
   const [collapsedTopics, setCollapsedTopics] = useState<Set<string>>(() => new Set());
 
   const allDDL = useMemo(() => getAllDDL(), []);
@@ -111,6 +125,15 @@ export default function MyDDL() {
     setDisplayModeState(mode);
     try {
       localStorage.setItem(DISPLAY_STORAGE_KEY, mode);
+    } catch {
+      /* localStorage can be unavailable in restricted browsers */
+    }
+  };
+
+  const setVisualMode = (mode: VisualMode) => {
+    setVisualModeState(mode);
+    try {
+      localStorage.setItem(VISUAL_STORAGE_KEY, mode);
     } catch {
       /* localStorage can be unavailable in restricted browsers */
     }
@@ -223,6 +246,7 @@ export default function MyDDL() {
           topicColor={item.topicColor}
           topicLabel={showTopicLabel ? item.topicName : undefined}
           variant={displayMode}
+          visualMode={visualMode}
         />
       ))}
     </div>
@@ -237,6 +261,10 @@ export default function MyDDL() {
   const displayOptions = [
     { id: 'list' as const, label: copy.my.listView, icon: List },
     { id: 'grid' as const, label: copy.my.gridView, icon: Grid2X2 },
+  ];
+  const visualOptions = [
+    { id: 'vivid' as const, label: copy.detail.vividMode, icon: Sparkles },
+    { id: 'simple' as const, label: copy.detail.simpleMode, icon: SlidersHorizontal },
   ];
 
   return (
@@ -316,6 +344,27 @@ export default function MyDDL() {
                         color: active ? '#FFFFFF' : '#475569',
                         border: '1px solid',
                         borderColor: active ? '#0F766E' : '#E2E8F0',
+                      }}
+                    >
+                      <Icon size={14} /> {option.label}
+                    </button>
+                  );
+                })}
+              </div>
+              <div className="mt-2 flex flex-wrap gap-2">
+                {visualOptions.map(option => {
+                  const Icon = option.icon;
+                  const active = visualMode === option.id;
+                  return (
+                    <button
+                      key={option.id}
+                      onClick={() => setVisualMode(option.id)}
+                      className="inline-flex items-center gap-1.5 rounded-2xl px-3 py-2 text-xs font-black transition-all"
+                      style={{
+                        background: active ? '#0EA5E9' : '#FFFFFF',
+                        color: active ? '#FFFFFF' : '#475569',
+                        border: '1px solid',
+                        borderColor: active ? '#0EA5E9' : '#E2E8F0',
                       }}
                     >
                       <Icon size={14} /> {option.label}
