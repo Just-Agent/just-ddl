@@ -5,6 +5,22 @@ import Countdown from './Countdown';
 import { useSubscriptions } from '@/hooks/useSubscriptions';
 import { useLanguage } from '@/lib/language';
 
+function sourcePreviewFor(item: DDLItem) {
+  if (typeof item.previewImage === 'string' && item.previewImage) return item.previewImage;
+  const sourceUrl = String(item.sourceUrl || item.url || '');
+  if (sourceUrl.includes('bwfbadminton.com/calendar')) return 'assets/source-previews/bwf-calendar.png';
+  return '';
+}
+
+function sourceLabelFor(item: DDLItem) {
+  if (item.source) return item.source;
+  try {
+    return new URL(item.url).hostname.replace(/^www\./, '');
+  } catch {
+    return 'Official source';
+  }
+}
+
 export default function DDLCard({
   item,
   index,
@@ -22,12 +38,14 @@ export default function DDLCard({
   const { copy } = useLanguage();
   const subscribed = isSubscribed(item.id);
   const isGrid = variant === 'grid';
+  const previewImage = sourcePreviewFor(item);
+  const previewLabel = sourceLabelFor(item);
 
   return (
     <motion.div
       initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }}
       transition={{ delay: index * 0.04, duration: 0.35 }}
-      className={`group flex flex-col gap-3 rounded-3xl border bg-white p-4 transition-all duration-200 ${isGrid ? 'min-h-[240px]' : 'sm:flex-row sm:items-center'}`}
+      className={`group flex flex-col gap-3 rounded-3xl border bg-white p-4 transition-all duration-200 ${isGrid ? 'min-h-[282px]' : 'sm:flex-row sm:items-center'}`}
       style={{ borderColor: '#E2E8F0' }}
       whileHover={{ boxShadow: `0 18px 48px -32px ${topicColor}` }}
     >
@@ -38,6 +56,26 @@ export default function DDLCard({
           boxShadow: item.status === 'upcoming' ? `0 0 6px ${topicColor}50` : 'none',
         }} />
       </div>
+
+      {previewImage && (
+        <a
+          href={item.url}
+          target="_blank"
+          rel="noopener noreferrer"
+          className={`relative shrink-0 overflow-hidden rounded-2xl border bg-slate-100 ${isGrid ? 'h-32 w-full' : 'h-28 w-full sm:w-44'}`}
+          style={{ borderColor: '#E2E8F0' }}
+          aria-label={copy.ddl.official}
+          title={copy.ddl.official}
+        >
+          <img src={previewImage} alt={`${previewLabel} preview`} className="h-full w-full object-cover transition duration-500 group-hover:scale-[1.04]" loading="lazy" />
+          <span className="absolute left-2 top-2 rounded-full bg-white/90 px-2 py-1 text-[10px] font-black shadow-sm" style={{ color: topicColor }}>
+            {previewLabel}
+          </span>
+          <span className="absolute bottom-2 right-2 flex h-7 w-7 items-center justify-center rounded-full bg-white/90 shadow-sm" style={{ color: topicColor }}>
+            <ExternalLink size={13} />
+          </span>
+        </a>
+      )}
 
       {/* Middle: info */}
       <div className="flex-1 min-w-0">

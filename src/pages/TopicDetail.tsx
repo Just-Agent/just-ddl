@@ -15,6 +15,8 @@ import {
   Github,
   GraduationCap,
   Layers,
+  LayoutGrid,
+  List,
   ListFilter,
   Medal,
   MessageSquare,
@@ -45,6 +47,8 @@ interface SubtopicGroup {
   sourceCount: number;
 }
 
+type EventViewMode = 'list' | 'grid';
+
 function getItemSubtopic(item: DDLItem) {
   return {
     id: typeof item.subtopic === 'string' ? item.subtopic : 'other',
@@ -56,11 +60,15 @@ function TopicSubtopicPlaza({
   groups,
   topicColor,
   storageKey,
+  eventViewMode,
+  onEventViewModeChange,
   labels,
 }: {
   groups: SubtopicGroup[];
   topicColor: string;
   storageKey: string;
+  eventViewMode: EventViewMode;
+  onEventViewModeChange: (mode: EventViewMode) => void;
   labels: {
     title: string;
     copy: string;
@@ -73,6 +81,8 @@ function TopicSubtopicPlaza({
     sources: string;
     next: string;
     events: string;
+    listView: string;
+    gridView: string;
   };
 }) {
   const { language } = useLanguage();
@@ -146,6 +156,27 @@ function TopicSubtopicPlaza({
           <div className="rounded-2xl px-3 py-2 text-xs font-black" style={{ background: `${topicColor}12`, color: topicColor }}>
             {groups.reduce((sum, group) => sum + group.items.length, 0)} {labels.events}
           </div>
+          <div className="inline-flex rounded-2xl border bg-white p-1" style={{ borderColor: '#E2E8F0' }}>
+            {[
+              { id: 'list' as const, label: labels.listView, icon: List },
+              { id: 'grid' as const, label: labels.gridView, icon: LayoutGrid },
+            ].map(option => {
+              const Icon = option.icon;
+              const active = eventViewMode === option.id;
+              return (
+                <button
+                  key={option.id}
+                  onClick={() => onEventViewModeChange(option.id)}
+                  className="flex items-center gap-1.5 whitespace-nowrap rounded-xl px-3 py-1.5 text-xs font-black transition"
+                  style={{ background: active ? `${topicColor}12` : 'transparent', color: active ? topicColor : '#64748B' }}
+                  aria-pressed={active}
+                  title={option.label}
+                >
+                  <Icon size={14} /> {option.label}
+                </button>
+              );
+            })}
+          </div>
         </div>
 
         <div className="mt-5 grid gap-3">
@@ -209,9 +240,12 @@ function TopicSubtopicPlaza({
                 </div>
 
                 {isExpanded && (
-                  <div className="space-y-3 border-t p-4" style={{ borderColor: '#E2E8F0', background: '#F8FAFC' }}>
+                  <div
+                    className={`border-t p-4 ${eventViewMode === 'grid' ? 'grid gap-3 lg:grid-cols-2' : 'space-y-3'}`}
+                    style={{ borderColor: '#E2E8F0', background: '#F8FAFC' }}
+                  >
                     {group.items.map((item, index) => (
-                      <DDLCard key={item.id} item={item} index={index} topicColor={topicColor} />
+                      <DDLCard key={item.id} item={item} index={index} topicColor={topicColor} variant={eventViewMode} />
                     ))}
                   </div>
                 )}
@@ -229,6 +263,21 @@ export default function TopicDetail() {
   const topic = getTopicById(topicId || '');
   const { isSubscribed, toggle } = useSubscriptions();
   const { copy, topicName, topicDescription, categoryName, tagName } = useLanguage();
+  const [eventViewMode, setEventViewMode] = useState<EventViewMode>(() => {
+    try {
+      return localStorage.getItem('just-ddl-topic-event-view') === 'grid' ? 'grid' : 'list';
+    } catch {
+      return 'list';
+    }
+  });
+
+  useEffect(() => {
+    try {
+      localStorage.setItem('just-ddl-topic-event-view', eventViewMode);
+    } catch {
+      /* localStorage can be unavailable in restricted browsers */
+    }
+  }, [eventViewMode]);
 
   const items = useMemo(() => {
     if (!topicId) return [];
@@ -379,6 +428,8 @@ export default function TopicDetail() {
           groups={subtopicGroups}
           topicColor={topic.color}
           storageKey={`just-ddl-pinned-${topic.id}-subtopics`}
+          eventViewMode={eventViewMode}
+          onEventViewModeChange={setEventViewMode}
           labels={{
             title: topic.id === 'game-ddl' ? copy.detail.gamePlazaTitle : copy.detail.sportsPlazaTitle,
             copy: topic.id === 'game-ddl' ? copy.detail.gamePlazaCopy : copy.detail.sportsPlazaCopy,
@@ -391,20 +442,47 @@ export default function TopicDetail() {
             sources: copy.detail.sources,
             next: copy.detail.next,
             events: copy.detail.events,
+            listView: copy.my.listView,
+            gridView: copy.my.gridView,
           }}
         />
       )}
 
       <section className="mt-8 space-y-3">
-        <div className="flex items-center justify-between gap-4">
+        <div className="flex flex-col justify-between gap-3 sm:flex-row sm:items-center">
           <h2 className="text-xl font-black" style={{ color: '#0F172A' }}>{copy.detail.allDeadlines}</h2>
-          <span className="rounded-full border bg-white px-3 py-1.5 text-xs font-bold" style={{ borderColor: '#E2E8F0', color: '#64748B' }}>
-            {activeItems.length} {copy.detail.active}
-          </span>
+          <div className="flex flex-wrap items-center gap-2">
+            <span className="rounded-full border bg-white px-3 py-1.5 text-xs font-bold" style={{ borderColor: '#E2E8F0', color: '#64748B' }}>
+              {activeItems.length} {copy.detail.active}
+            </span>
+            <div className="inline-flex rounded-2xl border bg-white p-1" style={{ borderColor: '#E2E8F0' }}>
+              {[
+                { id: 'list' as const, label: copy.my.listView, icon: List },
+                { id: 'grid' as const, label: copy.my.gridView, icon: LayoutGrid },
+              ].map(option => {
+                const Icon = option.icon;
+                const active = eventViewMode === option.id;
+                return (
+                  <button
+                    key={option.id}
+                    onClick={() => setEventViewMode(option.id)}
+                    className="flex items-center gap-1.5 whitespace-nowrap rounded-xl px-3 py-1.5 text-xs font-black transition"
+                    style={{ background: active ? `${topic.color}12` : 'transparent', color: active ? topic.color : '#64748B' }}
+                    aria-pressed={active}
+                    title={option.label}
+                  >
+                    <Icon size={14} /> {option.label}
+                  </button>
+                );
+              })}
+            </div>
+          </div>
         </div>
-        {items.map((item, index) => (
-          <DDLCard key={item.id} item={item} index={index} topicColor={topic.color} />
-        ))}
+        <div className={eventViewMode === 'grid' ? 'grid gap-3 lg:grid-cols-2' : 'space-y-3'}>
+          {items.map((item, index) => (
+            <DDLCard key={item.id} item={item} index={index} topicColor={topic.color} variant={eventViewMode} />
+          ))}
+        </div>
         {items.length === 0 && (
           <div className="rounded-3xl border bg-white py-14 text-center" style={{ borderColor: '#E2E8F0' }}>
             <p className="text-sm font-semibold" style={{ color: '#94A3B8' }}>{copy.detail.empty}</p>
