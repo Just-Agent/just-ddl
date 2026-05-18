@@ -175,7 +175,7 @@ export const topics: Topic[] = [
     "repo": "Just-Agent/security-ddl",
     "site": "https://just-agent.github.io/security-ddl/",
     "status": "published",
-    "itemCount": 16,
+    "itemCount": 28,
     "category": "安全开源",
     "tags": [
       "CTF",
@@ -209,7 +209,7 @@ export const topics: Topic[] = [
     "repo": "Just-Agent/open-source-ddl",
     "site": "https://just-agent.github.io/open-source-ddl/",
     "status": "published",
-    "itemCount": 16,
+    "itemCount": 26,
     "category": "安全开源",
     "tags": [
       "GSoC",

@@ -8169,6 +8169,234 @@ export const ddlData: Record<string, DDLItem[]> = {
   ],
   "security-ddl": [
     {
+      "id": "ctftime-3277",
+      "title": "Hack for a Change 2026 May: UN SDG 1",
+      "deadline": "2026-05-19T00:00:00Z",
+      "dateRange": "19 May, 00:00 UTC — 21 May 2026, 23:59 UTC",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "CTF",
+        "security",
+        "Jeopardy"
+      ],
+      "url": "https://ctftime.org/event/3277",
+      "status": "upcoming",
+      "description": "Parsed from CTFtime upcoming events. Deadline represents the event start time, not a registration deadline.",
+      "stage": "upcoming",
+      "source": "ctftime",
+      "type": "contest"
+    },
+    {
+      "id": "ctftime-3205",
+      "title": "DEF CON CTF Qualifier 2026",
+      "deadline": "2026-05-22T21:00:00Z",
+      "dateRange": "22 May, 21:00 UTC — 24 May 2026, 21:00 UTC",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "CTF",
+        "security",
+        "Jeopardy"
+      ],
+      "url": "https://ctftime.org/event/3205",
+      "status": "upcoming",
+      "description": "Parsed from CTFtime upcoming events. Deadline represents the event start time, not a registration deadline.",
+      "stage": "upcoming",
+      "source": "ctftime",
+      "type": "contest"
+    },
+    {
+      "id": "ctftime-3284",
+      "title": "Hack4Krak CTF 2026 - High School Edition",
+      "deadline": "2026-05-23T08:00:00Z",
+      "dateRange": "23 May, 08:00 UTC — 24 May 2026, 14:00 UTC",
+      "location": "Poland, Cracow",
+      "isOnline": false,
+      "tags": [
+        "CTF",
+        "security",
+        "Jeopardy"
+      ],
+      "url": "https://ctftime.org/event/3284",
+      "status": "upcoming",
+      "description": "Parsed from CTFtime upcoming events. Deadline represents the event start time, not a registration deadline.",
+      "stage": "upcoming",
+      "source": "ctftime",
+      "type": "contest"
+    },
+    {
+      "id": "ctftime-3136",
+      "title": "SecLeaf Q2 CTF 2026",
+      "deadline": "2026-05-23T14:00:00Z",
+      "dateRange": "23 May, 14:00 UTC — 24 May 2026, 14:00 UTC",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "CTF",
+        "security",
+        "Jeopardy"
+      ],
+      "url": "https://ctftime.org/event/3136",
+      "status": "upcoming",
+      "description": "Parsed from CTFtime upcoming events. Deadline represents the event start time, not a registration deadline.",
+      "stage": "upcoming",
+      "source": "ctftime",
+      "type": "contest"
+    },
+    {
+      "id": "ctftime-3271",
+      "title": "ZEROBREACH CTF",
+      "deadline": "2026-05-24T04:30:00Z",
+      "dateRange": "24 May, 04:30 UTC — 24 May 2026, 16:30 UTC",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "CTF",
+        "security",
+        "Jeopardy"
+      ],
+      "url": "https://ctftime.org/event/3271",
+      "status": "upcoming",
+      "description": "Parsed from CTFtime upcoming events. Deadline represents the event start time, not a registration deadline.",
+      "stage": "upcoming",
+      "source": "ctftime",
+      "type": "contest"
+    },
+    {
+      "id": "ctftime-3270",
+      "title": "Hackअस्त्र",
+      "deadline": "2026-05-29T10:15:00Z",
+      "dateRange": "29 May, 10:15 UTC — 30 May 2026, 17:15 UTC",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "CTF",
+        "security",
+        "Jeopardy"
+      ],
+      "url": "https://ctftime.org/event/3270",
+      "status": "upcoming",
+      "description": "Parsed from CTFtime upcoming events. Deadline represents the event start time, not a registration deadline.",
+      "stage": "upcoming",
+      "source": "ctftime",
+      "type": "contest"
+    },
+    {
+      "id": "ctftime-3174",
+      "title": "Hardwear.io USA 2026 Hardware CTF",
+      "deadline": "2026-05-29T17:00:00Z",
+      "dateRange": "29 May, 17:00 UTC — 30 May 2026, 20:50 UTC",
+      "location": "US, Santa Clara",
+      "isOnline": false,
+      "tags": [
+        "CTF",
+        "security",
+        "Jeopardy"
+      ],
+      "url": "https://ctftime.org/event/3174",
+      "status": "upcoming",
+      "description": "Parsed from CTFtime upcoming events. Deadline represents the event start time, not a registration deadline.",
+      "stage": "upcoming",
+      "source": "ctftime",
+      "type": "contest"
+    },
+    {
+      "id": "ctftime-3209",
+      "title": "THEM?!CTF 2026",
+      "deadline": "2026-05-29T18:00:00Z",
+      "dateRange": "29 May, 18:00 UTC — 31 May 2026, 18:00 UTC",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "CTF",
+        "security",
+        "Jeopardy"
+      ],
+      "url": "https://ctftime.org/event/3209",
+      "status": "upcoming",
+      "description": "Parsed from CTFtime upcoming events. Deadline represents the event start time, not a registration deadline.",
+      "stage": "upcoming",
+      "source": "ctftime",
+      "type": "contest"
+    },
+    {
+      "id": "ctftime-3247",
+      "title": "BYUCTF 2026",
+      "deadline": "2026-05-30T00:00:00Z",
+      "dateRange": "30 May, 00:00 UTC — 31 May 2026, 00:00 UTC",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "CTF",
+        "security",
+        "Jeopardy"
+      ],
+      "url": "https://ctftime.org/event/3247",
+      "status": "upcoming",
+      "description": "Parsed from CTFtime upcoming events. Deadline represents the event start time, not a registration deadline.",
+      "stage": "upcoming",
+      "source": "ctftime",
+      "type": "contest"
+    },
+    {
+      "id": "ctftime-3178",
+      "title": "Grey Cat The Flag 2026 Qualifiers",
+      "deadline": "2026-05-30T02:00:00Z",
+      "dateRange": "30 May, 02:00 UTC — 31 May 2026, 02:00 UTC",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "CTF",
+        "security",
+        "Jeopardy"
+      ],
+      "url": "https://ctftime.org/event/3178",
+      "status": "upcoming",
+      "description": "Parsed from CTFtime upcoming events. Deadline represents the event start time, not a registration deadline.",
+      "stage": "upcoming",
+      "source": "ctftime",
+      "type": "contest"
+    },
+    {
+      "id": "ctftime-3220",
+      "title": "Pwn2Play Open CTF",
+      "deadline": "2026-05-30T09:00:00Z",
+      "dateRange": "30 May, 09:00 UTC — 30 May 2026, 18:00 UTC",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "CTF",
+        "security",
+        "Jeopardy"
+      ],
+      "url": "https://ctftime.org/event/3220",
+      "status": "upcoming",
+      "description": "Parsed from CTFtime upcoming events. Deadline represents the event start time, not a registration deadline.",
+      "stage": "upcoming",
+      "source": "ctftime",
+      "type": "contest"
+    },
+    {
+      "id": "ctftime-3243",
+      "title": "WhiteHats TrojanCTF 2026",
+      "deadline": "2026-05-30T09:00:00Z",
+      "dateRange": "30 May, 09:00 UTC — 30 May 2026, 19:00 UTC",
+      "location": "Netherlands, Eindhoven",
+      "isOnline": false,
+      "tags": [
+        "CTF",
+        "security",
+        "Jeopardy"
+      ],
+      "url": "https://ctftime.org/event/3243",
+      "status": "upcoming",
+      "description": "Parsed from CTFtime upcoming events. Deadline represents the event start time, not a registration deadline.",
+      "stage": "upcoming",
+      "source": "ctftime",
+      "type": "contest"
+    },
+    {
       "id": "security-ddl-def-con-ctf-qualifier-2026-07-01",
       "title": "DEF CON CTF Qualifier",
       "deadline": "2026-07-01T23:59:59",
@@ -8598,6 +8826,42 @@ export const ddlData: Record<string, DDLItem[]> = {
   ],
   "open-source-ddl": [
     {
+      "id": "gsoc-2026-may-1-24-community-bonding-period-gsoc-contributors-get-to-know-mentors-read-doc",
+      "title": "Community Bonding Period | GSoC contributors get to know mentors, read documentation, get up to speed to begin working on their projects",
+      "deadline": "2026-05-24T23:59:59Z",
+      "dateRange": "May 1 - 24",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "GSoC",
+        "open source"
+      ],
+      "url": "https://developers.google.com/open-source/gsoc/timeline?hl=en",
+      "status": "upcoming",
+      "description": "Parsed from the official GSoC 2026 timeline. Milestone event.",
+      "stage": "Milestone",
+      "source": "Google Summer of Code",
+      "type": "program"
+    },
+    {
+      "id": "gsoc-2026-may-25-coding-officially-begins",
+      "title": "Coding officially begins!",
+      "deadline": "2026-05-25T23:59:59Z",
+      "dateRange": "May 25",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "GSoC",
+        "open source"
+      ],
+      "url": "https://developers.google.com/open-source/gsoc/timeline?hl=en",
+      "status": "upcoming",
+      "description": "Parsed from the official GSoC 2026 timeline. Milestone event.",
+      "stage": "Milestone",
+      "source": "Google Summer of Code",
+      "type": "program"
+    },
+    {
       "id": "open-source-ddl-google-summer-of-code-org-application-2026-07-01",
       "title": "Google Summer of Code Org Application",
       "deadline": "2026-07-01T23:59:59",
@@ -8613,6 +8877,42 @@ export const ddlData: Record<string, DDLItem[]> = {
       "status": "upcoming",
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
       "stage": "Source board",
+      "source": "Google Summer of Code",
+      "type": "program"
+    },
+    {
+      "id": "gsoc-2026-july-6-18-00-utc-mentors-and-gsoc-contributors-can-begin-submitting-midterm-eval",
+      "title": "Mentors and GSoC contributors can begin submitting midterm evaluations (for standard 12 week coding projects)",
+      "deadline": "2026-07-06T18:00:00Z",
+      "dateRange": "July 6 - 18:00 UTC",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "GSoC",
+        "open source"
+      ],
+      "url": "https://developers.google.com/open-source/gsoc/timeline?hl=en",
+      "status": "upcoming",
+      "description": "Parsed from the official GSoC 2026 timeline. Milestone event.",
+      "stage": "Milestone",
+      "source": "Google Summer of Code",
+      "type": "program"
+    },
+    {
+      "id": "gsoc-2026-july-10-18-00-utc-midterm-evaluation-deadline-standard-coding-period",
+      "title": "Midterm evaluation deadline (standard coding period)",
+      "deadline": "2026-07-10T18:00:00Z",
+      "dateRange": "July 10 - 18:00 UTC",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "GSoC",
+        "open source"
+      ],
+      "url": "https://developers.google.com/open-source/gsoc/timeline?hl=en",
+      "status": "upcoming",
+      "description": "Parsed from the official GSoC 2026 timeline. Deadline event.",
+      "stage": "Deadline",
       "source": "Google Summer of Code",
       "type": "program"
     },
@@ -8655,6 +8955,42 @@ export const ddlData: Record<string, DDLItem[]> = {
       "type": "program"
     },
     {
+      "id": "gsoc-2026-july-6-august-16-work-period-gsoc-contributors-work-on-their-project-with-guidan",
+      "title": "Work Period | GSoC contributors work on their project with guidance from Mentors",
+      "deadline": "2026-08-16T23:59:59Z",
+      "dateRange": "July 6 - August 16",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "GSoC",
+        "open source"
+      ],
+      "url": "https://developers.google.com/open-source/gsoc/timeline?hl=en",
+      "status": "upcoming",
+      "description": "Parsed from the official GSoC 2026 timeline. Milestone event.",
+      "stage": "Milestone",
+      "source": "Google Summer of Code",
+      "type": "program"
+    },
+    {
+      "id": "gsoc-2026-august-17-24-18-00-utc-final-week-gsoc-contributors-submit-their-final-work-prod",
+      "title": "Final week: GSoC contributors submit their final work product and their final mentor evaluation (standard coding period)",
+      "deadline": "2026-08-24T18:00:00Z",
+      "dateRange": "August 17 - 24 - 18:00 UTC",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "GSoC",
+        "open source"
+      ],
+      "url": "https://developers.google.com/open-source/gsoc/timeline?hl=en",
+      "status": "upcoming",
+      "description": "Parsed from the official GSoC 2026 timeline. Deadline event.",
+      "stage": "Deadline",
+      "source": "Google Summer of Code",
+      "type": "program"
+    },
+    {
       "id": "open-source-ddl-lfx-mentorship-spring-2026-08-24",
       "title": "LFX Mentorship Spring",
       "deadline": "2026-08-24T23:59:59",
@@ -8671,6 +9007,24 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
       "stage": "Source board",
       "source": "LFX Mentorship",
+      "type": "program"
+    },
+    {
+      "id": "gsoc-2026-august-24-31-18-00-utc-mentors-submit-final-gsoc-contributor-evaluations-standar",
+      "title": "Mentors submit final GSoC contributor evaluations (standard coding period)",
+      "deadline": "2026-08-31T18:00:00Z",
+      "dateRange": "August 24 - 31 - 18:00 UTC",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "GSoC",
+        "open source"
+      ],
+      "url": "https://developers.google.com/open-source/gsoc/timeline?hl=en",
+      "status": "upcoming",
+      "description": "Parsed from the official GSoC 2026 timeline. Deadline event.",
+      "stage": "Deadline",
+      "source": "Google Summer of Code",
       "type": "program"
     },
     {
@@ -8731,6 +9085,42 @@ export const ddlData: Record<string, DDLItem[]> = {
       "type": "program"
     },
     {
+      "id": "gsoc-2026-november-2-18-00-utc-final-date-for-all-gsoc-contributors-to-submit-their-final-",
+      "title": "Final date for all GSoC contributors to submit their final work product and final evaluation",
+      "deadline": "2026-11-02T18:00:00Z",
+      "dateRange": "November 2 - 18:00 UTC",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "GSoC",
+        "open source"
+      ],
+      "url": "https://developers.google.com/open-source/gsoc/timeline?hl=en",
+      "status": "upcoming",
+      "description": "Parsed from the official GSoC 2026 timeline. Deadline event.",
+      "stage": "Deadline",
+      "source": "Google Summer of Code",
+      "type": "program"
+    },
+    {
+      "id": "gsoc-2026-august-24-november-2-gsoc-contributors-with-extended-timelines-continue-coding",
+      "title": "GSoC contributors with extended timelines continue coding",
+      "deadline": "2026-11-02T23:59:59Z",
+      "dateRange": "August 24 - November 2",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "GSoC",
+        "open source"
+      ],
+      "url": "https://developers.google.com/open-source/gsoc/timeline?hl=en",
+      "status": "upcoming",
+      "description": "Parsed from the official GSoC 2026 timeline. Milestone event.",
+      "stage": "Milestone",
+      "source": "Google Summer of Code",
+      "type": "program"
+    },
+    {
       "id": "open-source-ddl-mozilla-builders-incubator-2026-11-04",
       "title": "Mozilla Builders Incubator",
       "deadline": "2026-11-04T23:59:59",
@@ -8747,6 +9137,24 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
       "stage": "Source board",
       "source": "summerofcode.withgoogle.com",
+      "type": "program"
+    },
+    {
+      "id": "gsoc-2026-november-9-18-00-utc-final-date-for-mentors-to-submit-evaluations-for-gsoc-contr",
+      "title": "Final date for mentors to submit evaluations for GSoC contributor projects with extended deadlines",
+      "deadline": "2026-11-09T18:00:00Z",
+      "dateRange": "November 9 - 18:00 UTC",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "GSoC",
+        "open source"
+      ],
+      "url": "https://developers.google.com/open-source/gsoc/timeline?hl=en",
+      "status": "upcoming",
+      "description": "Parsed from the official GSoC 2026 timeline. Deadline event.",
+      "stage": "Deadline",
+      "source": "Google Summer of Code",
       "type": "program"
     },
     {
