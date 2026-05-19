@@ -1,11 +1,13 @@
 <p align="center">
-  <img src="docs/assets/readme/federated-network.png" alt="Just-DDL 联邦式多仓库网络缩略图" width="980">
+  <img src="docs/assets/readme/just-ddl-logo.svg" alt="Just-DDL logo" width="180">
 </p>
 
 <h1 align="center">Just-DDL</h1>
 
 <p align="center">
-  一个联邦式多仓库 DDL 网络。Hub 负责发现、订阅和同步；每个专题仓库独立维护 crawler、validator、GitHub Pages 和 Actions。
+  一个面向竞赛、科研、期刊、节假日和个人规划的 <strong>联邦式多仓库 DDL 网络</strong>。
+  <br>
+  Hub 负责发现、订阅和同步；每个专题仓库独立维护 crawler、validator、GitHub Pages 和 Actions。
 </p>
 
 <p align="center">
@@ -25,6 +27,10 @@
   <a href="https://just-agent.github.io/just-ddl/#/topic/game-ddl">电竞赛事</a>
   ·
   <a href="https://just-agent.github.io/just-ddl/#/topic/journal-ddl">期刊专题</a>
+</p>
+
+<p align="center">
+  <img src="docs/assets/readme/federated-network.png" alt="Just-DDL 联邦式多仓库网络缩略图" width="980">
 </p>
 
 ## 核心定位
@@ -48,6 +54,15 @@ Just-DDL 不是把所有截止日、所有爬虫、所有页面都塞进一个�
 | 数据入口 | `src/data/ddl-data.ts` + 各专题 `data/items.json` |
 | 默认语言 | 中文 |
 | 后续入口 | 微信小程序版本即将上线，敬请期待 |
+
+## 适合谁
+
+| 角色 | 可以用 Just-DDL 做什么 |
+| --- | --- |
+| 学生 / 参赛者 | 收藏黑客松、算法竞赛、电竞赛事、考试考证和奖学金申请截止日 |
+| 科研人员 | 跟踪学术会议、CV/NLP/多模态挑战、期刊 Special Issue 与 CFP |
+| 专题维护者 | 独立维护一个 `*-ddl` 仓库，按自己的来源、频率和 Actions 更新 |
+| 产品侧 | 把 Hub 数据出口复用到 Web、微信小程序和后续 App，不重复写爬虫 |
 
 ## 联邦架构
 
@@ -185,14 +200,19 @@ npm run build
 5. 在 Hub 注册专题元数据。
 6. 专题更新成功后用 `repository_dispatch` 通知 Hub 同步。
 
-## 缩略图
+## README 视觉资产
 
-README 顶部缩略图由本地 `just-thumbnail` 工作流生成：先抓取线上 Hub 的桌面、平板、手机截图，再合成为联邦网络预览图。生成资产保存在：
+README 顶部使用两类仓库自有资产，避免依赖私有路径或外部设计稿：
 
 ```text
+docs/assets/readme/just-ddl-logo.svg
 docs/assets/readme/federated-network.png
 ```
+
+- `just-ddl-logo.svg` 是 Just-DDL 的顶部品牌 logo：日历代表 DDL，连接节点代表多仓库联邦网络。
+- `federated-network.png` 由本地 `just-thumbnail` 工作流生成：先抓取线上 Hub 的桌面、平板、手机截图，再合成为联邦网络预览图。
 
 ## License
 
 当前仓库处于产品孵化阶段。正式开源协议会在发布稳定版本前补齐。
+

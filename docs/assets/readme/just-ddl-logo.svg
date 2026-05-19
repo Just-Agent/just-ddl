@@ -1,0 +1,40 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Just-DDL logo</title>
+  <desc id="desc">A calendar hub connected to deadline topic nodes.</desc>
+  <defs>
+    <linearGradient id="bg" x1="76" y1="64" x2="436" y2="448" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0F172A"/>
+      <stop offset="0.48" stop-color="#123A46"/>
+      <stop offset="1" stop-color="#0F766E"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="142" y1="118" x2="378" y2="390" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FBBF24"/>
+      <stop offset="0.52" stop-color="#F97316"/>
+      <stop offset="1" stop-color="#10B981"/>
+    </linearGradient>
+    <filter id="soft" x="48" y="48" width="416" height="416" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="22" stdDeviation="22" flood-color="#0F172A" flood-opacity="0.22"/>
+    </filter>
+  </defs>
+
+  <rect x="52" y="52" width="408" height="408" rx="116" fill="url(#bg)" filter="url(#soft)"/>
+  <path d="M144 152C144 138.745 154.745 128 168 128H344C357.255 128 368 138.745 368 152V360C368 373.255 357.255 384 344 384H168C154.745 384 144 373.255 144 360V152Z" fill="#F8FAFC"/>
+  <path d="M144 152C144 138.745 154.745 128 168 128H344C357.255 128 368 138.745 368 152V196H144V152Z" fill="url(#accent)"/>
+  <rect x="181" y="101" width="28" height="62" rx="14" fill="#F8FAFC"/>
+  <rect x="303" y="101" width="28" height="62" rx="14" fill="#F8FAFC"/>
+
+  <rect x="182" y="232" width="44" height="44" rx="14" fill="#E0F2FE"/>
+  <rect x="234" y="232" width="44" height="44" rx="14" fill="#DCFCE7"/>
+  <rect x="286" y="232" width="44" height="44" rx="14" fill="#FFEDD5"/>
+  <rect x="182" y="292" width="44" height="44" rx="14" fill="#FEE2E2"/>
+  <rect x="234" y="292" width="44" height="44" rx="14" fill="#EDE9FE"/>
+  <rect x="286" y="292" width="44" height="44" rx="14" fill="#CCFBF1"/>
+
+  <circle cx="92" cy="256" r="24" fill="#FBBF24"/>
+  <circle cx="420" cy="256" r="24" fill="#38BDF8"/>
+  <circle cx="256" cy="430" r="24" fill="#10B981"/>
+  <path d="M116 256H144" stroke="#F8FAFC" stroke-width="14" stroke-linecap="round"/>
+  <path d="M368 256H396" stroke="#F8FAFC" stroke-width="14" stroke-linecap="round"/>
+  <path d="M256 384V406" stroke="#F8FAFC" stroke-width="14" stroke-linecap="round"/>
+  <path d="M204 155H308" stroke="#0F172A" stroke-width="18" stroke-linecap="round" opacity="0.86"/>
+</svg>
