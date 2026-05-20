@@ -25,6 +25,20 @@ export default function ContributeTopic() {
       submitItems: ['专题名、中文/英文描述、分类、标签、图标/颜色', '仓库地址：friend/xxx-ddl', 'Pages 地址：专题页面入口', '数据出口：data/items.json 或等价公开 JSON', '维护者信息、更新频率、数据来源说明'],
       notTitle: '不要这样做',
       notItems: ['不要把大量专题数据直接提交进 just-ddl Hub', '不要要求 Hub 执行外部仓库里的脚本', '不要把 fork 当成长期官方托管', '不要用不可公开访问的私有数据源作为默认入口'],
+      routesTitle: '新增专题有两条路线',
+      routes: [
+        {
+          title: '新手路线：Hub 孵化区',
+          desc: '适合基础薄弱、暂时不会独立建仓库的贡献者。把少量静态 JSON 提交到 public/contrib-topics/{topicId}，最多 5 个孵化专题、每个最多 50 条。',
+        },
+        {
+          title: '标准路线：独立仓库',
+          desc: '适合能长期维护专题的贡献者。创建自己的 xxx-ddl 仓库，发布 Pages 和 data/items.json，再向 Hub 注册。',
+        },
+      ],
+      incubatorTitle: 'Hub 孵化区接口',
+      incubatorIntro: '孵化区是临时协作入口，不是长期托管。它只接受静态 JSON，不在 Hub 内运行贡献者 crawler。',
+      incubatorItems: ['注册表：public/contrib-topics/registry.json', '专题数据：public/contrib-topics/{topicId}/items.json', '来源说明：public/contrib-topics/{topicId}/sources.json', '校验命令：node scripts/validate-contrib-topics.mjs', '成熟后迁出为独立 xxx-ddl 仓库，并从孵化区删除'],
       standardsTitle: '一个合格的专题仓库要满足什么？',
       standardsIntro: '新增专题仓库不需要和 Just-Agent 完全同款，但必须能被 Hub 稳定消费、能被人审查、能长期维护。',
       standards: [
@@ -84,6 +98,20 @@ export default function ContributeTopic() {
       submitItems: ['Topic name, bilingual description, category, tags, icon/color', 'Repository URL: friend/xxx-ddl', 'Pages URL: topic page entry', 'Data export: data/items.json or equivalent public JSON', 'Maintainer, update frequency, and source notes'],
       notTitle: 'Do not do this',
       notItems: ['Do not submit large topic datasets directly into the Hub', 'Do not ask the Hub to execute scripts from external repositories', 'Do not treat a fork as long-term official hosting', 'Do not rely on private data sources as the default entry'],
+      routesTitle: 'Two ways to add a topic',
+      routes: [
+        {
+          title: 'Beginner route: Hub incubator',
+          desc: 'For contributors who are not ready to maintain a separate repository. Submit small static JSON under public/contrib-topics/{topicId}; up to 5 incubator topics and 50 items each.',
+        },
+        {
+          title: 'Standard route: independent repo',
+          desc: 'For contributors who can maintain a topic long term. Create your own xxx-ddl repository, publish Pages and data/items.json, then register it with the Hub.',
+        },
+      ],
+      incubatorTitle: 'Hub incubator interface',
+      incubatorIntro: 'The incubator is a temporary collaboration entry, not permanent hosting. It only accepts static JSON and does not run contributor crawlers inside the Hub.',
+      incubatorItems: ['Registry: public/contrib-topics/registry.json', 'Topic data: public/contrib-topics/{topicId}/items.json', 'Source notes: public/contrib-topics/{topicId}/sources.json', 'Validation: node scripts/validate-contrib-topics.mjs', 'Migrate to an independent xxx-ddl repository once stable'],
       standardsTitle: 'What makes a valid topic repository?',
       standardsIntro: 'A topic repository does not need to copy Just-Agent exactly, but it must be stable, reviewable, and easy for the Hub to consume.',
       standards: [
@@ -210,6 +238,30 @@ export default function ContributeTopic() {
               ))}
             </div>
           </div>
+        </div>
+      </section>
+
+      <section className="mt-8 grid gap-5 lg:grid-cols-2">
+        {copy.routes.map((route) => (
+          <article key={route.title} className="rounded-3xl border bg-white p-6 shadow-sm" style={{ borderColor: '#DBEAFE' }}>
+            <h2 className="text-xl font-black" style={{ color: '#0F172A' }}>{route.title}</h2>
+            <p className="mt-3 text-sm font-semibold leading-7" style={{ color: '#475569' }}>{route.desc}</p>
+          </article>
+        ))}
+      </section>
+
+      <section className="mt-8 rounded-3xl border bg-white p-6 shadow-sm" style={{ borderColor: '#FED7AA' }}>
+        <div className="max-w-3xl">
+          <h2 className="text-2xl font-black" style={{ color: '#0F172A' }}>{copy.incubatorTitle}</h2>
+          <p className="mt-2 text-sm font-semibold leading-7" style={{ color: '#64748B' }}>{copy.incubatorIntro}</p>
+        </div>
+        <div className="mt-5 grid gap-3 md:grid-cols-2">
+          {copy.incubatorItems.map((item, index) => (
+            <div key={item} className="flex gap-3 rounded-2xl border p-4" style={{ borderColor: '#FED7AA', background: '#FFF7ED' }}>
+              <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full text-xs font-black text-white" style={{ background: '#F97316' }}>{index + 1}</span>
+              <p className="text-xs font-semibold leading-6" style={{ color: '#7C2D12' }}>{item}</p>
+            </div>
+          ))}
         </div>
       </section>
 

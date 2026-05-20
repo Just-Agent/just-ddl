@@ -6,7 +6,10 @@ export interface Topic {
   color: string;
   repo: string;
   site: string;
-  status: 'published' | 'demo';
+  status: 'published' | 'demo' | 'incubating';
+  sourceMode?: 'official' | 'external' | 'incubator';
+  maintainer?: string;
+  dataUrl?: string;
   itemCount: number;
   category: string;
   tags: string[];

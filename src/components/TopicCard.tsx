@@ -42,11 +42,41 @@ function shortCountdown(deadline: string, language: 'zh' | 'en') {
   return language === 'zh' ? `${days} 天` : `${days}d`;
 }
 
+function topicStatus(topic: Topic, language: 'zh' | 'en') {
+  if (topic.status === 'incubating') {
+    return {
+      dot: '#F97316',
+      background: '#FFEDD5',
+      color: '#C2410C',
+      label: language === 'zh' ? '孵化中' : 'incubating',
+    };
+  }
+  if (topic.status === 'published') {
+    return {
+      dot: '#10B981',
+      background: '#DCFCE7',
+      color: '#047857',
+      label: language === 'zh' ? '在线' : copyFallbackPublished(language),
+    };
+  }
+  return {
+    dot: '#F59E0B',
+    background: '#FEF3C7',
+    color: '#92400E',
+    label: language === 'zh' ? '筹备中' : 'demo',
+  };
+}
+
+function copyFallbackPublished(language: 'zh' | 'en') {
+  return language === 'zh' ? '在线' : 'live';
+}
+
 export default function TopicCard({ topic, index }: { topic: Topic; index: number }) {
   const { isSubscribed, toggle } = useSubscriptions();
   const { language, copy, topicName, topicDescription, categoryName, tagName } = useLanguage();
   const subscribed = isSubscribed(topic.id);
   const Icon = iconMap[topic.icon] || Trophy;
+  const status = topicStatus(topic, language);
 
   const metrics = useMemo(() => {
     const items = getDDLByTopic(topic.id);
@@ -81,9 +111,11 @@ export default function TopicCard({ topic, index }: { topic: Topic; index: numbe
             <div className="min-w-0">
               <div className="flex items-center gap-2">
                 <h3 className="truncate text-lg font-black" style={{ color: '#0F172A' }}>{topicName(topic)}</h3>
-                <span className="h-2 w-2 shrink-0 rounded-full" style={{ background: topic.status === 'published' ? '#10B981' : '#F59E0B' }} />
+                <span className="h-2 w-2 shrink-0 rounded-full" style={{ background: status.dot }} />
               </div>
-              <p className="mt-1 truncate text-xs font-semibold" style={{ color: '#64748B' }}>{topic.repo}</p>
+              <p className="mt-1 truncate text-xs font-semibold" style={{ color: '#64748B' }}>
+                {topic.sourceMode === 'incubator' ? (language === 'zh' ? 'Hub 孵化区' : 'Hub incubator') : topic.repo}
+              </p>
             </div>
           </div>
 
@@ -142,8 +174,8 @@ export default function TopicCard({ topic, index }: { topic: Topic; index: numbe
                 {metrics.next?.title || copy.topicCard.noUpcoming}
               </p>
             </div>
-            <span className="shrink-0 rounded-full px-2.5 py-1 text-[11px] font-black" style={{ background: topic.status === 'published' ? '#DCFCE7' : '#FEF3C7', color: topic.status === 'published' ? '#047857' : '#92400E' }}>
-              {topic.status === 'published' ? copy.topicCard.published : copy.topicCard.demo}
+            <span className="shrink-0 rounded-full px-2.5 py-1 text-[11px] font-black" style={{ background: status.background, color: status.color }}>
+              {topic.status === 'published' ? copy.topicCard.published : status.label}
             </span>
           </div>
         </div>

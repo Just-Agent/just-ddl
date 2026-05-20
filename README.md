@@ -212,6 +212,34 @@ npm run build
 4. 向 `Just-Agent/just-ddl` 提交 PR，只注册专题名、仓库地址、Pages 地址、数据出口、分类、标签和维护者说明。
 5. Hub 校验通过后展示该专题；专题数据继续由原仓库维护。
 
+### Hub 孵化区接口
+
+为了照顾基础薄弱、暂时还不会独立维护仓库的贡献者，Just-DDL 主站提供一个很小的 **孵化专题接口**。它是临时入口，不是长期托管：
+
+- 最多 `5` 个孵化专题。
+- 每个专题最多 `50` 条 DDL。
+- 只接受静态 JSON，不在 Hub 内运行贡献者自定义 crawler。
+- 成熟后应迁出为独立 `xxx-ddl` 仓库，再改为标准联邦接入。
+
+孵化区文件位置：
+
+```text
+public/contrib-topics/
+├─ registry.json                 # 孵化专题注册表
+├─ README.md                     # 提交规范
+└─ {topicId}/
+   ├─ items.json                 # DDL 条目
+   └─ sources.json               # 来源说明
+```
+
+提交前必须通过：
+
+```bash
+node scripts/validate-contrib-topics.mjs
+```
+
+适合新手的路线是：先把少量静态数据放进 `public/contrib-topics/{topicId}`，等专题稳定后再迁出独立仓库。能长期维护专题的贡献者，仍然推荐直接走独立 `xxx-ddl` 仓库路线。
+
 ### 新增专题仓库规范
 
 一个能接入 Just-DDL Hub 的 `xxx-ddl` 仓库至少要满足这些要求：

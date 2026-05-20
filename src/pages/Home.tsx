@@ -89,7 +89,7 @@ export default function Home() {
       modes: [
         { title: '修总站', desc: '主题广场、我的 DDL、导航、Hub 汇总逻辑、小程序数据出口等，PR Just-Agent/just-ddl。', icon: BookOpen, href: 'https://github.com/Just-Agent/just-ddl/compare', action: '提交 Hub PR' },
         { title: '修子专题', desc: '体育、电竞、期刊、节假日等已有专题的数据、页面、crawler 和 Actions，PR 对应专题仓库。', icon: Code2, href: 'https://github.com/Just-Agent', action: '找专题仓库' },
-        { title: '新增专题', desc: '先创建自己的 xxx-ddl 仓库并发布 Pages，再向 Hub 注册专题入口和标准数据出口。', icon: GitBranch, href: '#/contribute', action: '查看接入教程' },
+        { title: '新增专题', desc: '新手可先进 Hub 孵化区；长期维护的专题仍推荐独立 xxx-ddl 仓库再注册到 Hub。', icon: GitBranch, href: '#/contribute', action: '查看接入教程' },
       ],
       summaryImage: {
         src: 'assets/contributor-guide/open-source-pr-flow.jpg',
@@ -106,7 +106,7 @@ export default function Home() {
       modes: [
         { title: 'Improve Hub', desc: 'Topic Plaza, My DDL, navigation, Hub sync logic, and mini-program data exports belong in Just-Agent/just-ddl.', icon: BookOpen, href: 'https://github.com/Just-Agent/just-ddl/compare', action: 'Open Hub PR' },
         { title: 'Improve Topic', desc: 'Data, pages, crawlers, and Actions for sports, esports, journals, holidays, and other topics belong in their topic repositories.', icon: Code2, href: 'https://github.com/Just-Agent', action: 'Find topic repo' },
-        { title: 'Add Topic', desc: 'Create your own xxx-ddl repository, publish Pages, then register the standard data export with the Hub.', icon: GitBranch, href: '#/contribute', action: 'Read onboarding guide' },
+        { title: 'Add Topic', desc: 'Beginners can use the Hub incubator; long-term topics should use an independent xxx-ddl repo registered with the Hub.', icon: GitBranch, href: '#/contribute', action: 'Read onboarding guide' },
       ],
       summaryImage: {
         src: 'assets/contributor-guide/open-source-pr-flow.jpg',

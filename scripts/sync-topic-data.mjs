@@ -2,10 +2,13 @@ import fs from 'node:fs';
 
 const TOPICS_PATH = 'src/data/topics.ts';
 const DATA_PATH = 'src/data/ddl-data.ts';
+const CONTRIB_REGISTRY_PATH = 'public/contrib-topics/registry.json';
 const DEFAULT_OWNER = process.env.JUST_DDL_OWNER || 'Just-Agent';
 const STRICT = process.env.STRICT_TOPIC_SYNC === '1';
 const ONLY_TOPIC = (process.env.JUST_DDL_DISPATCH_TOPIC || process.env.JUST_DDL_TOPIC_ID || '').trim();
 const FETCH_TIMEOUT_MS = Number(process.env.JUST_DDL_FETCH_TIMEOUT_MS || 12000);
+const MAX_INCUBATOR_TOPICS = 5;
+const MAX_INCUBATOR_ITEMS = 50;
 
 function extractJsonAfter(source, marker, open, close) {
   const start = source.indexOf(marker);
@@ -70,6 +73,28 @@ function rawItemsUrl(topic) {
 
 function defaultPagesUrl(topic) {
   return `https://${topicOwner(topic).toLowerCase()}.github.io/${topicRepoName(topic)}/`;
+}
+
+function readJsonFile(path, fallback) {
+  if (!fs.existsSync(path)) return fallback;
+  return JSON.parse(fs.readFileSync(path, 'utf8'));
+}
+
+function normalizeContribPath(path) {
+  const normalized = String(path || '').replaceAll('\\', '/').replace(/^\/+/, '');
+  if (!normalized || normalized.includes('..') || normalized.startsWith('public/')) {
+    throw new Error(`Invalid contrib topic path: ${path}`);
+  }
+  return `public/contrib-topics/${normalized}`;
+}
+
+function readContribRegistry() {
+  const registry = readJsonFile(CONTRIB_REGISTRY_PATH, []);
+  if (!Array.isArray(registry)) throw new Error(`${CONTRIB_REGISTRY_PATH} must be an array`);
+  if (registry.length > MAX_INCUBATOR_TOPICS) {
+    throw new Error(`Incubator topic limit exceeded: ${registry.length}/${MAX_INCUBATOR_TOPICS}`);
+  }
+  return registry;
 }
 
 async function fetchJson(url) {
@@ -151,7 +176,10 @@ function writeTopics(topics, categories) {
   color: string;
   repo: string;
   site: string;
-  status: 'published' | 'demo';
+  status: 'published' | 'demo' | 'incubating';
+  sourceMode?: 'official' | 'external' | 'incubator';
+  maintainer?: string;
+  dataUrl?: string;
   itemCount: number;
   category: string;
   tags: string[];
@@ -198,11 +226,90 @@ export function getAllDDL(): DDLItem[] {
   fs.writeFileSync(DATA_PATH, content, 'utf8');
 }
 
+function normalizeContribTopic(topic) {
+  const errors = [];
+  for (const key of ['id', 'name', 'description', 'icon', 'color', 'category', 'itemsPath', 'sourcesPath']) {
+    if (!topic[key]) errors.push(`contrib topic ${topic.id || '<missing-id>'}: missing ${key}`);
+  }
+  if (topic.id && !/^[a-z0-9-]+-ddl$/.test(topic.id)) {
+    errors.push(`contrib topic ${topic.id}: id must be lowercase kebab-case and end with -ddl`);
+  }
+  if (topic.color && !/^#[0-9A-Fa-f]{6}$/.test(topic.color)) {
+    errors.push(`contrib topic ${topic.id}: color must be #RRGGBB`);
+  }
+  if (topic.tags && !Array.isArray(topic.tags)) {
+    errors.push(`contrib topic ${topic.id}: tags must be an array`);
+  }
+  if (errors.length) throw new Error(errors.join('\n'));
+
+  const itemsPath = normalizeContribPath(topic.itemsPath);
+  const sourcesPath = normalizeContribPath(topic.sourcesPath);
+  if (!fs.existsSync(itemsPath)) throw new Error(`${topic.id}: missing ${itemsPath}`);
+  if (!fs.existsSync(sourcesPath)) throw new Error(`${topic.id}: missing ${sourcesPath}`);
+
+  const items = normalizeItems(topic, readJsonFile(itemsPath, []));
+  if (items.length > MAX_INCUBATOR_ITEMS) {
+    throw new Error(`${topic.id}: incubator item limit exceeded: ${items.length}/${MAX_INCUBATOR_ITEMS}`);
+  }
+
+  return {
+    topic: {
+      id: topic.id,
+      name: topic.name,
+      description: topic.description,
+      icon: topic.icon,
+      color: topic.color,
+      repo: 'Just-Agent/just-ddl',
+      site: `https://just-agent.github.io/just-ddl/#/topic/${topic.id}`,
+      status: 'incubating',
+      sourceMode: 'incubator',
+      maintainer: topic.maintainer || '',
+      dataUrl: `contrib-topics/${topic.itemsPath}`,
+      itemCount: items.length,
+      category: topic.category,
+      tags: Array.isArray(topic.tags) ? topic.tags : []
+    },
+    items
+  };
+}
+
+function mergeContribTopics(topics, ddlData) {
+  const registry = readContribRegistry();
+  for (let index = topics.length - 1; index >= 0; index -= 1) {
+    if (topics[index].sourceMode === 'incubator') {
+      delete ddlData[topics[index].id];
+      topics.splice(index, 1);
+    }
+  }
+  const existingTopicIds = new Set(topics.map(topic => topic.id));
+  const existingItemIds = new Set(Object.values(ddlData).flat().map(item => item.id));
+  const seenTopicIds = new Set();
+
+  for (const entry of registry) {
+    if (seenTopicIds.has(entry.id)) throw new Error(`Duplicate incubator topic id: ${entry.id}`);
+    if (existingTopicIds.has(entry.id)) throw new Error(`Incubator topic conflicts with existing topic id: ${entry.id}`);
+    seenTopicIds.add(entry.id);
+
+    const { topic, items } = normalizeContribTopic(entry);
+    for (const item of items) {
+      if (existingItemIds.has(item.id)) throw new Error(`${topic.id}: duplicate item id ${item.id}`);
+      existingItemIds.add(item.id);
+    }
+
+    topics.push(topic);
+    ddlData[topic.id] = items;
+  }
+
+  return registry.length;
+}
+
 async function main() {
   const { topics, categories, ddlData } = readModel();
-  const targetTopics = topics.filter(topic => !ONLY_TOPIC || topic.id === ONLY_TOPIC);
+  const contribCount = mergeContribTopics(topics, ddlData);
+  const targetTopics = topics.filter(topic => topic.sourceMode !== 'incubator' && (!ONLY_TOPIC || topic.id === ONLY_TOPIC));
   if (ONLY_TOPIC && targetTopics.length === 0) {
-    throw new Error(`Dispatch topic ${ONLY_TOPIC} is not registered in ${TOPICS_PATH}`);
+    const incubatorTopic = topics.find(topic => topic.id === ONLY_TOPIC && topic.sourceMode === 'incubator');
+    if (!incubatorTopic) throw new Error(`Dispatch topic ${ONLY_TOPIC} is not registered in ${TOPICS_PATH}`);
   }
 
   const summary = [];
@@ -235,6 +342,7 @@ async function main() {
   console.log(JSON.stringify({
     syncedAt: new Date().toISOString(),
     requestedTopic: ONLY_TOPIC || 'all',
+    incubatorTopics: contribCount,
     syncedTopics: summary,
     warnings
   }, null, 2));

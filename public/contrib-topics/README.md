@@ -1,0 +1,49 @@
+# Just-DDL 孵化专题接口
+
+这里是 Hub 内的少量孵化区，给第一次贡献 DDL 专题、暂时还不会独立维护仓库的开发者使用。
+
+默认规则：
+
+- 最多 `5` 个孵化专题。
+- 每个专题最多 `50` 条 DDL。
+- 只接受静态 JSON，不在 Hub 内运行贡献者自定义 crawler。
+- 稳定后应迁出为独立 `xxx-ddl` 仓库，再由 Hub 注册外部数据出口。
+
+## 添加一个孵化专题
+
+1. 新建目录：`public/contrib-topics/{topicId}/`，例如 `public/contrib-topics/music-ddl/`。
+2. 添加 `items.json` 和 `sources.json`。
+3. 在 `public/contrib-topics/registry.json` 注册专题。
+4. 运行 `node scripts/validate-contrib-topics.mjs`。
+
+`registry.json` 示例：
+
+```json
+[
+  {
+    "id": "music-ddl",
+    "name": "音乐专题",
+    "description": "音乐比赛、艺术节、作品征集与演出报名截止日。",
+    "icon": "Trophy",
+    "color": "#8B5CF6",
+    "category": "设计创作",
+    "tags": ["music", "festival", "submission"],
+    "maintainer": "github-user",
+    "itemsPath": "music-ddl/items.json",
+    "sourcesPath": "music-ddl/sources.json",
+    "status": "incubating"
+  }
+]
+```
+
+`items.json` 每条至少需要：
+
+```json
+{
+  "id": "music-ddl-example-2026-06-30",
+  "title": "Example Music Submission",
+  "deadline": "2026-06-30T23:59:59",
+  "url": "https://example.org/call",
+  "source": "Official site"
+}
+```

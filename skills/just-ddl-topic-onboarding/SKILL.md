@@ -11,11 +11,43 @@ Use this skill when a contributor wants to add a new Just-DDL topic, adapt an ex
 
 1. **Improve Hub**: topic plaza, navigation, Hub sync logic, mini-program exports. Work in `Just-Agent/just-ddl`.
 2. **Improve Existing Topic**: data, crawler, validator, link-check, Pages UI for an existing topic. Work in that topic repository.
-3. **Add New Topic**: create an independent `xxx-ddl` repository first, then PR metadata into `Just-Agent/just-ddl`.
+3. **Add New Topic**: choose either the Hub incubator for beginner static JSON submissions, or an independent `xxx-ddl` repository for long-term topics.
 
 Do not put a full new topic dataset directly into the Hub.
 
+## Beginner Route: Hub Incubator
+
+Use the incubator only when the contributor is not ready to maintain a separate repository.
+
+Limits:
+
+- At most 5 incubator topics.
+- At most 50 DDL items per incubator topic.
+- Static JSON only; do not add contributor crawlers to the Hub.
+- Mature topics should migrate to independent `xxx-ddl` repositories.
+
+Required shape:
+
+```text
+public/contrib-topics/
+├── registry.json
+├── README.md
+└── {topicId}/
+    ├── items.json
+    └── sources.json
+```
+
+Before accepting an incubator PR, run:
+
+```bash
+node scripts/validate-contrib-topics.mjs
+```
+
+Use `registry.json` to register only incubating topics. Do not register a topic here if it already has an independent repository.
+
 ## New Topic Workflow
+
+Use this workflow for the standard independent-repository route.
 
 1. Collect topic facts:
    - `topicId`: lowercase kebab case ending with `-ddl`, such as `music-ddl`.

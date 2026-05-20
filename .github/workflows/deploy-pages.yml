@@ -24,6 +24,7 @@ jobs:
       - uses: actions/setup-node@v6
         with:
           node-version: '24'
+      - run: node scripts/validate-contrib-topics.mjs
       - run: npm ci
       - run: npm run build
       - uses: actions/configure-pages@v6
