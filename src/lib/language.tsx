@@ -134,7 +134,7 @@ const tagCopy: Record<string, Record<Language, string>> = {
 
 const dictionary = {
   zh: {
-    nav: { plaza: '主题广场', my: '我的 DDL', about: '关于', github: 'GitHub', repo: '仓库' },
+    nav: { plaza: '主题广场', my: '我的 DDL', contribute: '接入专题', about: '关于', github: 'GitHub', repo: '仓库' },
     network: {
       roadmap: '路线图',
       topics: ['黑客松', '智能体', '视觉', 'NLP', '学术', '期刊', '编程', '节假日', '多模态', '安全', '数据', '开源', '机器人', '创业', '设计', '考试', '奖学金', '游戏', '生命科学', '体育', '电竞'],
@@ -259,7 +259,7 @@ const dictionary = {
     },
   },
   en: {
-    nav: { plaza: 'Topic Plaza', my: 'My DDL', about: 'About', github: 'GitHub', repo: 'Repo' },
+    nav: { plaza: 'Topic Plaza', my: 'My DDL', contribute: 'Add Topic', about: 'About', github: 'GitHub', repo: 'Repo' },
     network: {
       roadmap: 'Roadmap',
       topics: ['Hackathon', 'Agent', 'CV', 'NLP', 'Academic', 'Journal', 'Programming', 'Holiday', 'Multimodal', 'Security', 'Data', 'Open Source', 'Robotics', 'Startup', 'Design', 'Exams', 'Scholarships', 'Game Dev', 'Biotech', 'Sports', 'Esports'],
@@ -437,5 +437,6 @@ export function useLanguage() {
   if (!context) throw new Error('useLanguage must be used within LanguageProvider');
   return context;
 }
+
 
 

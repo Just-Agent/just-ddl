@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { GitBranch, Layers, Monitor, Shield, Target, Zap, type LucideIcon } from 'lucide-react';
+import { ArrowRight, GitBranch, GitPullRequest, Layers, Monitor, Shield, Target, Zap, type LucideIcon } from 'lucide-react';
 import { useLanguage } from '@/lib/language';
 
 type Feature = { icon: LucideIcon; title: string; desc: string };
@@ -119,6 +119,33 @@ export default function About() {
         </div>
       </section>
 
+      <section className="mt-8 rounded-3xl border bg-white p-6 shadow-sm sm:p-7" style={{ borderColor: '#DBEAFE' }}>
+        <div className="flex flex-col gap-5 sm:flex-row sm:items-center sm:justify-between">
+          <div className="flex items-start gap-4">
+            <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl" style={{ background: '#EFF6FF', color: '#2563EB' }}>
+              <GitPullRequest size={21} />
+            </div>
+            <div>
+              <h2 className="text-base font-black" style={{ color: '#0F172A' }}>
+                {language === 'zh' ? '想接入你的 DDL 专题？' : 'Want to connect your own DDL topic?'}
+              </h2>
+              <p className="mt-2 max-w-2xl text-xs font-semibold leading-6" style={{ color: '#64748B' }}>
+                {language === 'zh'
+                  ? '先创建独立 xxx-ddl 仓库并发布 GitHub Pages，再向 Just-DDL Hub 提交 PR 注册专题；完整图文步骤已经整理成单独页面。'
+                  : 'Create an independent xxx-ddl repository, publish GitHub Pages, then open a Hub PR to register the topic. The full visual guide is now a dedicated page.'}
+              </p>
+            </div>
+          </div>
+          <a
+            href="#/contribute"
+            className="inline-flex shrink-0 items-center justify-center gap-2 rounded-2xl px-5 py-3 text-xs font-black text-white transition hover:-translate-y-0.5"
+            style={{ background: '#2563EB' }}
+          >
+            {language === 'zh' ? '打开接入教程' : 'Open Guide'}<ArrowRight size={15} />
+          </a>
+        </div>
+      </section>
+
       <section className="mt-8 text-center">
         <p className="text-xs" style={{ color: '#94A3B8' }}>{copy.about.openSource}</p>
         <a
@@ -134,3 +161,4 @@ export default function About() {
     </div>
   );
 }
+

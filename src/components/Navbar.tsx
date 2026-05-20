@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Link, useLocation } from 'react-router';
-import { Pin, Home, Heart, Info, Menu, X, Github, Languages } from 'lucide-react';
+import { Pin, Home, Heart, Info, Menu, X, Github, Languages, GitPullRequest } from 'lucide-react';
 import { useSubscriptions } from '@/hooks/useSubscriptions';
 import { useLanguage, type Language } from '@/lib/language';
 
@@ -12,6 +12,7 @@ export default function Navbar() {
   const navLinks = [
     { label: copy.nav.plaza, path: '/', icon: Home },
     { label: copy.nav.my, path: '/my', icon: Heart },
+    { label: copy.nav.contribute, path: '/contribute', icon: GitPullRequest },
     { label: copy.nav.about, path: '/about', icon: Info },
   ];
   const languageOptions: Array<{ value: Language; label: string }> = [
@@ -101,3 +102,4 @@ export default function Navbar() {
     </header>
   );
 }
+

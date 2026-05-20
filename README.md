@@ -20,6 +20,8 @@
 <p align="center">
   <a href="https://just-agent.github.io/just-ddl/"><strong>打开主题广场</strong></a>
   ·
+  <a href="https://just-agent.github.io/just-ddl/#/contribute"><strong>接入你的专题</strong></a>
+  ·
   <a href="https://github.com/Just-Agent">GitHub 组织</a>
   ·
   <a href="https://just-agent.github.io/just-ddl/#/topic/sports-ddl">体育赛事</a>
@@ -210,42 +212,58 @@ npm run build
 4. 向 `Just-Agent/just-ddl` 提交 PR，只注册专题名、仓库地址、Pages 地址、数据出口、分类、标签和维护者说明。
 5. Hub 校验通过后展示该专题；专题数据继续由原仓库维护。
 
-### 图文教程怎么读
+### 最清晰的接入路径
 
-图片内容比较多，不需要每张都先看。多数贡献者只要看下面这张总览图，再按文字规则操作即可。
+多数新贡献者只需要走这一条路：**先在自己的账号下维护一个独立专题仓库，再把它注册到 Just-DDL Hub**。这样专题数据、爬虫、Actions 都在你的仓库里演进，Hub 负责汇总、展示、搜索和导航。
+
+网站版教程已经放到 Pages：[`接入专题`](https://just-agent.github.io/just-ddl/#/contribute)。下面是同一套步骤，README 里直接展开。
+
+#### 1. 先判断应该 PR 哪个仓库
 
 <p align="center">
-  <img src="public/assets/contributor-guide/justddl-three-modes-01.png" alt="Just-DDL 三种接入模式总览" width="860">
+  <img src="public/assets/contributor-guide/federated-pr-01.jpg" alt="Just-DDL 贡献者教程：先判断应该 PR 哪个仓库" width="900">
 </p>
 
-如果还是不确定，再按问题打开对应图：
+#### 2. 新建自己的 `xxx-ddl` 专题仓库
 
-| 问题 | 该看哪张图 |
-| --- | --- |
-| 我只是想新增一个专题，仓库还在自己账号下 | [外部联邦节点](public/assets/contributor-guide/justddl-three-modes-02.png) |
-| 要不要让 Just-Agent fork 一份 | [fork 镜像边界](public/assets/contributor-guide/justddl-three-modes-03.png) |
-| 什么时候转成官方托管仓库 | [官方 transfer 节点](public/assets/contributor-guide/justddl-three-modes-04.png) |
-| 完全不熟悉开源 PR 流程 | [从 Idea 到 PR 被采纳](public/assets/contributor-guide/open-source-pr-flow.jpg) |
-| 想看旧版 4 步操作图 | [PR 哪个仓库](public/assets/contributor-guide/federated-pr-01.jpg) · [新建专题仓库](public/assets/contributor-guide/federated-pr-02.jpg) · [发布和提交 PR](public/assets/contributor-guide/federated-pr-03.jpg) · [合并后维护](public/assets/contributor-guide/federated-pr-04.jpg) |
+<p align="center">
+  <img src="public/assets/contributor-guide/federated-pr-02.jpg" alt="Just-DDL 贡献者教程：新建自己的 xxx-ddl 专题仓库" width="900">
+</p>
 
-## README 视觉资产
+#### 3. 发布 Pages、校验数据，然后提交 Hub PR
 
-README 顶部使用两类仓库自有资产，避免依赖私有路径或外部设计稿：
+<p align="center">
+  <img src="public/assets/contributor-guide/federated-pr-03.jpg" alt="Just-DDL 贡献者教程：发布 Pages、校验数据并提交 Hub PR" width="900">
+</p>
 
-```text
-docs/assets/readme/just-ddl-logo.svg
-docs/assets/readme/federated-network.png
-public/assets/contributor-guide/justddl-three-modes-01.png
-public/assets/contributor-guide/justddl-three-modes-02.png
-public/assets/contributor-guide/justddl-three-modes-03.png
-public/assets/contributor-guide/justddl-three-modes-04.png
-```
+#### 4. 合并后继续维护专题仓库
 
-- `just-ddl-logo.svg` 是 Just-DDL 的顶部品牌 logo：日历代表 DDL，连接节点代表多仓库联邦网络。
-- `federated-network.png` 由本地 `just-thumbnail` 工作流生成：先抓取线上 Hub 的桌面、平板、手机截图，再合成为联邦网络预览图。
-- `public/assets/contributor-guide/*` 是贡献者说明图文教程；README 和网站共用，但默认只展示总览图，其余作为需要时再打开的解释材料。
+<p align="center">
+  <img src="public/assets/contributor-guide/federated-pr-04.jpg" alt="Just-DDL 贡献者教程：合并后展示、维护与升级" width="900">
+</p>
+
+### 三种接入模式
+
+外部联邦节点是默认推荐；fork 镜像适合备份、审核和过渡；官方托管适合长期稳定、愿意转移 ownership 的核心专题。
+
+<p align="center">
+  <img src="public/assets/contributor-guide/justddl-three-modes-01.png" alt="Just-DDL 三种接入模式总览" width="900">
+</p>
+
+<p align="center">
+  <img src="public/assets/contributor-guide/justddl-three-modes-02.png" alt="Just-DDL 外部联邦节点模式" width="900">
+</p>
+
+<p align="center">
+  <img src="public/assets/contributor-guide/justddl-three-modes-03.png" alt="Just-DDL fork 镜像边界" width="900">
+</p>
+
+<p align="center">
+  <img src="public/assets/contributor-guide/justddl-three-modes-04.png" alt="Just-DDL 官方托管节点模式" width="900">
+</p>
 
 ## License
 
 当前仓库处于产品孵化阶段。正式开源协议会在发布稳定版本前补齐。
+
 

@@ -102,7 +102,7 @@ export default function Home() {
         { title: '不熟悉 PR 流程', desc: '看通用开源 PR 流程：从 idea、分支、PR 到 review 与 merge。', href: 'assets/contributor-guide/open-source-pr-flow.jpg' },
       ],
       action: '提交注册 PR',
-      docs: '查看仓库说明',
+      docs: '打开完整教程',
     }
     : {
       eyebrow: 'Contributor Guide',
@@ -125,7 +125,7 @@ export default function Home() {
         { title: 'PR basics', desc: 'Use the general open-source PR flow if you are new to issues, branches, review, and merge.', href: 'assets/contributor-guide/open-source-pr-flow.jpg' },
       ],
       action: 'Open registration PR',
-      docs: 'Read repository guide',
+      docs: 'Open full guide',
     };
 
   return (
@@ -427,9 +427,7 @@ export default function Home() {
           </div>
           <div className="flex shrink-0 flex-wrap gap-2">
             <a
-              href="https://github.com/Just-Agent/just-ddl#%E6%96%B0%E4%B8%93%E9%A2%98%E5%A6%82%E4%BD%95%E5%8A%A0%E5%85%A5%E7%BD%91%E7%BB%9C"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="#/contribute"
               className="inline-flex items-center justify-center gap-2 rounded-2xl border bg-white px-4 py-2.5 text-xs font-black transition hover:-translate-y-0.5"
               style={{ borderColor: '#CBD5E1', color: '#0F172A' }}
             >
@@ -468,4 +466,5 @@ export default function Home() {
     </div>
   );
 }
+
 
