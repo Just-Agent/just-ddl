@@ -286,6 +286,23 @@ export const topics: Topic[] = [
     ]
   },
   {
+    "id": "civil-service-ddl",
+    "name": "Civil Service",
+    "description": "公务员、事业单位、选调生、三支一扶和基层项目报名、笔试、面试节点追踪",
+    "icon": "GraduationCap",
+    "color": "#4F46E5",
+    "repo": "Just-Agent/civil-service-ddl",
+    "site": "https://just-agent.github.io/civil-service-ddl/",
+    "status": "demo",
+    "itemCount": 6,
+    "category": "考试申请",
+    "tags": [
+      "公务员",
+      "事业单位",
+      "选调生"
+    ]
+  },
+  {
     "id": "scholarship-ddl",
     "name": "Scholarships",
     "description": "奖学金、访问学者、暑研、交换项目、博士申请和 fellowship 截止日",

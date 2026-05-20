@@ -179,6 +179,7 @@ function writeData(ddlData) {
   stage?: string;
   source?: string;
   type?: 'conference' | 'journal' | 'challenge' | 'hackathon' | 'holiday' | 'contest' | 'program';
+  isDatePlaceholder?: boolean;
 }
 
 export const ddlData: Record<string, DDLItem[]> = ${JSON.stringify(ddlData, null, 2)};
@@ -200,11 +201,15 @@ async function main() {
   if (ONLY_TOPIC && targetTopics.length === 0) {
     throw new Error(`Dispatch topic ${ONLY_TOPIC} is not registered in ${TOPICS_PATH}`);
   }
+  const syncableTopics = targetTopics.filter(topic => topic.status !== 'demo');
+  const skippedTopics = targetTopics
+    .filter(topic => topic.status === 'demo')
+    .map(topic => ({ topicId: topic.id, reason: 'demo topic has no published data source yet' }));
 
   const summary = [];
   const warnings = [];
 
-  for (const topic of targetTopics) {
+  for (const topic of syncableTopics) {
     const url = rawItemsUrl(topic);
     try {
       const items = normalizeItems(topic, await fetchJson(url));
@@ -232,6 +237,7 @@ async function main() {
     syncedAt: new Date().toISOString(),
     requestedTopic: ONLY_TOPIC || 'all',
     syncedTopics: summary,
+    skippedTopics,
     warnings
   }, null, 2));
 }
