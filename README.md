@@ -212,6 +212,77 @@ npm run build
 4. 向 `Just-Agent/just-ddl` 提交 PR，只注册专题名、仓库地址、Pages 地址、数据出口、分类、标签和维护者说明。
 5. Hub 校验通过后展示该专题；专题数据继续由原仓库维护。
 
+### 新增专题仓库规范
+
+一个能接入 Just-DDL Hub 的 `xxx-ddl` 仓库至少要满足这些要求：
+
+| 规范 | 要求 |
+| --- | --- |
+| 仓库命名 | 使用 `xxx-ddl`，例如 `music-ddl`、`finance-ddl`、`robotics-ddl` |
+| 专题边界 | 一个仓库只维护一个清晰专题，不把多个无关领域混在一起 |
+| 数据出口 | 必须公开 `data/items.json`，主分支默认是 `main` |
+| 必填字段 | 每条 DDL 至少有 `id`、`title`、`deadline`、`url`、`source` |
+| 推荐字段 | `dateRange`、`location`、`isOnline`、`tags`、`status`、`stage`、`type`、`description`、`subtopic`、`previewImage` |
+| 数据来源 | 优先官方/主办方/权威聚合来源，`url` 必须可公开访问 |
+| 页面入口 | 发布 GitHub Pages，让用户能浏览专题页面 |
+| 自动化 | 推荐保留 `scripts/crawl-sources.mjs`、`validate-data.mjs`、`link-check.mjs` 和 `update-data.yml` |
+| README | 说明数据来源、更新频率、维护者、反馈方式和接入 Just-DDL 的状态 |
+
+Hub 默认读取：
+
+```text
+https://raw.githubusercontent.com/owner/xxx-ddl/main/data/items.json
+```
+
+### 如何拿已有子专题当模板
+
+优先从已经跑通的专题里挑一个复制/改造：
+
+| 参考仓库 | 适合场景 | 你需要改什么 |
+| --- | --- | --- |
+| [`sports-ddl`](https://github.com/Just-Agent/sports-ddl) | 有子专题、缩略图、赛事/活动卡片、列表/格子切换 | 替换专题 ID、名称、颜色、来源、`data/*.json`、crawler 和 Pages 文案 |
+| [`journal-ddl`](https://github.com/Just-Agent/journal-ddl) | CFP、征稿、资料型专题、大量文字条目 | 替换期刊/来源结构、`items.json`、`sources.json` 和 validator 规则 |
+| 其他已有 `*-ddl` | 和你的领域最相近的专题 | 只保留结构，删除示例数据，换成你的真实来源 |
+
+改模板时按这个顺序做：
+
+1. 全局替换专题 ID、仓库名、标题、描述、颜色、标签和 Pages 地址。
+2. 删除模板示例数据，重写 `data/items.json` 和 `data/sources.json`。
+3. 按你的来源改 `scripts/crawl-sources.mjs`；如果来源暂时不能自动爬，也要能人工维护 JSON。
+4. 运行或保留 `validate-data.mjs`、`link-check.mjs`，保证字段、时间、链接和中文编码正常。
+5. 启用 GitHub Pages 和 Actions，确认页面、README、raw JSON 都能匿名访问。
+6. 再向 `Just-Agent/just-ddl` 提交 PR 注册专题。
+
+### Hub 注册 PR 应该改哪里
+
+新增专题接入总仓时，通常只需要在 `Just-Agent/just-ddl` 注册元数据，不要把整份专题数据提交进 Hub。
+
+核心修改是给 `src/data/topics.ts` 增加一条 Topic：
+
+```ts
+{
+  id: 'music-ddl',
+  name: 'Music',
+  description: '音乐比赛、艺术节、征集与演出报名截止日',
+  icon: 'Trophy',
+  color: '#8B5CF6',
+  repo: 'friend/music-ddl',
+  site: 'https://friend.github.io/music-ddl/',
+  status: 'published',
+  itemCount: 0,
+  category: '设计创作',
+  tags: ['music', 'festival', 'submission']
+}
+```
+
+PR 描述里请贴清楚：
+
+- 专题仓库地址：`https://github.com/friend/music-ddl`
+- Pages 地址：`https://friend.github.io/music-ddl/`
+- JSON 数据出口：`https://raw.githubusercontent.com/friend/music-ddl/main/data/items.json`
+- 数据来源说明、更新频率、维护者联系方式
+- 是否已经跑过 validator / link-check
+
 ### 最清晰的接入路径
 
 多数新贡献者只需要走这一条路：**先在自己的账号下维护一个独立专题仓库，再把它注册到 Just-DDL Hub**。这样专题数据、爬虫、Actions 都在你的仓库里演进，Hub 负责汇总、展示、搜索和导航。

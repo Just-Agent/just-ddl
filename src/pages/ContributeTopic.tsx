@@ -25,6 +25,33 @@ export default function ContributeTopic() {
       submitItems: ['专题名、中文/英文描述、分类、标签、图标/颜色', '仓库地址：friend/xxx-ddl', 'Pages 地址：专题页面入口', '数据出口：data/items.json 或等价公开 JSON', '维护者信息、更新频率、数据来源说明'],
       notTitle: '不要这样做',
       notItems: ['不要把大量专题数据直接提交进 just-ddl Hub', '不要要求 Hub 执行外部仓库里的脚本', '不要把 fork 当成长期官方托管', '不要用不可公开访问的私有数据源作为默认入口'],
+      standardsTitle: '一个合格的专题仓库要满足什么？',
+      standardsIntro: '新增专题仓库不需要和 Just-Agent 完全同款，但必须能被 Hub 稳定消费、能被人审查、能长期维护。',
+      standards: [
+        '仓库名使用 xxx-ddl，例如 music-ddl、finance-ddl、robotics-ddl；专题边界要清楚，不要把多个无关领域混在一个仓库。',
+        '必须公开 `data/items.json`，主分支为 `main`，Hub 默认读取 `https://raw.githubusercontent.com/owner/xxx-ddl/main/data/items.json`。',
+        '`items.json` 至少包含 `id/title/deadline/url/source`，建议补齐 `dateRange/location/isOnline/tags/status/stage/type/description/subtopic/previewImage`。',
+        '每条 DDL 优先使用官方/主办方/权威聚合来源，`url` 必须可公开访问；不确定的信息要在 `source` 或 `description` 里说明。',
+        '建议保留 `data/sources.json`、`scripts/validate-data.mjs`、`scripts/link-check.mjs`、`scripts/crawl-sources.mjs` 和 `.github/workflows/update-data.yml`。',
+        '必须发布 GitHub Pages，让用户能看到专题页面；README 要说明数据来源、更新频率、维护者和如何反馈错误。',
+      ],
+      templateTitle: '如何用已有子专题当模板？',
+      templateSteps: [
+        '优先参考 sports-ddl：适合有子专题、事件缩略图、列表/格子视图、赛事/活动类专题。',
+        '期刊 CFP、征稿、资料型专题可以参考 journal-ddl；结构更轻，适合大量文字条目。',
+        '复制模板后先全局替换专题 ID、仓库名、标题、描述、颜色、标签和 Pages 地址。',
+        '删除模板里的示例数据，改写 `data/items.json` 和 `data/sources.json`，保证每条记录都有真实来源。',
+        '按你的来源改 `scripts/crawl-sources.mjs`，再运行 validator/link-check；无法自动爬的来源也要能人工维护 JSON。',
+        '启用 GitHub Pages 和 Actions，确认页面、README、JSON 数据出口都能被匿名访问。',
+      ],
+      hubTitle: '如何接入 Just-DDL 总站？',
+      hubItems: [
+        '在 Just-Agent/just-ddl 提交 PR，通常只注册专题元数据，不提交整份专题数据。',
+        '在 `src/data/topics.ts` 新增一条 Topic：`id/name/description/icon/color/repo/site/status/category/tags`。',
+        '`repo` 可以是外部仓库，例如 `friend/music-ddl`；`site` 写你的 Pages 地址，例如 `https://friend.github.io/music-ddl/`。',
+        'Hub 同步时会读取你仓库的 `data/items.json`，并用 `itemCount`、搜索、主题广场和小程序数据出口消费它。',
+        'PR 描述里贴上 Pages 地址、raw JSON 地址、数据来源说明、更新频率和维护者联系方式。',
+      ],
       visualTitle: '完整图文步骤',
       visualIntro: '下面的图是给第一次贡献的人看的。先按文字步骤做；遇到不清楚的地方，再看对应图片。',
       modeTitle: '三种接入模式怎么选？',
@@ -50,6 +77,33 @@ export default function ContributeTopic() {
       submitItems: ['Topic name, bilingual description, category, tags, icon/color', 'Repository URL: friend/xxx-ddl', 'Pages URL: topic page entry', 'Data export: data/items.json or equivalent public JSON', 'Maintainer, update frequency, and source notes'],
       notTitle: 'Do not do this',
       notItems: ['Do not submit large topic datasets directly into the Hub', 'Do not ask the Hub to execute scripts from external repositories', 'Do not treat a fork as long-term official hosting', 'Do not rely on private data sources as the default entry'],
+      standardsTitle: 'What makes a valid topic repository?',
+      standardsIntro: 'A topic repository does not need to copy Just-Agent exactly, but it must be stable, reviewable, and easy for the Hub to consume.',
+      standards: [
+        'Use an xxx-ddl repository name, such as music-ddl, finance-ddl, or robotics-ddl. Keep the topic boundary clear.',
+        'Expose public `data/items.json` on the `main` branch. The Hub reads `https://raw.githubusercontent.com/owner/xxx-ddl/main/data/items.json` by default.',
+        '`items.json` must include `id/title/deadline/url/source`; recommended fields are `dateRange/location/isOnline/tags/status/stage/type/description/subtopic/previewImage`.',
+        'Prefer official organizer or authoritative aggregate sources. `url` must be public, and uncertain information should be explained in `source` or `description`.',
+        'Recommended files: `data/sources.json`, `scripts/validate-data.mjs`, `scripts/link-check.mjs`, `scripts/crawl-sources.mjs`, and `.github/workflows/update-data.yml`.',
+        'Publish GitHub Pages so users can browse the topic. README should explain sources, update cadence, maintainers, and error reporting.',
+      ],
+      templateTitle: 'How to adapt an existing topic as a template',
+      templateSteps: [
+        'Start from sports-ddl when you need subtopics, previews, list/grid views, and event-style cards.',
+        'Use journal-ddl for CFP or text-heavy topics with many simple records.',
+        'After copying the template, replace topic ID, repository name, title, description, color, tags, and Pages URL.',
+        'Remove sample records, rewrite `data/items.json` and `data/sources.json`, and keep every item traceable to a real source.',
+        'Adapt `scripts/crawl-sources.mjs` to your sources, then run validator and link-check. Manual JSON maintenance is acceptable when crawling is not practical.',
+        'Enable GitHub Pages and Actions, then verify the page, README, and JSON export are public.',
+      ],
+      hubTitle: 'How to connect it to the Just-DDL Hub',
+      hubItems: [
+        'Open a PR to Just-Agent/just-ddl. In most cases, register metadata only; do not submit the entire dataset into the Hub.',
+        'Add one Topic entry in `src/data/topics.ts`: `id/name/description/icon/color/repo/site/status/category/tags`.',
+        '`repo` can be external, such as `friend/music-ddl`; `site` should be your Pages URL, such as `https://friend.github.io/music-ddl/`.',
+        'The Hub sync reads your repository `data/items.json` and uses it for item counts, search, Topic Plaza, and mini-program exports.',
+        'In the PR description, include Pages URL, raw JSON URL, source notes, update cadence, and maintainer contact.',
+      ],
       visualTitle: 'Step-by-step visual guide',
       visualIntro: 'These images are for first-time contributors. Follow the text steps first, then use the images when a detail is unclear.',
       modeTitle: 'Which connection mode should you choose?',
@@ -141,6 +195,50 @@ export default function ContributeTopic() {
                 </p>
               ))}
             </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="mt-8 rounded-3xl border bg-white p-6 shadow-sm" style={{ borderColor: '#E2E8F0' }}>
+        <div className="max-w-3xl">
+          <h2 className="text-2xl font-black" style={{ color: '#0F172A' }}>{copy.standardsTitle}</h2>
+          <p className="mt-2 text-sm font-semibold leading-7" style={{ color: '#64748B' }}>{copy.standardsIntro}</p>
+        </div>
+        <div className="mt-5 grid gap-3 md:grid-cols-2">
+          {copy.standards.map((item, index) => (
+            <div key={item} className="rounded-2xl border p-4" style={{ borderColor: '#E2E8F0', background: '#F8FAFC' }}>
+              <div className="flex items-center gap-2 text-xs font-black" style={{ color: '#0F766E' }}>
+                <span className="flex h-6 w-6 items-center justify-center rounded-full text-white" style={{ background: '#0F766E' }}>{index + 1}</span>
+                {zh ? '规范' : 'Rule'}
+              </div>
+              <p className="mt-3 text-xs font-semibold leading-6" style={{ color: '#475569' }}>{item}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <section className="mt-8 grid gap-5 lg:grid-cols-2">
+        <div className="rounded-3xl border bg-white p-6 shadow-sm" style={{ borderColor: '#DBEAFE' }}>
+          <h2 className="text-xl font-black" style={{ color: '#0F172A' }}>{copy.templateTitle}</h2>
+          <div className="mt-5 space-y-3">
+            {copy.templateSteps.map((item, index) => (
+              <p key={item} className="flex gap-3 text-xs font-semibold leading-6" style={{ color: '#475569' }}>
+                <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full text-[11px] font-black" style={{ background: '#EFF6FF', color: '#2563EB' }}>{index + 1}</span>
+                {item}
+              </p>
+            ))}
+          </div>
+        </div>
+
+        <div className="rounded-3xl border bg-white p-6 shadow-sm" style={{ borderColor: '#D1FAE5' }}>
+          <h2 className="text-xl font-black" style={{ color: '#0F172A' }}>{copy.hubTitle}</h2>
+          <div className="mt-5 space-y-3">
+            {copy.hubItems.map((item, index) => (
+              <p key={item} className="flex gap-3 text-xs font-semibold leading-6" style={{ color: '#475569' }}>
+                <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full text-[11px] font-black text-white" style={{ background: '#059669' }}>{index + 1}</span>
+                {item}
+              </p>
+            ))}
           </div>
         </div>
       </section>

@@ -68,6 +68,10 @@ function rawItemsUrl(topic) {
   return `https://raw.githubusercontent.com/${topicOwner(topic)}/${topicRepoName(topic)}/main/data/items.json`;
 }
 
+function defaultPagesUrl(topic) {
+  return `https://${topicOwner(topic).toLowerCase()}.github.io/${topicRepoName(topic)}/`;
+}
+
 async function fetchJson(url) {
   let lastError;
   for (let attempt = 1; attempt <= 3; attempt += 1) {
@@ -212,7 +216,7 @@ async function main() {
       topic.itemCount = items.length;
       topic.status = 'published';
       topic.repo = `${topicOwner(topic)}/${topicRepoName(topic)}`;
-      topic.site = `https://just-agent.github.io/${topicRepoName(topic)}/`;
+      topic.site = topic.site && /^https?:\/\//.test(topic.site) ? topic.site : defaultPagesUrl(topic);
       summary.push({ topicId: topic.id, itemCount: items.length, url });
     } catch (error) {
       const fallback = ddlData[topic.id];
