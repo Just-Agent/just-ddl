@@ -283,6 +283,22 @@ PR 描述里请贴清楚：
 - 数据来源说明、更新频率、维护者联系方式
 - 是否已经跑过 validator / link-check
 
+### 用 Skill 辅助接入新专题
+
+主站仓库内置了一个轻量接入 skill：
+
+```text
+skills/just-ddl-topic-onboarding/SKILL.md
+```
+
+当你让 AI 辅助新增专题时，可以直接让它使用这个 skill。它会按 Just-DDL 的规则处理：
+
+- 先判断是修总站、修子专题，还是新增完整专题。
+- 帮你从 `sports-ddl`、`journal-ddl` 或最接近的已有 `*-ddl` 仓库改出自己的 `xxx-ddl`。
+- 检查 `data/items.json` 必填字段、来源、链接、倒计时时间和 UTF-8 编码。
+- 提醒你发布 GitHub Pages、暴露 raw JSON，并准备 Hub 注册 PR checklist。
+- 生成或审查 `src/data/topics.ts` 里需要新增的 Topic 元数据。
+
 ### 最清晰的接入路径
 
 多数新贡献者只需要走这一条路：**先在自己的账号下维护一个独立专题仓库，再把它注册到 Just-DDL Hub**。这样专题数据、爬虫、Actions 都在你的仓库里演进，Hub 负责汇总、展示、搜索和导航。

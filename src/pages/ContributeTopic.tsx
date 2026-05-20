@@ -52,6 +52,13 @@ export default function ContributeTopic() {
         'Hub 同步时会读取你仓库的 `data/items.json`，并用 `itemCount`、搜索、主题广场和小程序数据出口消费它。',
         'PR 描述里贴上 Pages 地址、raw JSON 地址、数据来源说明、更新频率和维护者联系方式。',
       ],
+      skillTitle: '可以用仓库自带 skill 辅助接入',
+      skillIntro: '主站提供 `skills/just-ddl-topic-onboarding/SKILL.md`，用于把这套流程变成可复用的 AI 工作流。',
+      skillItems: [
+        '适合让 AI 帮你从 sports-ddl / journal-ddl 复制模板并改成自己的 xxx-ddl 专题。',
+        '适合检查 `data/items.json` 字段、来源、链接、UTF-8 编码和 Pages 数据出口。',
+        '适合生成 Hub 注册 PR 需要的 `src/data/topics.ts` 元数据和 PR checklist。',
+      ],
       visualTitle: '完整图文步骤',
       visualIntro: '下面的图是给第一次贡献的人看的。先按文字步骤做；遇到不清楚的地方，再看对应图片。',
       modeTitle: '三种接入模式怎么选？',
@@ -103,6 +110,13 @@ export default function ContributeTopic() {
         '`repo` can be external, such as `friend/music-ddl`; `site` should be your Pages URL, such as `https://friend.github.io/music-ddl/`.',
         'The Hub sync reads your repository `data/items.json` and uses it for item counts, search, Topic Plaza, and mini-program exports.',
         'In the PR description, include Pages URL, raw JSON URL, source notes, update cadence, and maintainer contact.',
+      ],
+      skillTitle: 'Use the repository skill for onboarding',
+      skillIntro: 'The Hub ships `skills/just-ddl-topic-onboarding/SKILL.md` so this workflow can be reused by AI coding agents.',
+      skillItems: [
+        'Use it to adapt sports-ddl or journal-ddl into your own xxx-ddl topic.',
+        'Use it to check `data/items.json`, sources, links, UTF-8 encoding, and Pages exports.',
+        'Use it to draft the Hub `src/data/topics.ts` metadata and PR checklist.',
       ],
       visualTitle: 'Step-by-step visual guide',
       visualIntro: 'These images are for first-time contributors. Follow the text steps first, then use the images when a detail is unclear.',
@@ -243,12 +257,32 @@ export default function ContributeTopic() {
         </div>
       </section>
 
+      <section className="mt-8 rounded-3xl border bg-white p-6 shadow-sm" style={{ borderColor: '#E2E8F0' }}>
+        <div className="flex flex-col gap-5 lg:flex-row lg:items-start lg:justify-between">
+          <div className="max-w-2xl">
+            <h2 className="text-xl font-black" style={{ color: '#0F172A' }}>{copy.skillTitle}</h2>
+            <p className="mt-2 text-sm font-semibold leading-7" style={{ color: '#64748B' }}>{copy.skillIntro}</p>
+          </div>
+          <code className="rounded-2xl border px-4 py-3 text-xs font-bold" style={{ borderColor: '#DBEAFE', background: '#EFF6FF', color: '#1D4ED8' }}>
+            skills/just-ddl-topic-onboarding/SKILL.md
+          </code>
+        </div>
+        <div className="mt-5 grid gap-3 md:grid-cols-3">
+          {copy.skillItems.map((item) => (
+            <div key={item} className="rounded-2xl border p-4" style={{ borderColor: '#E2E8F0', background: '#F8FAFC' }}>
+              <CheckCircle2 size={16} style={{ color: '#16A34A' }} />
+              <p className="mt-3 text-xs font-semibold leading-6" style={{ color: '#475569' }}>{item}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
       <section className="mt-10">
         <div className="max-w-3xl">
           <h2 className="text-2xl font-black" style={{ color: '#0F172A' }}>{copy.visualTitle}</h2>
           <p className="mt-2 text-sm font-semibold leading-7" style={{ color: '#64748B' }}>{copy.visualIntro}</p>
         </div>
-        <div className="mt-5 grid gap-5">
+        <div className="mt-5 grid gap-5 lg:grid-cols-2">
           {practicalImages.map((image) => (
             <figure key={image.src} className="overflow-hidden rounded-3xl border bg-white shadow-sm" style={{ borderColor: '#DBEAFE' }}>
               <figcaption className="border-b px-5 py-4 text-sm font-black" style={{ borderColor: '#DBEAFE', color: '#0F172A' }}>{image.title}</figcaption>
@@ -263,7 +297,7 @@ export default function ContributeTopic() {
           <h2 className="text-2xl font-black" style={{ color: '#0F172A' }}>{copy.modeTitle}</h2>
           <p className="mt-2 text-sm font-semibold leading-7" style={{ color: '#64748B' }}>{copy.modeIntro}</p>
         </div>
-        <div className="mt-5 grid gap-5">
+        <div className="mt-5 grid gap-5 lg:grid-cols-2">
           {modeImages.map((image) => (
             <figure key={image.src} className="overflow-hidden rounded-3xl border bg-white shadow-sm" style={{ borderColor: '#DBEAFE' }}>
               <figcaption className="border-b px-5 py-4 text-sm font-black" style={{ borderColor: '#DBEAFE', color: '#0F172A' }}>{image.title}</figcaption>
