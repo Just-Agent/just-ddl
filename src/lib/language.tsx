@@ -153,9 +153,9 @@ const dictionary = {
       plazaTitle: '全部专题',
       subscribedTitle: '已订阅专题',
       noResults: '没有找到匹配的专题',
-      ctaTitle: '想开一个新的 DDL 专题？',
-      ctaCopy: '先提交 Proposal，审核通过后使用统一模板生成独立仓库：crawler、validator、link-check、Pages、Actions 和后续小程序入口全部标准化。',
-      ctaAction: '提交专题 Proposal',
+      ctaTitle: '已经准备好接入你的专题？',
+      ctaCopy: '请在 PR 中写清专题名、仓库地址、GitHub Pages 地址、数据出口、分类和标签。Hub 合并后负责展示和导航，专题数据继续由你的独立仓库维护。',
+      ctaAction: '提交注册 PR',
       liveBoard: '部署与数据看板',
       live: '在线',
       sources: '数据源',
@@ -278,9 +278,9 @@ const dictionary = {
       plazaTitle: 'All Topics',
       subscribedTitle: 'Subscribed topics',
       noResults: 'No matching topics',
-      ctaTitle: 'Want to open a new DDL topic?',
-      ctaCopy: 'Start with a Proposal. Accepted topics use the standard independent repo template: crawler, validator, link-check, Pages, Actions, and future mini-program entry.',
-      ctaAction: 'Submit Proposal',
+      ctaTitle: 'Ready to connect your topic?',
+      ctaCopy: 'Include the topic name, repository URL, GitHub Pages URL, data export, category, and tags in the PR. After merge, the Hub handles discovery while your repository keeps owning the data.',
+      ctaAction: 'Open registration PR',
       liveBoard: 'Deployment and Data Board',
       live: 'live',
       sources: 'sources',
@@ -437,4 +437,5 @@ export function useLanguage() {
   if (!context) throw new Error('useLanguage must be used within LanguageProvider');
   return context;
 }
+
 

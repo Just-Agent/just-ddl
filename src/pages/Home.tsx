@@ -1,6 +1,6 @@
 import { useMemo, useState } from 'react';
 import { motion } from 'framer-motion';
-import { Activity, ArrowRight, Clock3, Database, FolderOpen, GitBranch, Languages, Pin, RadioTower, Search, Sparkles, Zap } from 'lucide-react';
+import { Activity, ArrowRight, BookOpen, CheckCircle2, Clock3, Code2, Database, ExternalLink, FolderOpen, GitBranch, Languages, Pin, RadioTower, Search, Sparkles, Zap } from 'lucide-react';
 import { topics, categories, getTopicById } from '@/data/topics';
 import { getAllDDL, getDDLByTopic } from '@/data/ddl-data';
 import { useSubscriptions } from '@/hooks/useSubscriptions';
@@ -79,6 +79,54 @@ export default function Home() {
     { label: copy.home.activeDeadlines, value: activeDDL, icon: Zap, color: '#059669' },
     { label: copy.home.categories, value: categories.length - 1, icon: Database, color: '#0284C7' },
   ];
+
+  const contributorGuide = language === 'zh'
+    ? {
+      eyebrow: '贡献者说明',
+      title: '新增 DDL 专题，请先创建自己的 xxx-ddl 仓库',
+      lead: '如果你要新增一个 DDL 专题，请先创建独立 xxx-ddl 仓库并发布 GitHub Pages，再向 Just-Agent/just-ddl 提交 PR 注册专题。Just-DDL Hub 不直接托管所有专题数据，而是接入各专题仓库的标准数据出口。',
+      flow: ['创建独立仓库', '发布 GitHub Pages', '暴露 JSON 数据', 'PR 注册到 Hub'],
+      modes: [
+        { title: '修总站体验', desc: '主题广场、我的 DDL、小程序数据出口等，直接 PR Just-Agent/just-ddl。', icon: BookOpen },
+        { title: '修已有专题', desc: '体育、电竞、期刊等已有专题，PR 对应的专题仓库。', icon: Code2 },
+        { title: '新增完整专题', desc: '先在自己账号建 xxx-ddl，再 PR 到 Hub 只注册站点和数据出口。', icon: GitBranch },
+      ],
+      summaryImage: {
+        src: 'assets/contributor-guide/justddl-three-modes-01.png',
+        caption: '先看这一张总览图：默认外部联邦接入，fork 只是过渡工具，官方托管是成熟后的 ownership 转移。',
+      },
+      optionalGuides: [
+        { title: '只想新增专题', desc: '看外部联邦节点：自己维护仓库，Hub 接入 Pages / JSON。', href: 'assets/contributor-guide/justddl-three-modes-02.png' },
+        { title: '纠结要不要 fork', desc: '看 fork 镜像边界：fork 适合备份、审核和过渡，不等于官方托管。', href: 'assets/contributor-guide/justddl-three-modes-03.png' },
+        { title: '专题成熟后托管', desc: '看官方 transfer：核心专题稳定后再转移到 Just-Agent 组织。', href: 'assets/contributor-guide/justddl-three-modes-04.png' },
+        { title: '不熟悉 PR 流程', desc: '看通用开源 PR 流程：从 idea、分支、PR 到 review 与 merge。', href: 'assets/contributor-guide/open-source-pr-flow.jpg' },
+      ],
+      action: '提交注册 PR',
+      docs: '查看仓库说明',
+    }
+    : {
+      eyebrow: 'Contributor Guide',
+      title: 'New DDL topics should start as their own xxx-ddl repositories',
+      lead: 'To add a new DDL topic, first create an independent xxx-ddl repository and publish GitHub Pages. Then open a PR to Just-Agent/just-ddl to register the topic. The Hub does not directly host every topic dataset; it consumes standard data exports from topic repositories.',
+      flow: ['Create topic repo', 'Publish GitHub Pages', 'Expose JSON data', 'Register with Hub'],
+      modes: [
+        { title: 'Improve the Hub', desc: 'Topic Plaza, My DDL, mini-program data exports, and hub UX belong in Just-Agent/just-ddl.', icon: BookOpen },
+        { title: 'Improve a topic', desc: 'Sports, esports, journals, and other existing domains should be changed in their topic repositories.', icon: Code2 },
+        { title: 'Add a topic', desc: 'Create your own xxx-ddl repo first, then PR only the registration metadata into the Hub.', icon: GitBranch },
+      ],
+      summaryImage: {
+        src: 'assets/contributor-guide/justddl-three-modes-01.png',
+        caption: 'Start with this overview: external federation is the default, fork is a transition tool, and official hosting is a later ownership transfer.',
+      },
+      optionalGuides: [
+        { title: 'Adding a topic', desc: 'Use external federation: maintain your repo, and let the Hub consume Pages / JSON.', href: 'assets/contributor-guide/justddl-three-modes-02.png' },
+        { title: 'Fork or not', desc: 'Use the fork guide when you need backup, review, or transition. Fork is not official hosting.', href: 'assets/contributor-guide/justddl-three-modes-03.png' },
+        { title: 'Official hosting', desc: 'Use transfer after a topic becomes stable and important enough for Just-Agent ownership.', href: 'assets/contributor-guide/justddl-three-modes-04.png' },
+        { title: 'PR basics', desc: 'Use the general open-source PR flow if you are new to issues, branches, review, and merge.', href: 'assets/contributor-guide/open-source-pr-flow.jpg' },
+      ],
+      action: 'Open registration PR',
+      docs: 'Read repository guide',
+    };
 
   return (
     <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 sm:py-10">
@@ -293,13 +341,121 @@ export default function Home() {
       </section>
 
       <section className="mt-12 overflow-hidden rounded-3xl border bg-white p-6 shadow-sm sm:p-8" style={{ borderColor: '#E2E8F0' }}>
+        <div className="flex flex-col gap-6 lg:flex-row lg:items-start lg:justify-between">
+          <div className="max-w-3xl">
+            <p className="inline-flex items-center gap-2 rounded-full px-3 py-1.5 text-xs font-black" style={{ background: '#EFF6FF', color: '#1D4ED8' }}>
+              <GitBranch size={14} /> {contributorGuide.eyebrow}
+            </p>
+            <h3 className="mt-4 text-2xl font-black leading-tight" style={{ color: '#0F172A' }}>{contributorGuide.title}</h3>
+            <p className="mt-3 text-sm font-semibold leading-7" style={{ color: '#475569' }}>{contributorGuide.lead}</p>
+          </div>
+
+          <div className="grid min-w-0 gap-2 sm:grid-cols-2 lg:w-[420px]">
+            {contributorGuide.flow.map((item, index) => (
+              <div key={item} className="flex items-center gap-2 rounded-2xl border bg-slate-50 px-3 py-2 text-xs font-black" style={{ borderColor: '#E2E8F0', color: '#334155' }}>
+                <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full text-[11px] text-white" style={{ background: '#0F766E' }}>{index + 1}</span>
+                {item}
+              </div>
+            ))}
+          </div>
+        </div>
+
+        <div className="mt-6 grid grid-cols-1 gap-3 lg:grid-cols-3">
+          {contributorGuide.modes.map(mode => {
+            const Icon = mode.icon;
+            return (
+              <div key={mode.title} className="rounded-3xl border p-5" style={{ borderColor: '#E2E8F0', background: '#F8FAFC' }}>
+                <div className="flex h-10 w-10 items-center justify-center rounded-2xl" style={{ background: '#ECFDF5', color: '#0F766E' }}>
+                  <Icon size={20} />
+                </div>
+                <h4 className="mt-4 text-sm font-black" style={{ color: '#0F172A' }}>{mode.title}</h4>
+                <p className="mt-2 text-xs leading-6" style={{ color: '#64748B' }}>{mode.desc}</p>
+              </div>
+            );
+          })}
+        </div>
+
+        <div className="mt-6 grid grid-cols-1 gap-4 lg:grid-cols-[1.1fr_0.9fr]">
+          <figure className="overflow-hidden rounded-3xl border bg-white" style={{ borderColor: '#DBEAFE' }}>
+            <img src={contributorGuide.summaryImage.src} alt={contributorGuide.title} loading="lazy" className="block w-full" />
+            <figcaption className="border-t px-4 py-3 text-xs font-semibold leading-6" style={{ borderColor: '#DBEAFE', color: '#475569' }}>
+              {contributorGuide.summaryImage.caption}
+            </figcaption>
+          </figure>
+
+          <div className="rounded-3xl border bg-slate-50 p-5" style={{ borderColor: '#E2E8F0' }}>
+            <h4 className="text-sm font-black" style={{ color: '#0F172A' }}>
+              {language === 'zh' ? '图片很多，先看重点' : 'Many images, start with the key point'}
+            </h4>
+            <p className="mt-2 text-xs font-semibold leading-6" style={{ color: '#64748B' }}>
+              {language === 'zh'
+                ? '大多数贡献者只需要看左侧总览图和上面的文字规则。遇到具体问题时，再打开下面对应的图。'
+                : 'Most contributors only need the overview image and the text rules above. Open a detailed image only when a specific question comes up.'}
+            </p>
+            <div className="mt-4 space-y-2">
+              {contributorGuide.optionalGuides.map((guide, index) => (
+                <a
+                  key={guide.href}
+                  href={guide.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group flex items-start gap-3 rounded-2xl border bg-white p-3 transition hover:-translate-y-0.5"
+                  style={{ borderColor: '#E2E8F0' }}
+                >
+                  <span className="mt-0.5 flex h-7 w-7 shrink-0 items-center justify-center rounded-full text-[11px] font-black text-white" style={{ background: index === 0 ? '#16A34A' : index === 1 ? '#F97316' : '#2563EB' }}>
+                    {index + 1}
+                  </span>
+                  <span className="min-w-0">
+                    <span className="block text-xs font-black" style={{ color: '#0F172A' }}>{guide.title}</span>
+                    <span className="mt-0.5 block text-[11px] font-semibold leading-5" style={{ color: '#64748B' }}>{guide.desc}</span>
+                  </span>
+                  <ExternalLink className="ml-auto mt-0.5 shrink-0 opacity-50 transition group-hover:opacity-100" size={14} />
+                </a>
+              ))}
+            </div>
+          </div>
+        </div>
+
+        <div className="mt-6 flex flex-col gap-3 border-t pt-5 sm:flex-row sm:items-center sm:justify-between" style={{ borderColor: '#E2E8F0' }}>
+          <div className="flex items-start gap-3">
+            <CheckCircle2 className="mt-0.5 shrink-0" size={18} style={{ color: '#059669' }} />
+            <p className="text-xs font-semibold leading-6" style={{ color: '#64748B' }}>
+              {language === 'zh'
+                ? 'Hub 只接入标准数据出口，不执行外部仓库脚本；外部联邦节点默认通过公开 JSON 和定时同步接入。'
+                : 'The Hub consumes standard data exports and does not execute external repository scripts; external nodes are synced through public JSON by default.'}
+            </p>
+          </div>
+          <div className="flex shrink-0 flex-wrap gap-2">
+            <a
+              href="https://github.com/Just-Agent/just-ddl#%E6%96%B0%E4%B8%93%E9%A2%98%E5%A6%82%E4%BD%95%E5%8A%A0%E5%85%A5%E7%BD%91%E7%BB%9C"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center gap-2 rounded-2xl border bg-white px-4 py-2.5 text-xs font-black transition hover:-translate-y-0.5"
+              style={{ borderColor: '#CBD5E1', color: '#0F172A' }}
+            >
+              {contributorGuide.docs}<ExternalLink size={14} />
+            </a>
+            <a
+              href="https://github.com/Just-Agent/just-ddl/compare"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center gap-2 rounded-2xl px-4 py-2.5 text-xs font-black text-white transition hover:-translate-y-0.5"
+              style={{ background: '#2563EB' }}
+            >
+              {contributorGuide.action}<ArrowRight size={14} />
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section className="mt-8 overflow-hidden rounded-3xl border bg-white p-6 shadow-sm sm:p-8" style={{ borderColor: '#E2E8F0' }}>
         <div className="flex flex-col gap-5 sm:flex-row sm:items-center sm:justify-between">
           <div>
             <h3 className="text-xl font-black" style={{ color: '#0F172A' }}>{copy.home.ctaTitle}</h3>
             <p className="mt-2 max-w-2xl text-sm leading-6" style={{ color: '#64748B' }}>{copy.home.ctaCopy}</p>
           </div>
           <a
-            href="https://github.com/Just-Agent/just-ddl/issues/new?template=new-topic.yml"
+            href="https://github.com/Just-Agent/just-ddl/compare"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex shrink-0 items-center justify-center gap-2 rounded-2xl px-5 py-3 text-sm font-black text-white transition hover:-translate-y-0.5"
@@ -312,3 +468,4 @@ export default function Home() {
     </div>
   );
 }
+

@@ -191,14 +191,42 @@ npm run build
 
 ## 新专题如何加入网络
 
-新增专题推荐走这个流程：
+> 如果你要新增一个 DDL 专题，请先创建独立 `xxx-ddl` 仓库并发布 GitHub Pages，再向 `Just-Agent/just-ddl` 提交 PR 注册专题。Just-DDL Hub 不直接托管所有专题数据，而是接入各专题仓库的标准数据出口。
 
-1. 先在 Hub 提 Proposal，说明专题名、数据源、更新频率、是否需要子专题。
-2. 使用统一模板创建独立仓库，例如 `robotics-ddl`、`sports-ddl`、`game-ddl`。
-3. 在专题仓库补齐 `README.md`、`index.html`、`data/items.json`、`data/sources.json`。
-4. 增加 `crawler`、`validator`、`link-check` 和 Node 24 Actions。
-5. 在 Hub 注册专题元数据。
-6. 专题更新成功后用 `repository_dispatch` 通知 Hub 同步。
+先记住一个原则：**新增专题默认走外部联邦节点**。朋友或团队先在自己的账号维护 `friend/xxx-ddl`，Hub 只接入它的 Pages / JSON；等专题长期稳定、质量可靠、确实适合作为核心专题时，再考虑转移到 `Just-Agent` 组织做官方托管。
+
+| 你想做什么 | 应该 PR 哪个仓库 | 说明 |
+| --- | --- | --- |
+| 改 Hub 首页、主题广场、我的 DDL、小程序数据出口 | `Just-Agent/just-ddl` | 这是总入口和聚合层 |
+| 改已有专题的数据或页面 | 对应专题仓库 | 例如 `sports-ddl`、`game-ddl`、`journal-ddl` |
+| 新增完整专题 | 先建自己的 `xxx-ddl`，再 PR `Just-Agent/just-ddl` | PR 里提交注册信息，不要把大量专题数据直接塞进 Hub |
+| 改微信小程序 | `Just-Agent/just-ddl-miniprogram` | 小程序是独立仓库 |
+
+新增专题的最小接入流程：
+
+1. 在自己的 GitHub 账号下创建公开仓库，例如 `friend/robotics-ddl`。
+2. 准备 `README.md`、`data/items.json`、`data/sources.json`，并尽量补齐 `crawler`、`validator`、`link-check`。
+3. 发布 GitHub Pages，确保专题页面和 JSON 数据出口可以公开访问。
+4. 向 `Just-Agent/just-ddl` 提交 PR，只注册专题名、仓库地址、Pages 地址、数据出口、分类、标签和维护者说明。
+5. Hub 校验通过后展示该专题；专题数据继续由原仓库维护。
+
+### 图文教程怎么读
+
+图片内容比较多，不需要每张都先看。多数贡献者只要看下面这张总览图，再按文字规则操作即可。
+
+<p align="center">
+  <img src="public/assets/contributor-guide/justddl-three-modes-01.png" alt="Just-DDL 三种接入模式总览" width="860">
+</p>
+
+如果还是不确定，再按问题打开对应图：
+
+| 问题 | 该看哪张图 |
+| --- | --- |
+| 我只是想新增一个专题，仓库还在自己账号下 | [外部联邦节点](public/assets/contributor-guide/justddl-three-modes-02.png) |
+| 要不要让 Just-Agent fork 一份 | [fork 镜像边界](public/assets/contributor-guide/justddl-three-modes-03.png) |
+| 什么时候转成官方托管仓库 | [官方 transfer 节点](public/assets/contributor-guide/justddl-three-modes-04.png) |
+| 完全不熟悉开源 PR 流程 | [从 Idea 到 PR 被采纳](public/assets/contributor-guide/open-source-pr-flow.jpg) |
+| 想看旧版 4 步操作图 | [PR 哪个仓库](public/assets/contributor-guide/federated-pr-01.jpg) · [新建专题仓库](public/assets/contributor-guide/federated-pr-02.jpg) · [发布和提交 PR](public/assets/contributor-guide/federated-pr-03.jpg) · [合并后维护](public/assets/contributor-guide/federated-pr-04.jpg) |
 
 ## README 视觉资产
 
@@ -207,10 +235,15 @@ README 顶部使用两类仓库自有资产，避免依赖私有路径或外部�
 ```text
 docs/assets/readme/just-ddl-logo.svg
 docs/assets/readme/federated-network.png
+public/assets/contributor-guide/justddl-three-modes-01.png
+public/assets/contributor-guide/justddl-three-modes-02.png
+public/assets/contributor-guide/justddl-three-modes-03.png
+public/assets/contributor-guide/justddl-three-modes-04.png
 ```
 
 - `just-ddl-logo.svg` 是 Just-DDL 的顶部品牌 logo：日历代表 DDL，连接节点代表多仓库联邦网络。
 - `federated-network.png` 由本地 `just-thumbnail` 工作流生成：先抓取线上 Hub 的桌面、平板、手机截图，再合成为联邦网络预览图。
+- `public/assets/contributor-guide/*` 是贡献者说明图文教程；README 和网站共用，但默认只展示总览图，其余作为需要时再打开的解释材料。
 
 ## License
 
