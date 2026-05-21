@@ -306,6 +306,27 @@ export const topics: Topic[] = [
     ]
   },
   {
+    "id": "civil-service-ddl",
+    "name": "Civil Service",
+    "description": "公务员、事业单位、选调生、遴选和基层项目报名、笔试、面试节点追踪",
+    "icon": "GraduationCap",
+    "color": "#4F46E5",
+    "repo": "pengpoom/civil-service-ddl",
+    "site": "https://pengpoom.github.io/civil-service-ddl/",
+    "status": "published",
+    "sourceMode": "external",
+    "maintainer": "pengpoom",
+    "dataUrl": "https://raw.githubusercontent.com/pengpoom/civil-service-ddl/main/data/items.json",
+    "itemCount": 27,
+    "category": "考试申请",
+    "tags": [
+      "公务员",
+      "事业单位",
+      "选调生",
+      "遴选"
+    ]
+  },
+  {
     "id": "game-dev-ddl",
     "name": "Game Dev",
     "description": "Game Jam、独立游戏节、学生游戏竞赛、引擎挑战和作品提交截止日",

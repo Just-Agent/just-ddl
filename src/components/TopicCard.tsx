@@ -32,7 +32,8 @@ const iconMap: Record<string, LucideIcon> = {
 
 const dayMs = 24 * 60 * 60 * 1000;
 
-function shortCountdown(deadline: string, language: 'zh' | 'en') {
+function shortCountdown(deadline: string, language: 'zh' | 'en', isPlaceholder = false) {
+  if (isPlaceholder) return language === 'zh' ? '待公告' : 'TBA';
   const time = new Date(deadline).getTime();
   if (!Number.isFinite(time)) return '-';
 
@@ -160,7 +161,7 @@ export default function TopicCard({ topic, index }: { topic: Topic; index: numbe
           <div className="rounded-2xl border bg-slate-50 p-3" style={{ borderColor: '#E2E8F0' }}>
             <Clock3 size={14} style={{ color: topic.color }} />
             <p className="mt-2 truncate text-lg font-black" style={{ color: '#0F172A' }}>
-              {metrics.next ? shortCountdown(metrics.next.deadline, language) : '-'}
+              {metrics.next ? shortCountdown(metrics.next.deadline, language, metrics.next.isDatePlaceholder === true) : '-'}
             </p>
             <p className="text-[11px] font-bold" style={{ color: '#64748B' }}>{copy.topicCard.next}</p>
           </div>

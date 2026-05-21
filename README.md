@@ -123,6 +123,7 @@ flowchart TB
 | 期刊专题 | [journal-ddl](https://github.com/Just-Agent/journal-ddl) | [访问](https://just-agent.github.io/journal-ddl/) | crawler + validator + link-check |
 | 编程竞赛 | [programming-ddl](https://github.com/Just-Agent/programming-ddl) | [访问](https://just-agent.github.io/programming-ddl/) | 独立 Actions |
 | 节假日 | [holiday-ddl](https://github.com/Just-Agent/holiday-ddl) | [访问](https://just-agent.github.io/holiday-ddl/) | 独立 Actions |
+| 考公考编 | [civil-service-ddl](https://github.com/pengpoom/civil-service-ddl) | [访问](https://pengpoom.github.io/civil-service-ddl/) | 外部联邦专题 + 定时更新 |
 | 体育赛事 | [sports-ddl](https://github.com/Just-Agent/sports-ddl) | [访问](https://just-agent.github.io/sports-ddl/) | crawler + validator + link-check |
 | 电竞赛事 | [game-ddl](https://github.com/Just-Agent/game-ddl) | [访问](https://just-agent.github.io/game-ddl/) | crawler + validator + link-check |
 
@@ -239,6 +240,8 @@ node scripts/validate-contrib-topics.mjs
 ```
 
 适合新手的路线是：先把少量静态数据放进 `public/contrib-topics/{topicId}`，等专题稳定后再迁出独立仓库。能长期维护专题的贡献者，仍然推荐直接走独立 `xxx-ddl` 仓库路线。
+
+`public/contrib-topics/civil-service-ddl/` 保留了 PR #1 的规范化样例：它展示了“先用官方入口占位、日期显示待官方公告、成熟后接入外部仓库”的完整数据形态。正式展示数据仍来自 `pengpoom/civil-service-ddl` 的公开 `data/items.json`。
 
 ### 新增专题仓库规范
 

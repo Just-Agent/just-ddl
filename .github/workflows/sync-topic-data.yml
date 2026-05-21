@@ -34,6 +34,8 @@ jobs:
       - uses: actions/setup-node@v6
         with:
           node-version: '24'
+      - name: Validate incubator topic payloads
+        run: node scripts/validate-contrib-topics.mjs
       - name: Sync child topic data
         run: node scripts/sync-topic-data.mjs
         env:

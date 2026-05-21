@@ -211,6 +211,7 @@ function writeData(ddlData) {
   stage?: string;
   source?: string;
   type?: 'conference' | 'journal' | 'challenge' | 'hackathon' | 'holiday' | 'contest' | 'program';
+  isDatePlaceholder?: boolean;
 }
 
 export const ddlData: Record<string, DDLItem[]> = ${JSON.stringify(ddlData, null, 2)};

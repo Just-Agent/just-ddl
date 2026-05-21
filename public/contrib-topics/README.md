@@ -9,6 +9,17 @@
 - 只接受静态 JSON，不在 Hub 内运行贡献者自定义 crawler。
 - 稳定后应迁出为独立 `xxx-ddl` 仓库，再由 Hub 注册外部数据出口。
 
+## 已采纳示例
+
+`civil-service-ddl/` 是 PR #1 的规范化样例快照。这个专题已经拥有外部仓库
+`pengpoom/civil-service-ddl` 和 GitHub Pages，所以 Hub 的正式入口会接入外部
+`data/items.json`；这里保留同结构 JSON，方便后来者理解“官方入口 + 待公告日期”
+该如何提交。
+
+如果你的专题还没有独立仓库，请把它写进 `registry.json`。如果已经有自己的 Pages
+和 `data/items.json`，请在 Hub 的 `src/data/topics.ts` 注册外部 `repo/site/dataUrl`，
+不要再放进孵化区注册表，避免同一个专题重复出现。
+
 ## 添加一个孵化专题
 
 1. 新建目录：`public/contrib-topics/{topicId}/`，例如 `public/contrib-topics/music-ddl/`。

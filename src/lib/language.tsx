@@ -74,6 +74,10 @@ const topicCopy: Record<string, Record<Language, { name: string; description: st
     zh: { name: '奖学金申请', description: '奖学金、访问学者、暑研、交换项目、博士申请和 fellowship 截止日。' },
     en: { name: 'Scholarships', description: 'Scholarships, visiting programs, summer research, exchange programs, PhD applications, and fellowships.' },
   },
+  'civil-service-ddl': {
+    zh: { name: '考公考编', description: '公务员、事业单位、选调生、遴选和基层项目报名、笔试、面试节点追踪。' },
+    en: { name: 'Civil Service', description: 'Civil service, public institution, selected graduate, public selection, and grassroots program checkpoints.' },
+  },
   'game-dev-ddl': {
     zh: { name: '游戏开发', description: 'Game Jam、独立游戏节、学生游戏竞赛、引擎挑战和作品提交截止日。' },
     en: { name: 'Game Dev', description: 'Game jams, indie festivals, student game competitions, engine challenges, and submission deadlines.' },
@@ -130,6 +134,14 @@ const tagCopy: Record<string, Record<Language, string>> = {
   VALORANT: { zh: 'VALORANT', en: 'VALORANT' },
   CS2: { zh: 'CS2', en: 'CS2' },
   'Dota 2': { zh: 'Dota 2', en: 'Dota 2' },
+  公务员: { zh: '公务员', en: 'civil service' },
+  事业单位: { zh: '事业单位', en: 'public institution' },
+  选调生: { zh: '选调生', en: 'selected graduates' },
+  国考: { zh: '国考', en: 'national exam' },
+  报名: { zh: '报名', en: 'registration' },
+  遴选: { zh: '遴选', en: 'public selection' },
+  选调: { zh: '选调', en: 'selection' },
+  招聘: { zh: '招聘', en: 'recruitment' },
 };
 
 const dictionary = {
@@ -137,7 +149,7 @@ const dictionary = {
     nav: { plaza: '主题广场', my: '我的 DDL', contribute: '接入专题', about: '关于', github: 'GitHub', repo: '仓库' },
     network: {
       roadmap: '路线图',
-      topics: ['黑客松', '智能体', '视觉', 'NLP', '学术', '期刊', '编程', '节假日', '多模态', '安全', '数据', '开源', '机器人', '创业', '设计', '考试', '奖学金', '游戏', '生命科学', '体育', '电竞'],
+      topics: ['黑客松', '智能体', '视觉', 'NLP', '学术', '期刊', '编程', '节假日', '多模态', '安全', '数据', '开源', '机器人', '创业', '设计', '考试', '奖学金', '考公考编', '游戏', '生命科学', '体育', '电竞'],
     },
     home: {
       title: '主题广场',
@@ -251,6 +263,7 @@ const dictionary = {
       official: '官方链接',
       subscribe: '收藏',
       subscribed: '已收藏',
+      awaitingNotice: '待官方公告',
     },
     footer: {
       line: 'Just DDL · 专注每一个截止日 · 社区驱动维护',
@@ -262,7 +275,7 @@ const dictionary = {
     nav: { plaza: 'Topic Plaza', my: 'My DDL', contribute: 'Add Topic', about: 'About', github: 'GitHub', repo: 'Repo' },
     network: {
       roadmap: 'Roadmap',
-      topics: ['Hackathon', 'Agent', 'CV', 'NLP', 'Academic', 'Journal', 'Programming', 'Holiday', 'Multimodal', 'Security', 'Data', 'Open Source', 'Robotics', 'Startup', 'Design', 'Exams', 'Scholarships', 'Game Dev', 'Biotech', 'Sports', 'Esports'],
+      topics: ['Hackathon', 'Agent', 'CV', 'NLP', 'Academic', 'Journal', 'Programming', 'Holiday', 'Multimodal', 'Security', 'Data', 'Open Source', 'Robotics', 'Startup', 'Design', 'Exams', 'Scholarships', 'Civil Service', 'Game Dev', 'Biotech', 'Sports', 'Esports'],
     },
     home: {
       title: 'Topic Plaza',
@@ -376,6 +389,7 @@ const dictionary = {
       official: 'Official link',
       subscribe: 'Save',
       subscribed: 'Saved',
+      awaitingNotice: 'Awaiting notice',
     },
     footer: {
       line: 'Just DDL · Every deadline in focus · Community-maintained',

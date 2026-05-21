@@ -25,6 +25,7 @@ jobs:
         with:
           node-version: '24'
       - run: node scripts/validate-contrib-topics.mjs
+      - run: node scripts/sync-topic-data.mjs
       - run: npm ci
       - run: npm run build
       - uses: actions/configure-pages@v6
