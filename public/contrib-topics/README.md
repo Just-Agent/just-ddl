@@ -11,8 +11,8 @@
 
 ## 已采纳示例
 
-`civil-service-ddl/` 是 PR #1 的规范化样例快照。这个专题已经拥有外部仓库
-`pengpoom/civil-service-ddl` 和 GitHub Pages，所以 Hub 的正式入口会接入外部
+`civil-service-ddl/` 是 [@pengpoom](https://github.com/pengpoom) 在 PR #1 中贡献的规范化样例快照。这个专题已经拥有外部仓库
+`pengpoom/civil-service-ddl` 和 GitHub Pages，并由 @pengpoom 继续维护，所以 Hub 的正式入口会接入外部
 `data/items.json`；这里保留同结构 JSON，方便后来者理解“官方入口 + 待公告日期”
 该如何提交。
 

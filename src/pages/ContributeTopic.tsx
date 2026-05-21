@@ -36,6 +36,8 @@ export default function ContributeTopic() {
           desc: '适合能长期维护专题的贡献者。创建自己的 xxx-ddl 仓库，发布 Pages 和 data/items.json，再向 Hub 注册。',
         },
       ],
+      creditTitle: '已采纳贡献样例',
+      creditIntro: '@pengpoom 首次贡献并维护 civil-service-ddl“考公考编”外部联邦专题。Hub 没有直接合并其写入 src/data/* 的原始 diff，而是规范化为外部仓库接入，并把同结构 JSON 保留在孵化区作为示例。',
       incubatorTitle: 'Hub 孵化区接口',
       incubatorIntro: '孵化区是临时协作入口，不是长期托管。它只接受静态 JSON，不在 Hub 内运行贡献者 crawler。',
       incubatorItems: ['注册表：public/contrib-topics/registry.json', '专题数据：public/contrib-topics/{topicId}/items.json', '来源说明：public/contrib-topics/{topicId}/sources.json', '校验命令：node scripts/validate-contrib-topics.mjs', '成熟后迁出为独立 xxx-ddl 仓库，并从孵化区删除'],
@@ -109,6 +111,8 @@ export default function ContributeTopic() {
           desc: 'For contributors who can maintain a topic long term. Create your own xxx-ddl repository, publish Pages and data/items.json, then register it with the Hub.',
         },
       ],
+      creditTitle: 'Accepted Contribution Example',
+      creditIntro: '@pengpoom first contributed and maintains the civil-service-ddl external federated topic. The Hub did not merge the original src/data/* diff directly; it normalized the topic as an external repository integration and kept the same JSON shape as an incubator example.',
       incubatorTitle: 'Hub incubator interface',
       incubatorIntro: 'The incubator is a temporary collaboration entry, not permanent hosting. It only accepts static JSON and does not run contributor crawlers inside the Hub.',
       incubatorItems: ['Registry: public/contrib-topics/registry.json', 'Topic data: public/contrib-topics/{topicId}/items.json', 'Source notes: public/contrib-topics/{topicId}/sources.json', 'Validation: node scripts/validate-contrib-topics.mjs', 'Migrate to an independent xxx-ddl repository once stable'],
@@ -248,6 +252,21 @@ export default function ContributeTopic() {
             <p className="mt-3 text-sm font-semibold leading-7" style={{ color: '#475569' }}>{route.desc}</p>
           </article>
         ))}
+      </section>
+
+      <section className="mt-8 rounded-3xl border bg-white p-6 shadow-sm" style={{ borderColor: '#D1FAE5' }}>
+        <div className="max-w-3xl">
+          <h2 className="text-2xl font-black" style={{ color: '#0F172A' }}>{copy.creditTitle}</h2>
+          <p className="mt-2 text-sm font-semibold leading-7" style={{ color: '#475569' }}>{copy.creditIntro}</p>
+        </div>
+        <div className="mt-5 flex flex-wrap gap-3">
+          <a href="https://github.com/pengpoom/civil-service-ddl" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 rounded-2xl px-4 py-2 text-xs font-black text-white transition hover:-translate-y-0.5" style={{ background: '#0F766E' }}>
+            civil-service-ddl<ExternalLink size={14} />
+          </a>
+          <a href="https://github.com/Just-Agent/just-ddl/pull/1" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 rounded-2xl border bg-white px-4 py-2 text-xs font-black transition hover:-translate-y-0.5" style={{ borderColor: '#CBD5E1', color: '#0F172A' }}>
+            PR #1<ExternalLink size={14} />
+          </a>
+        </div>
       </section>
 
       <section className="mt-8 rounded-3xl border bg-white p-6 shadow-sm" style={{ borderColor: '#FED7AA' }}>

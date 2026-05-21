@@ -5,6 +5,7 @@
 - 正式专题仓库：`pengpoom/civil-service-ddl`
 - 正式 Pages：`https://pengpoom.github.io/civil-service-ddl/`
 - 正式数据出口：`https://raw.githubusercontent.com/pengpoom/civil-service-ddl/main/data/items.json`
+- 首次贡献者与维护者：[@pengpoom](https://github.com/pengpoom)
 - Hub 注册方式：外部联邦专题，不加入 `public/contrib-topics/registry.json`
 
 这里的 `items.json` 和 `sources.json` 只是贡献范例快照。后续更新以外部仓库的

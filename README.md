@@ -129,6 +129,12 @@ flowchart TB
 
 完整专题列表请在 [主题广场](https://just-agent.github.io/just-ddl/) 查看。
 
+### 贡献者鸣谢
+
+| 贡献者 | 专题 | 贡献方式 |
+| --- | --- | --- |
+| [@pengpoom](https://github.com/pengpoom) | [civil-service-ddl](https://github.com/pengpoom/civil-service-ddl) | 首次贡献并维护“考公考编”外部联邦专题；PR #1 规范化后接入 Hub，并作为孵化区样例保留 |
+
 ## 数据契约
 
 每个专题仓库都尽量保持同一套公开数据契约：
@@ -241,7 +247,7 @@ node scripts/validate-contrib-topics.mjs
 
 适合新手的路线是：先把少量静态数据放进 `public/contrib-topics/{topicId}`，等专题稳定后再迁出独立仓库。能长期维护专题的贡献者，仍然推荐直接走独立 `xxx-ddl` 仓库路线。
 
-`public/contrib-topics/civil-service-ddl/` 保留了 PR #1 的规范化样例：它展示了“先用官方入口占位、日期显示待官方公告、成熟后接入外部仓库”的完整数据形态。正式展示数据仍来自 `pengpoom/civil-service-ddl` 的公开 `data/items.json`。
+`public/contrib-topics/civil-service-ddl/` 保留了 [@pengpoom](https://github.com/pengpoom) 在 PR #1 中贡献的规范化样例：它展示了“先用官方入口占位、日期显示待官方公告、成熟后接入外部仓库”的完整数据形态。正式展示数据仍来自 `pengpoom/civil-service-ddl` 的公开 `data/items.json`。
 
 ### 新增专题仓库规范
 
