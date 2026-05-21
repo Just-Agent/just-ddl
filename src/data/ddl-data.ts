@@ -8974,6 +8974,24 @@ export const ddlData: Record<string, DDLItem[]> = {
       "type": "program"
     },
     {
+      "id": "gsoc-2026-august-17-24-18-00-utc-final-week-gsoc-contributors-submit-their-final-work-prod",
+      "title": "Final week: GSoC contributors submit their final work product and their final mentor evaluation (standard coding period)",
+      "deadline": "2026-08-24T18:00:00Z",
+      "dateRange": "August 17 - 24 - 18:00 UTC",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "GSoC",
+        "open source"
+      ],
+      "url": "https://developers.google.com/open-source/gsoc/timeline?hl=en",
+      "status": "upcoming",
+      "description": "Parsed from the official GSoC 2026 timeline. Deadline event.",
+      "stage": "Deadline",
+      "source": "Google Summer of Code",
+      "type": "program"
+    },
+    {
       "id": "open-source-ddl-lfx-mentorship-spring-2026-08-24",
       "title": "LFX Mentorship Spring",
       "deadline": "2026-08-24T23:59:59",
@@ -8990,24 +9008,6 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
       "stage": "Source board",
       "source": "LFX Mentorship",
-      "type": "program"
-    },
-    {
-      "id": "gsoc-2026-august-17-24-18-00-utc-final-week-gsoc-contributors-submit-their-final-work-prod",
-      "title": "Final week: GSoC contributors submit their final work product and their final mentor evaluation (standard coding period)",
-      "deadline": "2026-08-24T18:00:00Z",
-      "dateRange": "August 17 - 24 - 18:00 UTC",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "GSoC",
-        "open source"
-      ],
-      "url": "https://developers.google.com/open-source/gsoc/timeline?hl=en",
-      "status": "upcoming",
-      "description": "Parsed from the official GSoC 2026 timeline. Deadline event.",
-      "stage": "Deadline",
-      "source": "Google Summer of Code",
       "type": "program"
     },
     {
