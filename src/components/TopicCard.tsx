@@ -72,6 +72,15 @@ function copyFallbackPublished(language: 'zh' | 'en') {
   return language === 'zh' ? '在线' : 'live';
 }
 
+function topicSourceLabel(topic: Topic, language: 'zh' | 'en') {
+  if (topic.sourceMode === 'incubator') return language === 'zh' ? 'Hub 孵化区' : 'Hub incubator';
+  if (topic.sourceMode === 'cluster') {
+    const suffix = language === 'zh' ? '专题族' : 'topic family';
+    return `${topic.repo} · ${suffix}`;
+  }
+  return topic.repo;
+}
+
 export default function TopicCard({ topic, index }: { topic: Topic; index: number }) {
   const { isSubscribed, toggle } = useSubscriptions();
   const { language, copy, topicName, topicDescription, categoryName, tagName } = useLanguage();
@@ -115,7 +124,7 @@ export default function TopicCard({ topic, index }: { topic: Topic; index: numbe
                 <span className="h-2 w-2 shrink-0 rounded-full" style={{ background: status.dot }} />
               </div>
               <p className="mt-1 truncate text-xs font-semibold" style={{ color: '#64748B' }}>
-                {topic.sourceMode === 'incubator' ? (language === 'zh' ? 'Hub 孵化区' : 'Hub incubator') : topic.repo}
+                {topicSourceLabel(topic, language)}
               </p>
             </div>
           </div>

@@ -14,6 +14,8 @@ export interface DDLItem {
   stage?: string;
   source?: string;
   type?: 'conference' | 'journal' | 'challenge' | 'hackathon' | 'holiday' | 'contest' | 'program';
+  sourceUrl?: string;
+  canonicalUrl?: string;
   isDatePlaceholder?: boolean;
 }
 

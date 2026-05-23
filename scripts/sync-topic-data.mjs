@@ -71,6 +71,19 @@ function rawItemsUrl(topic) {
   return `https://raw.githubusercontent.com/${topicOwner(topic)}/${topicRepoName(topic)}/main/data/items.json`;
 }
 
+function topicDataUrl(topic) {
+  if (topic.dataUrl) {
+    const value = String(topic.dataUrl).trim();
+    if (/^https?:\/\//.test(value)) return value;
+    const relativePath = value.replaceAll('\\', '/').replace(/^\.?\//, '');
+    if (!relativePath || relativePath.includes('..')) {
+      throw new Error(`${topic.id}: invalid dataUrl ${topic.dataUrl}`);
+    }
+    return `https://raw.githubusercontent.com/${topicOwner(topic)}/${topicRepoName(topic)}/main/${relativePath}`;
+  }
+  return rawItemsUrl(topic);
+}
+
 function defaultPagesUrl(topic) {
   return `https://${topicOwner(topic).toLowerCase()}.github.io/${topicRepoName(topic)}/`;
 }
@@ -177,7 +190,8 @@ function writeTopics(topics, categories) {
   repo: string;
   site: string;
   status: 'published' | 'demo' | 'incubating';
-  sourceMode?: 'official' | 'external' | 'incubator';
+  sourceMode?: 'official' | 'external' | 'incubator' | 'cluster';
+  clusterId?: string;
   maintainer?: string;
   dataUrl?: string;
   itemCount: number;
@@ -211,6 +225,8 @@ function writeData(ddlData) {
   stage?: string;
   source?: string;
   type?: 'conference' | 'journal' | 'challenge' | 'hackathon' | 'holiday' | 'contest' | 'program';
+  sourceUrl?: string;
+  canonicalUrl?: string;
   isDatePlaceholder?: boolean;
 }
 
@@ -304,6 +320,41 @@ function mergeContribTopics(topics, ddlData) {
   return registry.length;
 }
 
+function validateCrossTopicUniqueness(ddlData) {
+  const itemIds = new Map();
+  const canonicalUrls = new Map();
+  const errors = [];
+
+  for (const [topicId, items] of Object.entries(ddlData)) {
+    if (!Array.isArray(items)) {
+      errors.push(`${topicId}: topic data must be an array`);
+      continue;
+    }
+
+    for (const item of items) {
+      const itemRef = `${topicId}/${item.id || '<missing-id>'}`;
+      if (item.id) {
+        if (itemIds.has(item.id)) {
+          errors.push(`Duplicate item id ${item.id}: ${itemIds.get(item.id)} and ${itemRef}`);
+        } else {
+          itemIds.set(item.id, itemRef);
+        }
+      }
+
+      if (item.canonicalUrl) {
+        const canonicalUrl = String(item.canonicalUrl).trim();
+        if (canonicalUrls.has(canonicalUrl)) {
+          errors.push(`Duplicate canonicalUrl ${canonicalUrl}: ${canonicalUrls.get(canonicalUrl)} and ${itemRef}`);
+        } else {
+          canonicalUrls.set(canonicalUrl, itemRef);
+        }
+      }
+    }
+  }
+
+  if (errors.length) throw new Error(errors.join('\n'));
+}
+
 async function main() {
   const { topics, categories, ddlData } = readModel();
   const contribCount = mergeContribTopics(topics, ddlData);
@@ -317,7 +368,7 @@ async function main() {
   const warnings = [];
 
   for (const topic of targetTopics) {
-    const url = rawItemsUrl(topic);
+    const url = topicDataUrl(topic);
     try {
       const items = normalizeItems(topic, await fetchJson(url));
       ddlData[topic.id] = items;
@@ -337,6 +388,7 @@ async function main() {
     }
   }
 
+  validateCrossTopicUniqueness(ddlData);
   writeTopics(topics, categories);
   writeData(ddlData);
 

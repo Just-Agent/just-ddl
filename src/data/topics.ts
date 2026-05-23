@@ -7,7 +7,8 @@ export interface Topic {
   repo: string;
   site: string;
   status: 'published' | 'demo' | 'incubating';
-  sourceMode?: 'official' | 'external' | 'incubator';
+  sourceMode?: 'official' | 'external' | 'incubator' | 'cluster';
+  clusterId?: string;
   maintainer?: string;
   dataUrl?: string;
   itemCount: number;

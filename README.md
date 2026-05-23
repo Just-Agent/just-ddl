@@ -204,17 +204,20 @@ npm run build
 
 先记住一个原则：**新增专题默认走外部联邦节点**。朋友或团队先在自己的账号维护 `friend/xxx-ddl`，Hub 只接入它的 Pages / JSON；等专题长期稳定、质量可靠、确实适合作为核心专题时，再考虑转移到 `Just-Agent` 组织做官方托管。
 
+如果多个专题非常相近，也可以走 **专题族仓库**：一个仓库负责同一领域的多个 Topic，例如 `game-ddl` 后续同时承载“电竞赛事”和“游戏版本”，`exam-ddl` 后续同时承载“考试考证”和“雅思托福”。仓库名和 Pages 地址不改，Hub 通过每个 Topic 自己的 `dataUrl` 读取独立 JSON。
+
 | 你想做什么 | 应该 PR 哪个仓库 | 说明 |
 | --- | --- | --- |
 | 改 Hub 首页、主题广场、我的 DDL、小程序数据出口 | `Just-Agent/just-ddl` | 这是总入口和聚合层 |
 | 改已有专题的数据或页面 | 对应专题仓库 | 例如 `sports-ddl`、`game-ddl`、`journal-ddl` |
 | 新增完整专题 | 先建自己的 `xxx-ddl`，再 PR `Just-Agent/just-ddl` | PR 里提交注册信息，不要把大量专题数据直接塞进 Hub |
+| 新增相近专题 | 优先复用专题族仓库，再 PR `Just-Agent/just-ddl` | 多个 Topic 可共用同一 `repo`，但必须有各自的 `dataUrl` |
 | 改微信小程序 | `Just-Agent/just-ddl-miniprogram` | 小程序是独立仓库 |
 
 新增专题的最小接入流程：
 
 1. 在自己的 GitHub 账号下创建公开仓库，例如 `friend/robotics-ddl`。
-2. 准备 `README.md`、`data/items.json`、`data/sources.json`，并尽量补齐 `crawler`、`validator`、`link-check`。
+2. 准备 `README.md`、`data/items.json`、`data/sources.json`，并尽量补齐 `crawler`、`validator`、`link-check`；专题族仓库可改为 `data/{topicId}/items.json`。
 3. 发布 GitHub Pages，确保专题页面和 JSON 数据出口可以公开访问。
 4. 向 `Just-Agent/just-ddl` 提交 PR，只注册专题名、仓库地址、Pages 地址、数据出口、分类、标签和维护者说明。
 5. Hub 校验通过后展示该专题；专题数据继续由原仓库维护。
@@ -256,8 +259,8 @@ node scripts/validate-contrib-topics.mjs
 | 规范 | 要求 |
 | --- | --- |
 | 仓库命名 | 使用 `xxx-ddl`，例如 `music-ddl`、`finance-ddl`、`robotics-ddl` |
-| 专题边界 | 一个仓库只维护一个清晰专题，不把多个无关领域混在一起 |
-| 数据出口 | 必须公开 `data/items.json`，主分支默认是 `main` |
+| 专题边界 | 一个仓库维护一个清晰专题，或维护一组相近专题族；不要把多个无关领域混在一起 |
+| 数据出口 | 必须公开 `data/items.json`；专题族仓库可为每个 Topic 暴露 `data/{topicId}/items.json` |
 | 必填字段 | 每条 DDL 至少有 `id`、`title`、`deadline`、`url`、`source` |
 | 推荐字段 | `dateRange`、`location`、`isOnline`、`tags`、`status`、`stage`、`type`、`description`、`subtopic`、`previewImage` |
 | 数据来源 | 优先官方/主办方/权威聚合来源，`url` 必须可公开访问 |
@@ -270,6 +273,22 @@ Hub 默认读取：
 ```text
 https://raw.githubusercontent.com/owner/xxx-ddl/main/data/items.json
 ```
+
+专题族仓库注册时请显式填写 `sourceMode: 'cluster'`、`clusterId` 和 `dataUrl`：
+
+```ts
+{
+  id: 'game-version-ddl',
+  name: 'Game Versions',
+  repo: 'Just-Agent/game-ddl',
+  site: 'https://just-agent.github.io/game-ddl/#game-version-ddl',
+  sourceMode: 'cluster',
+  clusterId: 'game-ddl',
+  dataUrl: 'data/game-version-ddl/items.json'
+}
+```
+
+同步脚本会优先读取 `dataUrl`；如果没有 `dataUrl`，才回退到仓库默认 `data/items.json`。跨 Topic 的 `item.id` 必须全网唯一；如果条目使用 `canonicalUrl`，也必须全网唯一。
 
 ### 如何拿已有子专题当模板
 

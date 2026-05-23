@@ -25,8 +25,12 @@ export default function ContributeTopic() {
       submitItems: ['专题名、中文/英文描述、分类、标签、图标/颜色', '仓库地址：friend/xxx-ddl', 'Pages 地址：专题页面入口', '数据出口：data/items.json 或等价公开 JSON', '维护者信息、更新频率、数据来源说明'],
       notTitle: '不要这样做',
       notItems: ['不要把大量专题数据直接提交进 just-ddl Hub', '不要要求 Hub 执行外部仓库里的脚本', '不要把 fork 当成长期官方托管', '不要用不可公开访问的私有数据源作为默认入口'],
-      routesTitle: '新增专题有两条路线',
+      routesTitle: '新增专题有三条路线',
       routes: [
+        {
+          title: '专题族路线：相近专题共用仓库',
+          desc: '适合演唱会/影视、手机/汽车、考试/雅思托福这类相近主题。一个仓库可以输出多个 dataUrl，Hub 用不同 Topic 注册到同一 repo。',
+        },
         {
           title: '新手路线：Hub 孵化区',
           desc: '适合基础薄弱、暂时不会独立建仓库的贡献者。把少量静态 JSON 提交到 public/contrib-topics/{topicId}，最多 5 个孵化专题、每个最多 50 条。',
@@ -45,7 +49,7 @@ export default function ContributeTopic() {
       standardsIntro: '新增专题仓库不需要和 Just-Agent 完全同款，但必须能被 Hub 稳定消费、能被人审查、能长期维护。',
       standards: [
         '仓库名使用 xxx-ddl，例如 music-ddl、finance-ddl、robotics-ddl；专题边界要清楚，不要把多个无关领域混在一个仓库。',
-        '必须公开 `data/items.json`，主分支为 `main`，Hub 默认读取 `https://raw.githubusercontent.com/owner/xxx-ddl/main/data/items.json`。',
+        '必须公开 `data/items.json`，主分支为 `main`。专题族仓库可以为不同专题提供 `data/{topicId}/items.json`，并在 Hub Topic 里填写 `dataUrl`。',
         '`items.json` 至少包含 `id/title/deadline/url/source`，建议补齐 `dateRange/location/isOnline/tags/status/stage/type/description/subtopic/previewImage`。',
         '每条 DDL 优先使用官方/主办方/权威聚合来源，`url` 必须可公开访问；不确定的信息要在 `source` 或 `description` 里说明。',
         '建议保留 `data/sources.json`、`scripts/validate-data.mjs`、`scripts/link-check.mjs`、`scripts/crawl-sources.mjs` 和 `.github/workflows/update-data.yml`。',
@@ -64,8 +68,9 @@ export default function ContributeTopic() {
       hubItems: [
         '在 Just-Agent/just-ddl 提交 PR，通常只注册专题元数据，不提交整份专题数据。',
         '在 `src/data/topics.ts` 新增一条 Topic：`id/name/description/icon/color/repo/site/status/category/tags`。',
-        '`repo` 可以是外部仓库，例如 `friend/music-ddl`；`site` 写你的 Pages 地址，例如 `https://friend.github.io/music-ddl/`。',
-        'Hub 同步时会读取你仓库的 `data/items.json`，并用 `itemCount`、搜索、主题广场和小程序数据出口消费它。',
+        '`repo` 可以是外部仓库，例如 `friend/music-ddl`；也可以多个 Topic 共用同一个专题族仓库，例如 `Just-Agent/game-ddl`。',
+        '默认读取仓库 `data/items.json`；如果是专题族仓库，请补 `sourceMode: "cluster"`、`clusterId` 和 `dataUrl` 指向该专题自己的公开 JSON。',
+        'Hub 同步时会读取 `dataUrl` 或默认数据出口，并用 `itemCount`、搜索、主题广场和小程序数据出口消费它。',
         'PR 描述里贴上 Pages 地址、raw JSON 地址、数据来源说明、更新频率和维护者联系方式。',
       ],
       skillTitle: '可以用仓库自带 skill 辅助接入',
@@ -100,8 +105,12 @@ export default function ContributeTopic() {
       submitItems: ['Topic name, bilingual description, category, tags, icon/color', 'Repository URL: friend/xxx-ddl', 'Pages URL: topic page entry', 'Data export: data/items.json or equivalent public JSON', 'Maintainer, update frequency, and source notes'],
       notTitle: 'Do not do this',
       notItems: ['Do not submit large topic datasets directly into the Hub', 'Do not ask the Hub to execute scripts from external repositories', 'Do not treat a fork as long-term official hosting', 'Do not rely on private data sources as the default entry'],
-      routesTitle: 'Two ways to add a topic',
+      routesTitle: 'Three ways to add a topic',
       routes: [
+        {
+          title: 'Topic family route: one repo, related topics',
+          desc: 'For related topics such as concerts/movies, phones/cars, or exams/IELTS. One repository can expose multiple dataUrl exports, and the Hub registers them as separate Topics.',
+        },
         {
           title: 'Beginner route: Hub incubator',
           desc: 'For contributors who are not ready to maintain a separate repository. Submit small static JSON under public/contrib-topics/{topicId}; up to 5 incubator topics and 50 items each.',
@@ -120,7 +129,7 @@ export default function ContributeTopic() {
       standardsIntro: 'A topic repository does not need to copy Just-Agent exactly, but it must be stable, reviewable, and easy for the Hub to consume.',
       standards: [
         'Use an xxx-ddl repository name, such as music-ddl, finance-ddl, or robotics-ddl. Keep the topic boundary clear.',
-        'Expose public `data/items.json` on the `main` branch. The Hub reads `https://raw.githubusercontent.com/owner/xxx-ddl/main/data/items.json` by default.',
+        'Expose public `data/items.json` on the `main` branch. Topic-family repositories can expose `data/{topicId}/items.json` and set `dataUrl` in the Hub Topic.',
         '`items.json` must include `id/title/deadline/url/source`; recommended fields are `dateRange/location/isOnline/tags/status/stage/type/description/subtopic/previewImage`.',
         'Prefer official organizer or authoritative aggregate sources. `url` must be public, and uncertain information should be explained in `source` or `description`.',
         'Recommended files: `data/sources.json`, `scripts/validate-data.mjs`, `scripts/link-check.mjs`, `scripts/crawl-sources.mjs`, and `.github/workflows/update-data.yml`.',
@@ -139,8 +148,9 @@ export default function ContributeTopic() {
       hubItems: [
         'Open a PR to Just-Agent/just-ddl. In most cases, register metadata only; do not submit the entire dataset into the Hub.',
         'Add one Topic entry in `src/data/topics.ts`: `id/name/description/icon/color/repo/site/status/category/tags`.',
-        '`repo` can be external, such as `friend/music-ddl`; `site` should be your Pages URL, such as `https://friend.github.io/music-ddl/`.',
-        'The Hub sync reads your repository `data/items.json` and uses it for item counts, search, Topic Plaza, and mini-program exports.',
+        '`repo` can be external, such as `friend/music-ddl`; multiple Topics can also share one family repository, such as `Just-Agent/game-ddl`.',
+        'The default export is `data/items.json`. For a topic-family repository, add `sourceMode: "cluster"`, `clusterId`, and `dataUrl` pointing to that Topic-specific public JSON.',
+        'The Hub sync reads `dataUrl` or the default export and uses it for item counts, search, Topic Plaza, and mini-program exports.',
         'In the PR description, include Pages URL, raw JSON URL, source notes, update cadence, and maintainer contact.',
       ],
       skillTitle: 'Use the repository skill for onboarding',
@@ -245,7 +255,7 @@ export default function ContributeTopic() {
         </div>
       </section>
 
-      <section className="mt-8 grid gap-5 lg:grid-cols-2">
+      <section className="mt-8 grid gap-5 lg:grid-cols-3">
         {copy.routes.map((route) => (
           <article key={route.title} className="rounded-3xl border bg-white p-6 shadow-sm" style={{ borderColor: '#DBEAFE' }}>
             <h2 className="text-xl font-black" style={{ color: '#0F172A' }}>{route.title}</h2>

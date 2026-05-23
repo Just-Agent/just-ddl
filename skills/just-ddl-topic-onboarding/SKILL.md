@@ -11,9 +11,45 @@ Use this skill when a contributor wants to add a new Just-DDL topic, adapt an ex
 
 1. **Improve Hub**: topic plaza, navigation, Hub sync logic, mini-program exports. Work in `Just-Agent/just-ddl`.
 2. **Improve Existing Topic**: data, crawler, validator, link-check, Pages UI for an existing topic. Work in that topic repository.
-3. **Add New Topic**: choose either the Hub incubator for beginner static JSON submissions, or an independent `xxx-ddl` repository for long-term topics.
+3. **Add New Topic**: choose the Hub incubator for beginner static JSON submissions, an independent `xxx-ddl` repository for long-term standalone topics, or a topic-family repository when several closely related Topics share one crawler/UI base.
 
 Do not put a full new topic dataset directly into the Hub.
+
+## Topic-Family Route
+
+Use a topic-family repository when the new Topic is close enough to an existing repository that a separate repo would create needless operational sprawl.
+
+Good fits:
+
+- `game-ddl` can host both esports events and game-version countdowns.
+- `exam-ddl` can host both general exams and IELTS/TOEFL countdowns.
+- A future `entertainment-ddl` can host concerts, movies/TV, theatre, albums, and anime updates.
+
+Rules:
+
+- Do not rename existing repositories or Pages URLs.
+- Each Hub Topic still gets its own `id`, `name`, color, category, tags, and item count.
+- Each Topic must expose its own public JSON export, usually `data/{topicId}/items.json`.
+- In `src/data/topics.ts`, set `sourceMode: 'cluster'`, `clusterId`, and `dataUrl`.
+- Keep `item.id` globally unique. If `canonicalUrl` is present, it must also be globally unique across Topics.
+
+Example Hub entry:
+
+```ts
+{
+  id: 'game-version-ddl',
+  name: 'Game Versions',
+  repo: 'Just-Agent/game-ddl',
+  site: 'https://just-agent.github.io/game-ddl/#game-version-ddl',
+  sourceMode: 'cluster',
+  clusterId: 'game-ddl',
+  dataUrl: 'data/game-version-ddl/items.json',
+  status: 'published',
+  itemCount: 0,
+  category: '电竞赛事',
+  tags: ['game update', 'patch', 'version']
+}
+```
 
 ## Beginner Route: Hub Incubator
 
@@ -116,6 +152,7 @@ Recommended fields: `dateRange`, `location`, `isOnline`, `tags`, `status`, `stag
    - Keep topic data in the topic repository; do not paste all items into the Hub.
    - `repo` may be external, such as `friend/music-ddl`.
    - `site` should be the contributor's Pages URL.
+   - For a topic-family repository, add `sourceMode: 'cluster'`, `clusterId`, and `dataUrl`; otherwise the Hub reads the default `data/items.json`.
 
 Example Hub topic entry:
 
