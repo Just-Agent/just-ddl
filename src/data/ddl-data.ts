@@ -13,7 +13,7 @@ export interface DDLItem {
   description?: string;
   stage?: string;
   source?: string;
-  type?: 'conference' | 'journal' | 'challenge' | 'hackathon' | 'holiday' | 'contest' | 'program';
+  type?: 'conference' | 'journal' | 'challenge' | 'hackathon' | 'holiday' | 'contest' | 'program' | 'release';
   sourceUrl?: string;
   canonicalUrl?: string;
   isDatePlaceholder?: boolean;
@@ -13127,6 +13127,238 @@ export const ddlData: Record<string, DDLItem[]> = {
       "source": "陕西人事考试网",
       "type": "program",
       "isDatePlaceholder": true
+    }
+  ],
+  "game-version-ddl": [
+    {
+      "id": "game-version-ddl-lol-26-11-2026-05-28",
+      "title": "League of Legends Patch 26.11",
+      "deadline": "2026-05-28T23:59:59-07:00",
+      "dateRange": "May 28, 2026 (Pacific Time)",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "英雄联盟",
+        "League of Legends",
+        "patch"
+      ],
+      "url": "https://support-leagueoflegends.riotgames.com/hc/en-us/articles/360018987893-Patch-Schedule-League-of-Legends",
+      "status": "upcoming",
+      "description": "Riot 官方 2026 League of Legends patch schedule 中的版本发布日期。具体上线时间以官方客户端与公告为准。",
+      "stage": "Version release",
+      "source": "League of Legends Support",
+      "sourceUrl": "https://support-leagueoflegends.riotgames.com/hc/en-us/articles/360018987893-Patch-Schedule-League-of-Legends",
+      "canonicalUrl": "https://support-leagueoflegends.riotgames.com/hc/en-us/articles/360018987893-Patch-Schedule-League-of-Legends#26-11",
+      "type": "release",
+      "subtopic": "league-of-legends",
+      "subtopicName": "英雄联盟"
+    },
+    {
+      "id": "game-version-ddl-tft-tft17-4-2026-05-28",
+      "title": "Teamfight Tactics Patch TFT17.4",
+      "deadline": "2026-05-28T23:59:59-07:00",
+      "dateRange": "May 28, 2026 (Pacific Time)",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "云顶之弈",
+        "Teamfight Tactics",
+        "patch"
+      ],
+      "url": "https://support-teamfighttactics.riotgames.com/hc/en-us/articles/37127675562387-Patch-Schedule-Teamfight-Tactics",
+      "status": "upcoming",
+      "description": "Riot 官方 2026 Teamfight Tactics patch schedule 中的版本发布日期。具体上线时间以官方客户端与公告为准。",
+      "stage": "Version release",
+      "source": "Teamfight Tactics Support",
+      "sourceUrl": "https://support-teamfighttactics.riotgames.com/hc/en-us/articles/37127675562387-Patch-Schedule-Teamfight-Tactics",
+      "canonicalUrl": "https://support-teamfighttactics.riotgames.com/hc/en-us/articles/37127675562387-Patch-Schedule-Teamfight-Tactics#tft17-4",
+      "type": "release",
+      "subtopic": "teamfight-tactics",
+      "subtopicName": "云顶之弈"
+    },
+    {
+      "id": "game-version-ddl-lol-26-12-2026-06-10",
+      "title": "League of Legends Patch 26.12",
+      "deadline": "2026-06-10T23:59:59-07:00",
+      "dateRange": "June 10, 2026 (Pacific Time)",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "英雄联盟",
+        "League of Legends",
+        "patch"
+      ],
+      "url": "https://support-leagueoflegends.riotgames.com/hc/en-us/articles/360018987893-Patch-Schedule-League-of-Legends",
+      "status": "upcoming",
+      "description": "Riot 官方 2026 League of Legends patch schedule 中的版本发布日期。具体上线时间以官方客户端与公告为准。",
+      "stage": "Version release",
+      "source": "League of Legends Support",
+      "sourceUrl": "https://support-leagueoflegends.riotgames.com/hc/en-us/articles/360018987893-Patch-Schedule-League-of-Legends",
+      "canonicalUrl": "https://support-leagueoflegends.riotgames.com/hc/en-us/articles/360018987893-Patch-Schedule-League-of-Legends#26-12",
+      "type": "release",
+      "subtopic": "league-of-legends",
+      "subtopicName": "英雄联盟"
+    },
+    {
+      "id": "game-version-ddl-tft-tft17-5-2026-06-10",
+      "title": "Teamfight Tactics Patch TFT17.5",
+      "deadline": "2026-06-10T23:59:59-07:00",
+      "dateRange": "June 10, 2026 (Pacific Time)",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "云顶之弈",
+        "Teamfight Tactics",
+        "patch"
+      ],
+      "url": "https://support-teamfighttactics.riotgames.com/hc/en-us/articles/37127675562387-Patch-Schedule-Teamfight-Tactics",
+      "status": "upcoming",
+      "description": "Riot 官方 2026 Teamfight Tactics patch schedule 中的版本发布日期。具体上线时间以官方客户端与公告为准。",
+      "stage": "Version release",
+      "source": "Teamfight Tactics Support",
+      "sourceUrl": "https://support-teamfighttactics.riotgames.com/hc/en-us/articles/37127675562387-Patch-Schedule-Teamfight-Tactics",
+      "canonicalUrl": "https://support-teamfighttactics.riotgames.com/hc/en-us/articles/37127675562387-Patch-Schedule-Teamfight-Tactics#tft17-5",
+      "type": "release",
+      "subtopic": "teamfight-tactics",
+      "subtopicName": "云顶之弈"
+    },
+    {
+      "id": "game-version-ddl-lol-26-13-2026-06-24",
+      "title": "League of Legends Patch 26.13",
+      "deadline": "2026-06-24T23:59:59-07:00",
+      "dateRange": "June 24, 2026 (Pacific Time)",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "英雄联盟",
+        "League of Legends",
+        "patch"
+      ],
+      "url": "https://support-leagueoflegends.riotgames.com/hc/en-us/articles/360018987893-Patch-Schedule-League-of-Legends",
+      "status": "upcoming",
+      "description": "Riot 官方 2026 League of Legends patch schedule 中的版本发布日期。具体上线时间以官方客户端与公告为准。",
+      "stage": "Version release",
+      "source": "League of Legends Support",
+      "sourceUrl": "https://support-leagueoflegends.riotgames.com/hc/en-us/articles/360018987893-Patch-Schedule-League-of-Legends",
+      "canonicalUrl": "https://support-leagueoflegends.riotgames.com/hc/en-us/articles/360018987893-Patch-Schedule-League-of-Legends#26-13",
+      "type": "release",
+      "subtopic": "league-of-legends",
+      "subtopicName": "英雄联盟"
+    },
+    {
+      "id": "game-version-ddl-tft-tft17-6-2026-06-24",
+      "title": "Teamfight Tactics Patch TFT17.6",
+      "deadline": "2026-06-24T23:59:59-07:00",
+      "dateRange": "June 24, 2026 (Pacific Time)",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "云顶之弈",
+        "Teamfight Tactics",
+        "patch"
+      ],
+      "url": "https://support-teamfighttactics.riotgames.com/hc/en-us/articles/37127675562387-Patch-Schedule-Teamfight-Tactics",
+      "status": "upcoming",
+      "description": "Riot 官方 2026 Teamfight Tactics patch schedule 中的版本发布日期。具体上线时间以官方客户端与公告为准。",
+      "stage": "Version release",
+      "source": "Teamfight Tactics Support",
+      "sourceUrl": "https://support-teamfighttactics.riotgames.com/hc/en-us/articles/37127675562387-Patch-Schedule-Teamfight-Tactics",
+      "canonicalUrl": "https://support-teamfighttactics.riotgames.com/hc/en-us/articles/37127675562387-Patch-Schedule-Teamfight-Tactics#tft17-6",
+      "type": "release",
+      "subtopic": "teamfight-tactics",
+      "subtopicName": "云顶之弈"
+    },
+    {
+      "id": "game-version-ddl-lol-26-14-2026-07-15",
+      "title": "League of Legends Patch 26.14",
+      "deadline": "2026-07-15T23:59:59-07:00",
+      "dateRange": "July 15, 2026 (Pacific Time)",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "英雄联盟",
+        "League of Legends",
+        "patch"
+      ],
+      "url": "https://support-leagueoflegends.riotgames.com/hc/en-us/articles/360018987893-Patch-Schedule-League-of-Legends",
+      "status": "upcoming",
+      "description": "Riot 官方 2026 League of Legends patch schedule 中的版本发布日期。具体上线时间以官方客户端与公告为准。",
+      "stage": "Version release",
+      "source": "League of Legends Support",
+      "sourceUrl": "https://support-leagueoflegends.riotgames.com/hc/en-us/articles/360018987893-Patch-Schedule-League-of-Legends",
+      "canonicalUrl": "https://support-leagueoflegends.riotgames.com/hc/en-us/articles/360018987893-Patch-Schedule-League-of-Legends#26-14",
+      "type": "release",
+      "subtopic": "league-of-legends",
+      "subtopicName": "英雄联盟"
+    },
+    {
+      "id": "game-version-ddl-tft-tft17-7-2026-07-15",
+      "title": "Teamfight Tactics Patch TFT17.7",
+      "deadline": "2026-07-15T23:59:59-07:00",
+      "dateRange": "July 15, 2026 (Pacific Time)",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "云顶之弈",
+        "Teamfight Tactics",
+        "patch"
+      ],
+      "url": "https://support-teamfighttactics.riotgames.com/hc/en-us/articles/37127675562387-Patch-Schedule-Teamfight-Tactics",
+      "status": "upcoming",
+      "description": "Riot 官方 2026 Teamfight Tactics patch schedule 中的版本发布日期。具体上线时间以官方客户端与公告为准。",
+      "stage": "Version release",
+      "source": "Teamfight Tactics Support",
+      "sourceUrl": "https://support-teamfighttactics.riotgames.com/hc/en-us/articles/37127675562387-Patch-Schedule-Teamfight-Tactics",
+      "canonicalUrl": "https://support-teamfighttactics.riotgames.com/hc/en-us/articles/37127675562387-Patch-Schedule-Teamfight-Tactics#tft17-7",
+      "type": "release",
+      "subtopic": "teamfight-tactics",
+      "subtopicName": "云顶之弈"
+    },
+    {
+      "id": "game-version-ddl-lol-26-15-2026-07-29",
+      "title": "League of Legends Patch 26.15",
+      "deadline": "2026-07-29T23:59:59-07:00",
+      "dateRange": "July 29, 2026 (Pacific Time)",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "英雄联盟",
+        "League of Legends",
+        "patch"
+      ],
+      "url": "https://support-leagueoflegends.riotgames.com/hc/en-us/articles/360018987893-Patch-Schedule-League-of-Legends",
+      "status": "upcoming",
+      "description": "Riot 官方 2026 League of Legends patch schedule 中的版本发布日期。具体上线时间以官方客户端与公告为准。",
+      "stage": "Version release",
+      "source": "League of Legends Support",
+      "sourceUrl": "https://support-leagueoflegends.riotgames.com/hc/en-us/articles/360018987893-Patch-Schedule-League-of-Legends",
+      "canonicalUrl": "https://support-leagueoflegends.riotgames.com/hc/en-us/articles/360018987893-Patch-Schedule-League-of-Legends#26-15",
+      "type": "release",
+      "subtopic": "league-of-legends",
+      "subtopicName": "英雄联盟"
+    },
+    {
+      "id": "game-version-ddl-tft-tft18-1-2026-07-29",
+      "title": "Teamfight Tactics Patch TFT18.1",
+      "deadline": "2026-07-29T23:59:59-07:00",
+      "dateRange": "July 29, 2026 (Pacific Time)",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "云顶之弈",
+        "Teamfight Tactics",
+        "patch"
+      ],
+      "url": "https://support-teamfighttactics.riotgames.com/hc/en-us/articles/37127675562387-Patch-Schedule-Teamfight-Tactics",
+      "status": "upcoming",
+      "description": "Riot 官方 2026 Teamfight Tactics patch schedule 中的版本发布日期。具体上线时间以官方客户端与公告为准。",
+      "stage": "Version release",
+      "source": "Teamfight Tactics Support",
+      "sourceUrl": "https://support-teamfighttactics.riotgames.com/hc/en-us/articles/37127675562387-Patch-Schedule-Teamfight-Tactics",
+      "canonicalUrl": "https://support-teamfighttactics.riotgames.com/hc/en-us/articles/37127675562387-Patch-Schedule-Teamfight-Tactics#tft18-1",
+      "type": "release",
+      "subtopic": "teamfight-tactics",
+      "subtopicName": "云顶之弈"
     }
   ]
 };

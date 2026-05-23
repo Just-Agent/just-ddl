@@ -224,7 +224,7 @@ function writeData(ddlData) {
   description?: string;
   stage?: string;
   source?: string;
-  type?: 'conference' | 'journal' | 'challenge' | 'hackathon' | 'holiday' | 'contest' | 'program';
+  type?: 'conference' | 'journal' | 'challenge' | 'hackathon' | 'holiday' | 'contest' | 'program' | 'release';
   sourceUrl?: string;
   canonicalUrl?: string;
   isDatePlaceholder?: boolean;
@@ -288,6 +288,16 @@ function normalizeContribTopic(topic) {
     },
     items
   };
+}
+
+function matchesDispatchTopic(topic) {
+  if (!ONLY_TOPIC) return true;
+  return (
+    topic.id === ONLY_TOPIC ||
+    topic.clusterId === ONLY_TOPIC ||
+    topicRepoName(topic) === ONLY_TOPIC ||
+    topic.repo === ONLY_TOPIC
+  );
 }
 
 function mergeContribTopics(topics, ddlData) {
@@ -358,7 +368,7 @@ function validateCrossTopicUniqueness(ddlData) {
 async function main() {
   const { topics, categories, ddlData } = readModel();
   const contribCount = mergeContribTopics(topics, ddlData);
-  const targetTopics = topics.filter(topic => topic.sourceMode !== 'incubator' && (!ONLY_TOPIC || topic.id === ONLY_TOPIC));
+  const targetTopics = topics.filter(topic => topic.sourceMode !== 'incubator' && matchesDispatchTopic(topic));
   if (ONLY_TOPIC && targetTopics.length === 0) {
     const incubatorTopic = topics.find(topic => topic.id === ONLY_TOPIC && topic.sourceMode === 'incubator');
     if (!incubatorTopic) throw new Error(`Dispatch topic ${ONLY_TOPIC} is not registered in ${TOPICS_PATH}`);

@@ -50,9 +50,10 @@ Just-DDL 不是把所有截止日、所有爬虫、所有页面都塞进一个�
 
 | 指标 | 当前值 |
 | --- | ---: |
-| 专题仓库 | 21 |
-| GitHub Pages 专题站 | 21 |
-| DDL 条目 | 534 |
+| Hub 专题 | 23 |
+| 专题仓库 | 22 |
+| GitHub Pages 专题站 | 22 |
+| DDL 条目 | 593 |
 | 数据入口 | `src/data/ddl-data.ts` + 各专题 `data/items.json` |
 | 默认语言 | 中文 |
 | 后续入口 | 微信小程序版本即将上线，敬请期待 |
@@ -126,6 +127,7 @@ flowchart TB
 | 考公考编 | [civil-service-ddl](https://github.com/pengpoom/civil-service-ddl) | [访问](https://pengpoom.github.io/civil-service-ddl/) | 外部联邦专题 + 定时更新 |
 | 体育赛事 | [sports-ddl](https://github.com/Just-Agent/sports-ddl) | [访问](https://just-agent.github.io/sports-ddl/) | crawler + validator + link-check |
 | 电竞赛事 | [game-ddl](https://github.com/Just-Agent/game-ddl) | [访问](https://just-agent.github.io/game-ddl/) | crawler + validator + link-check |
+| 游戏版本 | [game-ddl](https://github.com/Just-Agent/game-ddl) | [访问](https://just-agent.github.io/game-ddl/#game-version-ddl) | 专题族数据出口 `data/game-version-ddl/items.json` |
 
 完整专题列表请在 [主题广场](https://just-agent.github.io/just-ddl/) 查看。
 

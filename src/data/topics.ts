@@ -398,6 +398,27 @@ export const topics: Topic[] = [
       "CS2",
       "Dota 2"
     ]
+  },
+  {
+    "id": "game-version-ddl",
+    "name": "Game Versions",
+    "description": "英雄联盟、云顶之弈等游戏版本、补丁和赛季更新时间倒计时。",
+    "icon": "Gamepad2",
+    "color": "#0EA5E9",
+    "repo": "Just-Agent/game-ddl",
+    "site": "https://just-agent.github.io/game-ddl/#game-version-ddl",
+    "status": "published",
+    "sourceMode": "cluster",
+    "clusterId": "game-ddl",
+    "dataUrl": "data/game-version-ddl/items.json",
+    "itemCount": 10,
+    "category": "电竞赛事",
+    "tags": [
+      "game update",
+      "patch",
+      "League of Legends",
+      "Teamfight Tactics"
+    ]
   }
 ];
 
