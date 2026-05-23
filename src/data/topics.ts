@@ -480,6 +480,46 @@ export const topics: Topic[] = [
       "TV",
       "release"
     ]
+  },
+  {
+    "id": "phone-launch-ddl",
+    "name": "Phone Launches",
+    "description": "手机发布会、移动生态发布窗口和官方品牌 source board。",
+    "icon": "Smartphone",
+    "color": "#0EA5E9",
+    "repo": "Just-Agent/consumer-launch-ddl",
+    "site": "https://just-agent.github.io/consumer-launch-ddl/#phone-launch-ddl",
+    "status": "published",
+    "sourceMode": "cluster",
+    "clusterId": "consumer-launch-ddl",
+    "dataUrl": "data/phone-launch-ddl/items.json",
+    "itemCount": 5,
+    "category": "消费发布",
+    "tags": [
+      "smartphone",
+      "launch",
+      "mobile"
+    ]
+  },
+  {
+    "id": "car-launch-ddl",
+    "name": "Car Launches",
+    "description": "汽车发布、官方车展、媒体日和新车/出行产品发布窗口。",
+    "icon": "Car",
+    "color": "#F59E0B",
+    "repo": "Just-Agent/consumer-launch-ddl",
+    "site": "https://just-agent.github.io/consumer-launch-ddl/#car-launch-ddl",
+    "status": "published",
+    "sourceMode": "cluster",
+    "clusterId": "consumer-launch-ddl",
+    "dataUrl": "data/car-launch-ddl/items.json",
+    "itemCount": 7,
+    "category": "消费发布",
+    "tags": [
+      "car",
+      "auto show",
+      "vehicle launch"
+    ]
   }
 ];
 

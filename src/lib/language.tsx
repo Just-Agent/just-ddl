@@ -102,6 +102,14 @@ const topicCopy: Record<string, Record<Language, { name: string; description: st
     zh: { name: '电影电视剧', description: '电影、电视剧、流媒体和动画上映/上线日期倒计时。' },
     en: { name: 'Movies & TV', description: 'Movie, TV, streaming, and animation release-date countdowns.' },
   },
+  'phone-launch-ddl': {
+    zh: { name: '手机发布', description: '手机发布会、移动生态发布窗口和官方品牌 source board。' },
+    en: { name: 'Phone Launches', description: 'Phone launch events, mobile ecosystem launch windows, and official brand source boards.' },
+  },
+  'car-launch-ddl': {
+    zh: { name: '汽车发布', description: '汽车发布、官方车展、媒体日和新车/出行产品发布窗口。' },
+    en: { name: 'Car Launches', description: 'Car launches, official auto shows, media days, and vehicle/mobility product launch windows.' },
+  },
   'biotech-ddl': {
     zh: { name: '生命科学', description: '生物医药、医学影像、基因组、蛋白质设计和健康 AI 挑战截止日。' },
     en: { name: 'Biotech', description: 'Biomedical, medical imaging, genomics, protein design, and health AI challenge deadlines.' },
@@ -127,6 +135,7 @@ const categoryCopy: Record<string, Record<Language, string>> = {
   体育赛事: { zh: '体育赛事', en: 'Sports' },
   电竞赛事: { zh: '电竞赛事', en: 'Esports' },
   文娱生活: { zh: '文娱生活', en: 'Entertainment' },
+  消费发布: { zh: '消费发布', en: 'Consumer Launches' },
 };
 
 const tagCopy: Record<string, Record<Language, string>> = {
@@ -160,6 +169,12 @@ const tagCopy: Record<string, Record<Language, string>> = {
   movie: { zh: '电影', en: 'movie' },
   TV: { zh: '电视剧', en: 'TV' },
   release: { zh: '上映/发布', en: 'release' },
+  smartphone: { zh: '手机', en: 'smartphone' },
+  launch: { zh: '发布', en: 'launch' },
+  mobile: { zh: '移动设备', en: 'mobile' },
+  car: { zh: '汽车', en: 'car' },
+  'auto show': { zh: '车展', en: 'auto show' },
+  'vehicle launch': { zh: '新车发布', en: 'vehicle launch' },
   IELTS: { zh: '雅思', en: 'IELTS' },
   TOEFL: { zh: '托福', en: 'TOEFL' },
   'language test': { zh: '语言考试', en: 'language test' },
@@ -178,7 +193,7 @@ const dictionary = {
     nav: { plaza: '主题广场', my: '我的 DDL', contribute: '接入专题', about: '关于', github: 'GitHub', repo: '仓库' },
     network: {
       roadmap: '路线图',
-      topics: ['黑客松', '智能体', '视觉', 'NLP', '学术', '期刊', '编程', '节假日', '多模态', '安全', '数据', '开源', '机器人', '创业', '设计', '考试', '雅思托福', '奖学金', '考公考编', '游戏开发', '生命科学', '体育', '电竞', '游戏版本', '演唱会', '电影电视剧'],
+      topics: ['黑客松', '智能体', '视觉', 'NLP', '学术', '期刊', '编程', '节假日', '多模态', '安全', '数据', '开源', '机器人', '创业', '设计', '考试', '雅思托福', '奖学金', '考公考编', '游戏开发', '生命科学', '体育', '电竞', '游戏版本', '演唱会', '电影电视剧', '手机发布', '汽车发布'],
     },
     home: {
       title: '主题广场',
@@ -304,7 +319,7 @@ const dictionary = {
     nav: { plaza: 'Topic Plaza', my: 'My DDL', contribute: 'Add Topic', about: 'About', github: 'GitHub', repo: 'Repo' },
     network: {
       roadmap: 'Roadmap',
-      topics: ['Hackathon', 'Agent', 'CV', 'NLP', 'Academic', 'Journal', 'Programming', 'Holiday', 'Multimodal', 'Security', 'Data', 'Open Source', 'Robotics', 'Startup', 'Design', 'Exams', 'IELTS & TOEFL', 'Scholarships', 'Civil Service', 'Game Dev', 'Biotech', 'Sports', 'Esports', 'Game Versions', 'Concerts', 'Movies & TV'],
+      topics: ['Hackathon', 'Agent', 'CV', 'NLP', 'Academic', 'Journal', 'Programming', 'Holiday', 'Multimodal', 'Security', 'Data', 'Open Source', 'Robotics', 'Startup', 'Design', 'Exams', 'IELTS & TOEFL', 'Scholarships', 'Civil Service', 'Game Dev', 'Biotech', 'Sports', 'Esports', 'Game Versions', 'Concerts', 'Movies & TV', 'Phone Launches', 'Car Launches'],
     },
     home: {
       title: 'Topic Plaza',

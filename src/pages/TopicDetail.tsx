@@ -6,6 +6,7 @@ import {
   Bot,
   BookOpen,
   CalendarHeart,
+  Car,
   ChevronDown,
   Clapperboard,
   Code2,
@@ -26,6 +27,7 @@ import {
   RadioTower,
   SlidersHorizontal,
   Sparkles,
+  Smartphone,
   Star,
   Trophy,
   type LucideIcon,
@@ -37,7 +39,7 @@ import DDLCard, { type DDLCardVisualMode } from '@/components/DDLCard';
 import { useLanguage } from '@/lib/language';
 
 const iconMap: Record<string, LucideIcon> = {
-  Trophy, Bot, Eye, MessageSquare, GraduationCap, BookOpen, Code2, CalendarHeart, Layers, Medal, Gamepad2, Music, Clapperboard,
+  Trophy, Bot, Eye, MessageSquare, GraduationCap, BookOpen, Code2, CalendarHeart, Layers, Medal, Gamepad2, Music, Clapperboard, Smartphone, Car,
 };
 
 const dayMs = 24 * 60 * 60 * 1000;
