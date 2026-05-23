@@ -440,6 +440,46 @@ export const topics: Topic[] = [
       "League of Legends",
       "Teamfight Tactics"
     ]
+  },
+  {
+    "id": "concert-ddl",
+    "name": "Concerts",
+    "description": "演唱会、巡演、官方场馆活动和开票/演出日期倒计时。",
+    "icon": "Music",
+    "color": "#F97316",
+    "repo": "Just-Agent/entertainment-ddl",
+    "site": "https://just-agent.github.io/entertainment-ddl/#concert-ddl",
+    "status": "published",
+    "sourceMode": "cluster",
+    "clusterId": "entertainment-ddl",
+    "dataUrl": "data/concert-ddl/items.json",
+    "itemCount": 8,
+    "category": "文娱生活",
+    "tags": [
+      "concert",
+      "live",
+      "ticketing"
+    ]
+  },
+  {
+    "id": "movie-tv-ddl",
+    "name": "Movies & TV",
+    "description": "电影、电视剧、流媒体和动画上映/上线日期倒计时。",
+    "icon": "Clapperboard",
+    "color": "#DB2777",
+    "repo": "Just-Agent/entertainment-ddl",
+    "site": "https://just-agent.github.io/entertainment-ddl/#movie-tv-ddl",
+    "status": "published",
+    "sourceMode": "cluster",
+    "clusterId": "entertainment-ddl",
+    "dataUrl": "data/movie-tv-ddl/items.json",
+    "itemCount": 7,
+    "category": "文娱生活",
+    "tags": [
+      "movie",
+      "TV",
+      "release"
+    ]
   }
 ];
 
@@ -456,7 +496,8 @@ export const categories = [
   "考试申请",
   "生命健康",
   "体育赛事",
-  "电竞赛事"
+  "电竞赛事",
+  "文娱生活"
 ];
 
 export function getTopicById(id: string) { return topics.find(t => t.id === id); }

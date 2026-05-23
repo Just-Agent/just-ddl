@@ -28,6 +28,8 @@
   ·
   <a href="https://just-agent.github.io/just-ddl/#/topic/game-ddl">电竞赛事</a>
   ·
+  <a href="https://just-agent.github.io/just-ddl/#/topic/concert-ddl">文娱生活</a>
+  ·
   <a href="https://just-agent.github.io/just-ddl/#/topic/journal-ddl">期刊专题</a>
 </p>
 
@@ -50,10 +52,10 @@ Just-DDL 不是把所有截止日、所有爬虫、所有页面都塞进一个�
 
 | 指标 | 当前值 |
 | --- | ---: |
-| Hub 专题 | 24 |
-| 专题仓库 | 22 |
-| GitHub Pages 专题站 | 22 |
-| DDL 条目 | 599 |
+| Hub 专题 | 26 |
+| 专题仓库 | 23 |
+| GitHub Pages 专题站 | 23 |
+| DDL 条目 | 614 |
 | 数据入口 | `src/data/ddl-data.ts` + 各专题 `data/items.json` |
 | 默认语言 | 中文 |
 | 后续入口 | 微信小程序版本即将上线，敬请期待 |
@@ -78,6 +80,7 @@ flowchart TB
     Journal["journal-ddl"]
     Sports["sports-ddl"]
     Game["game-ddl"]
+    Entertainment["entertainment-ddl"]
     Holiday["holiday-ddl"]
     CV["cv-ddl"]
   end
@@ -94,6 +97,7 @@ flowchart TB
   Journal --> Pipeline
   Sports --> Pipeline
   Game --> Pipeline
+  Entertainment --> Pipeline
   Holiday --> Pipeline
   CV --> Pipeline
 
@@ -129,6 +133,8 @@ flowchart TB
 | 体育赛事 | [sports-ddl](https://github.com/Just-Agent/sports-ddl) | [访问](https://just-agent.github.io/sports-ddl/) | crawler + validator + link-check |
 | 电竞赛事 | [game-ddl](https://github.com/Just-Agent/game-ddl) | [访问](https://just-agent.github.io/game-ddl/) | crawler + validator + link-check |
 | 游戏版本 | [game-ddl](https://github.com/Just-Agent/game-ddl) | [访问](https://just-agent.github.io/game-ddl/#game-version-ddl) | 专题族数据出口 `data/game-version-ddl/items.json` |
+| 演唱会 | [entertainment-ddl](https://github.com/Just-Agent/entertainment-ddl) | [访问](https://just-agent.github.io/entertainment-ddl/#concert-ddl) | 专题族数据出口 `data/concert-ddl/items.json` |
+| 电影电视剧 | [entertainment-ddl](https://github.com/Just-Agent/entertainment-ddl) | [访问](https://just-agent.github.io/entertainment-ddl/#movie-tv-ddl) | 专题族数据出口 `data/movie-tv-ddl/items.json` |
 
 完整专题列表请在 [主题广场](https://just-agent.github.io/just-ddl/) 查看。
 

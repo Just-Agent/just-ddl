@@ -7,6 +7,7 @@ import {
   BookOpen,
   CalendarHeart,
   ChevronDown,
+  Clapperboard,
   Code2,
   Database,
   ExternalLink,
@@ -20,6 +21,7 @@ import {
   ListFilter,
   Medal,
   MessageSquare,
+  Music,
   Pin,
   RadioTower,
   SlidersHorizontal,
@@ -35,7 +37,7 @@ import DDLCard, { type DDLCardVisualMode } from '@/components/DDLCard';
 import { useLanguage } from '@/lib/language';
 
 const iconMap: Record<string, LucideIcon> = {
-  Trophy, Bot, Eye, MessageSquare, GraduationCap, BookOpen, Code2, CalendarHeart, Layers, Medal, Gamepad2,
+  Trophy, Bot, Eye, MessageSquare, GraduationCap, BookOpen, Code2, CalendarHeart, Layers, Medal, Gamepad2, Music, Clapperboard,
 };
 
 const dayMs = 24 * 60 * 60 * 1000;
