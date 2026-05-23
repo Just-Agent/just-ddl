@@ -540,6 +540,46 @@ export const topics: Topic[] = [
       "standard",
       "effective date"
     ]
+  },
+  {
+    "id": "student-contest-ddl",
+    "name": "Student Contests",
+    "description": "大学生/研究生竞赛、工程挑战、科研项目和作品提交节点。",
+    "icon": "GraduationCap",
+    "color": "#16A34A",
+    "repo": "Just-Agent/education-career-ddl",
+    "site": "https://just-agent.github.io/education-career-ddl/#student-contest-ddl",
+    "status": "published",
+    "sourceMode": "cluster",
+    "clusterId": "education-career-ddl",
+    "dataUrl": "data/student-contest-ddl/items.json",
+    "itemCount": 12,
+    "category": "教育职业",
+    "tags": [
+      "student competition",
+      "graduate",
+      "research"
+    ]
+  },
+  {
+    "id": "career-fair-ddl",
+    "name": "Career Fairs",
+    "description": "高校招聘会、实习招聘会、工程/STEM/综合 career fair 日期追踪。",
+    "icon": "BriefcaseBusiness",
+    "color": "#2563EB",
+    "repo": "Just-Agent/education-career-ddl",
+    "site": "https://just-agent.github.io/education-career-ddl/#career-fair-ddl",
+    "status": "published",
+    "sourceMode": "cluster",
+    "clusterId": "education-career-ddl",
+    "dataUrl": "data/career-fair-ddl/items.json",
+    "itemCount": 7,
+    "category": "教育职业",
+    "tags": [
+      "career fair",
+      "internship",
+      "graduate students"
+    ]
   }
 ];
 
@@ -559,7 +599,8 @@ export const categories = [
   "电竞赛事",
   "文娱生活",
   "消费发布",
-  "公共生活"
+  "公共生活",
+  "教育职业"
 ];
 
 export function getTopicById(id: string) { return topics.find(t => t.id === id); }

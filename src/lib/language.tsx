@@ -114,6 +114,14 @@ const topicCopy: Record<string, Record<Language, { name: string; description: st
     zh: { name: '新规实施', description: '新规实施、强制性标准、监管合规和政策生效日期追踪。' },
     en: { name: 'Regulations', description: 'Effective dates for regulations, mandatory standards, compliance rules, and policy rollouts.' },
   },
+  'student-contest-ddl': {
+    zh: { name: '学生竞赛', description: '大学生/研究生竞赛、工程挑战、科研项目和作品提交节点。' },
+    en: { name: 'Student Contests', description: 'Undergraduate and graduate student competitions, engineering challenges, research projects, and submission checkpoints.' },
+  },
+  'career-fair-ddl': {
+    zh: { name: '招聘会', description: '高校招聘会、实习招聘会、工程/STEM/综合 career fair 日期追踪。' },
+    en: { name: 'Career Fairs', description: 'University career fairs, internship fairs, engineering/STEM events, and campus recruiting checkpoints.' },
+  },
   'biotech-ddl': {
     zh: { name: '生命科学', description: '生物医药、医学影像、基因组、蛋白质设计和健康 AI 挑战截止日。' },
     en: { name: 'Biotech', description: 'Biomedical, medical imaging, genomics, protein design, and health AI challenge deadlines.' },
@@ -141,6 +149,7 @@ const categoryCopy: Record<string, Record<Language, string>> = {
   文娱生活: { zh: '文娱生活', en: 'Entertainment' },
   消费发布: { zh: '消费发布', en: 'Consumer Launches' },
   公共生活: { zh: '公共生活', en: 'Public Life' },
+  教育职业: { zh: '教育职业', en: 'Education & Career' },
 };
 
 const tagCopy: Record<string, Record<Language, string>> = {
@@ -184,6 +193,12 @@ const tagCopy: Record<string, Record<Language, string>> = {
   standard: { zh: '标准', en: 'standard' },
   'effective date': { zh: '实施日', en: 'effective date' },
   compliance: { zh: '合规', en: 'compliance' },
+  'student competition': { zh: '学生竞赛', en: 'student competition' },
+  graduate: { zh: '研究生', en: 'graduate' },
+  research: { zh: '科研', en: 'research' },
+  'career fair': { zh: '招聘会', en: 'career fair' },
+  internship: { zh: '实习', en: 'internship' },
+  'graduate students': { zh: '研究生求职', en: 'graduate students' },
   IELTS: { zh: '雅思', en: 'IELTS' },
   TOEFL: { zh: '托福', en: 'TOEFL' },
   'language test': { zh: '语言考试', en: 'language test' },
@@ -202,7 +217,7 @@ const dictionary = {
     nav: { plaza: '主题广场', my: '我的 DDL', contribute: '接入专题', about: '关于', github: 'GitHub', repo: '仓库' },
     network: {
       roadmap: '路线图',
-      topics: ['黑客松', '智能体', '视觉', 'NLP', '学术', '期刊', '编程', '节假日', '多模态', '安全', '数据', '开源', '机器人', '创业', '设计', '考试', '雅思托福', '奖学金', '考公考编', '游戏开发', '生命科学', '体育', '电竞', '游戏版本', '演唱会', '电影电视剧', '手机发布', '汽车发布', '新规实施'],
+      topics: ['黑客松', '智能体', '视觉', 'NLP', '学术', '期刊', '编程', '节假日', '多模态', '安全', '数据', '开源', '机器人', '创业', '设计', '考试', '雅思托福', '奖学金', '考公考编', '游戏开发', '生命科学', '体育', '电竞', '游戏版本', '演唱会', '电影电视剧', '手机发布', '汽车发布', '新规实施', '学生竞赛', '招聘会'],
     },
     home: {
       title: '主题广场',
@@ -328,7 +343,7 @@ const dictionary = {
     nav: { plaza: 'Topic Plaza', my: 'My DDL', contribute: 'Add Topic', about: 'About', github: 'GitHub', repo: 'Repo' },
     network: {
       roadmap: 'Roadmap',
-      topics: ['Hackathon', 'Agent', 'CV', 'NLP', 'Academic', 'Journal', 'Programming', 'Holiday', 'Multimodal', 'Security', 'Data', 'Open Source', 'Robotics', 'Startup', 'Design', 'Exams', 'IELTS & TOEFL', 'Scholarships', 'Civil Service', 'Game Dev', 'Biotech', 'Sports', 'Esports', 'Game Versions', 'Concerts', 'Movies & TV', 'Phone Launches', 'Car Launches', 'Regulations'],
+      topics: ['Hackathon', 'Agent', 'CV', 'NLP', 'Academic', 'Journal', 'Programming', 'Holiday', 'Multimodal', 'Security', 'Data', 'Open Source', 'Robotics', 'Startup', 'Design', 'Exams', 'IELTS & TOEFL', 'Scholarships', 'Civil Service', 'Game Dev', 'Biotech', 'Sports', 'Esports', 'Game Versions', 'Concerts', 'Movies & TV', 'Phone Launches', 'Car Launches', 'Regulations', 'Student Contests', 'Career Fairs'],
     },
     home: {
       title: 'Topic Plaza',
