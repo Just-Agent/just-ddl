@@ -50,10 +50,10 @@ Just-DDL 不是把所有截止日、所有爬虫、所有页面都塞进一个�
 
 | 指标 | 当前值 |
 | --- | ---: |
-| Hub 专题 | 23 |
+| Hub 专题 | 24 |
 | 专题仓库 | 22 |
 | GitHub Pages 专题站 | 22 |
-| DDL 条目 | 593 |
+| DDL 条目 | 599 |
 | 数据入口 | `src/data/ddl-data.ts` + 各专题 `data/items.json` |
 | 默认语言 | 中文 |
 | 后续入口 | 微信小程序版本即将上线，敬请期待 |
@@ -124,6 +124,7 @@ flowchart TB
 | 期刊专题 | [journal-ddl](https://github.com/Just-Agent/journal-ddl) | [访问](https://just-agent.github.io/journal-ddl/) | crawler + validator + link-check |
 | 编程竞赛 | [programming-ddl](https://github.com/Just-Agent/programming-ddl) | [访问](https://just-agent.github.io/programming-ddl/) | 独立 Actions |
 | 节假日 | [holiday-ddl](https://github.com/Just-Agent/holiday-ddl) | [访问](https://just-agent.github.io/holiday-ddl/) | 独立 Actions |
+| 雅思托福 | [exam-ddl](https://github.com/Just-Agent/exam-ddl) | [访问](https://just-agent.github.io/exam-ddl/#ielts-toefl-ddl) | 专题族数据出口 `data/ielts-toefl-ddl/items.json` |
 | 考公考编 | [civil-service-ddl](https://github.com/pengpoom/civil-service-ddl) | [访问](https://pengpoom.github.io/civil-service-ddl/) | 外部联邦专题 + 定时更新 |
 | 体育赛事 | [sports-ddl](https://github.com/Just-Agent/sports-ddl) | [访问](https://just-agent.github.io/sports-ddl/) | crawler + validator + link-check |
 | 电竞赛事 | [game-ddl](https://github.com/Just-Agent/game-ddl) | [访问](https://just-agent.github.io/game-ddl/) | crawler + validator + link-check |

@@ -290,6 +290,27 @@ export const topics: Topic[] = [
     ]
   },
   {
+    "id": "ielts-toefl-ddl",
+    "name": "IELTS & TOEFL",
+    "description": "雅思、托福报名入口、考期发布和官方考试安排追踪。",
+    "icon": "GraduationCap",
+    "color": "#0F766E",
+    "repo": "Just-Agent/exam-ddl",
+    "site": "https://just-agent.github.io/exam-ddl/#ielts-toefl-ddl",
+    "status": "published",
+    "sourceMode": "cluster",
+    "clusterId": "exam-ddl",
+    "dataUrl": "data/ielts-toefl-ddl/items.json",
+    "itemCount": 6,
+    "category": "考试申请",
+    "tags": [
+      "IELTS",
+      "TOEFL",
+      "language test",
+      "registration"
+    ]
+  },
+  {
     "id": "scholarship-ddl",
     "name": "Scholarships",
     "description": "奖学金、访问学者、暑研、交换项目、博士申请和 fellowship 截止日",

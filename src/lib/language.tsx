@@ -70,6 +70,10 @@ const topicCopy: Record<string, Record<Language, { name: string; description: st
     zh: { name: '考试考证', description: '升学考试、语言考试、职业资格、报名缴费和准考证打印提醒。' },
     en: { name: 'Exams', description: 'Academic exams, language tests, professional certificates, registration windows, and admit-card reminders.' },
   },
+  'ielts-toefl-ddl': {
+    zh: { name: '雅思托福', description: '雅思、托福报名入口、考期发布和官方考试安排追踪。' },
+    en: { name: 'IELTS & TOEFL', description: 'IELTS and TOEFL registration portals, test-date releases, and official exam schedule checkpoints.' },
+  },
   'scholarship-ddl': {
     zh: { name: '奖学金申请', description: '奖学金、访问学者、暑研、交换项目、博士申请和 fellowship 截止日。' },
     en: { name: 'Scholarships', description: 'Scholarships, visiting programs, summer research, exchange programs, PhD applications, and fellowships.' },
@@ -141,6 +145,9 @@ const tagCopy: Record<string, Record<Language, string>> = {
   'game update': { zh: '游戏更新', en: 'game update' },
   patch: { zh: '补丁', en: 'patch' },
   'Teamfight Tactics': { zh: '云顶之弈', en: 'Teamfight Tactics' },
+  IELTS: { zh: '雅思', en: 'IELTS' },
+  TOEFL: { zh: '托福', en: 'TOEFL' },
+  'language test': { zh: '语言考试', en: 'language test' },
   公务员: { zh: '公务员', en: 'civil service' },
   事业单位: { zh: '事业单位', en: 'public institution' },
   选调生: { zh: '选调生', en: 'selected graduates' },
@@ -156,7 +163,7 @@ const dictionary = {
     nav: { plaza: '主题广场', my: '我的 DDL', contribute: '接入专题', about: '关于', github: 'GitHub', repo: '仓库' },
     network: {
       roadmap: '路线图',
-      topics: ['黑客松', '智能体', '视觉', 'NLP', '学术', '期刊', '编程', '节假日', '多模态', '安全', '数据', '开源', '机器人', '创业', '设计', '考试', '奖学金', '考公考编', '游戏开发', '生命科学', '体育', '电竞', '游戏版本'],
+      topics: ['黑客松', '智能体', '视觉', 'NLP', '学术', '期刊', '编程', '节假日', '多模态', '安全', '数据', '开源', '机器人', '创业', '设计', '考试', '雅思托福', '奖学金', '考公考编', '游戏开发', '生命科学', '体育', '电竞', '游戏版本'],
     },
     home: {
       title: '主题广场',
@@ -282,7 +289,7 @@ const dictionary = {
     nav: { plaza: 'Topic Plaza', my: 'My DDL', contribute: 'Add Topic', about: 'About', github: 'GitHub', repo: 'Repo' },
     network: {
       roadmap: 'Roadmap',
-      topics: ['Hackathon', 'Agent', 'CV', 'NLP', 'Academic', 'Journal', 'Programming', 'Holiday', 'Multimodal', 'Security', 'Data', 'Open Source', 'Robotics', 'Startup', 'Design', 'Exams', 'Scholarships', 'Civil Service', 'Game Dev', 'Biotech', 'Sports', 'Esports', 'Game Versions'],
+      topics: ['Hackathon', 'Agent', 'CV', 'NLP', 'Academic', 'Journal', 'Programming', 'Holiday', 'Multimodal', 'Security', 'Data', 'Open Source', 'Robotics', 'Startup', 'Design', 'Exams', 'IELTS & TOEFL', 'Scholarships', 'Civil Service', 'Game Dev', 'Biotech', 'Sports', 'Esports', 'Game Versions'],
     },
     home: {
       title: 'Topic Plaza',
