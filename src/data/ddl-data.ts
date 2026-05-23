@@ -13,7 +13,7 @@ export interface DDLItem {
   description?: string;
   stage?: string;
   source?: string;
-  type?: 'conference' | 'journal' | 'challenge' | 'hackathon' | 'holiday' | 'contest' | 'program' | 'release' | 'concert';
+  type?: 'conference' | 'journal' | 'challenge' | 'hackathon' | 'holiday' | 'contest' | 'program' | 'release' | 'concert' | 'regulation';
   sourceUrl?: string;
   canonicalUrl?: string;
   isDatePlaceholder?: boolean;
@@ -14192,7 +14192,332 @@ export const ddlData: Record<string, DDLItem[]> = {
           "subtopicName": "国际车展",
           "sourceLabel": "官方车展页"
       }
+  ],
+  "regulation-ddl": [
+      {
+          "topicId": "regulation-ddl",
+          "id": "regulation-ddl-cn-fridge-energy-gb12021-2-2025-2026-06-01",
+          "title": "GB 12021.2-2025 家用电冰箱能效标准实施",
+          "deadline": "2026-06-01T00:00:00+08:00",
+          "dateRange": "2026/06/01 起实施",
+          "location": "China",
+          "isOnline": false,
+          "tags": [
+              "国家标准",
+              "家电",
+              "能效"
+          ],
+          "url": "https://app.www.gov.cn/govdata/gov/202506/25/531575/article.html",
+          "status": "upcoming",
+          "stage": "实施",
+          "source": "中国政府网 / 国家标准委",
+          "sourceUrl": "https://app.www.gov.cn/govdata/gov/202506/25/531575/article.html",
+          "type": "regulation",
+          "subtopic": "cn-standards",
+          "subtopicName": "中国国家标准",
+          "description": "新版家用电冰箱耗电量限定值及能效等级国家标准正式实施，覆盖压缩式家用电冰箱和部分半导体制冷器具。"
+      },
+      {
+          "topicId": "regulation-ddl",
+          "id": "regulation-ddl-eu-cra-conformity-body-notification-2026-06-11",
+          "title": "EU Cyber Resilience Act 符合性评定机构规则适用",
+          "deadline": "2026-06-11T00:00:00+02:00",
+          "dateRange": "2026/06/11 起适用",
+          "location": "European Union",
+          "isOnline": false,
+          "tags": [
+              "EU",
+              "cybersecurity",
+              "conformity"
+          ],
+          "url": "https://digital-strategy.ec.europa.eu/en/factpages/cyber-resilience-act-implementation",
+          "status": "upcoming",
+          "stage": "适用",
+          "source": "European Commission",
+          "sourceUrl": "https://digital-strategy.ec.europa.eu/en/factpages/cyber-resilience-act-implementation",
+          "type": "regulation",
+          "subtopic": "eu-digital",
+          "subtopicName": "欧盟数字法规",
+          "description": "Cyber Resilience Act Chapter IV 相关符合性评定机构通知规则开始适用，为 2027 年全面要求做准备。"
+      },
+      {
+          "topicId": "regulation-ddl",
+          "id": "regulation-ddl-cn-ev-battery-safety-gb38031-2025-2026-07-01",
+          "title": "GB 38031-2025 电动汽车动力电池安全要求实施",
+          "deadline": "2026-07-01T00:00:00+08:00",
+          "dateRange": "2026/07/01 起实施",
+          "location": "China",
+          "isOnline": false,
+          "tags": [
+              "国家标准",
+              "新能源汽车",
+              "电池安全"
+          ],
+          "url": "https://www.gov.cn/lianbo/bumen/202504/content_7018797.htm",
+          "status": "upcoming",
+          "stage": "实施",
+          "source": "中国政府网 / 工业和信息化部",
+          "sourceUrl": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=3AB693FAFF5D9716DF61C61D6FD2187A",
+          "type": "regulation",
+          "subtopic": "cn-standards",
+          "subtopicName": "中国国家标准",
+          "description": "强制性国家标准《电动汽车用动力蓄电池安全要求》开始实施，重点提高动力电池热扩散等安全要求。"
+      },
+      {
+          "topicId": "regulation-ddl",
+          "id": "regulation-ddl-cn-production-accident-standards-2026-07-01",
+          "title": "生产安全事故调查等三项强制性国家标准实施",
+          "deadline": "2026-07-01T00:00:00+08:00",
+          "dateRange": "2026/07/01 起实施",
+          "location": "China",
+          "isOnline": false,
+          "tags": [
+              "国家标准",
+              "安全生产",
+              "事故调查"
+          ],
+          "url": "https://big5.www.gov.cn/gate/big5/www.gov.cn/lianbo/202601/content_7056032.htm",
+          "status": "upcoming",
+          "stage": "实施",
+          "source": "中国政府网 / 应急管理部",
+          "sourceUrl": "https://big5.www.gov.cn/gate/big5/www.gov.cn/lianbo/202601/content_7056032.htm",
+          "type": "regulation",
+          "subtopic": "cn-standards",
+          "subtopicName": "中国国家标准",
+          "description": "《生产安全事故调查技术规范》等三项强制性国家标准实施，覆盖事故调查程序、分类编码和直接经济损失统计。"
+      },
+      {
+          "topicId": "regulation-ddl",
+          "id": "regulation-ddl-eu-ai-act-general-application-2026-08-02",
+          "title": "EU AI Act 主要规则适用日",
+          "deadline": "2026-08-02T00:00:00+02:00",
+          "dateRange": "2026/08/02 起适用",
+          "location": "European Union",
+          "isOnline": false,
+          "tags": [
+              "EU",
+              "AI Act",
+              "compliance"
+          ],
+          "url": "https://digital-strategy.ec.europa.eu/en/faqs/navigating-ai-act",
+          "status": "upcoming",
+          "stage": "适用",
+          "source": "European Commission",
+          "sourceUrl": "https://digital-strategy.ec.europa.eu/en/faqs/navigating-ai-act",
+          "type": "regulation",
+          "subtopic": "eu-digital",
+          "subtopicName": "欧盟数字法规",
+          "description": "欧盟 AI Act 按阶段适用，主要规则在生效两年后进入适用期，部分高风险系统规则另有过渡期。"
+      },
+      {
+          "topicId": "regulation-ddl",
+          "id": "regulation-ddl-eu-cra-reporting-obligations-2026-09-11",
+          "title": "EU Cyber Resilience Act 报告义务适用",
+          "deadline": "2026-09-11T00:00:00+02:00",
+          "dateRange": "2026/09/11 起适用",
+          "location": "European Union",
+          "isOnline": false,
+          "tags": [
+              "EU",
+              "cybersecurity",
+              "incident reporting"
+          ],
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/cyber-resilience-act",
+          "status": "upcoming",
+          "stage": "适用",
+          "source": "European Commission",
+          "sourceUrl": "https://digital-strategy.ec.europa.eu/en/policies/cyber-resilience-act",
+          "type": "regulation",
+          "subtopic": "eu-digital",
+          "subtopicName": "欧盟数字法规",
+          "description": "制造商主动报告已被利用漏洞和严重网络安全事件的义务开始适用，是 CRA 全面落地前的重要节点。"
+      },
+      {
+          "topicId": "regulation-ddl",
+          "id": "regulation-ddl-cn-lpg-gb11174-2025-2026-11-01",
+          "title": "GB 11174-2025 液化石油气强制性国家标准实施",
+          "deadline": "2026-11-01T00:00:00+08:00",
+          "dateRange": "2026/11/01 起实施",
+          "location": "China",
+          "isOnline": false,
+          "tags": [
+              "国家标准",
+              "液化石油气",
+              "民生安全"
+          ],
+          "url": "https://www.gov.cn/lianbo/bumen/202511/content_7047106.htm",
+          "status": "upcoming",
+          "stage": "实施",
+          "source": "中国政府网 / 市场监管总局",
+          "sourceUrl": "https://www.gov.cn/lianbo/bumen/202511/content_7047106.htm",
+          "type": "regulation",
+          "subtopic": "cn-standards",
+          "subtopicName": "中国国家标准",
+          "description": "新版《液化石油气》强制性国家标准实施，增加并提高产品质量、安全和环保相关指标。"
+      },
+      {
+          "topicId": "regulation-ddl",
+          "id": "regulation-ddl-eu-eudr-large-operators-2026-12-30",
+          "title": "EU Deforestation Regulation 大中型经营者适用日",
+          "deadline": "2026-12-30T00:00:00+01:00",
+          "dateRange": "2026/12/30 起适用",
+          "location": "European Union",
+          "isOnline": false,
+          "tags": [
+              "EU",
+              "deforestation",
+              "supply chain"
+          ],
+          "url": "https://green-forum.ec.europa.eu/deforestation-regulation-implementation_en",
+          "status": "upcoming",
+          "stage": "适用",
+          "source": "European Commission Green Forum",
+          "sourceUrl": "https://green-forum.ec.europa.eu/deforestation-regulation-implementation_en",
+          "type": "regulation",
+          "subtopic": "eu-sustainability",
+          "subtopicName": "欧盟可持续法规",
+          "description": "EUDR 针对大中型经营者和交易商的主要义务进入适用期，涉及相关商品的无毁林供应链尽职调查。"
+      },
+      {
+          "topicId": "regulation-ddl",
+          "id": "regulation-ddl-cn-production-accident-workday-loss-2027-01-01",
+          "title": "GB 15499-2025 事故伤害损失工作日判定标准实施",
+          "deadline": "2027-01-01T00:00:00+08:00",
+          "dateRange": "2027/01/01 起实施",
+          "location": "China",
+          "isOnline": false,
+          "tags": [
+              "国家标准",
+              "安全生产",
+              "事故统计"
+          ],
+          "url": "https://big5.www.gov.cn/gate/big5/www.gov.cn/lianbo/202601/content_7056032.htm",
+          "status": "upcoming",
+          "stage": "实施",
+          "source": "中国政府网 / 应急管理部",
+          "sourceUrl": "https://big5.www.gov.cn/gate/big5/www.gov.cn/lianbo/202601/content_7056032.htm",
+          "type": "regulation",
+          "subtopic": "cn-standards",
+          "subtopicName": "中国国家标准",
+          "description": "强制性国家标准《生产安全事故伤害损失工作日判定》实施，用于事故伤害损失工作日判定。"
+      },
+      {
+          "topicId": "regulation-ddl",
+          "id": "regulation-ddl-eu-battery-passport-2027-02-18",
+          "title": "EU Battery Passport 义务启动",
+          "deadline": "2027-02-18T00:00:00+01:00",
+          "dateRange": "2027/02/18 起适用",
+          "location": "European Union",
+          "isOnline": false,
+          "tags": [
+              "EU",
+              "battery",
+              "digital product passport"
+          ],
+          "url": "https://www.europarl.europa.eu/doceo/document/E-10-2026-000888_EN.html",
+          "status": "upcoming",
+          "stage": "适用",
+          "source": "European Parliament",
+          "sourceUrl": "https://www.europarl.europa.eu/doceo/document/E-10-2026-000888_EN.html",
+          "type": "regulation",
+          "subtopic": "eu-sustainability",
+          "subtopicName": "欧盟可持续法规",
+          "description": "欧盟电池法规下的数字电池护照义务开始适用，覆盖特定 LMT、电动汽车和工业电池类别。"
+      },
+      {
+          "topicId": "regulation-ddl",
+          "id": "regulation-ddl-eu-eudr-micro-small-operators-2027-06-30",
+          "title": "EU Deforestation Regulation 微型和小型经营者适用日",
+          "deadline": "2027-06-30T00:00:00+02:00",
+          "dateRange": "2027/06/30 起适用",
+          "location": "European Union",
+          "isOnline": false,
+          "tags": [
+              "EU",
+              "deforestation",
+              "SME"
+          ],
+          "url": "https://green-forum.ec.europa.eu/deforestation-regulation-implementation_en",
+          "status": "upcoming",
+          "stage": "适用",
+          "source": "European Commission Green Forum",
+          "sourceUrl": "https://green-forum.ec.europa.eu/deforestation-regulation-implementation_en",
+          "type": "regulation",
+          "subtopic": "eu-sustainability",
+          "subtopicName": "欧盟可持续法规",
+          "description": "EUDR 针对自然人以及微型、小型经营者的适用日，作为供应链合规和数据准备的重要节点。"
+      },
+      {
+          "topicId": "regulation-ddl",
+          "id": "regulation-ddl-eu-ai-act-high-risk-article-6-1-2027-08-02",
+          "title": "EU AI Act Article 6(1) 高风险系统义务适用",
+          "deadline": "2027-08-02T00:00:00+02:00",
+          "dateRange": "2027/08/02 起适用",
+          "location": "European Union",
+          "isOnline": false,
+          "tags": [
+              "EU",
+              "AI Act",
+              "high-risk AI"
+          ],
+          "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-113",
+          "status": "upcoming",
+          "stage": "适用",
+          "source": "AI Act Service Desk / European Commission",
+          "sourceUrl": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-113",
+          "type": "regulation",
+          "subtopic": "eu-digital",
+          "subtopicName": "欧盟数字法规",
+          "description": "AI Act Article 6(1) 及相关义务适用，主要影响嵌入受监管产品的高风险 AI 系统。"
+      },
+      {
+          "topicId": "regulation-ddl",
+          "id": "regulation-ddl-eu-battery-due-diligence-2027-08-18",
+          "title": "EU Battery Regulation 尽职调查义务适用",
+          "deadline": "2027-08-18T00:00:00+02:00",
+          "dateRange": "2027/08/18 起适用",
+          "location": "European Union",
+          "isOnline": false,
+          "tags": [
+              "EU",
+              "battery",
+              "due diligence"
+          ],
+          "url": "https://www.consilium.europa.eu/en/press/press-releases/2025/07/18/simplification-council-adopts-law-to-stop-the-clock-on-due-diligence-rules-for-batteries/",
+          "status": "upcoming",
+          "stage": "适用",
+          "source": "Council of the European Union",
+          "sourceUrl": "https://www.consilium.europa.eu/en/press/press-releases/2025/07/18/simplification-council-adopts-law-to-stop-the-clock-on-due-diligence-rules-for-batteries/",
+          "type": "regulation",
+          "subtopic": "eu-sustainability",
+          "subtopicName": "欧盟可持续法规",
+          "description": "电池供应链尽职调查相关义务延后至该日适用，为电池生产商和出口商留出准备期。"
+      },
+      {
+          "topicId": "regulation-ddl",
+          "id": "regulation-ddl-eu-cra-main-obligations-2027-12-11",
+          "title": "EU Cyber Resilience Act 主要义务全面适用",
+          "deadline": "2027-12-11T00:00:00+01:00",
+          "dateRange": "2027/12/11 起适用",
+          "location": "European Union",
+          "isOnline": false,
+          "tags": [
+              "EU",
+              "cybersecurity",
+              "product security"
+          ],
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/cyber-resilience-act",
+          "status": "upcoming",
+          "stage": "适用",
+          "source": "European Commission",
+          "sourceUrl": "https://digital-strategy.ec.europa.eu/en/policies/cyber-resilience-act",
+          "type": "regulation",
+          "subtopic": "eu-digital",
+          "subtopicName": "欧盟数字法规",
+          "description": "Cyber Resilience Act 对带有数字元素产品的主要网络安全要求全面适用。"
+      }
   ]
+
 };
 
 export function getDDLByTopic(topicId: string): DDLItem[] {

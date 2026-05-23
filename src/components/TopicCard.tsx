@@ -19,6 +19,7 @@ import {
   MessageSquare,
   Music,
   RadioTower,
+  Scale,
   Car,
   Smartphone,
   Star,
@@ -31,7 +32,7 @@ import { useSubscriptions } from '@/hooks/useSubscriptions';
 import { useLanguage } from '@/lib/language';
 
 const iconMap: Record<string, LucideIcon> = {
-  Trophy, Bot, Eye, MessageSquare, GraduationCap, BookOpen, Code2, CalendarHeart, Layers, Medal, Gamepad2, Music, Clapperboard, Smartphone, Car,
+  Trophy, Bot, Eye, MessageSquare, GraduationCap, BookOpen, Code2, CalendarHeart, Layers, Medal, Gamepad2, Music, Clapperboard, Smartphone, Car, Scale,
 };
 
 const dayMs = 24 * 60 * 60 * 1000;

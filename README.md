@@ -32,6 +32,8 @@
   ·
   <a href="https://just-agent.github.io/just-ddl/#/topic/phone-launch-ddl">消费发布</a>
   ·
+  <a href="https://just-agent.github.io/just-ddl/#/topic/regulation-ddl">新规实施</a>
+  ·
   <a href="https://just-agent.github.io/just-ddl/#/topic/journal-ddl">期刊专题</a>
 </p>
 
@@ -54,10 +56,10 @@ Just-DDL 不是把所有截止日、所有爬虫、所有页面都塞进一个�
 
 | 指标 | 当前值 |
 | --- | ---: |
-| Hub 专题 | 28 |
-| 专题仓库 | 24 |
-| GitHub Pages 专题站 | 24 |
-| DDL 条目 | 626 |
+| Hub 专题 | 29 |
+| 专题仓库 | 25 |
+| GitHub Pages 专题站 | 25 |
+| DDL 条目 | 640 |
 | 数据入口 | `src/data/ddl-data.ts` + 各专题 `data/items.json` |
 | 默认语言 | 中文 |
 | 后续入口 | 微信小程序版本即将上线，敬请期待 |
@@ -84,6 +86,7 @@ flowchart TB
     Game["game-ddl"]
     Entertainment["entertainment-ddl"]
     Consumer["consumer-launch-ddl"]
+    PublicLife["public-life-ddl"]
     Holiday["holiday-ddl"]
     CV["cv-ddl"]
   end
@@ -102,6 +105,7 @@ flowchart TB
   Game --> Pipeline
   Entertainment --> Pipeline
   Consumer --> Pipeline
+  PublicLife --> Pipeline
   Holiday --> Pipeline
   CV --> Pipeline
 
@@ -141,6 +145,7 @@ flowchart TB
 | 电影电视剧 | [entertainment-ddl](https://github.com/Just-Agent/entertainment-ddl) | [访问](https://just-agent.github.io/entertainment-ddl/#movie-tv-ddl) | 专题族数据出口 `data/movie-tv-ddl/items.json` |
 | 手机发布 | [consumer-launch-ddl](https://github.com/Just-Agent/consumer-launch-ddl) | [访问](https://just-agent.github.io/consumer-launch-ddl/#phone-launch-ddl) | 专题族数据出口 `data/phone-launch-ddl/items.json` |
 | 汽车发布 | [consumer-launch-ddl](https://github.com/Just-Agent/consumer-launch-ddl) | [访问](https://just-agent.github.io/consumer-launch-ddl/#car-launch-ddl) | 专题族数据出口 `data/car-launch-ddl/items.json` |
+| 新规实施 | [public-life-ddl](https://github.com/Just-Agent/public-life-ddl) | [访问](https://just-agent.github.io/public-life-ddl/#regulation-ddl) | 专题族数据出口 `data/regulation-ddl/items.json` |
 
 完整专题列表请在 [主题广场](https://just-agent.github.io/just-ddl/) 查看。
 

@@ -520,6 +520,26 @@ export const topics: Topic[] = [
       "auto show",
       "vehicle launch"
     ]
+  },
+  {
+    "id": "regulation-ddl",
+    "name": "Regulations",
+    "description": "新规实施、强制性标准、监管合规和政策生效日期追踪。",
+    "icon": "Scale",
+    "color": "#0F766E",
+    "repo": "Just-Agent/public-life-ddl",
+    "site": "https://just-agent.github.io/public-life-ddl/#regulation-ddl",
+    "status": "published",
+    "sourceMode": "cluster",
+    "clusterId": "public-life-ddl",
+    "dataUrl": "data/regulation-ddl/items.json",
+    "itemCount": 14,
+    "category": "公共生活",
+    "tags": [
+      "regulation",
+      "standard",
+      "effective date"
+    ]
   }
 ];
 
@@ -537,7 +557,9 @@ export const categories = [
   "生命健康",
   "体育赛事",
   "电竞赛事",
-  "文娱生活"
+  "文娱生活",
+  "消费发布",
+  "公共生活"
 ];
 
 export function getTopicById(id: string) { return topics.find(t => t.id === id); }
