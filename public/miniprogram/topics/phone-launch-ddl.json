@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-24T12:12:58.961Z",
-  "dataVersion": "221fbdf250212f7d",
+  "generatedAt": "2026-05-24T13:22:41.304Z",
+  "dataVersion": "084da3c346fcb97a",
   "topic": {
     "id": "phone-launch-ddl",
     "name": "Phone Launches",
@@ -15,7 +15,7 @@
       "launch",
       "mobile"
     ],
-    "itemCount": 11,
+    "itemCount": 17,
     "status": "published",
     "sourceMode": "cluster",
     "clusterId": "consumer-launch-ddl"
@@ -101,6 +101,156 @@
       "description": "基于 Apple Newsroom 2021-2025 年主线 iPhone 官方发布时间，历史节点稳定集中在 9 月上中旬；该条目是预测窗口，不是 Apple 官方发布日期。",
       "subtopic": "apple",
       "subtopicName": "Apple"
+    },
+    {
+      "id": "phone-launch-ddl-samsung-galaxy-s27-forecast-2027",
+      "topicId": "phone-launch-ddl",
+      "title": "Samsung Galaxy S 下一代发布预测窗口",
+      "dateRange": "预计 2027 年 1 月中旬至 3 月上旬（非官方）",
+      "estimatedNextWindow": {
+        "start": "2027-01-15",
+        "end": "2027-03-10"
+      },
+      "lastOfficialDate": "2026-02-25",
+      "basisEvents": [
+        "phone-launch-ddl-samsung-galaxy-s22-release-2022-02-09",
+        "phone-launch-ddl-samsung-galaxy-s23-release-2023-02-01",
+        "phone-launch-ddl-samsung-galaxy-s24-release-2024-01-17",
+        "phone-launch-ddl-samsung-galaxy-s25-release-2025-01-22",
+        "phone-launch-ddl-samsung-galaxy-s26-release-2026-02-25"
+      ],
+      "confidence": "medium",
+      "location": "Global",
+      "isOnline": true,
+      "tags": [
+        "Samsung",
+        "Galaxy S",
+        "forecast"
+      ],
+      "url": "https://news.samsung.com/global/galaxy-unpacked-2026-a-first-look-at-the-galaxy-s26-series-samsungs-most-intuitive-ai-phone-yet",
+      "status": "unannounced",
+      "stage": "Forecast window",
+      "source": "Samsung Newsroom official history",
+      "sourceUrl": "https://news.samsung.com/global/galaxy-unpacked-2026-a-first-look-at-the-galaxy-s26-series-samsungs-most-intuitive-ai-phone-yet",
+      "type": "forecastWindow",
+      "description": "基于 Samsung Newsroom 2022-2026 年 Galaxy S 系列官方 Unpacked / 发布历史，下一代 Galaxy S 旗舰常在 1-2 月窗口发布；该条目是预测窗口，不是 Samsung 官方日期。",
+      "subtopic": "samsung-galaxy",
+      "subtopicName": "Samsung Galaxy"
+    },
+    {
+      "id": "phone-launch-ddl-samsung-galaxy-s22-release-2022-02-09",
+      "topicId": "phone-launch-ddl",
+      "title": "Samsung Galaxy S22 Series 官方发布",
+      "date": "2022-02-09",
+      "dateRange": "February 9, 2022",
+      "location": "Galaxy Unpacked 2022",
+      "isOnline": true,
+      "tags": [
+        "Samsung",
+        "Galaxy S",
+        "official release"
+      ],
+      "url": "https://news.samsung.com/global/galaxy-s22",
+      "status": "ended",
+      "stage": "Official release",
+      "source": "Samsung Global Newsroom",
+      "sourceUrl": "https://news.samsung.com/global/galaxy-s22",
+      "type": "officialRelease",
+      "description": "Samsung Global Newsroom Galaxy S22 Series 页面记录 2022 年 2 月 9 日 Galaxy Unpacked 2022 发布节点。该节点用于构建 Galaxy S 年度旗舰发布节奏，不作为未来倒计时。",
+      "subtopic": "samsung-galaxy",
+      "subtopicName": "Samsung Galaxy"
+    },
+    {
+      "id": "phone-launch-ddl-samsung-galaxy-s23-release-2023-02-01",
+      "topicId": "phone-launch-ddl",
+      "title": "Samsung Galaxy S23 Series 官方发布",
+      "date": "2023-02-01",
+      "dateRange": "February 1, 2023",
+      "location": "Galaxy Unpacked 2023",
+      "isOnline": true,
+      "tags": [
+        "Samsung",
+        "Galaxy S",
+        "official release"
+      ],
+      "url": "https://news.samsung.com/global/take-your-passions-further-with-the-new-samsung-galaxy-s23-series-designed-for-a-premium-experience-today-and-beyond",
+      "status": "ended",
+      "stage": "Official release",
+      "source": "Samsung Global Newsroom",
+      "sourceUrl": "https://news.samsung.com/global/take-your-passions-further-with-the-new-samsung-galaxy-s23-series-designed-for-a-premium-experience-today-and-beyond",
+      "type": "officialRelease",
+      "description": "Samsung Global Newsroom Galaxy S23 Series 页面记录 2023 年 2 月 1 日发布 Galaxy S23 Ultra、S23+ 与 S23。该节点用于构建 Galaxy S 年度旗舰发布节奏。",
+      "subtopic": "samsung-galaxy",
+      "subtopicName": "Samsung Galaxy"
+    },
+    {
+      "id": "phone-launch-ddl-samsung-galaxy-s24-release-2024-01-17",
+      "topicId": "phone-launch-ddl",
+      "title": "Samsung Galaxy S24 Series 官方发布",
+      "date": "2024-01-17",
+      "dateRange": "January 17, 2024",
+      "location": "Galaxy Unpacked 2024",
+      "isOnline": true,
+      "tags": [
+        "Samsung",
+        "Galaxy S",
+        "official release"
+      ],
+      "url": "https://news.samsung.com/global/galaxy-unpacked-2024-highlights-from-galaxy-unpacked-the-promise-of-a-new-beginning-with-galaxy-ai",
+      "status": "ended",
+      "stage": "Official release",
+      "source": "Samsung Global Newsroom",
+      "sourceUrl": "https://news.samsung.com/global/galaxy-unpacked-2024-highlights-from-galaxy-unpacked-the-promise-of-a-new-beginning-with-galaxy-ai",
+      "type": "officialRelease",
+      "description": "Samsung Global Newsroom 记录 2024 年 1 月 17 日 Galaxy Unpacked 发布 Galaxy S24 系列，作为 Galaxy S 年度旗舰发布节奏历史节点。",
+      "subtopic": "samsung-galaxy",
+      "subtopicName": "Samsung Galaxy"
+    },
+    {
+      "id": "phone-launch-ddl-samsung-galaxy-s25-release-2025-01-22",
+      "topicId": "phone-launch-ddl",
+      "title": "Samsung Galaxy S25 Series 官方发布",
+      "date": "2025-01-22",
+      "dateRange": "January 22, 2025",
+      "location": "Galaxy Unpacked 2025",
+      "isOnline": true,
+      "tags": [
+        "Samsung",
+        "Galaxy S",
+        "official release"
+      ],
+      "url": "https://news.samsung.com/global/galaxy-unpacked-2025-highlights-from-galaxy-unpacked-a-new-era-of-ai-integration",
+      "status": "ended",
+      "stage": "Official release",
+      "source": "Samsung Global Newsroom",
+      "sourceUrl": "https://news.samsung.com/global/galaxy-unpacked-2025-highlights-from-galaxy-unpacked-a-new-era-of-ai-integration",
+      "type": "officialRelease",
+      "description": "Samsung Global Newsroom 记录 2025 年 1 月 22 日 Galaxy Unpacked 发布 Galaxy S25 系列，作为 Galaxy S 年度旗舰发布节奏历史节点。",
+      "subtopic": "samsung-galaxy",
+      "subtopicName": "Samsung Galaxy"
+    },
+    {
+      "id": "phone-launch-ddl-samsung-galaxy-s26-release-2026-02-25",
+      "topicId": "phone-launch-ddl",
+      "title": "Samsung Galaxy S26 Series 官方发布",
+      "date": "2026-02-25",
+      "dateRange": "February 25, 2026",
+      "location": "Galaxy Unpacked 2026",
+      "isOnline": true,
+      "tags": [
+        "Samsung",
+        "Galaxy S",
+        "official release"
+      ],
+      "url": "https://news.samsung.com/global/galaxy-unpacked-2026-a-first-look-at-the-galaxy-s26-series-samsungs-most-intuitive-ai-phone-yet",
+      "status": "ended",
+      "stage": "Official release",
+      "source": "Samsung Global Newsroom",
+      "sourceUrl": "https://news.samsung.com/global/galaxy-unpacked-2026-a-first-look-at-the-galaxy-s26-series-samsungs-most-intuitive-ai-phone-yet",
+      "type": "officialRelease",
+      "description": "Samsung Global Newsroom 记录 2026 年 2 月 25 日 Galaxy Unpacked 发布 Galaxy S26 系列，作为 Galaxy S 年度旗舰发布节奏历史节点。",
+      "subtopic": "samsung-galaxy",
+      "subtopicName": "Samsung Galaxy"
     },
     {
       "id": "phone-launch-ddl-google-pixel-source-board-2026",
@@ -291,6 +441,12 @@
       "name": "Apple",
       "itemCount": 7,
       "nextItemId": "phone-launch-ddl-apple-wwdc26-keynote-2026-06-08"
+    },
+    {
+      "id": "samsung-galaxy",
+      "name": "Samsung Galaxy",
+      "itemCount": 6,
+      "nextItemId": null
     },
     {
       "id": "global-expo",
