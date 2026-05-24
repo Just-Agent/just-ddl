@@ -5,6 +5,7 @@ import Countdown from './Countdown';
 import { useCountdown } from '@/hooks/useCountdown';
 import { useSubscriptions } from '@/hooks/useSubscriptions';
 import { useLanguage } from '@/lib/language';
+import { formatItemDate, hasOfficialDeadline, timingBadge } from '@/lib/ddl';
 
 export type DDLCardVariant = 'list' | 'grid';
 export type DDLCardVisualMode = 'vivid' | 'simple';
@@ -214,10 +215,6 @@ function sourceModeFor(item: DDLItem, language: 'zh' | 'en') {
   return language === 'zh' ? '官方页面' : 'Official page';
 }
 
-function isPlaceholderDate(item: DDLItem) {
-  return item.isDatePlaceholder === true;
-}
-
 function AwaitingNoticeBadge() {
   const { copy } = useLanguage();
   return (
@@ -332,12 +329,13 @@ export default function DDLCard({
   visualMode?: DDLCardVisualMode;
 }) {
   const { isSubscribed, toggle } = useSubscriptions();
-  const { copy } = useLanguage();
+  const { copy, language } = useLanguage();
   const subscribed = isSubscribed(item.id);
   const isGrid = variant === 'grid';
   const isVivid = visualMode === 'vivid';
   const hasSourcePreview = Boolean(sourcePreviewFor(item));
-  const hasPlaceholderDate = isPlaceholderDate(item);
+  const canCountdown = hasOfficialDeadline(item) && typeof item.deadline === 'string';
+  const badge = timingBadge(item, language);
 
   if (isVivid && isGrid) {
     return (
@@ -366,10 +364,18 @@ export default function DDLCard({
           <div className="flex flex-wrap items-center gap-2 text-xs font-black" style={{ color: '#52627A' }}>
             <span>{item.tags[0] || item.type || 'DDL'}</span>
             {item.stage && <span className="rounded-full px-2 py-1" style={{ background: `${topicColor}14`, color: topicColor }}>{item.stage}</span>}
-            <span>{hasPlaceholderDate ? item.dateRange : new Date(item.deadline).toLocaleDateString('zh-CN')}</span>
+            <span>{formatItemDate(item, language)}</span>
           </div>
           <h4 className="line-clamp-2 text-2xl font-black leading-tight" style={{ color: '#020617' }}>{item.title}</h4>
-          {hasPlaceholderDate ? <AwaitingNoticeBadge /> : <VividCountdown deadline={item.deadline} topicColor={topicColor} />}
+          {canCountdown ? (
+            <VividCountdown deadline={item.deadline as string} topicColor={topicColor} />
+          ) : badge ? (
+            <span className="inline-flex self-start rounded-full px-3 py-1 text-xs font-black" style={{ background: badge.background, color: badge.color }}>
+              {badge.label}
+            </span>
+          ) : (
+            <AwaitingNoticeBadge />
+          )}
           {item.description && <p className="line-clamp-3 text-sm leading-7" style={{ color: '#52627A' }}>{item.description}</p>}
           <div className="flex flex-wrap gap-1.5">
             {item.tags.map(t => (
@@ -431,12 +437,12 @@ export default function DDLCard({
         <div className="flex items-center gap-2">
           <h4 className={`${isGrid ? 'line-clamp-2' : 'truncate'} min-w-0 text-sm font-semibold`} style={{ color: '#1C1917' }}>{item.title}</h4>
           {item.stage && <span className="shrink-0 rounded-full px-1.5 py-0.5 text-[10px] font-medium" style={{ background: topicColor + '12', color: topicColor }}>{item.stage}</span>}
-          {item.status === 'ended' && <span className="shrink-0 rounded-full px-1.5 py-0.5 text-[10px] font-medium" style={{ background: '#F5F5F4', color: '#A8A29E' }}>{copy.ddl.ended}</span>}
+          {badge && <span className="shrink-0 rounded-full px-1.5 py-0.5 text-[10px] font-medium" style={{ background: badge.background, color: badge.color }}>{badge.label}</span>}
         </div>
         {item.description && <p className={`mt-1 text-[11px] leading-relaxed ${isGrid ? 'line-clamp-3' : ''}`} style={{ color: '#78716C' }}>{item.description}</p>}
         <div className="mt-1 flex flex-wrap items-center gap-x-3 gap-y-1 text-[11px]" style={{ color: '#A8A29E' }}>
           <span className="flex items-center gap-1">{item.isOnline ? <Globe size={11} /> : <MapPin size={11} />}{item.location}</span>
-          <span className="flex items-center gap-1"><CalendarDays size={11} />{item.dateRange}</span>
+          <span className="flex items-center gap-1"><CalendarDays size={11} />{formatItemDate(item, language)}</span>
           {item.source && <span className="flex items-center gap-1"><Database size={11} />{item.source}</span>}
           {item.prize && <span style={{ color: '#F97316' }}>{item.prize}</span>}
         </div>
@@ -447,7 +453,15 @@ export default function DDLCard({
 
       {/* Right: countdown + actions */}
       <div className={`flex items-center gap-3 ${isGrid ? 'mt-auto justify-between border-t pt-3' : 'sm:justify-end'}`} style={isGrid ? { borderColor: '#F1F5F9' } : undefined}>
-        {hasPlaceholderDate ? <AwaitingNoticeBadge /> : <Countdown deadline={item.deadline} size={isGrid ? 'sm' : 'md'} />}
+        {canCountdown ? (
+          <Countdown deadline={item.deadline as string} size={isGrid ? 'sm' : 'md'} />
+        ) : badge ? (
+          <span className="inline-flex rounded-full px-3 py-1 text-xs font-black" style={{ background: badge.background, color: badge.color }}>
+            {badge.label}
+          </span>
+        ) : (
+          <AwaitingNoticeBadge />
+        )}
         <div className="flex items-center gap-1">
           <button onClick={() => toggle(item.id)}
             className="flex h-7 w-7 items-center justify-center rounded-lg transition-all"

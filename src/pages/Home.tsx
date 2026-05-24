@@ -6,18 +6,7 @@ import { getAllDDL, getDDLByTopic } from '@/data/ddl-data';
 import { useSubscriptions } from '@/hooks/useSubscriptions';
 import TopicCard from '@/components/TopicCard';
 import { useLanguage } from '@/lib/language';
-
-const dayMs = 24 * 60 * 60 * 1000;
-
-function formatDistance(deadline: string, language: 'zh' | 'en') {
-  const time = new Date(deadline).getTime();
-  if (!Number.isFinite(time)) return '-';
-
-  const days = Math.ceil((time - Date.now()) / dayMs);
-  if (days < 0) return language === 'zh' ? '已过期' : 'past';
-  if (days === 0) return language === 'zh' ? '今天' : 'today';
-  return language === 'zh' ? `${days} 天后` : `in ${days}d`;
-}
+import { compareDDLItems, formatRelativeDeadlineLong, isActiveDeadlineItem } from '@/lib/ddl';
 
 export default function Home() {
   const [activeCategory, setActiveCategory] = useState('全部');
@@ -30,8 +19,8 @@ export default function Home() {
     return new Map(topics.map(topic => {
       const items = getDDLByTopic(topic.id);
       const activeItems = items
-        .filter(item => item.status !== 'ended')
-        .sort((a, b) => new Date(a.deadline).getTime() - new Date(b.deadline).getTime());
+        .filter(isActiveDeadlineItem)
+        .sort(compareDDLItems);
       return [topic.id, {
         total: items.length || topic.itemCount,
         active: activeItems.length,
@@ -62,7 +51,7 @@ export default function Home() {
     });
   }, [activeCategory, categoryName, search, tagName, topicDescription, topicName]);
 
-  const activeDDL = allItems.filter(item => item.status !== 'ended').length;
+  const activeDDL = allItems.filter(isActiveDeadlineItem).length;
   const featured = useMemo(() => {
     return [...topics]
       .sort((a, b) => {
@@ -225,7 +214,7 @@ export default function Home() {
                       <span style={{ color: '#64748B' }}>{copy.home.sources}</span>
                     </span>
                     <span>
-                      <strong className="block truncate text-base font-black" style={{ color: '#0F172A' }}>{metrics?.next ? formatDistance(metrics.next.deadline, language) : '-'}</strong>
+                      <strong className="block truncate text-base font-black" style={{ color: '#0F172A' }}>{metrics?.next ? formatRelativeDeadlineLong(metrics.next, language) : '-'}</strong>
                       <span style={{ color: '#64748B' }}>{copy.home.next}</span>
                     </span>
                   </div>

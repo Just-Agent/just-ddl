@@ -7,7 +7,7 @@ const ROOT = 'public/contrib-topics';
 const MAX_TOPICS = 5;
 const MAX_ITEMS = 50;
 const REQUIRED_TOPIC_FIELDS = ['id', 'name', 'description', 'icon', 'color', 'category', 'itemsPath', 'sourcesPath'];
-const REQUIRED_ITEM_FIELDS = ['id', 'title', 'deadline', 'url', 'source'];
+const REQUIRED_ITEM_FIELDS = ['id', 'title', 'url', 'source'];
 
 function extractJsonAfter(source, marker, open, close) {
   const start = source.indexOf(marker);
@@ -67,7 +67,33 @@ function validateItem(topicId, item) {
   for (const key of REQUIRED_ITEM_FIELDS) {
     if (!item[key]) throw new Error(`${topicId}/${item.id || '<missing-id>'}: missing ${key}`);
   }
-  if (Number.isNaN(Date.parse(item.deadline))) {
+  const type = String(item.type || 'officialDeadline');
+  const hasDeadline = item.deadline && !Number.isNaN(Date.parse(item.deadline));
+  const hasDate = item.date && !Number.isNaN(Date.parse(item.date));
+  const windowStart = item.estimatedNextWindow?.start;
+  const windowEnd = item.estimatedNextWindow?.end;
+  const hasWindow = windowStart && windowEnd && !Number.isNaN(Date.parse(windowStart)) && !Number.isNaN(Date.parse(windowEnd));
+  const isHistory = type === 'historyEvent' || type === 'officialRelease';
+  const isForecast = type === 'forecastWindow' || Boolean(item.estimatedNextWindow);
+  const isPlaceholder = item.isDatePlaceholder === true;
+
+  if (isHistory) {
+    if (!hasDate) throw new Error(`${topicId}/${item.id}: history item must include valid date`);
+  } else if (isForecast) {
+    if (!isPlaceholder) throw new Error(`${topicId}/${item.id}: forecast item must set isDatePlaceholder=true`);
+    if (!hasWindow) throw new Error(`${topicId}/${item.id}: forecast item must include valid estimatedNextWindow.start/end`);
+    if (!item.lastOfficialDate || Number.isNaN(Date.parse(item.lastOfficialDate))) {
+      throw new Error(`${topicId}/${item.id}: forecast item must include valid lastOfficialDate`);
+    }
+    if (!Array.isArray(item.basisEvents) || item.basisEvents.length === 0) {
+      throw new Error(`${topicId}/${item.id}: forecast item must include basisEvents`);
+    }
+    if (!['low', 'medium', 'high'].includes(String(item.confidence || ''))) {
+      throw new Error(`${topicId}/${item.id}: forecast item must include confidence low/medium/high`);
+    }
+  } else if (!isPlaceholder && !hasDeadline) {
+    throw new Error(`${topicId}/${item.id}: official deadline item must include valid deadline`);
+  } else if (item.deadline && Number.isNaN(Date.parse(item.deadline))) {
     throw new Error(`${topicId}/${item.id}: invalid deadline ${item.deadline}`);
   }
   if (!/^https?:\/\//.test(item.url)) {

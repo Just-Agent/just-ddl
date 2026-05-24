@@ -31,8 +31,10 @@ const PUBLIC_PRIVATE_KEYS = new Set([
   'rawHtml',
   'rawPayload',
   'rawSource',
+  'releaseCadence',
   'sampleNote',
   'scopeNote',
+  'sourcePolicy',
   'sourcePriority',
   'validationNote'
 ]);
@@ -182,10 +184,37 @@ async function fetchJson(url) {
 
 function validateItem(topicId, item) {
   const errors = [];
-  for (const key of ['id', 'title', 'deadline', 'url', 'source']) {
+  for (const key of ['id', 'title', 'url', 'source']) {
     if (!item[key]) errors.push(`${topicId}/${item.id || '<missing-id>'}: missing ${key}`);
   }
-  if (item.deadline && Number.isNaN(Date.parse(item.deadline))) {
+
+  const type = String(item.type || 'officialDeadline');
+  const hasDeadline = item.deadline && !Number.isNaN(Date.parse(item.deadline));
+  const hasDate = item.date && !Number.isNaN(Date.parse(item.date));
+  const windowStart = item.estimatedNextWindow?.start;
+  const windowEnd = item.estimatedNextWindow?.end;
+  const hasWindow = windowStart && windowEnd && !Number.isNaN(Date.parse(windowStart)) && !Number.isNaN(Date.parse(windowEnd));
+  const isHistory = type === 'historyEvent' || type === 'officialRelease';
+  const isForecast = type === 'forecastWindow' || Boolean(item.estimatedNextWindow);
+  const isPlaceholder = item.isDatePlaceholder === true;
+
+  if (isHistory) {
+    if (!hasDate) errors.push(`${topicId}/${item.id}: history item must include valid date`);
+  } else if (isForecast) {
+    if (!isPlaceholder) errors.push(`${topicId}/${item.id}: forecast item must set isDatePlaceholder=true`);
+    if (!hasWindow) errors.push(`${topicId}/${item.id}: forecast item must include valid estimatedNextWindow.start/end`);
+    if (!item.lastOfficialDate || Number.isNaN(Date.parse(item.lastOfficialDate))) {
+      errors.push(`${topicId}/${item.id}: forecast item must include valid lastOfficialDate`);
+    }
+    if (!Array.isArray(item.basisEvents) || item.basisEvents.length === 0) {
+      errors.push(`${topicId}/${item.id}: forecast item must include basisEvents`);
+    }
+    if (!['low', 'medium', 'high'].includes(String(item.confidence || ''))) {
+      errors.push(`${topicId}/${item.id}: forecast item must include confidence low/medium/high`);
+    }
+  } else if (!isPlaceholder && !hasDeadline) {
+    errors.push(`${topicId}/${item.id}: official deadline item must include valid deadline`);
+  } else if (item.deadline && Number.isNaN(Date.parse(item.deadline))) {
     errors.push(`${topicId}/${item.id}: invalid deadline ${item.deadline}`);
   }
   if (item.url && !/^https?:\/\//.test(item.url)) {
@@ -244,21 +273,59 @@ function validatePublicPayload(value, path = 'ddlData') {
   return errors;
 }
 
+function publicDateRange(item) {
+  if (item.dateRange) return item.dateRange;
+  if (item.deadline && !Number.isNaN(Date.parse(item.deadline))) {
+    return new Date(item.deadline).toISOString().slice(0, 10);
+  }
+  if (item.date && !Number.isNaN(Date.parse(item.date))) {
+    return new Date(item.date).toISOString().slice(0, 10);
+  }
+  const start = item.estimatedNextWindow?.start;
+  const end = item.estimatedNextWindow?.end;
+  if (start && end && !Number.isNaN(Date.parse(start)) && !Number.isNaN(Date.parse(end))) {
+    return `${new Date(start).toISOString().slice(0, 10)} - ${new Date(end).toISOString().slice(0, 10)}`;
+  }
+  return item.isDatePlaceholder === true ? '待官方公告' : 'TBD';
+}
+
+function publicStatus(item) {
+  if (item.status) return item.status;
+  if (item.type === 'historyEvent' || item.type === 'officialRelease') return 'ended';
+  if (item.type === 'forecastWindow' || item.estimatedNextWindow) return 'unannounced';
+  return 'upcoming';
+}
+
+function sortTime(item) {
+  const candidates = [
+    item.deadline,
+    item.date,
+    item.estimatedNextWindow?.start
+  ];
+  for (const candidate of candidates) {
+    if (candidate && !Number.isNaN(Date.parse(candidate))) return Date.parse(candidate);
+  }
+  return Number.MAX_SAFE_INTEGER;
+}
+
+function sortBucket(item) {
+  if (item.status === 'ended' || item.type === 'historyEvent' || item.type === 'officialRelease') return 2;
+  if (item.type === 'forecastWindow' || item.estimatedNextWindow) return 1;
+  return 0;
+}
+
 function normalizeItems(topic, items) {
   if (!Array.isArray(items) || items.length === 0) {
     throw new Error(`${topic.id}: fetched items.json is empty or not an array`);
   }
   const normalized = items.map(item => {
-    const deadlineDate = Number.isNaN(Date.parse(item.deadline))
-      ? ''
-      : new Date(item.deadline).toISOString().slice(0, 10);
     return {
       ...item,
-      dateRange: item.dateRange || deadlineDate || 'TBD',
+      dateRange: publicDateRange(item),
       location: item.location || (item.isOnline === false ? 'TBD' : 'Online'),
       isOnline: typeof item.isOnline === 'boolean' ? item.isOnline : true,
       tags: Array.isArray(item.tags) ? item.tags : [],
-      status: item.status || 'upcoming'
+      status: publicStatus(item)
     };
   });
 
@@ -267,7 +334,9 @@ function normalizeItems(topic, items) {
 
   const publicItems = normalized.map(stripPrivatePublicData);
   return publicItems.sort((a, b) => {
-    const dateDiff = Date.parse(a.deadline) - Date.parse(b.deadline);
+    const bucketDiff = sortBucket(a) - sortBucket(b);
+    if (bucketDiff !== 0) return bucketDiff;
+    const dateDiff = sortTime(a) - sortTime(b);
     if (dateDiff !== 0) return dateDiff;
     return String(a.title).localeCompare(String(b.title), 'zh-CN');
   });
@@ -310,23 +379,32 @@ function writeData(ddlData) {
   [key: string]: unknown;
   id: string;
   title: string;
-  deadline: string;
+  deadline?: string;
+  date?: string;
   dateRange: string;
   location: string;
   isOnline: boolean;
   tags: string[];
   url: string;
-  status: 'upcoming' | 'ongoing' | 'ended';
+  status: 'upcoming' | 'ongoing' | 'ended' | 'unannounced' | 'watching' | string;
   prize?: string;
   description?: string;
   stage?: string;
   source?: string;
-  type?: 'conference' | 'journal' | 'challenge' | 'hackathon' | 'holiday' | 'contest' | 'program' | 'release' | 'concert' | 'regulation';
+  type?: 'conference' | 'journal' | 'challenge' | 'hackathon' | 'holiday' | 'contest' | 'program' | 'release' | 'concert' | 'regulation' | 'officialDeadline' | 'historyEvent' | 'officialRelease' | 'forecastWindow' | string;
   sourceUrl?: string;
   canonicalUrl?: string;
   isDatePlaceholder?: boolean;
   previewImage?: string;
   subtopic?: string;
+  subtopicName?: string;
+  estimatedNextWindow?: {
+    start: string;
+    end: string;
+  };
+  lastOfficialDate?: string;
+  basisEvents?: string[];
+  confidence?: 'low' | 'medium' | 'high' | string;
 }
 
 export const ddlData: Record<string, DDLItem[]> = ${JSON.stringify(publicData, null, 2)};

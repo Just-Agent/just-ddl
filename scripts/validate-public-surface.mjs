@@ -31,8 +31,10 @@ const PRIVATE_KEYS = [
   'rawHtml',
   'rawPayload',
   'rawSource',
+  'releaseCadence',
   'sampleNote',
   'scopeNote',
+  'sourcePolicy',
   'sourcePriority',
   'validationNote'
 ];
@@ -47,17 +49,17 @@ const FORBIDDEN_PUBLIC_TEXT = [
 ];
 const DIRECT_RENDER_PATTERNS = [
   {
-    pattern: /\$\{[^}]*\.(?:licenseNote|sampleNote|coverageNote|scopeNote|parser|accessMode|forecastBasis|developerNote|devNote|maintainerNote|error\.message)[^}]*\}/,
+    pattern: /\$\{[^}]*\.(?:licenseNote|sampleNote|coverageNote|scopeNote|sourcePolicy|parser|accessMode|forecastBasis|releaseCadence|developerNote|devNote|maintainerNote|error\.message)[^}]*\}/,
     message: 'direct template render of developer-only field'
   },
   {
-    pattern: /<(?:p|span|div|li|strong|small|em|td|th)[^>]*>\s*\{[^}]*\.(?:licenseNote|sampleNote|coverageNote|scopeNote|parser|accessMode|forecastBasis|developerNote|devNote|maintainerNote|error\.message)[^}]*\}\s*<\/(?:p|span|div|li|strong|small|em|td|th)>/,
+    pattern: /<(?:p|span|div|li|strong|small|em|td|th)[^>]*>\s*\{[^}]*\.(?:licenseNote|sampleNote|coverageNote|scopeNote|sourcePolicy|parser|accessMode|forecastBasis|releaseCadence|developerNote|devNote|maintainerNote|error\.message)[^}]*\}\s*<\/(?:p|span|div|li|strong|small|em|td|th)>/,
     message: 'direct JSX render of developer-only field'
   }
 ];
 const DIST_FORBIDDEN_PATTERNS = [
   {
-    pattern: /["'](?:accessMode|coverageNote|crawler|crawlerReport|debugReport|deadlineTimezone|developerNote|devNote|forecastBasis|licenseNote|maintainerNote|parser|parserConfidence|rawHtml|rawPayload|rawSource|sampleNote|scopeNote|sourcePriority|validationNote)["']\s*:/,
+    pattern: /["'](?:accessMode|coverageNote|crawler|crawlerReport|debugReport|deadlineTimezone|developerNote|devNote|forecastBasis|licenseNote|maintainerNote|parser|parserConfidence|rawHtml|rawPayload|rawSource|releaseCadence|sampleNote|scopeNote|sourcePolicy|sourcePriority|validationNote)["']\s*:/,
     message: 'developer-only data key is present in built public assets'
   },
   {

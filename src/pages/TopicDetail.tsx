@@ -39,12 +39,11 @@ import { getDDLByTopic, type DDLItem } from '@/data/ddl-data';
 import { useSubscriptions } from '@/hooks/useSubscriptions';
 import DDLCard, { type DDLCardVisualMode } from '@/components/DDLCard';
 import { useLanguage } from '@/lib/language';
+import { compareDDLItems, ddlItemTime, formatRelativeDeadline, isActiveDeadlineItem } from '@/lib/ddl';
 
 const iconMap: Record<string, LucideIcon> = {
   Trophy, Bot, Eye, MessageSquare, GraduationCap, BookOpen, Code2, CalendarHeart, Layers, Medal, Gamepad2, Music, Clapperboard, Smartphone, Car, Scale, BriefcaseBusiness,
 };
-
-const dayMs = 24 * 60 * 60 * 1000;
 
 interface SubtopicGroup {
   id: string;
@@ -123,7 +122,7 @@ function TopicSubtopicPlaza({
   const orderedGroups = useMemo(() => [...groups].sort((a, b) => {
     const pinDelta = Number(pinnedSubtopics.has(b.id)) - Number(pinnedSubtopics.has(a.id));
     if (pinDelta) return pinDelta;
-    return new Date(a.nextItem?.deadline || '2999-01-01').getTime() - new Date(b.nextItem?.deadline || '2999-01-01').getTime();
+    return ddlItemTime(a.nextItem || ({} as DDLItem)) - ddlItemTime(b.nextItem || ({} as DDLItem));
   }), [groups, pinnedSubtopics]);
 
   const togglePinned = (id: string) => {
@@ -150,9 +149,7 @@ function TopicSubtopicPlaza({
 
   const countdownLabel = (item?: DDLItem) => {
     if (!item) return '-';
-    const days = Math.ceil((new Date(item.deadline).getTime() - Date.now()) / dayMs);
-    if (days <= 0) return language === 'zh' ? '今天' : 'today';
-    return language === 'zh' ? `${days} 天后` : `in ${days}d`;
+    return formatRelativeDeadline(item, language);
   };
 
   if (!groups.length) return null;
@@ -334,11 +331,7 @@ export default function TopicDetail() {
 
   const items = useMemo(() => {
     if (!topicId) return [];
-    return getDDLByTopic(topicId).sort((a, b) => {
-      if (a.status === 'ended' && b.status !== 'ended') return 1;
-      if (a.status !== 'ended' && b.status === 'ended') return -1;
-      return new Date(a.deadline).getTime() - new Date(b.deadline).getTime();
-    });
+    return getDDLByTopic(topicId).sort(compareDDLItems);
   }, [topicId]);
 
   const subtopicGroups = useMemo<SubtopicGroup[]>(() => {
@@ -355,14 +348,14 @@ export default function TopicDetail() {
         sourceCount: 0,
       };
       group.items.push(item);
-      if (item.status !== 'ended') group.activeItems.push(item);
+      if (isActiveDeadlineItem(item)) group.activeItems.push(item);
       groups.set(subtopic.id, group);
     }
     return [...groups.values()].map(group => {
-      const activeItems = group.activeItems.sort((a, b) => new Date(a.deadline).getTime() - new Date(b.deadline).getTime());
+      const activeItems = group.activeItems.sort(compareDDLItems);
       return {
         ...group,
-        items: group.items.sort((a, b) => new Date(a.deadline).getTime() - new Date(b.deadline).getTime()),
+        items: group.items.sort(compareDDLItems),
         activeItems,
         nextItem: activeItems[0] || group.items[0],
         sourceCount: new Set(group.items.map(item => item.source).filter(Boolean)).size,
@@ -383,7 +376,7 @@ export default function TopicDetail() {
 
   const Icon = iconMap[topic.icon] || Trophy;
   const subscribed = isSubscribed(topic.id);
-  const activeItems = items.filter(item => item.status !== 'ended');
+  const activeItems = items.filter(isActiveDeadlineItem);
   const nextItem = activeItems[0];
   const sourceCount = new Set(items.map(item => item.source).filter(Boolean)).size;
 

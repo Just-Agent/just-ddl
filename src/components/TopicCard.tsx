@@ -31,23 +31,11 @@ import type { Topic } from '@/data/topics';
 import { getDDLByTopic } from '@/data/ddl-data';
 import { useSubscriptions } from '@/hooks/useSubscriptions';
 import { useLanguage } from '@/lib/language';
+import { compareDDLItems, formatRelativeDeadline, isActiveDeadlineItem } from '@/lib/ddl';
 
 const iconMap: Record<string, LucideIcon> = {
   Trophy, Bot, Eye, MessageSquare, GraduationCap, BookOpen, Code2, CalendarHeart, Layers, Medal, Gamepad2, Music, Clapperboard, Smartphone, Car, Scale, BriefcaseBusiness,
 };
-
-const dayMs = 24 * 60 * 60 * 1000;
-
-function shortCountdown(deadline: string, language: 'zh' | 'en', isPlaceholder = false) {
-  if (isPlaceholder) return language === 'zh' ? '待公告' : 'TBA';
-  const time = new Date(deadline).getTime();
-  if (!Number.isFinite(time)) return '-';
-
-  const days = Math.ceil((time - Date.now()) / dayMs);
-  if (days < 0) return language === 'zh' ? '已过期' : 'past';
-  if (days === 0) return language === 'zh' ? '今天' : 'today';
-  return language === 'zh' ? `${days} 天` : `${days}d`;
-}
 
 function topicStatus(topic: Topic, language: 'zh' | 'en') {
   if (topic.status === 'incubating') {
@@ -97,8 +85,8 @@ export default function TopicCard({ topic, index }: { topic: Topic; index: numbe
   const metrics = useMemo(() => {
     const items = getDDLByTopic(topic.id);
     const activeItems = items
-      .filter(item => item.status !== 'ended')
-      .sort((a, b) => new Date(a.deadline).getTime() - new Date(b.deadline).getTime());
+      .filter(isActiveDeadlineItem)
+      .sort(compareDDLItems);
 
     return {
       total: items.length || topic.itemCount,
@@ -176,7 +164,7 @@ export default function TopicCard({ topic, index }: { topic: Topic; index: numbe
           <div className="rounded-2xl border bg-slate-50 p-3" style={{ borderColor: '#E2E8F0' }}>
             <Clock3 size={14} style={{ color: topic.color }} />
             <p className="mt-2 truncate text-lg font-black" style={{ color: '#0F172A' }}>
-              {metrics.next ? shortCountdown(metrics.next.deadline, language, metrics.next.isDatePlaceholder === true) : '-'}
+              {metrics.next ? formatRelativeDeadline(metrics.next, language) : '-'}
             </p>
             <p className="text-[11px] font-bold" style={{ color: '#64748B' }}>{copy.topicCard.next}</p>
           </div>

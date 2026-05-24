@@ -50,7 +50,7 @@ export default function ContributeTopic() {
       standards: [
         '仓库名使用 xxx-ddl，例如 music-ddl、finance-ddl、robotics-ddl；专题边界要清楚，不要把多个无关领域混在一个仓库。',
         '必须公开 `data/items.json`，主分支为 `main`。专题族仓库可以为不同专题提供 `data/{topicId}/items.json`，并在 Hub Topic 里填写 `dataUrl`。',
-        '`items.json` 至少包含 `id/title/deadline/url/source`，建议补齐 `dateRange/location/isOnline/tags/status/stage/type/description/subtopic/previewImage`。',
+        '`items.json` 至少包含 `id/title/url/source` 和一种时间轨道：正式截止日用 `deadline`，历史节点用 `date`，未官宣预测用 `estimatedNextWindow` + `isDatePlaceholder`；建议补齐 `dateRange/location/isOnline/tags/status/stage/type/description/subtopic/previewImage`。',
         '每条 DDL 优先使用官方/主办方/权威聚合来源，`url` 必须可公开访问；不确定的信息要在 `source` 或 `description` 里说明。',
         '建议保留 `data/sources.json`、`scripts/validate-data.mjs`、`scripts/link-check.mjs`、`scripts/crawl-sources.mjs` 和 `.github/workflows/update-data.yml`。',
         '必须发布 GitHub Pages，让用户能看到专题页面；README 要说明数据来源、更新频率、维护者和如何反馈错误。',
@@ -130,7 +130,7 @@ export default function ContributeTopic() {
       standards: [
         'Use an xxx-ddl repository name, such as music-ddl, finance-ddl, or robotics-ddl. Keep the topic boundary clear.',
         'Expose public `data/items.json` on the `main` branch. Topic-family repositories can expose `data/{topicId}/items.json` and set `dataUrl` in the Hub Topic.',
-        '`items.json` must include `id/title/deadline/url/source`; recommended fields are `dateRange/location/isOnline/tags/status/stage/type/description/subtopic/previewImage`.',
+        '`items.json` must include `id/title/url/source` plus one time rail: `deadline` for official deadlines, `date` for history nodes, or `estimatedNextWindow` + `isDatePlaceholder` for unannounced forecasts. Recommended fields are `dateRange/location/isOnline/tags/status/stage/type/description/subtopic/previewImage`.',
         'Prefer official organizer or authoritative aggregate sources. `url` must be public, and uncertain information should be explained in `source` or `description`.',
         'Recommended files: `data/sources.json`, `scripts/validate-data.mjs`, `scripts/link-check.mjs`, `scripts/crawl-sources.mjs`, and `.github/workflows/update-data.yml`.',
         'Publish GitHub Pages so users can browse the topic. README should explain sources, update cadence, maintainers, and error reporting.',

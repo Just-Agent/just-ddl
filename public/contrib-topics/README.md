@@ -47,7 +47,13 @@
 ]
 ```
 
-`items.json` 每条至少需要：
+`items.json` 每条至少需要 `id/title/url/source`，并选择一种时间轨道：
+
+- 正式截止日：使用 `deadline`，会进入倒计时。
+- 历史节点：使用 `type: "historyEvent"` 和 `date`，只进入时间线，不进入倒计时。
+- 未官宣预测：使用 `type: "forecastWindow"`、`isDatePlaceholder: true` 和 `estimatedNextWindow`，页面显示预测窗口，不显示官方倒计时。
+
+正式截止日示例：
 
 ```json
 {
@@ -56,5 +62,25 @@
   "deadline": "2026-06-30T23:59:59",
   "url": "https://example.org/call",
   "source": "Official site"
+}
+```
+
+预测窗口示例：
+
+```json
+{
+  "id": "music-ddl-example-next-album-window",
+  "title": "Example Artist 下一张专辑预测窗口",
+  "type": "forecastWindow",
+  "isDatePlaceholder": true,
+  "estimatedNextWindow": {
+    "start": "2026-09-01",
+    "end": "2026-12-31"
+  },
+  "lastOfficialDate": "2025-11-01",
+  "basisEvents": ["music-ddl-example-2025-release"],
+  "confidence": "low",
+  "url": "https://example.org/releases",
+  "source": "Official release archive"
 }
 ```

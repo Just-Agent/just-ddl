@@ -22,6 +22,7 @@ import { getAllDDL, type DDLItem } from '@/data/ddl-data';
 import { getTopicById, topics, type Topic } from '@/data/topics';
 import DDLCard, { type DDLCardVisualMode } from '@/components/DDLCard';
 import { useLanguage } from '@/lib/language';
+import { ddlItemTime, isActiveDeadlineItem } from '@/lib/ddl';
 
 type OrganizeMode = 'topic' | 'time' | 'name';
 type DisplayMode = 'list' | 'grid';
@@ -86,18 +87,13 @@ function findTopicForItem(item: DDLItem) {
   return topics.find(topic => item.id === topic.id || item.id.startsWith(`${topic.id}-`));
 }
 
-function deadlineTime(item: DDLItem) {
-  const time = new Date(item.deadline).getTime();
-  return Number.isFinite(time) ? time : Number.MAX_SAFE_INTEGER;
-}
-
 function sortItemsByMode(items: DDLWithMeta[], mode: OrganizeMode, language: 'zh' | 'en') {
   const locale = language === 'zh' ? 'zh-Hans-CN' : 'en-US';
   return [...items].sort((a, b) => {
     if (mode === 'name') {
-      return a.title.localeCompare(b.title, locale) || deadlineTime(a) - deadlineTime(b);
+      return a.title.localeCompare(b.title, locale) || ddlItemTime(a) - ddlItemTime(b);
     }
-    return deadlineTime(a) - deadlineTime(b) || a.title.localeCompare(b.title, locale);
+    return ddlItemTime(a) - ddlItemTime(b) || a.title.localeCompare(b.title, locale);
   });
 }
 
@@ -199,12 +195,12 @@ export default function MyDDL() {
   const subscribedItems = useMemo(() => {
     return allItemsWithMeta
       .filter(item => item.explicit)
-      .sort((a, b) => deadlineTime(a) - deadlineTime(b));
+      .sort((a, b) => ddlItemTime(a) - ddlItemTime(b));
   }, [allItemsWithMeta]);
 
   const sortedItems = useMemo(() => sortItemsByMode(topicItems, organizeMode, language), [topicItems, organizeMode, language]);
-  const activeItems = sortedItems.filter(d => d.status !== 'ended');
-  const endedItems = sortedItems.filter(d => d.status === 'ended');
+  const activeItems = sortedItems.filter(isActiveDeadlineItem);
+  const endedItems = sortedItems.filter(d => !isActiveDeadlineItem(d));
 
   const topicGroups = useMemo<TopicGroup[]>(() => {
     const groups = new Map<string, TopicGroup>();
@@ -226,8 +222,8 @@ export default function MyDDL() {
 
       group.items.push(item);
       if (item.explicit) group.explicitCount += 1;
-      if (item.status === 'ended') group.endedCount += 1;
-      else group.activeCount += 1;
+      if (isActiveDeadlineItem(item)) group.activeCount += 1;
+      else group.endedCount += 1;
       groups.set(item.topicId, group);
     }
 
@@ -380,8 +376,8 @@ export default function MyDDL() {
             <section className="mt-6 space-y-4">
               {topicGroups.map((group, groupIndex) => {
                 const collapsed = collapsedTopics.has(group.id);
-                const activeGroupItems = group.items.filter(item => item.status !== 'ended');
-                const endedGroupItems = group.items.filter(item => item.status === 'ended');
+                const activeGroupItems = group.items.filter(isActiveDeadlineItem);
+                const endedGroupItems = group.items.filter(item => !isActiveDeadlineItem(item));
                 const Chevron = collapsed ? ChevronRight : ChevronDown;
 
                 return (

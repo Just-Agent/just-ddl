@@ -2,23 +2,32 @@ export interface DDLItem {
   [key: string]: unknown;
   id: string;
   title: string;
-  deadline: string;
+  deadline?: string;
+  date?: string;
   dateRange: string;
   location: string;
   isOnline: boolean;
   tags: string[];
   url: string;
-  status: 'upcoming' | 'ongoing' | 'ended';
+  status: 'upcoming' | 'ongoing' | 'ended' | 'unannounced' | 'watching' | string;
   prize?: string;
   description?: string;
   stage?: string;
   source?: string;
-  type?: 'conference' | 'journal' | 'challenge' | 'hackathon' | 'holiday' | 'contest' | 'program' | 'release' | 'concert' | 'regulation';
+  type?: 'conference' | 'journal' | 'challenge' | 'hackathon' | 'holiday' | 'contest' | 'program' | 'release' | 'concert' | 'regulation' | 'officialDeadline' | 'historyEvent' | 'officialRelease' | 'forecastWindow' | string;
   sourceUrl?: string;
   canonicalUrl?: string;
   isDatePlaceholder?: boolean;
   previewImage?: string;
   subtopic?: string;
+  subtopicName?: string;
+  estimatedNextWindow?: {
+    start: string;
+    end: string;
+  };
+  lastOfficialDate?: string;
+  basisEvents?: string[];
+  confidence?: 'low' | 'medium' | 'high' | string;
 }
 
 export const ddlData: Record<string, DDLItem[]> = {
