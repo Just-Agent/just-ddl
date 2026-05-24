@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-24T11:21:23.164Z",
-  "dataVersion": "7f41c007a5103ac9",
+  "generatedAt": "2026-05-24T11:49:58.525Z",
+  "dataVersion": "a23f365a9e0ad31b",
   "topic": {
     "id": "journal-volume-ddl",
     "name": "期刊发文量",
@@ -91,7 +91,9 @@
       "asOfDate": "2026-05-24",
       "source": "OpenAlex",
       "url": "https://openalex.org/S52395412",
-      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object"
+      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
+      "openAlexId": "https://openalex.org/S52395412",
+      "homepageUrl": "http://bioinformatics.oxfordjournals.org/"
     },
     {
       "id": "openalex-bioinformatics-openalex_works_count_by_year-2026",
@@ -101,11 +103,12 @@
       "journalTitle": "Bioinformatics",
       "issn": "1367-4811",
       "metric": "openalex_works_count_by_year",
-      "value": 235,
+      "value": 236,
       "year": 2026,
       "source": "OpenAlex",
       "url": "https://openalex.org/S52395412",
-      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object"
+      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
+      "openAlexId": "https://openalex.org/S52395412"
     },
     {
       "id": "openalex-bioinformatics-openalex_works_count_by_year-2025",
@@ -115,11 +118,12 @@
       "journalTitle": "Bioinformatics",
       "issn": "1367-4811",
       "metric": "openalex_works_count_by_year",
-      "value": 678,
+      "value": 677,
       "year": 2025,
       "source": "OpenAlex",
       "url": "https://openalex.org/S52395412",
-      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object"
+      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
+      "openAlexId": "https://openalex.org/S52395412"
     },
     {
       "id": "openalex-bioinformatics-openalex_works_count_by_year-2024",
@@ -133,7 +137,8 @@
       "year": 2024,
       "source": "OpenAlex",
       "url": "https://openalex.org/S52395412",
-      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object"
+      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
+      "openAlexId": "https://openalex.org/S52395412"
     },
     {
       "id": "openalex-bioinformatics-openalex_works_count_by_year-2023",
@@ -147,7 +152,8 @@
       "year": 2023,
       "source": "OpenAlex",
       "url": "https://openalex.org/S52395412",
-      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object"
+      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
+      "openAlexId": "https://openalex.org/S52395412"
     },
     {
       "id": "openalex-bioinformatics-openalex_works_count_by_year-2022",
@@ -161,7 +167,8 @@
       "year": 2022,
       "source": "OpenAlex",
       "url": "https://openalex.org/S52395412",
-      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object"
+      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
+      "openAlexId": "https://openalex.org/S52395412"
     },
     {
       "id": "openalex-bmj-openalex_works_count_total-total",
@@ -175,7 +182,8 @@
       "asOfDate": "2026-05-24",
       "source": "OpenAlex",
       "url": "https://openalex.org/S4393917726",
-      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object"
+      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
+      "openAlexId": "https://openalex.org/S4393917726"
     },
     {
       "id": "openalex-bmj-openalex_works_count_by_year-2026",
@@ -189,7 +197,8 @@
       "year": 2026,
       "source": "OpenAlex",
       "url": "https://openalex.org/S4393917726",
-      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object"
+      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
+      "openAlexId": "https://openalex.org/S4393917726"
     },
     {
       "id": "openalex-bmj-openalex_works_count_by_year-2025",
@@ -203,7 +212,8 @@
       "year": 2025,
       "source": "OpenAlex",
       "url": "https://openalex.org/S4393917726",
-      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object"
+      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
+      "openAlexId": "https://openalex.org/S4393917726"
     },
     {
       "id": "openalex-bmj-openalex_works_count_by_year-2024",
@@ -217,7 +227,8 @@
       "year": 2024,
       "source": "OpenAlex",
       "url": "https://openalex.org/S4393917726",
-      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object"
+      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
+      "openAlexId": "https://openalex.org/S4393917726"
     },
     {
       "id": "openalex-bmj-openalex_works_count_by_year-2023",
@@ -231,7 +242,8 @@
       "year": 2023,
       "source": "OpenAlex",
       "url": "https://openalex.org/S4393917726",
-      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object"
+      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
+      "openAlexId": "https://openalex.org/S4393917726"
     },
     {
       "id": "openalex-bmj-openalex_works_count_by_year-2022",
@@ -245,7 +257,8 @@
       "year": 2022,
       "source": "OpenAlex",
       "url": "https://openalex.org/S4393917726",
-      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object"
+      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
+      "openAlexId": "https://openalex.org/S4393917726"
     },
     {
       "id": "openalex-cell-openalex_works_count_total-total",
@@ -259,7 +272,9 @@
       "asOfDate": "2026-05-24",
       "source": "OpenAlex",
       "url": "https://openalex.org/S110447773",
-      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object"
+      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
+      "openAlexId": "https://openalex.org/S110447773",
+      "homepageUrl": "https://www.sciencedirect.com/journal/cell"
     },
     {
       "id": "openalex-cell-openalex_works_count_by_year-2026",
@@ -273,7 +288,8 @@
       "year": 2026,
       "source": "OpenAlex",
       "url": "https://openalex.org/S110447773",
-      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object"
+      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
+      "openAlexId": "https://openalex.org/S110447773"
     },
     {
       "id": "openalex-cell-openalex_works_count_by_year-2025",
@@ -287,7 +303,8 @@
       "year": 2025,
       "source": "OpenAlex",
       "url": "https://openalex.org/S110447773",
-      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object"
+      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
+      "openAlexId": "https://openalex.org/S110447773"
     },
     {
       "id": "openalex-cell-openalex_works_count_by_year-2024",
@@ -301,7 +318,8 @@
       "year": 2024,
       "source": "OpenAlex",
       "url": "https://openalex.org/S110447773",
-      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object"
+      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
+      "openAlexId": "https://openalex.org/S110447773"
     },
     {
       "id": "openalex-cell-openalex_works_count_by_year-2023",
@@ -315,7 +333,8 @@
       "year": 2023,
       "source": "OpenAlex",
       "url": "https://openalex.org/S110447773",
-      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object"
+      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
+      "openAlexId": "https://openalex.org/S110447773"
     },
     {
       "id": "openalex-cell-openalex_works_count_by_year-2022",
@@ -329,7 +348,8 @@
       "year": 2022,
       "source": "OpenAlex",
       "url": "https://openalex.org/S110447773",
-      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object"
+      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
+      "openAlexId": "https://openalex.org/S110447773"
     },
     {
       "id": "openalex-tpami-openalex_works_count_total-total",
@@ -343,7 +363,9 @@
       "asOfDate": "2026-05-24",
       "source": "OpenAlex",
       "url": "https://openalex.org/S199944782",
-      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object"
+      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
+      "openAlexId": "https://openalex.org/S199944782",
+      "homepageUrl": "http://www.computer.org/portal/web/tpami"
     },
     {
       "id": "openalex-tpami-openalex_works_count_by_year-2026",
@@ -353,11 +375,12 @@
       "journalTitle": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
       "issn": "0162-8828",
       "metric": "openalex_works_count_by_year",
-      "value": 430,
+      "value": 431,
       "year": 2026,
       "source": "OpenAlex",
       "url": "https://openalex.org/S199944782",
-      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object"
+      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
+      "openAlexId": "https://openalex.org/S199944782"
     },
     {
       "id": "openalex-tpami-openalex_works_count_by_year-2025",
@@ -367,11 +390,12 @@
       "journalTitle": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
       "issn": "0162-8828",
       "metric": "openalex_works_count_by_year",
-      "value": 943,
+      "value": 942,
       "year": 2025,
       "source": "OpenAlex",
       "url": "https://openalex.org/S199944782",
-      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object"
+      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
+      "openAlexId": "https://openalex.org/S199944782"
     },
     {
       "id": "openalex-tpami-openalex_works_count_by_year-2024",
@@ -385,7 +409,8 @@
       "year": 2024,
       "source": "OpenAlex",
       "url": "https://openalex.org/S199944782",
-      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object"
+      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
+      "openAlexId": "https://openalex.org/S199944782"
     },
     {
       "id": "openalex-tpami-openalex_works_count_by_year-2023",
@@ -399,7 +424,8 @@
       "year": 2023,
       "source": "OpenAlex",
       "url": "https://openalex.org/S199944782",
-      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object"
+      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
+      "openAlexId": "https://openalex.org/S199944782"
     },
     {
       "id": "openalex-tpami-openalex_works_count_by_year-2022",
@@ -413,7 +439,8 @@
       "year": 2022,
       "source": "OpenAlex",
       "url": "https://openalex.org/S199944782",
-      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object"
+      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
+      "openAlexId": "https://openalex.org/S199944782"
     },
     {
       "id": "openalex-jama-openalex_works_count_total-total",
@@ -427,7 +454,9 @@
       "asOfDate": "2026-05-24",
       "source": "OpenAlex",
       "url": "https://openalex.org/S172573765",
-      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object"
+      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
+      "openAlexId": "https://openalex.org/S172573765",
+      "homepageUrl": "http://jama.ama-assn.org/"
     },
     {
       "id": "openalex-jama-openalex_works_count_by_year-2026",
@@ -441,7 +470,8 @@
       "year": 2026,
       "source": "OpenAlex",
       "url": "https://openalex.org/S172573765",
-      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object"
+      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
+      "openAlexId": "https://openalex.org/S172573765"
     },
     {
       "id": "openalex-jama-openalex_works_count_by_year-2025",
@@ -455,7 +485,8 @@
       "year": 2025,
       "source": "OpenAlex",
       "url": "https://openalex.org/S172573765",
-      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object"
+      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
+      "openAlexId": "https://openalex.org/S172573765"
     },
     {
       "id": "openalex-jama-openalex_works_count_by_year-2024",
@@ -469,7 +500,8 @@
       "year": 2024,
       "source": "OpenAlex",
       "url": "https://openalex.org/S172573765",
-      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object"
+      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
+      "openAlexId": "https://openalex.org/S172573765"
     },
     {
       "id": "openalex-jama-openalex_works_count_by_year-2023",
@@ -483,7 +515,8 @@
       "year": 2023,
       "source": "OpenAlex",
       "url": "https://openalex.org/S172573765",
-      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object"
+      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
+      "openAlexId": "https://openalex.org/S172573765"
     },
     {
       "id": "openalex-jama-openalex_works_count_by_year-2022",
@@ -497,7 +530,8 @@
       "year": 2022,
       "source": "OpenAlex",
       "url": "https://openalex.org/S172573765",
-      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object"
+      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
+      "openAlexId": "https://openalex.org/S172573765"
     },
     {
       "id": "openalex-nature-openalex_works_count_total-total",
@@ -507,11 +541,13 @@
       "journalTitle": "Nature",
       "issn": "0028-0836",
       "metric": "openalex_works_count_total",
-      "value": 448564,
+      "value": 448565,
       "asOfDate": "2026-05-24",
       "source": "OpenAlex",
       "url": "https://openalex.org/S137773608",
-      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object"
+      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
+      "openAlexId": "https://openalex.org/S137773608",
+      "homepageUrl": "https://www.nature.com/nature/"
     },
     {
       "id": "openalex-nature-openalex_works_count_by_year-2026",
@@ -525,7 +561,8 @@
       "year": 2026,
       "source": "OpenAlex",
       "url": "https://openalex.org/S137773608",
-      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object"
+      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
+      "openAlexId": "https://openalex.org/S137773608"
     },
     {
       "id": "openalex-nature-openalex_works_count_by_year-2025",
@@ -539,7 +576,8 @@
       "year": 2025,
       "source": "OpenAlex",
       "url": "https://openalex.org/S137773608",
-      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object"
+      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
+      "openAlexId": "https://openalex.org/S137773608"
     },
     {
       "id": "openalex-nature-openalex_works_count_by_year-2024",
@@ -553,7 +591,8 @@
       "year": 2024,
       "source": "OpenAlex",
       "url": "https://openalex.org/S137773608",
-      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object"
+      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
+      "openAlexId": "https://openalex.org/S137773608"
     },
     {
       "id": "openalex-nature-openalex_works_count_by_year-2023",
@@ -567,7 +606,8 @@
       "year": 2023,
       "source": "OpenAlex",
       "url": "https://openalex.org/S137773608",
-      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object"
+      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
+      "openAlexId": "https://openalex.org/S137773608"
     },
     {
       "id": "openalex-nature-openalex_works_count_by_year-2022",
@@ -581,7 +621,8 @@
       "year": 2022,
       "source": "OpenAlex",
       "url": "https://openalex.org/S137773608",
-      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object"
+      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
+      "openAlexId": "https://openalex.org/S137773608"
     },
     {
       "id": "openalex-nature-biotechnology-openalex_works_count_total-total",
@@ -595,7 +636,9 @@
       "asOfDate": "2026-05-24",
       "source": "OpenAlex",
       "url": "https://openalex.org/S106963461",
-      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object"
+      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
+      "openAlexId": "https://openalex.org/S106963461",
+      "homepageUrl": "http://www.nature.com/nbt"
     },
     {
       "id": "openalex-nature-biotechnology-openalex_works_count_by_year-2026",
@@ -609,7 +652,8 @@
       "year": 2026,
       "source": "OpenAlex",
       "url": "https://openalex.org/S106963461",
-      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object"
+      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
+      "openAlexId": "https://openalex.org/S106963461"
     },
     {
       "id": "openalex-nature-biotechnology-openalex_works_count_by_year-2025",
@@ -623,7 +667,8 @@
       "year": 2025,
       "source": "OpenAlex",
       "url": "https://openalex.org/S106963461",
-      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object"
+      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
+      "openAlexId": "https://openalex.org/S106963461"
     },
     {
       "id": "openalex-nature-biotechnology-openalex_works_count_by_year-2024",
@@ -637,7 +682,8 @@
       "year": 2024,
       "source": "OpenAlex",
       "url": "https://openalex.org/S106963461",
-      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object"
+      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
+      "openAlexId": "https://openalex.org/S106963461"
     },
     {
       "id": "openalex-nature-biotechnology-openalex_works_count_by_year-2023",
@@ -651,7 +697,8 @@
       "year": 2023,
       "source": "OpenAlex",
       "url": "https://openalex.org/S106963461",
-      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object"
+      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
+      "openAlexId": "https://openalex.org/S106963461"
     },
     {
       "id": "openalex-nature-biotechnology-openalex_works_count_by_year-2022",
@@ -665,7 +712,8 @@
       "year": 2022,
       "source": "OpenAlex",
       "url": "https://openalex.org/S106963461",
-      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object"
+      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
+      "openAlexId": "https://openalex.org/S106963461"
     },
     {
       "id": "openalex-nature-medicine-openalex_works_count_total-total",
@@ -679,7 +727,9 @@
       "asOfDate": "2026-05-24",
       "source": "OpenAlex",
       "url": "https://openalex.org/S203256638",
-      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object"
+      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
+      "openAlexId": "https://openalex.org/S203256638",
+      "homepageUrl": "http://www.nature.com/nm/index.html"
     },
     {
       "id": "openalex-nature-medicine-openalex_works_count_by_year-2026",
@@ -693,7 +743,8 @@
       "year": 2026,
       "source": "OpenAlex",
       "url": "https://openalex.org/S203256638",
-      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object"
+      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
+      "openAlexId": "https://openalex.org/S203256638"
     },
     {
       "id": "openalex-nature-medicine-openalex_works_count_by_year-2025",
@@ -707,7 +758,8 @@
       "year": 2025,
       "source": "OpenAlex",
       "url": "https://openalex.org/S203256638",
-      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object"
+      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
+      "openAlexId": "https://openalex.org/S203256638"
     },
     {
       "id": "openalex-nature-medicine-openalex_works_count_by_year-2024",
@@ -721,7 +773,8 @@
       "year": 2024,
       "source": "OpenAlex",
       "url": "https://openalex.org/S203256638",
-      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object"
+      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
+      "openAlexId": "https://openalex.org/S203256638"
     },
     {
       "id": "openalex-nature-medicine-openalex_works_count_by_year-2023",
@@ -735,7 +788,8 @@
       "year": 2023,
       "source": "OpenAlex",
       "url": "https://openalex.org/S203256638",
-      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object"
+      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
+      "openAlexId": "https://openalex.org/S203256638"
     },
     {
       "id": "openalex-nature-medicine-openalex_works_count_by_year-2022",
@@ -749,7 +803,8 @@
       "year": 2022,
       "source": "OpenAlex",
       "url": "https://openalex.org/S203256638",
-      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object"
+      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
+      "openAlexId": "https://openalex.org/S203256638"
     },
     {
       "id": "openalex-nejm-openalex_works_count_total-total",
@@ -759,11 +814,13 @@
       "journalTitle": "New England Journal of Medicine",
       "issn": "0028-4793",
       "metric": "openalex_works_count_total",
-      "value": 190256,
+      "value": 190259,
       "asOfDate": "2026-05-24",
       "source": "OpenAlex",
       "url": "https://openalex.org/S62468778",
-      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object"
+      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
+      "openAlexId": "https://openalex.org/S62468778",
+      "homepageUrl": "http://www.nejm.org/"
     },
     {
       "id": "openalex-nejm-openalex_works_count_by_year-2026",
@@ -773,11 +830,12 @@
       "journalTitle": "New England Journal of Medicine",
       "issn": "0028-4793",
       "metric": "openalex_works_count_by_year",
-      "value": 399,
+      "value": 402,
       "year": 2026,
       "source": "OpenAlex",
       "url": "https://openalex.org/S62468778",
-      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object"
+      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
+      "openAlexId": "https://openalex.org/S62468778"
     },
     {
       "id": "openalex-nejm-openalex_works_count_by_year-2025",
@@ -791,7 +849,8 @@
       "year": 2025,
       "source": "OpenAlex",
       "url": "https://openalex.org/S62468778",
-      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object"
+      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
+      "openAlexId": "https://openalex.org/S62468778"
     },
     {
       "id": "openalex-nejm-openalex_works_count_by_year-2024",
@@ -805,7 +864,8 @@
       "year": 2024,
       "source": "OpenAlex",
       "url": "https://openalex.org/S62468778",
-      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object"
+      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
+      "openAlexId": "https://openalex.org/S62468778"
     },
     {
       "id": "openalex-nejm-openalex_works_count_by_year-2023",
@@ -819,7 +879,8 @@
       "year": 2023,
       "source": "OpenAlex",
       "url": "https://openalex.org/S62468778",
-      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object"
+      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
+      "openAlexId": "https://openalex.org/S62468778"
     },
     {
       "id": "openalex-nejm-openalex_works_count_by_year-2022",
@@ -833,7 +894,8 @@
       "year": 2022,
       "source": "OpenAlex",
       "url": "https://openalex.org/S62468778",
-      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object"
+      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
+      "openAlexId": "https://openalex.org/S62468778"
     },
     {
       "id": "openalex-pnas-openalex_works_count_total-total",
@@ -847,7 +909,9 @@
       "asOfDate": "2026-05-24",
       "source": "OpenAlex",
       "url": "https://openalex.org/S125754415",
-      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object"
+      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
+      "openAlexId": "https://openalex.org/S125754415",
+      "homepageUrl": "http://www.pnas.org/"
     },
     {
       "id": "openalex-pnas-openalex_works_count_by_year-2026",
@@ -857,11 +921,12 @@
       "journalTitle": "Proceedings of the National Academy of Sciences",
       "issn": "0027-8424",
       "metric": "openalex_works_count_by_year",
-      "value": 1853,
+      "value": 1854,
       "year": 2026,
       "source": "OpenAlex",
       "url": "https://openalex.org/S125754415",
-      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object"
+      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
+      "openAlexId": "https://openalex.org/S125754415"
     },
     {
       "id": "openalex-pnas-openalex_works_count_by_year-2025",
@@ -871,11 +936,12 @@
       "journalTitle": "Proceedings of the National Academy of Sciences",
       "issn": "0027-8424",
       "metric": "openalex_works_count_by_year",
-      "value": 4424,
+      "value": 4423,
       "year": 2025,
       "source": "OpenAlex",
       "url": "https://openalex.org/S125754415",
-      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object"
+      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
+      "openAlexId": "https://openalex.org/S125754415"
     },
     {
       "id": "openalex-pnas-openalex_works_count_by_year-2024",
@@ -889,7 +955,8 @@
       "year": 2024,
       "source": "OpenAlex",
       "url": "https://openalex.org/S125754415",
-      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object"
+      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
+      "openAlexId": "https://openalex.org/S125754415"
     },
     {
       "id": "openalex-pnas-openalex_works_count_by_year-2023",
@@ -903,7 +970,8 @@
       "year": 2023,
       "source": "OpenAlex",
       "url": "https://openalex.org/S125754415",
-      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object"
+      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
+      "openAlexId": "https://openalex.org/S125754415"
     },
     {
       "id": "openalex-pnas-openalex_works_count_by_year-2022",
@@ -917,7 +985,8 @@
       "year": 2022,
       "source": "OpenAlex",
       "url": "https://openalex.org/S125754415",
-      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object"
+      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
+      "openAlexId": "https://openalex.org/S125754415"
     },
     {
       "id": "openalex-science-openalex_works_count_total-total",
@@ -931,7 +1000,9 @@
       "asOfDate": "2026-05-24",
       "source": "OpenAlex",
       "url": "https://openalex.org/S3880285",
-      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object"
+      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
+      "openAlexId": "https://openalex.org/S3880285",
+      "homepageUrl": "http://www.sciencemag.org/"
     },
     {
       "id": "openalex-science-openalex_works_count_by_year-2026",
@@ -945,7 +1016,8 @@
       "year": 2026,
       "source": "OpenAlex",
       "url": "https://openalex.org/S3880285",
-      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object"
+      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
+      "openAlexId": "https://openalex.org/S3880285"
     },
     {
       "id": "openalex-science-openalex_works_count_by_year-2025",
@@ -959,7 +1031,8 @@
       "year": 2025,
       "source": "OpenAlex",
       "url": "https://openalex.org/S3880285",
-      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object"
+      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
+      "openAlexId": "https://openalex.org/S3880285"
     },
     {
       "id": "openalex-science-openalex_works_count_by_year-2024",
@@ -973,7 +1046,8 @@
       "year": 2024,
       "source": "OpenAlex",
       "url": "https://openalex.org/S3880285",
-      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object"
+      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
+      "openAlexId": "https://openalex.org/S3880285"
     },
     {
       "id": "openalex-science-openalex_works_count_by_year-2023",
@@ -987,7 +1061,8 @@
       "year": 2023,
       "source": "OpenAlex",
       "url": "https://openalex.org/S3880285",
-      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object"
+      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
+      "openAlexId": "https://openalex.org/S3880285"
     },
     {
       "id": "openalex-science-openalex_works_count_by_year-2022",
@@ -1001,7 +1076,8 @@
       "year": 2022,
       "source": "OpenAlex",
       "url": "https://openalex.org/S3880285",
-      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object"
+      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
+      "openAlexId": "https://openalex.org/S3880285"
     },
     {
       "id": "openalex-lancet-openalex_works_count_total-total",
@@ -1015,7 +1091,9 @@
       "asOfDate": "2026-05-24",
       "source": "OpenAlex",
       "url": "https://openalex.org/S49861241",
-      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object"
+      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
+      "openAlexId": "https://openalex.org/S49861241",
+      "homepageUrl": "https://www.sciencedirect.com/journal/the-lancet"
     },
     {
       "id": "openalex-lancet-openalex_works_count_by_year-2026",
@@ -1029,7 +1107,8 @@
       "year": 2026,
       "source": "OpenAlex",
       "url": "https://openalex.org/S49861241",
-      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object"
+      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
+      "openAlexId": "https://openalex.org/S49861241"
     },
     {
       "id": "openalex-lancet-openalex_works_count_by_year-2025",
@@ -1043,7 +1122,8 @@
       "year": 2025,
       "source": "OpenAlex",
       "url": "https://openalex.org/S49861241",
-      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object"
+      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
+      "openAlexId": "https://openalex.org/S49861241"
     },
     {
       "id": "openalex-lancet-openalex_works_count_by_year-2024",
@@ -1057,7 +1137,8 @@
       "year": 2024,
       "source": "OpenAlex",
       "url": "https://openalex.org/S49861241",
-      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object"
+      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
+      "openAlexId": "https://openalex.org/S49861241"
     },
     {
       "id": "openalex-lancet-openalex_works_count_by_year-2023",
@@ -1071,7 +1152,8 @@
       "year": 2023,
       "source": "OpenAlex",
       "url": "https://openalex.org/S49861241",
-      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object"
+      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
+      "openAlexId": "https://openalex.org/S49861241"
     },
     {
       "id": "openalex-lancet-openalex_works_count_by_year-2022",
@@ -1085,7 +1167,8 @@
       "year": 2022,
       "source": "OpenAlex",
       "url": "https://openalex.org/S49861241",
-      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object"
+      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
+      "openAlexId": "https://openalex.org/S49861241"
     }
   ],
   "subtopics": [
