@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-24T20:26:53.259Z",
-  "dataVersion": "34296db1b39235de",
+  "generatedAt": "2026-05-24T21:34:22.208Z",
+  "dataVersion": "0854cb8a6b4e8819",
   "topic": {
     "id": "nsfc-ddl",
     "name": "国家自然科学基金",
@@ -658,13 +658,61 @@
         "评审结果",
         "资助结果"
       ],
-      "url": "https://www.nsfc.gov.cn/publish/portal0/tab442/info95464.htm",
+      "url": "https://www.nsfc.gov.cn/p1/3381/2824/94026.html",
       "status": "ended",
       "stage": "Review result",
       "source": "国家自然科学基金委员会",
-      "sourceUrl": "https://www.nsfc.gov.cn/publish/portal0/tab442/info95464.htm",
+      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/94026.html",
       "type": "historyEvent",
       "description": "2025 年评审结果通告显示，申请人和依托单位可于 2025 年 8 月 27 日以后登录科学基金网络信息系统查询评审结果。",
+      "subtopic": "nsfc-review",
+      "subtopicName": "评审结果",
+      "category": "科研基金"
+    },
+    {
+      "id": "nsfc-2025-review-result-email-window",
+      "topicId": "nsfc-ddl",
+      "title": "2025 年评审结果邮件通知窗口",
+      "date": "2025-08-27",
+      "dateRange": "2025-08-27 - 2025-08-29",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "NSFC",
+        "评审结果",
+        "邮件通知"
+      ],
+      "url": "https://www.nsfc.gov.cn/p1/3381/2824/94026.html",
+      "status": "ended",
+      "stage": "Review result email window",
+      "source": "国家自然科学基金委员会",
+      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/94026.html",
+      "type": "historyEvent",
+      "description": "2025 年评审结果通告说明，自然科学基金委于 8 月 27 日至 29 日使用官方邮箱向申请人发送资助、不予资助通知和专家评审意见。",
+      "subtopic": "nsfc-review",
+      "subtopicName": "评审结果",
+      "category": "科研基金"
+    },
+    {
+      "id": "nsfc-2025-review-recheck-deadline",
+      "topicId": "nsfc-ddl",
+      "title": "2025 年度评审结果复审申请截止",
+      "date": "2025-09-15",
+      "dateRange": "2025-09-15 16:00",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "NSFC",
+        "复审",
+        "评审结果"
+      ],
+      "url": "https://www.nsfc.gov.cn/p1/3381/2824/94026.html",
+      "status": "ended",
+      "stage": "Review recheck deadline",
+      "source": "国家自然科学基金委员会",
+      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/94026.html",
+      "type": "historyEvent",
+      "description": "2025 年度不予资助项目复审申请接收工作自 8 月 27 日开始，9 月 15 日 16 时截止。",
       "subtopic": "nsfc-review",
       "subtopicName": "评审结果",
       "category": "科研基金"
@@ -713,6 +761,54 @@
       "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/66780.html",
       "type": "historyEvent",
       "description": "2025 年通告说明自然科学基金委将于 2025 年 4 月 29 日前公布申请项目初审结果，并受理复审申请。",
+      "subtopic": "nsfc-review",
+      "subtopicName": "评审结果",
+      "category": "科研基金"
+    },
+    {
+      "id": "nsfc-2025-preliminary-review-result",
+      "topicId": "nsfc-ddl",
+      "title": "2025 年度申请项目初审结果公布",
+      "date": "2025-04-29",
+      "dateRange": "2025-04-29",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "NSFC",
+        "初审结果",
+        "复审申请"
+      ],
+      "url": "https://www.nsfc.gov.cn/p1/3381/2824/79211.html",
+      "status": "ended",
+      "stage": "Preliminary review result",
+      "source": "国家自然科学基金委员会",
+      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/79211.html",
+      "type": "historyEvent",
+      "description": "2025 年初审结果通告显示，集中接收期间共接收各类型项目申请 433426 项，初审受理 432429 项，不予受理 997 项。",
+      "subtopic": "nsfc-review",
+      "subtopicName": "评审结果",
+      "category": "科研基金"
+    },
+    {
+      "id": "nsfc-2025-preliminary-recheck-deadline",
+      "topicId": "nsfc-ddl",
+      "title": "2025 年度不予受理项目复审申请截止",
+      "date": "2025-05-15",
+      "dateRange": "2025-05-15 16:00",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "NSFC",
+        "复审申请",
+        "初审结果"
+      ],
+      "url": "https://www.nsfc.gov.cn/p1/3381/2824/79211.html",
+      "status": "ended",
+      "stage": "Preliminary recheck deadline",
+      "source": "国家自然科学基金委员会",
+      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/79211.html",
+      "type": "historyEvent",
+      "description": "2025 年初审结果通告说明，如对不予受理决定有异议，可在 2025 年 5 月 15 日 16 时前提出复审申请。",
       "subtopic": "nsfc-review",
       "subtopicName": "评审结果",
       "category": "科研基金"
@@ -1492,6 +1588,83 @@
       "url": "https://www.nsfc.gov.cn/p1/3381/2824/66854.html"
     },
     {
+      "id": "nsfc-2025-applications-received",
+      "topicId": "nsfc-ddl",
+      "type": "metricSnapshot",
+      "metric": "applications_received",
+      "value": 433426,
+      "year": 2025,
+      "asOfDate": "2025-04-29",
+      "source": "国家自然科学基金委员会",
+      "url": "https://www.nsfc.gov.cn/p1/3381/2824/79211.html"
+    },
+    {
+      "id": "nsfc-2025-applications-initial-accepted",
+      "topicId": "nsfc-ddl",
+      "type": "metricSnapshot",
+      "metric": "applications_initial_accepted",
+      "value": 432429,
+      "year": 2025,
+      "asOfDate": "2025-04-29",
+      "source": "国家自然科学基金委员会",
+      "url": "https://www.nsfc.gov.cn/p1/3381/2824/79211.html"
+    },
+    {
+      "id": "nsfc-2025-applications-initial-not-accepted",
+      "topicId": "nsfc-ddl",
+      "type": "metricSnapshot",
+      "metric": "applications_initial_not_accepted",
+      "value": 997,
+      "year": 2025,
+      "asOfDate": "2025-04-29",
+      "source": "国家自然科学基金委员会",
+      "url": "https://www.nsfc.gov.cn/p1/3381/2824/79211.html"
+    },
+    {
+      "id": "nsfc-2025-initial-acceptance-rate",
+      "topicId": "nsfc-ddl",
+      "type": "metricSnapshot",
+      "metric": "initial_acceptance_rate",
+      "value": 99.77,
+      "year": 2025,
+      "asOfDate": "2025-04-29",
+      "source": "国家自然科学基金委员会",
+      "url": "https://www.nsfc.gov.cn/p1/3381/2824/79211.html"
+    },
+    {
+      "id": "nsfc-2025-applications-accepted-after-recheck",
+      "topicId": "nsfc-ddl",
+      "type": "metricSnapshot",
+      "metric": "applications_accepted_after_recheck",
+      "value": 432434,
+      "year": 2025,
+      "asOfDate": "2025-08-27",
+      "source": "国家自然科学基金委员会",
+      "url": "https://www.nsfc.gov.cn/p1/3381/2824/94026.html"
+    },
+    {
+      "id": "nsfc-2025-funded-announced-main-types",
+      "topicId": "nsfc-ddl",
+      "type": "metricSnapshot",
+      "metric": "funded_projects_announced_main_types",
+      "value": 53159,
+      "year": 2025,
+      "asOfDate": "2025-08-27",
+      "source": "国家自然科学基金委员会",
+      "url": "https://www.nsfc.gov.cn/p1/3381/2824/94026.html"
+    },
+    {
+      "id": "nsfc-2025-funded-to-accepted-rate",
+      "topicId": "nsfc-ddl",
+      "type": "metricSnapshot",
+      "metric": "funded_to_accepted_rate",
+      "value": 12.29,
+      "year": 2025,
+      "asOfDate": "2025-08-27",
+      "source": "国家自然科学基金委员会",
+      "url": "https://www.nsfc.gov.cn/p1/3381/2824/94026.html"
+    },
+    {
       "id": "nsfc-2026-applications-received",
       "topicId": "nsfc-ddl",
       "type": "metricSnapshot",
@@ -1544,16 +1717,16 @@
       "nextItemId": null
     },
     {
+      "id": "nsfc-review",
+      "name": "评审结果",
+      "itemCount": 13,
+      "nextItemId": "nsfc-2026-preliminary-recheck-result"
+    },
+    {
       "id": "nsfc-management",
       "name": "基金管理",
       "itemCount": 10,
       "nextItemId": "nsfc-2026-lump-sum-policy-filing"
-    },
-    {
-      "id": "nsfc-review",
-      "name": "评审结果",
-      "itemCount": 9,
-      "nextItemId": "nsfc-2026-preliminary-recheck-result"
     },
     {
       "id": "nsfc-application",

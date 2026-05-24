@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-24T20:26:53.259Z",
-  "dataVersion": "34296db1b39235de",
+  "generatedAt": "2026-05-24T21:34:22.208Z",
+  "dataVersion": "0854cb8a6b4e8819",
   "topics": [
     {
       "id": "hackathon-ddl",
@@ -10942,6 +10942,36 @@
       "source": "国家自然科学基金委员会"
     },
     {
+      "id": "nsfc-2025-review-result-email-window",
+      "topicId": "nsfc-ddl",
+      "title": "2025 年评审结果邮件通知窗口",
+      "date": "2025-08-27",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "NSFC",
+        "评审结果",
+        "邮件通知"
+      ],
+      "subtopic": "nsfc-review",
+      "source": "国家自然科学基金委员会"
+    },
+    {
+      "id": "nsfc-2025-review-recheck-deadline",
+      "topicId": "nsfc-ddl",
+      "title": "2025 年度评审结果复审申请截止",
+      "date": "2025-09-15",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "NSFC",
+        "复审",
+        "评审结果"
+      ],
+      "subtopic": "nsfc-review",
+      "source": "国家自然科学基金委员会"
+    },
+    {
       "id": "nsfc-2025-lump-sum-policy-filing",
       "topicId": "nsfc-ddl",
       "title": "2025 年度包干制管理规定备案",
@@ -10967,6 +10997,36 @@
         "NSFC",
         "初审结果",
         "复审申请"
+      ],
+      "subtopic": "nsfc-review",
+      "source": "国家自然科学基金委员会"
+    },
+    {
+      "id": "nsfc-2025-preliminary-review-result",
+      "topicId": "nsfc-ddl",
+      "title": "2025 年度申请项目初审结果公布",
+      "date": "2025-04-29",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "NSFC",
+        "初审结果",
+        "复审申请"
+      ],
+      "subtopic": "nsfc-review",
+      "source": "国家自然科学基金委员会"
+    },
+    {
+      "id": "nsfc-2025-preliminary-recheck-deadline",
+      "topicId": "nsfc-ddl",
+      "title": "2025 年度不予受理项目复审申请截止",
+      "date": "2025-05-15",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "NSFC",
+        "复审申请",
+        "初审结果"
       ],
       "subtopic": "nsfc-review",
       "source": "国家自然科学基金委员会"

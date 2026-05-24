@@ -18,6 +18,7 @@ export interface MetricSnapshot {
 export const metricData: Record<string, MetricSnapshot[]> = {
   "nsfc-ddl": [
     {
+      "sourceLabel": "公开来源",
       "id": "nsfc-2024-applications-received",
       "topicId": "nsfc-ddl",
       "type": "metricSnapshot",
@@ -31,6 +32,7 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "url": "https://www.nsfc.gov.cn/p1/3381/2824/66854.html"
     },
     {
+      "sourceLabel": "公开来源",
       "id": "nsfc-2024-applications-accepted-after-recheck",
       "topicId": "nsfc-ddl",
       "type": "metricSnapshot",
@@ -44,6 +46,7 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "url": "https://www.nsfc.gov.cn/p1/3381/2824/66854.html"
     },
     {
+      "sourceLabel": "公开来源",
       "id": "nsfc-2024-funded-announced-main-types",
       "topicId": "nsfc-ddl",
       "type": "metricSnapshot",
@@ -57,6 +60,7 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "url": "https://www.nsfc.gov.cn/p1/3381/2824/66854.html"
     },
     {
+      "sourceLabel": "公开来源",
       "id": "nsfc-2024-funded-to-accepted-rate",
       "topicId": "nsfc-ddl",
       "type": "metricSnapshot",
@@ -70,6 +74,7 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "url": "https://www.nsfc.gov.cn/p1/3381/2824/66854.html"
     },
     {
+      "sourceLabel": "公开来源",
       "id": "nsfc-2024-funded-general-program",
       "topicId": "nsfc-ddl",
       "type": "metricSnapshot",
@@ -84,6 +89,7 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "url": "https://www.nsfc.gov.cn/p1/3381/2824/66854.html"
     },
     {
+      "sourceLabel": "公开来源",
       "id": "nsfc-2024-funded-key-program",
       "topicId": "nsfc-ddl",
       "type": "metricSnapshot",
@@ -98,6 +104,7 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "url": "https://www.nsfc.gov.cn/p1/3381/2824/66854.html"
     },
     {
+      "sourceLabel": "公开来源",
       "id": "nsfc-2024-funded-key-international-cooperation",
       "topicId": "nsfc-ddl",
       "type": "metricSnapshot",
@@ -112,6 +119,7 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "url": "https://www.nsfc.gov.cn/p1/3381/2824/66854.html"
     },
     {
+      "sourceLabel": "公开来源",
       "id": "nsfc-2024-funded-young-scientists",
       "topicId": "nsfc-ddl",
       "type": "metricSnapshot",
@@ -126,6 +134,7 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "url": "https://www.nsfc.gov.cn/p1/3381/2824/66854.html"
     },
     {
+      "sourceLabel": "公开来源",
       "id": "nsfc-2024-funded-excellent-young-scientists",
       "topicId": "nsfc-ddl",
       "type": "metricSnapshot",
@@ -140,6 +149,7 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "url": "https://www.nsfc.gov.cn/p1/3381/2824/66854.html"
     },
     {
+      "sourceLabel": "公开来源",
       "id": "nsfc-2024-funded-distinguished-young-scholars",
       "topicId": "nsfc-ddl",
       "type": "metricSnapshot",
@@ -154,6 +164,7 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "url": "https://www.nsfc.gov.cn/p1/3381/2824/66854.html"
     },
     {
+      "sourceLabel": "公开来源",
       "id": "nsfc-2024-funded-innovative-research-group",
       "topicId": "nsfc-ddl",
       "type": "metricSnapshot",
@@ -168,6 +179,7 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "url": "https://www.nsfc.gov.cn/p1/3381/2824/66854.html"
     },
     {
+      "sourceLabel": "公开来源",
       "id": "nsfc-2024-funded-regional-fund",
       "topicId": "nsfc-ddl",
       "type": "metricSnapshot",
@@ -182,6 +194,7 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "url": "https://www.nsfc.gov.cn/p1/3381/2824/66854.html"
     },
     {
+      "sourceLabel": "公开来源",
       "id": "nsfc-2024-funded-foreign-scholars",
       "topicId": "nsfc-ddl",
       "type": "metricSnapshot",
@@ -196,6 +209,7 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "url": "https://www.nsfc.gov.cn/p1/3381/2824/66854.html"
     },
     {
+      "sourceLabel": "公开来源",
       "id": "nsfc-2024-funded-creative-research-team",
       "topicId": "nsfc-ddl",
       "type": "metricSnapshot",
@@ -210,6 +224,105 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "url": "https://www.nsfc.gov.cn/p1/3381/2824/66854.html"
     },
     {
+      "sourceLabel": "公开来源",
+      "id": "nsfc-2025-applications-received",
+      "topicId": "nsfc-ddl",
+      "type": "metricSnapshot",
+      "metric": "applications_received",
+      "displayName": "集中接收项目申请数",
+      "value": 433426,
+      "unit": "项",
+      "year": 2025,
+      "asOfDate": "2025-04-29",
+      "source": "国家自然科学基金委员会",
+      "url": "https://www.nsfc.gov.cn/p1/3381/2824/79211.html"
+    },
+    {
+      "sourceLabel": "公开来源",
+      "id": "nsfc-2025-applications-initial-accepted",
+      "topicId": "nsfc-ddl",
+      "type": "metricSnapshot",
+      "metric": "applications_initial_accepted",
+      "displayName": "初审受理数",
+      "value": 432429,
+      "unit": "项",
+      "year": 2025,
+      "asOfDate": "2025-04-29",
+      "source": "国家自然科学基金委员会",
+      "url": "https://www.nsfc.gov.cn/p1/3381/2824/79211.html"
+    },
+    {
+      "sourceLabel": "公开来源",
+      "id": "nsfc-2025-applications-initial-not-accepted",
+      "topicId": "nsfc-ddl",
+      "type": "metricSnapshot",
+      "metric": "applications_initial_not_accepted",
+      "displayName": "初审不予受理数",
+      "value": 997,
+      "unit": "项",
+      "year": 2025,
+      "asOfDate": "2025-04-29",
+      "source": "国家自然科学基金委员会",
+      "url": "https://www.nsfc.gov.cn/p1/3381/2824/79211.html"
+    },
+    {
+      "sourceLabel": "公开来源",
+      "id": "nsfc-2025-initial-acceptance-rate",
+      "topicId": "nsfc-ddl",
+      "type": "metricSnapshot",
+      "metric": "initial_acceptance_rate",
+      "displayName": "初审受理比例",
+      "value": 99.77,
+      "unit": "%",
+      "year": 2025,
+      "asOfDate": "2025-04-29",
+      "source": "国家自然科学基金委员会",
+      "url": "https://www.nsfc.gov.cn/p1/3381/2824/79211.html"
+    },
+    {
+      "sourceLabel": "公开来源",
+      "id": "nsfc-2025-applications-accepted-after-recheck",
+      "topicId": "nsfc-ddl",
+      "type": "metricSnapshot",
+      "metric": "applications_accepted_after_recheck",
+      "displayName": "初审复审后受理数",
+      "value": 432434,
+      "unit": "项",
+      "year": 2025,
+      "asOfDate": "2025-08-27",
+      "source": "国家自然科学基金委员会",
+      "url": "https://www.nsfc.gov.cn/p1/3381/2824/94026.html"
+    },
+    {
+      "sourceLabel": "公开来源",
+      "id": "nsfc-2025-funded-announced-main-types",
+      "topicId": "nsfc-ddl",
+      "type": "metricSnapshot",
+      "metric": "funded_projects_announced_main_types",
+      "displayName": "已公布 10 类项目资助数",
+      "value": 53159,
+      "unit": "项",
+      "year": 2025,
+      "asOfDate": "2025-08-27",
+      "source": "国家自然科学基金委员会",
+      "url": "https://www.nsfc.gov.cn/p1/3381/2824/94026.html"
+    },
+    {
+      "sourceLabel": "公开来源",
+      "id": "nsfc-2025-funded-to-accepted-rate",
+      "topicId": "nsfc-ddl",
+      "type": "metricSnapshot",
+      "metric": "funded_to_accepted_rate",
+      "displayName": "已公布资助/受理比例",
+      "value": 12.29,
+      "unit": "%",
+      "year": 2025,
+      "asOfDate": "2025-08-27",
+      "source": "国家自然科学基金委员会",
+      "url": "https://www.nsfc.gov.cn/p1/3381/2824/94026.html"
+    },
+    {
+      "sourceLabel": "公开来源",
       "id": "nsfc-2026-applications-received",
       "topicId": "nsfc-ddl",
       "type": "metricSnapshot",
@@ -223,6 +336,7 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "url": "https://www.nsfc.gov.cn/p1/3381/2822/122579.html"
     },
     {
+      "sourceLabel": "公开来源",
       "id": "nsfc-2026-applications-initial-accepted",
       "topicId": "nsfc-ddl",
       "type": "metricSnapshot",
@@ -236,6 +350,7 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "url": "https://www.nsfc.gov.cn/p1/3381/2822/122579.html"
     },
     {
+      "sourceLabel": "公开来源",
       "id": "nsfc-2026-applications-initial-not-accepted",
       "topicId": "nsfc-ddl",
       "type": "metricSnapshot",
@@ -249,6 +364,7 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "url": "https://www.nsfc.gov.cn/p1/3381/2822/122579.html"
     },
     {
+      "sourceLabel": "公开来源",
       "id": "nsfc-2026-initial-acceptance-rate",
       "topicId": "nsfc-ddl",
       "type": "metricSnapshot",
