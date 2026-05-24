@@ -63,6 +63,56 @@ const PRIVATE_KEY_PATTERNS = [
   /^(?:raw|error|stack|trace|exception)$/i,
   /(?:开发者|开发人员|开发|内部|内测|维护者?|维护人|运营|调试|私有|私人|爬虫|解析器|原始|错误).{0,16}(?:备注|说明|注释|留言|消息|报告|记录)$/i
 ];
+const OPERATOR_ONLY_PUBLIC_TEXT = [
+  /maintenance forecast/i,
+  /maintenance window/i,
+  /operator-only/i,
+  /crawler run cadence/i,
+  /api sync window/i,
+  /维护链路/,
+  /维护刷新窗口/,
+  /每周刷新窗口/,
+  /维护节奏/,
+  /运维节奏/
+];
+const FORBIDDEN_PUBLIC_TEXT = [
+  /\b(?:developerNote|developerComment|developerRemark|devNote|devComment|devRemark|debugNote|debugComment|debugRemark|internalNote|internalComment|internalRemark|privateNote|privateComment|privateRemark|maintainerNote|maintainerComment|maintainerRemark|forecastBasis|releaseCadence|accessMode|apiUrl|licenseNote|scopeNote|linkCheckMode|parserConfidence|sourcePolicy|sourcePriority|validationNote|crawlerReport|debugReport|rawHtml|rawPayload|rawSource)\b/,
+  /curated coverage seed/i,
+  /official-style seed/i,
+  /crawler seed/i,
+  /coverage seed/i,
+  /error\.message/i,
+  /stack trace/i,
+  /developer note/i,
+  /developer remark/i,
+  /maintainer note/i,
+  /maintainer remark/i,
+  /internal note/i,
+  /internal remark/i,
+  /private note/i,
+  /private remark/i,
+  /debug note/i,
+  /debug remark/i,
+  /(?:developer|dev|maintainer|internal|private|debug|crawler|parser|raw|error)[\w -]{0,24}\b(?:note|notes|comment|comments|memo|memos|remark|remarks|message|messages|report|reports)\b/i,
+  /not for public/i,
+  /do not publish/i,
+  /开发者[的把]?备注/,
+  /开发者.{0,16}(?:备注|注释|留言|消息|报告|记录)/,
+  /开发人员.{0,16}(?:备注|注释|留言|消息|报告|记录)/,
+  /开发备注/,
+  /内部[的把]?备注/,
+  /内部.{0,16}(?:备注|注释|留言|消息|报告|记录)/,
+  /维护(?:者)?[的把]?备注/,
+  /维护(?:者|人)?.{0,16}(?:备注|注释|留言|消息|报告|记录)/,
+  /调试[的把]?备注/,
+  /调试.{0,16}(?:备注|注释|留言|消息|报告|记录)/,
+  /私有[的把]?备注/,
+  /私有.{0,16}(?:备注|注释|留言|消息|报告|记录)/,
+  /私人[的把]?备注/,
+  /私人.{0,16}(?:备注|注释|留言|消息|报告|记录)/,
+  /\b(?:TODO|FIXME|HACK|XXX):/i,
+  ...OPERATOR_ONLY_PUBLIC_TEXT
+];
 
 function isPrivateKey(key) {
   return PRIVATE_KEYS.has(key) || PRIVATE_KEY_PATTERNS.some(pattern => pattern.test(key));
@@ -122,6 +172,41 @@ function stripPrivate(value) {
     );
   }
   return value;
+}
+
+function validatePublicPayload(value, label = 'miniprogram') {
+  const errors = [];
+  if (Array.isArray(value)) {
+    value.forEach((item, index) => errors.push(...validatePublicPayload(item, `${label}[${index}]`)));
+    return errors;
+  }
+  if (!value || typeof value !== 'object') {
+    if (typeof value === 'string') {
+      for (const pattern of FORBIDDEN_PUBLIC_TEXT) {
+        if (pattern.test(value)) errors.push(`${label}: contains developer-facing text "${value}"`);
+      }
+    }
+    return errors;
+  }
+
+  const status = String(value.status || '').trim().toLowerCase();
+  if (status === 'maintenance' || status === 'operator-only') {
+    errors.push(`${label}.status: operator-only status must not be exported to miniprogram data`);
+  }
+
+  for (const [key, itemValue] of Object.entries(value)) {
+    if (isPrivateKey(key)) {
+      errors.push(`${label}.${key}: developer-only key must not be exported to miniprogram data`);
+      continue;
+    }
+    errors.push(...validatePublicPayload(itemValue, `${label}.${key}`));
+  }
+  return errors;
+}
+
+function assertPublicPayload(value, label) {
+  const errors = validatePublicPayload(value, label);
+  if (errors.length) throw new Error(errors.join('\n'));
 }
 
 function pick(value, keys) {
@@ -243,6 +328,7 @@ function readExistingJson(filePath) {
 function main() {
   const { packageJson, topics, ddlData, metricData } = readData();
   const cleanedTopics = stripPrivate(topics).map(topicLite);
+  assertPublicPayload(cleanedTopics, 'miniprogram.topics');
   const cleanedItemsByTopic = {};
   const cleanedMetricsByTopic = {};
   let itemsCount = 0;
@@ -251,6 +337,8 @@ function main() {
   for (const topic of cleanedTopics) {
     const items = stripPrivate(ddlData[topic.id] || []).map(item => itemLite(item, topic.id));
     const metrics = stripPrivate(metricData[topic.id] || []).map(metric => metricLite(metric, topic.id));
+    assertPublicPayload(items, `miniprogram.topics.${topic.id}.items`);
+    assertPublicPayload(metrics, `miniprogram.topics.${topic.id}.metrics`);
     cleanedItemsByTopic[topic.id] = items;
     cleanedMetricsByTopic[topic.id] = metrics;
     itemsCount += items.length;
@@ -298,6 +386,7 @@ function main() {
       source: item.source
     }))
   );
+  assertPublicPayload(searchItems, 'miniprogram.searchIndex.items');
 
   writeJson(path.join(OUT_DIR, 'manifest.json'), {
     generatedAt,

@@ -80,6 +80,18 @@ const PRIVATE_KEY_PATTERNS = [
   /^(?:raw|error|stack|trace|exception)$/i,
   /(?:开发者|开发人员|开发|内部|内测|维护者?|维护人|运营|调试|私有|私人|爬虫|解析器|原始|错误).{0,16}(?:备注|说明|注释|留言|消息|报告|记录)$/i
 ];
+const OPERATOR_ONLY_PUBLIC_TEXT = [
+  /maintenance forecast/i,
+  /maintenance window/i,
+  /operator-only/i,
+  /crawler run cadence/i,
+  /api sync window/i,
+  /维护链路/,
+  /维护刷新窗口/,
+  /每周刷新窗口/,
+  /维护节奏/,
+  /运维节奏/
+];
 const FORBIDDEN_PUBLIC_TEXT = [
   /\b(?:developerNote|developerComment|developerRemark|devNote|devComment|devRemark|debugNote|debugComment|debugRemark|internalNote|internalComment|internalRemark|privateNote|privateComment|privateRemark|maintainerNote|maintainerComment|maintainerRemark|forecastBasis|releaseCadence|accessMode|apiUrl|licenseNote|scopeNote|linkCheckMode|parserConfidence|sourcePolicy|sourcePriority|validationNote|crawlerReport|debugReport|rawHtml|rawPayload|rawSource)\b/,
   /curated coverage seed/i,
@@ -115,7 +127,8 @@ const FORBIDDEN_PUBLIC_TEXT = [
   /私有.{0,16}(?:备注|注释|留言|消息|报告|记录)/,
   /私人[的把]?备注/,
   /私人.{0,16}(?:备注|注释|留言|消息|报告|记录)/,
-  /\b(?:TODO|FIXME|HACK|XXX):/i
+  /\b(?:TODO|FIXME|HACK|XXX):/i,
+  ...OPERATOR_ONLY_PUBLIC_TEXT
 ];
 const DIRECT_RENDER_PATTERNS = [
   {
@@ -145,7 +158,7 @@ const DIST_FORBIDDEN_PATTERNS = [
     message: 'developer-only data key is present in built public assets'
   },
   {
-    pattern: /curated coverage seed|official-style seed|crawler seed|coverage seed|error\.message|stack trace|(?:developer|dev|maintainer|internal|private|debug|crawler|parser|raw|error)[\w -]{0,24}\b(?:note|notes|comment|comments|memo|memos|remark|remarks|message|messages|report|reports)\b|not for public|do not publish|开发者[的把]?备注|开发者.{0,16}(?:备注|注释|留言|消息|报告|记录)|开发人员.{0,16}(?:备注|注释|留言|消息|报告|记录)|开发备注|内部[的把]?备注|内部.{0,16}(?:备注|注释|留言|消息|报告|记录)|维护(?:者)?[的把]?备注|维护(?:者|人)?.{0,16}(?:备注|注释|留言|消息|报告|记录)|调试[的把]?备注|调试.{0,16}(?:备注|注释|留言|消息|报告|记录)|私有[的把]?备注|私有.{0,16}(?:备注|注释|留言|消息|报告|记录)|私人[的把]?备注|私人.{0,16}(?:备注|注释|留言|消息|报告|记录)|\b(?:TODO|FIXME|HACK|XXX):/i,
+    pattern: /curated coverage seed|official-style seed|crawler seed|coverage seed|error\.message|stack trace|maintenance forecast|maintenance window|operator-only|crawler run cadence|api sync window|(?:developer|dev|maintainer|internal|private|debug|crawler|parser|raw|error)[\w -]{0,24}\b(?:note|notes|comment|comments|memo|memos|remark|remarks|message|messages|report|reports)\b|not for public|do not publish|开发者[的把]?备注|开发者.{0,16}(?:备注|注释|留言|消息|报告|记录)|开发人员.{0,16}(?:备注|注释|留言|消息|报告|记录)|开发备注|内部[的把]?备注|内部.{0,16}(?:备注|注释|留言|消息|报告|记录)|维护(?:者)?[的把]?备注|维护(?:者|人)?.{0,16}(?:备注|注释|留言|消息|报告|记录)|维护链路|维护刷新窗口|每周刷新窗口|维护节奏|运维节奏|调试[的把]?备注|调试.{0,16}(?:备注|注释|留言|消息|报告|记录)|私有[的把]?备注|私有.{0,16}(?:备注|注释|留言|消息|报告|记录)|私人[的把]?备注|私人.{0,16}(?:备注|注释|留言|消息|报告|记录)|\b(?:TODO|FIXME|HACK|XXX):/i,
     message: 'developer-facing text is present in built public assets'
   }
 ];
@@ -214,6 +227,11 @@ function validatePublicData(value, label = 'ddlData') {
       }
     }
     return errors;
+  }
+
+  const status = String(value.status || '').trim().toLowerCase();
+  if (status === 'maintenance' || status === 'operator-only') {
+    errors.push(`${label}.status: operator-only status is present in public Hub data`);
   }
 
   for (const [key, itemValue] of Object.entries(value)) {

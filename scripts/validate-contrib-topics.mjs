@@ -60,6 +60,18 @@ const PRIVATE_KEY_PATTERNS = [
   /^(?:raw|error|stack|trace|exception)$/i,
   /(?:开发者|开发人员|开发|内部|内测|维护者?|维护人|运营|调试|私有|私人|爬虫|解析器|原始|错误).{0,16}(?:备注|说明|注释|留言|消息|报告|记录)$/i
 ];
+const OPERATOR_ONLY_PUBLIC_TEXT = [
+  /maintenance forecast/i,
+  /maintenance window/i,
+  /operator-only/i,
+  /crawler run cadence/i,
+  /api sync window/i,
+  /维护链路/,
+  /维护刷新窗口/,
+  /每周刷新窗口/,
+  /维护节奏/,
+  /运维节奏/
+];
 const FORBIDDEN_PUBLIC_TEXT = [
   /\b(?:developerNote|developerComment|developerRemark|devNote|devComment|devRemark|debugNote|debugComment|debugRemark|internalNote|internalComment|internalRemark|privateNote|privateComment|privateRemark|maintainerNote|maintainerComment|maintainerRemark|forecastBasis|releaseCadence|accessMode|apiUrl|licenseNote|scopeNote|linkCheckMode|parserConfidence|sourcePolicy|sourcePriority|validationNote|crawlerReport|debugReport|rawHtml|rawPayload|rawSource)\b/,
   /curated coverage seed/i,
@@ -95,7 +107,8 @@ const FORBIDDEN_PUBLIC_TEXT = [
   /私有.{0,16}(?:备注|注释|留言|消息|报告|记录)/,
   /私人[的把]?备注/,
   /私人.{0,16}(?:备注|注释|留言|消息|报告|记录)/,
-  /\b(?:TODO|FIXME|HACK|XXX):/i
+  /\b(?:TODO|FIXME|HACK|XXX):/i,
+  ...OPERATOR_ONLY_PUBLIC_TEXT
 ];
 
 function extractJsonAfter(source, marker, open, close) {
@@ -175,6 +188,10 @@ function validateNoPrivateKeys(id, value) {
 function validateItem(topicId, item) {
   for (const key of REQUIRED_ITEM_FIELDS) {
     if (!item[key]) throw new Error(`${topicId}/${item.id || '<missing-id>'}: missing ${key}`);
+  }
+  const status = String(item.status || '').trim().toLowerCase();
+  if (status === 'maintenance' || status === 'operator-only') {
+    throw new Error(`${topicId}/${item.id || '<missing-id>'}: operator-only status is not allowed in public contrib data`);
   }
   const type = String(item.type || 'officialDeadline');
   const hasDeadline = item.deadline && !Number.isNaN(Date.parse(item.deadline));

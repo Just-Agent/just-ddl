@@ -74,6 +74,18 @@ const PUBLIC_TEXT_REWRITES = [
   [/后续\s*crawler\s*可/gi, '后续自动更新流程可'],
   [/\bcrawler\b/gi, '自动更新流程']
 ];
+const OPERATOR_ONLY_PUBLIC_TEXT = [
+  /maintenance forecast/i,
+  /maintenance window/i,
+  /operator-only/i,
+  /crawler run cadence/i,
+  /api sync window/i,
+  /维护链路/,
+  /维护刷新窗口/,
+  /每周刷新窗口/,
+  /维护节奏/,
+  /运维节奏/
+];
 const PUBLIC_FORBIDDEN_TEXT = [
   /\b(?:developerNote|developerComment|developerRemark|devNote|devComment|devRemark|debugNote|debugComment|debugRemark|internalNote|internalComment|internalRemark|privateNote|privateComment|privateRemark|maintainerNote|maintainerComment|maintainerRemark|forecastBasis|releaseCadence|accessMode|apiUrl|licenseNote|scopeNote|linkCheckMode|parserConfidence|sourcePolicy|sourcePriority|validationNote|crawlerReport|debugReport|rawHtml|rawPayload|rawSource)\b/,
   /curated coverage seed/i,
@@ -109,7 +121,8 @@ const PUBLIC_FORBIDDEN_TEXT = [
   /私有.{0,16}(?:备注|注释|留言|消息|报告|记录)/,
   /私人[的把]?备注/,
   /私人.{0,16}(?:备注|注释|留言|消息|报告|记录)/,
-  /\b(?:TODO|FIXME|HACK|XXX):/i
+  /\b(?:TODO|FIXME|HACK|XXX):/i,
+  ...OPERATOR_ONLY_PUBLIC_TEXT
 ];
 
 function isPrivatePublicKey(key) {
@@ -258,6 +271,16 @@ function validateItem(topicId, item) {
   for (const key of ['id', 'title', 'url', 'source']) {
     if (!item[key]) errors.push(`${topicId}/${item.id || '<missing-id>'}: missing ${key}`);
   }
+  const status = String(item.status || '').trim().toLowerCase();
+  if (status === 'maintenance' || status === 'operator-only') {
+    errors.push(`${topicId}/${item.id || '<missing-id>'}: operator-only status must not become a public DDL item`);
+  }
+  const stage = String(item.stage || '').trim();
+  for (const pattern of OPERATOR_ONLY_PUBLIC_TEXT) {
+    if (pattern.test(stage)) {
+      errors.push(`${topicId}/${item.id || '<missing-id>'}: operator-only stage must not become a public DDL item`);
+    }
+  }
 
   const type = String(item.type || 'officialDeadline');
   const hasDeadline = item.deadline && !Number.isNaN(Date.parse(item.deadline));
@@ -294,6 +317,11 @@ function validateItem(topicId, item) {
   const text = JSON.stringify(item);
   if (/\?\?\?\?|�/.test(text)) {
     errors.push(`${topicId}/${item.id}: contains mojibake placeholder`);
+  }
+  for (const pattern of OPERATOR_ONLY_PUBLIC_TEXT) {
+    if (pattern.test(text)) {
+      errors.push(`${topicId}/${item.id}: operator-only maintenance wording must not become a public DDL item`);
+    }
   }
   return errors;
 }
@@ -355,6 +383,11 @@ function validatePublicPayload(value, path = 'ddlData') {
       }
     }
     return errors;
+  }
+
+  const status = String(value.status || '').trim().toLowerCase();
+  if (status === 'maintenance' || status === 'operator-only') {
+    errors.push(`${path}.status: operator-only status must not be written to public Hub data`);
   }
 
   for (const [key, itemValue] of Object.entries(value)) {
