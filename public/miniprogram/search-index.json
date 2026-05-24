@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-24T18:13:22.139Z",
-  "dataVersion": "021445d09319e6cb",
+  "generatedAt": "2026-05-24T19:07:45.842Z",
+  "dataVersion": "87bf96ce0d233b8e",
   "topics": [
     {
       "id": "hackathon-ddl",
@@ -435,7 +435,7 @@
         "research funding",
         "科研基金"
       ],
-      "itemCount": 32,
+      "itemCount": 54,
       "status": "published"
     },
     {
@@ -10552,6 +10552,81 @@
       "source": "国家自然科学基金委员会"
     },
     {
+      "id": "nsfc-2026-preliminary-recheck-result",
+      "topicId": "nsfc-ddl",
+      "title": "2026 年度不予受理项目复审审查结果通知",
+      "deadline": "2026-06-05T23:59:00+08:00",
+      "type": "officialDeadline",
+      "status": "upcoming",
+      "tags": [
+        "NSFC",
+        "复审结果",
+        "初审结果"
+      ],
+      "subtopic": "nsfc-review",
+      "source": "国家自然科学基金委员会"
+    },
+    {
+      "id": "nsfc-2026-preliminary-recheck-deadline",
+      "topicId": "nsfc-ddl",
+      "title": "2026 年度不予受理项目复审申请截止",
+      "date": "2026-05-15",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "NSFC",
+        "复审",
+        "初审结果"
+      ],
+      "subtopic": "nsfc-review",
+      "source": "国家自然科学基金委员会"
+    },
+    {
+      "id": "nsfc-2026-preliminary-review-announcement",
+      "topicId": "nsfc-ddl",
+      "title": "2026 年度申请初审结果正式公布",
+      "date": "2026-04-29",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "NSFC",
+        "初审结果",
+        "受理情况"
+      ],
+      "subtopic": "nsfc-review",
+      "source": "国家自然科学基金委员会"
+    },
+    {
+      "id": "nsfc-2026-preliminary-review-result",
+      "topicId": "nsfc-ddl",
+      "title": "2026 年度申请初审结果公布节点",
+      "date": "2026-04-29",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "NSFC",
+        "初审结果",
+        "评审"
+      ],
+      "subtopic": "nsfc-review",
+      "source": "国家自然科学基金委员会"
+    },
+    {
+      "id": "nsfc-2026-annual-management-report-deadline",
+      "topicId": "nsfc-ddl",
+      "title": "2026 年度管理报告提交截止",
+      "date": "2026-04-15",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "NSFC",
+        "年度管理报告",
+        "依托单位"
+      ],
+      "subtopic": "nsfc-management",
+      "source": "国家自然科学基金委员会"
+    },
+    {
       "id": "nsfc-2026-application-window",
       "topicId": "nsfc-ddl",
       "title": "2026 年度集中接收项目申请",
@@ -10567,18 +10642,48 @@
       "source": "国家自然科学基金委员会"
     },
     {
-      "id": "nsfc-2026-project-guide-release",
+      "id": "nsfc-2026-creative-research-team-window",
       "topicId": "nsfc-ddl",
-      "title": "2026 年度国家自然科学基金项目指南发布",
-      "date": "2026-01-19",
+      "title": "2026 年度合作创新研究团队项目集中接收",
+      "date": "2026-03-20",
       "type": "historyEvent",
       "status": "ended",
       "tags": [
         "NSFC",
-        "项目指南",
-        "年度指南"
+        "合作创新研究团队",
+        "国际科研资助"
       ],
-      "subtopic": "nsfc-guide",
+      "subtopic": "nsfc-project-types",
+      "source": "国家自然科学基金委员会"
+    },
+    {
+      "id": "nsfc-2026-excellent-research-group-window",
+      "topicId": "nsfc-ddl",
+      "title": "2026 年度卓越研究群体项目集中接收",
+      "date": "2026-03-20",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "NSFC",
+        "卓越研究群体",
+        "集中接收"
+      ],
+      "subtopic": "nsfc-project-types",
+      "source": "国家自然科学基金委员会"
+    },
+    {
+      "id": "nsfc-2026-foreign-scholars-window",
+      "topicId": "nsfc-ddl",
+      "title": "2026 年度外国学者研究基金项目集中接收",
+      "date": "2026-03-20",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "NSFC",
+        "外国学者",
+        "国际科研资助"
+      ],
+      "subtopic": "nsfc-project-types",
       "source": "国家自然科学基金委员会"
     },
     {
@@ -10592,81 +10697,6 @@
         "NSFC",
         "面上项目",
         "集中接收"
-      ],
-      "subtopic": "nsfc-project-types",
-      "source": "国家自然科学基金委员会"
-    },
-    {
-      "id": "nsfc-2026-young-scientists-c-window",
-      "topicId": "nsfc-ddl",
-      "title": "2026 年度青年科学基金项目（C类）集中接收",
-      "date": "2026-03-20",
-      "type": "historyEvent",
-      "status": "ended",
-      "tags": [
-        "NSFC",
-        "青年科学基金",
-        "C类"
-      ],
-      "subtopic": "nsfc-project-types",
-      "source": "国家自然科学基金委员会"
-    },
-    {
-      "id": "nsfc-2026-regional-fund-window",
-      "topicId": "nsfc-ddl",
-      "title": "2026 年度地区科学基金项目集中接收",
-      "date": "2026-03-20",
-      "type": "historyEvent",
-      "status": "ended",
-      "tags": [
-        "NSFC",
-        "地区科学基金",
-        "集中接收"
-      ],
-      "subtopic": "nsfc-project-types",
-      "source": "国家自然科学基金委员会"
-    },
-    {
-      "id": "nsfc-2026-key-program-window",
-      "topicId": "nsfc-ddl",
-      "title": "2026 年度重点项目集中接收",
-      "date": "2026-03-20",
-      "type": "historyEvent",
-      "status": "ended",
-      "tags": [
-        "NSFC",
-        "重点项目",
-        "集中接收"
-      ],
-      "subtopic": "nsfc-project-types",
-      "source": "国家自然科学基金委员会"
-    },
-    {
-      "id": "nsfc-2026-young-scientists-b-window",
-      "topicId": "nsfc-ddl",
-      "title": "2026 年度青年科学基金项目（B类）集中接收",
-      "date": "2026-03-20",
-      "type": "historyEvent",
-      "status": "ended",
-      "tags": [
-        "NSFC",
-        "青年科学基金",
-        "B类"
-      ],
-      "subtopic": "nsfc-project-types",
-      "source": "国家自然科学基金委员会"
-    },
-    {
-      "id": "nsfc-2026-young-scientists-a-window",
-      "topicId": "nsfc-ddl",
-      "title": "2026 年度青年科学基金项目（A类）集中接收",
-      "date": "2026-03-20",
-      "type": "historyEvent",
-      "status": "ended",
-      "tags": [
-        "NSFC",
-        "青年科学基金",
-        "A类"
       ],
       "subtopic": "nsfc-project-types",
       "source": "国家自然科学基金委员会"
@@ -10687,15 +10717,15 @@
       "source": "国家自然科学基金委员会"
     },
     {
-      "id": "nsfc-2026-excellent-research-group-window",
+      "id": "nsfc-2026-joint-fund-window",
       "topicId": "nsfc-ddl",
-      "title": "2026 年度卓越研究群体项目集中接收",
+      "title": "2026 年度部分联合基金项目集中接收",
       "date": "2026-03-20",
       "type": "historyEvent",
       "status": "ended",
       "tags": [
         "NSFC",
-        "卓越研究群体",
+        "联合基金",
         "集中接收"
       ],
       "subtopic": "nsfc-project-types",
@@ -10717,31 +10747,16 @@
       "source": "国家自然科学基金委员会"
     },
     {
-      "id": "nsfc-2026-foreign-scholars-window",
+      "id": "nsfc-2026-key-program-window",
       "topicId": "nsfc-ddl",
-      "title": "2026 年度外国学者研究基金项目集中接收",
+      "title": "2026 年度重点项目集中接收",
       "date": "2026-03-20",
       "type": "historyEvent",
       "status": "ended",
       "tags": [
         "NSFC",
-        "外国学者",
-        "国际科研资助"
-      ],
-      "subtopic": "nsfc-project-types",
-      "source": "国家自然科学基金委员会"
-    },
-    {
-      "id": "nsfc-2026-creative-research-team-window",
-      "topicId": "nsfc-ddl",
-      "title": "2026 年度合作创新研究团队项目集中接收",
-      "date": "2026-03-20",
-      "type": "historyEvent",
-      "status": "ended",
-      "tags": [
-        "NSFC",
-        "合作创新研究团队",
-        "国际科研资助"
+        "重点项目",
+        "集中接收"
       ],
       "subtopic": "nsfc-project-types",
       "source": "国家自然科学基金委员会"
@@ -10756,21 +10771,6 @@
       "tags": [
         "NSFC",
         "重大科研仪器",
-        "集中接收"
-      ],
-      "subtopic": "nsfc-project-types",
-      "source": "国家自然科学基金委员会"
-    },
-    {
-      "id": "nsfc-2026-joint-fund-window",
-      "topicId": "nsfc-ddl",
-      "title": "2026 年度部分联合基金项目集中接收",
-      "date": "2026-03-20",
-      "type": "historyEvent",
-      "status": "ended",
-      "tags": [
-        "NSFC",
-        "联合基金",
         "集中接收"
       ],
       "subtopic": "nsfc-project-types",
@@ -10807,76 +10807,76 @@
       "source": "国家自然科学基金委员会"
     },
     {
-      "id": "nsfc-2026-preliminary-review-result",
+      "id": "nsfc-2026-regional-fund-window",
       "topicId": "nsfc-ddl",
-      "title": "2026 年度申请初审结果公布节点",
-      "date": "2026-04-29",
+      "title": "2026 年度地区科学基金项目集中接收",
+      "date": "2026-03-20",
       "type": "historyEvent",
       "status": "ended",
       "tags": [
         "NSFC",
-        "初审结果",
-        "评审"
+        "地区科学基金",
+        "集中接收"
       ],
-      "subtopic": "nsfc-review",
+      "subtopic": "nsfc-project-types",
       "source": "国家自然科学基金委员会"
     },
     {
-      "id": "nsfc-2026-preliminary-review-announcement",
+      "id": "nsfc-2026-young-scientists-a-window",
       "topicId": "nsfc-ddl",
-      "title": "2026 年度申请初审结果正式公布",
-      "date": "2026-04-29",
+      "title": "2026 年度青年科学基金项目（A类）集中接收",
+      "date": "2026-03-20",
       "type": "historyEvent",
       "status": "ended",
       "tags": [
         "NSFC",
-        "初审结果",
-        "受理情况"
+        "青年科学基金",
+        "A类"
       ],
-      "subtopic": "nsfc-review",
+      "subtopic": "nsfc-project-types",
       "source": "国家自然科学基金委员会"
     },
     {
-      "id": "nsfc-2026-preliminary-recheck-deadline",
+      "id": "nsfc-2026-young-scientists-b-window",
       "topicId": "nsfc-ddl",
-      "title": "2026 年度不予受理项目复审申请截止",
-      "date": "2026-05-15",
+      "title": "2026 年度青年科学基金项目（B类）集中接收",
+      "date": "2026-03-20",
       "type": "historyEvent",
       "status": "ended",
       "tags": [
         "NSFC",
-        "复审",
-        "初审结果"
+        "青年科学基金",
+        "B类"
       ],
-      "subtopic": "nsfc-review",
+      "subtopic": "nsfc-project-types",
       "source": "国家自然科学基金委员会"
     },
     {
-      "id": "nsfc-2026-preliminary-recheck-result",
+      "id": "nsfc-2026-young-scientists-c-window",
       "topicId": "nsfc-ddl",
-      "title": "2026 年度不予受理项目复审审查结果通知",
-      "deadline": "2026-06-05T23:59:00+08:00",
-      "type": "officialDeadline",
-      "status": "upcoming",
-      "tags": [
-        "NSFC",
-        "复审结果",
-        "初审结果"
-      ],
-      "subtopic": "nsfc-review",
-      "source": "国家自然科学基金委员会"
-    },
-    {
-      "id": "nsfc-2026-progress-report-deadline",
-      "topicId": "nsfc-ddl",
-      "title": "2026 年度项目进展报告依托单位确认截止",
-      "date": "2026-01-15",
+      "title": "2026 年度青年科学基金项目（C类）集中接收",
+      "date": "2026-03-20",
       "type": "historyEvent",
       "status": "ended",
       "tags": [
         "NSFC",
-        "进展报告",
-        "依托单位"
+        "青年科学基金",
+        "C类"
+      ],
+      "subtopic": "nsfc-project-types",
+      "source": "国家自然科学基金委员会"
+    },
+    {
+      "id": "nsfc-2026-final-report-paper-deadline",
+      "topicId": "nsfc-ddl",
+      "title": "2026 年度结题纸质材料报送截止",
+      "date": "2026-03-09",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "NSFC",
+        "结题",
+        "纸质材料"
       ],
       "subtopic": "nsfc-management",
       "source": "国家自然科学基金委员会"
@@ -10897,31 +10897,91 @@
       "source": "国家自然科学基金委员会"
     },
     {
-      "id": "nsfc-2026-final-report-paper-deadline",
+      "id": "nsfc-2026-project-guide-release",
       "topicId": "nsfc-ddl",
-      "title": "2026 年度结题纸质材料报送截止",
-      "date": "2026-03-09",
+      "title": "2026 年度国家自然科学基金项目指南发布",
+      "date": "2026-01-19",
       "type": "historyEvent",
       "status": "ended",
       "tags": [
         "NSFC",
-        "结题",
-        "纸质材料"
+        "项目指南",
+        "年度指南"
+      ],
+      "subtopic": "nsfc-guide",
+      "source": "国家自然科学基金委员会"
+    },
+    {
+      "id": "nsfc-2026-progress-report-deadline",
+      "topicId": "nsfc-ddl",
+      "title": "2026 年度项目进展报告依托单位确认截止",
+      "date": "2026-01-15",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "NSFC",
+        "进展报告",
+        "依托单位"
       ],
       "subtopic": "nsfc-management",
       "source": "国家自然科学基金委员会"
     },
     {
-      "id": "nsfc-2026-annual-management-report-deadline",
+      "id": "nsfc-2025-review-result-query",
       "topicId": "nsfc-ddl",
-      "title": "2026 年度管理报告提交截止",
-      "date": "2026-04-15",
+      "title": "2025 年国家自然科学基金集中接收申请项目评审结果公布",
+      "date": "2025-08-27",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "NSFC",
+        "评审结果",
+        "资助结果"
+      ],
+      "subtopic": "nsfc-review",
+      "source": "国家自然科学基金委员会"
+    },
+    {
+      "id": "nsfc-2025-lump-sum-policy-filing",
+      "topicId": "nsfc-ddl",
+      "title": "2025 年度包干制管理规定备案",
+      "date": "2025-06-30",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "NSFC",
+        "包干制",
+        "基金管理"
+      ],
+      "subtopic": "nsfc-management",
+      "source": "国家自然科学基金委员会"
+    },
+    {
+      "id": "nsfc-2025-preliminary-review-plan",
+      "topicId": "nsfc-ddl",
+      "title": "2025 年度申请初审结果公布计划节点",
+      "date": "2025-04-29",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "NSFC",
+        "初审结果",
+        "复审申请"
+      ],
+      "subtopic": "nsfc-review",
+      "source": "国家自然科学基金委员会"
+    },
+    {
+      "id": "nsfc-2025-annual-management-report-deadline",
+      "topicId": "nsfc-ddl",
+      "title": "2025 年度管理报告提交截止",
+      "date": "2025-04-15",
       "type": "historyEvent",
       "status": "ended",
       "tags": [
         "NSFC",
         "年度管理报告",
-        "依托单位"
+        "基金管理"
       ],
       "subtopic": "nsfc-management",
       "source": "国家自然科学基金委员会"
@@ -10942,33 +11002,288 @@
       "source": "国家自然科学基金委员会"
     },
     {
-      "id": "nsfc-2024-review-result-query",
+      "id": "nsfc-2025-creative-research-team-window",
       "topicId": "nsfc-ddl",
-      "title": "2024 年度集中接收申请项目评审结果公布",
-      "date": "2024-08-23",
+      "title": "2025 年度合作创新研究团队项目集中接收",
+      "date": "2025-03-20",
       "type": "historyEvent",
       "status": "ended",
       "tags": [
         "NSFC",
-        "评审结果",
-        "资助结果"
+        "合作创新研究团队",
+        "集中接收"
       ],
-      "subtopic": "nsfc-review",
+      "subtopic": "nsfc-project-types",
       "source": "国家自然科学基金委员会"
     },
     {
-      "id": "nsfc-2025-review-result-query",
+      "id": "nsfc-2025-distinguished-young-scholars-window",
       "topicId": "nsfc-ddl",
-      "title": "2025 年国家自然科学基金集中接收申请项目评审结果公布",
-      "date": "2025-08-27",
+      "title": "2025 年度国家杰出青年科学基金项目集中接收",
+      "date": "2025-03-20",
       "type": "historyEvent",
       "status": "ended",
       "tags": [
         "NSFC",
-        "评审结果",
-        "资助结果"
+        "杰青",
+        "集中接收"
       ],
-      "subtopic": "nsfc-review",
+      "subtopic": "nsfc-project-types",
+      "source": "国家自然科学基金委员会"
+    },
+    {
+      "id": "nsfc-2025-excellent-research-group-window",
+      "topicId": "nsfc-ddl",
+      "title": "2025 年度卓越研究群体项目集中接收",
+      "date": "2025-03-20",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "NSFC",
+        "卓越研究群体",
+        "集中接收"
+      ],
+      "subtopic": "nsfc-project-types",
+      "source": "国家自然科学基金委员会"
+    },
+    {
+      "id": "nsfc-2025-excellent-young-scientists-window",
+      "topicId": "nsfc-ddl",
+      "title": "2025 年度优秀青年科学基金项目集中接收",
+      "date": "2025-03-20",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "NSFC",
+        "优秀青年科学基金",
+        "集中接收"
+      ],
+      "subtopic": "nsfc-project-types",
+      "source": "国家自然科学基金委员会"
+    },
+    {
+      "id": "nsfc-2025-foreign-scholars-window",
+      "topicId": "nsfc-ddl",
+      "title": "2025 年度外国学者研究基金项目集中接收",
+      "date": "2025-03-20",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "NSFC",
+        "外国学者",
+        "集中接收"
+      ],
+      "subtopic": "nsfc-project-types",
+      "source": "国家自然科学基金委员会"
+    },
+    {
+      "id": "nsfc-2025-general-program-window",
+      "topicId": "nsfc-ddl",
+      "title": "2025 年度面上项目集中接收",
+      "date": "2025-03-20",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "NSFC",
+        "面上项目",
+        "集中接收"
+      ],
+      "subtopic": "nsfc-project-types",
+      "source": "国家自然科学基金委员会"
+    },
+    {
+      "id": "nsfc-2025-innovative-research-group-window",
+      "topicId": "nsfc-ddl",
+      "title": "2025 年度创新研究群体项目集中接收",
+      "date": "2025-03-20",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "NSFC",
+        "创新研究群体",
+        "集中接收"
+      ],
+      "subtopic": "nsfc-project-types",
+      "source": "国家自然科学基金委员会"
+    },
+    {
+      "id": "nsfc-2025-joint-fund-window",
+      "topicId": "nsfc-ddl",
+      "title": "2025 年度部分联合基金项目集中接收",
+      "date": "2025-03-20",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "NSFC",
+        "联合基金",
+        "集中接收"
+      ],
+      "subtopic": "nsfc-project-types",
+      "source": "国家自然科学基金委员会"
+    },
+    {
+      "id": "nsfc-2025-key-international-cooperation-window",
+      "topicId": "nsfc-ddl",
+      "title": "2025 年度重点国际（地区）合作研究项目集中接收",
+      "date": "2025-03-20",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "NSFC",
+        "国际合作",
+        "集中接收"
+      ],
+      "subtopic": "nsfc-project-types",
+      "source": "国家自然科学基金委员会"
+    },
+    {
+      "id": "nsfc-2025-key-program-window",
+      "topicId": "nsfc-ddl",
+      "title": "2025 年度重点项目集中接收",
+      "date": "2025-03-20",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "NSFC",
+        "重点项目",
+        "集中接收"
+      ],
+      "subtopic": "nsfc-project-types",
+      "source": "国家自然科学基金委员会"
+    },
+    {
+      "id": "nsfc-2025-major-instrument-window",
+      "topicId": "nsfc-ddl",
+      "title": "2025 年度国家重大科研仪器研制项目（自由申请）集中接收",
+      "date": "2025-03-20",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "NSFC",
+        "科研仪器",
+        "集中接收"
+      ],
+      "subtopic": "nsfc-project-types",
+      "source": "国家自然科学基金委员会"
+    },
+    {
+      "id": "nsfc-2025-major-research-plan-window",
+      "topicId": "nsfc-ddl",
+      "title": "2025 年度部分重大研究计划项目集中接收",
+      "date": "2025-03-20",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "NSFC",
+        "重大研究计划",
+        "集中接收"
+      ],
+      "subtopic": "nsfc-project-types",
+      "source": "国家自然科学基金委员会"
+    },
+    {
+      "id": "nsfc-2025-math-tianyuan-window",
+      "topicId": "nsfc-ddl",
+      "title": "2025 年度数学天元基金项目集中接收",
+      "date": "2025-03-20",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "NSFC",
+        "数学天元基金",
+        "集中接收"
+      ],
+      "subtopic": "nsfc-project-types",
+      "source": "国家自然科学基金委员会"
+    },
+    {
+      "id": "nsfc-2025-regional-fund-window",
+      "topicId": "nsfc-ddl",
+      "title": "2025 年度地区科学基金项目集中接收",
+      "date": "2025-03-20",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "NSFC",
+        "地区科学基金",
+        "集中接收"
+      ],
+      "subtopic": "nsfc-project-types",
+      "source": "国家自然科学基金委员会"
+    },
+    {
+      "id": "nsfc-2025-young-scientists-window",
+      "topicId": "nsfc-ddl",
+      "title": "2025 年度青年科学基金项目集中接收",
+      "date": "2025-03-20",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "NSFC",
+        "青年科学基金",
+        "集中接收"
+      ],
+      "subtopic": "nsfc-project-types",
+      "source": "国家自然科学基金委员会"
+    },
+    {
+      "id": "nsfc-2025-final-report-paper-deadline",
+      "topicId": "nsfc-ddl",
+      "title": "2025 年度结题纸质材料报送截止",
+      "date": "2025-03-10",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "NSFC",
+        "结题",
+        "纸质材料"
+      ],
+      "subtopic": "nsfc-management",
+      "source": "国家自然科学基金委员会"
+    },
+    {
+      "id": "nsfc-2025-final-report-online-deadline",
+      "topicId": "nsfc-ddl",
+      "title": "2025 年度结题材料电子版确认截止",
+      "date": "2025-02-24",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "NSFC",
+        "结题",
+        "成果报告"
+      ],
+      "subtopic": "nsfc-management",
+      "source": "国家自然科学基金委员会"
+    },
+    {
+      "id": "nsfc-2025-progress-report-deadline",
+      "topicId": "nsfc-ddl",
+      "title": "2025 年度项目进展报告依托单位确认截止",
+      "date": "2025-01-15",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "NSFC",
+        "进展报告",
+        "基金管理"
+      ],
+      "subtopic": "nsfc-management",
+      "source": "国家自然科学基金委员会"
+    },
+    {
+      "id": "nsfc-2025-project-guide-release",
+      "topicId": "nsfc-ddl",
+      "title": "2025 年度国家自然科学基金申请与结题通告发布",
+      "date": "2025-01-13",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "NSFC",
+        "项目指南",
+        "年度通告"
+      ],
+      "subtopic": "nsfc-application",
       "source": "国家自然科学基金委员会"
     },
     {
@@ -10982,6 +11297,21 @@
         "NSFC",
         "复审",
         "评审结果"
+      ],
+      "subtopic": "nsfc-review",
+      "source": "国家自然科学基金委员会"
+    },
+    {
+      "id": "nsfc-2024-review-result-query",
+      "topicId": "nsfc-ddl",
+      "title": "2024 年度集中接收申请项目评审结果公布",
+      "date": "2024-08-23",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "NSFC",
+        "评审结果",
+        "资助结果"
       ],
       "subtopic": "nsfc-review",
       "source": "国家自然科学基金委员会"
