@@ -585,7 +585,7 @@
       "research funding",
       "科研基金"
     ],
-    "itemCount": 54,
+    "itemCount": 58,
     "status": "published",
     "sourceMode": "cluster",
     "clusterId": "research-funding-ddl"
@@ -623,7 +623,7 @@
       "impact factor",
       "Clarivate"
     ],
-    "itemCount": 6,
+    "itemCount": 13,
     "status": "published",
     "sourceMode": "cluster",
     "clusterId": "journal-metrics-ddl"
@@ -631,7 +631,7 @@
   {
     "id": "journal-volume-ddl",
     "name": "期刊发文量",
-    "description": "Nature、Science、Cell 等期刊公开元数据发文量快照、年度趋势和下一次更新窗口。",
+    "description": "Nature、Science、Cell 等期刊公开元数据发文量快照和年度趋势。",
     "icon": "Database",
     "color": "#0891B2",
     "repo": "Just-Agent/journal-metrics-ddl",
@@ -642,7 +642,7 @@
       "OpenAlex",
       "works count"
     ],
-    "itemCount": 2,
+    "itemCount": 1,
     "status": "published",
     "sourceMode": "cluster",
     "clusterId": "journal-metrics-ddl"

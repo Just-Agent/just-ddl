@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-24T21:34:22.208Z",
-  "dataVersion": "0854cb8a6b4e8819",
+  "generatedAt": "2026-05-24T23:14:53.142Z",
+  "dataVersion": "63cb7ff47fac4a49",
   "topics": [
     {
       "id": "hackathon-ddl",
@@ -435,7 +435,7 @@
         "research funding",
         "科研基金"
       ],
-      "itemCount": 54,
+      "itemCount": 58,
       "status": "published"
     },
     {
@@ -461,20 +461,20 @@
         "impact factor",
         "Clarivate"
       ],
-      "itemCount": 6,
+      "itemCount": 13,
       "status": "published"
     },
     {
       "id": "journal-volume-ddl",
       "name": "期刊发文量",
-      "description": "Nature、Science、Cell 等期刊公开元数据发文量快照、年度趋势和下一次更新窗口。",
+      "description": "Nature、Science、Cell 等期刊公开元数据发文量快照和年度趋势。",
       "category": "学术期刊",
       "tags": [
         "journal volume",
         "OpenAlex",
         "works count"
       ],
-      "itemCount": 2,
+      "itemCount": 1,
       "status": "published"
     }
   ],
@@ -11709,24 +11709,6 @@
         "OpenAlex",
         "发文量",
         "开放元数据"
-      ],
-      "subtopic": "openalex-volume",
-      "source": "OpenAlex"
-    },
-    {
-      "id": "journal-volume-weekly-refresh-window",
-      "topicId": "journal-volume-ddl",
-      "title": "期刊发文量每周刷新窗口",
-      "estimatedNextWindow": {
-        "start": "2026-05-25",
-        "end": "2026-05-31"
-      },
-      "type": "forecastWindow",
-      "status": "maintenance",
-      "tags": [
-        "OpenAlex",
-        "刷新窗口",
-        "低置信度"
       ],
       "subtopic": "openalex-volume",
       "source": "OpenAlex"

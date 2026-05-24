@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-05-24T21:34:22.208Z",
-  "dataVersion": "0854cb8a6b4e8819",
+  "generatedAt": "2026-05-24T23:14:53.142Z",
+  "dataVersion": "63cb7ff47fac4a49",
   "topic": {
     "id": "journal-volume-ddl",
     "name": "期刊发文量",
-    "description": "Nature、Science、Cell 等期刊公开元数据发文量快照、年度趋势和下一次更新窗口。",
+    "description": "Nature、Science、Cell 等期刊公开元数据发文量快照和年度趋势。",
     "icon": "Database",
     "color": "#0891B2",
     "repo": "Just-Agent/journal-metrics-ddl",
@@ -15,7 +15,7 @@
       "OpenAlex",
       "works count"
     ],
-    "itemCount": 2,
+    "itemCount": 1,
     "status": "published",
     "sourceMode": "cluster",
     "clusterId": "journal-metrics-ddl"
@@ -41,38 +41,6 @@
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
       "type": "historyEvent",
       "description": "使用 OpenAlex Source object 的 works_count 与 counts_by_year 字段统计代表期刊当前发文量、近年年度趋势和最新完整年同比变化。",
-      "subtopic": "openalex-volume",
-      "subtopicName": "开放元数据发文量",
-      "category": "期刊评价"
-    },
-    {
-      "id": "journal-volume-weekly-refresh-window",
-      "topicId": "journal-volume-ddl",
-      "title": "期刊发文量每周刷新窗口",
-      "dateRange": "2026-05-25 - 2026-05-31",
-      "estimatedNextWindow": {
-        "start": "2026-05-25",
-        "end": "2026-05-31"
-      },
-      "lastOfficialDate": "2026-05-24",
-      "basisEvents": [
-        "journal-volume-openalex-snapshot"
-      ],
-      "confidence": "low",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "OpenAlex",
-        "刷新窗口",
-        "低置信度"
-      ],
-      "url": "https://docs.openalex.org/api-entities/sources/source-object",
-      "status": "maintenance",
-      "stage": "Maintenance forecast",
-      "source": "OpenAlex",
-      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
-      "type": "forecastWindow",
-      "description": "用于提醒维护链路刷新开放元数据，不进入官方 DDL 统计。",
       "subtopic": "openalex-volume",
       "subtopicName": "开放元数据发文量",
       "category": "期刊评价"
@@ -4206,7 +4174,7 @@
     {
       "id": "openalex-volume",
       "name": "开放元数据发文量",
-      "itemCount": 2,
+      "itemCount": 1,
       "nextItemId": null
     }
   ]

@@ -412,6 +412,7 @@ export const metricData: Record<string, MetricSnapshot[]> = {
   ],
   "jcr-impact-factor-ddl": [
     {
+      "sourceLabel": "公开来源",
       "id": "jcr-2025-total-journals",
       "topicId": "jcr-impact-factor-ddl",
       "type": "metricSnapshot",
@@ -422,6 +423,7 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "url": "https://clarivate.com/news/clarivate-unveils-the-2025-journal-citation-reports/"
     },
     {
+      "sourceLabel": "公开来源",
       "id": "jcr-2025-categories",
       "topicId": "jcr-impact-factor-ddl",
       "type": "metricSnapshot",
@@ -432,6 +434,7 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "url": "https://clarivate.com/news/clarivate-unveils-the-2025-journal-citation-reports/"
     },
     {
+      "sourceLabel": "公开来源",
       "id": "jcr-2024-total-journals-minimum",
       "topicId": "jcr-impact-factor-ddl",
       "type": "metricSnapshot",
@@ -442,6 +445,7 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "url": "https://clarivate.com/news/clarivate-reveals-worlds-leading-and-trusted-journals-with-the-2024-journal-citation-reports/"
     },
     {
+      "sourceLabel": "公开来源",
       "id": "jcr-2024-categories",
       "topicId": "jcr-impact-factor-ddl",
       "type": "metricSnapshot",
@@ -452,6 +456,7 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "url": "https://clarivate.com/news/clarivate-reveals-worlds-leading-and-trusted-journals-with-the-2024-journal-citation-reports/"
     },
     {
+      "sourceLabel": "公开来源",
       "id": "jcr-2024-first-impact-factor-journals",
       "topicId": "jcr-impact-factor-ddl",
       "type": "metricSnapshot",
@@ -462,6 +467,7 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "url": "https://clarivate.com/news/clarivate-reveals-worlds-leading-and-trusted-journals-with-the-2024-journal-citation-reports/"
     },
     {
+      "sourceLabel": "公开来源",
       "id": "jcr-2023-total-journals-minimum",
       "topicId": "jcr-impact-factor-ddl",
       "type": "metricSnapshot",
@@ -472,6 +478,7 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "url": "https://clarivate.com/news/clarivate-unveils-journal-citation-reports-2023-a-trusted-resource-to-support-research-integrity-and-promote-accurate-journal-evaluation/"
     },
     {
+      "sourceLabel": "公开来源",
       "id": "jcr-2023-categories",
       "topicId": "jcr-impact-factor-ddl",
       "type": "metricSnapshot",
@@ -482,6 +489,7 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "url": "https://clarivate.com/news/clarivate-unveils-journal-citation-reports-2023-a-trusted-resource-to-support-research-integrity-and-promote-accurate-journal-evaluation/"
     },
     {
+      "sourceLabel": "公开来源",
       "id": "jcr-2023-first-impact-factor-journals",
       "topicId": "jcr-impact-factor-ddl",
       "type": "metricSnapshot",
@@ -492,6 +500,7 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "url": "https://clarivate.com/news/clarivate-unveils-journal-citation-reports-2023-a-trusted-resource-to-support-research-integrity-and-promote-accurate-journal-evaluation/"
     },
     {
+      "sourceLabel": "公开来源",
       "id": "jcr-2022-total-journals-minimum",
       "topicId": "jcr-impact-factor-ddl",
       "type": "metricSnapshot",
@@ -502,6 +511,7 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "url": "https://ir.clarivate.com/news-events/press-releases/news-details/2022/Clarivate-Names-Worlds-Leading-Journals-with-the-2022-Journal-Citation-Reports/default.aspx?sf257796683=1"
     },
     {
+      "sourceLabel": "公开来源",
       "id": "jcr-2022-categories",
       "topicId": "jcr-impact-factor-ddl",
       "type": "metricSnapshot",
@@ -512,6 +522,7 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "url": "https://ir.clarivate.com/news-events/press-releases/news-details/2022/Clarivate-Names-Worlds-Leading-Journals-with-the-2022-Journal-Citation-Reports/default.aspx?sf257796683=1"
     },
     {
+      "sourceLabel": "授权导入来源",
       "id": "jcr-journal-impact-factor-import-placeholder",
       "topicId": "jcr-impact-factor-ddl",
       "type": "metricSnapshot",

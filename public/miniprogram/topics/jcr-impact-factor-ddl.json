@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-24T21:34:22.208Z",
-  "dataVersion": "0854cb8a6b4e8819",
+  "generatedAt": "2026-05-24T23:14:53.142Z",
+  "dataVersion": "63cb7ff47fac4a49",
   "topic": {
     "id": "jcr-impact-factor-ddl",
     "name": "JCR 影响因子",
@@ -15,7 +15,7 @@
       "impact factor",
       "Clarivate"
     ],
-    "itemCount": 6,
+    "itemCount": 13,
     "status": "published",
     "sourceMode": "cluster",
     "clusterId": "journal-metrics-ddl"
@@ -362,7 +362,7 @@
       "source": "Clarivate JCR Help Center",
       "sourceUrl": "https://journalcitationreports.zendesk.com/hc/en-gb/articles/36310787349521-2025",
       "type": "forecastWindow",
-      "description": "用于提醒维护链路检查 JCR 官方支持页是否出现 reload 或 correction，不显示为正式 DDL。",
+      "description": "用于提醒用户关注 JCR 官方支持页是否出现 reload 或 correction；这不是 Clarivate 固定承诺，也不进入正式 DDL 统计。",
       "subtopic": "jcr-corrections",
       "subtopicName": "后续修正",
       "category": "期刊评价"

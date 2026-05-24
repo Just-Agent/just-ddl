@@ -17,25 +17,6 @@ export interface Topic {
   tags: string[];
 }
 
-export interface Topic {
-  id: string;
-  name: string;
-  description: string;
-  icon: string;
-  color: string;
-  repo: string;
-  site: string;
-  status: 'published' | 'demo' | 'incubating';
-  sourceMode?: 'official' | 'external' | 'incubator' | 'cluster';
-  clusterId?: string;
-  maintainer?: string;
-  dataUrl?: string;
-  metricsUrl?: string;
-  itemCount: number;
-  category: string;
-  tags: string[];
-}
-
 export const topics: Topic[] = [
   {
     "id": "hackathon-ddl",
@@ -636,7 +617,7 @@ export const topics: Topic[] = [
     "clusterId": "research-funding-ddl",
     "dataUrl": "public-data/topics/nsfc-ddl/items.json",
     "metricsUrl": "public-data/topics/nsfc-ddl/metrics.json",
-    "itemCount": 54,
+    "itemCount": 58,
     "category": "学术科研",
     "tags": [
       "NSFC",
@@ -678,7 +659,7 @@ export const topics: Topic[] = [
     "clusterId": "journal-metrics-ddl",
     "dataUrl": "public-data/topics/jcr-impact-factor-ddl/items.json",
     "metricsUrl": "public-data/topics/jcr-impact-factor-ddl/metrics.json",
-    "itemCount": 6,
+    "itemCount": 13,
     "category": "学术期刊",
     "tags": [
       "JCR",
@@ -689,7 +670,7 @@ export const topics: Topic[] = [
   {
     "id": "journal-volume-ddl",
     "name": "期刊发文量",
-    "description": "Nature、Science、Cell 等期刊公开元数据发文量快照、年度趋势和下一次更新窗口。",
+    "description": "Nature、Science、Cell 等期刊公开元数据发文量快照和年度趋势。",
     "icon": "Database",
     "color": "#0891B2",
     "repo": "Just-Agent/journal-metrics-ddl",
@@ -699,7 +680,7 @@ export const topics: Topic[] = [
     "clusterId": "journal-metrics-ddl",
     "dataUrl": "public-data/topics/journal-volume-ddl/items.json",
     "metricsUrl": "public-data/topics/journal-volume-ddl/metrics.json",
-    "itemCount": 2,
+    "itemCount": 1,
     "category": "学术期刊",
     "tags": [
       "journal volume",
