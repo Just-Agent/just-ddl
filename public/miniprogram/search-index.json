@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-24T11:04:53.544Z",
-  "dataVersion": "4243bf0cf8b24e22",
+  "generatedAt": "2026-05-24T11:21:23.164Z",
+  "dataVersion": "7f41c007a5103ac9",
   "topics": [
     {
       "id": "hackathon-ddl",
@@ -422,7 +422,7 @@
         "model release",
         "forecast"
       ],
-      "itemCount": 18,
+      "itemCount": 19,
       "status": "published"
     },
     {
@@ -10083,6 +10083,21 @@
       ],
       "subtopic": "campus-career-fair",
       "source": "Kansas State University Career Center"
+    },
+    {
+      "id": "deepseek-v4-pro-promo-end-2026",
+      "topicId": "llm-release-ddl",
+      "title": "DeepSeek-V4-Pro 75% 优惠结束",
+      "deadline": "2026-05-31T15:59:00Z",
+      "type": "officialDeadline",
+      "status": "upcoming",
+      "tags": [
+        "DeepSeek",
+        "API",
+        "pricing"
+      ],
+      "subtopic": "deepseek",
+      "source": "DeepSeek API Docs"
     },
     {
       "id": "deepseek-chat-reasoner-retirement-2026",

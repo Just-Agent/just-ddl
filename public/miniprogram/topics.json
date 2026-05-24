@@ -566,7 +566,7 @@
       "model release",
       "forecast"
     ],
-    "itemCount": 18,
+    "itemCount": 19,
     "status": "published",
     "sourceMode": "cluster",
     "clusterId": "ai-model-release-ddl"

@@ -14732,6 +14732,30 @@ export const ddlData: Record<string, DDLItem[]> = {
   ],
   "llm-release-ddl": [
     {
+      "id": "deepseek-v4-pro-promo-end-2026",
+      "topicId": "llm-release-ddl",
+      "title": "DeepSeek-V4-Pro 75% 优惠结束",
+      "type": "officialDeadline",
+      "deadline": "2026-05-31T15:59:00Z",
+      "url": "https://api-docs.deepseek.com/quick_start/pricing",
+      "source": "DeepSeek API Docs",
+      "sourceUrl": "https://api-docs.deepseek.com/quick_start/pricing",
+      "stage": "API pricing change",
+      "category": "AI 发布",
+      "subtopic": "deepseek",
+      "subtopicName": "DeepSeek",
+      "tags": [
+        "DeepSeek",
+        "API",
+        "pricing"
+      ],
+      "description": "DeepSeek 官方价格页说明 V4-Pro 75% 优惠结束后将调整为原价的 1/4。",
+      "dateRange": "2026-05-31",
+      "location": "Online",
+      "isOnline": true,
+      "status": "upcoming"
+    },
+    {
       "id": "deepseek-chat-reasoner-retirement-2026",
       "topicId": "llm-release-ddl",
       "title": "DeepSeek chat/reasoner 旧入口退役",

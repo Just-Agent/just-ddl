@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-24T11:04:53.544Z",
-  "dataVersion": "4243bf0cf8b24e22",
+  "generatedAt": "2026-05-24T11:21:23.164Z",
+  "dataVersion": "7f41c007a5103ac9",
   "topic": {
     "id": "llm-release-ddl",
     "name": "大模型发布",
@@ -15,12 +15,36 @@
       "model release",
       "forecast"
     ],
-    "itemCount": 18,
+    "itemCount": 19,
     "status": "published",
     "sourceMode": "cluster",
     "clusterId": "ai-model-release-ddl"
   },
   "items": [
+    {
+      "id": "deepseek-v4-pro-promo-end-2026",
+      "topicId": "llm-release-ddl",
+      "title": "DeepSeek-V4-Pro 75% 优惠结束",
+      "deadline": "2026-05-31T15:59:00Z",
+      "dateRange": "2026-05-31",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "DeepSeek",
+        "API",
+        "pricing"
+      ],
+      "url": "https://api-docs.deepseek.com/quick_start/pricing",
+      "status": "upcoming",
+      "stage": "API pricing change",
+      "source": "DeepSeek API Docs",
+      "sourceUrl": "https://api-docs.deepseek.com/quick_start/pricing",
+      "type": "officialDeadline",
+      "description": "DeepSeek 官方价格页说明 V4-Pro 75% 优惠结束后将调整为原价的 1/4。",
+      "subtopic": "deepseek",
+      "subtopicName": "DeepSeek",
+      "category": "AI 发布"
+    },
     {
       "id": "deepseek-chat-reasoner-retirement-2026",
       "topicId": "llm-release-ddl",
@@ -495,13 +519,104 @@
       "category": "AI 发布"
     }
   ],
-  "metrics": [],
+  "metrics": [
+    {
+      "id": "deepseek-v4-flash-output-price",
+      "topicId": "llm-release-ddl",
+      "type": "metricSnapshot",
+      "metric": "api_output_price_usd_per_1m_tokens",
+      "value": "$0.28",
+      "asOfDate": "2026-05-24",
+      "source": "DeepSeek API Docs",
+      "url": "https://api-docs.deepseek.com/quick_start/pricing"
+    },
+    {
+      "id": "deepseek-v4-pro-output-price-promo",
+      "topicId": "llm-release-ddl",
+      "type": "metricSnapshot",
+      "metric": "api_output_price_usd_per_1m_tokens",
+      "value": "$0.87 promo",
+      "asOfDate": "2026-05-24",
+      "source": "DeepSeek API Docs",
+      "url": "https://api-docs.deepseek.com/quick_start/pricing"
+    },
+    {
+      "id": "glm-5-availability",
+      "topicId": "llm-release-ddl",
+      "type": "metricSnapshot",
+      "metric": "availability",
+      "value": "API / chat / open weights",
+      "asOfDate": "2026-02-12",
+      "source": "Z.ai",
+      "url": "https://z.ai/blog/glm-5"
+    },
+    {
+      "id": "deepseek-v4-context-standard",
+      "topicId": "llm-release-ddl",
+      "type": "metricSnapshot",
+      "metric": "context_window",
+      "value": "1M standard",
+      "asOfDate": "2026-04-24",
+      "source": "DeepSeek API Docs",
+      "url": "https://api-docs.deepseek.com/news/news260424"
+    },
+    {
+      "id": "deepseek-v4-flash-parameter-scale",
+      "topicId": "llm-release-ddl",
+      "type": "metricSnapshot",
+      "metric": "model_parameter_scale",
+      "value": "284B total / 13B active",
+      "asOfDate": "2026-04-24",
+      "source": "DeepSeek API Docs",
+      "url": "https://api-docs.deepseek.com/news/news260424"
+    },
+    {
+      "id": "deepseek-v4-pro-parameter-scale",
+      "topicId": "llm-release-ddl",
+      "type": "metricSnapshot",
+      "metric": "model_parameter_scale",
+      "value": "1.6T total / 49B active",
+      "asOfDate": "2026-04-24",
+      "source": "DeepSeek API Docs",
+      "url": "https://api-docs.deepseek.com/news/news260424"
+    },
+    {
+      "id": "glm-5-parameter-scale",
+      "topicId": "llm-release-ddl",
+      "type": "metricSnapshot",
+      "metric": "model_parameter_scale",
+      "value": "744B total / 40B active",
+      "asOfDate": "2026-02-12",
+      "source": "Z.ai",
+      "url": "https://z.ai/blog/glm-5"
+    },
+    {
+      "id": "glm-5-pretraining-tokens",
+      "topicId": "llm-release-ddl",
+      "type": "metricSnapshot",
+      "metric": "pretraining_tokens",
+      "value": "28.5T",
+      "asOfDate": "2026-02-12",
+      "source": "Z.ai",
+      "url": "https://z.ai/blog/glm-5"
+    },
+    {
+      "id": "minimax-m2-5-positioning",
+      "topicId": "llm-release-ddl",
+      "type": "metricSnapshot",
+      "metric": "release_positioning",
+      "value": "Real-world productivity",
+      "asOfDate": "2026-05-24",
+      "source": "MiniMax",
+      "url": "https://www.minimaxi.com/en/news/minimax-m25"
+    }
+  ],
   "subtopics": [
     {
       "id": "deepseek",
       "name": "DeepSeek",
-      "itemCount": 6,
-      "nextItemId": "deepseek-chat-reasoner-retirement-2026"
+      "itemCount": 7,
+      "nextItemId": "deepseek-v4-pro-promo-end-2026"
     },
     {
       "id": "glm",

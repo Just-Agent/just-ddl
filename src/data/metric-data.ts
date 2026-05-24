@@ -1181,7 +1181,100 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "url": "https://openalex.org/S49861241",
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object"
     }
+  ],
+  "llm-release-ddl": [
+    {
+      "id": "deepseek-v4-flash-output-price",
+      "topicId": "llm-release-ddl",
+      "type": "metricSnapshot",
+      "metric": "api_output_price_usd_per_1m_tokens",
+      "value": "$0.28",
+      "asOfDate": "2026-05-24",
+      "source": "DeepSeek API Docs",
+      "url": "https://api-docs.deepseek.com/quick_start/pricing"
+    },
+    {
+      "id": "deepseek-v4-pro-output-price-promo",
+      "topicId": "llm-release-ddl",
+      "type": "metricSnapshot",
+      "metric": "api_output_price_usd_per_1m_tokens",
+      "value": "$0.87 promo",
+      "asOfDate": "2026-05-24",
+      "source": "DeepSeek API Docs",
+      "url": "https://api-docs.deepseek.com/quick_start/pricing"
+    },
+    {
+      "id": "glm-5-availability",
+      "topicId": "llm-release-ddl",
+      "type": "metricSnapshot",
+      "metric": "availability",
+      "value": "API / chat / open weights",
+      "asOfDate": "2026-02-12",
+      "source": "Z.ai",
+      "url": "https://z.ai/blog/glm-5"
+    },
+    {
+      "id": "deepseek-v4-context-standard",
+      "topicId": "llm-release-ddl",
+      "type": "metricSnapshot",
+      "metric": "context_window",
+      "value": "1M standard",
+      "asOfDate": "2026-04-24",
+      "source": "DeepSeek API Docs",
+      "url": "https://api-docs.deepseek.com/news/news260424"
+    },
+    {
+      "id": "deepseek-v4-flash-parameter-scale",
+      "topicId": "llm-release-ddl",
+      "type": "metricSnapshot",
+      "metric": "model_parameter_scale",
+      "value": "284B total / 13B active",
+      "asOfDate": "2026-04-24",
+      "source": "DeepSeek API Docs",
+      "url": "https://api-docs.deepseek.com/news/news260424"
+    },
+    {
+      "id": "deepseek-v4-pro-parameter-scale",
+      "topicId": "llm-release-ddl",
+      "type": "metricSnapshot",
+      "metric": "model_parameter_scale",
+      "value": "1.6T total / 49B active",
+      "asOfDate": "2026-04-24",
+      "source": "DeepSeek API Docs",
+      "url": "https://api-docs.deepseek.com/news/news260424"
+    },
+    {
+      "id": "glm-5-parameter-scale",
+      "topicId": "llm-release-ddl",
+      "type": "metricSnapshot",
+      "metric": "model_parameter_scale",
+      "value": "744B total / 40B active",
+      "asOfDate": "2026-02-12",
+      "source": "Z.ai",
+      "url": "https://z.ai/blog/glm-5"
+    },
+    {
+      "id": "glm-5-pretraining-tokens",
+      "topicId": "llm-release-ddl",
+      "type": "metricSnapshot",
+      "metric": "pretraining_tokens",
+      "value": "28.5T",
+      "asOfDate": "2026-02-12",
+      "source": "Z.ai",
+      "url": "https://z.ai/blog/glm-5"
+    },
+    {
+      "id": "minimax-m2-5-positioning",
+      "topicId": "llm-release-ddl",
+      "type": "metricSnapshot",
+      "metric": "release_positioning",
+      "value": "Real-world productivity",
+      "asOfDate": "2026-05-24",
+      "source": "MiniMax",
+      "url": "https://www.minimaxi.com/en/news/minimax-m25"
+    }
   ]
+
 };
 
 export function getMetricsByTopic(topicId: string): MetricSnapshot[] {
