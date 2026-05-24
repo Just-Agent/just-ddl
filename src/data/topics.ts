@@ -17,6 +17,25 @@ export interface Topic {
   tags: string[];
 }
 
+export interface Topic {
+  id: string;
+  name: string;
+  description: string;
+  icon: string;
+  color: string;
+  repo: string;
+  site: string;
+  status: 'published' | 'demo' | 'incubating';
+  sourceMode?: 'official' | 'external' | 'incubator' | 'cluster';
+  clusterId?: string;
+  maintainer?: string;
+  dataUrl?: string;
+  metricsUrl?: string;
+  itemCount: number;
+  category: string;
+  tags: string[];
+}
+
 export const topics: Topic[] = [
   {
     "id": "hackathon-ddl",
@@ -474,7 +493,7 @@ export const topics: Topic[] = [
     "sourceMode": "cluster",
     "clusterId": "entertainment-ddl",
     "dataUrl": "data/movie-tv-ddl/items.json",
-    "itemCount": 12,
+    "itemCount": 16,
     "category": "文娱生活",
     "tags": [
       "movie",

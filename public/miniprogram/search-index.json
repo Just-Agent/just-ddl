@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-24T11:49:58.525Z",
-  "dataVersion": "a23f365a9e0ad31b",
+  "generatedAt": "2026-05-24T12:12:58.961Z",
+  "dataVersion": "221fbdf250212f7d",
   "topics": [
     {
       "id": "hackathon-ddl",
@@ -344,7 +344,7 @@
         "TV",
         "release"
       ],
-      "itemCount": 12,
+      "itemCount": 16,
       "status": "published"
     },
     {
@@ -9206,6 +9206,68 @@
       ],
       "subtopic": "animation",
       "source": "Pixar official release history"
+    },
+    {
+      "id": "movie-tv-ddl-one-piece-live-action-s1-2023-08-31",
+      "topicId": "movie-tv-ddl",
+      "title": "ONE PIECE 真人剧 Season 1 上线",
+      "date": "2023-08-31",
+      "type": "officialRelease",
+      "status": "ended",
+      "tags": [
+        "Netflix",
+        "ONE PIECE",
+        "live action",
+        "season history"
+      ],
+      "subtopic": "tv-season",
+      "source": "Netflix Tudum"
+    },
+    {
+      "id": "movie-tv-ddl-one-piece-live-action-s2-2026-03-10",
+      "topicId": "movie-tv-ddl",
+      "title": "ONE PIECE: Into the Grand Line",
+      "date": "2026-03-10",
+      "type": "officialRelease",
+      "status": "ended",
+      "tags": [
+        "Netflix",
+        "ONE PIECE",
+        "season 2",
+        "streaming"
+      ],
+      "subtopic": "tv-season",
+      "source": "Netflix Tudum"
+    },
+    {
+      "id": "movie-tv-ddl-one-piece-live-action-s3-2027-placeholder",
+      "topicId": "movie-tv-ddl",
+      "title": "ONE PIECE: The Battle of Alabasta",
+      "type": "releaseWindow",
+      "status": "unannounced",
+      "tags": [
+        "Netflix",
+        "ONE PIECE",
+        "season 3",
+        "date pending"
+      ],
+      "subtopic": "tv-season",
+      "source": "Netflix Tudum"
+    },
+    {
+      "id": "movie-tv-ddl-the-one-piece-anime-2027-02-placeholder",
+      "topicId": "movie-tv-ddl",
+      "title": "THE ONE PIECE 动画 Season 1",
+      "type": "releaseWindow",
+      "status": "upcoming",
+      "tags": [
+        "Netflix",
+        "THE ONE PIECE",
+        "anime",
+        "East Blue"
+      ],
+      "subtopic": "anime",
+      "source": "Netflix Tudum"
     },
     {
       "id": "movie-tv-ddl-spider-man-brand-new-day-2026-07-31",
