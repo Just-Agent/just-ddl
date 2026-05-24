@@ -512,7 +512,7 @@ export const topics: Topic[] = [
     "status": "published",
     "sourceMode": "cluster",
     "clusterId": "consumer-launch-ddl",
-    "dataUrl": "data/phone-launch-ddl/items.json",
+    "dataUrl": "public-data/phone-launch-ddl/items.json",
     "itemCount": 17,
     "category": "消费发布",
     "tags": [
@@ -532,7 +532,7 @@ export const topics: Topic[] = [
     "status": "published",
     "sourceMode": "cluster",
     "clusterId": "consumer-launch-ddl",
-    "dataUrl": "data/car-launch-ddl/items.json",
+    "dataUrl": "public-data/car-launch-ddl/items.json",
     "itemCount": 11,
     "category": "消费发布",
     "tags": [
