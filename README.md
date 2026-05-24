@@ -149,9 +149,9 @@ flowchart TB
 | 电影电视剧 | [entertainment-ddl](https://github.com/Just-Agent/entertainment-ddl) | [访问](https://just-agent.github.io/entertainment-ddl/#movie-tv-ddl) | 专题族公开出口 `public-data/movie-tv-ddl/items.json` |
 | 手机发布 | [consumer-launch-ddl](https://github.com/Just-Agent/consumer-launch-ddl) | [访问](https://just-agent.github.io/consumer-launch-ddl/#phone-launch-ddl) | 专题族公开出口 `public-data/phone-launch-ddl/items.json` |
 | 汽车发布 | [consumer-launch-ddl](https://github.com/Just-Agent/consumer-launch-ddl) | [访问](https://just-agent.github.io/consumer-launch-ddl/#car-launch-ddl) | 专题族公开出口 `public-data/car-launch-ddl/items.json` |
-| 新规实施 | [public-life-ddl](https://github.com/Just-Agent/public-life-ddl) | [访问](https://just-agent.github.io/public-life-ddl/#regulation-ddl) | 专题族数据出口 `data/regulation-ddl/items.json` |
-| 学生竞赛 | [education-career-ddl](https://github.com/Just-Agent/education-career-ddl) | [访问](https://just-agent.github.io/education-career-ddl/#student-contest-ddl) | 专题族数据出口 `data/student-contest-ddl/items.json` |
-| 招聘会 | [education-career-ddl](https://github.com/Just-Agent/education-career-ddl) | [访问](https://just-agent.github.io/education-career-ddl/#career-fair-ddl) | 专题族数据出口 `data/career-fair-ddl/items.json` |
+| 新规实施 | [public-life-ddl](https://github.com/Just-Agent/public-life-ddl) | [访问](https://just-agent.github.io/public-life-ddl/#regulation-ddl) | 专题族公开出口 `public-data/regulation-ddl/items.json` |
+| 学生竞赛 | [education-career-ddl](https://github.com/Just-Agent/education-career-ddl) | [访问](https://just-agent.github.io/education-career-ddl/#student-contest-ddl) | 专题族公开出口 `public-data/student-contest-ddl/items.json` |
+| 招聘会 | [education-career-ddl](https://github.com/Just-Agent/education-career-ddl) | [访问](https://just-agent.github.io/education-career-ddl/#career-fair-ddl) | 专题族公开出口 `public-data/career-fair-ddl/items.json` |
 
 完整专题列表请在 [主题广场](https://just-agent.github.io/just-ddl/) 查看。
 

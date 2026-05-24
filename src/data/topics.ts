@@ -553,7 +553,7 @@ export const topics: Topic[] = [
     "status": "published",
     "sourceMode": "cluster",
     "clusterId": "public-life-ddl",
-    "dataUrl": "data/regulation-ddl/items.json",
+    "dataUrl": "public-data/regulation-ddl/items.json",
     "itemCount": 14,
     "category": "公共生活",
     "tags": [
@@ -573,7 +573,7 @@ export const topics: Topic[] = [
     "status": "published",
     "sourceMode": "cluster",
     "clusterId": "education-career-ddl",
-    "dataUrl": "data/student-contest-ddl/items.json",
+    "dataUrl": "public-data/student-contest-ddl/items.json",
     "itemCount": 12,
     "category": "教育职业",
     "tags": [
@@ -593,7 +593,7 @@ export const topics: Topic[] = [
     "status": "published",
     "sourceMode": "cluster",
     "clusterId": "education-career-ddl",
-    "dataUrl": "data/career-fair-ddl/items.json",
+    "dataUrl": "public-data/career-fair-ddl/items.json",
     "itemCount": 7,
     "category": "教育职业",
     "tags": [
