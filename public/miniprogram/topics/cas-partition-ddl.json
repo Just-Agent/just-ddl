@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-24T07:37:09.514Z",
-  "dataVersion": "f7c407910b121a21",
+  "generatedAt": "2026-05-24T08:17:29.575Z",
+  "dataVersion": "60abb581f53e847c",
   "topic": {
     "id": "cas-partition-ddl",
     "name": "中科院期刊分区",
@@ -21,6 +21,30 @@
     "clusterId": "journal-metrics-ddl"
   },
   "items": [
+    {
+      "id": "cas-partition-platform-history-policy",
+      "topicId": "cas-partition-ddl",
+      "title": "中科院期刊分区表：平台发布与历史查询口径",
+      "date": "2026-03-27",
+      "dateRange": "2026-03-27",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "CAS",
+        "历史轨迹",
+        "查询平台"
+      ],
+      "url": "https://www.fenqubiao.com/",
+      "status": "ended",
+      "stage": "Platform boundary",
+      "source": "中科院期刊分区表在线平台",
+      "sourceUrl": "https://www.fenqubiao.com/",
+      "type": "historyEvent",
+      "description": "在线平台说明期刊分区表自 2004 年发布、2019 年发布升级版、2022 年起只发布升级版；公开专题只记录平台与合规查询入口。",
+      "subtopic": "cas-access",
+      "subtopicName": "历史查询",
+      "category": "期刊评价"
+    },
     {
       "id": "cas-partition-2026-stop-update-statement",
       "topicId": "cas-partition-ddl",
@@ -64,13 +88,81 @@
       "source": "中科院期刊分区表在线平台",
       "sourceUrl": "https://www.las.cas.cn/news/tzgg/202603/t20260327_8178738.html",
       "type": "historyEvent",
-      "description": "公开仓库只记录官方平台与官方声明；具体期刊历年分区变化需通过机构授权、历史数据查询或合规导入维护。",
+      "description": "具体期刊历年分区变化需要通过平台查询、机构授权或合规文件导入维护；Just-DDL 不绕过登录或授权边界抓取单刊分区。",
       "subtopic": "cas-access",
       "subtopicName": "历史数据",
+      "category": "期刊评价"
+    },
+    {
+      "id": "cas-partition-authorized-import-ready",
+      "topicId": "cas-partition-ddl",
+      "title": "CAS 单刊分区轨迹授权导入接口已预留",
+      "date": "2026-05-24",
+      "dateRange": "2026-05-24",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "CAS",
+        "CSV 导入",
+        "单刊轨迹"
+      ],
+      "url": "https://www.fenqubiao.com/",
+      "status": "ended",
+      "stage": "Authorized import",
+      "source": "中科院期刊分区表在线平台",
+      "sourceUrl": "https://www.fenqubiao.com/",
+      "type": "historyEvent",
+      "description": "仓库提供 CAS_HISTORY_CSV 授权导入流程，可把单刊 ISSN、年份、大类分区、小类分区写入 metricSnapshot，用于展示历年一区/二区/三区/四区变化。",
+      "subtopic": "cas-import",
+      "subtopicName": "授权导入",
+      "category": "期刊评价"
+    },
+    {
+      "id": "cas-partition-no-2026-official-release",
+      "topicId": "cas-partition-ddl",
+      "title": "2026 起无官方年度分区表更新窗口",
+      "date": "2026-03-27",
+      "dateRange": "2026-03-27",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "CAS",
+        "无官方 DDL",
+        "停更"
+      ],
+      "url": "https://www.las.cas.cn/news/tzgg/202603/t20260327_8178738.html",
+      "status": "ended",
+      "stage": "No official release window",
+      "source": "中国科学院文献情报中心",
+      "sourceUrl": "https://www.las.cas.cn/news/tzgg/202603/t20260327_8178738.html",
+      "type": "historyEvent",
+      "description": "由于官方已声明不再更新发布，CAS 分区专题不再生成 2026 及以后年度官方分区表倒计时；后续只追踪官方声明变化或授权历史数据导入。",
+      "subtopic": "cas-policy",
+      "subtopicName": "停更后状态",
       "category": "期刊评价"
     }
   ],
   "metrics": [
+    {
+      "id": "cas-partition-platform-release-history-boundary",
+      "topicId": "cas-partition-ddl",
+      "type": "metricSnapshot",
+      "metric": "cas_platform_release_history_boundary",
+      "value": "2004_release_2019_upgrade_2022_upgrade_only_2026_stopped",
+      "asOfDate": "2026-05-24",
+      "source": "中科院期刊分区表在线平台",
+      "url": "https://www.fenqubiao.com/"
+    },
+    {
+      "id": "cas-partition-official-release-status-after-2026",
+      "topicId": "cas-partition-ddl",
+      "type": "metricSnapshot",
+      "metric": "cas_official_release_status",
+      "value": "stopped_from_2026",
+      "asOfDate": "2026-03-27",
+      "source": "中国科学院文献情报中心",
+      "url": "https://www.las.cas.cn/news/tzgg/202603/t20260327_8178738.html"
+    },
     {
       "id": "cas-partition-authorized-history-placeholder",
       "topicId": "cas-partition-ddl",
@@ -86,12 +178,18 @@
     {
       "id": "cas-policy",
       "name": "官方声明",
-      "itemCount": 1,
+      "itemCount": 2,
       "nextItemId": null
     },
     {
       "id": "cas-access",
-      "name": "历史数据",
+      "name": "历史查询",
+      "itemCount": 2,
+      "nextItemId": null
+    },
+    {
+      "id": "cas-import",
+      "name": "授权导入",
       "itemCount": 1,
       "nextItemId": null
     }

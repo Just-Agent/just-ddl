@@ -30,6 +30,26 @@ export const metricData: Record<string, MetricSnapshot[]> = {
   ],
   "cas-partition-ddl": [
     {
+      "id": "cas-partition-platform-release-history-boundary",
+      "topicId": "cas-partition-ddl",
+      "type": "metricSnapshot",
+      "metric": "cas_platform_release_history_boundary",
+      "value": "2004_release_2019_upgrade_2022_upgrade_only_2026_stopped",
+      "asOfDate": "2026-05-24",
+      "source": "中科院期刊分区表在线平台",
+      "url": "https://www.fenqubiao.com/"
+    },
+    {
+      "id": "cas-partition-official-release-status-after-2026",
+      "topicId": "cas-partition-ddl",
+      "type": "metricSnapshot",
+      "metric": "cas_official_release_status",
+      "value": "stopped_from_2026",
+      "asOfDate": "2026-03-27",
+      "source": "中国科学院文献情报中心",
+      "url": "https://www.las.cas.cn/news/tzgg/202603/t20260327_8178738.html"
+    },
+    {
       "id": "cas-partition-authorized-history-placeholder",
       "topicId": "cas-partition-ddl",
       "type": "metricSnapshot",

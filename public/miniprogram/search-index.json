@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-24T07:37:09.514Z",
-  "dataVersion": "f7c407910b121a21",
+  "generatedAt": "2026-05-24T08:17:29.575Z",
+  "dataVersion": "60abb581f53e847c",
   "topics": [
     {
       "id": "hackathon-ddl",
@@ -10240,6 +10240,21 @@
       "source": "国家自然科学基金委员会"
     },
     {
+      "id": "cas-partition-platform-history-policy",
+      "topicId": "cas-partition-ddl",
+      "title": "中科院期刊分区表：平台发布与历史查询口径",
+      "date": "2026-03-27",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "CAS",
+        "历史轨迹",
+        "查询平台"
+      ],
+      "subtopic": "cas-access",
+      "source": "中科院期刊分区表在线平台"
+    },
+    {
       "id": "cas-partition-2026-stop-update-statement",
       "topicId": "cas-partition-ddl",
       "title": "中科院文献情报中心声明：2026 年起不再更新发布期刊分区表",
@@ -10268,6 +10283,36 @@
       ],
       "subtopic": "cas-access",
       "source": "中科院期刊分区表在线平台"
+    },
+    {
+      "id": "cas-partition-authorized-import-ready",
+      "topicId": "cas-partition-ddl",
+      "title": "CAS 单刊分区轨迹授权导入接口已预留",
+      "date": "2026-05-24",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "CAS",
+        "CSV 导入",
+        "单刊轨迹"
+      ],
+      "subtopic": "cas-import",
+      "source": "中科院期刊分区表在线平台"
+    },
+    {
+      "id": "cas-partition-no-2026-official-release",
+      "topicId": "cas-partition-ddl",
+      "title": "2026 起无官方年度分区表更新窗口",
+      "date": "2026-03-27",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "CAS",
+        "无官方 DDL",
+        "停更"
+      ],
+      "subtopic": "cas-policy",
+      "source": "中国科学院文献情报中心"
     },
     {
       "id": "jcr-2026-official-webinar",
