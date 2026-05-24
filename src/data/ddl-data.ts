@@ -15136,31 +15136,47 @@ export const ddlData: Record<string, DDLItem[]> = {
       "title": "OpenAlex 期刊发文量快照",
       "type": "historyEvent",
       "date": "2026-05-24",
+      "dateRange": "2026-05-24",
       "url": "https://docs.openalex.org/api-entities/sources/source-object",
       "source": "OpenAlex",
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
+      "status": "ended",
       "stage": "Metadata snapshot",
       "category": "期刊评价",
       "subtopic": "openalex-volume",
       "subtopicName": "开放元数据发文量",
+      "location": "Online",
+      "isOnline": true,
       "tags": [
         "OpenAlex",
         "发文量",
         "开放元数据"
       ],
-      "description": "首版使用 OpenAlex Source object 的 works_count 与 counts_by_year 字段统计期刊当前发文量和年度趋势。",
-      "dateRange": "2026-05-24",
-      "location": "Online",
-      "isOnline": true,
-      "status": "ended"
+      "description": "使用 OpenAlex Source object 的 works_count 与 counts_by_year 字段统计代表期刊当前发文量、近年年度趋势和最新完整年同比变化。"
     },
     {
       "id": "journal-volume-weekly-refresh-window",
       "topicId": "journal-volume-ddl",
       "title": "期刊发文量每周刷新窗口",
       "type": "forecastWindow",
-      "isDatePlaceholder": true,
+      "dateRange": "2026-05-25 - 2026-05-31",
+      "url": "https://docs.openalex.org/api-entities/sources/source-object",
+      "source": "OpenAlex",
+      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
       "status": "maintenance",
+      "stage": "Maintenance forecast",
+      "category": "期刊评价",
+      "subtopic": "openalex-volume",
+      "subtopicName": "开放元数据发文量",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "OpenAlex",
+        "刷新窗口",
+        "低置信度"
+      ],
+      "description": "用于提醒维护链路刷新开放元数据，不进入官方 DDL 统计。",
+      "isDatePlaceholder": true,
       "lastOfficialDate": "2026-05-24",
       "basisEvents": [
         "journal-volume-openalex-snapshot"
@@ -15169,23 +15185,7 @@ export const ddlData: Record<string, DDLItem[]> = {
         "start": "2026-05-25",
         "end": "2026-05-31"
       },
-      "confidence": "low",
-      "url": "https://docs.openalex.org/api-entities/sources/source-object",
-      "source": "OpenAlex",
-      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
-      "stage": "Maintenance forecast",
-      "category": "期刊评价",
-      "subtopic": "openalex-volume",
-      "subtopicName": "开放元数据发文量",
-      "tags": [
-        "OpenAlex",
-        "刷新窗口",
-        "低置信度"
-      ],
-      "description": "用于提醒维护链路刷新开放元数据，不进入官方 DDL 统计。",
-      "dateRange": "2026-05-25 - 2026-05-31",
-      "location": "Online",
-      "isOnline": true
+      "confidence": "low"
     }
   ]
 };
