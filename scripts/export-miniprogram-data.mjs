@@ -13,6 +13,7 @@ const TOPIC_DIR = path.join(OUT_DIR, 'topics');
 const PRIVATE_KEYS = new Set([
   'accessMode',
   'adapter',
+  'apiUrl',
   'coverageNote',
   'crawler',
   'crawlerReport',

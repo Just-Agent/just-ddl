@@ -11,6 +11,7 @@ const REQUIRED_ITEM_FIELDS = ['id', 'title', 'url', 'source'];
 const PRIVATE_KEYS = new Set([
   'accessMode',
   'adapter',
+  'apiUrl',
   'coverageNote',
   'crawlerReport',
   'crawledAt',

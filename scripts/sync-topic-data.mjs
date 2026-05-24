@@ -13,6 +13,7 @@ const MAX_INCUBATOR_ITEMS = 50;
 const PUBLIC_PRIVATE_KEYS = new Set([
   'accessMode',
   'adapter',
+  'apiUrl',
   'coverageNote',
   'crawler',
   'crawlerReport',

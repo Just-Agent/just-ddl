@@ -18,10 +18,14 @@ const PUBLIC_SOURCE_DIRS = [
 const PUBLIC_DATA_DIRS = [
   'public/miniprogram'
 ];
+const PUBLIC_TEXT_DIRS = [
+  'public/contrib-topics'
+];
 const DIST_DIR = path.join(ROOT, 'dist');
 const PRIVATE_KEYS = [
   'accessMode',
   'adapter',
+  'apiUrl',
   'coverageNote',
   'crawler',
   'crawlerReport',
@@ -103,11 +107,11 @@ const FORBIDDEN_PUBLIC_TEXT = [
 ];
 const DIRECT_RENDER_PATTERNS = [
   {
-    pattern: /\$\{[^}]*\.(?:licenseNote|sampleNote|coverageNote|scopeNote|sourcePolicy|parser|accessMode|forecastBasis|releaseCadence|developerNote|developerComment|developerRemark|devNote|devRemark|debugNote|debugRemark|internalNote|internalRemark|privateNote|privateRemark|maintainerNote|maintainerComment|maintainerRemark|error\.message)[^}]*\}/,
+    pattern: /\$\{[^}]*\.(?:licenseNote|sampleNote|coverageNote|scopeNote|sourcePolicy|parser|accessMode|apiUrl|forecastBasis|releaseCadence|developerNote|developerComment|developerRemark|devNote|devRemark|debugNote|debugRemark|internalNote|internalRemark|privateNote|privateRemark|maintainerNote|maintainerComment|maintainerRemark|error\.message)[^}]*\}/,
     message: 'direct template render of developer-only field'
   },
   {
-    pattern: /<(?:p|span|div|li|strong|small|em|td|th)[^>]*>\s*\{[^}]*\.(?:licenseNote|sampleNote|coverageNote|scopeNote|sourcePolicy|parser|accessMode|forecastBasis|releaseCadence|developerNote|developerComment|developerRemark|devNote|devRemark|debugNote|debugRemark|internalNote|internalRemark|privateNote|privateRemark|maintainerNote|maintainerComment|maintainerRemark|error\.message)[^}]*\}\s*<\/(?:p|span|div|li|strong|small|em|td|th)>/,
+    pattern: /<(?:p|span|div|li|strong|small|em|td|th)[^>]*>\s*\{[^}]*\.(?:licenseNote|sampleNote|coverageNote|scopeNote|sourcePolicy|parser|accessMode|apiUrl|forecastBasis|releaseCadence|developerNote|developerComment|developerRemark|devNote|devRemark|debugNote|debugRemark|internalNote|internalRemark|privateNote|privateRemark|maintainerNote|maintainerComment|maintainerRemark|error\.message)[^}]*\}\s*<\/(?:p|span|div|li|strong|small|em|td|th)>/,
     message: 'direct JSX render of developer-only field'
   },
   {
@@ -117,7 +121,7 @@ const DIRECT_RENDER_PATTERNS = [
 ];
 const DIST_FORBIDDEN_PATTERNS = [
   {
-    pattern: /["'](?:accessMode|adapter|coverageNote|crawler|crawlerReport|crawledAt|debug|debugReport|deadlineTimezone|developerNote|developerComment|developerRemark|devNote|devRemark|debugNote|debugRemark|error|forecastBasis|internalNote|internalRemark|lastChecked|licenseNote|linkCheckMode|maintainerNote|maintainerComment|maintainerRemark|parser|parserConfidence|privateNote|privateRemark|raw|rawHtml|rawPayload|rawSource|releaseCadence|sampleNote|scopeNote|sourcePolicy|sourcePriority|validationNote|[A-Za-z0-9_]*(?:developer|dev|maintainer|internal|private|debug|crawler|crawl|parser|adapter|license|coverage|sample|scope|linkCheck|validation|review|ops|sync|raw|error)[A-Za-z0-9_]*(?:Note|Notes|Comment|Comments|Memo|Memos|Remark|Remarks|Annotation|Annotations|Report|Reports|Message|Messages)|(?:开发者|开发|内部|维护者?|调试|私有|私人|爬虫|解析器|原始|错误).{0,12}(?:备注|说明|注释|留言|消息|报告))["']\s*:/,
+    pattern: /["'](?:accessMode|adapter|apiUrl|coverageNote|crawler|crawlerReport|crawledAt|debug|debugReport|deadlineTimezone|developerNote|developerComment|developerRemark|devNote|devRemark|debugNote|debugRemark|error|forecastBasis|internalNote|internalRemark|lastChecked|licenseNote|linkCheckMode|maintainerNote|maintainerComment|maintainerRemark|parser|parserConfidence|privateNote|privateRemark|raw|rawHtml|rawPayload|rawSource|releaseCadence|sampleNote|scopeNote|sourcePolicy|sourcePriority|validationNote|[A-Za-z0-9_]*(?:developer|dev|maintainer|internal|private|debug|crawler|crawl|parser|adapter|license|coverage|sample|scope|linkCheck|validation|review|ops|sync|raw|error)[A-Za-z0-9_]*(?:Note|Notes|Comment|Comments|Memo|Memos|Remark|Remarks|Annotation|Annotations|Report|Reports|Message|Messages)|(?:开发者|开发|内部|维护者?|调试|私有|私人|爬虫|解析器|原始|错误).{0,12}(?:备注|说明|注释|留言|消息|报告))["']\s*:/,
     message: 'developer-only data key is present in built public assets'
   },
   {
@@ -224,6 +228,17 @@ function validateDistFile(filePath) {
   return errors;
 }
 
+function validatePublicTextFile(filePath) {
+  const source = fs.readFileSync(filePath, 'utf8');
+  const errors = [];
+  for (const pattern of FORBIDDEN_PUBLIC_TEXT) {
+    if (pattern.test(source)) {
+      errors.push(`${filePath}: public text contains developer-facing maintenance wording: ${pattern}`);
+    }
+  }
+  return errors;
+}
+
 function currentDistFiles() {
   const indexPath = path.join(DIST_DIR, 'index.html');
   if (!fs.existsSync(indexPath)) return [];
@@ -238,7 +253,7 @@ function currentDistFiles() {
     const fullPath = path.join(DIST_DIR, normalized);
     if (fs.existsSync(fullPath) && fs.statSync(fullPath).isFile()) files.add(fullPath);
   }
-  for (const file of walkFiles(DIST_DIR, new Set(['.json']))) {
+  for (const file of walkFiles(DIST_DIR, new Set(['.json', '.md']))) {
     files.add(file);
   }
   return [...files];
@@ -273,6 +288,11 @@ for (const file of publicDataFiles) {
   errors.push(...validatePublicData(payload, path.relative(ROOT, file)));
 }
 
+const publicTextFiles = PUBLIC_TEXT_DIRS.flatMap(dir => walkFiles(path.join(ROOT, dir), new Set(['.md', '.txt', '.html'])));
+for (const file of publicTextFiles) {
+  errors.push(...validatePublicTextFile(file));
+}
+
 const distFiles = SCAN_DIST ? currentDistFiles() : [];
 for (const file of distFiles) {
   errors.push(...validateDistFile(file));
@@ -283,4 +303,4 @@ if (errors.length) {
   process.exit(1);
 }
 
-console.log(`public surface validated: ${sourceFiles.length} UI files, ${publicDataFiles.length} public data files, ${distFiles.length} built files, and Hub data`);
+console.log(`public surface validated: ${sourceFiles.length} UI files, ${publicDataFiles.length} public data files, ${publicTextFiles.length} public text files, ${distFiles.length} built files, and Hub data`);

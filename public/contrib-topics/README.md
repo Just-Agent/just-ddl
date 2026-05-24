@@ -8,7 +8,7 @@
 - 每个专题最多 `50` 条 DDL。
 - 只接受静态 JSON，不在 Hub 内运行贡献者自定义 crawler。
 - 稳定后应迁出为独立 `xxx-ddl` 仓库，再由 Hub 注册外部数据出口。
-- 所有内容都会出现在公开网页或小程序 JSON 中，不能提交开发者备注、内部备注、维护备注、调试备注、原始错误信息或 parser/crawler 私有字段。
+- 所有内容都会出现在公开网页或小程序 JSON 中，不能提交非公开维护信息、调试说明、原始错误信息或内部字段。
 
 ## 已采纳示例
 
@@ -28,8 +28,8 @@
 3. 在 `public/contrib-topics/registry.json` 注册专题。
 4. 运行 `node scripts/validate-contrib-topics.mjs`。
 
-提交前请把维护说明改写为用户可读文案。例如“后续自动更新流程会继续补齐官方公告”可以保留，但“开发者备注：parser 暂时失败”“内部备注：待修 crawler”
-这类文字不能进入 `items.json`、`sources.json` 或 `registry.json`。
+提交前请把维护说明改写为用户可读文案。例如“后续自动更新流程会继续补齐官方公告”可以保留；排障说明、实现细节和原始错误不能进入
+`items.json`、`sources.json` 或 `registry.json`。
 
 `registry.json` 示例：
 

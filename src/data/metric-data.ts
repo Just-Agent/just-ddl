@@ -422,8 +422,7 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
       "openAlexId": "https://openalex.org/S52395412",
       "homepageUrl": "http://bioinformatics.oxfordjournals.org/",
-      "citedByCount": 2782542,
-      "apiUrl": "https://api.openalex.org/sources/issn:1367-4811"
+      "citedByCount": 2782542
     },
     {
       "id": "openalex-bioinformatics-openalex_works_count_by_year-2026",
@@ -440,8 +439,7 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
       "openAlexId": "https://openalex.org/S52395412",
       "oaWorksCount": 236,
-      "citedByCount": 24,
-      "apiUrl": "https://api.openalex.org/sources/issn:1367-4811"
+      "citedByCount": 24
     },
     {
       "id": "openalex-bioinformatics-openalex_works_count_by_year-2025",
@@ -458,8 +456,7 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
       "openAlexId": "https://openalex.org/S52395412",
       "oaWorksCount": 677,
-      "citedByCount": 2042,
-      "apiUrl": "https://api.openalex.org/sources/issn:1367-4811"
+      "citedByCount": 2042
     },
     {
       "id": "openalex-bioinformatics-openalex_works_count_by_year-2024",
@@ -476,8 +473,7 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
       "openAlexId": "https://openalex.org/S52395412",
       "oaWorksCount": 804,
-      "citedByCount": 7886,
-      "apiUrl": "https://api.openalex.org/sources/issn:1367-4811"
+      "citedByCount": 7886
     },
     {
       "id": "openalex-bioinformatics-openalex_works_count_by_year-2023",
@@ -494,8 +490,7 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
       "openAlexId": "https://openalex.org/S52395412",
       "oaWorksCount": 810,
-      "citedByCount": 14529,
-      "apiUrl": "https://api.openalex.org/sources/issn:1367-4811"
+      "citedByCount": 14529
     },
     {
       "id": "openalex-bioinformatics-openalex_works_count_by_year-2022",
@@ -512,8 +507,7 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
       "openAlexId": "https://openalex.org/S52395412",
       "oaWorksCount": 713,
-      "citedByCount": 28852,
-      "apiUrl": "https://api.openalex.org/sources/issn:1367-4811"
+      "citedByCount": 28852
     },
     {
       "id": "openalex-bmj-openalex_works_count_total-total",
@@ -530,8 +524,7 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
       "openAlexId": "https://openalex.org/S4393917726",
       "homepageUrl": null,
-      "citedByCount": 1201886,
-      "apiUrl": "https://api.openalex.org/sources/issn:1756-1833"
+      "citedByCount": 1201886
     },
     {
       "id": "openalex-bmj-openalex_works_count_by_year-2026",
@@ -548,8 +541,7 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
       "openAlexId": "https://openalex.org/S4393917726",
       "oaWorksCount": 319,
-      "citedByCount": 760,
-      "apiUrl": "https://api.openalex.org/sources/issn:1756-1833"
+      "citedByCount": 760
     },
     {
       "id": "openalex-bmj-openalex_works_count_by_year-2025",
@@ -566,8 +558,7 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
       "openAlexId": "https://openalex.org/S4393917726",
       "oaWorksCount": 1096,
-      "citedByCount": 8074,
-      "apiUrl": "https://api.openalex.org/sources/issn:1756-1833"
+      "citedByCount": 8074
     },
     {
       "id": "openalex-bmj-openalex_works_count_by_year-2024",
@@ -584,8 +575,7 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
       "openAlexId": "https://openalex.org/S4393917726",
       "oaWorksCount": 1152,
-      "citedByCount": 18256,
-      "apiUrl": "https://api.openalex.org/sources/issn:1756-1833"
+      "citedByCount": 18256
     },
     {
       "id": "openalex-bmj-openalex_works_count_by_year-2023",
@@ -602,8 +592,7 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
       "openAlexId": "https://openalex.org/S4393917726",
       "oaWorksCount": 1315,
-      "citedByCount": 22072,
-      "apiUrl": "https://api.openalex.org/sources/issn:1756-1833"
+      "citedByCount": 22072
     },
     {
       "id": "openalex-bmj-openalex_works_count_by_year-2022",
@@ -620,8 +609,7 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
       "openAlexId": "https://openalex.org/S4393917726",
       "oaWorksCount": 1562,
-      "citedByCount": 37783,
-      "apiUrl": "https://api.openalex.org/sources/issn:1756-1833"
+      "citedByCount": 37783
     },
     {
       "id": "openalex-cell-openalex_works_count_total-total",
@@ -638,8 +626,7 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
       "openAlexId": "https://openalex.org/S110447773",
       "homepageUrl": "https://www.sciencedirect.com/journal/cell",
-      "citedByCount": 8926359,
-      "apiUrl": "https://api.openalex.org/sources/issn:0092-8674"
+      "citedByCount": 8926359
     },
     {
       "id": "openalex-cell-openalex_works_count_by_year-2026",
@@ -656,8 +643,7 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
       "openAlexId": "https://openalex.org/S110447773",
       "oaWorksCount": 119,
-      "citedByCount": 414,
-      "apiUrl": "https://api.openalex.org/sources/issn:0092-8674"
+      "citedByCount": 414
     },
     {
       "id": "openalex-cell-openalex_works_count_by_year-2025",
@@ -674,8 +660,7 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
       "openAlexId": "https://openalex.org/S110447773",
       "oaWorksCount": 346,
-      "citedByCount": 10372,
-      "apiUrl": "https://api.openalex.org/sources/issn:0092-8674"
+      "citedByCount": 10372
     },
     {
       "id": "openalex-cell-openalex_works_count_by_year-2024",
@@ -692,8 +677,7 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
       "openAlexId": "https://openalex.org/S110447773",
       "oaWorksCount": 477,
-      "citedByCount": 35932,
-      "apiUrl": "https://api.openalex.org/sources/issn:0092-8674"
+      "citedByCount": 35932
     },
     {
       "id": "openalex-cell-openalex_works_count_by_year-2023",
@@ -710,8 +694,7 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
       "openAlexId": "https://openalex.org/S110447773",
       "oaWorksCount": 383,
-      "citedByCount": 51839,
-      "apiUrl": "https://api.openalex.org/sources/issn:0092-8674"
+      "citedByCount": 51839
     },
     {
       "id": "openalex-cell-openalex_works_count_by_year-2022",
@@ -728,8 +711,7 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
       "openAlexId": "https://openalex.org/S110447773",
       "oaWorksCount": 324,
-      "citedByCount": 67565,
-      "apiUrl": "https://api.openalex.org/sources/issn:0092-8674"
+      "citedByCount": 67565
     },
     {
       "id": "openalex-tpami-openalex_works_count_total-total",
@@ -746,8 +728,7 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
       "openAlexId": "https://openalex.org/S199944782",
       "homepageUrl": "http://www.computer.org/portal/web/tpami",
-      "citedByCount": 1856447,
-      "apiUrl": "https://api.openalex.org/sources/issn:0162-8828"
+      "citedByCount": 1856447
     },
     {
       "id": "openalex-tpami-openalex_works_count_by_year-2026",
@@ -764,8 +745,7 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
       "openAlexId": "https://openalex.org/S199944782",
       "oaWorksCount": 87,
-      "citedByCount": 157,
-      "apiUrl": "https://api.openalex.org/sources/issn:0162-8828"
+      "citedByCount": 157
     },
     {
       "id": "openalex-tpami-openalex_works_count_by_year-2025",
@@ -782,8 +762,7 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
       "openAlexId": "https://openalex.org/S199944782",
       "oaWorksCount": 115,
-      "citedByCount": 4768,
-      "apiUrl": "https://api.openalex.org/sources/issn:0162-8828"
+      "citedByCount": 4768
     },
     {
       "id": "openalex-tpami-openalex_works_count_by_year-2024",
@@ -800,8 +779,7 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
       "openAlexId": "https://openalex.org/S199944782",
       "oaWorksCount": 128,
-      "citedByCount": 19214,
-      "apiUrl": "https://api.openalex.org/sources/issn:0162-8828"
+      "citedByCount": 19214
     },
     {
       "id": "openalex-tpami-openalex_works_count_by_year-2023",
@@ -818,8 +796,7 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
       "openAlexId": "https://openalex.org/S199944782",
       "oaWorksCount": 138,
-      "citedByCount": 29585,
-      "apiUrl": "https://api.openalex.org/sources/issn:0162-8828"
+      "citedByCount": 29585
     },
     {
       "id": "openalex-tpami-openalex_works_count_by_year-2022",
@@ -836,8 +813,7 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
       "openAlexId": "https://openalex.org/S199944782",
       "oaWorksCount": 250,
-      "citedByCount": 38256,
-      "apiUrl": "https://api.openalex.org/sources/issn:0162-8828"
+      "citedByCount": 38256
     },
     {
       "id": "openalex-jama-openalex_works_count_total-total",
@@ -854,8 +830,7 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
       "openAlexId": "https://openalex.org/S172573765",
       "homepageUrl": "http://jama.ama-assn.org/",
-      "citedByCount": 6961830,
-      "apiUrl": "https://api.openalex.org/sources/issn:0098-7484"
+      "citedByCount": 6961830
     },
     {
       "id": "openalex-jama-openalex_works_count_by_year-2026",
@@ -872,8 +847,7 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
       "openAlexId": "https://openalex.org/S172573765",
       "oaWorksCount": 102,
-      "citedByCount": 280,
-      "apiUrl": "https://api.openalex.org/sources/issn:0098-7484"
+      "citedByCount": 280
     },
     {
       "id": "openalex-jama-openalex_works_count_by_year-2025",
@@ -890,8 +864,7 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
       "openAlexId": "https://openalex.org/S172573765",
       "oaWorksCount": 331,
-      "citedByCount": 8280,
-      "apiUrl": "https://api.openalex.org/sources/issn:0098-7484"
+      "citedByCount": 8280
     },
     {
       "id": "openalex-jama-openalex_works_count_by_year-2024",
@@ -908,8 +881,7 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
       "openAlexId": "https://openalex.org/S172573765",
       "oaWorksCount": 387,
-      "citedByCount": 25987,
-      "apiUrl": "https://api.openalex.org/sources/issn:0098-7484"
+      "citedByCount": 25987
     },
     {
       "id": "openalex-jama-openalex_works_count_by_year-2023",
@@ -926,8 +898,7 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
       "openAlexId": "https://openalex.org/S172573765",
       "oaWorksCount": 538,
-      "citedByCount": 44258,
-      "apiUrl": "https://api.openalex.org/sources/issn:0098-7484"
+      "citedByCount": 44258
     },
     {
       "id": "openalex-jama-openalex_works_count_by_year-2022",
@@ -944,8 +915,7 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
       "openAlexId": "https://openalex.org/S172573765",
       "oaWorksCount": 579,
-      "citedByCount": 52485,
-      "apiUrl": "https://api.openalex.org/sources/issn:0098-7484"
+      "citedByCount": 52485
     },
     {
       "id": "openalex-nature-openalex_works_count_total-total",
@@ -962,8 +932,7 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
       "openAlexId": "https://openalex.org/S137773608",
       "homepageUrl": "https://www.nature.com/nature/",
-      "citedByCount": 26885522,
-      "apiUrl": "https://api.openalex.org/sources/issn:0028-0836"
+      "citedByCount": 26885522
     },
     {
       "id": "openalex-nature-openalex_works_count_by_year-2026",
@@ -980,8 +949,7 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
       "openAlexId": "https://openalex.org/S137773608",
       "oaWorksCount": 570,
-      "citedByCount": 1510,
-      "apiUrl": "https://api.openalex.org/sources/issn:0028-0836"
+      "citedByCount": 1510
     },
     {
       "id": "openalex-nature-openalex_works_count_by_year-2025",
@@ -998,8 +966,7 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
       "openAlexId": "https://openalex.org/S137773608",
       "oaWorksCount": 1752,
-      "citedByCount": 44948,
-      "apiUrl": "https://api.openalex.org/sources/issn:0028-0836"
+      "citedByCount": 44948
     },
     {
       "id": "openalex-nature-openalex_works_count_by_year-2024",
@@ -1016,8 +983,7 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
       "openAlexId": "https://openalex.org/S137773608",
       "oaWorksCount": 1814,
-      "citedByCount": 131734,
-      "apiUrl": "https://api.openalex.org/sources/issn:0028-0836"
+      "citedByCount": 131734
     },
     {
       "id": "openalex-nature-openalex_works_count_by_year-2023",
@@ -1034,8 +1000,7 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
       "openAlexId": "https://openalex.org/S137773608",
       "oaWorksCount": 1612,
-      "citedByCount": 220730,
-      "apiUrl": "https://api.openalex.org/sources/issn:0028-0836"
+      "citedByCount": 220730
     },
     {
       "id": "openalex-nature-openalex_works_count_by_year-2022",
@@ -1052,8 +1017,7 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
       "openAlexId": "https://openalex.org/S137773608",
       "oaWorksCount": 1736,
-      "citedByCount": 246880,
-      "apiUrl": "https://api.openalex.org/sources/issn:0028-0836"
+      "citedByCount": 246880
     },
     {
       "id": "openalex-nature-biotechnology-openalex_works_count_total-total",
@@ -1070,8 +1034,7 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
       "openAlexId": "https://openalex.org/S106963461",
       "homepageUrl": "http://www.nature.com/nbt",
-      "citedByCount": 1862529,
-      "apiUrl": "https://api.openalex.org/sources/issn:1087-0156"
+      "citedByCount": 1862529
     },
     {
       "id": "openalex-nature-biotechnology-openalex_works_count_by_year-2026",
@@ -1088,8 +1051,7 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
       "openAlexId": "https://openalex.org/S106963461",
       "oaWorksCount": 40,
-      "citedByCount": 91,
-      "apiUrl": "https://api.openalex.org/sources/issn:1087-0156"
+      "citedByCount": 91
     },
     {
       "id": "openalex-nature-biotechnology-openalex_works_count_by_year-2025",
@@ -1106,8 +1068,7 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
       "openAlexId": "https://openalex.org/S106963461",
       "oaWorksCount": 135,
-      "citedByCount": 2200,
-      "apiUrl": "https://api.openalex.org/sources/issn:1087-0156"
+      "citedByCount": 2200
     },
     {
       "id": "openalex-nature-biotechnology-openalex_works_count_by_year-2024",
@@ -1124,8 +1085,7 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
       "openAlexId": "https://openalex.org/S106963461",
       "oaWorksCount": 170,
-      "citedByCount": 10383,
-      "apiUrl": "https://api.openalex.org/sources/issn:1087-0156"
+      "citedByCount": 10383
     },
     {
       "id": "openalex-nature-biotechnology-openalex_works_count_by_year-2023",
@@ -1142,8 +1102,7 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
       "openAlexId": "https://openalex.org/S106963461",
       "oaWorksCount": 218,
-      "citedByCount": 30103,
-      "apiUrl": "https://api.openalex.org/sources/issn:1087-0156"
+      "citedByCount": 30103
     },
     {
       "id": "openalex-nature-biotechnology-openalex_works_count_by_year-2022",
@@ -1160,8 +1119,7 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
       "openAlexId": "https://openalex.org/S106963461",
       "oaWorksCount": 201,
-      "citedByCount": 31984,
-      "apiUrl": "https://api.openalex.org/sources/issn:1087-0156"
+      "citedByCount": 31984
     },
     {
       "id": "openalex-nature-medicine-openalex_works_count_total-total",
@@ -1178,8 +1136,7 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
       "openAlexId": "https://openalex.org/S203256638",
       "homepageUrl": "http://www.nature.com/nm/index.html",
-      "citedByCount": 2532835,
-      "apiUrl": "https://api.openalex.org/sources/issn:1078-8956"
+      "citedByCount": 2532835
     },
     {
       "id": "openalex-nature-medicine-openalex_works_count_by_year-2026",
@@ -1196,8 +1153,7 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
       "openAlexId": "https://openalex.org/S203256638",
       "oaWorksCount": 158,
-      "citedByCount": 520,
-      "apiUrl": "https://api.openalex.org/sources/issn:1078-8956"
+      "citedByCount": 520
     },
     {
       "id": "openalex-nature-medicine-openalex_works_count_by_year-2025",
@@ -1214,8 +1170,7 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
       "openAlexId": "https://openalex.org/S203256638",
       "oaWorksCount": 407,
-      "citedByCount": 15211,
-      "apiUrl": "https://api.openalex.org/sources/issn:1078-8956"
+      "citedByCount": 15211
     },
     {
       "id": "openalex-nature-medicine-openalex_works_count_by_year-2024",
@@ -1232,8 +1187,7 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
       "openAlexId": "https://openalex.org/S203256638",
       "oaWorksCount": 400,
-      "citedByCount": 32994,
-      "apiUrl": "https://api.openalex.org/sources/issn:1078-8956"
+      "citedByCount": 32994
     },
     {
       "id": "openalex-nature-medicine-openalex_works_count_by_year-2023",
@@ -1250,8 +1204,7 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
       "openAlexId": "https://openalex.org/S203256638",
       "oaWorksCount": 362,
-      "citedByCount": 45530,
-      "apiUrl": "https://api.openalex.org/sources/issn:1078-8956"
+      "citedByCount": 45530
     },
     {
       "id": "openalex-nature-medicine-openalex_works_count_by_year-2022",
@@ -1268,8 +1221,7 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
       "openAlexId": "https://openalex.org/S203256638",
       "oaWorksCount": 354,
-      "citedByCount": 66424,
-      "apiUrl": "https://api.openalex.org/sources/issn:1078-8956"
+      "citedByCount": 66424
     },
     {
       "id": "openalex-nejm-openalex_works_count_total-total",
@@ -1286,8 +1238,7 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
       "openAlexId": "https://openalex.org/S62468778",
       "homepageUrl": "http://www.nejm.org/",
-      "citedByCount": 12279321,
-      "apiUrl": "https://api.openalex.org/sources/issn:0028-4793"
+      "citedByCount": 12279321
     },
     {
       "id": "openalex-nejm-openalex_works_count_by_year-2026",
@@ -1304,8 +1255,7 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
       "openAlexId": "https://openalex.org/S62468778",
       "oaWorksCount": 27,
-      "citedByCount": 363,
-      "apiUrl": "https://api.openalex.org/sources/issn:0028-4793"
+      "citedByCount": 363
     },
     {
       "id": "openalex-nejm-openalex_works_count_by_year-2025",
@@ -1322,8 +1272,7 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
       "openAlexId": "https://openalex.org/S62468778",
       "oaWorksCount": 140,
-      "citedByCount": 14890,
-      "apiUrl": "https://api.openalex.org/sources/issn:0028-4793"
+      "citedByCount": 14890
     },
     {
       "id": "openalex-nejm-openalex_works_count_by_year-2024",
@@ -1340,8 +1289,7 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
       "openAlexId": "https://openalex.org/S62468778",
       "oaWorksCount": 229,
-      "citedByCount": 51004,
-      "apiUrl": "https://api.openalex.org/sources/issn:0028-4793"
+      "citedByCount": 51004
     },
     {
       "id": "openalex-nejm-openalex_works_count_by_year-2023",
@@ -1358,8 +1306,7 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
       "openAlexId": "https://openalex.org/S62468778",
       "oaWorksCount": 312,
-      "citedByCount": 78061,
-      "apiUrl": "https://api.openalex.org/sources/issn:0028-4793"
+      "citedByCount": 78061
     },
     {
       "id": "openalex-nejm-openalex_works_count_by_year-2022",
@@ -1376,8 +1323,7 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
       "openAlexId": "https://openalex.org/S62468778",
       "oaWorksCount": 463,
-      "citedByCount": 118216,
-      "apiUrl": "https://api.openalex.org/sources/issn:0028-4793"
+      "citedByCount": 118216
     },
     {
       "id": "openalex-pnas-openalex_works_count_total-total",
@@ -1394,8 +1340,7 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
       "openAlexId": "https://openalex.org/S125754415",
       "homepageUrl": "http://www.pnas.org/",
-      "citedByCount": 22734948,
-      "apiUrl": "https://api.openalex.org/sources/issn:0027-8424"
+      "citedByCount": 22734948
     },
     {
       "id": "openalex-pnas-openalex_works_count_by_year-2026",
@@ -1412,8 +1357,7 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
       "openAlexId": "https://openalex.org/S125754415",
       "oaWorksCount": 1836,
-      "citedByCount": 605,
-      "apiUrl": "https://api.openalex.org/sources/issn:0027-8424"
+      "citedByCount": 605
     },
     {
       "id": "openalex-pnas-openalex_works_count_by_year-2025",
@@ -1430,8 +1374,7 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
       "openAlexId": "https://openalex.org/S125754415",
       "oaWorksCount": 4421,
-      "citedByCount": 18451,
-      "apiUrl": "https://api.openalex.org/sources/issn:0027-8424"
+      "citedByCount": 18451
     },
     {
       "id": "openalex-pnas-openalex_works_count_by_year-2024",
@@ -1448,8 +1391,7 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
       "openAlexId": "https://openalex.org/S125754415",
       "oaWorksCount": 3956,
-      "citedByCount": 58258,
-      "apiUrl": "https://api.openalex.org/sources/issn:0027-8424"
+      "citedByCount": 58258
     },
     {
       "id": "openalex-pnas-openalex_works_count_by_year-2023",
@@ -1466,8 +1408,7 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
       "openAlexId": "https://openalex.org/S125754415",
       "oaWorksCount": 3624,
-      "citedByCount": 96397,
-      "apiUrl": "https://api.openalex.org/sources/issn:0027-8424"
+      "citedByCount": 96397
     },
     {
       "id": "openalex-pnas-openalex_works_count_by_year-2022",
@@ -1484,8 +1425,7 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
       "openAlexId": "https://openalex.org/S125754415",
       "oaWorksCount": 3931,
-      "citedByCount": 146315,
-      "apiUrl": "https://api.openalex.org/sources/issn:0027-8424"
+      "citedByCount": 146315
     },
     {
       "id": "openalex-science-openalex_works_count_total-total",
@@ -1502,8 +1442,7 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
       "openAlexId": "https://openalex.org/S3880285",
       "homepageUrl": "http://www.sciencemag.org/",
-      "citedByCount": 22597411,
-      "apiUrl": "https://api.openalex.org/sources/issn:0036-8075"
+      "citedByCount": 22597411
     },
     {
       "id": "openalex-science-openalex_works_count_by_year-2026",
@@ -1520,8 +1459,7 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
       "openAlexId": "https://openalex.org/S3880285",
       "oaWorksCount": 114,
-      "citedByCount": 822,
-      "apiUrl": "https://api.openalex.org/sources/issn:0036-8075"
+      "citedByCount": 822
     },
     {
       "id": "openalex-science-openalex_works_count_by_year-2025",
@@ -1538,8 +1476,7 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
       "openAlexId": "https://openalex.org/S3880285",
       "oaWorksCount": 514,
-      "citedByCount": 23082,
-      "apiUrl": "https://api.openalex.org/sources/issn:0036-8075"
+      "citedByCount": 23082
     },
     {
       "id": "openalex-science-openalex_works_count_by_year-2024",
@@ -1556,8 +1493,7 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
       "openAlexId": "https://openalex.org/S3880285",
       "oaWorksCount": 674,
-      "citedByCount": 65885,
-      "apiUrl": "https://api.openalex.org/sources/issn:0036-8075"
+      "citedByCount": 65885
     },
     {
       "id": "openalex-science-openalex_works_count_by_year-2023",
@@ -1574,8 +1510,7 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
       "openAlexId": "https://openalex.org/S3880285",
       "oaWorksCount": 608,
-      "citedByCount": 112532,
-      "apiUrl": "https://api.openalex.org/sources/issn:0036-8075"
+      "citedByCount": 112532
     },
     {
       "id": "openalex-science-openalex_works_count_by_year-2022",
@@ -1592,8 +1527,7 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
       "openAlexId": "https://openalex.org/S3880285",
       "oaWorksCount": 671,
-      "citedByCount": 166350,
-      "apiUrl": "https://api.openalex.org/sources/issn:0036-8075"
+      "citedByCount": 166350
     },
     {
       "id": "openalex-lancet-openalex_works_count_total-total",
@@ -1610,8 +1544,7 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
       "openAlexId": "https://openalex.org/S49861241",
       "homepageUrl": "https://www.sciencedirect.com/journal/the-lancet",
-      "citedByCount": 10303541,
-      "apiUrl": "https://api.openalex.org/sources/issn:0140-6736"
+      "citedByCount": 10303541
     },
     {
       "id": "openalex-lancet-openalex_works_count_by_year-2026",
@@ -1628,8 +1561,7 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
       "openAlexId": "https://openalex.org/S49861241",
       "oaWorksCount": 89,
-      "citedByCount": 334,
-      "apiUrl": "https://api.openalex.org/sources/issn:0140-6736"
+      "citedByCount": 334
     },
     {
       "id": "openalex-lancet-openalex_works_count_by_year-2025",
@@ -1646,8 +1578,7 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
       "openAlexId": "https://openalex.org/S49861241",
       "oaWorksCount": 507,
-      "citedByCount": 14152,
-      "apiUrl": "https://api.openalex.org/sources/issn:0140-6736"
+      "citedByCount": 14152
     },
     {
       "id": "openalex-lancet-openalex_works_count_by_year-2024",
@@ -1664,8 +1595,7 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
       "openAlexId": "https://openalex.org/S49861241",
       "oaWorksCount": 565,
-      "citedByCount": 52529,
-      "apiUrl": "https://api.openalex.org/sources/issn:0140-6736"
+      "citedByCount": 52529
     },
     {
       "id": "openalex-lancet-openalex_works_count_by_year-2023",
@@ -1682,8 +1612,7 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
       "openAlexId": "https://openalex.org/S49861241",
       "oaWorksCount": 842,
-      "citedByCount": 60776,
-      "apiUrl": "https://api.openalex.org/sources/issn:0140-6736"
+      "citedByCount": 60776
     },
     {
       "id": "openalex-lancet-openalex_works_count_by_year-2022",
@@ -1700,8 +1629,7 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
       "openAlexId": "https://openalex.org/S49861241",
       "oaWorksCount": 705,
-      "citedByCount": 101340,
-      "apiUrl": "https://api.openalex.org/sources/issn:0140-6736"
+      "citedByCount": 101340
     }
   ],
   "llm-release-ddl": [

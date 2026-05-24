@@ -654,8 +654,8 @@ export const topics: Topic[] = [
     "status": "published",
     "sourceMode": "cluster",
     "clusterId": "journal-metrics-ddl",
-    "dataUrl": "data/topics/cas-partition-ddl/items.json",
-    "metricsUrl": "data/topics/cas-partition-ddl/metrics.json",
+    "dataUrl": "public-data/topics/cas-partition-ddl/items.json",
+    "metricsUrl": "public-data/topics/cas-partition-ddl/metrics.json",
     "itemCount": 2,
     "category": "学术期刊",
     "tags": [
@@ -675,8 +675,8 @@ export const topics: Topic[] = [
     "status": "published",
     "sourceMode": "cluster",
     "clusterId": "journal-metrics-ddl",
-    "dataUrl": "data/topics/jcr-impact-factor-ddl/items.json",
-    "metricsUrl": "data/topics/jcr-impact-factor-ddl/metrics.json",
+    "dataUrl": "public-data/topics/jcr-impact-factor-ddl/items.json",
+    "metricsUrl": "public-data/topics/jcr-impact-factor-ddl/metrics.json",
     "itemCount": 6,
     "category": "学术期刊",
     "tags": [
@@ -696,8 +696,8 @@ export const topics: Topic[] = [
     "status": "published",
     "sourceMode": "cluster",
     "clusterId": "journal-metrics-ddl",
-    "dataUrl": "data/topics/journal-volume-ddl/items.json",
-    "metricsUrl": "data/topics/journal-volume-ddl/metrics.json",
+    "dataUrl": "public-data/topics/journal-volume-ddl/items.json",
+    "metricsUrl": "public-data/topics/journal-volume-ddl/metrics.json",
     "itemCount": 2,
     "category": "学术期刊",
     "tags": [
