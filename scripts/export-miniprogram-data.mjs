@@ -46,6 +46,14 @@ const PRIVATE_KEYS = new Set([
   'sourcePriority',
   'validationNote'
 ]);
+const PRIVATE_KEY_PATTERNS = [
+  /(?:developer|dev|maintainer|internal|private|debug|crawler|crawl|parser|adapter|license|coverage|sample|scope|linkCheck|validation|review|ops|sync|raw|error)[A-Za-z0-9_]*(?:Note|Notes|Comment|Comments|Memo|Memos|Report|Reports|Message|Messages)$/i,
+  /^(?:raw|error|stack|trace|exception)$/i
+];
+
+function isPrivateKey(key) {
+  return PRIVATE_KEYS.has(key) || PRIVATE_KEY_PATTERNS.some(pattern => pattern.test(key));
+}
 
 function extractJsonAfter(source, marker, open, close) {
   const start = source.indexOf(marker);
@@ -96,7 +104,7 @@ function stripPrivate(value) {
   if (value && typeof value === 'object') {
     return Object.fromEntries(
       Object.entries(value)
-        .filter(([key]) => !PRIVATE_KEYS.has(key))
+        .filter(([key]) => !isPrivateKey(key))
         .map(([key, itemValue]) => [key, stripPrivate(itemValue)])
     );
   }

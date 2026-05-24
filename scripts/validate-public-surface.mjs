@@ -24,14 +24,18 @@ const PRIVATE_KEYS = [
   'coverageNote',
   'crawler',
   'crawlerReport',
+  'crawledAt',
+  'debug',
   'debugReport',
   'deadlineTimezone',
   'developerNote',
   'developerComment',
   'devNote',
   'debugNote',
+  'error',
   'forecastBasis',
   'internalNote',
+  'lastChecked',
   'licenseNote',
   'linkCheckMode',
   'maintainerNote',
@@ -39,6 +43,7 @@ const PRIVATE_KEYS = [
   'parser',
   'parserConfidence',
   'privateNote',
+  'raw',
   'rawHtml',
   'rawPayload',
   'rawSource',
@@ -50,13 +55,29 @@ const PRIVATE_KEYS = [
   'validationNote'
 ];
 const PRIVATE_KEY_SET = new Set(PRIVATE_KEYS);
+const PRIVATE_KEY_PATTERNS = [
+  /(?:developer|dev|maintainer|internal|private|debug|crawler|crawl|parser|adapter|license|coverage|sample|scope|linkCheck|validation|review|ops|sync|raw|error)[A-Za-z0-9_]*(?:Note|Notes|Comment|Comments|Memo|Memos|Report|Reports|Message|Messages)$/i,
+  /^(?:raw|error|stack|trace|exception)$/i
+];
 const FORBIDDEN_PUBLIC_TEXT = [
   /curated coverage seed/i,
   /official-style seed/i,
   /crawler seed/i,
   /coverage seed/i,
   /error\.message/i,
-  /stack trace/i
+  /stack trace/i,
+  /developer note/i,
+  /maintainer note/i,
+  /internal note/i,
+  /private note/i,
+  /debug note/i,
+  /not for public/i,
+  /do not publish/i,
+  /开发者备注/,
+  /内部备注/,
+  /维护者备注/,
+  /调试备注/,
+  /\b(?:TODO|FIXME|HACK|XXX):/i
 ];
 const DIRECT_RENDER_PATTERNS = [
   {
@@ -66,18 +87,26 @@ const DIRECT_RENDER_PATTERNS = [
   {
     pattern: /<(?:p|span|div|li|strong|small|em|td|th)[^>]*>\s*\{[^}]*\.(?:licenseNote|sampleNote|coverageNote|scopeNote|sourcePolicy|parser|accessMode|forecastBasis|releaseCadence|developerNote|developerComment|devNote|debugNote|internalNote|privateNote|maintainerNote|maintainerComment|error\.message)[^}]*\}\s*<\/(?:p|span|div|li|strong|small|em|td|th)>/,
     message: 'direct JSX render of developer-only field'
+  },
+  {
+    pattern: /\{[^}]*\.[A-Za-z0-9_]*(?:developer|dev|maintainer|internal|private|debug|crawler|crawl|parser|adapter|license|coverage|sample|scope|linkCheck|validation|review|ops|sync|raw|error)[A-Za-z0-9_]*(?:Note|Notes|Comment|Comments|Memo|Memos|Report|Reports|Message|Messages)[^}]*\}/i,
+    message: 'direct render of patterned developer-only field'
   }
 ];
 const DIST_FORBIDDEN_PATTERNS = [
   {
-    pattern: /["'](?:accessMode|adapter|coverageNote|crawler|crawlerReport|debugReport|deadlineTimezone|developerNote|developerComment|devNote|debugNote|forecastBasis|internalNote|licenseNote|linkCheckMode|maintainerNote|maintainerComment|parser|parserConfidence|privateNote|rawHtml|rawPayload|rawSource|releaseCadence|sampleNote|scopeNote|sourcePolicy|sourcePriority|validationNote)["']\s*:/,
+    pattern: /["'](?:accessMode|adapter|coverageNote|crawler|crawlerReport|crawledAt|debug|debugReport|deadlineTimezone|developerNote|developerComment|devNote|debugNote|error|forecastBasis|internalNote|lastChecked|licenseNote|linkCheckMode|maintainerNote|maintainerComment|parser|parserConfidence|privateNote|raw|rawHtml|rawPayload|rawSource|releaseCadence|sampleNote|scopeNote|sourcePolicy|sourcePriority|validationNote|[A-Za-z0-9_]*(?:developer|dev|maintainer|internal|private|debug|crawler|crawl|parser|adapter|license|coverage|sample|scope|linkCheck|validation|review|ops|sync|raw|error)[A-Za-z0-9_]*(?:Note|Notes|Comment|Comments|Memo|Memos|Report|Reports|Message|Messages))["']\s*:/,
     message: 'developer-only data key is present in built public assets'
   },
   {
-    pattern: /curated coverage seed|official-style seed|crawler seed|coverage seed|error\.message|stack trace/i,
+    pattern: /curated coverage seed|official-style seed|crawler seed|coverage seed|error\.message|stack trace|developer note|maintainer note|internal note|private note|debug note|not for public|do not publish|开发者备注|内部备注|维护者备注|调试备注|\b(?:TODO|FIXME|HACK|XXX):/i,
     message: 'developer-facing text is present in built public assets'
   }
 ];
+
+function isPrivateKey(key) {
+  return PRIVATE_KEY_SET.has(key) || PRIVATE_KEY_PATTERNS.some(pattern => pattern.test(key));
+}
 
 function extractJsonAfter(source, marker, open, close) {
   const start = source.indexOf(marker);
@@ -142,7 +171,7 @@ function validatePublicData(value, label = 'ddlData') {
   }
 
   for (const [key, itemValue] of Object.entries(value)) {
-    if (PRIVATE_KEY_SET.has(key)) {
+    if (isPrivateKey(key)) {
       errors.push(`${label}.${key}: developer-only key is present in public Hub data`);
       continue;
     }

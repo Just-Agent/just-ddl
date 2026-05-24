@@ -46,6 +46,10 @@ const PUBLIC_PRIVATE_KEYS = new Set([
   'sourcePriority',
   'validationNote'
 ]);
+const PUBLIC_PRIVATE_KEY_PATTERNS = [
+  /(?:developer|dev|maintainer|internal|private|debug|crawler|crawl|parser|adapter|license|coverage|sample|scope|linkCheck|validation|review|ops|sync|raw|error)[A-Za-z0-9_]*(?:Note|Notes|Comment|Comments|Memo|Memos|Report|Reports|Message|Messages)$/i,
+  /^(?:raw|error|stack|trace|exception)$/i
+];
 const PUBLIC_TEXT_REWRITES = [
   [/curated coverage seed/gi, '人工整理的官方来源入口'],
   [/official-style seed/gi, '官方来源入口'],
@@ -63,8 +67,24 @@ const PUBLIC_FORBIDDEN_TEXT = [
   /crawler seed/i,
   /coverage seed/i,
   /error\.message/i,
-  /stack trace/i
+  /stack trace/i,
+  /developer note/i,
+  /maintainer note/i,
+  /internal note/i,
+  /private note/i,
+  /debug note/i,
+  /not for public/i,
+  /do not publish/i,
+  /开发者备注/,
+  /内部备注/,
+  /维护者备注/,
+  /调试备注/,
+  /\b(?:TODO|FIXME|HACK|XXX):/i
 ];
+
+function isPrivatePublicKey(key) {
+  return PUBLIC_PRIVATE_KEYS.has(key) || PUBLIC_PRIVATE_KEY_PATTERNS.some(pattern => pattern.test(key));
+}
 
 function extractJsonAfter(source, marker, open, close) {
   const start = source.indexOf(marker);
@@ -286,7 +306,7 @@ function stripPrivatePublicData(value) {
 
   const result = {};
   for (const [key, itemValue] of Object.entries(value)) {
-    if (PUBLIC_PRIVATE_KEYS.has(key)) continue;
+    if (isPrivatePublicKey(key)) continue;
     result[key] = stripPrivatePublicData(itemValue);
   }
   return result;
@@ -308,7 +328,7 @@ function validatePublicPayload(value, path = 'ddlData') {
   }
 
   for (const [key, itemValue] of Object.entries(value)) {
-    if (PUBLIC_PRIVATE_KEYS.has(key)) {
+    if (isPrivatePublicKey(key)) {
       errors.push(`${path}.${key}: developer-only field must not be written to public Hub data`);
       continue;
     }

@@ -8,6 +8,65 @@ const MAX_TOPICS = 5;
 const MAX_ITEMS = 50;
 const REQUIRED_TOPIC_FIELDS = ['id', 'name', 'description', 'icon', 'color', 'category', 'itemsPath', 'sourcesPath'];
 const REQUIRED_ITEM_FIELDS = ['id', 'title', 'url', 'source'];
+const PRIVATE_KEYS = new Set([
+  'accessMode',
+  'adapter',
+  'coverageNote',
+  'crawlerReport',
+  'crawledAt',
+  'debug',
+  'debugReport',
+  'deadlineTimezone',
+  'developerNote',
+  'developerComment',
+  'devNote',
+  'debugNote',
+  'error',
+  'forecastBasis',
+  'internalNote',
+  'lastChecked',
+  'licenseNote',
+  'linkCheckMode',
+  'maintainerNote',
+  'maintainerComment',
+  'parser',
+  'parserConfidence',
+  'privateNote',
+  'raw',
+  'rawHtml',
+  'rawPayload',
+  'rawSource',
+  'releaseCadence',
+  'sampleNote',
+  'scopeNote',
+  'sourcePolicy',
+  'sourcePriority',
+  'validationNote'
+]);
+const PRIVATE_KEY_PATTERNS = [
+  /(?:developer|dev|maintainer|internal|private|debug|crawler|crawl|parser|adapter|license|coverage|sample|scope|linkCheck|validation|review|ops|sync|raw|error)[A-Za-z0-9_]*(?:Note|Notes|Comment|Comments|Memo|Memos|Report|Reports|Message|Messages)$/i,
+  /^(?:raw|error|stack|trace|exception)$/i
+];
+const FORBIDDEN_PUBLIC_TEXT = [
+  /curated coverage seed/i,
+  /official-style seed/i,
+  /crawler seed/i,
+  /coverage seed/i,
+  /error\.message/i,
+  /stack trace/i,
+  /developer note/i,
+  /maintainer note/i,
+  /internal note/i,
+  /private note/i,
+  /debug note/i,
+  /not for public/i,
+  /do not publish/i,
+  /开发者备注/,
+  /内部备注/,
+  /维护者备注/,
+  /调试备注/,
+  /\b(?:TODO|FIXME|HACK|XXX):/i
+];
 
 function extractJsonAfter(source, marker, open, close) {
   const start = source.indexOf(marker);
@@ -58,8 +117,28 @@ function safePath(path) {
 }
 
 function validateText(id, value) {
-  if (/\?\?\?\?|�/.test(JSON.stringify(value))) {
+  const text = JSON.stringify(value);
+  if (/\?\?\?\?|�/.test(text)) {
     throw new Error(`${id}: contains mojibake placeholder`);
+  }
+  for (const pattern of FORBIDDEN_PUBLIC_TEXT) {
+    if (pattern.test(text)) throw new Error(`${id}: contains developer-facing note text`);
+  }
+}
+
+function isPrivateKey(key) {
+  return PRIVATE_KEYS.has(key) || PRIVATE_KEY_PATTERNS.some(pattern => pattern.test(key));
+}
+
+function validateNoPrivateKeys(id, value) {
+  if (Array.isArray(value)) {
+    value.forEach((item, index) => validateNoPrivateKeys(`${id}[${index}]`, item));
+    return;
+  }
+  if (!value || typeof value !== 'object') return;
+  for (const [key, itemValue] of Object.entries(value)) {
+    if (isPrivateKey(key)) throw new Error(`${id}.${key}: developer-only field is not allowed in public contrib data`);
+    validateNoPrivateKeys(`${id}.${key}`, itemValue);
   }
 }
 
@@ -102,6 +181,7 @@ function validateItem(topicId, item) {
   if (item.tags && !Array.isArray(item.tags)) {
     throw new Error(`${topicId}/${item.id}: tags must be an array`);
   }
+  validateNoPrivateKeys(`${topicId}/${item.id}`, item);
   validateText(`${topicId}/${item.id}`, item);
 }
 
@@ -131,6 +211,7 @@ function main() {
     if (!/^#[0-9A-Fa-f]{6}$/.test(topic.color)) throw new Error(`${topic.id}: color must be #RRGGBB`);
     if (topic.tags && !Array.isArray(topic.tags)) throw new Error(`${topic.id}: tags must be an array`);
     if (topic.status && topic.status !== 'incubating') throw new Error(`${topic.id}: status must be incubating`);
+    validateNoPrivateKeys(topic.id, topic);
     validateText(topic.id, topic);
     seenTopicIds.add(topic.id);
 
@@ -152,6 +233,7 @@ function main() {
     if (!Array.isArray(sources) && typeof sources !== 'object') {
       throw new Error(`${topic.id}: sources.json must be an array or object`);
     }
+    validateNoPrivateKeys(`${topic.id}/sources`, sources);
     validateText(`${topic.id}/sources`, sources);
   }
 
