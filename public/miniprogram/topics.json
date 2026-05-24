@@ -490,7 +490,7 @@
       "auto show",
       "vehicle launch"
     ],
-    "itemCount": 7,
+    "itemCount": 11,
     "status": "published",
     "sourceMode": "cluster",
     "clusterId": "consumer-launch-ddl"

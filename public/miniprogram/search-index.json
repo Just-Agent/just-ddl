@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-24T09:22:13.834Z",
-  "dataVersion": "c82e66441818ddd9",
+  "generatedAt": "2026-05-24T09:41:53.756Z",
+  "dataVersion": "b3d4319addc44c3d",
   "topics": [
     {
       "id": "hackathon-ddl",
@@ -370,7 +370,7 @@
         "auto show",
         "vehicle launch"
       ],
-      "itemCount": 7,
+      "itemCount": 11,
       "status": "published"
     },
     {
@@ -9158,6 +9158,73 @@
       ],
       "subtopic": "aftermarket",
       "source": "SEMA Show official"
+    },
+    {
+      "id": "car-launch-ddl-auto-shanghai-media-day-2021-04-19",
+      "topicId": "car-launch-ddl",
+      "title": "Auto Shanghai 2021 Media Day",
+      "date": "2021-04-19",
+      "type": "officialRelease",
+      "status": "ended",
+      "tags": [
+        "Auto Shanghai",
+        "China",
+        "media day",
+        "official history"
+      ],
+      "subtopic": "auto-show",
+      "source": "Auto Shanghai official guide"
+    },
+    {
+      "id": "car-launch-ddl-auto-shanghai-media-day-2023-04-18",
+      "topicId": "car-launch-ddl",
+      "title": "Auto Shanghai 2023 Media Day",
+      "date": "2023-04-18",
+      "type": "officialRelease",
+      "status": "ended",
+      "tags": [
+        "Auto Shanghai",
+        "China",
+        "media day",
+        "official history"
+      ],
+      "subtopic": "auto-show",
+      "source": "Auto Shanghai official announcement"
+    },
+    {
+      "id": "car-launch-ddl-auto-shanghai-media-day-2025-04-23",
+      "topicId": "car-launch-ddl",
+      "title": "Auto Shanghai 2025 Media Day",
+      "date": "2025-04-23",
+      "type": "officialRelease",
+      "status": "ended",
+      "tags": [
+        "Auto Shanghai",
+        "China",
+        "media day",
+        "official history"
+      ],
+      "subtopic": "auto-show",
+      "source": "Auto Shanghai official guide"
+    },
+    {
+      "id": "car-launch-ddl-auto-shanghai-next-window-forecast",
+      "topicId": "car-launch-ddl",
+      "title": "Auto Shanghai 下一届发布窗口预测",
+      "estimatedNextWindow": {
+        "start": "2029-04-15",
+        "end": "2029-05-05"
+      },
+      "type": "forecastWindow",
+      "status": "unannounced",
+      "tags": [
+        "Auto Shanghai",
+        "China",
+        "forecast",
+        "auto show"
+      ],
+      "subtopic": "auto-show",
+      "source": "Auto Shanghai official history"
     },
     {
       "id": "car-launch-ddl-automobility-la-2026-11-19",
