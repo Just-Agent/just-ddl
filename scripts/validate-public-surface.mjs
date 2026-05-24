@@ -14,9 +14,13 @@ const PUBLIC_SOURCE_DIRS = [
   'src/components',
   'src/pages'
 ];
+const PUBLIC_DATA_DIRS = [
+  'public/miniprogram'
+];
 const DIST_DIR = path.join(ROOT, 'dist');
 const PRIVATE_KEYS = [
   'accessMode',
+  'adapter',
   'coverageNote',
   'crawler',
   'crawlerReport',
@@ -65,7 +69,7 @@ const DIRECT_RENDER_PATTERNS = [
 ];
 const DIST_FORBIDDEN_PATTERNS = [
   {
-    pattern: /["'](?:accessMode|coverageNote|crawler|crawlerReport|debugReport|deadlineTimezone|developerNote|developerComment|devNote|debugNote|forecastBasis|internalNote|licenseNote|maintainerNote|maintainerComment|parser|parserConfidence|privateNote|rawHtml|rawPayload|rawSource|releaseCadence|sampleNote|scopeNote|sourcePolicy|sourcePriority|validationNote)["']\s*:/,
+    pattern: /["'](?:accessMode|adapter|coverageNote|crawler|crawlerReport|debugReport|deadlineTimezone|developerNote|developerComment|devNote|debugNote|forecastBasis|internalNote|licenseNote|maintainerNote|maintainerComment|parser|parserConfidence|privateNote|rawHtml|rawPayload|rawSource|releaseCadence|sampleNote|scopeNote|sourcePolicy|sourcePriority|validationNote)["']\s*:/,
     message: 'developer-only data key is present in built public assets'
   },
   {
@@ -182,6 +186,9 @@ function currentDistFiles() {
     const fullPath = path.join(DIST_DIR, normalized);
     if (fs.existsSync(fullPath) && fs.statSync(fullPath).isFile()) files.add(fullPath);
   }
+  for (const file of walkFiles(DIST_DIR, new Set(['.json']))) {
+    files.add(file);
+  }
   return [...files];
 }
 
@@ -207,6 +214,12 @@ for (const file of sourceFiles) {
   errors.push(...validateSourceFile(file));
 }
 
+const publicDataFiles = PUBLIC_DATA_DIRS.flatMap(dir => walkFiles(path.join(ROOT, dir), new Set(['.json'])));
+for (const file of publicDataFiles) {
+  const payload = JSON.parse(fs.readFileSync(file, 'utf8'));
+  errors.push(...validatePublicData(payload, path.relative(ROOT, file)));
+}
+
 const distFiles = SCAN_DIST ? currentDistFiles() : [];
 for (const file of distFiles) {
   errors.push(...validateDistFile(file));
@@ -217,4 +230,4 @@ if (errors.length) {
   process.exit(1);
 }
 
-console.log(`public surface validated: ${sourceFiles.length} UI files, ${distFiles.length} built files, and Hub data`);
+console.log(`public surface validated: ${sourceFiles.length} UI files, ${publicDataFiles.length} public data files, ${distFiles.length} built files, and Hub data`);

@@ -1,0 +1,401 @@
+{
+  "generatedAt": "2026-05-24T04:20:10.427Z",
+  "dataVersion": "155270fdf80f9782",
+  "topic": {
+    "id": "llm-release-ddl",
+    "name": "大模型发布",
+    "description": "Kimi、GLM、MiniMax、DeepSeek 等主力模型版本历史节点、距上次发布时长与下一代预测窗口。",
+    "icon": "Bot",
+    "color": "#7C3AED",
+    "repo": "Just-Agent/ai-model-release-ddl",
+    "site": "https://just-agent.github.io/ai-model-release-ddl/#llm-release-ddl",
+    "category": "AI 发布",
+    "tags": [
+      "LLM",
+      "model release",
+      "forecast"
+    ],
+    "itemCount": 13,
+    "status": "published",
+    "sourceMode": "cluster",
+    "clusterId": "ai-model-release-ddl"
+  },
+  "items": [
+    {
+      "id": "kimi-k2-0711-preview",
+      "topicId": "llm-release-ddl",
+      "title": "Kimi K2 0711 Preview 发布",
+      "date": "2025-07-11",
+      "dateRange": "2025-07-11",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "Kimi",
+        "Moonshot",
+        "K2"
+      ],
+      "url": "https://platform.moonshot.ai/blog/posts/changelog",
+      "status": "ended",
+      "stage": "Model release",
+      "source": "Moonshot AI",
+      "sourceUrl": "https://platform.moonshot.ai/blog/posts/changelog",
+      "type": "historyEvent",
+      "description": "Kimi Open Platform changelog 记录 kimi-k2-0711-preview 正式发布。",
+      "subtopic": "kimi",
+      "subtopicName": "Kimi",
+      "category": "AI 发布"
+    },
+    {
+      "id": "kimi-k2-0905-preview",
+      "topicId": "llm-release-ddl",
+      "title": "Kimi K2 0905 Preview 发布",
+      "date": "2025-09-05",
+      "dateRange": "2025-09-05",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "Kimi",
+        "Moonshot",
+        "K2"
+      ],
+      "url": "https://platform.moonshot.ai/blog/posts/changelog",
+      "status": "ended",
+      "stage": "Model release",
+      "source": "Moonshot AI",
+      "sourceUrl": "https://platform.moonshot.ai/blog/posts/changelog",
+      "type": "historyEvent",
+      "description": "Kimi Open Platform changelog 记录 kimi-k2-0905-preview 发布。",
+      "subtopic": "kimi",
+      "subtopicName": "Kimi",
+      "category": "AI 发布"
+    },
+    {
+      "id": "kimi-k2-think",
+      "topicId": "llm-release-ddl",
+      "title": "Kimi K2 Think 发布",
+      "date": "2025-11-06",
+      "dateRange": "2025-11-06",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "Kimi",
+        "Thinking",
+        "Moonshot"
+      ],
+      "url": "https://platform.moonshot.ai/blog/posts/changelog",
+      "status": "ended",
+      "stage": "Model release",
+      "source": "Moonshot AI",
+      "sourceUrl": "https://platform.moonshot.ai/blog/posts/changelog",
+      "type": "historyEvent",
+      "description": "Kimi Open Platform changelog 记录 Kimi K2 Think model 及 turbo version 正式上线。",
+      "subtopic": "kimi",
+      "subtopicName": "Kimi",
+      "category": "AI 发布"
+    },
+    {
+      "id": "deepseek-r1-release",
+      "topicId": "llm-release-ddl",
+      "title": "DeepSeek-R1 发布",
+      "date": "2025-01-20",
+      "dateRange": "2025-01-20",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "DeepSeek",
+        "R1",
+        "reasoning"
+      ],
+      "url": "https://api-docs.deepseek.com/news/news250120",
+      "status": "ended",
+      "stage": "Model release",
+      "source": "DeepSeek API Docs",
+      "sourceUrl": "https://api-docs.deepseek.com/news/news250120",
+      "type": "historyEvent",
+      "description": "DeepSeek 官方 API News 记录 DeepSeek-R1 上线。",
+      "subtopic": "deepseek",
+      "subtopicName": "DeepSeek",
+      "category": "AI 发布"
+    },
+    {
+      "id": "deepseek-r1-0528",
+      "topicId": "llm-release-ddl",
+      "title": "DeepSeek-R1-0528 更新",
+      "date": "2025-05-28",
+      "dateRange": "2025-05-28",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "DeepSeek",
+        "R1",
+        "update"
+      ],
+      "url": "https://api-docs.deepseek.com/news/news250528",
+      "status": "ended",
+      "stage": "Model update",
+      "source": "DeepSeek API Docs",
+      "sourceUrl": "https://api-docs.deepseek.com/news/news250528",
+      "type": "historyEvent",
+      "description": "DeepSeek 官方 API News 记录 R1 0528 版本更新。",
+      "subtopic": "deepseek",
+      "subtopicName": "DeepSeek",
+      "category": "AI 发布"
+    },
+    {
+      "id": "deepseek-v3-2-release",
+      "topicId": "llm-release-ddl",
+      "title": "DeepSeek-V3.2 发布",
+      "date": "2025-12-01",
+      "dateRange": "2025-12-01",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "DeepSeek",
+        "V3.2",
+        "release"
+      ],
+      "url": "https://api-docs.deepseek.com/news/news251201",
+      "status": "ended",
+      "stage": "Model release",
+      "source": "DeepSeek API Docs",
+      "sourceUrl": "https://api-docs.deepseek.com/news/news251201",
+      "type": "historyEvent",
+      "description": "DeepSeek 官方 API News 记录 DeepSeek-V3.2 发布。",
+      "subtopic": "deepseek",
+      "subtopicName": "DeepSeek",
+      "category": "AI 发布"
+    },
+    {
+      "id": "glm-4-5-release",
+      "topicId": "llm-release-ddl",
+      "title": "GLM-4.5 发布",
+      "date": "2025-07-28",
+      "dateRange": "2025-07-28",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "GLM",
+        "Z.ai",
+        "agent"
+      ],
+      "url": "https://z.ai/blog/glm-4.5",
+      "status": "ended",
+      "stage": "Model release",
+      "source": "Z.ai",
+      "sourceUrl": "https://z.ai/blog/glm-4.5",
+      "type": "historyEvent",
+      "description": "Z.ai 官方博客发布 GLM-4.5。",
+      "subtopic": "glm",
+      "subtopicName": "GLM",
+      "category": "AI 发布"
+    },
+    {
+      "id": "glm-4-6-release",
+      "topicId": "llm-release-ddl",
+      "title": "GLM-4.6 发布",
+      "date": "2025-09-30",
+      "dateRange": "2025-09-30",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "GLM",
+        "Z.ai",
+        "coding"
+      ],
+      "url": "https://z.ai/blog/glm-4.6",
+      "status": "ended",
+      "stage": "Model release",
+      "source": "Z.ai",
+      "sourceUrl": "https://z.ai/blog/glm-4.6",
+      "type": "historyEvent",
+      "description": "Z.ai 官方博客发布 GLM-4.6。",
+      "subtopic": "glm",
+      "subtopicName": "GLM",
+      "category": "AI 发布"
+    },
+    {
+      "id": "minimax-m2-release",
+      "topicId": "llm-release-ddl",
+      "title": "MiniMax M2 发布",
+      "date": "2025-10-27",
+      "dateRange": "2025-10-27",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "MiniMax",
+        "M2",
+        "agent"
+      ],
+      "url": "https://www.minimaxi.com/en/news/minimax-m2",
+      "status": "ended",
+      "stage": "Model release",
+      "source": "MiniMax",
+      "sourceUrl": "https://www.minimaxi.com/en/news/minimax-m2",
+      "type": "historyEvent",
+      "description": "MiniMax 官方 News 发布 MiniMax M2 与 Agent。",
+      "subtopic": "minimax",
+      "subtopicName": "MiniMax",
+      "category": "AI 发布"
+    },
+    {
+      "id": "kimi-next-major-forecast-2026",
+      "topicId": "llm-release-ddl",
+      "title": "Kimi 下一代主力模型预测窗口",
+      "dateRange": "2026-06-16 - 2026-07-14",
+      "estimatedNextWindow": {
+        "start": "2026-06-16",
+        "end": "2026-07-14"
+      },
+      "lastOfficialDate": "2025-11-06",
+      "basisEvents": [
+        "kimi-k2-0711-preview",
+        "kimi-k2-0905-preview",
+        "kimi-k2-think"
+      ],
+      "confidence": "medium",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "Kimi",
+        "预测窗口",
+        "未官宣"
+      ],
+      "url": "https://platform.moonshot.ai/blog/posts/changelog",
+      "status": "unannounced",
+      "stage": "Forecast only",
+      "source": "Moonshot AI",
+      "sourceUrl": "https://platform.moonshot.ai/blog/posts/changelog",
+      "type": "forecastWindow",
+      "description": "预测不是官方发布时间，待 Moonshot AI 正式发布后再转为历史节点或官方节点。",
+      "subtopic": "kimi",
+      "subtopicName": "Kimi",
+      "category": "AI 发布"
+    },
+    {
+      "id": "deepseek-next-major-forecast-2026",
+      "topicId": "llm-release-ddl",
+      "title": "DeepSeek 下一代主力模型预测窗口",
+      "dateRange": "2026-04-06 - 2026-06-09",
+      "estimatedNextWindow": {
+        "start": "2026-04-06",
+        "end": "2026-06-09"
+      },
+      "lastOfficialDate": "2025-12-01",
+      "basisEvents": [
+        "deepseek-r1-release",
+        "deepseek-r1-0528",
+        "deepseek-v3-2-release"
+      ],
+      "confidence": "medium",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "DeepSeek",
+        "预测窗口",
+        "未官宣"
+      ],
+      "url": "https://api-docs.deepseek.com/news/news251201",
+      "status": "unannounced",
+      "stage": "Forecast only",
+      "source": "DeepSeek API Docs",
+      "sourceUrl": "https://api-docs.deepseek.com/news/news251201",
+      "type": "forecastWindow",
+      "description": "预测不是官方发布时间，待 DeepSeek 官方 News 更新后再替换。",
+      "subtopic": "deepseek",
+      "subtopicName": "DeepSeek",
+      "category": "AI 发布"
+    },
+    {
+      "id": "glm-next-major-forecast-2026",
+      "topicId": "llm-release-ddl",
+      "title": "GLM 下一代主力模型预测窗口",
+      "dateRange": "2026-05-30 - 2026-06-27",
+      "estimatedNextWindow": {
+        "start": "2026-05-30",
+        "end": "2026-06-27"
+      },
+      "lastOfficialDate": "2025-09-30",
+      "basisEvents": [
+        "glm-4-5-release",
+        "glm-4-6-release"
+      ],
+      "confidence": "low",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "GLM",
+        "预测窗口",
+        "未官宣"
+      ],
+      "url": "https://z.ai/blog/glm-4.6",
+      "status": "unannounced",
+      "stage": "Forecast only",
+      "source": "Z.ai",
+      "sourceUrl": "https://z.ai/blog/glm-4.6",
+      "type": "forecastWindow",
+      "description": "预测不是官方发布时间，首版样本仍少，需要继续补官方历史节点。",
+      "subtopic": "glm",
+      "subtopicName": "GLM",
+      "category": "AI 发布"
+    },
+    {
+      "id": "minimax-next-major-forecast-2026",
+      "topicId": "llm-release-ddl",
+      "title": "MiniMax 下一代主力模型预测窗口",
+      "dateRange": "2026-05-01 - 2026-09-30",
+      "estimatedNextWindow": {
+        "start": "2026-05-01",
+        "end": "2026-09-30"
+      },
+      "lastOfficialDate": "2025-10-27",
+      "basisEvents": [
+        "minimax-m2-release"
+      ],
+      "confidence": "low",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "MiniMax",
+        "预测窗口",
+        "未官宣"
+      ],
+      "url": "https://www.minimaxi.com/en/news/minimax-m2",
+      "status": "unannounced",
+      "stage": "Forecast only",
+      "source": "MiniMax",
+      "sourceUrl": "https://www.minimaxi.com/en/news/minimax-m2",
+      "type": "forecastWindow",
+      "description": "预测不是官方发布时间，后续以 MiniMax 官方 News/API release notes 为准。",
+      "subtopic": "minimax",
+      "subtopicName": "MiniMax",
+      "category": "AI 发布"
+    }
+  ],
+  "metrics": [],
+  "subtopics": [
+    {
+      "id": "deepseek",
+      "name": "DeepSeek",
+      "itemCount": 4,
+      "nextItemId": null
+    },
+    {
+      "id": "kimi",
+      "name": "Kimi",
+      "itemCount": 4,
+      "nextItemId": null
+    },
+    {
+      "id": "glm",
+      "name": "GLM",
+      "itemCount": 3,
+      "nextItemId": null
+    },
+    {
+      "id": "minimax",
+      "name": "MiniMax",
+      "itemCount": 2,
+      "nextItemId": null
+    }
+  ]
+}

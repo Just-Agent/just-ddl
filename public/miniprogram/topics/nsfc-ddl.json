@@ -1,0 +1,266 @@
+{
+  "generatedAt": "2026-05-24T04:20:10.427Z",
+  "dataVersion": "155270fdf80f9782",
+  "topic": {
+    "id": "nsfc-ddl",
+    "name": "国家自然科学基金",
+    "description": "国家自然科学基金集中接收、年度指南、结果公布、复审节点与历年节奏预测。",
+    "icon": "GraduationCap",
+    "color": "#2563EB",
+    "repo": "Just-Agent/research-funding-ddl",
+    "site": "https://just-agent.github.io/research-funding-ddl/#nsfc-ddl",
+    "category": "学术科研",
+    "tags": [
+      "NSFC",
+      "research funding",
+      "科研基金"
+    ],
+    "itemCount": 8,
+    "status": "published",
+    "sourceMode": "cluster",
+    "clusterId": "research-funding-ddl"
+  },
+  "items": [
+    {
+      "id": "nsfc-2026-lump-sum-policy-filing",
+      "topicId": "nsfc-ddl",
+      "title": "2026 年度包干制管理规定备案",
+      "deadline": "2026-06-30T23:59:00+08:00",
+      "dateRange": "2026-06-30",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "NSFC",
+        "管理规定",
+        "包干制"
+      ],
+      "url": "https://www.nsfc.gov.cn/p1/3381/2824/99667.html",
+      "status": "upcoming",
+      "stage": "Institution filing",
+      "source": "国家自然科学基金委员会",
+      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/99667.html",
+      "type": "officialDeadline",
+      "description": "2026 年度通告要求依托单位于 2026 年 6 月底前将包干制项目经费管理规定报自然科学基金委备案。",
+      "subtopic": "nsfc-management",
+      "subtopicName": "基金管理",
+      "category": "科研基金"
+    },
+    {
+      "id": "nsfc-2026-application-window",
+      "topicId": "nsfc-ddl",
+      "title": "2026 年度集中接收项目申请",
+      "date": "2026-03-20",
+      "dateRange": "2026-03-01 - 2026-03-20 16:00",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "NSFC",
+        "集中接收",
+        "申请截止"
+      ],
+      "url": "https://www.nsfc.gov.cn/p1/3381/2824/99667.html",
+      "status": "ended",
+      "stage": "Application deadline",
+      "source": "国家自然科学基金委员会",
+      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/99667.html",
+      "type": "historyEvent",
+      "description": "2026 年度集中接收项目申请于 2026 年 3 月 1 日开始，3 月 20 日 16 时截止。",
+      "subtopic": "nsfc-application",
+      "subtopicName": "集中接收",
+      "category": "科研基金"
+    },
+    {
+      "id": "nsfc-2026-preliminary-review-result",
+      "topicId": "nsfc-ddl",
+      "title": "2026 年度申请初审结果公布节点",
+      "date": "2026-04-29",
+      "dateRange": "2026-04-29",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "NSFC",
+        "初审结果",
+        "评审"
+      ],
+      "url": "https://www.nsfc.gov.cn/p1/3381/2824/99667.html",
+      "status": "ended",
+      "stage": "Preliminary review",
+      "source": "国家自然科学基金委员会",
+      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/99667.html",
+      "type": "historyEvent",
+      "description": "2026 年度通告写明自然科学基金委于 2026 年 4 月 29 日前公布申请项目初审结果。",
+      "subtopic": "nsfc-review",
+      "subtopicName": "评审结果",
+      "category": "科研基金"
+    },
+    {
+      "id": "nsfc-2025-application-window",
+      "topicId": "nsfc-ddl",
+      "title": "2025 年度集中接收项目申请",
+      "date": "2025-03-20",
+      "dateRange": "2025-03-01 - 2025-03-20 16:00",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "NSFC",
+        "集中接收",
+        "申请截止"
+      ],
+      "url": "https://www.nsfc.gov.cn/p1/3381/2824/66780.html",
+      "status": "ended",
+      "stage": "Application deadline",
+      "source": "国家自然科学基金委员会",
+      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/66780.html",
+      "type": "historyEvent",
+      "description": "2025 年度集中接收项目申请于 2025 年 3 月 1 日开始，3 月 20 日 16 时截止。",
+      "subtopic": "nsfc-application",
+      "subtopicName": "集中接收",
+      "category": "科研基金"
+    },
+    {
+      "id": "nsfc-2024-review-result-query",
+      "topicId": "nsfc-ddl",
+      "title": "2024 年度集中接收申请项目评审结果公布",
+      "date": "2024-08-23",
+      "dateRange": "2024-08-23",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "NSFC",
+        "评审结果",
+        "资助结果"
+      ],
+      "url": "https://www.nsfc.gov.cn/p1/3381/2824/66854.html",
+      "status": "ended",
+      "stage": "Review result",
+      "source": "国家自然科学基金委员会",
+      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/66854.html",
+      "type": "historyEvent",
+      "description": "自然科学基金委于 2024 年 8 月 23 日发布集中接收申请项目评审结果查询和复审申请有关事项通告。",
+      "subtopic": "nsfc-review",
+      "subtopicName": "评审结果",
+      "category": "科研基金"
+    },
+    {
+      "id": "nsfc-2024-review-recheck-deadline",
+      "topicId": "nsfc-ddl",
+      "title": "2024 年度评审结果复审申请截止",
+      "date": "2024-09-06",
+      "dateRange": "2024-09-06",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "NSFC",
+        "复审",
+        "评审结果"
+      ],
+      "url": "https://www.nsfc.gov.cn/p1/3381/2824/66854.html",
+      "status": "ended",
+      "stage": "Review recheck deadline",
+      "source": "国家自然科学基金委员会",
+      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/66854.html",
+      "type": "historyEvent",
+      "description": "2024 年度项目评审结果复审申请提交截止时间为 2024 年 9 月 6 日 16 时。",
+      "subtopic": "nsfc-review",
+      "subtopicName": "评审结果",
+      "category": "科研基金"
+    },
+    {
+      "id": "nsfc-2027-application-forecast",
+      "topicId": "nsfc-ddl",
+      "title": "2027 年度集中接收申请预测窗口",
+      "dateRange": "2027-03-01 - 2027-03-20",
+      "estimatedNextWindow": {
+        "start": "2027-03-01",
+        "end": "2027-03-20"
+      },
+      "lastOfficialDate": "2026-03-20",
+      "basisEvents": [
+        "nsfc-2025-application-window",
+        "nsfc-2026-application-window"
+      ],
+      "confidence": "medium",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "NSFC",
+        "预测窗口",
+        "集中接收"
+      ],
+      "url": "https://www.nsfc.gov.cn/",
+      "status": "unannounced",
+      "stage": "Forecast only",
+      "source": "国家自然科学基金委员会",
+      "sourceUrl": "https://www.nsfc.gov.cn/",
+      "type": "forecastWindow",
+      "description": "预测窗口不等于官方截止日；待 2027 年官方通告发布后替换为正式 DDL。",
+      "subtopic": "nsfc-application",
+      "subtopicName": "集中接收",
+      "category": "科研基金"
+    },
+    {
+      "id": "nsfc-2026-review-result-forecast",
+      "topicId": "nsfc-ddl",
+      "title": "2026 年度集中接收项目评审结果预测窗口",
+      "dateRange": "2026-08-15 - 2026-09-15",
+      "estimatedNextWindow": {
+        "start": "2026-08-15",
+        "end": "2026-09-15"
+      },
+      "lastOfficialDate": "2024-08-23",
+      "basisEvents": [
+        "nsfc-2024-review-result-query"
+      ],
+      "confidence": "low",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "NSFC",
+        "预测窗口",
+        "评审结果"
+      ],
+      "url": "https://www.nsfc.gov.cn/",
+      "status": "unannounced",
+      "stage": "Forecast only",
+      "source": "国家自然科学基金委员会",
+      "sourceUrl": "https://www.nsfc.gov.cn/",
+      "type": "forecastWindow",
+      "description": "展示用户关心的评审结果节奏，但明确样本不足且不进入官方 DDL 统计。",
+      "subtopic": "nsfc-review",
+      "subtopicName": "评审结果",
+      "category": "科研基金"
+    }
+  ],
+  "metrics": [
+    {
+      "id": "nsfc-funding-metric-placeholder",
+      "topicId": "nsfc-ddl",
+      "type": "metricSnapshot",
+      "metric": "funding_statistics_plan",
+      "value": "planned",
+      "asOfDate": "2026-05-24",
+      "source": "国家自然科学基金委员会",
+      "url": "https://www.nsfc.gov.cn/"
+    }
+  ],
+  "subtopics": [
+    {
+      "id": "nsfc-review",
+      "name": "评审结果",
+      "itemCount": 4,
+      "nextItemId": null
+    },
+    {
+      "id": "nsfc-application",
+      "name": "集中接收",
+      "itemCount": 3,
+      "nextItemId": null
+    },
+    {
+      "id": "nsfc-management",
+      "name": "基金管理",
+      "itemCount": 1,
+      "nextItemId": "nsfc-2026-lump-sum-policy-filing"
+    }
+  ]
+}

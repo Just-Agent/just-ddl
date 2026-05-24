@@ -1,0 +1,201 @@
+{
+  "generatedAt": "2026-05-24T04:20:10.427Z",
+  "dataVersion": "155270fdf80f9782",
+  "topic": {
+    "id": "car-launch-ddl",
+    "name": "Car Launches",
+    "description": "汽车发布、官方车展、媒体日和新车/出行产品发布窗口。",
+    "icon": "Car",
+    "color": "#F59E0B",
+    "repo": "Just-Agent/consumer-launch-ddl",
+    "site": "https://just-agent.github.io/consumer-launch-ddl/#car-launch-ddl",
+    "category": "消费发布",
+    "tags": [
+      "car",
+      "auto show",
+      "vehicle launch"
+    ],
+    "itemCount": 7,
+    "status": "published",
+    "sourceMode": "cluster",
+    "clusterId": "consumer-launch-ddl"
+  },
+  "items": [
+    {
+      "id": "car-launch-ddl-paris-motor-show-2026-10-12",
+      "topicId": "car-launch-ddl",
+      "title": "Paris Motor Show 2026",
+      "deadline": "2026-10-12T09:00:00+02:00",
+      "dateRange": "October 12-18, 2026",
+      "location": "Paris, France",
+      "isOnline": false,
+      "tags": [
+        "Paris Motor Show",
+        "auto show",
+        "world premiere"
+      ],
+      "url": "https://mondial.paris/en",
+      "status": "upcoming",
+      "stage": "Auto show opening",
+      "source": "Paris Motor Show official",
+      "sourceUrl": "https://mondial.paris/en",
+      "type": "program",
+      "description": "巴黎车展官方入口，用于追踪 2026 年整车和概念车发布窗口；具体车型以品牌官方公告为准。",
+      "subtopic": "auto-show",
+      "subtopicName": "国际车展"
+    },
+    {
+      "id": "car-launch-ddl-japan-mobility-show-bizweek-2026-10-13",
+      "topicId": "car-launch-ddl",
+      "title": "Japan Mobility Show Bizweek 2026",
+      "deadline": "2026-10-13T09:00:00+09:00",
+      "dateRange": "October 13-16, 2026",
+      "location": "Tokyo, Japan",
+      "isOnline": false,
+      "tags": [
+        "Japan Mobility Show",
+        "mobility",
+        "auto tech"
+      ],
+      "url": "https://www.japan-mobility-show.com/",
+      "status": "upcoming",
+      "stage": "Mobility show opening",
+      "source": "Japan Mobility Show official",
+      "sourceUrl": "https://www.japan-mobility-show.com/",
+      "type": "program",
+      "description": "Japan Mobility Show 官方站点公布 Bizweek 2026 窗口，可用于追踪日本车企与出行技术发布。",
+      "subtopic": "auto-show",
+      "subtopicName": "国际车展"
+    },
+    {
+      "id": "car-launch-ddl-sema-show-2026-11-03",
+      "topicId": "car-launch-ddl",
+      "title": "SEMA Show 2026",
+      "deadline": "2026-11-03T09:00:00-08:00",
+      "dateRange": "November 3-6, 2026",
+      "location": "Las Vegas, USA",
+      "isOnline": false,
+      "tags": [
+        "SEMA",
+        "aftermarket",
+        "vehicle products"
+      ],
+      "url": "https://www.semashow.com/",
+      "status": "upcoming",
+      "stage": "Show opening",
+      "source": "SEMA Show official",
+      "sourceUrl": "https://www.semashow.com/",
+      "type": "program",
+      "description": "SEMA Show 官方入口，面向整车改装、零部件和汽车新品发布窗口。",
+      "subtopic": "aftermarket",
+      "subtopicName": "改装/零部件"
+    },
+    {
+      "id": "car-launch-ddl-automobility-la-2026-11-19",
+      "topicId": "car-launch-ddl",
+      "title": "AutoMobility LA 2026",
+      "deadline": "2026-11-19T09:00:00-08:00",
+      "dateRange": "November 19, 2026",
+      "location": "Los Angeles, USA",
+      "isOnline": false,
+      "tags": [
+        "LA Auto Show",
+        "press day",
+        "vehicle launch"
+      ],
+      "url": "https://laautoshow.com/",
+      "status": "upcoming",
+      "stage": "Media / industry day",
+      "source": "LA Auto Show official",
+      "sourceUrl": "https://laautoshow.com/",
+      "type": "program",
+      "description": "LA Auto Show 官方入口；AutoMobility LA 通常承载媒体日、车企发布和行业活动，具体日程以官方更新为准。",
+      "subtopic": "auto-show",
+      "subtopicName": "国际车展"
+    },
+    {
+      "id": "car-launch-ddl-la-auto-show-2026-11-20",
+      "topicId": "car-launch-ddl",
+      "title": "LA Auto Show 2026 Public Days",
+      "deadline": "2026-11-20T09:00:00-08:00",
+      "dateRange": "November 20-29, 2026",
+      "location": "Los Angeles, USA",
+      "isOnline": false,
+      "tags": [
+        "LA Auto Show",
+        "public days",
+        "new vehicles"
+      ],
+      "url": "https://laautoshow.com/",
+      "status": "upcoming",
+      "stage": "Public opening",
+      "source": "LA Auto Show official",
+      "sourceUrl": "https://laautoshow.com/",
+      "type": "program",
+      "description": "洛杉矶车展公众日窗口，用于追踪北美车企和出行产品展示；具体发布以车展和品牌官方日程为准。",
+      "subtopic": "auto-show",
+      "subtopicName": "国际车展"
+    },
+    {
+      "id": "car-launch-ddl-detroit-auto-show-2027-01-12",
+      "topicId": "car-launch-ddl",
+      "title": "Detroit Auto Show 2027",
+      "deadline": "2027-01-12T09:00:00-05:00",
+      "dateRange": "January 12-24, 2027",
+      "location": "Detroit, USA",
+      "isOnline": false,
+      "tags": [
+        "Detroit Auto Show",
+        "NAIAS",
+        "vehicle launch"
+      ],
+      "url": "https://detroitautoshow.com/",
+      "status": "upcoming",
+      "stage": "Auto show opening",
+      "source": "Detroit Auto Show official",
+      "sourceUrl": "https://detroitautoshow.com/",
+      "type": "program",
+      "description": "Detroit Auto Show 官方入口，作为北美车企新车和移动出行发布窗口。",
+      "subtopic": "auto-show",
+      "subtopicName": "国际车展"
+    },
+    {
+      "id": "car-launch-ddl-auto-shanghai-2027-04-23",
+      "topicId": "car-launch-ddl",
+      "title": "Auto Shanghai 2027",
+      "deadline": "2027-04-23T09:00:00+08:00",
+      "dateRange": "April 23 - May 2, 2027",
+      "location": "Shanghai, China",
+      "isOnline": false,
+      "tags": [
+        "Auto Shanghai",
+        "China",
+        "world premiere"
+      ],
+      "url": "https://www.autoshanghai.org/",
+      "status": "upcoming",
+      "stage": "Auto show opening",
+      "source": "Auto Shanghai official",
+      "sourceUrl": "https://www.autoshanghai.org/",
+      "type": "program",
+      "description": "上海车展官方入口，适合追踪中国和全球车企新车首发；媒体日和具体车型以官方后续公告为准。",
+      "subtopic": "auto-show",
+      "subtopicName": "国际车展"
+    }
+  ],
+  "metrics": [],
+  "subtopics": [
+    {
+      "id": "auto-show",
+      "name": "国际车展",
+      "itemCount": 6,
+      "nextItemId": "car-launch-ddl-paris-motor-show-2026-10-12"
+    },
+    {
+      "id": "aftermarket",
+      "name": "改装/零部件",
+      "itemCount": 1,
+      "nextItemId": "car-launch-ddl-sema-show-2026-11-03"
+    }
+  ]
+}

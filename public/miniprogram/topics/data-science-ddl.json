@@ -1,0 +1,159 @@
+{
+  "generatedAt": "2026-05-24T04:20:10.427Z",
+  "dataVersion": "155270fdf80f9782",
+  "topic": {
+    "id": "data-science-ddl",
+    "name": "Data Science",
+    "description": "Kaggle、天池、DataCastle、数据挖掘会议与数据挑战赛截止日",
+    "icon": "Layers",
+    "color": "#2563EB",
+    "repo": "Just-Agent/data-science-ddl",
+    "site": "https://just-agent.github.io/data-science-ddl/",
+    "category": "技术赛事",
+    "tags": [
+      "Kaggle",
+      "data mining",
+      "ML"
+    ],
+    "itemCount": 6,
+    "status": "published"
+  },
+  "items": [
+    {
+      "id": "drivendata-297-whats-up-docs",
+      "topicId": "data-science-ddl",
+      "title": "What's Up, Docs? Document Summarization with LLMs",
+      "deadline": "2027-04-01T23:59:00Z",
+      "dateRange": "April 1, 2027, 11:59 p.m. UTC",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "data science",
+        "competition",
+        "DrivenData",
+        "development",
+        "science"
+      ],
+      "url": "https://www.drivendata.org/competitions/297/whats-up-docs/",
+      "status": "upcoming",
+      "stage": "Deadline",
+      "source": "DrivenData Competitions",
+      "type": "challenge",
+      "description": "Parsed from official DrivenData listing. Deadline is read from the card end-date tooltip."
+    },
+    {
+      "id": "drivendata-66-flu-shot-learning",
+      "topicId": "data-science-ddl",
+      "title": "Flu Shot Learning: Predict H1N1 and Seasonal Flu Vaccines",
+      "deadline": "2027-07-30T23:59:00Z",
+      "dateRange": "July 30, 2027, 11:59 p.m. UTC",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "data science",
+        "competition",
+        "DrivenData",
+        "health"
+      ],
+      "url": "https://www.drivendata.org/competitions/66/flu-shot-learning/",
+      "status": "upcoming",
+      "stage": "Deadline",
+      "source": "DrivenData Competitions",
+      "type": "challenge",
+      "description": "Parsed from official DrivenData listing. Deadline is read from the card end-date tooltip."
+    },
+    {
+      "id": "drivendata-87-competition-image-classification-wildlife-conservation",
+      "topicId": "data-science-ddl",
+      "title": "Conser-vision Practice Area: Image Classification",
+      "deadline": "2027-10-05T23:59:00Z",
+      "dateRange": "Oct. 5, 2027, 11:59 p.m. UTC",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "data science",
+        "competition",
+        "DrivenData",
+        "climate"
+      ],
+      "url": "https://www.drivendata.org/competitions/87/competition-image-classification-wildlife-conservation/",
+      "status": "upcoming",
+      "stage": "Deadline",
+      "source": "DrivenData Competitions",
+      "type": "challenge",
+      "description": "Parsed from official DrivenData listing. Deadline is read from the card end-date tooltip."
+    },
+    {
+      "id": "drivendata-44-dengai-predicting-disease-spread",
+      "topicId": "data-science-ddl",
+      "title": "DengAI: Predicting Disease Spread",
+      "deadline": "2027-10-05T23:59:00Z",
+      "dateRange": "Oct. 5, 2027, 11:59 p.m. UTC",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "data science",
+        "competition",
+        "DrivenData",
+        "health"
+      ],
+      "url": "https://www.drivendata.org/competitions/44/dengai-predicting-disease-spread/",
+      "status": "upcoming",
+      "stage": "Deadline",
+      "source": "DrivenData Competitions",
+      "type": "challenge",
+      "description": "Parsed from official DrivenData listing. Deadline is read from the card end-date tooltip."
+    },
+    {
+      "id": "drivendata-7-pump-it-up-data-mining-the-water-table",
+      "topicId": "data-science-ddl",
+      "title": "Pump it Up: Data Mining the Water Table",
+      "deadline": "2027-10-05T23:59:00Z",
+      "dateRange": "Oct. 5, 2027, 11:59 p.m. UTC",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "data science",
+        "competition",
+        "DrivenData",
+        "development"
+      ],
+      "url": "https://www.drivendata.org/competitions/7/pump-it-up-data-mining-the-water-table/",
+      "status": "upcoming",
+      "stage": "Deadline",
+      "source": "DrivenData Competitions",
+      "type": "challenge",
+      "description": "Parsed from official DrivenData listing. Deadline is read from the card end-date tooltip."
+    },
+    {
+      "id": "drivendata-57-nepal-earthquake",
+      "topicId": "data-science-ddl",
+      "title": "Richter's Predictor: Modeling Earthquake Damage",
+      "deadline": "2027-10-05T23:59:00Z",
+      "dateRange": "Oct. 5, 2027, 11:59 p.m. UTC",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "data science",
+        "competition",
+        "DrivenData",
+        "disasters"
+      ],
+      "url": "https://www.drivendata.org/competitions/57/nepal-earthquake/",
+      "status": "upcoming",
+      "stage": "Deadline",
+      "source": "DrivenData Competitions",
+      "type": "challenge",
+      "description": "Parsed from official DrivenData listing. Deadline is read from the card end-date tooltip."
+    }
+  ],
+  "metrics": [],
+  "subtopics": [
+    {
+      "id": "general",
+      "name": "General",
+      "itemCount": 6,
+      "nextItemId": "drivendata-297-whats-up-docs"
+    }
+  ]
+}

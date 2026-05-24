@@ -26,6 +26,7 @@ jobs:
           node-version: '24'
       - run: node scripts/validate-contrib-topics.mjs
       - run: node scripts/sync-topic-data.mjs
+      - run: node scripts/export-miniprogram-data.mjs
       - run: node scripts/validate-public-surface.mjs
       - run: npm ci
       - run: npm run build

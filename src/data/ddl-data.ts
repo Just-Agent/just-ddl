@@ -369,52 +369,6 @@ export const ddlData: Record<string, DDLItem[]> = {
   ],
   "agent-ddl": [
     {
-      "id": "agent-ddl-agents-assemble-healthcare-ai-2026-05-11",
-      "title": "Agents Assemble - The Healthcare AI Endgame",
-      "deadline": "2026-05-11T23:59:59-07:00",
-      "dateRange": "Mar 4 - May 11, 2026",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "Healthcare",
-        "MCP",
-        "A2A",
-        "FHIR"
-      ],
-      "url": "https://agents-assemble.devpost.com/",
-      "status": "ended",
-      "stage": "Submission",
-      "source": "Agents Assemble Devpost",
-      "type": "hackathon",
-      "description": "Healthcare AI agent hackathon focused on interoperable agents at the intersection of MCP, A2A, and FHIR.",
-      "prize": "$25,000",
-      "platform": "Devpost",
-      "evaluationMode": "Hybrid",
-      "organizer": "Prompt Opinion (Darena Health)",
-      "submissionType": "Demo video + Devpost project",
-      "sourceUrl": "https://agents-assemble.devpost.com/",
-      "phases": [
-        {
-          "name": "Submission period ends",
-          "deadline": "2026-05-11T23:59:59-07:00"
-        },
-        {
-          "name": "Winners announced",
-          "deadline": "2026-05-27T23:59:59-07:00"
-        }
-      ],
-      "tracks": [
-        {
-          "name": "Build a Superpower",
-          "description": "Create an MCP server that exposes healthcare tools for agents."
-        },
-        {
-          "name": "Build an Agent",
-          "description": "Configure an A2A-capable healthcare workflow agent on the Prompt Opinion platform."
-        }
-      ]
-    },
-    {
       "id": "agent-ddl-devnetwork-ai-ml-hackathon-2026-05-28",
       "title": "DevNetwork [AI + ML] Hackathon 2026",
       "deadline": "2026-05-28T10:00:00-07:00",
@@ -1149,6 +1103,52 @@ export const ddlData: Record<string, DDLItem[]> = {
         {
           "name": "Final results notification",
           "deadline": "2026-08-15T23:59:59"
+        }
+      ]
+    },
+    {
+      "id": "agent-ddl-agents-assemble-healthcare-ai-2026-05-11",
+      "title": "Agents Assemble - The Healthcare AI Endgame",
+      "deadline": "2026-05-11T23:59:59-07:00",
+      "dateRange": "Mar 4 - May 11, 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "Healthcare",
+        "MCP",
+        "A2A",
+        "FHIR"
+      ],
+      "url": "https://agents-assemble.devpost.com/",
+      "status": "ended",
+      "stage": "Submission",
+      "source": "Agents Assemble Devpost",
+      "type": "hackathon",
+      "description": "Healthcare AI agent hackathon focused on interoperable agents at the intersection of MCP, A2A, and FHIR.",
+      "prize": "$25,000",
+      "platform": "Devpost",
+      "evaluationMode": "Hybrid",
+      "organizer": "Prompt Opinion (Darena Health)",
+      "submissionType": "Demo video + Devpost project",
+      "sourceUrl": "https://agents-assemble.devpost.com/",
+      "phases": [
+        {
+          "name": "Submission period ends",
+          "deadline": "2026-05-11T23:59:59-07:00"
+        },
+        {
+          "name": "Winners announced",
+          "deadline": "2026-05-27T23:59:59-07:00"
+        }
+      ],
+      "tracks": [
+        {
+          "name": "Build a Superpower",
+          "description": "Create an MCP server that exposes healthcare tools for agents."
+        },
+        {
+          "name": "Build an Agent",
+          "description": "Configure an A2A-capable healthcare workflow agent on the Prompt Opinion platform."
         }
       ]
     }
@@ -5879,606 +5879,6 @@ export const ddlData: Record<string, DDLItem[]> = {
   ],
   "holiday-ddl": [
     {
-      "id": "holiday-ddl-元旦-2026-2026-01-01",
-      "title": "元旦 2026",
-      "deadline": "2026-01-01T00:00:00",
-      "dateRange": "Jan 1, 2026",
-      "location": "Global",
-      "isOnline": false,
-      "tags": [
-        "法定假日",
-        "New Year"
-      ],
-      "url": "https://www.gov.cn/",
-      "status": "ended",
-      "stage": "Holiday",
-      "source": "Gov calendar seed",
-      "type": "holiday",
-      "description": "新年假日。"
-    },
-    {
-      "id": "holiday-ddl-小寒-2026-2026-01-05",
-      "title": "小寒 2026",
-      "deadline": "2026-01-05T00:00:00",
-      "dateRange": "2026-01-05",
-      "location": "China",
-      "isOnline": false,
-      "tags": [
-        "二十四节气",
-        "节气"
-      ],
-      "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
-      "status": "ended",
-      "stage": "Solar term",
-      "source": "Hong Kong Observatory almanac seed",
-      "type": "holiday",
-      "description": "冬季节气。"
-    },
-    {
-      "id": "holiday-ddl-coming-of-age-day-2026-2026-01-12",
-      "title": "Coming of Age Day 2026",
-      "deadline": "2026-01-12T00:00:00",
-      "dateRange": "Jan 12, 2026",
-      "location": "Japan",
-      "isOnline": false,
-      "tags": [
-        "Japan National Holiday"
-      ],
-      "url": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html",
-      "status": "ended",
-      "stage": "National holiday",
-      "source": "Japan Cabinet Office",
-      "type": "holiday",
-      "description": "日本成人之日。"
-    },
-    {
-      "id": "holiday-ddl-martin-luther-king-jr-day-2026-2026-01-19",
-      "title": "Martin Luther King Jr. Day 2026",
-      "deadline": "2026-01-19T00:00:00",
-      "dateRange": "Jan 19, 2026",
-      "location": "United States",
-      "isOnline": false,
-      "tags": [
-        "US Federal Holiday"
-      ],
-      "url": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/",
-      "status": "ended",
-      "stage": "Federal holiday",
-      "source": "US OPM federal holidays",
-      "type": "holiday",
-      "description": "美国联邦假日。"
-    },
-    {
-      "id": "holiday-ddl-大寒-2026-2026-01-20",
-      "title": "大寒 2026",
-      "deadline": "2026-01-20T00:00:00",
-      "dateRange": "2026-01-20",
-      "location": "China",
-      "isOnline": false,
-      "tags": [
-        "二十四节气",
-        "节气"
-      ],
-      "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
-      "status": "ended",
-      "stage": "Solar term",
-      "source": "Hong Kong Observatory almanac seed",
-      "type": "holiday",
-      "description": "冬季最后一个节气。"
-    },
-    {
-      "id": "holiday-ddl-立春-2026-2026-02-04",
-      "title": "立春 2026",
-      "deadline": "2026-02-04T00:00:00",
-      "dateRange": "2026-02-04",
-      "location": "China",
-      "isOnline": false,
-      "tags": [
-        "二十四节气",
-        "节气"
-      ],
-      "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
-      "status": "ended",
-      "stage": "Solar term",
-      "source": "Hong Kong Observatory almanac seed",
-      "type": "holiday",
-      "description": "春季开始。"
-    },
-    {
-      "id": "holiday-ddl-小年-2026-2026-02-10",
-      "title": "小年 2026",
-      "deadline": "2026-02-10T00:00:00",
-      "dateRange": "Feb 10, 2026",
-      "location": "China",
-      "isOnline": false,
-      "tags": [
-        "传统节日",
-        "春节"
-      ],
-      "url": "https://www.timeanddate.com/holidays/",
-      "status": "ended",
-      "stage": "Traditional festival",
-      "source": "Lunar calendar seed",
-      "type": "holiday",
-      "description": "北方小年。"
-    },
-    {
-      "id": "holiday-ddl-national-foundation-day-2026-2026-02-11",
-      "title": "National Foundation Day 2026",
-      "deadline": "2026-02-11T00:00:00",
-      "dateRange": "Feb 11, 2026",
-      "location": "Japan",
-      "isOnline": false,
-      "tags": [
-        "Japan National Holiday"
-      ],
-      "url": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html",
-      "status": "ended",
-      "stage": "National holiday",
-      "source": "Japan Cabinet Office",
-      "type": "holiday",
-      "description": "日本建国纪念日。"
-    },
-    {
-      "id": "holiday-ddl-valentine-s-day-2026-2026-02-14",
-      "title": "Valentine's Day 2026",
-      "deadline": "2026-02-14T00:00:00",
-      "dateRange": "Feb 14, 2026",
-      "location": "Global",
-      "isOnline": false,
-      "tags": [
-        "International",
-        "Festival"
-      ],
-      "url": "https://www.timeanddate.com/holidays/",
-      "status": "ended",
-      "stage": "Observance",
-      "source": "International calendar seed",
-      "type": "holiday",
-      "description": "情人节。"
-    },
-    {
-      "id": "holiday-ddl-除夕-2026-2026-02-16",
-      "title": "除夕 2026",
-      "deadline": "2026-02-16T00:00:00",
-      "dateRange": "Feb 16, 2026",
-      "location": "China",
-      "isOnline": false,
-      "tags": [
-        "传统节日",
-        "春节"
-      ],
-      "url": "https://www.gov.cn/",
-      "status": "ended",
-      "stage": "Traditional festival",
-      "source": "Lunar calendar seed",
-      "type": "holiday",
-      "description": "农历岁末。"
-    },
-    {
-      "id": "holiday-ddl-washington-s-birthday-2026-2026-02-16",
-      "title": "Washington's Birthday 2026",
-      "deadline": "2026-02-16T00:00:00",
-      "dateRange": "Feb 16, 2026",
-      "location": "United States",
-      "isOnline": false,
-      "tags": [
-        "US Federal Holiday"
-      ],
-      "url": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/",
-      "status": "ended",
-      "stage": "Federal holiday",
-      "source": "US OPM federal holidays",
-      "type": "holiday",
-      "description": "美国联邦假日。"
-    },
-    {
-      "id": "holiday-ddl-春节-2026-2026-02-17",
-      "title": "春节 2026",
-      "deadline": "2026-02-17T00:00:00",
-      "dateRange": "Feb 17, 2026",
-      "location": "China",
-      "isOnline": false,
-      "tags": [
-        "法定假日",
-        "春节"
-      ],
-      "url": "https://www.gov.cn/",
-      "status": "ended",
-      "stage": "Holiday",
-      "source": "Gov calendar seed",
-      "type": "holiday",
-      "description": "农历新年。"
-    },
-    {
-      "id": "holiday-ddl-雨水-2026-2026-02-19",
-      "title": "雨水 2026",
-      "deadline": "2026-02-19T00:00:00",
-      "dateRange": "2026-02-19",
-      "location": "China",
-      "isOnline": false,
-      "tags": [
-        "二十四节气",
-        "节气"
-      ],
-      "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
-      "status": "ended",
-      "stage": "Solar term",
-      "source": "Hong Kong Observatory almanac seed",
-      "type": "holiday",
-      "description": "降水增多。"
-    },
-    {
-      "id": "holiday-ddl-emperor-s-birthday-2026-2026-02-23",
-      "title": "Emperor's Birthday 2026",
-      "deadline": "2026-02-23T00:00:00",
-      "dateRange": "Feb 23, 2026",
-      "location": "Japan",
-      "isOnline": false,
-      "tags": [
-        "Japan National Holiday"
-      ],
-      "url": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html",
-      "status": "ended",
-      "stage": "National holiday",
-      "source": "Japan Cabinet Office",
-      "type": "holiday",
-      "description": "日本天皇诞生日。"
-    },
-    {
-      "id": "holiday-ddl-元宵节-2026-2026-03-03",
-      "title": "元宵节 2026",
-      "deadline": "2026-03-03T00:00:00",
-      "dateRange": "Mar 3, 2026",
-      "location": "China",
-      "isOnline": false,
-      "tags": [
-        "传统节日",
-        "农历"
-      ],
-      "url": "https://www.timeanddate.com/holidays/",
-      "status": "ended",
-      "stage": "Traditional festival",
-      "source": "Lunar calendar seed",
-      "type": "holiday",
-      "description": "正月十五。"
-    },
-    {
-      "id": "holiday-ddl-惊蛰-2026-2026-03-05",
-      "title": "惊蛰 2026",
-      "deadline": "2026-03-05T00:00:00",
-      "dateRange": "2026-03-05",
-      "location": "China",
-      "isOnline": false,
-      "tags": [
-        "二十四节气",
-        "节气"
-      ],
-      "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
-      "status": "ended",
-      "stage": "Solar term",
-      "source": "Hong Kong Observatory almanac seed",
-      "type": "holiday",
-      "description": "仲春节气。"
-    },
-    {
-      "id": "holiday-ddl-international-women-s-day-2026-2026-03-08",
-      "title": "International Women's Day 2026",
-      "deadline": "2026-03-08T00:00:00",
-      "dateRange": "Mar 8, 2026",
-      "location": "Global",
-      "isOnline": false,
-      "tags": [
-        "UN Observance",
-        "International"
-      ],
-      "url": "https://www.un.org/en/observances",
-      "status": "ended",
-      "stage": "UN observance",
-      "source": "UN observances",
-      "type": "holiday",
-      "description": "国际妇女节。"
-    },
-    {
-      "id": "holiday-ddl-st-patrick-s-day-2026-2026-03-17",
-      "title": "St Patrick's Day 2026",
-      "deadline": "2026-03-17T00:00:00",
-      "dateRange": "Mar 17, 2026",
-      "location": "Ireland / Global",
-      "isOnline": false,
-      "tags": [
-        "International",
-        "Festival"
-      ],
-      "url": "https://www.timeanddate.com/holidays/",
-      "status": "ended",
-      "stage": "Observance",
-      "source": "International calendar seed",
-      "type": "holiday",
-      "description": "圣帕特里克节。"
-    },
-    {
-      "id": "holiday-ddl-春分-2026-2026-03-20",
-      "title": "春分 2026",
-      "deadline": "2026-03-20T00:00:00",
-      "dateRange": "2026-03-20",
-      "location": "China",
-      "isOnline": false,
-      "tags": [
-        "二十四节气",
-        "节气"
-      ],
-      "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
-      "status": "ended",
-      "stage": "Solar term",
-      "source": "Hong Kong Observatory almanac seed",
-      "type": "holiday",
-      "description": "昼夜近等长。"
-    },
-    {
-      "id": "holiday-ddl-龙抬头-2026-2026-03-20",
-      "title": "龙抬头 2026",
-      "deadline": "2026-03-20T00:00:00",
-      "dateRange": "Mar 20, 2026",
-      "location": "China",
-      "isOnline": false,
-      "tags": [
-        "传统节日",
-        "农历"
-      ],
-      "url": "https://www.timeanddate.com/holidays/",
-      "status": "ended",
-      "stage": "Traditional festival",
-      "source": "Lunar calendar seed",
-      "type": "holiday",
-      "description": "农历二月初二。"
-    },
-    {
-      "id": "holiday-ddl-april-fools-day-2026-2026-04-01",
-      "title": "April Fools' Day 2026",
-      "deadline": "2026-04-01T00:00:00",
-      "dateRange": "Apr 1, 2026",
-      "location": "Global",
-      "isOnline": false,
-      "tags": [
-        "International",
-        "Fun"
-      ],
-      "url": "https://www.timeanddate.com/holidays/",
-      "status": "ended",
-      "stage": "Observance",
-      "source": "International calendar seed",
-      "type": "holiday",
-      "description": "愚人节。"
-    },
-    {
-      "id": "holiday-ddl-good-friday-2026-2026-04-03",
-      "title": "Good Friday 2026",
-      "deadline": "2026-04-03T00:00:00",
-      "dateRange": "Apr 3, 2026",
-      "location": "United Kingdom",
-      "isOnline": false,
-      "tags": [
-        "UK Bank Holiday"
-      ],
-      "url": "https://www.gov.uk/bank-holidays",
-      "status": "ended",
-      "stage": "Bank holiday",
-      "source": "UK bank holidays",
-      "type": "holiday",
-      "description": "英国银行假日。"
-    },
-    {
-      "id": "holiday-ddl-清明-2026-2026-04-05",
-      "title": "清明 2026",
-      "deadline": "2026-04-05T00:00:00",
-      "dateRange": "2026-04-05",
-      "location": "China",
-      "isOnline": false,
-      "tags": [
-        "二十四节气",
-        "传统节日"
-      ],
-      "url": "https://www.gov.cn/",
-      "status": "ended",
-      "stage": "Solar term",
-      "source": "Gov / almanac seed",
-      "type": "holiday",
-      "description": "节气与传统节日。"
-    },
-    {
-      "id": "holiday-ddl-easter-monday-2026-2026-04-06",
-      "title": "Easter Monday 2026",
-      "deadline": "2026-04-06T00:00:00",
-      "dateRange": "Apr 6, 2026",
-      "location": "United Kingdom",
-      "isOnline": false,
-      "tags": [
-        "UK Bank Holiday"
-      ],
-      "url": "https://www.gov.uk/bank-holidays",
-      "status": "ended",
-      "stage": "Bank holiday",
-      "source": "UK bank holidays",
-      "type": "holiday",
-      "description": "英国银行假日。"
-    },
-    {
-      "id": "holiday-ddl-谷雨-2026-2026-04-20",
-      "title": "谷雨 2026",
-      "deadline": "2026-04-20T00:00:00",
-      "dateRange": "2026-04-20",
-      "location": "China",
-      "isOnline": false,
-      "tags": [
-        "二十四节气",
-        "节气"
-      ],
-      "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
-      "status": "ended",
-      "stage": "Solar term",
-      "source": "Hong Kong Observatory almanac seed",
-      "type": "holiday",
-      "description": "春季最后一个节气。"
-    },
-    {
-      "id": "holiday-ddl-earth-day-2026-2026-04-22",
-      "title": "Earth Day 2026",
-      "deadline": "2026-04-22T00:00:00",
-      "dateRange": "Apr 22, 2026",
-      "location": "Global",
-      "isOnline": false,
-      "tags": [
-        "Environment",
-        "International"
-      ],
-      "url": "https://www.earthday.org",
-      "status": "ended",
-      "stage": "Observance",
-      "source": "Official observance seed",
-      "type": "holiday",
-      "description": "世界地球日。"
-    },
-    {
-      "id": "holiday-ddl-showa-day-2026-2026-04-29",
-      "title": "Showa Day 2026",
-      "deadline": "2026-04-29T00:00:00",
-      "dateRange": "Apr 29, 2026",
-      "location": "Japan",
-      "isOnline": false,
-      "tags": [
-        "Japan National Holiday"
-      ],
-      "url": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html",
-      "status": "ended",
-      "stage": "National holiday",
-      "source": "Japan Cabinet Office",
-      "type": "holiday",
-      "description": "昭和之日。"
-    },
-    {
-      "id": "holiday-ddl-劳动节-2026-2026-05-01",
-      "title": "劳动节 2026",
-      "deadline": "2026-05-01T00:00:00",
-      "dateRange": "May 1, 2026",
-      "location": "China / Global",
-      "isOnline": false,
-      "tags": [
-        "法定假日",
-        "Labor Day"
-      ],
-      "url": "https://www.gov.cn/",
-      "status": "ended",
-      "stage": "Holiday",
-      "source": "Gov calendar seed",
-      "type": "holiday",
-      "description": "劳动节假期入口。"
-    },
-    {
-      "id": "holiday-ddl-constitution-memorial-day-2026-2026-05-03",
-      "title": "Constitution Memorial Day 2026",
-      "deadline": "2026-05-03T00:00:00",
-      "dateRange": "May 3, 2026",
-      "location": "Japan",
-      "isOnline": false,
-      "tags": [
-        "Japan National Holiday"
-      ],
-      "url": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html",
-      "status": "ended",
-      "stage": "National holiday",
-      "source": "Japan Cabinet Office",
-      "type": "holiday",
-      "description": "宪法纪念日。"
-    },
-    {
-      "id": "holiday-ddl-early-may-bank-holiday-2026-2026-05-04",
-      "title": "Early May Bank Holiday 2026",
-      "deadline": "2026-05-04T00:00:00",
-      "dateRange": "May 4, 2026",
-      "location": "United Kingdom",
-      "isOnline": false,
-      "tags": [
-        "UK Bank Holiday"
-      ],
-      "url": "https://www.gov.uk/bank-holidays",
-      "status": "ended",
-      "stage": "Bank holiday",
-      "source": "UK bank holidays",
-      "type": "holiday",
-      "description": "英国银行假日。"
-    },
-    {
-      "id": "holiday-ddl-greenery-day-2026-2026-05-04",
-      "title": "Greenery Day 2026",
-      "deadline": "2026-05-04T00:00:00",
-      "dateRange": "May 4, 2026",
-      "location": "Japan",
-      "isOnline": false,
-      "tags": [
-        "Japan National Holiday"
-      ],
-      "url": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html",
-      "status": "ended",
-      "stage": "National holiday",
-      "source": "Japan Cabinet Office",
-      "type": "holiday",
-      "description": "绿之日。"
-    },
-    {
-      "id": "holiday-ddl-立夏-2026-2026-05-05",
-      "title": "立夏 2026",
-      "deadline": "2026-05-05T00:00:00",
-      "dateRange": "2026-05-05",
-      "location": "China",
-      "isOnline": false,
-      "tags": [
-        "二十四节气",
-        "节气"
-      ],
-      "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
-      "status": "ended",
-      "stage": "Solar term",
-      "source": "Hong Kong Observatory almanac seed",
-      "type": "holiday",
-      "description": "夏季开始。"
-    },
-    {
-      "id": "holiday-ddl-children-s-day-2026-2026-05-05",
-      "title": "Children's Day 2026",
-      "deadline": "2026-05-05T00:00:00",
-      "dateRange": "May 5, 2026",
-      "location": "Japan",
-      "isOnline": false,
-      "tags": [
-        "Japan National Holiday"
-      ],
-      "url": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html",
-      "status": "ended",
-      "stage": "National holiday",
-      "source": "Japan Cabinet Office",
-      "type": "holiday",
-      "description": "日本儿童节。"
-    },
-    {
-      "id": "holiday-ddl-mother-s-day-2026-2026-05-10",
-      "title": "Mother's Day 2026",
-      "deadline": "2026-05-10T00:00:00",
-      "dateRange": "May 10, 2026",
-      "location": "United States / Global",
-      "isOnline": false,
-      "tags": [
-        "International",
-        "Family"
-      ],
-      "url": "https://www.timeanddate.com/holidays/",
-      "status": "ended",
-      "stage": "Observance",
-      "source": "International calendar seed",
-      "type": "holiday",
-      "description": "母亲节。"
-    },
-    {
       "id": "holiday-ddl-小满-2026-2026-05-21",
       "title": "小满 2026",
       "deadline": "2026-05-21T00:00:00",
@@ -7254,6 +6654,606 @@ export const ddlData: Record<string, DDLItem[]> = {
       "source": "Lunar calendar seed",
       "type": "holiday",
       "description": "农历腊月初八。"
+    },
+    {
+      "id": "holiday-ddl-元旦-2026-2026-01-01",
+      "title": "元旦 2026",
+      "deadline": "2026-01-01T00:00:00",
+      "dateRange": "Jan 1, 2026",
+      "location": "Global",
+      "isOnline": false,
+      "tags": [
+        "法定假日",
+        "New Year"
+      ],
+      "url": "https://www.gov.cn/",
+      "status": "ended",
+      "stage": "Holiday",
+      "source": "Gov calendar seed",
+      "type": "holiday",
+      "description": "新年假日。"
+    },
+    {
+      "id": "holiday-ddl-小寒-2026-2026-01-05",
+      "title": "小寒 2026",
+      "deadline": "2026-01-05T00:00:00",
+      "dateRange": "2026-01-05",
+      "location": "China",
+      "isOnline": false,
+      "tags": [
+        "二十四节气",
+        "节气"
+      ],
+      "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
+      "status": "ended",
+      "stage": "Solar term",
+      "source": "Hong Kong Observatory almanac seed",
+      "type": "holiday",
+      "description": "冬季节气。"
+    },
+    {
+      "id": "holiday-ddl-coming-of-age-day-2026-2026-01-12",
+      "title": "Coming of Age Day 2026",
+      "deadline": "2026-01-12T00:00:00",
+      "dateRange": "Jan 12, 2026",
+      "location": "Japan",
+      "isOnline": false,
+      "tags": [
+        "Japan National Holiday"
+      ],
+      "url": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html",
+      "status": "ended",
+      "stage": "National holiday",
+      "source": "Japan Cabinet Office",
+      "type": "holiday",
+      "description": "日本成人之日。"
+    },
+    {
+      "id": "holiday-ddl-martin-luther-king-jr-day-2026-2026-01-19",
+      "title": "Martin Luther King Jr. Day 2026",
+      "deadline": "2026-01-19T00:00:00",
+      "dateRange": "Jan 19, 2026",
+      "location": "United States",
+      "isOnline": false,
+      "tags": [
+        "US Federal Holiday"
+      ],
+      "url": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/",
+      "status": "ended",
+      "stage": "Federal holiday",
+      "source": "US OPM federal holidays",
+      "type": "holiday",
+      "description": "美国联邦假日。"
+    },
+    {
+      "id": "holiday-ddl-大寒-2026-2026-01-20",
+      "title": "大寒 2026",
+      "deadline": "2026-01-20T00:00:00",
+      "dateRange": "2026-01-20",
+      "location": "China",
+      "isOnline": false,
+      "tags": [
+        "二十四节气",
+        "节气"
+      ],
+      "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
+      "status": "ended",
+      "stage": "Solar term",
+      "source": "Hong Kong Observatory almanac seed",
+      "type": "holiday",
+      "description": "冬季最后一个节气。"
+    },
+    {
+      "id": "holiday-ddl-立春-2026-2026-02-04",
+      "title": "立春 2026",
+      "deadline": "2026-02-04T00:00:00",
+      "dateRange": "2026-02-04",
+      "location": "China",
+      "isOnline": false,
+      "tags": [
+        "二十四节气",
+        "节气"
+      ],
+      "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
+      "status": "ended",
+      "stage": "Solar term",
+      "source": "Hong Kong Observatory almanac seed",
+      "type": "holiday",
+      "description": "春季开始。"
+    },
+    {
+      "id": "holiday-ddl-小年-2026-2026-02-10",
+      "title": "小年 2026",
+      "deadline": "2026-02-10T00:00:00",
+      "dateRange": "Feb 10, 2026",
+      "location": "China",
+      "isOnline": false,
+      "tags": [
+        "传统节日",
+        "春节"
+      ],
+      "url": "https://www.timeanddate.com/holidays/",
+      "status": "ended",
+      "stage": "Traditional festival",
+      "source": "Lunar calendar seed",
+      "type": "holiday",
+      "description": "北方小年。"
+    },
+    {
+      "id": "holiday-ddl-national-foundation-day-2026-2026-02-11",
+      "title": "National Foundation Day 2026",
+      "deadline": "2026-02-11T00:00:00",
+      "dateRange": "Feb 11, 2026",
+      "location": "Japan",
+      "isOnline": false,
+      "tags": [
+        "Japan National Holiday"
+      ],
+      "url": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html",
+      "status": "ended",
+      "stage": "National holiday",
+      "source": "Japan Cabinet Office",
+      "type": "holiday",
+      "description": "日本建国纪念日。"
+    },
+    {
+      "id": "holiday-ddl-valentine-s-day-2026-2026-02-14",
+      "title": "Valentine's Day 2026",
+      "deadline": "2026-02-14T00:00:00",
+      "dateRange": "Feb 14, 2026",
+      "location": "Global",
+      "isOnline": false,
+      "tags": [
+        "International",
+        "Festival"
+      ],
+      "url": "https://www.timeanddate.com/holidays/",
+      "status": "ended",
+      "stage": "Observance",
+      "source": "International calendar seed",
+      "type": "holiday",
+      "description": "情人节。"
+    },
+    {
+      "id": "holiday-ddl-除夕-2026-2026-02-16",
+      "title": "除夕 2026",
+      "deadline": "2026-02-16T00:00:00",
+      "dateRange": "Feb 16, 2026",
+      "location": "China",
+      "isOnline": false,
+      "tags": [
+        "传统节日",
+        "春节"
+      ],
+      "url": "https://www.gov.cn/",
+      "status": "ended",
+      "stage": "Traditional festival",
+      "source": "Lunar calendar seed",
+      "type": "holiday",
+      "description": "农历岁末。"
+    },
+    {
+      "id": "holiday-ddl-washington-s-birthday-2026-2026-02-16",
+      "title": "Washington's Birthday 2026",
+      "deadline": "2026-02-16T00:00:00",
+      "dateRange": "Feb 16, 2026",
+      "location": "United States",
+      "isOnline": false,
+      "tags": [
+        "US Federal Holiday"
+      ],
+      "url": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/",
+      "status": "ended",
+      "stage": "Federal holiday",
+      "source": "US OPM federal holidays",
+      "type": "holiday",
+      "description": "美国联邦假日。"
+    },
+    {
+      "id": "holiday-ddl-春节-2026-2026-02-17",
+      "title": "春节 2026",
+      "deadline": "2026-02-17T00:00:00",
+      "dateRange": "Feb 17, 2026",
+      "location": "China",
+      "isOnline": false,
+      "tags": [
+        "法定假日",
+        "春节"
+      ],
+      "url": "https://www.gov.cn/",
+      "status": "ended",
+      "stage": "Holiday",
+      "source": "Gov calendar seed",
+      "type": "holiday",
+      "description": "农历新年。"
+    },
+    {
+      "id": "holiday-ddl-雨水-2026-2026-02-19",
+      "title": "雨水 2026",
+      "deadline": "2026-02-19T00:00:00",
+      "dateRange": "2026-02-19",
+      "location": "China",
+      "isOnline": false,
+      "tags": [
+        "二十四节气",
+        "节气"
+      ],
+      "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
+      "status": "ended",
+      "stage": "Solar term",
+      "source": "Hong Kong Observatory almanac seed",
+      "type": "holiday",
+      "description": "降水增多。"
+    },
+    {
+      "id": "holiday-ddl-emperor-s-birthday-2026-2026-02-23",
+      "title": "Emperor's Birthday 2026",
+      "deadline": "2026-02-23T00:00:00",
+      "dateRange": "Feb 23, 2026",
+      "location": "Japan",
+      "isOnline": false,
+      "tags": [
+        "Japan National Holiday"
+      ],
+      "url": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html",
+      "status": "ended",
+      "stage": "National holiday",
+      "source": "Japan Cabinet Office",
+      "type": "holiday",
+      "description": "日本天皇诞生日。"
+    },
+    {
+      "id": "holiday-ddl-元宵节-2026-2026-03-03",
+      "title": "元宵节 2026",
+      "deadline": "2026-03-03T00:00:00",
+      "dateRange": "Mar 3, 2026",
+      "location": "China",
+      "isOnline": false,
+      "tags": [
+        "传统节日",
+        "农历"
+      ],
+      "url": "https://www.timeanddate.com/holidays/",
+      "status": "ended",
+      "stage": "Traditional festival",
+      "source": "Lunar calendar seed",
+      "type": "holiday",
+      "description": "正月十五。"
+    },
+    {
+      "id": "holiday-ddl-惊蛰-2026-2026-03-05",
+      "title": "惊蛰 2026",
+      "deadline": "2026-03-05T00:00:00",
+      "dateRange": "2026-03-05",
+      "location": "China",
+      "isOnline": false,
+      "tags": [
+        "二十四节气",
+        "节气"
+      ],
+      "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
+      "status": "ended",
+      "stage": "Solar term",
+      "source": "Hong Kong Observatory almanac seed",
+      "type": "holiday",
+      "description": "仲春节气。"
+    },
+    {
+      "id": "holiday-ddl-international-women-s-day-2026-2026-03-08",
+      "title": "International Women's Day 2026",
+      "deadline": "2026-03-08T00:00:00",
+      "dateRange": "Mar 8, 2026",
+      "location": "Global",
+      "isOnline": false,
+      "tags": [
+        "UN Observance",
+        "International"
+      ],
+      "url": "https://www.un.org/en/observances",
+      "status": "ended",
+      "stage": "UN observance",
+      "source": "UN observances",
+      "type": "holiday",
+      "description": "国际妇女节。"
+    },
+    {
+      "id": "holiday-ddl-st-patrick-s-day-2026-2026-03-17",
+      "title": "St Patrick's Day 2026",
+      "deadline": "2026-03-17T00:00:00",
+      "dateRange": "Mar 17, 2026",
+      "location": "Ireland / Global",
+      "isOnline": false,
+      "tags": [
+        "International",
+        "Festival"
+      ],
+      "url": "https://www.timeanddate.com/holidays/",
+      "status": "ended",
+      "stage": "Observance",
+      "source": "International calendar seed",
+      "type": "holiday",
+      "description": "圣帕特里克节。"
+    },
+    {
+      "id": "holiday-ddl-春分-2026-2026-03-20",
+      "title": "春分 2026",
+      "deadline": "2026-03-20T00:00:00",
+      "dateRange": "2026-03-20",
+      "location": "China",
+      "isOnline": false,
+      "tags": [
+        "二十四节气",
+        "节气"
+      ],
+      "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
+      "status": "ended",
+      "stage": "Solar term",
+      "source": "Hong Kong Observatory almanac seed",
+      "type": "holiday",
+      "description": "昼夜近等长。"
+    },
+    {
+      "id": "holiday-ddl-龙抬头-2026-2026-03-20",
+      "title": "龙抬头 2026",
+      "deadline": "2026-03-20T00:00:00",
+      "dateRange": "Mar 20, 2026",
+      "location": "China",
+      "isOnline": false,
+      "tags": [
+        "传统节日",
+        "农历"
+      ],
+      "url": "https://www.timeanddate.com/holidays/",
+      "status": "ended",
+      "stage": "Traditional festival",
+      "source": "Lunar calendar seed",
+      "type": "holiday",
+      "description": "农历二月初二。"
+    },
+    {
+      "id": "holiday-ddl-april-fools-day-2026-2026-04-01",
+      "title": "April Fools' Day 2026",
+      "deadline": "2026-04-01T00:00:00",
+      "dateRange": "Apr 1, 2026",
+      "location": "Global",
+      "isOnline": false,
+      "tags": [
+        "International",
+        "Fun"
+      ],
+      "url": "https://www.timeanddate.com/holidays/",
+      "status": "ended",
+      "stage": "Observance",
+      "source": "International calendar seed",
+      "type": "holiday",
+      "description": "愚人节。"
+    },
+    {
+      "id": "holiday-ddl-good-friday-2026-2026-04-03",
+      "title": "Good Friday 2026",
+      "deadline": "2026-04-03T00:00:00",
+      "dateRange": "Apr 3, 2026",
+      "location": "United Kingdom",
+      "isOnline": false,
+      "tags": [
+        "UK Bank Holiday"
+      ],
+      "url": "https://www.gov.uk/bank-holidays",
+      "status": "ended",
+      "stage": "Bank holiday",
+      "source": "UK bank holidays",
+      "type": "holiday",
+      "description": "英国银行假日。"
+    },
+    {
+      "id": "holiday-ddl-清明-2026-2026-04-05",
+      "title": "清明 2026",
+      "deadline": "2026-04-05T00:00:00",
+      "dateRange": "2026-04-05",
+      "location": "China",
+      "isOnline": false,
+      "tags": [
+        "二十四节气",
+        "传统节日"
+      ],
+      "url": "https://www.gov.cn/",
+      "status": "ended",
+      "stage": "Solar term",
+      "source": "Gov / almanac seed",
+      "type": "holiday",
+      "description": "节气与传统节日。"
+    },
+    {
+      "id": "holiday-ddl-easter-monday-2026-2026-04-06",
+      "title": "Easter Monday 2026",
+      "deadline": "2026-04-06T00:00:00",
+      "dateRange": "Apr 6, 2026",
+      "location": "United Kingdom",
+      "isOnline": false,
+      "tags": [
+        "UK Bank Holiday"
+      ],
+      "url": "https://www.gov.uk/bank-holidays",
+      "status": "ended",
+      "stage": "Bank holiday",
+      "source": "UK bank holidays",
+      "type": "holiday",
+      "description": "英国银行假日。"
+    },
+    {
+      "id": "holiday-ddl-谷雨-2026-2026-04-20",
+      "title": "谷雨 2026",
+      "deadline": "2026-04-20T00:00:00",
+      "dateRange": "2026-04-20",
+      "location": "China",
+      "isOnline": false,
+      "tags": [
+        "二十四节气",
+        "节气"
+      ],
+      "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
+      "status": "ended",
+      "stage": "Solar term",
+      "source": "Hong Kong Observatory almanac seed",
+      "type": "holiday",
+      "description": "春季最后一个节气。"
+    },
+    {
+      "id": "holiday-ddl-earth-day-2026-2026-04-22",
+      "title": "Earth Day 2026",
+      "deadline": "2026-04-22T00:00:00",
+      "dateRange": "Apr 22, 2026",
+      "location": "Global",
+      "isOnline": false,
+      "tags": [
+        "Environment",
+        "International"
+      ],
+      "url": "https://www.earthday.org",
+      "status": "ended",
+      "stage": "Observance",
+      "source": "Official observance seed",
+      "type": "holiday",
+      "description": "世界地球日。"
+    },
+    {
+      "id": "holiday-ddl-showa-day-2026-2026-04-29",
+      "title": "Showa Day 2026",
+      "deadline": "2026-04-29T00:00:00",
+      "dateRange": "Apr 29, 2026",
+      "location": "Japan",
+      "isOnline": false,
+      "tags": [
+        "Japan National Holiday"
+      ],
+      "url": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html",
+      "status": "ended",
+      "stage": "National holiday",
+      "source": "Japan Cabinet Office",
+      "type": "holiday",
+      "description": "昭和之日。"
+    },
+    {
+      "id": "holiday-ddl-劳动节-2026-2026-05-01",
+      "title": "劳动节 2026",
+      "deadline": "2026-05-01T00:00:00",
+      "dateRange": "May 1, 2026",
+      "location": "China / Global",
+      "isOnline": false,
+      "tags": [
+        "法定假日",
+        "Labor Day"
+      ],
+      "url": "https://www.gov.cn/",
+      "status": "ended",
+      "stage": "Holiday",
+      "source": "Gov calendar seed",
+      "type": "holiday",
+      "description": "劳动节假期入口。"
+    },
+    {
+      "id": "holiday-ddl-constitution-memorial-day-2026-2026-05-03",
+      "title": "Constitution Memorial Day 2026",
+      "deadline": "2026-05-03T00:00:00",
+      "dateRange": "May 3, 2026",
+      "location": "Japan",
+      "isOnline": false,
+      "tags": [
+        "Japan National Holiday"
+      ],
+      "url": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html",
+      "status": "ended",
+      "stage": "National holiday",
+      "source": "Japan Cabinet Office",
+      "type": "holiday",
+      "description": "宪法纪念日。"
+    },
+    {
+      "id": "holiday-ddl-early-may-bank-holiday-2026-2026-05-04",
+      "title": "Early May Bank Holiday 2026",
+      "deadline": "2026-05-04T00:00:00",
+      "dateRange": "May 4, 2026",
+      "location": "United Kingdom",
+      "isOnline": false,
+      "tags": [
+        "UK Bank Holiday"
+      ],
+      "url": "https://www.gov.uk/bank-holidays",
+      "status": "ended",
+      "stage": "Bank holiday",
+      "source": "UK bank holidays",
+      "type": "holiday",
+      "description": "英国银行假日。"
+    },
+    {
+      "id": "holiday-ddl-greenery-day-2026-2026-05-04",
+      "title": "Greenery Day 2026",
+      "deadline": "2026-05-04T00:00:00",
+      "dateRange": "May 4, 2026",
+      "location": "Japan",
+      "isOnline": false,
+      "tags": [
+        "Japan National Holiday"
+      ],
+      "url": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html",
+      "status": "ended",
+      "stage": "National holiday",
+      "source": "Japan Cabinet Office",
+      "type": "holiday",
+      "description": "绿之日。"
+    },
+    {
+      "id": "holiday-ddl-立夏-2026-2026-05-05",
+      "title": "立夏 2026",
+      "deadline": "2026-05-05T00:00:00",
+      "dateRange": "2026-05-05",
+      "location": "China",
+      "isOnline": false,
+      "tags": [
+        "二十四节气",
+        "节气"
+      ],
+      "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
+      "status": "ended",
+      "stage": "Solar term",
+      "source": "Hong Kong Observatory almanac seed",
+      "type": "holiday",
+      "description": "夏季开始。"
+    },
+    {
+      "id": "holiday-ddl-children-s-day-2026-2026-05-05",
+      "title": "Children's Day 2026",
+      "deadline": "2026-05-05T00:00:00",
+      "dateRange": "May 5, 2026",
+      "location": "Japan",
+      "isOnline": false,
+      "tags": [
+        "Japan National Holiday"
+      ],
+      "url": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html",
+      "status": "ended",
+      "stage": "National holiday",
+      "source": "Japan Cabinet Office",
+      "type": "holiday",
+      "description": "日本儿童节。"
+    },
+    {
+      "id": "holiday-ddl-mother-s-day-2026-2026-05-10",
+      "title": "Mother's Day 2026",
+      "deadline": "2026-05-10T00:00:00",
+      "dateRange": "May 10, 2026",
+      "location": "United States / Global",
+      "isOnline": false,
+      "tags": [
+        "International",
+        "Family"
+      ],
+      "url": "https://www.timeanddate.com/holidays/",
+      "status": "ended",
+      "stage": "Observance",
+      "source": "International calendar seed",
+      "type": "holiday",
+      "description": "母亲节。"
     }
   ],
   "multimodal-ddl": [
@@ -11385,255 +11385,6 @@ export const ddlData: Record<string, DDLItem[]> = {
   ],
   "civil-service-ddl": [
     {
-      "id": "civil-service-ddl-beijing-public-recruitment-8162cde1bf",
-      "title": "2026年丰台区卫生健康委直属事业单位第二批公开招聘医疗卫生专业工作人员公告",
-      "deadline": "2026-05-13T16:00:00+08:00",
-      "dateRange": "报名截止：2026年5月13日 16:00",
-      "location": "北京",
-      "isOnline": true,
-      "tags": [
-        "事业单位",
-        "招聘",
-        "报名",
-        "医疗"
-      ],
-      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202604/t20260429_4622415.html",
-      "status": "ended",
-      "description": "北京公开招聘公告，已解析报名截止时间。",
-      "stage": "报名截止",
-      "source": "北京市人力资源和社会保障局公开招聘",
-      "type": "program",
-      "publishedAt": "2026-04-29"
-    },
-    {
-      "id": "civil-service-ddl-beijing-public-recruitment-006d73fb67",
-      "title": "房山区燕山教育委员会所属事业单位2026年第二批公开招聘教师的公告",
-      "deadline": "2026-05-14T15:00:00+08:00",
-      "dateRange": "报名截止：2026年5月14日 15:00",
-      "location": "北京",
-      "isOnline": true,
-      "tags": [
-        "事业单位",
-        "招聘",
-        "报名",
-        "教师"
-      ],
-      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260507_4639213.html",
-      "status": "ended",
-      "description": "北京公开招聘公告，已解析报名截止时间。",
-      "stage": "报名截止",
-      "source": "北京市人力资源和社会保障局公开招聘",
-      "type": "program",
-      "publishedAt": "2026-05-07"
-    },
-    {
-      "id": "civil-service-ddl-beijing-public-recruitment-3c6abc993a",
-      "title": "北京市卫生健康委员会直属事业单位2026年公开招聘工作人员公告",
-      "deadline": "2026-05-14T16:00:00+08:00",
-      "dateRange": "报名截止：2026年5月14日 16:00",
-      "location": "北京",
-      "isOnline": true,
-      "tags": [
-        "事业单位",
-        "招聘",
-        "报名",
-        "医疗"
-      ],
-      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202604/t20260430_4625871.html",
-      "status": "ended",
-      "description": "北京公开招聘公告，已解析报名截止时间。",
-      "stage": "报名截止",
-      "source": "北京市人力资源和社会保障局公开招聘",
-      "type": "program",
-      "publishedAt": "2026-04-30"
-    },
-    {
-      "id": "civil-service-ddl-beijing-public-recruitment-a8e0362052",
-      "title": "北京市大兴区卫生健康委员会2026年第二批事业单位公开招聘工作人员公告",
-      "deadline": "2026-05-14T17:00:00+08:00",
-      "dateRange": "报名截止：2026年5月14日 17:00",
-      "location": "北京",
-      "isOnline": true,
-      "tags": [
-        "事业单位",
-        "招聘",
-        "报名",
-        "医疗"
-      ],
-      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260506_4636745.html",
-      "status": "ended",
-      "description": "北京公开招聘公告，已解析报名截止时间。",
-      "stage": "报名截止",
-      "source": "北京市人力资源和社会保障局公开招聘",
-      "type": "program",
-      "publishedAt": "2026-05-06"
-    },
-    {
-      "id": "civil-service-ddl-beijing-public-recruitment-98c8f37664",
-      "title": "石景山区教育系统事业单位2026年第二次面向应届博士毕业生公开招聘公告",
-      "deadline": "2026-05-14T17:00:00+08:00",
-      "dateRange": "报名截止：2026年5月14日 17:00",
-      "location": "北京",
-      "isOnline": true,
-      "tags": [
-        "事业单位",
-        "招聘",
-        "报名",
-        "教师"
-      ],
-      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260506_4637818.html",
-      "status": "ended",
-      "description": "北京公开招聘公告，已解析报名截止时间。",
-      "stage": "报名截止",
-      "source": "北京市人力资源和社会保障局公开招聘",
-      "type": "program",
-      "publishedAt": "2026-05-06"
-    },
-    {
-      "id": "civil-service-ddl-beijing-public-recruitment-cb5b2154a3",
-      "title": "首都医科大学附属北京口腔医院2026年公开招聘（第三批）公告",
-      "deadline": "2026-05-15T23:59:00+08:00",
-      "dateRange": "报名截止：2026年5月15日 23:59",
-      "location": "北京",
-      "isOnline": true,
-      "tags": [
-        "事业单位",
-        "招聘",
-        "报名",
-        "医疗"
-      ],
-      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202604/t20260430_4625873.html",
-      "status": "ended",
-      "description": "北京公开招聘公告，已解析报名截止时间。",
-      "stage": "报名截止",
-      "source": "北京市人力资源和社会保障局公开招聘",
-      "type": "program",
-      "publishedAt": "2026-04-30"
-    },
-    {
-      "id": "civil-service-ddl-beijing-public-recruitment-abcafd562f",
-      "title": "北京财贸职业学院2026年公开招聘公告（第二批）",
-      "deadline": "2026-05-17T16:00:00+08:00",
-      "dateRange": "报名截止：2026年5月17日 16:00",
-      "location": "北京",
-      "isOnline": true,
-      "tags": [
-        "事业单位",
-        "招聘",
-        "报名"
-      ],
-      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202604/t20260430_4625674.html",
-      "status": "ended",
-      "description": "北京公开招聘公告，已解析报名截止时间。",
-      "stage": "报名截止",
-      "source": "北京市人力资源和社会保障局公开招聘",
-      "type": "program",
-      "publishedAt": "2026-04-30"
-    },
-    {
-      "id": "civil-service-ddl-beijing-public-recruitment-c956b6dcbc",
-      "title": "首都医科大学2026年度事业编制岗位公开招聘公告（第二批）",
-      "deadline": "2026-05-17T22:00:00+08:00",
-      "dateRange": "报名截止：2026年5月17日 22:00",
-      "location": "北京",
-      "isOnline": true,
-      "tags": [
-        "事业单位",
-        "招聘",
-        "报名",
-        "医疗"
-      ],
-      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202604/t20260430_4625644.html",
-      "status": "ended",
-      "description": "北京公开招聘公告，已解析报名截止时间。",
-      "stage": "报名截止",
-      "source": "北京市人力资源和社会保障局公开招聘",
-      "type": "program",
-      "publishedAt": "2026-04-30"
-    },
-    {
-      "id": "civil-service-ddl-beijing-public-recruitment-2b7549c412",
-      "title": "中共北京市石景山区委党校（区行政学院、区社会主义学院）2026年公开招聘事业单位工作人员公告",
-      "deadline": "2026-05-18T16:00:00+08:00",
-      "dateRange": "报名截止：2026年5月18日 16:00",
-      "location": "北京",
-      "isOnline": true,
-      "tags": [
-        "事业单位",
-        "招聘",
-        "报名"
-      ],
-      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260509_4642649.html",
-      "status": "ended",
-      "description": "北京公开招聘公告，已解析报名截止时间。",
-      "stage": "报名截止",
-      "source": "北京市人力资源和社会保障局公开招聘",
-      "type": "program",
-      "publishedAt": "2026-05-09"
-    },
-    {
-      "id": "civil-service-ddl-beijing-public-recruitment-a60e44f9d6",
-      "title": "​北京市体育局所属事业单位2026年上半年公开招聘运动员公告",
-      "deadline": "2026-05-18T23:59:00+08:00",
-      "dateRange": "报名截止：2026年5月18日 23:59",
-      "location": "北京",
-      "isOnline": true,
-      "tags": [
-        "事业单位",
-        "招聘",
-        "报名"
-      ],
-      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260508_4640696.html",
-      "status": "ended",
-      "description": "北京公开招聘公告，已解析报名截止时间。",
-      "stage": "报名截止",
-      "source": "北京市人力资源和社会保障局公开招聘",
-      "type": "program",
-      "publishedAt": "2026-05-08"
-    },
-    {
-      "id": "civil-service-ddl-beijing-public-recruitment-783d6b6f07",
-      "title": "首都医科大学附属北京安贞医院2026年第二批面向应届毕业生（含社会人员）公开招聘公告",
-      "deadline": "2026-05-18T23:59:00+08:00",
-      "dateRange": "报名截止：2026年5月18日 23:59",
-      "location": "北京",
-      "isOnline": true,
-      "tags": [
-        "事业单位",
-        "招聘",
-        "报名",
-        "医疗"
-      ],
-      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260507_4639284.html",
-      "status": "ended",
-      "description": "北京公开招聘公告，已解析报名截止时间。",
-      "stage": "报名截止",
-      "source": "北京市人力资源和社会保障局公开招聘",
-      "type": "program",
-      "publishedAt": "2026-05-07"
-    },
-    {
-      "id": "civil-service-ddl-beijing-public-recruitment-ccea664114",
-      "title": "石景山区教育系统事业单位2026年第二次公开招聘工作人员公告",
-      "deadline": "2026-05-19T17:00:00+08:00",
-      "dateRange": "报名截止：2026年5月19日 17:00",
-      "location": "北京",
-      "isOnline": true,
-      "tags": [
-        "事业单位",
-        "招聘",
-        "报名",
-        "教师"
-      ],
-      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260509_4643573.html",
-      "status": "ended",
-      "description": "北京公开招聘公告，已解析报名截止时间。",
-      "stage": "报名截止",
-      "source": "北京市人力资源和社会保障局公开招聘",
-      "type": "program",
-      "publishedAt": "2026-05-09"
-    },
-    {
       "id": "civil-service-ddl-beijing-public-recruitment-14a8e5c312",
       "title": "北京市东城区教育委员会所属事业单位2026年第二批公开招聘公告",
       "deadline": "2026-05-27T10:00:00+08:00",
@@ -11938,6 +11689,255 @@ export const ddlData: Record<string, DDLItem[]> = {
       "source": "陕西人事考试网",
       "type": "program",
       "isDatePlaceholder": true
+    },
+    {
+      "id": "civil-service-ddl-beijing-public-recruitment-8162cde1bf",
+      "title": "2026年丰台区卫生健康委直属事业单位第二批公开招聘医疗卫生专业工作人员公告",
+      "deadline": "2026-05-13T16:00:00+08:00",
+      "dateRange": "报名截止：2026年5月13日 16:00",
+      "location": "北京",
+      "isOnline": true,
+      "tags": [
+        "事业单位",
+        "招聘",
+        "报名",
+        "医疗"
+      ],
+      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202604/t20260429_4622415.html",
+      "status": "ended",
+      "description": "北京公开招聘公告，已解析报名截止时间。",
+      "stage": "报名截止",
+      "source": "北京市人力资源和社会保障局公开招聘",
+      "type": "program",
+      "publishedAt": "2026-04-29"
+    },
+    {
+      "id": "civil-service-ddl-beijing-public-recruitment-006d73fb67",
+      "title": "房山区燕山教育委员会所属事业单位2026年第二批公开招聘教师的公告",
+      "deadline": "2026-05-14T15:00:00+08:00",
+      "dateRange": "报名截止：2026年5月14日 15:00",
+      "location": "北京",
+      "isOnline": true,
+      "tags": [
+        "事业单位",
+        "招聘",
+        "报名",
+        "教师"
+      ],
+      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260507_4639213.html",
+      "status": "ended",
+      "description": "北京公开招聘公告，已解析报名截止时间。",
+      "stage": "报名截止",
+      "source": "北京市人力资源和社会保障局公开招聘",
+      "type": "program",
+      "publishedAt": "2026-05-07"
+    },
+    {
+      "id": "civil-service-ddl-beijing-public-recruitment-3c6abc993a",
+      "title": "北京市卫生健康委员会直属事业单位2026年公开招聘工作人员公告",
+      "deadline": "2026-05-14T16:00:00+08:00",
+      "dateRange": "报名截止：2026年5月14日 16:00",
+      "location": "北京",
+      "isOnline": true,
+      "tags": [
+        "事业单位",
+        "招聘",
+        "报名",
+        "医疗"
+      ],
+      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202604/t20260430_4625871.html",
+      "status": "ended",
+      "description": "北京公开招聘公告，已解析报名截止时间。",
+      "stage": "报名截止",
+      "source": "北京市人力资源和社会保障局公开招聘",
+      "type": "program",
+      "publishedAt": "2026-04-30"
+    },
+    {
+      "id": "civil-service-ddl-beijing-public-recruitment-a8e0362052",
+      "title": "北京市大兴区卫生健康委员会2026年第二批事业单位公开招聘工作人员公告",
+      "deadline": "2026-05-14T17:00:00+08:00",
+      "dateRange": "报名截止：2026年5月14日 17:00",
+      "location": "北京",
+      "isOnline": true,
+      "tags": [
+        "事业单位",
+        "招聘",
+        "报名",
+        "医疗"
+      ],
+      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260506_4636745.html",
+      "status": "ended",
+      "description": "北京公开招聘公告，已解析报名截止时间。",
+      "stage": "报名截止",
+      "source": "北京市人力资源和社会保障局公开招聘",
+      "type": "program",
+      "publishedAt": "2026-05-06"
+    },
+    {
+      "id": "civil-service-ddl-beijing-public-recruitment-98c8f37664",
+      "title": "石景山区教育系统事业单位2026年第二次面向应届博士毕业生公开招聘公告",
+      "deadline": "2026-05-14T17:00:00+08:00",
+      "dateRange": "报名截止：2026年5月14日 17:00",
+      "location": "北京",
+      "isOnline": true,
+      "tags": [
+        "事业单位",
+        "招聘",
+        "报名",
+        "教师"
+      ],
+      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260506_4637818.html",
+      "status": "ended",
+      "description": "北京公开招聘公告，已解析报名截止时间。",
+      "stage": "报名截止",
+      "source": "北京市人力资源和社会保障局公开招聘",
+      "type": "program",
+      "publishedAt": "2026-05-06"
+    },
+    {
+      "id": "civil-service-ddl-beijing-public-recruitment-cb5b2154a3",
+      "title": "首都医科大学附属北京口腔医院2026年公开招聘（第三批）公告",
+      "deadline": "2026-05-15T23:59:00+08:00",
+      "dateRange": "报名截止：2026年5月15日 23:59",
+      "location": "北京",
+      "isOnline": true,
+      "tags": [
+        "事业单位",
+        "招聘",
+        "报名",
+        "医疗"
+      ],
+      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202604/t20260430_4625873.html",
+      "status": "ended",
+      "description": "北京公开招聘公告，已解析报名截止时间。",
+      "stage": "报名截止",
+      "source": "北京市人力资源和社会保障局公开招聘",
+      "type": "program",
+      "publishedAt": "2026-04-30"
+    },
+    {
+      "id": "civil-service-ddl-beijing-public-recruitment-abcafd562f",
+      "title": "北京财贸职业学院2026年公开招聘公告（第二批）",
+      "deadline": "2026-05-17T16:00:00+08:00",
+      "dateRange": "报名截止：2026年5月17日 16:00",
+      "location": "北京",
+      "isOnline": true,
+      "tags": [
+        "事业单位",
+        "招聘",
+        "报名"
+      ],
+      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202604/t20260430_4625674.html",
+      "status": "ended",
+      "description": "北京公开招聘公告，已解析报名截止时间。",
+      "stage": "报名截止",
+      "source": "北京市人力资源和社会保障局公开招聘",
+      "type": "program",
+      "publishedAt": "2026-04-30"
+    },
+    {
+      "id": "civil-service-ddl-beijing-public-recruitment-c956b6dcbc",
+      "title": "首都医科大学2026年度事业编制岗位公开招聘公告（第二批）",
+      "deadline": "2026-05-17T22:00:00+08:00",
+      "dateRange": "报名截止：2026年5月17日 22:00",
+      "location": "北京",
+      "isOnline": true,
+      "tags": [
+        "事业单位",
+        "招聘",
+        "报名",
+        "医疗"
+      ],
+      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202604/t20260430_4625644.html",
+      "status": "ended",
+      "description": "北京公开招聘公告，已解析报名截止时间。",
+      "stage": "报名截止",
+      "source": "北京市人力资源和社会保障局公开招聘",
+      "type": "program",
+      "publishedAt": "2026-04-30"
+    },
+    {
+      "id": "civil-service-ddl-beijing-public-recruitment-2b7549c412",
+      "title": "中共北京市石景山区委党校（区行政学院、区社会主义学院）2026年公开招聘事业单位工作人员公告",
+      "deadline": "2026-05-18T16:00:00+08:00",
+      "dateRange": "报名截止：2026年5月18日 16:00",
+      "location": "北京",
+      "isOnline": true,
+      "tags": [
+        "事业单位",
+        "招聘",
+        "报名"
+      ],
+      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260509_4642649.html",
+      "status": "ended",
+      "description": "北京公开招聘公告，已解析报名截止时间。",
+      "stage": "报名截止",
+      "source": "北京市人力资源和社会保障局公开招聘",
+      "type": "program",
+      "publishedAt": "2026-05-09"
+    },
+    {
+      "id": "civil-service-ddl-beijing-public-recruitment-a60e44f9d6",
+      "title": "​北京市体育局所属事业单位2026年上半年公开招聘运动员公告",
+      "deadline": "2026-05-18T23:59:00+08:00",
+      "dateRange": "报名截止：2026年5月18日 23:59",
+      "location": "北京",
+      "isOnline": true,
+      "tags": [
+        "事业单位",
+        "招聘",
+        "报名"
+      ],
+      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260508_4640696.html",
+      "status": "ended",
+      "description": "北京公开招聘公告，已解析报名截止时间。",
+      "stage": "报名截止",
+      "source": "北京市人力资源和社会保障局公开招聘",
+      "type": "program",
+      "publishedAt": "2026-05-08"
+    },
+    {
+      "id": "civil-service-ddl-beijing-public-recruitment-783d6b6f07",
+      "title": "首都医科大学附属北京安贞医院2026年第二批面向应届毕业生（含社会人员）公开招聘公告",
+      "deadline": "2026-05-18T23:59:00+08:00",
+      "dateRange": "报名截止：2026年5月18日 23:59",
+      "location": "北京",
+      "isOnline": true,
+      "tags": [
+        "事业单位",
+        "招聘",
+        "报名",
+        "医疗"
+      ],
+      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260507_4639284.html",
+      "status": "ended",
+      "description": "北京公开招聘公告，已解析报名截止时间。",
+      "stage": "报名截止",
+      "source": "北京市人力资源和社会保障局公开招聘",
+      "type": "program",
+      "publishedAt": "2026-05-07"
+    },
+    {
+      "id": "civil-service-ddl-beijing-public-recruitment-ccea664114",
+      "title": "石景山区教育系统事业单位2026年第二次公开招聘工作人员公告",
+      "deadline": "2026-05-19T17:00:00+08:00",
+      "dateRange": "报名截止：2026年5月19日 17:00",
+      "location": "北京",
+      "isOnline": true,
+      "tags": [
+        "事业单位",
+        "招聘",
+        "报名",
+        "教师"
+      ],
+      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260509_4643573.html",
+      "status": "ended",
+      "description": "北京公开招聘公告，已解析报名截止时间。",
+      "stage": "报名截止",
+      "source": "北京市人力资源和社会保障局公开招聘",
+      "type": "program",
+      "publishedAt": "2026-05-09"
     }
   ],
   "game-version-ddl": [
@@ -13767,6 +13767,848 @@ export const ddlData: Record<string, DDLItem[]> = {
       "subtopic": "campus-career-fair",
       "subtopicName": "高校招聘会",
       "description": "Kansas State All-University Career Fair，官方资料列出 2026 年 9 月 22-24 日窗口。"
+    }
+  ],
+  "llm-release-ddl": [
+    {
+      "id": "kimi-k2-0711-preview",
+      "topicId": "llm-release-ddl",
+      "title": "Kimi K2 0711 Preview 发布",
+      "type": "historyEvent",
+      "date": "2025-07-11",
+      "url": "https://platform.moonshot.ai/blog/posts/changelog",
+      "source": "Moonshot AI",
+      "sourceUrl": "https://platform.moonshot.ai/blog/posts/changelog",
+      "stage": "Model release",
+      "category": "AI 发布",
+      "subtopic": "kimi",
+      "subtopicName": "Kimi",
+      "tags": [
+        "Kimi",
+        "Moonshot",
+        "K2"
+      ],
+      "description": "Kimi Open Platform changelog 记录 kimi-k2-0711-preview 正式发布。",
+      "dateRange": "2025-07-11",
+      "location": "Online",
+      "isOnline": true,
+      "status": "ended"
+    },
+    {
+      "id": "kimi-k2-0905-preview",
+      "topicId": "llm-release-ddl",
+      "title": "Kimi K2 0905 Preview 发布",
+      "type": "historyEvent",
+      "date": "2025-09-05",
+      "url": "https://platform.moonshot.ai/blog/posts/changelog",
+      "source": "Moonshot AI",
+      "sourceUrl": "https://platform.moonshot.ai/blog/posts/changelog",
+      "stage": "Model release",
+      "category": "AI 发布",
+      "subtopic": "kimi",
+      "subtopicName": "Kimi",
+      "tags": [
+        "Kimi",
+        "Moonshot",
+        "K2"
+      ],
+      "description": "Kimi Open Platform changelog 记录 kimi-k2-0905-preview 发布。",
+      "dateRange": "2025-09-05",
+      "location": "Online",
+      "isOnline": true,
+      "status": "ended"
+    },
+    {
+      "id": "kimi-k2-think",
+      "topicId": "llm-release-ddl",
+      "title": "Kimi K2 Think 发布",
+      "type": "historyEvent",
+      "date": "2025-11-06",
+      "url": "https://platform.moonshot.ai/blog/posts/changelog",
+      "source": "Moonshot AI",
+      "sourceUrl": "https://platform.moonshot.ai/blog/posts/changelog",
+      "stage": "Model release",
+      "category": "AI 发布",
+      "subtopic": "kimi",
+      "subtopicName": "Kimi",
+      "tags": [
+        "Kimi",
+        "Thinking",
+        "Moonshot"
+      ],
+      "description": "Kimi Open Platform changelog 记录 Kimi K2 Think model 及 turbo version 正式上线。",
+      "dateRange": "2025-11-06",
+      "location": "Online",
+      "isOnline": true,
+      "status": "ended"
+    },
+    {
+      "id": "deepseek-r1-release",
+      "topicId": "llm-release-ddl",
+      "title": "DeepSeek-R1 发布",
+      "type": "historyEvent",
+      "date": "2025-01-20",
+      "url": "https://api-docs.deepseek.com/news/news250120",
+      "source": "DeepSeek API Docs",
+      "sourceUrl": "https://api-docs.deepseek.com/news/news250120",
+      "stage": "Model release",
+      "category": "AI 发布",
+      "subtopic": "deepseek",
+      "subtopicName": "DeepSeek",
+      "tags": [
+        "DeepSeek",
+        "R1",
+        "reasoning"
+      ],
+      "description": "DeepSeek 官方 API News 记录 DeepSeek-R1 上线。",
+      "dateRange": "2025-01-20",
+      "location": "Online",
+      "isOnline": true,
+      "status": "ended"
+    },
+    {
+      "id": "deepseek-r1-0528",
+      "topicId": "llm-release-ddl",
+      "title": "DeepSeek-R1-0528 更新",
+      "type": "historyEvent",
+      "date": "2025-05-28",
+      "url": "https://api-docs.deepseek.com/news/news250528",
+      "source": "DeepSeek API Docs",
+      "sourceUrl": "https://api-docs.deepseek.com/news/news250528",
+      "stage": "Model update",
+      "category": "AI 发布",
+      "subtopic": "deepseek",
+      "subtopicName": "DeepSeek",
+      "tags": [
+        "DeepSeek",
+        "R1",
+        "update"
+      ],
+      "description": "DeepSeek 官方 API News 记录 R1 0528 版本更新。",
+      "dateRange": "2025-05-28",
+      "location": "Online",
+      "isOnline": true,
+      "status": "ended"
+    },
+    {
+      "id": "deepseek-v3-2-release",
+      "topicId": "llm-release-ddl",
+      "title": "DeepSeek-V3.2 发布",
+      "type": "historyEvent",
+      "date": "2025-12-01",
+      "url": "https://api-docs.deepseek.com/news/news251201",
+      "source": "DeepSeek API Docs",
+      "sourceUrl": "https://api-docs.deepseek.com/news/news251201",
+      "stage": "Model release",
+      "category": "AI 发布",
+      "subtopic": "deepseek",
+      "subtopicName": "DeepSeek",
+      "tags": [
+        "DeepSeek",
+        "V3.2",
+        "release"
+      ],
+      "description": "DeepSeek 官方 API News 记录 DeepSeek-V3.2 发布。",
+      "dateRange": "2025-12-01",
+      "location": "Online",
+      "isOnline": true,
+      "status": "ended"
+    },
+    {
+      "id": "glm-4-5-release",
+      "topicId": "llm-release-ddl",
+      "title": "GLM-4.5 发布",
+      "type": "historyEvent",
+      "date": "2025-07-28",
+      "url": "https://z.ai/blog/glm-4.5",
+      "source": "Z.ai",
+      "sourceUrl": "https://z.ai/blog/glm-4.5",
+      "stage": "Model release",
+      "category": "AI 发布",
+      "subtopic": "glm",
+      "subtopicName": "GLM",
+      "tags": [
+        "GLM",
+        "Z.ai",
+        "agent"
+      ],
+      "description": "Z.ai 官方博客发布 GLM-4.5。",
+      "dateRange": "2025-07-28",
+      "location": "Online",
+      "isOnline": true,
+      "status": "ended"
+    },
+    {
+      "id": "glm-4-6-release",
+      "topicId": "llm-release-ddl",
+      "title": "GLM-4.6 发布",
+      "type": "historyEvent",
+      "date": "2025-09-30",
+      "url": "https://z.ai/blog/glm-4.6",
+      "source": "Z.ai",
+      "sourceUrl": "https://z.ai/blog/glm-4.6",
+      "stage": "Model release",
+      "category": "AI 发布",
+      "subtopic": "glm",
+      "subtopicName": "GLM",
+      "tags": [
+        "GLM",
+        "Z.ai",
+        "coding"
+      ],
+      "description": "Z.ai 官方博客发布 GLM-4.6。",
+      "dateRange": "2025-09-30",
+      "location": "Online",
+      "isOnline": true,
+      "status": "ended"
+    },
+    {
+      "id": "minimax-m2-release",
+      "topicId": "llm-release-ddl",
+      "title": "MiniMax M2 发布",
+      "type": "historyEvent",
+      "date": "2025-10-27",
+      "url": "https://www.minimaxi.com/en/news/minimax-m2",
+      "source": "MiniMax",
+      "sourceUrl": "https://www.minimaxi.com/en/news/minimax-m2",
+      "stage": "Model release",
+      "category": "AI 发布",
+      "subtopic": "minimax",
+      "subtopicName": "MiniMax",
+      "tags": [
+        "MiniMax",
+        "M2",
+        "agent"
+      ],
+      "description": "MiniMax 官方 News 发布 MiniMax M2 与 Agent。",
+      "dateRange": "2025-10-27",
+      "location": "Online",
+      "isOnline": true,
+      "status": "ended"
+    },
+    {
+      "id": "kimi-next-major-forecast-2026",
+      "topicId": "llm-release-ddl",
+      "title": "Kimi 下一代主力模型预测窗口",
+      "type": "forecastWindow",
+      "isDatePlaceholder": true,
+      "status": "unannounced",
+      "lastOfficialDate": "2025-11-06",
+      "basisEvents": [
+        "kimi-k2-0711-preview",
+        "kimi-k2-0905-preview",
+        "kimi-k2-think"
+      ],
+      "estimatedNextWindow": {
+        "start": "2026-06-16",
+        "end": "2026-07-14"
+      },
+      "confidence": "medium",
+      "url": "https://platform.moonshot.ai/blog/posts/changelog",
+      "source": "Moonshot AI",
+      "sourceUrl": "https://platform.moonshot.ai/blog/posts/changelog",
+      "stage": "Forecast only",
+      "category": "AI 发布",
+      "subtopic": "kimi",
+      "subtopicName": "Kimi",
+      "tags": [
+        "Kimi",
+        "预测窗口",
+        "未官宣"
+      ],
+      "description": "预测不是官方发布时间，待 Moonshot AI 正式发布后再转为历史节点或官方节点。",
+      "dateRange": "2026-06-16 - 2026-07-14",
+      "location": "Online",
+      "isOnline": true
+    },
+    {
+      "id": "deepseek-next-major-forecast-2026",
+      "topicId": "llm-release-ddl",
+      "title": "DeepSeek 下一代主力模型预测窗口",
+      "type": "forecastWindow",
+      "isDatePlaceholder": true,
+      "status": "unannounced",
+      "lastOfficialDate": "2025-12-01",
+      "basisEvents": [
+        "deepseek-r1-release",
+        "deepseek-r1-0528",
+        "deepseek-v3-2-release"
+      ],
+      "estimatedNextWindow": {
+        "start": "2026-04-06",
+        "end": "2026-06-09"
+      },
+      "confidence": "medium",
+      "url": "https://api-docs.deepseek.com/news/news251201",
+      "source": "DeepSeek API Docs",
+      "sourceUrl": "https://api-docs.deepseek.com/news/news251201",
+      "stage": "Forecast only",
+      "category": "AI 发布",
+      "subtopic": "deepseek",
+      "subtopicName": "DeepSeek",
+      "tags": [
+        "DeepSeek",
+        "预测窗口",
+        "未官宣"
+      ],
+      "description": "预测不是官方发布时间，待 DeepSeek 官方 News 更新后再替换。",
+      "dateRange": "2026-04-06 - 2026-06-09",
+      "location": "Online",
+      "isOnline": true
+    },
+    {
+      "id": "glm-next-major-forecast-2026",
+      "topicId": "llm-release-ddl",
+      "title": "GLM 下一代主力模型预测窗口",
+      "type": "forecastWindow",
+      "isDatePlaceholder": true,
+      "status": "unannounced",
+      "lastOfficialDate": "2025-09-30",
+      "basisEvents": [
+        "glm-4-5-release",
+        "glm-4-6-release"
+      ],
+      "estimatedNextWindow": {
+        "start": "2026-05-30",
+        "end": "2026-06-27"
+      },
+      "confidence": "low",
+      "url": "https://z.ai/blog/glm-4.6",
+      "source": "Z.ai",
+      "sourceUrl": "https://z.ai/blog/glm-4.6",
+      "stage": "Forecast only",
+      "category": "AI 发布",
+      "subtopic": "glm",
+      "subtopicName": "GLM",
+      "tags": [
+        "GLM",
+        "预测窗口",
+        "未官宣"
+      ],
+      "description": "预测不是官方发布时间，首版样本仍少，需要继续补官方历史节点。",
+      "dateRange": "2026-05-30 - 2026-06-27",
+      "location": "Online",
+      "isOnline": true
+    },
+    {
+      "id": "minimax-next-major-forecast-2026",
+      "topicId": "llm-release-ddl",
+      "title": "MiniMax 下一代主力模型预测窗口",
+      "type": "forecastWindow",
+      "isDatePlaceholder": true,
+      "status": "unannounced",
+      "lastOfficialDate": "2025-10-27",
+      "basisEvents": [
+        "minimax-m2-release"
+      ],
+      "estimatedNextWindow": {
+        "start": "2026-05-01",
+        "end": "2026-09-30"
+      },
+      "confidence": "low",
+      "url": "https://www.minimaxi.com/en/news/minimax-m2",
+      "source": "MiniMax",
+      "sourceUrl": "https://www.minimaxi.com/en/news/minimax-m2",
+      "stage": "Forecast only",
+      "category": "AI 发布",
+      "subtopic": "minimax",
+      "subtopicName": "MiniMax",
+      "tags": [
+        "MiniMax",
+        "预测窗口",
+        "未官宣"
+      ],
+      "description": "预测不是官方发布时间，后续以 MiniMax 官方 News/API release notes 为准。",
+      "dateRange": "2026-05-01 - 2026-09-30",
+      "location": "Online",
+      "isOnline": true
+    }
+  ],
+  "nsfc-ddl": [
+    {
+      "id": "nsfc-2026-lump-sum-policy-filing",
+      "topicId": "nsfc-ddl",
+      "title": "2026 年度包干制管理规定备案",
+      "type": "officialDeadline",
+      "deadline": "2026-06-30T23:59:00+08:00",
+      "url": "https://www.nsfc.gov.cn/p1/3381/2824/99667.html",
+      "source": "国家自然科学基金委员会",
+      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/99667.html",
+      "status": "upcoming",
+      "stage": "Institution filing",
+      "category": "科研基金",
+      "subtopic": "nsfc-management",
+      "subtopicName": "基金管理",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "NSFC",
+        "管理规定",
+        "包干制"
+      ],
+      "description": "2026 年度通告要求依托单位于 2026 年 6 月底前将包干制项目经费管理规定报自然科学基金委备案。",
+      "dateRange": "2026-06-30"
+    },
+    {
+      "id": "nsfc-2026-application-window",
+      "topicId": "nsfc-ddl",
+      "title": "2026 年度集中接收项目申请",
+      "type": "historyEvent",
+      "date": "2026-03-20",
+      "url": "https://www.nsfc.gov.cn/p1/3381/2824/99667.html",
+      "source": "国家自然科学基金委员会",
+      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/99667.html",
+      "stage": "Application deadline",
+      "category": "科研基金",
+      "subtopic": "nsfc-application",
+      "subtopicName": "集中接收",
+      "dateRange": "2026-03-01 - 2026-03-20 16:00",
+      "tags": [
+        "NSFC",
+        "集中接收",
+        "申请截止"
+      ],
+      "description": "2026 年度集中接收项目申请于 2026 年 3 月 1 日开始，3 月 20 日 16 时截止。",
+      "location": "Online",
+      "isOnline": true,
+      "status": "ended"
+    },
+    {
+      "id": "nsfc-2026-preliminary-review-result",
+      "topicId": "nsfc-ddl",
+      "title": "2026 年度申请初审结果公布节点",
+      "type": "historyEvent",
+      "date": "2026-04-29",
+      "url": "https://www.nsfc.gov.cn/p1/3381/2824/99667.html",
+      "source": "国家自然科学基金委员会",
+      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/99667.html",
+      "stage": "Preliminary review",
+      "category": "科研基金",
+      "subtopic": "nsfc-review",
+      "subtopicName": "评审结果",
+      "tags": [
+        "NSFC",
+        "初审结果",
+        "评审"
+      ],
+      "description": "2026 年度通告写明自然科学基金委于 2026 年 4 月 29 日前公布申请项目初审结果。",
+      "dateRange": "2026-04-29",
+      "location": "Online",
+      "isOnline": true,
+      "status": "ended"
+    },
+    {
+      "id": "nsfc-2025-application-window",
+      "topicId": "nsfc-ddl",
+      "title": "2025 年度集中接收项目申请",
+      "type": "historyEvent",
+      "date": "2025-03-20",
+      "url": "https://www.nsfc.gov.cn/p1/3381/2824/66780.html",
+      "source": "国家自然科学基金委员会",
+      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/66780.html",
+      "stage": "Application deadline",
+      "category": "科研基金",
+      "subtopic": "nsfc-application",
+      "subtopicName": "集中接收",
+      "dateRange": "2025-03-01 - 2025-03-20 16:00",
+      "tags": [
+        "NSFC",
+        "集中接收",
+        "申请截止"
+      ],
+      "description": "2025 年度集中接收项目申请于 2025 年 3 月 1 日开始，3 月 20 日 16 时截止。",
+      "location": "Online",
+      "isOnline": true,
+      "status": "ended"
+    },
+    {
+      "id": "nsfc-2024-review-result-query",
+      "topicId": "nsfc-ddl",
+      "title": "2024 年度集中接收申请项目评审结果公布",
+      "type": "historyEvent",
+      "date": "2024-08-23",
+      "url": "https://www.nsfc.gov.cn/p1/3381/2824/66854.html",
+      "source": "国家自然科学基金委员会",
+      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/66854.html",
+      "stage": "Review result",
+      "category": "科研基金",
+      "subtopic": "nsfc-review",
+      "subtopicName": "评审结果",
+      "tags": [
+        "NSFC",
+        "评审结果",
+        "资助结果"
+      ],
+      "description": "自然科学基金委于 2024 年 8 月 23 日发布集中接收申请项目评审结果查询和复审申请有关事项通告。",
+      "dateRange": "2024-08-23",
+      "location": "Online",
+      "isOnline": true,
+      "status": "ended"
+    },
+    {
+      "id": "nsfc-2024-review-recheck-deadline",
+      "topicId": "nsfc-ddl",
+      "title": "2024 年度评审结果复审申请截止",
+      "type": "historyEvent",
+      "date": "2024-09-06",
+      "url": "https://www.nsfc.gov.cn/p1/3381/2824/66854.html",
+      "source": "国家自然科学基金委员会",
+      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/66854.html",
+      "stage": "Review recheck deadline",
+      "category": "科研基金",
+      "subtopic": "nsfc-review",
+      "subtopicName": "评审结果",
+      "tags": [
+        "NSFC",
+        "复审",
+        "评审结果"
+      ],
+      "description": "2024 年度项目评审结果复审申请提交截止时间为 2024 年 9 月 6 日 16 时。",
+      "dateRange": "2024-09-06",
+      "location": "Online",
+      "isOnline": true,
+      "status": "ended"
+    },
+    {
+      "id": "nsfc-2027-application-forecast",
+      "topicId": "nsfc-ddl",
+      "title": "2027 年度集中接收申请预测窗口",
+      "type": "forecastWindow",
+      "isDatePlaceholder": true,
+      "status": "unannounced",
+      "lastOfficialDate": "2026-03-20",
+      "basisEvents": [
+        "nsfc-2025-application-window",
+        "nsfc-2026-application-window"
+      ],
+      "estimatedNextWindow": {
+        "start": "2027-03-01",
+        "end": "2027-03-20"
+      },
+      "confidence": "medium",
+      "url": "https://www.nsfc.gov.cn/",
+      "source": "国家自然科学基金委员会",
+      "sourceUrl": "https://www.nsfc.gov.cn/",
+      "stage": "Forecast only",
+      "category": "科研基金",
+      "subtopic": "nsfc-application",
+      "subtopicName": "集中接收",
+      "tags": [
+        "NSFC",
+        "预测窗口",
+        "集中接收"
+      ],
+      "description": "预测窗口不等于官方截止日；待 2027 年官方通告发布后替换为正式 DDL。",
+      "dateRange": "2027-03-01 - 2027-03-20",
+      "location": "Online",
+      "isOnline": true
+    },
+    {
+      "id": "nsfc-2026-review-result-forecast",
+      "topicId": "nsfc-ddl",
+      "title": "2026 年度集中接收项目评审结果预测窗口",
+      "type": "forecastWindow",
+      "isDatePlaceholder": true,
+      "status": "unannounced",
+      "lastOfficialDate": "2024-08-23",
+      "basisEvents": [
+        "nsfc-2024-review-result-query"
+      ],
+      "estimatedNextWindow": {
+        "start": "2026-08-15",
+        "end": "2026-09-15"
+      },
+      "confidence": "low",
+      "url": "https://www.nsfc.gov.cn/",
+      "source": "国家自然科学基金委员会",
+      "sourceUrl": "https://www.nsfc.gov.cn/",
+      "stage": "Forecast only",
+      "category": "科研基金",
+      "subtopic": "nsfc-review",
+      "subtopicName": "评审结果",
+      "tags": [
+        "NSFC",
+        "预测窗口",
+        "评审结果"
+      ],
+      "description": "展示用户关心的评审结果节奏，但明确样本不足且不进入官方 DDL 统计。",
+      "dateRange": "2026-08-15 - 2026-09-15",
+      "location": "Online",
+      "isOnline": true
+    }
+  ],
+  "cas-partition-ddl": [
+    {
+      "id": "cas-partition-2026-stop-update-statement",
+      "topicId": "cas-partition-ddl",
+      "title": "中科院文献情报中心声明：2026 年起不再更新发布期刊分区表",
+      "type": "historyEvent",
+      "date": "2026-03-27",
+      "url": "https://www.las.cas.cn/news/tzgg/202603/t20260327_8178738.html",
+      "source": "中国科学院文献情报中心",
+      "sourceUrl": "https://www.las.cas.cn/news/tzgg/202603/t20260327_8178738.html",
+      "stage": "Official statement",
+      "category": "期刊评价",
+      "subtopic": "cas-policy",
+      "subtopicName": "官方声明",
+      "tags": [
+        "CAS",
+        "期刊分区",
+        "停更"
+      ],
+      "description": "官方声明明确自 2026 年起不再更新与发布期刊分区表，任何其他机构发布的期刊分区表均与文献中心无关。",
+      "dateRange": "2026-03-27",
+      "location": "Online",
+      "isOnline": true,
+      "status": "ended"
+    },
+    {
+      "id": "cas-partition-history-data-policy",
+      "topicId": "cas-partition-ddl",
+      "title": "中科院期刊分区历史数据查询与授权边界",
+      "type": "historyEvent",
+      "date": "2026-03-27",
+      "url": "https://www.fenqubiao.com/",
+      "source": "中科院期刊分区表在线平台",
+      "sourceUrl": "https://www.las.cas.cn/news/tzgg/202603/t20260327_8178738.html",
+      "stage": "Access boundary",
+      "category": "期刊评价",
+      "subtopic": "cas-access",
+      "subtopicName": "历史数据",
+      "tags": [
+        "CAS",
+        "历史轨迹",
+        "授权数据"
+      ],
+      "description": "公开仓库只记录官方平台与官方声明；具体期刊历年分区变化需通过机构授权、历史数据查询或合规导入维护。",
+      "dateRange": "2026-03-27",
+      "location": "Online",
+      "isOnline": true,
+      "status": "ended"
+    }
+  ],
+  "jcr-impact-factor-ddl": [
+    {
+      "id": "jcr-2026-official-webinar",
+      "topicId": "jcr-impact-factor-ddl",
+      "title": "2026 Journal Citation Reports 官方说明活动",
+      "type": "officialDeadline",
+      "deadline": "2026-06-30T11:00:00+03:00",
+      "url": "https://clarivate.com/academia-government/events/journal-citation-reports-2026-2/",
+      "source": "Clarivate",
+      "sourceUrl": "https://clarivate.com/academia-government/events/journal-citation-reports-2026-2/",
+      "status": "upcoming",
+      "stage": "JCR 2026 webinar",
+      "category": "期刊评价",
+      "subtopic": "jcr-release",
+      "subtopicName": "JCR 年度发布",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "JCR",
+        "Clarivate",
+        "2026"
+      ],
+      "description": "Clarivate 官方培训页列出 2026 Journal Citation Reports 相关说明活动；JCR 具体数据仍以 Clarivate 正式发布为准。",
+      "dateRange": "2026-06-30"
+    },
+    {
+      "id": "jcr-2025-release",
+      "topicId": "jcr-impact-factor-ddl",
+      "title": "2025 Journal Citation Reports 发布",
+      "type": "historyEvent",
+      "date": "2025-06-18",
+      "url": "https://clarivate.com/news/clarivate-unveils-the-2025-journal-citation-reports/",
+      "source": "Clarivate",
+      "sourceUrl": "https://clarivate.com/news/clarivate-unveils-the-2025-journal-citation-reports/",
+      "stage": "JCR release",
+      "category": "期刊评价",
+      "subtopic": "jcr-release",
+      "subtopicName": "JCR 年度发布",
+      "tags": [
+        "JCR",
+        "影响因子",
+        "2025"
+      ],
+      "description": "Clarivate 于 2025 年 6 月 18 日发布 2025 Journal Citation Reports。",
+      "dateRange": "2025-06-18",
+      "location": "Online",
+      "isOnline": true,
+      "status": "ended"
+    },
+    {
+      "id": "jcr-2024-release",
+      "topicId": "jcr-impact-factor-ddl",
+      "title": "2024 Journal Citation Reports 发布",
+      "type": "historyEvent",
+      "date": "2024-06-20",
+      "url": "https://clarivate.com/news/clarivate-reveals-worlds-leading-and-trusted-journals-with-the-2024-journal-citation-reports/",
+      "source": "Clarivate",
+      "sourceUrl": "https://clarivate.com/news/clarivate-reveals-worlds-leading-and-trusted-journals-with-the-2024-journal-citation-reports/",
+      "stage": "JCR release",
+      "category": "期刊评价",
+      "subtopic": "jcr-release",
+      "subtopicName": "JCR 年度发布",
+      "tags": [
+        "JCR",
+        "影响因子",
+        "2024"
+      ],
+      "description": "Clarivate 于 2024 年 6 月 20 日发布 2024 Journal Citation Reports。",
+      "dateRange": "2024-06-20",
+      "location": "Online",
+      "isOnline": true,
+      "status": "ended"
+    },
+    {
+      "id": "jcr-2024-correction-record",
+      "topicId": "jcr-impact-factor-ddl",
+      "title": "2024 JCR 后续更正记录",
+      "type": "historyEvent",
+      "date": "2024-10-01",
+      "url": "https://journalcitationreports.zendesk.com/hc/en-gb/articles/28350104816785-2024",
+      "source": "Clarivate JCR Support",
+      "sourceUrl": "https://journalcitationreports.zendesk.com/hc/en-gb/articles/28350104816785-2024",
+      "stage": "Correction record",
+      "category": "期刊评价",
+      "subtopic": "jcr-corrections",
+      "subtopicName": "后续修正",
+      "tags": [
+        "JCR",
+        "数据修正",
+        "reload"
+      ],
+      "description": "JCR 支持页记录了 2024 JCR 发布后的缺失材料补充和少量指标更正，说明后续修正需要单独追踪。",
+      "dateRange": "2024-10-01",
+      "location": "Online",
+      "isOnline": true,
+      "status": "ended"
+    },
+    {
+      "id": "jcr-2026-release-forecast",
+      "topicId": "jcr-impact-factor-ddl",
+      "title": "2026 JCR 年度发布预测窗口",
+      "type": "forecastWindow",
+      "isDatePlaceholder": true,
+      "status": "unannounced",
+      "lastOfficialDate": "2025-06-18",
+      "basisEvents": [
+        "jcr-2024-release",
+        "jcr-2025-release"
+      ],
+      "estimatedNextWindow": {
+        "start": "2026-06-15",
+        "end": "2026-06-30"
+      },
+      "confidence": "medium",
+      "url": "https://clarivate.com/academia-government/scientific-and-academic-research/research-funding-analytics/journal-citation-reports/",
+      "source": "Clarivate",
+      "sourceUrl": "https://clarivate.com/academia-government/scientific-and-academic-research/research-funding-analytics/journal-citation-reports/",
+      "stage": "Forecast only",
+      "category": "期刊评价",
+      "subtopic": "jcr-release",
+      "subtopicName": "JCR 年度发布",
+      "tags": [
+        "JCR",
+        "预测窗口",
+        "Clarivate"
+      ],
+      "description": "预测窗口不进入官方倒计时；待 Clarivate 正式发布后替换为正式历史/发布节点。",
+      "dateRange": "2026-06-15 - 2026-06-30",
+      "location": "Online",
+      "isOnline": true
+    },
+    {
+      "id": "jcr-2026-correction-watch-window",
+      "topicId": "jcr-impact-factor-ddl",
+      "title": "2026 JCR 后续修正观察窗口",
+      "type": "forecastWindow",
+      "isDatePlaceholder": true,
+      "status": "watching",
+      "lastOfficialDate": "2024-10-01",
+      "basisEvents": [
+        "jcr-2024-correction-record"
+      ],
+      "estimatedNextWindow": {
+        "start": "2026-10-01",
+        "end": "2026-11-30"
+      },
+      "confidence": "low",
+      "url": "https://journalcitationreports.zendesk.com/",
+      "source": "Clarivate JCR Support",
+      "sourceUrl": "https://journalcitationreports.zendesk.com/hc/en-gb/articles/28350104816785-2024",
+      "stage": "Watch window",
+      "category": "期刊评价",
+      "subtopic": "jcr-corrections",
+      "subtopicName": "后续修正",
+      "tags": [
+        "JCR",
+        "修正观察",
+        "低置信度"
+      ],
+      "description": "用于提醒维护者检查 JCR 官方支持页是否出现 reload 或 correction，不显示为正式 DDL。",
+      "dateRange": "2026-10-01 - 2026-11-30",
+      "location": "Online",
+      "isOnline": true
+    }
+  ],
+  "journal-volume-ddl": [
+    {
+      "id": "journal-volume-openalex-snapshot",
+      "topicId": "journal-volume-ddl",
+      "title": "OpenAlex 期刊发文量快照",
+      "type": "historyEvent",
+      "date": "2026-05-24",
+      "url": "https://docs.openalex.org/api-entities/sources/source-object",
+      "source": "OpenAlex",
+      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
+      "stage": "Metadata snapshot",
+      "category": "期刊评价",
+      "subtopic": "openalex-volume",
+      "subtopicName": "开放元数据发文量",
+      "tags": [
+        "OpenAlex",
+        "发文量",
+        "开放元数据"
+      ],
+      "description": "首版使用 OpenAlex Source object 的 works_count 与 counts_by_year 字段统计期刊当前发文量和年度趋势。",
+      "dateRange": "2026-05-24",
+      "location": "Online",
+      "isOnline": true,
+      "status": "ended"
+    },
+    {
+      "id": "journal-volume-weekly-refresh-window",
+      "topicId": "journal-volume-ddl",
+      "title": "期刊发文量每周刷新窗口",
+      "type": "forecastWindow",
+      "isDatePlaceholder": true,
+      "status": "maintenance",
+      "lastOfficialDate": "2026-05-24",
+      "basisEvents": [
+        "journal-volume-openalex-snapshot"
+      ],
+      "estimatedNextWindow": {
+        "start": "2026-05-25",
+        "end": "2026-05-31"
+      },
+      "confidence": "low",
+      "url": "https://docs.openalex.org/api-entities/sources/source-object",
+      "source": "OpenAlex",
+      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
+      "stage": "Maintenance forecast",
+      "category": "期刊评价",
+      "subtopic": "openalex-volume",
+      "subtopicName": "开放元数据发文量",
+      "tags": [
+        "OpenAlex",
+        "刷新窗口",
+        "低置信度"
+      ],
+      "description": "用于提醒维护链路刷新开放元数据，不进入官方 DDL 统计。",
+      "dateRange": "2026-05-25 - 2026-05-31",
+      "location": "Online",
+      "isOnline": true
     }
   ]
 };

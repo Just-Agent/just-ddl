@@ -1,0 +1,592 @@
+{
+  "generatedAt": "2026-05-24T04:20:10.427Z",
+  "dataVersion": "155270fdf80f9782",
+  "topic": {
+    "id": "security-ddl",
+    "name": "Security & CTF",
+    "description": "CTF、网络安全会议、漏洞赏金、攻防演练和安全研究专题截止日",
+    "icon": "Code2",
+    "color": "#DC2626",
+    "repo": "Just-Agent/security-ddl",
+    "site": "https://just-agent.github.io/security-ddl/",
+    "category": "安全开源",
+    "tags": [
+      "CTF",
+      "security",
+      "bug bounty"
+    ],
+    "itemCount": 28,
+    "status": "published"
+  },
+  "items": [
+    {
+      "id": "ctftime-3277",
+      "topicId": "security-ddl",
+      "title": "Hack for a Change 2026 May: UN SDG 1",
+      "deadline": "2026-05-19T00:00:00Z",
+      "dateRange": "19 May, 00:00 UTC — 21 May 2026, 23:59 UTC",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "CTF",
+        "security",
+        "Jeopardy"
+      ],
+      "url": "https://ctftime.org/event/3277",
+      "status": "upcoming",
+      "stage": "upcoming",
+      "source": "ctftime",
+      "type": "contest",
+      "description": "Parsed from CTFtime upcoming events. Deadline represents the event start time, not a registration deadline."
+    },
+    {
+      "id": "ctftime-3205",
+      "topicId": "security-ddl",
+      "title": "DEF CON CTF Qualifier 2026",
+      "deadline": "2026-05-22T21:00:00Z",
+      "dateRange": "22 May, 21:00 UTC — 24 May 2026, 21:00 UTC",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "CTF",
+        "security",
+        "Jeopardy"
+      ],
+      "url": "https://ctftime.org/event/3205",
+      "status": "upcoming",
+      "stage": "upcoming",
+      "source": "ctftime",
+      "type": "contest",
+      "description": "Parsed from CTFtime upcoming events. Deadline represents the event start time, not a registration deadline."
+    },
+    {
+      "id": "ctftime-3284",
+      "topicId": "security-ddl",
+      "title": "Hack4Krak CTF 2026 - High School Edition",
+      "deadline": "2026-05-23T08:00:00Z",
+      "dateRange": "23 May, 08:00 UTC — 24 May 2026, 14:00 UTC",
+      "location": "Poland, Cracow",
+      "isOnline": false,
+      "tags": [
+        "CTF",
+        "security",
+        "Jeopardy"
+      ],
+      "url": "https://ctftime.org/event/3284",
+      "status": "upcoming",
+      "stage": "upcoming",
+      "source": "ctftime",
+      "type": "contest",
+      "description": "Parsed from CTFtime upcoming events. Deadline represents the event start time, not a registration deadline."
+    },
+    {
+      "id": "ctftime-3136",
+      "topicId": "security-ddl",
+      "title": "SecLeaf Q2 CTF 2026",
+      "deadline": "2026-05-23T14:00:00Z",
+      "dateRange": "23 May, 14:00 UTC — 24 May 2026, 14:00 UTC",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "CTF",
+        "security",
+        "Jeopardy"
+      ],
+      "url": "https://ctftime.org/event/3136",
+      "status": "upcoming",
+      "stage": "upcoming",
+      "source": "ctftime",
+      "type": "contest",
+      "description": "Parsed from CTFtime upcoming events. Deadline represents the event start time, not a registration deadline."
+    },
+    {
+      "id": "ctftime-3271",
+      "topicId": "security-ddl",
+      "title": "ZEROBREACH CTF",
+      "deadline": "2026-05-24T04:30:00Z",
+      "dateRange": "24 May, 04:30 UTC — 24 May 2026, 16:30 UTC",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "CTF",
+        "security",
+        "Jeopardy"
+      ],
+      "url": "https://ctftime.org/event/3271",
+      "status": "upcoming",
+      "stage": "upcoming",
+      "source": "ctftime",
+      "type": "contest",
+      "description": "Parsed from CTFtime upcoming events. Deadline represents the event start time, not a registration deadline."
+    },
+    {
+      "id": "ctftime-3270",
+      "topicId": "security-ddl",
+      "title": "Hackअस्त्र",
+      "deadline": "2026-05-29T10:15:00Z",
+      "dateRange": "29 May, 10:15 UTC — 30 May 2026, 17:15 UTC",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "CTF",
+        "security",
+        "Jeopardy"
+      ],
+      "url": "https://ctftime.org/event/3270",
+      "status": "upcoming",
+      "stage": "upcoming",
+      "source": "ctftime",
+      "type": "contest",
+      "description": "Parsed from CTFtime upcoming events. Deadline represents the event start time, not a registration deadline."
+    },
+    {
+      "id": "ctftime-3174",
+      "topicId": "security-ddl",
+      "title": "Hardwear.io USA 2026 Hardware CTF",
+      "deadline": "2026-05-29T17:00:00Z",
+      "dateRange": "29 May, 17:00 UTC — 30 May 2026, 20:50 UTC",
+      "location": "US, Santa Clara",
+      "isOnline": false,
+      "tags": [
+        "CTF",
+        "security",
+        "Jeopardy"
+      ],
+      "url": "https://ctftime.org/event/3174",
+      "status": "upcoming",
+      "stage": "upcoming",
+      "source": "ctftime",
+      "type": "contest",
+      "description": "Parsed from CTFtime upcoming events. Deadline represents the event start time, not a registration deadline."
+    },
+    {
+      "id": "ctftime-3209",
+      "topicId": "security-ddl",
+      "title": "THEM?!CTF 2026",
+      "deadline": "2026-05-29T18:00:00Z",
+      "dateRange": "29 May, 18:00 UTC — 31 May 2026, 18:00 UTC",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "CTF",
+        "security",
+        "Jeopardy"
+      ],
+      "url": "https://ctftime.org/event/3209",
+      "status": "upcoming",
+      "stage": "upcoming",
+      "source": "ctftime",
+      "type": "contest",
+      "description": "Parsed from CTFtime upcoming events. Deadline represents the event start time, not a registration deadline."
+    },
+    {
+      "id": "ctftime-3247",
+      "topicId": "security-ddl",
+      "title": "BYUCTF 2026",
+      "deadline": "2026-05-30T00:00:00Z",
+      "dateRange": "30 May, 00:00 UTC — 31 May 2026, 00:00 UTC",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "CTF",
+        "security",
+        "Jeopardy"
+      ],
+      "url": "https://ctftime.org/event/3247",
+      "status": "upcoming",
+      "stage": "upcoming",
+      "source": "ctftime",
+      "type": "contest",
+      "description": "Parsed from CTFtime upcoming events. Deadline represents the event start time, not a registration deadline."
+    },
+    {
+      "id": "ctftime-3178",
+      "topicId": "security-ddl",
+      "title": "Grey Cat The Flag 2026 Qualifiers",
+      "deadline": "2026-05-30T02:00:00Z",
+      "dateRange": "30 May, 02:00 UTC — 31 May 2026, 02:00 UTC",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "CTF",
+        "security",
+        "Jeopardy"
+      ],
+      "url": "https://ctftime.org/event/3178",
+      "status": "upcoming",
+      "stage": "upcoming",
+      "source": "ctftime",
+      "type": "contest",
+      "description": "Parsed from CTFtime upcoming events. Deadline represents the event start time, not a registration deadline."
+    },
+    {
+      "id": "ctftime-3220",
+      "topicId": "security-ddl",
+      "title": "Pwn2Play Open CTF",
+      "deadline": "2026-05-30T09:00:00Z",
+      "dateRange": "30 May, 09:00 UTC — 30 May 2026, 18:00 UTC",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "CTF",
+        "security",
+        "Jeopardy"
+      ],
+      "url": "https://ctftime.org/event/3220",
+      "status": "upcoming",
+      "stage": "upcoming",
+      "source": "ctftime",
+      "type": "contest",
+      "description": "Parsed from CTFtime upcoming events. Deadline represents the event start time, not a registration deadline."
+    },
+    {
+      "id": "ctftime-3243",
+      "topicId": "security-ddl",
+      "title": "WhiteHats TrojanCTF 2026",
+      "deadline": "2026-05-30T09:00:00Z",
+      "dateRange": "30 May, 09:00 UTC — 30 May 2026, 19:00 UTC",
+      "location": "Netherlands, Eindhoven",
+      "isOnline": false,
+      "tags": [
+        "CTF",
+        "security",
+        "Jeopardy"
+      ],
+      "url": "https://ctftime.org/event/3243",
+      "status": "upcoming",
+      "stage": "upcoming",
+      "source": "ctftime",
+      "type": "contest",
+      "description": "Parsed from CTFtime upcoming events. Deadline represents the event start time, not a registration deadline."
+    },
+    {
+      "id": "security-ddl-def-con-ctf-qualifier-2026-07-01",
+      "topicId": "security-ddl",
+      "title": "DEF CON CTF Qualifier",
+      "deadline": "2026-07-01T23:59:59",
+      "dateRange": "Jul 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "CTF",
+        "security",
+        "bug bounty"
+      ],
+      "url": "https://defcon.org",
+      "status": "upcoming",
+      "stage": "Source board",
+      "source": "DEF CON",
+      "type": "contest",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。"
+    },
+    {
+      "id": "security-ddl-google-ctf-2026-2026-07-19",
+      "topicId": "security-ddl",
+      "title": "Google CTF 2026",
+      "deadline": "2026-07-19T23:59:59",
+      "dateRange": "Jul 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "CTF",
+        "security",
+        "bug bounty"
+      ],
+      "url": "https://capturetheflag.withgoogle.com",
+      "status": "upcoming",
+      "stage": "Source board",
+      "source": "Google CTF",
+      "type": "contest",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。"
+    },
+    {
+      "id": "security-ddl-hack-the-box-business-ctf-2026-08-06",
+      "topicId": "security-ddl",
+      "title": "Hack The Box Business CTF",
+      "deadline": "2026-08-06T23:59:59",
+      "dateRange": "Aug 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "CTF",
+        "security",
+        "bug bounty"
+      ],
+      "url": "https://ctf.hackthebox.com",
+      "status": "upcoming",
+      "stage": "Source board",
+      "source": "Hack The Box CTF",
+      "type": "contest",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。"
+    },
+    {
+      "id": "security-ddl-seccon-ctf-quals-2026-08-24",
+      "topicId": "security-ddl",
+      "title": "SECCON CTF Quals",
+      "deadline": "2026-08-24T23:59:59",
+      "dateRange": "Aug 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "CTF",
+        "security",
+        "bug bounty"
+      ],
+      "url": "https://www.seccon.jp",
+      "status": "upcoming",
+      "stage": "Source board",
+      "source": "SECCON",
+      "type": "contest",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。"
+    },
+    {
+      "id": "security-ddl-hitcon-ctf-2026-09-11",
+      "topicId": "security-ddl",
+      "title": "HITCON CTF",
+      "deadline": "2026-09-11T23:59:59",
+      "dateRange": "Sep 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "CTF",
+        "security",
+        "bug bounty"
+      ],
+      "url": "https://ctf.hitcon.org",
+      "status": "upcoming",
+      "stage": "Source board",
+      "source": "HITCON CTF",
+      "type": "contest",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。"
+    },
+    {
+      "id": "security-ddl-pwn2own-entry-window-2026-09-29",
+      "topicId": "security-ddl",
+      "title": "Pwn2Own Entry Window",
+      "deadline": "2026-09-29T23:59:59",
+      "dateRange": "Sep 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "CTF",
+        "security",
+        "bug bounty"
+      ],
+      "url": "https://www.zerodayinitiative.com",
+      "status": "upcoming",
+      "stage": "Source board",
+      "source": "Zero Day Initiative",
+      "type": "contest",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。"
+    },
+    {
+      "id": "security-ddl-black-hat-arsenal-submission-2026-10-17",
+      "topicId": "security-ddl",
+      "title": "Black Hat Arsenal Submission",
+      "deadline": "2026-10-17T23:59:59",
+      "dateRange": "Oct 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "CTF",
+        "security",
+        "bug bounty"
+      ],
+      "url": "https://www.blackhat.com",
+      "status": "upcoming",
+      "stage": "Source board",
+      "source": "Black Hat",
+      "type": "contest",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。"
+    },
+    {
+      "id": "security-ddl-usenix-security-artifact-evaluation-2026-11-04",
+      "topicId": "security-ddl",
+      "title": "USENIX Security Artifact Evaluation",
+      "deadline": "2026-11-04T23:59:59",
+      "dateRange": "Nov 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "CTF",
+        "security",
+        "bug bounty"
+      ],
+      "url": "https://www.usenix.org/conferences",
+      "status": "upcoming",
+      "stage": "Source board",
+      "source": "USENIX Conferences",
+      "type": "contest",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。"
+    },
+    {
+      "id": "security-ddl-blue-team-village-challenge-2026-11-22",
+      "topicId": "security-ddl",
+      "title": "Blue Team Village Challenge",
+      "deadline": "2026-11-22T23:59:59",
+      "dateRange": "Nov 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "CTF",
+        "security",
+        "bug bounty"
+      ],
+      "url": "https://ctftime.org",
+      "status": "upcoming",
+      "stage": "Source board",
+      "source": "ctftime.org",
+      "type": "contest",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。"
+    },
+    {
+      "id": "security-ddl-bug-bounty-quarterly-review-2026-12-10",
+      "topicId": "security-ddl",
+      "title": "Bug Bounty Quarterly Review",
+      "deadline": "2026-12-10T23:59:59",
+      "dateRange": "Dec 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "CTF",
+        "security",
+        "bug bounty"
+      ],
+      "url": "https://hackerone.com/hacktivity",
+      "status": "upcoming",
+      "stage": "Source board",
+      "source": "HackerOne Hacktivity",
+      "type": "contest",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。"
+    },
+    {
+      "id": "security-ddl-real-world-crypto-paper-2026-12-28",
+      "topicId": "security-ddl",
+      "title": "Real World Crypto Paper",
+      "deadline": "2026-12-28T23:59:59",
+      "dateRange": "Dec 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "CTF",
+        "security",
+        "bug bounty"
+      ],
+      "url": "https://rwc.iacr.org",
+      "status": "upcoming",
+      "stage": "Source board",
+      "source": "Real World Crypto",
+      "type": "contest",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。"
+    },
+    {
+      "id": "security-ddl-s-p-workshop-paper-2027-01-15",
+      "topicId": "security-ddl",
+      "title": "S&P Workshop Paper",
+      "deadline": "2027-01-15T23:59:59",
+      "dateRange": "Jan 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "CTF",
+        "security",
+        "bug bounty"
+      ],
+      "url": "https://ctftime.org",
+      "status": "upcoming",
+      "stage": "Source board",
+      "source": "ctftime.org",
+      "type": "contest",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。"
+    },
+    {
+      "id": "security-ddl-cyber-defense-exercise-registration-2027-02-02",
+      "topicId": "security-ddl",
+      "title": "Cyber Defense Exercise Registration",
+      "deadline": "2027-02-02T23:59:59",
+      "dateRange": "Feb 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "CTF",
+        "security",
+        "bug bounty"
+      ],
+      "url": "https://ctftime.org",
+      "status": "upcoming",
+      "stage": "Source board",
+      "source": "ctftime.org",
+      "type": "contest",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。"
+    },
+    {
+      "id": "security-ddl-mobile-security-challenge-2027-02-20",
+      "topicId": "security-ddl",
+      "title": "Mobile Security Challenge",
+      "deadline": "2027-02-20T23:59:59",
+      "dateRange": "Feb 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "CTF",
+        "security",
+        "bug bounty"
+      ],
+      "url": "https://ctftime.org",
+      "status": "upcoming",
+      "stage": "Source board",
+      "source": "ctftime.org",
+      "type": "contest",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。"
+    },
+    {
+      "id": "security-ddl-iot-security-testbed-sprint-2027-03-10",
+      "topicId": "security-ddl",
+      "title": "IoT Security Testbed Sprint",
+      "deadline": "2027-03-10T23:59:59",
+      "dateRange": "Mar 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "CTF",
+        "security",
+        "bug bounty"
+      ],
+      "url": "https://ctftime.org",
+      "status": "upcoming",
+      "stage": "Source board",
+      "source": "ctftime.org",
+      "type": "contest",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。"
+    },
+    {
+      "id": "security-ddl-cloud-native-security-hackathon-2027-03-28",
+      "topicId": "security-ddl",
+      "title": "Cloud Native Security Hackathon",
+      "deadline": "2027-03-28T23:59:59",
+      "dateRange": "Mar 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "CTF",
+        "security",
+        "bug bounty"
+      ],
+      "url": "https://ctftime.org",
+      "status": "upcoming",
+      "stage": "Source board",
+      "source": "ctftime.org",
+      "type": "contest",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。"
+    }
+  ],
+  "metrics": [],
+  "subtopics": [
+    {
+      "id": "general",
+      "name": "General",
+      "itemCount": 28,
+      "nextItemId": "ctftime-3277"
+    }
+  ]
+}

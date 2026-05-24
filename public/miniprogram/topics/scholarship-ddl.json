@@ -1,0 +1,52 @@
+{
+  "generatedAt": "2026-05-24T04:20:10.427Z",
+  "dataVersion": "155270fdf80f9782",
+  "topic": {
+    "id": "scholarship-ddl",
+    "name": "Scholarships",
+    "description": "奖学金、访问学者、暑研、交换项目、博士申请和 fellowship 截止日",
+    "icon": "BookOpen",
+    "color": "#CA8A04",
+    "repo": "Just-Agent/scholarship-ddl",
+    "site": "https://just-agent.github.io/scholarship-ddl/",
+    "category": "考试申请",
+    "tags": [
+      "scholarship",
+      "fellowship",
+      "application"
+    ],
+    "itemCount": 1,
+    "status": "published"
+  },
+  "items": [
+    {
+      "id": "chevening-offer-deadline-9-july-2026",
+      "topicId": "scholarship-ddl",
+      "title": "Chevening - Offer deadline",
+      "deadline": "2026-07-09T23:59:59Z",
+      "dateRange": "9 July 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "scholarship",
+        "Chevening",
+        "UK"
+      ],
+      "url": "https://www.chevening.org/scholarships/application-timeline/",
+      "status": "upcoming",
+      "stage": "Offer deadline",
+      "source": "Chevening Scholarships",
+      "type": "program",
+      "description": "Parsed from the official Chevening application timeline."
+    }
+  ],
+  "metrics": [],
+  "subtopics": [
+    {
+      "id": "general",
+      "name": "General",
+      "itemCount": 1,
+      "nextItemId": "chevening-offer-deadline-9-july-2026"
+    }
+  ]
+}

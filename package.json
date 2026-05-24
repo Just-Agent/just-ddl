@@ -6,9 +6,10 @@
   "scripts": {
     "dev": "vite",
     "clean": "node scripts/clean-dist.mjs",
-    "build": "npm run clean && tsc -b && vite build",
+    "build": "npm run clean && tsc -b && npm run export:miniprogram && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
+    "export:miniprogram": "node scripts/export-miniprogram-data.mjs",
     "validate:public": "node scripts/validate-public-surface.mjs"
   },
   "dependencies": {

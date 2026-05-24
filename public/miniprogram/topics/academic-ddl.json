@@ -1,0 +1,412 @@
+{
+  "generatedAt": "2026-05-24T04:20:10.427Z",
+  "dataVersion": "155270fdf80f9782",
+  "topic": {
+    "id": "academic-ddl",
+    "name": "Academic",
+    "description": "跨学科学术会议、基金申请、暑校与科研项目截稿日期",
+    "icon": "GraduationCap",
+    "color": "#F43F5E",
+    "repo": "Just-Agent/academic-ddl",
+    "site": "https://just-agent.github.io/academic-ddl/",
+    "category": "学术科研",
+    "tags": [
+      "conference",
+      "grant",
+      "paper"
+    ],
+    "itemCount": 20,
+    "status": "published"
+  },
+  "items": [
+    {
+      "id": "academic-ddl-neurips-2026-full-paper-2026-05-28",
+      "topicId": "academic-ddl",
+      "title": "NeurIPS 2026 Full Paper",
+      "deadline": "2026-05-28T23:59:59",
+      "dateRange": "May 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "ML",
+        "AI"
+      ],
+      "url": "https://neurips.cc",
+      "status": "upcoming",
+      "stage": "Paper",
+      "source": "AllConfs-style seed",
+      "type": "conference",
+      "description": "机器学习主会投稿入口。"
+    },
+    {
+      "id": "academic-ddl-vldb-2027-monthly-deadline-2026-06-01",
+      "topicId": "academic-ddl",
+      "title": "VLDB 2027 Monthly Deadline",
+      "deadline": "2026-06-01T23:59:59",
+      "dateRange": "Rolling 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "Database",
+        "VLDB"
+      ],
+      "url": "https://vldb.org",
+      "status": "ongoing",
+      "stage": "Monthly cycle",
+      "source": "人工整理的官方来源入口",
+      "type": "conference",
+      "description": "VLDB 月度投稿入口。"
+    },
+    {
+      "id": "academic-ddl-sigmod-2027-round-1-2026-07-15",
+      "topicId": "academic-ddl",
+      "title": "SIGMOD 2027 Round 1",
+      "deadline": "2026-07-15T23:59:59",
+      "dateRange": "Jul 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "Database",
+        "SIGMOD"
+      ],
+      "url": "https://sigmod.org",
+      "status": "upcoming",
+      "stage": "Round 1",
+      "source": "人工整理的官方来源入口",
+      "type": "conference",
+      "description": "数据库会议滚动投稿入口。"
+    },
+    {
+      "id": "academic-ddl-aaai-2027-abstract-2026-08-12",
+      "topicId": "academic-ddl",
+      "title": "AAAI 2027 Abstract",
+      "deadline": "2026-08-12T23:59:59",
+      "dateRange": "Aug 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "AI",
+        "AAAI"
+      ],
+      "url": "https://aaai.org",
+      "status": "upcoming",
+      "stage": "Abstract",
+      "source": "人工整理的官方来源入口",
+      "type": "conference",
+      "description": "AAAI abstract 阶段入口。"
+    },
+    {
+      "id": "academic-ddl-chi-2027-papers-2026-09-10",
+      "topicId": "academic-ddl",
+      "title": "CHI 2027 Papers",
+      "deadline": "2026-09-10T23:59:59",
+      "dateRange": "Sep 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "HCI",
+        "CHI"
+      ],
+      "url": "https://chi2027.acm.org",
+      "status": "upcoming",
+      "stage": "Paper",
+      "source": "人工整理的官方来源入口",
+      "type": "conference",
+      "description": "人机交互会议入口。"
+    },
+    {
+      "id": "academic-ddl-icra-2027-paper-2026-09-15",
+      "topicId": "academic-ddl",
+      "title": "ICRA 2027 Paper",
+      "deadline": "2026-09-15T23:59:59",
+      "dateRange": "Sep 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "Robotics",
+        "ICRA"
+      ],
+      "url": "https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra",
+      "status": "upcoming",
+      "stage": "Paper",
+      "source": "人工整理的官方来源入口",
+      "type": "conference",
+      "description": "机器人会议入口。"
+    },
+    {
+      "id": "academic-ddl-nsf-proposal-calendar-reminder-2026-09-30",
+      "topicId": "academic-ddl",
+      "title": "NSF Proposal Calendar Reminder",
+      "deadline": "2026-09-30T23:59:59",
+      "dateRange": "Sep 2026",
+      "location": "United States",
+      "isOnline": true,
+      "tags": [
+        "Grant",
+        "Proposal"
+      ],
+      "url": "https://www.nsf.gov/funding",
+      "status": "upcoming",
+      "stage": "Proposal window",
+      "source": "人工整理的官方来源入口",
+      "type": "program",
+      "description": "科研基金/项目申请入口，后续可拆分到独立 grant-ddl。"
+    },
+    {
+      "id": "academic-ddl-iclr-2027-submission-2026-10-01",
+      "topicId": "academic-ddl",
+      "title": "ICLR 2027 Submission",
+      "deadline": "2026-10-01T23:59:59",
+      "dateRange": "Oct 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "Representation",
+        "OpenReview"
+      ],
+      "url": "https://iclr.cc",
+      "status": "upcoming",
+      "stage": "OpenReview",
+      "source": "OpenReview-style seed",
+      "type": "conference",
+      "description": "ICLR 投稿入口。"
+    },
+    {
+      "id": "academic-ddl-www-2027-research-track-2026-10-07",
+      "topicId": "academic-ddl",
+      "title": "WWW 2027 Research Track",
+      "deadline": "2026-10-07T23:59:59",
+      "dateRange": "Oct 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "Web",
+        "Graph"
+      ],
+      "url": "https://www2027.thewebconf.org",
+      "status": "upcoming",
+      "stage": "Paper",
+      "source": "人工整理的官方来源入口",
+      "type": "conference",
+      "description": "Web Conference 研究论文入口。"
+    },
+    {
+      "id": "academic-ddl-aistats-2027-paper-2026-10-08",
+      "topicId": "academic-ddl",
+      "title": "AISTATS 2027 Paper",
+      "deadline": "2026-10-08T23:59:59",
+      "dateRange": "Oct 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "Statistics",
+        "ML"
+      ],
+      "url": "https://aistats.org",
+      "status": "upcoming",
+      "stage": "Paper",
+      "source": "人工整理的官方来源入口",
+      "type": "conference",
+      "description": "统计学习会议入口。"
+    },
+    {
+      "id": "academic-ddl-ubicomp-2027-full-paper-2026-10-20",
+      "topicId": "academic-ddl",
+      "title": "UbiComp 2027 Full Paper",
+      "deadline": "2026-10-20T23:59:59",
+      "dateRange": "Oct 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "UbiComp",
+        "HCI"
+      ],
+      "url": "https://ubicomp.org",
+      "status": "upcoming",
+      "stage": "Paper",
+      "source": "人工整理的官方来源入口",
+      "type": "conference",
+      "description": "普适计算会议入口。"
+    },
+    {
+      "id": "academic-ddl-isca-2027-paper-2026-11-18",
+      "topicId": "academic-ddl",
+      "title": "ISCA 2027 Paper",
+      "deadline": "2026-11-18T23:59:59",
+      "dateRange": "Nov 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "Architecture",
+        "Systems"
+      ],
+      "url": "https://iscaconf.org",
+      "status": "upcoming",
+      "stage": "Paper",
+      "source": "人工整理的官方来源入口",
+      "type": "conference",
+      "description": "计算机体系结构会议入口。"
+    },
+    {
+      "id": "academic-ddl-icaps-2027-paper-2026-11-20",
+      "topicId": "academic-ddl",
+      "title": "ICAPS 2027 Paper",
+      "deadline": "2026-11-20T23:59:59",
+      "dateRange": "Nov 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "Planning",
+        "Scheduling"
+      ],
+      "url": "https://icaps-conference.org",
+      "status": "upcoming",
+      "stage": "Paper",
+      "source": "人工整理的官方来源入口",
+      "type": "conference",
+      "description": "规划与调度会议入口。"
+    },
+    {
+      "id": "academic-ddl-icml-2027-abstract-2027-01-23",
+      "topicId": "academic-ddl",
+      "title": "ICML 2027 Abstract",
+      "deadline": "2027-01-23T23:59:59",
+      "dateRange": "Jan 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "ML",
+        "Optimization"
+      ],
+      "url": "https://icml.cc",
+      "status": "upcoming",
+      "stage": "Abstract",
+      "source": "人工整理的官方来源入口",
+      "type": "conference",
+      "description": "ICML abstract 阶段入口。"
+    },
+    {
+      "id": "academic-ddl-rss-2027-paper-2027-01-25",
+      "topicId": "academic-ddl",
+      "title": "RSS 2027 Paper",
+      "deadline": "2027-01-25T23:59:59",
+      "dateRange": "Jan 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "Robotics",
+        "RSS"
+      ],
+      "url": "https://roboticsconference.org",
+      "status": "upcoming",
+      "stage": "Paper",
+      "source": "人工整理的官方来源入口",
+      "type": "conference",
+      "description": "Robotics: Science and Systems 投稿入口。"
+    },
+    {
+      "id": "academic-ddl-sigir-2027-full-paper-2027-01-30",
+      "topicId": "academic-ddl",
+      "title": "SIGIR 2027 Full Paper",
+      "deadline": "2027-01-30T23:59:59",
+      "dateRange": "Jan 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "IR",
+        "Search"
+      ],
+      "url": "https://sigir.org",
+      "status": "upcoming",
+      "stage": "Paper",
+      "source": "人工整理的官方来源入口",
+      "type": "conference",
+      "description": "信息检索会议入口。"
+    },
+    {
+      "id": "academic-ddl-osdi-2027-paper-2027-02-01",
+      "topicId": "academic-ddl",
+      "title": "OSDI 2027 Paper",
+      "deadline": "2027-02-01T23:59:59",
+      "dateRange": "Feb 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "Systems",
+        "OSDI"
+      ],
+      "url": "https://www.usenix.org/conferences",
+      "status": "upcoming",
+      "stage": "Paper",
+      "source": "人工整理的官方来源入口",
+      "type": "conference",
+      "description": "系统研究会议入口。"
+    },
+    {
+      "id": "academic-ddl-kdd-2027-research-track-2027-02-04",
+      "topicId": "academic-ddl",
+      "title": "KDD 2027 Research Track",
+      "deadline": "2027-02-04T23:59:59",
+      "dateRange": "Feb 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "Data Mining",
+        "KDD"
+      ],
+      "url": "https://kdd.org",
+      "status": "upcoming",
+      "stage": "Research",
+      "source": "人工整理的官方来源入口",
+      "type": "conference",
+      "description": "数据挖掘会议入口。"
+    },
+    {
+      "id": "academic-ddl-uai-2027-paper-2027-02-14",
+      "topicId": "academic-ddl",
+      "title": "UAI 2027 Paper",
+      "deadline": "2027-02-14T23:59:59",
+      "dateRange": "Feb 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "Uncertainty",
+        "AI"
+      ],
+      "url": "https://www.auai.org/uai",
+      "status": "upcoming",
+      "stage": "Paper",
+      "source": "人工整理的官方来源入口",
+      "type": "conference",
+      "description": "不确定性人工智能会议入口。"
+    },
+    {
+      "id": "academic-ddl-acm-mm-2027-paper-2027-03-31",
+      "topicId": "academic-ddl",
+      "title": "ACM MM 2027 Paper",
+      "deadline": "2027-03-31T23:59:59",
+      "dateRange": "Mar 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "Multimedia",
+        "ACM"
+      ],
+      "url": "https://acmmm.org",
+      "status": "upcoming",
+      "stage": "Paper",
+      "source": "人工整理的官方来源入口",
+      "type": "conference",
+      "description": "多媒体会议主会入口。"
+    }
+  ],
+  "metrics": [],
+  "subtopics": [
+    {
+      "id": "general",
+      "name": "General",
+      "itemCount": 20,
+      "nextItemId": "academic-ddl-neurips-2026-full-paper-2026-05-28"
+    }
+  ]
+}

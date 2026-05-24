@@ -43,7 +43,7 @@ import { useLanguage } from '@/lib/language';
 import { compareDDLItems, ddlItemTime, formatItemDate, formatRelativeDeadline, isActiveDeadlineItem, isForecastItem, isHistoryItem } from '@/lib/ddl';
 
 const iconMap: Record<string, LucideIcon> = {
-  Trophy, Bot, Eye, MessageSquare, GraduationCap, BookOpen, Code2, CalendarHeart, Layers, Medal, Gamepad2, Music, Clapperboard, Smartphone, Car, Scale, BriefcaseBusiness,
+  Trophy, Bot, Eye, MessageSquare, GraduationCap, BookOpen, Code2, CalendarHeart, Layers, Medal, Gamepad2, Music, Clapperboard, Smartphone, Car, Scale, BriefcaseBusiness, Database, RadioTower,
 };
 
 interface SubtopicGroup {
@@ -238,16 +238,11 @@ function TopicSubtopicPlaza({
       return new Set();
     }
   });
-  const [expandedSubtopics, setExpandedSubtopics] = useState<Set<string>>(() => new Set());
-
-  useEffect(() => {
-    if (!groups.length) return;
-    setExpandedSubtopics(prev => {
-      if (prev.size) return prev;
-      const firstPinned = groups.find(group => pinnedSubtopics.has(group.id));
-      return new Set([firstPinned?.id || groups[0].id]);
-    });
-  }, [groups, pinnedSubtopics]);
+  const [expandedSubtopics, setExpandedSubtopics] = useState<Set<string>>(() => {
+    const firstPinned = groups.find(group => pinnedSubtopics.has(group.id));
+    const firstGroupId = firstPinned?.id || groups[0]?.id;
+    return firstGroupId ? new Set([firstGroupId]) : new Set();
+  });
 
   const orderedGroups = useMemo(() => [...groups].sort((a, b) => {
     const pinDelta = Number(pinnedSubtopics.has(b.id)) - Number(pinnedSubtopics.has(a.id));

@@ -1,0 +1,15 @@
+{
+  "generatedAt": "2026-05-24T04:20:10.427Z",
+  "dataVersion": "155270fdf80f9782",
+  "appVersion": "0.0.0",
+  "baseAssetUrl": "/assets/source-previews/",
+  "topicsCount": 36,
+  "itemsCount": 690,
+  "metricsCount": 23,
+  "checksum": "155270fdf80f978243a1d9999e1bda3f3156214163b5e6efd5e6c8cbf14d6f0e",
+  "endpoints": {
+    "topics": "/miniprogram/topics.json",
+    "searchIndex": "/miniprogram/search-index.json",
+    "topicTemplate": "/miniprogram/topics/{topicId}.json"
+  }
+}

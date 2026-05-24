@@ -1,0 +1,232 @@
+{
+  "generatedAt": "2026-05-24T04:20:10.427Z",
+  "dataVersion": "155270fdf80f9782",
+  "topic": {
+    "id": "startup-ddl",
+    "name": "Startup",
+    "description": "创业大赛、加速器申请、创新创业项目、路演和 grant 申请截止日",
+    "icon": "Trophy",
+    "color": "#EA580C",
+    "repo": "Just-Agent/startup-ddl",
+    "site": "https://just-agent.github.io/startup-ddl/",
+    "category": "产业创业",
+    "tags": [
+      "startup",
+      "accelerator",
+      "grant"
+    ],
+    "itemCount": 10,
+    "status": "published"
+  },
+  "items": [
+    {
+      "id": "techstars-abn-amro-techstars-future-of-finance-accelerator",
+      "topicId": "startup-ddl",
+      "title": "ABN AMRO + Techstars Future of Finance Accelerator",
+      "deadline": "2026-06-10T23:59:59Z",
+      "dateRange": "Apply by Jun 10",
+      "location": "Amsterdam, Netherlands",
+      "isOnline": false,
+      "tags": [
+        "startup",
+        "accelerator",
+        "Techstars"
+      ],
+      "url": "https://www.techstars.com/accelerators/abn-amro-techstars-future-of-finance-accelerator",
+      "status": "upcoming",
+      "stage": "Application deadline",
+      "source": "Techstars Accelerators",
+      "type": "program",
+      "description": "Parsed from official Techstars accelerators listing. Deadline is read from the Apply by card and embedded earliestCurrentDeadline."
+    },
+    {
+      "id": "techstars-baltimore-ai-health",
+      "topicId": "startup-ddl",
+      "title": "Techstars AI Health Baltimore",
+      "deadline": "2026-06-10T23:59:59Z",
+      "dateRange": "Apply by Jun 10",
+      "location": "Baltimore, United States",
+      "isOnline": false,
+      "tags": [
+        "startup",
+        "accelerator",
+        "Techstars"
+      ],
+      "url": "https://www.techstars.com/accelerators/baltimore-ai-health",
+      "status": "upcoming",
+      "stage": "Application deadline",
+      "source": "Techstars Accelerators",
+      "type": "program",
+      "description": "Parsed from official Techstars accelerators listing. Deadline is read from the Apply by card and embedded earliestCurrentDeadline."
+    },
+    {
+      "id": "techstars-alabama-power",
+      "topicId": "startup-ddl",
+      "title": "Techstars Alabama EnergyTech Accelerator",
+      "deadline": "2026-06-10T23:59:59Z",
+      "dateRange": "Apply by Jun 10",
+      "location": "Birmingham, Alabama",
+      "isOnline": false,
+      "tags": [
+        "startup",
+        "accelerator",
+        "Techstars"
+      ],
+      "url": "https://www.techstars.com/accelerators/alabama-power",
+      "status": "upcoming",
+      "stage": "Application deadline",
+      "source": "Techstars Accelerators",
+      "type": "program",
+      "description": "Parsed from official Techstars accelerators listing. Deadline is read from the Apply by card and embedded earliestCurrentDeadline."
+    },
+    {
+      "id": "techstars-anywhere",
+      "topicId": "startup-ddl",
+      "title": "Techstars Anywhere Accelerator",
+      "deadline": "2026-06-10T23:59:59Z",
+      "dateRange": "Apply by Jun 10",
+      "location": "Anywhere",
+      "isOnline": true,
+      "tags": [
+        "startup",
+        "accelerator",
+        "Techstars"
+      ],
+      "url": "https://www.techstars.com/accelerators/anywhere",
+      "status": "upcoming",
+      "stage": "Application deadline",
+      "source": "Techstars Accelerators",
+      "type": "program",
+      "description": "Parsed from official Techstars accelerators listing. Deadline is read from the Apply by card and embedded earliestCurrentDeadline."
+    },
+    {
+      "id": "techstars-boulder-accelerator",
+      "topicId": "startup-ddl",
+      "title": "Techstars Boulder",
+      "deadline": "2026-06-10T23:59:59Z",
+      "dateRange": "Apply by Jun 10",
+      "location": "Boulder, United States",
+      "isOnline": false,
+      "tags": [
+        "startup",
+        "accelerator",
+        "Techstars"
+      ],
+      "url": "https://www.techstars.com/accelerators/boulder-accelerator",
+      "status": "upcoming",
+      "stage": "Application deadline",
+      "source": "Techstars Accelerators",
+      "type": "program",
+      "description": "Parsed from official Techstars accelerators listing. Deadline is read from the Apply by card and embedded earliestCurrentDeadline."
+    },
+    {
+      "id": "techstars-ohio-state-university-accelerator",
+      "topicId": "startup-ddl",
+      "title": "Techstars Columbus Powered by The Ohio State University",
+      "deadline": "2026-06-10T23:59:59Z",
+      "dateRange": "Apply by Jun 10",
+      "location": "Columbus, United States",
+      "isOnline": false,
+      "tags": [
+        "startup",
+        "accelerator",
+        "Techstars"
+      ],
+      "url": "https://www.techstars.com/accelerators/ohio-state-university-accelerator",
+      "status": "upcoming",
+      "stage": "Application deadline",
+      "source": "Techstars Accelerators",
+      "type": "program",
+      "description": "Parsed from official Techstars accelerators listing. Deadline is read from the Apply by card and embedded earliestCurrentDeadline."
+    },
+    {
+      "id": "techstars-future-of-food",
+      "topicId": "startup-ddl",
+      "title": "Techstars Future of Food Powered by Ecolab",
+      "deadline": "2026-06-10T23:59:59Z",
+      "dateRange": "Apply by Jun 10",
+      "location": "Minneapolis, Minnesota",
+      "isOnline": false,
+      "tags": [
+        "startup",
+        "accelerator",
+        "Techstars"
+      ],
+      "url": "https://www.techstars.com/accelerators/future-of-food",
+      "status": "upcoming",
+      "stage": "Application deadline",
+      "source": "Techstars Accelerators",
+      "type": "program",
+      "description": "Parsed from official Techstars accelerators listing. Deadline is read from the Apply by card and embedded earliestCurrentDeadline."
+    },
+    {
+      "id": "techstars-permanente-medicine",
+      "topicId": "startup-ddl",
+      "title": "Techstars Healthcare Accelerator powered by Permanente Medicine Mid-Atlantic States",
+      "deadline": "2026-06-10T23:59:59Z",
+      "dateRange": "Apply by Jun 10",
+      "location": "Washington D.C.",
+      "isOnline": false,
+      "tags": [
+        "startup",
+        "accelerator",
+        "Techstars"
+      ],
+      "url": "https://www.techstars.com/accelerators/permanente-medicine",
+      "status": "upcoming",
+      "stage": "Application deadline",
+      "source": "Techstars Accelerators",
+      "type": "program",
+      "description": "Parsed from official Techstars accelerators listing. Deadline is read from the Apply by card and embedded earliestCurrentDeadline."
+    },
+    {
+      "id": "techstars-nyc",
+      "topicId": "startup-ddl",
+      "title": "Techstars New York City Accelerator",
+      "deadline": "2026-06-10T23:59:59Z",
+      "dateRange": "Apply by Jun 10",
+      "location": "New York, New York",
+      "isOnline": false,
+      "tags": [
+        "startup",
+        "accelerator",
+        "Techstars"
+      ],
+      "url": "https://www.techstars.com/accelerators/nyc",
+      "status": "upcoming",
+      "stage": "Application deadline",
+      "source": "Techstars Accelerators",
+      "type": "program",
+      "description": "Parsed from official Techstars accelerators listing. Deadline is read from the Apply by card and embedded earliestCurrentDeadline."
+    },
+    {
+      "id": "techstars-space",
+      "topicId": "startup-ddl",
+      "title": "Techstars Space Accelerator",
+      "deadline": "2026-06-10T23:59:59Z",
+      "dateRange": "Apply by Jun 10",
+      "location": "Los Angeles, California",
+      "isOnline": false,
+      "tags": [
+        "startup",
+        "accelerator",
+        "Techstars"
+      ],
+      "url": "https://www.techstars.com/accelerators/space",
+      "status": "upcoming",
+      "stage": "Application deadline",
+      "source": "Techstars Accelerators",
+      "type": "program",
+      "description": "Parsed from official Techstars accelerators listing. Deadline is read from the Apply by card and embedded earliestCurrentDeadline."
+    }
+  ],
+  "metrics": [],
+  "subtopics": [
+    {
+      "id": "general",
+      "name": "General",
+      "itemCount": 10,
+      "nextItemId": "techstars-abn-amro-techstars-future-of-finance-accelerator"
+    }
+  ]
+}

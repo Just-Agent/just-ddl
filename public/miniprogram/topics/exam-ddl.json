@@ -1,0 +1,352 @@
+{
+  "generatedAt": "2026-05-24T04:20:10.427Z",
+  "dataVersion": "155270fdf80f9782",
+  "topic": {
+    "id": "exam-ddl",
+    "name": "Exams",
+    "description": "升学考试、语言考试、职业资格、报名缴费和准考证打印提醒",
+    "icon": "GraduationCap",
+    "color": "#0891B2",
+    "repo": "Just-Agent/exam-ddl",
+    "site": "https://just-agent.github.io/exam-ddl/",
+    "category": "考试申请",
+    "tags": [
+      "exam",
+      "certificate",
+      "registration"
+    ],
+    "itemCount": 16,
+    "status": "published"
+  },
+  "items": [
+    {
+      "id": "exam-ddl-item-2026-07-01",
+      "topicId": "exam-ddl",
+      "title": "全国硕士研究生考试预报名提醒",
+      "deadline": "2026-07-01T23:59:59",
+      "dateRange": "Jul 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "exam",
+        "certificate",
+        "registration"
+      ],
+      "url": "https://yz.chsi.com.cn",
+      "status": "upcoming",
+      "stage": "Source board",
+      "source": "yz.chsi.com.cn",
+      "type": "program",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。"
+    },
+    {
+      "id": "exam-ddl-item-2026-07-19",
+      "topicId": "exam-ddl",
+      "title": "全国硕士研究生考试正式报名提醒",
+      "deadline": "2026-07-19T23:59:59",
+      "dateRange": "Jul 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "exam",
+        "certificate",
+        "registration"
+      ],
+      "url": "https://yz.chsi.com.cn",
+      "status": "upcoming",
+      "stage": "Source board",
+      "source": "yz.chsi.com.cn",
+      "type": "program",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。"
+    },
+    {
+      "id": "exam-ddl-item-2026-08-06",
+      "topicId": "exam-ddl",
+      "title": "大学英语四六级报名窗口",
+      "deadline": "2026-08-06T23:59:59",
+      "dateRange": "Aug 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "exam",
+        "certificate",
+        "registration"
+      ],
+      "url": "https://cet.neea.edu.cn",
+      "status": "upcoming",
+      "stage": "Source board",
+      "source": "cet.neea.edu.cn",
+      "type": "program",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。"
+    },
+    {
+      "id": "exam-ddl-item-2026-08-24",
+      "topicId": "exam-ddl",
+      "title": "雅思考试报名提醒",
+      "deadline": "2026-08-24T23:59:59",
+      "dateRange": "Aug 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "exam",
+        "certificate",
+        "registration"
+      ],
+      "url": "https://ielts.neea.cn",
+      "status": "upcoming",
+      "stage": "Source board",
+      "source": "ielts.neea.cn",
+      "type": "program",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。"
+    },
+    {
+      "id": "exam-ddl-item-2026-09-11",
+      "topicId": "exam-ddl",
+      "title": "托福考试报名提醒",
+      "deadline": "2026-09-11T23:59:59",
+      "dateRange": "Sep 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "exam",
+        "certificate",
+        "registration"
+      ],
+      "url": "https://toefl.neea.cn",
+      "status": "upcoming",
+      "stage": "Source board",
+      "source": "toefl.neea.cn",
+      "type": "program",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。"
+    },
+    {
+      "id": "exam-ddl-gre-general-test-planning-2026-09-29",
+      "topicId": "exam-ddl",
+      "title": "GRE General Test Planning",
+      "deadline": "2026-09-29T23:59:59",
+      "dateRange": "Sep 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "exam",
+        "certificate",
+        "registration"
+      ],
+      "url": "https://www.ets.org/gre.html",
+      "status": "upcoming",
+      "stage": "Source board",
+      "source": "ETS GRE",
+      "type": "program",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。"
+    },
+    {
+      "id": "exam-ddl-gmat-focus-exam-planning-2026-10-17",
+      "topicId": "exam-ddl",
+      "title": "GMAT Focus Exam Planning",
+      "deadline": "2026-10-17T23:59:59",
+      "dateRange": "Oct 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "exam",
+        "certificate",
+        "registration"
+      ],
+      "url": "https://www.mba.com/exams/gmat-exam",
+      "status": "upcoming",
+      "stage": "Source board",
+      "source": "GMAC GMAT",
+      "type": "program",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。"
+    },
+    {
+      "id": "exam-ddl-item-2026-11-04",
+      "topicId": "exam-ddl",
+      "title": "国家公务员考试报名提醒",
+      "deadline": "2026-11-04T23:59:59",
+      "dateRange": "Nov 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "exam",
+        "certificate",
+        "registration"
+      ],
+      "url": "https://bm.scs.gov.cn",
+      "status": "upcoming",
+      "stage": "Source board",
+      "source": "中国政府网",
+      "type": "program",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。"
+    },
+    {
+      "id": "exam-ddl-item-2026-11-22",
+      "topicId": "exam-ddl",
+      "title": "教师资格证笔试报名",
+      "deadline": "2026-11-22T23:59:59",
+      "dateRange": "Nov 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "exam",
+        "certificate",
+        "registration"
+      ],
+      "url": "https://ntce.neea.edu.cn",
+      "status": "upcoming",
+      "stage": "Source board",
+      "source": "ntce.neea.edu.cn",
+      "type": "program",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。"
+    },
+    {
+      "id": "exam-ddl-item-2026-12-10",
+      "topicId": "exam-ddl",
+      "title": "计算机等级考试报名",
+      "deadline": "2026-12-10T23:59:59",
+      "dateRange": "Dec 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "exam",
+        "certificate",
+        "registration"
+      ],
+      "url": "https://ncre.neea.edu.cn",
+      "status": "upcoming",
+      "stage": "Source board",
+      "source": "ncre.neea.edu.cn",
+      "type": "program",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。"
+    },
+    {
+      "id": "exam-ddl-item-2026-12-28",
+      "topicId": "exam-ddl",
+      "title": "软考报名窗口",
+      "deadline": "2026-12-28T23:59:59",
+      "dateRange": "Dec 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "exam",
+        "certificate",
+        "registration"
+      ],
+      "url": "https://www.ruankao.org.cn",
+      "status": "upcoming",
+      "stage": "Source board",
+      "source": "ruankao.org.cn",
+      "type": "program",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。"
+    },
+    {
+      "id": "exam-ddl-item-2027-01-15",
+      "topicId": "exam-ddl",
+      "title": "注册会计师考试报名",
+      "deadline": "2027-01-15T23:59:59",
+      "dateRange": "Jan 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "exam",
+        "certificate",
+        "registration"
+      ],
+      "url": "https://cpaexam.cicpa.org.cn",
+      "status": "upcoming",
+      "stage": "Source board",
+      "source": "cpaexam.cicpa.org.cn",
+      "type": "program",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。"
+    },
+    {
+      "id": "exam-ddl-item-2027-02-02",
+      "topicId": "exam-ddl",
+      "title": "法考客观题报名",
+      "deadline": "2027-02-02T23:59:59",
+      "dateRange": "Feb 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "exam",
+        "certificate",
+        "registration"
+      ],
+      "url": "https://www.moj.gov.cn",
+      "status": "upcoming",
+      "stage": "Source board",
+      "source": "中国政府网",
+      "type": "program",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。"
+    },
+    {
+      "id": "exam-ddl-aws-certification-voucher-window-2027-02-20",
+      "topicId": "exam-ddl",
+      "title": "AWS Certification Voucher Window",
+      "deadline": "2027-02-20T23:59:59",
+      "dateRange": "Feb 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "exam",
+        "certificate",
+        "registration"
+      ],
+      "url": "https://aws.amazon.com/certification/",
+      "status": "upcoming",
+      "stage": "Source board",
+      "source": "AWS Certification",
+      "type": "program",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。"
+    },
+    {
+      "id": "exam-ddl-pmp-exam-application-window-2027-03-10",
+      "topicId": "exam-ddl",
+      "title": "PMP Exam Application Window",
+      "deadline": "2027-03-10T23:59:59",
+      "dateRange": "Mar 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "exam",
+        "certificate",
+        "registration"
+      ],
+      "url": "https://www.pmi.org/certifications/project-management-pmp",
+      "status": "upcoming",
+      "stage": "Source board",
+      "source": "PMI PMP Certification",
+      "type": "program",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。"
+    },
+    {
+      "id": "exam-ddl-cfa-exam-registration-deadline-2027-03-28",
+      "topicId": "exam-ddl",
+      "title": "CFA Exam Registration Deadline",
+      "deadline": "2027-03-28T23:59:59",
+      "dateRange": "Mar 2027",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "exam",
+        "certificate",
+        "registration"
+      ],
+      "url": "https://www.cfainstitute.org",
+      "status": "upcoming",
+      "stage": "Source board",
+      "source": "CFA Institute",
+      "type": "program",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。"
+    }
+  ],
+  "metrics": [],
+  "subtopics": [
+    {
+      "id": "general",
+      "name": "General",
+      "itemCount": 16,
+      "nextItemId": "exam-ddl-item-2026-07-01"
+    }
+  ]
+}

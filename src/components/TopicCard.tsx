@@ -34,7 +34,7 @@ import { useLanguage } from '@/lib/language';
 import { compareDDLItems, formatRelativeDeadline, isActiveDeadlineItem } from '@/lib/ddl';
 
 const iconMap: Record<string, LucideIcon> = {
-  Trophy, Bot, Eye, MessageSquare, GraduationCap, BookOpen, Code2, CalendarHeart, Layers, Medal, Gamepad2, Music, Clapperboard, Smartphone, Car, Scale, BriefcaseBusiness,
+  Trophy, Bot, Eye, MessageSquare, GraduationCap, BookOpen, Code2, CalendarHeart, Layers, Medal, Gamepad2, Music, Clapperboard, Smartphone, Car, Scale, BriefcaseBusiness, Database, RadioTower,
 };
 
 function topicStatus(topic: Topic, language: 'zh' | 'en') {

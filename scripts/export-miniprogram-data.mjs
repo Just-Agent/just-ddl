@@ -1,0 +1,304 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import crypto from 'node:crypto';
+
+const ROOT = process.cwd();
+const TOPICS_PATH = path.join(ROOT, 'src/data/topics.ts');
+const DATA_PATH = path.join(ROOT, 'src/data/ddl-data.ts');
+const METRICS_PATH = path.join(ROOT, 'src/data/metric-data.ts');
+const PACKAGE_PATH = path.join(ROOT, 'package.json');
+const OUT_DIR = path.join(ROOT, 'public/miniprogram');
+const TOPIC_DIR = path.join(OUT_DIR, 'topics');
+
+const PRIVATE_KEYS = new Set([
+  'accessMode',
+  'adapter',
+  'coverageNote',
+  'crawler',
+  'crawlerReport',
+  'crawledAt',
+  'debug',
+  'debugNote',
+  'debugReport',
+  'deadlineTimezone',
+  'developerComment',
+  'developerNote',
+  'devNote',
+  'error',
+  'forecastBasis',
+  'internalNote',
+  'lastChecked',
+  'licenseNote',
+  'maintainerComment',
+  'maintainerNote',
+  'parser',
+  'parserConfidence',
+  'privateNote',
+  'raw',
+  'rawHtml',
+  'rawPayload',
+  'rawSource',
+  'releaseCadence',
+  'sampleNote',
+  'scopeNote',
+  'sourcePolicy',
+  'sourcePriority',
+  'validationNote'
+]);
+
+function extractJsonAfter(source, marker, open, close) {
+  const start = source.indexOf(marker);
+  if (start === -1) throw new Error(`Missing marker: ${marker}`);
+  const assignment = source.indexOf('=', start);
+  if (assignment === -1) throw new Error(`Missing assignment for ${marker}`);
+  const jsonStart = source.indexOf(open, assignment);
+  if (jsonStart === -1) throw new Error(`Missing JSON start for ${marker}`);
+
+  let depth = 0;
+  let inString = false;
+  let escaped = false;
+
+  for (let index = jsonStart; index < source.length; index += 1) {
+    const char = source[index];
+    if (inString) {
+      if (escaped) escaped = false;
+      else if (char === '\\') escaped = true;
+      else if (char === '"') inString = false;
+      continue;
+    }
+    if (char === '"') inString = true;
+    else if (char === open) depth += 1;
+    else if (char === close) {
+      depth -= 1;
+      if (depth === 0) return source.slice(jsonStart, index + 1);
+    }
+  }
+  throw new Error(`Could not extract JSON for ${marker}`);
+}
+
+function readData() {
+  const topicsSource = fs.readFileSync(TOPICS_PATH, 'utf8');
+  const dataSource = fs.readFileSync(DATA_PATH, 'utf8');
+  const metricsSource = fs.existsSync(METRICS_PATH) ? fs.readFileSync(METRICS_PATH, 'utf8') : '';
+  return {
+    packageJson: JSON.parse(fs.readFileSync(PACKAGE_PATH, 'utf8')),
+    topics: JSON.parse(extractJsonAfter(topicsSource, 'export const topics', '[', ']')),
+    ddlData: JSON.parse(extractJsonAfter(dataSource, 'export const ddlData', '{', '}')),
+    metricData: metricsSource
+      ? JSON.parse(extractJsonAfter(metricsSource, 'export const metricData', '{', '}'))
+      : {}
+  };
+}
+
+function stripPrivate(value) {
+  if (Array.isArray(value)) return value.map(stripPrivate);
+  if (value && typeof value === 'object') {
+    return Object.fromEntries(
+      Object.entries(value)
+        .filter(([key]) => !PRIVATE_KEYS.has(key))
+        .map(([key, itemValue]) => [key, stripPrivate(itemValue)])
+    );
+  }
+  return value;
+}
+
+function pick(value, keys) {
+  const result = {};
+  for (const key of keys) {
+    if (value[key] !== undefined && value[key] !== null && value[key] !== '') {
+      result[key] = value[key];
+    }
+  }
+  return result;
+}
+
+function topicLite(topic) {
+  return pick(topic, [
+    'id',
+    'name',
+    'description',
+    'icon',
+    'color',
+    'repo',
+    'site',
+    'category',
+    'tags',
+    'itemCount',
+    'status',
+    'sourceMode',
+    'clusterId'
+  ]);
+}
+
+function itemLite(item, topicId) {
+  return pick({ ...item, topicId: item.topicId || topicId }, [
+    'id',
+    'topicId',
+    'title',
+    'deadline',
+    'date',
+    'dateRange',
+    'estimatedNextWindow',
+    'lastOfficialDate',
+    'basisEvents',
+    'confidence',
+    'location',
+    'isOnline',
+    'tags',
+    'url',
+    'status',
+    'stage',
+    'source',
+    'sourceUrl',
+    'previewImage',
+    'type',
+    'prize',
+    'description',
+    'subtopic',
+    'subtopicName',
+    'category'
+  ]);
+}
+
+function metricLite(metric, topicId) {
+  return pick({ ...metric, topicId: metric.topicId || topicId }, [
+    'id',
+    'topicId',
+    'type',
+    'journalId',
+    'journalTitle',
+    'issn',
+    'metric',
+    'value',
+    'year',
+    'asOfDate',
+    'source',
+    'url',
+    'sourceUrl',
+    'openAlexId',
+    'homepageUrl'
+  ]);
+}
+
+function subtopicGroups(items) {
+  const groups = new Map();
+  for (const item of items) {
+    const id = item.subtopic || 'general';
+    const name = item.subtopicName || item.subtopic || 'General';
+    const group = groups.get(id) || {
+      id,
+      name,
+      itemCount: 0,
+      nextItemId: null
+    };
+    group.itemCount += 1;
+    if (!group.nextItemId && item.deadline) group.nextItemId = item.id;
+    groups.set(id, group);
+  }
+  return Array.from(groups.values()).sort((a, b) => b.itemCount - a.itemCount || a.name.localeCompare(b.name, 'zh-CN'));
+}
+
+function checksum(value) {
+  return crypto.createHash('sha256').update(JSON.stringify(value)).digest('hex');
+}
+
+function writeJson(filePath, value) {
+  fs.mkdirSync(path.dirname(filePath), { recursive: true });
+  fs.writeFileSync(`${filePath}.tmp`, `${JSON.stringify(value, null, 2)}\n`, 'utf8');
+  fs.renameSync(`${filePath}.tmp`, filePath);
+}
+
+function main() {
+  const { packageJson, topics, ddlData, metricData } = readData();
+  const generatedAt = new Date().toISOString();
+  const cleanedTopics = stripPrivate(topics).map(topicLite);
+  const cleanedItemsByTopic = {};
+  const cleanedMetricsByTopic = {};
+  let itemsCount = 0;
+  let metricsCount = 0;
+
+  fs.rmSync(TOPIC_DIR, { recursive: true, force: true });
+  fs.mkdirSync(TOPIC_DIR, { recursive: true });
+
+  for (const topic of cleanedTopics) {
+    const items = stripPrivate(ddlData[topic.id] || []).map(item => itemLite(item, topic.id));
+    const metrics = stripPrivate(metricData[topic.id] || []).map(metric => metricLite(metric, topic.id));
+    cleanedItemsByTopic[topic.id] = items;
+    cleanedMetricsByTopic[topic.id] = metrics;
+    itemsCount += items.length;
+    metricsCount += metrics.length;
+
+    writeJson(path.join(TOPIC_DIR, `${topic.id}.json`), {
+      generatedAt,
+      dataVersion: '',
+      topic,
+      items,
+      metrics,
+      subtopics: subtopicGroups(items)
+    });
+  }
+
+  const payloadForHash = {
+    topics: cleanedTopics,
+    items: cleanedItemsByTopic,
+    metrics: cleanedMetricsByTopic
+  };
+  const dataVersion = checksum(payloadForHash).slice(0, 16);
+
+  for (const topic of cleanedTopics) {
+    const topicPath = path.join(TOPIC_DIR, `${topic.id}.json`);
+    const payload = JSON.parse(fs.readFileSync(topicPath, 'utf8'));
+    payload.dataVersion = dataVersion;
+    writeJson(topicPath, payload);
+  }
+
+  const searchItems = cleanedTopics.flatMap(topic =>
+    (cleanedItemsByTopic[topic.id] || []).map(item => ({
+      id: item.id,
+      topicId: topic.id,
+      title: item.title,
+      deadline: item.deadline,
+      date: item.date,
+      estimatedNextWindow: item.estimatedNextWindow,
+      type: item.type,
+      status: item.status,
+      tags: item.tags || [],
+      subtopic: item.subtopic,
+      source: item.source
+    }))
+  );
+
+  writeJson(path.join(OUT_DIR, 'manifest.json'), {
+    generatedAt,
+    dataVersion,
+    appVersion: packageJson.version || '0.0.0',
+    baseAssetUrl: '/assets/source-previews/',
+    topicsCount: cleanedTopics.length,
+    itemsCount,
+    metricsCount,
+    checksum: checksum(payloadForHash),
+    endpoints: {
+      topics: '/miniprogram/topics.json',
+      searchIndex: '/miniprogram/search-index.json',
+      topicTemplate: '/miniprogram/topics/{topicId}.json'
+    }
+  });
+  writeJson(path.join(OUT_DIR, 'topics.json'), cleanedTopics);
+  writeJson(path.join(OUT_DIR, 'search-index.json'), {
+    generatedAt,
+    dataVersion,
+    topics: cleanedTopics.map(topic => pick(topic, ['id', 'name', 'description', 'category', 'tags', 'itemCount', 'status'])),
+    items: searchItems
+  });
+
+  console.log(JSON.stringify({
+    generatedAt,
+    dataVersion,
+    topicsCount: cleanedTopics.length,
+    itemsCount,
+    metricsCount,
+    output: path.relative(ROOT, OUT_DIR)
+  }, null, 2));
+}
+
+main();

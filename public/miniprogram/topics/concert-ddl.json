@@ -1,0 +1,236 @@
+{
+  "generatedAt": "2026-05-24T04:20:10.427Z",
+  "dataVersion": "155270fdf80f9782",
+  "topic": {
+    "id": "concert-ddl",
+    "name": "Concerts",
+    "description": "演唱会、巡演、官方场馆活动和开票/演出日期倒计时。",
+    "icon": "Music",
+    "color": "#F97316",
+    "repo": "Just-Agent/entertainment-ddl",
+    "site": "https://just-agent.github.io/entertainment-ddl/#concert-ddl",
+    "category": "文娱生活",
+    "tags": [
+      "concert",
+      "live",
+      "ticketing"
+    ],
+    "itemCount": 8,
+    "status": "published",
+    "sourceMode": "cluster",
+    "clusterId": "entertainment-ddl"
+  },
+  "items": [
+    {
+      "id": "concert-ddl-metallica-athens-2026-05-09",
+      "topicId": "concert-ddl",
+      "title": "Metallica M72 Athens 2026",
+      "deadline": "2026-05-09T23:59:59+03:00",
+      "dateRange": "May 9, 2026",
+      "location": "Athens, Greece",
+      "isOnline": false,
+      "tags": [
+        "Metallica",
+        "M72",
+        "stadium"
+      ],
+      "url": "https://www.metallica.com/news/2025-05-22-m72-returns-to-europe-in-2026.html",
+      "status": "upcoming",
+      "stage": "Concert date",
+      "source": "Metallica official news",
+      "sourceUrl": "https://www.metallica.com/news/2025-05-22-m72-returns-to-europe-in-2026.html",
+      "type": "concert",
+      "description": "Metallica 官方 M72 2026 欧洲巡演公告中的 Athens 场次，按演出日期倒计时。",
+      "subtopic": "rock-metal",
+      "subtopicName": "摇滚/金属"
+    },
+    {
+      "id": "concert-ddl-metallica-dublin-2026-06-19",
+      "topicId": "concert-ddl",
+      "title": "Metallica M72 Dublin 2026",
+      "deadline": "2026-06-19T23:59:59+01:00",
+      "dateRange": "June 19 & 21, 2026",
+      "location": "Dublin, Ireland",
+      "isOnline": false,
+      "tags": [
+        "Metallica",
+        "M72",
+        "No Repeat Weekend"
+      ],
+      "url": "https://www.metallica.com/news/2025-05-22-m72-returns-to-europe-in-2026.html",
+      "status": "upcoming",
+      "stage": "Concert date",
+      "source": "Metallica official news",
+      "sourceUrl": "https://www.metallica.com/news/2025-05-22-m72-returns-to-europe-in-2026.html",
+      "type": "concert",
+      "description": "Metallica 官方公告列出的 Dublin Aviva Stadium No Repeat Weekend 节点，按首场演出日期倒计时。",
+      "subtopic": "rock-metal",
+      "subtopicName": "摇滚/金属"
+    },
+    {
+      "id": "concert-ddl-metallica-london-2026-07-03",
+      "topicId": "concert-ddl",
+      "title": "Metallica M72 London 2026",
+      "deadline": "2026-07-03T23:59:59+01:00",
+      "dateRange": "July 3 & 5, 2026",
+      "location": "London, England",
+      "isOnline": false,
+      "tags": [
+        "Metallica",
+        "M72",
+        "London Stadium"
+      ],
+      "url": "https://www.metallica.com/news/2025-05-22-m72-returns-to-europe-in-2026.html",
+      "status": "upcoming",
+      "stage": "Concert date",
+      "source": "Metallica official news",
+      "sourceUrl": "https://www.metallica.com/news/2025-05-22-m72-returns-to-europe-in-2026.html",
+      "type": "concert",
+      "description": "Metallica 官方公告列出的 London Stadium No Repeat Weekend 节点，按首场演出日期倒计时。",
+      "subtopic": "rock-metal",
+      "subtopicName": "摇滚/金属"
+    },
+    {
+      "id": "concert-ddl-ariana-grande-chicago-2026-08-03",
+      "topicId": "concert-ddl",
+      "title": "Ariana Grande The Eternal Sunshine Tour Chicago",
+      "deadline": "2026-08-03T20:00:00-05:00",
+      "dateRange": "August 3, 5 & 6, 2026",
+      "location": "Chicago, USA",
+      "isOnline": false,
+      "tags": [
+        "Ariana Grande",
+        "pop",
+        "United Center"
+      ],
+      "url": "https://www.unitedcenter.com/events/2026/08/03/ariana-grande-the-eternal-sunshine-tour/",
+      "status": "upcoming",
+      "stage": "Concert date",
+      "source": "United Center official event",
+      "sourceUrl": "https://www.unitedcenter.com/events/2026/08/03/ariana-grande-the-eternal-sunshine-tour/",
+      "type": "concert",
+      "description": "United Center 官方活动页确认 Ariana Grande 2026 年 8 月 3、5、6 日芝加哥场次，按首场开演时间倒计时。",
+      "subtopic": "pop",
+      "subtopicName": "流行音乐"
+    },
+    {
+      "id": "concert-ddl-wynonna-nashville-2026-06-06",
+      "topicId": "concert-ddl",
+      "title": "Wynonna Nashville 2026",
+      "deadline": "2026-06-06T23:59:59-05:00",
+      "dateRange": "June 6, 2026",
+      "location": "Nashville, USA",
+      "isOnline": false,
+      "tags": [
+        "Wynonna",
+        "country",
+        "The Bluebird Cafe"
+      ],
+      "url": "https://www.wynonna.com/",
+      "status": "upcoming",
+      "stage": "Concert date",
+      "source": "Wynonna official tour",
+      "sourceUrl": "https://www.wynonna.com/",
+      "type": "concert",
+      "description": "Wynonna 官方巡演列表中的 Nashville / The Bluebird Cafe 场次，按演出日倒计时。",
+      "subtopic": "country",
+      "subtopicName": "乡村音乐"
+    },
+    {
+      "id": "concert-ddl-wynonna-red-butte-2026-07-30",
+      "topicId": "concert-ddl",
+      "title": "Wynonna Red Butte Garden 2026",
+      "deadline": "2026-07-30T23:59:59-06:00",
+      "dateRange": "July 30, 2026",
+      "location": "Salt Lake City, USA",
+      "isOnline": false,
+      "tags": [
+        "Wynonna",
+        "country",
+        "Red Butte Garden"
+      ],
+      "url": "https://www.wynonna.com/",
+      "status": "upcoming",
+      "stage": "Concert date",
+      "source": "Wynonna official tour",
+      "sourceUrl": "https://www.wynonna.com/",
+      "type": "concert",
+      "description": "Wynonna 官方巡演列表中的 Red Butte Garden Outdoor Concert Series 节点。",
+      "subtopic": "country",
+      "subtopicName": "乡村音乐"
+    },
+    {
+      "id": "concert-ddl-roger-daltrey-mesa-2026-08-23",
+      "topicId": "concert-ddl",
+      "title": "Roger Daltrey Mesa 2026",
+      "deadline": "2026-08-23T23:59:59-07:00",
+      "dateRange": "August 23, 2026",
+      "location": "Mesa, USA",
+      "isOnline": false,
+      "tags": [
+        "Roger Daltrey",
+        "The Who",
+        "classic rock"
+      ],
+      "url": "https://www.thewho.com/tour/",
+      "status": "upcoming",
+      "stage": "Concert date",
+      "source": "The Who official tour",
+      "sourceUrl": "https://www.thewho.com/tour/",
+      "type": "concert",
+      "description": "The Who 官方 tour 页面列出的 Roger Daltrey Mesa Arts Center 场次，按演出日倒计时。",
+      "subtopic": "classic-rock",
+      "subtopicName": "经典摇滚"
+    },
+    {
+      "id": "concert-ddl-roger-daltrey-reno-2026-09-05",
+      "topicId": "concert-ddl",
+      "title": "Roger Daltrey Reno 2026",
+      "deadline": "2026-09-05T23:59:59-07:00",
+      "dateRange": "September 5, 2026",
+      "location": "Reno, USA",
+      "isOnline": false,
+      "tags": [
+        "Roger Daltrey",
+        "The Who",
+        "classic rock"
+      ],
+      "url": "https://www.thewho.com/tour/",
+      "status": "upcoming",
+      "stage": "Concert date",
+      "source": "The Who official tour",
+      "sourceUrl": "https://www.thewho.com/tour/",
+      "type": "concert",
+      "description": "The Who 官方 tour 页面列出的 Roger Daltrey Reno / Grand Theatre 场次。",
+      "subtopic": "classic-rock",
+      "subtopicName": "经典摇滚"
+    }
+  ],
+  "metrics": [],
+  "subtopics": [
+    {
+      "id": "rock-metal",
+      "name": "摇滚/金属",
+      "itemCount": 3,
+      "nextItemId": "concert-ddl-metallica-athens-2026-05-09"
+    },
+    {
+      "id": "classic-rock",
+      "name": "经典摇滚",
+      "itemCount": 2,
+      "nextItemId": "concert-ddl-roger-daltrey-mesa-2026-08-23"
+    },
+    {
+      "id": "country",
+      "name": "乡村音乐",
+      "itemCount": 2,
+      "nextItemId": "concert-ddl-wynonna-nashville-2026-06-06"
+    },
+    {
+      "id": "pop",
+      "name": "流行音乐",
+      "itemCount": 1,
+      "nextItemId": "concert-ddl-ariana-grande-chicago-2026-08-03"
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "generatedAt": "2026-05-24T04:20:10.427Z",
+  "dataVersion": "155270fdf80f9782",
+  "topic": {
+    "id": "phone-launch-ddl",
+    "name": "Phone Launches",
+    "description": "手机发布会、移动生态发布窗口和官方品牌 source board。",
+    "icon": "Smartphone",
+    "color": "#0EA5E9",
+    "repo": "Just-Agent/consumer-launch-ddl",
+    "site": "https://just-agent.github.io/consumer-launch-ddl/#phone-launch-ddl",
+    "category": "消费发布",
+    "tags": [
+      "smartphone",
+      "launch",
+      "mobile"
+    ],
+    "itemCount": 5,
+    "status": "published",
+    "sourceMode": "cluster",
+    "clusterId": "consumer-launch-ddl"
+  },
+  "items": [
+    {
+      "id": "phone-launch-ddl-apple-wwdc26-keynote-2026-06-08",
+      "topicId": "phone-launch-ddl",
+      "title": "Apple WWDC26 Keynote",
+      "deadline": "2026-06-08T10:00:00-07:00",
+      "dateRange": "June 8, 2026",
+      "location": "Online / Apple Park",
+      "isOnline": true,
+      "tags": [
+        "Apple",
+        "iOS",
+        "developer keynote"
+      ],
+      "url": "https://www.apple.com/newsroom/2026/05/apple-kicks-off-worldwide-developers-conference-on-june-8/",
+      "status": "upcoming",
+      "stage": "Launch keynote",
+      "source": "Apple Newsroom",
+      "sourceUrl": "https://www.apple.com/newsroom/2026/05/apple-kicks-off-worldwide-developers-conference-on-june-8/",
+      "type": "release",
+      "description": "Apple 官方 Newsroom 公告确认 WWDC26 于 2026 年 6 月 8 日开幕，iPhone 平台系统与生态更新通常在 keynote 首日发布。",
+      "subtopic": "apple",
+      "subtopicName": "Apple"
+    },
+    {
+      "id": "phone-launch-ddl-ifa-berlin-2026-09-04",
+      "topicId": "phone-launch-ddl",
+      "title": "IFA Berlin 2026",
+      "deadline": "2026-09-04T10:00:00+02:00",
+      "dateRange": "September 4-8, 2026",
+      "location": "Berlin, Germany",
+      "isOnline": false,
+      "tags": [
+        "IFA",
+        "consumer electronics",
+        "mobile"
+      ],
+      "url": "https://www.ifa-berlin.com/",
+      "status": "upcoming",
+      "stage": "Launch window",
+      "source": "IFA Berlin official",
+      "sourceUrl": "https://www.ifa-berlin.com/",
+      "type": "program",
+      "description": "IFA 官方站点公布 2026 年柏林消费电子展日期；手机与移动设备新品常在该窗口集中发布，具体品牌机型以厂商官方公告为准。",
+      "subtopic": "global-expo",
+      "subtopicName": "全球发布窗口"
+    },
+    {
+      "id": "phone-launch-ddl-oppo-newsroom-source-board-2026",
+      "topicId": "phone-launch-ddl",
+      "title": "OPPO Newsroom 官方发布入口",
+      "deadline": "2026-12-31T23:59:59+09:00",
+      "dateRange": "待 Samsung 官方公告",
+      "location": "Global",
+      "isOnline": true,
+      "tags": [
+        "OPPO",
+        "smartphone",
+        "launch"
+      ],
+      "url": "https://www.oppo.com/en/newsroom/",
+      "status": "upcoming",
+      "stage": "Source board",
+      "source": "OPPO Newsroom",
+      "sourceUrl": "https://www.oppo.com/en/newsroom/",
+      "type": "program",
+      "description": "OPPO Global Newsroom 官方入口。下一场手机发布会日期未官宣前只作为 source board，不展示假倒计时。",
+      "subtopic": "oppo",
+      "subtopicName": "OPPO"
+    },
+    {
+      "id": "phone-launch-ddl-google-pixel-source-board-2026",
+      "topicId": "phone-launch-ddl",
+      "title": "Google Pixel 官方发布入口",
+      "deadline": "2026-12-31T23:59:59-07:00",
+      "dateRange": "待 Google 官方公告",
+      "location": "Global",
+      "isOnline": true,
+      "tags": [
+        "Google",
+        "Pixel",
+        "Android"
+      ],
+      "url": "https://blog.google/products/pixel/",
+      "status": "upcoming",
+      "stage": "Source board",
+      "source": "Google Pixel Blog",
+      "sourceUrl": "https://blog.google/products/pixel/",
+      "type": "program",
+      "description": "Google Pixel 官方产品博客入口。下一代 Pixel 发布会日期未官宣前只做来源追踪，避免使用传闻日期。",
+      "subtopic": "google-pixel",
+      "subtopicName": "Google Pixel"
+    },
+    {
+      "id": "phone-launch-ddl-xiaomi-newsroom-source-board-2026",
+      "topicId": "phone-launch-ddl",
+      "title": "Xiaomi Global Newsroom 发布入口",
+      "deadline": "2026-12-31T23:59:59+08:00",
+      "dateRange": "待 Xiaomi 官方公告",
+      "location": "Global",
+      "isOnline": true,
+      "tags": [
+        "Xiaomi",
+        "smartphone",
+        "launch"
+      ],
+      "url": "https://www.mi.com/global/discover/newsroom",
+      "status": "upcoming",
+      "stage": "Source board",
+      "source": "Xiaomi Global Newsroom",
+      "sourceUrl": "https://www.mi.com/global/discover/newsroom",
+      "type": "program",
+      "description": "Xiaomi Global Newsroom 用于追踪全球手机新品发布。具体机型和日期以 Xiaomi 官方公告为准。",
+      "subtopic": "xiaomi",
+      "subtopicName": "Xiaomi"
+    }
+  ],
+  "metrics": [],
+  "subtopics": [
+    {
+      "id": "global-expo",
+      "name": "全球发布窗口",
+      "itemCount": 1,
+      "nextItemId": "phone-launch-ddl-ifa-berlin-2026-09-04"
+    },
+    {
+      "id": "apple",
+      "name": "Apple",
+      "itemCount": 1,
+      "nextItemId": "phone-launch-ddl-apple-wwdc26-keynote-2026-06-08"
+    },
+    {
+      "id": "google-pixel",
+      "name": "Google Pixel",
+      "itemCount": 1,
+      "nextItemId": "phone-launch-ddl-google-pixel-source-board-2026"
+    },
+    {
+      "id": "oppo",
+      "name": "OPPO",
+      "itemCount": 1,
+      "nextItemId": "phone-launch-ddl-oppo-newsroom-source-board-2026"
+    },
+    {
+      "id": "xiaomi",
+      "name": "Xiaomi",
+      "itemCount": 1,
+      "nextItemId": "phone-launch-ddl-xiaomi-newsroom-source-board-2026"
+    }
+  ]
+}

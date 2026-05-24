@@ -1,0 +1,207 @@
+{
+  "generatedAt": "2026-05-24T04:20:10.427Z",
+  "dataVersion": "155270fdf80f9782",
+  "topic": {
+    "id": "movie-tv-ddl",
+    "name": "Movies & TV",
+    "description": "电影、电视剧、流媒体和动画上映/上线日期倒计时。",
+    "icon": "Clapperboard",
+    "color": "#DB2777",
+    "repo": "Just-Agent/entertainment-ddl",
+    "site": "https://just-agent.github.io/entertainment-ddl/#movie-tv-ddl",
+    "category": "文娱生活",
+    "tags": [
+      "movie",
+      "TV",
+      "release"
+    ],
+    "itemCount": 7,
+    "status": "published",
+    "sourceMode": "cluster",
+    "clusterId": "entertainment-ddl"
+  },
+  "items": [
+    {
+      "id": "movie-tv-ddl-devil-wears-prada-2-2026-05-01",
+      "topicId": "movie-tv-ddl",
+      "title": "The Devil Wears Prada 2",
+      "deadline": "2026-05-01T23:59:59+01:00",
+      "dateRange": "May 1, 2026",
+      "location": "Theaters",
+      "isOnline": false,
+      "tags": [
+        "Disney",
+        "comedy",
+        "theatrical"
+      ],
+      "url": "https://www.disney.co.uk/movies/the-devil-wears-prada-2",
+      "status": "upcoming",
+      "stage": "Theatrical release",
+      "source": "Disney official movie page",
+      "sourceUrl": "https://www.disney.co.uk/movies/the-devil-wears-prada-2",
+      "type": "release",
+      "description": "Disney UK 官方电影页列出的院线上映日期，按上映日倒计时。",
+      "subtopic": "movie-release",
+      "subtopicName": "电影上映"
+    },
+    {
+      "id": "movie-tv-ddl-mandalorian-grogu-2026-05-22",
+      "topicId": "movie-tv-ddl",
+      "title": "Star Wars: The Mandalorian and Grogu",
+      "deadline": "2026-05-22T23:59:59+01:00",
+      "dateRange": "May 22, 2026",
+      "location": "Theaters",
+      "isOnline": false,
+      "tags": [
+        "Lucasfilm",
+        "Star Wars",
+        "theatrical"
+      ],
+      "url": "https://www.disney.co.uk/movies/star-wars-the-mandalorian-and-grogu",
+      "status": "upcoming",
+      "stage": "Theatrical release",
+      "source": "Disney official movie page",
+      "sourceUrl": "https://www.disney.co.uk/movies/star-wars-the-mandalorian-and-grogu",
+      "type": "release",
+      "description": "Disney UK 官方电影页列出的 Star Wars 新片院线上映日期。",
+      "subtopic": "movie-release",
+      "subtopicName": "电影上映"
+    },
+    {
+      "id": "movie-tv-ddl-toy-story-5-2026-06-19",
+      "topicId": "movie-tv-ddl",
+      "title": "Toy Story 5",
+      "deadline": "2026-06-19T23:59:59-07:00",
+      "dateRange": "June 19, 2026",
+      "location": "Theaters",
+      "isOnline": false,
+      "tags": [
+        "Pixar",
+        "animation",
+        "theatrical"
+      ],
+      "url": "https://www.pixar.com/toy-story-5",
+      "status": "upcoming",
+      "stage": "Theatrical release",
+      "source": "Pixar official movie page",
+      "sourceUrl": "https://www.pixar.com/toy-story-5",
+      "type": "release",
+      "description": "Pixar 官方电影页确认 Toy Story 5 于 2026 年 6 月 19 日院线上映。",
+      "subtopic": "animation",
+      "subtopicName": "动画电影"
+    },
+    {
+      "id": "movie-tv-ddl-moana-2026-07-10",
+      "topicId": "movie-tv-ddl",
+      "title": "Moana",
+      "deadline": "2026-07-10T23:59:59+01:00",
+      "dateRange": "July 10, 2026",
+      "location": "Theaters",
+      "isOnline": false,
+      "tags": [
+        "Disney",
+        "live action",
+        "theatrical"
+      ],
+      "url": "https://www.disney.co.uk/movies/moana-2026",
+      "status": "upcoming",
+      "stage": "Theatrical release",
+      "source": "Disney official movie page",
+      "sourceUrl": "https://www.disney.co.uk/movies/moana-2026",
+      "type": "release",
+      "description": "Disney UK 官方电影页列出的 live-action Moana 上映日期。",
+      "subtopic": "movie-release",
+      "subtopicName": "电影上映"
+    },
+    {
+      "id": "movie-tv-ddl-spider-man-brand-new-day-2026-07-31",
+      "topicId": "movie-tv-ddl",
+      "title": "Spider-Man: Brand New Day",
+      "deadline": "2026-07-31T23:59:59-07:00",
+      "dateRange": "July 31, 2026",
+      "location": "Theaters",
+      "isOnline": false,
+      "tags": [
+        "Marvel",
+        "Spider-Man",
+        "theatrical"
+      ],
+      "url": "https://www.marvel.com/movies/spider-man-brand-new-day",
+      "status": "upcoming",
+      "stage": "Theatrical release",
+      "source": "Marvel official movie page",
+      "sourceUrl": "https://www.marvel.com/movies/spider-man-brand-new-day",
+      "type": "release",
+      "description": "Marvel 官方电影页列出的 Spider-Man: Brand New Day 上映日期。",
+      "subtopic": "superhero",
+      "subtopicName": "超级英雄"
+    },
+    {
+      "id": "movie-tv-ddl-avengers-doomsday-2026-12-18",
+      "topicId": "movie-tv-ddl",
+      "title": "Avengers: Doomsday",
+      "deadline": "2026-12-18T23:59:59-08:00",
+      "dateRange": "December 18, 2026",
+      "location": "Theaters",
+      "isOnline": false,
+      "tags": [
+        "Marvel",
+        "Avengers",
+        "theatrical"
+      ],
+      "url": "https://www.marvel.com/movies/avengers-doomsday",
+      "status": "upcoming",
+      "stage": "Theatrical release",
+      "source": "Marvel official movie page",
+      "sourceUrl": "https://www.marvel.com/movies/avengers-doomsday",
+      "type": "release",
+      "description": "Marvel 官方电影页确认 Avengers: Doomsday 于 2026 年 12 月 18 日上映。",
+      "subtopic": "superhero",
+      "subtopicName": "超级英雄"
+    },
+    {
+      "id": "movie-tv-ddl-avengers-secret-wars-2027-12-17",
+      "topicId": "movie-tv-ddl",
+      "title": "Avengers: Secret Wars",
+      "deadline": "2027-12-17T23:59:59-08:00",
+      "dateRange": "December 17, 2027",
+      "location": "Theaters",
+      "isOnline": false,
+      "tags": [
+        "Marvel",
+        "Avengers",
+        "theatrical"
+      ],
+      "url": "https://www.marvel.com/movies/avengers-secret-wars",
+      "status": "upcoming",
+      "stage": "Theatrical release",
+      "source": "Marvel official movie page",
+      "sourceUrl": "https://www.marvel.com/movies/avengers-secret-wars",
+      "type": "release",
+      "description": "Marvel 官方电影页列出的 Avengers: Secret Wars 上映日期，作为远期倒计时节点保留。",
+      "subtopic": "superhero",
+      "subtopicName": "超级英雄"
+    }
+  ],
+  "metrics": [],
+  "subtopics": [
+    {
+      "id": "superhero",
+      "name": "超级英雄",
+      "itemCount": 3,
+      "nextItemId": "movie-tv-ddl-spider-man-brand-new-day-2026-07-31"
+    },
+    {
+      "id": "movie-release",
+      "name": "电影上映",
+      "itemCount": 3,
+      "nextItemId": "movie-tv-ddl-devil-wears-prada-2-2026-05-01"
+    },
+    {
+      "id": "animation",
+      "name": "动画电影",
+      "itemCount": 1,
+      "nextItemId": "movie-tv-ddl-toy-story-5-2026-06-19"
+    }
+  ]
+}

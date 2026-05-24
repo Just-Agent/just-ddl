@@ -1,0 +1,179 @@
+{
+  "generatedAt": "2026-05-24T04:20:10.427Z",
+  "dataVersion": "155270fdf80f9782",
+  "topic": {
+    "id": "design-ddl",
+    "name": "Design & Product",
+    "description": "UX、产品设计、服务设计、交互设计、工业设计和创意挑战赛截止日",
+    "icon": "Eye",
+    "color": "#DB2777",
+    "repo": "Just-Agent/design-ddl",
+    "site": "https://just-agent.github.io/design-ddl/",
+    "category": "设计创作",
+    "tags": [
+      "UX",
+      "product",
+      "design"
+    ],
+    "itemCount": 7,
+    "status": "published"
+  },
+  "items": [
+    {
+      "id": "uxda-autumn-2026-submission-period-deadline",
+      "topicId": "design-ddl",
+      "title": "UX Design Awards Autumn 2026 - Submission period deadline",
+      "deadline": "2026-05-18T23:59:59Z",
+      "dateRange": "18 May 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "UX",
+        "design",
+        "award",
+        "Autumn"
+      ],
+      "url": "https://ux-design-awards.com/enter/dates",
+      "status": "upcoming",
+      "stage": "Deadline",
+      "source": "UX Design Awards",
+      "type": "contest",
+      "description": "Parsed from official UX Design Awards Dates page."
+    },
+    {
+      "id": "uxda-autumn-2026-nomination-review-closes",
+      "topicId": "design-ddl",
+      "title": "UX Design Awards Autumn 2026 - Nomination review closes",
+      "deadline": "2026-05-31T23:59:59Z",
+      "dateRange": "31 May 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "UX",
+        "design",
+        "award",
+        "Autumn"
+      ],
+      "url": "https://ux-design-awards.com/enter/dates",
+      "status": "upcoming",
+      "stage": "Milestone",
+      "source": "UX Design Awards",
+      "type": "contest",
+      "description": "Parsed from official UX Design Awards Dates page."
+    },
+    {
+      "id": "uxda-autumn-2026-notification-of-nominees",
+      "topicId": "design-ddl",
+      "title": "UX Design Awards Autumn 2026 - Notification of nominees",
+      "deadline": "2026-06-02T23:59:59Z",
+      "dateRange": "2 June 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "UX",
+        "design",
+        "award",
+        "Autumn"
+      ],
+      "url": "https://ux-design-awards.com/enter/dates",
+      "status": "upcoming",
+      "stage": "Milestone",
+      "source": "UX Design Awards",
+      "type": "contest",
+      "description": "Parsed from official UX Design Awards Dates page."
+    },
+    {
+      "id": "uxda-autumn-2026-public-nominee-announcement",
+      "topicId": "design-ddl",
+      "title": "UX Design Awards Autumn 2026 - Public nominee announcement",
+      "deadline": "2026-07-07T23:59:59Z",
+      "dateRange": "7 July 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "UX",
+        "design",
+        "award",
+        "Autumn"
+      ],
+      "url": "https://ux-design-awards.com/enter/dates",
+      "status": "upcoming",
+      "stage": "Milestone",
+      "source": "UX Design Awards",
+      "type": "contest",
+      "description": "Parsed from official UX Design Awards Dates page."
+    },
+    {
+      "id": "uxda-autumn-2026-public-choice-award-voting-closes",
+      "topicId": "design-ddl",
+      "title": "UX Design Awards Autumn 2026 - Public Choice Award voting closes",
+      "deadline": "2026-08-21T23:59:59Z",
+      "dateRange": "21 August 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "UX",
+        "design",
+        "award",
+        "Autumn"
+      ],
+      "url": "https://ux-design-awards.com/enter/dates",
+      "status": "upcoming",
+      "stage": "Deadline",
+      "source": "UX Design Awards",
+      "type": "contest",
+      "description": "Parsed from official UX Design Awards Dates page."
+    },
+    {
+      "id": "uxda-autumn-2026-winner-announcement",
+      "topicId": "design-ddl",
+      "title": "UX Design Awards Autumn 2026 - Winner announcement",
+      "deadline": "2026-09-02T23:59:59Z",
+      "dateRange": "2 September 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "UX",
+        "design",
+        "award",
+        "Autumn"
+      ],
+      "url": "https://ux-design-awards.com/enter/dates",
+      "status": "upcoming",
+      "stage": "Milestone",
+      "source": "UX Design Awards",
+      "type": "contest",
+      "description": "Parsed from official UX Design Awards Dates page."
+    },
+    {
+      "id": "uxda-autumn-2027-call-for-participation-closes",
+      "topicId": "design-ddl",
+      "title": "UX Design Awards Autumn 2027 - Call for participation closes",
+      "deadline": "2026-11-15T23:59:59Z",
+      "dateRange": "15 November 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "UX",
+        "design",
+        "award",
+        "Autumn"
+      ],
+      "url": "https://ux-design-awards.com/enter/dates",
+      "status": "upcoming",
+      "stage": "Deadline",
+      "source": "UX Design Awards",
+      "type": "contest",
+      "description": "Parsed from official UX Design Awards Dates page."
+    }
+  ],
+  "metrics": [],
+  "subtopics": [
+    {
+      "id": "general",
+      "name": "General",
+      "itemCount": 7,
+      "nextItemId": "uxda-autumn-2026-submission-period-deadline"
+    }
+  ]
+}

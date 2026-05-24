@@ -1,0 +1,74 @@
+{
+  "generatedAt": "2026-05-24T04:20:10.427Z",
+  "dataVersion": "155270fdf80f9782",
+  "topic": {
+    "id": "biotech-ddl",
+    "name": "Biotech",
+    "description": "生物医药、医学影像、基因组、蛋白质设计和健康 AI 挑战截止日",
+    "icon": "GraduationCap",
+    "color": "#16A34A",
+    "repo": "Just-Agent/biotech-ddl",
+    "site": "https://just-agent.github.io/biotech-ddl/",
+    "category": "生命健康",
+    "tags": [
+      "biotech",
+      "medical AI",
+      "genomics"
+    ],
+    "itemCount": 2,
+    "status": "published"
+  },
+  "items": [
+    {
+      "id": "dd-health-66-flu-shot-learning",
+      "topicId": "biotech-ddl",
+      "title": "Flu Shot Learning: Predict H1N1 and Seasonal Flu Vaccines",
+      "deadline": "2027-07-30T23:59:00Z",
+      "dateRange": "July 30, 2027, 11:59 p.m. UTC",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "biotech",
+        "health",
+        "DrivenData",
+        "competition"
+      ],
+      "url": "https://www.drivendata.org/competitions/66/flu-shot-learning/",
+      "status": "upcoming",
+      "stage": "Deadline",
+      "source": "DrivenData Health Competitions",
+      "type": "challenge",
+      "description": "Parsed from DrivenData health competitions listing. Deadline is read from the card end-date tooltip."
+    },
+    {
+      "id": "dd-health-44-dengai-predicting-disease-spread",
+      "topicId": "biotech-ddl",
+      "title": "DengAI: Predicting Disease Spread",
+      "deadline": "2027-10-05T23:59:00Z",
+      "dateRange": "Oct. 5, 2027, 11:59 p.m. UTC",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "biotech",
+        "health",
+        "DrivenData",
+        "competition"
+      ],
+      "url": "https://www.drivendata.org/competitions/44/dengai-predicting-disease-spread/",
+      "status": "upcoming",
+      "stage": "Deadline",
+      "source": "DrivenData Health Competitions",
+      "type": "challenge",
+      "description": "Parsed from DrivenData health competitions listing. Deadline is read from the card end-date tooltip."
+    }
+  ],
+  "metrics": [],
+  "subtopics": [
+    {
+      "id": "general",
+      "name": "General",
+      "itemCount": 2,
+      "nextItemId": "dd-health-66-flu-shot-learning"
+    }
+  ]
+}

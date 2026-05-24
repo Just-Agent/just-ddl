@@ -1,0 +1,232 @@
+{
+  "generatedAt": "2026-05-24T04:20:10.427Z",
+  "dataVersion": "155270fdf80f9782",
+  "topic": {
+    "id": "jcr-impact-factor-ddl",
+    "name": "JCR 影响因子",
+    "description": "Journal Citation Reports 年度发布、影响因子版本节点、数据修正窗口和指标轨迹。",
+    "icon": "Database",
+    "color": "#9333EA",
+    "repo": "Just-Agent/journal-metrics-ddl",
+    "site": "https://just-agent.github.io/journal-metrics-ddl/#jcr-impact-factor-ddl",
+    "category": "学术期刊",
+    "tags": [
+      "JCR",
+      "impact factor",
+      "Clarivate"
+    ],
+    "itemCount": 6,
+    "status": "published",
+    "sourceMode": "cluster",
+    "clusterId": "journal-metrics-ddl"
+  },
+  "items": [
+    {
+      "id": "jcr-2026-official-webinar",
+      "topicId": "jcr-impact-factor-ddl",
+      "title": "2026 Journal Citation Reports 官方说明活动",
+      "deadline": "2026-06-30T11:00:00+03:00",
+      "dateRange": "2026-06-30",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "JCR",
+        "Clarivate",
+        "2026"
+      ],
+      "url": "https://clarivate.com/academia-government/events/journal-citation-reports-2026-2/",
+      "status": "upcoming",
+      "stage": "JCR 2026 webinar",
+      "source": "Clarivate",
+      "sourceUrl": "https://clarivate.com/academia-government/events/journal-citation-reports-2026-2/",
+      "type": "officialDeadline",
+      "description": "Clarivate 官方培训页列出 2026 Journal Citation Reports 相关说明活动；JCR 具体数据仍以 Clarivate 正式发布为准。",
+      "subtopic": "jcr-release",
+      "subtopicName": "JCR 年度发布",
+      "category": "期刊评价"
+    },
+    {
+      "id": "jcr-2025-release",
+      "topicId": "jcr-impact-factor-ddl",
+      "title": "2025 Journal Citation Reports 发布",
+      "date": "2025-06-18",
+      "dateRange": "2025-06-18",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "JCR",
+        "影响因子",
+        "2025"
+      ],
+      "url": "https://clarivate.com/news/clarivate-unveils-the-2025-journal-citation-reports/",
+      "status": "ended",
+      "stage": "JCR release",
+      "source": "Clarivate",
+      "sourceUrl": "https://clarivate.com/news/clarivate-unveils-the-2025-journal-citation-reports/",
+      "type": "historyEvent",
+      "description": "Clarivate 于 2025 年 6 月 18 日发布 2025 Journal Citation Reports。",
+      "subtopic": "jcr-release",
+      "subtopicName": "JCR 年度发布",
+      "category": "期刊评价"
+    },
+    {
+      "id": "jcr-2024-release",
+      "topicId": "jcr-impact-factor-ddl",
+      "title": "2024 Journal Citation Reports 发布",
+      "date": "2024-06-20",
+      "dateRange": "2024-06-20",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "JCR",
+        "影响因子",
+        "2024"
+      ],
+      "url": "https://clarivate.com/news/clarivate-reveals-worlds-leading-and-trusted-journals-with-the-2024-journal-citation-reports/",
+      "status": "ended",
+      "stage": "JCR release",
+      "source": "Clarivate",
+      "sourceUrl": "https://clarivate.com/news/clarivate-reveals-worlds-leading-and-trusted-journals-with-the-2024-journal-citation-reports/",
+      "type": "historyEvent",
+      "description": "Clarivate 于 2024 年 6 月 20 日发布 2024 Journal Citation Reports。",
+      "subtopic": "jcr-release",
+      "subtopicName": "JCR 年度发布",
+      "category": "期刊评价"
+    },
+    {
+      "id": "jcr-2024-correction-record",
+      "topicId": "jcr-impact-factor-ddl",
+      "title": "2024 JCR 后续更正记录",
+      "date": "2024-10-01",
+      "dateRange": "2024-10-01",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "JCR",
+        "数据修正",
+        "reload"
+      ],
+      "url": "https://journalcitationreports.zendesk.com/hc/en-gb/articles/28350104816785-2024",
+      "status": "ended",
+      "stage": "Correction record",
+      "source": "Clarivate JCR Support",
+      "sourceUrl": "https://journalcitationreports.zendesk.com/hc/en-gb/articles/28350104816785-2024",
+      "type": "historyEvent",
+      "description": "JCR 支持页记录了 2024 JCR 发布后的缺失材料补充和少量指标更正，说明后续修正需要单独追踪。",
+      "subtopic": "jcr-corrections",
+      "subtopicName": "后续修正",
+      "category": "期刊评价"
+    },
+    {
+      "id": "jcr-2026-release-forecast",
+      "topicId": "jcr-impact-factor-ddl",
+      "title": "2026 JCR 年度发布预测窗口",
+      "dateRange": "2026-06-15 - 2026-06-30",
+      "estimatedNextWindow": {
+        "start": "2026-06-15",
+        "end": "2026-06-30"
+      },
+      "lastOfficialDate": "2025-06-18",
+      "basisEvents": [
+        "jcr-2024-release",
+        "jcr-2025-release"
+      ],
+      "confidence": "medium",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "JCR",
+        "预测窗口",
+        "Clarivate"
+      ],
+      "url": "https://clarivate.com/academia-government/scientific-and-academic-research/research-funding-analytics/journal-citation-reports/",
+      "status": "unannounced",
+      "stage": "Forecast only",
+      "source": "Clarivate",
+      "sourceUrl": "https://clarivate.com/academia-government/scientific-and-academic-research/research-funding-analytics/journal-citation-reports/",
+      "type": "forecastWindow",
+      "description": "预测窗口不进入官方倒计时；待 Clarivate 正式发布后替换为正式历史/发布节点。",
+      "subtopic": "jcr-release",
+      "subtopicName": "JCR 年度发布",
+      "category": "期刊评价"
+    },
+    {
+      "id": "jcr-2026-correction-watch-window",
+      "topicId": "jcr-impact-factor-ddl",
+      "title": "2026 JCR 后续修正观察窗口",
+      "dateRange": "2026-10-01 - 2026-11-30",
+      "estimatedNextWindow": {
+        "start": "2026-10-01",
+        "end": "2026-11-30"
+      },
+      "lastOfficialDate": "2024-10-01",
+      "basisEvents": [
+        "jcr-2024-correction-record"
+      ],
+      "confidence": "low",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "JCR",
+        "修正观察",
+        "低置信度"
+      ],
+      "url": "https://journalcitationreports.zendesk.com/",
+      "status": "watching",
+      "stage": "Watch window",
+      "source": "Clarivate JCR Support",
+      "sourceUrl": "https://journalcitationreports.zendesk.com/hc/en-gb/articles/28350104816785-2024",
+      "type": "forecastWindow",
+      "description": "用于提醒维护者检查 JCR 官方支持页是否出现 reload 或 correction，不显示为正式 DDL。",
+      "subtopic": "jcr-corrections",
+      "subtopicName": "后续修正",
+      "category": "期刊评价"
+    }
+  ],
+  "metrics": [
+    {
+      "id": "jcr-2025-total-journals",
+      "topicId": "jcr-impact-factor-ddl",
+      "type": "metricSnapshot",
+      "metric": "jcr_total_journals",
+      "value": 22249,
+      "year": 2025,
+      "source": "Clarivate",
+      "url": "https://clarivate.com/news/clarivate-unveils-the-2025-journal-citation-reports/"
+    },
+    {
+      "id": "jcr-2025-categories",
+      "topicId": "jcr-impact-factor-ddl",
+      "type": "metricSnapshot",
+      "metric": "jcr_categories",
+      "value": 254,
+      "year": 2025,
+      "source": "Clarivate",
+      "url": "https://clarivate.com/news/clarivate-unveils-the-2025-journal-citation-reports/"
+    },
+    {
+      "id": "jcr-journal-impact-factor-import-placeholder",
+      "topicId": "jcr-impact-factor-ddl",
+      "type": "metricSnapshot",
+      "metric": "journal_impact_factor_history",
+      "value": "licensed_import_required",
+      "asOfDate": "2026-05-24",
+      "source": "Journal Citation Reports",
+      "url": "https://clarivate.com/academia-government/scientific-and-academic-research/research-funding-analytics/journal-citation-reports/"
+    }
+  ],
+  "subtopics": [
+    {
+      "id": "jcr-release",
+      "name": "JCR 年度发布",
+      "itemCount": 4,
+      "nextItemId": "jcr-2026-official-webinar"
+    },
+    {
+      "id": "jcr-corrections",
+      "name": "后续修正",
+      "itemCount": 2,
+      "nextItemId": null
+    }
+  ]
+}
