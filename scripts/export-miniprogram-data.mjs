@@ -23,18 +23,23 @@ const PRIVATE_KEYS = new Set([
   'deadlineTimezone',
   'developerComment',
   'developerNote',
+  'developerRemark',
   'devNote',
+  'devRemark',
   'error',
   'forecastBasis',
   'internalNote',
+  'internalRemark',
   'lastChecked',
   'licenseNote',
   'linkCheckMode',
   'maintainerComment',
   'maintainerNote',
+  'maintainerRemark',
   'parser',
   'parserConfidence',
   'privateNote',
+  'privateRemark',
   'raw',
   'rawHtml',
   'rawPayload',
@@ -44,10 +49,11 @@ const PRIVATE_KEYS = new Set([
   'scopeNote',
   'sourcePolicy',
   'sourcePriority',
-  'validationNote'
+  'validationNote',
+  'debugRemark'
 ]);
 const PRIVATE_KEY_PATTERNS = [
-  /(?:developer|dev|maintainer|internal|private|debug|crawler|crawl|parser|adapter|license|coverage|sample|scope|linkCheck|validation|review|ops|sync|raw|error)[A-Za-z0-9_]*(?:Note|Notes|Comment|Comments|Memo|Memos|Report|Reports|Message|Messages)$/i,
+  /(?:developer|dev|maintainer|internal|private|debug|crawler|crawl|parser|adapter|license|coverage|sample|scope|linkCheck|validation|review|ops|sync|raw|error)[A-Za-z0-9_]*(?:Note|Notes|Comment|Comments|Memo|Memos|Remark|Remarks|Annotation|Annotations|Report|Reports|Message|Messages)$/i,
   /^(?:raw|error|stack|trace|exception)$/i
 ];
 

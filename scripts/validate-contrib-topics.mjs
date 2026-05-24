@@ -19,19 +19,25 @@ const PRIVATE_KEYS = new Set([
   'deadlineTimezone',
   'developerNote',
   'developerComment',
+  'developerRemark',
   'devNote',
+  'devRemark',
   'debugNote',
+  'debugRemark',
   'error',
   'forecastBasis',
   'internalNote',
+  'internalRemark',
   'lastChecked',
   'licenseNote',
   'linkCheckMode',
   'maintainerNote',
   'maintainerComment',
+  'maintainerRemark',
   'parser',
   'parserConfidence',
   'privateNote',
+  'privateRemark',
   'raw',
   'rawHtml',
   'rawPayload',
@@ -44,7 +50,7 @@ const PRIVATE_KEYS = new Set([
   'validationNote'
 ]);
 const PRIVATE_KEY_PATTERNS = [
-  /(?:developer|dev|maintainer|internal|private|debug|crawler|crawl|parser|adapter|license|coverage|sample|scope|linkCheck|validation|review|ops|sync|raw|error)[A-Za-z0-9_]*(?:Note|Notes|Comment|Comments|Memo|Memos|Report|Reports|Message|Messages)$/i,
+  /(?:developer|dev|maintainer|internal|private|debug|crawler|crawl|parser|adapter|license|coverage|sample|scope|linkCheck|validation|review|ops|sync|raw|error)[A-Za-z0-9_]*(?:Note|Notes|Comment|Comments|Memo|Memos|Remark|Remarks|Annotation|Annotations|Report|Reports|Message|Messages)$/i,
   /^(?:raw|error|stack|trace|exception)$/i
 ];
 const FORBIDDEN_PUBLIC_TEXT = [
@@ -55,16 +61,24 @@ const FORBIDDEN_PUBLIC_TEXT = [
   /error\.message/i,
   /stack trace/i,
   /developer note/i,
+  /developer remark/i,
   /maintainer note/i,
+  /maintainer remark/i,
   /internal note/i,
+  /internal remark/i,
   /private note/i,
+  /private remark/i,
   /debug note/i,
+  /debug remark/i,
   /not for public/i,
   /do not publish/i,
-  /开发者备注/,
-  /内部备注/,
-  /维护者备注/,
-  /调试备注/,
+  /开发者[的把]?备注/,
+  /开发备注/,
+  /内部[的把]?备注/,
+  /维护(?:者)?[的把]?备注/,
+  /调试[的把]?备注/,
+  /私有[的把]?备注/,
+  /私人[的把]?备注/,
   /\b(?:TODO|FIXME|HACK|XXX):/i
 ];
 
