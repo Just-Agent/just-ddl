@@ -15061,7 +15061,7 @@ export const ddlData: Record<string, DDLItem[]> = {
         "glm-5-release"
       ],
       "estimatedNextWindow": {
-        "start": "2026-06-06",
+        "start": "2026-06-08",
         "end": "2026-07-04"
       },
       "confidence": "medium",
@@ -15078,7 +15078,7 @@ export const ddlData: Record<string, DDLItem[]> = {
         "未官宣"
       ],
       "description": "预测不是官方发布时间，后续以 Z.ai 官方博客或模型文档为准。",
-      "dateRange": "2026-06-06 - 2026-07-04",
+      "dateRange": "2026-06-08 - 2026-07-04",
       "location": "Online",
       "isOnline": true
     },
@@ -15096,8 +15096,8 @@ export const ddlData: Record<string, DDLItem[]> = {
         "kimi-k2-think"
       ],
       "estimatedNextWindow": {
-        "start": "2026-06-16",
-        "end": "2026-07-14"
+        "start": "2026-06-27",
+        "end": "2026-07-03"
       },
       "confidence": "medium",
       "url": "https://platform.moonshot.ai/blog/posts/changelog",
@@ -15113,7 +15113,7 @@ export const ddlData: Record<string, DDLItem[]> = {
         "未官宣"
       ],
       "description": "预测不是官方发布时间，待 Moonshot AI 正式发布后再转为历史节点或官方节点。",
-      "dateRange": "2026-06-16 - 2026-07-14",
+      "dateRange": "2026-06-27 - 2026-07-03",
       "location": "Online",
       "isOnline": true
     },
@@ -15132,7 +15132,7 @@ export const ddlData: Record<string, DDLItem[]> = {
         "deepseek-v4-preview-release"
       ],
       "estimatedNextWindow": {
-        "start": "2026-08-17",
+        "start": "2026-08-30",
         "end": "2026-10-14"
       },
       "confidence": "medium",
@@ -15149,7 +15149,7 @@ export const ddlData: Record<string, DDLItem[]> = {
         "未官宣"
       ],
       "description": "预测不是官方发布时间，待 DeepSeek 官方 News 更新后再替换。",
-      "dateRange": "2026-08-17 - 2026-10-14",
+      "dateRange": "2026-08-30 - 2026-10-14",
       "location": "Online",
       "isOnline": true
     },

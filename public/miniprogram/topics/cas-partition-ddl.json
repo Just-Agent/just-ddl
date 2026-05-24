@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-24T19:44:17.266Z",
-  "dataVersion": "c01f7c1856630609",
+  "generatedAt": "2026-05-24T20:15:55.441Z",
+  "dataVersion": "36d58950616db28e",
   "topic": {
     "id": "cas-partition-ddl",
     "name": "中科院期刊分区",

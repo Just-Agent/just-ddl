@@ -21,6 +21,10 @@ const PUBLIC_DATA_DIRS = [
 const PUBLIC_TEXT_DIRS = [
   'public'
 ];
+const PUBLIC_TEXT_FILES = [
+  'README.md',
+  'docs/new-topic-guide.md'
+];
 const DIST_DIR = path.join(ROOT, 'dist');
 const PRIVATE_KEYS = [
   'accessMode',
@@ -290,7 +294,10 @@ for (const file of publicDataFiles) {
   errors.push(...validatePublicData(payload, path.relative(ROOT, file)));
 }
 
-const publicTextFiles = PUBLIC_TEXT_DIRS.flatMap(dir => walkFiles(path.join(ROOT, dir), new Set(['.md', '.txt', '.html'])));
+const publicTextFiles = [
+  ...PUBLIC_TEXT_FILES.map(file => path.join(ROOT, file)).filter(file => fs.existsSync(file)),
+  ...PUBLIC_TEXT_DIRS.flatMap(dir => walkFiles(path.join(ROOT, dir), new Set(['.md', '.txt', '.html'])))
+];
 for (const file of publicTextFiles) {
   errors.push(...validatePublicTextFile(file));
 }

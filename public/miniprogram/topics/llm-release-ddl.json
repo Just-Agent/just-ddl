@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-24T19:44:17.266Z",
-  "dataVersion": "c01f7c1856630609",
+  "generatedAt": "2026-05-24T20:15:55.441Z",
+  "dataVersion": "36d58950616db28e",
   "topic": {
     "id": "llm-release-ddl",
     "name": "大模型发布",
@@ -73,9 +73,9 @@
       "id": "glm-next-major-forecast-2026",
       "topicId": "llm-release-ddl",
       "title": "GLM 下一代主力模型预测窗口",
-      "dateRange": "2026-06-06 - 2026-07-04",
+      "dateRange": "2026-06-08 - 2026-07-04",
       "estimatedNextWindow": {
-        "start": "2026-06-06",
+        "start": "2026-06-08",
         "end": "2026-07-04"
       },
       "lastOfficialDate": "2026-02-12",
@@ -108,10 +108,10 @@
       "id": "kimi-next-major-forecast-2026",
       "topicId": "llm-release-ddl",
       "title": "Kimi 下一代主力模型预测窗口",
-      "dateRange": "2026-06-16 - 2026-07-14",
+      "dateRange": "2026-06-27 - 2026-07-03",
       "estimatedNextWindow": {
-        "start": "2026-06-16",
-        "end": "2026-07-14"
+        "start": "2026-06-27",
+        "end": "2026-07-03"
       },
       "lastOfficialDate": "2025-11-06",
       "basisEvents": [
@@ -142,9 +142,9 @@
       "id": "deepseek-next-major-forecast-2026",
       "topicId": "llm-release-ddl",
       "title": "DeepSeek 下一代主力模型预测窗口",
-      "dateRange": "2026-08-17 - 2026-10-14",
+      "dateRange": "2026-08-30 - 2026-10-14",
       "estimatedNextWindow": {
-        "start": "2026-08-17",
+        "start": "2026-08-30",
         "end": "2026-10-14"
       },
       "lastOfficialDate": "2026-04-24",

@@ -169,8 +169,7 @@ flowchart TB
 topic-ddl/
 ├─ data/
 │  ├─ items.json          # DDL 条目
-│  ├─ sources.json        # 官方/主办方/权威聚合来源
-│  └─ crawl-report.json   # 最近一次 crawler 检查结果
+│  └─ sources.json        # 官方/主办方/权威聚合来源
 ├─ scripts/
 │  ├─ crawl-sources.mjs
 │  ├─ validate-data.mjs

@@ -81,7 +81,7 @@ index.html
 
 - 针对不同 source 写明确解析器，不只做 reachability check。
 - 失败时保留现有 curated 数据，不写入空数据污染仓库。
-- 输出 `data/crawl-report.json`。
+- 输出本地运行摘要，便于排查；该摘要不进入 Pages 或公开数据出口。
 - 包含 `parsedItemCount`、`invalidItemCount`、`parserHealthy`、`parserDropOk`。
 - 对数据量突然下降设置保护阈值。
 - 明确区分 deadline 是报名截止、提交截止、活动开始还是活动结束。
