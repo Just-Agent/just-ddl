@@ -54,7 +54,8 @@ const PRIVATE_KEYS = new Set([
 ]);
 const PRIVATE_KEY_PATTERNS = [
   /(?:developer|dev|maintainer|internal|private|debug|crawler|crawl|parser|adapter|license|coverage|sample|scope|linkCheck|validation|review|ops|sync|raw|error)[A-Za-z0-9_]*(?:Note|Notes|Comment|Comments|Memo|Memos|Remark|Remarks|Annotation|Annotations|Report|Reports|Message|Messages)$/i,
-  /^(?:raw|error|stack|trace|exception)$/i
+  /^(?:raw|error|stack|trace|exception)$/i,
+  /(?:开发者|开发|内部|维护者?|调试|私有|私人|爬虫|解析器|原始|错误).{0,12}(?:备注|说明|注释|留言|消息|报告)$/i
 ];
 
 function isPrivateKey(key) {
@@ -223,17 +224,22 @@ function writeJson(filePath, value) {
   fs.renameSync(`${filePath}.tmp`, filePath);
 }
 
+function readExistingJson(filePath) {
+  if (!fs.existsSync(filePath)) return null;
+  try {
+    return JSON.parse(fs.readFileSync(filePath, 'utf8'));
+  } catch {
+    return null;
+  }
+}
+
 function main() {
   const { packageJson, topics, ddlData, metricData } = readData();
-  const generatedAt = new Date().toISOString();
   const cleanedTopics = stripPrivate(topics).map(topicLite);
   const cleanedItemsByTopic = {};
   const cleanedMetricsByTopic = {};
   let itemsCount = 0;
   let metricsCount = 0;
-
-  fs.rmSync(TOPIC_DIR, { recursive: true, force: true });
-  fs.mkdirSync(TOPIC_DIR, { recursive: true });
 
   for (const topic of cleanedTopics) {
     const items = stripPrivate(ddlData[topic.id] || []).map(item => itemLite(item, topic.id));
@@ -242,15 +248,6 @@ function main() {
     cleanedMetricsByTopic[topic.id] = metrics;
     itemsCount += items.length;
     metricsCount += metrics.length;
-
-    writeJson(path.join(TOPIC_DIR, `${topic.id}.json`), {
-      generatedAt,
-      dataVersion: '',
-      topic,
-      items,
-      metrics,
-      subtopics: subtopicGroups(items)
-    });
   }
 
   const payloadForHash = {
@@ -259,12 +256,24 @@ function main() {
     metrics: cleanedMetricsByTopic
   };
   const dataVersion = checksum(payloadForHash).slice(0, 16);
+  const existingManifest = readExistingJson(path.join(OUT_DIR, 'manifest.json'));
+  const generatedAt = existingManifest?.dataVersion === dataVersion && existingManifest?.generatedAt
+    ? existingManifest.generatedAt
+    : new Date().toISOString();
 
+  fs.rmSync(TOPIC_DIR, { recursive: true, force: true });
+  fs.mkdirSync(TOPIC_DIR, { recursive: true });
   for (const topic of cleanedTopics) {
-    const topicPath = path.join(TOPIC_DIR, `${topic.id}.json`);
-    const payload = JSON.parse(fs.readFileSync(topicPath, 'utf8'));
-    payload.dataVersion = dataVersion;
-    writeJson(topicPath, payload);
+    const items = cleanedItemsByTopic[topic.id] || [];
+    const metrics = cleanedMetricsByTopic[topic.id] || [];
+    writeJson(path.join(TOPIC_DIR, `${topic.id}.json`), {
+      generatedAt,
+      dataVersion,
+      topic,
+      items,
+      metrics,
+      subtopics: subtopicGroups(items)
+    });
   }
 
   const searchItems = cleanedTopics.flatMap(topic =>

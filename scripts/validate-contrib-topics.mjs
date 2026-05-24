@@ -51,7 +51,8 @@ const PRIVATE_KEYS = new Set([
 ]);
 const PRIVATE_KEY_PATTERNS = [
   /(?:developer|dev|maintainer|internal|private|debug|crawler|crawl|parser|adapter|license|coverage|sample|scope|linkCheck|validation|review|ops|sync|raw|error)[A-Za-z0-9_]*(?:Note|Notes|Comment|Comments|Memo|Memos|Remark|Remarks|Annotation|Annotations|Report|Reports|Message|Messages)$/i,
-  /^(?:raw|error|stack|trace|exception)$/i
+  /^(?:raw|error|stack|trace|exception)$/i,
+  /(?:开发者|开发|内部|维护者?|调试|私有|私人|爬虫|解析器|原始|错误).{0,12}(?:备注|说明|注释|留言|消息|报告)$/i
 ];
 const FORBIDDEN_PUBLIC_TEXT = [
   /curated coverage seed/i,
@@ -73,12 +74,18 @@ const FORBIDDEN_PUBLIC_TEXT = [
   /not for public/i,
   /do not publish/i,
   /开发者[的把]?备注/,
+  /开发者.{0,8}备注/,
   /开发备注/,
   /内部[的把]?备注/,
+  /内部.{0,8}备注/,
   /维护(?:者)?[的把]?备注/,
+  /维护(?:者)?.{0,8}备注/,
   /调试[的把]?备注/,
+  /调试.{0,8}备注/,
   /私有[的把]?备注/,
+  /私有.{0,8}备注/,
   /私人[的把]?备注/,
+  /私人.{0,8}备注/,
   /\b(?:TODO|FIXME|HACK|XXX):/i
 ];
 

@@ -49,9 +49,7 @@ jobs:
       - name: Build Hub
         run: npm run build
       - name: Validate public surface after build
-        run: node scripts/validate-public-surface.mjs
-        env:
-          JUST_DDL_SCAN_DIST: '1'
+        run: npm run validate:public:dist
       - name: Commit synced Hub data
         uses: stefanzweifel/git-auto-commit-action@v7
         with:

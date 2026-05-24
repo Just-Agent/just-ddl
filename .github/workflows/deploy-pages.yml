@@ -30,9 +30,7 @@ jobs:
       - run: node scripts/validate-public-surface.mjs
       - run: npm ci
       - run: npm run build
-      - run: node scripts/validate-public-surface.mjs
-        env:
-          JUST_DDL_SCAN_DIST: '1'
+      - run: npm run validate:public:dist
       - uses: actions/configure-pages@v6
       - uses: actions/upload-pages-artifact@v5
         with:

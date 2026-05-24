@@ -2,9 +2,10 @@ import fs from 'node:fs';
 import path from 'node:path';
 
 const ROOT = process.cwd();
+const TOPICS_PATH = path.join(ROOT, 'src/data/topics.ts');
 const DATA_PATH = path.join(ROOT, 'src/data/ddl-data.ts');
 const METRICS_PATH = path.join(ROOT, 'src/data/metric-data.ts');
-const SCAN_DIST = process.env.JUST_DDL_SCAN_DIST === '1';
+const SCAN_DIST = process.env.JUST_DDL_SCAN_DIST === '1' || process.argv.includes('--dist');
 const PUBLIC_SOURCE_GLOBS = [
   'index.html',
   'src/App.tsx',
@@ -63,7 +64,8 @@ const PRIVATE_KEYS = [
 const PRIVATE_KEY_SET = new Set(PRIVATE_KEYS);
 const PRIVATE_KEY_PATTERNS = [
   /(?:developer|dev|maintainer|internal|private|debug|crawler|crawl|parser|adapter|license|coverage|sample|scope|linkCheck|validation|review|ops|sync|raw|error)[A-Za-z0-9_]*(?:Note|Notes|Comment|Comments|Memo|Memos|Remark|Remarks|Annotation|Annotations|Report|Reports|Message|Messages)$/i,
-  /^(?:raw|error|stack|trace|exception)$/i
+  /^(?:raw|error|stack|trace|exception)$/i,
+  /(?:开发者|开发|内部|维护者?|调试|私有|私人|爬虫|解析器|原始|错误).{0,12}(?:备注|说明|注释|留言|消息|报告)$/i
 ];
 const FORBIDDEN_PUBLIC_TEXT = [
   /curated coverage seed/i,
@@ -85,12 +87,18 @@ const FORBIDDEN_PUBLIC_TEXT = [
   /not for public/i,
   /do not publish/i,
   /开发者[的把]?备注/,
+  /开发者.{0,8}备注/,
   /开发备注/,
   /内部[的把]?备注/,
+  /内部.{0,8}备注/,
   /维护(?:者)?[的把]?备注/,
+  /维护(?:者)?.{0,8}备注/,
   /调试[的把]?备注/,
+  /调试.{0,8}备注/,
   /私有[的把]?备注/,
+  /私有.{0,8}备注/,
   /私人[的把]?备注/,
+  /私人.{0,8}备注/,
   /\b(?:TODO|FIXME|HACK|XXX):/i
 ];
 const DIRECT_RENDER_PATTERNS = [
@@ -109,11 +117,11 @@ const DIRECT_RENDER_PATTERNS = [
 ];
 const DIST_FORBIDDEN_PATTERNS = [
   {
-    pattern: /["'](?:accessMode|adapter|coverageNote|crawler|crawlerReport|crawledAt|debug|debugReport|deadlineTimezone|developerNote|developerComment|developerRemark|devNote|devRemark|debugNote|debugRemark|error|forecastBasis|internalNote|internalRemark|lastChecked|licenseNote|linkCheckMode|maintainerNote|maintainerComment|maintainerRemark|parser|parserConfidence|privateNote|privateRemark|raw|rawHtml|rawPayload|rawSource|releaseCadence|sampleNote|scopeNote|sourcePolicy|sourcePriority|validationNote|[A-Za-z0-9_]*(?:developer|dev|maintainer|internal|private|debug|crawler|crawl|parser|adapter|license|coverage|sample|scope|linkCheck|validation|review|ops|sync|raw|error)[A-Za-z0-9_]*(?:Note|Notes|Comment|Comments|Memo|Memos|Remark|Remarks|Annotation|Annotations|Report|Reports|Message|Messages))["']\s*:/,
+    pattern: /["'](?:accessMode|adapter|coverageNote|crawler|crawlerReport|crawledAt|debug|debugReport|deadlineTimezone|developerNote|developerComment|developerRemark|devNote|devRemark|debugNote|debugRemark|error|forecastBasis|internalNote|internalRemark|lastChecked|licenseNote|linkCheckMode|maintainerNote|maintainerComment|maintainerRemark|parser|parserConfidence|privateNote|privateRemark|raw|rawHtml|rawPayload|rawSource|releaseCadence|sampleNote|scopeNote|sourcePolicy|sourcePriority|validationNote|[A-Za-z0-9_]*(?:developer|dev|maintainer|internal|private|debug|crawler|crawl|parser|adapter|license|coverage|sample|scope|linkCheck|validation|review|ops|sync|raw|error)[A-Za-z0-9_]*(?:Note|Notes|Comment|Comments|Memo|Memos|Remark|Remarks|Annotation|Annotations|Report|Reports|Message|Messages)|(?:开发者|开发|内部|维护者?|调试|私有|私人|爬虫|解析器|原始|错误).{0,12}(?:备注|说明|注释|留言|消息|报告))["']\s*:/,
     message: 'developer-only data key is present in built public assets'
   },
   {
-    pattern: /curated coverage seed|official-style seed|crawler seed|coverage seed|error\.message|stack trace|developer note|developer remark|maintainer note|maintainer remark|internal note|internal remark|private note|private remark|debug note|debug remark|not for public|do not publish|开发者[的把]?备注|开发备注|内部[的把]?备注|维护(?:者)?[的把]?备注|调试[的把]?备注|私有[的把]?备注|私人[的把]?备注|\b(?:TODO|FIXME|HACK|XXX):/i,
+    pattern: /curated coverage seed|official-style seed|crawler seed|coverage seed|error\.message|stack trace|developer note|developer remark|maintainer note|maintainer remark|internal note|internal remark|private note|private remark|debug note|debug remark|not for public|do not publish|开发者[的把]?备注|开发者.{0,8}备注|开发备注|内部[的把]?备注|内部.{0,8}备注|维护(?:者)?[的把]?备注|维护(?:者)?.{0,8}备注|调试[的把]?备注|调试.{0,8}备注|私有[的把]?备注|私有.{0,8}备注|私人[的把]?备注|私人.{0,8}备注|\b(?:TODO|FIXME|HACK|XXX):/i,
     message: 'developer-facing text is present in built public assets'
   }
 ];
@@ -239,6 +247,7 @@ function currentDistFiles() {
 const errors = [];
 
 for (const [filePath, marker, label] of [
+  [TOPICS_PATH, 'export const topics', 'topics'],
   [DATA_PATH, 'export const ddlData', 'ddlData'],
   [METRICS_PATH, 'export const metricData', 'metricData']
 ]) {

@@ -141,6 +141,7 @@ Recommended fields: `dateRange`, `location`, `isOnline`, `tags`, `status`, `stag
    - Use UTF-8 only; reject mojibake such as `????` or replacement characters.
    - Keep IDs stable and globally unique.
    - Use ISO-compatible `deadline` values so countdowns work.
+   - Do not expose internal maintenance text in public data. Fields or text for developer notes, maintainer notes, parser/crawler details, raw errors, private authorization notes, `forecastBasis`, or `releaseCadence` must be stripped or rewritten into user-facing copy before Hub registration.
 
 6. Validate before Hub PR:
    - Run the topic repository's validator and link-check when present.
@@ -189,3 +190,4 @@ If the topic repository has permission to notify the Hub after updates, use GitH
 - Do not depend on private or login-only sources as default data.
 - Do not use a fork as a permanent official topic without explicit ownership transfer.
 - Do not hide crawler failures; write a readable `crawl-report.json`.
+- Do not render internal notes on Pages, README, Hub pages, or mini-program JSON; Hub public-surface validation should fail if such fields or phrases appear.

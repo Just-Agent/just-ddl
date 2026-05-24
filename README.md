@@ -193,6 +193,11 @@ topic-ddl/
 | `source` | 来源名 |
 | `stage` | 开赛、投稿、报名、资格赛、决赛等阶段 |
 
+公开页面、README 和小程序 JSON 只允许出现用户能理解的说明。不要把开发者备注、维护备注、调试说明、原始错误、crawler/parser
+细节或授权边界内部字段写进公开数据。`developerNote`、`developerRemark`、`internalNote`、`maintainerComment`、`debugNote`、
+`forecastBasis`、`releaseCadence`、`accessMode`、`licenseNote`、`scopeNote` 等字段会在 Hub 同步、导出和构建时被剥离或直接阻断；
+中文文案里的“开发者备注 / 开发者的备注 / 开发者把备注 / 内部备注 / 维护备注 / 调试备注”也会让公开面校验失败。
+
 ## 更新机制
 
 ```mermaid
