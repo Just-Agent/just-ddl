@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-24T08:17:29.575Z",
-  "dataVersion": "60abb581f53e847c",
+  "generatedAt": "2026-05-24T08:56:10.866Z",
+  "dataVersion": "6018076a0dfdacad",
   "topic": {
     "id": "phone-launch-ddl",
     "name": "Phone Launches",
@@ -15,7 +15,7 @@
       "launch",
       "mobile"
     ],
-    "itemCount": 5,
+    "itemCount": 11,
     "status": "published",
     "sourceMode": "cluster",
     "clusterId": "consumer-launch-ddl"
@@ -68,33 +68,44 @@
       "subtopicName": "全球发布窗口"
     },
     {
-      "id": "phone-launch-ddl-oppo-newsroom-source-board-2026",
+      "id": "phone-launch-ddl-apple-iphone-mainline-forecast-2026",
       "topicId": "phone-launch-ddl",
-      "title": "OPPO Newsroom 官方发布入口",
-      "deadline": "2026-12-31T23:59:59+09:00",
-      "dateRange": "待 Samsung 官方公告",
+      "title": "Apple 主线 iPhone 下一代发布预测窗口",
+      "dateRange": "预计 2026 年 9 月上中旬（非官方）",
+      "estimatedNextWindow": {
+        "start": "2026-09-01",
+        "end": "2026-09-22"
+      },
+      "lastOfficialDate": "2025-09-09",
+      "basisEvents": [
+        "phone-launch-ddl-apple-iphone-13-release-2021-09-14",
+        "phone-launch-ddl-apple-iphone-14-release-2022-09-07",
+        "phone-launch-ddl-apple-iphone-15-release-2023-09-12",
+        "phone-launch-ddl-apple-iphone-16-release-2024-09-09",
+        "phone-launch-ddl-apple-iphone-17-release-2025-09-09"
+      ],
+      "confidence": "high",
       "location": "Global",
       "isOnline": true,
       "tags": [
-        "OPPO",
-        "smartphone",
-        "launch"
+        "Apple",
+        "iPhone",
+        "forecast"
       ],
-      "url": "https://www.oppo.com/en/newsroom/",
-      "status": "upcoming",
-      "stage": "Source board",
-      "source": "OPPO Newsroom",
-      "sourceUrl": "https://www.oppo.com/en/newsroom/",
-      "type": "program",
-      "description": "OPPO Global Newsroom 官方入口。下一场手机发布会日期未官宣前只作为 source board，不展示假倒计时。",
-      "subtopic": "oppo",
-      "subtopicName": "OPPO"
+      "url": "https://www.apple.com/newsroom/",
+      "status": "unannounced",
+      "stage": "Forecast window",
+      "source": "Apple Newsroom official history",
+      "sourceUrl": "https://www.apple.com/newsroom/",
+      "type": "forecastWindow",
+      "description": "基于 Apple Newsroom 2021-2025 年主线 iPhone 官方发布时间，历史节点稳定集中在 9 月上中旬；该条目是预测窗口，不是 Apple 官方发布日期。",
+      "subtopic": "apple",
+      "subtopicName": "Apple"
     },
     {
       "id": "phone-launch-ddl-google-pixel-source-board-2026",
       "topicId": "phone-launch-ddl",
       "title": "Google Pixel 官方发布入口",
-      "deadline": "2026-12-31T23:59:59-07:00",
       "dateRange": "待 Google 官方公告",
       "location": "Global",
       "isOnline": true,
@@ -104,7 +115,7 @@
         "Android"
       ],
       "url": "https://blog.google/products/pixel/",
-      "status": "upcoming",
+      "status": "unannounced",
       "stage": "Source board",
       "source": "Google Pixel Blog",
       "sourceUrl": "https://blog.google/products/pixel/",
@@ -114,10 +125,31 @@
       "subtopicName": "Google Pixel"
     },
     {
+      "id": "phone-launch-ddl-oppo-newsroom-source-board-2026",
+      "topicId": "phone-launch-ddl",
+      "title": "OPPO Newsroom 官方发布入口",
+      "dateRange": "待 OPPO 官方公告",
+      "location": "Global",
+      "isOnline": true,
+      "tags": [
+        "OPPO",
+        "smartphone",
+        "launch"
+      ],
+      "url": "https://www.oppo.com/en/newsroom/",
+      "status": "unannounced",
+      "stage": "Source board",
+      "source": "OPPO Newsroom",
+      "sourceUrl": "https://www.oppo.com/en/newsroom/",
+      "type": "program",
+      "description": "OPPO Global Newsroom 官方入口。下一场手机发布会日期未官宣前只作为 source board，不展示假倒计时。",
+      "subtopic": "oppo",
+      "subtopicName": "OPPO"
+    },
+    {
       "id": "phone-launch-ddl-xiaomi-newsroom-source-board-2026",
       "topicId": "phone-launch-ddl",
       "title": "Xiaomi Global Newsroom 发布入口",
-      "deadline": "2026-12-31T23:59:59+08:00",
       "dateRange": "待 Xiaomi 官方公告",
       "location": "Global",
       "isOnline": true,
@@ -127,7 +159,7 @@
         "launch"
       ],
       "url": "https://www.mi.com/global/discover/newsroom",
-      "status": "upcoming",
+      "status": "unannounced",
       "stage": "Source board",
       "source": "Xiaomi Global Newsroom",
       "sourceUrl": "https://www.mi.com/global/discover/newsroom",
@@ -135,10 +167,131 @@
       "description": "Xiaomi Global Newsroom 用于追踪全球手机新品发布。具体机型和日期以 Xiaomi 官方公告为准。",
       "subtopic": "xiaomi",
       "subtopicName": "Xiaomi"
+    },
+    {
+      "id": "phone-launch-ddl-apple-iphone-13-release-2021-09-14",
+      "topicId": "phone-launch-ddl",
+      "title": "iPhone 13 / iPhone 13 mini 官方发布",
+      "date": "2021-09-14",
+      "dateRange": "September 14, 2021",
+      "location": "Apple official announcement",
+      "isOnline": true,
+      "tags": [
+        "Apple",
+        "iPhone",
+        "mainline release"
+      ],
+      "url": "https://www.apple.com/newsroom/2021/09/apple-introduces-iphone-13-and-iphone-13-mini/",
+      "status": "ended",
+      "stage": "Official release",
+      "source": "Apple Newsroom",
+      "sourceUrl": "https://www.apple.com/newsroom/2021/09/apple-introduces-iphone-13-and-iphone-13-mini/",
+      "type": "officialRelease",
+      "description": "iPhone 13 / iPhone 13 mini 官方发布。该节点用于构建 Apple 主线 iPhone 年度发布节奏，不作为未来倒计时。",
+      "subtopic": "apple",
+      "subtopicName": "Apple"
+    },
+    {
+      "id": "phone-launch-ddl-apple-iphone-14-release-2022-09-07",
+      "topicId": "phone-launch-ddl",
+      "title": "iPhone 14 / iPhone 14 Plus 官方发布",
+      "date": "2022-09-07",
+      "dateRange": "September 7, 2022",
+      "location": "Apple official announcement",
+      "isOnline": true,
+      "tags": [
+        "Apple",
+        "iPhone",
+        "mainline release"
+      ],
+      "url": "https://www.apple.com/newsroom/2022/09/apple-introduces-iphone-14-and-iphone-14-plus/",
+      "status": "ended",
+      "stage": "Official release",
+      "source": "Apple Newsroom",
+      "sourceUrl": "https://www.apple.com/newsroom/2022/09/apple-introduces-iphone-14-and-iphone-14-plus/",
+      "type": "officialRelease",
+      "description": "iPhone 14 / iPhone 14 Plus 官方发布。该节点用于构建 Apple 主线 iPhone 年度发布节奏，不作为未来倒计时。",
+      "subtopic": "apple",
+      "subtopicName": "Apple"
+    },
+    {
+      "id": "phone-launch-ddl-apple-iphone-15-release-2023-09-12",
+      "topicId": "phone-launch-ddl",
+      "title": "iPhone 15 / iPhone 15 Plus 官方发布",
+      "date": "2023-09-12",
+      "dateRange": "September 12, 2023",
+      "location": "Apple official announcement",
+      "isOnline": true,
+      "tags": [
+        "Apple",
+        "iPhone",
+        "mainline release"
+      ],
+      "url": "https://www.apple.com/newsroom/2023/09/apple-debuts-iphone-15-and-iphone-15-plus/",
+      "status": "ended",
+      "stage": "Official release",
+      "source": "Apple Newsroom",
+      "sourceUrl": "https://www.apple.com/newsroom/2023/09/apple-debuts-iphone-15-and-iphone-15-plus/",
+      "type": "officialRelease",
+      "description": "iPhone 15 / iPhone 15 Plus 官方发布。该节点用于构建 Apple 主线 iPhone 年度发布节奏，不作为未来倒计时。",
+      "subtopic": "apple",
+      "subtopicName": "Apple"
+    },
+    {
+      "id": "phone-launch-ddl-apple-iphone-16-release-2024-09-09",
+      "topicId": "phone-launch-ddl",
+      "title": "iPhone 16 / iPhone 16 Plus 官方发布",
+      "date": "2024-09-09",
+      "dateRange": "September 9, 2024",
+      "location": "Apple official announcement",
+      "isOnline": true,
+      "tags": [
+        "Apple",
+        "iPhone",
+        "mainline release"
+      ],
+      "url": "https://www.apple.com/newsroom/2024/09/apple-introduces-iphone-16-and-iphone-16-plus/",
+      "status": "ended",
+      "stage": "Official release",
+      "source": "Apple Newsroom",
+      "sourceUrl": "https://www.apple.com/newsroom/2024/09/apple-introduces-iphone-16-and-iphone-16-plus/",
+      "type": "officialRelease",
+      "description": "iPhone 16 / iPhone 16 Plus 官方发布。该节点用于构建 Apple 主线 iPhone 年度发布节奏，不作为未来倒计时。",
+      "subtopic": "apple",
+      "subtopicName": "Apple"
+    },
+    {
+      "id": "phone-launch-ddl-apple-iphone-17-release-2025-09-09",
+      "topicId": "phone-launch-ddl",
+      "title": "iPhone 17 官方发布",
+      "date": "2025-09-09",
+      "dateRange": "September 9, 2025",
+      "location": "Apple official announcement",
+      "isOnline": true,
+      "tags": [
+        "Apple",
+        "iPhone",
+        "mainline release"
+      ],
+      "url": "https://www.apple.com/li/newsroom/2025/09/apple-introduces-iphone-17/",
+      "status": "ended",
+      "stage": "Official release",
+      "source": "Apple Newsroom",
+      "sourceUrl": "https://www.apple.com/li/newsroom/2025/09/apple-introduces-iphone-17/",
+      "type": "officialRelease",
+      "description": "iPhone 17 官方发布。该节点用于构建 Apple 主线 iPhone 年度发布节奏，不作为未来倒计时。",
+      "subtopic": "apple",
+      "subtopicName": "Apple"
     }
   ],
   "metrics": [],
   "subtopics": [
+    {
+      "id": "apple",
+      "name": "Apple",
+      "itemCount": 7,
+      "nextItemId": "phone-launch-ddl-apple-wwdc26-keynote-2026-06-08"
+    },
     {
       "id": "global-expo",
       "name": "全球发布窗口",
@@ -146,28 +299,22 @@
       "nextItemId": "phone-launch-ddl-ifa-berlin-2026-09-04"
     },
     {
-      "id": "apple",
-      "name": "Apple",
-      "itemCount": 1,
-      "nextItemId": "phone-launch-ddl-apple-wwdc26-keynote-2026-06-08"
-    },
-    {
       "id": "google-pixel",
       "name": "Google Pixel",
       "itemCount": 1,
-      "nextItemId": "phone-launch-ddl-google-pixel-source-board-2026"
+      "nextItemId": null
     },
     {
       "id": "oppo",
       "name": "OPPO",
       "itemCount": 1,
-      "nextItemId": "phone-launch-ddl-oppo-newsroom-source-board-2026"
+      "nextItemId": null
     },
     {
       "id": "xiaomi",
       "name": "Xiaomi",
       "itemCount": 1,
-      "nextItemId": "phone-launch-ddl-xiaomi-newsroom-source-board-2026"
+      "nextItemId": null
     }
   ]
 }

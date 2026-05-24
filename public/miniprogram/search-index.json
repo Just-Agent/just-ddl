@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-24T08:17:29.575Z",
-  "dataVersion": "60abb581f53e847c",
+  "generatedAt": "2026-05-24T08:56:10.866Z",
+  "dataVersion": "6018076a0dfdacad",
   "topics": [
     {
       "id": "hackathon-ddl",
@@ -357,7 +357,7 @@
         "launch",
         "mobile"
       ],
-      "itemCount": 5,
+      "itemCount": 11,
       "status": "published"
     },
     {
@@ -8902,27 +8902,29 @@
       "source": "IFA Berlin official"
     },
     {
-      "id": "phone-launch-ddl-oppo-newsroom-source-board-2026",
+      "id": "phone-launch-ddl-apple-iphone-mainline-forecast-2026",
       "topicId": "phone-launch-ddl",
-      "title": "OPPO Newsroom 官方发布入口",
-      "deadline": "2026-12-31T23:59:59+09:00",
-      "type": "program",
-      "status": "upcoming",
+      "title": "Apple 主线 iPhone 下一代发布预测窗口",
+      "estimatedNextWindow": {
+        "start": "2026-09-01",
+        "end": "2026-09-22"
+      },
+      "type": "forecastWindow",
+      "status": "unannounced",
       "tags": [
-        "OPPO",
-        "smartphone",
-        "launch"
+        "Apple",
+        "iPhone",
+        "forecast"
       ],
-      "subtopic": "oppo",
-      "source": "OPPO Newsroom"
+      "subtopic": "apple",
+      "source": "Apple Newsroom official history"
     },
     {
       "id": "phone-launch-ddl-google-pixel-source-board-2026",
       "topicId": "phone-launch-ddl",
       "title": "Google Pixel 官方发布入口",
-      "deadline": "2026-12-31T23:59:59-07:00",
       "type": "program",
-      "status": "upcoming",
+      "status": "unannounced",
       "tags": [
         "Google",
         "Pixel",
@@ -8932,12 +8934,25 @@
       "source": "Google Pixel Blog"
     },
     {
+      "id": "phone-launch-ddl-oppo-newsroom-source-board-2026",
+      "topicId": "phone-launch-ddl",
+      "title": "OPPO Newsroom 官方发布入口",
+      "type": "program",
+      "status": "unannounced",
+      "tags": [
+        "OPPO",
+        "smartphone",
+        "launch"
+      ],
+      "subtopic": "oppo",
+      "source": "OPPO Newsroom"
+    },
+    {
       "id": "phone-launch-ddl-xiaomi-newsroom-source-board-2026",
       "topicId": "phone-launch-ddl",
       "title": "Xiaomi Global Newsroom 发布入口",
-      "deadline": "2026-12-31T23:59:59+08:00",
       "type": "program",
-      "status": "upcoming",
+      "status": "unannounced",
       "tags": [
         "Xiaomi",
         "smartphone",
@@ -8945,6 +8960,81 @@
       ],
       "subtopic": "xiaomi",
       "source": "Xiaomi Global Newsroom"
+    },
+    {
+      "id": "phone-launch-ddl-apple-iphone-13-release-2021-09-14",
+      "topicId": "phone-launch-ddl",
+      "title": "iPhone 13 / iPhone 13 mini 官方发布",
+      "date": "2021-09-14",
+      "type": "officialRelease",
+      "status": "ended",
+      "tags": [
+        "Apple",
+        "iPhone",
+        "mainline release"
+      ],
+      "subtopic": "apple",
+      "source": "Apple Newsroom"
+    },
+    {
+      "id": "phone-launch-ddl-apple-iphone-14-release-2022-09-07",
+      "topicId": "phone-launch-ddl",
+      "title": "iPhone 14 / iPhone 14 Plus 官方发布",
+      "date": "2022-09-07",
+      "type": "officialRelease",
+      "status": "ended",
+      "tags": [
+        "Apple",
+        "iPhone",
+        "mainline release"
+      ],
+      "subtopic": "apple",
+      "source": "Apple Newsroom"
+    },
+    {
+      "id": "phone-launch-ddl-apple-iphone-15-release-2023-09-12",
+      "topicId": "phone-launch-ddl",
+      "title": "iPhone 15 / iPhone 15 Plus 官方发布",
+      "date": "2023-09-12",
+      "type": "officialRelease",
+      "status": "ended",
+      "tags": [
+        "Apple",
+        "iPhone",
+        "mainline release"
+      ],
+      "subtopic": "apple",
+      "source": "Apple Newsroom"
+    },
+    {
+      "id": "phone-launch-ddl-apple-iphone-16-release-2024-09-09",
+      "topicId": "phone-launch-ddl",
+      "title": "iPhone 16 / iPhone 16 Plus 官方发布",
+      "date": "2024-09-09",
+      "type": "officialRelease",
+      "status": "ended",
+      "tags": [
+        "Apple",
+        "iPhone",
+        "mainline release"
+      ],
+      "subtopic": "apple",
+      "source": "Apple Newsroom"
+    },
+    {
+      "id": "phone-launch-ddl-apple-iphone-17-release-2025-09-09",
+      "topicId": "phone-launch-ddl",
+      "title": "iPhone 17 官方发布",
+      "date": "2025-09-09",
+      "type": "officialRelease",
+      "status": "ended",
+      "tags": [
+        "Apple",
+        "iPhone",
+        "mainline release"
+      ],
+      "subtopic": "apple",
+      "source": "Apple Newsroom"
     },
     {
       "id": "car-launch-ddl-paris-motor-show-2026-10-12",

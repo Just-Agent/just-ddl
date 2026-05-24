@@ -494,7 +494,7 @@ export const topics: Topic[] = [
     "sourceMode": "cluster",
     "clusterId": "consumer-launch-ddl",
     "dataUrl": "data/phone-launch-ddl/items.json",
-    "itemCount": 5,
+    "itemCount": 11,
     "category": "消费发布",
     "tags": [
       "smartphone",

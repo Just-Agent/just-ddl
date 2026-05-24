@@ -471,7 +471,7 @@
       "launch",
       "mobile"
     ],
-    "itemCount": 5,
+    "itemCount": 11,
     "status": "published",
     "sourceMode": "cluster",
     "clusterId": "consumer-launch-ddl"
