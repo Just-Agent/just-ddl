@@ -474,7 +474,7 @@ export const topics: Topic[] = [
     "sourceMode": "cluster",
     "clusterId": "entertainment-ddl",
     "dataUrl": "data/movie-tv-ddl/items.json",
-    "itemCount": 7,
+    "itemCount": 12,
     "category": "文娱生活",
     "tags": [
       "movie",

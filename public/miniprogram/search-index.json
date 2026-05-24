@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-24T08:56:10.866Z",
-  "dataVersion": "6018076a0dfdacad",
+  "generatedAt": "2026-05-24T09:22:13.834Z",
+  "dataVersion": "c82e66441818ddd9",
   "topics": [
     {
       "id": "hackathon-ddl",
@@ -344,7 +344,7 @@
         "TV",
         "release"
       ],
-      "itemCount": 7,
+      "itemCount": 12,
       "status": "published"
     },
     {
@@ -8825,6 +8825,84 @@
       ],
       "subtopic": "movie-release",
       "source": "Disney official movie page"
+    },
+    {
+      "id": "movie-tv-ddl-toy-story-release-1995-11-22",
+      "topicId": "movie-tv-ddl",
+      "title": "Toy Story 官方上映",
+      "date": "1995-11-22",
+      "type": "officialRelease",
+      "status": "ended",
+      "tags": [
+        "Pixar",
+        "Toy Story",
+        "official history"
+      ],
+      "subtopic": "animation",
+      "source": "Pixar Our Story"
+    },
+    {
+      "id": "movie-tv-ddl-toy-story-2-release-1999-11-24",
+      "topicId": "movie-tv-ddl",
+      "title": "Toy Story 2 官方上映",
+      "date": "1999-11-24",
+      "type": "officialRelease",
+      "status": "ended",
+      "tags": [
+        "Pixar",
+        "Toy Story",
+        "official history"
+      ],
+      "subtopic": "animation",
+      "source": "Pixar Our Story"
+    },
+    {
+      "id": "movie-tv-ddl-toy-story-3-release-2010-06-18",
+      "topicId": "movie-tv-ddl",
+      "title": "Toy Story 3 官方上映",
+      "date": "2010-06-18",
+      "type": "officialRelease",
+      "status": "ended",
+      "tags": [
+        "Pixar",
+        "Toy Story",
+        "official history"
+      ],
+      "subtopic": "animation",
+      "source": "Pixar Our Story"
+    },
+    {
+      "id": "movie-tv-ddl-toy-story-4-release-2019-06-21",
+      "topicId": "movie-tv-ddl",
+      "title": "Toy Story 4 官方上映",
+      "date": "2019-06-21",
+      "type": "officialRelease",
+      "status": "ended",
+      "tags": [
+        "Pixar",
+        "Toy Story",
+        "official history"
+      ],
+      "subtopic": "animation",
+      "source": "Pixar Our Story"
+    },
+    {
+      "id": "movie-tv-ddl-toy-story-next-film-forecast",
+      "topicId": "movie-tv-ddl",
+      "title": "Toy Story 系列下一部正片预测窗口",
+      "estimatedNextWindow": {
+        "start": "2032-11-12",
+        "end": "2036-01-26"
+      },
+      "type": "forecastWindow",
+      "status": "unannounced",
+      "tags": [
+        "Pixar",
+        "Toy Story",
+        "forecast"
+      ],
+      "subtopic": "animation",
+      "source": "Pixar official release history"
     },
     {
       "id": "movie-tv-ddl-spider-man-brand-new-day-2026-07-31",

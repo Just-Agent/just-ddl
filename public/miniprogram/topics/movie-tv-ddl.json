@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-24T08:56:10.866Z",
-  "dataVersion": "6018076a0dfdacad",
+  "generatedAt": "2026-05-24T09:22:13.834Z",
+  "dataVersion": "c82e66441818ddd9",
   "topic": {
     "id": "movie-tv-ddl",
     "name": "Movies & TV",
@@ -15,7 +15,7 @@
       "TV",
       "release"
     ],
-    "itemCount": 7,
+    "itemCount": 12,
     "status": "published",
     "sourceMode": "cluster",
     "clusterId": "entertainment-ddl"
@@ -114,6 +114,133 @@
       "subtopicName": "电影上映"
     },
     {
+      "id": "movie-tv-ddl-toy-story-release-1995-11-22",
+      "topicId": "movie-tv-ddl",
+      "title": "Toy Story 官方上映",
+      "date": "1995-11-22",
+      "dateRange": "November 22, 1995",
+      "location": "Theaters",
+      "isOnline": false,
+      "tags": [
+        "Pixar",
+        "Toy Story",
+        "official history"
+      ],
+      "url": "https://www.pixar.com/our-story",
+      "status": "ended",
+      "stage": "Official release",
+      "source": "Pixar Our Story",
+      "sourceUrl": "https://www.pixar.com/our-story",
+      "type": "officialRelease",
+      "description": "Pixar Our Story 记录 Toy Story 于 1995 年 11 月 22 日在影院上映。该节点用于呈现系列历史节奏，不作为未来倒计时。",
+      "subtopic": "animation",
+      "subtopicName": "动画电影"
+    },
+    {
+      "id": "movie-tv-ddl-toy-story-2-release-1999-11-24",
+      "topicId": "movie-tv-ddl",
+      "title": "Toy Story 2 官方上映",
+      "date": "1999-11-24",
+      "dateRange": "November 24, 1999",
+      "location": "Theaters",
+      "isOnline": false,
+      "tags": [
+        "Pixar",
+        "Toy Story",
+        "official history"
+      ],
+      "url": "https://www.pixar.com/our-story",
+      "status": "ended",
+      "stage": "Official release",
+      "source": "Pixar Our Story",
+      "sourceUrl": "https://www.pixar.com/our-story",
+      "type": "officialRelease",
+      "description": "Pixar Our Story 记录 Toy Story 2 于 1999 年 11 月 24 日在影院上映。该节点用于呈现系列历史节奏，不作为未来倒计时。",
+      "subtopic": "animation",
+      "subtopicName": "动画电影"
+    },
+    {
+      "id": "movie-tv-ddl-toy-story-3-release-2010-06-18",
+      "topicId": "movie-tv-ddl",
+      "title": "Toy Story 3 官方上映",
+      "date": "2010-06-18",
+      "dateRange": "June 18, 2010",
+      "location": "Theaters",
+      "isOnline": false,
+      "tags": [
+        "Pixar",
+        "Toy Story",
+        "official history"
+      ],
+      "url": "https://www.pixar.com/our-story",
+      "status": "ended",
+      "stage": "Official release",
+      "source": "Pixar Our Story",
+      "sourceUrl": "https://www.pixar.com/our-story",
+      "type": "officialRelease",
+      "description": "Pixar Our Story 记录 Toy Story 3 于 2010 年 6 月 18 日在影院上映。该节点用于呈现系列历史节奏，不作为未来倒计时。",
+      "subtopic": "animation",
+      "subtopicName": "动画电影"
+    },
+    {
+      "id": "movie-tv-ddl-toy-story-4-release-2019-06-21",
+      "topicId": "movie-tv-ddl",
+      "title": "Toy Story 4 官方上映",
+      "date": "2019-06-21",
+      "dateRange": "June 21, 2019",
+      "location": "Theaters",
+      "isOnline": false,
+      "tags": [
+        "Pixar",
+        "Toy Story",
+        "official history"
+      ],
+      "url": "https://www.pixar.com/our-story",
+      "status": "ended",
+      "stage": "Official release",
+      "source": "Pixar Our Story",
+      "sourceUrl": "https://www.pixar.com/our-story",
+      "type": "officialRelease",
+      "description": "Pixar Our Story 记录 Toy Story 4 于 2019 年 6 月 21 日在美国上映。该节点用于呈现系列历史节奏，不作为未来倒计时。",
+      "subtopic": "animation",
+      "subtopicName": "动画电影"
+    },
+    {
+      "id": "movie-tv-ddl-toy-story-next-film-forecast",
+      "topicId": "movie-tv-ddl",
+      "title": "Toy Story 系列下一部正片预测窗口",
+      "dateRange": "预计 2032-11-12 至 2036-01-26（非官方）",
+      "estimatedNextWindow": {
+        "start": "2032-11-12",
+        "end": "2036-01-26"
+      },
+      "lastOfficialDate": "2026-06-19",
+      "basisEvents": [
+        "movie-tv-ddl-toy-story-release-1995-11-22",
+        "movie-tv-ddl-toy-story-2-release-1999-11-24",
+        "movie-tv-ddl-toy-story-3-release-2010-06-18",
+        "movie-tv-ddl-toy-story-4-release-2019-06-21",
+        "movie-tv-ddl-toy-story-5-2026-06-19"
+      ],
+      "confidence": "medium",
+      "location": "Theaters / Disney-Pixar",
+      "isOnline": false,
+      "tags": [
+        "Pixar",
+        "Toy Story",
+        "forecast"
+      ],
+      "url": "https://www.pixar.com/our-story",
+      "status": "unannounced",
+      "stage": "Forecast window",
+      "source": "Pixar official release history",
+      "sourceUrl": "https://www.pixar.com/our-story",
+      "type": "forecastWindow",
+      "description": "基于 Pixar 官方历史上映节点和 Toy Story 5 已官宣上映日估算更远期节奏。该条目只是预测窗口，不代表 Disney 或 Pixar 已宣布下一部正片计划。",
+      "subtopic": "animation",
+      "subtopicName": "动画电影"
+    },
+    {
       "id": "movie-tv-ddl-spider-man-brand-new-day-2026-07-31",
       "topicId": "movie-tv-ddl",
       "title": "Spider-Man: Brand New Day",
@@ -186,6 +313,12 @@
   "metrics": [],
   "subtopics": [
     {
+      "id": "animation",
+      "name": "动画电影",
+      "itemCount": 6,
+      "nextItemId": "movie-tv-ddl-toy-story-5-2026-06-19"
+    },
+    {
       "id": "superhero",
       "name": "超级英雄",
       "itemCount": 3,
@@ -196,12 +329,6 @@
       "name": "电影上映",
       "itemCount": 3,
       "nextItemId": "movie-tv-ddl-devil-wears-prada-2-2026-05-01"
-    },
-    {
-      "id": "animation",
-      "name": "动画电影",
-      "itemCount": 1,
-      "nextItemId": "movie-tv-ddl-toy-story-5-2026-06-19"
     }
   ]
 }
