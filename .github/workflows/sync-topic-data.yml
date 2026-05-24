@@ -40,10 +40,16 @@ jobs:
         run: node scripts/sync-topic-data.mjs
         env:
           JUST_DDL_DISPATCH_TOPIC: ${{ github.event.client_payload.topic_id || github.event.inputs.topic_id || '' }}
+      - name: Validate public surface
+        run: node scripts/validate-public-surface.mjs
       - name: Install dependencies
         run: npm ci
       - name: Build Hub
         run: npm run build
+      - name: Validate public surface after build
+        run: node scripts/validate-public-surface.mjs
+        env:
+          JUST_DDL_SCAN_DIST: '1'
       - name: Commit synced Hub data
         uses: stefanzweifel/git-auto-commit-action@v7
         with:

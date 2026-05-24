@@ -9,6 +9,52 @@ const ONLY_TOPIC = (process.env.JUST_DDL_DISPATCH_TOPIC || process.env.JUST_DDL_
 const FETCH_TIMEOUT_MS = Number(process.env.JUST_DDL_FETCH_TIMEOUT_MS || 12000);
 const MAX_INCUBATOR_TOPICS = 5;
 const MAX_INCUBATOR_ITEMS = 50;
+const PUBLIC_PRIVATE_KEYS = new Set([
+  'accessMode',
+  'coverageNote',
+  'crawler',
+  'crawlerReport',
+  'crawledAt',
+  'debug',
+  'debugReport',
+  'deadlineTimezone',
+  'developerNote',
+  'devNote',
+  'error',
+  'forecastBasis',
+  'lastChecked',
+  'licenseNote',
+  'maintainerNote',
+  'parser',
+  'parserConfidence',
+  'raw',
+  'rawHtml',
+  'rawPayload',
+  'rawSource',
+  'sampleNote',
+  'scopeNote',
+  'sourcePriority',
+  'validationNote'
+]);
+const PUBLIC_TEXT_REWRITES = [
+  [/curated coverage seed/gi, '人工整理的官方来源入口'],
+  [/official-style seed/gi, '官方来源入口'],
+  [/official seed/gi, '官方来源入口'],
+  [/crawler seed/gi, '数据源入口'],
+  [/coverage seed/gi, '官方来源入口'],
+  [/定时\s*crawler\s*会继续补([^。]*)。?/gi, '后续将按官方页面持续补充$1。'],
+  [/后续由\s*crawler\s*对齐/gi, '后续将按官方页面对齐'],
+  [/后续\s*crawler\s*可/gi, '后续自动更新流程可'],
+  [/\bcrawler\b/gi, '自动更新流程']
+];
+const PUBLIC_FORBIDDEN_TEXT = [
+  /curated coverage seed/i,
+  /official-style seed/i,
+  /crawler seed/i,
+  /coverage seed/i,
+  /error\.message/i,
+  /stack trace/i
+];
 
 function extractJsonAfter(source, marker, open, close) {
   const start = source.indexOf(marker);
@@ -152,6 +198,52 @@ function validateItem(topicId, item) {
   return errors;
 }
 
+function toPublicString(value) {
+  return PUBLIC_TEXT_REWRITES.reduce(
+    (text, [pattern, replacement]) => text.replace(pattern, replacement),
+    value
+  );
+}
+
+function stripPrivatePublicData(value) {
+  if (Array.isArray(value)) return value.map(stripPrivatePublicData);
+  if (!value || typeof value !== 'object') {
+    return typeof value === 'string' ? toPublicString(value) : value;
+  }
+
+  const result = {};
+  for (const [key, itemValue] of Object.entries(value)) {
+    if (PUBLIC_PRIVATE_KEYS.has(key)) continue;
+    result[key] = stripPrivatePublicData(itemValue);
+  }
+  return result;
+}
+
+function validatePublicPayload(value, path = 'ddlData') {
+  const errors = [];
+  if (Array.isArray(value)) {
+    value.forEach((item, index) => errors.push(...validatePublicPayload(item, `${path}[${index}]`)));
+    return errors;
+  }
+  if (!value || typeof value !== 'object') {
+    if (typeof value === 'string') {
+      for (const pattern of PUBLIC_FORBIDDEN_TEXT) {
+        if (pattern.test(value)) errors.push(`${path}: contains developer-facing text "${value}"`);
+      }
+    }
+    return errors;
+  }
+
+  for (const [key, itemValue] of Object.entries(value)) {
+    if (PUBLIC_PRIVATE_KEYS.has(key)) {
+      errors.push(`${path}.${key}: developer-only field must not be written to public Hub data`);
+      continue;
+    }
+    errors.push(...validatePublicPayload(itemValue, `${path}.${key}`));
+  }
+  return errors;
+}
+
 function normalizeItems(topic, items) {
   if (!Array.isArray(items) || items.length === 0) {
     throw new Error(`${topic.id}: fetched items.json is empty or not an array`);
@@ -173,7 +265,8 @@ function normalizeItems(topic, items) {
   const errors = normalized.flatMap(item => validateItem(topic.id, item));
   if (errors.length) throw new Error(errors.join('\n'));
 
-  return normalized.sort((a, b) => {
+  const publicItems = normalized.map(stripPrivatePublicData);
+  return publicItems.sort((a, b) => {
     const dateDiff = Date.parse(a.deadline) - Date.parse(b.deadline);
     if (dateDiff !== 0) return dateDiff;
     return String(a.title).localeCompare(String(b.title), 'zh-CN');
@@ -209,6 +302,10 @@ export function getTopicById(id: string) { return topics.find(t => t.id === id);
 }
 
 function writeData(ddlData) {
+  const publicData = stripPrivatePublicData(ddlData);
+  const publicErrors = validatePublicPayload(publicData);
+  if (publicErrors.length) throw new Error(publicErrors.join('\n'));
+
   const content = `export interface DDLItem {
   [key: string]: unknown;
   id: string;
@@ -224,13 +321,15 @@ function writeData(ddlData) {
   description?: string;
   stage?: string;
   source?: string;
-  type?: 'conference' | 'journal' | 'challenge' | 'hackathon' | 'holiday' | 'contest' | 'program' | 'release';
+  type?: 'conference' | 'journal' | 'challenge' | 'hackathon' | 'holiday' | 'contest' | 'program' | 'release' | 'concert' | 'regulation';
   sourceUrl?: string;
   canonicalUrl?: string;
   isDatePlaceholder?: boolean;
+  previewImage?: string;
+  subtopic?: string;
 }
 
-export const ddlData: Record<string, DDLItem[]> = ${JSON.stringify(ddlData, null, 2)};
+export const ddlData: Record<string, DDLItem[]> = ${JSON.stringify(publicData, null, 2)};
 
 export function getDDLByTopic(topicId: string): DDLItem[] {
   return ddlData[topicId] || [];

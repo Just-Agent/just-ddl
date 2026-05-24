@@ -181,6 +181,13 @@ function FieldSeparator({
   )
 }
 
+function publicFieldErrorMessage(message?: string) {
+  if (!message) return ""
+  return /(?:error|exception|stack|trace|undefined|null|object object|http\s*\d{3})/i.test(message)
+    ? "输入暂时无法通过校验，请检查后重试。"
+    : message
+}
+
 function FieldError({
   className,
   children,
@@ -198,20 +205,17 @@ function FieldError({
       return null
     }
 
-    const uniqueErrors = [
-      ...new Map(errors.map((error) => [error?.message, error])).values(),
-    ]
+    const uniqueErrors = [...new Set(errors.map((error) => publicFieldErrorMessage(error?.message)).filter(Boolean))]
 
     if (uniqueErrors?.length == 1) {
-      return uniqueErrors[0]?.message
+      return uniqueErrors[0]
     }
 
     return (
       <ul className="ml-4 flex list-disc flex-col gap-1">
-        {uniqueErrors.map(
-          (error, index) =>
-            error?.message && <li key={index}>{error.message}</li>
-        )}
+        {uniqueErrors.map((message, index) => (
+          <li key={index}>{message}</li>
+        ))}
       </ul>
     )
   }, [children, errors])

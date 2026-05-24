@@ -17,6 +17,8 @@ export interface DDLItem {
   sourceUrl?: string;
   canonicalUrl?: string;
   isDatePlaceholder?: boolean;
+  previewImage?: string;
+  subtopic?: string;
 }
 
 export const ddlData: Record<string, DDLItem[]> = {
@@ -35,7 +37,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://mlh.io/seasons",
       "status": "upcoming",
       "stage": "Event start",
-      "source": "Curated coverage seed",
+      "source": "人工整理的官方来源入口",
       "type": "hackathon",
       "description": "MLH 系列活动入口，适合专题按周滚动展示。"
     },
@@ -53,9 +55,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://devpost.com/hackathons",
       "status": "upcoming",
       "stage": "Submission",
-      "source": "Curated coverage seed",
+      "source": "人工整理的官方来源入口",
       "type": "hackathon",
-      "description": "Devpost AI 应用类比赛 coverage seed，定时 crawler 会继续补官方详情。",
+      "description": "Devpost AI 应用类比赛 官方来源入口，后续将按官方页面持续补充官方详情。",
       "prize": "$25,000+"
     },
     {
@@ -72,9 +74,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://pennapps.com",
       "status": "upcoming",
       "stage": "Application",
-      "source": "Official-style seed",
+      "source": "官方来源入口",
       "type": "hackathon",
-      "description": "高校黑客松 coverage seed，用于补足北美校园赛历。"
+      "description": "高校黑客松 官方来源入口，用于补足北美校园赛历。"
     },
     {
       "id": "hackathon-ddl-hack-the-north-2026-2026-09-01",
@@ -110,7 +112,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://hackzurich.com",
       "status": "upcoming",
       "stage": "Application",
-      "source": "Curated coverage seed",
+      "source": "人工整理的官方来源入口",
       "type": "hackathon",
       "description": "欧洲大型企业/创新黑客松入口。"
     },
@@ -128,7 +130,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://hackmit.org",
       "status": "upcoming",
       "stage": "Application",
-      "source": "Curated coverage seed",
+      "source": "人工整理的官方来源入口",
       "type": "hackathon",
       "description": "校园线下黑客松入口，等待官方申请时间校验。",
       "prize": "$40,000+"
@@ -147,7 +149,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://hackharvard.io",
       "status": "upcoming",
       "stage": "Application",
-      "source": "Curated coverage seed",
+      "source": "人工整理的官方来源入口",
       "type": "hackathon",
       "description": "哈佛校园黑客松入口。"
     },
@@ -165,7 +167,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://hackprinceton.com",
       "status": "upcoming",
       "stage": "Application",
-      "source": "Curated coverage seed",
+      "source": "人工整理的官方来源入口",
       "type": "hackathon",
       "description": "普林斯顿校园黑客松入口。"
     },
@@ -201,7 +203,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://lahacks.com",
       "status": "upcoming",
       "stage": "Registration",
-      "source": "Curated coverage seed",
+      "source": "人工整理的官方来源入口",
       "type": "hackathon",
       "description": "UCLA 黑客松入口。"
     },
@@ -222,7 +224,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Project submit",
       "source": "ETHGlobal events board",
       "type": "hackathon",
-      "description": "Web3 生态黑客松入口，后续由 crawler 对齐具体城市站详情页。",
+      "description": "Web3 生态黑客松入口，后续将按官方页面对齐具体城市站详情页。",
       "prize": "$150,000+"
     },
     {
@@ -239,9 +241,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://hackupc.com",
       "status": "upcoming",
       "stage": "Registration",
-      "source": "Curated coverage seed",
+      "source": "人工整理的官方来源入口",
       "type": "hackathon",
-      "description": "欧洲学生黑客松 coverage seed。"
+      "description": "欧洲学生黑客松 官方来源入口。"
     },
     {
       "id": "hackathon-ddl-cal-hacks-2026-2026-10-24",
@@ -257,9 +259,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://calhacks.io",
       "status": "upcoming",
       "stage": "Hacking",
-      "source": "Curated coverage seed",
+      "source": "人工整理的官方来源入口",
       "type": "hackathon",
-      "description": "美国西海岸高校黑客松 coverage seed。",
+      "description": "美国西海岸高校黑客松 官方来源入口。",
       "prize": "$30,000+"
     },
     {
@@ -276,7 +278,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.hackjunction.com",
       "status": "upcoming",
       "stage": "Application",
-      "source": "Curated coverage seed",
+      "source": "人工整理的官方来源入口",
       "type": "hackathon",
       "description": "欧洲综合创新黑客松入口。"
     },
@@ -294,9 +296,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://dorahacks.io",
       "status": "upcoming",
       "stage": "Bounty submit",
-      "source": "Curated coverage seed",
+      "source": "人工整理的官方来源入口",
       "type": "hackathon",
-      "description": "开源赏金与项目提交通道 coverage seed。",
+      "description": "开源赏金与项目提交通道 官方来源入口。",
       "prize": "$80,000+"
     },
     {
@@ -313,7 +315,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://treehacks.com",
       "status": "upcoming",
       "stage": "Acceptance",
-      "source": "Curated coverage seed",
+      "source": "人工整理的官方来源入口",
       "type": "hackathon",
       "description": "斯坦福黑客松入口，后续由官方页面校准。",
       "prize": "$35,000+"
@@ -332,7 +334,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://nwhacks.io",
       "status": "upcoming",
       "stage": "Registration",
-      "source": "Curated coverage seed",
+      "source": "人工整理的官方来源入口",
       "type": "hackathon",
       "description": "加拿大西海岸校园黑客松入口。",
       "prize": "$28,000+"
@@ -351,7 +353,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://hackcambridge.com",
       "status": "upcoming",
       "stage": "Registration",
-      "source": "Curated coverage seed",
+      "source": "人工整理的官方来源入口",
       "type": "hackathon",
       "description": "英国高校黑客松入口。"
     }
@@ -382,7 +384,6 @@ export const ddlData: Record<string, DDLItem[]> = {
       "organizer": "Prompt Opinion (Darena Health)",
       "submissionType": "Demo video + Devpost project",
       "sourceUrl": "https://agents-assemble.devpost.com/",
-      "deadlineTimezone": "PDT / Devpost source",
       "phases": [
         {
           "name": "Submission period ends",
@@ -402,14 +403,7 @@ export const ddlData: Record<string, DDLItem[]> = {
           "name": "Build an Agent",
           "description": "Configure an A2A-capable healthcare workflow agent on the Prompt Opinion platform."
         }
-      ],
-      "sourcePriority": "official",
-      "crawler": {
-        "sourceId": "agents-assemble-healthcare-ai-2026",
-        "parser": "official-event-source",
-        "parserConfidence": "official-source-metadata",
-        "crawledAt": "2026-05-22T07:47:25.427Z"
-      }
+      ]
     },
     {
       "id": "agent-ddl-devnetwork-ai-ml-hackathon-2026-05-28",
@@ -436,7 +430,6 @@ export const ddlData: Record<string, DDLItem[]> = {
       "organizer": "DevNetwork",
       "submissionType": "Devpost project + sponsor challenge deliverables",
       "sourceUrl": "https://devnetwork-ai-ml-hack-2026.devpost.com/",
-      "deadlineTimezone": "PDT / Devpost source",
       "phases": [
         {
           "name": "Online hackathon starts",
@@ -446,14 +439,7 @@ export const ddlData: Record<string, DDLItem[]> = {
           "name": "Submission deadline",
           "deadline": "2026-05-28T10:00:00-07:00"
         }
-      ],
-      "sourcePriority": "official",
-      "crawler": {
-        "sourceId": "devnetwork-ai-ml-hackathon-2026",
-        "parser": "official-event-source",
-        "parserConfidence": "official-source-metadata",
-        "crawledAt": "2026-05-22T07:47:25.427Z"
-      }
+      ]
     },
     {
       "id": "agent-ddl-international-ai-agents-hackathon-2026-05-29",
@@ -479,20 +465,12 @@ export const ddlData: Record<string, DDLItem[]> = {
       "organizer": "AI HackWorld",
       "submissionType": "Live tool link + pitch deck + code evidence",
       "sourceUrl": "https://ai-agents-hackathon1.devpost.com/",
-      "deadlineTimezone": "EDT / Devpost source",
       "phases": [
         {
           "name": "Submission deadline",
           "deadline": "2026-05-29T13:00:00-04:00"
         }
-      ],
-      "sourcePriority": "official",
-      "crawler": {
-        "sourceId": "international-ai-agents-hackathon-2026",
-        "parser": "official-event-source",
-        "parserConfidence": "official-source-metadata",
-        "crawledAt": "2026-05-22T07:47:25.427Z"
-      }
+      ]
     },
     {
       "id": "agent-ddl-anac-2026-submission-2026-06-01",
@@ -518,7 +496,6 @@ export const ddlData: Record<string, DDLItem[]> = {
       "organizer": "IJCAI-ECAI 2026 Competition Track",
       "submissionType": "Agent submission",
       "sourceUrl": "https://web.tuat.ac.jp/~katfuji/ANAC2026/",
-      "deadlineTimezone": "source-local/unspecified",
       "phases": [
         {
           "name": "Submission deadline",
@@ -532,14 +509,7 @@ export const ddlData: Record<string, DDLItem[]> = {
           "name": "Competition session",
           "deadline": "2026-08-15T23:59:59"
         }
-      ],
-      "sourcePriority": "official",
-      "crawler": {
-        "sourceId": "anac-2026",
-        "parser": "official-event-source",
-        "parserConfidence": "official-source-metadata",
-        "crawledAt": "2026-05-22T07:47:25.427Z"
-      }
+      ]
     },
     {
       "id": "agent-ddl-google-cloud-rapid-agent-hackathon-2026-06-11",
@@ -566,7 +536,6 @@ export const ddlData: Record<string, DDLItem[]> = {
       "organizer": "Google",
       "submissionType": "Hosted project URL + open-source repo + demo video",
       "sourceUrl": "https://rapid-agent.devpost.com/",
-      "deadlineTimezone": "PDT / Devpost source",
       "phases": [
         {
           "name": "Submissions open",
@@ -594,14 +563,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "modelConstraints": [
         "Gemini and Google Cloud Agent Builder encouraged",
         "Partner MCP integration required"
-      ],
-      "sourcePriority": "official",
-      "crawler": {
-        "sourceId": "google-cloud-rapid-agent-2026",
-        "parser": "official-event-source",
-        "parserConfidence": "official-source-metadata",
-        "crawledAt": "2026-05-22T07:47:25.427Z"
-      }
+      ]
     },
     {
       "id": "agent-ddl-openclaw-security-attack-defense-2026-06-12",
@@ -627,7 +589,6 @@ export const ddlData: Record<string, DDLItem[]> = {
       "organizer": "IJCAI 2026 AI Safety Workshop",
       "submissionType": "Solution and paper submission",
       "sourceUrl": "https://ai-safety-workshop-ijcai2026.github.io/Track1.html",
-      "deadlineTimezone": "source-local/unspecified",
       "phases": [
         {
           "name": "Test phase 1",
@@ -645,14 +606,7 @@ export const ddlData: Record<string, DDLItem[]> = {
           "name": "Solutions and papers due",
           "deadline": "2026-06-12T23:59:59"
         }
-      ],
-      "sourcePriority": "official",
-      "crawler": {
-        "sourceId": "openclaw-security-ijcai-2026",
-        "parser": "official-event-source",
-        "parserConfidence": "official-source-metadata",
-        "crawledAt": "2026-05-22T07:47:25.427Z"
-      }
+      ]
     },
     {
       "id": "agent-ddl-mega-agent-a-thon-2026-06-14",
@@ -678,20 +632,55 @@ export const ddlData: Record<string, DDLItem[]> = {
       "organizer": "Devpost community",
       "submissionType": "Devpost project",
       "sourceUrl": "https://mega-agent-a-thon.devpost.com/",
-      "deadlineTimezone": "IST / Devpost source",
       "phases": [
         {
           "name": "Submission deadline",
           "deadline": "2026-06-14T23:59:59+05:30"
         }
+      ]
+    },
+    {
+      "id": "agent-ddl-ai-olympics-realaigym-stage1-2026-06-15",
+      "title": "AI Olympics with RealAIGym - Stage 1",
+      "deadline": "2026-06-15T23:59:59",
+      "dateRange": "First stage solutions and reports: May 1 - Jun 15, 2026",
+      "location": "IJCAI-ECAI 2026 / DFKI Bremen",
+      "isOnline": true,
+      "tags": [
+        "Robotics Agent",
+        "Reinforcement Learning",
+        "CloudPendulum"
       ],
-      "sourcePriority": "official",
-      "crawler": {
-        "sourceId": "mega-agent-a-thon-2026",
-        "parser": "official-event-source",
-        "parserConfidence": "official-source-metadata",
-        "crawledAt": "2026-05-22T07:47:25.427Z"
-      }
+      "url": "https://ai-olympics.dfki-bremen.de/",
+      "status": "upcoming",
+      "stage": "Stage 1 report",
+      "source": "IJCAI AI Olympics with RealAIGym",
+      "type": "challenge",
+      "description": "Hardware benchmark for global swing-up policies on CloudPendulum hardware, evaluating robotics and RL agents.",
+      "prize": "N/A",
+      "platform": "IJCAI",
+      "evaluationMode": "Automated",
+      "organizer": "DFKI Bremen / IJCAI-ECAI 2026",
+      "submissionType": "Controller solution and report",
+      "sourceUrl": "https://ai-olympics.dfki-bremen.de/",
+      "phases": [
+        {
+          "name": "Registration deadline",
+          "deadline": "2026-05-31T23:59:59"
+        },
+        {
+          "name": "First stage solutions and reports due",
+          "deadline": "2026-06-15T23:59:59"
+        },
+        {
+          "name": "Second stage starts",
+          "deadline": "2026-07-01T23:59:59"
+        },
+        {
+          "name": "Second stage ends",
+          "deadline": "2026-08-15T23:59:59"
+        }
+      ]
     },
     {
       "id": "agent-ddl-splunk-agentic-ops-hackathon-2026-06-15",
@@ -718,7 +707,6 @@ export const ddlData: Record<string, DDLItem[]> = {
       "organizer": "Splunk",
       "submissionType": "Text description + demo video + public code repository + architecture diagram",
       "sourceUrl": "https://splunk.devpost.com/",
-      "deadlineTimezone": "PDT / Devpost source",
       "phases": [
         {
           "name": "Submission period opens",
@@ -742,65 +730,7 @@ export const ddlData: Record<string, DDLItem[]> = {
           "name": "Platform & Developer Experience",
           "description": "Developer workflows and Splunk app/platform automation."
         }
-      ],
-      "sourcePriority": "official",
-      "crawler": {
-        "sourceId": "splunk-agentic-ops-2026",
-        "parser": "official-event-source",
-        "parserConfidence": "official-source-metadata",
-        "crawledAt": "2026-05-22T07:47:25.427Z"
-      }
-    },
-    {
-      "id": "agent-ddl-ai-olympics-realaigym-stage1-2026-06-15",
-      "title": "AI Olympics with RealAIGym - Stage 1",
-      "deadline": "2026-06-15T23:59:59",
-      "dateRange": "First stage solutions and reports: May 1 - Jun 15, 2026",
-      "location": "IJCAI-ECAI 2026 / DFKI Bremen",
-      "isOnline": true,
-      "tags": [
-        "Robotics Agent",
-        "Reinforcement Learning",
-        "CloudPendulum"
-      ],
-      "url": "https://ai-olympics.dfki-bremen.de/",
-      "status": "upcoming",
-      "stage": "Stage 1 report",
-      "source": "IJCAI AI Olympics with RealAIGym",
-      "type": "challenge",
-      "description": "Hardware benchmark for global swing-up policies on CloudPendulum hardware, evaluating robotics and RL agents.",
-      "prize": "N/A",
-      "platform": "IJCAI",
-      "evaluationMode": "Automated",
-      "organizer": "DFKI Bremen / IJCAI-ECAI 2026",
-      "submissionType": "Controller solution and report",
-      "sourceUrl": "https://ai-olympics.dfki-bremen.de/",
-      "deadlineTimezone": "source-local/unspecified",
-      "phases": [
-        {
-          "name": "Registration deadline",
-          "deadline": "2026-05-31T23:59:59"
-        },
-        {
-          "name": "First stage solutions and reports due",
-          "deadline": "2026-06-15T23:59:59"
-        },
-        {
-          "name": "Second stage starts",
-          "deadline": "2026-07-01T23:59:59"
-        },
-        {
-          "name": "Second stage ends",
-          "deadline": "2026-08-15T23:59:59"
-        }
-      ],
-      "sourcePriority": "official",
-      "crawler": {
-        "sourceId": "ai-olympics-realaigym-2026",
-        "parser": "official-event-source",
-        "parserConfidence": "official-source-metadata",
-        "crawledAt": "2026-05-22T07:47:25.427Z"
-      }
+      ]
     },
     {
       "id": "agent-ddl-find-evil-ai-security-2026-06-15",
@@ -827,7 +757,6 @@ export const ddlData: Record<string, DDLItem[]> = {
       "organizer": "SANS / Protocol SIFT community",
       "submissionType": "Public code repo + demo video + architecture diagram + project writeup",
       "sourceUrl": "https://findevil.devpost.com/",
-      "deadlineTimezone": "EDT / Devpost source",
       "phases": [
         {
           "name": "Submission deadline",
@@ -847,14 +776,7 @@ export const ddlData: Record<string, DDLItem[]> = {
           "name": "Multi-Agent Frameworks",
           "description": "Use AutoGen, CrewAI, LangGraph, or similar frameworks for DFIR workflows."
         }
-      ],
-      "sourcePriority": "official",
-      "crawler": {
-        "sourceId": "find-evil-agent-security-2026",
-        "parser": "official-event-source",
-        "parserConfidence": "official-source-metadata",
-        "crawledAt": "2026-05-22T07:47:25.427Z"
-      }
+      ]
     },
     {
       "id": "agent-ddl-usaii-global-ai-hackathon-2026-06-21",
@@ -880,20 +802,12 @@ export const ddlData: Record<string, DDLItem[]> = {
       "organizer": "USAII",
       "submissionType": "Devpost project",
       "sourceUrl": "https://usaii-global-ai-hackathon-2026.devpost.com/",
-      "deadlineTimezone": "EDT / Devpost source",
       "phases": [
         {
           "name": "Submission deadline",
           "deadline": "2026-06-21T23:59:59-04:00"
         }
-      ],
-      "sourcePriority": "official",
-      "crawler": {
-        "sourceId": "usaii-global-ai-hackathon-2026",
-        "parser": "official-event-source",
-        "parserConfidence": "official-source-metadata",
-        "crawledAt": "2026-05-22T07:47:25.427Z"
-      }
+      ]
     },
     {
       "id": "agent-ddl-sunnyhacks-june-2026-07-01",
@@ -919,20 +833,12 @@ export const ddlData: Record<string, DDLItem[]> = {
       "organizer": "SunnyHacks",
       "submissionType": "Devpost project",
       "sourceUrl": "https://sunnyhacks-june-2026.devpost.com/",
-      "deadlineTimezone": "EDT / Devpost source",
       "phases": [
         {
           "name": "Submission deadline",
           "deadline": "2026-07-01T23:59:59-04:00"
         }
-      ],
-      "sourcePriority": "official",
-      "crawler": {
-        "sourceId": "sunnyhacks-june-2026",
-        "parser": "official-event-source",
-        "parserConfidence": "official-source-metadata",
-        "crawledAt": "2026-05-22T07:47:25.427Z"
-      }
+      ]
     },
     {
       "id": "agent-ddl-slack-agent-builder-challenge-2026-07-13",
@@ -959,7 +865,6 @@ export const ddlData: Record<string, DDLItem[]> = {
       "organizer": "Salesforce / Slack",
       "submissionType": "Slack app + Devpost submission + sandbox access",
       "sourceUrl": "https://slackhack.devpost.com/",
-      "deadlineTimezone": "PDT / Devpost source",
       "phases": [
         {
           "name": "Submission period starts",
@@ -991,14 +896,7 @@ export const ddlData: Record<string, DDLItem[]> = {
           "name": "Slack Agent for Organizations",
           "description": "Build or significantly update an app for organizational workflows."
         }
-      ],
-      "sourcePriority": "official",
-      "crawler": {
-        "sourceId": "slack-agent-builder-2026",
-        "parser": "official-event-source",
-        "parserConfidence": "official-source-metadata",
-        "crawledAt": "2026-05-22T07:47:25.427Z"
-      }
+      ]
     },
     {
       "id": "agent-ddl-chinatravel-ai-agent-phase1-2026-07-15",
@@ -1024,7 +922,6 @@ export const ddlData: Record<string, DDLItem[]> = {
       "organizer": "IJCAI-ECAI 2026 Competition Track",
       "submissionType": "Agent solution submission",
       "sourceUrl": "https://chinatravel-competition.github.io/IJCAI2026/",
-      "deadlineTimezone": "source-local/unspecified",
       "phases": [
         {
           "name": "Data released and submission begins",
@@ -1056,14 +953,7 @@ export const ddlData: Record<string, DDLItem[]> = {
           "name": "Agentic Skill Development",
           "description": "Develop specialized tool-use plugins for commercial agentic platforms."
         }
-      ],
-      "sourcePriority": "official",
-      "crawler": {
-        "sourceId": "chinatravel-ai-agent-2026-phase1",
-        "parser": "official-event-source",
-        "parserConfidence": "official-source-metadata",
-        "crawledAt": "2026-05-22T07:47:25.427Z"
-      }
+      ]
     },
     {
       "id": "agent-ddl-car-bench-final-evaluation-2026-07-19",
@@ -1089,7 +979,6 @@ export const ddlData: Record<string, DDLItem[]> = {
       "organizer": "CAR-bench / IJCAI-ECAI 2026",
       "submissionType": "Hidden test-set evaluation",
       "sourceUrl": "https://car-bench.github.io/car-bench/",
-      "deadlineTimezone": "AoE",
       "phases": [
         {
           "name": "Competition opens",
@@ -1121,14 +1010,7 @@ export const ddlData: Record<string, DDLItem[]> = {
           "name": "Cerebras Fast-Reasoning Track",
           "description": "Compute-aware agent design under Cerebras fast inference constraints."
         }
-      ],
-      "sourcePriority": "official",
-      "crawler": {
-        "sourceId": "car-bench-ijcai-2026-final",
-        "parser": "official-event-source",
-        "parserConfidence": "official-source-metadata",
-        "crawledAt": "2026-05-22T07:47:25.427Z"
-      }
+      ]
     },
     {
       "id": "agent-ddl-car-bench-technical-report-2026-07-26",
@@ -1154,7 +1036,6 @@ export const ddlData: Record<string, DDLItem[]> = {
       "organizer": "CAR-bench / IJCAI-ECAI 2026",
       "submissionType": "4-page IJCAI-format technical report",
       "sourceUrl": "https://car-bench.github.io/car-bench/",
-      "deadlineTimezone": "AoE",
       "phases": [
         {
           "name": "Final hidden test evaluation",
@@ -1168,14 +1049,7 @@ export const ddlData: Record<string, DDLItem[]> = {
           "name": "Winners announced",
           "deadline": "2026-07-31T23:59:59-12:00"
         }
-      ],
-      "sourcePriority": "official",
-      "crawler": {
-        "sourceId": "car-bench-ijcai-2026-report",
-        "parser": "official-event-source",
-        "parserConfidence": "official-source-metadata",
-        "crawledAt": "2026-05-22T07:47:25.427Z"
-      }
+      ]
     },
     {
       "id": "agent-ddl-industrial-automation-llm-submission-2026-08-01",
@@ -1201,7 +1075,6 @@ export const ddlData: Record<string, DDLItem[]> = {
       "organizer": "IJCAI-ECAI 2026 Competition Track",
       "submissionType": "Model / solution submission",
       "sourceUrl": "https://sites.google.com/view/ai-industrial-challenge-ijcai/home",
-      "deadlineTimezone": "source-local/unspecified",
       "phases": [
         {
           "name": "Dataset and baseline release",
@@ -1225,14 +1098,7 @@ export const ddlData: Record<string, DDLItem[]> = {
           "name": "Agentic tool-augmented reasoning",
           "description": "Reasoning with external industrial tools and structured context."
         }
-      ],
-      "sourcePriority": "official",
-      "crawler": {
-        "sourceId": "industrial-automation-llm-ijcai-2026",
-        "parser": "official-event-source",
-        "parserConfidence": "official-source-metadata",
-        "crawledAt": "2026-05-22T07:47:25.427Z"
-      }
+      ]
     },
     {
       "id": "agent-ddl-chinatravel-ai-agent-report-2026-08-05",
@@ -1258,7 +1124,6 @@ export const ddlData: Record<string, DDLItem[]> = {
       "organizer": "IJCAI-ECAI 2026 Competition Track",
       "submissionType": "Paper / technical report submission",
       "sourceUrl": "https://chinatravel-competition.github.io/IJCAI2026/",
-      "deadlineTimezone": "source-local/unspecified",
       "phases": [
         {
           "name": "Phase 1 submission deadline",
@@ -1276,14 +1141,7 @@ export const ddlData: Record<string, DDLItem[]> = {
           "name": "Final results notification",
           "deadline": "2026-08-15T23:59:59"
         }
-      ],
-      "sourcePriority": "official",
-      "crawler": {
-        "sourceId": "chinatravel-ai-agent-2026-report",
-        "parser": "official-event-source",
-        "parserConfidence": "official-source-metadata",
-        "crawledAt": "2026-05-22T07:47:25.427Z"
-      }
+      ]
     }
   ],
   "cv-ddl": [
@@ -1952,7 +1810,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://2026.emnlp.org",
       "status": "upcoming",
       "stage": "Paper",
-      "source": "Curated coverage seed",
+      "source": "人工整理的官方来源入口",
       "type": "conference",
       "description": "EMNLP 主会全文提交入口。"
     },
@@ -1970,7 +1828,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://clpsych.org",
       "status": "upcoming",
       "stage": "System submit",
-      "source": "Curated coverage seed",
+      "source": "人工整理的官方来源入口",
       "type": "conference",
       "description": "临床 NLP shared task 入口。"
     },
@@ -1988,7 +1846,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://aclweb.org/aclwiki/BioNLP_Workshop",
       "status": "upcoming",
       "stage": "Paper",
-      "source": "Curated coverage seed",
+      "source": "人工整理的官方来源入口",
       "type": "conference",
       "description": "生物医学 NLP workshop 入口。"
     },
@@ -2024,7 +1882,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://blackboxnlp.github.io",
       "status": "upcoming",
       "stage": "Paper",
-      "source": "Curated coverage seed",
+      "source": "人工整理的官方来源入口",
       "type": "conference",
       "description": "NLP 可解释性 workshop 入口。"
     },
@@ -2042,7 +1900,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://coling2026.org",
       "status": "upcoming",
       "stage": "Long paper",
-      "source": "Curated coverage seed",
+      "source": "人工整理的官方来源入口",
       "type": "conference",
       "description": "COLING 长文提交入口。"
     },
@@ -2078,7 +1936,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.kaggle.com/competitions",
       "status": "upcoming",
       "stage": "Submission",
-      "source": "Curated coverage seed",
+      "source": "人工整理的官方来源入口",
       "type": "conference",
       "description": "法律文本处理挑战入口。"
     },
@@ -2096,7 +1954,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://mrqa.github.io",
       "status": "upcoming",
       "stage": "Leaderboard",
-      "source": "Curated coverage seed",
+      "source": "人工整理的官方来源入口",
       "type": "conference",
       "description": "阅读理解与问答评测入口。"
     },
@@ -2114,7 +1972,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://openreview.net/",
       "status": "upcoming",
       "stage": "System report",
-      "source": "Curated coverage seed",
+      "source": "人工整理的官方来源入口",
       "type": "conference",
       "description": "检索增强生成评测入口。"
     },
@@ -2150,7 +2008,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://naacl.org",
       "status": "upcoming",
       "stage": "Paper",
-      "source": "Curated coverage seed",
+      "source": "人工整理的官方来源入口",
       "type": "conference",
       "description": "NAACL 投稿入口。"
     },
@@ -2168,7 +2026,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.kaggle.com/competitions",
       "status": "upcoming",
       "stage": "Leaderboard",
-      "source": "Curated coverage seed",
+      "source": "人工整理的官方来源入口",
       "type": "conference",
       "description": "长上下文 NLP benchmark 入口。"
     },
@@ -2204,7 +2062,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://sigtyp.github.io",
       "status": "upcoming",
       "stage": "Paper / system",
-      "source": "Curated coverage seed",
+      "source": "人工整理的官方来源入口",
       "type": "conference",
       "description": "低资源语言 shared task 入口。"
     },
@@ -2240,7 +2098,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://aclweb.org/aclwiki/INLG",
       "status": "upcoming",
       "stage": "Paper",
-      "source": "Curated coverage seed",
+      "source": "人工整理的官方来源入口",
       "type": "conference",
       "description": "自然语言生成会议入口。"
     },
@@ -2258,7 +2116,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.sigdial.org",
       "status": "upcoming",
       "stage": "Paper",
-      "source": "Curated coverage seed",
+      "source": "人工整理的官方来源入口",
       "type": "conference",
       "description": "对话系统会议入口。"
     }
@@ -2296,7 +2154,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://vldb.org",
       "status": "ongoing",
       "stage": "Monthly cycle",
-      "source": "Curated coverage seed",
+      "source": "人工整理的官方来源入口",
       "type": "conference",
       "description": "VLDB 月度投稿入口。"
     },
@@ -2314,7 +2172,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://sigmod.org",
       "status": "upcoming",
       "stage": "Round 1",
-      "source": "Curated coverage seed",
+      "source": "人工整理的官方来源入口",
       "type": "conference",
       "description": "数据库会议滚动投稿入口。"
     },
@@ -2332,7 +2190,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://aaai.org",
       "status": "upcoming",
       "stage": "Abstract",
-      "source": "Curated coverage seed",
+      "source": "人工整理的官方来源入口",
       "type": "conference",
       "description": "AAAI abstract 阶段入口。"
     },
@@ -2350,7 +2208,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://chi2027.acm.org",
       "status": "upcoming",
       "stage": "Paper",
-      "source": "Curated coverage seed",
+      "source": "人工整理的官方来源入口",
       "type": "conference",
       "description": "人机交互会议入口。"
     },
@@ -2368,7 +2226,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra",
       "status": "upcoming",
       "stage": "Paper",
-      "source": "Curated coverage seed",
+      "source": "人工整理的官方来源入口",
       "type": "conference",
       "description": "机器人会议入口。"
     },
@@ -2386,7 +2244,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.nsf.gov/funding",
       "status": "upcoming",
       "stage": "Proposal window",
-      "source": "Curated coverage seed",
+      "source": "人工整理的官方来源入口",
       "type": "program",
       "description": "科研基金/项目申请入口，后续可拆分到独立 grant-ddl。"
     },
@@ -2422,7 +2280,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www2027.thewebconf.org",
       "status": "upcoming",
       "stage": "Paper",
-      "source": "Curated coverage seed",
+      "source": "人工整理的官方来源入口",
       "type": "conference",
       "description": "Web Conference 研究论文入口。"
     },
@@ -2440,7 +2298,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://aistats.org",
       "status": "upcoming",
       "stage": "Paper",
-      "source": "Curated coverage seed",
+      "source": "人工整理的官方来源入口",
       "type": "conference",
       "description": "统计学习会议入口。"
     },
@@ -2458,7 +2316,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://ubicomp.org",
       "status": "upcoming",
       "stage": "Paper",
-      "source": "Curated coverage seed",
+      "source": "人工整理的官方来源入口",
       "type": "conference",
       "description": "普适计算会议入口。"
     },
@@ -2476,7 +2334,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://iscaconf.org",
       "status": "upcoming",
       "stage": "Paper",
-      "source": "Curated coverage seed",
+      "source": "人工整理的官方来源入口",
       "type": "conference",
       "description": "计算机体系结构会议入口。"
     },
@@ -2494,7 +2352,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://icaps-conference.org",
       "status": "upcoming",
       "stage": "Paper",
-      "source": "Curated coverage seed",
+      "source": "人工整理的官方来源入口",
       "type": "conference",
       "description": "规划与调度会议入口。"
     },
@@ -2512,7 +2370,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://icml.cc",
       "status": "upcoming",
       "stage": "Abstract",
-      "source": "Curated coverage seed",
+      "source": "人工整理的官方来源入口",
       "type": "conference",
       "description": "ICML abstract 阶段入口。"
     },
@@ -2530,7 +2388,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://roboticsconference.org",
       "status": "upcoming",
       "stage": "Paper",
-      "source": "Curated coverage seed",
+      "source": "人工整理的官方来源入口",
       "type": "conference",
       "description": "Robotics: Science and Systems 投稿入口。"
     },
@@ -2548,7 +2406,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://sigir.org",
       "status": "upcoming",
       "stage": "Paper",
-      "source": "Curated coverage seed",
+      "source": "人工整理的官方来源入口",
       "type": "conference",
       "description": "信息检索会议入口。"
     },
@@ -2566,7 +2424,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.usenix.org/conferences",
       "status": "upcoming",
       "stage": "Paper",
-      "source": "Curated coverage seed",
+      "source": "人工整理的官方来源入口",
       "type": "conference",
       "description": "系统研究会议入口。"
     },
@@ -2584,7 +2442,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://kdd.org",
       "status": "upcoming",
       "stage": "Research",
-      "source": "Curated coverage seed",
+      "source": "人工整理的官方来源入口",
       "type": "conference",
       "description": "数据挖掘会议入口。"
     },
@@ -2602,7 +2460,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.auai.org/uai",
       "status": "upcoming",
       "stage": "Paper",
-      "source": "Curated coverage seed",
+      "source": "人工整理的官方来源入口",
       "type": "conference",
       "description": "不确定性人工智能会议入口。"
     },
@@ -2620,7 +2478,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://acmmm.org",
       "status": "upcoming",
       "stage": "Paper",
-      "source": "Curated coverage seed",
+      "source": "人工整理的官方来源入口",
       "type": "conference",
       "description": "多媒体会议主会入口。"
     }
@@ -2645,15 +2503,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Fourth Quarter 2026 15 May 2026",
       "journal": "IEEE JSAC",
       "publisher": "IEEE",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-society",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "ieee-jsac",
-        "parser": "ieee-comsoc-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.820Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-ieee-comsoc-magazine-explainable-artificial-intelligence-for",
@@ -2674,15 +2524,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "December 2026 15 May 2026",
       "journal": "IEEE Communications Magazine",
       "publisher": "IEEE",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-society",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "ieee-comsoc-magazine",
-        "parser": "ieee-comsoc-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.820Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-ieee-sps-special-issues-ieee-jstsp-special-issue-on-wireless",
@@ -2703,15 +2545,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Submission deadline: 15-May-2026 Publication date: December-2026",
       "journal": "IEEE SPS Journals",
       "publisher": "IEEE",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-society",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "ieee-sps-special-issues",
-        "parser": "ieee-sps-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.820Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-design-methodologies-and-applications-on-c",
@@ -2732,15 +2566,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Guest editors: Matteo Verotti, Guimin Chen, Just Herder, Jonathan Hopkins  •_Impact Factor 5.3_•_CiteScore 11.4_ Submission deadline:**31 May 2026**",
       "journal": "Mechanism and Machine Theory",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.819Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-ieee-comsoc-magazine-fluid-antennas-the-next-wave-of-mimo-ev",
@@ -2761,15 +2587,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "First Quarter 2027 31 May 2026",
       "journal": "IEEE Communications Magazine",
       "publisher": "IEEE",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-society",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "ieee-comsoc-magazine",
-        "parser": "ieee-comsoc-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.820Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-journal-of-materiomics-2026-05-31",
@@ -2789,15 +2607,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "type": "journal",
       "description": "•_Impact Factor 9.6_•_CiteScore 16.8_ Submission deadline:**31 May 2026**",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.819Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-ieee-comsoc-magazine-quantum-enabled-ai-for-future-communica",
@@ -2818,15 +2628,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Fourth Quarter 2026 31 May 2026",
       "journal": "IEEE Communications Magazine",
       "publisher": "IEEE",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-society",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "ieee-comsoc-magazine",
-        "parser": "ieee-comsoc-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.820Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-artificial-intelligence-and-machine-learni",
@@ -2847,15 +2649,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Guest editors: Selcuk Uluagac, Rebecca Montanari, Francesco Flammini, Carlo Mazzocca  •_Impact Factor 5.3_•_CiteScore 10.8_ Submission deadline:**01 June 2026**",
       "journal": "International Journal of Critical Infrastructure Protection",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.819Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-sustainable-digital-research-infrastructur",
@@ -2876,15 +2670,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Guest editors: Raffaele R. Bruno, Kostas Chounos, Shashikant Ilager  •_Impact Factor 4.3_•_CiteScore 11.5_ Submission deadline:**06 June 2026**",
       "journal": "Computer Communications",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.820Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-call-for-papers-for-the-exercise-as-medici",
@@ -2905,15 +2691,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": " •_Impact Factor 10.3_•_CiteScore 19.9_ Submission deadline:**08 June 2026**",
       "journal": "Journal of Sport and Health Science",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.819Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-ieee-sps-special-issues-ieee-jstsp-special-issue-on-autonomo",
@@ -2934,15 +2712,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Submission deadline: 15 June 2026 Publication date: January 2027",
       "journal": "IEEE SPS Journals",
       "publisher": "IEEE",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-society",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "ieee-sps-special-issues",
-        "parser": "ieee-sps-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.820Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-2",
@@ -2963,9 +2733,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "金属-空气电池材料进展、设计优化与实际应用专题。",
       "journal": "Future Batteries",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "unknown"
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-4",
@@ -2987,9 +2755,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "新兴太阳能电池可持续材料与界面进展专题。",
       "journal": "Sustainable Chemistry for Energy Materials",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "unknown"
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-7",
@@ -3010,9 +2776,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "人工智能驱动下的绿色转型系统路径专题。",
       "journal": "Environmental Impact Assessment Review",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "unknown"
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-9",
@@ -3033,9 +2797,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "面向可持续能源技术的数字孪生与情景评估专题。",
       "journal": "Sustainable Energy Technologies and Assessments",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "unknown"
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-1",
@@ -3057,9 +2819,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "电池可持续发展专题。",
       "journal": "Future Batteries",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "unknown"
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-8",
@@ -3081,9 +2841,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "异质集成光子芯片专题。",
       "journal": "Chip",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "unknown"
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-10",
@@ -3104,9 +2862,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "光/电催化技术在清洁能源与环境领域应用专题。",
       "journal": "Applied Catalysis O: Open",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "unknown"
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-5",
@@ -3127,9 +2883,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "微污染物去除专题，可在两个期刊中选择投稿。",
       "journal": "Desalination / Desalination and Water Treatment",
       "publisher": "Elsevier",
-      "cfpType": "VSI",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "unknown"
+      "cfpType": "VSI"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-selected-and-extended-papers-of-the-6th-in",
@@ -3150,15 +2904,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Guest editors: Alexandre A. Madeira, Jing Wang  •_Impact Factor 1.2_•_CiteScore 2.8_ Submission deadline:**30 June 2026**",
       "journal": "Journal of Logical and Algebraic Methods in Programming",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.820Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-special-issue-24th-european-transport-cong",
@@ -3179,15 +2925,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Guest editors: Bingyu Zhao, Guenter Emberger, Sebastian Belz, Takeru Shibayama, Jonas De Vos  Submission deadline:**30 June 2026**",
       "journal": "European Transport Studies",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.820Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-3",
@@ -3208,9 +2946,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "电能存储设备可持续发展及循环经济专题。",
       "journal": "Future Batteries",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "unknown"
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-6",
@@ -3231,9 +2967,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "可再生能源及储能系统热安全与防火研究专题。",
       "journal": "Applied Thermal Engineering",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "unknown"
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-review-of-precision-electroweak-measuremen",
@@ -3254,15 +2988,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Guest editors: Giulia Zanderighi  •_Impact Factor 29.5_•_CiteScore 49.9_ Submission deadline:**01 July 2026**",
       "journal": "Physics Reports",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.820Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-special-section-on-extended-reality-for-in",
@@ -3283,15 +3009,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Guest editors: Hyungil Kim, Isaac Cho, Myounghoon Jeon, Heejin Jeong, Kangsoo Kim  •_Impact Factor 2.8_•_CiteScore 6.1_ Submission deadline:**01 July 2026**",
       "journal": "Computers & Graphics",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.819Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-nuclear-theory-in-the-supercomputing-era-2",
@@ -3312,15 +3030,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Guest editors: Praveen Chandra Srivastava, James Vary, Shirokov M Andrey, Takaharu Otsuka, Venkata Krishna Brahmam Kota  Submission deadline:**15 July 2026**",
       "journal": "Journal of Subatomic Particles and Cosmology",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.819Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-regional-state-of-wildfires-reviews-of-the",
@@ -3341,15 +3051,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Guest editor: David Bowman  Submission deadline:**15 July 2026**",
       "journal": "Journal of Pyrogeography",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.820Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-resilience-in-the-age-of-permacrisis-2026-",
@@ -3370,15 +3072,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Guest editor: Carol M Connell  •_Impact Factor 2.5_•_CiteScore 6.9_ Submission deadline:**15 July 2026**",
       "journal": "Organizational Dynamics",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.819Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-ieee-sps-special-issues-ieee-tmm-special-section-on-multimod",
@@ -3399,15 +3093,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Submission deadline: 30-July-2026 Publication date (tentative): Q1, 2027",
       "journal": "IEEE SPS Journals",
       "publisher": "IEEE",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-society",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "ieee-sps-special-issues",
-        "parser": "ieee-sps-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.820Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-esg-and-sri-investment-challenges-2026-07-",
@@ -3427,15 +3113,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "type": "journal",
       "description": "Guest editors: Andrew Urquhart, Ailie Charteris  •_Impact Factor 5.6_•_CiteScore 7.3_ Submission deadline:**31 July 2026**",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.819Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-ieee-sps-special-issues-ieee-journal-on-selected-topics-in-s",
@@ -3456,15 +3134,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Submission deadline: 31 July 2026 Publication date: March 2027",
       "journal": "IEEE SPS Journals",
       "publisher": "IEEE",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-society",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "ieee-sps-special-issues",
-        "parser": "ieee-sps-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.820Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-stress-and-alzheimer-s-disease-2026-07-31",
@@ -3485,15 +3155,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Guest editors: Pranav Vemula, Reshma Bhagat & Carla Yuede  •_Impact Factor 2.5_•_CiteScore 6.1_ Submission deadline:**31 July 2026**",
       "journal": "Journal of Neuroimmunology",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.820Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-ieee-sps-special-issues-ieee-tmm-special-section-on-generati",
@@ -3514,15 +3176,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Submission deadline: 01-August-2026 Publication date (tentative): Q1, 2027",
       "journal": "IEEE SPS Journals",
       "publisher": "IEEE",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-society",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "ieee-sps-special-issues",
-        "parser": "ieee-sps-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.820Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-migration-within-the-current-global-transf",
@@ -3543,15 +3197,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Guest editors: Loukia-Maria Fratsea, PhD, Alin Croitoru, PhD  Submission deadline:**01 August 2026**",
       "journal": "Transnational Mobilities",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.819Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-technological-advances-and-considerations-",
@@ -3572,15 +3218,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Guest editors: Ehiaze Ehimen; Vignesh Kumaravel; Anna Masek; Tannaz Alizadeh Ashrafi  •_Impact Factor 7.9_•_CiteScore 7.3_ Submission deadline:**01 August 2026**",
       "journal": "Results in Engineering",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.819Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-instabilities-and-turbulent-mixing-2026-08",
@@ -3601,15 +3239,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Guest editors: Ye Zhou, Daniel Israel, Eric Johnsen  •_Impact Factor 2.9_•_CiteScore 4.6_ Submission deadline:**08 August 2026**",
       "journal": "Physica D: Nonlinear Phenomena",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.820Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-catalysis-today-2026-08-31",
@@ -3629,15 +3259,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "type": "journal",
       "description": "•_Impact Factor 5.3_•_CiteScore 11.2_ Submission deadline:**31 August 2026**",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.819Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-journal-of-co2-utilization-2026-08-31",
@@ -3657,15 +3279,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "type": "journal",
       "description": "•_Impact Factor 8.4_•_CiteScore 15.2_ Submission deadline:**31 August 2026**",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.819Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-quaternary-seafloor-geology-investigating-",
@@ -3686,15 +3300,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Guest editors: Daniele Spatola, Rossella Di Mento, Elena Scacchia and Fabiano Gamberi  •_Impact Factor 1.8_•_CiteScore 5.9_ Submission deadline:**31 August 2026**",
       "journal": "Quaternary International",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.819Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-call-for-paper-for-special-issue-on-intell",
@@ -3715,15 +3321,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": " •_CiteScore 1.7_ Submission deadline:**10 September 2026**",
       "journal": "High-speed Railway",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.819Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-methodological-advances-in-the-measurement",
@@ -3744,15 +3342,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Guest editors: Felix Fischer & Xiaodan Tang  Submission deadline:**14 September 2026**",
       "journal": "Advances in Patient-Reported Outcomes",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.819Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-patient-reported-outcomes-where-it-counts-",
@@ -3773,15 +3363,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Guest editors: Judith F. Baumhauer & Jeffery R. Houck  Submission deadline:**14 September 2026**",
       "journal": "Advances in Patient-Reported Outcomes",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.819Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-60-years-of-fragrance-safety-science-and-i",
@@ -3802,15 +3384,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Guest editors: Pamela Lein and Kamil Jurowski  •_Impact Factor 3.5_•_CiteScore 9.9_ Submission deadline:**30 September 2026**",
       "journal": "Food and Chemical Toxicology",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.819Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-innovative-nature-based-solutions-2026-09-",
@@ -3831,15 +3405,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Guest editors: Professor Magdalena Gajewska, Assistant Professor Alexandros Stefanakis, Associate Professor Katarzyna Kołecka and Associate professor Diederik Rousseau  •_Impact Factor 4.1_•_CiteScore 8.6_ Submission dea",
       "journal": "Ecological Engineering",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.820Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-intelligent-reservoir-characterisation-for",
@@ -3860,15 +3426,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": " •_CiteScore 3.1_ Submission deadline:**30 September 2026**",
       "journal": "Journal of Natural Gas Geoscience",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.819Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-proceedings-of-the-recovery-of-biological-",
@@ -3889,15 +3447,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Guest editors: Cristiana Boi, Todd Przybycien, Hanne Bak, Sanchayita Ghose  •_Impact Factor 9.0_•_CiteScore 15.1_ Submission deadline:**30 September 2026**",
       "journal": "Separation and Purification Technology",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.819Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-7th-international-conference-on-applied-su",
@@ -3918,15 +3468,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Guest editors: Prof. Dr. Henrik Rudolph, Prof. Dr. WeiXin Huang, Prof. Dr. Andrew Teplyakov, Prof. Dr. Byungchan Han, Prof. Dr. Maria Dinescu  •_Impact Factor 6.9_•_CiteScore 13.4_ Submission deadline:**01 October 2026**",
       "journal": "Applied Surface Science",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.819Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-b-vitamins-and-one-carbon-metabolism-2026-",
@@ -3947,15 +3489,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Guest editors: Julia L. Finkelstein & Jean-Louis Guéant  •_Impact Factor 3.8_•_CiteScore 6.9_ Submission deadline:**01 October 2026**",
       "journal": "The Journal of Nutrition",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.819Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-current-perspectives-and-best-practices-fo",
@@ -3976,15 +3510,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Guest editors: Dr. Jocelyn Hafer, Dr. Stephen Cain  •_Impact Factor 2.4_•_CiteScore 4.9_ Submission deadline:**01 October 2026**",
       "journal": "Journal of Biomechanics",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.819Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-nuclear-science-user-facilities-20-years-o",
@@ -4005,15 +3531,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Guest editors: Mukesh Bachhav, Maria Okuniewski, Stephen Taller  •_Impact Factor 3.2_•_CiteScore 6.2_ Submission deadline:**01 October 2026**",
       "journal": "Journal of Nuclear Materials",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.820Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-recent-advancements-in-lightning-physics-m",
@@ -4034,15 +3552,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Guest editors: Pantelis Mikropoulos; Thomas Tsovilis; Alexandre Piantini  •_Impact Factor 4.2_•_CiteScore 8.2_ Submission deadline:**01 October 2026**",
       "journal": "Electric Power Systems Research",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.819Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-advanced-materials-for-next-generation-ene",
@@ -4063,15 +3573,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Guest editors: Yu Zhang; Zhiheng Lyu; Ming Zhao  •_Impact Factor 4.6_•_CiteScore 7.5_ Submission deadline:**11 October 2026**",
       "journal": "Materials Science and Engineering: B",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.820Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-agentic-ai-and-advanced-analytics-for-resi",
@@ -4092,15 +3594,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Guest editors: Krishna Kumar, Hady Habib Fayek, Sivakumar Nadarajan, Nitin Singh  •_Impact Factor 7.0_•_CiteScore 17.3_ Submission deadline:**15 October 2026**",
       "journal": "Sustainable Energy Technologies and Assessments",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.820Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-special-issue-on-highlights-from-eurova-20",
@@ -4121,15 +3615,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Guest editors: Daniel Archambault; Fernando Paulovich  •_Impact Factor 2.8_•_CiteScore 6.1_ Submission deadline:**15 October 2026**",
       "journal": "Computers & Graphics",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.819Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-urban-ecological-space-for-climate-adaptat",
@@ -4150,15 +3636,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Guest editors: Carla Sofia Santos Ferreira, Cong Cong, Tomás de Figueiredo, Rares Halbac-Cotoara-Zamfir, Zahra Kalantari  •_Impact Factor 8.0_•_CiteScore 14.7_ Submission deadline:**15 October 2026**",
       "journal": "Geography and Sustainability",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.820Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-redox-and-metabolism-in-cancer-drivers-of-",
@@ -4179,15 +3657,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Guest editors: Giuseppe Filomeni and Chiara Pecorari  •_Impact Factor 11.9_•_CiteScore 19.5_ Submission deadline:**16 October 2026**",
       "journal": "Redox Biology",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.820Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-advanced-materials-for-next-generation-rec",
@@ -4208,15 +3678,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Guest editors: Yaping Chen; Xiaobo Zheng; Mengwei Yuan; Song Chen; Liu Lin  •_Impact Factor 4.6_•_CiteScore 7.5_ Submission deadline:**31 October 2026**",
       "journal": "Materials Science and Engineering: B",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.818Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-advances-in-artificial-intelligence-for-en",
@@ -4237,15 +3699,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": " •_Impact Factor 3.6_•_CiteScore 6.8_ Submission deadline:**31 October 2026**",
       "journal": "Energy Geoscience",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.819Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-bayesian-workflow-for-geotechnical-enginee",
@@ -4266,15 +3720,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Guest editors: Nezam Bozorgzadeh, Yu Feng  •_Impact Factor 6.2_•_CiteScore 9.0_ Submission deadline:**31 October 2026**",
       "journal": "Computers and Geotechnics",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.820Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-complementary-therapies-and-approaches-for",
@@ -4295,15 +3741,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Guest editors: Prof Liye Zou, Dr Yanjie Zhang, Dr Lin Luo, Dr Qian Yu, Dr Yanxia Chen, Dr Yuke Teng, Dr Xinxing Li  •_Impact Factor 3.5_•_CiteScore 7.7_ Submission deadline:**31 October 2026**",
       "journal": "Complementary Therapies in Medicine",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.819Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-heavy-metal-contamination-in-soils-and-veg",
@@ -4324,15 +3762,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Guest editors: Vinod Kumar, Renato Somma and Maja Radziemska  •_Impact Factor 4.6_•_CiteScore 7.2_ Submission deadline:**31 October 2026**",
       "journal": "Journal of Food Composition and Analysis",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.819Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-income-and-wealth-distribution-labor-marke",
@@ -4352,15 +3782,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "type": "journal",
       "description": "Guest editors: Sai Ding, Ximing Yue, Lina Song, Shi Li  •_Impact Factor 5.5_•_CiteScore 8.2_ Submission deadline:**31 October 2026**",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.819Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-recent-advances-in-surface-enhanced-raman-",
@@ -4381,15 +3803,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Guest editors: Kaustabh Kumar Maiti; U. S Dinish  •_Impact Factor 3.7_•_CiteScore 7.2_ Submission deadline:**31 October 2026**",
       "journal": "Journal of Photochemistry and Photobiology B: Biology",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.820Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-the-future-of-bioelectronics-for-organoid-",
@@ -4410,15 +3824,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Guest editors: Luke P. Lee; Xiao Yang; Deok-Ho Kim; Sei Kwang Hahn; Man Bock Gu  •_Impact Factor 10.5_•_CiteScore 20.9_ Submission deadline:**31 October 2026**",
       "journal": "Biosensors and Bioelectronics",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.819Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-tracking-the-quaternary-vertebrate-footpri",
@@ -4439,15 +3845,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Guest editors: Ignacio Díaz Martínez, Jérémy Duveau and Kevin G. Hatala  •_Impact Factor 2.2_•_CiteScore 3.8_ Submission deadline:**31 October 2026**",
       "journal": "Quaternary Science Advances",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.819Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-30-years-of-apmr-2026-11-01",
@@ -4467,15 +3865,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "type": "journal",
       "description": "This Special Issue welcomes high-quality review papers that advance management knowledge in regional or global contexts.  •_Impact Factor 5.6_•_CiteScore 11.4_ Submission deadline:**01 November 2026**",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.819Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-applied-studies-in-innovative-learning-and",
@@ -4496,15 +3886,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Guest editors: Gert Rijlaarsdam PhD., Jingxian Wang, PhD., Paula López, PhD., Per Henning Uppstad, PhD., Valeri Murnikov, PhD.  Submission deadline:**01 November 2026**",
       "journal": "Applied Studies in Innovative Learning and Teaching",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.819Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-jnnfm-at-50-2026-11-01",
@@ -4525,15 +3907,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Guest editors: Rob Poole, Jonathan Rothstein  •_Impact Factor 2.8_•_CiteScore 5.3_ Submission deadline:**01 November 2026**",
       "journal": "Journal of Non-Newtonian Fluid Mechanics",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.819Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-microbiology-and-climate-change-2026-11-01",
@@ -4554,15 +3928,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Guest editors: Celia Garcia and Jason A Tetro  •_Impact Factor 5.8_•_CiteScore 10.0_ Submission deadline:**01 November 2026**",
       "journal": "Current Research in Microbial Sciences",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.819Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-steel-and-steel-concrete-composite-structu",
@@ -4583,15 +3949,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Guest editors: Jia-Bao Yan, Xudong Qian, Amin Heidarpour  •_Impact Factor 4.3_•_CiteScore 7.8_ Submission deadline:**07 November 2026**",
       "journal": "Journal of Constructional Steel Research",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.819Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-a-perspective-on-biomarkers-of-aging-from-",
@@ -4612,15 +3970,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Guest editor: Dr. Sara Gloria Aguilar-Navarro  •_Impact Factor 1.4_•_CiteScore 3.0_ Submission deadline:**30 November 2026**",
       "journal": "Revista de Investigación Clínica",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.819Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-bridging-data-driven-innovation-and-sustai",
@@ -4641,15 +3991,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Guest editors: Taha Arbaoui, Khaled Hadj-Hamou, Malek Masmoudi  •_Impact Factor 6.5_•_CiteScore 13.2_ Submission deadline:**30 November 2026**",
       "journal": "Computers & Industrial Engineering",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.819Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-enabling-sustainable-chemical-processes-th",
@@ -4670,15 +4012,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Guest editors: Vesna Najdanovic, Stephen Worrall, Ana Vital Morgado Nunes  •_CiteScore 17.1_ Submission deadline:**30 November 2026**",
       "journal": "Current Research in Green and Sustainable Chemistry",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.819Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-illuminating-the-future-advances-in-photob",
@@ -4699,15 +4033,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Guest editors: Antonio Luiz B. Pinheiro; Janusz M. Dabrowski; Pedro Jorge Louro Crugeira  •_Impact Factor 3.7_•_CiteScore 7.2_ Submission deadline:**30 November 2026**",
       "journal": "Journal of Photochemistry and Photobiology B: Biology",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.820Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-imaging-for-patient-selection-in-acute-isc",
@@ -4728,15 +4054,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Guest editors: Yunyun Xiong and Marc Fisher  Submission deadline:**30 November 2026**",
       "journal": "NeuroImage Stroke",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.819Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-jlamp-reacts-2025-2026-11-30",
@@ -4757,15 +4075,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Guest editors: José Proença, Umberto Rivieccio  •_Impact Factor 1.2_•_CiteScore 2.8_ Submission deadline:**30 November 2026**",
       "journal": "Journal of Logical and Algebraic Methods in Programming",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.819Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-materials-technologies-for-controlling-wet",
@@ -4786,15 +4096,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Guest editors: Dr. Filomena Piscitelli, Dr. Bartlomiej Przybyszewski, Dr. Julio Mora Nogués, Dr. Mariachiara Gallia  •_Impact Factor 8.7_•_CiteScore 15.3_ Submission deadline:**30 November 2026**",
       "journal": "Applied Surface Science Advances",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.819Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-special-issue-on-embodied-medical-robotics",
@@ -4815,15 +4117,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": " •_Impact Factor 5.4_•_CiteScore 7.3_ Submission deadline:**30 November 2026**",
       "journal": "Biomimetic Intelligence and Robotics",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.819Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-special-issue-on-reconfigurable-transition",
@@ -4844,15 +4138,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": " •_Impact Factor 1.2_•_CiteScore 2.8_ Submission deadline:**30 November 2026**",
       "journal": "Journal of Logical and Algebraic Methods in Programming",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.818Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-ai-in-acute-stroke-imaging-pearls-and-pitf",
@@ -4873,15 +4159,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Guest editors: Smriti Agarwal, Kevin N. Sheth, George WJ Harston, Lisa Herzog and Ondrej Volny  Submission deadline:**01 December 2026**",
       "journal": "NeuroImage Stroke",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.819Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-integration-of-european-reference-networks",
@@ -4902,15 +4180,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Guest editors: Birute Tumiene, Ursula Unterberger and Luz Yadira Bravo Gallego  •_Impact Factor 1.7_•_CiteScore 3.7_ Submission deadline:**01 December 2026**",
       "journal": "European Journal of Medical Genetics",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.819Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-organized-films-and-functional-materials-a",
@@ -4931,15 +4201,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Guest editors: Simona Bettini  •_Impact Factor 6.3_•_CiteScore 8.5_ Submission deadline:**01 December 2026**",
       "journal": "Surfaces and Interfaces",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.818Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-strategies-for-enhancing-the-durability-of",
@@ -4960,15 +4222,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Guest editors: Haoxin Li, Yuyang Pang, Jiuwen Bao, Weina Meng  •_Impact Factor 8.0_•_CiteScore 13.9_ Submission deadline:**01 December 2026**",
       "journal": "Construction and Building Materials",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.819Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-global-air-quality-advances-in-monitoring-",
@@ -4989,15 +4243,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Guest editors: Shupeng Zhu, Jing Wei, Sibo Chen  Submission deadline:**10 December 2026**",
       "journal": "Climate Physics and Atmospheric Science: Scientific Insights and Societal Challenges",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.819Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-nanomaterials-and-emerging-contaminants-in",
@@ -5018,15 +4264,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Guest editors: Dr. Roberto Berni, Dr. Gea Guerriero, Prof. Giancarlo Renella, Prof. Sergio Esposito  •_Impact Factor 7.7_•_CiteScore 6.6_ Submission deadline:**11 December 2026**",
       "journal": "Plant Nano Biology",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.819Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-intelligent-transport-and-sustainable-mobi",
@@ -5047,15 +4285,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Guest editors: José Luis Moura, Luigi dell’Olio, António Lobo, Sérgio Pedro Duarte  •_Impact Factor 4.4_•_CiteScore 8.7_ Submission deadline:**17 December 2026**",
       "journal": "Research in Transportation Business & Management",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.820Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-special-issue-on-panel-data-analysis-2026-",
@@ -5076,15 +4306,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Guest editors: Badi Baltagi, Kazuhiko Hayakawa, Degui Li, Vasilis Sarafidis, Erricos Kontoghiorghes  •_Impact Factor 2.5_•_CiteScore 4.0_ Submission deadline:**20 December 2026**",
       "journal": "Econometrics and Statistics",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.819Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-third-special-issue-on-mixture-models-2026",
@@ -5105,15 +4327,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Guest editors: Matthieu Marbac, Wan-Lun Wang, Weixin Yao  •_Impact Factor 2.5_•_CiteScore 4.0_ Submission deadline:**20 December 2026**",
       "journal": "Econometrics and Statistics",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.819Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-advances-in-combustion-science-and-technol",
@@ -5134,15 +4348,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Guest editors: Jingyu Ran, Selim Ceylan, Lele Feng, Daya Pandey  •_CiteScore 2.2_ Submission deadline:**30 December 2026**",
       "journal": "DeCarbon",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.819Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-abrasive-and-non-abrasive-post-processing-",
@@ -5163,15 +4369,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Guest editor: Mamilla Ravi Sankar  Submission deadline:**31 December 2026**",
       "journal": "Tribology and Interfaces",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.819Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-advanced-mri-for-stroke-outcome-prediction",
@@ -5192,15 +4390,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Guest editors: Phillip Zhe Sun, Esra Zihni, Vivek Prabhakaran, Risto A. Kauppinen and Fahmeed Hyder  Submission deadline:**31 December 2026**",
       "journal": "NeuroImage Stroke",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.819Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-advances-in-robotic-forming-2026-12-31",
@@ -5221,15 +4411,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Guest editors: Junying Min, Jinjin Ha, Glenn Daehn, Xunzhong Guo  •_Impact Factor 6.0_•_CiteScore 11.2_ Submission deadline:**31 December 2026**",
       "journal": "Advances in Industrial and Manufacturing Engineering",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.819Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-bioactive-compounds-and-therapeutic-potent",
@@ -5250,15 +4432,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Guest editor: Dr. Lam T Duong  Submission deadline:**31 December 2026**",
       "journal": "Innovations in Industrial Crops and Processing",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.819Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-brain-health-frailty-and-resilience-after-",
@@ -5279,15 +4453,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Guest editors: Sook-Lei Liew, Lara Boyd, Amy Brodtmann and Brenton Hordacre  Submission deadline:**31 December 2026**",
       "journal": "NeuroImage Stroke",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.819Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-electrochemistry-communications-2026-12-31",
@@ -5307,15 +4473,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "type": "journal",
       "description": "•_Impact Factor 4.2_•_CiteScore 7.9_ Submission deadline:**31 December 2026**",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.820Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-estiv-2026-ensuring-safety-advancing-scien",
@@ -5336,15 +4494,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Guest editors: Helena Kandarova, Luiz Ladeira and Mohamed Fathi Abdallah  •_Impact Factor 2.7_•_CiteScore 5.5_ Submission deadline:**31 December 2026**",
       "journal": "Toxicology in Vitro",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.819Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-from-clay-fundamentals-to-hybrid-materials",
@@ -5365,15 +4515,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Guest editors: Makoto Ogawa, Eduardo Ruiz-Hitzky, Takeo Ebina and Tetsuji Itoh  •_Impact Factor 5.8_•_CiteScore 10.3_ Submission deadline:**31 December 2026**",
       "journal": "Applied Clay Science",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.819Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-16",
@@ -5389,14 +4531,12 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://ieee.atyponrex.com/",
       "status": "ongoing",
       "stage": "Submission platform",
-      "source": "IEEE official seed",
+      "source": "IEEE 官方来源入口",
       "type": "journal",
       "description": "IEEE 投稿系统入口，后续用于保存 Special Section / Article Type 选择说明。",
       "journal": "IEEE Journals",
       "publisher": "IEEE",
-      "cfpType": "Submission Platform",
-      "sourcePriority": "official-system",
-      "deadlineTimezone": "unknown"
+      "cfpType": "Submission Platform"
     },
     {
       "id": "journal-ddl-14",
@@ -5412,14 +4552,12 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://ieeeaccess.ieee.org/sections/special-sections/",
       "status": "ongoing",
       "stage": "Special Section",
-      "source": "IEEE official seed",
+      "source": "IEEE 官方来源入口",
       "type": "journal",
       "description": "IEEE Access Special Sections 入口，注意术语通常为 Special Section。",
       "journal": "IEEE Access",
       "publisher": "IEEE",
-      "cfpType": "Special Section",
-      "sourcePriority": "official-journal",
-      "deadlineTimezone": "unknown"
+      "cfpType": "Special Section"
     },
     {
       "id": "journal-ddl-11",
@@ -5436,14 +4574,12 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.comsoc.org/publications/magazines/ieee-communications-magazine/cfp",
       "status": "ongoing",
       "stage": "CFP board",
-      "source": "IEEE official seed",
+      "source": "IEEE 官方来源入口",
       "type": "journal",
       "description": "IEEE ComSoc Magazine CFP 入口，实际 DDL 需按专题详情页继续拆分。",
       "journal": "IEEE Communications Magazine",
       "publisher": "IEEE",
-      "cfpType": "Special Issue / Series",
-      "sourcePriority": "official-society",
-      "deadlineTimezone": "unknown"
+      "cfpType": "Special Issue / Series"
     },
     {
       "id": "journal-ddl-12",
@@ -5460,14 +4596,12 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.comsoc.org/publications/journals/ieee-jsac/cfp",
       "status": "ongoing",
       "stage": "CFP board",
-      "source": "IEEE official seed",
+      "source": "IEEE 官方来源入口",
       "type": "journal",
-      "description": "通信领域重点期刊专题入口，用作 crawler seed。",
+      "description": "通信领域重点期刊专题入口，用作 数据源入口。",
       "journal": "IEEE Journal on Selected Areas in Communications",
       "publisher": "IEEE",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-society",
-      "deadlineTimezone": "unknown"
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-13",
@@ -5483,14 +4617,12 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://signalprocessingsociety.org/publications-resources/special-issue-deadlines",
       "status": "ongoing",
       "stage": "Deadline board",
-      "source": "IEEE official seed",
+      "source": "IEEE 官方来源入口",
       "type": "journal",
       "description": "SPS 特刊截止日列表入口，覆盖信号、语音、图像、多媒体方向。",
       "journal": "IEEE SPS Journals",
       "publisher": "IEEE",
-      "cfpType": "Special Issue Deadlines",
-      "sourcePriority": "official-society",
-      "deadlineTimezone": "unknown"
+      "cfpType": "Special Issue Deadlines"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-interkingdom-microbial-interactions-in-the",
@@ -5511,15 +4643,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Guest editors: Greg Young and Andy Nelson  Submission deadline:**31 December 2026**",
       "journal": "Gut Microbiology",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.819Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-international-conference-on-bio-sensing-te",
@@ -5540,15 +4664,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Guest editor: Richard Luxton  •_Impact Factor 7.6_•_CiteScore 11.0_ Submission deadline:**31 December 2026**",
       "journal": "Sensors and Actuators Reports",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.819Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-materials-science-and-engineering-b-2026-1",
@@ -5568,15 +4684,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "type": "journal",
       "description": "•_Impact Factor 4.6_•_CiteScore 7.5_ Submission deadline:**31 December 2026**",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.820Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-modern-approaches-to-mathematical-modeling",
@@ -5597,15 +4705,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Guest editors: Carla M.A Pinto, Julia Calatayud, Marc Jornet  •_Impact Factor 5.6_•_CiteScore 9.9_ Submission deadline:**31 December 2026**",
       "journal": "Chaos, Solitons & Fractals",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.819Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-neuroimaging-in-africa-progress-priorities",
@@ -5626,15 +4726,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Guest editors: Kirsty Donald, Derek Jones, Karen Chetcuti, Godwin Ogbole and Jo Wilmshurst  •_Impact Factor 4.5_•_CiteScore 10.8_ Submission deadline:**31 December 2026**",
       "journal": "NeuroImage",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.819Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-papers-in-memory-of-thomas-augustin-2026-1",
@@ -5655,15 +4747,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Guest editors: Christoph Jansen; Georg Schollmeyer; Julian Rodemann; Rudolf Seising.  •_Impact Factor 3.0_•_CiteScore 6.2_ Submission deadline:**31 December 2026**",
       "journal": "International Journal of Approximate Reasoning",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.819Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-15",
@@ -5680,14 +4764,12 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.sciencedirect.com/browse/calls-for-papers",
       "status": "ongoing",
       "stage": "CFP board",
-      "source": "Elsevier official seed",
+      "source": "Elsevier 官方来源入口",
       "type": "journal",
-      "description": "Elsevier 主要 CFP 总入口，适合作为 crawler 主入口。",
+      "description": "Elsevier 主要 CFP 总入口，适合作为 自动更新流程 主入口。",
       "journal": "Elsevier Journals",
       "publisher": "Elsevier",
-      "cfpType": "CFP board",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "unknown"
+      "cfpType": "CFP board"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-solar-chemistry-and-photocatalysis-energy-",
@@ -5708,15 +4790,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Guest editors: Ewa K. Kowalska; Wojciech Macyk; Francesco Parrino; Zhishun Wei; Zuzanna Bielan  •_Impact Factor 4.7_•_CiteScore 7.8_ Submission deadline:**31 December 2026**",
       "journal": "Journal of Photochemistry and Photobiology A: Chemistry",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.820Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-the-nexus-of-opportunities-non-co-greenhou",
@@ -5737,15 +4811,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": " Submission deadline:**31 December 2026**",
       "journal": "Environmental Nexus",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.819Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-recent-advances-on-shape-and-topology-opti",
@@ -5766,15 +4832,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Guest editors: Shengfeng Zhu, Jan Sokolowski, Wei Gong  •_Impact Factor 3.8_•_CiteScore 6.6_ Submission deadline:**01 January 2027**",
       "journal": "Communications in Nonlinear Science and Numerical Simulation",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.820Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-synthetic-cathinones-2027-01-01",
@@ -5795,15 +4853,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Guest editors: Foster Olive and Scott Rawls  •_Impact Factor 4.6_•_CiteScore 9.4_ Submission deadline:**01 January 2027**",
       "journal": "Neuropharmacology",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.819Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-urban-air-mobility-systems-shaping-future-",
@@ -5824,15 +4874,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Guest editors: Hongliang Ding, Hui-Jun Sun, Kun Wang, Shaopeng Zhong  •_Impact Factor 5.7_•_CiteScore 9.2_ Submission deadline:**01 January 2027**",
       "journal": "Travel Behaviour and Society",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.819Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-surface-driven-mechanisms-in-next-generati",
@@ -5853,15 +4895,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Guest editors: Dr. Sanu Mathew Simon, Dr. Nilanthy Balakrishnan, Dr. Irshad Kammakakam  •_Impact Factor 4.4_•_CiteScore 3.9_ Submission deadline:**02 January 2027**",
       "journal": "Results in Surfaces and Interfaces",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.820Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-challenging-assumptions-in-neuropsychology",
@@ -5882,15 +4916,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Guest editors: Elena Rusconi, Sergio Della Sala and Naama Friedmann  •_Impact Factor 3.3_•_CiteScore 6.1_ Submission deadline:**15 January 2027**",
       "journal": "Cortex",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.819Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-advancing-team-based-youth-sport-research-",
@@ -5911,15 +4937,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Guest editors: Dr. Sam Elliott, Dr. Chris S Whatman, Dr. Simon Walters, Dr. Deb Agnew  Submission deadline:**31 January 2027**",
       "journal": "Team Sports Studies",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.819Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-components-operationally-reversibility-and",
@@ -5940,15 +4958,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Guest editors: Claudio Antares Mezzina  •_Impact Factor 1.2_•_CiteScore 2.8_ Submission deadline:**31 January 2027**",
       "journal": "Journal of Logical and Algebraic Methods in Programming",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.818Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-defect-engineered-advanced-materials-for-s",
@@ -5969,15 +4979,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Guest editors: Sang-Il Choi, Suresh Sundaramurthy, Bhargavi Rani Anne  •_Impact Factor 3.3_•_CiteScore 5.4_ Submission deadline:**31 January 2027**",
       "journal": "Solid State Sciences",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.819Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-emerging-challenges-and-solutions-in-batte",
@@ -5998,15 +5000,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Guest editors: Jun Xu; Xiang Gao; Wenquan Lu  •_Impact Factor 7.9_•_CiteScore 14.9_ Submission deadline:**31 January 2027**",
       "journal": "Journal of Power Sources",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.820Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-intersection-of-nanomaterials-and-stretcha",
@@ -6027,15 +5021,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Guest editors: Yanchao Mao, Yanhao Yu  •_CiteScore 0.7_ Submission deadline:**31 January 2027**",
       "journal": "Nano Trends",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.819Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-selected-papers-from-second-ensbe-2026-adv",
@@ -6056,15 +5042,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Guest editors: Rafael Machado Dornellas; Rodrigo Alejandro Abarza Muñoz; João Victor Nicolini; Helen Ferraz; Felipe Silva Semaan  •_Impact Factor 4.1_•_CiteScore 8.1_ Submission deadline:**31 January 2027**",
       "journal": "Journal of Electroanalytical Chemistry",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.820Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-theoretical-foundations-of-interprofession",
@@ -6085,15 +5063,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Guest editors: Dr. Barret Michalec, Christine Arenson  •_CiteScore 2.2_ Submission deadline:**31 January 2027**",
       "journal": "Journal of Interprofessional Education & Practice",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.819Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-ai-driven-modelling-and-en-hancement-for-t",
@@ -6114,15 +5084,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Guest editors: Dr. Zhao Zhang, Dr. Xiangdong Xu, Dr. Jiangping Zhou, Dr. Albert Solé Ribalta  •_Impact Factor 7.7_•_CiteScore 14.2_ Submission deadline:**12 February 2027**",
       "journal": "Transportation Research Part D: Transport and Environment",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.819Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-coordination-chemistry-for-catalysis-a-spe",
@@ -6142,15 +5104,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "type": "journal",
       "description": "Guest editors: Paul Dyson, Robert Franke, Qiang Xu  •_Impact Factor 23.5_•_CiteScore 38.2_ Submission deadline:**28 February 2027**",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.818Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-keynote-papers-of-the-17th-international-c",
@@ -6171,15 +5125,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Guest editors: Kimberly Kurtis, Marta Palacios  •_Impact Factor 13.1_•_CiteScore 23.5_ Submission deadline:**28 February 2027**",
       "journal": "Cement and Concrete Research",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.819Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-optimization-control-theory-and-artificial",
@@ -6200,15 +5146,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Guest editors: Necati Ozdemir; Ender Ozcan; Anthony Siming Chen  •_Impact Factor 8.0_•_CiteScore 9.5_ Submission deadline:**01 March 2027**",
       "journal": "Engineering Applications of Artificial Intelligence",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.819Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-state-of-the-science-practice-and-emerging",
@@ -6229,15 +5167,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Guest editors: Dr. Nicholas A. Livingston and Dr. Kelly Harper  Submission deadline:**01 March 2027**",
       "journal": "Journal of Mood & Anxiety Disorders",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.819Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-sustainability-of-artificial-intelligence-",
@@ -6258,15 +5188,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Guest editors: Florence Doo & Michail Klontzas  Submission deadline:**10 March 2027**",
       "journal": "European Journal of Radiology Artificial Intelligence",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.818Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-quality-improvement-innovations-2027-03-30",
@@ -6287,15 +5209,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Guest editors: Dr. Ambereen Kurwa Mehta  •_Impact Factor 3.5_•_CiteScore 6.2_ Submission deadline:**30 March 2027**",
       "journal": "Journal of Pain and Symptom Management",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.819Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-curated-collection-on-methods-in-tourism-r",
@@ -6316,15 +5230,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Guest editors: Jorge E. Araña Padilla, Katarzyna Czernek-Marszałek  •_Impact Factor 7.8_•_CiteScore 16.2_ Submission deadline:**31 March 2027**",
       "journal": "Annals of Tourism Research",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.820Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-klebsiella-pneumoniae-antimicrobial-resist",
@@ -6345,15 +5251,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Guest editors: Xi Li & Ruichao Li  •_Impact Factor 4.6_•_CiteScore 5.8_ Submission deadline:**30 April 2027**",
       "journal": "International Journal of Antimicrobial Agents",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.819Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-special-issue-on-ai-disruption-in-global-c",
@@ -6374,15 +5272,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Guest editors: Sean Cao, Allen Huang, Katsuyuki Kubo, Yohei Yamamoto, Clara Zhou  •_Impact Factor 5.3_•_CiteScore 7.2_ Submission deadline:**30 April 2027**",
       "journal": "Pacific-Basin Finance Journal",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.819Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-single-atom-catalysts-2027-05-01",
@@ -6403,15 +5293,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Guest editors: Christian Papp, Gareth Steven Parkinson, Lars C. Grabow  •_Impact Factor 1.8_•_CiteScore 3.5_ Submission deadline:**01 May 2027**",
       "journal": "Surface Science",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.819Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-sudden-unexpected-death-in-epilepsy-mechan",
@@ -6432,15 +5314,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Guest editors: Carie R Boychuk, Ian Wenker  •_Impact Factor 5.1_•_CiteScore 10.9_ Submission deadline:**10 May 2027**",
       "journal": "Life Sciences",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.819Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-economic-and-management-challenges-in-urba",
@@ -6461,15 +5335,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Guest editors: Tao Feng, Bo Zou, Lingxiao Wu  Submission deadline:**13 May 2027**",
       "journal": "Transport Economics and Management",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.820Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-advances-and-future-directions-in-choice-m",
@@ -6490,15 +5356,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Guest editors: Erlend Dancke Sandorf, Klaus Glenk, Jürgen Meyerhoff  •_Impact Factor 2.4_•_CiteScore 5.6_ Submission deadline:**15 May 2027**",
       "journal": "Journal of Choice Modelling",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.819Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-hydrodynamic-cavitation-devices-modelling-",
@@ -6519,15 +5377,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Guest editors: Professor Vivek Ranade, Professor Giancarlo Cravotto, Professor Matevz Dular,  •_Impact Factor 9.7_•_CiteScore 17.7_ Submission deadline:**31 May 2027**",
       "journal": "Ultrasonics Sonochemistry",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.819Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-special-issue-on-innovative-research-and-e",
@@ -6548,15 +5398,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": " •_CiteScore 23.3_ Submission deadline:**31 May 2027**",
       "journal": "Engineered Regeneration",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.819Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-academic-engagement-promises-potential-and",
@@ -6577,15 +5419,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Guest editors: David B. Audretsch, Maksim Belitski, Antje Fiedler, Donald F. Kuratko, Albert N. Link, Donald S. Siegel  •_Impact Factor 8.0_•_CiteScore 15.0_ Submission deadline:**01 June 2027**",
       "journal": "Research Policy",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.819Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-advanced-diffusion-technologies-for-the-ge",
@@ -6606,15 +5440,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Guest editors: Ivan Enrique I. Campos-Silva  •_Impact Factor 6.1_•_CiteScore 10.2_ Submission deadline:**30 June 2027**",
       "journal": "Surface and Coatings Technology",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.818Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-open-science-in-orofacial-pain-research-20",
@@ -6635,15 +5461,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Guest editors: Dr. Noéli Boscato, Dr. Anelise Fernandes Montagner  Submission deadline:**01 July 2027**",
       "journal": "Clinical Dental Journal",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.819Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-planning-and-design-for-urban-underground-",
@@ -6664,15 +5482,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Guest editors: Jenny Jianqiang Cui, Liang Ma, Dong Lin, Yena Song, Zhipeng Zhou  •_Impact Factor 7.4_•_CiteScore 13.0_ Submission deadline:**31 August 2027**",
       "journal": "Tunnelling and Underground Space Technology",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.818Z"
-      }
+      "cfpType": "Special Issue"
     },
     {
       "id": "journal-ddl-sciencedirect-cfp-advances-in-in-situ-condition-preserved-co",
@@ -6693,15 +5503,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": " •_Impact Factor 6.1_•_CiteScore 9.4_ Submission deadline:**31 December 2027**",
       "journal": "Petroleum Science",
       "publisher": "Elsevier",
-      "cfpType": "Special Issue",
-      "sourcePriority": "official-central",
-      "deadlineTimezone": "source-local/unspecified",
-      "crawler": {
-        "sourceId": "sciencedirect-cfp",
-        "parser": "sciencedirect-cfp",
-        "parserConfidence": "source-specific",
-        "crawledAt": "2026-05-14T14:36:52.819Z"
-      }
+      "cfpType": "Special Issue"
     }
   ],
   "programming-ddl": [
@@ -6737,7 +5539,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.noi.cn",
       "status": "upcoming",
       "stage": "Registration",
-      "source": "Curated coverage seed",
+      "source": "人工整理的官方来源入口",
       "type": "contest",
       "description": "信息学竞赛训练营入口。"
     },
@@ -6755,7 +5557,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.kaggle.com/competitions",
       "status": "upcoming",
       "stage": "Submission",
-      "source": "Curated coverage seed",
+      "source": "人工整理的官方来源入口",
       "type": "contest",
       "description": "月度机器学习竞赛入口。"
     },
@@ -6773,7 +5575,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.hackerrank.com/domains/tutorials/10-days-of-javascript",
       "status": "upcoming",
       "stage": "Practice",
-      "source": "Curated coverage seed",
+      "source": "人工整理的官方来源入口",
       "type": "contest",
       "description": "面试编程训练专题入口。"
     },
@@ -6791,7 +5593,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://tianchi.aliyun.com/competition",
       "status": "upcoming",
       "stage": "Submission",
-      "source": "Curated coverage seed",
+      "source": "人工整理的官方来源入口",
       "type": "contest",
       "description": "国内算法竞赛入口。"
     },
@@ -6809,7 +5611,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.facebook.com/codingcompetitions/hacker-cup",
       "status": "upcoming",
       "stage": "Qualification",
-      "source": "Curated coverage seed",
+      "source": "人工整理的官方来源入口",
       "type": "contest",
       "description": "算法竞赛资格赛入口。"
     },
@@ -6827,7 +5629,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://icpc.global",
       "status": "upcoming",
       "stage": "Registration",
-      "source": "Official-style seed",
+      "source": "官方来源入口",
       "type": "contest",
       "description": "区域赛报名入口。"
     },
@@ -6845,7 +5647,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.cspro.org",
       "status": "upcoming",
       "stage": "Registration",
-      "source": "Curated coverage seed",
+      "source": "人工整理的官方来源入口",
       "type": "contest",
       "description": "软件能力认证/竞赛入口。"
     },
@@ -6863,7 +5665,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://dmoj.ca/contests",
       "status": "upcoming",
       "stage": "Contest",
-      "source": "Curated coverage seed",
+      "source": "人工整理的官方来源入口",
       "type": "contest",
       "description": "在线评测竞赛入口。"
     },
@@ -6881,7 +5683,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://icpc.global",
       "status": "upcoming",
       "stage": "Contest",
-      "source": "Curated coverage seed",
+      "source": "人工整理的官方来源入口",
       "type": "contest",
       "description": "世界总决赛赛程入口。"
     },
@@ -6917,7 +5719,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://codingcompetitions.withgoogle.com/hashcode/archive",
       "status": "upcoming",
       "stage": "Practice",
-      "source": "Curated coverage seed",
+      "source": "人工整理的官方来源入口",
       "type": "contest",
       "description": "优化类编程挑战归档入口。"
     },
@@ -6971,7 +5773,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://usaco.org",
       "status": "upcoming",
       "stage": "Contest",
-      "source": "Curated coverage seed",
+      "source": "人工整理的官方来源入口",
       "type": "contest",
       "description": "美国信息学竞赛入口。"
     },
@@ -6989,7 +5791,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.codechef.com/contests",
       "status": "ongoing",
       "stage": "Recurring",
-      "source": "Curated coverage seed",
+      "source": "人工整理的官方来源入口",
       "type": "contest",
       "description": "CodeChef 周赛入口。"
     },
@@ -7007,7 +5809,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://codingcompetitions.withgoogle.com/codejam/archive",
       "status": "ongoing",
       "stage": "Archive",
-      "source": "Curated coverage seed",
+      "source": "人工整理的官方来源入口",
       "type": "contest",
       "description": "经典题库入口，用于训练专题。"
     },
@@ -7043,7 +5845,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://projecteuler.net",
       "status": "ongoing",
       "stage": "Recurring",
-      "source": "Curated coverage seed",
+      "source": "人工整理的官方来源入口",
       "type": "contest",
       "description": "长期数学编程题入口。"
     },
@@ -7061,7 +5863,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.topcoder.com/challenges",
       "status": "ongoing",
       "stage": "Recurring",
-      "source": "Curated coverage seed",
+      "source": "人工整理的官方来源入口",
       "type": "contest",
       "description": "Topcoder 赛事入口。"
     }
@@ -8514,7 +7316,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://cocodataset.org",
       "status": "upcoming",
       "stage": "Submission",
-      "source": "Curated coverage seed",
+      "source": "人工整理的官方来源入口",
       "type": "challenge",
       "description": "图像描述挑战入口。"
     },
@@ -8532,7 +7334,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.kaggle.com/competitions",
       "status": "upcoming",
       "stage": "Leaderboard",
-      "source": "Curated coverage seed",
+      "source": "人工整理的官方来源入口",
       "type": "challenge",
       "description": "多模态推理榜单入口。"
     },
@@ -8550,7 +7352,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.kaggle.com/competitions",
       "status": "upcoming",
       "stage": "Submission",
-      "source": "Curated coverage seed",
+      "source": "人工整理的官方来源入口",
       "type": "challenge",
       "description": "视频描述挑战入口。"
     },
@@ -8604,7 +7406,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://github.com/vis-nlp/ChartQA",
       "status": "upcoming",
       "stage": "Submission",
-      "source": "Curated coverage seed",
+      "source": "人工整理的官方来源入口",
       "type": "challenge",
       "description": "图表问答评测入口。"
     },
@@ -8622,7 +7424,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.kaggle.com/competitions",
       "status": "upcoming",
       "stage": "Submission",
-      "source": "Curated coverage seed",
+      "source": "人工整理的官方来源入口",
       "type": "challenge",
       "description": "音视频多模态挑战入口。"
     },
@@ -8640,7 +7442,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://rrc.cvc.uab.es/?ch=17",
       "status": "upcoming",
       "stage": "Result upload",
-      "source": "Curated coverage seed",
+      "source": "人工整理的官方来源入口",
       "type": "challenge",
       "description": "文档问答评测入口。"
     },
@@ -8658,7 +7460,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://cvpr.thecvf.com",
       "status": "upcoming",
       "stage": "Workshop paper",
-      "source": "Curated coverage seed",
+      "source": "人工整理的官方来源入口",
       "type": "program",
       "description": "VLM workshop paper 入口。"
     },
@@ -8676,7 +7478,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://opencompass.org.cn/leaderboard-multimodal",
       "status": "upcoming",
       "stage": "Leaderboard",
-      "source": "Curated coverage seed",
+      "source": "人工整理的官方来源入口",
       "type": "challenge",
       "description": "多模态综合评测入口。"
     },
@@ -8694,7 +7496,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://openreview.net/",
       "status": "upcoming",
       "stage": "Report",
-      "source": "Curated coverage seed",
+      "source": "人工整理的官方来源入口",
       "type": "challenge",
       "description": "多模态安全评测入口。"
     },
@@ -8712,7 +7514,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://llava-vl.github.io",
       "status": "upcoming",
       "stage": "Evaluation",
-      "source": "Curated coverage seed",
+      "source": "人工整理的官方来源入口",
       "type": "challenge",
       "description": "VLM 对话能力评测入口。"
     },
@@ -8730,7 +7532,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.aclweb.org",
       "status": "upcoming",
       "stage": "Paper",
-      "source": "Curated coverage seed",
+      "source": "人工整理的官方来源入口",
       "type": "program",
       "description": "多模态 NLP workshop 入口。"
     },
@@ -8748,7 +7550,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.kaggle.com/competitions",
       "status": "upcoming",
       "stage": "Submission",
-      "source": "Curated coverage seed",
+      "source": "人工整理的官方来源入口",
       "type": "challenge",
       "description": "语音到图像生成评测入口。"
     },
@@ -8766,7 +7568,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://openreview.net/",
       "status": "upcoming",
       "stage": "Leaderboard",
-      "source": "Curated coverage seed",
+      "source": "人工整理的官方来源入口",
       "type": "challenge",
       "description": "视觉-语言-动作模型评测入口。"
     }
@@ -9014,7 +7816,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://defcon.org",
       "status": "upcoming",
-      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "DEF CON",
       "type": "contest"
@@ -9033,7 +7835,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://capturetheflag.withgoogle.com",
       "status": "upcoming",
-      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "Google CTF",
       "type": "contest"
@@ -9052,7 +7854,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://ctf.hackthebox.com",
       "status": "upcoming",
-      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "Hack The Box CTF",
       "type": "contest"
@@ -9071,7 +7873,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://www.seccon.jp",
       "status": "upcoming",
-      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "SECCON",
       "type": "contest"
@@ -9090,7 +7892,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://ctf.hitcon.org",
       "status": "upcoming",
-      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "HITCON CTF",
       "type": "contest"
@@ -9109,7 +7911,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://www.zerodayinitiative.com",
       "status": "upcoming",
-      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "Zero Day Initiative",
       "type": "contest"
@@ -9128,7 +7930,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://www.blackhat.com",
       "status": "upcoming",
-      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "Black Hat",
       "type": "contest"
@@ -9147,7 +7949,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://www.usenix.org/conferences",
       "status": "upcoming",
-      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "USENIX Conferences",
       "type": "contest"
@@ -9166,7 +7968,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://ctftime.org",
       "status": "upcoming",
-      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "ctftime.org",
       "type": "contest"
@@ -9185,7 +7987,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://hackerone.com/hacktivity",
       "status": "upcoming",
-      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "HackerOne Hacktivity",
       "type": "contest"
@@ -9204,7 +8006,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://rwc.iacr.org",
       "status": "upcoming",
-      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "Real World Crypto",
       "type": "contest"
@@ -9223,7 +8025,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://ctftime.org",
       "status": "upcoming",
-      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "ctftime.org",
       "type": "contest"
@@ -9242,7 +8044,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://ctftime.org",
       "status": "upcoming",
-      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "ctftime.org",
       "type": "contest"
@@ -9261,7 +8063,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://ctftime.org",
       "status": "upcoming",
-      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "ctftime.org",
       "type": "contest"
@@ -9280,7 +8082,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://ctftime.org",
       "status": "upcoming",
-      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "ctftime.org",
       "type": "contest"
@@ -9299,7 +8101,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://ctftime.org",
       "status": "upcoming",
-      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "ctftime.org",
       "type": "contest"
@@ -9479,7 +8281,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://summerofcode.withgoogle.com",
       "status": "upcoming",
-      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "Google Summer of Code",
       "type": "program"
@@ -9534,7 +8336,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://summerofcode.withgoogle.com",
       "status": "upcoming",
-      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "Google Summer of Code",
       "type": "program"
@@ -9553,7 +8355,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://summer-ospp.ac.cn",
       "status": "upcoming",
-      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "开源之夏",
       "type": "program"
@@ -9577,6 +8379,25 @@ export const ddlData: Record<string, DDLItem[]> = {
       "type": "program"
     },
     {
+      "id": "open-source-ddl-lfx-mentorship-spring-2026-08-24",
+      "title": "LFX Mentorship Spring",
+      "deadline": "2026-08-24T23:59:59",
+      "dateRange": "Aug 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "GSoC",
+        "OSPP",
+        "LFX"
+      ],
+      "url": "https://lfx.linuxfoundation.org/tools/mentorship/",
+      "status": "upcoming",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
+      "stage": "Source board",
+      "source": "LFX Mentorship",
+      "type": "program"
+    },
+    {
       "id": "gsoc-2026-august-17-24-18-00-utc-final-week-gsoc-contributors-submit-their-final-work-prod",
       "title": "Final week: GSoC contributors submit their final work product and their final mentor evaluation (standard coding period)",
       "deadline": "2026-08-24T18:00:00Z",
@@ -9592,25 +8413,6 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Parsed from the official GSoC 2026 timeline. Deadline event.",
       "stage": "Deadline",
       "source": "Google Summer of Code",
-      "type": "program"
-    },
-    {
-      "id": "open-source-ddl-lfx-mentorship-spring-2026-08-24",
-      "title": "LFX Mentorship Spring",
-      "deadline": "2026-08-24T23:59:59",
-      "dateRange": "Aug 2026",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "GSoC",
-        "OSPP",
-        "LFX"
-      ],
-      "url": "https://lfx.linuxfoundation.org/tools/mentorship/",
-      "status": "upcoming",
-      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
-      "stage": "Source board",
-      "source": "LFX Mentorship",
       "type": "program"
     },
     {
@@ -9645,7 +8447,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://www.outreachy.org",
       "status": "upcoming",
-      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "Outreachy",
       "type": "program"
@@ -9664,7 +8466,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://summerofcode.withgoogle.com",
       "status": "upcoming",
-      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "summerofcode.withgoogle.com",
       "type": "program"
@@ -9683,7 +8485,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://numfocus.org/programs/small-development-grants",
       "status": "upcoming",
-      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "NumFOCUS Grants",
       "type": "program"
@@ -9738,7 +8540,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://summerofcode.withgoogle.com",
       "status": "upcoming",
-      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "summerofcode.withgoogle.com",
       "type": "program"
@@ -9775,7 +8577,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://summerofcode.withgoogle.com",
       "status": "upcoming",
-      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "summerofcode.withgoogle.com",
       "type": "program"
@@ -9794,7 +8596,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://github.com/cncf/mentoring",
       "status": "upcoming",
-      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "CNCF Mentoring",
       "type": "program"
@@ -9813,7 +8615,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://communityovercode.org",
       "status": "upcoming",
-      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "Apache Community Over Code",
       "type": "program"
@@ -9832,7 +8634,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://us.pycon.org",
       "status": "upcoming",
-      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "PyCon US",
       "type": "program"
@@ -9851,7 +8653,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://summerofcode.withgoogle.com",
       "status": "upcoming",
-      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "summerofcode.withgoogle.com",
       "type": "program"
@@ -9870,7 +8672,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://summerofcode.withgoogle.com",
       "status": "upcoming",
-      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "summerofcode.withgoogle.com",
       "type": "program"
@@ -9889,7 +8691,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://openssf.org",
       "status": "upcoming",
-      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "OpenSSF",
       "type": "program"
@@ -9908,7 +8710,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://summit.fossasia.org",
       "status": "upcoming",
-      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "FOSSASIA Summit",
       "type": "program"
@@ -10425,7 +9227,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://yz.chsi.com.cn",
       "status": "upcoming",
-      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "yz.chsi.com.cn",
       "type": "program"
@@ -10444,7 +9246,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://yz.chsi.com.cn",
       "status": "upcoming",
-      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "yz.chsi.com.cn",
       "type": "program"
@@ -10463,7 +9265,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://cet.neea.edu.cn",
       "status": "upcoming",
-      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "cet.neea.edu.cn",
       "type": "program"
@@ -10482,7 +9284,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://ielts.neea.cn",
       "status": "upcoming",
-      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "ielts.neea.cn",
       "type": "program"
@@ -10501,7 +9303,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://toefl.neea.cn",
       "status": "upcoming",
-      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "toefl.neea.cn",
       "type": "program"
@@ -10520,7 +9322,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://www.ets.org/gre.html",
       "status": "upcoming",
-      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "ETS GRE",
       "type": "program"
@@ -10539,7 +9341,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://www.mba.com/exams/gmat-exam",
       "status": "upcoming",
-      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "GMAC GMAT",
       "type": "program"
@@ -10558,7 +9360,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://bm.scs.gov.cn",
       "status": "upcoming",
-      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "中国政府网",
       "type": "program"
@@ -10577,7 +9379,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://ntce.neea.edu.cn",
       "status": "upcoming",
-      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "ntce.neea.edu.cn",
       "type": "program"
@@ -10596,7 +9398,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://ncre.neea.edu.cn",
       "status": "upcoming",
-      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "ncre.neea.edu.cn",
       "type": "program"
@@ -10615,7 +9417,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://www.ruankao.org.cn",
       "status": "upcoming",
-      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "ruankao.org.cn",
       "type": "program"
@@ -10634,7 +9436,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://cpaexam.cicpa.org.cn",
       "status": "upcoming",
-      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "cpaexam.cicpa.org.cn",
       "type": "program"
@@ -10653,7 +9455,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://www.moj.gov.cn",
       "status": "upcoming",
-      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "中国政府网",
       "type": "program"
@@ -10672,7 +9474,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://aws.amazon.com/certification/",
       "status": "upcoming",
-      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "AWS Certification",
       "type": "program"
@@ -10691,7 +9493,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://www.pmi.org/certifications/project-management-pmp",
       "status": "upcoming",
-      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "PMI PMP Certification",
       "type": "program"
@@ -10710,7 +9512,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://www.cfainstitute.org",
       "status": "upcoming",
-      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "CFA Institute",
       "type": "program"
@@ -10860,7 +9662,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://globalgamejam.org",
       "status": "upcoming",
-      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "Global Game Jam",
       "type": "contest"
@@ -10897,7 +9699,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://ldjam.com",
       "status": "upcoming",
-      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "Ludum Dare",
       "type": "contest"
@@ -10916,7 +9718,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://itch.io/jams",
       "status": "upcoming",
-      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "itch.io Jams",
       "type": "contest"
@@ -10935,7 +9737,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://itch.io/jams",
       "status": "upcoming",
-      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "itch.io Jams",
       "type": "contest"
@@ -10972,7 +9774,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://igf.com",
       "status": "upcoming",
-      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "Independent Games Festival",
       "type": "contest"
@@ -11009,7 +9811,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://itch.io/jams",
       "status": "upcoming",
-      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "itch.io",
       "type": "contest"
@@ -11028,7 +9830,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://www.unrealengine.com",
       "status": "upcoming",
-      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "Unreal Engine",
       "type": "contest"
@@ -11047,7 +9849,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://unity.com",
       "status": "upcoming",
-      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "Unity",
       "type": "contest"
@@ -11066,7 +9868,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://itch.io/jams",
       "status": "upcoming",
-      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "itch.io Jams",
       "type": "contest"
@@ -11085,7 +9887,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://itch.io/jam/game-off",
       "status": "upcoming",
-      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "GitHub Game Off",
       "type": "contest"
@@ -11104,7 +9906,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://amaze-berlin.de",
       "status": "upcoming",
-      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "A MAZE.",
       "type": "contest"
@@ -11123,7 +9925,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://www.indiecade.com",
       "status": "upcoming",
-      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "IndieCade",
       "type": "contest"
@@ -11142,7 +9944,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://www.gamesforchange.org",
       "status": "upcoming",
-      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "Games for Change",
       "type": "contest"
@@ -11161,7 +9963,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://itch.io/jams",
       "status": "upcoming",
-      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "itch.io",
       "type": "contest"
@@ -11180,7 +9982,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://itch.io/jams",
       "status": "upcoming",
-      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "itch.io",
       "type": "contest"
@@ -11199,7 +10001,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://itch.io/jams",
       "status": "upcoming",
-      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。",
+      "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "itch.io",
       "type": "contest"
@@ -11438,7 +10240,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://esportsworldcup.com/en/news/ewc26-confirms-the-return-of-20-games",
       "status": "upcoming",
-      "description": "EWC 官方 2026 回归项目清单包含 Honor of Kings；精确赛程发布后由 crawler 拆分。",
+      "description": "EWC 官方 2026 回归项目清单包含 Honor of Kings；精确赛程发布后由 自动更新流程 拆分。",
       "stage": "Title window",
       "source": "Esports World Cup",
       "type": "contest",
@@ -11460,7 +10262,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://esportsworldcup.com/en/news/ewc26-confirms-the-return-of-20-games",
       "status": "upcoming",
-      "description": "EWC 官方 2026 回归项目清单包含 League of Legends；精确赛程发布后由 crawler 拆分。",
+      "description": "EWC 官方 2026 回归项目清单包含 League of Legends；精确赛程发布后由 自动更新流程 拆分。",
       "stage": "Title window",
       "source": "Esports World Cup",
       "type": "contest",
@@ -11682,7 +10484,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://bwfbadminton.com/calendar/",
       "status": "upcoming",
-      "description": "BWF World Tour 新加坡公开赛节点，后续 crawler 可补签表和赛程详情。",
+      "description": "BWF World Tour 新加坡公开赛节点，后续自动更新流程可补签表和赛程详情。",
       "stage": "Event start",
       "source": "BWF Tournament Calendar",
       "type": "contest",
@@ -11880,7 +10682,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://worldtabletennis.com/eventslist",
       "status": "upcoming",
-      "description": "WTT 职业赛历节点，后续 crawler 会继续补齐官方详情页与报名信息。",
+      "description": "WTT 职业赛历节点，后续 自动更新流程 会继续补齐官方详情页与报名信息。",
       "stage": "Event start",
       "source": "WTT Events",
       "type": "contest",
@@ -12012,7 +10814,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://www.fiba.basketball/en/events",
       "status": "upcoming",
-      "description": "FIBA 官方 event calendar 中的 U17 女篮世界杯节点，后续 crawler 可接入赛事详情页。",
+      "description": "FIBA 官方 event calendar 中的 U17 女篮世界杯节点，后续自动更新流程可接入赛事详情页。",
       "stage": "Event start",
       "source": "FIBA Event Calendar",
       "type": "contest",
@@ -12167,7 +10969,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "url": "https://sydneymarathon.com/",
       "status": "upcoming",
-      "description": "世界马拉松大满贯赛事节点，按比赛日倒计时，报名节点可在后续 crawler 中拆分。",
+      "description": "世界马拉松大满贯赛事节点，按比赛日倒计时，报名节点可在后续 自动更新流程 中拆分。",
       "stage": "Race day",
       "source": "Sydney Marathon",
       "type": "contest",
@@ -13362,1605 +12164,1602 @@ export const ddlData: Record<string, DDLItem[]> = {
     }
   ],
   "ielts-toefl-ddl": [
-      {
-          "id": "ielts-toefl-ddl-ielts-neea-registration-portal-2026",
-          "title": "雅思考试中国大陆报名入口",
-          "deadline": "2026-12-31T23:59:59+08:00",
-          "dateRange": "按官方考位与报名系统显示为准",
-          "location": "中国大陆",
-          "isOnline": true,
-          "tags": [
-              "IELTS",
-              "雅思",
-              "报名"
-          ],
-          "url": "https://ielts.neea.cn/",
-          "status": "upcoming",
-          "description": "教育部教育考试院雅思考试报名入口。具体考试日期、报名截止日和考位以登录后的官方系统为准。",
-          "stage": "Source board",
-          "source": "雅思考试报名网站",
-          "sourceUrl": "https://ielts.neea.cn/",
-          "canonicalUrl": "https://ielts.neea.cn/#registration",
-          "type": "program",
-          "subtopic": "ielts",
-          "subtopicName": "雅思",
-          "isDatePlaceholder": true
-      },
-      {
-          "id": "ielts-toefl-ddl-ielts-neea-2026-announcement",
-          "title": "2026 年 IELTS 报名与收费安排",
-          "deadline": "2026-12-31T23:59:59+08:00",
-          "dateRange": "2026 年全年安排入口",
-          "location": "中国大陆",
-          "isOnline": true,
-          "tags": [
-              "IELTS",
-              "雅思",
-              "NEEA"
-          ],
-          "url": "https://news.neea.edu.cn/IELTS/zh_CN/4411D51FC3C4BAEFE0630746C80A3901.html",
-          "status": "upcoming",
-          "description": "教育部教育考试院发布的 2026 年雅思考试报名、收费标准调整与考期安排页面。",
-          "stage": "Official notice",
-          "source": "教育部教育考试院 IELTS 2026 安排",
-          "sourceUrl": "https://news.neea.edu.cn/IELTS/zh_CN/4411D51FC3C4BAEFE0630746C80A3901.html",
-          "canonicalUrl": "https://news.neea.edu.cn/IELTS/zh_CN/4411D51FC3C4BAEFE0630746C80A3901.html",
-          "type": "program",
-          "subtopic": "ielts",
-          "subtopicName": "雅思",
-          "isDatePlaceholder": true
-      },
-      {
-          "id": "ielts-toefl-ddl-ielts-2026-q2-schedule",
-          "title": "雅思 2026 年 4-6 月考期查询",
-          "deadline": "2026-06-30T23:59:59+08:00",
-          "dateRange": "2026 年 4-6 月考期",
-          "location": "中国大陆",
-          "isOnline": true,
-          "tags": [
-              "IELTS",
-              "雅思",
-              "考期"
-          ],
-          "url": "https://www.chinaielts.org/press-office/IELTS-Chinese-Mainland-Exam-Registration-2026-4-6",
-          "status": "upcoming",
-          "description": "雅思中文官方网站发布的 2026 年 4-6 月中国大陆考期入口；具体报名截止日以官方表格和报名系统为准。",
-          "stage": "Schedule window",
-          "source": "雅思中文官方网站 2026 年 4-6 月考期",
-          "sourceUrl": "https://www.chinaielts.org/press-office/IELTS-Chinese-Mainland-Exam-Registration-2026-4-6",
-          "canonicalUrl": "https://www.chinaielts.org/press-office/IELTS-Chinese-Mainland-Exam-Registration-2026-4-6",
-          "type": "program",
-          "subtopic": "ielts",
-          "subtopicName": "雅思",
-          "isDatePlaceholder": true
-      },
-      {
-          "id": "ielts-toefl-ddl-toefl-neea-registration-portal-2026",
-          "title": "TOEFL iBT 中国大陆报名入口",
-          "deadline": "2026-12-31T23:59:59+08:00",
-          "dateRange": "按官方考位与报名系统显示为准",
-          "location": "中国大陆",
-          "isOnline": true,
-          "tags": [
-              "TOEFL",
-              "托福",
-              "报名"
-          ],
-          "url": "https://toefl.neea.cn/",
-          "status": "upcoming",
-          "description": "教育部教育考试院 TOEFL iBT 中国大陆报名入口。具体考期、考点与报名截止日以官方系统为准。",
-          "stage": "Source board",
-          "source": "TOEFL iBT 中国大陆报名网站",
-          "sourceUrl": "https://toefl.neea.cn/",
-          "canonicalUrl": "https://toefl.neea.cn/#registration",
-          "type": "program",
-          "subtopic": "toefl",
-          "subtopicName": "托福",
-          "isDatePlaceholder": true
-      },
-      {
-          "id": "ielts-toefl-ddl-ets-toefl-mainland-china",
-          "title": "ETS TOEFL 中国大陆考试选项说明",
-          "deadline": "2026-12-31T23:59:59+08:00",
-          "dateRange": "按 ETS 与 NEEA 官方说明为准",
-          "location": "中国大陆",
-          "isOnline": true,
-          "tags": [
-              "TOEFL",
-              "ETS",
-              "China"
-          ],
-          "url": "https://www.ets.org/toefl/test-takers/ibt/about/testing-options.html",
-          "status": "upcoming",
-          "description": "ETS 官方 TOEFL iBT 考试选项页面，用于核对中国大陆相关报名和考试方式说明。",
-          "stage": "Official guide",
-          "source": "ETS TOEFL Testing Options Mainland China",
-          "sourceUrl": "https://www.ets.org/toefl/test-takers/ibt/about/testing-options.html",
-          "canonicalUrl": "https://www.ets.org/toefl/test-takers/ibt/about/testing-options.html#mainland-china",
-          "type": "program",
-          "subtopic": "toefl",
-          "subtopicName": "托福",
-          "isDatePlaceholder": true
-      },
-      {
-          "id": "ielts-toefl-ddl-ets-toefl-ibt-registration",
-          "title": "TOEFL iBT 全球报名与考位查询",
-          "deadline": "2026-12-31T23:59:59+08:00",
-          "dateRange": "按 ETS 官方报名系统为准",
-          "location": "Global",
-          "isOnline": true,
-          "tags": [
-              "TOEFL",
-              "ETS",
-              "test dates"
-          ],
-          "url": "https://www.ets.org/toefl/test-takers/ibt/register.html",
-          "status": "upcoming",
-          "description": "ETS 官方 TOEFL iBT 报名和考试日期查询入口；中国大陆报名仍应以 NEEA 官方入口为准。",
-          "stage": "Source board",
-          "source": "ETS TOEFL iBT Registration",
-          "sourceUrl": "https://www.ets.org/toefl/test-takers/ibt/register.html",
-          "canonicalUrl": "https://www.ets.org/toefl/test-takers/ibt/register.html",
-          "type": "program",
-          "subtopic": "toefl",
-          "subtopicName": "托福",
-          "isDatePlaceholder": true
-      }
+    {
+      "id": "ielts-toefl-ddl-ielts-neea-registration-portal-2026",
+      "title": "雅思考试中国大陆报名入口",
+      "deadline": "2026-12-31T23:59:59+08:00",
+      "dateRange": "按官方考位与报名系统显示为准",
+      "location": "中国大陆",
+      "isOnline": true,
+      "tags": [
+        "IELTS",
+        "雅思",
+        "报名"
+      ],
+      "url": "https://ielts.neea.cn/",
+      "status": "upcoming",
+      "description": "教育部教育考试院雅思考试报名入口。具体考试日期、报名截止日和考位以登录后的官方系统为准。",
+      "stage": "Source board",
+      "source": "雅思考试报名网站",
+      "sourceUrl": "https://ielts.neea.cn/",
+      "canonicalUrl": "https://ielts.neea.cn/#registration",
+      "type": "program",
+      "subtopic": "ielts",
+      "subtopicName": "雅思",
+      "isDatePlaceholder": true
+    },
+    {
+      "id": "ielts-toefl-ddl-ielts-neea-2026-announcement",
+      "title": "2026 年 IELTS 报名与收费安排",
+      "deadline": "2026-12-31T23:59:59+08:00",
+      "dateRange": "2026 年全年安排入口",
+      "location": "中国大陆",
+      "isOnline": true,
+      "tags": [
+        "IELTS",
+        "雅思",
+        "NEEA"
+      ],
+      "url": "https://news.neea.edu.cn/IELTS/zh_CN/4411D51FC3C4BAEFE0630746C80A3901.html",
+      "status": "upcoming",
+      "description": "教育部教育考试院发布的 2026 年雅思考试报名、收费标准调整与考期安排页面。",
+      "stage": "Official notice",
+      "source": "教育部教育考试院 IELTS 2026 安排",
+      "sourceUrl": "https://news.neea.edu.cn/IELTS/zh_CN/4411D51FC3C4BAEFE0630746C80A3901.html",
+      "canonicalUrl": "https://news.neea.edu.cn/IELTS/zh_CN/4411D51FC3C4BAEFE0630746C80A3901.html",
+      "type": "program",
+      "subtopic": "ielts",
+      "subtopicName": "雅思",
+      "isDatePlaceholder": true
+    },
+    {
+      "id": "ielts-toefl-ddl-ielts-2026-q2-schedule",
+      "title": "雅思 2026 年 4-6 月考期查询",
+      "deadline": "2026-06-30T23:59:59+08:00",
+      "dateRange": "2026 年 4-6 月考期",
+      "location": "中国大陆",
+      "isOnline": true,
+      "tags": [
+        "IELTS",
+        "雅思",
+        "考期"
+      ],
+      "url": "https://www.chinaielts.org/press-office/IELTS-Chinese-Mainland-Exam-Registration-2026-4-6",
+      "status": "upcoming",
+      "description": "雅思中文官方网站发布的 2026 年 4-6 月中国大陆考期入口；具体报名截止日以官方表格和报名系统为准。",
+      "stage": "Schedule window",
+      "source": "雅思中文官方网站 2026 年 4-6 月考期",
+      "sourceUrl": "https://www.chinaielts.org/press-office/IELTS-Chinese-Mainland-Exam-Registration-2026-4-6",
+      "canonicalUrl": "https://www.chinaielts.org/press-office/IELTS-Chinese-Mainland-Exam-Registration-2026-4-6",
+      "type": "program",
+      "subtopic": "ielts",
+      "subtopicName": "雅思",
+      "isDatePlaceholder": true
+    },
+    {
+      "id": "ielts-toefl-ddl-toefl-neea-registration-portal-2026",
+      "title": "TOEFL iBT 中国大陆报名入口",
+      "deadline": "2026-12-31T23:59:59+08:00",
+      "dateRange": "按官方考位与报名系统显示为准",
+      "location": "中国大陆",
+      "isOnline": true,
+      "tags": [
+        "TOEFL",
+        "托福",
+        "报名"
+      ],
+      "url": "https://toefl.neea.cn/",
+      "status": "upcoming",
+      "description": "教育部教育考试院 TOEFL iBT 中国大陆报名入口。具体考期、考点与报名截止日以官方系统为准。",
+      "stage": "Source board",
+      "source": "TOEFL iBT 中国大陆报名网站",
+      "sourceUrl": "https://toefl.neea.cn/",
+      "canonicalUrl": "https://toefl.neea.cn/#registration",
+      "type": "program",
+      "subtopic": "toefl",
+      "subtopicName": "托福",
+      "isDatePlaceholder": true
+    },
+    {
+      "id": "ielts-toefl-ddl-ets-toefl-mainland-china",
+      "title": "ETS TOEFL 中国大陆考试选项说明",
+      "deadline": "2026-12-31T23:59:59+08:00",
+      "dateRange": "按 ETS 与 NEEA 官方说明为准",
+      "location": "中国大陆",
+      "isOnline": true,
+      "tags": [
+        "TOEFL",
+        "ETS",
+        "China"
+      ],
+      "url": "https://www.ets.org/toefl/test-takers/ibt/about/testing-options.html",
+      "status": "upcoming",
+      "description": "ETS 官方 TOEFL iBT 考试选项页面，用于核对中国大陆相关报名和考试方式说明。",
+      "stage": "Official guide",
+      "source": "ETS TOEFL Testing Options Mainland China",
+      "sourceUrl": "https://www.ets.org/toefl/test-takers/ibt/about/testing-options.html",
+      "canonicalUrl": "https://www.ets.org/toefl/test-takers/ibt/about/testing-options.html#mainland-china",
+      "type": "program",
+      "subtopic": "toefl",
+      "subtopicName": "托福",
+      "isDatePlaceholder": true
+    },
+    {
+      "id": "ielts-toefl-ddl-ets-toefl-ibt-registration",
+      "title": "TOEFL iBT 全球报名与考位查询",
+      "deadline": "2026-12-31T23:59:59+08:00",
+      "dateRange": "按 ETS 官方报名系统为准",
+      "location": "Global",
+      "isOnline": true,
+      "tags": [
+        "TOEFL",
+        "ETS",
+        "test dates"
+      ],
+      "url": "https://www.ets.org/toefl/test-takers/ibt/register.html",
+      "status": "upcoming",
+      "description": "ETS 官方 TOEFL iBT 报名和考试日期查询入口；中国大陆报名仍应以 NEEA 官方入口为准。",
+      "stage": "Source board",
+      "source": "ETS TOEFL iBT Registration",
+      "sourceUrl": "https://www.ets.org/toefl/test-takers/ibt/register.html",
+      "canonicalUrl": "https://www.ets.org/toefl/test-takers/ibt/register.html",
+      "type": "program",
+      "subtopic": "toefl",
+      "subtopicName": "托福",
+      "isDatePlaceholder": true
+    }
   ],
   "concert-ddl": [
-      {
-          "id": "concert-ddl-metallica-athens-2026-05-09",
-          "topicId": "concert-ddl",
-          "title": "Metallica M72 Athens 2026",
-          "deadline": "2026-05-09T23:59:59+03:00",
-          "dateRange": "May 9, 2026",
-          "location": "Athens, Greece",
-          "isOnline": false,
-          "tags": [
-              "Metallica",
-              "M72",
-              "stadium"
-          ],
-          "url": "https://www.metallica.com/news/2025-05-22-m72-returns-to-europe-in-2026.html",
-          "status": "upcoming",
-          "description": "Metallica 官方 M72 2026 欧洲巡演公告中的 Athens 场次，按演出日期倒计时。",
-          "stage": "Concert date",
-          "source": "Metallica official news",
-          "sourceUrl": "https://www.metallica.com/news/2025-05-22-m72-returns-to-europe-in-2026.html",
-          "canonicalUrl": "https://www.metallica.com/news/2025-05-22-m72-returns-to-europe-in-2026.html#athens-2026-05-09",
-          "type": "concert",
-          "subtopic": "rock-metal",
-          "subtopicName": "摇滚/金属",
-          "sourceLabel": "官方巡演公告"
-      },
-      {
-          "id": "concert-ddl-metallica-dublin-2026-06-19",
-          "topicId": "concert-ddl",
-          "title": "Metallica M72 Dublin 2026",
-          "deadline": "2026-06-19T23:59:59+01:00",
-          "dateRange": "June 19 & 21, 2026",
-          "location": "Dublin, Ireland",
-          "isOnline": false,
-          "tags": [
-              "Metallica",
-              "M72",
-              "No Repeat Weekend"
-          ],
-          "url": "https://www.metallica.com/news/2025-05-22-m72-returns-to-europe-in-2026.html",
-          "status": "upcoming",
-          "description": "Metallica 官方公告列出的 Dublin Aviva Stadium No Repeat Weekend 节点，按首场演出日期倒计时。",
-          "stage": "Concert date",
-          "source": "Metallica official news",
-          "sourceUrl": "https://www.metallica.com/news/2025-05-22-m72-returns-to-europe-in-2026.html",
-          "canonicalUrl": "https://www.metallica.com/news/2025-05-22-m72-returns-to-europe-in-2026.html#dublin-2026-06-19",
-          "type": "concert",
-          "subtopic": "rock-metal",
-          "subtopicName": "摇滚/金属",
-          "sourceLabel": "官方巡演公告"
-      },
-      {
-          "id": "concert-ddl-metallica-london-2026-07-03",
-          "topicId": "concert-ddl",
-          "title": "Metallica M72 London 2026",
-          "deadline": "2026-07-03T23:59:59+01:00",
-          "dateRange": "July 3 & 5, 2026",
-          "location": "London, England",
-          "isOnline": false,
-          "tags": [
-              "Metallica",
-              "M72",
-              "London Stadium"
-          ],
-          "url": "https://www.metallica.com/news/2025-05-22-m72-returns-to-europe-in-2026.html",
-          "status": "upcoming",
-          "description": "Metallica 官方公告列出的 London Stadium No Repeat Weekend 节点，按首场演出日期倒计时。",
-          "stage": "Concert date",
-          "source": "Metallica official news",
-          "sourceUrl": "https://www.metallica.com/news/2025-05-22-m72-returns-to-europe-in-2026.html",
-          "canonicalUrl": "https://www.metallica.com/news/2025-05-22-m72-returns-to-europe-in-2026.html#london-2026-07-03",
-          "type": "concert",
-          "subtopic": "rock-metal",
-          "subtopicName": "摇滚/金属",
-          "sourceLabel": "官方巡演公告"
-      },
-      {
-          "id": "concert-ddl-ariana-grande-chicago-2026-08-03",
-          "topicId": "concert-ddl",
-          "title": "Ariana Grande The Eternal Sunshine Tour Chicago",
-          "deadline": "2026-08-03T20:00:00-05:00",
-          "dateRange": "August 3, 5 & 6, 2026",
-          "location": "Chicago, USA",
-          "isOnline": false,
-          "tags": [
-              "Ariana Grande",
-              "pop",
-              "United Center"
-          ],
-          "url": "https://www.unitedcenter.com/events/2026/08/03/ariana-grande-the-eternal-sunshine-tour/",
-          "status": "upcoming",
-          "description": "United Center 官方活动页确认 Ariana Grande 2026 年 8 月 3、5、6 日芝加哥场次，按首场开演时间倒计时。",
-          "stage": "Concert date",
-          "source": "United Center official event",
-          "sourceUrl": "https://www.unitedcenter.com/events/2026/08/03/ariana-grande-the-eternal-sunshine-tour/",
-          "canonicalUrl": "https://www.unitedcenter.com/events/2026/08/03/ariana-grande-the-eternal-sunshine-tour/#august-3",
-          "type": "concert",
-          "subtopic": "pop",
-          "subtopicName": "流行音乐",
-          "sourceLabel": "官方场馆页"
-      },
-      {
-          "id": "concert-ddl-wynonna-nashville-2026-06-06",
-          "topicId": "concert-ddl",
-          "title": "Wynonna Nashville 2026",
-          "deadline": "2026-06-06T23:59:59-05:00",
-          "dateRange": "June 6, 2026",
-          "location": "Nashville, USA",
-          "isOnline": false,
-          "tags": [
-              "Wynonna",
-              "country",
-              "The Bluebird Cafe"
-          ],
-          "url": "https://www.wynonna.com/",
-          "status": "upcoming",
-          "description": "Wynonna 官方巡演列表中的 Nashville / The Bluebird Cafe 场次，按演出日倒计时。",
-          "stage": "Concert date",
-          "source": "Wynonna official tour",
-          "sourceUrl": "https://www.wynonna.com/",
-          "canonicalUrl": "https://www.wynonna.com/#tour-nashville-2026-06-06",
-          "type": "concert",
-          "subtopic": "country",
-          "subtopicName": "乡村音乐",
-          "sourceLabel": "官方巡演页"
-      },
-      {
-          "id": "concert-ddl-wynonna-red-butte-2026-07-30",
-          "topicId": "concert-ddl",
-          "title": "Wynonna Red Butte Garden 2026",
-          "deadline": "2026-07-30T23:59:59-06:00",
-          "dateRange": "July 30, 2026",
-          "location": "Salt Lake City, USA",
-          "isOnline": false,
-          "tags": [
-              "Wynonna",
-              "country",
-              "Red Butte Garden"
-          ],
-          "url": "https://www.wynonna.com/",
-          "status": "upcoming",
-          "description": "Wynonna 官方巡演列表中的 Red Butte Garden Outdoor Concert Series 节点。",
-          "stage": "Concert date",
-          "source": "Wynonna official tour",
-          "sourceUrl": "https://www.wynonna.com/",
-          "canonicalUrl": "https://www.wynonna.com/#tour-red-butte-2026-07-30",
-          "type": "concert",
-          "subtopic": "country",
-          "subtopicName": "乡村音乐",
-          "sourceLabel": "官方巡演页"
-      },
-      {
-          "id": "concert-ddl-roger-daltrey-mesa-2026-08-23",
-          "topicId": "concert-ddl",
-          "title": "Roger Daltrey Mesa 2026",
-          "deadline": "2026-08-23T23:59:59-07:00",
-          "dateRange": "August 23, 2026",
-          "location": "Mesa, USA",
-          "isOnline": false,
-          "tags": [
-              "Roger Daltrey",
-              "The Who",
-              "classic rock"
-          ],
-          "url": "https://www.thewho.com/tour/",
-          "status": "upcoming",
-          "description": "The Who 官方 tour 页面列出的 Roger Daltrey Mesa Arts Center 场次，按演出日倒计时。",
-          "stage": "Concert date",
-          "source": "The Who official tour",
-          "sourceUrl": "https://www.thewho.com/tour/",
-          "canonicalUrl": "https://www.thewho.com/tour/#roger-daltrey-mesa-2026-08-23",
-          "type": "concert",
-          "subtopic": "classic-rock",
-          "subtopicName": "经典摇滚",
-          "sourceLabel": "官方巡演页"
-      },
-      {
-          "id": "concert-ddl-roger-daltrey-reno-2026-09-05",
-          "topicId": "concert-ddl",
-          "title": "Roger Daltrey Reno 2026",
-          "deadline": "2026-09-05T23:59:59-07:00",
-          "dateRange": "September 5, 2026",
-          "location": "Reno, USA",
-          "isOnline": false,
-          "tags": [
-              "Roger Daltrey",
-              "The Who",
-              "classic rock"
-          ],
-          "url": "https://www.thewho.com/tour/",
-          "status": "upcoming",
-          "description": "The Who 官方 tour 页面列出的 Roger Daltrey Reno / Grand Theatre 场次。",
-          "stage": "Concert date",
-          "source": "The Who official tour",
-          "sourceUrl": "https://www.thewho.com/tour/",
-          "canonicalUrl": "https://www.thewho.com/tour/#roger-daltrey-reno-2026-09-05",
-          "type": "concert",
-          "subtopic": "classic-rock",
-          "subtopicName": "经典摇滚",
-          "sourceLabel": "官方巡演页"
-      }
+    {
+      "id": "concert-ddl-metallica-athens-2026-05-09",
+      "topicId": "concert-ddl",
+      "title": "Metallica M72 Athens 2026",
+      "deadline": "2026-05-09T23:59:59+03:00",
+      "dateRange": "May 9, 2026",
+      "location": "Athens, Greece",
+      "isOnline": false,
+      "tags": [
+        "Metallica",
+        "M72",
+        "stadium"
+      ],
+      "url": "https://www.metallica.com/news/2025-05-22-m72-returns-to-europe-in-2026.html",
+      "status": "upcoming",
+      "description": "Metallica 官方 M72 2026 欧洲巡演公告中的 Athens 场次，按演出日期倒计时。",
+      "stage": "Concert date",
+      "source": "Metallica official news",
+      "sourceUrl": "https://www.metallica.com/news/2025-05-22-m72-returns-to-europe-in-2026.html",
+      "canonicalUrl": "https://www.metallica.com/news/2025-05-22-m72-returns-to-europe-in-2026.html#athens-2026-05-09",
+      "type": "concert",
+      "subtopic": "rock-metal",
+      "subtopicName": "摇滚/金属",
+      "sourceLabel": "官方巡演公告"
+    },
+    {
+      "id": "concert-ddl-metallica-dublin-2026-06-19",
+      "topicId": "concert-ddl",
+      "title": "Metallica M72 Dublin 2026",
+      "deadline": "2026-06-19T23:59:59+01:00",
+      "dateRange": "June 19 & 21, 2026",
+      "location": "Dublin, Ireland",
+      "isOnline": false,
+      "tags": [
+        "Metallica",
+        "M72",
+        "No Repeat Weekend"
+      ],
+      "url": "https://www.metallica.com/news/2025-05-22-m72-returns-to-europe-in-2026.html",
+      "status": "upcoming",
+      "description": "Metallica 官方公告列出的 Dublin Aviva Stadium No Repeat Weekend 节点，按首场演出日期倒计时。",
+      "stage": "Concert date",
+      "source": "Metallica official news",
+      "sourceUrl": "https://www.metallica.com/news/2025-05-22-m72-returns-to-europe-in-2026.html",
+      "canonicalUrl": "https://www.metallica.com/news/2025-05-22-m72-returns-to-europe-in-2026.html#dublin-2026-06-19",
+      "type": "concert",
+      "subtopic": "rock-metal",
+      "subtopicName": "摇滚/金属",
+      "sourceLabel": "官方巡演公告"
+    },
+    {
+      "id": "concert-ddl-metallica-london-2026-07-03",
+      "topicId": "concert-ddl",
+      "title": "Metallica M72 London 2026",
+      "deadline": "2026-07-03T23:59:59+01:00",
+      "dateRange": "July 3 & 5, 2026",
+      "location": "London, England",
+      "isOnline": false,
+      "tags": [
+        "Metallica",
+        "M72",
+        "London Stadium"
+      ],
+      "url": "https://www.metallica.com/news/2025-05-22-m72-returns-to-europe-in-2026.html",
+      "status": "upcoming",
+      "description": "Metallica 官方公告列出的 London Stadium No Repeat Weekend 节点，按首场演出日期倒计时。",
+      "stage": "Concert date",
+      "source": "Metallica official news",
+      "sourceUrl": "https://www.metallica.com/news/2025-05-22-m72-returns-to-europe-in-2026.html",
+      "canonicalUrl": "https://www.metallica.com/news/2025-05-22-m72-returns-to-europe-in-2026.html#london-2026-07-03",
+      "type": "concert",
+      "subtopic": "rock-metal",
+      "subtopicName": "摇滚/金属",
+      "sourceLabel": "官方巡演公告"
+    },
+    {
+      "id": "concert-ddl-ariana-grande-chicago-2026-08-03",
+      "topicId": "concert-ddl",
+      "title": "Ariana Grande The Eternal Sunshine Tour Chicago",
+      "deadline": "2026-08-03T20:00:00-05:00",
+      "dateRange": "August 3, 5 & 6, 2026",
+      "location": "Chicago, USA",
+      "isOnline": false,
+      "tags": [
+        "Ariana Grande",
+        "pop",
+        "United Center"
+      ],
+      "url": "https://www.unitedcenter.com/events/2026/08/03/ariana-grande-the-eternal-sunshine-tour/",
+      "status": "upcoming",
+      "description": "United Center 官方活动页确认 Ariana Grande 2026 年 8 月 3、5、6 日芝加哥场次，按首场开演时间倒计时。",
+      "stage": "Concert date",
+      "source": "United Center official event",
+      "sourceUrl": "https://www.unitedcenter.com/events/2026/08/03/ariana-grande-the-eternal-sunshine-tour/",
+      "canonicalUrl": "https://www.unitedcenter.com/events/2026/08/03/ariana-grande-the-eternal-sunshine-tour/#august-3",
+      "type": "concert",
+      "subtopic": "pop",
+      "subtopicName": "流行音乐",
+      "sourceLabel": "官方场馆页"
+    },
+    {
+      "id": "concert-ddl-wynonna-nashville-2026-06-06",
+      "topicId": "concert-ddl",
+      "title": "Wynonna Nashville 2026",
+      "deadline": "2026-06-06T23:59:59-05:00",
+      "dateRange": "June 6, 2026",
+      "location": "Nashville, USA",
+      "isOnline": false,
+      "tags": [
+        "Wynonna",
+        "country",
+        "The Bluebird Cafe"
+      ],
+      "url": "https://www.wynonna.com/",
+      "status": "upcoming",
+      "description": "Wynonna 官方巡演列表中的 Nashville / The Bluebird Cafe 场次，按演出日倒计时。",
+      "stage": "Concert date",
+      "source": "Wynonna official tour",
+      "sourceUrl": "https://www.wynonna.com/",
+      "canonicalUrl": "https://www.wynonna.com/#tour-nashville-2026-06-06",
+      "type": "concert",
+      "subtopic": "country",
+      "subtopicName": "乡村音乐",
+      "sourceLabel": "官方巡演页"
+    },
+    {
+      "id": "concert-ddl-wynonna-red-butte-2026-07-30",
+      "topicId": "concert-ddl",
+      "title": "Wynonna Red Butte Garden 2026",
+      "deadline": "2026-07-30T23:59:59-06:00",
+      "dateRange": "July 30, 2026",
+      "location": "Salt Lake City, USA",
+      "isOnline": false,
+      "tags": [
+        "Wynonna",
+        "country",
+        "Red Butte Garden"
+      ],
+      "url": "https://www.wynonna.com/",
+      "status": "upcoming",
+      "description": "Wynonna 官方巡演列表中的 Red Butte Garden Outdoor Concert Series 节点。",
+      "stage": "Concert date",
+      "source": "Wynonna official tour",
+      "sourceUrl": "https://www.wynonna.com/",
+      "canonicalUrl": "https://www.wynonna.com/#tour-red-butte-2026-07-30",
+      "type": "concert",
+      "subtopic": "country",
+      "subtopicName": "乡村音乐",
+      "sourceLabel": "官方巡演页"
+    },
+    {
+      "id": "concert-ddl-roger-daltrey-mesa-2026-08-23",
+      "topicId": "concert-ddl",
+      "title": "Roger Daltrey Mesa 2026",
+      "deadline": "2026-08-23T23:59:59-07:00",
+      "dateRange": "August 23, 2026",
+      "location": "Mesa, USA",
+      "isOnline": false,
+      "tags": [
+        "Roger Daltrey",
+        "The Who",
+        "classic rock"
+      ],
+      "url": "https://www.thewho.com/tour/",
+      "status": "upcoming",
+      "description": "The Who 官方 tour 页面列出的 Roger Daltrey Mesa Arts Center 场次，按演出日倒计时。",
+      "stage": "Concert date",
+      "source": "The Who official tour",
+      "sourceUrl": "https://www.thewho.com/tour/",
+      "canonicalUrl": "https://www.thewho.com/tour/#roger-daltrey-mesa-2026-08-23",
+      "type": "concert",
+      "subtopic": "classic-rock",
+      "subtopicName": "经典摇滚",
+      "sourceLabel": "官方巡演页"
+    },
+    {
+      "id": "concert-ddl-roger-daltrey-reno-2026-09-05",
+      "topicId": "concert-ddl",
+      "title": "Roger Daltrey Reno 2026",
+      "deadline": "2026-09-05T23:59:59-07:00",
+      "dateRange": "September 5, 2026",
+      "location": "Reno, USA",
+      "isOnline": false,
+      "tags": [
+        "Roger Daltrey",
+        "The Who",
+        "classic rock"
+      ],
+      "url": "https://www.thewho.com/tour/",
+      "status": "upcoming",
+      "description": "The Who 官方 tour 页面列出的 Roger Daltrey Reno / Grand Theatre 场次。",
+      "stage": "Concert date",
+      "source": "The Who official tour",
+      "sourceUrl": "https://www.thewho.com/tour/",
+      "canonicalUrl": "https://www.thewho.com/tour/#roger-daltrey-reno-2026-09-05",
+      "type": "concert",
+      "subtopic": "classic-rock",
+      "subtopicName": "经典摇滚",
+      "sourceLabel": "官方巡演页"
+    }
   ],
   "movie-tv-ddl": [
-      {
-          "id": "movie-tv-ddl-devil-wears-prada-2-2026-05-01",
-          "topicId": "movie-tv-ddl",
-          "title": "The Devil Wears Prada 2",
-          "deadline": "2026-05-01T23:59:59+01:00",
-          "dateRange": "May 1, 2026",
-          "location": "Theaters",
-          "isOnline": false,
-          "tags": [
-              "Disney",
-              "comedy",
-              "theatrical"
-          ],
-          "url": "https://www.disney.co.uk/movies/the-devil-wears-prada-2",
-          "status": "upcoming",
-          "description": "Disney UK 官方电影页列出的院线上映日期，按上映日倒计时。",
-          "stage": "Theatrical release",
-          "source": "Disney official movie page",
-          "sourceUrl": "https://www.disney.co.uk/movies/the-devil-wears-prada-2",
-          "canonicalUrl": "https://www.disney.co.uk/movies/the-devil-wears-prada-2#release-date",
-          "type": "release",
-          "subtopic": "movie-release",
-          "subtopicName": "电影上映",
-          "sourceLabel": "官方电影页"
-      },
-      {
-          "id": "movie-tv-ddl-mandalorian-grogu-2026-05-22",
-          "topicId": "movie-tv-ddl",
-          "title": "Star Wars: The Mandalorian and Grogu",
-          "deadline": "2026-05-22T23:59:59+01:00",
-          "dateRange": "May 22, 2026",
-          "location": "Theaters",
-          "isOnline": false,
-          "tags": [
-              "Lucasfilm",
-              "Star Wars",
-              "theatrical"
-          ],
-          "url": "https://www.disney.co.uk/movies/star-wars-the-mandalorian-and-grogu",
-          "status": "upcoming",
-          "description": "Disney UK 官方电影页列出的 Star Wars 新片院线上映日期。",
-          "stage": "Theatrical release",
-          "source": "Disney official movie page",
-          "sourceUrl": "https://www.disney.co.uk/movies/star-wars-the-mandalorian-and-grogu",
-          "canonicalUrl": "https://www.disney.co.uk/movies/star-wars-the-mandalorian-and-grogu#release-date",
-          "type": "release",
-          "subtopic": "movie-release",
-          "subtopicName": "电影上映",
-          "sourceLabel": "官方电影页"
-      },
-      {
-          "id": "movie-tv-ddl-toy-story-5-2026-06-19",
-          "topicId": "movie-tv-ddl",
-          "title": "Toy Story 5",
-          "deadline": "2026-06-19T23:59:59-07:00",
-          "dateRange": "June 19, 2026",
-          "location": "Theaters",
-          "isOnline": false,
-          "tags": [
-              "Pixar",
-              "animation",
-              "theatrical"
-          ],
-          "url": "https://www.pixar.com/toy-story-5",
-          "status": "upcoming",
-          "description": "Pixar 官方电影页确认 Toy Story 5 于 2026 年 6 月 19 日院线上映。",
-          "stage": "Theatrical release",
-          "source": "Pixar official movie page",
-          "sourceUrl": "https://www.pixar.com/toy-story-5",
-          "canonicalUrl": "https://www.pixar.com/toy-story-5#release-date",
-          "type": "release",
-          "subtopic": "animation",
-          "subtopicName": "动画电影",
-          "sourceLabel": "官方电影页"
-      },
-      {
-          "id": "movie-tv-ddl-moana-2026-07-10",
-          "topicId": "movie-tv-ddl",
-          "title": "Moana",
-          "deadline": "2026-07-10T23:59:59+01:00",
-          "dateRange": "July 10, 2026",
-          "location": "Theaters",
-          "isOnline": false,
-          "tags": [
-              "Disney",
-              "live action",
-              "theatrical"
-          ],
-          "url": "https://www.disney.co.uk/movies/moana-2026",
-          "status": "upcoming",
-          "description": "Disney UK 官方电影页列出的 live-action Moana 上映日期。",
-          "stage": "Theatrical release",
-          "source": "Disney official movie page",
-          "sourceUrl": "https://www.disney.co.uk/movies/moana-2026",
-          "canonicalUrl": "https://www.disney.co.uk/movies/moana-2026#release-date",
-          "type": "release",
-          "subtopic": "movie-release",
-          "subtopicName": "电影上映",
-          "sourceLabel": "官方电影页"
-      },
-      {
-          "id": "movie-tv-ddl-spider-man-brand-new-day-2026-07-31",
-          "topicId": "movie-tv-ddl",
-          "title": "Spider-Man: Brand New Day",
-          "deadline": "2026-07-31T23:59:59-07:00",
-          "dateRange": "July 31, 2026",
-          "location": "Theaters",
-          "isOnline": false,
-          "tags": [
-              "Marvel",
-              "Spider-Man",
-              "theatrical"
-          ],
-          "url": "https://www.marvel.com/movies/spider-man-brand-new-day",
-          "status": "upcoming",
-          "description": "Marvel 官方电影页列出的 Spider-Man: Brand New Day 上映日期。",
-          "stage": "Theatrical release",
-          "source": "Marvel official movie page",
-          "sourceUrl": "https://www.marvel.com/movies/spider-man-brand-new-day",
-          "canonicalUrl": "https://www.marvel.com/movies/spider-man-brand-new-day#release-date",
-          "type": "release",
-          "subtopic": "superhero",
-          "subtopicName": "超级英雄",
-          "sourceLabel": "官方电影页"
-      },
-      {
-          "id": "movie-tv-ddl-avengers-doomsday-2026-12-18",
-          "topicId": "movie-tv-ddl",
-          "title": "Avengers: Doomsday",
-          "deadline": "2026-12-18T23:59:59-08:00",
-          "dateRange": "December 18, 2026",
-          "location": "Theaters",
-          "isOnline": false,
-          "tags": [
-              "Marvel",
-              "Avengers",
-              "theatrical"
-          ],
-          "url": "https://www.marvel.com/movies/avengers-doomsday",
-          "status": "upcoming",
-          "description": "Marvel 官方电影页确认 Avengers: Doomsday 于 2026 年 12 月 18 日上映。",
-          "stage": "Theatrical release",
-          "source": "Marvel official movie page",
-          "sourceUrl": "https://www.marvel.com/movies/avengers-doomsday",
-          "canonicalUrl": "https://www.marvel.com/movies/avengers-doomsday#release-date",
-          "type": "release",
-          "subtopic": "superhero",
-          "subtopicName": "超级英雄",
-          "sourceLabel": "官方电影页"
-      },
-      {
-          "id": "movie-tv-ddl-avengers-secret-wars-2027-12-17",
-          "topicId": "movie-tv-ddl",
-          "title": "Avengers: Secret Wars",
-          "deadline": "2027-12-17T23:59:59-08:00",
-          "dateRange": "December 17, 2027",
-          "location": "Theaters",
-          "isOnline": false,
-          "tags": [
-              "Marvel",
-              "Avengers",
-              "theatrical"
-          ],
-          "url": "https://www.marvel.com/movies/avengers-secret-wars",
-          "status": "upcoming",
-          "description": "Marvel 官方电影页列出的 Avengers: Secret Wars 上映日期，作为远期倒计时节点保留。",
-          "stage": "Theatrical release",
-          "source": "Marvel official movie page",
-          "sourceUrl": "https://www.marvel.com/movies/avengers-secret-wars",
-          "canonicalUrl": "https://www.marvel.com/movies/avengers-secret-wars#release-date",
-          "type": "release",
-          "subtopic": "superhero",
-          "subtopicName": "超级英雄",
-          "sourceLabel": "官方电影页"
-      }
+    {
+      "id": "movie-tv-ddl-devil-wears-prada-2-2026-05-01",
+      "topicId": "movie-tv-ddl",
+      "title": "The Devil Wears Prada 2",
+      "deadline": "2026-05-01T23:59:59+01:00",
+      "dateRange": "May 1, 2026",
+      "location": "Theaters",
+      "isOnline": false,
+      "tags": [
+        "Disney",
+        "comedy",
+        "theatrical"
+      ],
+      "url": "https://www.disney.co.uk/movies/the-devil-wears-prada-2",
+      "status": "upcoming",
+      "description": "Disney UK 官方电影页列出的院线上映日期，按上映日倒计时。",
+      "stage": "Theatrical release",
+      "source": "Disney official movie page",
+      "sourceUrl": "https://www.disney.co.uk/movies/the-devil-wears-prada-2",
+      "canonicalUrl": "https://www.disney.co.uk/movies/the-devil-wears-prada-2#release-date",
+      "type": "release",
+      "subtopic": "movie-release",
+      "subtopicName": "电影上映",
+      "sourceLabel": "官方电影页"
+    },
+    {
+      "id": "movie-tv-ddl-mandalorian-grogu-2026-05-22",
+      "topicId": "movie-tv-ddl",
+      "title": "Star Wars: The Mandalorian and Grogu",
+      "deadline": "2026-05-22T23:59:59+01:00",
+      "dateRange": "May 22, 2026",
+      "location": "Theaters",
+      "isOnline": false,
+      "tags": [
+        "Lucasfilm",
+        "Star Wars",
+        "theatrical"
+      ],
+      "url": "https://www.disney.co.uk/movies/star-wars-the-mandalorian-and-grogu",
+      "status": "upcoming",
+      "description": "Disney UK 官方电影页列出的 Star Wars 新片院线上映日期。",
+      "stage": "Theatrical release",
+      "source": "Disney official movie page",
+      "sourceUrl": "https://www.disney.co.uk/movies/star-wars-the-mandalorian-and-grogu",
+      "canonicalUrl": "https://www.disney.co.uk/movies/star-wars-the-mandalorian-and-grogu#release-date",
+      "type": "release",
+      "subtopic": "movie-release",
+      "subtopicName": "电影上映",
+      "sourceLabel": "官方电影页"
+    },
+    {
+      "id": "movie-tv-ddl-toy-story-5-2026-06-19",
+      "topicId": "movie-tv-ddl",
+      "title": "Toy Story 5",
+      "deadline": "2026-06-19T23:59:59-07:00",
+      "dateRange": "June 19, 2026",
+      "location": "Theaters",
+      "isOnline": false,
+      "tags": [
+        "Pixar",
+        "animation",
+        "theatrical"
+      ],
+      "url": "https://www.pixar.com/toy-story-5",
+      "status": "upcoming",
+      "description": "Pixar 官方电影页确认 Toy Story 5 于 2026 年 6 月 19 日院线上映。",
+      "stage": "Theatrical release",
+      "source": "Pixar official movie page",
+      "sourceUrl": "https://www.pixar.com/toy-story-5",
+      "canonicalUrl": "https://www.pixar.com/toy-story-5#release-date",
+      "type": "release",
+      "subtopic": "animation",
+      "subtopicName": "动画电影",
+      "sourceLabel": "官方电影页"
+    },
+    {
+      "id": "movie-tv-ddl-moana-2026-07-10",
+      "topicId": "movie-tv-ddl",
+      "title": "Moana",
+      "deadline": "2026-07-10T23:59:59+01:00",
+      "dateRange": "July 10, 2026",
+      "location": "Theaters",
+      "isOnline": false,
+      "tags": [
+        "Disney",
+        "live action",
+        "theatrical"
+      ],
+      "url": "https://www.disney.co.uk/movies/moana-2026",
+      "status": "upcoming",
+      "description": "Disney UK 官方电影页列出的 live-action Moana 上映日期。",
+      "stage": "Theatrical release",
+      "source": "Disney official movie page",
+      "sourceUrl": "https://www.disney.co.uk/movies/moana-2026",
+      "canonicalUrl": "https://www.disney.co.uk/movies/moana-2026#release-date",
+      "type": "release",
+      "subtopic": "movie-release",
+      "subtopicName": "电影上映",
+      "sourceLabel": "官方电影页"
+    },
+    {
+      "id": "movie-tv-ddl-spider-man-brand-new-day-2026-07-31",
+      "topicId": "movie-tv-ddl",
+      "title": "Spider-Man: Brand New Day",
+      "deadline": "2026-07-31T23:59:59-07:00",
+      "dateRange": "July 31, 2026",
+      "location": "Theaters",
+      "isOnline": false,
+      "tags": [
+        "Marvel",
+        "Spider-Man",
+        "theatrical"
+      ],
+      "url": "https://www.marvel.com/movies/spider-man-brand-new-day",
+      "status": "upcoming",
+      "description": "Marvel 官方电影页列出的 Spider-Man: Brand New Day 上映日期。",
+      "stage": "Theatrical release",
+      "source": "Marvel official movie page",
+      "sourceUrl": "https://www.marvel.com/movies/spider-man-brand-new-day",
+      "canonicalUrl": "https://www.marvel.com/movies/spider-man-brand-new-day#release-date",
+      "type": "release",
+      "subtopic": "superhero",
+      "subtopicName": "超级英雄",
+      "sourceLabel": "官方电影页"
+    },
+    {
+      "id": "movie-tv-ddl-avengers-doomsday-2026-12-18",
+      "topicId": "movie-tv-ddl",
+      "title": "Avengers: Doomsday",
+      "deadline": "2026-12-18T23:59:59-08:00",
+      "dateRange": "December 18, 2026",
+      "location": "Theaters",
+      "isOnline": false,
+      "tags": [
+        "Marvel",
+        "Avengers",
+        "theatrical"
+      ],
+      "url": "https://www.marvel.com/movies/avengers-doomsday",
+      "status": "upcoming",
+      "description": "Marvel 官方电影页确认 Avengers: Doomsday 于 2026 年 12 月 18 日上映。",
+      "stage": "Theatrical release",
+      "source": "Marvel official movie page",
+      "sourceUrl": "https://www.marvel.com/movies/avengers-doomsday",
+      "canonicalUrl": "https://www.marvel.com/movies/avengers-doomsday#release-date",
+      "type": "release",
+      "subtopic": "superhero",
+      "subtopicName": "超级英雄",
+      "sourceLabel": "官方电影页"
+    },
+    {
+      "id": "movie-tv-ddl-avengers-secret-wars-2027-12-17",
+      "topicId": "movie-tv-ddl",
+      "title": "Avengers: Secret Wars",
+      "deadline": "2027-12-17T23:59:59-08:00",
+      "dateRange": "December 17, 2027",
+      "location": "Theaters",
+      "isOnline": false,
+      "tags": [
+        "Marvel",
+        "Avengers",
+        "theatrical"
+      ],
+      "url": "https://www.marvel.com/movies/avengers-secret-wars",
+      "status": "upcoming",
+      "description": "Marvel 官方电影页列出的 Avengers: Secret Wars 上映日期，作为远期倒计时节点保留。",
+      "stage": "Theatrical release",
+      "source": "Marvel official movie page",
+      "sourceUrl": "https://www.marvel.com/movies/avengers-secret-wars",
+      "canonicalUrl": "https://www.marvel.com/movies/avengers-secret-wars#release-date",
+      "type": "release",
+      "subtopic": "superhero",
+      "subtopicName": "超级英雄",
+      "sourceLabel": "官方电影页"
+    }
   ],
   "phone-launch-ddl": [
-      {
-          "id": "phone-launch-ddl-apple-wwdc26-keynote-2026-06-08",
-          "topicId": "phone-launch-ddl",
-          "title": "Apple WWDC26 Keynote",
-          "deadline": "2026-06-08T10:00:00-07:00",
-          "dateRange": "June 8, 2026",
-          "location": "Online / Apple Park",
-          "isOnline": true,
-          "tags": [
-              "Apple",
-              "iOS",
-              "developer keynote"
-          ],
-          "url": "https://www.apple.com/newsroom/2026/05/apple-kicks-off-worldwide-developers-conference-on-june-8/",
-          "status": "upcoming",
-          "description": "Apple 官方 Newsroom 公告确认 WWDC26 于 2026 年 6 月 8 日开幕，iPhone 平台系统与生态更新通常在 keynote 首日发布。",
-          "stage": "Launch keynote",
-          "source": "Apple Newsroom",
-          "sourceUrl": "https://www.apple.com/newsroom/2026/05/apple-kicks-off-worldwide-developers-conference-on-june-8/",
-          "canonicalUrl": "https://www.apple.com/newsroom/2026/05/apple-kicks-off-worldwide-developers-conference-on-june-8/#keynote",
-          "type": "release",
-          "subtopic": "apple",
-          "subtopicName": "Apple",
-          "sourceLabel": "官方发布会"
-      },
-      {
-          "id": "phone-launch-ddl-ifa-berlin-2026-09-04",
-          "topicId": "phone-launch-ddl",
-          "title": "IFA Berlin 2026",
-          "deadline": "2026-09-04T10:00:00+02:00",
-          "dateRange": "September 4-8, 2026",
-          "location": "Berlin, Germany",
-          "isOnline": false,
-          "tags": [
-              "IFA",
-              "consumer electronics",
-              "mobile"
-          ],
-          "url": "https://www.ifa-berlin.com/",
-          "status": "upcoming",
-          "description": "IFA 官方站点公布 2026 年柏林消费电子展日期；手机与移动设备新品常在该窗口集中发布，具体品牌机型以厂商官方公告为准。",
-          "stage": "Launch window",
-          "source": "IFA Berlin official",
-          "sourceUrl": "https://www.ifa-berlin.com/",
-          "canonicalUrl": "https://www.ifa-berlin.com/#2026",
-          "type": "program",
-          "subtopic": "global-expo",
-          "subtopicName": "全球发布窗口",
-          "sourceLabel": "官方展会页"
-      },
-      {
-          "id": "phone-launch-ddl-oppo-newsroom-source-board-2026",
-          "topicId": "phone-launch-ddl",
-          "title": "OPPO Newsroom 官方发布入口",
-          "deadline": "2026-12-31T23:59:59+09:00",
-          "dateRange": "待 Samsung 官方公告",
-          "location": "Global",
-          "isOnline": true,
-          "tags": [
-              "OPPO",
-              "smartphone",
-              "launch"
-          ],
-          "url": "https://www.oppo.com/en/newsroom/",
-          "status": "upcoming",
-          "description": "OPPO Global Newsroom 官方入口。下一场手机发布会日期未官宣前只作为 source board，不展示假倒计时。",
-          "stage": "Source board",
-          "source": "OPPO Newsroom",
-          "sourceUrl": "https://www.oppo.com/en/newsroom/",
-          "canonicalUrl": "https://www.oppo.com/en/newsroom/#smartphone-launch",
-          "type": "program",
-          "subtopic": "oppo",
-          "subtopicName": "OPPO",
-          "isDatePlaceholder": true,
-          "sourceLabel": "官方入口"
-      },
-      {
-          "id": "phone-launch-ddl-google-pixel-source-board-2026",
-          "topicId": "phone-launch-ddl",
-          "title": "Google Pixel 官方发布入口",
-          "deadline": "2026-12-31T23:59:59-07:00",
-          "dateRange": "待 Google 官方公告",
-          "location": "Global",
-          "isOnline": true,
-          "tags": [
-              "Google",
-              "Pixel",
-              "Android"
-          ],
-          "url": "https://blog.google/products/pixel/",
-          "status": "upcoming",
-          "description": "Google Pixel 官方产品博客入口。下一代 Pixel 发布会日期未官宣前只做来源追踪，避免使用传闻日期。",
-          "stage": "Source board",
-          "source": "Google Pixel Blog",
-          "sourceUrl": "https://blog.google/products/pixel/",
-          "canonicalUrl": "https://blog.google/products/pixel/#launch-news",
-          "type": "program",
-          "subtopic": "google-pixel",
-          "subtopicName": "Google Pixel",
-          "isDatePlaceholder": true,
-          "sourceLabel": "官方入口"
-      },
-      {
-          "id": "phone-launch-ddl-xiaomi-newsroom-source-board-2026",
-          "topicId": "phone-launch-ddl",
-          "title": "Xiaomi Global Newsroom 发布入口",
-          "deadline": "2026-12-31T23:59:59+08:00",
-          "dateRange": "待 Xiaomi 官方公告",
-          "location": "Global",
-          "isOnline": true,
-          "tags": [
-              "Xiaomi",
-              "smartphone",
-              "launch"
-          ],
-          "url": "https://www.mi.com/global/discover/newsroom",
-          "status": "upcoming",
-          "description": "Xiaomi Global Newsroom 用于追踪全球手机新品发布。具体机型和日期以 Xiaomi 官方公告为准。",
-          "stage": "Source board",
-          "source": "Xiaomi Global Newsroom",
-          "sourceUrl": "https://www.mi.com/global/discover/newsroom",
-          "canonicalUrl": "https://www.mi.com/global/discover/newsroom#smartphone-launch",
-          "type": "program",
-          "subtopic": "xiaomi",
-          "subtopicName": "Xiaomi",
-          "isDatePlaceholder": true,
-          "sourceLabel": "官方入口"
-      }
+    {
+      "id": "phone-launch-ddl-apple-wwdc26-keynote-2026-06-08",
+      "topicId": "phone-launch-ddl",
+      "title": "Apple WWDC26 Keynote",
+      "deadline": "2026-06-08T10:00:00-07:00",
+      "dateRange": "June 8, 2026",
+      "location": "Online / Apple Park",
+      "isOnline": true,
+      "tags": [
+        "Apple",
+        "iOS",
+        "developer keynote"
+      ],
+      "url": "https://www.apple.com/newsroom/2026/05/apple-kicks-off-worldwide-developers-conference-on-june-8/",
+      "status": "upcoming",
+      "description": "Apple 官方 Newsroom 公告确认 WWDC26 于 2026 年 6 月 8 日开幕，iPhone 平台系统与生态更新通常在 keynote 首日发布。",
+      "stage": "Launch keynote",
+      "source": "Apple Newsroom",
+      "sourceUrl": "https://www.apple.com/newsroom/2026/05/apple-kicks-off-worldwide-developers-conference-on-june-8/",
+      "canonicalUrl": "https://www.apple.com/newsroom/2026/05/apple-kicks-off-worldwide-developers-conference-on-june-8/#keynote",
+      "type": "release",
+      "subtopic": "apple",
+      "subtopicName": "Apple",
+      "sourceLabel": "官方发布会"
+    },
+    {
+      "id": "phone-launch-ddl-ifa-berlin-2026-09-04",
+      "topicId": "phone-launch-ddl",
+      "title": "IFA Berlin 2026",
+      "deadline": "2026-09-04T10:00:00+02:00",
+      "dateRange": "September 4-8, 2026",
+      "location": "Berlin, Germany",
+      "isOnline": false,
+      "tags": [
+        "IFA",
+        "consumer electronics",
+        "mobile"
+      ],
+      "url": "https://www.ifa-berlin.com/",
+      "status": "upcoming",
+      "description": "IFA 官方站点公布 2026 年柏林消费电子展日期；手机与移动设备新品常在该窗口集中发布，具体品牌机型以厂商官方公告为准。",
+      "stage": "Launch window",
+      "source": "IFA Berlin official",
+      "sourceUrl": "https://www.ifa-berlin.com/",
+      "canonicalUrl": "https://www.ifa-berlin.com/#2026",
+      "type": "program",
+      "subtopic": "global-expo",
+      "subtopicName": "全球发布窗口",
+      "sourceLabel": "官方展会页"
+    },
+    {
+      "id": "phone-launch-ddl-oppo-newsroom-source-board-2026",
+      "topicId": "phone-launch-ddl",
+      "title": "OPPO Newsroom 官方发布入口",
+      "deadline": "2026-12-31T23:59:59+09:00",
+      "dateRange": "待 Samsung 官方公告",
+      "location": "Global",
+      "isOnline": true,
+      "tags": [
+        "OPPO",
+        "smartphone",
+        "launch"
+      ],
+      "url": "https://www.oppo.com/en/newsroom/",
+      "status": "upcoming",
+      "description": "OPPO Global Newsroom 官方入口。下一场手机发布会日期未官宣前只作为 source board，不展示假倒计时。",
+      "stage": "Source board",
+      "source": "OPPO Newsroom",
+      "sourceUrl": "https://www.oppo.com/en/newsroom/",
+      "canonicalUrl": "https://www.oppo.com/en/newsroom/#smartphone-launch",
+      "type": "program",
+      "subtopic": "oppo",
+      "subtopicName": "OPPO",
+      "isDatePlaceholder": true,
+      "sourceLabel": "官方入口"
+    },
+    {
+      "id": "phone-launch-ddl-google-pixel-source-board-2026",
+      "topicId": "phone-launch-ddl",
+      "title": "Google Pixel 官方发布入口",
+      "deadline": "2026-12-31T23:59:59-07:00",
+      "dateRange": "待 Google 官方公告",
+      "location": "Global",
+      "isOnline": true,
+      "tags": [
+        "Google",
+        "Pixel",
+        "Android"
+      ],
+      "url": "https://blog.google/products/pixel/",
+      "status": "upcoming",
+      "description": "Google Pixel 官方产品博客入口。下一代 Pixel 发布会日期未官宣前只做来源追踪，避免使用传闻日期。",
+      "stage": "Source board",
+      "source": "Google Pixel Blog",
+      "sourceUrl": "https://blog.google/products/pixel/",
+      "canonicalUrl": "https://blog.google/products/pixel/#launch-news",
+      "type": "program",
+      "subtopic": "google-pixel",
+      "subtopicName": "Google Pixel",
+      "isDatePlaceholder": true,
+      "sourceLabel": "官方入口"
+    },
+    {
+      "id": "phone-launch-ddl-xiaomi-newsroom-source-board-2026",
+      "topicId": "phone-launch-ddl",
+      "title": "Xiaomi Global Newsroom 发布入口",
+      "deadline": "2026-12-31T23:59:59+08:00",
+      "dateRange": "待 Xiaomi 官方公告",
+      "location": "Global",
+      "isOnline": true,
+      "tags": [
+        "Xiaomi",
+        "smartphone",
+        "launch"
+      ],
+      "url": "https://www.mi.com/global/discover/newsroom",
+      "status": "upcoming",
+      "description": "Xiaomi Global Newsroom 用于追踪全球手机新品发布。具体机型和日期以 Xiaomi 官方公告为准。",
+      "stage": "Source board",
+      "source": "Xiaomi Global Newsroom",
+      "sourceUrl": "https://www.mi.com/global/discover/newsroom",
+      "canonicalUrl": "https://www.mi.com/global/discover/newsroom#smartphone-launch",
+      "type": "program",
+      "subtopic": "xiaomi",
+      "subtopicName": "Xiaomi",
+      "isDatePlaceholder": true,
+      "sourceLabel": "官方入口"
+    }
   ],
   "car-launch-ddl": [
-      {
-          "id": "car-launch-ddl-paris-motor-show-2026-10-12",
-          "topicId": "car-launch-ddl",
-          "title": "Paris Motor Show 2026",
-          "deadline": "2026-10-12T09:00:00+02:00",
-          "dateRange": "October 12-18, 2026",
-          "location": "Paris, France",
-          "isOnline": false,
-          "tags": [
-              "Paris Motor Show",
-              "auto show",
-              "world premiere"
-          ],
-          "url": "https://mondial.paris/en",
-          "status": "upcoming",
-          "description": "巴黎车展官方入口，用于追踪 2026 年整车和概念车发布窗口；具体车型以品牌官方公告为准。",
-          "stage": "Auto show opening",
-          "source": "Paris Motor Show official",
-          "sourceUrl": "https://mondial.paris/en",
-          "canonicalUrl": "https://mondial.paris/en#2026",
-          "type": "program",
-          "subtopic": "auto-show",
-          "subtopicName": "国际车展",
-          "sourceLabel": "官方车展页"
-      },
-      {
-          "id": "car-launch-ddl-japan-mobility-show-bizweek-2026-10-13",
-          "topicId": "car-launch-ddl",
-          "title": "Japan Mobility Show Bizweek 2026",
-          "deadline": "2026-10-13T09:00:00+09:00",
-          "dateRange": "October 13-16, 2026",
-          "location": "Tokyo, Japan",
-          "isOnline": false,
-          "tags": [
-              "Japan Mobility Show",
-              "mobility",
-              "auto tech"
-          ],
-          "url": "https://www.japan-mobility-show.com/",
-          "status": "upcoming",
-          "description": "Japan Mobility Show 官方站点公布 Bizweek 2026 窗口，可用于追踪日本车企与出行技术发布。",
-          "stage": "Mobility show opening",
-          "source": "Japan Mobility Show official",
-          "sourceUrl": "https://www.japan-mobility-show.com/",
-          "canonicalUrl": "https://www.japan-mobility-show.com/#bizweek-2026",
-          "type": "program",
-          "subtopic": "auto-show",
-          "subtopicName": "国际车展",
-          "sourceLabel": "官方车展页"
-      },
-      {
-          "id": "car-launch-ddl-sema-show-2026-11-03",
-          "topicId": "car-launch-ddl",
-          "title": "SEMA Show 2026",
-          "deadline": "2026-11-03T09:00:00-08:00",
-          "dateRange": "November 3-6, 2026",
-          "location": "Las Vegas, USA",
-          "isOnline": false,
-          "tags": [
-              "SEMA",
-              "aftermarket",
-              "vehicle products"
-          ],
-          "url": "https://www.semashow.com/",
-          "status": "upcoming",
-          "description": "SEMA Show 官方入口，面向整车改装、零部件和汽车新品发布窗口。",
-          "stage": "Show opening",
-          "source": "SEMA Show official",
-          "sourceUrl": "https://www.semashow.com/",
-          "canonicalUrl": "https://www.semashow.com/#2026",
-          "type": "program",
-          "subtopic": "aftermarket",
-          "subtopicName": "改装/零部件",
-          "sourceLabel": "官方展会页"
-      },
-      {
-          "id": "car-launch-ddl-automobility-la-2026-11-19",
-          "topicId": "car-launch-ddl",
-          "title": "AutoMobility LA 2026",
-          "deadline": "2026-11-19T09:00:00-08:00",
-          "dateRange": "November 19, 2026",
-          "location": "Los Angeles, USA",
-          "isOnline": false,
-          "tags": [
-              "LA Auto Show",
-              "press day",
-              "vehicle launch"
-          ],
-          "url": "https://laautoshow.com/",
-          "status": "upcoming",
-          "description": "LA Auto Show 官方入口；AutoMobility LA 通常承载媒体日、车企发布和行业活动，具体日程以官方更新为准。",
-          "stage": "Media / industry day",
-          "source": "LA Auto Show official",
-          "sourceUrl": "https://laautoshow.com/",
-          "canonicalUrl": "https://laautoshow.com/#automobility-la-2026",
-          "type": "program",
-          "subtopic": "auto-show",
-          "subtopicName": "国际车展",
-          "sourceLabel": "官方车展页"
-      },
-      {
-          "id": "car-launch-ddl-la-auto-show-2026-11-20",
-          "topicId": "car-launch-ddl",
-          "title": "LA Auto Show 2026 Public Days",
-          "deadline": "2026-11-20T09:00:00-08:00",
-          "dateRange": "November 20-29, 2026",
-          "location": "Los Angeles, USA",
-          "isOnline": false,
-          "tags": [
-              "LA Auto Show",
-              "public days",
-              "new vehicles"
-          ],
-          "url": "https://laautoshow.com/",
-          "status": "upcoming",
-          "description": "洛杉矶车展公众日窗口，用于追踪北美车企和出行产品展示；具体发布以车展和品牌官方日程为准。",
-          "stage": "Public opening",
-          "source": "LA Auto Show official",
-          "sourceUrl": "https://laautoshow.com/",
-          "canonicalUrl": "https://laautoshow.com/#public-days-2026",
-          "type": "program",
-          "subtopic": "auto-show",
-          "subtopicName": "国际车展",
-          "sourceLabel": "官方车展页"
-      },
-      {
-          "id": "car-launch-ddl-detroit-auto-show-2027-01-12",
-          "topicId": "car-launch-ddl",
-          "title": "Detroit Auto Show 2027",
-          "deadline": "2027-01-12T09:00:00-05:00",
-          "dateRange": "January 12-24, 2027",
-          "location": "Detroit, USA",
-          "isOnline": false,
-          "tags": [
-              "Detroit Auto Show",
-              "NAIAS",
-              "vehicle launch"
-          ],
-          "url": "https://detroitautoshow.com/",
-          "status": "upcoming",
-          "description": "Detroit Auto Show 官方入口，作为北美车企新车和移动出行发布窗口。",
-          "stage": "Auto show opening",
-          "source": "Detroit Auto Show official",
-          "sourceUrl": "https://detroitautoshow.com/",
-          "canonicalUrl": "https://detroitautoshow.com/#2027",
-          "type": "program",
-          "subtopic": "auto-show",
-          "subtopicName": "国际车展",
-          "sourceLabel": "官方车展页"
-      },
-      {
-          "id": "car-launch-ddl-auto-shanghai-2027-04-23",
-          "topicId": "car-launch-ddl",
-          "title": "Auto Shanghai 2027",
-          "deadline": "2027-04-23T09:00:00+08:00",
-          "dateRange": "April 23 - May 2, 2027",
-          "location": "Shanghai, China",
-          "isOnline": false,
-          "tags": [
-              "Auto Shanghai",
-              "China",
-              "world premiere"
-          ],
-          "url": "https://www.autoshanghai.org/",
-          "status": "upcoming",
-          "description": "上海车展官方入口，适合追踪中国和全球车企新车首发；媒体日和具体车型以官方后续公告为准。",
-          "stage": "Auto show opening",
-          "source": "Auto Shanghai official",
-          "sourceUrl": "https://www.autoshanghai.org/",
-          "canonicalUrl": "https://www.autoshanghai.org/#2027",
-          "type": "program",
-          "subtopic": "auto-show",
-          "subtopicName": "国际车展",
-          "sourceLabel": "官方车展页"
-      }
+    {
+      "id": "car-launch-ddl-paris-motor-show-2026-10-12",
+      "topicId": "car-launch-ddl",
+      "title": "Paris Motor Show 2026",
+      "deadline": "2026-10-12T09:00:00+02:00",
+      "dateRange": "October 12-18, 2026",
+      "location": "Paris, France",
+      "isOnline": false,
+      "tags": [
+        "Paris Motor Show",
+        "auto show",
+        "world premiere"
+      ],
+      "url": "https://mondial.paris/en",
+      "status": "upcoming",
+      "description": "巴黎车展官方入口，用于追踪 2026 年整车和概念车发布窗口；具体车型以品牌官方公告为准。",
+      "stage": "Auto show opening",
+      "source": "Paris Motor Show official",
+      "sourceUrl": "https://mondial.paris/en",
+      "canonicalUrl": "https://mondial.paris/en#2026",
+      "type": "program",
+      "subtopic": "auto-show",
+      "subtopicName": "国际车展",
+      "sourceLabel": "官方车展页"
+    },
+    {
+      "id": "car-launch-ddl-japan-mobility-show-bizweek-2026-10-13",
+      "topicId": "car-launch-ddl",
+      "title": "Japan Mobility Show Bizweek 2026",
+      "deadline": "2026-10-13T09:00:00+09:00",
+      "dateRange": "October 13-16, 2026",
+      "location": "Tokyo, Japan",
+      "isOnline": false,
+      "tags": [
+        "Japan Mobility Show",
+        "mobility",
+        "auto tech"
+      ],
+      "url": "https://www.japan-mobility-show.com/",
+      "status": "upcoming",
+      "description": "Japan Mobility Show 官方站点公布 Bizweek 2026 窗口，可用于追踪日本车企与出行技术发布。",
+      "stage": "Mobility show opening",
+      "source": "Japan Mobility Show official",
+      "sourceUrl": "https://www.japan-mobility-show.com/",
+      "canonicalUrl": "https://www.japan-mobility-show.com/#bizweek-2026",
+      "type": "program",
+      "subtopic": "auto-show",
+      "subtopicName": "国际车展",
+      "sourceLabel": "官方车展页"
+    },
+    {
+      "id": "car-launch-ddl-sema-show-2026-11-03",
+      "topicId": "car-launch-ddl",
+      "title": "SEMA Show 2026",
+      "deadline": "2026-11-03T09:00:00-08:00",
+      "dateRange": "November 3-6, 2026",
+      "location": "Las Vegas, USA",
+      "isOnline": false,
+      "tags": [
+        "SEMA",
+        "aftermarket",
+        "vehicle products"
+      ],
+      "url": "https://www.semashow.com/",
+      "status": "upcoming",
+      "description": "SEMA Show 官方入口，面向整车改装、零部件和汽车新品发布窗口。",
+      "stage": "Show opening",
+      "source": "SEMA Show official",
+      "sourceUrl": "https://www.semashow.com/",
+      "canonicalUrl": "https://www.semashow.com/#2026",
+      "type": "program",
+      "subtopic": "aftermarket",
+      "subtopicName": "改装/零部件",
+      "sourceLabel": "官方展会页"
+    },
+    {
+      "id": "car-launch-ddl-automobility-la-2026-11-19",
+      "topicId": "car-launch-ddl",
+      "title": "AutoMobility LA 2026",
+      "deadline": "2026-11-19T09:00:00-08:00",
+      "dateRange": "November 19, 2026",
+      "location": "Los Angeles, USA",
+      "isOnline": false,
+      "tags": [
+        "LA Auto Show",
+        "press day",
+        "vehicle launch"
+      ],
+      "url": "https://laautoshow.com/",
+      "status": "upcoming",
+      "description": "LA Auto Show 官方入口；AutoMobility LA 通常承载媒体日、车企发布和行业活动，具体日程以官方更新为准。",
+      "stage": "Media / industry day",
+      "source": "LA Auto Show official",
+      "sourceUrl": "https://laautoshow.com/",
+      "canonicalUrl": "https://laautoshow.com/#automobility-la-2026",
+      "type": "program",
+      "subtopic": "auto-show",
+      "subtopicName": "国际车展",
+      "sourceLabel": "官方车展页"
+    },
+    {
+      "id": "car-launch-ddl-la-auto-show-2026-11-20",
+      "topicId": "car-launch-ddl",
+      "title": "LA Auto Show 2026 Public Days",
+      "deadline": "2026-11-20T09:00:00-08:00",
+      "dateRange": "November 20-29, 2026",
+      "location": "Los Angeles, USA",
+      "isOnline": false,
+      "tags": [
+        "LA Auto Show",
+        "public days",
+        "new vehicles"
+      ],
+      "url": "https://laautoshow.com/",
+      "status": "upcoming",
+      "description": "洛杉矶车展公众日窗口，用于追踪北美车企和出行产品展示；具体发布以车展和品牌官方日程为准。",
+      "stage": "Public opening",
+      "source": "LA Auto Show official",
+      "sourceUrl": "https://laautoshow.com/",
+      "canonicalUrl": "https://laautoshow.com/#public-days-2026",
+      "type": "program",
+      "subtopic": "auto-show",
+      "subtopicName": "国际车展",
+      "sourceLabel": "官方车展页"
+    },
+    {
+      "id": "car-launch-ddl-detroit-auto-show-2027-01-12",
+      "topicId": "car-launch-ddl",
+      "title": "Detroit Auto Show 2027",
+      "deadline": "2027-01-12T09:00:00-05:00",
+      "dateRange": "January 12-24, 2027",
+      "location": "Detroit, USA",
+      "isOnline": false,
+      "tags": [
+        "Detroit Auto Show",
+        "NAIAS",
+        "vehicle launch"
+      ],
+      "url": "https://detroitautoshow.com/",
+      "status": "upcoming",
+      "description": "Detroit Auto Show 官方入口，作为北美车企新车和移动出行发布窗口。",
+      "stage": "Auto show opening",
+      "source": "Detroit Auto Show official",
+      "sourceUrl": "https://detroitautoshow.com/",
+      "canonicalUrl": "https://detroitautoshow.com/#2027",
+      "type": "program",
+      "subtopic": "auto-show",
+      "subtopicName": "国际车展",
+      "sourceLabel": "官方车展页"
+    },
+    {
+      "id": "car-launch-ddl-auto-shanghai-2027-04-23",
+      "topicId": "car-launch-ddl",
+      "title": "Auto Shanghai 2027",
+      "deadline": "2027-04-23T09:00:00+08:00",
+      "dateRange": "April 23 - May 2, 2027",
+      "location": "Shanghai, China",
+      "isOnline": false,
+      "tags": [
+        "Auto Shanghai",
+        "China",
+        "world premiere"
+      ],
+      "url": "https://www.autoshanghai.org/",
+      "status": "upcoming",
+      "description": "上海车展官方入口，适合追踪中国和全球车企新车首发；媒体日和具体车型以官方后续公告为准。",
+      "stage": "Auto show opening",
+      "source": "Auto Shanghai official",
+      "sourceUrl": "https://www.autoshanghai.org/",
+      "canonicalUrl": "https://www.autoshanghai.org/#2027",
+      "type": "program",
+      "subtopic": "auto-show",
+      "subtopicName": "国际车展",
+      "sourceLabel": "官方车展页"
+    }
   ],
   "regulation-ddl": [
-      {
-          "topicId": "regulation-ddl",
-          "id": "regulation-ddl-cn-fridge-energy-gb12021-2-2025-2026-06-01",
-          "title": "GB 12021.2-2025 家用电冰箱能效标准实施",
-          "deadline": "2026-06-01T00:00:00+08:00",
-          "dateRange": "2026/06/01 起实施",
-          "location": "China",
-          "isOnline": false,
-          "tags": [
-              "国家标准",
-              "家电",
-              "能效"
-          ],
-          "url": "https://app.www.gov.cn/govdata/gov/202506/25/531575/article.html",
-          "status": "upcoming",
-          "stage": "实施",
-          "source": "中国政府网 / 国家标准委",
-          "sourceUrl": "https://app.www.gov.cn/govdata/gov/202506/25/531575/article.html",
-          "type": "regulation",
-          "subtopic": "cn-standards",
-          "subtopicName": "中国国家标准",
-          "description": "新版家用电冰箱耗电量限定值及能效等级国家标准正式实施，覆盖压缩式家用电冰箱和部分半导体制冷器具。"
-      },
-      {
-          "topicId": "regulation-ddl",
-          "id": "regulation-ddl-eu-cra-conformity-body-notification-2026-06-11",
-          "title": "EU Cyber Resilience Act 符合性评定机构规则适用",
-          "deadline": "2026-06-11T00:00:00+02:00",
-          "dateRange": "2026/06/11 起适用",
-          "location": "European Union",
-          "isOnline": false,
-          "tags": [
-              "EU",
-              "cybersecurity",
-              "conformity"
-          ],
-          "url": "https://digital-strategy.ec.europa.eu/en/factpages/cyber-resilience-act-implementation",
-          "status": "upcoming",
-          "stage": "适用",
-          "source": "European Commission",
-          "sourceUrl": "https://digital-strategy.ec.europa.eu/en/factpages/cyber-resilience-act-implementation",
-          "type": "regulation",
-          "subtopic": "eu-digital",
-          "subtopicName": "欧盟数字法规",
-          "description": "Cyber Resilience Act Chapter IV 相关符合性评定机构通知规则开始适用，为 2027 年全面要求做准备。"
-      },
-      {
-          "topicId": "regulation-ddl",
-          "id": "regulation-ddl-cn-ev-battery-safety-gb38031-2025-2026-07-01",
-          "title": "GB 38031-2025 电动汽车动力电池安全要求实施",
-          "deadline": "2026-07-01T00:00:00+08:00",
-          "dateRange": "2026/07/01 起实施",
-          "location": "China",
-          "isOnline": false,
-          "tags": [
-              "国家标准",
-              "新能源汽车",
-              "电池安全"
-          ],
-          "url": "https://www.gov.cn/lianbo/bumen/202504/content_7018797.htm",
-          "status": "upcoming",
-          "stage": "实施",
-          "source": "中国政府网 / 工业和信息化部",
-          "sourceUrl": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=3AB693FAFF5D9716DF61C61D6FD2187A",
-          "type": "regulation",
-          "subtopic": "cn-standards",
-          "subtopicName": "中国国家标准",
-          "description": "强制性国家标准《电动汽车用动力蓄电池安全要求》开始实施，重点提高动力电池热扩散等安全要求。"
-      },
-      {
-          "topicId": "regulation-ddl",
-          "id": "regulation-ddl-cn-production-accident-standards-2026-07-01",
-          "title": "生产安全事故调查等三项强制性国家标准实施",
-          "deadline": "2026-07-01T00:00:00+08:00",
-          "dateRange": "2026/07/01 起实施",
-          "location": "China",
-          "isOnline": false,
-          "tags": [
-              "国家标准",
-              "安全生产",
-              "事故调查"
-          ],
-          "url": "https://big5.www.gov.cn/gate/big5/www.gov.cn/lianbo/202601/content_7056032.htm",
-          "status": "upcoming",
-          "stage": "实施",
-          "source": "中国政府网 / 应急管理部",
-          "sourceUrl": "https://big5.www.gov.cn/gate/big5/www.gov.cn/lianbo/202601/content_7056032.htm",
-          "type": "regulation",
-          "subtopic": "cn-standards",
-          "subtopicName": "中国国家标准",
-          "description": "《生产安全事故调查技术规范》等三项强制性国家标准实施，覆盖事故调查程序、分类编码和直接经济损失统计。"
-      },
-      {
-          "topicId": "regulation-ddl",
-          "id": "regulation-ddl-eu-ai-act-general-application-2026-08-02",
-          "title": "EU AI Act 主要规则适用日",
-          "deadline": "2026-08-02T00:00:00+02:00",
-          "dateRange": "2026/08/02 起适用",
-          "location": "European Union",
-          "isOnline": false,
-          "tags": [
-              "EU",
-              "AI Act",
-              "compliance"
-          ],
-          "url": "https://digital-strategy.ec.europa.eu/en/faqs/navigating-ai-act",
-          "status": "upcoming",
-          "stage": "适用",
-          "source": "European Commission",
-          "sourceUrl": "https://digital-strategy.ec.europa.eu/en/faqs/navigating-ai-act",
-          "type": "regulation",
-          "subtopic": "eu-digital",
-          "subtopicName": "欧盟数字法规",
-          "description": "欧盟 AI Act 按阶段适用，主要规则在生效两年后进入适用期，部分高风险系统规则另有过渡期。"
-      },
-      {
-          "topicId": "regulation-ddl",
-          "id": "regulation-ddl-eu-cra-reporting-obligations-2026-09-11",
-          "title": "EU Cyber Resilience Act 报告义务适用",
-          "deadline": "2026-09-11T00:00:00+02:00",
-          "dateRange": "2026/09/11 起适用",
-          "location": "European Union",
-          "isOnline": false,
-          "tags": [
-              "EU",
-              "cybersecurity",
-              "incident reporting"
-          ],
-          "url": "https://digital-strategy.ec.europa.eu/en/policies/cyber-resilience-act",
-          "status": "upcoming",
-          "stage": "适用",
-          "source": "European Commission",
-          "sourceUrl": "https://digital-strategy.ec.europa.eu/en/policies/cyber-resilience-act",
-          "type": "regulation",
-          "subtopic": "eu-digital",
-          "subtopicName": "欧盟数字法规",
-          "description": "制造商主动报告已被利用漏洞和严重网络安全事件的义务开始适用，是 CRA 全面落地前的重要节点。"
-      },
-      {
-          "topicId": "regulation-ddl",
-          "id": "regulation-ddl-cn-lpg-gb11174-2025-2026-11-01",
-          "title": "GB 11174-2025 液化石油气强制性国家标准实施",
-          "deadline": "2026-11-01T00:00:00+08:00",
-          "dateRange": "2026/11/01 起实施",
-          "location": "China",
-          "isOnline": false,
-          "tags": [
-              "国家标准",
-              "液化石油气",
-              "民生安全"
-          ],
-          "url": "https://www.gov.cn/lianbo/bumen/202511/content_7047106.htm",
-          "status": "upcoming",
-          "stage": "实施",
-          "source": "中国政府网 / 市场监管总局",
-          "sourceUrl": "https://www.gov.cn/lianbo/bumen/202511/content_7047106.htm",
-          "type": "regulation",
-          "subtopic": "cn-standards",
-          "subtopicName": "中国国家标准",
-          "description": "新版《液化石油气》强制性国家标准实施，增加并提高产品质量、安全和环保相关指标。"
-      },
-      {
-          "topicId": "regulation-ddl",
-          "id": "regulation-ddl-eu-eudr-large-operators-2026-12-30",
-          "title": "EU Deforestation Regulation 大中型经营者适用日",
-          "deadline": "2026-12-30T00:00:00+01:00",
-          "dateRange": "2026/12/30 起适用",
-          "location": "European Union",
-          "isOnline": false,
-          "tags": [
-              "EU",
-              "deforestation",
-              "supply chain"
-          ],
-          "url": "https://green-forum.ec.europa.eu/deforestation-regulation-implementation_en",
-          "status": "upcoming",
-          "stage": "适用",
-          "source": "European Commission Green Forum",
-          "sourceUrl": "https://green-forum.ec.europa.eu/deforestation-regulation-implementation_en",
-          "type": "regulation",
-          "subtopic": "eu-sustainability",
-          "subtopicName": "欧盟可持续法规",
-          "description": "EUDR 针对大中型经营者和交易商的主要义务进入适用期，涉及相关商品的无毁林供应链尽职调查。"
-      },
-      {
-          "topicId": "regulation-ddl",
-          "id": "regulation-ddl-cn-production-accident-workday-loss-2027-01-01",
-          "title": "GB 15499-2025 事故伤害损失工作日判定标准实施",
-          "deadline": "2027-01-01T00:00:00+08:00",
-          "dateRange": "2027/01/01 起实施",
-          "location": "China",
-          "isOnline": false,
-          "tags": [
-              "国家标准",
-              "安全生产",
-              "事故统计"
-          ],
-          "url": "https://big5.www.gov.cn/gate/big5/www.gov.cn/lianbo/202601/content_7056032.htm",
-          "status": "upcoming",
-          "stage": "实施",
-          "source": "中国政府网 / 应急管理部",
-          "sourceUrl": "https://big5.www.gov.cn/gate/big5/www.gov.cn/lianbo/202601/content_7056032.htm",
-          "type": "regulation",
-          "subtopic": "cn-standards",
-          "subtopicName": "中国国家标准",
-          "description": "强制性国家标准《生产安全事故伤害损失工作日判定》实施，用于事故伤害损失工作日判定。"
-      },
-      {
-          "topicId": "regulation-ddl",
-          "id": "regulation-ddl-eu-battery-passport-2027-02-18",
-          "title": "EU Battery Passport 义务启动",
-          "deadline": "2027-02-18T00:00:00+01:00",
-          "dateRange": "2027/02/18 起适用",
-          "location": "European Union",
-          "isOnline": false,
-          "tags": [
-              "EU",
-              "battery",
-              "digital product passport"
-          ],
-          "url": "https://www.europarl.europa.eu/doceo/document/E-10-2026-000888_EN.html",
-          "status": "upcoming",
-          "stage": "适用",
-          "source": "European Parliament",
-          "sourceUrl": "https://www.europarl.europa.eu/doceo/document/E-10-2026-000888_EN.html",
-          "type": "regulation",
-          "subtopic": "eu-sustainability",
-          "subtopicName": "欧盟可持续法规",
-          "description": "欧盟电池法规下的数字电池护照义务开始适用，覆盖特定 LMT、电动汽车和工业电池类别。"
-      },
-      {
-          "topicId": "regulation-ddl",
-          "id": "regulation-ddl-eu-eudr-micro-small-operators-2027-06-30",
-          "title": "EU Deforestation Regulation 微型和小型经营者适用日",
-          "deadline": "2027-06-30T00:00:00+02:00",
-          "dateRange": "2027/06/30 起适用",
-          "location": "European Union",
-          "isOnline": false,
-          "tags": [
-              "EU",
-              "deforestation",
-              "SME"
-          ],
-          "url": "https://green-forum.ec.europa.eu/deforestation-regulation-implementation_en",
-          "status": "upcoming",
-          "stage": "适用",
-          "source": "European Commission Green Forum",
-          "sourceUrl": "https://green-forum.ec.europa.eu/deforestation-regulation-implementation_en",
-          "type": "regulation",
-          "subtopic": "eu-sustainability",
-          "subtopicName": "欧盟可持续法规",
-          "description": "EUDR 针对自然人以及微型、小型经营者的适用日，作为供应链合规和数据准备的重要节点。"
-      },
-      {
-          "topicId": "regulation-ddl",
-          "id": "regulation-ddl-eu-ai-act-high-risk-article-6-1-2027-08-02",
-          "title": "EU AI Act Article 6(1) 高风险系统义务适用",
-          "deadline": "2027-08-02T00:00:00+02:00",
-          "dateRange": "2027/08/02 起适用",
-          "location": "European Union",
-          "isOnline": false,
-          "tags": [
-              "EU",
-              "AI Act",
-              "high-risk AI"
-          ],
-          "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-113",
-          "status": "upcoming",
-          "stage": "适用",
-          "source": "AI Act Service Desk / European Commission",
-          "sourceUrl": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-113",
-          "type": "regulation",
-          "subtopic": "eu-digital",
-          "subtopicName": "欧盟数字法规",
-          "description": "AI Act Article 6(1) 及相关义务适用，主要影响嵌入受监管产品的高风险 AI 系统。"
-      },
-      {
-          "topicId": "regulation-ddl",
-          "id": "regulation-ddl-eu-battery-due-diligence-2027-08-18",
-          "title": "EU Battery Regulation 尽职调查义务适用",
-          "deadline": "2027-08-18T00:00:00+02:00",
-          "dateRange": "2027/08/18 起适用",
-          "location": "European Union",
-          "isOnline": false,
-          "tags": [
-              "EU",
-              "battery",
-              "due diligence"
-          ],
-          "url": "https://www.consilium.europa.eu/en/press/press-releases/2025/07/18/simplification-council-adopts-law-to-stop-the-clock-on-due-diligence-rules-for-batteries/",
-          "status": "upcoming",
-          "stage": "适用",
-          "source": "Council of the European Union",
-          "sourceUrl": "https://www.consilium.europa.eu/en/press/press-releases/2025/07/18/simplification-council-adopts-law-to-stop-the-clock-on-due-diligence-rules-for-batteries/",
-          "type": "regulation",
-          "subtopic": "eu-sustainability",
-          "subtopicName": "欧盟可持续法规",
-          "description": "电池供应链尽职调查相关义务延后至该日适用，为电池生产商和出口商留出准备期。"
-      },
-      {
-          "topicId": "regulation-ddl",
-          "id": "regulation-ddl-eu-cra-main-obligations-2027-12-11",
-          "title": "EU Cyber Resilience Act 主要义务全面适用",
-          "deadline": "2027-12-11T00:00:00+01:00",
-          "dateRange": "2027/12/11 起适用",
-          "location": "European Union",
-          "isOnline": false,
-          "tags": [
-              "EU",
-              "cybersecurity",
-              "product security"
-          ],
-          "url": "https://digital-strategy.ec.europa.eu/en/policies/cyber-resilience-act",
-          "status": "upcoming",
-          "stage": "适用",
-          "source": "European Commission",
-          "sourceUrl": "https://digital-strategy.ec.europa.eu/en/policies/cyber-resilience-act",
-          "type": "regulation",
-          "subtopic": "eu-digital",
-          "subtopicName": "欧盟数字法规",
-          "description": "Cyber Resilience Act 对带有数字元素产品的主要网络安全要求全面适用。"
-      }
-  ]
-,
+    {
+      "topicId": "regulation-ddl",
+      "id": "regulation-ddl-cn-fridge-energy-gb12021-2-2025-2026-06-01",
+      "title": "GB 12021.2-2025 家用电冰箱能效标准实施",
+      "deadline": "2026-06-01T00:00:00+08:00",
+      "dateRange": "2026/06/01 起实施",
+      "location": "China",
+      "isOnline": false,
+      "tags": [
+        "国家标准",
+        "家电",
+        "能效"
+      ],
+      "url": "https://app.www.gov.cn/govdata/gov/202506/25/531575/article.html",
+      "status": "upcoming",
+      "stage": "实施",
+      "source": "中国政府网 / 国家标准委",
+      "sourceUrl": "https://app.www.gov.cn/govdata/gov/202506/25/531575/article.html",
+      "type": "regulation",
+      "subtopic": "cn-standards",
+      "subtopicName": "中国国家标准",
+      "description": "新版家用电冰箱耗电量限定值及能效等级国家标准正式实施，覆盖压缩式家用电冰箱和部分半导体制冷器具。"
+    },
+    {
+      "topicId": "regulation-ddl",
+      "id": "regulation-ddl-eu-cra-conformity-body-notification-2026-06-11",
+      "title": "EU Cyber Resilience Act 符合性评定机构规则适用",
+      "deadline": "2026-06-11T00:00:00+02:00",
+      "dateRange": "2026/06/11 起适用",
+      "location": "European Union",
+      "isOnline": false,
+      "tags": [
+        "EU",
+        "cybersecurity",
+        "conformity"
+      ],
+      "url": "https://digital-strategy.ec.europa.eu/en/factpages/cyber-resilience-act-implementation",
+      "status": "upcoming",
+      "stage": "适用",
+      "source": "European Commission",
+      "sourceUrl": "https://digital-strategy.ec.europa.eu/en/factpages/cyber-resilience-act-implementation",
+      "type": "regulation",
+      "subtopic": "eu-digital",
+      "subtopicName": "欧盟数字法规",
+      "description": "Cyber Resilience Act Chapter IV 相关符合性评定机构通知规则开始适用，为 2027 年全面要求做准备。"
+    },
+    {
+      "topicId": "regulation-ddl",
+      "id": "regulation-ddl-cn-ev-battery-safety-gb38031-2025-2026-07-01",
+      "title": "GB 38031-2025 电动汽车动力电池安全要求实施",
+      "deadline": "2026-07-01T00:00:00+08:00",
+      "dateRange": "2026/07/01 起实施",
+      "location": "China",
+      "isOnline": false,
+      "tags": [
+        "国家标准",
+        "新能源汽车",
+        "电池安全"
+      ],
+      "url": "https://www.gov.cn/lianbo/bumen/202504/content_7018797.htm",
+      "status": "upcoming",
+      "stage": "实施",
+      "source": "中国政府网 / 工业和信息化部",
+      "sourceUrl": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=3AB693FAFF5D9716DF61C61D6FD2187A",
+      "type": "regulation",
+      "subtopic": "cn-standards",
+      "subtopicName": "中国国家标准",
+      "description": "强制性国家标准《电动汽车用动力蓄电池安全要求》开始实施，重点提高动力电池热扩散等安全要求。"
+    },
+    {
+      "topicId": "regulation-ddl",
+      "id": "regulation-ddl-cn-production-accident-standards-2026-07-01",
+      "title": "生产安全事故调查等三项强制性国家标准实施",
+      "deadline": "2026-07-01T00:00:00+08:00",
+      "dateRange": "2026/07/01 起实施",
+      "location": "China",
+      "isOnline": false,
+      "tags": [
+        "国家标准",
+        "安全生产",
+        "事故调查"
+      ],
+      "url": "https://big5.www.gov.cn/gate/big5/www.gov.cn/lianbo/202601/content_7056032.htm",
+      "status": "upcoming",
+      "stage": "实施",
+      "source": "中国政府网 / 应急管理部",
+      "sourceUrl": "https://big5.www.gov.cn/gate/big5/www.gov.cn/lianbo/202601/content_7056032.htm",
+      "type": "regulation",
+      "subtopic": "cn-standards",
+      "subtopicName": "中国国家标准",
+      "description": "《生产安全事故调查技术规范》等三项强制性国家标准实施，覆盖事故调查程序、分类编码和直接经济损失统计。"
+    },
+    {
+      "topicId": "regulation-ddl",
+      "id": "regulation-ddl-eu-ai-act-general-application-2026-08-02",
+      "title": "EU AI Act 主要规则适用日",
+      "deadline": "2026-08-02T00:00:00+02:00",
+      "dateRange": "2026/08/02 起适用",
+      "location": "European Union",
+      "isOnline": false,
+      "tags": [
+        "EU",
+        "AI Act",
+        "compliance"
+      ],
+      "url": "https://digital-strategy.ec.europa.eu/en/faqs/navigating-ai-act",
+      "status": "upcoming",
+      "stage": "适用",
+      "source": "European Commission",
+      "sourceUrl": "https://digital-strategy.ec.europa.eu/en/faqs/navigating-ai-act",
+      "type": "regulation",
+      "subtopic": "eu-digital",
+      "subtopicName": "欧盟数字法规",
+      "description": "欧盟 AI Act 按阶段适用，主要规则在生效两年后进入适用期，部分高风险系统规则另有过渡期。"
+    },
+    {
+      "topicId": "regulation-ddl",
+      "id": "regulation-ddl-eu-cra-reporting-obligations-2026-09-11",
+      "title": "EU Cyber Resilience Act 报告义务适用",
+      "deadline": "2026-09-11T00:00:00+02:00",
+      "dateRange": "2026/09/11 起适用",
+      "location": "European Union",
+      "isOnline": false,
+      "tags": [
+        "EU",
+        "cybersecurity",
+        "incident reporting"
+      ],
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/cyber-resilience-act",
+      "status": "upcoming",
+      "stage": "适用",
+      "source": "European Commission",
+      "sourceUrl": "https://digital-strategy.ec.europa.eu/en/policies/cyber-resilience-act",
+      "type": "regulation",
+      "subtopic": "eu-digital",
+      "subtopicName": "欧盟数字法规",
+      "description": "制造商主动报告已被利用漏洞和严重网络安全事件的义务开始适用，是 CRA 全面落地前的重要节点。"
+    },
+    {
+      "topicId": "regulation-ddl",
+      "id": "regulation-ddl-cn-lpg-gb11174-2025-2026-11-01",
+      "title": "GB 11174-2025 液化石油气强制性国家标准实施",
+      "deadline": "2026-11-01T00:00:00+08:00",
+      "dateRange": "2026/11/01 起实施",
+      "location": "China",
+      "isOnline": false,
+      "tags": [
+        "国家标准",
+        "液化石油气",
+        "民生安全"
+      ],
+      "url": "https://www.gov.cn/lianbo/bumen/202511/content_7047106.htm",
+      "status": "upcoming",
+      "stage": "实施",
+      "source": "中国政府网 / 市场监管总局",
+      "sourceUrl": "https://www.gov.cn/lianbo/bumen/202511/content_7047106.htm",
+      "type": "regulation",
+      "subtopic": "cn-standards",
+      "subtopicName": "中国国家标准",
+      "description": "新版《液化石油气》强制性国家标准实施，增加并提高产品质量、安全和环保相关指标。"
+    },
+    {
+      "topicId": "regulation-ddl",
+      "id": "regulation-ddl-eu-eudr-large-operators-2026-12-30",
+      "title": "EU Deforestation Regulation 大中型经营者适用日",
+      "deadline": "2026-12-30T00:00:00+01:00",
+      "dateRange": "2026/12/30 起适用",
+      "location": "European Union",
+      "isOnline": false,
+      "tags": [
+        "EU",
+        "deforestation",
+        "supply chain"
+      ],
+      "url": "https://green-forum.ec.europa.eu/deforestation-regulation-implementation_en",
+      "status": "upcoming",
+      "stage": "适用",
+      "source": "European Commission Green Forum",
+      "sourceUrl": "https://green-forum.ec.europa.eu/deforestation-regulation-implementation_en",
+      "type": "regulation",
+      "subtopic": "eu-sustainability",
+      "subtopicName": "欧盟可持续法规",
+      "description": "EUDR 针对大中型经营者和交易商的主要义务进入适用期，涉及相关商品的无毁林供应链尽职调查。"
+    },
+    {
+      "topicId": "regulation-ddl",
+      "id": "regulation-ddl-cn-production-accident-workday-loss-2027-01-01",
+      "title": "GB 15499-2025 事故伤害损失工作日判定标准实施",
+      "deadline": "2027-01-01T00:00:00+08:00",
+      "dateRange": "2027/01/01 起实施",
+      "location": "China",
+      "isOnline": false,
+      "tags": [
+        "国家标准",
+        "安全生产",
+        "事故统计"
+      ],
+      "url": "https://big5.www.gov.cn/gate/big5/www.gov.cn/lianbo/202601/content_7056032.htm",
+      "status": "upcoming",
+      "stage": "实施",
+      "source": "中国政府网 / 应急管理部",
+      "sourceUrl": "https://big5.www.gov.cn/gate/big5/www.gov.cn/lianbo/202601/content_7056032.htm",
+      "type": "regulation",
+      "subtopic": "cn-standards",
+      "subtopicName": "中国国家标准",
+      "description": "强制性国家标准《生产安全事故伤害损失工作日判定》实施，用于事故伤害损失工作日判定。"
+    },
+    {
+      "topicId": "regulation-ddl",
+      "id": "regulation-ddl-eu-battery-passport-2027-02-18",
+      "title": "EU Battery Passport 义务启动",
+      "deadline": "2027-02-18T00:00:00+01:00",
+      "dateRange": "2027/02/18 起适用",
+      "location": "European Union",
+      "isOnline": false,
+      "tags": [
+        "EU",
+        "battery",
+        "digital product passport"
+      ],
+      "url": "https://www.europarl.europa.eu/doceo/document/E-10-2026-000888_EN.html",
+      "status": "upcoming",
+      "stage": "适用",
+      "source": "European Parliament",
+      "sourceUrl": "https://www.europarl.europa.eu/doceo/document/E-10-2026-000888_EN.html",
+      "type": "regulation",
+      "subtopic": "eu-sustainability",
+      "subtopicName": "欧盟可持续法规",
+      "description": "欧盟电池法规下的数字电池护照义务开始适用，覆盖特定 LMT、电动汽车和工业电池类别。"
+    },
+    {
+      "topicId": "regulation-ddl",
+      "id": "regulation-ddl-eu-eudr-micro-small-operators-2027-06-30",
+      "title": "EU Deforestation Regulation 微型和小型经营者适用日",
+      "deadline": "2027-06-30T00:00:00+02:00",
+      "dateRange": "2027/06/30 起适用",
+      "location": "European Union",
+      "isOnline": false,
+      "tags": [
+        "EU",
+        "deforestation",
+        "SME"
+      ],
+      "url": "https://green-forum.ec.europa.eu/deforestation-regulation-implementation_en",
+      "status": "upcoming",
+      "stage": "适用",
+      "source": "European Commission Green Forum",
+      "sourceUrl": "https://green-forum.ec.europa.eu/deforestation-regulation-implementation_en",
+      "type": "regulation",
+      "subtopic": "eu-sustainability",
+      "subtopicName": "欧盟可持续法规",
+      "description": "EUDR 针对自然人以及微型、小型经营者的适用日，作为供应链合规和数据准备的重要节点。"
+    },
+    {
+      "topicId": "regulation-ddl",
+      "id": "regulation-ddl-eu-ai-act-high-risk-article-6-1-2027-08-02",
+      "title": "EU AI Act Article 6(1) 高风险系统义务适用",
+      "deadline": "2027-08-02T00:00:00+02:00",
+      "dateRange": "2027/08/02 起适用",
+      "location": "European Union",
+      "isOnline": false,
+      "tags": [
+        "EU",
+        "AI Act",
+        "high-risk AI"
+      ],
+      "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-113",
+      "status": "upcoming",
+      "stage": "适用",
+      "source": "AI Act Service Desk / European Commission",
+      "sourceUrl": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-113",
+      "type": "regulation",
+      "subtopic": "eu-digital",
+      "subtopicName": "欧盟数字法规",
+      "description": "AI Act Article 6(1) 及相关义务适用，主要影响嵌入受监管产品的高风险 AI 系统。"
+    },
+    {
+      "topicId": "regulation-ddl",
+      "id": "regulation-ddl-eu-battery-due-diligence-2027-08-18",
+      "title": "EU Battery Regulation 尽职调查义务适用",
+      "deadline": "2027-08-18T00:00:00+02:00",
+      "dateRange": "2027/08/18 起适用",
+      "location": "European Union",
+      "isOnline": false,
+      "tags": [
+        "EU",
+        "battery",
+        "due diligence"
+      ],
+      "url": "https://www.consilium.europa.eu/en/press/press-releases/2025/07/18/simplification-council-adopts-law-to-stop-the-clock-on-due-diligence-rules-for-batteries/",
+      "status": "upcoming",
+      "stage": "适用",
+      "source": "Council of the European Union",
+      "sourceUrl": "https://www.consilium.europa.eu/en/press/press-releases/2025/07/18/simplification-council-adopts-law-to-stop-the-clock-on-due-diligence-rules-for-batteries/",
+      "type": "regulation",
+      "subtopic": "eu-sustainability",
+      "subtopicName": "欧盟可持续法规",
+      "description": "电池供应链尽职调查相关义务延后至该日适用，为电池生产商和出口商留出准备期。"
+    },
+    {
+      "topicId": "regulation-ddl",
+      "id": "regulation-ddl-eu-cra-main-obligations-2027-12-11",
+      "title": "EU Cyber Resilience Act 主要义务全面适用",
+      "deadline": "2027-12-11T00:00:00+01:00",
+      "dateRange": "2027/12/11 起适用",
+      "location": "European Union",
+      "isOnline": false,
+      "tags": [
+        "EU",
+        "cybersecurity",
+        "product security"
+      ],
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/cyber-resilience-act",
+      "status": "upcoming",
+      "stage": "适用",
+      "source": "European Commission",
+      "sourceUrl": "https://digital-strategy.ec.europa.eu/en/policies/cyber-resilience-act",
+      "type": "regulation",
+      "subtopic": "eu-digital",
+      "subtopicName": "欧盟数字法规",
+      "description": "Cyber Resilience Act 对带有数字元素产品的主要网络安全要求全面适用。"
+    }
+  ],
   "student-contest-ddl": [
-      {
-          "topicId": "student-contest-ddl",
-          "id": "student-contest-ddl-mathworks-minidrone-ifac-2026-application-2026-05-25",
-          "title": "MathWorks Minidrone IFAC 2026 Application",
-          "deadline": "2026-05-25T23:59:00+09:00",
-          "dateRange": "Application deadline: May 25, 2026",
-          "location": "Busan, Korea / Online first round",
-          "isOnline": true,
-          "tags": [
-              "student competition",
-              "robotics",
-              "MATLAB"
-          ],
-          "url": "https://www.mathworks.com/academia/student-competitions/minidrones/ifac.html",
-          "status": "upcoming",
-          "stage": "Application",
-          "source": "MathWorks",
-          "sourceUrl": "https://www.mathworks.com/academia/student-competitions/minidrones/ifac.html",
-          "type": "contest",
-          "subtopic": "engineering",
-          "subtopicName": "工程与机器人",
-          "description": "IFAC 2026 MathWorks Minidrone Competition 报名截止日，面向全球高校学生团队。"
-      },
-      {
-          "topicId": "student-contest-ddl",
-          "id": "student-contest-ddl-igem-village-project-info-2026-06-24",
-          "title": "iGEM 2026 Village & Project Information Due",
-          "deadline": "2026-06-24T15:00:00Z",
-          "dateRange": "June 24, 2026 15:00 UTC",
-          "location": "Online",
-          "isOnline": true,
-          "tags": [
-              "iGEM",
-              "synthetic biology",
-              "deliverable"
-          ],
-          "url": "https://competition.igem.org/2026/deliverables",
-          "status": "upcoming",
-          "stage": "Deliverable",
-          "source": "iGEM Competition",
-          "sourceUrl": "https://competition.igem.org/2026/deliverables",
-          "type": "contest",
-          "subtopic": "biotech",
-          "subtopicName": "生命科学竞赛",
-          "description": "iGEM 2026 队伍需提交 Village 与项目基本信息，是后续评审材料的前置节点。"
-      },
-      {
-          "topicId": "student-contest-ddl",
-          "id": "student-contest-ddl-mathworks-minidrone-ifac-2026-simulation-2026-06-25",
-          "title": "MathWorks Minidrone IFAC 2026 Simulation Submission",
-          "deadline": "2026-06-25T23:59:00+09:00",
-          "dateRange": "Simulation submission: June 25, 2026",
-          "location": "Online",
-          "isOnline": true,
-          "tags": [
-              "student competition",
-              "simulation",
-              "control"
-          ],
-          "url": "https://www.mathworks.com/academia/student-competitions/minidrones/ifac.html",
-          "status": "upcoming",
-          "stage": "Simulation submission",
-          "source": "MathWorks",
-          "sourceUrl": "https://www.mathworks.com/academia/student-competitions/minidrones/ifac.html",
-          "type": "contest",
-          "subtopic": "engineering",
-          "subtopicName": "工程与机器人",
-          "description": "第一轮仿真提交截止日，用于路径规划、图像处理和控制算法评估。"
-      },
-      {
-          "topicId": "student-contest-ddl",
-          "id": "student-contest-ddl-igem-safety-preliminary-2026-07-01",
-          "title": "iGEM 2026 Safety Forms Preliminary Deadline",
-          "deadline": "2026-07-01T15:00:00Z",
-          "dateRange": "July 1, 2026 15:00 UTC",
-          "location": "Online",
-          "isOnline": true,
-          "tags": [
-              "iGEM",
-              "safety",
-              "bioengineering"
-          ],
-          "url": "https://competition.igem.org/2026/deliverables",
-          "status": "upcoming",
-          "stage": "Preliminary deadline",
-          "source": "iGEM Competition",
-          "sourceUrl": "https://competition.igem.org/2026/deliverables",
-          "type": "contest",
-          "subtopic": "biotech",
-          "subtopicName": "生命科学竞赛",
-          "description": "安全表格初稿节点，影响队伍能否继续保持合规参赛。"
-      },
-      {
-          "topicId": "student-contest-ddl",
-          "id": "student-contest-ddl-icsc-qualification-submission-2026-07-05",
-          "title": "International Computer Science Competition Qualification Submission",
-          "deadline": "2026-07-05T23:59:00Z",
-          "dateRange": "July 5, 2026 23:59 UTC",
-          "location": "Online",
-          "isOnline": true,
-          "tags": [
-              "computer science",
-              "student competition",
-              "qualification"
-          ],
-          "url": "https://www.icscompetition.org/docs/ICSC_Deadlines.pdf",
-          "status": "upcoming",
-          "stage": "Qualification submission",
-          "source": "International Computer Science Competition",
-          "sourceUrl": "https://www.icscompetition.org/docs/ICSC_Deadlines.pdf",
-          "type": "contest",
-          "subtopic": "computer-science",
-          "subtopicName": "计算机竞赛",
-          "description": "ICSC 2026 资格赛提交截止日，官方 PDF 标注所有轮次时间均使用 UTC+0。"
-      },
-      {
-          "topicId": "student-contest-ddl",
-          "id": "student-contest-ddl-icsc-prefinal-registration-2026-08-11",
-          "title": "ICSC 2026 Pre-Final Registration Deadline",
-          "deadline": "2026-08-11T23:59:00Z",
-          "dateRange": "August 11, 2026 23:59 UTC",
-          "location": "Online",
-          "isOnline": true,
-          "tags": [
-              "computer science",
-              "student competition",
-              "registration"
-          ],
-          "url": "https://www.icscompetition.org/docs/ICSC_Deadlines.pdf",
-          "status": "upcoming",
-          "stage": "Registration",
-          "source": "International Computer Science Competition",
-          "sourceUrl": "https://www.icscompetition.org/docs/ICSC_Deadlines.pdf",
-          "type": "contest",
-          "subtopic": "computer-science",
-          "subtopicName": "计算机竞赛",
-          "description": "ICSC 2026 预决赛注册截止日。"
-      },
-      {
-          "topicId": "student-contest-ddl",
-          "id": "student-contest-ddl-igem-project-promotion-video-2026-08-12",
-          "title": "iGEM 2026 Project Promotion Video Due",
-          "deadline": "2026-08-12T15:00:00Z",
-          "dateRange": "August 12, 2026 15:00 UTC",
-          "location": "Online",
-          "isOnline": true,
-          "tags": [
-              "iGEM",
-              "video",
-              "submission"
-          ],
-          "url": "https://competition.igem.org/2026/deliverables",
-          "status": "upcoming",
-          "stage": "Video due",
-          "source": "iGEM Competition",
-          "sourceUrl": "https://competition.igem.org/2026/deliverables",
-          "type": "contest",
-          "subtopic": "biotech",
-          "subtopicName": "生命科学竞赛",
-          "description": "iGEM 项目推广视频提交截止日，用于公开展示项目方向。"
-      },
-      {
-          "topicId": "student-contest-ddl",
-          "id": "student-contest-ddl-icsc-prefinal-exam-2026-08-16",
-          "title": "ICSC 2026 Pre-Final Exam Deadline",
-          "deadline": "2026-08-16T23:59:00Z",
-          "dateRange": "August 16, 2026 23:59 UTC",
-          "location": "Online",
-          "isOnline": true,
-          "tags": [
-              "computer science",
-              "exam",
-              "student competition"
-          ],
-          "url": "https://www.icscompetition.org/docs/ICSC_Deadlines.pdf",
-          "status": "upcoming",
-          "stage": "Exam deadline",
-          "source": "International Computer Science Competition",
-          "sourceUrl": "https://www.icscompetition.org/docs/ICSC_Deadlines.pdf",
-          "type": "contest",
-          "subtopic": "computer-science",
-          "subtopicName": "计算机竞赛",
-          "description": "ICSC 2026 预决赛考试截止日。"
-      },
-      {
-          "topicId": "student-contest-ddl",
-          "id": "student-contest-ddl-igem-jamboree-talk-proposal-2026-09-16",
-          "title": "iGEM 2026 Jamboree Talk Proposal Due",
-          "deadline": "2026-09-16T15:00:00Z",
-          "dateRange": "September 16, 2026 15:00 UTC",
-          "location": "Online",
-          "isOnline": true,
-          "tags": [
-              "iGEM",
-              "Jamboree",
-              "proposal"
-          ],
-          "url": "https://competition.igem.org/2026/deliverables",
-          "status": "upcoming",
-          "stage": "Proposal due",
-          "source": "iGEM Competition",
-          "sourceUrl": "https://competition.igem.org/2026/deliverables",
-          "type": "contest",
-          "subtopic": "biotech",
-          "subtopicName": "生命科学竞赛",
-          "description": "Grand Jamboree 公开演讲申请截止日。"
-      },
-      {
-          "topicId": "student-contest-ddl",
-          "id": "student-contest-ddl-igem-final-safety-forms-2026-10-07",
-          "title": "iGEM 2026 Safety Forms Final Deadline",
-          "deadline": "2026-10-07T15:00:00Z",
-          "dateRange": "October 7, 2026 15:00 UTC",
-          "location": "Online",
-          "isOnline": true,
-          "tags": [
-              "iGEM",
-              "safety",
-              "final deadline"
-          ],
-          "url": "https://competition.igem.org/2026/deliverables",
-          "status": "upcoming",
-          "stage": "Final deadline",
-          "source": "iGEM Competition",
-          "sourceUrl": "https://competition.igem.org/2026/deliverables",
-          "type": "contest",
-          "subtopic": "biotech",
-          "subtopicName": "生命科学竞赛",
-          "description": "iGEM 安全表格最终截止日，错过可能导致队伍失去评奖资格。"
-      },
-      {
-          "topicId": "student-contest-ddl",
-          "id": "student-contest-ddl-igem-registry-judging-freeze-2026-10-21",
-          "title": "iGEM 2026 Registry Contributions & Judging Form Freeze",
-          "deadline": "2026-10-21T15:00:00Z",
-          "dateRange": "October 21, 2026 15:00 UTC",
-          "location": "Online",
-          "isOnline": true,
-          "tags": [
-              "iGEM",
-              "freeze",
-              "judging"
-          ],
-          "url": "https://competition.igem.org/2026/deliverables",
-          "status": "upcoming",
-          "stage": "Freeze",
-          "source": "iGEM Competition",
-          "sourceUrl": "https://competition.igem.org/2026/deliverables",
-          "type": "contest",
-          "subtopic": "biotech",
-          "subtopicName": "生命科学竞赛",
-          "description": "Registry Contributions 和 Judging Form 冻结节点，是 iGEM 评奖前的关键截止日。"
-      },
-      {
-          "topicId": "student-contest-ddl",
-          "id": "student-contest-ddl-igem-presentation-video-2026-10-28",
-          "title": "iGEM 2026 Presentation Video Due",
-          "deadline": "2026-10-28T15:00:00Z",
-          "dateRange": "October 28, 2026 15:00 UTC",
-          "location": "Online",
-          "isOnline": true,
-          "tags": [
-              "iGEM",
-              "presentation",
-              "video"
-          ],
-          "url": "https://competition.igem.org/2026/deliverables",
-          "status": "upcoming",
-          "stage": "Presentation video",
-          "source": "iGEM Competition",
-          "sourceUrl": "https://competition.igem.org/2026/deliverables",
-          "type": "contest",
-          "subtopic": "biotech",
-          "subtopicName": "生命科学竞赛",
-          "description": "15 分钟 Presentation Video 提交截止日，用于评委和公众查看项目成果。"
-      }
-  ]
-,
+    {
+      "topicId": "student-contest-ddl",
+      "id": "student-contest-ddl-mathworks-minidrone-ifac-2026-application-2026-05-25",
+      "title": "MathWorks Minidrone IFAC 2026 Application",
+      "deadline": "2026-05-25T23:59:00+09:00",
+      "dateRange": "Application deadline: May 25, 2026",
+      "location": "Busan, Korea / Online first round",
+      "isOnline": true,
+      "tags": [
+        "student competition",
+        "robotics",
+        "MATLAB"
+      ],
+      "url": "https://www.mathworks.com/academia/student-competitions/minidrones/ifac.html",
+      "status": "upcoming",
+      "stage": "Application",
+      "source": "MathWorks",
+      "sourceUrl": "https://www.mathworks.com/academia/student-competitions/minidrones/ifac.html",
+      "type": "contest",
+      "subtopic": "engineering",
+      "subtopicName": "工程与机器人",
+      "description": "IFAC 2026 MathWorks Minidrone Competition 报名截止日，面向全球高校学生团队。"
+    },
+    {
+      "topicId": "student-contest-ddl",
+      "id": "student-contest-ddl-igem-village-project-info-2026-06-24",
+      "title": "iGEM 2026 Village & Project Information Due",
+      "deadline": "2026-06-24T15:00:00Z",
+      "dateRange": "June 24, 2026 15:00 UTC",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "iGEM",
+        "synthetic biology",
+        "deliverable"
+      ],
+      "url": "https://competition.igem.org/2026/deliverables",
+      "status": "upcoming",
+      "stage": "Deliverable",
+      "source": "iGEM Competition",
+      "sourceUrl": "https://competition.igem.org/2026/deliverables",
+      "type": "contest",
+      "subtopic": "biotech",
+      "subtopicName": "生命科学竞赛",
+      "description": "iGEM 2026 队伍需提交 Village 与项目基本信息，是后续评审材料的前置节点。"
+    },
+    {
+      "topicId": "student-contest-ddl",
+      "id": "student-contest-ddl-mathworks-minidrone-ifac-2026-simulation-2026-06-25",
+      "title": "MathWorks Minidrone IFAC 2026 Simulation Submission",
+      "deadline": "2026-06-25T23:59:00+09:00",
+      "dateRange": "Simulation submission: June 25, 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "student competition",
+        "simulation",
+        "control"
+      ],
+      "url": "https://www.mathworks.com/academia/student-competitions/minidrones/ifac.html",
+      "status": "upcoming",
+      "stage": "Simulation submission",
+      "source": "MathWorks",
+      "sourceUrl": "https://www.mathworks.com/academia/student-competitions/minidrones/ifac.html",
+      "type": "contest",
+      "subtopic": "engineering",
+      "subtopicName": "工程与机器人",
+      "description": "第一轮仿真提交截止日，用于路径规划、图像处理和控制算法评估。"
+    },
+    {
+      "topicId": "student-contest-ddl",
+      "id": "student-contest-ddl-igem-safety-preliminary-2026-07-01",
+      "title": "iGEM 2026 Safety Forms Preliminary Deadline",
+      "deadline": "2026-07-01T15:00:00Z",
+      "dateRange": "July 1, 2026 15:00 UTC",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "iGEM",
+        "safety",
+        "bioengineering"
+      ],
+      "url": "https://competition.igem.org/2026/deliverables",
+      "status": "upcoming",
+      "stage": "Preliminary deadline",
+      "source": "iGEM Competition",
+      "sourceUrl": "https://competition.igem.org/2026/deliverables",
+      "type": "contest",
+      "subtopic": "biotech",
+      "subtopicName": "生命科学竞赛",
+      "description": "安全表格初稿节点，影响队伍能否继续保持合规参赛。"
+    },
+    {
+      "topicId": "student-contest-ddl",
+      "id": "student-contest-ddl-icsc-qualification-submission-2026-07-05",
+      "title": "International Computer Science Competition Qualification Submission",
+      "deadline": "2026-07-05T23:59:00Z",
+      "dateRange": "July 5, 2026 23:59 UTC",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "computer science",
+        "student competition",
+        "qualification"
+      ],
+      "url": "https://www.icscompetition.org/docs/ICSC_Deadlines.pdf",
+      "status": "upcoming",
+      "stage": "Qualification submission",
+      "source": "International Computer Science Competition",
+      "sourceUrl": "https://www.icscompetition.org/docs/ICSC_Deadlines.pdf",
+      "type": "contest",
+      "subtopic": "computer-science",
+      "subtopicName": "计算机竞赛",
+      "description": "ICSC 2026 资格赛提交截止日，官方 PDF 标注所有轮次时间均使用 UTC+0。"
+    },
+    {
+      "topicId": "student-contest-ddl",
+      "id": "student-contest-ddl-icsc-prefinal-registration-2026-08-11",
+      "title": "ICSC 2026 Pre-Final Registration Deadline",
+      "deadline": "2026-08-11T23:59:00Z",
+      "dateRange": "August 11, 2026 23:59 UTC",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "computer science",
+        "student competition",
+        "registration"
+      ],
+      "url": "https://www.icscompetition.org/docs/ICSC_Deadlines.pdf",
+      "status": "upcoming",
+      "stage": "Registration",
+      "source": "International Computer Science Competition",
+      "sourceUrl": "https://www.icscompetition.org/docs/ICSC_Deadlines.pdf",
+      "type": "contest",
+      "subtopic": "computer-science",
+      "subtopicName": "计算机竞赛",
+      "description": "ICSC 2026 预决赛注册截止日。"
+    },
+    {
+      "topicId": "student-contest-ddl",
+      "id": "student-contest-ddl-igem-project-promotion-video-2026-08-12",
+      "title": "iGEM 2026 Project Promotion Video Due",
+      "deadline": "2026-08-12T15:00:00Z",
+      "dateRange": "August 12, 2026 15:00 UTC",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "iGEM",
+        "video",
+        "submission"
+      ],
+      "url": "https://competition.igem.org/2026/deliverables",
+      "status": "upcoming",
+      "stage": "Video due",
+      "source": "iGEM Competition",
+      "sourceUrl": "https://competition.igem.org/2026/deliverables",
+      "type": "contest",
+      "subtopic": "biotech",
+      "subtopicName": "生命科学竞赛",
+      "description": "iGEM 项目推广视频提交截止日，用于公开展示项目方向。"
+    },
+    {
+      "topicId": "student-contest-ddl",
+      "id": "student-contest-ddl-icsc-prefinal-exam-2026-08-16",
+      "title": "ICSC 2026 Pre-Final Exam Deadline",
+      "deadline": "2026-08-16T23:59:00Z",
+      "dateRange": "August 16, 2026 23:59 UTC",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "computer science",
+        "exam",
+        "student competition"
+      ],
+      "url": "https://www.icscompetition.org/docs/ICSC_Deadlines.pdf",
+      "status": "upcoming",
+      "stage": "Exam deadline",
+      "source": "International Computer Science Competition",
+      "sourceUrl": "https://www.icscompetition.org/docs/ICSC_Deadlines.pdf",
+      "type": "contest",
+      "subtopic": "computer-science",
+      "subtopicName": "计算机竞赛",
+      "description": "ICSC 2026 预决赛考试截止日。"
+    },
+    {
+      "topicId": "student-contest-ddl",
+      "id": "student-contest-ddl-igem-jamboree-talk-proposal-2026-09-16",
+      "title": "iGEM 2026 Jamboree Talk Proposal Due",
+      "deadline": "2026-09-16T15:00:00Z",
+      "dateRange": "September 16, 2026 15:00 UTC",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "iGEM",
+        "Jamboree",
+        "proposal"
+      ],
+      "url": "https://competition.igem.org/2026/deliverables",
+      "status": "upcoming",
+      "stage": "Proposal due",
+      "source": "iGEM Competition",
+      "sourceUrl": "https://competition.igem.org/2026/deliverables",
+      "type": "contest",
+      "subtopic": "biotech",
+      "subtopicName": "生命科学竞赛",
+      "description": "Grand Jamboree 公开演讲申请截止日。"
+    },
+    {
+      "topicId": "student-contest-ddl",
+      "id": "student-contest-ddl-igem-final-safety-forms-2026-10-07",
+      "title": "iGEM 2026 Safety Forms Final Deadline",
+      "deadline": "2026-10-07T15:00:00Z",
+      "dateRange": "October 7, 2026 15:00 UTC",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "iGEM",
+        "safety",
+        "final deadline"
+      ],
+      "url": "https://competition.igem.org/2026/deliverables",
+      "status": "upcoming",
+      "stage": "Final deadline",
+      "source": "iGEM Competition",
+      "sourceUrl": "https://competition.igem.org/2026/deliverables",
+      "type": "contest",
+      "subtopic": "biotech",
+      "subtopicName": "生命科学竞赛",
+      "description": "iGEM 安全表格最终截止日，错过可能导致队伍失去评奖资格。"
+    },
+    {
+      "topicId": "student-contest-ddl",
+      "id": "student-contest-ddl-igem-registry-judging-freeze-2026-10-21",
+      "title": "iGEM 2026 Registry Contributions & Judging Form Freeze",
+      "deadline": "2026-10-21T15:00:00Z",
+      "dateRange": "October 21, 2026 15:00 UTC",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "iGEM",
+        "freeze",
+        "judging"
+      ],
+      "url": "https://competition.igem.org/2026/deliverables",
+      "status": "upcoming",
+      "stage": "Freeze",
+      "source": "iGEM Competition",
+      "sourceUrl": "https://competition.igem.org/2026/deliverables",
+      "type": "contest",
+      "subtopic": "biotech",
+      "subtopicName": "生命科学竞赛",
+      "description": "Registry Contributions 和 Judging Form 冻结节点，是 iGEM 评奖前的关键截止日。"
+    },
+    {
+      "topicId": "student-contest-ddl",
+      "id": "student-contest-ddl-igem-presentation-video-2026-10-28",
+      "title": "iGEM 2026 Presentation Video Due",
+      "deadline": "2026-10-28T15:00:00Z",
+      "dateRange": "October 28, 2026 15:00 UTC",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "iGEM",
+        "presentation",
+        "video"
+      ],
+      "url": "https://competition.igem.org/2026/deliverables",
+      "status": "upcoming",
+      "stage": "Presentation video",
+      "source": "iGEM Competition",
+      "sourceUrl": "https://competition.igem.org/2026/deliverables",
+      "type": "contest",
+      "subtopic": "biotech",
+      "subtopicName": "生命科学竞赛",
+      "description": "15 分钟 Presentation Video 提交截止日，用于评委和公众查看项目成果。"
+    }
+  ],
   "career-fair-ddl": [
-      {
-          "topicId": "career-fair-ddl",
-          "id": "career-fair-ddl-umich-fall-engineering-career-fair-2026-09-09",
-          "title": "University of Michigan Fall Engineering Career Fair",
-          "deadline": "2026-09-09T12:00:00-04:00",
-          "dateRange": "September 9, 2026",
-          "location": "Ann Arbor, USA",
-          "isOnline": false,
-          "tags": [
-              "engineering",
-              "career fair",
-              "university"
-          ],
-          "url": "https://careercenter.umich.edu/content/career-center-fairs",
-          "status": "upcoming",
-          "stage": "Event start",
-          "source": "University of Michigan Career Center",
-          "sourceUrl": "https://careercenter.umich.edu/content/career-center-fairs",
-          "type": "program",
-          "subtopic": "campus-career-fair",
-          "subtopicName": "高校招聘会",
-          "description": "密歇根大学 Fall Engineering Career Fair 官方页面节点，面向工程学生与雇主。"
-      },
-      {
-          "topicId": "career-fair-ddl",
-          "id": "career-fair-ddl-umass-amherst-internship-fair-2026-09-11",
-          "title": "UMass Amherst Internship Fair",
-          "deadline": "2026-09-11T10:00:00-04:00",
-          "dateRange": "September 11, 2026",
-          "location": "Amherst, USA",
-          "isOnline": false,
-          "tags": [
-              "internship",
-              "career fair",
-              "university"
-          ],
-          "url": "https://www.umass.edu/careers/employers/career-fairs",
-          "status": "upcoming",
-          "stage": "Event start",
-          "source": "UMass Amherst Career Development",
-          "sourceUrl": "https://www.umass.edu/careers/employers/career-fairs",
-          "type": "program",
-          "subtopic": "campus-career-fair",
-          "subtopicName": "高校招聘会",
-          "description": "UMass Amherst Fall 2026 internship fair 官方日期，用于实习和校招提醒。"
-      },
-      {
-          "topicId": "career-fair-ddl",
-          "id": "career-fair-ddl-uic-engineering-technology-fair-2026-09-16",
-          "title": "UIC Engineering and Technology Job & Internship Fair",
-          "deadline": "2026-09-16T12:00:00-05:00",
-          "dateRange": "September 16, 2026",
-          "location": "Chicago, USA",
-          "isOnline": false,
-          "tags": [
-              "engineering",
-              "technology",
-              "career fair"
-          ],
-          "url": "https://ecc.uic.edu/employers/career-fairs/",
-          "status": "upcoming",
-          "stage": "Event start",
-          "source": "University of Illinois Chicago Engineering Career Center",
-          "sourceUrl": "https://ecc.uic.edu/employers/career-fairs/",
-          "type": "program",
-          "subtopic": "campus-career-fair",
-          "subtopicName": "高校招聘会",
-          "description": "UIC 工程与技术 Job & Internship Fair，覆盖工程和技术相关专业。"
-      },
-      {
-          "topicId": "career-fair-ddl",
-          "id": "career-fair-ddl-osu-university-wide-career-fair-2026-09-16",
-          "title": "Ohio State University-Wide Career and Internship Fair",
-          "deadline": "2026-09-16T11:00:00-04:00",
-          "dateRange": "September 16-17, 2026",
-          "location": "Columbus / Online",
-          "isOnline": false,
-          "tags": [
-              "career fair",
-              "internship",
-              "hybrid"
-          ],
-          "url": "https://careers.osu.edu/events-and-programs/university-wide-career-and-internship-fair",
-          "status": "upcoming",
-          "stage": "Event start",
-          "source": "The Ohio State University Career Center",
-          "sourceUrl": "https://careers.osu.edu/events-and-programs/university-wide-career-and-internship-fair",
-          "type": "program",
-          "subtopic": "campus-career-fair",
-          "subtopicName": "高校招聘会",
-          "description": "Ohio State 全校 Career and Internship Fair，包含线下和虚拟日程。"
-      },
-      {
-          "topicId": "career-fair-ddl",
-          "id": "career-fair-ddl-unh-fall-career-internship-fair-2026-09-16",
-          "title": "UNH Fall Career & Internship Fair",
-          "deadline": "2026-09-16T11:00:00-04:00",
-          "dateRange": "September 16-17, 2026",
-          "location": "Durham, USA",
-          "isOnline": false,
-          "tags": [
-              "career fair",
-              "internship",
-              "graduate students"
-          ],
-          "url": "https://www.unh.edu/career/career-events/career-internship-fair/employer-logistics",
-          "status": "upcoming",
-          "stage": "Event start",
-          "source": "University of New Hampshire Career and Professional Success",
-          "sourceUrl": "https://www.unh.edu/career/career-events/career-internship-fair/employer-logistics",
-          "type": "program",
-          "subtopic": "campus-career-fair",
-          "subtopicName": "高校招聘会",
-          "description": "UNH Fall 2026 Career & Internship Fair，覆盖本科、硕士和校友求职场景。"
-      },
-      {
-          "topicId": "career-fair-ddl",
-          "id": "career-fair-ddl-umn-cse-career-fair-2026-09-22",
-          "title": "University of Minnesota CSE Career Fair",
-          "deadline": "2026-09-22T11:00:00-05:00",
-          "dateRange": "September 22-23, 2026",
-          "location": "Minneapolis, USA",
-          "isOnline": false,
-          "tags": [
-              "CSE",
-              "engineering",
-              "career fair"
-          ],
-          "url": "https://cse.umn.edu/college/career/cse-career-fair",
-          "status": "upcoming",
-          "stage": "Event start",
-          "source": "University of Minnesota College of Science and Engineering",
-          "sourceUrl": "https://cse.umn.edu/college/career/cse-career-fair",
-          "type": "program",
-          "subtopic": "campus-career-fair",
-          "subtopicName": "高校招聘会",
-          "description": "UMN College of Science and Engineering Fall 2026 Career Fair 官方日期。"
-      },
-      {
-          "topicId": "career-fair-ddl",
-          "id": "career-fair-ddl-kstate-all-university-career-fair-2026-09-22",
-          "title": "Kansas State All-University Career Fair",
-          "deadline": "2026-09-22T11:00:00-05:00",
-          "dateRange": "September 22-24, 2026",
-          "location": "Manhattan, USA",
-          "isOnline": false,
-          "tags": [
-              "career fair",
-              "university-wide",
-              "employer"
-          ],
-          "url": "https://www.k-state.edu/careercenter/conference/documents/EABJan26.pdf",
-          "status": "upcoming",
-          "stage": "Event start",
-          "source": "Kansas State University Career Center",
-          "sourceUrl": "https://www.k-state.edu/careercenter/conference/documents/EABJan26.pdf",
-          "type": "program",
-          "subtopic": "campus-career-fair",
-          "subtopicName": "高校招聘会",
-          "description": "Kansas State All-University Career Fair，官方资料列出 2026 年 9 月 22-24 日窗口。"
-      }
+    {
+      "topicId": "career-fair-ddl",
+      "id": "career-fair-ddl-umich-fall-engineering-career-fair-2026-09-09",
+      "title": "University of Michigan Fall Engineering Career Fair",
+      "deadline": "2026-09-09T12:00:00-04:00",
+      "dateRange": "September 9, 2026",
+      "location": "Ann Arbor, USA",
+      "isOnline": false,
+      "tags": [
+        "engineering",
+        "career fair",
+        "university"
+      ],
+      "url": "https://careercenter.umich.edu/content/career-center-fairs",
+      "status": "upcoming",
+      "stage": "Event start",
+      "source": "University of Michigan Career Center",
+      "sourceUrl": "https://careercenter.umich.edu/content/career-center-fairs",
+      "type": "program",
+      "subtopic": "campus-career-fair",
+      "subtopicName": "高校招聘会",
+      "description": "密歇根大学 Fall Engineering Career Fair 官方页面节点，面向工程学生与雇主。"
+    },
+    {
+      "topicId": "career-fair-ddl",
+      "id": "career-fair-ddl-umass-amherst-internship-fair-2026-09-11",
+      "title": "UMass Amherst Internship Fair",
+      "deadline": "2026-09-11T10:00:00-04:00",
+      "dateRange": "September 11, 2026",
+      "location": "Amherst, USA",
+      "isOnline": false,
+      "tags": [
+        "internship",
+        "career fair",
+        "university"
+      ],
+      "url": "https://www.umass.edu/careers/employers/career-fairs",
+      "status": "upcoming",
+      "stage": "Event start",
+      "source": "UMass Amherst Career Development",
+      "sourceUrl": "https://www.umass.edu/careers/employers/career-fairs",
+      "type": "program",
+      "subtopic": "campus-career-fair",
+      "subtopicName": "高校招聘会",
+      "description": "UMass Amherst Fall 2026 internship fair 官方日期，用于实习和校招提醒。"
+    },
+    {
+      "topicId": "career-fair-ddl",
+      "id": "career-fair-ddl-uic-engineering-technology-fair-2026-09-16",
+      "title": "UIC Engineering and Technology Job & Internship Fair",
+      "deadline": "2026-09-16T12:00:00-05:00",
+      "dateRange": "September 16, 2026",
+      "location": "Chicago, USA",
+      "isOnline": false,
+      "tags": [
+        "engineering",
+        "technology",
+        "career fair"
+      ],
+      "url": "https://ecc.uic.edu/employers/career-fairs/",
+      "status": "upcoming",
+      "stage": "Event start",
+      "source": "University of Illinois Chicago Engineering Career Center",
+      "sourceUrl": "https://ecc.uic.edu/employers/career-fairs/",
+      "type": "program",
+      "subtopic": "campus-career-fair",
+      "subtopicName": "高校招聘会",
+      "description": "UIC 工程与技术 Job & Internship Fair，覆盖工程和技术相关专业。"
+    },
+    {
+      "topicId": "career-fair-ddl",
+      "id": "career-fair-ddl-osu-university-wide-career-fair-2026-09-16",
+      "title": "Ohio State University-Wide Career and Internship Fair",
+      "deadline": "2026-09-16T11:00:00-04:00",
+      "dateRange": "September 16-17, 2026",
+      "location": "Columbus / Online",
+      "isOnline": false,
+      "tags": [
+        "career fair",
+        "internship",
+        "hybrid"
+      ],
+      "url": "https://careers.osu.edu/events-and-programs/university-wide-career-and-internship-fair",
+      "status": "upcoming",
+      "stage": "Event start",
+      "source": "The Ohio State University Career Center",
+      "sourceUrl": "https://careers.osu.edu/events-and-programs/university-wide-career-and-internship-fair",
+      "type": "program",
+      "subtopic": "campus-career-fair",
+      "subtopicName": "高校招聘会",
+      "description": "Ohio State 全校 Career and Internship Fair，包含线下和虚拟日程。"
+    },
+    {
+      "topicId": "career-fair-ddl",
+      "id": "career-fair-ddl-unh-fall-career-internship-fair-2026-09-16",
+      "title": "UNH Fall Career & Internship Fair",
+      "deadline": "2026-09-16T11:00:00-04:00",
+      "dateRange": "September 16-17, 2026",
+      "location": "Durham, USA",
+      "isOnline": false,
+      "tags": [
+        "career fair",
+        "internship",
+        "graduate students"
+      ],
+      "url": "https://www.unh.edu/career/career-events/career-internship-fair/employer-logistics",
+      "status": "upcoming",
+      "stage": "Event start",
+      "source": "University of New Hampshire Career and Professional Success",
+      "sourceUrl": "https://www.unh.edu/career/career-events/career-internship-fair/employer-logistics",
+      "type": "program",
+      "subtopic": "campus-career-fair",
+      "subtopicName": "高校招聘会",
+      "description": "UNH Fall 2026 Career & Internship Fair，覆盖本科、硕士和校友求职场景。"
+    },
+    {
+      "topicId": "career-fair-ddl",
+      "id": "career-fair-ddl-umn-cse-career-fair-2026-09-22",
+      "title": "University of Minnesota CSE Career Fair",
+      "deadline": "2026-09-22T11:00:00-05:00",
+      "dateRange": "September 22-23, 2026",
+      "location": "Minneapolis, USA",
+      "isOnline": false,
+      "tags": [
+        "CSE",
+        "engineering",
+        "career fair"
+      ],
+      "url": "https://cse.umn.edu/college/career/cse-career-fair",
+      "status": "upcoming",
+      "stage": "Event start",
+      "source": "University of Minnesota College of Science and Engineering",
+      "sourceUrl": "https://cse.umn.edu/college/career/cse-career-fair",
+      "type": "program",
+      "subtopic": "campus-career-fair",
+      "subtopicName": "高校招聘会",
+      "description": "UMN College of Science and Engineering Fall 2026 Career Fair 官方日期。"
+    },
+    {
+      "topicId": "career-fair-ddl",
+      "id": "career-fair-ddl-kstate-all-university-career-fair-2026-09-22",
+      "title": "Kansas State All-University Career Fair",
+      "deadline": "2026-09-22T11:00:00-05:00",
+      "dateRange": "September 22-24, 2026",
+      "location": "Manhattan, USA",
+      "isOnline": false,
+      "tags": [
+        "career fair",
+        "university-wide",
+        "employer"
+      ],
+      "url": "https://www.k-state.edu/careercenter/conference/documents/EABJan26.pdf",
+      "status": "upcoming",
+      "stage": "Event start",
+      "source": "Kansas State University Career Center",
+      "sourceUrl": "https://www.k-state.edu/careercenter/conference/documents/EABJan26.pdf",
+      "type": "program",
+      "subtopic": "campus-career-fair",
+      "subtopicName": "高校招聘会",
+      "description": "Kansas State All-University Career Fair，官方资料列出 2026 年 9 月 22-24 日窗口。"
+    }
   ]
-
 };
 
 export function getDDLByTopic(topicId: string): DDLItem[] {
