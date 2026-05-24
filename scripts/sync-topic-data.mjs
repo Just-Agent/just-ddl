@@ -24,11 +24,13 @@ const PUBLIC_PRIVATE_KEYS = new Set([
   'developerNote',
   'developerComment',
   'developerRemark',
+  'devComment',
   'devNote',
   'devRemark',
   'error',
   'forecastBasis',
   'internalNote',
+  'internalComment',
   'internalRemark',
   'lastChecked',
   'licenseNote',
@@ -39,6 +41,7 @@ const PUBLIC_PRIVATE_KEYS = new Set([
   'parser',
   'parserConfidence',
   'privateNote',
+  'privateComment',
   'privateRemark',
   'raw',
   'rawHtml',
@@ -48,12 +51,14 @@ const PUBLIC_PRIVATE_KEYS = new Set([
   'sampleNote',
   'scopeNote',
   'debugNote',
+  'debugComment',
   'debugRemark',
   'sourcePolicy',
   'sourcePriority',
   'validationNote'
 ]);
 const PUBLIC_PRIVATE_KEY_PATTERNS = [
+  /^(?:internal|private|debug|crawler|crawl|parser|adapter|raw|error)[A-Za-z0-9_]*$/i,
   /(?:developer|dev|maintainer|internal|private|debug|crawler|crawl|parser|adapter|license|coverage|sample|scope|linkCheck|validation|review|ops|sync|raw|error)[A-Za-z0-9_]*(?:Note|Notes|Comment|Comments|Memo|Memos|Remark|Remarks|Annotation|Annotations|Report|Reports|Message|Messages)$/i,
   /^(?:raw|error|stack|trace|exception)$/i,
   /(?:开发者|开发人员|开发|内部|内测|维护者?|维护人|运营|调试|私有|私人|爬虫|解析器|原始|错误).{0,16}(?:备注|说明|注释|留言|消息|报告|记录)$/i
@@ -70,6 +75,7 @@ const PUBLIC_TEXT_REWRITES = [
   [/\bcrawler\b/gi, '自动更新流程']
 ];
 const PUBLIC_FORBIDDEN_TEXT = [
+  /\b(?:developerNote|developerComment|developerRemark|devNote|devComment|devRemark|debugNote|debugComment|debugRemark|internalNote|internalComment|internalRemark|privateNote|privateComment|privateRemark|maintainerNote|maintainerComment|maintainerRemark|forecastBasis|releaseCadence|accessMode|apiUrl|licenseNote|scopeNote|linkCheckMode|parserConfidence|sourcePolicy|sourcePriority|validationNote|crawlerReport|debugReport|rawHtml|rawPayload|rawSource)\b/,
   /curated coverage seed/i,
   /official-style seed/i,
   /crawler seed/i,

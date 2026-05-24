@@ -40,13 +40,16 @@ const PRIVATE_KEYS = [
   'developerNote',
   'developerComment',
   'developerRemark',
+  'devComment',
   'devNote',
   'devRemark',
   'debugNote',
+  'debugComment',
   'debugRemark',
   'error',
   'forecastBasis',
   'internalNote',
+  'internalComment',
   'internalRemark',
   'lastChecked',
   'licenseNote',
@@ -57,6 +60,7 @@ const PRIVATE_KEYS = [
   'parser',
   'parserConfidence',
   'privateNote',
+  'privateComment',
   'privateRemark',
   'raw',
   'rawHtml',
@@ -71,11 +75,13 @@ const PRIVATE_KEYS = [
 ];
 const PRIVATE_KEY_SET = new Set(PRIVATE_KEYS);
 const PRIVATE_KEY_PATTERNS = [
+  /^(?:internal|private|debug|crawler|crawl|parser|adapter|raw|error)[A-Za-z0-9_]*$/i,
   /(?:developer|dev|maintainer|internal|private|debug|crawler|crawl|parser|adapter|license|coverage|sample|scope|linkCheck|validation|review|ops|sync|raw|error)[A-Za-z0-9_]*(?:Note|Notes|Comment|Comments|Memo|Memos|Remark|Remarks|Annotation|Annotations|Report|Reports|Message|Messages)$/i,
   /^(?:raw|error|stack|trace|exception)$/i,
   /(?:开发者|开发人员|开发|内部|内测|维护者?|维护人|运营|调试|私有|私人|爬虫|解析器|原始|错误).{0,16}(?:备注|说明|注释|留言|消息|报告|记录)$/i
 ];
 const FORBIDDEN_PUBLIC_TEXT = [
+  /\b(?:developerNote|developerComment|developerRemark|devNote|devComment|devRemark|debugNote|debugComment|debugRemark|internalNote|internalComment|internalRemark|privateNote|privateComment|privateRemark|maintainerNote|maintainerComment|maintainerRemark|forecastBasis|releaseCadence|accessMode|apiUrl|licenseNote|scopeNote|linkCheckMode|parserConfidence|sourcePolicy|sourcePriority|validationNote|crawlerReport|debugReport|rawHtml|rawPayload|rawSource)\b/,
   /curated coverage seed/i,
   /official-style seed/i,
   /crawler seed/i,
@@ -126,6 +132,14 @@ const DIRECT_RENDER_PATTERNS = [
   }
 ];
 const DIST_FORBIDDEN_PATTERNS = [
+  {
+    pattern: /["'](?:internal|private|debug|crawler|crawl|parser|adapter|raw|error)[A-Za-z0-9_]*["']\s*:/i,
+    message: 'developer-only patterned data key is present in built public assets'
+  },
+  {
+    pattern: /\b(?:developerNote|developerComment|developerRemark|devNote|devComment|devRemark|debugNote|debugComment|debugRemark|internalNote|internalComment|internalRemark|privateNote|privateComment|privateRemark|maintainerNote|maintainerComment|maintainerRemark|forecastBasis|releaseCadence|accessMode|apiUrl|licenseNote|scopeNote|linkCheckMode|parserConfidence|sourcePolicy|sourcePriority|validationNote|crawlerReport|debugReport|rawHtml|rawPayload|rawSource)\b/,
+    message: 'developer-only field name text is present in built public assets'
+  },
   {
     pattern: /["'](?:accessMode|adapter|apiUrl|coverageNote|crawler|crawlerReport|crawledAt|debug|debugReport|deadlineTimezone|developerNote|developerComment|developerRemark|devNote|devRemark|debugNote|debugRemark|error|forecastBasis|internalNote|internalRemark|lastChecked|licenseNote|linkCheckMode|maintainerNote|maintainerComment|maintainerRemark|parser|parserConfidence|privateNote|privateRemark|raw|rawHtml|rawPayload|rawSource|releaseCadence|sampleNote|scopeNote|sourcePolicy|sourcePriority|validationNote|[A-Za-z0-9_]*(?:developer|dev|maintainer|internal|private|debug|crawler|crawl|parser|adapter|license|coverage|sample|scope|linkCheck|validation|review|ops|sync|raw|error)[A-Za-z0-9_]*(?:Note|Notes|Comment|Comments|Memo|Memos|Remark|Remarks|Annotation|Annotations|Report|Reports|Message|Messages)|(?:开发者|开发人员|开发|内部|内测|维护者?|维护人|运营|调试|私有|私人|爬虫|解析器|原始|错误).{0,16}(?:备注|说明|注释|留言|消息|报告|记录))["']\s*:/,
     message: 'developer-only data key is present in built public assets'

@@ -82,7 +82,7 @@ index.html
 - 针对不同 source 写明确解析器，不只做 reachability check。
 - 失败时保留现有 curated 数据，不写入空数据污染仓库。
 - 输出本地运行摘要，便于排查；该摘要不进入 Pages 或公开数据出口。
-- 包含 `parsedItemCount`、`invalidItemCount`、`parserHealthy`、`parserDropOk`。
+- 摘要至少覆盖解析数量、无效数量、健康状态和保护阈值；这些诊断字段只留在本地或 Action 日志，不进入公开页面。
 - 对数据量突然下降设置保护阈值。
 - 明确区分 deadline 是报名截止、提交截止、活动开始还是活动结束。
 
