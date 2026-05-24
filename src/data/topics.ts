@@ -430,6 +430,7 @@ export const topics: Topic[] = [
     "repo": "Just-Agent/game-ddl",
     "site": "https://just-agent.github.io/game-ddl/",
     "status": "published",
+    "dataUrl": "public-data/items.json",
     "itemCount": 16,
     "category": "电竞赛事",
     "tags": [
@@ -451,7 +452,7 @@ export const topics: Topic[] = [
     "status": "published",
     "sourceMode": "cluster",
     "clusterId": "game-ddl",
-    "dataUrl": "data/game-version-ddl/items.json",
+    "dataUrl": "public-data/game-version-ddl/items.json",
     "itemCount": 30,
     "category": "电竞赛事",
     "tags": [
@@ -472,7 +473,7 @@ export const topics: Topic[] = [
     "status": "published",
     "sourceMode": "cluster",
     "clusterId": "entertainment-ddl",
-    "dataUrl": "data/concert-ddl/items.json",
+    "dataUrl": "public-data/concert-ddl/items.json",
     "itemCount": 8,
     "category": "文娱生活",
     "tags": [
@@ -492,7 +493,7 @@ export const topics: Topic[] = [
     "status": "published",
     "sourceMode": "cluster",
     "clusterId": "entertainment-ddl",
-    "dataUrl": "data/movie-tv-ddl/items.json",
+    "dataUrl": "public-data/movie-tv-ddl/items.json",
     "itemCount": 16,
     "category": "文娱生活",
     "tags": [

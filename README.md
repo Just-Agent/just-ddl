@@ -143,10 +143,10 @@ flowchart TB
 | 雅思托福 | [exam-ddl](https://github.com/Just-Agent/exam-ddl) | [访问](https://just-agent.github.io/exam-ddl/#ielts-toefl-ddl) | 专题族数据出口 `data/ielts-toefl-ddl/items.json` |
 | 考公考编 | [civil-service-ddl](https://github.com/pengpoom/civil-service-ddl) | [访问](https://pengpoom.github.io/civil-service-ddl/) | 外部联邦专题 + 定时更新 |
 | 体育赛事 | [sports-ddl](https://github.com/Just-Agent/sports-ddl) | [访问](https://just-agent.github.io/sports-ddl/) | crawler + validator + link-check |
-| 电竞赛事 | [game-ddl](https://github.com/Just-Agent/game-ddl) | [访问](https://just-agent.github.io/game-ddl/) | crawler + validator + link-check |
-| 游戏版本 | [game-ddl](https://github.com/Just-Agent/game-ddl) | [访问](https://just-agent.github.io/game-ddl/#game-version-ddl) | 专题族数据出口 `data/game-version-ddl/items.json` |
-| 演唱会 | [entertainment-ddl](https://github.com/Just-Agent/entertainment-ddl) | [访问](https://just-agent.github.io/entertainment-ddl/#concert-ddl) | 专题族数据出口 `data/concert-ddl/items.json` |
-| 电影电视剧 | [entertainment-ddl](https://github.com/Just-Agent/entertainment-ddl) | [访问](https://just-agent.github.io/entertainment-ddl/#movie-tv-ddl) | 专题族数据出口 `data/movie-tv-ddl/items.json` |
+| 电竞赛事 | [game-ddl](https://github.com/Just-Agent/game-ddl) | [访问](https://just-agent.github.io/game-ddl/) | 专题公开出口 `public-data/items.json` |
+| 游戏版本 | [game-ddl](https://github.com/Just-Agent/game-ddl) | [访问](https://just-agent.github.io/game-ddl/#game-version-ddl) | 专题族公开出口 `public-data/game-version-ddl/items.json` |
+| 演唱会 | [entertainment-ddl](https://github.com/Just-Agent/entertainment-ddl) | [访问](https://just-agent.github.io/entertainment-ddl/#concert-ddl) | 专题族公开出口 `public-data/concert-ddl/items.json` |
+| 电影电视剧 | [entertainment-ddl](https://github.com/Just-Agent/entertainment-ddl) | [访问](https://just-agent.github.io/entertainment-ddl/#movie-tv-ddl) | 专题族公开出口 `public-data/movie-tv-ddl/items.json` |
 | 手机发布 | [consumer-launch-ddl](https://github.com/Just-Agent/consumer-launch-ddl) | [访问](https://just-agent.github.io/consumer-launch-ddl/#phone-launch-ddl) | 专题族公开出口 `public-data/phone-launch-ddl/items.json` |
 | 汽车发布 | [consumer-launch-ddl](https://github.com/Just-Agent/consumer-launch-ddl) | [访问](https://just-agent.github.io/consumer-launch-ddl/#car-launch-ddl) | 专题族公开出口 `public-data/car-launch-ddl/items.json` |
 | 新规实施 | [public-life-ddl](https://github.com/Just-Agent/public-life-ddl) | [访问](https://just-agent.github.io/public-life-ddl/#regulation-ddl) | 专题族数据出口 `data/regulation-ddl/items.json` |
@@ -315,7 +315,7 @@ https://raw.githubusercontent.com/owner/xxx-ddl/main/data/items.json
   site: 'https://just-agent.github.io/game-ddl/#game-version-ddl',
   sourceMode: 'cluster',
   clusterId: 'game-ddl',
-  dataUrl: 'data/game-version-ddl/items.json'
+  dataUrl: 'public-data/game-version-ddl/items.json'
 }
 ```
 
