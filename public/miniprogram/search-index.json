@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-24T10:16:33.593Z",
-  "dataVersion": "c3098a8583ab1ded",
+  "generatedAt": "2026-05-24T11:04:53.544Z",
+  "dataVersion": "4243bf0cf8b24e22",
   "topics": [
     {
       "id": "hackathon-ddl",
@@ -422,7 +422,7 @@
         "model release",
         "forecast"
       ],
-      "itemCount": 13,
+      "itemCount": 18,
       "status": "published"
     },
     {
@@ -10085,49 +10085,91 @@
       "source": "Kansas State University Career Center"
     },
     {
-      "id": "kimi-k2-0711-preview",
+      "id": "deepseek-chat-reasoner-retirement-2026",
       "topicId": "llm-release-ddl",
-      "title": "Kimi K2 0711 Preview 发布",
-      "date": "2025-07-11",
-      "type": "historyEvent",
-      "status": "ended",
+      "title": "DeepSeek chat/reasoner 旧入口退役",
+      "deadline": "2026-07-24T15:59:00Z",
+      "type": "officialDeadline",
+      "status": "upcoming",
+      "tags": [
+        "DeepSeek",
+        "API",
+        "retirement"
+      ],
+      "subtopic": "deepseek",
+      "source": "DeepSeek API Docs"
+    },
+    {
+      "id": "glm-next-major-forecast-2026",
+      "topicId": "llm-release-ddl",
+      "title": "GLM 下一代主力模型预测窗口",
+      "estimatedNextWindow": {
+        "start": "2026-06-06",
+        "end": "2026-07-04"
+      },
+      "type": "forecastWindow",
+      "status": "unannounced",
+      "tags": [
+        "GLM",
+        "预测窗口",
+        "未官宣"
+      ],
+      "subtopic": "glm",
+      "source": "Z.ai"
+    },
+    {
+      "id": "kimi-next-major-forecast-2026",
+      "topicId": "llm-release-ddl",
+      "title": "Kimi 下一代主力模型预测窗口",
+      "estimatedNextWindow": {
+        "start": "2026-06-16",
+        "end": "2026-07-14"
+      },
+      "type": "forecastWindow",
+      "status": "unannounced",
       "tags": [
         "Kimi",
-        "Moonshot",
-        "K2"
+        "预测窗口",
+        "未官宣"
       ],
       "subtopic": "kimi",
       "source": "Moonshot AI"
     },
     {
-      "id": "kimi-k2-0905-preview",
+      "id": "deepseek-next-major-forecast-2026",
       "topicId": "llm-release-ddl",
-      "title": "Kimi K2 0905 Preview 发布",
-      "date": "2025-09-05",
-      "type": "historyEvent",
-      "status": "ended",
+      "title": "DeepSeek 下一代主力模型预测窗口",
+      "estimatedNextWindow": {
+        "start": "2026-08-17",
+        "end": "2026-10-14"
+      },
+      "type": "forecastWindow",
+      "status": "unannounced",
       "tags": [
-        "Kimi",
-        "Moonshot",
-        "K2"
+        "DeepSeek",
+        "预测窗口",
+        "未官宣"
       ],
-      "subtopic": "kimi",
-      "source": "Moonshot AI"
+      "subtopic": "deepseek",
+      "source": "DeepSeek API Docs"
     },
     {
-      "id": "kimi-k2-think",
+      "id": "minimax-next-major-forecast-2026",
       "topicId": "llm-release-ddl",
-      "title": "Kimi K2 Think 发布",
-      "date": "2025-11-06",
-      "type": "historyEvent",
-      "status": "ended",
+      "title": "MiniMax 下一代主力模型预测窗口",
+      "estimatedNextWindow": {
+        "start": "2026-11-07",
+        "end": "2027-01-30"
+      },
+      "type": "forecastWindow",
+      "status": "unannounced",
       "tags": [
-        "Kimi",
-        "Thinking",
-        "Moonshot"
+        "MiniMax",
+        "预测窗口",
+        "未官宣"
       ],
-      "subtopic": "kimi",
-      "source": "Moonshot AI"
+      "subtopic": "minimax",
+      "source": "MiniMax"
     },
     {
       "id": "deepseek-r1-release",
@@ -10160,19 +10202,19 @@
       "source": "DeepSeek API Docs"
     },
     {
-      "id": "deepseek-v3-2-release",
+      "id": "kimi-k2-0711-preview",
       "topicId": "llm-release-ddl",
-      "title": "DeepSeek-V3.2 发布",
-      "date": "2025-12-01",
+      "title": "Kimi K2 0711 Preview 发布",
+      "date": "2025-07-11",
       "type": "historyEvent",
       "status": "ended",
       "tags": [
-        "DeepSeek",
-        "V3.2",
-        "release"
+        "Kimi",
+        "Moonshot",
+        "K2"
       ],
-      "subtopic": "deepseek",
-      "source": "DeepSeek API Docs"
+      "subtopic": "kimi",
+      "source": "Moonshot AI"
     },
     {
       "id": "glm-4-5-release",
@@ -10188,6 +10230,21 @@
       ],
       "subtopic": "glm",
       "source": "Z.ai"
+    },
+    {
+      "id": "kimi-k2-0905-preview",
+      "topicId": "llm-release-ddl",
+      "title": "Kimi K2 0905 Preview 发布",
+      "date": "2025-09-05",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "Kimi",
+        "Moonshot",
+        "K2"
+      ],
+      "subtopic": "kimi",
+      "source": "Moonshot AI"
     },
     {
       "id": "glm-4-6-release",
@@ -10220,73 +10277,91 @@
       "source": "MiniMax"
     },
     {
-      "id": "kimi-next-major-forecast-2026",
+      "id": "kimi-k2-think",
       "topicId": "llm-release-ddl",
-      "title": "Kimi 下一代主力模型预测窗口",
-      "estimatedNextWindow": {
-        "start": "2026-06-16",
-        "end": "2026-07-14"
-      },
-      "type": "forecastWindow",
-      "status": "unannounced",
+      "title": "Kimi K2 Think 发布",
+      "date": "2025-11-06",
+      "type": "historyEvent",
+      "status": "ended",
       "tags": [
         "Kimi",
-        "预测窗口",
-        "未官宣"
+        "Thinking",
+        "Moonshot"
       ],
       "subtopic": "kimi",
       "source": "Moonshot AI"
     },
     {
-      "id": "deepseek-next-major-forecast-2026",
+      "id": "deepseek-v3-2-release",
       "topicId": "llm-release-ddl",
-      "title": "DeepSeek 下一代主力模型预测窗口",
-      "estimatedNextWindow": {
-        "start": "2026-04-06",
-        "end": "2026-06-09"
-      },
-      "type": "forecastWindow",
-      "status": "unannounced",
+      "title": "DeepSeek-V3.2 发布",
+      "date": "2025-12-01",
+      "type": "historyEvent",
+      "status": "ended",
       "tags": [
         "DeepSeek",
-        "预测窗口",
-        "未官宣"
+        "V3.2",
+        "release"
       ],
       "subtopic": "deepseek",
       "source": "DeepSeek API Docs"
     },
     {
-      "id": "glm-next-major-forecast-2026",
+      "id": "glm-4-7-release",
       "topicId": "llm-release-ddl",
-      "title": "GLM 下一代主力模型预测窗口",
-      "estimatedNextWindow": {
-        "start": "2026-05-30",
-        "end": "2026-06-27"
-      },
-      "type": "forecastWindow",
-      "status": "unannounced",
+      "title": "GLM-4.7 发布",
+      "date": "2025-12-22",
+      "type": "historyEvent",
+      "status": "ended",
       "tags": [
         "GLM",
-        "预测窗口",
-        "未官宣"
+        "Z.ai",
+        "coding"
       ],
       "subtopic": "glm",
       "source": "Z.ai"
     },
     {
-      "id": "minimax-next-major-forecast-2026",
+      "id": "glm-5-release",
       "topicId": "llm-release-ddl",
-      "title": "MiniMax 下一代主力模型预测窗口",
-      "estimatedNextWindow": {
-        "start": "2026-05-01",
-        "end": "2026-09-30"
-      },
-      "type": "forecastWindow",
-      "status": "unannounced",
+      "title": "GLM-5 发布",
+      "date": "2026-02-12",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "GLM-5",
+        "Z.ai",
+        "agent"
+      ],
+      "subtopic": "glm",
+      "source": "Z.ai"
+    },
+    {
+      "id": "deepseek-v4-preview-release",
+      "topicId": "llm-release-ddl",
+      "title": "DeepSeek-V4 Preview 发布",
+      "date": "2026-04-24",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "DeepSeek",
+        "V4",
+        "preview"
+      ],
+      "subtopic": "deepseek",
+      "source": "DeepSeek API Docs"
+    },
+    {
+      "id": "minimax-m2-5-release",
+      "topicId": "llm-release-ddl",
+      "title": "MiniMax M2.5 发布",
+      "date": "2026-05-24",
+      "type": "historyEvent",
+      "status": "ended",
       "tags": [
         "MiniMax",
-        "预测窗口",
-        "未官宣"
+        "M2.5",
+        "agent"
       ],
       "subtopic": "minimax",
       "source": "MiniMax"

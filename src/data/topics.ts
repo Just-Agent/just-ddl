@@ -594,7 +594,7 @@ export const topics: Topic[] = [
     "sourceMode": "cluster",
     "clusterId": "ai-model-release-ddl",
     "dataUrl": "data/topics/llm-release-ddl/items.json",
-    "itemCount": 13,
+    "itemCount": 18,
     "category": "AI 发布",
     "tags": [
       "LLM",
