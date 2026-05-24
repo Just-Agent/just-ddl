@@ -424,7 +424,7 @@ export const topics: Topic[] = [
   {
     "id": "game-version-ddl",
     "name": "Game Versions",
-    "description": "英雄联盟、云顶之弈等游戏版本、补丁和赛季更新时间倒计时。",
+    "description": "英雄联盟、云顶之弈等游戏版本、补丁更新时间，含官方 patch schedule、历史节点和预测窗口。",
     "icon": "Gamepad2",
     "color": "#0EA5E9",
     "repo": "Just-Agent/game-ddl",
@@ -433,7 +433,7 @@ export const topics: Topic[] = [
     "sourceMode": "cluster",
     "clusterId": "game-ddl",
     "dataUrl": "data/game-version-ddl/items.json",
-    "itemCount": 10,
+    "itemCount": 30,
     "category": "电竞赛事",
     "tags": [
       "game update",

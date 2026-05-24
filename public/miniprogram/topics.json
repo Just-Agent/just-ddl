@@ -402,7 +402,7 @@
   {
     "id": "game-version-ddl",
     "name": "Game Versions",
-    "description": "英雄联盟、云顶之弈等游戏版本、补丁和赛季更新时间倒计时。",
+    "description": "英雄联盟、云顶之弈等游戏版本、补丁更新时间，含官方 patch schedule、历史节点和预测窗口。",
     "icon": "Gamepad2",
     "color": "#0EA5E9",
     "repo": "Just-Agent/game-ddl",
@@ -414,7 +414,7 @@
       "League of Legends",
       "Teamfight Tactics"
     ],
-    "itemCount": 10,
+    "itemCount": 30,
     "status": "published",
     "sourceMode": "cluster",
     "clusterId": "game-ddl"
