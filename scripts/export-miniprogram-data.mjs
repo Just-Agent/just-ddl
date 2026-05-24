@@ -188,6 +188,7 @@ function metricLite(metric, topicId) {
     'metric',
     'value',
     'year',
+    'yearCompleteness',
     'asOfDate',
     'source',
     'url',
