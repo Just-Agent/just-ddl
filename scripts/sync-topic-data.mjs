@@ -28,6 +28,7 @@ const PUBLIC_PRIVATE_KEYS = new Set([
   'internalNote',
   'lastChecked',
   'licenseNote',
+  'linkCheckMode',
   'maintainerNote',
   'maintainerComment',
   'parser',

@@ -33,6 +33,7 @@ const PRIVATE_KEYS = [
   'forecastBasis',
   'internalNote',
   'licenseNote',
+  'linkCheckMode',
   'maintainerNote',
   'maintainerComment',
   'parser',
@@ -69,7 +70,7 @@ const DIRECT_RENDER_PATTERNS = [
 ];
 const DIST_FORBIDDEN_PATTERNS = [
   {
-    pattern: /["'](?:accessMode|adapter|coverageNote|crawler|crawlerReport|debugReport|deadlineTimezone|developerNote|developerComment|devNote|debugNote|forecastBasis|internalNote|licenseNote|maintainerNote|maintainerComment|parser|parserConfidence|privateNote|rawHtml|rawPayload|rawSource|releaseCadence|sampleNote|scopeNote|sourcePolicy|sourcePriority|validationNote)["']\s*:/,
+    pattern: /["'](?:accessMode|adapter|coverageNote|crawler|crawlerReport|debugReport|deadlineTimezone|developerNote|developerComment|devNote|debugNote|forecastBasis|internalNote|licenseNote|linkCheckMode|maintainerNote|maintainerComment|parser|parserConfidence|privateNote|rawHtml|rawPayload|rawSource|releaseCadence|sampleNote|scopeNote|sourcePolicy|sourcePriority|validationNote)["']\s*:/,
     message: 'developer-only data key is present in built public assets'
   },
   {
