@@ -18,14 +18,108 @@ export interface MetricSnapshot {
 export const metricData: Record<string, MetricSnapshot[]> = {
   "nsfc-ddl": [
     {
-      "id": "nsfc-funding-metric-placeholder",
+      "id": "nsfc-2024-applications-received",
       "topicId": "nsfc-ddl",
       "type": "metricSnapshot",
-      "metric": "funding_statistics_plan",
-      "value": "planned",
-      "asOfDate": "2026-05-24",
+      "metric": "applications_received",
+      "displayName": "集中接收项目申请数",
+      "value": 384564,
+      "unit": "项",
+      "year": 2024,
+      "asOfDate": "2024-08-23",
       "source": "国家自然科学基金委员会",
-      "url": "https://www.nsfc.gov.cn/"
+      "url": "https://www.nsfc.gov.cn/p1/3381/2824/66854.html"
+    },
+    {
+      "id": "nsfc-2024-applications-accepted-after-recheck",
+      "topicId": "nsfc-ddl",
+      "type": "metricSnapshot",
+      "metric": "applications_accepted_after_recheck",
+      "displayName": "初审复审后受理数",
+      "value": 383126,
+      "unit": "项",
+      "year": 2024,
+      "asOfDate": "2024-08-23",
+      "source": "国家自然科学基金委员会",
+      "url": "https://www.nsfc.gov.cn/p1/3381/2824/66854.html"
+    },
+    {
+      "id": "nsfc-2024-funded-announced-main-types",
+      "topicId": "nsfc-ddl",
+      "type": "metricSnapshot",
+      "metric": "funded_projects_announced_main_types",
+      "displayName": "已公布资助项目数",
+      "value": 49805,
+      "unit": "项",
+      "year": 2024,
+      "asOfDate": "2024-08-23",
+      "source": "国家自然科学基金委员会",
+      "url": "https://www.nsfc.gov.cn/p1/3381/2824/66854.html"
+    },
+    {
+      "id": "nsfc-2024-funded-to-accepted-rate",
+      "topicId": "nsfc-ddl",
+      "type": "metricSnapshot",
+      "metric": "funded_to_accepted_rate",
+      "displayName": "已公布资助/受理比例",
+      "value": 13,
+      "unit": "%",
+      "year": 2024,
+      "asOfDate": "2024-08-23",
+      "source": "国家自然科学基金委员会",
+      "url": "https://www.nsfc.gov.cn/p1/3381/2824/66854.html"
+    },
+    {
+      "id": "nsfc-2026-applications-received",
+      "topicId": "nsfc-ddl",
+      "type": "metricSnapshot",
+      "metric": "applications_received",
+      "displayName": "集中接收项目申请数",
+      "value": 470561,
+      "unit": "项",
+      "year": 2026,
+      "asOfDate": "2026-04-29",
+      "source": "国家自然科学基金委员会",
+      "url": "https://www.nsfc.gov.cn/p1/3381/2822/122579.html"
+    },
+    {
+      "id": "nsfc-2026-applications-initial-accepted",
+      "topicId": "nsfc-ddl",
+      "type": "metricSnapshot",
+      "metric": "applications_initial_accepted",
+      "displayName": "初审受理数",
+      "value": 469427,
+      "unit": "项",
+      "year": 2026,
+      "asOfDate": "2026-04-29",
+      "source": "国家自然科学基金委员会",
+      "url": "https://www.nsfc.gov.cn/p1/3381/2822/122579.html"
+    },
+    {
+      "id": "nsfc-2026-applications-initial-not-accepted",
+      "topicId": "nsfc-ddl",
+      "type": "metricSnapshot",
+      "metric": "applications_initial_not_accepted",
+      "displayName": "初审不予受理数",
+      "value": 1134,
+      "unit": "项",
+      "year": 2026,
+      "asOfDate": "2026-04-29",
+      "source": "国家自然科学基金委员会",
+      "url": "https://www.nsfc.gov.cn/p1/3381/2822/122579.html"
+    },
+    {
+      "id": "nsfc-2026-initial-acceptance-rate",
+      "topicId": "nsfc-ddl",
+      "type": "metricSnapshot",
+      "metric": "initial_acceptance_rate",
+      "displayName": "初审受理比例",
+      "value": 99.76,
+      "unit": "%",
+      "year": 2026,
+      "asOfDate": "2026-04-29",
+      "source": "国家自然科学基金委员会",
+      "url": "https://www.nsfc.gov.cn/p1/3381/2822/122579.html"
     }
   ],
   "cas-partition-ddl": [

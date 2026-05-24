@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-24T13:22:41.304Z",
-  "dataVersion": "084da3c346fcb97a",
+  "generatedAt": "2026-05-24T14:15:31.085Z",
+  "dataVersion": "12ad67f2a7760ce6",
   "topic": {
     "id": "nsfc-ddl",
     "name": "国家自然科学基金",
@@ -810,14 +810,92 @@
   ],
   "metrics": [
     {
-      "id": "nsfc-funding-metric-placeholder",
+      "id": "nsfc-2024-applications-received",
       "topicId": "nsfc-ddl",
       "type": "metricSnapshot",
-      "metric": "funding_statistics_plan",
-      "value": "planned",
-      "asOfDate": "2026-05-24",
+      "metric": "applications_received",
+      "value": 384564,
+      "year": 2024,
+      "asOfDate": "2024-08-23",
       "source": "国家自然科学基金委员会",
-      "url": "https://www.nsfc.gov.cn/"
+      "url": "https://www.nsfc.gov.cn/p1/3381/2824/66854.html"
+    },
+    {
+      "id": "nsfc-2024-applications-accepted-after-recheck",
+      "topicId": "nsfc-ddl",
+      "type": "metricSnapshot",
+      "metric": "applications_accepted_after_recheck",
+      "value": 383126,
+      "year": 2024,
+      "asOfDate": "2024-08-23",
+      "source": "国家自然科学基金委员会",
+      "url": "https://www.nsfc.gov.cn/p1/3381/2824/66854.html"
+    },
+    {
+      "id": "nsfc-2024-funded-announced-main-types",
+      "topicId": "nsfc-ddl",
+      "type": "metricSnapshot",
+      "metric": "funded_projects_announced_main_types",
+      "value": 49805,
+      "year": 2024,
+      "asOfDate": "2024-08-23",
+      "source": "国家自然科学基金委员会",
+      "url": "https://www.nsfc.gov.cn/p1/3381/2824/66854.html"
+    },
+    {
+      "id": "nsfc-2024-funded-to-accepted-rate",
+      "topicId": "nsfc-ddl",
+      "type": "metricSnapshot",
+      "metric": "funded_to_accepted_rate",
+      "value": 13,
+      "year": 2024,
+      "asOfDate": "2024-08-23",
+      "source": "国家自然科学基金委员会",
+      "url": "https://www.nsfc.gov.cn/p1/3381/2824/66854.html"
+    },
+    {
+      "id": "nsfc-2026-applications-received",
+      "topicId": "nsfc-ddl",
+      "type": "metricSnapshot",
+      "metric": "applications_received",
+      "value": 470561,
+      "year": 2026,
+      "asOfDate": "2026-04-29",
+      "source": "国家自然科学基金委员会",
+      "url": "https://www.nsfc.gov.cn/p1/3381/2822/122579.html"
+    },
+    {
+      "id": "nsfc-2026-applications-initial-accepted",
+      "topicId": "nsfc-ddl",
+      "type": "metricSnapshot",
+      "metric": "applications_initial_accepted",
+      "value": 469427,
+      "year": 2026,
+      "asOfDate": "2026-04-29",
+      "source": "国家自然科学基金委员会",
+      "url": "https://www.nsfc.gov.cn/p1/3381/2822/122579.html"
+    },
+    {
+      "id": "nsfc-2026-applications-initial-not-accepted",
+      "topicId": "nsfc-ddl",
+      "type": "metricSnapshot",
+      "metric": "applications_initial_not_accepted",
+      "value": 1134,
+      "year": 2026,
+      "asOfDate": "2026-04-29",
+      "source": "国家自然科学基金委员会",
+      "url": "https://www.nsfc.gov.cn/p1/3381/2822/122579.html"
+    },
+    {
+      "id": "nsfc-2026-initial-acceptance-rate",
+      "topicId": "nsfc-ddl",
+      "type": "metricSnapshot",
+      "metric": "initial_acceptance_rate",
+      "value": 99.76,
+      "year": 2026,
+      "asOfDate": "2026-04-29",
+      "source": "国家自然科学基金委员会",
+      "url": "https://www.nsfc.gov.cn/p1/3381/2822/122579.html"
     }
   ],
   "subtopics": [

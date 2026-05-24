@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-05-24T13:22:41.304Z",
-  "dataVersion": "084da3c346fcb97a",
+  "generatedAt": "2026-05-24T14:15:31.085Z",
+  "dataVersion": "12ad67f2a7760ce6",
   "appVersion": "0.0.0",
   "baseAssetUrl": "/assets/source-previews/",
   "topicsCount": 36,
   "itemsCount": 775,
-  "metricsCount": 96,
-  "checksum": "084da3c346fcb97a0b91eefe6583e136b9a1600434d01ac4a3052b35d9e197e7",
+  "metricsCount": 103,
+  "checksum": "12ad67f2a7760ce6e87b9357cb74603c2bd17ce72ad6c7ad653ae2d72a0d8947",
   "endpoints": {
     "topics": "/miniprogram/topics.json",
     "searchIndex": "/miniprogram/search-index.json",
