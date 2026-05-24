@@ -2,6 +2,7 @@ import fs from 'node:fs';
 
 const TOPICS_PATH = 'src/data/topics.ts';
 const DATA_PATH = 'src/data/ddl-data.ts';
+const METRICS_PATH = 'src/data/metric-data.ts';
 const CONTRIB_REGISTRY_PATH = 'public/contrib-topics/registry.json';
 const DEFAULT_OWNER = process.env.JUST_DDL_OWNER || 'Just-Agent';
 const STRICT = process.env.STRICT_TOPIC_SYNC === '1';
@@ -19,14 +20,18 @@ const PUBLIC_PRIVATE_KEYS = new Set([
   'debugReport',
   'deadlineTimezone',
   'developerNote',
+  'developerComment',
   'devNote',
   'error',
   'forecastBasis',
+  'internalNote',
   'lastChecked',
   'licenseNote',
   'maintainerNote',
+  'maintainerComment',
   'parser',
   'parserConfidence',
+  'privateNote',
   'raw',
   'rawHtml',
   'rawPayload',
@@ -34,6 +39,7 @@ const PUBLIC_PRIVATE_KEYS = new Set([
   'releaseCadence',
   'sampleNote',
   'scopeNote',
+  'debugNote',
   'sourcePolicy',
   'sourcePriority',
   'validationNote'
@@ -98,10 +104,14 @@ function extractJsonAfter(source, marker, open, close) {
 function readModel() {
   const topicsSource = fs.readFileSync(TOPICS_PATH, 'utf8');
   const dataSource = fs.readFileSync(DATA_PATH, 'utf8');
+  const metricsSource = fs.existsSync(METRICS_PATH) ? fs.readFileSync(METRICS_PATH, 'utf8') : '';
   return {
     topics: JSON.parse(extractJsonAfter(topicsSource, 'export const topics', '[', ']')),
     categories: JSON.parse(extractJsonAfter(topicsSource, 'export const categories', '[', ']')),
-    ddlData: JSON.parse(extractJsonAfter(dataSource, 'export const ddlData', '{', '}'))
+    ddlData: JSON.parse(extractJsonAfter(dataSource, 'export const ddlData', '{', '}')),
+    metricData: metricsSource
+      ? JSON.parse(extractJsonAfter(metricsSource, 'export const metricData', '{', '}'))
+      : {}
   };
 }
 
@@ -119,17 +129,26 @@ function rawItemsUrl(topic) {
   return `https://raw.githubusercontent.com/${topicOwner(topic)}/${topicRepoName(topic)}/main/data/items.json`;
 }
 
-function topicDataUrl(topic) {
-  if (topic.dataUrl) {
-    const value = String(topic.dataUrl).trim();
+function resolveRepoDataUrl(topic, dataPath) {
+  if (dataPath) {
+    const value = String(dataPath).trim();
     if (/^https?:\/\//.test(value)) return value;
     const relativePath = value.replaceAll('\\', '/').replace(/^\.?\//, '');
     if (!relativePath || relativePath.includes('..')) {
-      throw new Error(`${topic.id}: invalid dataUrl ${topic.dataUrl}`);
+      throw new Error(`${topic.id}: invalid data path ${dataPath}`);
     }
     return `https://raw.githubusercontent.com/${topicOwner(topic)}/${topicRepoName(topic)}/main/${relativePath}`;
   }
+  return '';
+}
+
+function topicDataUrl(topic) {
+  if (topic.dataUrl) return resolveRepoDataUrl(topic, topic.dataUrl);
   return rawItemsUrl(topic);
+}
+
+function topicMetricsUrl(topic) {
+  return topic.metricsUrl ? resolveRepoDataUrl(topic, topic.metricsUrl) : '';
 }
 
 function defaultPagesUrl(topic) {
@@ -223,6 +242,29 @@ function validateItem(topicId, item) {
   const text = JSON.stringify(item);
   if (/\?\?\?\?|�/.test(text)) {
     errors.push(`${topicId}/${item.id}: contains mojibake placeholder`);
+  }
+  return errors;
+}
+
+function validateMetric(topicId, metric) {
+  const errors = [];
+  for (const key of ['id', 'metric', 'value', 'source', 'url']) {
+    if (metric[key] === undefined || metric[key] === null || metric[key] === '') {
+      errors.push(`${topicId}/${metric.id || '<missing-id>'}: missing ${key}`);
+    }
+  }
+  if (metric.url && !/^https?:\/\//.test(metric.url)) {
+    errors.push(`${topicId}/${metric.id}: invalid url ${metric.url}`);
+  }
+  if (metric.asOfDate && Number.isNaN(Date.parse(metric.asOfDate))) {
+    errors.push(`${topicId}/${metric.id}: invalid asOfDate ${metric.asOfDate}`);
+  }
+  if (metric.year !== undefined && (!Number.isInteger(Number(metric.year)) || Number(metric.year) < 1900)) {
+    errors.push(`${topicId}/${metric.id}: invalid year ${metric.year}`);
+  }
+  const text = JSON.stringify(metric);
+  if (/\?\?\?\?|�/.test(text)) {
+    errors.push(`${topicId}/${metric.id}: contains mojibake placeholder`);
   }
   return errors;
 }
@@ -342,6 +384,26 @@ function normalizeItems(topic, items) {
   });
 }
 
+function normalizeMetrics(topic, metrics) {
+  if (!Array.isArray(metrics)) {
+    throw new Error(`${topic.id}: fetched metrics.json is not an array`);
+  }
+  const normalized = metrics.map(metric => ({
+    ...metric,
+    topicId: metric.topicId || topic.id,
+    type: metric.type || 'metricSnapshot'
+  }));
+  const errors = normalized.flatMap(metric => validateMetric(topic.id, metric));
+  if (errors.length) throw new Error(errors.join('\n'));
+
+  const publicMetrics = normalized.map(stripPrivatePublicData);
+  return publicMetrics.sort((a, b) => {
+    const titleDiff = String(a.journalTitle || a.journalId || '').localeCompare(String(b.journalTitle || b.journalId || ''), 'zh-CN');
+    if (titleDiff) return titleDiff;
+    return Number(b.year || 0) - Number(a.year || 0) || String(a.metric).localeCompare(String(b.metric), 'zh-CN');
+  });
+}
+
 function writeTopics(topics, categories) {
   const content = `export interface Topic {
   id: string;
@@ -356,6 +418,7 @@ function writeTopics(topics, categories) {
   clusterId?: string;
   maintainer?: string;
   dataUrl?: string;
+  metricsUrl?: string;
   itemCount: number;
   category: string;
   tags: string[];
@@ -420,6 +483,37 @@ export function getAllDDL(): DDLItem[] {
   fs.writeFileSync(DATA_PATH, content, 'utf8');
 }
 
+function writeMetrics(metricData) {
+  const publicMetrics = stripPrivatePublicData(metricData);
+  const publicErrors = validatePublicPayload(publicMetrics, 'metricData');
+  if (publicErrors.length) throw new Error(publicErrors.join('\n'));
+
+  const content = `export interface MetricSnapshot {
+  [key: string]: unknown;
+  id: string;
+  topicId?: string;
+  type?: 'metricSnapshot' | string;
+  journalId?: string;
+  journalTitle?: string;
+  issn?: string;
+  metric: string;
+  value: number | string;
+  year?: number;
+  asOfDate?: string;
+  source: string;
+  url: string;
+  sourceUrl?: string;
+}
+
+export const metricData: Record<string, MetricSnapshot[]> = ${JSON.stringify(publicMetrics, null, 2)};
+
+export function getMetricsByTopic(topicId: string): MetricSnapshot[] {
+  return metricData[topicId] || [];
+}
+`;
+  fs.writeFileSync(METRICS_PATH, content, 'utf8');
+}
+
 function normalizeContribTopic(topic) {
   const errors = [];
   for (const key of ['id', 'name', 'description', 'icon', 'color', 'category', 'itemsPath', 'sourcesPath']) {
@@ -477,11 +571,12 @@ function matchesDispatchTopic(topic) {
   );
 }
 
-function mergeContribTopics(topics, ddlData) {
+function mergeContribTopics(topics, ddlData, metricData) {
   const registry = readContribRegistry();
   for (let index = topics.length - 1; index >= 0; index -= 1) {
     if (topics[index].sourceMode === 'incubator') {
       delete ddlData[topics[index].id];
+      delete metricData[topics[index].id];
       topics.splice(index, 1);
     }
   }
@@ -543,8 +638,8 @@ function validateCrossTopicUniqueness(ddlData) {
 }
 
 async function main() {
-  const { topics, categories, ddlData } = readModel();
-  const contribCount = mergeContribTopics(topics, ddlData);
+  const { topics, categories, ddlData, metricData } = readModel();
+  const contribCount = mergeContribTopics(topics, ddlData, metricData);
   const targetTopics = topics.filter(topic => topic.sourceMode !== 'incubator' && matchesDispatchTopic(topic));
   if (ONLY_TOPIC && targetTopics.length === 0) {
     const incubatorTopic = topics.find(topic => topic.id === ONLY_TOPIC && topic.sourceMode === 'incubator');
@@ -563,7 +658,26 @@ async function main() {
       topic.status = 'published';
       topic.repo = `${topicOwner(topic)}/${topicRepoName(topic)}`;
       topic.site = topic.site && /^https?:\/\//.test(topic.site) ? topic.site : defaultPagesUrl(topic);
-      summary.push({ topicId: topic.id, itemCount: items.length, url });
+      const metricsUrl = topicMetricsUrl(topic);
+      let metricCount = 0;
+      if (metricsUrl) {
+        try {
+          const metrics = normalizeMetrics(topic, await fetchJson(metricsUrl));
+          metricData[topic.id] = metrics;
+          metricCount = metrics.length;
+        } catch (metricsError) {
+          const fallbackMetrics = metricData[topic.id];
+          const metricsMessage = `${topic.id}: ${metricsError.message}`;
+          if (STRICT || !Array.isArray(fallbackMetrics)) {
+            throw new Error(metricsMessage);
+          }
+          metricCount = fallbackMetrics.length;
+          warnings.push(metricsMessage);
+        }
+      } else {
+        delete metricData[topic.id];
+      }
+      summary.push({ topicId: topic.id, itemCount: items.length, metricCount, url });
     } catch (error) {
       const fallback = ddlData[topic.id];
       const message = `${topic.id}: ${error.message}`;
@@ -578,6 +692,7 @@ async function main() {
   validateCrossTopicUniqueness(ddlData);
   writeTopics(topics, categories);
   writeData(ddlData);
+  writeMetrics(metricData);
 
   console.log(JSON.stringify({
     syncedAt: new Date().toISOString(),

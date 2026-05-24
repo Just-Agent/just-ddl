@@ -36,10 +36,11 @@ import {
 } from 'lucide-react';
 import { getTopicById } from '@/data/topics';
 import { getDDLByTopic, type DDLItem } from '@/data/ddl-data';
+import { getMetricsByTopic, type MetricSnapshot } from '@/data/metric-data';
 import { useSubscriptions } from '@/hooks/useSubscriptions';
 import DDLCard, { type DDLCardVisualMode } from '@/components/DDLCard';
 import { useLanguage } from '@/lib/language';
-import { compareDDLItems, ddlItemTime, formatRelativeDeadline, isActiveDeadlineItem } from '@/lib/ddl';
+import { compareDDLItems, ddlItemTime, formatItemDate, formatRelativeDeadline, isActiveDeadlineItem, isForecastItem, isHistoryItem } from '@/lib/ddl';
 
 const iconMap: Record<string, LucideIcon> = {
   Trophy, Bot, Eye, MessageSquare, GraduationCap, BookOpen, Code2, CalendarHeart, Layers, Medal, Gamepad2, Music, Clapperboard, Smartphone, Car, Scale, BriefcaseBusiness,
@@ -62,6 +63,135 @@ function getItemSubtopic(item: DDLItem) {
     id: typeof item.subtopic === 'string' ? item.subtopic : 'other',
     name: typeof item.subtopicName === 'string' ? item.subtopicName : '其他',
   };
+}
+
+function metricTitle(metric: MetricSnapshot, language: 'zh' | 'en') {
+  const raw = String(metric.metric || '');
+  if (/works_count_by_year/i.test(raw)) return language === 'zh' ? '年度发文量' : 'yearly works';
+  if (/works_count_total/i.test(raw)) return language === 'zh' ? '累计发文量' : 'total works';
+  if (/impact|factor/i.test(raw)) return language === 'zh' ? '影响因子' : 'impact factor';
+  if (/quartile/i.test(raw)) return language === 'zh' ? 'JCR 分区' : 'JCR quartile';
+  if (/cas|partition|zone/i.test(raw)) return language === 'zh' ? 'CAS 分区' : 'CAS zone';
+  return raw.replaceAll('_', ' ');
+}
+
+function metricWhen(metric: MetricSnapshot, language: 'zh' | 'en') {
+  if (metric.year) return String(metric.year);
+  if (typeof metric.asOfDate === 'string') {
+    const time = Date.parse(metric.asOfDate);
+    if (Number.isFinite(time)) return new Date(time).toLocaleDateString(language === 'zh' ? 'zh-CN' : 'en-US');
+  }
+  return language === 'zh' ? '当前快照' : 'current snapshot';
+}
+
+function TopicInsightRails({
+  items,
+  metrics,
+  topicColor,
+}: {
+  items: DDLItem[];
+  metrics: MetricSnapshot[];
+  topicColor: string;
+}) {
+  const { language } = useLanguage();
+  const historyItems = items.filter(isHistoryItem).sort((a, b) => ddlItemTime(b, 0) - ddlItemTime(a, 0)).slice(0, 6);
+  const forecastItems = items.filter(isForecastItem).sort(compareDDLItems).slice(0, 4);
+  const metricItems = metrics.slice(0, 9);
+
+  if (!historyItems.length && !forecastItems.length && !metricItems.length) return null;
+
+  const labels = language === 'zh'
+    ? {
+      eyebrow: '时间轨迹',
+      title: '历史节点、预测窗口与指标快照',
+      copy: '历史节点解释节奏，预测窗口只做观察提醒；指标快照来自公开或授权数据出口，不等同于官方倒计时。',
+      history: '历史轨迹',
+      forecast: '预测窗口',
+      metrics: '指标快照',
+      confidence: '置信度',
+      source: '来源',
+      empty: '暂无数据',
+    }
+    : {
+      eyebrow: 'timeline',
+      title: 'History, Forecasts, And Metrics',
+      copy: 'History explains cadence; forecast windows are watch signals only. Metric snapshots come from public or authorized exports and are not official countdowns.',
+      history: 'History',
+      forecast: 'Forecasts',
+      metrics: 'Metrics',
+      confidence: 'Confidence',
+      source: 'Source',
+      empty: 'No data yet',
+    };
+
+  return (
+    <section className="mt-8 rounded-3xl border bg-white p-5 shadow-sm sm:p-6" style={{ borderColor: '#E2E8F0' }}>
+      <div className="flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
+        <div>
+          <p className="text-xs font-black uppercase tracking-[0.2em]" style={{ color: topicColor }}>{labels.eyebrow}</p>
+          <h2 className="mt-2 text-xl font-black" style={{ color: '#0F172A' }}>{labels.title}</h2>
+          <p className="mt-2 max-w-3xl text-sm leading-7" style={{ color: '#64748B' }}>{labels.copy}</p>
+        </div>
+      </div>
+
+      <div className="mt-5 grid gap-4 xl:grid-cols-3">
+        <article className="rounded-3xl border bg-slate-50 p-4" style={{ borderColor: '#E2E8F0' }}>
+          <h3 className="text-sm font-black" style={{ color: '#0F172A' }}>{labels.history}</h3>
+          <div className="mt-4 space-y-3">
+            {historyItems.length ? historyItems.map(item => (
+              <a key={item.id} href={item.url} target="_blank" rel="noopener noreferrer" className="block rounded-2xl border bg-white p-3 transition hover:-translate-y-0.5" style={{ borderColor: '#E2E8F0' }}>
+                <div className="flex items-center justify-between gap-3">
+                  <span className="rounded-full px-2 py-0.5 text-[10px] font-black" style={{ background: `${topicColor}12`, color: topicColor }}>{formatItemDate(item, language)}</span>
+                  <ExternalLink size={13} style={{ color: '#94A3B8' }} />
+                </div>
+                <p className="mt-2 line-clamp-2 text-xs font-black" style={{ color: '#0F172A' }}>{item.title}</p>
+                <p className="mt-1 truncate text-[11px]" style={{ color: '#64748B' }}>{item.source}</p>
+              </a>
+            )) : <p className="text-xs font-semibold" style={{ color: '#94A3B8' }}>{labels.empty}</p>}
+          </div>
+        </article>
+
+        <article className="rounded-3xl border bg-slate-50 p-4" style={{ borderColor: '#E2E8F0' }}>
+          <h3 className="text-sm font-black" style={{ color: '#0F172A' }}>{labels.forecast}</h3>
+          <div className="mt-4 space-y-3">
+            {forecastItems.length ? forecastItems.map(item => (
+              <a key={item.id} href={item.url} target="_blank" rel="noopener noreferrer" className="block rounded-2xl border bg-white p-3 transition hover:-translate-y-0.5" style={{ borderColor: '#CFFAFE' }}>
+                <div className="flex flex-wrap items-center gap-2">
+                  <span className="rounded-full bg-cyan-50 px-2 py-0.5 text-[10px] font-black text-cyan-700">{formatItemDate(item, language)}</span>
+                  {typeof item.confidence === 'string' && (
+                    <span className="rounded-full bg-amber-50 px-2 py-0.5 text-[10px] font-black text-amber-700">{labels.confidence}: {item.confidence}</span>
+                  )}
+                </div>
+                <p className="mt-2 line-clamp-2 text-xs font-black" style={{ color: '#0F172A' }}>{item.title}</p>
+                <p className="mt-1 line-clamp-2 text-[11px]" style={{ color: '#64748B' }}>{item.description}</p>
+              </a>
+            )) : <p className="text-xs font-semibold" style={{ color: '#94A3B8' }}>{labels.empty}</p>}
+          </div>
+        </article>
+
+        <article className="rounded-3xl border bg-slate-50 p-4" style={{ borderColor: '#E2E8F0' }}>
+          <h3 className="text-sm font-black" style={{ color: '#0F172A' }}>{labels.metrics}</h3>
+          <div className="mt-4 grid gap-3 sm:grid-cols-2 xl:grid-cols-1">
+            {metricItems.length ? metricItems.map(metric => (
+              <a key={metric.id} href={metric.url} target="_blank" rel="noopener noreferrer" className="rounded-2xl border bg-white p-3 transition hover:-translate-y-0.5" style={{ borderColor: '#E2E8F0' }}>
+                <p className="truncate text-[11px] font-black uppercase tracking-[0.12em]" style={{ color: topicColor }}>
+                  {metric.journalTitle || metric.journalId || metricTitle(metric, language)}
+                </p>
+                <div className="mt-2 flex items-end justify-between gap-3">
+                  <div>
+                    <p className="text-xl font-black" style={{ color: '#0F172A' }}>{String(metric.value)}</p>
+                    <p className="text-[11px] font-semibold" style={{ color: '#64748B' }}>{metricTitle(metric, language)} · {metricWhen(metric, language)}</p>
+                  </div>
+                  <ExternalLink size={13} style={{ color: '#94A3B8' }} />
+                </div>
+                <p className="mt-2 truncate text-[11px]" style={{ color: '#94A3B8' }}>{labels.source}: {metric.source}</p>
+              </a>
+            )) : <p className="text-xs font-semibold" style={{ color: '#94A3B8' }}>{labels.empty}</p>}
+          </div>
+        </article>
+      </div>
+    </section>
+  );
 }
 
 function TopicSubtopicPlaza({
@@ -334,6 +464,11 @@ export default function TopicDetail() {
     return getDDLByTopic(topicId).sort(compareDDLItems);
   }, [topicId]);
 
+  const metrics = useMemo(() => {
+    if (!topicId) return [];
+    return getMetricsByTopic(topicId);
+  }, [topicId]);
+
   const subtopicGroups = useMemo<SubtopicGroup[]>(() => {
     if (!topicId || !['sports-ddl', 'game-ddl'].includes(topicId)) return [];
     const groups = new Map<string, SubtopicGroup>();
@@ -468,6 +603,8 @@ export default function TopicDetail() {
           );
         })}
       </section>
+
+      <TopicInsightRails items={items} metrics={metrics} topicColor={topic.color} />
 
       {['sports-ddl', 'game-ddl'].includes(topic.id) && subtopicGroups.length > 0 && (
         <TopicSubtopicPlaza

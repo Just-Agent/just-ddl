@@ -11,6 +11,7 @@ export interface Topic {
   clusterId?: string;
   maintainer?: string;
   dataUrl?: string;
+  metricsUrl?: string;
   itemCount: number;
   category: string;
   tags: string[];

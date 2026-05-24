@@ -3,6 +3,7 @@ import path from 'node:path';
 
 const ROOT = process.cwd();
 const DATA_PATH = path.join(ROOT, 'src/data/ddl-data.ts');
+const METRICS_PATH = path.join(ROOT, 'src/data/metric-data.ts');
 const SCAN_DIST = process.env.JUST_DDL_SCAN_DIST === '1';
 const PUBLIC_SOURCE_GLOBS = [
   'index.html',
@@ -22,12 +23,17 @@ const PRIVATE_KEYS = [
   'debugReport',
   'deadlineTimezone',
   'developerNote',
+  'developerComment',
   'devNote',
+  'debugNote',
   'forecastBasis',
+  'internalNote',
   'licenseNote',
   'maintainerNote',
+  'maintainerComment',
   'parser',
   'parserConfidence',
+  'privateNote',
   'rawHtml',
   'rawPayload',
   'rawSource',
@@ -49,17 +55,17 @@ const FORBIDDEN_PUBLIC_TEXT = [
 ];
 const DIRECT_RENDER_PATTERNS = [
   {
-    pattern: /\$\{[^}]*\.(?:licenseNote|sampleNote|coverageNote|scopeNote|sourcePolicy|parser|accessMode|forecastBasis|releaseCadence|developerNote|devNote|maintainerNote|error\.message)[^}]*\}/,
+    pattern: /\$\{[^}]*\.(?:licenseNote|sampleNote|coverageNote|scopeNote|sourcePolicy|parser|accessMode|forecastBasis|releaseCadence|developerNote|developerComment|devNote|debugNote|internalNote|privateNote|maintainerNote|maintainerComment|error\.message)[^}]*\}/,
     message: 'direct template render of developer-only field'
   },
   {
-    pattern: /<(?:p|span|div|li|strong|small|em|td|th)[^>]*>\s*\{[^}]*\.(?:licenseNote|sampleNote|coverageNote|scopeNote|sourcePolicy|parser|accessMode|forecastBasis|releaseCadence|developerNote|devNote|maintainerNote|error\.message)[^}]*\}\s*<\/(?:p|span|div|li|strong|small|em|td|th)>/,
+    pattern: /<(?:p|span|div|li|strong|small|em|td|th)[^>]*>\s*\{[^}]*\.(?:licenseNote|sampleNote|coverageNote|scopeNote|sourcePolicy|parser|accessMode|forecastBasis|releaseCadence|developerNote|developerComment|devNote|debugNote|internalNote|privateNote|maintainerNote|maintainerComment|error\.message)[^}]*\}\s*<\/(?:p|span|div|li|strong|small|em|td|th)>/,
     message: 'direct JSX render of developer-only field'
   }
 ];
 const DIST_FORBIDDEN_PATTERNS = [
   {
-    pattern: /["'](?:accessMode|coverageNote|crawler|crawlerReport|debugReport|deadlineTimezone|developerNote|devNote|forecastBasis|licenseNote|maintainerNote|parser|parserConfidence|rawHtml|rawPayload|rawSource|releaseCadence|sampleNote|scopeNote|sourcePolicy|sourcePriority|validationNote)["']\s*:/,
+    pattern: /["'](?:accessMode|coverageNote|crawler|crawlerReport|debugReport|deadlineTimezone|developerNote|developerComment|devNote|debugNote|forecastBasis|internalNote|licenseNote|maintainerNote|maintainerComment|parser|parserConfidence|privateNote|rawHtml|rawPayload|rawSource|releaseCadence|sampleNote|scopeNote|sourcePolicy|sourcePriority|validationNote)["']\s*:/,
     message: 'developer-only data key is present in built public assets'
   },
   {
@@ -181,10 +187,15 @@ function currentDistFiles() {
 
 const errors = [];
 
-if (fs.existsSync(DATA_PATH)) {
-  const dataSource = fs.readFileSync(DATA_PATH, 'utf8');
-  const data = JSON.parse(extractJsonAfter(dataSource, 'export const ddlData', '{', '}'));
-  errors.push(...validatePublicData(data));
+for (const [filePath, marker, label] of [
+  [DATA_PATH, 'export const ddlData', 'ddlData'],
+  [METRICS_PATH, 'export const metricData', 'metricData']
+]) {
+  if (fs.existsSync(filePath)) {
+    const dataSource = fs.readFileSync(filePath, 'utf8');
+    const data = JSON.parse(extractJsonAfter(dataSource, marker, '{', '}'));
+    errors.push(...validatePublicData(data, label));
+  }
 }
 
 const sourceFiles = [
