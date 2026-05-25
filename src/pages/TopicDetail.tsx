@@ -36,7 +36,7 @@ import {
 } from 'lucide-react';
 import { getTopicById } from '@/data/topics';
 import { getDDLByTopic, type DDLItem } from '@/data/ddl-data';
-import { getMetricsByTopic, type MetricSnapshot } from '@/data/metric-data';
+import { loadMetricsByTopic, type MetricSnapshot } from '@/data/metric-runtime';
 import { useSubscriptions } from '@/hooks/useSubscriptions';
 import DDLCard, { type DDLCardVisualMode } from '@/components/DDLCard';
 import { useLanguage } from '@/lib/language';
@@ -526,10 +526,22 @@ export default function TopicDetail() {
     return getDDLByTopic(topicId).sort(compareDDLItems);
   }, [topicId]);
 
-  const metrics = useMemo(() => {
-    if (!topicId) return [];
-    return getMetricsByTopic(topicId);
+  const [loadedMetrics, setLoadedMetrics] = useState<{ topicId: string; metrics: MetricSnapshot[] } | null>(null);
+
+  useEffect(() => {
+    let isCurrent = true;
+    if (!topicId) return undefined;
+
+    loadMetricsByTopic(topicId).then((nextMetrics) => {
+      if (isCurrent) setLoadedMetrics({ topicId, metrics: nextMetrics });
+    });
+
+    return () => {
+      isCurrent = false;
+    };
   }, [topicId]);
+
+  const metrics = loadedMetrics?.topicId === topicId ? loadedMetrics.metrics : [];
 
   const subtopicGroups = useMemo<SubtopicGroup[]>(() => {
     if (!topicId || !['sports-ddl', 'game-ddl'].includes(topicId)) return [];
