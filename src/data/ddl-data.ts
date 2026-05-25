@@ -406,7 +406,7 @@ export const ddlData: Record<string, DDLItem[]> = {
         "sourceId": "agents-assemble-healthcare-ai-2026",
         "parser": "official-event-source",
         "parserConfidence": "official-source-metadata",
-        "crawledAt": "2026-05-22T07:47:25.427Z"
+        "crawledAt": "2026-05-25T06:49:39.921Z"
       }
     },
     {
@@ -450,7 +450,7 @@ export const ddlData: Record<string, DDLItem[]> = {
         "sourceId": "devnetwork-ai-ml-hackathon-2026",
         "parser": "official-event-source",
         "parserConfidence": "official-source-metadata",
-        "crawledAt": "2026-05-22T07:47:25.427Z"
+        "crawledAt": "2026-05-25T06:49:39.921Z"
       }
     },
     {
@@ -489,7 +489,7 @@ export const ddlData: Record<string, DDLItem[]> = {
         "sourceId": "international-ai-agents-hackathon-2026",
         "parser": "official-event-source",
         "parserConfidence": "official-source-metadata",
-        "crawledAt": "2026-05-22T07:47:25.427Z"
+        "crawledAt": "2026-05-25T06:49:39.921Z"
       }
     },
     {
@@ -536,7 +536,7 @@ export const ddlData: Record<string, DDLItem[]> = {
         "sourceId": "anac-2026",
         "parser": "official-event-source",
         "parserConfidence": "official-source-metadata",
-        "crawledAt": "2026-05-22T07:47:25.427Z"
+        "crawledAt": "2026-05-25T06:49:39.921Z"
       }
     },
     {
@@ -598,7 +598,7 @@ export const ddlData: Record<string, DDLItem[]> = {
         "sourceId": "google-cloud-rapid-agent-2026",
         "parser": "official-event-source",
         "parserConfidence": "official-source-metadata",
-        "crawledAt": "2026-05-22T07:47:25.427Z"
+        "crawledAt": "2026-05-25T06:49:39.921Z"
       }
     },
     {
@@ -649,7 +649,7 @@ export const ddlData: Record<string, DDLItem[]> = {
         "sourceId": "openclaw-security-ijcai-2026",
         "parser": "official-event-source",
         "parserConfidence": "official-source-metadata",
-        "crawledAt": "2026-05-22T07:47:25.427Z"
+        "crawledAt": "2026-05-25T06:49:39.921Z"
       }
     },
     {
@@ -688,7 +688,7 @@ export const ddlData: Record<string, DDLItem[]> = {
         "sourceId": "mega-agent-a-thon-2026",
         "parser": "official-event-source",
         "parserConfidence": "official-source-metadata",
-        "crawledAt": "2026-05-22T07:47:25.427Z"
+        "crawledAt": "2026-05-25T06:49:39.921Z"
       }
     },
     {
@@ -746,7 +746,7 @@ export const ddlData: Record<string, DDLItem[]> = {
         "sourceId": "splunk-agentic-ops-2026",
         "parser": "official-event-source",
         "parserConfidence": "official-source-metadata",
-        "crawledAt": "2026-05-22T07:47:25.427Z"
+        "crawledAt": "2026-05-25T06:49:39.921Z"
       }
     },
     {
@@ -797,7 +797,7 @@ export const ddlData: Record<string, DDLItem[]> = {
         "sourceId": "ai-olympics-realaigym-2026",
         "parser": "official-event-source",
         "parserConfidence": "official-source-metadata",
-        "crawledAt": "2026-05-22T07:47:25.427Z"
+        "crawledAt": "2026-05-25T06:49:39.921Z"
       }
     },
     {
@@ -851,7 +851,7 @@ export const ddlData: Record<string, DDLItem[]> = {
         "sourceId": "find-evil-agent-security-2026",
         "parser": "official-event-source",
         "parserConfidence": "official-source-metadata",
-        "crawledAt": "2026-05-22T07:47:25.427Z"
+        "crawledAt": "2026-05-25T06:49:39.921Z"
       }
     },
     {
@@ -890,7 +890,7 @@ export const ddlData: Record<string, DDLItem[]> = {
         "sourceId": "usaii-global-ai-hackathon-2026",
         "parser": "official-event-source",
         "parserConfidence": "official-source-metadata",
-        "crawledAt": "2026-05-22T07:47:25.427Z"
+        "crawledAt": "2026-05-25T06:49:39.921Z"
       }
     },
     {
@@ -929,7 +929,7 @@ export const ddlData: Record<string, DDLItem[]> = {
         "sourceId": "sunnyhacks-june-2026",
         "parser": "official-event-source",
         "parserConfidence": "official-source-metadata",
-        "crawledAt": "2026-05-22T07:47:25.427Z"
+        "crawledAt": "2026-05-25T06:49:39.921Z"
       }
     },
     {
@@ -995,7 +995,7 @@ export const ddlData: Record<string, DDLItem[]> = {
         "sourceId": "slack-agent-builder-2026",
         "parser": "official-event-source",
         "parserConfidence": "official-source-metadata",
-        "crawledAt": "2026-05-22T07:47:25.427Z"
+        "crawledAt": "2026-05-25T06:49:39.921Z"
       }
     },
     {
@@ -1060,7 +1060,7 @@ export const ddlData: Record<string, DDLItem[]> = {
         "sourceId": "chinatravel-ai-agent-2026-phase1",
         "parser": "official-event-source",
         "parserConfidence": "official-source-metadata",
-        "crawledAt": "2026-05-22T07:47:25.427Z"
+        "crawledAt": "2026-05-25T06:49:39.921Z"
       }
     },
     {
@@ -1125,7 +1125,7 @@ export const ddlData: Record<string, DDLItem[]> = {
         "sourceId": "car-bench-ijcai-2026-final",
         "parser": "official-event-source",
         "parserConfidence": "official-source-metadata",
-        "crawledAt": "2026-05-22T07:47:25.427Z"
+        "crawledAt": "2026-05-25T06:49:39.921Z"
       }
     },
     {
@@ -1172,7 +1172,7 @@ export const ddlData: Record<string, DDLItem[]> = {
         "sourceId": "car-bench-ijcai-2026-report",
         "parser": "official-event-source",
         "parserConfidence": "official-source-metadata",
-        "crawledAt": "2026-05-22T07:47:25.427Z"
+        "crawledAt": "2026-05-25T06:49:39.921Z"
       }
     },
     {
@@ -1229,7 +1229,7 @@ export const ddlData: Record<string, DDLItem[]> = {
         "sourceId": "industrial-automation-llm-ijcai-2026",
         "parser": "official-event-source",
         "parserConfidence": "official-source-metadata",
-        "crawledAt": "2026-05-22T07:47:25.427Z"
+        "crawledAt": "2026-05-25T06:49:39.921Z"
       }
     },
     {
@@ -1280,7 +1280,7 @@ export const ddlData: Record<string, DDLItem[]> = {
         "sourceId": "chinatravel-ai-agent-2026-report",
         "parser": "official-event-source",
         "parserConfidence": "official-source-metadata",
-        "crawledAt": "2026-05-22T07:47:25.427Z"
+        "crawledAt": "2026-05-25T06:49:39.921Z"
       }
     }
   ],
@@ -1327,7 +1327,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "id": "cvpr2026-cvpr-2026-1st-workshop-on-video-world-models-interaction-memory-and-efficiency-june-3-2026",
       "title": "CVPR 2026 - 1st Workshop on Video World Models: Interaction, Memory, and Efficiency",
       "deadline": "2026-06-03T23:59:59Z",
-      "dateRange": "June 3, 2026 (Wed Half Day)",
+      "dateRange": "June 3, 2026 (Wed AM)",
       "location": "Denver, CO / Online",
       "isOnline": true,
       "tags": [
@@ -1347,7 +1347,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "id": "cvpr2026-cvpr-2026-3rd-workshop-on-scannet-novel-view-synthesis-and-3d-semantic-understanding-chall",
       "title": "CVPR 2026 - 3rd Workshop on ScanNet++ Novel View Synthesis and 3D Semantic Understanding Challenge",
       "deadline": "2026-06-03T23:59:59Z",
-      "dateRange": "June 3, 2026 (Wed Half Day)",
+      "dateRange": "June 3, 2026 (Wed PM)",
       "location": "Denver, CO / Online",
       "isOnline": true,
       "tags": [
@@ -1367,7 +1367,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "id": "cvpr2026-cvpr-2026-ai4rwc-the-2nd-international-workshop-on-vision-intelligence-for-real-world-chal",
       "title": "CVPR 2026 - AI4RWC: The 2nd International Workshop on Vision Intelligence for Real-world Challenges",
       "deadline": "2026-06-03T23:59:59Z",
-      "dateRange": "June 3, 2026 (Wed Half Day)",
+      "dateRange": "June 3, 2026 (Wed AM)",
       "location": "Denver, CO / Online",
       "isOnline": true,
       "tags": [
@@ -1387,7 +1387,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "id": "cvpr2026-cvpr-2026-gigabrain-challenge-2026-workshop-on-world-models-empowering-vision-language-act",
       "title": "CVPR 2026 - GigaBrain Challenge 2026: Workshop on World Models Empowering Vision Language Action Model",
       "deadline": "2026-06-03T23:59:59Z",
-      "dateRange": "June 3, 2026 (Wed Half Day)",
+      "dateRange": "June 3, 2026 (Wed PM)",
       "location": "Denver, CO / Online",
       "isOnline": true,
       "tags": [
@@ -1407,7 +1407,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "id": "cvpr2026-cvpr-2026-multimodal-foundation-models-for-biomedicine-challenges-and-opportunities-june-3",
       "title": "CVPR 2026 - Multimodal Foundation Models for Biomedicine: Challenges and Opportunities",
       "deadline": "2026-06-03T23:59:59Z",
-      "dateRange": "June 3, 2026 (Wed Half Day)",
+      "dateRange": "June 3, 2026 (Wed AM)",
       "location": "Denver, CO / Online",
       "isOnline": true,
       "tags": [
@@ -1427,7 +1427,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "id": "cvpr2026-cvpr-2026-the-2nd-international-workshop-challenge-on-subtle-visual-computing-cvpr-2026-ju",
       "title": "CVPR 2026 - The 2nd International Workshop & Challenge on Subtle Visual Computing @CVPR 2026",
       "deadline": "2026-06-03T23:59:59Z",
-      "dateRange": "June 3, 2026 (Wed Half Day)",
+      "dateRange": "June 3, 2026 (Wed AM)",
       "location": "Denver, CO / Online",
       "isOnline": true,
       "tags": [
@@ -1464,6 +1464,26 @@ export const ddlData: Record<string, DDLItem[]> = {
       "type": "challenge"
     },
     {
+      "id": "cvpr2026-cvpr-2026-the-3rd-ai-for-visual-arts-workshop-and-challenges-june-3-2026-wed-am",
+      "title": "CVPR 2026 - The 3rd AI for Visual Arts Workshop and Challenges",
+      "deadline": "2026-06-03T23:59:59Z",
+      "dateRange": "June 3, 2026 (Wed AM)",
+      "location": "Denver, CO / Online",
+      "isOnline": true,
+      "tags": [
+        "CVPR 2026",
+        "challenge",
+        "workshop",
+        "AI4VA"
+      ],
+      "url": "https://ai4va-cvpr.github.io/",
+      "status": "upcoming",
+      "description": "Parsed from the official CVPR 2026 workshops table.",
+      "stage": "Workshop / challenge session",
+      "source": "CVPR 2026 Workshops",
+      "type": "challenge"
+    },
+    {
       "id": "cvpr2026-cvpr-2026-the-5th-datacv-workshop-and-challenge-june-3-2026-wed-half-day",
       "title": "CVPR 2026 - The 5th DataCV Workshop and Challenge",
       "deadline": "2026-06-03T23:59:59Z",
@@ -1484,10 +1504,30 @@ export const ddlData: Record<string, DDLItem[]> = {
       "type": "challenge"
     },
     {
+      "id": "cvpr2026-cvpr-2026-the-5th-datacv-workshop-and-challenge-june-3-2026-wed-am",
+      "title": "CVPR 2026 - The 5th DataCV Workshop and Challenge",
+      "deadline": "2026-06-03T23:59:59Z",
+      "dateRange": "June 3, 2026 (Wed AM)",
+      "location": "Denver, CO / Online",
+      "isOnline": true,
+      "tags": [
+        "CVPR 2026",
+        "challenge",
+        "workshop",
+        "DataCV"
+      ],
+      "url": "https://sites.google.com/view/datacv-2026-cvpr/",
+      "status": "upcoming",
+      "description": "Parsed from the official CVPR 2026 workshops table.",
+      "stage": "Workshop / challenge session",
+      "source": "CVPR 2026 Workshops",
+      "type": "challenge"
+    },
+    {
       "id": "cvpr2026-cvpr-2026-the-7th-international-workshop-and-cvml-challenge-on-agriculture-vision-challeng",
       "title": "CVPR 2026 - The 7th International Workshop and CVML Challenge on Agriculture-Vision: Challenges & Opportunities for Computer Vision in Agriculture",
       "deadline": "2026-06-03T23:59:59Z",
-      "dateRange": "June 3, 2026 (Wed Half Day)",
+      "dateRange": "June 3, 2026 (Wed PM)",
       "location": "Denver, CO / Online",
       "isOnline": true,
       "tags": [
@@ -1507,7 +1547,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "id": "cvpr2026-cvpr-2026-workshop-on-world-models-meet-active-sensing-and-closed-loop-planning-june-3-202",
       "title": "CVPR 2026 - Workshop on World Models Meet Active Sensing and Closed-Loop Planning",
       "deadline": "2026-06-03T23:59:59Z",
-      "dateRange": "June 3, 2026 (Wed Half Day)",
+      "dateRange": "June 3, 2026 (Wed AM)",
       "location": "Denver, CO / Online",
       "isOnline": true,
       "tags": [
@@ -1516,7 +1556,7 @@ export const ddlData: Record<string, DDLItem[]> = {
         "workshop",
         "WMAS"
       ],
-      "url": "https://cvpr.thecvf.com/Conferences/2026/Workshops",
+      "url": "https://cvpr26wmas.github.io/",
       "status": "upcoming",
       "description": "Parsed from the official CVPR 2026 workshops table.",
       "stage": "Workshop / challenge session",
@@ -1564,10 +1604,30 @@ export const ddlData: Record<string, DDLItem[]> = {
       "type": "challenge"
     },
     {
+      "id": "cvpr2026-cvpr-2026-4d-world-models-bridging-generation-and-reconstruction-june-4-2026-thu-pm",
+      "title": "CVPR 2026 - 4D World Models: Bridging Generation and Reconstruction",
+      "deadline": "2026-06-04T23:59:59Z",
+      "dateRange": "June 4, 2026 (Thu PM)",
+      "location": "Denver, CO / Online",
+      "isOnline": true,
+      "tags": [
+        "CVPR 2026",
+        "challenge",
+        "workshop",
+        "ReGen4D"
+      ],
+      "url": "https://ivl.cs.brown.edu/4dworldmodels/",
+      "status": "upcoming",
+      "description": "Parsed from the official CVPR 2026 workshops table.",
+      "stage": "Workshop / challenge session",
+      "source": "CVPR 2026 Workshops",
+      "type": "challenge"
+    },
+    {
       "id": "cvpr2026-cvpr-2026-6th-workshop-on-cv4animals-computer-vision-for-animal-behavior-tracking-and-mode",
       "title": "CVPR 2026 - 6th Workshop on CV4Animals: Computer Vision for Animal Behavior Tracking and Modeling",
       "deadline": "2026-06-04T23:59:59Z",
-      "dateRange": "June 4, 2026 (Thu Half Day)",
+      "dateRange": "June 4, 2026 (Thu AM)",
       "location": "Denver, CO / Online",
       "isOnline": true,
       "tags": [
@@ -1588,6 +1648,26 @@ export const ddlData: Record<string, DDLItem[]> = {
       "title": "CVPR 2026 - Eighth Workshop on Image Matching: Local Features and Beyond",
       "deadline": "2026-06-04T23:59:59Z",
       "dateRange": "June 4, 2026 (Thu Half Day)",
+      "location": "Denver, CO / Online",
+      "isOnline": true,
+      "tags": [
+        "CVPR 2026",
+        "challenge",
+        "workshop",
+        "IMW"
+      ],
+      "url": "https://image-matching-workshop.github.io/",
+      "status": "upcoming",
+      "description": "Parsed from the official CVPR 2026 workshops table.",
+      "stage": "Workshop / challenge session",
+      "source": "CVPR 2026 Workshops",
+      "type": "challenge"
+    },
+    {
+      "id": "cvpr2026-cvpr-2026-eighth-workshop-on-image-matching-local-features-and-beyond-june-4-2026-thu-pm",
+      "title": "CVPR 2026 - Eighth Workshop on Image Matching: Local Features and Beyond",
+      "deadline": "2026-06-04T23:59:59Z",
+      "dateRange": "June 4, 2026 (Thu PM)",
       "location": "Denver, CO / Online",
       "isOnline": true,
       "tags": [
@@ -1627,7 +1707,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "id": "cvpr2026-cvpr-2026-from-perception-to-persuasion-challenges-and-advances-in-misinformation-detectio",
       "title": "CVPR 2026 - From Perception to Persuasion: Challenges and Advances in Misinformation Detection in Society",
       "deadline": "2026-06-04T23:59:59Z",
-      "dateRange": "June 4, 2026 (Thu Half Day)",
+      "dateRange": "June 4, 2026 (Thu AM)",
       "location": "Denver, CO / Online",
       "isOnline": true,
       "tags": [
@@ -1704,10 +1784,30 @@ export const ddlData: Record<string, DDLItem[]> = {
       "type": "challenge"
     },
     {
+      "id": "cvpr2026-cvpr-2026-pixel-level-video-understanding-in-the-wild-challenge-june-4-2026-thu-pm",
+      "title": "CVPR 2026 - Pixel-level Video Understanding in the Wild Challenge",
+      "deadline": "2026-06-04T23:59:59Z",
+      "dateRange": "June 4, 2026 (Thu PM)",
+      "location": "Denver, CO / Online",
+      "isOnline": true,
+      "tags": [
+        "CVPR 2026",
+        "challenge",
+        "workshop",
+        "PVUW"
+      ],
+      "url": "https://pvuw.github.io/",
+      "status": "upcoming",
+      "description": "Parsed from the official CVPR 2026 workshops table.",
+      "stage": "Workshop / challenge session",
+      "source": "CVPR 2026 Workshops",
+      "type": "challenge"
+    },
+    {
       "id": "cvpr2026-cvpr-2026-the-8th-ug2-workshop-and-challenge-bridging-the-gap-between-computational-photog",
       "title": "CVPR 2026 - The 8th UG2+ Workshop and Challenge: Bridging the Gap between Computational Photography and Visual Perception",
       "deadline": "2026-06-04T23:59:59Z",
-      "dateRange": "June 4, 2026 (Thu Half Day)",
+      "dateRange": "June 4, 2026 (Thu AM)",
       "location": "Denver, CO / Online",
       "isOnline": true,
       "tags": [
@@ -1747,7 +1847,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "id": "cvpr2026-cvpr-2026-vizwiz-grand-challenge-interpreting-images-and-videos-taken-by-blind-people-june",
       "title": "CVPR 2026 - VizWiz Grand Challenge: Interpreting Images and Videos Taken by Blind People",
       "deadline": "2026-06-04T23:59:59Z",
-      "dateRange": "June 4, 2026 (Thu Half Day)",
+      "dateRange": "June 4, 2026 (Thu AM)",
       "location": "Denver, CO / Online",
       "isOnline": true,
       "tags": [
@@ -10796,13 +10896,13 @@ export const ddlData: Record<string, DDLItem[]> = {
       "id": "itchio-jam-noise-jam-3",
       "title": "NOISE JAM 3",
       "deadline": "2026-06-13T08:00:00Z",
-      "deadlineType": "end-computed",
+      "deadlineType": "end",
       "tags": [
         "game jam"
       ],
       "url": "https://itch.io/jam/noise-jam-3",
       "status": "upcoming",
-      "description": "Parsed from itch.io/jams. Deadline is computed from the listed start time plus jam duration.",
+      "description": "Parsed from itch.io/jams. Deadline is the jam end time.",
       "stage": "upcoming",
       "source": "itch.io Jams",
       "type": "contest",
@@ -10919,6 +11019,24 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Source board",
       "source": "Ludum Dare",
       "type": "contest"
+    },
+    {
+      "id": "itchio-jam-gmtk-jam-2026",
+      "title": "GMTK Game Jam 2026",
+      "deadline": "2026-07-26T17:00:00Z",
+      "deadlineType": "end-computed",
+      "tags": [
+        "game jam"
+      ],
+      "url": "https://itch.io/jam/gmtk-jam-2026",
+      "status": "upcoming",
+      "description": "Parsed from itch.io/jams. Deadline is computed from the listed start time plus jam duration.",
+      "stage": "upcoming",
+      "source": "itch.io Jams",
+      "type": "contest",
+      "dateRange": "2026-07-26",
+      "location": "Online",
+      "isOnline": true
     },
     {
       "id": "game-dev-ddl-gmtk-game-jam-2026-08-06",
@@ -12592,173 +12710,6 @@ export const ddlData: Record<string, DDLItem[]> = {
   ],
   "civil-service-ddl": [
     {
-      "id": "civil-service-ddl-beijing-public-recruitment-8162cde1bf",
-      "title": "2026年丰台区卫生健康委直属事业单位第二批公开招聘医疗卫生专业工作人员公告",
-      "deadline": "2026-05-13T16:00:00+08:00",
-      "dateRange": "报名截止：2026年5月13日 16:00",
-      "location": "北京",
-      "isOnline": true,
-      "tags": [
-        "事业单位",
-        "招聘",
-        "报名",
-        "医疗"
-      ],
-      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202604/t20260429_4622415.html",
-      "status": "ended",
-      "description": "北京公开招聘公告，已解析报名截止时间。",
-      "stage": "报名截止",
-      "source": "北京市人力资源和社会保障局公开招聘",
-      "type": "program",
-      "publishedAt": "2026-04-29"
-    },
-    {
-      "id": "civil-service-ddl-beijing-public-recruitment-006d73fb67",
-      "title": "房山区燕山教育委员会所属事业单位2026年第二批公开招聘教师的公告",
-      "deadline": "2026-05-14T15:00:00+08:00",
-      "dateRange": "报名截止：2026年5月14日 15:00",
-      "location": "北京",
-      "isOnline": true,
-      "tags": [
-        "事业单位",
-        "招聘",
-        "报名",
-        "教师"
-      ],
-      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260507_4639213.html",
-      "status": "ended",
-      "description": "北京公开招聘公告，已解析报名截止时间。",
-      "stage": "报名截止",
-      "source": "北京市人力资源和社会保障局公开招聘",
-      "type": "program",
-      "publishedAt": "2026-05-07"
-    },
-    {
-      "id": "civil-service-ddl-beijing-public-recruitment-3c6abc993a",
-      "title": "北京市卫生健康委员会直属事业单位2026年公开招聘工作人员公告",
-      "deadline": "2026-05-14T16:00:00+08:00",
-      "dateRange": "报名截止：2026年5月14日 16:00",
-      "location": "北京",
-      "isOnline": true,
-      "tags": [
-        "事业单位",
-        "招聘",
-        "报名",
-        "医疗"
-      ],
-      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202604/t20260430_4625871.html",
-      "status": "ended",
-      "description": "北京公开招聘公告，已解析报名截止时间。",
-      "stage": "报名截止",
-      "source": "北京市人力资源和社会保障局公开招聘",
-      "type": "program",
-      "publishedAt": "2026-04-30"
-    },
-    {
-      "id": "civil-service-ddl-beijing-public-recruitment-a8e0362052",
-      "title": "北京市大兴区卫生健康委员会2026年第二批事业单位公开招聘工作人员公告",
-      "deadline": "2026-05-14T17:00:00+08:00",
-      "dateRange": "报名截止：2026年5月14日 17:00",
-      "location": "北京",
-      "isOnline": true,
-      "tags": [
-        "事业单位",
-        "招聘",
-        "报名",
-        "医疗"
-      ],
-      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260506_4636745.html",
-      "status": "ended",
-      "description": "北京公开招聘公告，已解析报名截止时间。",
-      "stage": "报名截止",
-      "source": "北京市人力资源和社会保障局公开招聘",
-      "type": "program",
-      "publishedAt": "2026-05-06"
-    },
-    {
-      "id": "civil-service-ddl-beijing-public-recruitment-98c8f37664",
-      "title": "石景山区教育系统事业单位2026年第二次面向应届博士毕业生公开招聘公告",
-      "deadline": "2026-05-14T17:00:00+08:00",
-      "dateRange": "报名截止：2026年5月14日 17:00",
-      "location": "北京",
-      "isOnline": true,
-      "tags": [
-        "事业单位",
-        "招聘",
-        "报名",
-        "教师"
-      ],
-      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260506_4637818.html",
-      "status": "ended",
-      "description": "北京公开招聘公告，已解析报名截止时间。",
-      "stage": "报名截止",
-      "source": "北京市人力资源和社会保障局公开招聘",
-      "type": "program",
-      "publishedAt": "2026-05-06"
-    },
-    {
-      "id": "civil-service-ddl-beijing-public-recruitment-cb5b2154a3",
-      "title": "首都医科大学附属北京口腔医院2026年公开招聘（第三批）公告",
-      "deadline": "2026-05-15T23:59:00+08:00",
-      "dateRange": "报名截止：2026年5月15日 23:59",
-      "location": "北京",
-      "isOnline": true,
-      "tags": [
-        "事业单位",
-        "招聘",
-        "报名",
-        "医疗"
-      ],
-      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202604/t20260430_4625873.html",
-      "status": "ended",
-      "description": "北京公开招聘公告，已解析报名截止时间。",
-      "stage": "报名截止",
-      "source": "北京市人力资源和社会保障局公开招聘",
-      "type": "program",
-      "publishedAt": "2026-04-30"
-    },
-    {
-      "id": "civil-service-ddl-beijing-public-recruitment-abcafd562f",
-      "title": "北京财贸职业学院2026年公开招聘公告（第二批）",
-      "deadline": "2026-05-17T16:00:00+08:00",
-      "dateRange": "报名截止：2026年5月17日 16:00",
-      "location": "北京",
-      "isOnline": true,
-      "tags": [
-        "事业单位",
-        "招聘",
-        "报名"
-      ],
-      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202604/t20260430_4625674.html",
-      "status": "ended",
-      "description": "北京公开招聘公告，已解析报名截止时间。",
-      "stage": "报名截止",
-      "source": "北京市人力资源和社会保障局公开招聘",
-      "type": "program",
-      "publishedAt": "2026-04-30"
-    },
-    {
-      "id": "civil-service-ddl-beijing-public-recruitment-c956b6dcbc",
-      "title": "首都医科大学2026年度事业编制岗位公开招聘公告（第二批）",
-      "deadline": "2026-05-17T22:00:00+08:00",
-      "dateRange": "报名截止：2026年5月17日 22:00",
-      "location": "北京",
-      "isOnline": true,
-      "tags": [
-        "事业单位",
-        "招聘",
-        "报名",
-        "医疗"
-      ],
-      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202604/t20260430_4625644.html",
-      "status": "ended",
-      "description": "北京公开招聘公告，已解析报名截止时间。",
-      "stage": "报名截止",
-      "source": "北京市人力资源和社会保障局公开招聘",
-      "type": "program",
-      "publishedAt": "2026-04-30"
-    },
-    {
       "id": "civil-service-ddl-beijing-public-recruitment-2b7549c412",
       "title": "中共北京市石景山区委党校（区行政学院、区社会主义学院）2026年公开招聘事业单位工作人员公告",
       "deadline": "2026-05-18T16:00:00+08:00",
@@ -12964,6 +12915,47 @@ export const ddlData: Record<string, DDLItem[]> = {
       "publishedAt": "2026-05-19"
     },
     {
+      "id": "civil-service-ddl-beijing-public-recruitment-5effb7edce",
+      "title": "北京第一实验学校、北京第一实验中学和北京第一实验学校幼儿园2026年公开招聘公告",
+      "deadline": "2026-05-29T17:00:00+08:00",
+      "dateRange": "报名截止：2026年5月29日 17:00",
+      "location": "北京",
+      "isOnline": true,
+      "tags": [
+        "事业单位",
+        "招聘",
+        "报名",
+        "教师"
+      ],
+      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260521_4659979.html",
+      "status": "upcoming",
+      "description": "北京公开招聘公告，已解析报名截止时间。",
+      "stage": "报名截止",
+      "source": "北京市人力资源和社会保障局公开招聘",
+      "type": "program",
+      "publishedAt": "2026-05-21"
+    },
+    {
+      "id": "civil-service-ddl-beijing-public-recruitment-8e7ccd9050",
+      "title": "北京工业大学2026年人才引进公告（第二批）",
+      "deadline": "2026-05-29T23:59:00+08:00",
+      "dateRange": "报名截止：2026年5月29日 23:59",
+      "location": "北京",
+      "isOnline": true,
+      "tags": [
+        "事业单位",
+        "招聘",
+        "报名"
+      ],
+      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260521_4659997.html",
+      "status": "upcoming",
+      "description": "北京公开招聘公告，已解析报名截止时间。",
+      "stage": "报名截止",
+      "source": "北京市人力资源和社会保障局公开招聘",
+      "type": "program",
+      "publishedAt": "2026-05-21"
+    },
+    {
       "id": "civil-service-ddl-beijing-public-recruitment-494e7574b0",
       "title": "北京小汤山医院2026年公开招聘公告（第二批）",
       "deadline": "2026-05-31T23:59:00+08:00",
@@ -13004,6 +12996,168 @@ export const ddlData: Record<string, DDLItem[]> = {
       "source": "北京市人力资源和社会保障局公开招聘",
       "type": "program",
       "publishedAt": "2026-05-18"
+    },
+    {
+      "id": "civil-service-ddl-beijing-public-recruitment-ebbe1f08de",
+      "title": "2026年度北京市事业单位面向退役大学生士兵定向招聘公告",
+      "deadline": "2026-06-01T17:00:00+08:00",
+      "dateRange": "报名截止：2026年6月1日 17:00",
+      "location": "北京",
+      "isOnline": true,
+      "tags": [
+        "事业单位",
+        "招聘",
+        "报名"
+      ],
+      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260522_4662600.html",
+      "status": "upcoming",
+      "description": "北京公开招聘公告，已解析报名截止时间。",
+      "stage": "报名截止",
+      "source": "北京市人力资源和社会保障局公开招聘",
+      "type": "program",
+      "publishedAt": "2026-05-22"
+    },
+    {
+      "id": "civil-service-ddl-beijing-public-recruitment-24e7f535df",
+      "title": "北京市密云区教育委员会关于2026年第二次公开招聘教师和工作人员的公告",
+      "deadline": "2026-06-01T17:00:00+08:00",
+      "dateRange": "报名截止：2026年6月1日 17:00",
+      "location": "北京",
+      "isOnline": true,
+      "tags": [
+        "事业单位",
+        "招聘",
+        "报名",
+        "教师"
+      ],
+      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260522_4661685.html",
+      "status": "upcoming",
+      "description": "北京公开招聘公告，已解析报名截止时间。",
+      "stage": "报名截止",
+      "source": "北京市人力资源和社会保障局公开招聘",
+      "type": "program",
+      "publishedAt": "2026-05-22"
+    },
+    {
+      "id": "civil-service-ddl-beijing-public-recruitment-d55ed1f135",
+      "title": "中国音乐学院2026年第二批公开招聘公告",
+      "deadline": "2026-06-02T11:00:00+08:00",
+      "dateRange": "报名截止：2026年6月2日 11:00",
+      "location": "北京",
+      "isOnline": true,
+      "tags": [
+        "事业单位",
+        "招聘",
+        "报名"
+      ],
+      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260522_4661672.html",
+      "status": "upcoming",
+      "description": "北京公开招聘公告，已解析报名截止时间。",
+      "stage": "报名截止",
+      "source": "北京市人力资源和社会保障局公开招聘",
+      "type": "program",
+      "publishedAt": "2026-05-22"
+    },
+    {
+      "id": "civil-service-ddl-beijing-public-recruitment-8cf8fc9697",
+      "title": "北京市顺义区卫生健康委员会2026年第二批公开招聘事业单位工作人员公告",
+      "deadline": "2026-06-02T23:59:00+08:00",
+      "dateRange": "报名截止：2026年6月2日 23:59",
+      "location": "北京",
+      "isOnline": true,
+      "tags": [
+        "事业单位",
+        "招聘",
+        "报名",
+        "医疗"
+      ],
+      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260521_4659984.html",
+      "status": "upcoming",
+      "description": "北京公开招聘公告，已解析报名截止时间。",
+      "stage": "报名截止",
+      "source": "北京市人力资源和社会保障局公开招聘",
+      "type": "program",
+      "publishedAt": "2026-05-21"
+    },
+    {
+      "id": "civil-service-ddl-beijing-public-recruitment-e1609b537b",
+      "title": "中国音乐学院2026年高层次人才引进公告",
+      "deadline": "2026-06-02T23:59:00+08:00",
+      "dateRange": "报名截止：2026年6月2日 23:59",
+      "location": "北京",
+      "isOnline": true,
+      "tags": [
+        "事业单位",
+        "招聘",
+        "报名"
+      ],
+      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260522_4661677.html",
+      "status": "upcoming",
+      "description": "北京公开招聘公告，已解析报名截止时间。",
+      "stage": "报名截止",
+      "source": "北京市人力资源和社会保障局公开招聘",
+      "type": "program",
+      "publishedAt": "2026-05-22"
+    },
+    {
+      "id": "civil-service-ddl-beijing-public-recruitment-166c92a8c2",
+      "title": "北京农学院面向社会公开招聘经济管理学院院长公告",
+      "deadline": "2026-06-03T23:59:00+08:00",
+      "dateRange": "报名截止：2026年6月3日 23:59",
+      "location": "北京",
+      "isOnline": true,
+      "tags": [
+        "事业单位",
+        "招聘",
+        "报名"
+      ],
+      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260525_4664395.html",
+      "status": "upcoming",
+      "description": "北京公开招聘公告，已解析报名截止时间。",
+      "stage": "报名截止",
+      "source": "北京市人力资源和社会保障局公开招聘",
+      "type": "program",
+      "publishedAt": "2026-05-25"
+    },
+    {
+      "id": "civil-service-ddl-beijing-public-recruitment-ccfd6758eb",
+      "title": "北京市规划和自然资源委员会所属事业单位2026年公开招聘工作人员公告",
+      "deadline": "2026-06-04T17:00:00+08:00",
+      "dateRange": "报名截止：2026年6月4日 17:00",
+      "location": "北京",
+      "isOnline": true,
+      "tags": [
+        "事业单位",
+        "招聘",
+        "报名"
+      ],
+      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260525_4664393.html",
+      "status": "upcoming",
+      "description": "北京公开招聘公告，已解析报名截止时间。",
+      "stage": "报名截止",
+      "source": "北京市人力资源和社会保障局公开招聘",
+      "type": "program",
+      "publishedAt": "2026-05-25"
+    },
+    {
+      "id": "civil-service-ddl-beijing-public-recruitment-66e0fd5ea3",
+      "title": "首都体育学院2026年公开招聘公告",
+      "deadline": "2026-06-08T18:00:00+08:00",
+      "dateRange": "报名截止：2026年6月8日 18:00",
+      "location": "北京",
+      "isOnline": true,
+      "tags": [
+        "事业单位",
+        "招聘",
+        "报名"
+      ],
+      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260522_4661696.html",
+      "status": "upcoming",
+      "description": "北京公开招聘公告，已解析报名截止时间。",
+      "stage": "报名截止",
+      "source": "北京市人力资源和社会保障局公开招聘",
+      "type": "program",
+      "publishedAt": "2026-05-22"
     },
     {
       "id": "civil-service-ddl-beijing-public-recruitment-e1e09ba32b",

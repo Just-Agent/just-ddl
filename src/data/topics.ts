@@ -59,7 +59,7 @@ export const topics: Topic[] = [
     "repo": "Just-Agent/cv-ddl",
     "site": "https://just-agent.github.io/cv-ddl/",
     "status": "published",
-    "itemCount": 33,
+    "itemCount": 38,
     "category": "技术赛事",
     "tags": [
       "CVPR",
@@ -317,7 +317,7 @@ export const topics: Topic[] = [
     "sourceMode": "external",
     "maintainer": "pengpoom",
     "dataUrl": "https://raw.githubusercontent.com/pengpoom/civil-service-ddl/main/data/items.json",
-    "itemCount": 27,
+    "itemCount": 29,
     "category": "考试申请",
     "tags": [
       "公务员",
@@ -335,7 +335,7 @@ export const topics: Topic[] = [
     "repo": "Just-Agent/game-dev-ddl",
     "site": "https://just-agent.github.io/game-dev-ddl/",
     "status": "published",
-    "itemCount": 25,
+    "itemCount": 26,
     "category": "设计创作",
     "tags": [
       "game jam",
