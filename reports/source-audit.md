@@ -1,14 +1,14 @@
 # Just-DDL Source Audit
 
-Generated: 2026-05-25T13:12:11.243Z
+Generated: 2026-05-25T13:46:24.804Z
 
 This is an internal production-readiness report. It identifies items that need detail-page upgrades, sourceUrl completion, manual maintenance, or official-source verification. It is not published to GitHub Pages or miniprogram exports.
 
 - Total DDL items: 808
 - Official deadline candidates: 658
 - Missing sourceUrl: 505
-- Root-like URL follow-up: 70
-- Manual/source-board follow-up: 185
+- Root-like URL follow-up: 66
+- Manual/source-board follow-up: 184
 - Seed/demo source wording: 0
 - Aggregator/review-platform source: 21
 
@@ -167,10 +167,6 @@ This is an internal production-readiness report. It identifies items that need d
 | sports-ddl | [TCS New York City Marathon 2026](https://www.tcsnewyorkcitymarathon.org/) | root-like URL without source-board wording | TCS New York City Marathon |
 | concert-ddl | [Wynonna Nashville 2026](https://www.wynonna.com/) | root-like URL without source-board wording | Wynonna official tour |
 | concert-ddl | [Wynonna Red Butte Garden 2026](https://www.wynonna.com/) | root-like URL without source-board wording | Wynonna official tour |
-| phone-launch-ddl | [IFA Berlin 2026](https://www.ifa-berlin.com/) | root-like URL without source-board wording | IFA Berlin official |
-| car-launch-ddl | [Japan Mobility Show Bizweek 2026](https://www.japan-mobility-show.com/) | root-like URL without source-board wording | Japan Mobility Show official |
-| car-launch-ddl | [Auto Shanghai 下一届发布窗口预测](https://www.autoshanghai.org/) | root-like URL without source-board wording | Auto Shanghai official history |
-| car-launch-ddl | [LA Auto Show 2026 Public Days](https://laautoshow.com/) | root-like URL without source-board wording | LA Auto Show official |
 
 ## Manual / Source-Board Follow-Up
 

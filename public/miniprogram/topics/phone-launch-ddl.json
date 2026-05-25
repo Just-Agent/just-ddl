@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-25T13:12:18.739Z",
-  "dataVersion": "36ded0d084622be0",
+  "generatedAt": "2026-05-25T13:46:24.891Z",
+  "dataVersion": "7613d5d84c079a6d",
   "topic": {
     "id": "phone-launch-ddl",
     "name": "Phone Launches",
@@ -57,13 +57,13 @@
         "consumer electronics",
         "mobile"
       ],
-      "url": "https://www.ifa-berlin.com/",
+      "url": "https://www.ifa-berlin.com/press-releases/ifa-visitor-tickets-05-2026",
       "status": "upcoming",
       "stage": "Launch window",
-      "source": "IFA Berlin official",
-      "sourceUrl": "https://www.ifa-berlin.com/",
+      "source": "IFA Berlin official visitor ticket announcement",
+      "sourceUrl": "https://www.ifa-berlin.com/press-releases/ifa-visitor-tickets-05-2026",
       "type": "program",
-      "description": "IFA 官方站点公布 2026 年柏林消费电子展日期；手机与移动设备新品常在该窗口集中发布，具体品牌机型以厂商官方公告为准。",
+      "description": "IFA 官方票务公告确认 2026 年柏林消费电子展于 9 月 4-8 日举行；手机与移动设备新品常在该窗口集中发布，具体品牌机型以厂商官方公告为准。",
       "subtopic": "global-expo",
       "subtopicName": "全球发布窗口"
     },

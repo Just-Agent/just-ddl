@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-25T13:12:18.739Z",
-  "dataVersion": "36ded0d084622be0",
+  "generatedAt": "2026-05-25T13:46:24.891Z",
+  "dataVersion": "7613d5d84c079a6d",
   "topics": [
     {
       "id": "hackathon-ddl",
@@ -10125,9 +10125,9 @@
         "mobile"
       ],
       "subtopic": "global-expo",
-      "source": "IFA Berlin official",
-      "url": "https://www.ifa-berlin.com/",
-      "sourceUrl": "https://www.ifa-berlin.com/"
+      "source": "IFA Berlin official visitor ticket announcement",
+      "url": "https://www.ifa-berlin.com/press-releases/ifa-visitor-tickets-05-2026",
+      "sourceUrl": "https://www.ifa-berlin.com/press-releases/ifa-visitor-tickets-05-2026"
     },
     {
       "id": "phone-launch-ddl-apple-iphone-mainline-forecast-2026",
@@ -10417,9 +10417,9 @@
         "auto tech"
       ],
       "subtopic": "auto-show",
-      "source": "Japan Mobility Show official",
-      "url": "https://www.japan-mobility-show.com/",
-      "sourceUrl": "https://www.japan-mobility-show.com/"
+      "source": "Japan Mobility Show official press release",
+      "url": "https://www.japan-mobility-show.com/en/press_release/2026/0415/index.html",
+      "sourceUrl": "https://www.japan-mobility-show.com/en/press_release/2026/0415/index.html"
     },
     {
       "id": "car-launch-ddl-sema-show-2026-11-03",
@@ -10509,9 +10509,9 @@
         "auto show"
       ],
       "subtopic": "auto-show",
-      "source": "Auto Shanghai official history",
-      "url": "https://www.autoshanghai.org/",
-      "sourceUrl": "https://www.autoshanghai.org/"
+      "source": "Shanghai Municipal Government official schedule",
+      "url": "https://english.shanghai.gov.cn/en-Editorspick-DoBusiness/20260430/7445580f34f8413da68ba0ed2d838385.html",
+      "sourceUrl": "https://english.shanghai.gov.cn/en-Editorspick-DoBusiness/20260430/7445580f34f8413da68ba0ed2d838385.html"
     },
     {
       "id": "car-launch-ddl-automobility-la-2026-11-19",
@@ -10527,8 +10527,8 @@
       ],
       "subtopic": "auto-show",
       "source": "LA Auto Show official",
-      "url": "https://laautoshow.com/",
-      "sourceUrl": "https://laautoshow.com/"
+      "url": "https://laautoshow.com/schedule/",
+      "sourceUrl": "https://laautoshow.com/schedule/"
     },
     {
       "id": "car-launch-ddl-la-auto-show-2026-11-20",
@@ -10544,8 +10544,8 @@
       ],
       "subtopic": "auto-show",
       "source": "LA Auto Show official",
-      "url": "https://laautoshow.com/",
-      "sourceUrl": "https://laautoshow.com/"
+      "url": "https://laautoshow.com/about/",
+      "sourceUrl": "https://laautoshow.com/about/"
     },
     {
       "id": "car-launch-ddl-detroit-auto-show-2027-01-12",
@@ -10577,9 +10577,9 @@
         "world premiere"
       ],
       "subtopic": "auto-show",
-      "source": "Auto Shanghai official",
-      "url": "https://www.autoshanghai.org/",
-      "sourceUrl": "https://www.autoshanghai.org/"
+      "source": "Shanghai Municipal Government official schedule",
+      "url": "https://english.shanghai.gov.cn/en-Editorspick-DoBusiness/20260430/7445580f34f8413da68ba0ed2d838385.html",
+      "sourceUrl": "https://english.shanghai.gov.cn/en-Editorspick-DoBusiness/20260430/7445580f34f8413da68ba0ed2d838385.html"
     },
     {
       "id": "regulation-ddl-cn-fridge-energy-gb12021-2-2025-2026-06-01",

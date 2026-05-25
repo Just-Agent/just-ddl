@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-25T13:12:11.243Z",
-  "dataVersion": "5372e67d23c6c4f3",
+  "generatedAt": "2026-05-25T13:46:24.804Z",
+  "dataVersion": "5b65ee95a3569188",
   "totalItems": 808,
   "officialDeadlineItems": 658,
   "buckets": {
@@ -391,7 +391,7 @@
       ]
     },
     "rootLikeUrl": {
-      "count": 70,
+      "count": 66,
       "byTopic": {
         "cv-ddl": 20,
         "agent-ddl": 11,
@@ -399,13 +399,11 @@
         "robotics-ddl": 8,
         "multimodal-ddl": 4,
         "sports-ddl": 4,
-        "car-launch-ddl": 3,
         "programming-ddl": 3,
         "concert-ddl": 2,
         "hackathon-ddl": 2,
         "nlp-ddl": 2,
-        "academic-ddl": 1,
-        "phone-launch-ddl": 1
+        "academic-ddl": 1
       },
       "sample": [
         {
@@ -771,7 +769,7 @@
       ]
     },
     "manualFollowUp": {
-      "count": 185,
+      "count": 184,
       "byTopic": {
         "academic-ddl": 19,
         "exam-ddl": 16,
@@ -782,10 +780,10 @@
         "hackathon-ddl": 15,
         "nlp-ddl": 15,
         "multimodal-ddl": 13,
-        "car-launch-ddl": 6,
         "civil-service-ddl": 6,
         "ielts-toefl-ddl": 6,
         "journal-ddl": 6,
+        "car-launch-ddl": 5,
         "llm-release-ddl": 5,
         "phone-launch-ddl": 5,
         "movie-tv-ddl": 3,
