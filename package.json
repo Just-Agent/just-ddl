@@ -6,13 +6,14 @@
   "scripts": {
     "dev": "vite",
     "clean": "node scripts/clean-dist.mjs",
-    "build": "npm run clean && npm run validate:public && tsc -b && npm run export:miniprogram && npm run validate:time && npm run validate:hub && npm run validate:public && vite build && npm run validate:public:dist",
+    "build": "npm run clean && npm run validate:public && tsc -b && npm run export:miniprogram && npm run validate:time && npm run validate:hub && npm run validate:research && npm run validate:public && vite build && npm run validate:public:dist",
     "lint": "eslint .",
     "preview": "vite preview",
     "export:miniprogram": "node scripts/export-miniprogram-data.mjs",
     "validate:hub": "node scripts/validate-hub-regression.mjs",
     "validate:public": "node scripts/validate-public-surface.mjs",
     "validate:time": "node scripts/validate-time-semantics.mjs",
+    "validate:research": "node scripts/validate-research-rails.mjs",
     "validate:public:dist": "node scripts/validate-public-surface.mjs --dist",
     "audit:sources": "node scripts/audit-source-coverage.mjs"
   },
