@@ -6,6 +6,8 @@ import { inspectAttr } from 'plugin-inspect-react-code'
 function chunkName(id: string) {
   const normalized = id.replace(/\\/g, '/');
   if (normalized.includes('/src/data/ddl-data.ts')) return 'data-ddl';
+  const ddlRuntimeMatch = normalized.match(/\/src\/data\/ddl-runtime\/([^/]+)\.ts$/);
+  if (ddlRuntimeMatch) return `data-ddl-${ddlRuntimeMatch[1]}`;
   if (normalized.includes('/src/data/metric-data.ts')) return 'data-metrics';
   const metricRuntimeMatch = normalized.match(/\/src\/data\/metric-runtime\/([^/]+)\.ts$/);
   if (metricRuntimeMatch) return `data-metrics-${metricRuntimeMatch[1]}`;

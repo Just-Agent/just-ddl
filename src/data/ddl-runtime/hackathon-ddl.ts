@@ -1,0 +1,338 @@
+import type { DDLItem } from '../ddl-data';
+
+export const ddlForHackathonDdl: DDLItem[] = [
+  {
+    "id": "hackathon-ddl-mlh-global-hack-week-2026-07-20",
+    "title": "MLH Global Hack Week",
+    "deadline": "2026-07-20T23:59:59",
+    "dateRange": "Jul 21-27, 2026",
+    "location": "Online",
+    "isOnline": true,
+    "tags": [
+      "MLH",
+      "Workshop"
+    ],
+    "url": "https://mlh.io/seasons",
+    "status": "upcoming",
+    "stage": "Event start",
+    "source": "人工整理的官方来源入口",
+    "type": "hackathon",
+    "description": "MLH 系列活动入口，适合专题按周滚动展示。"
+  },
+  {
+    "id": "hackathon-ddl-devpost-ai-builders-challenge-2026-08-18",
+    "title": "Devpost AI Builders Challenge",
+    "deadline": "2026-08-18T23:59:59",
+    "dateRange": "Jul 1 - Aug 18, 2026",
+    "location": "Online",
+    "isOnline": true,
+    "tags": [
+      "AI App",
+      "Devpost"
+    ],
+    "url": "https://devpost.com/hackathons",
+    "status": "upcoming",
+    "stage": "Submission",
+    "source": "人工整理的官方来源入口",
+    "type": "hackathon",
+    "description": "Devpost AI 应用类比赛 官方来源入口，后续将按官方页面持续补充官方详情。",
+    "prize": "$25,000+"
+  },
+  {
+    "id": "hackathon-ddl-pennapps-2026-fall-2026-08-25",
+    "title": "PennApps 2026 Fall",
+    "deadline": "2026-08-25T23:59:59",
+    "dateRange": "Sep 2026",
+    "location": "Philadelphia, USA",
+    "isOnline": false,
+    "tags": [
+      "Campus",
+      "Prototype"
+    ],
+    "url": "https://pennapps.com",
+    "status": "upcoming",
+    "stage": "Application",
+    "source": "官方来源入口",
+    "type": "hackathon",
+    "description": "高校黑客松 官方来源入口，用于补足北美校园赛历。"
+  },
+  {
+    "id": "hackathon-ddl-hack-the-north-2026-2026-09-01",
+    "title": "Hack the North 2026",
+    "deadline": "2026-09-01T23:59:59",
+    "dateRange": "Sep 18-20, 2026",
+    "location": "Waterloo, Canada",
+    "isOnline": false,
+    "tags": [
+      "AI/ML",
+      "Student",
+      "Global"
+    ],
+    "url": "https://hackthenorth.com",
+    "status": "upcoming",
+    "stage": "Registration",
+    "source": "Official site",
+    "type": "hackathon",
+    "description": "大型校园黑客松，追踪报名、确认、项目提交和 Demo Day 节点。",
+    "prize": "$50,000+"
+  },
+  {
+    "id": "hackathon-ddl-hackzurich-2026-2026-09-11",
+    "title": "HackZurich 2026",
+    "deadline": "2026-09-11T23:59:59",
+    "dateRange": "Sep 2026",
+    "location": "Zurich, Switzerland",
+    "isOnline": false,
+    "tags": [
+      "Enterprise",
+      "Europe"
+    ],
+    "url": "https://hackzurich.com",
+    "status": "upcoming",
+    "stage": "Application",
+    "source": "人工整理的官方来源入口",
+    "type": "hackathon",
+    "description": "欧洲大型企业/创新黑客松入口。"
+  },
+  {
+    "id": "hackathon-ddl-hackmit-2026-2026-09-15",
+    "title": "HackMIT 2026",
+    "deadline": "2026-09-15T23:59:59",
+    "dateRange": "Sep 27-28, 2026",
+    "location": "Cambridge, USA",
+    "isOnline": false,
+    "tags": [
+      "Campus",
+      "Hardware"
+    ],
+    "url": "https://hackmit.org",
+    "status": "upcoming",
+    "stage": "Application",
+    "source": "人工整理的官方来源入口",
+    "type": "hackathon",
+    "description": "校园线下黑客松入口，等待官方申请时间校验。",
+    "prize": "$40,000+"
+  },
+  {
+    "id": "hackathon-ddl-hackharvard-2026-2026-09-20",
+    "title": "HackHarvard 2026",
+    "deadline": "2026-09-20T23:59:59",
+    "dateRange": "Oct 2026",
+    "location": "Cambridge, USA",
+    "isOnline": false,
+    "tags": [
+      "Campus",
+      "Social Impact"
+    ],
+    "url": "https://hackharvard.io",
+    "status": "upcoming",
+    "stage": "Application",
+    "source": "人工整理的官方来源入口",
+    "type": "hackathon",
+    "description": "哈佛校园黑客松入口。"
+  },
+  {
+    "id": "hackathon-ddl-hackprinceton-2026-fall-2026-10-01",
+    "title": "HackPrinceton 2026 Fall",
+    "deadline": "2026-10-01T23:59:59",
+    "dateRange": "Fall 2026",
+    "location": "Princeton, USA",
+    "isOnline": false,
+    "tags": [
+      "Campus",
+      "Product"
+    ],
+    "url": "https://hackprinceton.com",
+    "status": "upcoming",
+    "stage": "Application",
+    "source": "人工整理的官方来源入口",
+    "type": "hackathon",
+    "description": "普林斯顿校园黑客松入口。"
+  },
+  {
+    "id": "hackathon-ddl-nasa-space-apps-challenge-2026-2026-10-01",
+    "title": "NASA Space Apps Challenge 2026",
+    "deadline": "2026-10-01T23:59:59",
+    "dateRange": "Oct 3-4, 2026",
+    "location": "Global",
+    "isOnline": true,
+    "tags": [
+      "Space",
+      "Open Data"
+    ],
+    "url": "https://www.spaceappschallenge.org/",
+    "status": "upcoming",
+    "stage": "Local event",
+    "source": "Official site",
+    "type": "hackathon",
+    "description": "全球开放数据与空间科学挑战入口。"
+  },
+  {
+    "id": "hackathon-ddl-la-hacks-2026-2026-10-05",
+    "title": "LA Hacks 2026",
+    "deadline": "2026-10-05T23:59:59",
+    "dateRange": "Oct 2026",
+    "location": "Los Angeles, USA",
+    "isOnline": false,
+    "tags": [
+      "Campus",
+      "AI"
+    ],
+    "url": "https://lahacks.com",
+    "status": "upcoming",
+    "stage": "Registration",
+    "source": "人工整理的官方来源入口",
+    "type": "hackathon",
+    "description": "UCLA 黑客松入口。"
+  },
+  {
+    "id": "hackathon-ddl-ethglobal-new-york-2026-2026-10-10",
+    "title": "ETHGlobal New York 2026",
+    "deadline": "2026-10-10T23:59:59",
+    "dateRange": "Oct 10-12, 2026",
+    "location": "New York, USA",
+    "isOnline": false,
+    "tags": [
+      "Web3",
+      "DeFi",
+      "Infra"
+    ],
+    "url": "https://ethglobal.com/events",
+    "status": "upcoming",
+    "stage": "Project submit",
+    "source": "ETHGlobal events board",
+    "type": "hackathon",
+    "description": "Web3 生态黑客松入口，后续将按官方页面对齐具体城市站详情页。",
+    "prize": "$150,000+"
+  },
+  {
+    "id": "hackathon-ddl-hackupc-2026-2026-10-18",
+    "title": "HackUPC 2026",
+    "deadline": "2026-10-18T23:59:59",
+    "dateRange": "Autumn 2026",
+    "location": "Barcelona, Spain",
+    "isOnline": false,
+    "tags": [
+      "Europe",
+      "Student"
+    ],
+    "url": "https://hackupc.com",
+    "status": "upcoming",
+    "stage": "Registration",
+    "source": "人工整理的官方来源入口",
+    "type": "hackathon",
+    "description": "欧洲学生黑客松 官方来源入口。"
+  },
+  {
+    "id": "hackathon-ddl-cal-hacks-2026-2026-10-24",
+    "title": "Cal Hacks 2026",
+    "deadline": "2026-10-24T10:00:00",
+    "dateRange": "Oct 24-26, 2026",
+    "location": "Berkeley, USA",
+    "isOnline": false,
+    "tags": [
+      "AI",
+      "Healthcare"
+    ],
+    "url": "https://calhacks.io",
+    "status": "upcoming",
+    "stage": "Hacking",
+    "source": "人工整理的官方来源入口",
+    "type": "hackathon",
+    "description": "美国西海岸高校黑客松 官方来源入口。",
+    "prize": "$30,000+"
+  },
+  {
+    "id": "hackathon-ddl-junction-2026-2026-11-06",
+    "title": "Junction 2026",
+    "deadline": "2026-11-06T23:59:59",
+    "dateRange": "Nov 2026",
+    "location": "Helsinki, Finland",
+    "isOnline": false,
+    "tags": [
+      "Europe",
+      "Startup"
+    ],
+    "url": "https://www.hackjunction.com",
+    "status": "upcoming",
+    "stage": "Application",
+    "source": "人工整理的官方来源入口",
+    "type": "hackathon",
+    "description": "欧洲综合创新黑客松入口。"
+  },
+  {
+    "id": "hackathon-ddl-dorahacks-open-innovation-sprint-2026-11-15",
+    "title": "DoraHacks Open Innovation Sprint",
+    "deadline": "2026-11-15T23:59:59",
+    "dateRange": "Oct 1 - Nov 15, 2026",
+    "location": "Online",
+    "isOnline": true,
+    "tags": [
+      "Open Source",
+      "Bounty"
+    ],
+    "url": "https://dorahacks.io",
+    "status": "upcoming",
+    "stage": "Bounty submit",
+    "source": "人工整理的官方来源入口",
+    "type": "hackathon",
+    "description": "开源赏金与项目提交通道 官方来源入口。",
+    "prize": "$80,000+"
+  },
+  {
+    "id": "hackathon-ddl-treehacks-2027-2026-11-15",
+    "title": "TreeHacks 2027",
+    "deadline": "2026-11-15T23:59:59",
+    "dateRange": "Nov 20-22, 2026",
+    "location": "Stanford, USA",
+    "isOnline": false,
+    "tags": [
+      "AI",
+      "Climate"
+    ],
+    "url": "https://treehacks.com",
+    "status": "upcoming",
+    "stage": "Acceptance",
+    "source": "人工整理的官方来源入口",
+    "type": "hackathon",
+    "description": "斯坦福黑客松入口，后续由官方页面校准。",
+    "prize": "$35,000+"
+  },
+  {
+    "id": "hackathon-ddl-nwhacks-2027-2026-12-10",
+    "title": "nwHacks 2027",
+    "deadline": "2026-12-10T23:59:59",
+    "dateRange": "Jan 9-11, 2027",
+    "location": "Vancouver, Canada",
+    "isOnline": false,
+    "tags": [
+      "Campus",
+      "Product"
+    ],
+    "url": "https://nwhacks.io",
+    "status": "upcoming",
+    "stage": "Registration",
+    "source": "人工整理的官方来源入口",
+    "type": "hackathon",
+    "description": "加拿大西海岸校园黑客松入口。",
+    "prize": "$28,000+"
+  },
+  {
+    "id": "hackathon-ddl-hack-cambridge-2027-2026-12-20",
+    "title": "Hack Cambridge 2027",
+    "deadline": "2026-12-20T23:59:59",
+    "dateRange": "Jan 2027",
+    "location": "Cambridge, UK",
+    "isOnline": false,
+    "tags": [
+      "Europe",
+      "Student"
+    ],
+    "url": "https://hackcambridge.com",
+    "status": "upcoming",
+    "stage": "Registration",
+    "source": "人工整理的官方来源入口",
+    "type": "hackathon",
+    "description": "英国高校黑客松入口。"
+  }
+];

@@ -1,0 +1,164 @@
+import type { DDLItem } from '../ddl-data';
+
+export const ddlForRoboticsDdl: DDLItem[] = [
+  {
+    "id": "aicity-2026-registration-opens",
+    "title": "AI City Challenge 2026 - Registration opens",
+    "deadline": "2026-05-18T23:59:59Z",
+    "dateRange": "May 18, 2026",
+    "location": "Online",
+    "isOnline": true,
+    "tags": [
+      "robotics",
+      "autonomous",
+      "smart city",
+      "AI City"
+    ],
+    "url": "https://www.aicitychallenge.org",
+    "status": "upcoming",
+    "description": "Parsed from official AI City Challenge page.",
+    "stage": "Registration",
+    "source": "AI City Challenge",
+    "type": "challenge"
+  },
+  {
+    "id": "aicity-2026-release-of-evaluation-server-and-test-data-sets-may-18-2026",
+    "title": "AI City Challenge 2026 - Release of evaluation server and test data sets",
+    "deadline": "2026-05-18T23:59:59Z",
+    "dateRange": "May 18, 2026",
+    "location": "Online / CVPR workshop",
+    "isOnline": true,
+    "tags": [
+      "robotics",
+      "autonomous",
+      "smart city",
+      "AI City"
+    ],
+    "url": "https://www.aicitychallenge.org",
+    "status": "upcoming",
+    "description": "Parsed from official AI City Challenge Important Dates section.",
+    "stage": "Milestone",
+    "source": "AI City Challenge",
+    "type": "challenge"
+  },
+  {
+    "id": "aicity-2026-challenge-track-submissions-due-july-10-2026",
+    "title": "AI City Challenge 2026 - Challenge track submissions due",
+    "deadline": "2026-07-10T23:59:59Z",
+    "dateRange": "July 10, 2026",
+    "location": "Online / CVPR workshop",
+    "isOnline": true,
+    "tags": [
+      "robotics",
+      "autonomous",
+      "smart city",
+      "AI City"
+    ],
+    "url": "https://www.aicitychallenge.org",
+    "status": "upcoming",
+    "description": "Parsed from official AI City Challenge Important Dates section.",
+    "stage": "Deadline",
+    "source": "AI City Challenge",
+    "type": "challenge"
+  },
+  {
+    "id": "aicity-2026-anywhere-on-earth-workshop-papers-due-july-24-2026",
+    "title": "AI City Challenge 2026 - (Anywhere on Earth) Workshop papers due",
+    "deadline": "2026-07-24T23:59:59Z",
+    "dateRange": "July 24, 2026",
+    "location": "Online / CVPR workshop",
+    "isOnline": true,
+    "tags": [
+      "robotics",
+      "autonomous",
+      "smart city",
+      "AI City"
+    ],
+    "url": "https://www.aicitychallenge.org",
+    "status": "upcoming",
+    "description": "Parsed from official AI City Challenge Important Dates section.",
+    "stage": "Deadline",
+    "source": "AI City Challenge",
+    "type": "challenge"
+  },
+  {
+    "id": "aicity-2026-anywhere-on-earth-acceptance-notification-august-1-2026",
+    "title": "AI City Challenge 2026 - (Anywhere on Earth) Acceptance notification",
+    "deadline": "2026-08-01T23:59:59Z",
+    "dateRange": "August 1, 2026",
+    "location": "Online / CVPR workshop",
+    "isOnline": true,
+    "tags": [
+      "robotics",
+      "autonomous",
+      "smart city",
+      "AI City"
+    ],
+    "url": "https://www.aicitychallenge.org",
+    "status": "upcoming",
+    "description": "Parsed from official AI City Challenge Important Dates section.",
+    "stage": "Milestone",
+    "source": "AI City Challenge",
+    "type": "challenge"
+  },
+  {
+    "id": "aicity-2026-open-source-by-awards-candidates-due-august-7-2026",
+    "title": "AI City Challenge 2026 - Open source by awards candidates due",
+    "deadline": "2026-08-07T23:59:59Z",
+    "dateRange": "August 7, 2026",
+    "location": "Online / CVPR workshop",
+    "isOnline": true,
+    "tags": [
+      "robotics",
+      "autonomous",
+      "smart city",
+      "AI City"
+    ],
+    "url": "https://www.aicitychallenge.org",
+    "status": "upcoming",
+    "description": "Parsed from official AI City Challenge Important Dates section.",
+    "stage": "Deadline",
+    "source": "AI City Challenge",
+    "type": "challenge"
+  },
+  {
+    "id": "aicity-2026-anywhere-on-earth-camera-ready-papers-due-august-15-2026",
+    "title": "AI City Challenge 2026 - (Anywhere on Earth) Camera-ready papers due",
+    "deadline": "2026-08-15T23:59:59Z",
+    "dateRange": "August 15, 2026",
+    "location": "Online / CVPR workshop",
+    "isOnline": true,
+    "tags": [
+      "robotics",
+      "autonomous",
+      "smart city",
+      "AI City"
+    ],
+    "url": "https://www.aicitychallenge.org",
+    "status": "upcoming",
+    "description": "Parsed from official AI City Challenge Important Dates section.",
+    "stage": "Deadline",
+    "source": "AI City Challenge",
+    "type": "challenge"
+  },
+  {
+    "id": "aicity-2026-presentation-of-papers-and-announcement-of-awards-at-eccv-2026-september-8-9-2026",
+    "title": "AI City Challenge 2026 - Presentation of papers and announcement of awards at ECCV 2026",
+    "deadline": "2026-09-09T23:59:59Z",
+    "dateRange": "September 8/9, 2026",
+    "location": "Online / CVPR workshop",
+    "isOnline": true,
+    "tags": [
+      "robotics",
+      "autonomous",
+      "smart city",
+      "AI City"
+    ],
+    "url": "https://www.aicitychallenge.org",
+    "status": "upcoming",
+    "description": "Parsed from official AI City Challenge Important Dates section.",
+    "stage": "Milestone",
+    "source": "AI City Challenge",
+    "type": "challenge"
+  }
+];

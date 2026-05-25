@@ -1,0 +1,364 @@
+import type { DDLItem } from '../ddl-data';
+
+export const ddlForProgrammingDdl: DDLItem[] = [
+  {
+    "id": "programming-ddl-codeforces-global-round-2026-06-20",
+    "title": "Codeforces Global Round",
+    "deadline": "2026-06-20T22:35:00",
+    "dateRange": "Jun 2026",
+    "location": "Online",
+    "isOnline": true,
+    "tags": [
+      "Codeforces",
+      "Rating"
+    ],
+    "url": "https://codeforces.com",
+    "status": "upcoming",
+    "stage": "Contest",
+    "source": "Official site",
+    "type": "contest",
+    "description": "Codeforces 轮次入口。"
+  },
+  {
+    "id": "programming-ddl-noi-online-training-camp-2026-07-05",
+    "title": "NOI Online Training Camp",
+    "deadline": "2026-07-05T23:59:59",
+    "dateRange": "Jul 2026",
+    "location": "China",
+    "isOnline": true,
+    "tags": [
+      "NOI",
+      "OI"
+    ],
+    "url": "https://www.noi.cn",
+    "status": "upcoming",
+    "stage": "Registration",
+    "source": "人工整理的官方来源入口",
+    "type": "contest",
+    "description": "信息学竞赛训练营入口。"
+  },
+  {
+    "id": "programming-ddl-kaggle-playground-series-2026-07-31",
+    "title": "Kaggle Playground Series",
+    "deadline": "2026-07-31T23:59:59",
+    "dateRange": "Monthly 2026",
+    "location": "Online",
+    "isOnline": true,
+    "tags": [
+      "Kaggle",
+      "ML"
+    ],
+    "url": "https://www.kaggle.com/competitions",
+    "status": "upcoming",
+    "stage": "Submission",
+    "source": "人工整理的官方来源入口",
+    "type": "contest",
+    "description": "月度机器学习竞赛入口。"
+  },
+  {
+    "id": "programming-ddl-hackerrank-interview-preparation-kit-sprint-2026-08-15",
+    "title": "HackerRank Interview Preparation Kit Sprint",
+    "deadline": "2026-08-15T23:59:59",
+    "dateRange": "Aug 2026",
+    "location": "Online",
+    "isOnline": true,
+    "tags": [
+      "Interview",
+      "Practice"
+    ],
+    "url": "https://www.hackerrank.com/domains/tutorials/10-days-of-javascript",
+    "status": "upcoming",
+    "stage": "Practice",
+    "source": "人工整理的官方来源入口",
+    "type": "contest",
+    "description": "面试编程训练专题入口。"
+  },
+  {
+    "id": "programming-ddl-tianchi-algorithm-competition-2026-08-31",
+    "title": "Tianchi Algorithm Competition",
+    "deadline": "2026-08-31T23:59:59",
+    "dateRange": "Aug 2026",
+    "location": "China",
+    "isOnline": true,
+    "tags": [
+      "天池",
+      "ML"
+    ],
+    "url": "https://tianchi.aliyun.com/competition",
+    "status": "upcoming",
+    "stage": "Submission",
+    "source": "人工整理的官方来源入口",
+    "type": "contest",
+    "description": "国内算法竞赛入口。"
+  },
+  {
+    "id": "programming-ddl-meta-hacker-cup-2026-qualification-2026-09-01",
+    "title": "Meta Hacker Cup 2026 Qualification",
+    "deadline": "2026-09-01T23:59:59",
+    "dateRange": "Sep 2026",
+    "location": "Online",
+    "isOnline": true,
+    "tags": [
+      "Meta",
+      "Algorithm"
+    ],
+    "url": "https://www.facebook.com/codingcompetitions/hacker-cup",
+    "status": "upcoming",
+    "stage": "Qualification",
+    "source": "人工整理的官方来源入口",
+    "type": "contest",
+    "description": "算法竞赛资格赛入口。"
+  },
+  {
+    "id": "programming-ddl-icpc-asia-regional-registration-2026-09-15",
+    "title": "ICPC Asia Regional Registration",
+    "deadline": "2026-09-15T23:59:59",
+    "dateRange": "Sep 2026",
+    "location": "Asia",
+    "isOnline": false,
+    "tags": [
+      "ICPC",
+      "Algorithm"
+    ],
+    "url": "https://icpc.global",
+    "status": "upcoming",
+    "stage": "Registration",
+    "source": "官方来源入口",
+    "type": "contest",
+    "description": "区域赛报名入口。"
+  },
+  {
+    "id": "programming-ddl-ccf-csp-certification-2026-09-20",
+    "title": "CCF CSP Certification",
+    "deadline": "2026-09-20T23:59:59",
+    "dateRange": "Sep 2026",
+    "location": "China",
+    "isOnline": false,
+    "tags": [
+      "CCF",
+      "CSP"
+    ],
+    "url": "https://www.cspro.org",
+    "status": "upcoming",
+    "stage": "Registration",
+    "source": "人工整理的官方来源入口",
+    "type": "contest",
+    "description": "软件能力认证/竞赛入口。"
+  },
+  {
+    "id": "programming-ddl-dmoj-seasonal-contest-2026-10-10",
+    "title": "DMOJ Seasonal Contest",
+    "deadline": "2026-10-10T23:59:59",
+    "dateRange": "Oct 2026",
+    "location": "Online",
+    "isOnline": true,
+    "tags": [
+      "DMOJ",
+      "OI"
+    ],
+    "url": "https://dmoj.ca/contests",
+    "status": "upcoming",
+    "stage": "Contest",
+    "source": "人工整理的官方来源入口",
+    "type": "contest",
+    "description": "在线评测竞赛入口。"
+  },
+  {
+    "id": "programming-ddl-icpc-world-finals-2026-2026-10-30",
+    "title": "ICPC World Finals 2026",
+    "deadline": "2026-10-30T23:59:59",
+    "dateRange": "Oct 2026",
+    "location": "Egypt",
+    "isOnline": false,
+    "tags": [
+      "ICPC",
+      "World Finals"
+    ],
+    "url": "https://icpc.global",
+    "status": "upcoming",
+    "stage": "Contest",
+    "source": "人工整理的官方来源入口",
+    "type": "contest",
+    "description": "世界总决赛赛程入口。"
+  },
+  {
+    "id": "programming-ddl-atcoder-grand-contest-demo-round-2026-11-01",
+    "title": "AtCoder Grand Contest Demo Round",
+    "deadline": "2026-11-01T23:59:59",
+    "dateRange": "Nov 2026",
+    "location": "Online",
+    "isOnline": true,
+    "tags": [
+      "AtCoder",
+      "AGC"
+    ],
+    "url": "https://atcoder.jp",
+    "status": "upcoming",
+    "stage": "Contest",
+    "source": "Official site",
+    "type": "contest",
+    "description": "AtCoder 高难度比赛入口。"
+  },
+  {
+    "id": "programming-ddl-hash-code-legacy-practice-sprint-2026-11-30",
+    "title": "Hash Code Legacy Practice Sprint",
+    "deadline": "2026-11-30T23:59:59",
+    "dateRange": "Nov 2026",
+    "location": "Online",
+    "isOnline": true,
+    "tags": [
+      "Optimization",
+      "Practice"
+    ],
+    "url": "https://codingcompetitions.withgoogle.com/hashcode/archive",
+    "status": "upcoming",
+    "stage": "Practice",
+    "source": "人工整理的官方来源入口",
+    "type": "contest",
+    "description": "优化类编程挑战归档入口。"
+  },
+  {
+    "id": "programming-ddl-advent-of-code-2026-day-1-2026-12-01",
+    "title": "Advent of Code 2026 Day 1",
+    "deadline": "2026-12-01T00:00:00",
+    "dateRange": "Dec 2026",
+    "location": "Online",
+    "isOnline": true,
+    "tags": [
+      "AoC",
+      "Daily"
+    ],
+    "url": "https://adventofcode.com",
+    "status": "upcoming",
+    "stage": "Event start",
+    "source": "Official site",
+    "type": "contest",
+    "description": "年度编程挑战入口。"
+  },
+  {
+    "id": "programming-ddl-lanqiao-cup-provincial-round-2026-12-10",
+    "title": "Lanqiao Cup Provincial Round",
+    "deadline": "2026-12-10T23:59:59",
+    "dateRange": "Dec 2026",
+    "location": "China",
+    "isOnline": false,
+    "tags": [
+      "蓝桥杯",
+      "Student"
+    ],
+    "url": "https://dasai.lanqiao.cn",
+    "status": "upcoming",
+    "stage": "Registration",
+    "source": "会议公开来源入口",
+    "type": "contest",
+    "description": "国内编程竞赛入口。"
+  },
+  {
+    "id": "programming-ddl-usaco-2026-december-contest-2026-12-18",
+    "title": "USACO 2026 December Contest",
+    "deadline": "2026-12-18T23:59:59",
+    "dateRange": "Dec 2026",
+    "location": "United States",
+    "isOnline": true,
+    "tags": [
+      "USACO",
+      "OI"
+    ],
+    "url": "https://usaco.org",
+    "status": "upcoming",
+    "stage": "Contest",
+    "source": "人工整理的官方来源入口",
+    "type": "contest",
+    "description": "美国信息学竞赛入口。"
+  },
+  {
+    "id": "programming-ddl-codechef-starters-series-2026-12-31",
+    "title": "CodeChef Starters Series",
+    "deadline": "2026-12-31T23:59:59",
+    "dateRange": "Weekly 2026",
+    "location": "Online",
+    "isOnline": true,
+    "tags": [
+      "CodeChef",
+      "Weekly"
+    ],
+    "url": "https://www.codechef.com/contests",
+    "status": "ongoing",
+    "stage": "Recurring",
+    "source": "人工整理的官方来源入口",
+    "type": "contest",
+    "description": "CodeChef 周赛入口。"
+  },
+  {
+    "id": "programming-ddl-google-code-jam-archive-practice-2026-12-31",
+    "title": "Google Code Jam Archive Practice",
+    "deadline": "2026-12-31T23:59:59",
+    "dateRange": "Rolling 2026",
+    "location": "Online",
+    "isOnline": true,
+    "tags": [
+      "Practice",
+      "Archive"
+    ],
+    "url": "https://codingcompetitions.withgoogle.com/codejam/archive",
+    "status": "ongoing",
+    "stage": "Archive",
+    "source": "人工整理的官方来源入口",
+    "type": "contest",
+    "description": "经典题库入口，用于训练专题。"
+  },
+  {
+    "id": "programming-ddl-leetcode-weekly-contest-2026-12-31",
+    "title": "LeetCode Weekly Contest",
+    "deadline": "2026-12-31T23:59:59",
+    "dateRange": "Every Sat",
+    "location": "Online",
+    "isOnline": true,
+    "tags": [
+      "LeetCode",
+      "Weekly"
+    ],
+    "url": "https://leetcode.com/contest",
+    "status": "ongoing",
+    "stage": "Recurring",
+    "source": "Official site",
+    "type": "contest",
+    "description": "重复赛事入口，后续可转为 RRULE 或周规则。"
+  },
+  {
+    "id": "programming-ddl-project-euler-monthly-challenge-2026-12-31",
+    "title": "Project Euler Monthly Challenge",
+    "deadline": "2026-12-31T23:59:59",
+    "dateRange": "Rolling 2026",
+    "location": "Online",
+    "isOnline": true,
+    "tags": [
+      "Math",
+      "Programming"
+    ],
+    "url": "https://projecteuler.net",
+    "status": "ongoing",
+    "stage": "Recurring",
+    "source": "人工整理的官方来源入口",
+    "type": "contest",
+    "description": "长期数学编程题入口。"
+  },
+  {
+    "id": "programming-ddl-topcoder-srm-series-2026-12-31",
+    "title": "Topcoder SRM Series",
+    "deadline": "2026-12-31T23:59:59",
+    "dateRange": "Rolling 2026",
+    "location": "Online",
+    "isOnline": true,
+    "tags": [
+      "Topcoder",
+      "SRM"
+    ],
+    "url": "https://www.topcoder.com/challenges",
+    "status": "ongoing",
+    "stage": "Recurring",
+    "source": "人工整理的官方来源入口",
+    "type": "contest",
+    "description": "Topcoder 赛事入口。"
+  }
+];

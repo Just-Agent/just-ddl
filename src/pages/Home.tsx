@@ -1,8 +1,9 @@
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import { motion } from 'framer-motion';
 import { Activity, ArrowRight, BookOpen, CheckCircle2, Clock3, Code2, Database, ExternalLink, FolderOpen, GitBranch, Languages, Pin, RadioTower, Search, Sparkles, Zap } from 'lucide-react';
 import { topics, categories, getTopicById } from '@/data/topics';
-import { getAllDDL, getDDLByTopic, type DDLItem } from '@/data/ddl-data';
+import type { DDLItem } from '@/data/ddl-data';
+import { loadAllDDL } from '@/data/ddl-runtime';
 import { useSubscriptions } from '@/hooks/useSubscriptions';
 import TopicCard from '@/components/TopicCard';
 import { useLanguage } from '@/lib/language';
@@ -35,11 +36,30 @@ export default function Home() {
   const [now] = useState(() => Date.now());
   const { subscribedIds } = useSubscriptions();
   const { language, copy, topicName, topicDescription, categoryName, tagName } = useLanguage();
+  const [allItems, setAllItems] = useState<DDLItem[]>([]);
 
-  const allItems = useMemo(() => getAllDDL(), []);
+  useEffect(() => {
+    let isCurrent = true;
+    loadAllDDL().then((items) => {
+      if (isCurrent) setAllItems(items);
+    });
+    return () => {
+      isCurrent = false;
+    };
+  }, []);
+
   const topicMetrics = useMemo(() => {
+    const byTopic = new Map<string, DDLItem[]>();
+    for (const item of allItems) {
+      const itemTopicId = typeof item.topicId === 'string' && item.topicId ? item.topicId : '';
+      if (!itemTopicId) continue;
+      const group = byTopic.get(itemTopicId) || [];
+      group.push(item);
+      byTopic.set(itemTopicId, group);
+    }
+
     return new Map(topics.map(topic => {
-      const items = getDDLByTopic(topic.id);
+      const items = byTopic.get(topic.id) || [];
       const activeItems = items
         .filter(isActiveDeadlineItem)
         .sort(compareDDLItems);
@@ -50,7 +70,7 @@ export default function Home() {
         sources: new Set(items.map(item => item.source).filter(Boolean)).size,
       }];
     }));
-  }, []);
+  }, [allItems]);
 
   const filtered = useMemo(() => {
     const keyword = search.trim().toLowerCase();
@@ -114,7 +134,7 @@ export default function Home() {
 
   const heroStats = [
     { label: copy.home.topics, value: topics.length, icon: FolderOpen, color: '#D97706' },
-    { label: copy.home.totalDeadlines, value: allItems.length, icon: Pin, color: '#E11D48' },
+    { label: copy.home.totalDeadlines, value: allItems.length || topics.reduce((sum, topic) => sum + topic.itemCount, 0), icon: Pin, color: '#E11D48' },
     { label: copy.home.activeDeadlines, value: activeDDL, icon: Zap, color: '#059669' },
     { label: copy.home.categories, value: categories.length - 1, icon: Database, color: '#0284C7' },
   ];
@@ -499,7 +519,7 @@ export default function Home() {
 
         <div className="mt-5 grid grid-cols-1 gap-5 md:grid-cols-2 xl:grid-cols-3">
           {filtered.map((topic, index) => (
-            <TopicCard key={topic.id} topic={topic} index={index} />
+            <TopicCard key={topic.id} topic={topic} index={index} metrics={topicMetrics.get(topic.id)} />
           ))}
         </div>
         {filtered.length === 0 && (

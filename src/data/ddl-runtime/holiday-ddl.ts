@@ -1,0 +1,1381 @@
+import type { DDLItem } from '../ddl-data';
+
+export const ddlForHolidayDdl: DDLItem[] = [
+  {
+    "id": "holiday-ddl-小满-2026-2026-05-21",
+    "title": "小满 2026",
+    "deadline": "2026-05-21T00:00:00",
+    "dateRange": "2026-05-21",
+    "location": "China",
+    "isOnline": false,
+    "tags": [
+      "二十四节气",
+      "节气"
+    ],
+    "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
+    "status": "upcoming",
+    "stage": "Solar term",
+    "source": "香港天文台历书公开来源",
+    "type": "holiday",
+    "description": "夏季节气。"
+  },
+  {
+    "id": "holiday-ddl-memorial-day-2026-2026-05-25",
+    "title": "Memorial Day 2026",
+    "deadline": "2026-05-25T00:00:00",
+    "dateRange": "May 25, 2026",
+    "location": "United States",
+    "isOnline": false,
+    "tags": [
+      "US Federal Holiday"
+    ],
+    "url": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/",
+    "status": "upcoming",
+    "stage": "Federal holiday",
+    "source": "US OPM federal holidays",
+    "type": "holiday",
+    "description": "美国联邦假日。"
+  },
+  {
+    "id": "holiday-ddl-spring-bank-holiday-2026-2026-05-25",
+    "title": "Spring Bank Holiday 2026",
+    "deadline": "2026-05-25T00:00:00",
+    "dateRange": "May 25, 2026",
+    "location": "United Kingdom",
+    "isOnline": false,
+    "tags": [
+      "UK Bank Holiday"
+    ],
+    "url": "https://www.gov.uk/bank-holidays",
+    "status": "upcoming",
+    "stage": "Bank holiday",
+    "source": "UK bank holidays",
+    "type": "holiday",
+    "description": "英国银行假日。"
+  },
+  {
+    "id": "holiday-ddl-芒种-2026-2026-06-05",
+    "title": "芒种 2026",
+    "deadline": "2026-06-05T00:00:00",
+    "dateRange": "2026-06-05",
+    "location": "China",
+    "isOnline": false,
+    "tags": [
+      "二十四节气",
+      "节气"
+    ],
+    "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
+    "status": "upcoming",
+    "stage": "Solar term",
+    "source": "香港天文台历书公开来源",
+    "type": "holiday",
+    "description": "仲夏农事节气。"
+  },
+  {
+    "id": "holiday-ddl-端午节-2026-2026-06-19",
+    "title": "端午节 2026",
+    "deadline": "2026-06-19T00:00:00",
+    "dateRange": "Jun 19, 2026",
+    "location": "China",
+    "isOnline": false,
+    "tags": [
+      "法定假日",
+      "传统节日"
+    ],
+    "url": "https://www.gov.cn/",
+    "status": "upcoming",
+    "stage": "Holiday",
+    "source": "国务院节假日公开来源",
+    "type": "holiday",
+    "description": "农历五月初五。"
+  },
+  {
+    "id": "holiday-ddl-juneteenth-2026-2026-06-19",
+    "title": "Juneteenth 2026",
+    "deadline": "2026-06-19T00:00:00",
+    "dateRange": "Jun 19, 2026",
+    "location": "United States",
+    "isOnline": false,
+    "tags": [
+      "US Federal Holiday"
+    ],
+    "url": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/",
+    "status": "upcoming",
+    "stage": "Federal holiday",
+    "source": "US OPM federal holidays",
+    "type": "holiday",
+    "description": "美国联邦假日。"
+  },
+  {
+    "id": "holiday-ddl-夏至-2026-2026-06-21",
+    "title": "夏至 2026",
+    "deadline": "2026-06-21T00:00:00",
+    "dateRange": "2026-06-21",
+    "location": "China",
+    "isOnline": false,
+    "tags": [
+      "二十四节气",
+      "节气"
+    ],
+    "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
+    "status": "upcoming",
+    "stage": "Solar term",
+    "source": "香港天文台历书公开来源",
+    "type": "holiday",
+    "description": "北半球白昼较长。"
+  },
+  {
+    "id": "holiday-ddl-father-s-day-2026-2026-06-21",
+    "title": "Father's Day 2026",
+    "deadline": "2026-06-21T00:00:00",
+    "dateRange": "Jun 21, 2026",
+    "location": "United States / Global",
+    "isOnline": false,
+    "tags": [
+      "International",
+      "Family"
+    ],
+    "url": "https://www.timeanddate.com/holidays/",
+    "status": "upcoming",
+    "stage": "Observance",
+    "source": "国际节日公开来源",
+    "type": "holiday",
+    "description": "父亲节。"
+  },
+  {
+    "id": "holiday-ddl-independence-day-2026-2026-07-04",
+    "title": "Independence Day 2026",
+    "deadline": "2026-07-04T00:00:00",
+    "dateRange": "Jul 4, 2026",
+    "location": "United States",
+    "isOnline": false,
+    "tags": [
+      "US Federal Holiday"
+    ],
+    "url": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/",
+    "status": "upcoming",
+    "stage": "Federal holiday",
+    "source": "US OPM federal holidays",
+    "type": "holiday",
+    "description": "美国独立日。"
+  },
+  {
+    "id": "holiday-ddl-小暑-2026-2026-07-07",
+    "title": "小暑 2026",
+    "deadline": "2026-07-07T00:00:00",
+    "dateRange": "2026-07-07",
+    "location": "China",
+    "isOnline": false,
+    "tags": [
+      "二十四节气",
+      "节气"
+    ],
+    "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
+    "status": "upcoming",
+    "stage": "Solar term",
+    "source": "香港天文台历书公开来源",
+    "type": "holiday",
+    "description": "暑热开始。"
+  },
+  {
+    "id": "holiday-ddl-marine-day-2026-2026-07-20",
+    "title": "Marine Day 2026",
+    "deadline": "2026-07-20T00:00:00",
+    "dateRange": "Jul 20, 2026",
+    "location": "Japan",
+    "isOnline": false,
+    "tags": [
+      "Japan National Holiday"
+    ],
+    "url": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html",
+    "status": "upcoming",
+    "stage": "National holiday",
+    "source": "Japan Cabinet Office",
+    "type": "holiday",
+    "description": "海之日。"
+  },
+  {
+    "id": "holiday-ddl-大暑-2026-2026-07-23",
+    "title": "大暑 2026",
+    "deadline": "2026-07-23T00:00:00",
+    "dateRange": "2026-07-23",
+    "location": "China",
+    "isOnline": false,
+    "tags": [
+      "二十四节气",
+      "节气"
+    ],
+    "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
+    "status": "upcoming",
+    "stage": "Solar term",
+    "source": "香港天文台历书公开来源",
+    "type": "holiday",
+    "description": "暑热高峰。"
+  },
+  {
+    "id": "holiday-ddl-立秋-2026-2026-08-07",
+    "title": "立秋 2026",
+    "deadline": "2026-08-07T00:00:00",
+    "dateRange": "2026-08-07",
+    "location": "China",
+    "isOnline": false,
+    "tags": [
+      "二十四节气",
+      "节气"
+    ],
+    "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
+    "status": "upcoming",
+    "stage": "Solar term",
+    "source": "香港天文台历书公开来源",
+    "type": "holiday",
+    "description": "秋季开始。"
+  },
+  {
+    "id": "holiday-ddl-mountain-day-2026-2026-08-11",
+    "title": "Mountain Day 2026",
+    "deadline": "2026-08-11T00:00:00",
+    "dateRange": "Aug 11, 2026",
+    "location": "Japan",
+    "isOnline": false,
+    "tags": [
+      "Japan National Holiday"
+    ],
+    "url": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html",
+    "status": "upcoming",
+    "stage": "National holiday",
+    "source": "Japan Cabinet Office",
+    "type": "holiday",
+    "description": "山之日。"
+  },
+  {
+    "id": "holiday-ddl-七夕-2026-2026-08-19",
+    "title": "七夕 2026",
+    "deadline": "2026-08-19T00:00:00",
+    "dateRange": "Aug 19, 2026",
+    "location": "China",
+    "isOnline": false,
+    "tags": [
+      "传统节日",
+      "农历"
+    ],
+    "url": "https://www.timeanddate.com/holidays/",
+    "status": "upcoming",
+    "stage": "Traditional festival",
+    "source": "公开农历/节日来源",
+    "type": "holiday",
+    "description": "农历七月初七。"
+  },
+  {
+    "id": "holiday-ddl-处暑-2026-2026-08-23",
+    "title": "处暑 2026",
+    "deadline": "2026-08-23T00:00:00",
+    "dateRange": "2026-08-23",
+    "location": "China",
+    "isOnline": false,
+    "tags": [
+      "二十四节气",
+      "节气"
+    ],
+    "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
+    "status": "upcoming",
+    "stage": "Solar term",
+    "source": "香港天文台历书公开来源",
+    "type": "holiday",
+    "description": "暑热渐退。"
+  },
+  {
+    "id": "holiday-ddl-中元节-2026-2026-08-27",
+    "title": "中元节 2026",
+    "deadline": "2026-08-27T00:00:00",
+    "dateRange": "Aug 27, 2026",
+    "location": "China",
+    "isOnline": false,
+    "tags": [
+      "传统节日",
+      "农历"
+    ],
+    "url": "https://www.timeanddate.com/holidays/",
+    "status": "upcoming",
+    "stage": "Traditional festival",
+    "source": "公开农历/节日来源",
+    "type": "holiday",
+    "description": "农历七月十五。"
+  },
+  {
+    "id": "holiday-ddl-summer-bank-holiday-2026-2026-08-31",
+    "title": "Summer Bank Holiday 2026",
+    "deadline": "2026-08-31T00:00:00",
+    "dateRange": "Aug 31, 2026",
+    "location": "United Kingdom",
+    "isOnline": false,
+    "tags": [
+      "UK Bank Holiday"
+    ],
+    "url": "https://www.gov.uk/bank-holidays",
+    "status": "upcoming",
+    "stage": "Bank holiday",
+    "source": "UK bank holidays",
+    "type": "holiday",
+    "description": "英国银行假日。"
+  },
+  {
+    "id": "holiday-ddl-白露-2026-2026-09-07",
+    "title": "白露 2026",
+    "deadline": "2026-09-07T00:00:00",
+    "dateRange": "2026-09-07",
+    "location": "China",
+    "isOnline": false,
+    "tags": [
+      "二十四节气",
+      "节气"
+    ],
+    "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
+    "status": "upcoming",
+    "stage": "Solar term",
+    "source": "香港天文台历书公开来源",
+    "type": "holiday",
+    "description": "秋季节气。"
+  },
+  {
+    "id": "holiday-ddl-labor-day-2026-2026-09-07",
+    "title": "Labor Day 2026",
+    "deadline": "2026-09-07T00:00:00",
+    "dateRange": "Sep 7, 2026",
+    "location": "United States",
+    "isOnline": false,
+    "tags": [
+      "US Federal Holiday"
+    ],
+    "url": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/",
+    "status": "upcoming",
+    "stage": "Federal holiday",
+    "source": "US OPM federal holidays",
+    "type": "holiday",
+    "description": "美国劳动节。"
+  },
+  {
+    "id": "holiday-ddl-respect-for-the-aged-day-2026-2026-09-21",
+    "title": "Respect for the Aged Day 2026",
+    "deadline": "2026-09-21T00:00:00",
+    "dateRange": "Sep 21, 2026",
+    "location": "Japan",
+    "isOnline": false,
+    "tags": [
+      "Japan National Holiday"
+    ],
+    "url": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html",
+    "status": "upcoming",
+    "stage": "National holiday",
+    "source": "Japan Cabinet Office",
+    "type": "holiday",
+    "description": "敬老日。"
+  },
+  {
+    "id": "holiday-ddl-秋分-2026-2026-09-23",
+    "title": "秋分 2026",
+    "deadline": "2026-09-23T00:00:00",
+    "dateRange": "2026-09-23",
+    "location": "China",
+    "isOnline": false,
+    "tags": [
+      "二十四节气",
+      "节气"
+    ],
+    "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
+    "status": "upcoming",
+    "stage": "Solar term",
+    "source": "香港天文台历书公开来源",
+    "type": "holiday",
+    "description": "昼夜近等长。"
+  },
+  {
+    "id": "holiday-ddl-autumnal-equinox-day-2026-2026-09-23",
+    "title": "Autumnal Equinox Day 2026",
+    "deadline": "2026-09-23T00:00:00",
+    "dateRange": "Sep 23, 2026",
+    "location": "Japan",
+    "isOnline": false,
+    "tags": [
+      "Japan National Holiday"
+    ],
+    "url": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html",
+    "status": "upcoming",
+    "stage": "National holiday",
+    "source": "Japan Cabinet Office",
+    "type": "holiday",
+    "description": "秋分日。"
+  },
+  {
+    "id": "holiday-ddl-中秋节-2026-2026-09-25",
+    "title": "中秋节 2026",
+    "deadline": "2026-09-25T00:00:00",
+    "dateRange": "Sep 25, 2026",
+    "location": "China",
+    "isOnline": false,
+    "tags": [
+      "法定假日",
+      "传统节日"
+    ],
+    "url": "https://www.gov.cn/",
+    "status": "upcoming",
+    "stage": "Holiday",
+    "source": "国务院节假日公开来源",
+    "type": "holiday",
+    "description": "农历八月十五。"
+  },
+  {
+    "id": "holiday-ddl-world-tourism-day-2026-2026-09-27",
+    "title": "World Tourism Day 2026",
+    "deadline": "2026-09-27T00:00:00",
+    "dateRange": "Sep 27, 2026",
+    "location": "Global",
+    "isOnline": false,
+    "tags": [
+      "UN Observance",
+      "Travel"
+    ],
+    "url": "https://www.un.org/en/observances",
+    "status": "upcoming",
+    "stage": "UN observance",
+    "source": "UN observances",
+    "type": "holiday",
+    "description": "世界旅游日。"
+  },
+  {
+    "id": "holiday-ddl-国庆节-2026-2026-10-01",
+    "title": "国庆节 2026",
+    "deadline": "2026-10-01T00:00:00",
+    "dateRange": "Oct 1, 2026",
+    "location": "China",
+    "isOnline": false,
+    "tags": [
+      "法定假日",
+      "长假"
+    ],
+    "url": "https://www.gov.cn/",
+    "status": "upcoming",
+    "stage": "Holiday",
+    "source": "国务院节假日公开来源",
+    "type": "holiday",
+    "description": "国庆假期入口。"
+  },
+  {
+    "id": "holiday-ddl-寒露-2026-2026-10-08",
+    "title": "寒露 2026",
+    "deadline": "2026-10-08T00:00:00",
+    "dateRange": "2026-10-08",
+    "location": "China",
+    "isOnline": false,
+    "tags": [
+      "二十四节气",
+      "节气"
+    ],
+    "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
+    "status": "upcoming",
+    "stage": "Solar term",
+    "source": "香港天文台历书公开来源",
+    "type": "holiday",
+    "description": "深秋节气。"
+  },
+  {
+    "id": "holiday-ddl-sports-day-2026-2026-10-12",
+    "title": "Sports Day 2026",
+    "deadline": "2026-10-12T00:00:00",
+    "dateRange": "Oct 12, 2026",
+    "location": "Japan",
+    "isOnline": false,
+    "tags": [
+      "Japan National Holiday"
+    ],
+    "url": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html",
+    "status": "upcoming",
+    "stage": "National holiday",
+    "source": "Japan Cabinet Office",
+    "type": "holiday",
+    "description": "体育日。"
+  },
+  {
+    "id": "holiday-ddl-重阳节-2026-2026-10-18",
+    "title": "重阳节 2026",
+    "deadline": "2026-10-18T00:00:00",
+    "dateRange": "Oct 18, 2026",
+    "location": "China",
+    "isOnline": false,
+    "tags": [
+      "传统节日",
+      "农历"
+    ],
+    "url": "https://www.timeanddate.com/holidays/",
+    "status": "upcoming",
+    "stage": "Traditional festival",
+    "source": "公开农历/节日来源",
+    "type": "holiday",
+    "description": "农历九月初九。"
+  },
+  {
+    "id": "holiday-ddl-霜降-2026-2026-10-23",
+    "title": "霜降 2026",
+    "deadline": "2026-10-23T00:00:00",
+    "dateRange": "2026-10-23",
+    "location": "China",
+    "isOnline": false,
+    "tags": [
+      "二十四节气",
+      "节气"
+    ],
+    "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
+    "status": "upcoming",
+    "stage": "Solar term",
+    "source": "香港天文台历书公开来源",
+    "type": "holiday",
+    "description": "秋季最后一个节气。"
+  },
+  {
+    "id": "holiday-ddl-halloween-2026-2026-10-31",
+    "title": "Halloween 2026",
+    "deadline": "2026-10-31T00:00:00",
+    "dateRange": "Oct 31, 2026",
+    "location": "Global",
+    "isOnline": false,
+    "tags": [
+      "International",
+      "Festival"
+    ],
+    "url": "https://www.timeanddate.com/holidays/",
+    "status": "upcoming",
+    "stage": "Observance",
+    "source": "国际节日公开来源",
+    "type": "holiday",
+    "description": "万圣夜。"
+  },
+  {
+    "id": "holiday-ddl-culture-day-2026-2026-11-03",
+    "title": "Culture Day 2026",
+    "deadline": "2026-11-03T00:00:00",
+    "dateRange": "Nov 3, 2026",
+    "location": "Japan",
+    "isOnline": false,
+    "tags": [
+      "Japan National Holiday"
+    ],
+    "url": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html",
+    "status": "upcoming",
+    "stage": "National holiday",
+    "source": "Japan Cabinet Office",
+    "type": "holiday",
+    "description": "文化日。"
+  },
+  {
+    "id": "holiday-ddl-立冬-2026-2026-11-07",
+    "title": "立冬 2026",
+    "deadline": "2026-11-07T00:00:00",
+    "dateRange": "2026-11-07",
+    "location": "China",
+    "isOnline": false,
+    "tags": [
+      "二十四节气",
+      "节气"
+    ],
+    "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
+    "status": "upcoming",
+    "stage": "Solar term",
+    "source": "香港天文台历书公开来源",
+    "type": "holiday",
+    "description": "冬季开始。"
+  },
+  {
+    "id": "holiday-ddl-singles-day-2026-2026-11-11",
+    "title": "Singles Day 2026",
+    "deadline": "2026-11-11T00:00:00",
+    "dateRange": "Nov 11, 2026",
+    "location": "China / Global",
+    "isOnline": false,
+    "tags": [
+      "Shopping",
+      "China"
+    ],
+    "url": "https://www.timeanddate.com/holidays/",
+    "status": "upcoming",
+    "stage": "Observance",
+    "source": "国际节日公开来源",
+    "type": "holiday",
+    "description": "双十一。"
+  },
+  {
+    "id": "holiday-ddl-小雪-2026-2026-11-22",
+    "title": "小雪 2026",
+    "deadline": "2026-11-22T00:00:00",
+    "dateRange": "2026-11-22",
+    "location": "China",
+    "isOnline": false,
+    "tags": [
+      "二十四节气",
+      "节气"
+    ],
+    "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
+    "status": "upcoming",
+    "stage": "Solar term",
+    "source": "香港天文台历书公开来源",
+    "type": "holiday",
+    "description": "冬季节气。"
+  },
+  {
+    "id": "holiday-ddl-labor-thanksgiving-day-2026-2026-11-23",
+    "title": "Labor Thanksgiving Day 2026",
+    "deadline": "2026-11-23T00:00:00",
+    "dateRange": "Nov 23, 2026",
+    "location": "Japan",
+    "isOnline": false,
+    "tags": [
+      "Japan National Holiday"
+    ],
+    "url": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html",
+    "status": "upcoming",
+    "stage": "National holiday",
+    "source": "Japan Cabinet Office",
+    "type": "holiday",
+    "description": "勤劳感谢日。"
+  },
+  {
+    "id": "holiday-ddl-thanksgiving-day-2026-2026-11-26",
+    "title": "Thanksgiving Day 2026",
+    "deadline": "2026-11-26T00:00:00",
+    "dateRange": "Nov 26, 2026",
+    "location": "United States",
+    "isOnline": false,
+    "tags": [
+      "US Federal Holiday"
+    ],
+    "url": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/",
+    "status": "upcoming",
+    "stage": "Federal holiday",
+    "source": "US OPM federal holidays",
+    "type": "holiday",
+    "description": "美国感恩节。"
+  },
+  {
+    "id": "holiday-ddl-black-friday-2026-2026-11-27",
+    "title": "Black Friday 2026",
+    "deadline": "2026-11-27T00:00:00",
+    "dateRange": "Nov 27, 2026",
+    "location": "United States / Global",
+    "isOnline": false,
+    "tags": [
+      "Shopping",
+      "International"
+    ],
+    "url": "https://www.timeanddate.com/holidays/",
+    "status": "upcoming",
+    "stage": "Observance",
+    "source": "国际节日公开来源",
+    "type": "holiday",
+    "description": "黑色星期五。"
+  },
+  {
+    "id": "holiday-ddl-大雪-2026-2026-12-07",
+    "title": "大雪 2026",
+    "deadline": "2026-12-07T00:00:00",
+    "dateRange": "2026-12-07",
+    "location": "China",
+    "isOnline": false,
+    "tags": [
+      "二十四节气",
+      "节气"
+    ],
+    "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
+    "status": "upcoming",
+    "stage": "Solar term",
+    "source": "香港天文台历书公开来源",
+    "type": "holiday",
+    "description": "仲冬节气。"
+  },
+  {
+    "id": "holiday-ddl-冬至-2026-2026-12-22",
+    "title": "冬至 2026",
+    "deadline": "2026-12-22T00:00:00",
+    "dateRange": "2026-12-22",
+    "location": "China",
+    "isOnline": false,
+    "tags": [
+      "二十四节气",
+      "传统节日"
+    ],
+    "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
+    "status": "upcoming",
+    "stage": "Solar term",
+    "source": "香港天文台历书公开来源",
+    "type": "holiday",
+    "description": "冬至节气。"
+  },
+  {
+    "id": "holiday-ddl-christmas-day-2026-2026-12-25",
+    "title": "Christmas Day 2026",
+    "deadline": "2026-12-25T00:00:00",
+    "dateRange": "Dec 25, 2026",
+    "location": "Global",
+    "isOnline": false,
+    "tags": [
+      "International",
+      "Christmas"
+    ],
+    "url": "https://www.timeanddate.com/holidays/",
+    "status": "upcoming",
+    "stage": "Holiday",
+    "source": "国际节日公开来源",
+    "type": "holiday",
+    "description": "圣诞节。"
+  },
+  {
+    "id": "holiday-ddl-boxing-day-substitute-2026-2026-12-28",
+    "title": "Boxing Day Substitute 2026",
+    "deadline": "2026-12-28T00:00:00",
+    "dateRange": "Dec 28, 2026",
+    "location": "United Kingdom",
+    "isOnline": false,
+    "tags": [
+      "UK Bank Holiday"
+    ],
+    "url": "https://www.gov.uk/bank-holidays",
+    "status": "upcoming",
+    "stage": "Bank holiday",
+    "source": "UK bank holidays",
+    "type": "holiday",
+    "description": "英国节礼日补假。"
+  },
+  {
+    "id": "holiday-ddl-new-year-2027-2027-01-01",
+    "title": "New Year 2027",
+    "deadline": "2027-01-01T00:00:00",
+    "dateRange": "Jan 1, 2027",
+    "location": "Global",
+    "isOnline": false,
+    "tags": [
+      "New Year",
+      "International"
+    ],
+    "url": "https://www.timeanddate.com/holidays/",
+    "status": "upcoming",
+    "stage": "Holiday",
+    "source": "国际节日公开来源",
+    "type": "holiday",
+    "description": "跨年与新年假日。"
+  },
+  {
+    "id": "holiday-ddl-腊八节-2027-2027-01-15",
+    "title": "腊八节 2027",
+    "deadline": "2027-01-15T00:00:00",
+    "dateRange": "Jan 15, 2027",
+    "location": "China",
+    "isOnline": false,
+    "tags": [
+      "传统节日",
+      "农历"
+    ],
+    "url": "https://www.timeanddate.com/holidays/",
+    "status": "upcoming",
+    "stage": "Traditional festival",
+    "source": "公开农历/节日来源",
+    "type": "holiday",
+    "description": "农历腊月初八。"
+  },
+  {
+    "id": "holiday-ddl-元旦-2026-2026-01-01",
+    "title": "元旦 2026",
+    "deadline": "2026-01-01T00:00:00",
+    "dateRange": "Jan 1, 2026",
+    "location": "Global",
+    "isOnline": false,
+    "tags": [
+      "法定假日",
+      "New Year"
+    ],
+    "url": "https://www.gov.cn/",
+    "status": "ended",
+    "stage": "Holiday",
+    "source": "国务院节假日公开来源",
+    "type": "holiday",
+    "description": "新年假日。"
+  },
+  {
+    "id": "holiday-ddl-小寒-2026-2026-01-05",
+    "title": "小寒 2026",
+    "deadline": "2026-01-05T00:00:00",
+    "dateRange": "2026-01-05",
+    "location": "China",
+    "isOnline": false,
+    "tags": [
+      "二十四节气",
+      "节气"
+    ],
+    "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
+    "status": "ended",
+    "stage": "Solar term",
+    "source": "香港天文台历书公开来源",
+    "type": "holiday",
+    "description": "冬季节气。"
+  },
+  {
+    "id": "holiday-ddl-coming-of-age-day-2026-2026-01-12",
+    "title": "Coming of Age Day 2026",
+    "deadline": "2026-01-12T00:00:00",
+    "dateRange": "Jan 12, 2026",
+    "location": "Japan",
+    "isOnline": false,
+    "tags": [
+      "Japan National Holiday"
+    ],
+    "url": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html",
+    "status": "ended",
+    "stage": "National holiday",
+    "source": "Japan Cabinet Office",
+    "type": "holiday",
+    "description": "日本成人之日。"
+  },
+  {
+    "id": "holiday-ddl-martin-luther-king-jr-day-2026-2026-01-19",
+    "title": "Martin Luther King Jr. Day 2026",
+    "deadline": "2026-01-19T00:00:00",
+    "dateRange": "Jan 19, 2026",
+    "location": "United States",
+    "isOnline": false,
+    "tags": [
+      "US Federal Holiday"
+    ],
+    "url": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/",
+    "status": "ended",
+    "stage": "Federal holiday",
+    "source": "US OPM federal holidays",
+    "type": "holiday",
+    "description": "美国联邦假日。"
+  },
+  {
+    "id": "holiday-ddl-大寒-2026-2026-01-20",
+    "title": "大寒 2026",
+    "deadline": "2026-01-20T00:00:00",
+    "dateRange": "2026-01-20",
+    "location": "China",
+    "isOnline": false,
+    "tags": [
+      "二十四节气",
+      "节气"
+    ],
+    "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
+    "status": "ended",
+    "stage": "Solar term",
+    "source": "香港天文台历书公开来源",
+    "type": "holiday",
+    "description": "冬季最后一个节气。"
+  },
+  {
+    "id": "holiday-ddl-立春-2026-2026-02-04",
+    "title": "立春 2026",
+    "deadline": "2026-02-04T00:00:00",
+    "dateRange": "2026-02-04",
+    "location": "China",
+    "isOnline": false,
+    "tags": [
+      "二十四节气",
+      "节气"
+    ],
+    "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
+    "status": "ended",
+    "stage": "Solar term",
+    "source": "香港天文台历书公开来源",
+    "type": "holiday",
+    "description": "春季开始。"
+  },
+  {
+    "id": "holiday-ddl-小年-2026-2026-02-10",
+    "title": "小年 2026",
+    "deadline": "2026-02-10T00:00:00",
+    "dateRange": "Feb 10, 2026",
+    "location": "China",
+    "isOnline": false,
+    "tags": [
+      "传统节日",
+      "春节"
+    ],
+    "url": "https://www.timeanddate.com/holidays/",
+    "status": "ended",
+    "stage": "Traditional festival",
+    "source": "公开农历/节日来源",
+    "type": "holiday",
+    "description": "北方小年。"
+  },
+  {
+    "id": "holiday-ddl-national-foundation-day-2026-2026-02-11",
+    "title": "National Foundation Day 2026",
+    "deadline": "2026-02-11T00:00:00",
+    "dateRange": "Feb 11, 2026",
+    "location": "Japan",
+    "isOnline": false,
+    "tags": [
+      "Japan National Holiday"
+    ],
+    "url": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html",
+    "status": "ended",
+    "stage": "National holiday",
+    "source": "Japan Cabinet Office",
+    "type": "holiday",
+    "description": "日本建国纪念日。"
+  },
+  {
+    "id": "holiday-ddl-valentine-s-day-2026-2026-02-14",
+    "title": "Valentine's Day 2026",
+    "deadline": "2026-02-14T00:00:00",
+    "dateRange": "Feb 14, 2026",
+    "location": "Global",
+    "isOnline": false,
+    "tags": [
+      "International",
+      "Festival"
+    ],
+    "url": "https://www.timeanddate.com/holidays/",
+    "status": "ended",
+    "stage": "Observance",
+    "source": "国际节日公开来源",
+    "type": "holiday",
+    "description": "情人节。"
+  },
+  {
+    "id": "holiday-ddl-除夕-2026-2026-02-16",
+    "title": "除夕 2026",
+    "deadline": "2026-02-16T00:00:00",
+    "dateRange": "Feb 16, 2026",
+    "location": "China",
+    "isOnline": false,
+    "tags": [
+      "传统节日",
+      "春节"
+    ],
+    "url": "https://www.gov.cn/",
+    "status": "ended",
+    "stage": "Traditional festival",
+    "source": "公开农历/节日来源",
+    "type": "holiday",
+    "description": "农历岁末。"
+  },
+  {
+    "id": "holiday-ddl-washington-s-birthday-2026-2026-02-16",
+    "title": "Washington's Birthday 2026",
+    "deadline": "2026-02-16T00:00:00",
+    "dateRange": "Feb 16, 2026",
+    "location": "United States",
+    "isOnline": false,
+    "tags": [
+      "US Federal Holiday"
+    ],
+    "url": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/",
+    "status": "ended",
+    "stage": "Federal holiday",
+    "source": "US OPM federal holidays",
+    "type": "holiday",
+    "description": "美国联邦假日。"
+  },
+  {
+    "id": "holiday-ddl-春节-2026-2026-02-17",
+    "title": "春节 2026",
+    "deadline": "2026-02-17T00:00:00",
+    "dateRange": "Feb 17, 2026",
+    "location": "China",
+    "isOnline": false,
+    "tags": [
+      "法定假日",
+      "春节"
+    ],
+    "url": "https://www.gov.cn/",
+    "status": "ended",
+    "stage": "Holiday",
+    "source": "国务院节假日公开来源",
+    "type": "holiday",
+    "description": "农历新年。"
+  },
+  {
+    "id": "holiday-ddl-雨水-2026-2026-02-19",
+    "title": "雨水 2026",
+    "deadline": "2026-02-19T00:00:00",
+    "dateRange": "2026-02-19",
+    "location": "China",
+    "isOnline": false,
+    "tags": [
+      "二十四节气",
+      "节气"
+    ],
+    "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
+    "status": "ended",
+    "stage": "Solar term",
+    "source": "香港天文台历书公开来源",
+    "type": "holiday",
+    "description": "降水增多。"
+  },
+  {
+    "id": "holiday-ddl-emperor-s-birthday-2026-2026-02-23",
+    "title": "Emperor's Birthday 2026",
+    "deadline": "2026-02-23T00:00:00",
+    "dateRange": "Feb 23, 2026",
+    "location": "Japan",
+    "isOnline": false,
+    "tags": [
+      "Japan National Holiday"
+    ],
+    "url": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html",
+    "status": "ended",
+    "stage": "National holiday",
+    "source": "Japan Cabinet Office",
+    "type": "holiday",
+    "description": "日本天皇诞生日。"
+  },
+  {
+    "id": "holiday-ddl-元宵节-2026-2026-03-03",
+    "title": "元宵节 2026",
+    "deadline": "2026-03-03T00:00:00",
+    "dateRange": "Mar 3, 2026",
+    "location": "China",
+    "isOnline": false,
+    "tags": [
+      "传统节日",
+      "农历"
+    ],
+    "url": "https://www.timeanddate.com/holidays/",
+    "status": "ended",
+    "stage": "Traditional festival",
+    "source": "公开农历/节日来源",
+    "type": "holiday",
+    "description": "正月十五。"
+  },
+  {
+    "id": "holiday-ddl-惊蛰-2026-2026-03-05",
+    "title": "惊蛰 2026",
+    "deadline": "2026-03-05T00:00:00",
+    "dateRange": "2026-03-05",
+    "location": "China",
+    "isOnline": false,
+    "tags": [
+      "二十四节气",
+      "节气"
+    ],
+    "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
+    "status": "ended",
+    "stage": "Solar term",
+    "source": "香港天文台历书公开来源",
+    "type": "holiday",
+    "description": "仲春节气。"
+  },
+  {
+    "id": "holiday-ddl-international-women-s-day-2026-2026-03-08",
+    "title": "International Women's Day 2026",
+    "deadline": "2026-03-08T00:00:00",
+    "dateRange": "Mar 8, 2026",
+    "location": "Global",
+    "isOnline": false,
+    "tags": [
+      "UN Observance",
+      "International"
+    ],
+    "url": "https://www.un.org/en/observances",
+    "status": "ended",
+    "stage": "UN observance",
+    "source": "UN observances",
+    "type": "holiday",
+    "description": "国际妇女节。"
+  },
+  {
+    "id": "holiday-ddl-st-patrick-s-day-2026-2026-03-17",
+    "title": "St Patrick's Day 2026",
+    "deadline": "2026-03-17T00:00:00",
+    "dateRange": "Mar 17, 2026",
+    "location": "Ireland / Global",
+    "isOnline": false,
+    "tags": [
+      "International",
+      "Festival"
+    ],
+    "url": "https://www.timeanddate.com/holidays/",
+    "status": "ended",
+    "stage": "Observance",
+    "source": "国际节日公开来源",
+    "type": "holiday",
+    "description": "圣帕特里克节。"
+  },
+  {
+    "id": "holiday-ddl-春分-2026-2026-03-20",
+    "title": "春分 2026",
+    "deadline": "2026-03-20T00:00:00",
+    "dateRange": "2026-03-20",
+    "location": "China",
+    "isOnline": false,
+    "tags": [
+      "二十四节气",
+      "节气"
+    ],
+    "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
+    "status": "ended",
+    "stage": "Solar term",
+    "source": "香港天文台历书公开来源",
+    "type": "holiday",
+    "description": "昼夜近等长。"
+  },
+  {
+    "id": "holiday-ddl-龙抬头-2026-2026-03-20",
+    "title": "龙抬头 2026",
+    "deadline": "2026-03-20T00:00:00",
+    "dateRange": "Mar 20, 2026",
+    "location": "China",
+    "isOnline": false,
+    "tags": [
+      "传统节日",
+      "农历"
+    ],
+    "url": "https://www.timeanddate.com/holidays/",
+    "status": "ended",
+    "stage": "Traditional festival",
+    "source": "公开农历/节日来源",
+    "type": "holiday",
+    "description": "农历二月初二。"
+  },
+  {
+    "id": "holiday-ddl-april-fools-day-2026-2026-04-01",
+    "title": "April Fools' Day 2026",
+    "deadline": "2026-04-01T00:00:00",
+    "dateRange": "Apr 1, 2026",
+    "location": "Global",
+    "isOnline": false,
+    "tags": [
+      "International",
+      "Fun"
+    ],
+    "url": "https://www.timeanddate.com/holidays/",
+    "status": "ended",
+    "stage": "Observance",
+    "source": "国际节日公开来源",
+    "type": "holiday",
+    "description": "愚人节。"
+  },
+  {
+    "id": "holiday-ddl-good-friday-2026-2026-04-03",
+    "title": "Good Friday 2026",
+    "deadline": "2026-04-03T00:00:00",
+    "dateRange": "Apr 3, 2026",
+    "location": "United Kingdom",
+    "isOnline": false,
+    "tags": [
+      "UK Bank Holiday"
+    ],
+    "url": "https://www.gov.uk/bank-holidays",
+    "status": "ended",
+    "stage": "Bank holiday",
+    "source": "UK bank holidays",
+    "type": "holiday",
+    "description": "英国银行假日。"
+  },
+  {
+    "id": "holiday-ddl-清明-2026-2026-04-05",
+    "title": "清明 2026",
+    "deadline": "2026-04-05T00:00:00",
+    "dateRange": "2026-04-05",
+    "location": "China",
+    "isOnline": false,
+    "tags": [
+      "二十四节气",
+      "传统节日"
+    ],
+    "url": "https://www.gov.cn/",
+    "status": "ended",
+    "stage": "Solar term",
+    "source": "政府公告 / 历书公开来源",
+    "type": "holiday",
+    "description": "节气与传统节日。"
+  },
+  {
+    "id": "holiday-ddl-easter-monday-2026-2026-04-06",
+    "title": "Easter Monday 2026",
+    "deadline": "2026-04-06T00:00:00",
+    "dateRange": "Apr 6, 2026",
+    "location": "United Kingdom",
+    "isOnline": false,
+    "tags": [
+      "UK Bank Holiday"
+    ],
+    "url": "https://www.gov.uk/bank-holidays",
+    "status": "ended",
+    "stage": "Bank holiday",
+    "source": "UK bank holidays",
+    "type": "holiday",
+    "description": "英国银行假日。"
+  },
+  {
+    "id": "holiday-ddl-谷雨-2026-2026-04-20",
+    "title": "谷雨 2026",
+    "deadline": "2026-04-20T00:00:00",
+    "dateRange": "2026-04-20",
+    "location": "China",
+    "isOnline": false,
+    "tags": [
+      "二十四节气",
+      "节气"
+    ],
+    "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
+    "status": "ended",
+    "stage": "Solar term",
+    "source": "香港天文台历书公开来源",
+    "type": "holiday",
+    "description": "春季最后一个节气。"
+  },
+  {
+    "id": "holiday-ddl-earth-day-2026-2026-04-22",
+    "title": "Earth Day 2026",
+    "deadline": "2026-04-22T00:00:00",
+    "dateRange": "Apr 22, 2026",
+    "location": "Global",
+    "isOnline": false,
+    "tags": [
+      "Environment",
+      "International"
+    ],
+    "url": "https://www.earthday.org",
+    "status": "ended",
+    "stage": "Observance",
+    "source": "官方纪念日公开来源",
+    "type": "holiday",
+    "description": "世界地球日。"
+  },
+  {
+    "id": "holiday-ddl-showa-day-2026-2026-04-29",
+    "title": "Showa Day 2026",
+    "deadline": "2026-04-29T00:00:00",
+    "dateRange": "Apr 29, 2026",
+    "location": "Japan",
+    "isOnline": false,
+    "tags": [
+      "Japan National Holiday"
+    ],
+    "url": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html",
+    "status": "ended",
+    "stage": "National holiday",
+    "source": "Japan Cabinet Office",
+    "type": "holiday",
+    "description": "昭和之日。"
+  },
+  {
+    "id": "holiday-ddl-劳动节-2026-2026-05-01",
+    "title": "劳动节 2026",
+    "deadline": "2026-05-01T00:00:00",
+    "dateRange": "May 1, 2026",
+    "location": "China / Global",
+    "isOnline": false,
+    "tags": [
+      "法定假日",
+      "Labor Day"
+    ],
+    "url": "https://www.gov.cn/",
+    "status": "ended",
+    "stage": "Holiday",
+    "source": "国务院节假日公开来源",
+    "type": "holiday",
+    "description": "劳动节假期入口。"
+  },
+  {
+    "id": "holiday-ddl-constitution-memorial-day-2026-2026-05-03",
+    "title": "Constitution Memorial Day 2026",
+    "deadline": "2026-05-03T00:00:00",
+    "dateRange": "May 3, 2026",
+    "location": "Japan",
+    "isOnline": false,
+    "tags": [
+      "Japan National Holiday"
+    ],
+    "url": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html",
+    "status": "ended",
+    "stage": "National holiday",
+    "source": "Japan Cabinet Office",
+    "type": "holiday",
+    "description": "宪法纪念日。"
+  },
+  {
+    "id": "holiday-ddl-early-may-bank-holiday-2026-2026-05-04",
+    "title": "Early May Bank Holiday 2026",
+    "deadline": "2026-05-04T00:00:00",
+    "dateRange": "May 4, 2026",
+    "location": "United Kingdom",
+    "isOnline": false,
+    "tags": [
+      "UK Bank Holiday"
+    ],
+    "url": "https://www.gov.uk/bank-holidays",
+    "status": "ended",
+    "stage": "Bank holiday",
+    "source": "UK bank holidays",
+    "type": "holiday",
+    "description": "英国银行假日。"
+  },
+  {
+    "id": "holiday-ddl-greenery-day-2026-2026-05-04",
+    "title": "Greenery Day 2026",
+    "deadline": "2026-05-04T00:00:00",
+    "dateRange": "May 4, 2026",
+    "location": "Japan",
+    "isOnline": false,
+    "tags": [
+      "Japan National Holiday"
+    ],
+    "url": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html",
+    "status": "ended",
+    "stage": "National holiday",
+    "source": "Japan Cabinet Office",
+    "type": "holiday",
+    "description": "绿之日。"
+  },
+  {
+    "id": "holiday-ddl-立夏-2026-2026-05-05",
+    "title": "立夏 2026",
+    "deadline": "2026-05-05T00:00:00",
+    "dateRange": "2026-05-05",
+    "location": "China",
+    "isOnline": false,
+    "tags": [
+      "二十四节气",
+      "节气"
+    ],
+    "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
+    "status": "ended",
+    "stage": "Solar term",
+    "source": "香港天文台历书公开来源",
+    "type": "holiday",
+    "description": "夏季开始。"
+  },
+  {
+    "id": "holiday-ddl-children-s-day-2026-2026-05-05",
+    "title": "Children's Day 2026",
+    "deadline": "2026-05-05T00:00:00",
+    "dateRange": "May 5, 2026",
+    "location": "Japan",
+    "isOnline": false,
+    "tags": [
+      "Japan National Holiday"
+    ],
+    "url": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html",
+    "status": "ended",
+    "stage": "National holiday",
+    "source": "Japan Cabinet Office",
+    "type": "holiday",
+    "description": "日本儿童节。"
+  },
+  {
+    "id": "holiday-ddl-mother-s-day-2026-2026-05-10",
+    "title": "Mother's Day 2026",
+    "deadline": "2026-05-10T00:00:00",
+    "dateRange": "May 10, 2026",
+    "location": "United States / Global",
+    "isOnline": false,
+    "tags": [
+      "International",
+      "Family"
+    ],
+    "url": "https://www.timeanddate.com/holidays/",
+    "status": "ended",
+    "stage": "Observance",
+    "source": "国际节日公开来源",
+    "type": "holiday",
+    "description": "母亲节。"
+  }
+];

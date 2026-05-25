@@ -35,7 +35,8 @@ import {
   type LucideIcon,
 } from 'lucide-react';
 import { getTopicById } from '@/data/topics';
-import { getDDLByTopic, type DDLItem } from '@/data/ddl-data';
+import type { DDLItem } from '@/data/ddl-data';
+import { loadDDLByTopic } from '@/data/ddl-runtime';
 import { loadMetricsByTopic, type MetricSnapshot } from '@/data/metric-runtime';
 import { useSubscriptions } from '@/hooks/useSubscriptions';
 import DDLCard, { type DDLCardVisualMode } from '@/components/DDLCard';
@@ -521,10 +522,25 @@ export default function TopicDetail() {
     }
   }, [eventVisualMode]);
 
-  const items = useMemo(() => {
-    if (!topicId) return [];
-    return getDDLByTopic(topicId).sort(compareDDLItems);
+  const [loadedItems, setLoadedItems] = useState<{ topicId: string; items: DDLItem[] } | null>(null);
+
+  useEffect(() => {
+    let isCurrent = true;
+    if (!topicId) return undefined;
+
+    loadDDLByTopic(topicId).then((nextItems) => {
+      if (isCurrent) setLoadedItems({ topicId, items: nextItems });
+    });
+
+    return () => {
+      isCurrent = false;
+    };
   }, [topicId]);
+
+  const items = useMemo(() => {
+    if (!topicId || loadedItems?.topicId !== topicId) return [];
+    return [...loadedItems.items].sort(compareDDLItems);
+  }, [loadedItems, topicId]);
 
   const [loadedMetrics, setLoadedMetrics] = useState<{ topicId: string; metrics: MetricSnapshot[] } | null>(null);
 

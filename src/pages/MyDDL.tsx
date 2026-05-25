@@ -1,4 +1,4 @@
-import { useMemo, useRef, useState, type FormEvent } from 'react';
+import { useEffect, useMemo, useRef, useState, type FormEvent } from 'react';
 import { Link } from 'react-router';
 import { motion } from 'framer-motion';
 import {
@@ -26,7 +26,8 @@ import {
 } from 'lucide-react';
 import { useSubscriptions } from '@/hooks/useSubscriptions';
 import { useUserDDL, type UserDDLEventInput } from '@/hooks/useUserDDL';
-import { getAllDDL, type DDLItem } from '@/data/ddl-data';
+import type { DDLItem } from '@/data/ddl-data';
+import { loadAllDDL } from '@/data/ddl-runtime';
 import { getTopicById, topics, type Topic } from '@/data/topics';
 import DDLCard, { type DDLCardVisualMode } from '@/components/DDLCard';
 import Countdown from '@/components/Countdown';
@@ -274,8 +275,18 @@ export default function MyDDL() {
   const [editingCustomId, setEditingCustomId] = useState<string | null>(null);
   const [formMessage, setFormMessage] = useState('');
   const importInputRef = useRef<HTMLInputElement | null>(null);
+  const [allDDL, setAllDDL] = useState<DDLItem[]>([]);
 
-  const allDDL = useMemo(() => getAllDDL(), []);
+  useEffect(() => {
+    let isCurrent = true;
+    loadAllDDL().then((items) => {
+      if (isCurrent) setAllDDL(items);
+    });
+    return () => {
+      isCurrent = false;
+    };
+  }, []);
+
   const subscribedIdSet = useMemo(() => new Set(subscribedIds), [subscribedIds]);
 
   const setOrganizeMode = (mode: OrganizeMode) => {

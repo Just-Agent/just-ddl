@@ -1,0 +1,328 @@
+import type { DDLItem } from '../ddl-data';
+
+export const ddlForMultimodalDdl: DDLItem[] = [
+  {
+    "id": "multimodal-ddl-vqa-challenge-2026-2026-07-01",
+    "title": "VQA Challenge 2026",
+    "deadline": "2026-07-01T23:59:59",
+    "dateRange": "Jul 2026",
+    "location": "Online",
+    "isOnline": true,
+    "tags": [
+      "VQA",
+      "Vision-Language"
+    ],
+    "url": "https://visualqa.org",
+    "status": "upcoming",
+    "stage": "Submission",
+    "source": "Benchmark public source",
+    "type": "challenge",
+    "description": "视觉问答评测入口。"
+  },
+  {
+    "id": "multimodal-ddl-textvqa-refresh-2026-08-01",
+    "title": "TextVQA Refresh",
+    "deadline": "2026-08-01T23:59:59",
+    "dateRange": "Aug 2026",
+    "location": "Online",
+    "isOnline": true,
+    "tags": [
+      "OCR",
+      "VQA"
+    ],
+    "url": "https://textvqa.org",
+    "status": "upcoming",
+    "stage": "Result upload",
+    "source": "Benchmark public source",
+    "type": "challenge",
+    "description": "OCR + VQA 评测入口。"
+  },
+  {
+    "id": "multimodal-ddl-mmmu-challenge-2026-2026-08-15",
+    "title": "MMMU Challenge 2026",
+    "deadline": "2026-08-15T23:59:59",
+    "dateRange": "Aug 2026",
+    "location": "Online",
+    "isOnline": true,
+    "tags": [
+      "MM Understanding",
+      "Reasoning"
+    ],
+    "url": "https://mmmu-benchmark.github.io",
+    "status": "upcoming",
+    "stage": "Leaderboard",
+    "source": "Benchmark public source",
+    "type": "challenge",
+    "description": "多模态理解 benchmark 入口。"
+  },
+  {
+    "id": "multimodal-ddl-image-captioning-challenge-2026-08-28",
+    "title": "Image Captioning Challenge",
+    "deadline": "2026-08-28T23:59:59",
+    "dateRange": "Aug 2026",
+    "location": "Online",
+    "isOnline": true,
+    "tags": [
+      "Captioning",
+      "COCO"
+    ],
+    "url": "https://cocodataset.org",
+    "status": "upcoming",
+    "stage": "Submission",
+    "source": "人工整理的官方来源入口",
+    "type": "challenge",
+    "description": "图像描述挑战入口。"
+  },
+  {
+    "id": "multimodal-ddl-mmlu-pro-vision-reasoning-track-2026-09-18",
+    "title": "MMLU-Pro Vision Reasoning Track",
+    "deadline": "2026-09-18T23:59:59",
+    "dateRange": "Sep 2026",
+    "location": "Online",
+    "isOnline": true,
+    "tags": [
+      "Reasoning",
+      "VLM"
+    ],
+    "url": "https://www.kaggle.com/competitions",
+    "status": "upcoming",
+    "stage": "Leaderboard",
+    "source": "人工整理的官方来源入口",
+    "type": "challenge",
+    "description": "多模态推理榜单入口。"
+  },
+  {
+    "id": "multimodal-ddl-video-captioning-challenge-2026-09-25",
+    "title": "Video Captioning Challenge",
+    "deadline": "2026-09-25T23:59:59",
+    "dateRange": "Sep 2026",
+    "location": "Online",
+    "isOnline": true,
+    "tags": [
+      "Video Captioning",
+      "Generation"
+    ],
+    "url": "https://www.kaggle.com/competitions",
+    "status": "upcoming",
+    "stage": "Submission",
+    "source": "人工整理的官方来源入口",
+    "type": "challenge",
+    "description": "视频描述挑战入口。"
+  },
+  {
+    "id": "multimodal-ddl-aigc-evaluation-2026-2026-09-30",
+    "title": "AIGC Evaluation 2026",
+    "deadline": "2026-09-30T23:59:59",
+    "dateRange": "Sep 2026",
+    "location": "Online",
+    "isOnline": true,
+    "tags": [
+      "AIGC",
+      "Generation"
+    ],
+    "url": "https://www.kaggle.com/competitions",
+    "status": "upcoming",
+    "stage": "Final submit",
+    "source": "Kaggle competitions public source",
+    "type": "challenge",
+    "description": "生成式 AI 评测入口。"
+  },
+  {
+    "id": "multimodal-ddl-video-mme-leaderboard-freeze-2026-10-12",
+    "title": "Video-MME Leaderboard Freeze",
+    "deadline": "2026-10-12T23:59:59",
+    "dateRange": "Oct 2026",
+    "location": "Online",
+    "isOnline": true,
+    "tags": [
+      "Video",
+      "VLM"
+    ],
+    "url": "https://video-mme.github.io",
+    "status": "upcoming",
+    "stage": "Leaderboard",
+    "source": "Benchmark public source",
+    "type": "challenge",
+    "description": "视频理解评测入口。"
+  },
+  {
+    "id": "multimodal-ddl-chartqa-challenge-2026-10-22",
+    "title": "ChartQA Challenge",
+    "deadline": "2026-10-22T23:59:59",
+    "dateRange": "Oct 2026",
+    "location": "Online",
+    "isOnline": true,
+    "tags": [
+      "ChartQA",
+      "Document"
+    ],
+    "url": "https://github.com/vis-nlp/ChartQA",
+    "status": "upcoming",
+    "stage": "Submission",
+    "source": "人工整理的官方来源入口",
+    "type": "challenge",
+    "description": "图表问答评测入口。"
+  },
+  {
+    "id": "multimodal-ddl-audio-visual-scene-challenge-2026-11-05",
+    "title": "Audio-Visual Scene Challenge",
+    "deadline": "2026-11-05T23:59:59",
+    "dateRange": "Nov 2026",
+    "location": "Online",
+    "isOnline": true,
+    "tags": [
+      "Audio",
+      "Video"
+    ],
+    "url": "https://www.kaggle.com/competitions",
+    "status": "upcoming",
+    "stage": "Submission",
+    "source": "人工整理的官方来源入口",
+    "type": "challenge",
+    "description": "音视频多模态挑战入口。"
+  },
+  {
+    "id": "multimodal-ddl-docvqa-task-refresh-2026-11-18",
+    "title": "DocVQA Task Refresh",
+    "deadline": "2026-11-18T23:59:59",
+    "dateRange": "Nov 2026",
+    "location": "Online",
+    "isOnline": true,
+    "tags": [
+      "DocVQA",
+      "OCR"
+    ],
+    "url": "https://rrc.cvc.uab.es/?ch=17",
+    "status": "upcoming",
+    "stage": "Result upload",
+    "source": "人工整理的官方来源入口",
+    "type": "challenge",
+    "description": "文档问答评测入口。"
+  },
+  {
+    "id": "multimodal-ddl-cvpr-vlm-workshop-paper-2026-12-01",
+    "title": "CVPR VLM Workshop Paper",
+    "deadline": "2026-12-01T23:59:59",
+    "dateRange": "Dec 2026",
+    "location": "Online",
+    "isOnline": true,
+    "tags": [
+      "VLM",
+      "Workshop"
+    ],
+    "url": "https://cvpr.thecvf.com",
+    "status": "upcoming",
+    "stage": "Workshop paper",
+    "source": "人工整理的官方来源入口",
+    "type": "program",
+    "description": "VLM workshop paper 入口。"
+  },
+  {
+    "id": "multimodal-ddl-mmbench-leaderboard-snapshot-2026-12-12",
+    "title": "MMBench Leaderboard Snapshot",
+    "deadline": "2026-12-12T23:59:59",
+    "dateRange": "Dec 2026",
+    "location": "Online",
+    "isOnline": true,
+    "tags": [
+      "MMBench",
+      "VLM"
+    ],
+    "url": "https://opencompass.org.cn/leaderboard-multimodal",
+    "status": "upcoming",
+    "stage": "Leaderboard",
+    "source": "人工整理的官方来源入口",
+    "type": "challenge",
+    "description": "多模态综合评测入口。"
+  },
+  {
+    "id": "multimodal-ddl-multimodal-safety-red-team-2026-12-20",
+    "title": "Multimodal Safety Red Team",
+    "deadline": "2026-12-20T23:59:59",
+    "dateRange": "Dec 2026",
+    "location": "Online",
+    "isOnline": true,
+    "tags": [
+      "Safety",
+      "Red Team"
+    ],
+    "url": "https://openreview.net/",
+    "status": "upcoming",
+    "stage": "Report",
+    "source": "人工整理的官方来源入口",
+    "type": "challenge",
+    "description": "多模态安全评测入口。"
+  },
+  {
+    "id": "multimodal-ddl-llava-bench-refresh-2027-01-05",
+    "title": "LLaVA Bench Refresh",
+    "deadline": "2027-01-05T23:59:59",
+    "dateRange": "Jan 2027",
+    "location": "Online",
+    "isOnline": true,
+    "tags": [
+      "LLaVA",
+      "VLM"
+    ],
+    "url": "https://llava-vl.github.io",
+    "status": "upcoming",
+    "stage": "Evaluation",
+    "source": "人工整理的官方来源入口",
+    "type": "challenge",
+    "description": "VLM 对话能力评测入口。"
+  },
+  {
+    "id": "multimodal-ddl-acl-multimodal-nlp-workshop-2027-01-25",
+    "title": "ACL Multimodal NLP Workshop",
+    "deadline": "2027-01-25T23:59:59",
+    "dateRange": "Jan 2027",
+    "location": "Online",
+    "isOnline": true,
+    "tags": [
+      "Multimodal NLP",
+      "Workshop"
+    ],
+    "url": "https://www.aclweb.org",
+    "status": "upcoming",
+    "stage": "Paper",
+    "source": "人工整理的官方来源入口",
+    "type": "program",
+    "description": "多模态 NLP workshop 入口。"
+  },
+  {
+    "id": "multimodal-ddl-speech-to-image-evaluation-track-2027-02-08",
+    "title": "Speech-to-Image Evaluation Track",
+    "deadline": "2027-02-08T23:59:59",
+    "dateRange": "Feb 2027",
+    "location": "Online",
+    "isOnline": true,
+    "tags": [
+      "Speech",
+      "Generation"
+    ],
+    "url": "https://www.kaggle.com/competitions",
+    "status": "upcoming",
+    "stage": "Submission",
+    "source": "人工整理的官方来源入口",
+    "type": "challenge",
+    "description": "语音到图像生成评测入口。"
+  },
+  {
+    "id": "multimodal-ddl-robotics-vla-benchmark-2027-03-10",
+    "title": "Robotics VLA Benchmark",
+    "deadline": "2027-03-10T23:59:59",
+    "dateRange": "Mar 2027",
+    "location": "Online",
+    "isOnline": true,
+    "tags": [
+      "VLA",
+      "Robotics"
+    ],
+    "url": "https://openreview.net/",
+    "status": "upcoming",
+    "stage": "Leaderboard",
+    "source": "人工整理的官方来源入口",
+    "type": "challenge",
+    "description": "视觉-语言-动作模型评测入口。"
+  }
+];

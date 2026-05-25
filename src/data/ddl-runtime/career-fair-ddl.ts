@@ -1,0 +1,165 @@
+import type { DDLItem } from '../ddl-data';
+
+export const ddlForCareerFairDdl: DDLItem[] = [
+  {
+    "topicId": "career-fair-ddl",
+    "id": "career-fair-ddl-umich-fall-engineering-career-fair-2026-09-09",
+    "title": "University of Michigan Fall Engineering Career Fair",
+    "deadline": "2026-09-09T12:00:00-04:00",
+    "dateRange": "September 9, 2026",
+    "location": "Ann Arbor, USA",
+    "isOnline": false,
+    "tags": [
+      "engineering",
+      "career fair",
+      "university"
+    ],
+    "url": "https://careercenter.umich.edu/content/career-center-fairs",
+    "status": "upcoming",
+    "stage": "Event start",
+    "source": "University of Michigan Career Center",
+    "sourceUrl": "https://careercenter.umich.edu/content/career-center-fairs",
+    "type": "program",
+    "subtopic": "campus-career-fair",
+    "subtopicName": "高校招聘会",
+    "description": "密歇根大学 Fall Engineering Career Fair 官方页面节点，面向工程学生与雇主。"
+  },
+  {
+    "topicId": "career-fair-ddl",
+    "id": "career-fair-ddl-umass-amherst-internship-fair-2026-09-11",
+    "title": "UMass Amherst Internship Fair",
+    "deadline": "2026-09-11T10:00:00-04:00",
+    "dateRange": "September 11, 2026",
+    "location": "Amherst, USA",
+    "isOnline": false,
+    "tags": [
+      "internship",
+      "career fair",
+      "university"
+    ],
+    "url": "https://www.umass.edu/careers/employers/career-fairs",
+    "status": "upcoming",
+    "stage": "Event start",
+    "source": "UMass Amherst Career Development",
+    "sourceUrl": "https://www.umass.edu/careers/employers/career-fairs",
+    "type": "program",
+    "subtopic": "campus-career-fair",
+    "subtopicName": "高校招聘会",
+    "description": "UMass Amherst Fall 2026 internship fair 官方日期，用于实习和校招提醒。"
+  },
+  {
+    "topicId": "career-fair-ddl",
+    "id": "career-fair-ddl-uic-engineering-technology-fair-2026-09-16",
+    "title": "UIC Engineering and Technology Job & Internship Fair",
+    "deadline": "2026-09-16T12:00:00-05:00",
+    "dateRange": "September 16, 2026",
+    "location": "Chicago, USA",
+    "isOnline": false,
+    "tags": [
+      "engineering",
+      "technology",
+      "career fair"
+    ],
+    "url": "https://ecc.uic.edu/employers/career-fairs/",
+    "status": "upcoming",
+    "stage": "Event start",
+    "source": "University of Illinois Chicago Engineering Career Center",
+    "sourceUrl": "https://ecc.uic.edu/employers/career-fairs/",
+    "type": "program",
+    "subtopic": "campus-career-fair",
+    "subtopicName": "高校招聘会",
+    "description": "UIC 工程与技术 Job & Internship Fair，覆盖工程和技术相关专业。"
+  },
+  {
+    "topicId": "career-fair-ddl",
+    "id": "career-fair-ddl-osu-university-wide-career-fair-2026-09-16",
+    "title": "Ohio State University-Wide Career and Internship Fair",
+    "deadline": "2026-09-16T11:00:00-04:00",
+    "dateRange": "September 16-17, 2026",
+    "location": "Columbus / Online",
+    "isOnline": false,
+    "tags": [
+      "career fair",
+      "internship",
+      "hybrid"
+    ],
+    "url": "https://careers.osu.edu/events-and-programs/university-wide-career-and-internship-fair",
+    "status": "upcoming",
+    "stage": "Event start",
+    "source": "The Ohio State University Career Center",
+    "sourceUrl": "https://careers.osu.edu/events-and-programs/university-wide-career-and-internship-fair",
+    "type": "program",
+    "subtopic": "campus-career-fair",
+    "subtopicName": "高校招聘会",
+    "description": "Ohio State 全校 Career and Internship Fair，包含线下和虚拟日程。"
+  },
+  {
+    "topicId": "career-fair-ddl",
+    "id": "career-fair-ddl-unh-fall-career-internship-fair-2026-09-16",
+    "title": "UNH Fall Career & Internship Fair",
+    "deadline": "2026-09-16T11:00:00-04:00",
+    "dateRange": "September 16-17, 2026",
+    "location": "Durham, USA",
+    "isOnline": false,
+    "tags": [
+      "career fair",
+      "internship",
+      "graduate students"
+    ],
+    "url": "https://www.unh.edu/career/career-events/career-internship-fair/employer-logistics",
+    "status": "upcoming",
+    "stage": "Event start",
+    "source": "University of New Hampshire Career and Professional Success",
+    "sourceUrl": "https://www.unh.edu/career/career-events/career-internship-fair/employer-logistics",
+    "type": "program",
+    "subtopic": "campus-career-fair",
+    "subtopicName": "高校招聘会",
+    "description": "UNH Fall 2026 Career & Internship Fair，覆盖本科、硕士和校友求职场景。"
+  },
+  {
+    "topicId": "career-fair-ddl",
+    "id": "career-fair-ddl-umn-cse-career-fair-2026-09-22",
+    "title": "University of Minnesota CSE Career Fair",
+    "deadline": "2026-09-22T11:00:00-05:00",
+    "dateRange": "September 22-23, 2026",
+    "location": "Minneapolis, USA",
+    "isOnline": false,
+    "tags": [
+      "CSE",
+      "engineering",
+      "career fair"
+    ],
+    "url": "https://cse.umn.edu/college/career/cse-career-fair",
+    "status": "upcoming",
+    "stage": "Event start",
+    "source": "University of Minnesota College of Science and Engineering",
+    "sourceUrl": "https://cse.umn.edu/college/career/cse-career-fair",
+    "type": "program",
+    "subtopic": "campus-career-fair",
+    "subtopicName": "高校招聘会",
+    "description": "UMN College of Science and Engineering Fall 2026 Career Fair 官方日期。"
+  },
+  {
+    "topicId": "career-fair-ddl",
+    "id": "career-fair-ddl-kstate-all-university-career-fair-2026-09-22",
+    "title": "Kansas State All-University Career Fair",
+    "deadline": "2026-09-22T11:00:00-05:00",
+    "dateRange": "September 22-24, 2026",
+    "location": "Manhattan, USA",
+    "isOnline": false,
+    "tags": [
+      "career fair",
+      "university-wide",
+      "employer"
+    ],
+    "url": "https://www.k-state.edu/careercenter/conference/documents/EABJan26.pdf",
+    "status": "upcoming",
+    "stage": "Event start",
+    "source": "Kansas State University Career Center",
+    "sourceUrl": "https://www.k-state.edu/careercenter/conference/documents/EABJan26.pdf",
+    "type": "program",
+    "subtopic": "campus-career-fair",
+    "subtopicName": "高校招聘会",
+    "description": "Kansas State All-University Career Fair，官方资料列出 2026 年 9 月 22-24 日窗口。"
+  }
+];

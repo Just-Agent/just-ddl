@@ -1,4 +1,3 @@
-import { useMemo } from 'react';
 import { Link } from 'react-router';
 import { motion } from 'framer-motion';
 import {
@@ -28,10 +27,10 @@ import {
   type LucideIcon,
 } from 'lucide-react';
 import type { Topic } from '@/data/topics';
-import { getDDLByTopic } from '@/data/ddl-data';
+import type { DDLItem } from '@/data/ddl-data';
 import { useSubscriptions } from '@/hooks/useSubscriptions';
 import { useLanguage } from '@/lib/language';
-import { compareDDLItems, formatRelativeDeadline, isActiveDeadlineItem } from '@/lib/ddl';
+import { formatRelativeDeadline } from '@/lib/ddl';
 
 const iconMap: Record<string, LucideIcon> = {
   Trophy, Bot, Eye, MessageSquare, GraduationCap, BookOpen, Code2, CalendarHeart, Layers, Medal, Gamepad2, Music, Clapperboard, Smartphone, Car, Scale, BriefcaseBusiness, Database, RadioTower,
@@ -66,6 +65,13 @@ function copyFallbackPublished(language: 'zh' | 'en') {
   return language === 'zh' ? '在线' : 'live';
 }
 
+export interface TopicCardMetrics {
+  total: number;
+  active: number;
+  next?: DDLItem;
+  sources: number;
+}
+
 function topicSourceLabel(topic: Topic, language: 'zh' | 'en') {
   if (topic.sourceMode === 'incubator') return language === 'zh' ? 'Hub 孵化区' : 'Hub incubator';
   if (topic.sourceMode === 'cluster') {
@@ -75,26 +81,13 @@ function topicSourceLabel(topic: Topic, language: 'zh' | 'en') {
   return topic.repo;
 }
 
-export default function TopicCard({ topic, index }: { topic: Topic; index: number }) {
+export default function TopicCard({ topic, index, metrics }: { topic: Topic; index: number; metrics?: TopicCardMetrics }) {
   const { isSubscribed, toggle } = useSubscriptions();
   const { language, copy, topicName, topicDescription, categoryName, tagName } = useLanguage();
   const subscribed = isSubscribed(topic.id);
   const Icon = iconMap[topic.icon] || Trophy;
   const status = topicStatus(topic, language);
-
-  const metrics = useMemo(() => {
-    const items = getDDLByTopic(topic.id);
-    const activeItems = items
-      .filter(isActiveDeadlineItem)
-      .sort(compareDDLItems);
-
-    return {
-      total: items.length || topic.itemCount,
-      active: activeItems.length,
-      next: activeItems[0],
-      sources: new Set(items.map(item => item.source).filter(Boolean)).size,
-    };
-  }, [topic.id, topic.itemCount]);
+  const topicMetrics = metrics || { total: topic.itemCount, active: 0, next: undefined, sources: 0 };
 
   return (
     <motion.article
@@ -153,18 +146,18 @@ export default function TopicCard({ topic, index }: { topic: Topic; index: numbe
         <div className="mt-5 grid grid-cols-3 gap-2">
           <div className="rounded-2xl border bg-slate-50 p-3" style={{ borderColor: '#E2E8F0' }}>
             <RadioTower size={14} style={{ color: topic.color }} />
-            <p className="mt-2 text-lg font-black" style={{ color: '#0F172A' }}>{metrics.active}</p>
+            <p className="mt-2 text-lg font-black" style={{ color: '#0F172A' }}>{topicMetrics.active}</p>
             <p className="text-[11px] font-bold" style={{ color: '#64748B' }}>{copy.topicCard.active}</p>
           </div>
           <div className="rounded-2xl border bg-slate-50 p-3" style={{ borderColor: '#E2E8F0' }}>
             <Database size={14} style={{ color: topic.color }} />
-            <p className="mt-2 text-lg font-black" style={{ color: '#0F172A' }}>{metrics.sources}</p>
+            <p className="mt-2 text-lg font-black" style={{ color: '#0F172A' }}>{topicMetrics.sources}</p>
             <p className="text-[11px] font-bold" style={{ color: '#64748B' }}>{copy.topicCard.sources}</p>
           </div>
           <div className="rounded-2xl border bg-slate-50 p-3" style={{ borderColor: '#E2E8F0' }}>
             <Clock3 size={14} style={{ color: topic.color }} />
             <p className="mt-2 truncate text-lg font-black" style={{ color: '#0F172A' }}>
-              {metrics.next ? formatRelativeDeadline(metrics.next, language) : '-'}
+              {topicMetrics.next ? formatRelativeDeadline(topicMetrics.next, language) : '-'}
             </p>
             <p className="text-[11px] font-bold" style={{ color: '#64748B' }}>{copy.topicCard.next}</p>
           </div>
@@ -175,7 +168,7 @@ export default function TopicCard({ topic, index }: { topic: Topic; index: numbe
             <div className="min-w-0">
               <p className="text-[11px] font-black uppercase tracking-[0.16em]" style={{ color: '#94A3B8' }}>{copy.topicCard.next}</p>
               <p className="mt-1 truncate text-sm font-bold" style={{ color: '#0F172A' }}>
-                {metrics.next?.title || copy.topicCard.noUpcoming}
+                {topicMetrics.next?.title || copy.topicCard.noUpcoming}
               </p>
             </div>
             <span className="shrink-0 rounded-full px-2.5 py-1 text-[11px] font-black" style={{ background: status.background, color: status.color }}>
