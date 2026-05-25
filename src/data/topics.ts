@@ -617,7 +617,7 @@ export const topics: Topic[] = [
     "clusterId": "research-funding-ddl",
     "dataUrl": "public-data/topics/nsfc-ddl/items.json",
     "metricsUrl": "public-data/topics/nsfc-ddl/metrics.json",
-    "itemCount": 58,
+    "itemCount": 61,
     "category": "学术科研",
     "tags": [
       "NSFC",
@@ -638,7 +638,7 @@ export const topics: Topic[] = [
     "clusterId": "journal-metrics-ddl",
     "dataUrl": "public-data/topics/cas-partition-ddl/items.json",
     "metricsUrl": "public-data/topics/cas-partition-ddl/metrics.json",
-    "itemCount": 2,
+    "itemCount": 5,
     "category": "学术期刊",
     "tags": [
       "CAS",

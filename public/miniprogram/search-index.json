@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-25T09:20:18.239Z",
-  "dataVersion": "6e26266158ac9e8c",
+  "generatedAt": "2026-05-25T10:06:32.705Z",
+  "dataVersion": "c486cb22baafce7a",
   "topics": [
     {
       "id": "hackathon-ddl",
@@ -435,7 +435,7 @@
         "research funding",
         "科研基金"
       ],
-      "itemCount": 58,
+      "itemCount": 61,
       "status": "published"
     },
     {
@@ -448,7 +448,7 @@
         "journal partition",
         "期刊分区"
       ],
-      "itemCount": 2,
+      "itemCount": 5,
       "status": "published"
     },
     {

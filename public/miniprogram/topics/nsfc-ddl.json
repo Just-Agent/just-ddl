@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-25T09:20:18.239Z",
-  "dataVersion": "6e26266158ac9e8c",
+  "generatedAt": "2026-05-25T10:06:32.705Z",
+  "dataVersion": "c486cb22baafce7a",
   "topic": {
     "id": "nsfc-ddl",
     "name": "国家自然科学基金",
@@ -15,7 +15,7 @@
       "research funding",
       "科研基金"
     ],
-    "itemCount": 58,
+    "itemCount": 61,
     "status": "published",
     "sourceMode": "cluster",
     "clusterId": "research-funding-ddl"
