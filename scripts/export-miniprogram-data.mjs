@@ -422,7 +422,9 @@ function main() {
       status: item.status,
       tags: item.tags || [],
       subtopic: item.subtopic,
-      source: item.source
+      source: item.source,
+      url: item.url,
+      sourceUrl: item.sourceUrl
     }))
   );
   assertPublicPayload(searchItems, 'miniprogram.searchIndex.items');

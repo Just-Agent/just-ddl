@@ -60,17 +60,24 @@ function isHttpUrl(value) {
   }
 }
 
+function hasValue(value) {
+  return typeof value === 'string' && value.trim().length > 0;
+}
+
 const topics = readJsonTs(TOPICS_PATH, 'export const topics', '[', ']');
 const ddlData = readJsonTs(DDL_PATH, 'export const ddlData', '{', '}');
 const metricData = readJsonTs(METRIC_PATH, 'export const metricData', '{', '}');
 const manifest = JSON.parse(fs.readFileSync(path.join(MINIPROGRAM_DIR, 'manifest.json'), 'utf8'));
 const miniprogramTopics = JSON.parse(fs.readFileSync(path.join(MINIPROGRAM_DIR, 'topics.json'), 'utf8'));
+const searchIndex = JSON.parse(fs.readFileSync(path.join(MINIPROGRAM_DIR, 'search-index.json'), 'utf8'));
 const ddlSource = fs.readFileSync(DDL_PATH, 'utf8');
 const myDdlSource = fs.readFileSync(MY_DDL_PATH, 'utf8');
 
 const errors = [];
 const topicIds = new Set();
 const miniprogramTopicIds = new Set(miniprogramTopics.map(topic => topic.id));
+const searchTopicIds = new Set((searchIndex.topics || []).map(topic => topic.id));
+const searchItemIds = new Set((searchIndex.items || []).map(item => item.id));
 const sourceItemsCount = Object.values(ddlData).reduce((sum, items) => sum + items.length, 0);
 const sourceMetricsCount = Object.values(metricData).reduce((sum, metrics) => sum + metrics.length, 0);
 
@@ -85,6 +92,12 @@ if (manifest.metricsCount !== sourceMetricsCount) {
 }
 if (miniprogramTopics.length !== topics.length) {
   errors.push(`miniprogram topics.json count ${miniprogramTopics.length} does not match source topics ${topics.length}`);
+}
+if ((searchIndex.topics || []).length !== topics.length) {
+  errors.push(`search-index topics count ${(searchIndex.topics || []).length} does not match source topics ${topics.length}`);
+}
+if ((searchIndex.items || []).length !== sourceItemsCount) {
+  errors.push(`search-index items count ${(searchIndex.items || []).length} does not match source items ${sourceItemsCount}`);
 }
 
 for (const topic of topics) {
@@ -107,6 +120,7 @@ for (const topic of topics) {
     errors.push(`${label}: itemCount ${topic.itemCount} does not match source item count ${items.length}`);
   }
   if (!miniprogramTopicIds.has(topic.id)) errors.push(`${label}: missing from miniprogram topics.json`);
+  if (!searchTopicIds.has(topic.id)) errors.push(`${label}: missing from miniprogram search-index topics`);
 
   const topicFile = path.join(MINIPROGRAM_TOPIC_DIR, `${topic.id}.json`);
   if (!fs.existsSync(topicFile)) {
@@ -125,6 +139,9 @@ for (const topic of topics) {
     if (item.topicId !== topic.id) {
       errors.push(`${label}/${item.id || '<missing-item-id>'}: miniprogram item.topicId mismatch`);
     }
+    if (!searchItemIds.has(item.id)) {
+      errors.push(`${label}/${item.id || '<missing-item-id>'}: missing from miniprogram search-index items`);
+    }
   }
 }
 
@@ -142,11 +159,39 @@ for (const [topicId, items] of Object.entries(ddlData)) {
       }
     }
     if (!isHttpUrl(item.url)) errors.push(`${label}: item.url must be an http(s) URL`);
+    if (hasValue(item.sourceUrl) && !isHttpUrl(item.sourceUrl)) {
+      errors.push(`${label}: item.sourceUrl must be an http(s) URL when present`);
+    }
+    if (!isHttpUrl(item.sourceUrl) && !isHttpUrl(item.url)) {
+      errors.push(`${label}: item must have sourceUrl or url as a traceable http(s) source`);
+    }
   }
 }
 
-for (const topicId of Object.keys(metricData)) {
+for (const [topicId, metrics] of Object.entries(metricData)) {
   if (!topicIds.has(topicId)) errors.push(`${topicId}: orphan metricData topic`);
+  const metricIds = new Set();
+  for (const metric of metrics) {
+    const label = `${topicId}/${metric.id || '<missing-metric-id>'}`;
+    if (!metric.id || typeof metric.id !== 'string') errors.push(`${label}: missing metric id`);
+    if (metricIds.has(metric.id)) errors.push(`${label}: duplicate metric id within topic`);
+    metricIds.add(metric.id);
+    if (typeof metric.source !== 'string' || !metric.source.trim()) {
+      errors.push(`${label}: missing metric.source`);
+    }
+    if (hasValue(metric.url) && !isHttpUrl(metric.url)) {
+      errors.push(`${label}: metric.url must be an http(s) URL when present`);
+    }
+    if (hasValue(metric.sourceUrl) && !isHttpUrl(metric.sourceUrl)) {
+      errors.push(`${label}: metric.sourceUrl must be an http(s) URL when present`);
+    }
+    if (hasValue(metric.homepageUrl) && !isHttpUrl(metric.homepageUrl)) {
+      errors.push(`${label}: metric.homepageUrl must be an http(s) URL when present`);
+    }
+    if (![metric.sourceUrl, metric.url, metric.homepageUrl, metric.openAlexId].some(hasValue)) {
+      errors.push(`${label}: metric must include sourceUrl, url, homepageUrl, or openAlexId`);
+    }
+  }
 }
 
 if (!ddlSource.includes('Object.entries(ddlData)') || !ddlSource.includes('topicId: typeof item.topicId')) {
@@ -164,5 +209,6 @@ console.log(JSON.stringify({
   items: sourceItemsCount,
   metrics: sourceMetricsCount,
   routes: topics.length + 4,
+  searchItems: (searchIndex.items || []).length,
   miniprogramTopicFiles: fs.readdirSync(MINIPROGRAM_TOPIC_DIR).filter(file => file.endsWith('.json')).length,
 }, null, 2));
