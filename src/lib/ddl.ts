@@ -28,6 +28,10 @@ function formatDate(value: unknown, language: DDLLanguage) {
   return new Date(time).toLocaleDateString(language === 'zh' ? 'zh-CN' : 'en-US');
 }
 
+function daysBetween(fromTime: number, toTime: number) {
+  return Math.max(0, Math.floor((toTime - fromTime) / DAY_MS));
+}
+
 export function isHistoryItem(item: DDLItem) {
   return item.type === 'historyEvent' || item.type === 'officialRelease';
 }
@@ -98,6 +102,33 @@ export function formatItemDate(item: DDLItem, language: DDLLanguage) {
   if (isPlaceholderItem(item)) return item.dateRange || (language === 'zh' ? '待官方公告' : 'Official date TBA');
   if (item.deadline) return formatDate(item.deadline, language);
   return item.dateRange || '-';
+}
+
+export function formatLastOfficialSignal(item: DDLItem, language: DDLLanguage) {
+  if (!isForecastItem(item)) return '';
+  const lastTime = parseTime(item.lastOfficialDate);
+  if (!Number.isFinite(lastTime)) return '';
+
+  const lastDate = formatDate(item.lastOfficialDate, language);
+  const now = Date.now();
+  if (lastTime > now) {
+    return language === 'zh'
+      ? `最近已官宣节点：${lastDate}`
+      : `Nearest announced node: ${lastDate}`;
+  }
+
+  const days = daysBetween(lastTime, now);
+  return language === 'zh'
+    ? `距上次官方节点已过 ${days} 天`
+    : `${days}d since the last official node`;
+}
+
+export function formatForecastDisclosure(item: DDLItem, language: DDLLanguage) {
+  if (!isForecastItem(item)) return '';
+  const signal = formatLastOfficialSignal(item, language);
+  const prefix = language === 'zh' ? '下一节点暂未官宣' : 'Next node not officially announced';
+  const suffix = language === 'zh' ? '预测不是官方日期' : 'Forecast, not an official date';
+  return signal ? `${prefix} · ${signal} · ${suffix}` : `${prefix} · ${suffix}`;
 }
 
 export function timingBadge(item: DDLItem, language: DDLLanguage) {

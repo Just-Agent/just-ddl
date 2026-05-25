@@ -5,7 +5,7 @@ import Countdown from './Countdown';
 import { useCountdown } from '@/hooks/useCountdown';
 import { useSubscriptions } from '@/hooks/useSubscriptions';
 import { useLanguage } from '@/lib/language';
-import { formatItemDate, hasOfficialDeadline, timingBadge } from '@/lib/ddl';
+import { formatForecastDisclosure, formatItemDate, hasOfficialDeadline, isForecastItem, timingBadge } from '@/lib/ddl';
 
 export type DDLCardVariant = 'list' | 'grid';
 export type DDLCardVisualMode = 'vivid' | 'simple';
@@ -336,6 +336,7 @@ export default function DDLCard({
   const hasSourcePreview = Boolean(sourcePreviewFor(item));
   const canCountdown = hasOfficialDeadline(item) && typeof item.deadline === 'string';
   const badge = timingBadge(item, language);
+  const forecastDisclosure = isForecastItem(item) ? formatForecastDisclosure(item, language) : '';
 
   if (isVivid && isGrid) {
     return (
@@ -375,6 +376,11 @@ export default function DDLCard({
             </span>
           ) : (
             <AwaitingNoticeBadge />
+          )}
+          {forecastDisclosure && (
+            <p className="rounded-2xl border px-3 py-2 text-xs font-bold leading-5" style={{ borderColor: '#CFFAFE', background: '#ECFEFF', color: '#0E7490' }}>
+              {forecastDisclosure}
+            </p>
           )}
           {item.description && <p className="line-clamp-3 text-sm leading-7" style={{ color: '#52627A' }}>{item.description}</p>}
           <div className="flex flex-wrap gap-1.5">
@@ -440,6 +446,11 @@ export default function DDLCard({
           {badge && <span className="shrink-0 rounded-full px-1.5 py-0.5 text-[10px] font-medium" style={{ background: badge.background, color: badge.color }}>{badge.label}</span>}
         </div>
         {item.description && <p className={`mt-1 text-[11px] leading-relaxed ${isGrid ? 'line-clamp-3' : ''}`} style={{ color: '#78716C' }}>{item.description}</p>}
+        {forecastDisclosure && (
+          <p className="mt-1.5 rounded-xl bg-cyan-50 px-2 py-1 text-[11px] font-bold leading-5 text-cyan-700">
+            {forecastDisclosure}
+          </p>
+        )}
         <div className="mt-1 flex flex-wrap items-center gap-x-3 gap-y-1 text-[11px]" style={{ color: '#A8A29E' }}>
           <span className="flex items-center gap-1">{item.isOnline ? <Globe size={11} /> : <MapPin size={11} />}{item.location}</span>
           <span className="flex items-center gap-1"><CalendarDays size={11} />{formatItemDate(item, language)}</span>

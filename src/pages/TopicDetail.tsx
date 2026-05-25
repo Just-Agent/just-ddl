@@ -40,7 +40,7 @@ import { getMetricsByTopic, type MetricSnapshot } from '@/data/metric-data';
 import { useSubscriptions } from '@/hooks/useSubscriptions';
 import DDLCard, { type DDLCardVisualMode } from '@/components/DDLCard';
 import { useLanguage } from '@/lib/language';
-import { compareDDLItems, ddlItemTime, formatItemDate, formatRelativeDeadline, isActiveDeadlineItem, isForecastItem, isHistoryItem } from '@/lib/ddl';
+import { compareDDLItems, ddlItemTime, formatForecastDisclosure, formatItemDate, formatRelativeDeadline, isActiveDeadlineItem, isForecastItem, isHistoryItem } from '@/lib/ddl';
 
 const iconMap: Record<string, LucideIcon> = {
   Trophy, Bot, Eye, MessageSquare, GraduationCap, BookOpen, Code2, CalendarHeart, Layers, Medal, Gamepad2, Music, Clapperboard, Smartphone, Car, Scale, BriefcaseBusiness, Database, RadioTower,
@@ -109,6 +109,7 @@ function TopicInsightRails({
       forecast: '预测窗口',
       metrics: '指标快照',
       confidence: '置信度',
+      disclosure: '预测说明',
       source: '来源',
       empty: '暂无数据',
     }
@@ -120,6 +121,7 @@ function TopicInsightRails({
       forecast: 'Forecasts',
       metrics: 'Metrics',
       confidence: 'Confidence',
+      disclosure: 'Forecast note',
       source: 'Source',
       empty: 'No data yet',
     };
@@ -164,6 +166,9 @@ function TopicInsightRails({
                 </div>
                 <p className="mt-2 line-clamp-2 text-xs font-black" style={{ color: '#0F172A' }}>{item.title}</p>
                 <p className="mt-1 line-clamp-2 text-[11px]" style={{ color: '#64748B' }}>{item.description}</p>
+                <p className="mt-2 rounded-xl bg-cyan-50 px-2 py-1 text-[11px] font-bold leading-5 text-cyan-700">
+                  {labels.disclosure}: {formatForecastDisclosure(item, language)}
+                </p>
               </a>
             )) : <p className="text-xs font-semibold" style={{ color: '#94A3B8' }}>{labels.empty}</p>}
           </div>
