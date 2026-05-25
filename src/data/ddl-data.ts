@@ -17132,9 +17132,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       "type": "historyEvent",
       "date": "2026-03-27",
       "dateRange": "2026-03-27",
-      "url": "https://www.fenqubiao.com/",
-      "source": "中科院期刊分区表在线平台",
-      "sourceUrl": "https://www.fenqubiao.com/",
+      "url": "https://www.fenqubiao.com/User/Help.aspx",
+      "source": "中科院期刊分区表在线平台帮助页",
+      "sourceUrl": "https://www.fenqubiao.com/User/Help.aspx",
       "status": "ended",
       "stage": "Platform boundary",
       "category": "期刊评价",
@@ -17147,7 +17147,8 @@ export const ddlData: Record<string, DDLItem[]> = {
         "历史轨迹",
         "查询平台"
       ],
-      "description": "在线平台说明期刊分区表自 2004 年发布、2019 年发布升级版、2022 年起只发布升级版；公开专题只记录平台与合规查询入口。"
+      "description": "官方帮助页说明期刊分区表发布沿革、查询入口与平台使用边界；公开专题只记录平台与合规查询入口。",
+      "canonicalUrl": "https://www.fenqubiao.com/User/Help.aspx#cas-partition-platform-history-policy"
     },
     {
       "id": "cas-partition-2026-stop-update-statement",
@@ -17180,9 +17181,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       "type": "historyEvent",
       "date": "2026-03-27",
       "dateRange": "2026-03-27",
-      "url": "https://www.fenqubiao.com/",
-      "source": "中科院期刊分区表在线平台",
-      "sourceUrl": "https://www.las.cas.cn/news/tzgg/202603/t20260327_8178738.html",
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx",
+      "source": "中科院期刊分区表在线平台数据来源说明",
+      "sourceUrl": "https://www.fenqubiao.com/User/DataIntroduction.aspx",
       "status": "ended",
       "stage": "Access boundary",
       "category": "期刊评价",
@@ -17195,7 +17196,8 @@ export const ddlData: Record<string, DDLItem[]> = {
         "历史轨迹",
         "授权数据"
       ],
-      "description": "具体期刊历年分区变化需要通过平台查询、机构授权或合规文件导入维护；Just-DDL 不绕过登录或授权边界抓取单刊分区。"
+      "description": "数据来源说明用于解释分区表数据口径；具体期刊历年分区变化仍需通过平台查询、机构授权或合规文件导入维护。",
+      "canonicalUrl": "https://www.fenqubiao.com/User/DataIntroduction.aspx#cas-partition-history-data-policy"
     },
     {
       "id": "cas-partition-authorized-import-ready",
@@ -17204,9 +17206,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       "type": "historyEvent",
       "date": "2026-05-24",
       "dateRange": "2026-05-24",
-      "url": "https://www.fenqubiao.com/",
-      "source": "中科院期刊分区表在线平台",
-      "sourceUrl": "https://www.fenqubiao.com/",
+      "url": "https://www.fenqubiao.com/User/UseProtocol.aspx",
+      "source": "中科院期刊分区表在线平台使用协议",
+      "sourceUrl": "https://www.fenqubiao.com/User/UseProtocol.aspx",
       "status": "ended",
       "stage": "Authorized import",
       "category": "期刊评价",
@@ -17219,7 +17221,8 @@ export const ddlData: Record<string, DDLItem[]> = {
         "CSV 导入",
         "单刊轨迹"
       ],
-      "description": "仓库提供 CAS_HISTORY_CSV 授权导入流程，可把单刊 ISSN、年份、大类分区、小类分区写入 metricSnapshot，用于展示历年一区/二区/三区/四区变化。"
+      "description": "仓库提供 CAS_HISTORY_CSV 授权导入流程，用于把单刊 ISSN、年份、大类分区、小类分区写入 metricSnapshot；导入数据须遵守平台使用协议和机构授权边界。",
+      "canonicalUrl": "https://www.fenqubiao.com/User/UseProtocol.aspx#cas-partition-authorized-import-ready"
     },
     {
       "id": "cas-partition-no-2026-official-release",

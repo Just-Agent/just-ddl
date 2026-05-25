@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-25T12:49:31.589Z",
-  "dataVersion": "0949a96f94a26f1a",
+  "generatedAt": "2026-05-25T13:12:11.243Z",
+  "dataVersion": "5372e67d23c6c4f3",
   "totalItems": 808,
   "officialDeadlineItems": 658,
   "buckets": {
@@ -391,7 +391,7 @@
       ]
     },
     "rootLikeUrl": {
-      "count": 73,
+      "count": 70,
       "byTopic": {
         "cv-ddl": 20,
         "agent-ddl": 11,
@@ -400,7 +400,6 @@
         "multimodal-ddl": 4,
         "sports-ddl": 4,
         "car-launch-ddl": 3,
-        "cas-partition-ddl": 3,
         "programming-ddl": 3,
         "concert-ddl": 2,
         "hackathon-ddl": 2,

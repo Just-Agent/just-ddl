@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-25T12:49:38.991Z",
-  "dataVersion": "c02a63c2cb7cfca8",
+  "generatedAt": "2026-05-25T13:12:18.739Z",
+  "dataVersion": "36ded0d084622be0",
   "topics": [
     {
       "id": "hackathon-ddl",
@@ -12621,9 +12621,9 @@
         "查询平台"
       ],
       "subtopic": "cas-access",
-      "source": "中科院期刊分区表在线平台",
-      "url": "https://www.fenqubiao.com/",
-      "sourceUrl": "https://www.fenqubiao.com/"
+      "source": "中科院期刊分区表在线平台帮助页",
+      "url": "https://www.fenqubiao.com/User/Help.aspx",
+      "sourceUrl": "https://www.fenqubiao.com/User/Help.aspx"
     },
     {
       "id": "cas-partition-2026-stop-update-statement",
@@ -12655,9 +12655,9 @@
         "授权数据"
       ],
       "subtopic": "cas-access",
-      "source": "中科院期刊分区表在线平台",
-      "url": "https://www.fenqubiao.com/",
-      "sourceUrl": "https://www.las.cas.cn/news/tzgg/202603/t20260327_8178738.html"
+      "source": "中科院期刊分区表在线平台数据来源说明",
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx",
+      "sourceUrl": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-partition-authorized-import-ready",
@@ -12672,9 +12672,9 @@
         "单刊轨迹"
       ],
       "subtopic": "cas-import",
-      "source": "中科院期刊分区表在线平台",
-      "url": "https://www.fenqubiao.com/",
-      "sourceUrl": "https://www.fenqubiao.com/"
+      "source": "中科院期刊分区表在线平台使用协议",
+      "url": "https://www.fenqubiao.com/User/UseProtocol.aspx",
+      "sourceUrl": "https://www.fenqubiao.com/User/UseProtocol.aspx"
     },
     {
       "id": "cas-partition-no-2026-official-release",

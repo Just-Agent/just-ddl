@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-25T12:49:38.991Z",
-  "dataVersion": "c02a63c2cb7cfca8",
+  "generatedAt": "2026-05-25T13:12:18.739Z",
+  "dataVersion": "36ded0d084622be0",
   "topic": {
     "id": "cas-partition-ddl",
     "name": "中科院期刊分区",
@@ -34,13 +34,13 @@
         "历史轨迹",
         "查询平台"
       ],
-      "url": "https://www.fenqubiao.com/",
+      "url": "https://www.fenqubiao.com/User/Help.aspx",
       "status": "ended",
       "stage": "Platform boundary",
-      "source": "中科院期刊分区表在线平台",
-      "sourceUrl": "https://www.fenqubiao.com/",
+      "source": "中科院期刊分区表在线平台帮助页",
+      "sourceUrl": "https://www.fenqubiao.com/User/Help.aspx",
       "type": "historyEvent",
-      "description": "在线平台说明期刊分区表自 2004 年发布、2019 年发布升级版、2022 年起只发布升级版；公开专题只记录平台与合规查询入口。",
+      "description": "官方帮助页说明期刊分区表发布沿革、查询入口与平台使用边界；公开专题只记录平台与合规查询入口。",
       "subtopic": "cas-access",
       "subtopicName": "历史查询",
       "category": "期刊评价"
@@ -82,13 +82,13 @@
         "历史轨迹",
         "授权数据"
       ],
-      "url": "https://www.fenqubiao.com/",
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx",
       "status": "ended",
       "stage": "Access boundary",
-      "source": "中科院期刊分区表在线平台",
-      "sourceUrl": "https://www.las.cas.cn/news/tzgg/202603/t20260327_8178738.html",
+      "source": "中科院期刊分区表在线平台数据来源说明",
+      "sourceUrl": "https://www.fenqubiao.com/User/DataIntroduction.aspx",
       "type": "historyEvent",
-      "description": "具体期刊历年分区变化需要通过平台查询、机构授权或合规文件导入维护；Just-DDL 不绕过登录或授权边界抓取单刊分区。",
+      "description": "数据来源说明用于解释分区表数据口径；具体期刊历年分区变化仍需通过平台查询、机构授权或合规文件导入维护。",
       "subtopic": "cas-access",
       "subtopicName": "历史数据",
       "category": "期刊评价"
@@ -106,13 +106,13 @@
         "CSV 导入",
         "单刊轨迹"
       ],
-      "url": "https://www.fenqubiao.com/",
+      "url": "https://www.fenqubiao.com/User/UseProtocol.aspx",
       "status": "ended",
       "stage": "Authorized import",
-      "source": "中科院期刊分区表在线平台",
-      "sourceUrl": "https://www.fenqubiao.com/",
+      "source": "中科院期刊分区表在线平台使用协议",
+      "sourceUrl": "https://www.fenqubiao.com/User/UseProtocol.aspx",
       "type": "historyEvent",
-      "description": "仓库提供 CAS_HISTORY_CSV 授权导入流程，可把单刊 ISSN、年份、大类分区、小类分区写入 metricSnapshot，用于展示历年一区/二区/三区/四区变化。",
+      "description": "仓库提供 CAS_HISTORY_CSV 授权导入流程，用于把单刊 ISSN、年份、大类分区、小类分区写入 metricSnapshot；导入数据须遵守平台使用协议和机构授权边界。",
       "subtopic": "cas-import",
       "subtopicName": "授权导入",
       "category": "期刊评价"
@@ -151,8 +151,8 @@
       "metric": "cas_platform_release_history_boundary",
       "value": "2004_release_2019_upgrade_2022_upgrade_only_2026_stopped",
       "asOfDate": "2026-05-24",
-      "source": "中科院期刊分区表在线平台",
-      "url": "https://www.fenqubiao.com/"
+      "source": "中科院期刊分区表在线平台帮助页",
+      "url": "https://www.fenqubiao.com/User/Help.aspx"
     },
     {
       "id": "cas-partition-official-release-status-after-2026",
@@ -173,8 +173,8 @@
       "metric": "cas_partition_history_import",
       "value": "licensed_import_required",
       "asOfDate": "2026-05-24",
-      "source": "中科院期刊分区表在线平台",
-      "url": "https://www.fenqubiao.com/"
+      "source": "中科院期刊分区表在线平台使用协议",
+      "url": "https://www.fenqubiao.com/User/UseProtocol.aspx"
     },
     {
       "id": "cas-acm-computing-surveys-2026-journal",
@@ -189,7 +189,7 @@
       "majorCategory": "授权导入清单",
       "isTop": true,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-acm-computing-surveys-2025-journal",
@@ -204,7 +204,7 @@
       "majorCategory": "授权导入清单",
       "isTop": true,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-acm-transactions-on-intelligent-systems-and-technology-2026-journal",
@@ -219,7 +219,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-acm-transactions-on-intelligent-systems-and-technology-2025-journal",
@@ -234,7 +234,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-acm-transactions-on-knowledge-discovery-from-data-2026-journal",
@@ -249,7 +249,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-acm-transactions-on-knowledge-discovery-from-data-2025-journal",
@@ -264,7 +264,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-applied-soft-computing-2026-journal",
@@ -279,7 +279,7 @@
       "majorCategory": "授权导入清单",
       "isTop": true,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-applied-soft-computing-2025-journal",
@@ -294,7 +294,7 @@
       "majorCategory": "授权导入清单",
       "isTop": true,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-artificial-intelligence-2026-journal",
@@ -309,7 +309,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-artificial-intelligence-2025-journal",
@@ -324,7 +324,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-artificial-life-2026-journal",
@@ -339,7 +339,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-artificial-life-2025-journal",
@@ -354,7 +354,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-automatica-2026-journal",
@@ -369,7 +369,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-automatica-2025-journal",
@@ -384,7 +384,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-bioinformatics-2026-journal",
@@ -399,7 +399,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-bioinformatics-2025-journal",
@@ -414,7 +414,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-canadian-journal-of-remote-sensing-2026-journal",
@@ -429,7 +429,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-canadian-journal-of-remote-sensing-2025-journal",
@@ -444,7 +444,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-complex-intelligent-systems-2026-journal",
@@ -459,7 +459,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-complex-intelligent-systems-2025-journal",
@@ -474,7 +474,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-computational-intelligence-2026-journal",
@@ -489,7 +489,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-computational-intelligence-2025-journal",
@@ -504,7 +504,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-computer-vision-and-image-understanding-2026-journal",
@@ -519,7 +519,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-computer-vision-and-image-understanding-2025-journal",
@@ -534,7 +534,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-data-knowledge-engineering-2026-journal",
@@ -549,7 +549,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-data-knowledge-engineering-2025-journal",
@@ -564,7 +564,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-data-mining-and-knowledge-discovery-2026-journal",
@@ -579,7 +579,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-data-mining-and-knowledge-discovery-2025-journal",
@@ -594,7 +594,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-engineering-applications-of-artificial-intelligence-2026-journal",
@@ -609,7 +609,7 @@
       "majorCategory": "授权导入清单",
       "isTop": true,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-engineering-applications-of-artificial-intelligence-2025-journal",
@@ -624,7 +624,7 @@
       "majorCategory": "授权导入清单",
       "isTop": true,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-engineering-optimization-2026-journal",
@@ -639,7 +639,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-engineering-optimization-2025-journal",
@@ -654,7 +654,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-european-journal-of-operational-research-2026-journal",
@@ -669,7 +669,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-european-journal-of-operational-research-2025-journal",
@@ -684,7 +684,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-evolutionary-computation-2026-journal",
@@ -699,7 +699,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-evolutionary-computation-2025-journal",
@@ -714,7 +714,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-expert-systems-with-applications-2026-journal",
@@ -729,7 +729,7 @@
       "majorCategory": "授权导入清单",
       "isTop": true,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-expert-systems-with-applications-2025-journal",
@@ -744,7 +744,7 @@
       "majorCategory": "授权导入清单",
       "isTop": true,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-fuzzy-sets-and-systems-2026-journal",
@@ -759,7 +759,7 @@
       "majorCategory": "授权导入清单",
       "isTop": true,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-fuzzy-sets-and-systems-2025-journal",
@@ -774,7 +774,7 @@
       "majorCategory": "授权导入清单",
       "isTop": true,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-genetic-programming-and-evolvable-machines-2026-journal",
@@ -789,7 +789,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-genetic-programming-and-evolvable-machines-2025-journal",
@@ -804,7 +804,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-giscience-remote-sensing-2026-journal",
@@ -819,7 +819,7 @@
       "majorCategory": "授权导入清单",
       "isTop": true,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-giscience-remote-sensing-2025-journal",
@@ -834,7 +834,7 @@
       "majorCategory": "授权导入清单",
       "isTop": true,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-ieee-computational-intelligence-magazine-2026-journal",
@@ -849,7 +849,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-ieee-computational-intelligence-magazine-2025-journal",
@@ -864,7 +864,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-ieee-geoscience-and-remote-sensing-letters-2026-journal",
@@ -879,7 +879,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-ieee-geoscience-and-remote-sensing-letters-2025-journal",
@@ -894,7 +894,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-ieee-geoscience-and-remote-sensing-magazine-2026-journal",
@@ -909,7 +909,7 @@
       "majorCategory": "授权导入清单",
       "isTop": true,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-ieee-geoscience-and-remote-sensing-magazine-2025-journal",
@@ -924,7 +924,7 @@
       "majorCategory": "授权导入清单",
       "isTop": true,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-ieee-intelligent-systems-2026-journal",
@@ -939,7 +939,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-ieee-intelligent-systems-2025-journal",
@@ -954,7 +954,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-ieee-journal-of-selected-topics-in-applied-earth-observations-and-remote-sensing-2026-journal",
@@ -969,7 +969,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-ieee-journal-of-selected-topics-in-applied-earth-observations-and-remote-sensing-2025-journal",
@@ -984,7 +984,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-ieee-journal-of-selected-topics-in-signal-processing-2026-journal",
@@ -999,7 +999,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-ieee-journal-of-selected-topics-in-signal-processing-2025-journal",
@@ -1014,7 +1014,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-ieee-signal-processing-letters-2026-journal",
@@ -1029,7 +1029,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-ieee-signal-processing-letters-2025-journal",
@@ -1044,7 +1044,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-ieee-signal-processing-magazine-2026-journal",
@@ -1059,7 +1059,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-ieee-signal-processing-magazine-2025-journal",
@@ -1074,7 +1074,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-ieee-transactions-on-affective-computing-2025-journal",
@@ -1089,7 +1089,7 @@
       "majorCategory": "授权导入清单",
       "isTop": true,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-ieee-transactions-on-automatic-control-2026-journal",
@@ -1104,7 +1104,7 @@
       "majorCategory": "授权导入清单",
       "isTop": true,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-ieee-transactions-on-automatic-control-2025-journal",
@@ -1119,7 +1119,7 @@
       "majorCategory": "授权导入清单",
       "isTop": true,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-ieee-transactions-on-automation-science-and-engineering-2026-journal",
@@ -1134,7 +1134,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-ieee-transactions-on-automation-science-and-engineering-2025-journal",
@@ -1149,7 +1149,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-ieee-transactions-on-biomedical-engineering-2026-journal",
@@ -1164,7 +1164,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-ieee-transactions-on-biomedical-engineering-2025-journal",
@@ -1179,7 +1179,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-ieee-transactions-on-circuits-and-systems-for-video-technology-2026-journal",
@@ -1194,7 +1194,7 @@
       "majorCategory": "授权导入清单",
       "isTop": true,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-ieee-transactions-on-circuits-and-systems-for-video-technology-2025-journal",
@@ -1209,7 +1209,7 @@
       "majorCategory": "授权导入清单",
       "isTop": true,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-ieee-transactions-on-cognitive-and-developmental-systems-2026-journal",
@@ -1224,7 +1224,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-ieee-transactions-on-cognitive-and-developmental-systems-2025-journal",
@@ -1239,7 +1239,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-ieee-transactions-on-control-systems-technology-2026-journal",
@@ -1254,7 +1254,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-ieee-transactions-on-control-systems-technology-2025-journal",
@@ -1269,7 +1269,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-ieee-transactions-on-cybernetics-2026-journal",
@@ -1284,7 +1284,7 @@
       "majorCategory": "授权导入清单",
       "isTop": true,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-ieee-transactions-on-cybernetics-2025-journal",
@@ -1299,7 +1299,7 @@
       "majorCategory": "授权导入清单",
       "isTop": true,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-ieee-transactions-on-emerging-topics-in-computational-intelligence-2026-journal",
@@ -1314,7 +1314,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-ieee-transactions-on-emerging-topics-in-computational-intelligence-2025-journal",
@@ -1329,7 +1329,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-ieee-transactions-on-emerging-topics-in-computing-2026-journal",
@@ -1344,7 +1344,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-ieee-transactions-on-emerging-topics-in-computing-2025-journal",
@@ -1359,7 +1359,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-ieee-transactions-on-evolutionary-computation-2026-journal",
@@ -1374,7 +1374,7 @@
       "majorCategory": "授权导入清单",
       "isTop": true,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-ieee-transactions-on-evolutionary-computation-2025-journal",
@@ -1389,7 +1389,7 @@
       "majorCategory": "授权导入清单",
       "isTop": true,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-ieee-transactions-on-fuzzy-systems-2026-journal",
@@ -1404,7 +1404,7 @@
       "majorCategory": "授权导入清单",
       "isTop": true,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-ieee-transactions-on-fuzzy-systems-2025-journal",
@@ -1419,7 +1419,7 @@
       "majorCategory": "授权导入清单",
       "isTop": true,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-ieee-transactions-on-geoscience-and-remote-sensing-2026-journal",
@@ -1434,7 +1434,7 @@
       "majorCategory": "授权导入清单",
       "isTop": true,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-ieee-transactions-on-geoscience-and-remote-sensing-2025-journal",
@@ -1449,7 +1449,7 @@
       "majorCategory": "授权导入清单",
       "isTop": true,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-ieee-transactions-on-human-machine-systems-2026-journal",
@@ -1464,7 +1464,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-ieee-transactions-on-human-machine-systems-2025-journal",
@@ -1479,7 +1479,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-ieee-transactions-on-image-processing-2026-journal",
@@ -1494,7 +1494,7 @@
       "majorCategory": "授权导入清单",
       "isTop": true,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-ieee-transactions-on-image-processing-2025-journal",
@@ -1509,7 +1509,7 @@
       "majorCategory": "授权导入清单",
       "isTop": true,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-ieee-transactions-on-information-forensics-and-security-2026-journal",
@@ -1524,7 +1524,7 @@
       "majorCategory": "授权导入清单",
       "isTop": true,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-ieee-transactions-on-information-forensics-and-security-2025-journal",
@@ -1539,7 +1539,7 @@
       "majorCategory": "授权导入清单",
       "isTop": true,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-ieee-transactions-on-knowledge-and-data-engineering-2026-journal",
@@ -1554,7 +1554,7 @@
       "majorCategory": "授权导入清单",
       "isTop": true,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-ieee-transactions-on-knowledge-and-data-engineering-2025-journal",
@@ -1569,7 +1569,7 @@
       "majorCategory": "授权导入清单",
       "isTop": true,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-ieee-transactions-on-medical-imaging-2026-journal",
@@ -1584,7 +1584,7 @@
       "majorCategory": "授权导入清单",
       "isTop": true,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-ieee-transactions-on-medical-imaging-2025-journal",
@@ -1599,7 +1599,7 @@
       "majorCategory": "授权导入清单",
       "isTop": true,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-ieee-transactions-on-multimedia-2026-journal",
@@ -1614,7 +1614,7 @@
       "majorCategory": "授权导入清单",
       "isTop": true,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-ieee-transactions-on-multimedia-2025-journal",
@@ -1629,7 +1629,7 @@
       "majorCategory": "授权导入清单",
       "isTop": true,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-ieee-transactions-on-neural-networks-and-learning-systems-2026-journal",
@@ -1644,7 +1644,7 @@
       "majorCategory": "授权导入清单",
       "isTop": true,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-ieee-transactions-on-neural-networks-and-learning-systems-2025-journal",
@@ -1659,7 +1659,7 @@
       "majorCategory": "授权导入清单",
       "isTop": true,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-ieee-transactions-on-parallel-and-distributed-systems-2026-journal",
@@ -1674,7 +1674,7 @@
       "majorCategory": "授权导入清单",
       "isTop": true,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-ieee-transactions-on-parallel-and-distributed-systems-2025-journal",
@@ -1689,7 +1689,7 @@
       "majorCategory": "授权导入清单",
       "isTop": true,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-ieee-transactions-on-pattern-analysis-and-machine-intelligence-2026-journal",
@@ -1704,7 +1704,7 @@
       "majorCategory": "授权导入清单",
       "isTop": true,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-ieee-transactions-on-pattern-analysis-and-machine-intelligence-2025-journal",
@@ -1719,7 +1719,7 @@
       "majorCategory": "授权导入清单",
       "isTop": true,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-ieee-transactions-on-signal-processing-2026-journal",
@@ -1734,7 +1734,7 @@
       "majorCategory": "授权导入清单",
       "isTop": true,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-ieee-transactions-on-signal-processing-2025-journal",
@@ -1749,7 +1749,7 @@
       "majorCategory": "授权导入清单",
       "isTop": true,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-ieee-transactions-on-systems-man-cybernetics-systems-2026-journal",
@@ -1764,7 +1764,7 @@
       "majorCategory": "授权导入清单",
       "isTop": true,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-ieee-transactions-on-systems-man-cybernetics-systems-2025-journal",
@@ -1779,7 +1779,7 @@
       "majorCategory": "授权导入清单",
       "isTop": true,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-ieee-acm-transactions-on-computational-biology-and-bioinformatics-2026-journal",
@@ -1794,7 +1794,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-information-fusion-2026-journal",
@@ -1809,7 +1809,7 @@
       "majorCategory": "授权导入清单",
       "isTop": true,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-information-fusion-2025-journal",
@@ -1824,7 +1824,7 @@
       "majorCategory": "授权导入清单",
       "isTop": true,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-information-sciences-2026-journal",
@@ -1839,7 +1839,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-international-journal-of-computer-vision-2026-journal",
@@ -1854,7 +1854,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-international-journal-of-computer-vision-2025-journal",
@@ -1869,7 +1869,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-international-journal-of-fuzzy-systems-2026-journal",
@@ -1884,7 +1884,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-international-journal-of-fuzzy-systems-2025-journal",
@@ -1899,7 +1899,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-international-journal-of-remote-sensing-2026-journal",
@@ -1914,7 +1914,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-international-journal-of-remote-sensing-2025-journal",
@@ -1929,7 +1929,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-isprs-journal-of-photogrammetry-and-remote-sensing-2026-journal",
@@ -1944,7 +1944,7 @@
       "majorCategory": "授权导入清单",
       "isTop": true,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-isprs-journal-of-photogrammetry-and-remote-sensing-2025-journal",
@@ -1959,7 +1959,7 @@
       "majorCategory": "授权导入清单",
       "isTop": true,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-journal-of-applied-remote-sensing-2026-journal",
@@ -1974,7 +1974,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-journal-of-applied-remote-sensing-2025-journal",
@@ -1989,7 +1989,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-journal-of-artificial-intelligence-research-2026-journal",
@@ -2004,7 +2004,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-journal-of-artificial-intelligence-research-2025-journal",
@@ -2019,7 +2019,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-journal-of-heuristics-2026-journal",
@@ -2034,7 +2034,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-journal-of-heuristics-2025-journal",
@@ -2049,7 +2049,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-journal-of-machine-learning-research-2026-journal",
@@ -2064,7 +2064,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-journal-of-machine-learning-research-2025-journal",
@@ -2079,7 +2079,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-journal-of-the-operational-research-society-2026-journal",
@@ -2094,7 +2094,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-journal-of-the-operational-research-society-2025-journal",
@@ -2109,7 +2109,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-knowledge-based-systems-2026-journal",
@@ -2124,7 +2124,7 @@
       "majorCategory": "授权导入清单",
       "isTop": true,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-knowledge-based-systems-2025-journal",
@@ -2139,7 +2139,7 @@
       "majorCategory": "授权导入清单",
       "isTop": true,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-machine-learning-2026-journal",
@@ -2154,7 +2154,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-machine-learning-2025-journal",
@@ -2169,7 +2169,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-machine-vision-and-applications-2026-journal",
@@ -2184,7 +2184,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-machine-vision-and-applications-2025-journal",
@@ -2199,7 +2199,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-memetic-computing-2026-journal",
@@ -2214,7 +2214,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-memetic-computing-2025-journal",
@@ -2229,7 +2229,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-natural-computing-2026-journal",
@@ -2244,7 +2244,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-natural-computing-2025-journal",
@@ -2259,7 +2259,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-neural-computation-2026-journal",
@@ -2274,7 +2274,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-neural-computation-2025-journal",
@@ -2289,7 +2289,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-neural-networks-2026-journal",
@@ -2304,7 +2304,7 @@
       "majorCategory": "授权导入清单",
       "isTop": true,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-neural-networks-2025-journal",
@@ -2319,7 +2319,7 @@
       "majorCategory": "授权导入清单",
       "isTop": true,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-neurocomputing-2026-journal",
@@ -2334,7 +2334,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-neurocomputing-2025-journal",
@@ -2349,7 +2349,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-optical-engineering-2026-journal",
@@ -2364,7 +2364,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-optical-engineering-2025-journal",
@@ -2379,7 +2379,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-optics-express-2026-journal",
@@ -2394,7 +2394,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-optics-express-2025-journal",
@@ -2409,7 +2409,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-optics-letters-2026-journal",
@@ -2424,7 +2424,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-optics-letters-2025-journal",
@@ -2439,7 +2439,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-pattern-analysis-and-applications-2026-journal",
@@ -2454,7 +2454,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-pattern-analysis-and-applications-2025-journal",
@@ -2469,7 +2469,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-pattern-recognition-2026-journal",
@@ -2484,7 +2484,7 @@
       "majorCategory": "授权导入清单",
       "isTop": true,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-pattern-recognition-2025-journal",
@@ -2499,7 +2499,7 @@
       "majorCategory": "授权导入清单",
       "isTop": true,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-pattern-recognition-letters-2026-journal",
@@ -2514,7 +2514,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-pattern-recognition-letters-2025-journal",
@@ -2529,7 +2529,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-photogrammetric-engineering-and-remote-sensing-2026-journal",
@@ -2544,7 +2544,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-photogrammetric-engineering-and-remote-sensing-2025-journal",
@@ -2559,7 +2559,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-proceedings-of-the-ieee-2026-journal",
@@ -2574,7 +2574,7 @@
       "majorCategory": "授权导入清单",
       "isTop": true,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-proceedings-of-the-ieee-2025-journal",
@@ -2589,7 +2589,7 @@
       "majorCategory": "授权导入清单",
       "isTop": true,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-proceedings-of-the-national-academy-of-sciences-2026-journal",
@@ -2604,7 +2604,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-remote-sensing-2026-journal",
@@ -2619,7 +2619,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-remote-sensing-2025-journal",
@@ -2634,7 +2634,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-remote-sensing-letters-2026-journal",
@@ -2649,7 +2649,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-remote-sensing-letters-2025-journal",
@@ -2664,7 +2664,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-remote-sensing-of-environment-2026-journal",
@@ -2679,7 +2679,7 @@
       "majorCategory": "授权导入清单",
       "isTop": true,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-remote-sensing-of-environment-2025-journal",
@@ -2694,7 +2694,7 @@
       "majorCategory": "授权导入清单",
       "isTop": true,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-research-2026-journal",
@@ -2709,7 +2709,7 @@
       "majorCategory": "授权导入清单",
       "isTop": true,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-research-2025-journal",
@@ -2724,7 +2724,7 @@
       "majorCategory": "授权导入清单",
       "isTop": true,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-signal-processing-2026-journal",
@@ -2739,7 +2739,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-signal-processing-2025-journal",
@@ -2754,7 +2754,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-soft-computing-2026-journal",
@@ -2769,7 +2769,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-soft-computing-2025-journal",
@@ -2784,7 +2784,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-swarm-and-evolutionary-computation-2026-journal",
@@ -2799,7 +2799,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     },
     {
       "id": "cas-swarm-and-evolutionary-computation-2025-journal",
@@ -2814,7 +2814,7 @@
       "majorCategory": "授权导入清单",
       "isTop": false,
       "source": "用户授权 CAS 分区导入",
-      "url": "https://www.fenqubiao.com/"
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
     }
   ],
   "subtopics": [
