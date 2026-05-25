@@ -229,7 +229,7 @@ export const topics: Topic[] = [
     "repo": "Just-Agent/robotics-ddl",
     "site": "https://just-agent.github.io/robotics-ddl/",
     "status": "published",
-    "itemCount": 8,
+    "itemCount": 9,
     "category": "技术赛事",
     "tags": [
       "robotics",
