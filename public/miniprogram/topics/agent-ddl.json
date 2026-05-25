@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-25T14:58:39.009Z",
-  "dataVersion": "387e7d62f849a96d",
+  "generatedAt": "2026-05-25T23:04:19.374Z",
+  "dataVersion": "65b78becb1005ce4",
   "topic": {
     "id": "agent-ddl",
     "name": "AI Agent",
@@ -19,6 +19,29 @@
     "status": "published"
   },
   "items": [
+    {
+      "id": "agent-ddl-agents-assemble-healthcare-ai-2026-05-11",
+      "topicId": "agent-ddl",
+      "title": "Agents Assemble - The Healthcare AI Endgame",
+      "deadline": "2026-05-11T23:59:59-07:00",
+      "dateRange": "Mar 4 - May 11, 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "Healthcare",
+        "MCP",
+        "A2A",
+        "FHIR"
+      ],
+      "url": "https://agents-assemble.devpost.com/",
+      "status": "ended",
+      "stage": "Submission",
+      "source": "Agents Assemble Devpost",
+      "sourceUrl": "https://agents-assemble.devpost.com/",
+      "type": "hackathon",
+      "prize": "$25,000",
+      "description": "Healthcare AI agent hackathon focused on interoperable agents at the intersection of MCP, A2A, and FHIR."
+    },
     {
       "id": "agent-ddl-devnetwork-ai-ml-hackathon-2026-05-28",
       "topicId": "agent-ddl",
@@ -154,28 +177,6 @@
       "description": "Build intelligent AI agents that solve real-world problems and create global impact."
     },
     {
-      "id": "agent-ddl-ai-olympics-realaigym-stage1-2026-06-15",
-      "topicId": "agent-ddl",
-      "title": "AI Olympics with RealAIGym - Stage 1",
-      "deadline": "2026-06-15T23:59:59",
-      "dateRange": "First stage solutions and reports: May 1 - Jun 15, 2026",
-      "location": "IJCAI-ECAI 2026 / DFKI Bremen",
-      "isOnline": true,
-      "tags": [
-        "Robotics Agent",
-        "Reinforcement Learning",
-        "CloudPendulum"
-      ],
-      "url": "https://ai-olympics.dfki-bremen.de/",
-      "status": "upcoming",
-      "stage": "Stage 1 report",
-      "source": "IJCAI AI Olympics with RealAIGym",
-      "sourceUrl": "https://ai-olympics.dfki-bremen.de/",
-      "type": "challenge",
-      "prize": "N/A",
-      "description": "Hardware benchmark for global swing-up policies on CloudPendulum hardware, evaluating robotics and RL agents."
-    },
-    {
       "id": "agent-ddl-splunk-agentic-ops-hackathon-2026-06-15",
       "topicId": "agent-ddl",
       "title": "Splunk Agentic Ops Hackathon",
@@ -197,6 +198,28 @@
       "type": "hackathon",
       "prize": "$20,000",
       "description": "Build agentic operations solutions with Splunk AI across observability, security, and platform/developer experience tracks."
+    },
+    {
+      "id": "agent-ddl-ai-olympics-realaigym-stage1-2026-06-15",
+      "topicId": "agent-ddl",
+      "title": "AI Olympics with RealAIGym - Stage 1",
+      "deadline": "2026-06-15T23:59:59",
+      "dateRange": "First stage solutions and reports: May 1 - Jun 15, 2026",
+      "location": "IJCAI-ECAI 2026 / DFKI Bremen",
+      "isOnline": true,
+      "tags": [
+        "Robotics Agent",
+        "Reinforcement Learning",
+        "CloudPendulum"
+      ],
+      "url": "https://ai-olympics.dfki-bremen.de/",
+      "status": "upcoming",
+      "stage": "Stage 1 report",
+      "source": "IJCAI AI Olympics with RealAIGym",
+      "sourceUrl": "https://ai-olympics.dfki-bremen.de/",
+      "type": "challenge",
+      "prize": "N/A",
+      "description": "Hardware benchmark for global swing-up policies on CloudPendulum hardware, evaluating robotics and RL agents."
     },
     {
       "id": "agent-ddl-find-evil-ai-security-2026-06-15",
@@ -397,29 +420,6 @@
       "type": "challenge",
       "prize": "N/A",
       "description": "Technical report deadline for the ChinaTravel AI Agent itinerary planning challenge."
-    },
-    {
-      "id": "agent-ddl-agents-assemble-healthcare-ai-2026-05-11",
-      "topicId": "agent-ddl",
-      "title": "Agents Assemble - The Healthcare AI Endgame",
-      "deadline": "2026-05-11T23:59:59-07:00",
-      "dateRange": "Mar 4 - May 11, 2026",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "Healthcare",
-        "MCP",
-        "A2A",
-        "FHIR"
-      ],
-      "url": "https://agents-assemble.devpost.com/",
-      "status": "ended",
-      "stage": "Submission",
-      "source": "Agents Assemble Devpost",
-      "sourceUrl": "https://agents-assemble.devpost.com/",
-      "type": "hackathon",
-      "prize": "$25,000",
-      "description": "Healthcare AI agent hackathon focused on interoperable agents at the intersection of MCP, A2A, and FHIR."
     }
   ],
   "metrics": [],

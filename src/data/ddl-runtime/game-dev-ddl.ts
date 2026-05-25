@@ -41,13 +41,13 @@ export const ddlForGameDevDdl: DDLItem[] = [
     "id": "itchio-jam-noise-jam-3",
     "title": "NOISE JAM 3",
     "deadline": "2026-06-13T08:00:00Z",
-    "deadlineType": "end-computed",
+    "deadlineType": "end",
     "tags": [
       "game jam"
     ],
     "url": "https://itch.io/jam/noise-jam-3",
     "status": "upcoming",
-    "description": "Parsed from itch.io/jams. Deadline is computed from the listed start time plus jam duration.",
+    "description": "Parsed from itch.io/jams. Deadline is the jam end time.",
     "stage": "upcoming",
     "source": "itch.io Jams",
     "type": "contest",
@@ -164,6 +164,24 @@ export const ddlForGameDevDdl: DDLItem[] = [
     "stage": "Source board",
     "source": "Ludum Dare",
     "type": "contest"
+  },
+  {
+    "id": "itchio-jam-gmtk-jam-2026",
+    "title": "GMTK Game Jam 2026",
+    "deadline": "2026-07-26T17:00:00Z",
+    "deadlineType": "end-computed",
+    "tags": [
+      "game jam"
+    ],
+    "url": "https://itch.io/jam/gmtk-jam-2026",
+    "status": "upcoming",
+    "description": "Parsed from itch.io/jams. Deadline is computed from the listed start time plus jam duration.",
+    "stage": "upcoming",
+    "source": "itch.io Jams",
+    "type": "contest",
+    "dateRange": "2026-07-26",
+    "location": "Online",
+    "isOnline": true
   },
   {
     "id": "game-dev-ddl-gmtk-game-jam-2026-08-06",

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-25T14:58:39.009Z",
-  "dataVersion": "387e7d62f849a96d",
+  "generatedAt": "2026-05-25T23:04:19.374Z",
+  "dataVersion": "65b78becb1005ce4",
   "topics": [
     {
       "id": "hackathon-ddl",
@@ -168,7 +168,7 @@
         "embodied AI",
         "autonomous"
       ],
-      "itemCount": 8,
+      "itemCount": 9,
       "status": "published"
     },
     {
@@ -248,7 +248,7 @@
         "选调生",
         "遴选"
       ],
-      "itemCount": 27,
+      "itemCount": 37,
       "status": "published"
     },
     {
@@ -261,7 +261,7 @@
         "indie game",
         "Unity"
       ],
-      "itemCount": 25,
+      "itemCount": 26,
       "status": "published"
     },
     {
@@ -734,6 +734,23 @@
       "url": "https://hackcambridge.com"
     },
     {
+      "id": "agent-ddl-agents-assemble-healthcare-ai-2026-05-11",
+      "topicId": "agent-ddl",
+      "title": "Agents Assemble - The Healthcare AI Endgame",
+      "deadline": "2026-05-11T23:59:59-07:00",
+      "type": "hackathon",
+      "status": "ended",
+      "tags": [
+        "Healthcare",
+        "MCP",
+        "A2A",
+        "FHIR"
+      ],
+      "source": "Agents Assemble Devpost",
+      "url": "https://agents-assemble.devpost.com/",
+      "sourceUrl": "https://agents-assemble.devpost.com/"
+    },
+    {
       "id": "agent-ddl-devnetwork-ai-ml-hackathon-2026-05-28",
       "topicId": "agent-ddl",
       "title": "DevNetwork [AI + ML] Hackathon 2026",
@@ -832,22 +849,6 @@
       "sourceUrl": "https://mega-agent-a-thon.devpost.com/"
     },
     {
-      "id": "agent-ddl-ai-olympics-realaigym-stage1-2026-06-15",
-      "topicId": "agent-ddl",
-      "title": "AI Olympics with RealAIGym - Stage 1",
-      "deadline": "2026-06-15T23:59:59",
-      "type": "challenge",
-      "status": "upcoming",
-      "tags": [
-        "Robotics Agent",
-        "Reinforcement Learning",
-        "CloudPendulum"
-      ],
-      "source": "IJCAI AI Olympics with RealAIGym",
-      "url": "https://ai-olympics.dfki-bremen.de/",
-      "sourceUrl": "https://ai-olympics.dfki-bremen.de/"
-    },
-    {
       "id": "agent-ddl-splunk-agentic-ops-hackathon-2026-06-15",
       "topicId": "agent-ddl",
       "title": "Splunk Agentic Ops Hackathon",
@@ -863,6 +864,22 @@
       "source": "Splunk Agentic Ops Hackathon Devpost",
       "url": "https://splunk.devpost.com/",
       "sourceUrl": "https://splunk.devpost.com/"
+    },
+    {
+      "id": "agent-ddl-ai-olympics-realaigym-stage1-2026-06-15",
+      "topicId": "agent-ddl",
+      "title": "AI Olympics with RealAIGym - Stage 1",
+      "deadline": "2026-06-15T23:59:59",
+      "type": "challenge",
+      "status": "upcoming",
+      "tags": [
+        "Robotics Agent",
+        "Reinforcement Learning",
+        "CloudPendulum"
+      ],
+      "source": "IJCAI AI Olympics with RealAIGym",
+      "url": "https://ai-olympics.dfki-bremen.de/",
+      "sourceUrl": "https://ai-olympics.dfki-bremen.de/"
     },
     {
       "id": "agent-ddl-find-evil-ai-security-2026-06-15",
@@ -1009,23 +1026,6 @@
       "source": "IJCAI ChinaTravel AI Agent Challenge",
       "url": "https://chinatravel-competition.github.io/IJCAI2026/",
       "sourceUrl": "https://chinatravel-competition.github.io/IJCAI2026/"
-    },
-    {
-      "id": "agent-ddl-agents-assemble-healthcare-ai-2026-05-11",
-      "topicId": "agent-ddl",
-      "title": "Agents Assemble - The Healthcare AI Endgame",
-      "deadline": "2026-05-11T23:59:59-07:00",
-      "type": "hackathon",
-      "status": "ended",
-      "tags": [
-        "Healthcare",
-        "MCP",
-        "A2A",
-        "FHIR"
-      ],
-      "source": "Agents Assemble Devpost",
-      "url": "https://agents-assemble.devpost.com/",
-      "sourceUrl": "https://agents-assemble.devpost.com/"
     },
     {
       "id": "cvpr2077ai-2077ai-rising-star-award-may-22-2026",
@@ -1260,8 +1260,7 @@
         "WMAS"
       ],
       "source": "CVPR 2026 Workshops",
-      "url": "https://cvpr26wmas.github.io/",
-      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops"
+      "url": "https://cvpr26wmas.github.io/"
     },
     {
       "id": "cvpr2026-cvpr-2026-11th-new-trends-in-image-restoration-and-enhancement-workshop-and-challenges-jun",
@@ -6887,6 +6886,22 @@
       "url": "https://www.aicitychallenge.org"
     },
     {
+      "id": "aicity-2026-release-of-evaluation-server-and-test-data-sets-may-25-2026",
+      "topicId": "robotics-ddl",
+      "title": "AI City Challenge 2026 - Release of evaluation server and test data sets",
+      "deadline": "2026-05-25T23:59:59Z",
+      "type": "challenge",
+      "status": "upcoming",
+      "tags": [
+        "robotics",
+        "autonomous",
+        "smart city",
+        "AI City"
+      ],
+      "source": "AI City Challenge",
+      "url": "https://www.aicitychallenge.org"
+    },
+    {
       "id": "aicity-2026-challenge-track-submissions-due-july-10-2026",
       "topicId": "robotics-ddl",
       "title": "AI City Challenge 2026 - Challenge track submissions due",
@@ -7602,6 +7617,68 @@
       "url": "https://www.chevening.org/scholarships/application-timeline/"
     },
     {
+      "id": "civil-service-ddl-beijing-public-recruitment-2b7549c412",
+      "topicId": "civil-service-ddl",
+      "title": "中共北京市石景山区委党校（区行政学院、区社会主义学院）2026年公开招聘事业单位工作人员公告",
+      "deadline": "2026-05-18T16:00:00+08:00",
+      "type": "program",
+      "status": "ended",
+      "tags": [
+        "事业单位",
+        "招聘",
+        "报名"
+      ],
+      "source": "北京市人力资源和社会保障局公开招聘",
+      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260509_4642649.html"
+    },
+    {
+      "id": "civil-service-ddl-beijing-public-recruitment-a60e44f9d6",
+      "topicId": "civil-service-ddl",
+      "title": "​北京市体育局所属事业单位2026年上半年公开招聘运动员公告",
+      "deadline": "2026-05-18T23:59:00+08:00",
+      "type": "program",
+      "status": "ended",
+      "tags": [
+        "事业单位",
+        "招聘",
+        "报名"
+      ],
+      "source": "北京市人力资源和社会保障局公开招聘",
+      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260508_4640696.html"
+    },
+    {
+      "id": "civil-service-ddl-beijing-public-recruitment-783d6b6f07",
+      "topicId": "civil-service-ddl",
+      "title": "首都医科大学附属北京安贞医院2026年第二批面向应届毕业生（含社会人员）公开招聘公告",
+      "deadline": "2026-05-18T23:59:00+08:00",
+      "type": "program",
+      "status": "ended",
+      "tags": [
+        "事业单位",
+        "招聘",
+        "报名",
+        "医疗"
+      ],
+      "source": "北京市人力资源和社会保障局公开招聘",
+      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260507_4639284.html"
+    },
+    {
+      "id": "civil-service-ddl-beijing-public-recruitment-ccea664114",
+      "topicId": "civil-service-ddl",
+      "title": "石景山区教育系统事业单位2026年第二次公开招聘工作人员公告",
+      "deadline": "2026-05-19T17:00:00+08:00",
+      "type": "program",
+      "status": "ended",
+      "tags": [
+        "事业单位",
+        "招聘",
+        "报名",
+        "教师"
+      ],
+      "source": "北京市人力资源和社会保障局公开招聘",
+      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260509_4643573.html"
+    },
+    {
       "id": "civil-service-ddl-beijing-public-recruitment-14a8e5c312",
       "topicId": "civil-service-ddl",
       "title": "北京市东城区教育委员会所属事业单位2026年第二批公开招聘公告",
@@ -7695,6 +7772,37 @@
       "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260519_4657708.html"
     },
     {
+      "id": "civil-service-ddl-beijing-public-recruitment-5effb7edce",
+      "topicId": "civil-service-ddl",
+      "title": "北京第一实验学校、北京第一实验中学和北京第一实验学校幼儿园2026年公开招聘公告",
+      "deadline": "2026-05-29T17:00:00+08:00",
+      "type": "program",
+      "status": "upcoming",
+      "tags": [
+        "事业单位",
+        "招聘",
+        "报名",
+        "教师"
+      ],
+      "source": "北京市人力资源和社会保障局公开招聘",
+      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260521_4659979.html"
+    },
+    {
+      "id": "civil-service-ddl-beijing-public-recruitment-8e7ccd9050",
+      "topicId": "civil-service-ddl",
+      "title": "北京工业大学2026年人才引进公告（第二批）",
+      "deadline": "2026-05-29T23:59:00+08:00",
+      "type": "program",
+      "status": "upcoming",
+      "tags": [
+        "事业单位",
+        "招聘",
+        "报名"
+      ],
+      "source": "北京市人力资源和社会保障局公开招聘",
+      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260521_4659997.html"
+    },
+    {
       "id": "civil-service-ddl-beijing-public-recruitment-494e7574b0",
       "topicId": "civil-service-ddl",
       "title": "北京小汤山医院2026年公开招聘公告（第二批）",
@@ -7725,6 +7833,128 @@
       ],
       "source": "北京市人力资源和社会保障局公开招聘",
       "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260518_4655221.html"
+    },
+    {
+      "id": "civil-service-ddl-beijing-public-recruitment-ebbe1f08de",
+      "topicId": "civil-service-ddl",
+      "title": "2026年度北京市事业单位面向退役大学生士兵定向招聘公告",
+      "deadline": "2026-06-01T17:00:00+08:00",
+      "type": "program",
+      "status": "upcoming",
+      "tags": [
+        "事业单位",
+        "招聘",
+        "报名"
+      ],
+      "source": "北京市人力资源和社会保障局公开招聘",
+      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260522_4662600.html"
+    },
+    {
+      "id": "civil-service-ddl-beijing-public-recruitment-24e7f535df",
+      "topicId": "civil-service-ddl",
+      "title": "北京市密云区教育委员会关于2026年第二次公开招聘教师和工作人员的公告",
+      "deadline": "2026-06-01T17:00:00+08:00",
+      "type": "program",
+      "status": "upcoming",
+      "tags": [
+        "事业单位",
+        "招聘",
+        "报名",
+        "教师"
+      ],
+      "source": "北京市人力资源和社会保障局公开招聘",
+      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260522_4661685.html"
+    },
+    {
+      "id": "civil-service-ddl-beijing-public-recruitment-d55ed1f135",
+      "topicId": "civil-service-ddl",
+      "title": "中国音乐学院2026年第二批公开招聘公告",
+      "deadline": "2026-06-02T11:00:00+08:00",
+      "type": "program",
+      "status": "upcoming",
+      "tags": [
+        "事业单位",
+        "招聘",
+        "报名"
+      ],
+      "source": "北京市人力资源和社会保障局公开招聘",
+      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260522_4661672.html"
+    },
+    {
+      "id": "civil-service-ddl-beijing-public-recruitment-8cf8fc9697",
+      "topicId": "civil-service-ddl",
+      "title": "北京市顺义区卫生健康委员会2026年第二批公开招聘事业单位工作人员公告",
+      "deadline": "2026-06-02T23:59:00+08:00",
+      "type": "program",
+      "status": "upcoming",
+      "tags": [
+        "事业单位",
+        "招聘",
+        "报名",
+        "医疗"
+      ],
+      "source": "北京市人力资源和社会保障局公开招聘",
+      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260521_4659984.html"
+    },
+    {
+      "id": "civil-service-ddl-beijing-public-recruitment-e1609b537b",
+      "topicId": "civil-service-ddl",
+      "title": "中国音乐学院2026年高层次人才引进公告",
+      "deadline": "2026-06-02T23:59:00+08:00",
+      "type": "program",
+      "status": "upcoming",
+      "tags": [
+        "事业单位",
+        "招聘",
+        "报名"
+      ],
+      "source": "北京市人力资源和社会保障局公开招聘",
+      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260522_4661677.html"
+    },
+    {
+      "id": "civil-service-ddl-beijing-public-recruitment-166c92a8c2",
+      "topicId": "civil-service-ddl",
+      "title": "北京农学院面向社会公开招聘经济管理学院院长公告",
+      "deadline": "2026-06-03T23:59:00+08:00",
+      "type": "program",
+      "status": "upcoming",
+      "tags": [
+        "事业单位",
+        "招聘",
+        "报名"
+      ],
+      "source": "北京市人力资源和社会保障局公开招聘",
+      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260525_4664395.html"
+    },
+    {
+      "id": "civil-service-ddl-beijing-public-recruitment-ccfd6758eb",
+      "topicId": "civil-service-ddl",
+      "title": "北京市规划和自然资源委员会所属事业单位2026年公开招聘工作人员公告",
+      "deadline": "2026-06-04T17:00:00+08:00",
+      "type": "program",
+      "status": "upcoming",
+      "tags": [
+        "事业单位",
+        "招聘",
+        "报名"
+      ],
+      "source": "北京市人力资源和社会保障局公开招聘",
+      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260525_4664393.html"
+    },
+    {
+      "id": "civil-service-ddl-beijing-public-recruitment-66e0fd5ea3",
+      "topicId": "civil-service-ddl",
+      "title": "首都体育学院2026年公开招聘公告",
+      "deadline": "2026-06-08T18:00:00+08:00",
+      "type": "program",
+      "status": "upcoming",
+      "tags": [
+        "事业单位",
+        "招聘",
+        "报名"
+      ],
+      "source": "北京市人力资源和社会保障局公开招聘",
+      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260522_4661696.html"
     },
     {
       "id": "civil-service-ddl-beijing-public-recruitment-e1e09ba32b",
@@ -7960,68 +8190,6 @@
       "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202604/t20260430_4625644.html"
     },
     {
-      "id": "civil-service-ddl-beijing-public-recruitment-2b7549c412",
-      "topicId": "civil-service-ddl",
-      "title": "中共北京市石景山区委党校（区行政学院、区社会主义学院）2026年公开招聘事业单位工作人员公告",
-      "deadline": "2026-05-18T16:00:00+08:00",
-      "type": "program",
-      "status": "ended",
-      "tags": [
-        "事业单位",
-        "招聘",
-        "报名"
-      ],
-      "source": "北京市人力资源和社会保障局公开招聘",
-      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260509_4642649.html"
-    },
-    {
-      "id": "civil-service-ddl-beijing-public-recruitment-a60e44f9d6",
-      "topicId": "civil-service-ddl",
-      "title": "​北京市体育局所属事业单位2026年上半年公开招聘运动员公告",
-      "deadline": "2026-05-18T23:59:00+08:00",
-      "type": "program",
-      "status": "ended",
-      "tags": [
-        "事业单位",
-        "招聘",
-        "报名"
-      ],
-      "source": "北京市人力资源和社会保障局公开招聘",
-      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260508_4640696.html"
-    },
-    {
-      "id": "civil-service-ddl-beijing-public-recruitment-783d6b6f07",
-      "topicId": "civil-service-ddl",
-      "title": "首都医科大学附属北京安贞医院2026年第二批面向应届毕业生（含社会人员）公开招聘公告",
-      "deadline": "2026-05-18T23:59:00+08:00",
-      "type": "program",
-      "status": "ended",
-      "tags": [
-        "事业单位",
-        "招聘",
-        "报名",
-        "医疗"
-      ],
-      "source": "北京市人力资源和社会保障局公开招聘",
-      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260507_4639284.html"
-    },
-    {
-      "id": "civil-service-ddl-beijing-public-recruitment-ccea664114",
-      "topicId": "civil-service-ddl",
-      "title": "石景山区教育系统事业单位2026年第二次公开招聘工作人员公告",
-      "deadline": "2026-05-19T17:00:00+08:00",
-      "type": "program",
-      "status": "ended",
-      "tags": [
-        "事业单位",
-        "招聘",
-        "报名",
-        "教师"
-      ],
-      "source": "北京市人力资源和社会保障局公开招聘",
-      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260509_4643573.html"
-    },
-    {
       "id": "itchio-jam-gdevelop-big-game-jam-9",
       "topicId": "game-dev-ddl",
       "title": "GDevelop BIG Game Jam #9",
@@ -8141,6 +8309,19 @@
       ],
       "source": "Ludum Dare",
       "url": "https://ldjam.com"
+    },
+    {
+      "id": "itchio-jam-gmtk-jam-2026",
+      "topicId": "game-dev-ddl",
+      "title": "GMTK Game Jam 2026",
+      "deadline": "2026-07-26T17:00:00Z",
+      "type": "contest",
+      "status": "upcoming",
+      "tags": [
+        "game jam"
+      ],
+      "source": "itch.io Jams",
+      "url": "https://itch.io/jam/gmtk-jam-2026"
     },
     {
       "id": "game-dev-ddl-gmtk-game-jam-2026-08-06",

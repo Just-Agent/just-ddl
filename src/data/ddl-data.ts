@@ -370,6 +370,52 @@ export const ddlData: Record<string, DDLItem[]> = {
   ],
   "agent-ddl": [
     {
+      "id": "agent-ddl-agents-assemble-healthcare-ai-2026-05-11",
+      "title": "Agents Assemble - The Healthcare AI Endgame",
+      "deadline": "2026-05-11T23:59:59-07:00",
+      "dateRange": "Mar 4 - May 11, 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "Healthcare",
+        "MCP",
+        "A2A",
+        "FHIR"
+      ],
+      "url": "https://agents-assemble.devpost.com/",
+      "status": "ended",
+      "stage": "Submission",
+      "source": "Agents Assemble Devpost",
+      "type": "hackathon",
+      "description": "Healthcare AI agent hackathon focused on interoperable agents at the intersection of MCP, A2A, and FHIR.",
+      "prize": "$25,000",
+      "platform": "Devpost",
+      "evaluationMode": "Hybrid",
+      "organizer": "Prompt Opinion (Darena Health)",
+      "submissionType": "Demo video + Devpost project",
+      "sourceUrl": "https://agents-assemble.devpost.com/",
+      "phases": [
+        {
+          "name": "Submission period ends",
+          "deadline": "2026-05-11T23:59:59-07:00"
+        },
+        {
+          "name": "Winners announced",
+          "deadline": "2026-05-27T23:59:59-07:00"
+        }
+      ],
+      "tracks": [
+        {
+          "name": "Build a Superpower",
+          "description": "Create an MCP server that exposes healthcare tools for agents."
+        },
+        {
+          "name": "Build an Agent",
+          "description": "Configure an A2A-capable healthcare workflow agent on the Prompt Opinion platform."
+        }
+      ]
+    },
+    {
       "id": "agent-ddl-devnetwork-ai-ml-hackathon-2026-05-28",
       "title": "DevNetwork [AI + ML] Hackathon 2026",
       "deadline": "2026-05-28T10:00:00-07:00",
@@ -604,49 +650,6 @@ export const ddlData: Record<string, DDLItem[]> = {
       ]
     },
     {
-      "id": "agent-ddl-ai-olympics-realaigym-stage1-2026-06-15",
-      "title": "AI Olympics with RealAIGym - Stage 1",
-      "deadline": "2026-06-15T23:59:59",
-      "dateRange": "First stage solutions and reports: May 1 - Jun 15, 2026",
-      "location": "IJCAI-ECAI 2026 / DFKI Bremen",
-      "isOnline": true,
-      "tags": [
-        "Robotics Agent",
-        "Reinforcement Learning",
-        "CloudPendulum"
-      ],
-      "url": "https://ai-olympics.dfki-bremen.de/",
-      "status": "upcoming",
-      "stage": "Stage 1 report",
-      "source": "IJCAI AI Olympics with RealAIGym",
-      "type": "challenge",
-      "description": "Hardware benchmark for global swing-up policies on CloudPendulum hardware, evaluating robotics and RL agents.",
-      "prize": "N/A",
-      "platform": "IJCAI",
-      "evaluationMode": "Automated",
-      "organizer": "DFKI Bremen / IJCAI-ECAI 2026",
-      "submissionType": "Controller solution and report",
-      "sourceUrl": "https://ai-olympics.dfki-bremen.de/",
-      "phases": [
-        {
-          "name": "Registration deadline",
-          "deadline": "2026-05-31T23:59:59"
-        },
-        {
-          "name": "First stage solutions and reports due",
-          "deadline": "2026-06-15T23:59:59"
-        },
-        {
-          "name": "Second stage starts",
-          "deadline": "2026-07-01T23:59:59"
-        },
-        {
-          "name": "Second stage ends",
-          "deadline": "2026-08-15T23:59:59"
-        }
-      ]
-    },
-    {
       "id": "agent-ddl-splunk-agentic-ops-hackathon-2026-06-15",
       "title": "Splunk Agentic Ops Hackathon",
       "deadline": "2026-06-15T09:00:00-07:00",
@@ -693,6 +696,49 @@ export const ddlData: Record<string, DDLItem[]> = {
         {
           "name": "Platform & Developer Experience",
           "description": "Developer workflows and Splunk app/platform automation."
+        }
+      ]
+    },
+    {
+      "id": "agent-ddl-ai-olympics-realaigym-stage1-2026-06-15",
+      "title": "AI Olympics with RealAIGym - Stage 1",
+      "deadline": "2026-06-15T23:59:59",
+      "dateRange": "First stage solutions and reports: May 1 - Jun 15, 2026",
+      "location": "IJCAI-ECAI 2026 / DFKI Bremen",
+      "isOnline": true,
+      "tags": [
+        "Robotics Agent",
+        "Reinforcement Learning",
+        "CloudPendulum"
+      ],
+      "url": "https://ai-olympics.dfki-bremen.de/",
+      "status": "upcoming",
+      "stage": "Stage 1 report",
+      "source": "IJCAI AI Olympics with RealAIGym",
+      "type": "challenge",
+      "description": "Hardware benchmark for global swing-up policies on CloudPendulum hardware, evaluating robotics and RL agents.",
+      "prize": "N/A",
+      "platform": "IJCAI",
+      "evaluationMode": "Automated",
+      "organizer": "DFKI Bremen / IJCAI-ECAI 2026",
+      "submissionType": "Controller solution and report",
+      "sourceUrl": "https://ai-olympics.dfki-bremen.de/",
+      "phases": [
+        {
+          "name": "Registration deadline",
+          "deadline": "2026-05-31T23:59:59"
+        },
+        {
+          "name": "First stage solutions and reports due",
+          "deadline": "2026-06-15T23:59:59"
+        },
+        {
+          "name": "Second stage starts",
+          "deadline": "2026-07-01T23:59:59"
+        },
+        {
+          "name": "Second stage ends",
+          "deadline": "2026-08-15T23:59:59"
         }
       ]
     },
@@ -1106,52 +1152,6 @@ export const ddlData: Record<string, DDLItem[]> = {
           "deadline": "2026-08-15T23:59:59"
         }
       ]
-    },
-    {
-      "id": "agent-ddl-agents-assemble-healthcare-ai-2026-05-11",
-      "title": "Agents Assemble - The Healthcare AI Endgame",
-      "deadline": "2026-05-11T23:59:59-07:00",
-      "dateRange": "Mar 4 - May 11, 2026",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "Healthcare",
-        "MCP",
-        "A2A",
-        "FHIR"
-      ],
-      "url": "https://agents-assemble.devpost.com/",
-      "status": "ended",
-      "stage": "Submission",
-      "source": "Agents Assemble Devpost",
-      "type": "hackathon",
-      "description": "Healthcare AI agent hackathon focused on interoperable agents at the intersection of MCP, A2A, and FHIR.",
-      "prize": "$25,000",
-      "platform": "Devpost",
-      "evaluationMode": "Hybrid",
-      "organizer": "Prompt Opinion (Darena Health)",
-      "submissionType": "Demo video + Devpost project",
-      "sourceUrl": "https://agents-assemble.devpost.com/",
-      "phases": [
-        {
-          "name": "Submission period ends",
-          "deadline": "2026-05-11T23:59:59-07:00"
-        },
-        {
-          "name": "Winners announced",
-          "deadline": "2026-05-27T23:59:59-07:00"
-        }
-      ],
-      "tracks": [
-        {
-          "name": "Build a Superpower",
-          "description": "Create an MCP server that exposes healthcare tools for agents."
-        },
-        {
-          "name": "Build an Agent",
-          "description": "Configure an A2A-capable healthcare workflow agent on the Prompt Opinion platform."
-        }
-      ]
     }
   ],
   "cv-ddl": [
@@ -1479,8 +1479,6 @@ export const ddlData: Record<string, DDLItem[]> = {
         "WMAS"
       ],
       "url": "https://cvpr26wmas.github.io/",
-      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops",
-      "canonicalUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops#cvpr2026-cvpr-2026-workshop-on-world-models-meet-active-sensing-and-closed-loop-planning-june-3-202",
       "status": "upcoming",
       "description": "Parsed from the official CVPR 2026 workshops table.",
       "stage": "Workshop / challenge session",
@@ -9457,6 +9455,26 @@ export const ddlData: Record<string, DDLItem[]> = {
       "type": "challenge"
     },
     {
+      "id": "aicity-2026-release-of-evaluation-server-and-test-data-sets-may-25-2026",
+      "title": "AI City Challenge 2026 - Release of evaluation server and test data sets",
+      "deadline": "2026-05-25T23:59:59Z",
+      "dateRange": "May 25, 2026",
+      "location": "Online / CVPR workshop",
+      "isOnline": true,
+      "tags": [
+        "robotics",
+        "autonomous",
+        "smart city",
+        "AI City"
+      ],
+      "url": "https://www.aicitychallenge.org",
+      "status": "upcoming",
+      "description": "Parsed from official AI City Challenge Important Dates section.",
+      "stage": "Milestone",
+      "source": "AI City Challenge",
+      "type": "challenge"
+    },
+    {
       "id": "aicity-2026-challenge-track-submissions-due-july-10-2026",
       "title": "AI City Challenge 2026 - Challenge track submissions due",
       "deadline": "2026-07-10T23:59:59Z",
@@ -10279,13 +10297,13 @@ export const ddlData: Record<string, DDLItem[]> = {
       "id": "itchio-jam-noise-jam-3",
       "title": "NOISE JAM 3",
       "deadline": "2026-06-13T08:00:00Z",
-      "deadlineType": "end-computed",
+      "deadlineType": "end",
       "tags": [
         "game jam"
       ],
       "url": "https://itch.io/jam/noise-jam-3",
       "status": "upcoming",
-      "description": "Parsed from itch.io/jams. Deadline is computed from the listed start time plus jam duration.",
+      "description": "Parsed from itch.io/jams. Deadline is the jam end time.",
       "stage": "upcoming",
       "source": "itch.io Jams",
       "type": "contest",
@@ -10402,6 +10420,24 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Source board",
       "source": "Ludum Dare",
       "type": "contest"
+    },
+    {
+      "id": "itchio-jam-gmtk-jam-2026",
+      "title": "GMTK Game Jam 2026",
+      "deadline": "2026-07-26T17:00:00Z",
+      "deadlineType": "end-computed",
+      "tags": [
+        "game jam"
+      ],
+      "url": "https://itch.io/jam/gmtk-jam-2026",
+      "status": "upcoming",
+      "description": "Parsed from itch.io/jams. Deadline is computed from the listed start time plus jam duration.",
+      "stage": "upcoming",
+      "source": "itch.io Jams",
+      "type": "contest",
+      "dateRange": "2026-07-26",
+      "location": "Online",
+      "isOnline": true
     },
     {
       "id": "game-dev-ddl-gmtk-game-jam-2026-08-06",
@@ -12075,6 +12111,88 @@ export const ddlData: Record<string, DDLItem[]> = {
   ],
   "civil-service-ddl": [
     {
+      "id": "civil-service-ddl-beijing-public-recruitment-2b7549c412",
+      "title": "中共北京市石景山区委党校（区行政学院、区社会主义学院）2026年公开招聘事业单位工作人员公告",
+      "deadline": "2026-05-18T16:00:00+08:00",
+      "dateRange": "报名截止：2026年5月18日 16:00",
+      "location": "北京",
+      "isOnline": true,
+      "tags": [
+        "事业单位",
+        "招聘",
+        "报名"
+      ],
+      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260509_4642649.html",
+      "status": "ended",
+      "description": "北京公开招聘公告，已解析报名截止时间。",
+      "stage": "报名截止",
+      "source": "北京市人力资源和社会保障局公开招聘",
+      "type": "program",
+      "publishedAt": "2026-05-09"
+    },
+    {
+      "id": "civil-service-ddl-beijing-public-recruitment-a60e44f9d6",
+      "title": "​北京市体育局所属事业单位2026年上半年公开招聘运动员公告",
+      "deadline": "2026-05-18T23:59:00+08:00",
+      "dateRange": "报名截止：2026年5月18日 23:59",
+      "location": "北京",
+      "isOnline": true,
+      "tags": [
+        "事业单位",
+        "招聘",
+        "报名"
+      ],
+      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260508_4640696.html",
+      "status": "ended",
+      "description": "北京公开招聘公告，已解析报名截止时间。",
+      "stage": "报名截止",
+      "source": "北京市人力资源和社会保障局公开招聘",
+      "type": "program",
+      "publishedAt": "2026-05-08"
+    },
+    {
+      "id": "civil-service-ddl-beijing-public-recruitment-783d6b6f07",
+      "title": "首都医科大学附属北京安贞医院2026年第二批面向应届毕业生（含社会人员）公开招聘公告",
+      "deadline": "2026-05-18T23:59:00+08:00",
+      "dateRange": "报名截止：2026年5月18日 23:59",
+      "location": "北京",
+      "isOnline": true,
+      "tags": [
+        "事业单位",
+        "招聘",
+        "报名",
+        "医疗"
+      ],
+      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260507_4639284.html",
+      "status": "ended",
+      "description": "北京公开招聘公告，已解析报名截止时间。",
+      "stage": "报名截止",
+      "source": "北京市人力资源和社会保障局公开招聘",
+      "type": "program",
+      "publishedAt": "2026-05-07"
+    },
+    {
+      "id": "civil-service-ddl-beijing-public-recruitment-ccea664114",
+      "title": "石景山区教育系统事业单位2026年第二次公开招聘工作人员公告",
+      "deadline": "2026-05-19T17:00:00+08:00",
+      "dateRange": "报名截止：2026年5月19日 17:00",
+      "location": "北京",
+      "isOnline": true,
+      "tags": [
+        "事业单位",
+        "招聘",
+        "报名",
+        "教师"
+      ],
+      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260509_4643573.html",
+      "status": "ended",
+      "description": "北京公开招聘公告，已解析报名截止时间。",
+      "stage": "报名截止",
+      "source": "北京市人力资源和社会保障局公开招聘",
+      "type": "program",
+      "publishedAt": "2026-05-09"
+    },
+    {
       "id": "civil-service-ddl-beijing-public-recruitment-14a8e5c312",
       "title": "北京市东城区教育委员会所属事业单位2026年第二批公开招聘公告",
       "deadline": "2026-05-27T10:00:00+08:00",
@@ -12198,6 +12316,47 @@ export const ddlData: Record<string, DDLItem[]> = {
       "publishedAt": "2026-05-19"
     },
     {
+      "id": "civil-service-ddl-beijing-public-recruitment-5effb7edce",
+      "title": "北京第一实验学校、北京第一实验中学和北京第一实验学校幼儿园2026年公开招聘公告",
+      "deadline": "2026-05-29T17:00:00+08:00",
+      "dateRange": "报名截止：2026年5月29日 17:00",
+      "location": "北京",
+      "isOnline": true,
+      "tags": [
+        "事业单位",
+        "招聘",
+        "报名",
+        "教师"
+      ],
+      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260521_4659979.html",
+      "status": "upcoming",
+      "description": "北京公开招聘公告，已解析报名截止时间。",
+      "stage": "报名截止",
+      "source": "北京市人力资源和社会保障局公开招聘",
+      "type": "program",
+      "publishedAt": "2026-05-21"
+    },
+    {
+      "id": "civil-service-ddl-beijing-public-recruitment-8e7ccd9050",
+      "title": "北京工业大学2026年人才引进公告（第二批）",
+      "deadline": "2026-05-29T23:59:00+08:00",
+      "dateRange": "报名截止：2026年5月29日 23:59",
+      "location": "北京",
+      "isOnline": true,
+      "tags": [
+        "事业单位",
+        "招聘",
+        "报名"
+      ],
+      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260521_4659997.html",
+      "status": "upcoming",
+      "description": "北京公开招聘公告，已解析报名截止时间。",
+      "stage": "报名截止",
+      "source": "北京市人力资源和社会保障局公开招聘",
+      "type": "program",
+      "publishedAt": "2026-05-21"
+    },
+    {
       "id": "civil-service-ddl-beijing-public-recruitment-494e7574b0",
       "title": "北京小汤山医院2026年公开招聘公告（第二批）",
       "deadline": "2026-05-31T23:59:00+08:00",
@@ -12238,6 +12397,168 @@ export const ddlData: Record<string, DDLItem[]> = {
       "source": "北京市人力资源和社会保障局公开招聘",
       "type": "program",
       "publishedAt": "2026-05-18"
+    },
+    {
+      "id": "civil-service-ddl-beijing-public-recruitment-ebbe1f08de",
+      "title": "2026年度北京市事业单位面向退役大学生士兵定向招聘公告",
+      "deadline": "2026-06-01T17:00:00+08:00",
+      "dateRange": "报名截止：2026年6月1日 17:00",
+      "location": "北京",
+      "isOnline": true,
+      "tags": [
+        "事业单位",
+        "招聘",
+        "报名"
+      ],
+      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260522_4662600.html",
+      "status": "upcoming",
+      "description": "北京公开招聘公告，已解析报名截止时间。",
+      "stage": "报名截止",
+      "source": "北京市人力资源和社会保障局公开招聘",
+      "type": "program",
+      "publishedAt": "2026-05-22"
+    },
+    {
+      "id": "civil-service-ddl-beijing-public-recruitment-24e7f535df",
+      "title": "北京市密云区教育委员会关于2026年第二次公开招聘教师和工作人员的公告",
+      "deadline": "2026-06-01T17:00:00+08:00",
+      "dateRange": "报名截止：2026年6月1日 17:00",
+      "location": "北京",
+      "isOnline": true,
+      "tags": [
+        "事业单位",
+        "招聘",
+        "报名",
+        "教师"
+      ],
+      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260522_4661685.html",
+      "status": "upcoming",
+      "description": "北京公开招聘公告，已解析报名截止时间。",
+      "stage": "报名截止",
+      "source": "北京市人力资源和社会保障局公开招聘",
+      "type": "program",
+      "publishedAt": "2026-05-22"
+    },
+    {
+      "id": "civil-service-ddl-beijing-public-recruitment-d55ed1f135",
+      "title": "中国音乐学院2026年第二批公开招聘公告",
+      "deadline": "2026-06-02T11:00:00+08:00",
+      "dateRange": "报名截止：2026年6月2日 11:00",
+      "location": "北京",
+      "isOnline": true,
+      "tags": [
+        "事业单位",
+        "招聘",
+        "报名"
+      ],
+      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260522_4661672.html",
+      "status": "upcoming",
+      "description": "北京公开招聘公告，已解析报名截止时间。",
+      "stage": "报名截止",
+      "source": "北京市人力资源和社会保障局公开招聘",
+      "type": "program",
+      "publishedAt": "2026-05-22"
+    },
+    {
+      "id": "civil-service-ddl-beijing-public-recruitment-8cf8fc9697",
+      "title": "北京市顺义区卫生健康委员会2026年第二批公开招聘事业单位工作人员公告",
+      "deadline": "2026-06-02T23:59:00+08:00",
+      "dateRange": "报名截止：2026年6月2日 23:59",
+      "location": "北京",
+      "isOnline": true,
+      "tags": [
+        "事业单位",
+        "招聘",
+        "报名",
+        "医疗"
+      ],
+      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260521_4659984.html",
+      "status": "upcoming",
+      "description": "北京公开招聘公告，已解析报名截止时间。",
+      "stage": "报名截止",
+      "source": "北京市人力资源和社会保障局公开招聘",
+      "type": "program",
+      "publishedAt": "2026-05-21"
+    },
+    {
+      "id": "civil-service-ddl-beijing-public-recruitment-e1609b537b",
+      "title": "中国音乐学院2026年高层次人才引进公告",
+      "deadline": "2026-06-02T23:59:00+08:00",
+      "dateRange": "报名截止：2026年6月2日 23:59",
+      "location": "北京",
+      "isOnline": true,
+      "tags": [
+        "事业单位",
+        "招聘",
+        "报名"
+      ],
+      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260522_4661677.html",
+      "status": "upcoming",
+      "description": "北京公开招聘公告，已解析报名截止时间。",
+      "stage": "报名截止",
+      "source": "北京市人力资源和社会保障局公开招聘",
+      "type": "program",
+      "publishedAt": "2026-05-22"
+    },
+    {
+      "id": "civil-service-ddl-beijing-public-recruitment-166c92a8c2",
+      "title": "北京农学院面向社会公开招聘经济管理学院院长公告",
+      "deadline": "2026-06-03T23:59:00+08:00",
+      "dateRange": "报名截止：2026年6月3日 23:59",
+      "location": "北京",
+      "isOnline": true,
+      "tags": [
+        "事业单位",
+        "招聘",
+        "报名"
+      ],
+      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260525_4664395.html",
+      "status": "upcoming",
+      "description": "北京公开招聘公告，已解析报名截止时间。",
+      "stage": "报名截止",
+      "source": "北京市人力资源和社会保障局公开招聘",
+      "type": "program",
+      "publishedAt": "2026-05-25"
+    },
+    {
+      "id": "civil-service-ddl-beijing-public-recruitment-ccfd6758eb",
+      "title": "北京市规划和自然资源委员会所属事业单位2026年公开招聘工作人员公告",
+      "deadline": "2026-06-04T17:00:00+08:00",
+      "dateRange": "报名截止：2026年6月4日 17:00",
+      "location": "北京",
+      "isOnline": true,
+      "tags": [
+        "事业单位",
+        "招聘",
+        "报名"
+      ],
+      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260525_4664393.html",
+      "status": "upcoming",
+      "description": "北京公开招聘公告，已解析报名截止时间。",
+      "stage": "报名截止",
+      "source": "北京市人力资源和社会保障局公开招聘",
+      "type": "program",
+      "publishedAt": "2026-05-25"
+    },
+    {
+      "id": "civil-service-ddl-beijing-public-recruitment-66e0fd5ea3",
+      "title": "首都体育学院2026年公开招聘公告",
+      "deadline": "2026-06-08T18:00:00+08:00",
+      "dateRange": "报名截止：2026年6月8日 18:00",
+      "location": "北京",
+      "isOnline": true,
+      "tags": [
+        "事业单位",
+        "招聘",
+        "报名"
+      ],
+      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260522_4661696.html",
+      "status": "upcoming",
+      "description": "北京公开招聘公告，已解析报名截止时间。",
+      "stage": "报名截止",
+      "source": "北京市人力资源和社会保障局公开招聘",
+      "type": "program",
+      "publishedAt": "2026-05-22"
     },
     {
       "id": "civil-service-ddl-beijing-public-recruitment-e1e09ba32b",
@@ -12546,88 +12867,6 @@ export const ddlData: Record<string, DDLItem[]> = {
       "source": "北京市人力资源和社会保障局公开招聘",
       "type": "program",
       "publishedAt": "2026-04-30"
-    },
-    {
-      "id": "civil-service-ddl-beijing-public-recruitment-2b7549c412",
-      "title": "中共北京市石景山区委党校（区行政学院、区社会主义学院）2026年公开招聘事业单位工作人员公告",
-      "deadline": "2026-05-18T16:00:00+08:00",
-      "dateRange": "报名截止：2026年5月18日 16:00",
-      "location": "北京",
-      "isOnline": true,
-      "tags": [
-        "事业单位",
-        "招聘",
-        "报名"
-      ],
-      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260509_4642649.html",
-      "status": "ended",
-      "description": "北京公开招聘公告，已解析报名截止时间。",
-      "stage": "报名截止",
-      "source": "北京市人力资源和社会保障局公开招聘",
-      "type": "program",
-      "publishedAt": "2026-05-09"
-    },
-    {
-      "id": "civil-service-ddl-beijing-public-recruitment-a60e44f9d6",
-      "title": "​北京市体育局所属事业单位2026年上半年公开招聘运动员公告",
-      "deadline": "2026-05-18T23:59:00+08:00",
-      "dateRange": "报名截止：2026年5月18日 23:59",
-      "location": "北京",
-      "isOnline": true,
-      "tags": [
-        "事业单位",
-        "招聘",
-        "报名"
-      ],
-      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260508_4640696.html",
-      "status": "ended",
-      "description": "北京公开招聘公告，已解析报名截止时间。",
-      "stage": "报名截止",
-      "source": "北京市人力资源和社会保障局公开招聘",
-      "type": "program",
-      "publishedAt": "2026-05-08"
-    },
-    {
-      "id": "civil-service-ddl-beijing-public-recruitment-783d6b6f07",
-      "title": "首都医科大学附属北京安贞医院2026年第二批面向应届毕业生（含社会人员）公开招聘公告",
-      "deadline": "2026-05-18T23:59:00+08:00",
-      "dateRange": "报名截止：2026年5月18日 23:59",
-      "location": "北京",
-      "isOnline": true,
-      "tags": [
-        "事业单位",
-        "招聘",
-        "报名",
-        "医疗"
-      ],
-      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260507_4639284.html",
-      "status": "ended",
-      "description": "北京公开招聘公告，已解析报名截止时间。",
-      "stage": "报名截止",
-      "source": "北京市人力资源和社会保障局公开招聘",
-      "type": "program",
-      "publishedAt": "2026-05-07"
-    },
-    {
-      "id": "civil-service-ddl-beijing-public-recruitment-ccea664114",
-      "title": "石景山区教育系统事业单位2026年第二次公开招聘工作人员公告",
-      "deadline": "2026-05-19T17:00:00+08:00",
-      "dateRange": "报名截止：2026年5月19日 17:00",
-      "location": "北京",
-      "isOnline": true,
-      "tags": [
-        "事业单位",
-        "招聘",
-        "报名",
-        "教师"
-      ],
-      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260509_4643573.html",
-      "status": "ended",
-      "description": "北京公开招聘公告，已解析报名截止时间。",
-      "stage": "报名截止",
-      "source": "北京市人力资源和社会保障局公开招聘",
-      "type": "program",
-      "publishedAt": "2026-05-09"
     }
   ],
   "game-version-ddl": [

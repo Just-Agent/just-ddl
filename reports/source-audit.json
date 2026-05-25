@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-05-25T14:58:58.398Z",
-  "dataVersion": "316b428680cdc2e3",
-  "totalItems": 813,
-  "officialDeadlineItems": 658,
+  "generatedAt": "2026-05-25T23:04:11.639Z",
+  "dataVersion": "58154df1a135443c",
+  "totalItems": 825,
+  "officialDeadlineItems": 670,
   "buckets": {
     "missingSourceUrl": {
-      "count": 328,
+      "count": 341,
       "byTopic": {
         "holiday-ddl": 78,
+        "civil-service-ddl": 37,
         "security-ddl": 28,
-        "civil-service-ddl": 27,
+        "game-dev-ddl": 26,
         "open-source-ddl": 26,
-        "game-dev-ddl": 25,
         "academic-ddl": 20,
         "programming-ddl": 20,
         "hackathon-ddl": 18,
@@ -19,10 +19,11 @@
         "nlp-ddl": 18,
         "exam-ddl": 16,
         "startup-ddl": 10,
-        "robotics-ddl": 8,
+        "robotics-ddl": 9,
         "design-ddl": 7,
         "data-science-ddl": 6,
         "biotech-ddl": 2,
+        "cv-ddl": 1,
         "scholarship-ddl": 1
       },
       "sample": [
@@ -243,6 +244,18 @@
           "isDatePlaceholder": false
         },
         {
+          "topicId": "cv-ddl",
+          "id": "cvpr2026-cvpr-2026-workshop-on-world-models-meet-active-sensing-and-closed-loop-planning-june-3-202",
+          "title": "CVPR 2026 - Workshop on World Models Meet Active Sensing and Closed-Loop Planning",
+          "reason": "missing sourceUrl",
+          "url": "https://cvpr26wmas.github.io/",
+          "sourceUrl": "",
+          "source": "CVPR 2026 Workshops",
+          "stage": "Workshop / challenge session",
+          "type": "challenge",
+          "isDatePlaceholder": false
+        },
+        {
           "topicId": "nlp-ddl",
           "id": "nlp-ddl-emnlp-2026-full-paper-2026-06-16",
           "title": "EMNLP 2026 Full Paper",
@@ -373,27 +386,15 @@
           "stage": "System",
           "type": "conference",
           "isDatePlaceholder": false
-        },
-        {
-          "topicId": "nlp-ddl",
-          "id": "nlp-ddl-naacl-2027-paper-submission-2026-12-18",
-          "title": "NAACL 2027 Paper Submission",
-          "reason": "missing sourceUrl",
-          "url": "https://naacl.org",
-          "sourceUrl": "",
-          "source": "人工整理的官方来源入口",
-          "stage": "Paper",
-          "type": "conference",
-          "isDatePlaceholder": false
         }
       ]
     },
     "rootLikeUrl": {
-      "count": 46,
+      "count": 47,
       "byTopic": {
         "agent-ddl": 11,
         "holiday-ddl": 9,
-        "robotics-ddl": 8,
+        "robotics-ddl": 9,
         "multimodal-ddl": 4,
         "sports-ddl": 4,
         "programming-ddl": 3,
@@ -424,6 +425,18 @@
           "sourceUrl": "",
           "source": "Official site",
           "stage": "Local event",
+          "type": "hackathon",
+          "isDatePlaceholder": false
+        },
+        {
+          "topicId": "agent-ddl",
+          "id": "agent-ddl-agents-assemble-healthcare-ai-2026-05-11",
+          "title": "Agents Assemble - The Healthcare AI Endgame",
+          "reason": "root-like URL without source-board wording",
+          "url": "https://agents-assemble.devpost.com/",
+          "sourceUrl": "https://agents-assemble.devpost.com/",
+          "source": "Agents Assemble Devpost",
+          "stage": "Submission",
           "type": "hackathon",
           "isDatePlaceholder": false
         },
@@ -477,18 +490,6 @@
         },
         {
           "topicId": "agent-ddl",
-          "id": "agent-ddl-ai-olympics-realaigym-stage1-2026-06-15",
-          "title": "AI Olympics with RealAIGym - Stage 1",
-          "reason": "root-like URL without source-board wording",
-          "url": "https://ai-olympics.dfki-bremen.de/",
-          "sourceUrl": "https://ai-olympics.dfki-bremen.de/",
-          "source": "IJCAI AI Olympics with RealAIGym",
-          "stage": "Stage 1 report",
-          "type": "challenge",
-          "isDatePlaceholder": false
-        },
-        {
-          "topicId": "agent-ddl",
           "id": "agent-ddl-splunk-agentic-ops-hackathon-2026-06-15",
           "title": "Splunk Agentic Ops Hackathon",
           "reason": "root-like URL without source-board wording",
@@ -497,6 +498,18 @@
           "source": "Splunk Agentic Ops Hackathon Devpost",
           "stage": "Submission",
           "type": "hackathon",
+          "isDatePlaceholder": false
+        },
+        {
+          "topicId": "agent-ddl",
+          "id": "agent-ddl-ai-olympics-realaigym-stage1-2026-06-15",
+          "title": "AI Olympics with RealAIGym - Stage 1",
+          "reason": "root-like URL without source-board wording",
+          "url": "https://ai-olympics.dfki-bremen.de/",
+          "sourceUrl": "https://ai-olympics.dfki-bremen.de/",
+          "source": "IJCAI AI Olympics with RealAIGym",
+          "stage": "Stage 1 report",
+          "type": "challenge",
           "isDatePlaceholder": false
         },
         {
@@ -543,18 +556,6 @@
           "url": "https://slackhack.devpost.com/",
           "sourceUrl": "https://slackhack.devpost.com/",
           "source": "Slack Agent Builder Challenge Devpost",
-          "stage": "Submission",
-          "type": "hackathon",
-          "isDatePlaceholder": false
-        },
-        {
-          "topicId": "agent-ddl",
-          "id": "agent-ddl-agents-assemble-healthcare-ai-2026-05-11",
-          "title": "Agents Assemble - The Healthcare AI Endgame",
-          "reason": "root-like URL without source-board wording",
-          "url": "https://agents-assemble.devpost.com/",
-          "sourceUrl": "https://agents-assemble.devpost.com/",
-          "source": "Agents Assemble Devpost",
           "stage": "Submission",
           "type": "hackathon",
           "isDatePlaceholder": false

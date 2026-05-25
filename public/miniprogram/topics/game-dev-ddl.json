@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-25T14:58:39.009Z",
-  "dataVersion": "387e7d62f849a96d",
+  "generatedAt": "2026-05-25T23:04:19.374Z",
+  "dataVersion": "65b78becb1005ce4",
   "topic": {
     "id": "game-dev-ddl",
     "name": "Game Dev",
@@ -15,7 +15,7 @@
       "indie game",
       "Unity"
     ],
-    "itemCount": 25,
+    "itemCount": 26,
     "status": "published"
   },
   "items": [
@@ -71,7 +71,7 @@
       "stage": "upcoming",
       "source": "itch.io Jams",
       "type": "contest",
-      "description": "Parsed from itch.io/jams. Deadline is computed from the listed start time plus jam duration."
+      "description": "Parsed from itch.io/jams. Deadline is the jam end time."
     },
     {
       "id": "itchio-jam-nes-jam-2026",
@@ -184,6 +184,24 @@
       "source": "Ludum Dare",
       "type": "contest",
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。"
+    },
+    {
+      "id": "itchio-jam-gmtk-jam-2026",
+      "topicId": "game-dev-ddl",
+      "title": "GMTK Game Jam 2026",
+      "deadline": "2026-07-26T17:00:00Z",
+      "dateRange": "2026-07-26",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "game jam"
+      ],
+      "url": "https://itch.io/jam/gmtk-jam-2026",
+      "status": "upcoming",
+      "stage": "upcoming",
+      "source": "itch.io Jams",
+      "type": "contest",
+      "description": "Parsed from itch.io/jams. Deadline is computed from the listed start time plus jam duration."
     },
     {
       "id": "game-dev-ddl-gmtk-game-jam-2026-08-06",
@@ -507,7 +525,7 @@
     {
       "id": "general",
       "name": "General",
-      "itemCount": 25,
+      "itemCount": 26,
       "nextItemId": "itchio-jam-gdevelop-big-game-jam-9"
     }
   ]

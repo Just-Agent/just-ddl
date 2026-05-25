@@ -325,8 +325,6 @@ export const ddlForCvDdl: DDLItem[] = [
       "WMAS"
     ],
     "url": "https://cvpr26wmas.github.io/",
-    "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops",
-    "canonicalUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops#cvpr2026-cvpr-2026-workshop-on-world-models-meet-active-sensing-and-closed-loop-planning-june-3-202",
     "status": "upcoming",
     "description": "Parsed from the official CVPR 2026 workshops table.",
     "stage": "Workshop / challenge session",

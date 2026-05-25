@@ -1,13 +1,13 @@
 # Just-DDL Source Audit
 
-Generated: 2026-05-25T14:58:58.398Z
+Generated: 2026-05-25T23:04:11.639Z
 
 This is an internal production-readiness report. It identifies items that need detail-page upgrades, sourceUrl completion, manual maintenance, or official-source verification. It is not published to GitHub Pages or miniprogram exports.
 
-- Total DDL items: 813
-- Official deadline candidates: 658
-- Missing sourceUrl: 328
-- Root-like URL follow-up: 46
+- Total DDL items: 825
+- Official deadline candidates: 670
+- Missing sourceUrl: 341
+- Root-like URL follow-up: 47
 - Manual/source-board follow-up: 184
 - Seed/demo source wording: 0
 - Aggregator/review-platform source: 21
@@ -34,6 +34,7 @@ This is an internal production-readiness report. It identifies items that need d
 | hackathon-ddl | [TreeHacks 2027](https://treehacks.com) | missing sourceUrl | 人工整理的官方来源入口 |
 | hackathon-ddl | [nwHacks 2027](https://nwhacks.io) | missing sourceUrl | 人工整理的官方来源入口 |
 | hackathon-ddl | [Hack Cambridge 2027](https://hackcambridge.com) | missing sourceUrl | 人工整理的官方来源入口 |
+| cv-ddl | [CVPR 2026 - Workshop on World Models Meet Active Sensing and Closed-Loop Planning](https://cvpr26wmas.github.io/) | missing sourceUrl | CVPR 2026 Workshops |
 | nlp-ddl | [EMNLP 2026 Full Paper](https://2026.emnlp.org) | missing sourceUrl | 人工整理的官方来源入口 |
 | nlp-ddl | [CLPsych Shared Task 2026](https://clpsych.org) | missing sourceUrl | 人工整理的官方来源入口 |
 | nlp-ddl | [BioNLP Workshop Paper](https://aclweb.org/aclwiki/BioNLP_Workshop) | missing sourceUrl | 人工整理的官方来源入口 |
@@ -95,7 +96,6 @@ This is an internal production-readiness report. It identifies items that need d
 | holiday-ddl | [小满 2026](https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm) | missing sourceUrl | 香港天文台历书公开来源 |
 | holiday-ddl | [Memorial Day 2026](https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/) | missing sourceUrl | US OPM federal holidays |
 | holiday-ddl | [Spring Bank Holiday 2026](https://www.gov.uk/bank-holidays) | missing sourceUrl | UK bank holidays |
-| holiday-ddl | [芒种 2026](https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm) | missing sourceUrl | 香港天文台历书公开来源 |
 
 ## Root-Like URL Follow-Up
 
@@ -103,17 +103,17 @@ This is an internal production-readiness report. It identifies items that need d
 |---|---|---|---|
 | hackathon-ddl | [Hack the North 2026](https://hackthenorth.com) | root-like URL without source-board wording | Official site |
 | hackathon-ddl | [NASA Space Apps Challenge 2026](https://www.spaceappschallenge.org/) | root-like URL without source-board wording | Official site |
+| agent-ddl | [Agents Assemble - The Healthcare AI Endgame](https://agents-assemble.devpost.com/) | root-like URL without source-board wording | Agents Assemble Devpost |
 | agent-ddl | [DevNetwork [AI + ML] Hackathon 2026](https://devnetwork-ai-ml-hack-2026.devpost.com/) | root-like URL without source-board wording | DevNetwork AI + ML Hackathon Devpost |
 | agent-ddl | [International AI Agents Hackathon](https://ai-agents-hackathon1.devpost.com/) | root-like URL without source-board wording | International AI Agents Hackathon Devpost |
 | agent-ddl | [Google Cloud Rapid Agent Hackathon](https://rapid-agent.devpost.com/) | root-like URL without source-board wording | Google Cloud Rapid Agent Hackathon Devpost |
 | agent-ddl | [Mega Agent-A-Thon](https://mega-agent-a-thon.devpost.com/) | root-like URL without source-board wording | Mega Agent-A-Thon Devpost |
-| agent-ddl | [AI Olympics with RealAIGym - Stage 1](https://ai-olympics.dfki-bremen.de/) | root-like URL without source-board wording | IJCAI AI Olympics with RealAIGym |
 | agent-ddl | [Splunk Agentic Ops Hackathon](https://splunk.devpost.com/) | root-like URL without source-board wording | Splunk Agentic Ops Hackathon Devpost |
+| agent-ddl | [AI Olympics with RealAIGym - Stage 1](https://ai-olympics.dfki-bremen.de/) | root-like URL without source-board wording | IJCAI AI Olympics with RealAIGym |
 | agent-ddl | [FIND EVIL!](https://findevil.devpost.com/) | root-like URL without source-board wording | FIND EVIL Devpost |
 | agent-ddl | [USAII Global AI Hackathon 2026](https://usaii-global-ai-hackathon-2026.devpost.com/) | root-like URL without source-board wording | USAII Global AI Hackathon Devpost |
 | agent-ddl | [SunnyHacks June 2026](https://sunnyhacks-june-2026.devpost.com/) | root-like URL without source-board wording | SunnyHacks June 2026 Devpost |
 | agent-ddl | [Slack Agent Builder Challenge](https://slackhack.devpost.com/) | root-like URL without source-board wording | Slack Agent Builder Challenge Devpost |
-| agent-ddl | [Agents Assemble - The Healthcare AI Endgame](https://agents-assemble.devpost.com/) | root-like URL without source-board wording | Agents Assemble Devpost |
 | nlp-ddl | [SemEval 2027 System Submission](https://semeval.github.io) | root-like URL without source-board wording | Shared task public source |
 | nlp-ddl | [CoNLL Shared Task 2027](https://www.conll.org) | root-like URL without source-board wording | Shared task public source |
 | academic-ddl | [ICLR 2027 Submission](https://iclr.cc) | root-like URL without source-board wording | OpenReview public source |
@@ -134,6 +134,7 @@ This is an internal production-readiness report. It identifies items that need d
 | multimodal-ddl | [MMMU Challenge 2026](https://mmmu-benchmark.github.io) | root-like URL without source-board wording | Benchmark public source |
 | multimodal-ddl | [Video-MME Leaderboard Freeze](https://video-mme.github.io) | root-like URL without source-board wording | Benchmark public source |
 | robotics-ddl | [AI City Challenge 2026 - Registration opens](https://www.aicitychallenge.org) | root-like URL without source-board wording | AI City Challenge |
+| robotics-ddl | [AI City Challenge 2026 - Release of evaluation server and test data sets](https://www.aicitychallenge.org) | root-like URL without source-board wording | AI City Challenge |
 | robotics-ddl | [AI City Challenge 2026 - Release of evaluation server and test data sets](https://www.aicitychallenge.org) | root-like URL without source-board wording | AI City Challenge |
 | robotics-ddl | [AI City Challenge 2026 - Challenge track submissions due](https://www.aicitychallenge.org) | root-like URL without source-board wording | AI City Challenge |
 | robotics-ddl | [AI City Challenge 2026 - (Anywhere on Earth) Workshop papers due](https://www.aicitychallenge.org) | root-like URL without source-board wording | AI City Challenge |

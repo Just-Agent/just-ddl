@@ -2,6 +2,52 @@ import type { DDLItem } from '../ddl-data';
 
 export const ddlForAgentDdl: DDLItem[] = [
   {
+    "id": "agent-ddl-agents-assemble-healthcare-ai-2026-05-11",
+    "title": "Agents Assemble - The Healthcare AI Endgame",
+    "deadline": "2026-05-11T23:59:59-07:00",
+    "dateRange": "Mar 4 - May 11, 2026",
+    "location": "Online",
+    "isOnline": true,
+    "tags": [
+      "Healthcare",
+      "MCP",
+      "A2A",
+      "FHIR"
+    ],
+    "url": "https://agents-assemble.devpost.com/",
+    "status": "ended",
+    "stage": "Submission",
+    "source": "Agents Assemble Devpost",
+    "type": "hackathon",
+    "description": "Healthcare AI agent hackathon focused on interoperable agents at the intersection of MCP, A2A, and FHIR.",
+    "prize": "$25,000",
+    "platform": "Devpost",
+    "evaluationMode": "Hybrid",
+    "organizer": "Prompt Opinion (Darena Health)",
+    "submissionType": "Demo video + Devpost project",
+    "sourceUrl": "https://agents-assemble.devpost.com/",
+    "phases": [
+      {
+        "name": "Submission period ends",
+        "deadline": "2026-05-11T23:59:59-07:00"
+      },
+      {
+        "name": "Winners announced",
+        "deadline": "2026-05-27T23:59:59-07:00"
+      }
+    ],
+    "tracks": [
+      {
+        "name": "Build a Superpower",
+        "description": "Create an MCP server that exposes healthcare tools for agents."
+      },
+      {
+        "name": "Build an Agent",
+        "description": "Configure an A2A-capable healthcare workflow agent on the Prompt Opinion platform."
+      }
+    ]
+  },
+  {
     "id": "agent-ddl-devnetwork-ai-ml-hackathon-2026-05-28",
     "title": "DevNetwork [AI + ML] Hackathon 2026",
     "deadline": "2026-05-28T10:00:00-07:00",
@@ -236,49 +282,6 @@ export const ddlForAgentDdl: DDLItem[] = [
     ]
   },
   {
-    "id": "agent-ddl-ai-olympics-realaigym-stage1-2026-06-15",
-    "title": "AI Olympics with RealAIGym - Stage 1",
-    "deadline": "2026-06-15T23:59:59",
-    "dateRange": "First stage solutions and reports: May 1 - Jun 15, 2026",
-    "location": "IJCAI-ECAI 2026 / DFKI Bremen",
-    "isOnline": true,
-    "tags": [
-      "Robotics Agent",
-      "Reinforcement Learning",
-      "CloudPendulum"
-    ],
-    "url": "https://ai-olympics.dfki-bremen.de/",
-    "status": "upcoming",
-    "stage": "Stage 1 report",
-    "source": "IJCAI AI Olympics with RealAIGym",
-    "type": "challenge",
-    "description": "Hardware benchmark for global swing-up policies on CloudPendulum hardware, evaluating robotics and RL agents.",
-    "prize": "N/A",
-    "platform": "IJCAI",
-    "evaluationMode": "Automated",
-    "organizer": "DFKI Bremen / IJCAI-ECAI 2026",
-    "submissionType": "Controller solution and report",
-    "sourceUrl": "https://ai-olympics.dfki-bremen.de/",
-    "phases": [
-      {
-        "name": "Registration deadline",
-        "deadline": "2026-05-31T23:59:59"
-      },
-      {
-        "name": "First stage solutions and reports due",
-        "deadline": "2026-06-15T23:59:59"
-      },
-      {
-        "name": "Second stage starts",
-        "deadline": "2026-07-01T23:59:59"
-      },
-      {
-        "name": "Second stage ends",
-        "deadline": "2026-08-15T23:59:59"
-      }
-    ]
-  },
-  {
     "id": "agent-ddl-splunk-agentic-ops-hackathon-2026-06-15",
     "title": "Splunk Agentic Ops Hackathon",
     "deadline": "2026-06-15T09:00:00-07:00",
@@ -325,6 +328,49 @@ export const ddlForAgentDdl: DDLItem[] = [
       {
         "name": "Platform & Developer Experience",
         "description": "Developer workflows and Splunk app/platform automation."
+      }
+    ]
+  },
+  {
+    "id": "agent-ddl-ai-olympics-realaigym-stage1-2026-06-15",
+    "title": "AI Olympics with RealAIGym - Stage 1",
+    "deadline": "2026-06-15T23:59:59",
+    "dateRange": "First stage solutions and reports: May 1 - Jun 15, 2026",
+    "location": "IJCAI-ECAI 2026 / DFKI Bremen",
+    "isOnline": true,
+    "tags": [
+      "Robotics Agent",
+      "Reinforcement Learning",
+      "CloudPendulum"
+    ],
+    "url": "https://ai-olympics.dfki-bremen.de/",
+    "status": "upcoming",
+    "stage": "Stage 1 report",
+    "source": "IJCAI AI Olympics with RealAIGym",
+    "type": "challenge",
+    "description": "Hardware benchmark for global swing-up policies on CloudPendulum hardware, evaluating robotics and RL agents.",
+    "prize": "N/A",
+    "platform": "IJCAI",
+    "evaluationMode": "Automated",
+    "organizer": "DFKI Bremen / IJCAI-ECAI 2026",
+    "submissionType": "Controller solution and report",
+    "sourceUrl": "https://ai-olympics.dfki-bremen.de/",
+    "phases": [
+      {
+        "name": "Registration deadline",
+        "deadline": "2026-05-31T23:59:59"
+      },
+      {
+        "name": "First stage solutions and reports due",
+        "deadline": "2026-06-15T23:59:59"
+      },
+      {
+        "name": "Second stage starts",
+        "deadline": "2026-07-01T23:59:59"
+      },
+      {
+        "name": "Second stage ends",
+        "deadline": "2026-08-15T23:59:59"
       }
     ]
   },
@@ -736,52 +782,6 @@ export const ddlForAgentDdl: DDLItem[] = [
       {
         "name": "Final results notification",
         "deadline": "2026-08-15T23:59:59"
-      }
-    ]
-  },
-  {
-    "id": "agent-ddl-agents-assemble-healthcare-ai-2026-05-11",
-    "title": "Agents Assemble - The Healthcare AI Endgame",
-    "deadline": "2026-05-11T23:59:59-07:00",
-    "dateRange": "Mar 4 - May 11, 2026",
-    "location": "Online",
-    "isOnline": true,
-    "tags": [
-      "Healthcare",
-      "MCP",
-      "A2A",
-      "FHIR"
-    ],
-    "url": "https://agents-assemble.devpost.com/",
-    "status": "ended",
-    "stage": "Submission",
-    "source": "Agents Assemble Devpost",
-    "type": "hackathon",
-    "description": "Healthcare AI agent hackathon focused on interoperable agents at the intersection of MCP, A2A, and FHIR.",
-    "prize": "$25,000",
-    "platform": "Devpost",
-    "evaluationMode": "Hybrid",
-    "organizer": "Prompt Opinion (Darena Health)",
-    "submissionType": "Demo video + Devpost project",
-    "sourceUrl": "https://agents-assemble.devpost.com/",
-    "phases": [
-      {
-        "name": "Submission period ends",
-        "deadline": "2026-05-11T23:59:59-07:00"
-      },
-      {
-        "name": "Winners announced",
-        "deadline": "2026-05-27T23:59:59-07:00"
-      }
-    ],
-    "tracks": [
-      {
-        "name": "Build a Superpower",
-        "description": "Create an MCP server that exposes healthcare tools for agents."
-      },
-      {
-        "name": "Build an Agent",
-        "description": "Configure an A2A-capable healthcare workflow agent on the Prompt Opinion platform."
       }
     ]
   }
