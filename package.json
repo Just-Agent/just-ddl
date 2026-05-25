@@ -13,7 +13,8 @@
     "validate:hub": "node scripts/validate-hub-regression.mjs",
     "validate:public": "node scripts/validate-public-surface.mjs",
     "validate:time": "node scripts/validate-time-semantics.mjs",
-    "validate:public:dist": "node scripts/validate-public-surface.mjs --dist"
+    "validate:public:dist": "node scripts/validate-public-surface.mjs --dist",
+    "audit:sources": "node scripts/audit-source-coverage.mjs"
   },
   "dependencies": {
     "@gsap/react": "^2.1.2",
