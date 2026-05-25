@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-25T11:50:06.569Z",
-  "dataVersion": "80fd2fc812d977e8",
+  "generatedAt": "2026-05-25T12:49:38.991Z",
+  "dataVersion": "c02a63c2cb7cfca8",
   "topic": {
     "id": "nsfc-ddl",
     "name": "国家自然科学基金",
@@ -1460,11 +1460,11 @@
         "预测窗口",
         "集中接收"
       ],
-      "url": "https://www.nsfc.gov.cn/",
+      "url": "https://www.nsfc.gov.cn/p1/3381/2824/99667.html",
       "status": "unannounced",
       "stage": "Forecast only",
       "source": "国家自然科学基金委员会",
-      "sourceUrl": "https://www.nsfc.gov.cn/",
+      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/99667.html",
       "type": "forecastWindow",
       "description": "预测窗口不等于官方截止日；待 2027 年官方通告发布后替换为正式 DDL。",
       "subtopic": "nsfc-application",
@@ -1497,11 +1497,11 @@
         "预测窗口",
         "评审结果"
       ],
-      "url": "https://www.nsfc.gov.cn/",
+      "url": "https://www.nsfc.gov.cn/p1/3381/2824/94026.html",
       "status": "unannounced",
       "stage": "Forecast only",
       "source": "国家自然科学基金委员会",
-      "sourceUrl": "https://www.nsfc.gov.cn/",
+      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/94026.html",
       "type": "forecastWindow",
       "description": "展示用户关心的评审结果节奏；预测窗口不等于官方发布日期，待 NSFC 官方通告后替换为正式节点。",
       "subtopic": "nsfc-review",

@@ -150,6 +150,23 @@ function hasText(value) {
   return typeof value === 'string' && value.trim().length > 0;
 }
 
+function isHttpUrl(value) {
+  if (!hasText(value)) return false;
+  try {
+    const url = new URL(value);
+    return url.protocol === 'http:' || url.protocol === 'https:';
+  } catch {
+    return false;
+  }
+}
+
+function isRootLikeUrl(value) {
+  if (!isHttpUrl(value)) return false;
+  const url = new URL(value);
+  const pathname = url.pathname.replace(/\/+$/, '');
+  return pathname === '' || /^\/[a-z]{2}(?:-[a-z]{2})?$/i.test(pathname);
+}
+
 function normalizeText(value) {
   return String(value || '')
     .normalize('NFKC')
@@ -251,6 +268,31 @@ function validateNsfcRail(items, metrics, scopeLabel) {
   };
 }
 
+function validateResearchSourcePrecision(topicId, items, scopeLabel) {
+  const errors = [];
+  const byId = new Map(items.map(item => [item.id, item]));
+  for (const item of items) {
+    const label = `${scopeLabel}: ${topicId}/${item.id || '<missing-item-id>'}`;
+    assert(isHttpUrl(item.sourceUrl), `${label} missing http(s) sourceUrl`, errors);
+    if (item.type === 'forecastWindow' || item.estimatedNextWindow) {
+      assert(
+        !isRootLikeUrl(item.sourceUrl),
+        `${label} forecast sourceUrl must point to an official evidence page, not a generic homepage`,
+        errors
+      );
+      const basisEvents = Array.isArray(item.basisEvents) ? item.basisEvents : [];
+      for (const basisId of basisEvents) {
+        const basis = byId.get(basisId);
+        assert(Boolean(basis), `${label} missing basisEvent ${basisId}`, errors);
+        if (basis) {
+          assert(isHttpUrl(basis.sourceUrl), `${label} basisEvent ${basisId} missing http(s) sourceUrl`, errors);
+        }
+      }
+    }
+  }
+  return errors;
+}
+
 function metricGroupKey(metric) {
   const title = normalizeText(metric.journalTitle || metric.title || metric.displayName || metric.id);
   const id = normalizeText(metric.journalId || metric.issn || title);
@@ -342,6 +384,10 @@ function validateResearchPayload(ddlData, metricData, scopeLabel) {
 
   const nsfc = validateNsfcRail(ddlData[NSFC_TOPIC_ID] || [], metricData[NSFC_TOPIC_ID] || [], scopeLabel);
   errors.push(...nsfc.errors);
+
+  for (const topicId of RESEARCH_TOPIC_IDS) {
+    errors.push(...validateResearchSourcePrecision(topicId, ddlData[topicId] || [], scopeLabel));
+  }
 
   const metricSeries = [];
   for (const rule of METRIC_SERIES_RULES) {

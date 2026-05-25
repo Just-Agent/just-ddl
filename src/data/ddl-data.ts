@@ -17067,9 +17067,9 @@ export const ddlData: Record<string, DDLItem[]> = {
         "end": "2027-03-20"
       },
       "confidence": "medium",
-      "url": "https://www.nsfc.gov.cn/",
+      "url": "https://www.nsfc.gov.cn/p1/3381/2824/99667.html",
       "source": "国家自然科学基金委员会",
-      "sourceUrl": "https://www.nsfc.gov.cn/",
+      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/99667.html",
       "stage": "Forecast only",
       "category": "科研基金",
       "subtopic": "nsfc-application",
@@ -17082,7 +17082,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "预测窗口不等于官方截止日；待 2027 年官方通告发布后替换为正式 DDL。",
       "dateRange": "2027-03-01 - 2027-03-20",
       "location": "Online",
-      "isOnline": true
+      "isOnline": true,
+      "canonicalUrl": "https://www.nsfc.gov.cn/p1/3381/2824/99667.html#nsfc-2027-application-forecast"
     },
     {
       "id": "nsfc-2026-review-result-forecast",
@@ -17104,9 +17105,9 @@ export const ddlData: Record<string, DDLItem[]> = {
         "end": "2026-09-05"
       },
       "confidence": "medium",
-      "url": "https://www.nsfc.gov.cn/",
+      "url": "https://www.nsfc.gov.cn/p1/3381/2824/94026.html",
       "source": "国家自然科学基金委员会",
-      "sourceUrl": "https://www.nsfc.gov.cn/",
+      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/94026.html",
       "stage": "Forecast only",
       "category": "科研基金",
       "subtopic": "nsfc-review",
@@ -17119,7 +17120,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "展示用户关心的评审结果节奏；预测窗口不等于官方发布日期，待 NSFC 官方通告后替换为正式节点。",
       "dateRange": "2026-08-20 - 2026-09-05",
       "location": "Online",
-      "isOnline": true
+      "isOnline": true,
+      "canonicalUrl": "https://www.nsfc.gov.cn/p1/3381/2824/94026.html#nsfc-2026-review-result-forecast"
     }
   ],
   "cas-partition-ddl": [

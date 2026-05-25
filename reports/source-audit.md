@@ -1,13 +1,13 @@
 # Just-DDL Source Audit
 
-Generated: 2026-05-25T12:11:43.504Z
+Generated: 2026-05-25T12:49:31.589Z
 
 This is an internal production-readiness report. It identifies items that need detail-page upgrades, sourceUrl completion, manual maintenance, or official-source verification. It is not published to GitHub Pages or miniprogram exports.
 
 - Total DDL items: 808
 - Official deadline candidates: 658
 - Missing sourceUrl: 505
-- Root-like URL follow-up: 75
+- Root-like URL follow-up: 73
 - Manual/source-board follow-up: 185
 - Seed/demo source wording: 0
 - Aggregator/review-platform source: 21
@@ -171,8 +171,6 @@ This is an internal production-readiness report. It identifies items that need d
 | car-launch-ddl | [Japan Mobility Show Bizweek 2026](https://www.japan-mobility-show.com/) | root-like URL without source-board wording | Japan Mobility Show official |
 | car-launch-ddl | [Auto Shanghai 下一届发布窗口预测](https://www.autoshanghai.org/) | root-like URL without source-board wording | Auto Shanghai official history |
 | car-launch-ddl | [LA Auto Show 2026 Public Days](https://laautoshow.com/) | root-like URL without source-board wording | LA Auto Show official |
-| nsfc-ddl | [2027 年度集中接收申请预测窗口](https://www.nsfc.gov.cn/) | root-like URL without source-board wording | 国家自然科学基金委员会 |
-| nsfc-ddl | [2026 年度集中接收项目评审结果预测窗口](https://www.nsfc.gov.cn/) | root-like URL without source-board wording | 国家自然科学基金委员会 |
 | cas-partition-ddl | [中科院期刊分区表：平台发布与历史查询口径](https://www.fenqubiao.com/) | root-like URL without source-board wording | 中科院期刊分区表在线平台 |
 | cas-partition-ddl | [中科院期刊分区历史数据查询与授权边界](https://www.fenqubiao.com/) | root-like URL without source-board wording | 中科院期刊分区表在线平台 |
 | cas-partition-ddl | [CAS 单刊分区轨迹授权导入接口已预留](https://www.fenqubiao.com/) | root-like URL without source-board wording | 中科院期刊分区表在线平台 |

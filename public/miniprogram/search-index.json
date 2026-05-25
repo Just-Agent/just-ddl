@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-25T11:50:06.569Z",
-  "dataVersion": "80fd2fc812d977e8",
+  "generatedAt": "2026-05-25T12:49:38.991Z",
+  "dataVersion": "c02a63c2cb7cfca8",
   "topics": [
     {
       "id": "hackathon-ddl",
@@ -12585,8 +12585,8 @@
       ],
       "subtopic": "nsfc-application",
       "source": "国家自然科学基金委员会",
-      "url": "https://www.nsfc.gov.cn/",
-      "sourceUrl": "https://www.nsfc.gov.cn/"
+      "url": "https://www.nsfc.gov.cn/p1/3381/2824/99667.html",
+      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/99667.html"
     },
     {
       "id": "nsfc-2026-review-result-forecast",
@@ -12605,8 +12605,8 @@
       ],
       "subtopic": "nsfc-review",
       "source": "国家自然科学基金委员会",
-      "url": "https://www.nsfc.gov.cn/",
-      "sourceUrl": "https://www.nsfc.gov.cn/"
+      "url": "https://www.nsfc.gov.cn/p1/3381/2824/94026.html",
+      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/94026.html"
     },
     {
       "id": "cas-partition-platform-history-policy",

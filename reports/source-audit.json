@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-25T12:11:43.504Z",
-  "dataVersion": "d655c38e4f1de924",
+  "generatedAt": "2026-05-25T12:49:31.589Z",
+  "dataVersion": "0949a96f94a26f1a",
   "totalItems": 808,
   "officialDeadlineItems": 658,
   "buckets": {
@@ -391,7 +391,7 @@
       ]
     },
     "rootLikeUrl": {
-      "count": 75,
+      "count": 73,
       "byTopic": {
         "cv-ddl": 20,
         "agent-ddl": 11,
@@ -405,7 +405,6 @@
         "concert-ddl": 2,
         "hackathon-ddl": 2,
         "nlp-ddl": 2,
-        "nsfc-ddl": 2,
         "academic-ddl": 1,
         "phone-launch-ddl": 1
       },
