@@ -137,6 +137,7 @@ function validateSourceItems(ddlData) {
   const errors = [];
   let itemsCount = 0;
   let forecastCount = 0;
+  let placeholderCount = 0;
 
   for (const [topicId, items] of Object.entries(ddlData)) {
     for (const item of items) {
@@ -175,6 +176,10 @@ function validateSourceItems(ddlData) {
       }
 
       if (isPlaceholder) {
+        placeholderCount += 1;
+        if (typeof item.dateRange !== 'string' || !item.dateRange.trim()) {
+          errors.push(`${label}: placeholder item must include a public dateRange disclosure`);
+        }
         continue;
       }
 
@@ -184,7 +189,7 @@ function validateSourceItems(ddlData) {
     }
   }
 
-  return { errors, itemsCount, forecastCount };
+  return { errors, itemsCount, forecastCount, placeholderCount };
 }
 
 function validateMiniprogramForecasts(payload) {
@@ -249,6 +254,7 @@ function main() {
     ok: true,
     sourceItems: sourceResult.itemsCount,
     sourceForecasts: sourceResult.forecastCount,
+    sourcePlaceholders: sourceResult.placeholderCount,
     miniprogramTopicFiles: miniprogramResult.topicFiles,
     miniprogramForecasts: miniprogramResult.forecastCount
   }, null, 2));
