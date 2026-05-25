@@ -1,12 +1,12 @@
 # Just-DDL Source Audit
 
-Generated: 2026-05-25T14:09:19.458Z
+Generated: 2026-05-25T14:58:58.398Z
 
 This is an internal production-readiness report. It identifies items that need detail-page upgrades, sourceUrl completion, manual maintenance, or official-source verification. It is not published to GitHub Pages or miniprogram exports.
 
 - Total DDL items: 813
-- Official deadline candidates: 663
-- Missing sourceUrl: 472
+- Official deadline candidates: 658
+- Missing sourceUrl: 328
 - Root-like URL follow-up: 46
 - Manual/source-board follow-up: 184
 - Seed/demo source wording: 0
@@ -72,30 +72,30 @@ This is an internal production-readiness report. It identifies items that need d
 | academic-ddl | [KDD 2027 Research Track](https://kdd.org) | missing sourceUrl | 人工整理的官方来源入口 |
 | academic-ddl | [UAI 2027 Paper](https://www.auai.org/uai) | missing sourceUrl | 人工整理的官方来源入口 |
 | academic-ddl | [ACM MM 2027 Paper](https://acmmm.org) | missing sourceUrl | 人工整理的官方来源入口 |
-| journal-ddl | [Digital Twins for Wireless Networks: Enabling Application-Aware and Closed-Loop Optimization](https://www.comsoc.org/publications/journals/ieee-jsac/cfp/digital-twins-wireless-networks-enabling-application-aware-and) | missing sourceUrl | IEEE JSAC CFP |
-| journal-ddl | [Explainable Artificial Intelligence for Wireless Communications](https://www.comsoc.org/publications/magazines/ieee-communications-magazine/cfp/explainable-artificial-intelligence) | missing sourceUrl | IEEE Communications Magazine CFP |
-| journal-ddl | [IEEE JSTSP Special Issue on Wireless Foundation Models for AI-native 6G and Beyond](https://signalprocessingsociety.org/events/ieee-jstsp-special-issue-wireless-foundation-models-ai-native-6g-and-beyond) | missing sourceUrl | IEEE SPS Special Issue Deadlines |
-| journal-ddl | [Design Methodologies and Applications on Compliant Mechanisms](https://www.sciencedirect.com/special-issue/333226/design-methodologies-and-applications-on-compliant-mechanisms) | missing sourceUrl | ScienceDirect Browse Calls for Papers |
-| journal-ddl | [Fluid Antennas: The Next Wave of MIMO Evolution for 6G and Beyond](https://www.comsoc.org/publications/magazines/ieee-communications-magazine/cfp/fluid-antennas-next-wave-mimo-evolution-6g) | missing sourceUrl | IEEE Communications Magazine CFP |
-| journal-ddl | [Journal of Materiomics](https://www.sciencedirect.com/journal/journal-of-materiomics) | missing sourceUrl | ScienceDirect Browse Calls for Papers |
-| journal-ddl | [Quantum-Enabled AI for Future Communications](https://www.comsoc.org/publications/magazines/ieee-communications-magazine/cfp/quantum-enabled-ai-future-communications) | missing sourceUrl | IEEE Communications Magazine CFP |
-| journal-ddl | [Artificial Intelligence and Machine Learning for Critical Infrastructure Protection and Homeland Security](https://www.sciencedirect.com/special-issue/333161/artificial-intelligence-and-machine-learning-for-critical-infrastructure-protection-and-homeland-security) | missing sourceUrl | ScienceDirect Browse Calls for Papers |
-| journal-ddl | [Sustainable Digital Research Infrastructures for the Edge-to-Cloud Continuum](https://www.sciencedirect.com/special-issue/333080/sustainable-digital-research-infrastructures-for-the-edge-to-cloud-continuum) | missing sourceUrl | ScienceDirect Browse Calls for Papers |
-| journal-ddl | [Call for papers for The Exercise as Medicine in Chronic Disease 2026 Symposium](https://www.sciencedirect.com/special-issue/333183/call-for-papers-for-the-exercise-as-medicine-in-chronic-disease-2026-symposium) | missing sourceUrl | ScienceDirect Browse Calls for Papers |
-| journal-ddl | [IEEE JSTSP Special Issue on Autonomous and Evolutive Optimization in Networked AI](https://signalprocessingsociety.org/events/ieee-jstsp-special-issue-autonomous-and-evolutive-optimization-networked-ai) | missing sourceUrl | IEEE SPS Special Issue Deadlines |
-| journal-ddl | [Metal-Air Batteries: Advances in Materials, Design, and Practical Deployment](https://www.sciencedirect.com/browse/calls-for-papers) | missing sourceUrl | Elsevier CFP public source |
-| journal-ddl | [Advances in Sustainable Materials and Interfaces for Emerging Solar Cells](https://www.sciencedirect.com/browse/calls-for-papers) | missing sourceUrl | Elsevier CFP public source |
-| journal-ddl | [AI-Driven Systematic Pathways to Green Transformation](https://www.sciencedirect.com/browse/calls-for-papers) | missing sourceUrl | Elsevier CFP public source |
-| journal-ddl | [Digital Twin and Scenario-Based Assessments for Sustainable Energy Technologies](https://www.sciencedirect.com/browse/calls-for-papers) | missing sourceUrl | Elsevier CFP public source |
-| journal-ddl | [Future Batteries for Sustainability](https://www.sciencedirect.com/browse/calls-for-papers) | missing sourceUrl | Elsevier CFP public source |
-| journal-ddl | [Heterogeneously Integrated Photonic Chips](https://www.sciencedirect.com/browse/calls-for-papers) | missing sourceUrl | Elsevier CFP public source |
-| journal-ddl | [Photo(Electro)catalytic Approaches for Clean Energy and Environment](https://www.sciencedirect.com/browse/calls-for-papers) | missing sourceUrl | Elsevier CFP public source |
-| journal-ddl | [Removal of Micropollutants](https://www.sciencedirect.com/browse/calls-for-papers) | missing sourceUrl | Elsevier CFP public source |
-| journal-ddl | [Selected and extended papers of the 6th International Workshop on Dynamic Logic: New Trends and Applications (DaLí 2025)](https://www.sciencedirect.com/special-issue/332989/selected-and-extended-papers-of-the-6th-international-workshop-on-dynamic-logic-new-trends-and-applications-dali-2025) | missing sourceUrl | ScienceDirect Browse Calls for Papers |
-| journal-ddl | [Special Issue: 24th European Transport Congress, Vienna 2026](https://www.sciencedirect.com/special-issue/333035/special-issue-24th-european-transport-congress-vienna-2026) | missing sourceUrl | ScienceDirect Browse Calls for Papers |
-| journal-ddl | [Sustainability and Circular Economy in Electric Energy Storage](https://www.sciencedirect.com/browse/calls-for-papers) | missing sourceUrl | Elsevier CFP public source |
-| journal-ddl | [Thermal and Fire Safety of Renewable Energy and Storage Systems](https://www.sciencedirect.com/browse/calls-for-papers) | missing sourceUrl | Elsevier CFP public source |
-| journal-ddl | [Review of Precision Electroweak Measurements, Theory and Phenomenology](https://www.sciencedirect.com/special-issue/332974/review-of-precision-electroweak-measurements-theory-and-phenomenology) | missing sourceUrl | ScienceDirect Browse Calls for Papers |
+| programming-ddl | [Codeforces Global Round](https://codeforces.com) | missing sourceUrl | Official site |
+| programming-ddl | [NOI Online Training Camp](https://www.noi.cn) | missing sourceUrl | 人工整理的官方来源入口 |
+| programming-ddl | [Kaggle Playground Series](https://www.kaggle.com/competitions) | missing sourceUrl | 人工整理的官方来源入口 |
+| programming-ddl | [HackerRank Interview Preparation Kit Sprint](https://www.hackerrank.com/domains/tutorials/10-days-of-javascript) | missing sourceUrl | 人工整理的官方来源入口 |
+| programming-ddl | [Tianchi Algorithm Competition](https://tianchi.aliyun.com/competition) | missing sourceUrl | 人工整理的官方来源入口 |
+| programming-ddl | [Meta Hacker Cup 2026 Qualification](https://www.facebook.com/codingcompetitions/hacker-cup) | missing sourceUrl | 人工整理的官方来源入口 |
+| programming-ddl | [ICPC Asia Regional Registration](https://icpc.global) | missing sourceUrl | 官方来源入口 |
+| programming-ddl | [CCF CSP Certification](https://www.cspro.org) | missing sourceUrl | 人工整理的官方来源入口 |
+| programming-ddl | [DMOJ Seasonal Contest](https://dmoj.ca/contests) | missing sourceUrl | 人工整理的官方来源入口 |
+| programming-ddl | [ICPC World Finals 2026](https://icpc.global) | missing sourceUrl | 人工整理的官方来源入口 |
+| programming-ddl | [AtCoder Grand Contest Demo Round](https://atcoder.jp) | missing sourceUrl | Official site |
+| programming-ddl | [Hash Code Legacy Practice Sprint](https://codingcompetitions.withgoogle.com/hashcode/archive) | missing sourceUrl | 人工整理的官方来源入口 |
+| programming-ddl | [Advent of Code 2026 Day 1](https://adventofcode.com) | missing sourceUrl | Official site |
+| programming-ddl | [Lanqiao Cup Provincial Round](https://dasai.lanqiao.cn) | missing sourceUrl | 会议公开来源入口 |
+| programming-ddl | [USACO 2026 December Contest](https://usaco.org) | missing sourceUrl | 人工整理的官方来源入口 |
+| programming-ddl | [CodeChef Starters Series](https://www.codechef.com/contests) | missing sourceUrl | 人工整理的官方来源入口 |
+| programming-ddl | [Google Code Jam Archive Practice](https://codingcompetitions.withgoogle.com/codejam/archive) | missing sourceUrl | 人工整理的官方来源入口 |
+| programming-ddl | [LeetCode Weekly Contest](https://leetcode.com/contest) | missing sourceUrl | Official site |
+| programming-ddl | [Project Euler Monthly Challenge](https://projecteuler.net) | missing sourceUrl | 人工整理的官方来源入口 |
+| programming-ddl | [Topcoder SRM Series](https://www.topcoder.com/challenges) | missing sourceUrl | 人工整理的官方来源入口 |
+| holiday-ddl | [小满 2026](https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm) | missing sourceUrl | 香港天文台历书公开来源 |
+| holiday-ddl | [Memorial Day 2026](https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/) | missing sourceUrl | US OPM federal holidays |
+| holiday-ddl | [Spring Bank Holiday 2026](https://www.gov.uk/bank-holidays) | missing sourceUrl | UK bank holidays |
+| holiday-ddl | [芒种 2026](https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm) | missing sourceUrl | 香港天文台历书公开来源 |
 
 ## Root-Like URL Follow-Up
 
@@ -201,12 +201,12 @@ This is an internal production-readiness report. It identifies items that need d
 | academic-ddl | [KDD 2027 Research Track](https://kdd.org) | manual/source-board follow-up | 人工整理的官方来源入口 |
 | academic-ddl | [UAI 2027 Paper](https://www.auai.org/uai) | manual/source-board follow-up | 人工整理的官方来源入口 |
 | academic-ddl | [ACM MM 2027 Paper](https://acmmm.org) | manual/source-board follow-up | 人工整理的官方来源入口 |
-| journal-ddl | [IEEE Access / IEEE Author Portal Submission Route](https://ieee.atyponrex.com/) | manual/source-board follow-up | IEEE 官方来源入口 |
-| journal-ddl | [IEEE Access Special Sections](https://ieeeaccess.ieee.org/sections/special-sections/) | manual/source-board follow-up | IEEE 官方来源入口 |
-| journal-ddl | [IEEE Communications Magazine Call for Papers](https://www.comsoc.org/publications/magazines/ieee-communications-magazine/cfp) | manual/source-board follow-up | IEEE 官方来源入口 |
-| journal-ddl | [IEEE JSAC Call for Papers](https://www.comsoc.org/publications/journals/ieee-jsac/cfp) | manual/source-board follow-up | IEEE 官方来源入口 |
-| journal-ddl | [IEEE Signal Processing Society Special Issue Deadlines](https://signalprocessingsociety.org/publications-resources/special-issue-deadlines) | manual/source-board follow-up | IEEE 官方来源入口 |
-| journal-ddl | [ScienceDirect Browse Calls for Papers](https://www.sciencedirect.com/browse/calls-for-papers) | manual/source-board follow-up | Elsevier 官方来源入口 |
+| journal-ddl | [IEEE Communications Magazine Call for Papers](https://www.comsoc.org/publications/magazines/ieee-communications-magazine/cfp) | manual/source-board follow-up | IEEE 官方 CFP 来源入口 |
+| journal-ddl | [IEEE JSAC Call for Papers](https://www.comsoc.org/publications/journals/ieee-jsac/cfp) | manual/source-board follow-up | IEEE 官方 CFP 来源入口 |
+| journal-ddl | [IEEE Signal Processing Society Special Issue Deadlines](https://signalprocessingsociety.org/publications-resources/special-issue-deadlines) | manual/source-board follow-up | IEEE 官方 CFP 来源入口 |
+| journal-ddl | [IEEE Access Special Sections](https://ieeeaccess.ieee.org/sections/special-sections/) | manual/source-board follow-up | IEEE 官方 CFP 来源入口 |
+| journal-ddl | [ScienceDirect Browse Calls for Papers](https://www.sciencedirect.com/browse/calls-for-papers) | manual/source-board follow-up | Elsevier 官方 CFP 来源入口 |
+| journal-ddl | [IEEE Access / IEEE Author Portal Submission Route](https://ieee.atyponrex.com/) | manual/source-board follow-up | IEEE 官方 CFP 来源入口 |
 | programming-ddl | [NOI Online Training Camp](https://www.noi.cn) | manual/source-board follow-up | 人工整理的官方来源入口 |
 | programming-ddl | [Kaggle Playground Series](https://www.kaggle.com/competitions) | manual/source-board follow-up | 人工整理的官方来源入口 |
 | programming-ddl | [HackerRank Interview Preparation Kit Sprint](https://www.hackerrank.com/domains/tutorials/10-days-of-javascript) | manual/source-board follow-up | 人工整理的官方来源入口 |

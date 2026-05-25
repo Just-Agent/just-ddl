@@ -1,13 +1,12 @@
 {
-  "generatedAt": "2026-05-25T14:09:19.458Z",
-  "dataVersion": "3bf9eda1d9661bb9",
+  "generatedAt": "2026-05-25T14:58:58.398Z",
+  "dataVersion": "316b428680cdc2e3",
   "totalItems": 813,
-  "officialDeadlineItems": 663,
+  "officialDeadlineItems": 658,
   "buckets": {
     "missingSourceUrl": {
-      "count": 472,
+      "count": 328,
       "byTopic": {
-        "journal-ddl": 144,
         "holiday-ddl": 78,
         "security-ddl": 28,
         "civil-service-ddl": 27,
