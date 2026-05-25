@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-25T02:14:55.338Z",
-  "dataVersion": "103962f86a707426",
+  "generatedAt": "2026-05-25T05:11:11.644Z",
+  "dataVersion": "d658c980aef4e9d6",
   "topics": [
     {
       "id": "hackathon-ddl",
@@ -11435,6 +11435,51 @@
         "NSFC",
         "复审",
         "评审结果"
+      ],
+      "subtopic": "nsfc-review",
+      "source": "国家自然科学基金委员会"
+    },
+    {
+      "id": "nsfc-2021-review-result-query",
+      "topicId": "nsfc-ddl",
+      "title": "2021 年度集中接收申请项目评审结果公布",
+      "date": "2021-08-17",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "NSFC",
+        "评审结果",
+        "资助结果"
+      ],
+      "subtopic": "nsfc-review",
+      "source": "国家自然科学基金委员会"
+    },
+    {
+      "id": "nsfc-2022-review-result-query",
+      "topicId": "nsfc-ddl",
+      "title": "2022 年度集中接收申请项目评审结果公布",
+      "date": "2022-09-08",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "NSFC",
+        "评审结果",
+        "资助结果"
+      ],
+      "subtopic": "nsfc-review",
+      "source": "国家自然科学基金委员会"
+    },
+    {
+      "id": "nsfc-2023-review-result-query",
+      "topicId": "nsfc-ddl",
+      "title": "2023 年度集中接收申请项目评审结果公布",
+      "date": "2023-08-24",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "NSFC",
+        "评审结果",
+        "资助结果"
       ],
       "subtopic": "nsfc-review",
       "source": "国家自然科学基金委员会"

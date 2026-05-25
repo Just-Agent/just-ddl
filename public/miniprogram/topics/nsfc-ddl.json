@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-25T02:14:55.338Z",
-  "dataVersion": "103962f86a707426",
+  "generatedAt": "2026-05-25T05:11:11.644Z",
+  "dataVersion": "d658c980aef4e9d6",
   "topic": {
     "id": "nsfc-ddl",
     "name": "国家自然科学基金",
@@ -1342,6 +1342,78 @@
       "category": "科研基金"
     },
     {
+      "id": "nsfc-2021-review-result-query",
+      "topicId": "nsfc-ddl",
+      "title": "2021 年度集中接收申请项目评审结果公布",
+      "date": "2021-08-17",
+      "dateRange": "2021-08-17",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "NSFC",
+        "评审结果",
+        "资助结果"
+      ],
+      "url": "https://www.nsfc.gov.cn/Portals/0/fj/fj20220413_01.pdf",
+      "status": "ended",
+      "stage": "Review result",
+      "source": "国家自然科学基金委员会",
+      "sourceUrl": "https://www.nsfc.gov.cn/Portals/0/fj/fj20220413_01.pdf",
+      "type": "historyEvent",
+      "description": "NSFC 2021 年度绩效评价报告记录，2021 年度集中接收申请项目评审结果于 2021 年 8 月 17 日公布。",
+      "subtopic": "nsfc-review",
+      "subtopicName": "评审结果",
+      "category": "科研基金"
+    },
+    {
+      "id": "nsfc-2022-review-result-query",
+      "topicId": "nsfc-ddl",
+      "title": "2022 年度集中接收申请项目评审结果公布",
+      "date": "2022-09-08",
+      "dateRange": "2022-09-08",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "NSFC",
+        "评审结果",
+        "资助结果"
+      ],
+      "url": "https://www.nsfc.gov.cn/Portals/0/fj/fj20230605_01.pdf",
+      "status": "ended",
+      "stage": "Review result",
+      "source": "国家自然科学基金委员会",
+      "sourceUrl": "https://www.nsfc.gov.cn/Portals/0/fj/fj20230605_01.pdf",
+      "type": "historyEvent",
+      "description": "NSFC 2022 年度绩效评价报告记录，2022 年度集中接收申请项目评审结果于 2022 年 9 月 8 日公布。",
+      "subtopic": "nsfc-review",
+      "subtopicName": "评审结果",
+      "category": "科研基金"
+    },
+    {
+      "id": "nsfc-2023-review-result-query",
+      "topicId": "nsfc-ddl",
+      "title": "2023 年度集中接收申请项目评审结果公布",
+      "date": "2023-08-24",
+      "dateRange": "2023-08-24",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "NSFC",
+        "评审结果",
+        "资助结果"
+      ],
+      "url": "https://www.nsfc.gov.cn/Portals/0/fj/fj20241227_01.pdf",
+      "status": "ended",
+      "stage": "Review result",
+      "source": "国家自然科学基金委员会",
+      "sourceUrl": "https://www.nsfc.gov.cn/Portals/0/fj/fj20241227_01.pdf",
+      "type": "historyEvent",
+      "description": "NSFC 2023 年度绩效评价报告记录，2023 年度集中接收申请项目评审结果于 2023 年 8 月 24 日公布。",
+      "subtopic": "nsfc-review",
+      "subtopicName": "评审结果",
+      "category": "科研基金"
+    },
+    {
       "id": "nsfc-2024-review-result-query",
       "topicId": "nsfc-ddl",
       "title": "2024 年度集中接收申请项目评审结果公布",
@@ -1409,6 +1481,9 @@
       },
       "lastOfficialDate": "2025-08-27",
       "basisEvents": [
+        "nsfc-2021-review-result-query",
+        "nsfc-2022-review-result-query",
+        "nsfc-2023-review-result-query",
         "nsfc-2024-review-result-query",
         "nsfc-2025-review-result-query"
       ],
@@ -1426,7 +1501,7 @@
       "source": "国家自然科学基金委员会",
       "sourceUrl": "https://www.nsfc.gov.cn/",
       "type": "forecastWindow",
-      "description": "展示用户关心的评审结果节奏，但明确样本不足且不进入官方 DDL 统计。",
+      "description": "展示用户关心的评审结果节奏；预测窗口不等于官方发布日期，待 NSFC 官方通告后替换为正式节点。",
       "subtopic": "nsfc-review",
       "subtopicName": "评审结果",
       "category": "科研基金"
@@ -1719,7 +1794,7 @@
     {
       "id": "nsfc-review",
       "name": "评审结果",
-      "itemCount": 13,
+      "itemCount": 16,
       "nextItemId": "nsfc-2026-preliminary-recheck-result"
     },
     {
