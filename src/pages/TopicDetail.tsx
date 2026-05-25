@@ -27,6 +27,7 @@ import {
   Pin,
   RadioTower,
   Scale,
+  Search,
   SlidersHorizontal,
   Sparkles,
   Smartphone,
@@ -58,6 +59,8 @@ interface SubtopicGroup {
 
 type EventViewMode = 'list' | 'grid';
 type EventVisualMode = DDLCardVisualMode;
+
+const journalMetricTopicIds = ['cas-partition-ddl', 'jcr-impact-factor-ddl', 'journal-volume-ddl'] as const;
 
 function getItemSubtopic(item: DDLItem) {
   return {
@@ -120,6 +123,325 @@ function compactMetricItems(metrics: MetricSnapshot[]) {
 
 function compactItemTitle(title: string) {
   return title.replace(/^20\d{2}\s+/, '').replace(/\s+发布$/, '');
+}
+
+function normalizeMetricText(value: unknown) {
+  return String(value || '').trim().toLowerCase();
+}
+
+function metricJournalKey(metric: MetricSnapshot) {
+  return normalizeMetricText(metric.journalId || metric.issn || metric.journalTitle || metric.id);
+}
+
+function metricNumber(value: unknown) {
+  const next = Number(value);
+  return Number.isFinite(next) ? next : undefined;
+}
+
+function sortByYearDesc(a: MetricSnapshot, b: MetricSnapshot) {
+  return Number(b.year || 0) - Number(a.year || 0);
+}
+
+interface JournalMetricProfile {
+  key: string;
+  title: string;
+  issn?: string;
+  jifSeries: MetricSnapshot[];
+  casSeries: MetricSnapshot[];
+  worksSeries: MetricSnapshot[];
+  totalWorks?: MetricSnapshot;
+  latestJif?: MetricSnapshot;
+  latestCas?: MetricSnapshot;
+  latestCompleteWorks?: MetricSnapshot;
+  currentYtdWorks?: MetricSnapshot;
+}
+
+function buildJournalMetricProfiles(metrics: MetricSnapshot[]) {
+  const grouped = new Map<string, JournalMetricProfile>();
+
+  for (const metric of metrics) {
+    const key = metricJournalKey(metric);
+    const title = String(metric.journalTitle || '').trim();
+    if (!key || !title) continue;
+
+    const profile = grouped.get(key) || {
+      key,
+      title,
+      issn: typeof metric.issn === 'string' && metric.issn.trim() ? metric.issn : undefined,
+      jifSeries: [],
+      casSeries: [],
+      worksSeries: [],
+    };
+
+    if (!profile.issn && typeof metric.issn === 'string' && metric.issn.trim()) {
+      profile.issn = metric.issn;
+    }
+
+    if (metric.metric === 'journal_impact_factor') profile.jifSeries.push(metric);
+    if (metric.metric === 'cas_major_zone') profile.casSeries.push(metric);
+    if (metric.metric === 'openalex_works_count_by_year') profile.worksSeries.push(metric);
+    if (metric.metric === 'openalex_works_count_total') profile.totalWorks = metric;
+
+    grouped.set(key, profile);
+  }
+
+  return [...grouped.values()].map(profile => {
+    const jifSeries = [...profile.jifSeries].sort(sortByYearDesc);
+    const casSeries = [...profile.casSeries].sort(sortByYearDesc);
+    const worksSeries = [...profile.worksSeries].sort(sortByYearDesc);
+    const completeWorks = worksSeries.filter(metric => metric.yearCompleteness === 'complete_observed');
+    const ytdWorks = worksSeries.filter(metric => metric.yearCompleteness === 'partial_ytd');
+    return {
+      ...profile,
+      jifSeries,
+      casSeries,
+      worksSeries,
+      latestJif: jifSeries[0],
+      latestCas: casSeries[0],
+      latestCompleteWorks: completeWorks[0],
+      currentYtdWorks: ytdWorks[0],
+    };
+  }).sort((a, b) => {
+    const jifDelta = Number(b.latestJif?.value || 0) - Number(a.latestJif?.value || 0);
+    if (jifDelta !== 0) return jifDelta;
+    return a.title.localeCompare(b.title, 'zh-CN');
+  });
+}
+
+function metricValueLabel(metric?: MetricSnapshot, empty = '-') {
+  if (!metric) return empty;
+  const value = metricNumber(metric.value);
+  return value === undefined ? String(metric.value) : value.toLocaleString('zh-CN', { maximumFractionDigits: 3 });
+}
+
+function metricYearLabel(metric?: MetricSnapshot, empty = '') {
+  if (!metric) return empty;
+  return metric.year ? String(metric.year) : metricWhen(metric, 'zh');
+}
+
+function JournalMetricLookup({
+  metrics,
+  topicColor,
+}: {
+  metrics: MetricSnapshot[];
+  topicColor: string;
+}) {
+  const { language } = useLanguage();
+  const [query, setQuery] = useState('');
+  const [selectedKey, setSelectedKey] = useState<string | null>(null);
+  const profiles = useMemo(() => buildJournalMetricProfiles(metrics), [metrics]);
+
+  const labels = language === 'zh'
+    ? {
+      eyebrow: '单刊查询',
+      title: '查某一本期刊的 JCR / CAS / 发文量轨迹',
+      copy: '把授权导入的影响因子、中科院分区和 OpenAlex 公开发文量放到同一个剖面里。当前年发文量是 YTD 快照，不与完整年份做趋势判断。',
+      search: '输入期刊名、ISSN 或 slug，例如 TPAMI / ACM Computing Surveys',
+      results: '匹配期刊',
+      jif: '最新影响因子',
+      cas: '最新 CAS 大类',
+      total: 'OpenAlex 累计发文',
+      latestComplete: '最新完整年发文',
+      ytd: '当前年 YTD',
+      jifSeries: '影响因子轨迹',
+      casSeries: 'CAS 分区轨迹',
+      worksSeries: '发文量轨迹',
+      source: '来源',
+      missing: '待授权导入',
+      noResult: '没有匹配期刊',
+      top: 'TOP',
+      complete: '完整年',
+      partial: 'YTD',
+    }
+    : {
+      eyebrow: 'journal lookup',
+      title: 'Search JCR / CAS / Publication Volume By Journal',
+      copy: 'This profile combines authorized JIF imports, CAS zone imports, and public OpenAlex volume snapshots. Current-year volume is a YTD snapshot.',
+      search: 'Type a journal title, ISSN, or slug, e.g. TPAMI / ACM Computing Surveys',
+      results: 'Matches',
+      jif: 'Latest JIF',
+      cas: 'Latest CAS Zone',
+      total: 'OpenAlex Total',
+      latestComplete: 'Latest Complete Year',
+      ytd: 'Current YTD',
+      jifSeries: 'JIF Series',
+      casSeries: 'CAS Zone Series',
+      worksSeries: 'Volume Series',
+      source: 'Source',
+      missing: 'Pending authorized import',
+      noResult: 'No matching journal',
+      top: 'TOP',
+      complete: 'complete',
+      partial: 'YTD',
+    };
+
+  const filteredProfiles = useMemo(() => {
+    const needle = normalizeMetricText(query);
+    if (!needle) return profiles.slice(0, 8);
+    return profiles.filter(profile => {
+      const haystack = [
+        profile.key,
+        profile.title,
+        profile.issn,
+      ].map(normalizeMetricText).join(' ');
+      return haystack.includes(needle);
+    }).slice(0, 12);
+  }, [profiles, query]);
+
+  const selectedProfile = useMemo(() => {
+    if (!profiles.length) return undefined;
+    return profiles.find(profile => profile.key === selectedKey)
+      || filteredProfiles[0]
+      || profiles[0];
+  }, [filteredProfiles, profiles, selectedKey]);
+
+  if (!profiles.length) return null;
+
+  const statCards = [
+    { label: labels.jif, value: metricValueLabel(selectedProfile?.latestJif, labels.missing), meta: metricYearLabel(selectedProfile?.latestJif, '') },
+    {
+      label: labels.cas,
+      value: metricValueLabel(selectedProfile?.latestCas, labels.missing),
+      meta: selectedProfile?.latestCas
+        ? [metricYearLabel(selectedProfile.latestCas), selectedProfile.latestCas.isTop ? labels.top : ''].filter(Boolean).join(' · ')
+        : '',
+    },
+    { label: labels.total, value: metricValueLabel(selectedProfile?.totalWorks, '-'), meta: selectedProfile?.totalWorks?.asOfDate ? String(selectedProfile.totalWorks.asOfDate) : '' },
+    { label: labels.latestComplete, value: metricValueLabel(selectedProfile?.latestCompleteWorks, '-'), meta: metricYearLabel(selectedProfile?.latestCompleteWorks, '') },
+    { label: labels.ytd, value: metricValueLabel(selectedProfile?.currentYtdWorks, '-'), meta: metricYearLabel(selectedProfile?.currentYtdWorks, '') },
+  ];
+
+  return (
+    <section className="mt-8 rounded-3xl border bg-white p-5 shadow-sm sm:p-6" style={{ borderColor: '#E2E8F0' }}>
+      <div className="flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
+        <div>
+          <p className="text-xs font-black uppercase tracking-[0.2em]" style={{ color: topicColor }}>{labels.eyebrow}</p>
+          <h2 className="mt-2 text-xl font-black" style={{ color: '#0F172A' }}>{labels.title}</h2>
+          <p className="mt-2 max-w-3xl text-sm leading-7" style={{ color: '#64748B' }}>{labels.copy}</p>
+        </div>
+        <div className="relative w-full lg:max-w-md">
+          <Search size={16} className="absolute left-4 top-1/2 -translate-y-1/2" style={{ color: '#94A3B8' }} />
+          <input
+            value={query}
+            onChange={event => setQuery(event.target.value)}
+            className="h-12 w-full rounded-2xl border bg-slate-50 pl-11 pr-4 text-sm font-semibold outline-none transition focus:bg-white"
+            style={{ borderColor: '#E2E8F0', color: '#0F172A' }}
+            placeholder={labels.search}
+            aria-label={labels.search}
+          />
+        </div>
+      </div>
+
+      <div className="mt-5 grid gap-4 xl:grid-cols-[minmax(260px,0.7fr)_minmax(0,1.3fr)]">
+        <article className="rounded-3xl border bg-slate-50 p-3" style={{ borderColor: '#E2E8F0' }}>
+          <h3 className="px-2 py-1 text-sm font-black" style={{ color: '#0F172A' }}>{labels.results} · {filteredProfiles.length}</h3>
+          <div className="mt-2 max-h-80 space-y-2 overflow-y-auto pr-1">
+            {filteredProfiles.length ? filteredProfiles.map(profile => {
+              const active = profile.key === selectedProfile?.key;
+              return (
+                <button
+                  key={profile.key}
+                  onClick={() => setSelectedKey(profile.key)}
+                  className="w-full rounded-2xl border bg-white p-3 text-left transition hover:-translate-y-0.5"
+                  style={{ borderColor: active ? topicColor : '#E2E8F0', boxShadow: active ? `0 0 0 3px ${topicColor}12` : 'none' }}
+                >
+                  <p className="line-clamp-1 text-sm font-black" style={{ color: '#0F172A' }}>{profile.title}</p>
+                  <p className="mt-1 text-[11px] font-semibold" style={{ color: '#64748B' }}>
+                    JIF {metricValueLabel(profile.latestJif, '-')} · CAS {metricValueLabel(profile.latestCas, '-')} · {profile.issn || 'ISSN -'}
+                  </p>
+                </button>
+              );
+            }) : <p className="px-2 py-4 text-sm font-semibold" style={{ color: '#94A3B8' }}>{labels.noResult}</p>}
+          </div>
+        </article>
+
+        {selectedProfile && (
+          <article className="rounded-3xl border bg-white p-4" style={{ borderColor: '#E2E8F0' }}>
+            <div className="flex flex-col gap-2 sm:flex-row sm:items-start sm:justify-between">
+              <div>
+                <h3 className="text-xl font-black" style={{ color: '#0F172A' }}>{selectedProfile.title}</h3>
+                <p className="mt-1 text-xs font-semibold" style={{ color: '#64748B' }}>{selectedProfile.issn || 'ISSN -'}</p>
+              </div>
+              {(selectedProfile.latestJif?.url || selectedProfile.latestCas?.url || selectedProfile.totalWorks?.url) && (
+                <a
+                  href={String(selectedProfile.latestJif?.url || selectedProfile.latestCas?.url || selectedProfile.totalWorks?.url)}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 rounded-2xl border px-3 py-2 text-xs font-black transition hover:-translate-y-0.5"
+                  style={{ borderColor: '#E2E8F0', color: topicColor }}
+                >
+                  {labels.source} <ExternalLink size={13} />
+                </a>
+              )}
+            </div>
+
+            <div className="mt-4 grid gap-3 sm:grid-cols-2 xl:grid-cols-5">
+              {statCards.map(card => (
+                <div key={card.label} className="rounded-2xl border bg-slate-50 p-3" style={{ borderColor: '#E2E8F0' }}>
+                  <p className="text-[11px] font-black uppercase tracking-[0.12em]" style={{ color: '#64748B' }}>{card.label}</p>
+                  <p className="mt-2 text-2xl font-black" style={{ color: '#0F172A' }}>{card.value}</p>
+                  {card.meta && <p className="mt-1 text-[11px] font-semibold" style={{ color: '#94A3B8' }}>{card.meta}</p>}
+                </div>
+              ))}
+            </div>
+
+            <div className="mt-5 grid gap-4 lg:grid-cols-3">
+              <MetricSeriesList title={labels.jifSeries} metrics={selectedProfile.jifSeries.slice(0, 8)} topicColor={topicColor} empty={labels.missing} />
+              <MetricSeriesList
+                title={labels.casSeries}
+                metrics={selectedProfile.casSeries.slice(0, 6)}
+                topicColor={topicColor}
+                empty={labels.missing}
+                valueSuffix={metric => metric.isTop ? ` · ${labels.top}` : ''}
+              />
+              <MetricSeriesList
+                title={labels.worksSeries}
+                metrics={selectedProfile.worksSeries.slice(0, 8)}
+                topicColor={topicColor}
+                empty="-"
+                valueSuffix={metric => metric.yearCompleteness === 'partial_ytd' ? ` · ${labels.partial}` : ` · ${labels.complete}`}
+              />
+            </div>
+          </article>
+        )}
+      </div>
+    </section>
+  );
+}
+
+function MetricSeriesList({
+  title,
+  metrics,
+  topicColor,
+  empty,
+  valueSuffix,
+}: {
+  title: string;
+  metrics: MetricSnapshot[];
+  topicColor: string;
+  empty: string;
+  valueSuffix?: (metric: MetricSnapshot) => string;
+}) {
+  return (
+    <div className="rounded-2xl border bg-slate-50 p-3" style={{ borderColor: '#E2E8F0' }}>
+      <h4 className="text-sm font-black" style={{ color: '#0F172A' }}>{title}</h4>
+      <div className="mt-3 space-y-2">
+        {metrics.length ? metrics.map(metric => (
+          <a
+            key={metric.id}
+            href={metric.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center justify-between gap-3 rounded-xl bg-white px-3 py-2 text-xs font-bold"
+            style={{ color: '#334155' }}
+          >
+            <span className="font-black" style={{ color: topicColor }}>{metric.year || metricWhen(metric, 'zh')}</span>
+            <span className="truncate">{metricValueLabel(metric)}{valueSuffix?.(metric) || ''}</span>
+          </a>
+        )) : <p className="rounded-xl bg-white px-3 py-2 text-xs font-semibold" style={{ color: '#94A3B8' }}>{empty}</p>}
+      </div>
+    </div>
+  );
 }
 
 function TopicInsightRails({
@@ -558,6 +880,23 @@ export default function TopicDetail() {
   }, [topicId]);
 
   const metrics = loadedMetrics?.topicId === topicId ? loadedMetrics.metrics : [];
+  const [loadedJournalMetrics, setLoadedJournalMetrics] = useState<{ topicId: string; metrics: MetricSnapshot[] } | null>(null);
+  const isJournalMetricTopic = Boolean(topicId && journalMetricTopicIds.includes(topicId as typeof journalMetricTopicIds[number]));
+
+  useEffect(() => {
+    let isCurrent = true;
+    if (!topicId || !journalMetricTopicIds.includes(topicId as typeof journalMetricTopicIds[number])) return undefined;
+
+    Promise.all(journalMetricTopicIds.map(id => loadMetricsByTopic(id))).then((metricGroups) => {
+      if (isCurrent) setLoadedJournalMetrics({ topicId, metrics: metricGroups.flat() });
+    });
+
+    return () => {
+      isCurrent = false;
+    };
+  }, [topicId]);
+
+  const journalMetrics = loadedJournalMetrics?.topicId === topicId ? loadedJournalMetrics.metrics : [];
 
   const subtopicGroups = useMemo<SubtopicGroup[]>(() => {
     if (!topicId || !['sports-ddl', 'game-ddl'].includes(topicId)) return [];
@@ -695,6 +1034,7 @@ export default function TopicDetail() {
       </section>
 
       <TopicInsightRails items={items} metrics={metrics} topicColor={topic.color} />
+      {isJournalMetricTopic && <JournalMetricLookup metrics={journalMetrics} topicColor={topic.color} />}
 
       {['sports-ddl', 'game-ddl'].includes(topic.id) && subtopicGroups.length > 0 && (
         <TopicSubtopicPlaza
