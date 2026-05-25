@@ -106,6 +106,10 @@ function initialVisualMode(): VisualMode {
 }
 
 function findTopicForItem(item: DDLItem) {
+  if (typeof item.topicId === 'string' && item.topicId) {
+    const exact = getTopicById(item.topicId);
+    if (exact) return exact;
+  }
   return topics.find(topic => item.id === topic.id || item.id.startsWith(`${topic.id}-`));
 }
 

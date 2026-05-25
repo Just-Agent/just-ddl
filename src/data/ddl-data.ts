@@ -1,6 +1,7 @@
 export interface DDLItem {
   [key: string]: unknown;
   id: string;
+  topicId?: string;
   title: string;
   deadline?: string;
   date?: string;
@@ -17626,5 +17627,10 @@ export function getDDLByTopic(topicId: string): DDLItem[] {
 }
 
 export function getAllDDL(): DDLItem[] {
-  return Object.values(ddlData).flat();
+  return Object.entries(ddlData).flatMap(([topicId, items]) => (
+    items.map(item => ({
+      ...item,
+      topicId: typeof item.topicId === 'string' && item.topicId ? item.topicId : topicId,
+    }))
+  ));
 }
