@@ -2,11 +2,33 @@ import { useMemo, useState } from 'react';
 import { motion } from 'framer-motion';
 import { Activity, ArrowRight, BookOpen, CheckCircle2, Clock3, Code2, Database, ExternalLink, FolderOpen, GitBranch, Languages, Pin, RadioTower, Search, Sparkles, Zap } from 'lucide-react';
 import { topics, categories, getTopicById } from '@/data/topics';
-import { getAllDDL, getDDLByTopic } from '@/data/ddl-data';
+import { getAllDDL, getDDLByTopic, type DDLItem } from '@/data/ddl-data';
 import { useSubscriptions } from '@/hooks/useSubscriptions';
 import TopicCard from '@/components/TopicCard';
 import { useLanguage } from '@/lib/language';
-import { compareDDLItems, formatRelativeDeadlineLong, isActiveDeadlineItem } from '@/lib/ddl';
+import { compareDDLItems, ddlItemTime, formatItemDate, formatRelativeDeadlineLong, hasOfficialDeadline, isActiveDeadlineItem } from '@/lib/ddl';
+
+const DAY_MS = 24 * 60 * 60 * 1000;
+
+function topicForItem(item: DDLItem) {
+  const explicitTopicId = typeof item.topicId === 'string' ? item.topicId : '';
+  if (explicitTopicId) return getTopicById(explicitTopicId);
+  return topics.find(topic => item.id === topic.id || item.id.startsWith(`${topic.id}-`));
+}
+
+function isSameLocalDay(time: number, base = new Date()) {
+  const date = new Date(time);
+  return date.getFullYear() === base.getFullYear()
+    && date.getMonth() === base.getMonth()
+    && date.getDate() === base.getDate();
+}
+
+function isWithinDays(item: DDLItem, days: number) {
+  if (!hasOfficialDeadline(item)) return false;
+  const time = ddlItemTime(item);
+  const now = Date.now();
+  return time >= now && time <= now + days * DAY_MS;
+}
 
 export default function Home() {
   const [activeCategory, setActiveCategory] = useState('全部');
@@ -52,6 +74,21 @@ export default function Home() {
   }, [activeCategory, categoryName, search, tagName, topicDescription, topicName]);
 
   const activeDDL = allItems.filter(isActiveDeadlineItem).length;
+  const activeOfficialItems = useMemo(() => (
+    allItems
+      .filter(item => isActiveDeadlineItem(item) && hasOfficialDeadline(item))
+      .sort(compareDDLItems)
+  ), [allItems]);
+  const todayItems = useMemo(() => (
+    activeOfficialItems
+      .filter(item => isSameLocalDay(ddlItemTime(item)))
+      .slice(0, 5)
+  ), [activeOfficialItems]);
+  const riskItems = useMemo(() => (
+    activeOfficialItems
+      .filter(item => isWithinDays(item, 7))
+      .slice(0, 5)
+  ), [activeOfficialItems]);
   const featured = useMemo(() => {
     return [...topics]
       .sort((a, b) => {
@@ -61,6 +98,19 @@ export default function Home() {
       })
       .slice(0, 4);
   }, [topicMetrics]);
+  const heatTopics = useMemo(() => {
+    return [...topics]
+      .map(topic => {
+        const metrics = topicMetrics.get(topic.id);
+        const nextTime = metrics?.next ? ddlItemTime(metrics.next) : Number.MAX_SAFE_INTEGER;
+        const days = Number.isFinite(nextTime) ? Math.max(0, Math.ceil((nextTime - Date.now()) / DAY_MS)) : 9999;
+        const urgency = days <= 7 ? 24 : days <= 30 ? 12 : days <= 90 ? 4 : 0;
+        const score = (metrics?.active || 0) * 3 + (metrics?.sources || 0) * 5 + urgency;
+        return { topic, metrics, score };
+      })
+      .sort((a, b) => b.score - a.score || (b.metrics?.active || 0) - (a.metrics?.active || 0))
+      .slice(0, 6);
+  }, [topicMetrics]);
 
   const heroStats = [
     { label: copy.home.topics, value: topics.length, icon: FolderOpen, color: '#D97706' },
@@ -68,6 +118,34 @@ export default function Home() {
     { label: copy.home.activeDeadlines, value: activeDDL, icon: Zap, color: '#059669' },
     { label: copy.home.categories, value: categories.length - 1, icon: Database, color: '#0284C7' },
   ];
+
+  const spotlightCopy = language === 'zh'
+    ? {
+      todayTitle: '今日到期展示台',
+      todayCopy: '只显示官方精确日期的节点，不把预测窗口、历史节点或个人本地 DDL 混进来。',
+      noToday: '今天暂无官方 DDL 到期',
+      riskTitle: '近期风险',
+      riskCopy: '未来 7 天内即将到来的官方 DDL，适合每天扫一眼。',
+      noRisk: '未来 7 天暂无高风险节点',
+      heatTitle: '数据热度',
+      heatCopy: '按活跃条目、来源数和最近节点排序，不代表真实用户点击热度。',
+      open: '查看',
+      official: '官方 DDL',
+      method: '透明排序',
+    }
+    : {
+      todayTitle: 'Today Board',
+      todayCopy: 'Only official date-level deadlines are shown here. Forecasts, history, and local personal DDL stay out.',
+      noToday: 'No official DDL due today',
+      riskTitle: 'Near-Term Risk',
+      riskCopy: 'Official deadlines arriving in the next 7 days for quick daily scanning.',
+      noRisk: 'No high-risk official nodes in 7 days',
+      heatTitle: 'Data Heat',
+      heatCopy: 'Ranked by active items, source count, and nearest node. It is not user click popularity.',
+      open: 'Open',
+      official: 'Official DDL',
+      method: 'Transparent ranking',
+    };
 
   const contributorGuide = language === 'zh'
     ? {
@@ -233,6 +311,121 @@ export default function Home() {
           </div>
         </div>
       </motion.section>
+
+      <section className="mt-8 grid gap-4 lg:grid-cols-[1fr_1fr_1.15fr]">
+        {[
+          {
+            title: spotlightCopy.todayTitle,
+            copy: spotlightCopy.todayCopy,
+            empty: spotlightCopy.noToday,
+            items: todayItems,
+            color: '#E11D48',
+            icon: Clock3,
+          },
+          {
+            title: spotlightCopy.riskTitle,
+            copy: spotlightCopy.riskCopy,
+            empty: spotlightCopy.noRisk,
+            items: riskItems,
+            color: '#F97316',
+            icon: Zap,
+          },
+        ].map(board => {
+          const Icon = board.icon;
+          return (
+            <motion.div
+              key={board.title}
+              initial={{ opacity: 0, y: 12 }}
+              animate={{ opacity: 1, y: 0 }}
+              className="rounded-3xl border bg-white p-5 shadow-sm"
+              style={{ borderColor: '#E2E8F0' }}
+            >
+              <div className="flex items-start gap-3">
+                <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl" style={{ background: `${board.color}12`, color: board.color }}>
+                  <Icon size={19} />
+                </div>
+                <div>
+                  <h2 className="text-base font-black" style={{ color: '#0F172A' }}>{board.title}</h2>
+                  <p className="mt-1 text-xs leading-5" style={{ color: '#64748B' }}>{board.copy}</p>
+                </div>
+              </div>
+
+              <div className="mt-4 space-y-2">
+                {board.items.length > 0 ? board.items.map(item => {
+                  const topic = topicForItem(item);
+                  return (
+                    <a
+                      key={item.id}
+                      href={topic ? `#/topic/${topic.id}` : '#/'}
+                      className="group block rounded-2xl border bg-slate-50 px-3 py-3 transition hover:-translate-y-0.5 hover:bg-white"
+                      style={{ borderColor: '#E2E8F0' }}
+                    >
+                      <div className="flex items-start justify-between gap-3">
+                        <div className="min-w-0">
+                          <p className="truncate text-xs font-black" style={{ color: topic?.color || board.color }}>
+                            {topic ? topicName(topic) : spotlightCopy.official}
+                          </p>
+                          <h3 className="mt-1 line-clamp-2 text-sm font-black" style={{ color: '#0F172A' }}>{item.title}</h3>
+                          <p className="mt-1 truncate text-[11px] font-semibold" style={{ color: '#94A3B8' }}>{formatItemDate(item, language)}</p>
+                        </div>
+                        <span className="shrink-0 rounded-full px-2.5 py-1 text-[11px] font-black" style={{ background: `${board.color}12`, color: board.color }}>
+                          {formatRelativeDeadlineLong(item, language)}
+                        </span>
+                      </div>
+                    </a>
+                  );
+                }) : (
+                  <div className="rounded-2xl border border-dashed bg-slate-50 px-3 py-6 text-center text-xs font-bold" style={{ borderColor: '#CBD5E1', color: '#94A3B8' }}>
+                    {board.empty}
+                  </div>
+                )}
+              </div>
+            </motion.div>
+          );
+        })}
+
+        <motion.div
+          initial={{ opacity: 0, y: 12 }}
+          animate={{ opacity: 1, y: 0 }}
+          className="rounded-3xl border bg-white p-5 shadow-sm"
+          style={{ borderColor: '#D1FAE5' }}
+        >
+          <div className="flex items-start gap-3">
+            <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl" style={{ background: '#ECFDF5', color: '#0F766E' }}>
+              <Activity size={19} />
+            </div>
+            <div>
+              <h2 className="text-base font-black" style={{ color: '#0F172A' }}>{spotlightCopy.heatTitle}</h2>
+              <p className="mt-1 text-xs leading-5" style={{ color: '#64748B' }}>{spotlightCopy.heatCopy}</p>
+            </div>
+          </div>
+
+          <div className="mt-4 grid gap-2 sm:grid-cols-2 lg:grid-cols-1">
+            {heatTopics.map(({ topic, metrics, score }) => (
+              <a
+                key={topic.id}
+                href={`#/topic/${topic.id}`}
+                className="group grid grid-cols-[1fr_auto] items-center gap-3 rounded-2xl border bg-slate-50 px-3 py-3 transition hover:-translate-y-0.5 hover:bg-white"
+                style={{ borderColor: '#E2E8F0' }}
+              >
+                <div className="min-w-0">
+                  <div className="flex items-center gap-2">
+                    <span className="h-2.5 w-2.5 shrink-0 rounded-full" style={{ background: topic.color }} />
+                    <h3 className="truncate text-sm font-black" style={{ color: '#0F172A' }}>{topicName(topic)}</h3>
+                  </div>
+                  <p className="mt-1 truncate text-[11px] font-semibold" style={{ color: '#64748B' }}>
+                    {metrics?.active || 0} {copy.topicCard.active} · {metrics?.sources || 0} {copy.topicCard.sources}
+                  </p>
+                </div>
+                <div className="text-right">
+                  <p className="text-sm font-black" style={{ color: '#0F766E' }}>{score}</p>
+                  <p className="text-[10px] font-black uppercase tracking-[0.12em]" style={{ color: '#94A3B8' }}>{spotlightCopy.method}</p>
+                </div>
+              </a>
+            ))}
+          </div>
+        </motion.div>
+      </section>
 
       <section id="plaza" className="mt-8 rounded-3xl border bg-white/95 p-4 shadow-sm" style={{ borderColor: '#E2E8F0' }}>
         <div className="flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">

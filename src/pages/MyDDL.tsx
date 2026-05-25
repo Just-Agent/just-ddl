@@ -7,6 +7,7 @@ import {
   ChevronDown,
   ChevronRight,
   Clock3,
+  Copy,
   Download,
   Edit3,
   Grid2X2,
@@ -495,6 +496,29 @@ export default function MyDDL() {
     }
   };
 
+  const pinMyDDLHome = async () => {
+    const url = `${window.location.origin}${window.location.pathname}#/my`;
+    try {
+      if (navigator.share) {
+        await navigator.share({
+          title: copy.my.title,
+          text: copy.my.pinHomeShareText,
+          url,
+        });
+      } else {
+        await navigator.clipboard.writeText(url);
+      }
+      setFormMessage(copy.my.pinHomeCopied);
+    } catch {
+      try {
+        await navigator.clipboard.writeText(url);
+        setFormMessage(copy.my.pinHomeCopied);
+      } catch {
+        setFormMessage(copy.my.pinHomeFailed);
+      }
+    }
+  };
+
   const renderCards = (items: DDLWithMeta[], showTopicLabel: boolean, offset = 0) => (
     <div className={displayMode === 'grid' ? 'grid gap-3 md:grid-cols-2 xl:grid-cols-3' : 'space-y-3'}>
       {items.map((item, i) => (
@@ -567,6 +591,14 @@ export default function MyDDL() {
             {formMessage && <p className="mt-2 text-xs font-bold" style={{ color: '#0F766E' }}>{formMessage}</p>}
           </div>
           <div className="flex flex-wrap gap-2">
+            <button
+              type="button"
+              onClick={pinMyDDLHome}
+              className="inline-flex items-center gap-1.5 rounded-2xl border px-3 py-2 text-xs font-black transition"
+              style={{ borderColor: '#BFDBFE', color: '#1D4ED8', background: '#EFF6FF' }}
+            >
+              <Copy size={14} /> {copy.my.pinHome}
+            </button>
             <button
               type="button"
               onClick={exportCustomEvents}
