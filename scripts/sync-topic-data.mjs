@@ -47,6 +47,7 @@ const PUBLIC_PRIVATE_KEYS = new Set([
   'rawHtml',
   'rawPayload',
   'rawSource',
+  'refreshCadence',
   'releaseCadence',
   'sampleNote',
   'scopeNote',

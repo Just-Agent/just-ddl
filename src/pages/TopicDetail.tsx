@@ -97,6 +97,26 @@ function forecastHistoryItems(forecast: DDLItem, items: DDLItem[]) {
     .slice(-5);
 }
 
+function compactMetricItems(metrics: MetricSnapshot[]) {
+  const jifRows = metrics.filter(metric => metric.metric === 'journal_impact_factor');
+  if (jifRows.length >= 12) {
+    const latestByJournal = new Map<string, MetricSnapshot>();
+    for (const metric of jifRows) {
+      const key = String(metric.journalId || metric.journalTitle || metric.id);
+      const existing = latestByJournal.get(key);
+      if (!existing || Number(metric.year || 0) > Number(existing.year || 0)) {
+        latestByJournal.set(key, metric);
+      }
+    }
+    return [...latestByJournal.values()].sort((a, b) => {
+      const valueDiff = Number(b.value || 0) - Number(a.value || 0);
+      if (valueDiff !== 0) return valueDiff;
+      return String(a.journalTitle || a.id).localeCompare(String(b.journalTitle || b.id), 'zh-CN');
+    });
+  }
+  return metrics.slice(0, 36);
+}
+
 function compactItemTitle(title: string) {
   return title.replace(/^20\d{2}\s+/, '').replace(/\s+发布$/, '');
 }
@@ -113,7 +133,7 @@ function TopicInsightRails({
   const { language } = useLanguage();
   const historyItems = items.filter(isHistoryItem).sort((a, b) => ddlItemTime(b, 0) - ddlItemTime(a, 0)).slice(0, 6);
   const forecastItems = items.filter(isForecastItem).sort(compareDDLItems).slice(0, 4);
-  const metricItems = metrics.slice(0, 9);
+  const metricItems = compactMetricItems(metrics);
 
   if (!historyItems.length && !forecastItems.length && !metricItems.length) return null;
 
@@ -217,8 +237,8 @@ function TopicInsightRails({
         </article>
 
         <article className="self-start rounded-3xl border bg-slate-50 p-4" style={{ borderColor: '#E2E8F0' }}>
-          <h3 className="text-sm font-black" style={{ color: '#0F172A' }}>{labels.metrics}</h3>
-          <div className="mt-4 grid max-h-60 gap-3 overflow-y-auto pr-1 sm:grid-cols-2 xl:grid-cols-1">
+          <h3 className="text-sm font-black" style={{ color: '#0F172A' }}>{labels.metrics} · {metricItems.length}</h3>
+          <div className="mt-4 grid max-h-96 gap-3 overflow-y-auto pr-1 sm:grid-cols-2 xl:grid-cols-1">
             {metricItems.length ? metricItems.map(metric => (
               <a key={metric.id} href={metric.url} target="_blank" rel="noopener noreferrer" className="rounded-2xl border bg-white p-3 transition hover:-translate-y-0.5" style={{ borderColor: '#E2E8F0' }}>
                 <p className="truncate text-[11px] font-black uppercase tracking-[0.12em]" style={{ color: topicColor }}>
