@@ -22,6 +22,10 @@ function windowDate(item: DDLItem, edge: 'start' | 'end') {
   return stringValue(value);
 }
 
+function endOfLocalDay(value: string) {
+  return /^\d{4}-\d{2}-\d{2}$/.test(value) ? `${value}T23:59:59` : value;
+}
+
 function formatDate(value: unknown, language: DDLLanguage) {
   const time = parseTime(value);
   if (!Number.isFinite(time)) return stringValue(value) || '-';
@@ -38,6 +42,12 @@ export function isHistoryItem(item: DDLItem) {
 
 export function isForecastItem(item: DDLItem) {
   return item.type === 'forecastWindow' || Boolean(windowDate(item, 'start') && windowDate(item, 'end'));
+}
+
+export function forecastWindowDeadline(item: DDLItem) {
+  if (!isForecastItem(item)) return '';
+  const end = windowDate(item, 'end');
+  return end ? endOfLocalDay(end) : '';
 }
 
 export function isPlaceholderItem(item: DDLItem) {
@@ -129,6 +139,13 @@ export function formatForecastDisclosure(item: DDLItem, language: DDLLanguage) {
   const prefix = language === 'zh' ? '下一节点暂未官宣' : 'Next node not officially announced';
   const suffix = language === 'zh' ? '预测不是官方日期' : 'Forecast, not an official date';
   return signal ? `${prefix} · ${signal} · ${suffix}` : `${prefix} · ${suffix}`;
+}
+
+export function formatForecastWindowDeadlineLabel(item: DDLItem, language: DDLLanguage) {
+  const deadline = forecastWindowDeadline(item);
+  if (!deadline) return '';
+  const date = formatDate(deadline, language);
+  return language === 'zh' ? `预测窗口截止：${date}` : `Forecast window ends: ${date}`;
 }
 
 export function timingBadge(item: DDLItem, language: DDLLanguage) {

@@ -5,7 +5,7 @@ import Countdown from './Countdown';
 import { useCountdown } from '@/hooks/useCountdown';
 import { useSubscriptions } from '@/hooks/useSubscriptions';
 import { useLanguage } from '@/lib/language';
-import { formatForecastDisclosure, formatItemDate, hasOfficialDeadline, isForecastItem, timingBadge } from '@/lib/ddl';
+import { forecastWindowDeadline, formatForecastDisclosure, formatForecastWindowDeadlineLabel, formatItemDate, hasOfficialDeadline, isForecastItem, timingBadge } from '@/lib/ddl';
 
 export type DDLCardVariant = 'list' | 'grid';
 export type DDLCardVisualMode = 'vivid' | 'simple';
@@ -260,6 +260,40 @@ function VividCountdown({ deadline, topicColor }: { deadline: string; topicColor
   );
 }
 
+function ForecastCountdown({
+  item,
+  topicColor,
+  vivid = false,
+}: {
+  item: DDLItem;
+  topicColor: string;
+  vivid?: boolean;
+}) {
+  const { language } = useLanguage();
+  const deadline = forecastWindowDeadline(item);
+  const label = formatForecastWindowDeadlineLabel(item, language);
+  if (!deadline || !label) return null;
+
+  return (
+    <div
+      className={vivid ? 'rounded-2xl border bg-cyan-50/70 p-3' : 'flex flex-col items-start gap-1 rounded-2xl border bg-cyan-50 px-3 py-2'}
+      style={{ borderColor: '#BAE6FD' }}
+    >
+      <p className="text-[11px] font-black" style={{ color: '#0E7490' }}>
+        {label}
+      </p>
+      {vivid ? (
+        <VividCountdown deadline={deadline} topicColor={topicColor} />
+      ) : (
+        <Countdown deadline={deadline} size="sm" />
+      )}
+      <p className="text-[10px] font-bold" style={{ color: '#0891B2' }}>
+        {language === 'zh' ? '非官方日期，仅用于观察预测窗口' : 'Not official; tracks the forecast window only'}
+      </p>
+    </div>
+  );
+}
+
 function SourcePreview({
   item,
   topicColor,
@@ -335,8 +369,9 @@ export default function DDLCard({
   const isVivid = visualMode === 'vivid';
   const hasSourcePreview = Boolean(sourcePreviewFor(item));
   const canCountdown = hasOfficialDeadline(item) && typeof item.deadline === 'string';
+  const isForecast = isForecastItem(item);
   const badge = timingBadge(item, language);
-  const forecastDisclosure = isForecastItem(item) ? formatForecastDisclosure(item, language) : '';
+  const forecastDisclosure = isForecast ? formatForecastDisclosure(item, language) : '';
 
   if (isVivid && isGrid) {
     return (
@@ -370,6 +405,8 @@ export default function DDLCard({
           <h4 className="line-clamp-2 text-2xl font-black leading-tight" style={{ color: '#020617' }}>{item.title}</h4>
           {canCountdown ? (
             <VividCountdown deadline={item.deadline as string} topicColor={topicColor} />
+          ) : isForecast ? (
+            <ForecastCountdown item={item} topicColor={topicColor} vivid />
           ) : badge ? (
             <span className="inline-flex self-start rounded-full px-3 py-1 text-xs font-black" style={{ background: badge.background, color: badge.color }}>
               {badge.label}
@@ -466,6 +503,8 @@ export default function DDLCard({
       <div className={`flex items-center gap-3 ${isGrid ? 'mt-auto justify-between border-t pt-3' : 'sm:justify-end'}`} style={isGrid ? { borderColor: '#F1F5F9' } : undefined}>
         {canCountdown ? (
           <Countdown deadline={item.deadline as string} size={isGrid ? 'sm' : 'md'} />
+        ) : isForecast ? (
+          <ForecastCountdown item={item} topicColor={topicColor} />
         ) : badge ? (
           <span className="inline-flex rounded-full px-3 py-1 text-xs font-black" style={{ background: badge.background, color: badge.color }}>
             {badge.label}

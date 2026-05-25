@@ -40,7 +40,7 @@ import { getMetricsByTopic, type MetricSnapshot } from '@/data/metric-data';
 import { useSubscriptions } from '@/hooks/useSubscriptions';
 import DDLCard, { type DDLCardVisualMode } from '@/components/DDLCard';
 import { useLanguage } from '@/lib/language';
-import { compareDDLItems, ddlItemTime, formatForecastDisclosure, formatItemDate, formatRelativeDeadline, isActiveDeadlineItem, isForecastItem, isHistoryItem } from '@/lib/ddl';
+import { compareDDLItems, ddlItemTime, formatForecastDisclosure, formatForecastWindowDeadlineLabel, formatItemDate, formatRelativeDeadline, isActiveDeadlineItem, isForecastItem, isHistoryItem } from '@/lib/ddl';
 
 const iconMap: Record<string, LucideIcon> = {
   Trophy, Bot, Eye, MessageSquare, GraduationCap, BookOpen, Code2, CalendarHeart, Layers, Medal, Gamepad2, Music, Clapperboard, Smartphone, Car, Scale, BriefcaseBusiness, Database, RadioTower,
@@ -155,8 +155,8 @@ function TopicInsightRails({
         </div>
       </div>
 
-      <div className="mt-5 grid gap-4 xl:grid-cols-3">
-        <article className="rounded-3xl border bg-slate-50 p-4" style={{ borderColor: '#E2E8F0' }}>
+      <div className="mt-5 grid items-start gap-4 xl:grid-cols-[minmax(0,0.95fr)_minmax(0,0.95fr)_minmax(0,1.1fr)]">
+        <article className="self-start rounded-3xl border bg-slate-50 p-4" style={{ borderColor: '#E2E8F0' }}>
           <h3 className="text-sm font-black" style={{ color: '#0F172A' }}>{labels.history}</h3>
           <div className="mt-4 space-y-3">
             {historyItems.length ? historyItems.map(item => (
@@ -172,7 +172,7 @@ function TopicInsightRails({
           </div>
         </article>
 
-        <article className="rounded-3xl border bg-slate-50 p-4" style={{ borderColor: '#E2E8F0' }}>
+        <article className="self-start rounded-3xl border bg-slate-50 p-4" style={{ borderColor: '#E2E8F0' }}>
           <h3 className="text-sm font-black" style={{ color: '#0F172A' }}>{labels.forecast}</h3>
           <div className="mt-4 space-y-3">
             {forecastItems.length ? forecastItems.map(item => {
@@ -190,6 +190,11 @@ function TopicInsightRails({
                   <p className="mt-2 rounded-xl bg-cyan-50 px-2 py-1 text-[11px] font-bold leading-5 text-cyan-700">
                     {labels.disclosure}: {formatForecastDisclosure(item, language)}
                   </p>
+                  {formatForecastWindowDeadlineLabel(item, language) && (
+                    <p className="mt-2 rounded-xl border bg-white px-2 py-1 text-[11px] font-black leading-5" style={{ borderColor: '#BAE6FD', color: '#0E7490' }}>
+                      {formatForecastWindowDeadlineLabel(item, language)}
+                    </p>
+                  )}
                   {basis.length > 0 && (
                     <div className="mt-2 rounded-xl border bg-slate-50 p-2" style={{ borderColor: '#E2E8F0' }}>
                       <p className="text-[10px] font-black uppercase tracking-[0.12em]" style={{ color: '#64748B' }}>{labels.basis}</p>
@@ -211,9 +216,9 @@ function TopicInsightRails({
           </div>
         </article>
 
-        <article className="rounded-3xl border bg-slate-50 p-4" style={{ borderColor: '#E2E8F0' }}>
+        <article className="self-start rounded-3xl border bg-slate-50 p-4" style={{ borderColor: '#E2E8F0' }}>
           <h3 className="text-sm font-black" style={{ color: '#0F172A' }}>{labels.metrics}</h3>
-          <div className="mt-4 grid gap-3 sm:grid-cols-2 xl:grid-cols-1">
+          <div className="mt-4 grid max-h-60 gap-3 overflow-y-auto pr-1 sm:grid-cols-2 xl:grid-cols-1">
             {metricItems.length ? metricItems.map(metric => (
               <a key={metric.id} href={metric.url} target="_blank" rel="noopener noreferrer" className="rounded-2xl border bg-white p-3 transition hover:-translate-y-0.5" style={{ borderColor: '#E2E8F0' }}>
                 <p className="truncate text-[11px] font-black uppercase tracking-[0.12em]" style={{ color: topicColor }}>
