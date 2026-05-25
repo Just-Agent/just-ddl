@@ -14,7 +14,7 @@ export default function About() {
       { icon: Layers, title: '一专题一仓库', desc: '每个领域独立仓库，独立维护' },
       { icon: GitBranch, title: '社区驱动', desc: '数据由社区维护，PR 更新' },
       { icon: Zap, title: '订阅即收藏', desc: 'Pin 置顶逻辑，一键关注' },
-      { icon: Shield, title: '本地加密', desc: 'PC 端自定义 DDL 本地加密存储' },
+      { icon: Shield, title: '本地自定义', desc: '网页端可保存个人 DDL 到当前浏览器' },
       { icon: Monitor, title: '多端覆盖', desc: '网页、小程序、PC 客户端逐步联动' },
     ]
     : [
@@ -22,7 +22,7 @@ export default function About() {
       { icon: Layers, title: 'One Topic One Repo', desc: 'Each domain has its own repository' },
       { icon: GitBranch, title: 'Community Data', desc: 'Data updates through issues and PRs' },
       { icon: Zap, title: 'Subscribe Fast', desc: 'Pin important topics and DDL items' },
-      { icon: Shield, title: 'Local Private Data', desc: 'PC custom DDL data stays encrypted locally' },
+      { icon: Shield, title: 'Local Custom DDL', desc: 'Personal DDL can stay in the current browser' },
       { icon: Monitor, title: 'Multi-Surface', desc: 'Web, mini-program, and PC client roadmap' },
     ];
 
@@ -104,16 +104,16 @@ export default function About() {
             <span className="mt-1 h-2.5 w-2.5 shrink-0 rounded-full" style={{ background: '#22C55E' }} />
             <p className="text-xs leading-6" style={{ color: '#475569' }}>
               {language === 'zh'
-                ? '网页端与微信小程序优先做纯静态展示：浏览专题、订阅收藏官方公开 DDL、查看倒计时。'
-                : 'The web app and mini-program focus on static browsing: topics, public DDL subscriptions, and countdowns.'}
+                ? '网页端在纯静态模式下支持浏览专题、订阅收藏官方公开 DDL、查看倒计时，并把个人 DDL 保存到当前浏览器。'
+                : 'In pure-static mode, the web app supports topic browsing, public DDL subscriptions, countdowns, and personal DDL saved in the current browser.'}
             </p>
           </div>
           <div className="flex items-start gap-3">
             <span className="mt-1 h-2.5 w-2.5 shrink-0 rounded-full" style={{ background: '#F59E0B' }} />
             <p className="text-xs leading-6" style={{ color: '#475569' }}>
               {language === 'zh'
-                ? 'PC EXE 客户端与移动 APP 承担完整版能力：自定义 DDL、本地加密、离线使用、桌面提醒。'
-                : 'The PC EXE client and mobile app carry the full feature set: custom DDL, local encryption, offline use, and reminders.'}
+                ? '跨设备同步、账号体系、订阅提醒和本地加密会放到小程序、PC 客户端或后端版本继续扩展。'
+                : 'Cross-device sync, accounts, reminders, and encrypted local storage remain roadmap items for the mini-program, PC client, or backend edition.'}
             </p>
           </div>
         </div>

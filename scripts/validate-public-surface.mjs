@@ -84,6 +84,7 @@ const OPERATOR_ONLY_PUBLIC_TEXT = [
   /maintenance forecast/i,
   /maintenance window/i,
   /operator-only/i,
+  /code-path/i,
   /crawler run cadence/i,
   /api sync window/i,
   /维护链路/,
@@ -94,6 +95,7 @@ const OPERATOR_ONLY_PUBLIC_TEXT = [
 ];
 const FORBIDDEN_PUBLIC_TEXT = [
   /\b(?:developerNote|developerComment|developerRemark|devNote|devComment|devRemark|debugNote|debugComment|debugRemark|internalNote|internalComment|internalRemark|privateNote|privateComment|privateRemark|maintainerNote|maintainerComment|maintainerRemark|forecastBasis|releaseCadence|accessMode|apiUrl|licenseNote|scopeNote|linkCheckMode|parserConfidence|sourcePolicy|sourcePriority|validationNote|crawlerReport|debugReport|rawHtml|rawPayload|rawSource)\b/,
+  /\bcode-path\b/i,
   /curated coverage seed/i,
   /official-style seed/i,
   /crawler seed/i,
@@ -158,7 +160,7 @@ const DIST_FORBIDDEN_PATTERNS = [
     message: 'developer-only data key is present in built public assets'
   },
   {
-    pattern: /curated coverage seed|official-style seed|crawler seed|coverage seed|error\.message|stack trace|maintenance forecast|maintenance window|operator-only|crawler run cadence|api sync window|(?:developer|dev|maintainer|internal|private|debug|crawler|parser|raw|error)[\w -]{0,24}\b(?:note|notes|comment|comments|memo|memos|remark|remarks|message|messages|report|reports)\b|not for public|do not publish|开发者[的把]?备注|开发者.{0,16}(?:备注|注释|留言|消息|报告|记录)|开发人员.{0,16}(?:备注|注释|留言|消息|报告|记录)|开发备注|内部[的把]?备注|内部.{0,16}(?:备注|注释|留言|消息|报告|记录)|维护(?:者)?[的把]?备注|维护(?:者|人)?.{0,16}(?:备注|注释|留言|消息|报告|记录)|维护链路|维护刷新窗口|每周刷新窗口|维护节奏|运维节奏|调试[的把]?备注|调试.{0,16}(?:备注|注释|留言|消息|报告|记录)|私有[的把]?备注|私有.{0,16}(?:备注|注释|留言|消息|报告|记录)|私人[的把]?备注|私人.{0,16}(?:备注|注释|留言|消息|报告|记录)|\b(?:TODO|FIXME|HACK|XXX):/i,
+    pattern: /curated coverage seed|official-style seed|crawler seed|coverage seed|error\.message|stack trace|maintenance forecast|maintenance window|operator-only|code-path|crawler run cadence|api sync window|(?:developer|dev|maintainer|internal|private|debug|crawler|parser|raw|error)[\w -]{0,24}\b(?:note|notes|comment|comments|memo|memos|remark|remarks|message|messages|report|reports)\b|not for public|do not publish|开发者[的把]?备注|开发者.{0,16}(?:备注|注释|留言|消息|报告|记录)|开发人员.{0,16}(?:备注|注释|留言|消息|报告|记录)|开发备注|内部[的把]?备注|内部.{0,16}(?:备注|注释|留言|消息|报告|记录)|维护(?:者)?[的把]?备注|维护(?:者|人)?.{0,16}(?:备注|注释|留言|消息|报告|记录)|维护链路|维护刷新窗口|每周刷新窗口|维护节奏|运维节奏|调试[的把]?备注|调试.{0,16}(?:备注|注释|留言|消息|报告|记录)|私有[的把]?备注|私有.{0,16}(?:备注|注释|留言|消息|报告|记录)|私人[的把]?备注|私人.{0,16}(?:备注|注释|留言|消息|报告|记录)|\b(?:TODO|FIXME|HACK|XXX):/i,
     message: 'developer-facing text is present in built public assets'
   }
 ];

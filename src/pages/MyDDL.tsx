@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react';
+import { useMemo, useRef, useState, type FormEvent } from 'react';
 import { Link } from 'react-router';
 import { motion } from 'framer-motion';
 import {
@@ -7,22 +7,30 @@ import {
   ChevronDown,
   ChevronRight,
   Clock3,
+  Download,
+  Edit3,
   Grid2X2,
   Heart,
   Layers3,
   List,
   Monitor,
+  Plus,
   Pin,
   SlidersHorizontal,
   SortAsc,
   Sparkles,
+  Trash2,
+  Upload,
+  X,
 } from 'lucide-react';
 import { useSubscriptions } from '@/hooks/useSubscriptions';
+import { useUserDDL, type UserDDLEventInput } from '@/hooks/useUserDDL';
 import { getAllDDL, type DDLItem } from '@/data/ddl-data';
 import { getTopicById, topics, type Topic } from '@/data/topics';
 import DDLCard, { type DDLCardVisualMode } from '@/components/DDLCard';
+import Countdown from '@/components/Countdown';
 import { useLanguage } from '@/lib/language';
-import { ddlItemTime, isActiveDeadlineItem } from '@/lib/ddl';
+import { ddlItemTime, formatItemDate, hasOfficialDeadline, isActiveDeadlineItem } from '@/lib/ddl';
 
 type OrganizeMode = 'topic' | 'time' | 'name';
 type DisplayMode = 'list' | 'grid';
@@ -31,6 +39,8 @@ type VisualMode = DDLCardVisualMode;
 const ORGANIZE_STORAGE_KEY = 'just-ddl-my-organize-mode';
 const DISPLAY_STORAGE_KEY = 'just-ddl-my-display-mode';
 const VISUAL_STORAGE_KEY = 'just-ddl-my-visual-mode';
+const PERSONAL_TOPIC_ID = 'personal-ddl';
+const PERSONAL_TOPIC_COLOR = '#0F766E';
 
 interface DDLWithMeta extends DDLItem {
   topicColor: string;
@@ -39,6 +49,17 @@ interface DDLWithMeta extends DDLItem {
   topicCategory: string;
   pinnedTopic: boolean;
   explicit: boolean;
+  isCustom?: boolean;
+}
+
+interface CustomFormState {
+  title: string;
+  deadline: string;
+  category: string;
+  location: string;
+  tags: string;
+  url: string;
+  description: string;
 }
 
 interface TopicGroup {
@@ -97,13 +118,157 @@ function sortItemsByMode(items: DDLWithMeta[], mode: OrganizeMode, language: 'zh
   });
 }
 
+function toDatetimeLocal(value: string | Date) {
+  const date = value instanceof Date ? value : new Date(value);
+  if (!Number.isFinite(date.getTime())) return '';
+  const local = new Date(date.getTime() - date.getTimezoneOffset() * 60_000);
+  return local.toISOString().slice(0, 16);
+}
+
+function nextDefaultDeadline() {
+  const date = new Date();
+  date.setDate(date.getDate() + 7);
+  date.setHours(23, 59, 0, 0);
+  return toDatetimeLocal(date);
+}
+
+function emptyCustomForm(): CustomFormState {
+  return {
+    title: '',
+    deadline: nextDefaultDeadline(),
+    category: '个人',
+    location: '',
+    tags: '',
+    url: '',
+    description: '',
+  };
+}
+
+function formToInput(form: CustomFormState): UserDDLEventInput | null {
+  const title = form.title.trim();
+  const deadlineTime = Date.parse(form.deadline);
+  if (!title || !Number.isFinite(deadlineTime)) return null;
+  return {
+    title,
+    deadline: new Date(deadlineTime).toISOString(),
+    category: form.category.trim() || '个人',
+    location: form.location.trim() || '本地',
+    tags: form.tags.split(/[,，、\s]+/).map(tag => tag.trim()).filter(Boolean),
+    url: form.url.trim() || undefined,
+    description: form.description.trim() || undefined,
+  };
+}
+
+function PersonalDDLCard({
+  item,
+  index,
+  topicColor,
+  topicLabel,
+  variant,
+  onEdit,
+  onDelete,
+}: {
+  item: DDLWithMeta;
+  index: number;
+  topicColor: string;
+  topicLabel?: string;
+  variant: DisplayMode;
+  onEdit: () => void;
+  onDelete: () => void;
+}) {
+  const { copy, language } = useLanguage();
+  const isGrid = variant === 'grid';
+  const canCountdown = hasOfficialDeadline(item) && typeof item.deadline === 'string';
+
+  return (
+    <motion.article
+      initial={{ opacity: 0, y: 16 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ delay: index * 0.04, duration: 0.35 }}
+      className={`group rounded-3xl border bg-white p-4 shadow-sm transition-all ${isGrid ? 'min-h-[260px]' : 'sm:flex sm:items-center sm:gap-4'}`}
+      style={{ borderColor: '#D1FAE5' }}
+      whileHover={{ boxShadow: `0 18px 48px -32px ${topicColor}` }}
+    >
+      <div className={isGrid ? 'space-y-3' : 'min-w-0 flex-1'}>
+        {topicLabel && (
+          <span className="mb-2 inline-flex rounded-full px-2 py-0.5 text-[10px] font-black" style={{ background: '#ECFDF5', color: topicColor }}>
+            {topicLabel}
+          </span>
+        )}
+        <div className="flex flex-wrap items-center gap-2 text-xs font-black" style={{ color: '#52627A' }}>
+          <span>{item.stage || copy.my.personalTopic}</span>
+          <span className="rounded-full bg-emerald-50 px-2 py-0.5 text-[10px] font-black text-emerald-700">{copy.my.localOnly}</span>
+          <span>{formatItemDate(item, language)}</span>
+        </div>
+        <h4 className={`${isGrid ? 'line-clamp-2 text-xl' : 'truncate text-base'} mt-2 font-black`} style={{ color: '#0F172A' }}>
+          {item.title}
+        </h4>
+        {item.description && (
+          <p className={`${isGrid ? 'line-clamp-3' : 'line-clamp-2'} mt-2 text-xs leading-6`} style={{ color: '#64748B' }}>
+            {item.description}
+          </p>
+        )}
+        <div className="mt-2 flex flex-wrap gap-1.5">
+          {item.tags.map(tag => (
+            <span key={tag} className="rounded-full bg-emerald-50 px-2.5 py-1 text-[11px] font-black text-emerald-800">
+              {tag}
+            </span>
+          ))}
+        </div>
+      </div>
+
+      <div className={`${isGrid ? 'mt-4 border-t pt-3' : 'mt-3 sm:mt-0'} flex flex-wrap items-center gap-2`} style={isGrid ? { borderColor: '#ECFDF5' } : undefined}>
+        {canCountdown && <Countdown deadline={item.deadline as string} size={isGrid ? 'sm' : 'md'} />}
+        {item.url && (
+          <a
+            href={item.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex h-9 w-9 items-center justify-center rounded-2xl border bg-white transition hover:-translate-y-0.5"
+            style={{ borderColor: '#D1FAE5', color: topicColor }}
+            aria-label={copy.ddl.official}
+            title={copy.ddl.official}
+          >
+            <ArrowRight size={14} />
+          </a>
+        )}
+        <button
+          type="button"
+          onClick={onEdit}
+          className="inline-flex h-9 w-9 items-center justify-center rounded-2xl border bg-white transition hover:-translate-y-0.5"
+          style={{ borderColor: '#D1FAE5', color: '#0F766E' }}
+          aria-label={copy.my.editCustom}
+          title={copy.my.editCustom}
+        >
+          <Edit3 size={14} />
+        </button>
+        <button
+          type="button"
+          onClick={onDelete}
+          className="inline-flex h-9 w-9 items-center justify-center rounded-2xl border bg-white transition hover:-translate-y-0.5"
+          style={{ borderColor: '#FFE4E6', color: '#E11D48' }}
+          aria-label={copy.my.deleteCustom}
+          title={copy.my.deleteCustom}
+        >
+          <Trash2 size={14} />
+        </button>
+      </div>
+    </motion.article>
+  );
+}
+
 export default function MyDDL() {
   const { subscribedIds } = useSubscriptions();
+  const { events: userEvents, ddlItems: userDDLItems, addEvent, updateEvent, removeEvent, replaceEvents } = useUserDDL();
   const { language, copy, topicName, categoryName } = useLanguage();
   const [organizeMode, setOrganizeModeState] = useState<OrganizeMode>(initialOrganizeMode);
   const [displayMode, setDisplayModeState] = useState<DisplayMode>(initialDisplayMode);
   const [visualMode, setVisualModeState] = useState<VisualMode>(initialVisualMode);
   const [collapsedTopics, setCollapsedTopics] = useState<Set<string>>(() => new Set());
+  const [customForm, setCustomForm] = useState<CustomFormState>(emptyCustomForm);
+  const [editingCustomId, setEditingCustomId] = useState<string | null>(null);
+  const [formMessage, setFormMessage] = useState('');
+  const importInputRef = useRef<HTMLInputElement | null>(null);
 
   const allDDL = useMemo(() => getAllDDL(), []);
   const subscribedIdSet = useMemo(() => new Set(subscribedIds), [subscribedIds]);
@@ -171,9 +336,29 @@ export default function MyDDL() {
     });
   }, [allDDL, categoryName, copy.my.unknownTopic, subscribedIdSet, subscribedTopicIdSet, topicName]);
 
+  const customItemsWithMeta = useMemo<DDLWithMeta[]>(() => (
+    userDDLItems.map(item => ({
+      ...item,
+      topicColor: PERSONAL_TOPIC_COLOR,
+      topicId: PERSONAL_TOPIC_ID,
+      topicName: copy.my.personalTopic,
+      topicCategory: copy.my.personalCategory,
+      pinnedTopic: true,
+      explicit: true,
+      isCustom: true,
+    }))
+  ), [copy.my.personalCategory, copy.my.personalTopic, userDDLItems]);
+
   const topicItems = useMemo(() => {
     const seen = new Set<string>();
     const result: DDLWithMeta[] = [];
+
+    for (const item of customItemsWithMeta) {
+      if (!seen.has(item.id)) {
+        seen.add(item.id);
+        result.push(item);
+      }
+    }
 
     for (const item of allItemsWithMeta) {
       if (item.pinnedTopic && !seen.has(item.id)) {
@@ -190,7 +375,7 @@ export default function MyDDL() {
     }
 
     return result;
-  }, [allItemsWithMeta]);
+  }, [allItemsWithMeta, customItemsWithMeta]);
 
   const subscribedItems = useMemo(() => {
     return allItemsWithMeta
@@ -206,7 +391,7 @@ export default function MyDDL() {
     const groups = new Map<string, TopicGroup>();
 
     for (const item of topicItems) {
-      const topic = getTopicById(item.topicId);
+      const topic = item.topicId === PERSONAL_TOPIC_ID ? undefined : getTopicById(item.topicId);
       const group = groups.get(item.topicId) || {
         id: item.topicId,
         topic,
@@ -232,18 +417,109 @@ export default function MyDDL() {
       .sort((a, b) => Number(b.pinned) - Number(a.pinned) || a.name.localeCompare(b.name, language === 'zh' ? 'zh-Hans-CN' : 'en-US'));
   }, [language, topicItems, organizeMode]);
 
+  const resetCustomForm = () => {
+    setCustomForm(emptyCustomForm());
+    setEditingCustomId(null);
+  };
+
+  const submitCustomForm = (event: FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+    const input = formToInput(customForm);
+    if (!input) {
+      setFormMessage(copy.my.customInvalid);
+      return;
+    }
+
+    const ok = editingCustomId ? updateEvent(editingCustomId, input) : addEvent(input);
+    if (!ok) {
+      setFormMessage(copy.my.customInvalid);
+      return;
+    }
+    setFormMessage(editingCustomId ? copy.my.customUpdated : copy.my.customAdded);
+    resetCustomForm();
+  };
+
+  const startEditCustom = (id: string) => {
+    const event = userEvents.find(item => item.id === id);
+    if (!event) return;
+    setEditingCustomId(id);
+    setCustomForm({
+      title: event.title,
+      deadline: toDatetimeLocal(event.deadline),
+      category: event.category,
+      location: event.location,
+      tags: event.tags.join(', '),
+      url: event.url || '',
+      description: event.description || '',
+    });
+    setFormMessage(copy.my.editingCustom);
+  };
+
+  const deleteCustom = (id: string) => {
+    removeEvent(id);
+    if (editingCustomId === id) resetCustomForm();
+    setFormMessage(copy.my.customDeleted);
+  };
+
+  const exportCustomEvents = () => {
+    const payload = {
+      version: 1,
+      exportedAt: new Date().toISOString(),
+      events: userEvents,
+    };
+    const blob = new Blob([JSON.stringify(payload, null, 2)], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+    const anchor = document.createElement('a');
+    anchor.href = url;
+    anchor.download = `just-ddl-user-events-${new Date().toISOString().slice(0, 10)}.json`;
+    anchor.click();
+    URL.revokeObjectURL(url);
+  };
+
+  const importCustomEvents = async (file: File | null) => {
+    if (!file) return;
+    try {
+      const parsed = JSON.parse(await file.text());
+      const payload = Array.isArray(parsed) ? parsed : parsed.events;
+      if (!Array.isArray(payload)) {
+        setFormMessage(copy.my.importInvalid);
+        return;
+      }
+      const count = replaceEvents(payload);
+      setFormMessage(`${copy.my.importedPrefix}${count}${copy.my.importedSuffix}`);
+      resetCustomForm();
+    } catch {
+      setFormMessage(copy.my.importInvalid);
+    } finally {
+      if (importInputRef.current) importInputRef.current.value = '';
+    }
+  };
+
   const renderCards = (items: DDLWithMeta[], showTopicLabel: boolean, offset = 0) => (
     <div className={displayMode === 'grid' ? 'grid gap-3 md:grid-cols-2 xl:grid-cols-3' : 'space-y-3'}>
       {items.map((item, i) => (
-        <DDLCard
-          key={item.id}
-          item={item}
-          index={i + offset}
-          topicColor={item.topicColor}
-          topicLabel={showTopicLabel ? item.topicName : undefined}
-          variant={displayMode}
-          visualMode={visualMode}
-        />
+        item.isCustom ? (
+          <PersonalDDLCard
+            key={item.id}
+            item={item}
+            index={i + offset}
+            topicColor={item.topicColor}
+            topicLabel={showTopicLabel ? item.topicName : undefined}
+            variant={displayMode}
+            onEdit={() => startEditCustom(item.id)}
+            onDelete={() => deleteCustom(item.id)}
+          />
+        ) : (
+          <DDLCard
+            key={item.id}
+            item={item}
+            index={i + offset}
+            topicColor={item.topicColor}
+            topicLabel={showTopicLabel ? item.topicName : undefined}
+            variant={displayMode}
+            visualMode={visualMode}
+          />
+        )
       ))}
     </div>
   );
@@ -270,10 +546,154 @@ export default function MyDDL() {
           <Heart size={25} className="mr-1.5 inline" style={{ color: '#F43F5E', fill: '#F43F5E' }} /> {copy.my.title}
         </h1>
         <p className="mt-2 text-sm" style={{ color: '#64748B' }}>
-          {copy.my.summary} <strong style={{ color: '#0F766E' }}>{subscribedTopics.length}</strong> {copy.my.topics}，{copy.my.individual} <strong style={{ color: '#0F766E' }}>{subscribedItems.length}</strong> {copy.my.items}
+          {copy.my.summary} <strong style={{ color: '#0F766E' }}>{subscribedTopics.length}</strong> {copy.my.topics}，{copy.my.individual} <strong style={{ color: '#0F766E' }}>{subscribedItems.length}</strong> {copy.my.items}，{copy.my.personal} <strong style={{ color: '#0F766E' }}>{userEvents.length}</strong> {copy.my.items}
         </p>
         <p className="mt-1 text-xs leading-5" style={{ color: '#94A3B8' }}>{copy.my.pageHint}</p>
       </motion.div>
+
+      <motion.section
+        initial={{ opacity: 0, y: 12 }}
+        animate={{ opacity: 1, y: 0 }}
+        className="mt-6 rounded-3xl border bg-white p-4 shadow-sm"
+        style={{ borderColor: '#D1FAE5' }}
+      >
+        <div className="flex flex-col gap-3 lg:flex-row lg:items-start lg:justify-between">
+          <div>
+            <p className="flex items-center gap-1.5 text-[11px] font-black uppercase tracking-[0.16em]" style={{ color: '#0F766E' }}>
+              <Monitor size={13} /> {copy.my.customTitle}
+            </p>
+            <h2 className="mt-1 text-lg font-black" style={{ color: '#0F172A' }}>{copy.my.customHeadline}</h2>
+            <p className="mt-1 text-xs leading-5" style={{ color: '#64748B' }}>{copy.my.customNote}</p>
+            {formMessage && <p className="mt-2 text-xs font-bold" style={{ color: '#0F766E' }}>{formMessage}</p>}
+          </div>
+          <div className="flex flex-wrap gap-2">
+            <button
+              type="button"
+              onClick={exportCustomEvents}
+              disabled={userEvents.length === 0}
+              className="inline-flex items-center gap-1.5 rounded-2xl border px-3 py-2 text-xs font-black transition disabled:cursor-not-allowed disabled:opacity-40"
+              style={{ borderColor: '#D1FAE5', color: '#0F766E', background: '#FFFFFF' }}
+            >
+              <Download size={14} /> {copy.my.exportJson}
+            </button>
+            <button
+              type="button"
+              onClick={() => importInputRef.current?.click()}
+              className="inline-flex items-center gap-1.5 rounded-2xl border px-3 py-2 text-xs font-black transition"
+              style={{ borderColor: '#D1FAE5', color: '#0F766E', background: '#FFFFFF' }}
+            >
+              <Upload size={14} /> {copy.my.importJson}
+            </button>
+            <input
+              ref={importInputRef}
+              type="file"
+              accept="application/json,.json"
+              className="hidden"
+              onChange={event => importCustomEvents(event.currentTarget.files?.[0] || null)}
+            />
+          </div>
+        </div>
+
+        <form onSubmit={submitCustomForm} className="mt-4 grid gap-3 lg:grid-cols-[1.2fr_0.9fr_0.8fr]">
+          <label className="grid gap-1 text-xs font-bold" style={{ color: '#334155' }}>
+            {copy.my.customTitleLabel}
+            <input
+              value={customForm.title}
+              onChange={event => setCustomForm(form => ({ ...form, title: event.target.value }))}
+              className="h-11 rounded-2xl border bg-slate-50 px-3 text-sm outline-none transition focus:border-emerald-500"
+              style={{ borderColor: '#E2E8F0' }}
+              maxLength={80}
+              placeholder={copy.my.customTitlePlaceholder}
+            />
+          </label>
+          <label className="grid gap-1 text-xs font-bold" style={{ color: '#334155' }}>
+            {copy.my.customDeadlineLabel}
+            <input
+              type="datetime-local"
+              value={customForm.deadline}
+              onChange={event => setCustomForm(form => ({ ...form, deadline: event.target.value }))}
+              className="h-11 rounded-2xl border bg-slate-50 px-3 text-sm outline-none transition focus:border-emerald-500"
+              style={{ borderColor: '#E2E8F0' }}
+            />
+          </label>
+          <label className="grid gap-1 text-xs font-bold" style={{ color: '#334155' }}>
+            {copy.my.customCategoryLabel}
+            <input
+              value={customForm.category}
+              onChange={event => setCustomForm(form => ({ ...form, category: event.target.value }))}
+              className="h-11 rounded-2xl border bg-slate-50 px-3 text-sm outline-none transition focus:border-emerald-500"
+              style={{ borderColor: '#E2E8F0' }}
+              maxLength={24}
+              placeholder={copy.my.customCategoryPlaceholder}
+            />
+          </label>
+          <label className="grid gap-1 text-xs font-bold" style={{ color: '#334155' }}>
+            {copy.my.customLocationLabel}
+            <input
+              value={customForm.location}
+              onChange={event => setCustomForm(form => ({ ...form, location: event.target.value }))}
+              className="h-11 rounded-2xl border bg-slate-50 px-3 text-sm outline-none transition focus:border-emerald-500"
+              style={{ borderColor: '#E2E8F0' }}
+              maxLength={40}
+              placeholder={copy.my.customLocationPlaceholder}
+            />
+          </label>
+          <label className="grid gap-1 text-xs font-bold" style={{ color: '#334155' }}>
+            {copy.my.customTagsLabel}
+            <input
+              value={customForm.tags}
+              onChange={event => setCustomForm(form => ({ ...form, tags: event.target.value }))}
+              className="h-11 rounded-2xl border bg-slate-50 px-3 text-sm outline-none transition focus:border-emerald-500"
+              style={{ borderColor: '#E2E8F0' }}
+              maxLength={80}
+              placeholder={copy.my.customTagsPlaceholder}
+            />
+          </label>
+          <label className="grid gap-1 text-xs font-bold" style={{ color: '#334155' }}>
+            {copy.my.customUrlLabel}
+            <input
+              value={customForm.url}
+              onChange={event => setCustomForm(form => ({ ...form, url: event.target.value }))}
+              className="h-11 rounded-2xl border bg-slate-50 px-3 text-sm outline-none transition focus:border-emerald-500"
+              style={{ borderColor: '#E2E8F0' }}
+              maxLength={240}
+              placeholder={copy.my.customUrlPlaceholder}
+            />
+          </label>
+          <label className="grid gap-1 text-xs font-bold lg:col-span-2" style={{ color: '#334155' }}>
+            {copy.my.customDescLabel}
+            <input
+              value={customForm.description}
+              onChange={event => setCustomForm(form => ({ ...form, description: event.target.value }))}
+              className="h-11 rounded-2xl border bg-slate-50 px-3 text-sm outline-none transition focus:border-emerald-500"
+              style={{ borderColor: '#E2E8F0' }}
+              maxLength={180}
+              placeholder={copy.my.customDescPlaceholder}
+            />
+          </label>
+          <div className="flex items-end gap-2">
+            <button
+              type="submit"
+              className="inline-flex h-11 flex-1 items-center justify-center gap-1.5 rounded-2xl px-4 text-xs font-black text-white transition hover:-translate-y-0.5"
+              style={{ background: '#0F766E' }}
+            >
+              <Plus size={15} /> {editingCustomId ? copy.my.updateCustom : copy.my.addCustom}
+            </button>
+            {editingCustomId && (
+              <button
+                type="button"
+                onClick={resetCustomForm}
+                className="inline-flex h-11 w-11 items-center justify-center rounded-2xl border bg-white"
+                style={{ borderColor: '#E2E8F0', color: '#64748B' }}
+                aria-label={copy.my.cancelEdit}
+                title={copy.my.cancelEdit}
+              >
+                <X size={15} />
+              </button>
+            )}
+          </div>
+        </form>
+      </motion.section>
 
       {topicItems.length === 0 ? (
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="mt-10 rounded-3xl border bg-white py-14 text-center shadow-sm" style={{ borderColor: '#E2E8F0' }}>
@@ -379,6 +799,7 @@ export default function MyDDL() {
                 const activeGroupItems = group.items.filter(isActiveDeadlineItem);
                 const endedGroupItems = group.items.filter(item => !isActiveDeadlineItem(item));
                 const Chevron = collapsed ? ChevronRight : ChevronDown;
+                const isPersonalGroup = group.id === PERSONAL_TOPIC_ID;
 
                 return (
                   <motion.div
@@ -403,12 +824,17 @@ export default function MyDDL() {
                             <span className="rounded-full px-2 py-0.5 text-[10px] font-black" style={{ background: `${group.color}12`, color: group.color }}>
                               {group.category}
                             </span>
-                            {group.pinned && (
+                            {isPersonalGroup && (
+                              <span className="rounded-full bg-emerald-50 px-2 py-0.5 text-[10px] font-black text-emerald-700">
+                                {copy.my.localOnly}
+                              </span>
+                            )}
+                            {!isPersonalGroup && group.pinned && (
                               <span className="rounded-full bg-emerald-50 px-2 py-0.5 text-[10px] font-black text-emerald-700">
                                 {copy.my.topicPinned}
                               </span>
                             )}
-                            {group.explicitCount > 0 && (
+                            {!isPersonalGroup && group.explicitCount > 0 && (
                               <span className="rounded-full bg-rose-50 px-2 py-0.5 text-[10px] font-black text-rose-600">
                                 {group.explicitCount} {copy.my.singleSaved}
                               </span>
@@ -478,10 +904,11 @@ export default function MyDDL() {
       )}
 
       {topicItems.length > 0 && (
-        <section className="mt-10 grid gap-3 sm:grid-cols-3">
+        <section className="mt-10 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
           {[
             { label: copy.my.topics, value: subscribedTopics.length, color: '#0F766E' },
             { label: copy.my.singleSaved, value: subscribedItems.length, color: '#F43F5E' },
+            { label: copy.my.personalTopic, value: userEvents.length, color: '#0F766E' },
             { label: copy.my.events, value: topicItems.length, color: '#F97316' },
           ].map(stat => (
             <div key={stat.label} className="rounded-3xl border bg-white p-4 shadow-sm" style={{ borderColor: '#E2E8F0' }}>
@@ -491,21 +918,6 @@ export default function MyDDL() {
           ))}
         </section>
       )}
-
-      <section className="mt-10 rounded-3xl border p-5 shadow-sm" style={{ background: 'linear-gradient(135deg, #ECFDF5, #F8FAFC)', borderColor: '#D1FAE5' }}>
-        <div className="flex items-center gap-3">
-          <div className="flex h-10 w-10 items-center justify-center rounded-xl" style={{ background: 'white' }}>
-            <Monitor size={18} style={{ color: '#0F766E' }} />
-          </div>
-          <div>
-            <h3 className="text-sm font-bold" style={{ color: '#0F172A' }}>{copy.my.customTitle}</h3>
-            <p className="text-xs" style={{ color: '#475569' }}>{copy.my.customCopy}</p>
-          </div>
-        </div>
-        <p className="mt-3 text-[11px] leading-relaxed" style={{ color: '#A8A29E' }}>
-          {copy.my.customNote}
-        </p>
-      </section>
     </div>
   );
 }
