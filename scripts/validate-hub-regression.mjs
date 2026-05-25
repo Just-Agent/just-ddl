@@ -64,6 +64,62 @@ function hasValue(value) {
   return typeof value === 'string' && value.trim().length > 0;
 }
 
+function parseTime(value) {
+  if (typeof value !== 'string' || !value.trim()) return Number.NaN;
+  const time = Date.parse(value);
+  return Number.isFinite(time) ? time : Number.NaN;
+}
+
+function isHistoryItem(item) {
+  return item.type === 'historyEvent' || item.type === 'officialRelease';
+}
+
+function isForecastItem(item) {
+  return item.type === 'forecastWindow' || Boolean(item.estimatedNextWindow);
+}
+
+function isPlaceholderItem(item) {
+  return item.isDatePlaceholder === true && !isForecastItem(item);
+}
+
+function hasOfficialDeadline(item) {
+  return !isHistoryItem(item)
+    && !isForecastItem(item)
+    && !isPlaceholderItem(item)
+    && Number.isFinite(parseTime(item.deadline));
+}
+
+const EXPLICIT_BASIS_TYPES = new Set([
+  'conference',
+  'journal',
+  'challenge',
+  'hackathon',
+  'holiday',
+  'contest',
+  'program',
+  'release',
+  'concert',
+  'regulation',
+  'officialDeadline',
+]);
+
+const DEADLINE_BASIS_PATTERNS = [
+  /\b(application|apply|registration|register|submission|submit|camera[- ]ready|abstract|paper|proposal)\b/i,
+  /\b(deadline|due|close|closes|closing|final date|acceptance|notification|evaluation|review)\b/i,
+  /\b(start|starts|opening|opens|launch|release|publish|premiere|screening|sale|ticket|effective)\b/i,
+  /\b(exam|test|interview|report|result|vote|voting|workshop|hack|demo|patch)\b/i,
+  /报名|注册|申请|投稿|提交|截稿|截止|开售|开赛|开幕|开始|发布|上映|首映|生效|实施|考试|面试|答辩|评审|复审|报告|结题|公布|投票|确认/,
+];
+
+function hasDeadlineBasis(item) {
+  const stage = String(item.stage || '').trim();
+  const type = String(item.type || '').trim();
+  const text = [stage, item.title, item.dateRange, item.description].filter(hasValue).join(' ');
+  if (DEADLINE_BASIS_PATTERNS.some(pattern => pattern.test(text))) return true;
+  if (EXPLICIT_BASIS_TYPES.has(type)) return true;
+  return false;
+}
+
 const topics = readJsonTs(TOPICS_PATH, 'export const topics', '[', ']');
 const ddlData = readJsonTs(DDL_PATH, 'export const ddlData', '{', '}');
 const metricData = readJsonTs(METRIC_PATH, 'export const metricData', '{', '}');
@@ -80,6 +136,7 @@ const searchTopicIds = new Set((searchIndex.topics || []).map(topic => topic.id)
 const searchItemIds = new Set((searchIndex.items || []).map(item => item.id));
 const sourceItemsCount = Object.values(ddlData).reduce((sum, items) => sum + items.length, 0);
 const sourceMetricsCount = Object.values(metricData).reduce((sum, metrics) => sum + metrics.length, 0);
+let officialDeadlineItems = 0;
 
 if (manifest.topicsCount !== topics.length) {
   errors.push(`manifest topicsCount ${manifest.topicsCount} does not match source topics ${topics.length}`);
@@ -165,6 +222,15 @@ for (const [topicId, items] of Object.entries(ddlData)) {
     if (!isHttpUrl(item.sourceUrl) && !isHttpUrl(item.url)) {
       errors.push(`${label}: item must have sourceUrl or url as a traceable http(s) source`);
     }
+    if (!hasValue(item.stage) && !hasValue(item.type)) {
+      errors.push(`${label}: item must include stage or type to explain its time rail`);
+    }
+    if (hasOfficialDeadline(item)) {
+      officialDeadlineItems += 1;
+      if (!hasDeadlineBasis(item)) {
+        errors.push(`${label}: official deadline item must clearly state the countdown basis in stage/type/title/dateRange`);
+      }
+    }
   }
 }
 
@@ -207,6 +273,7 @@ console.log(JSON.stringify({
   ok: true,
   topics: topics.length,
   items: sourceItemsCount,
+  officialDeadlineItems,
   metrics: sourceMetricsCount,
   routes: topics.length + 4,
   searchItems: (searchIndex.items || []).length,
