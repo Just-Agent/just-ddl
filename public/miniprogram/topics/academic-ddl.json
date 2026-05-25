@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-25T10:06:32.705Z",
-  "dataVersion": "c486cb22baafce7a",
+  "generatedAt": "2026-05-25T11:00:44.241Z",
+  "dataVersion": "4883bca43f5b1d38",
   "topic": {
     "id": "academic-ddl",
     "name": "Academic",
@@ -34,7 +34,7 @@
       "url": "https://neurips.cc",
       "status": "upcoming",
       "stage": "Paper",
-      "source": "AllConfs-style seed",
+      "source": "会议公开来源入口",
       "type": "conference",
       "description": "机器学习主会投稿入口。"
     },
@@ -167,7 +167,7 @@
       "url": "https://iclr.cc",
       "status": "upcoming",
       "stage": "OpenReview",
-      "source": "OpenReview-style seed",
+      "source": "OpenReview public source",
       "type": "conference",
       "description": "ICLR 投稿入口。"
     },

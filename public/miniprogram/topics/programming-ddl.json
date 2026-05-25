@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-25T10:06:32.705Z",
-  "dataVersion": "c486cb22baafce7a",
+  "generatedAt": "2026-05-25T11:00:44.241Z",
+  "dataVersion": "4883bca43f5b1d38",
   "topic": {
     "id": "programming-ddl",
     "name": "Programming",
@@ -281,7 +281,7 @@
       "url": "https://dasai.lanqiao.cn",
       "status": "upcoming",
       "stage": "Registration",
-      "source": "SinoConf-style seed",
+      "source": "会议公开来源入口",
       "type": "contest",
       "description": "国内编程竞赛入口。"
     },

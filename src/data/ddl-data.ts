@@ -1874,7 +1874,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "http://tcci.ccf.org.cn",
       "status": "upcoming",
       "stage": "Demo",
-      "source": "SinoConf-style seed",
+      "source": "会议公开来源入口",
       "type": "conference",
       "description": "中文 NLP 会议/任务入口。"
     },
@@ -1928,7 +1928,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.aclweb.org",
       "status": "upcoming",
       "stage": "ARR commit",
-      "source": "AllConfs-style seed",
+      "source": "会议公开来源入口",
       "type": "conference",
       "description": "ACL 系列主会 ARR 承诺流入口。"
     },
@@ -2000,7 +2000,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://semeval.github.io",
       "status": "upcoming",
       "stage": "System",
-      "source": "Shared-task demo",
+      "source": "Shared task public source",
       "type": "conference",
       "description": "语义评测任务入口。"
     },
@@ -2054,7 +2054,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.conll.org",
       "status": "upcoming",
       "stage": "System submit",
-      "source": "Shared-task demo",
+      "source": "Shared task public source",
       "type": "conference",
       "description": "Shared task 注册与系统提交入口。"
     },
@@ -2090,7 +2090,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.statmt.org/wmt",
       "status": "upcoming",
       "stage": "Result upload",
-      "source": "Benchmark demo",
+      "source": "Benchmark public source",
       "type": "conference",
       "description": "机器翻译评测入口。"
     },
@@ -2146,7 +2146,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://neurips.cc",
       "status": "upcoming",
       "stage": "Paper",
-      "source": "AllConfs-style seed",
+      "source": "会议公开来源入口",
       "type": "conference",
       "description": "机器学习主会投稿入口。"
     },
@@ -2272,7 +2272,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://iclr.cc",
       "status": "upcoming",
       "stage": "OpenReview",
-      "source": "OpenReview-style seed",
+      "source": "OpenReview public source",
       "type": "conference",
       "description": "ICLR 投稿入口。"
     },
@@ -2738,7 +2738,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.sciencedirect.com/browse/calls-for-papers",
       "status": "upcoming",
       "stage": "Special Issue",
-      "source": "Elsevier Chinese CFP seed",
+      "source": "Elsevier CFP public source",
       "type": "journal",
       "description": "金属-空气电池材料进展、设计优化与实际应用专题。",
       "journal": "Future Batteries",
@@ -2760,7 +2760,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.sciencedirect.com/browse/calls-for-papers",
       "status": "upcoming",
       "stage": "Special Issue",
-      "source": "Elsevier Chinese CFP seed",
+      "source": "Elsevier CFP public source",
       "type": "journal",
       "description": "新兴太阳能电池可持续材料与界面进展专题。",
       "journal": "Sustainable Chemistry for Energy Materials",
@@ -2781,7 +2781,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.sciencedirect.com/browse/calls-for-papers",
       "status": "upcoming",
       "stage": "Special Issue",
-      "source": "Elsevier Chinese CFP seed",
+      "source": "Elsevier CFP public source",
       "type": "journal",
       "description": "人工智能驱动下的绿色转型系统路径专题。",
       "journal": "Environmental Impact Assessment Review",
@@ -2802,7 +2802,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.sciencedirect.com/browse/calls-for-papers",
       "status": "upcoming",
       "stage": "Special Issue",
-      "source": "Elsevier Chinese CFP seed",
+      "source": "Elsevier CFP public source",
       "type": "journal",
       "description": "面向可持续能源技术的数字孪生与情景评估专题。",
       "journal": "Sustainable Energy Technologies and Assessments",
@@ -2824,7 +2824,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.sciencedirect.com/browse/calls-for-papers",
       "status": "upcoming",
       "stage": "Special Issue",
-      "source": "Elsevier Chinese CFP seed",
+      "source": "Elsevier CFP public source",
       "type": "journal",
       "description": "电池可持续发展专题。",
       "journal": "Future Batteries",
@@ -2846,7 +2846,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.sciencedirect.com/browse/calls-for-papers",
       "status": "upcoming",
       "stage": "Special Issue",
-      "source": "Elsevier Chinese CFP seed",
+      "source": "Elsevier CFP public source",
       "type": "journal",
       "description": "异质集成光子芯片专题。",
       "journal": "Chip",
@@ -2867,7 +2867,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.sciencedirect.com/browse/calls-for-papers",
       "status": "upcoming",
       "stage": "Special Issue",
-      "source": "Elsevier Chinese CFP seed",
+      "source": "Elsevier CFP public source",
       "type": "journal",
       "description": "光/电催化技术在清洁能源与环境领域应用专题。",
       "journal": "Applied Catalysis O: Open",
@@ -2888,7 +2888,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.sciencedirect.com/browse/calls-for-papers",
       "status": "upcoming",
       "stage": "VSI: ReMP",
-      "source": "Elsevier Chinese CFP seed",
+      "source": "Elsevier CFP public source",
       "type": "journal",
       "description": "微污染物去除专题，可在两个期刊中选择投稿。",
       "journal": "Desalination / Desalination and Water Treatment",
@@ -2951,7 +2951,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.sciencedirect.com/browse/calls-for-papers",
       "status": "upcoming",
       "stage": "Special Issue",
-      "source": "Elsevier Chinese CFP seed",
+      "source": "Elsevier CFP public source",
       "type": "journal",
       "description": "电能存储设备可持续发展及循环经济专题。",
       "journal": "Future Batteries",
@@ -2972,7 +2972,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.sciencedirect.com/browse/calls-for-papers",
       "status": "upcoming",
       "stage": "Special Issue",
-      "source": "Elsevier Chinese CFP seed",
+      "source": "Elsevier CFP public source",
       "type": "journal",
       "description": "可再生能源及储能系统热安全与防火研究专题。",
       "journal": "Applied Thermal Engineering",
@@ -5765,7 +5765,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://dasai.lanqiao.cn",
       "status": "upcoming",
       "stage": "Registration",
-      "source": "SinoConf-style seed",
+      "source": "会议公开来源入口",
       "type": "contest",
       "description": "国内编程竞赛入口。"
     },
@@ -5893,7 +5893,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "status": "upcoming",
       "stage": "Solar term",
-      "source": "Hong Kong Observatory almanac seed",
+      "source": "香港天文台历书公开来源",
       "type": "holiday",
       "description": "夏季节气。"
     },
@@ -5945,7 +5945,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "status": "upcoming",
       "stage": "Solar term",
-      "source": "Hong Kong Observatory almanac seed",
+      "source": "香港天文台历书公开来源",
       "type": "holiday",
       "description": "仲夏农事节气。"
     },
@@ -5963,7 +5963,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.gov.cn/",
       "status": "upcoming",
       "stage": "Holiday",
-      "source": "Gov calendar seed",
+      "source": "国务院节假日公开来源",
       "type": "holiday",
       "description": "农历五月初五。"
     },
@@ -5998,7 +5998,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "status": "upcoming",
       "stage": "Solar term",
-      "source": "Hong Kong Observatory almanac seed",
+      "source": "香港天文台历书公开来源",
       "type": "holiday",
       "description": "北半球白昼较长。"
     },
@@ -6016,7 +6016,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.timeanddate.com/holidays/",
       "status": "upcoming",
       "stage": "Observance",
-      "source": "International calendar seed",
+      "source": "国际节日公开来源",
       "type": "holiday",
       "description": "父亲节。"
     },
@@ -6051,7 +6051,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "status": "upcoming",
       "stage": "Solar term",
-      "source": "Hong Kong Observatory almanac seed",
+      "source": "香港天文台历书公开来源",
       "type": "holiday",
       "description": "暑热开始。"
     },
@@ -6086,7 +6086,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "status": "upcoming",
       "stage": "Solar term",
-      "source": "Hong Kong Observatory almanac seed",
+      "source": "香港天文台历书公开来源",
       "type": "holiday",
       "description": "暑热高峰。"
     },
@@ -6104,7 +6104,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "status": "upcoming",
       "stage": "Solar term",
-      "source": "Hong Kong Observatory almanac seed",
+      "source": "香港天文台历书公开来源",
       "type": "holiday",
       "description": "秋季开始。"
     },
@@ -6139,7 +6139,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.timeanddate.com/holidays/",
       "status": "upcoming",
       "stage": "Traditional festival",
-      "source": "Lunar calendar seed",
+      "source": "公开农历/节日来源",
       "type": "holiday",
       "description": "农历七月初七。"
     },
@@ -6157,7 +6157,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "status": "upcoming",
       "stage": "Solar term",
-      "source": "Hong Kong Observatory almanac seed",
+      "source": "香港天文台历书公开来源",
       "type": "holiday",
       "description": "暑热渐退。"
     },
@@ -6175,7 +6175,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.timeanddate.com/holidays/",
       "status": "upcoming",
       "stage": "Traditional festival",
-      "source": "Lunar calendar seed",
+      "source": "公开农历/节日来源",
       "type": "holiday",
       "description": "农历七月十五。"
     },
@@ -6210,7 +6210,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "status": "upcoming",
       "stage": "Solar term",
-      "source": "Hong Kong Observatory almanac seed",
+      "source": "香港天文台历书公开来源",
       "type": "holiday",
       "description": "秋季节气。"
     },
@@ -6262,7 +6262,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "status": "upcoming",
       "stage": "Solar term",
-      "source": "Hong Kong Observatory almanac seed",
+      "source": "香港天文台历书公开来源",
       "type": "holiday",
       "description": "昼夜近等长。"
     },
@@ -6297,7 +6297,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.gov.cn/",
       "status": "upcoming",
       "stage": "Holiday",
-      "source": "Gov calendar seed",
+      "source": "国务院节假日公开来源",
       "type": "holiday",
       "description": "农历八月十五。"
     },
@@ -6333,7 +6333,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.gov.cn/",
       "status": "upcoming",
       "stage": "Holiday",
-      "source": "Gov calendar seed",
+      "source": "国务院节假日公开来源",
       "type": "holiday",
       "description": "国庆假期入口。"
     },
@@ -6351,7 +6351,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "status": "upcoming",
       "stage": "Solar term",
-      "source": "Hong Kong Observatory almanac seed",
+      "source": "香港天文台历书公开来源",
       "type": "holiday",
       "description": "深秋节气。"
     },
@@ -6386,7 +6386,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.timeanddate.com/holidays/",
       "status": "upcoming",
       "stage": "Traditional festival",
-      "source": "Lunar calendar seed",
+      "source": "公开农历/节日来源",
       "type": "holiday",
       "description": "农历九月初九。"
     },
@@ -6404,7 +6404,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "status": "upcoming",
       "stage": "Solar term",
-      "source": "Hong Kong Observatory almanac seed",
+      "source": "香港天文台历书公开来源",
       "type": "holiday",
       "description": "秋季最后一个节气。"
     },
@@ -6422,7 +6422,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.timeanddate.com/holidays/",
       "status": "upcoming",
       "stage": "Observance",
-      "source": "International calendar seed",
+      "source": "国际节日公开来源",
       "type": "holiday",
       "description": "万圣夜。"
     },
@@ -6457,7 +6457,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "status": "upcoming",
       "stage": "Solar term",
-      "source": "Hong Kong Observatory almanac seed",
+      "source": "香港天文台历书公开来源",
       "type": "holiday",
       "description": "冬季开始。"
     },
@@ -6475,7 +6475,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.timeanddate.com/holidays/",
       "status": "upcoming",
       "stage": "Observance",
-      "source": "International calendar seed",
+      "source": "国际节日公开来源",
       "type": "holiday",
       "description": "双十一。"
     },
@@ -6493,7 +6493,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "status": "upcoming",
       "stage": "Solar term",
-      "source": "Hong Kong Observatory almanac seed",
+      "source": "香港天文台历书公开来源",
       "type": "holiday",
       "description": "冬季节气。"
     },
@@ -6545,7 +6545,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.timeanddate.com/holidays/",
       "status": "upcoming",
       "stage": "Observance",
-      "source": "International calendar seed",
+      "source": "国际节日公开来源",
       "type": "holiday",
       "description": "黑色星期五。"
     },
@@ -6563,7 +6563,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "status": "upcoming",
       "stage": "Solar term",
-      "source": "Hong Kong Observatory almanac seed",
+      "source": "香港天文台历书公开来源",
       "type": "holiday",
       "description": "仲冬节气。"
     },
@@ -6581,7 +6581,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "status": "upcoming",
       "stage": "Solar term",
-      "source": "Hong Kong Observatory almanac seed",
+      "source": "香港天文台历书公开来源",
       "type": "holiday",
       "description": "冬至节气。"
     },
@@ -6599,7 +6599,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.timeanddate.com/holidays/",
       "status": "upcoming",
       "stage": "Holiday",
-      "source": "International calendar seed",
+      "source": "国际节日公开来源",
       "type": "holiday",
       "description": "圣诞节。"
     },
@@ -6634,7 +6634,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.timeanddate.com/holidays/",
       "status": "upcoming",
       "stage": "Holiday",
-      "source": "International calendar seed",
+      "source": "国际节日公开来源",
       "type": "holiday",
       "description": "跨年与新年假日。"
     },
@@ -6652,7 +6652,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.timeanddate.com/holidays/",
       "status": "upcoming",
       "stage": "Traditional festival",
-      "source": "Lunar calendar seed",
+      "source": "公开农历/节日来源",
       "type": "holiday",
       "description": "农历腊月初八。"
     },
@@ -6670,7 +6670,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.gov.cn/",
       "status": "ended",
       "stage": "Holiday",
-      "source": "Gov calendar seed",
+      "source": "国务院节假日公开来源",
       "type": "holiday",
       "description": "新年假日。"
     },
@@ -6688,7 +6688,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "status": "ended",
       "stage": "Solar term",
-      "source": "Hong Kong Observatory almanac seed",
+      "source": "香港天文台历书公开来源",
       "type": "holiday",
       "description": "冬季节气。"
     },
@@ -6740,7 +6740,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "status": "ended",
       "stage": "Solar term",
-      "source": "Hong Kong Observatory almanac seed",
+      "source": "香港天文台历书公开来源",
       "type": "holiday",
       "description": "冬季最后一个节气。"
     },
@@ -6758,7 +6758,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "status": "ended",
       "stage": "Solar term",
-      "source": "Hong Kong Observatory almanac seed",
+      "source": "香港天文台历书公开来源",
       "type": "holiday",
       "description": "春季开始。"
     },
@@ -6776,7 +6776,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.timeanddate.com/holidays/",
       "status": "ended",
       "stage": "Traditional festival",
-      "source": "Lunar calendar seed",
+      "source": "公开农历/节日来源",
       "type": "holiday",
       "description": "北方小年。"
     },
@@ -6811,7 +6811,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.timeanddate.com/holidays/",
       "status": "ended",
       "stage": "Observance",
-      "source": "International calendar seed",
+      "source": "国际节日公开来源",
       "type": "holiday",
       "description": "情人节。"
     },
@@ -6829,7 +6829,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.gov.cn/",
       "status": "ended",
       "stage": "Traditional festival",
-      "source": "Lunar calendar seed",
+      "source": "公开农历/节日来源",
       "type": "holiday",
       "description": "农历岁末。"
     },
@@ -6864,7 +6864,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.gov.cn/",
       "status": "ended",
       "stage": "Holiday",
-      "source": "Gov calendar seed",
+      "source": "国务院节假日公开来源",
       "type": "holiday",
       "description": "农历新年。"
     },
@@ -6882,7 +6882,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "status": "ended",
       "stage": "Solar term",
-      "source": "Hong Kong Observatory almanac seed",
+      "source": "香港天文台历书公开来源",
       "type": "holiday",
       "description": "降水增多。"
     },
@@ -6917,7 +6917,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.timeanddate.com/holidays/",
       "status": "ended",
       "stage": "Traditional festival",
-      "source": "Lunar calendar seed",
+      "source": "公开农历/节日来源",
       "type": "holiday",
       "description": "正月十五。"
     },
@@ -6935,7 +6935,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "status": "ended",
       "stage": "Solar term",
-      "source": "Hong Kong Observatory almanac seed",
+      "source": "香港天文台历书公开来源",
       "type": "holiday",
       "description": "仲春节气。"
     },
@@ -6971,7 +6971,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.timeanddate.com/holidays/",
       "status": "ended",
       "stage": "Observance",
-      "source": "International calendar seed",
+      "source": "国际节日公开来源",
       "type": "holiday",
       "description": "圣帕特里克节。"
     },
@@ -6989,7 +6989,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "status": "ended",
       "stage": "Solar term",
-      "source": "Hong Kong Observatory almanac seed",
+      "source": "香港天文台历书公开来源",
       "type": "holiday",
       "description": "昼夜近等长。"
     },
@@ -7007,7 +7007,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.timeanddate.com/holidays/",
       "status": "ended",
       "stage": "Traditional festival",
-      "source": "Lunar calendar seed",
+      "source": "公开农历/节日来源",
       "type": "holiday",
       "description": "农历二月初二。"
     },
@@ -7025,7 +7025,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.timeanddate.com/holidays/",
       "status": "ended",
       "stage": "Observance",
-      "source": "International calendar seed",
+      "source": "国际节日公开来源",
       "type": "holiday",
       "description": "愚人节。"
     },
@@ -7060,7 +7060,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.gov.cn/",
       "status": "ended",
       "stage": "Solar term",
-      "source": "Gov / almanac seed",
+      "source": "政府公告 / 历书公开来源",
       "type": "holiday",
       "description": "节气与传统节日。"
     },
@@ -7095,7 +7095,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "status": "ended",
       "stage": "Solar term",
-      "source": "Hong Kong Observatory almanac seed",
+      "source": "香港天文台历书公开来源",
       "type": "holiday",
       "description": "春季最后一个节气。"
     },
@@ -7113,7 +7113,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.earthday.org",
       "status": "ended",
       "stage": "Observance",
-      "source": "Official observance seed",
+      "source": "官方纪念日公开来源",
       "type": "holiday",
       "description": "世界地球日。"
     },
@@ -7148,7 +7148,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.gov.cn/",
       "status": "ended",
       "stage": "Holiday",
-      "source": "Gov calendar seed",
+      "source": "国务院节假日公开来源",
       "type": "holiday",
       "description": "劳动节假期入口。"
     },
@@ -7217,7 +7217,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "status": "ended",
       "stage": "Solar term",
-      "source": "Hong Kong Observatory almanac seed",
+      "source": "香港天文台历书公开来源",
       "type": "holiday",
       "description": "夏季开始。"
     },
@@ -7252,7 +7252,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.timeanddate.com/holidays/",
       "status": "ended",
       "stage": "Observance",
-      "source": "International calendar seed",
+      "source": "国际节日公开来源",
       "type": "holiday",
       "description": "母亲节。"
     }
@@ -7272,7 +7272,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://visualqa.org",
       "status": "upcoming",
       "stage": "Submission",
-      "source": "Benchmark demo",
+      "source": "Benchmark public source",
       "type": "challenge",
       "description": "视觉问答评测入口。"
     },
@@ -7290,7 +7290,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://textvqa.org",
       "status": "upcoming",
       "stage": "Result upload",
-      "source": "Benchmark demo",
+      "source": "Benchmark public source",
       "type": "challenge",
       "description": "OCR + VQA 评测入口。"
     },
@@ -7308,7 +7308,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://mmmu-benchmark.github.io",
       "status": "upcoming",
       "stage": "Leaderboard",
-      "source": "Benchmark demo",
+      "source": "Benchmark public source",
       "type": "challenge",
       "description": "多模态理解 benchmark 入口。"
     },
@@ -7380,7 +7380,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.kaggle.com/competitions",
       "status": "upcoming",
       "stage": "Final submit",
-      "source": "Kaggle-style demo",
+      "source": "Kaggle competitions public source",
       "type": "challenge",
       "description": "生成式 AI 评测入口。"
     },
@@ -7398,7 +7398,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://video-mme.github.io",
       "status": "upcoming",
       "stage": "Leaderboard",
-      "source": "Benchmark demo",
+      "source": "Benchmark public source",
       "type": "challenge",
       "description": "视频理解评测入口。"
     },

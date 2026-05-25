@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-25T10:06:32.705Z",
-  "dataVersion": "c486cb22baafce7a",
+  "generatedAt": "2026-05-25T11:00:44.241Z",
+  "dataVersion": "4883bca43f5b1d38",
   "topic": {
     "id": "journal-ddl",
     "name": "Journal CFP",
@@ -243,7 +243,7 @@
       "url": "https://www.sciencedirect.com/browse/calls-for-papers",
       "status": "upcoming",
       "stage": "Special Issue",
-      "source": "Elsevier Chinese CFP seed",
+      "source": "Elsevier CFP public source",
       "type": "journal",
       "description": "金属-空气电池材料进展、设计优化与实际应用专题。"
     },
@@ -263,7 +263,7 @@
       "url": "https://www.sciencedirect.com/browse/calls-for-papers",
       "status": "upcoming",
       "stage": "Special Issue",
-      "source": "Elsevier Chinese CFP seed",
+      "source": "Elsevier CFP public source",
       "type": "journal",
       "description": "新兴太阳能电池可持续材料与界面进展专题。"
     },
@@ -282,7 +282,7 @@
       "url": "https://www.sciencedirect.com/browse/calls-for-papers",
       "status": "upcoming",
       "stage": "Special Issue",
-      "source": "Elsevier Chinese CFP seed",
+      "source": "Elsevier CFP public source",
       "type": "journal",
       "description": "人工智能驱动下的绿色转型系统路径专题。"
     },
@@ -301,7 +301,7 @@
       "url": "https://www.sciencedirect.com/browse/calls-for-papers",
       "status": "upcoming",
       "stage": "Special Issue",
-      "source": "Elsevier Chinese CFP seed",
+      "source": "Elsevier CFP public source",
       "type": "journal",
       "description": "面向可持续能源技术的数字孪生与情景评估专题。"
     },
@@ -321,7 +321,7 @@
       "url": "https://www.sciencedirect.com/browse/calls-for-papers",
       "status": "upcoming",
       "stage": "Special Issue",
-      "source": "Elsevier Chinese CFP seed",
+      "source": "Elsevier CFP public source",
       "type": "journal",
       "description": "电池可持续发展专题。"
     },
@@ -341,7 +341,7 @@
       "url": "https://www.sciencedirect.com/browse/calls-for-papers",
       "status": "upcoming",
       "stage": "Special Issue",
-      "source": "Elsevier Chinese CFP seed",
+      "source": "Elsevier CFP public source",
       "type": "journal",
       "description": "异质集成光子芯片专题。"
     },
@@ -360,7 +360,7 @@
       "url": "https://www.sciencedirect.com/browse/calls-for-papers",
       "status": "upcoming",
       "stage": "Special Issue",
-      "source": "Elsevier Chinese CFP seed",
+      "source": "Elsevier CFP public source",
       "type": "journal",
       "description": "光/电催化技术在清洁能源与环境领域应用专题。"
     },
@@ -379,7 +379,7 @@
       "url": "https://www.sciencedirect.com/browse/calls-for-papers",
       "status": "upcoming",
       "stage": "VSI: ReMP",
-      "source": "Elsevier Chinese CFP seed",
+      "source": "Elsevier CFP public source",
       "type": "journal",
       "description": "微污染物去除专题，可在两个期刊中选择投稿。"
     },
@@ -436,7 +436,7 @@
       "url": "https://www.sciencedirect.com/browse/calls-for-papers",
       "status": "upcoming",
       "stage": "Special Issue",
-      "source": "Elsevier Chinese CFP seed",
+      "source": "Elsevier CFP public source",
       "type": "journal",
       "description": "电能存储设备可持续发展及循环经济专题。"
     },
@@ -455,7 +455,7 @@
       "url": "https://www.sciencedirect.com/browse/calls-for-papers",
       "status": "upcoming",
       "stage": "Special Issue",
-      "source": "Elsevier Chinese CFP seed",
+      "source": "Elsevier CFP public source",
       "type": "journal",
       "description": "可再生能源及储能系统热安全与防火研究专题。"
     },

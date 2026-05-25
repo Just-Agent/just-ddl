@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-25T10:06:32.705Z",
-  "dataVersion": "c486cb22baafce7a",
+  "generatedAt": "2026-05-25T11:00:44.241Z",
+  "dataVersion": "4883bca43f5b1d38",
   "topic": {
     "id": "holiday-ddl",
     "name": "Holidays",
@@ -34,7 +34,7 @@
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "status": "upcoming",
       "stage": "Solar term",
-      "source": "Hong Kong Observatory almanac seed",
+      "source": "香港天文台历书公开来源",
       "type": "holiday",
       "description": "夏季节气。"
     },
@@ -89,7 +89,7 @@
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "status": "upcoming",
       "stage": "Solar term",
-      "source": "Hong Kong Observatory almanac seed",
+      "source": "香港天文台历书公开来源",
       "type": "holiday",
       "description": "仲夏农事节气。"
     },
@@ -108,7 +108,7 @@
       "url": "https://www.gov.cn/",
       "status": "upcoming",
       "stage": "Holiday",
-      "source": "Gov calendar seed",
+      "source": "国务院节假日公开来源",
       "type": "holiday",
       "description": "农历五月初五。"
     },
@@ -145,7 +145,7 @@
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "status": "upcoming",
       "stage": "Solar term",
-      "source": "Hong Kong Observatory almanac seed",
+      "source": "香港天文台历书公开来源",
       "type": "holiday",
       "description": "北半球白昼较长。"
     },
@@ -164,7 +164,7 @@
       "url": "https://www.timeanddate.com/holidays/",
       "status": "upcoming",
       "stage": "Observance",
-      "source": "International calendar seed",
+      "source": "国际节日公开来源",
       "type": "holiday",
       "description": "父亲节。"
     },
@@ -201,7 +201,7 @@
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "status": "upcoming",
       "stage": "Solar term",
-      "source": "Hong Kong Observatory almanac seed",
+      "source": "香港天文台历书公开来源",
       "type": "holiday",
       "description": "暑热开始。"
     },
@@ -238,7 +238,7 @@
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "status": "upcoming",
       "stage": "Solar term",
-      "source": "Hong Kong Observatory almanac seed",
+      "source": "香港天文台历书公开来源",
       "type": "holiday",
       "description": "暑热高峰。"
     },
@@ -257,7 +257,7 @@
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "status": "upcoming",
       "stage": "Solar term",
-      "source": "Hong Kong Observatory almanac seed",
+      "source": "香港天文台历书公开来源",
       "type": "holiday",
       "description": "秋季开始。"
     },
@@ -294,7 +294,7 @@
       "url": "https://www.timeanddate.com/holidays/",
       "status": "upcoming",
       "stage": "Traditional festival",
-      "source": "Lunar calendar seed",
+      "source": "公开农历/节日来源",
       "type": "holiday",
       "description": "农历七月初七。"
     },
@@ -313,7 +313,7 @@
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "status": "upcoming",
       "stage": "Solar term",
-      "source": "Hong Kong Observatory almanac seed",
+      "source": "香港天文台历书公开来源",
       "type": "holiday",
       "description": "暑热渐退。"
     },
@@ -332,7 +332,7 @@
       "url": "https://www.timeanddate.com/holidays/",
       "status": "upcoming",
       "stage": "Traditional festival",
-      "source": "Lunar calendar seed",
+      "source": "公开农历/节日来源",
       "type": "holiday",
       "description": "农历七月十五。"
     },
@@ -369,7 +369,7 @@
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "status": "upcoming",
       "stage": "Solar term",
-      "source": "Hong Kong Observatory almanac seed",
+      "source": "香港天文台历书公开来源",
       "type": "holiday",
       "description": "秋季节气。"
     },
@@ -424,7 +424,7 @@
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "status": "upcoming",
       "stage": "Solar term",
-      "source": "Hong Kong Observatory almanac seed",
+      "source": "香港天文台历书公开来源",
       "type": "holiday",
       "description": "昼夜近等长。"
     },
@@ -461,7 +461,7 @@
       "url": "https://www.gov.cn/",
       "status": "upcoming",
       "stage": "Holiday",
-      "source": "Gov calendar seed",
+      "source": "国务院节假日公开来源",
       "type": "holiday",
       "description": "农历八月十五。"
     },
@@ -499,7 +499,7 @@
       "url": "https://www.gov.cn/",
       "status": "upcoming",
       "stage": "Holiday",
-      "source": "Gov calendar seed",
+      "source": "国务院节假日公开来源",
       "type": "holiday",
       "description": "国庆假期入口。"
     },
@@ -518,7 +518,7 @@
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "status": "upcoming",
       "stage": "Solar term",
-      "source": "Hong Kong Observatory almanac seed",
+      "source": "香港天文台历书公开来源",
       "type": "holiday",
       "description": "深秋节气。"
     },
@@ -555,7 +555,7 @@
       "url": "https://www.timeanddate.com/holidays/",
       "status": "upcoming",
       "stage": "Traditional festival",
-      "source": "Lunar calendar seed",
+      "source": "公开农历/节日来源",
       "type": "holiday",
       "description": "农历九月初九。"
     },
@@ -574,7 +574,7 @@
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "status": "upcoming",
       "stage": "Solar term",
-      "source": "Hong Kong Observatory almanac seed",
+      "source": "香港天文台历书公开来源",
       "type": "holiday",
       "description": "秋季最后一个节气。"
     },
@@ -593,7 +593,7 @@
       "url": "https://www.timeanddate.com/holidays/",
       "status": "upcoming",
       "stage": "Observance",
-      "source": "International calendar seed",
+      "source": "国际节日公开来源",
       "type": "holiday",
       "description": "万圣夜。"
     },
@@ -630,7 +630,7 @@
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "status": "upcoming",
       "stage": "Solar term",
-      "source": "Hong Kong Observatory almanac seed",
+      "source": "香港天文台历书公开来源",
       "type": "holiday",
       "description": "冬季开始。"
     },
@@ -649,7 +649,7 @@
       "url": "https://www.timeanddate.com/holidays/",
       "status": "upcoming",
       "stage": "Observance",
-      "source": "International calendar seed",
+      "source": "国际节日公开来源",
       "type": "holiday",
       "description": "双十一。"
     },
@@ -668,7 +668,7 @@
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "status": "upcoming",
       "stage": "Solar term",
-      "source": "Hong Kong Observatory almanac seed",
+      "source": "香港天文台历书公开来源",
       "type": "holiday",
       "description": "冬季节气。"
     },
@@ -723,7 +723,7 @@
       "url": "https://www.timeanddate.com/holidays/",
       "status": "upcoming",
       "stage": "Observance",
-      "source": "International calendar seed",
+      "source": "国际节日公开来源",
       "type": "holiday",
       "description": "黑色星期五。"
     },
@@ -742,7 +742,7 @@
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "status": "upcoming",
       "stage": "Solar term",
-      "source": "Hong Kong Observatory almanac seed",
+      "source": "香港天文台历书公开来源",
       "type": "holiday",
       "description": "仲冬节气。"
     },
@@ -761,7 +761,7 @@
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "status": "upcoming",
       "stage": "Solar term",
-      "source": "Hong Kong Observatory almanac seed",
+      "source": "香港天文台历书公开来源",
       "type": "holiday",
       "description": "冬至节气。"
     },
@@ -780,7 +780,7 @@
       "url": "https://www.timeanddate.com/holidays/",
       "status": "upcoming",
       "stage": "Holiday",
-      "source": "International calendar seed",
+      "source": "国际节日公开来源",
       "type": "holiday",
       "description": "圣诞节。"
     },
@@ -817,7 +817,7 @@
       "url": "https://www.timeanddate.com/holidays/",
       "status": "upcoming",
       "stage": "Holiday",
-      "source": "International calendar seed",
+      "source": "国际节日公开来源",
       "type": "holiday",
       "description": "跨年与新年假日。"
     },
@@ -836,7 +836,7 @@
       "url": "https://www.timeanddate.com/holidays/",
       "status": "upcoming",
       "stage": "Traditional festival",
-      "source": "Lunar calendar seed",
+      "source": "公开农历/节日来源",
       "type": "holiday",
       "description": "农历腊月初八。"
     },
@@ -855,7 +855,7 @@
       "url": "https://www.gov.cn/",
       "status": "ended",
       "stage": "Holiday",
-      "source": "Gov calendar seed",
+      "source": "国务院节假日公开来源",
       "type": "holiday",
       "description": "新年假日。"
     },
@@ -874,7 +874,7 @@
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "status": "ended",
       "stage": "Solar term",
-      "source": "Hong Kong Observatory almanac seed",
+      "source": "香港天文台历书公开来源",
       "type": "holiday",
       "description": "冬季节气。"
     },
@@ -929,7 +929,7 @@
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "status": "ended",
       "stage": "Solar term",
-      "source": "Hong Kong Observatory almanac seed",
+      "source": "香港天文台历书公开来源",
       "type": "holiday",
       "description": "冬季最后一个节气。"
     },
@@ -948,7 +948,7 @@
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "status": "ended",
       "stage": "Solar term",
-      "source": "Hong Kong Observatory almanac seed",
+      "source": "香港天文台历书公开来源",
       "type": "holiday",
       "description": "春季开始。"
     },
@@ -967,7 +967,7 @@
       "url": "https://www.timeanddate.com/holidays/",
       "status": "ended",
       "stage": "Traditional festival",
-      "source": "Lunar calendar seed",
+      "source": "公开农历/节日来源",
       "type": "holiday",
       "description": "北方小年。"
     },
@@ -1004,7 +1004,7 @@
       "url": "https://www.timeanddate.com/holidays/",
       "status": "ended",
       "stage": "Observance",
-      "source": "International calendar seed",
+      "source": "国际节日公开来源",
       "type": "holiday",
       "description": "情人节。"
     },
@@ -1023,7 +1023,7 @@
       "url": "https://www.gov.cn/",
       "status": "ended",
       "stage": "Traditional festival",
-      "source": "Lunar calendar seed",
+      "source": "公开农历/节日来源",
       "type": "holiday",
       "description": "农历岁末。"
     },
@@ -1060,7 +1060,7 @@
       "url": "https://www.gov.cn/",
       "status": "ended",
       "stage": "Holiday",
-      "source": "Gov calendar seed",
+      "source": "国务院节假日公开来源",
       "type": "holiday",
       "description": "农历新年。"
     },
@@ -1079,7 +1079,7 @@
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "status": "ended",
       "stage": "Solar term",
-      "source": "Hong Kong Observatory almanac seed",
+      "source": "香港天文台历书公开来源",
       "type": "holiday",
       "description": "降水增多。"
     },
@@ -1116,7 +1116,7 @@
       "url": "https://www.timeanddate.com/holidays/",
       "status": "ended",
       "stage": "Traditional festival",
-      "source": "Lunar calendar seed",
+      "source": "公开农历/节日来源",
       "type": "holiday",
       "description": "正月十五。"
     },
@@ -1135,7 +1135,7 @@
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "status": "ended",
       "stage": "Solar term",
-      "source": "Hong Kong Observatory almanac seed",
+      "source": "香港天文台历书公开来源",
       "type": "holiday",
       "description": "仲春节气。"
     },
@@ -1173,7 +1173,7 @@
       "url": "https://www.timeanddate.com/holidays/",
       "status": "ended",
       "stage": "Observance",
-      "source": "International calendar seed",
+      "source": "国际节日公开来源",
       "type": "holiday",
       "description": "圣帕特里克节。"
     },
@@ -1192,7 +1192,7 @@
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "status": "ended",
       "stage": "Solar term",
-      "source": "Hong Kong Observatory almanac seed",
+      "source": "香港天文台历书公开来源",
       "type": "holiday",
       "description": "昼夜近等长。"
     },
@@ -1211,7 +1211,7 @@
       "url": "https://www.timeanddate.com/holidays/",
       "status": "ended",
       "stage": "Traditional festival",
-      "source": "Lunar calendar seed",
+      "source": "公开农历/节日来源",
       "type": "holiday",
       "description": "农历二月初二。"
     },
@@ -1230,7 +1230,7 @@
       "url": "https://www.timeanddate.com/holidays/",
       "status": "ended",
       "stage": "Observance",
-      "source": "International calendar seed",
+      "source": "国际节日公开来源",
       "type": "holiday",
       "description": "愚人节。"
     },
@@ -1267,7 +1267,7 @@
       "url": "https://www.gov.cn/",
       "status": "ended",
       "stage": "Solar term",
-      "source": "Gov / almanac seed",
+      "source": "政府公告 / 历书公开来源",
       "type": "holiday",
       "description": "节气与传统节日。"
     },
@@ -1304,7 +1304,7 @@
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "status": "ended",
       "stage": "Solar term",
-      "source": "Hong Kong Observatory almanac seed",
+      "source": "香港天文台历书公开来源",
       "type": "holiday",
       "description": "春季最后一个节气。"
     },
@@ -1323,7 +1323,7 @@
       "url": "https://www.earthday.org",
       "status": "ended",
       "stage": "Observance",
-      "source": "Official observance seed",
+      "source": "官方纪念日公开来源",
       "type": "holiday",
       "description": "世界地球日。"
     },
@@ -1360,7 +1360,7 @@
       "url": "https://www.gov.cn/",
       "status": "ended",
       "stage": "Holiday",
-      "source": "Gov calendar seed",
+      "source": "国务院节假日公开来源",
       "type": "holiday",
       "description": "劳动节假期入口。"
     },
@@ -1433,7 +1433,7 @@
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "status": "ended",
       "stage": "Solar term",
-      "source": "Hong Kong Observatory almanac seed",
+      "source": "香港天文台历书公开来源",
       "type": "holiday",
       "description": "夏季开始。"
     },
@@ -1470,7 +1470,7 @@
       "url": "https://www.timeanddate.com/holidays/",
       "status": "ended",
       "stage": "Observance",
-      "source": "International calendar seed",
+      "source": "国际节日公开来源",
       "type": "holiday",
       "description": "母亲节。"
     }

@@ -64,6 +64,9 @@ function hasValue(value) {
   return typeof value === 'string' && value.trim().length > 0;
 }
 
+const TEXT_CORRUPTION_PATTERN = /\?\?\?\?|�/;
+const FORBIDDEN_SOURCE_PROVENANCE_PATTERN = /\b(?:seed|style seed|benchmark demo|shared-task demo|kaggle-style demo|official-style seed|curated coverage seed|crawler seed|coverage seed)\b/i;
+
 function parseTime(value) {
   if (typeof value !== 'string' || !value.trim()) return Number.NaN;
   const time = Date.parse(value);
@@ -118,6 +121,23 @@ function hasDeadlineBasis(item) {
   if (DEADLINE_BASIS_PATTERNS.some(pattern => pattern.test(text))) return true;
   if (EXPLICIT_BASIS_TYPES.has(type)) return true;
   return false;
+}
+
+function validateCleanText(value, label, errors) {
+  if (typeof value === 'string') {
+    if (TEXT_CORRUPTION_PATTERN.test(value)) {
+      errors.push(`${label}: text contains mojibake or replacement characters`);
+    }
+    return;
+  }
+  if (Array.isArray(value)) {
+    value.forEach((item, index) => validateCleanText(item, `${label}[${index}]`, errors));
+    return;
+  }
+  if (!value || typeof value !== 'object') return;
+  for (const [key, item] of Object.entries(value)) {
+    validateCleanText(item, `${label}.${key}`, errors);
+  }
 }
 
 const topics = readJsonTs(TOPICS_PATH, 'export const topics', '[', ']');
@@ -207,6 +227,7 @@ for (const [topicId, items] of Object.entries(ddlData)) {
   const itemIds = new Set();
   for (const item of items) {
     const label = `${topicId}/${item.id || '<missing-item-id>'}`;
+    validateCleanText(item, label, errors);
     if (!item.id || typeof item.id !== 'string') errors.push(`${label}: missing item id`);
     if (itemIds.has(item.id)) errors.push(`${label}: duplicate item id within topic`);
     itemIds.add(item.id);
@@ -221,6 +242,9 @@ for (const [topicId, items] of Object.entries(ddlData)) {
     }
     if (!isHttpUrl(item.sourceUrl) && !isHttpUrl(item.url)) {
       errors.push(`${label}: item must have sourceUrl or url as a traceable http(s) source`);
+    }
+    if (FORBIDDEN_SOURCE_PROVENANCE_PATTERN.test(String(item.source || ''))) {
+      errors.push(`${label}: item.source must not contain seed/demo maintenance wording`);
     }
     if (!hasValue(item.stage) && !hasValue(item.type)) {
       errors.push(`${label}: item must include stage or type to explain its time rail`);
@@ -239,6 +263,7 @@ for (const [topicId, metrics] of Object.entries(metricData)) {
   const metricIds = new Set();
   for (const metric of metrics) {
     const label = `${topicId}/${metric.id || '<missing-metric-id>'}`;
+    validateCleanText(metric, label, errors);
     if (!metric.id || typeof metric.id !== 'string') errors.push(`${label}: missing metric id`);
     if (metricIds.has(metric.id)) errors.push(`${label}: duplicate metric id within topic`);
     metricIds.add(metric.id);
@@ -256,6 +281,9 @@ for (const [topicId, metrics] of Object.entries(metricData)) {
     }
     if (![metric.sourceUrl, metric.url, metric.homepageUrl, metric.openAlexId].some(hasValue)) {
       errors.push(`${label}: metric must include sourceUrl, url, homepageUrl, or openAlexId`);
+    }
+    if (FORBIDDEN_SOURCE_PROVENANCE_PATTERN.test(String(metric.source || ''))) {
+      errors.push(`${label}: metric.source must not contain seed/demo maintenance wording`);
     }
   }
 }

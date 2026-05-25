@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-25T10:06:32.705Z",
-  "dataVersion": "c486cb22baafce7a",
+  "generatedAt": "2026-05-25T11:00:44.241Z",
+  "dataVersion": "4883bca43f5b1d38",
   "topic": {
     "id": "multimodal-ddl",
     "name": "Multimodal",
@@ -34,7 +34,7 @@
       "url": "https://visualqa.org",
       "status": "upcoming",
       "stage": "Submission",
-      "source": "Benchmark demo",
+      "source": "Benchmark public source",
       "type": "challenge",
       "description": "视觉问答评测入口。"
     },
@@ -53,7 +53,7 @@
       "url": "https://textvqa.org",
       "status": "upcoming",
       "stage": "Result upload",
-      "source": "Benchmark demo",
+      "source": "Benchmark public source",
       "type": "challenge",
       "description": "OCR + VQA 评测入口。"
     },
@@ -72,7 +72,7 @@
       "url": "https://mmmu-benchmark.github.io",
       "status": "upcoming",
       "stage": "Leaderboard",
-      "source": "Benchmark demo",
+      "source": "Benchmark public source",
       "type": "challenge",
       "description": "多模态理解 benchmark 入口。"
     },
@@ -148,7 +148,7 @@
       "url": "https://www.kaggle.com/competitions",
       "status": "upcoming",
       "stage": "Final submit",
-      "source": "Kaggle-style demo",
+      "source": "Kaggle competitions public source",
       "type": "challenge",
       "description": "生成式 AI 评测入口。"
     },
@@ -167,7 +167,7 @@
       "url": "https://video-mme.github.io",
       "status": "upcoming",
       "stage": "Leaderboard",
-      "source": "Benchmark demo",
+      "source": "Benchmark public source",
       "type": "challenge",
       "description": "视频理解评测入口。"
     },

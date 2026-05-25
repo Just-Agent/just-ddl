@@ -1,15 +1,15 @@
 # Just-DDL Source Audit
 
-Generated: 2026-05-25T10:51:00.554Z
+Generated: 2026-05-25T11:05:36.075Z
 
 This is an internal production-readiness report. It identifies items that need detail-page upgrades, sourceUrl completion, manual maintenance, or official-source verification. It is not published to GitHub Pages or miniprogram exports.
 
 - Total DDL items: 808
 - Official deadline candidates: 658
 - Missing sourceUrl: 505
-- Root-like URL follow-up: 79
-- Manual/source-board follow-up: 181
-- Seed/demo source wording: 148
+- Root-like URL follow-up: 75
+- Manual/source-board follow-up: 185
+- Seed/demo source wording: 0
 - Aggregator/review-platform source: 21
 
 ## Missing sourceUrl
@@ -70,29 +70,29 @@ This is an internal production-readiness report. It identifies items that need d
 | nlp-ddl | [EMNLP 2026 Full Paper](https://2026.emnlp.org) | missing sourceUrl | 人工整理的官方来源入口 |
 | nlp-ddl | [CLPsych Shared Task 2026](https://clpsych.org) | missing sourceUrl | 人工整理的官方来源入口 |
 | nlp-ddl | [BioNLP Workshop Paper](https://aclweb.org/aclwiki/BioNLP_Workshop) | missing sourceUrl | 人工整理的官方来源入口 |
-| nlp-ddl | [Chinese NLPCC 2026 Demo Track](http://tcci.ccf.org.cn) | missing sourceUrl | SinoConf-style seed |
+| nlp-ddl | [Chinese NLPCC 2026 Demo Track](http://tcci.ccf.org.cn) | missing sourceUrl | 会议公开来源入口 |
 | nlp-ddl | [BlackboxNLP Workshop](https://blackboxnlp.github.io) | missing sourceUrl | 人工整理的官方来源入口 |
 | nlp-ddl | [COLING 2027 Long Paper](https://coling2026.org) | missing sourceUrl | 人工整理的官方来源入口 |
-| nlp-ddl | [ACL 2027 ARR Commitment](https://www.aclweb.org) | missing sourceUrl | AllConfs-style seed |
+| nlp-ddl | [ACL 2027 ARR Commitment](https://www.aclweb.org) | missing sourceUrl | 会议公开来源入口 |
 | nlp-ddl | [Legal NLP Challenge 2026](https://www.kaggle.com/competitions) | missing sourceUrl | 人工整理的官方来源入口 |
 | nlp-ddl | [MRQA Shared Task Refresh](https://mrqa.github.io) | missing sourceUrl | 人工整理的官方来源入口 |
 | nlp-ddl | [RAG Evaluation Shared Task](https://openreview.net/) | missing sourceUrl | 人工整理的官方来源入口 |
-| nlp-ddl | [SemEval 2027 System Submission](https://semeval.github.io) | missing sourceUrl | Shared-task demo |
+| nlp-ddl | [SemEval 2027 System Submission](https://semeval.github.io) | missing sourceUrl | Shared task public source |
 | nlp-ddl | [NAACL 2027 Paper Submission](https://naacl.org) | missing sourceUrl | 人工整理的官方来源入口 |
 | nlp-ddl | [Long Context NLP Benchmark](https://www.kaggle.com/competitions) | missing sourceUrl | 人工整理的官方来源入口 |
-| nlp-ddl | [CoNLL Shared Task 2027](https://www.conll.org) | missing sourceUrl | Shared-task demo |
+| nlp-ddl | [CoNLL Shared Task 2027](https://www.conll.org) | missing sourceUrl | Shared task public source |
 | nlp-ddl | [Low Resource Languages Track](https://sigtyp.github.io) | missing sourceUrl | 人工整理的官方来源入口 |
-| nlp-ddl | [WMT 2027 Translation Task](https://www.statmt.org/wmt) | missing sourceUrl | Benchmark demo |
+| nlp-ddl | [WMT 2027 Translation Task](https://www.statmt.org/wmt) | missing sourceUrl | Benchmark public source |
 | nlp-ddl | [INLG 2027 Paper](https://aclweb.org/aclwiki/INLG) | missing sourceUrl | 人工整理的官方来源入口 |
 | nlp-ddl | [SIGDIAL 2027 Paper](https://www.sigdial.org) | missing sourceUrl | 人工整理的官方来源入口 |
-| academic-ddl | [NeurIPS 2026 Full Paper](https://neurips.cc) | missing sourceUrl | AllConfs-style seed |
+| academic-ddl | [NeurIPS 2026 Full Paper](https://neurips.cc) | missing sourceUrl | 会议公开来源入口 |
 | academic-ddl | [VLDB 2027 Monthly Deadline](https://vldb.org) | missing sourceUrl | 人工整理的官方来源入口 |
 | academic-ddl | [SIGMOD 2027 Round 1](https://sigmod.org) | missing sourceUrl | 人工整理的官方来源入口 |
 | academic-ddl | [AAAI 2027 Abstract](https://aaai.org) | missing sourceUrl | 人工整理的官方来源入口 |
 | academic-ddl | [CHI 2027 Papers](https://chi2027.acm.org) | missing sourceUrl | 人工整理的官方来源入口 |
 | academic-ddl | [ICRA 2027 Paper](https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra) | missing sourceUrl | 人工整理的官方来源入口 |
 | academic-ddl | [NSF Proposal Calendar Reminder](https://www.nsf.gov/funding) | missing sourceUrl | 人工整理的官方来源入口 |
-| academic-ddl | [ICLR 2027 Submission](https://iclr.cc) | missing sourceUrl | OpenReview-style seed |
+| academic-ddl | [ICLR 2027 Submission](https://iclr.cc) | missing sourceUrl | OpenReview public source |
 | academic-ddl | [WWW 2027 Research Track](https://www2027.thewebconf.org) | missing sourceUrl | 人工整理的官方来源入口 |
 | academic-ddl | [AISTATS 2027 Paper](https://aistats.org) | missing sourceUrl | 人工整理的官方来源入口 |
 | academic-ddl | [UbiComp 2027 Full Paper](https://ubicomp.org) | missing sourceUrl | 人工整理的官方来源入口 |
@@ -134,29 +134,25 @@ This is an internal production-readiness report. It identifies items that need d
 | cv-ddl | [EMR @ ECCV 2026 - Notification](https://emr-workshop.github.io/) | root-like URL without source-board wording | EMR @ ECCV 2026 |
 | cv-ddl | [EBMV @ ECCV 2026 - Camera-ready deadline](https://eventbasemultimodalvision.github.io/) | root-like URL without source-board wording | EBMV @ ECCV 2026 |
 | cv-ddl | [EMR @ ECCV 2026 - Final version](https://emr-workshop.github.io/) | root-like URL without source-board wording | EMR @ ECCV 2026 |
-| nlp-ddl | [Chinese NLPCC 2026 Demo Track](http://tcci.ccf.org.cn) | root-like URL without source-board wording | SinoConf-style seed |
-| nlp-ddl | [ACL 2027 ARR Commitment](https://www.aclweb.org) | root-like URL without source-board wording | AllConfs-style seed |
-| nlp-ddl | [SemEval 2027 System Submission](https://semeval.github.io) | root-like URL without source-board wording | Shared-task demo |
-| nlp-ddl | [CoNLL Shared Task 2027](https://www.conll.org) | root-like URL without source-board wording | Shared-task demo |
-| academic-ddl | [NeurIPS 2026 Full Paper](https://neurips.cc) | root-like URL without source-board wording | AllConfs-style seed |
-| academic-ddl | [ICLR 2027 Submission](https://iclr.cc) | root-like URL without source-board wording | OpenReview-style seed |
+| nlp-ddl | [SemEval 2027 System Submission](https://semeval.github.io) | root-like URL without source-board wording | Shared task public source |
+| nlp-ddl | [CoNLL Shared Task 2027](https://www.conll.org) | root-like URL without source-board wording | Shared task public source |
+| academic-ddl | [ICLR 2027 Submission](https://iclr.cc) | root-like URL without source-board wording | OpenReview public source |
 | programming-ddl | [Codeforces Global Round](https://codeforces.com) | root-like URL without source-board wording | Official site |
 | programming-ddl | [AtCoder Grand Contest Demo Round](https://atcoder.jp) | root-like URL without source-board wording | Official site |
 | programming-ddl | [Advent of Code 2026 Day 1](https://adventofcode.com) | root-like URL without source-board wording | Official site |
-| programming-ddl | [Lanqiao Cup Provincial Round](https://dasai.lanqiao.cn) | root-like URL without source-board wording | SinoConf-style seed |
-| holiday-ddl | [端午节 2026](https://www.gov.cn/) | root-like URL without source-board wording | Gov calendar seed |
-| holiday-ddl | [中秋节 2026](https://www.gov.cn/) | root-like URL without source-board wording | Gov calendar seed |
-| holiday-ddl | [国庆节 2026](https://www.gov.cn/) | root-like URL without source-board wording | Gov calendar seed |
-| holiday-ddl | [元旦 2026](https://www.gov.cn/) | root-like URL without source-board wording | Gov calendar seed |
-| holiday-ddl | [除夕 2026](https://www.gov.cn/) | root-like URL without source-board wording | Lunar calendar seed |
-| holiday-ddl | [春节 2026](https://www.gov.cn/) | root-like URL without source-board wording | Gov calendar seed |
-| holiday-ddl | [清明 2026](https://www.gov.cn/) | root-like URL without source-board wording | Gov / almanac seed |
-| holiday-ddl | [Earth Day 2026](https://www.earthday.org) | root-like URL without source-board wording | Official observance seed |
-| holiday-ddl | [劳动节 2026](https://www.gov.cn/) | root-like URL without source-board wording | Gov calendar seed |
-| multimodal-ddl | [VQA Challenge 2026](https://visualqa.org) | root-like URL without source-board wording | Benchmark demo |
-| multimodal-ddl | [TextVQA Refresh](https://textvqa.org) | root-like URL without source-board wording | Benchmark demo |
-| multimodal-ddl | [MMMU Challenge 2026](https://mmmu-benchmark.github.io) | root-like URL without source-board wording | Benchmark demo |
-| multimodal-ddl | [Video-MME Leaderboard Freeze](https://video-mme.github.io) | root-like URL without source-board wording | Benchmark demo |
+| holiday-ddl | [端午节 2026](https://www.gov.cn/) | root-like URL without source-board wording | 国务院节假日公开来源 |
+| holiday-ddl | [中秋节 2026](https://www.gov.cn/) | root-like URL without source-board wording | 国务院节假日公开来源 |
+| holiday-ddl | [国庆节 2026](https://www.gov.cn/) | root-like URL without source-board wording | 国务院节假日公开来源 |
+| holiday-ddl | [元旦 2026](https://www.gov.cn/) | root-like URL without source-board wording | 国务院节假日公开来源 |
+| holiday-ddl | [除夕 2026](https://www.gov.cn/) | root-like URL without source-board wording | 公开农历/节日来源 |
+| holiday-ddl | [春节 2026](https://www.gov.cn/) | root-like URL without source-board wording | 国务院节假日公开来源 |
+| holiday-ddl | [清明 2026](https://www.gov.cn/) | root-like URL without source-board wording | 政府公告 / 历书公开来源 |
+| holiday-ddl | [Earth Day 2026](https://www.earthday.org) | root-like URL without source-board wording | 官方纪念日公开来源 |
+| holiday-ddl | [劳动节 2026](https://www.gov.cn/) | root-like URL without source-board wording | 国务院节假日公开来源 |
+| multimodal-ddl | [VQA Challenge 2026](https://visualqa.org) | root-like URL without source-board wording | Benchmark public source |
+| multimodal-ddl | [TextVQA Refresh](https://textvqa.org) | root-like URL without source-board wording | Benchmark public source |
+| multimodal-ddl | [MMMU Challenge 2026](https://mmmu-benchmark.github.io) | root-like URL without source-board wording | Benchmark public source |
+| multimodal-ddl | [Video-MME Leaderboard Freeze](https://video-mme.github.io) | root-like URL without source-board wording | Benchmark public source |
 | robotics-ddl | [AI City Challenge 2026 - Registration opens](https://www.aicitychallenge.org) | root-like URL without source-board wording | AI City Challenge |
 | robotics-ddl | [AI City Challenge 2026 - Release of evaluation server and test data sets](https://www.aicitychallenge.org) | root-like URL without source-board wording | AI City Challenge |
 | robotics-ddl | [AI City Challenge 2026 - Challenge track submissions due](https://www.aicitychallenge.org) | root-like URL without source-board wording | AI City Challenge |
@@ -203,8 +199,10 @@ This is an internal production-readiness report. It identifies items that need d
 | nlp-ddl | [EMNLP 2026 Full Paper](https://2026.emnlp.org) | manual/source-board follow-up | 人工整理的官方来源入口 |
 | nlp-ddl | [CLPsych Shared Task 2026](https://clpsych.org) | manual/source-board follow-up | 人工整理的官方来源入口 |
 | nlp-ddl | [BioNLP Workshop Paper](https://aclweb.org/aclwiki/BioNLP_Workshop) | manual/source-board follow-up | 人工整理的官方来源入口 |
+| nlp-ddl | [Chinese NLPCC 2026 Demo Track](http://tcci.ccf.org.cn) | manual/source-board follow-up | 会议公开来源入口 |
 | nlp-ddl | [BlackboxNLP Workshop](https://blackboxnlp.github.io) | manual/source-board follow-up | 人工整理的官方来源入口 |
 | nlp-ddl | [COLING 2027 Long Paper](https://coling2026.org) | manual/source-board follow-up | 人工整理的官方来源入口 |
+| nlp-ddl | [ACL 2027 ARR Commitment](https://www.aclweb.org) | manual/source-board follow-up | 会议公开来源入口 |
 | nlp-ddl | [Legal NLP Challenge 2026](https://www.kaggle.com/competitions) | manual/source-board follow-up | 人工整理的官方来源入口 |
 | nlp-ddl | [MRQA Shared Task Refresh](https://mrqa.github.io) | manual/source-board follow-up | 人工整理的官方来源入口 |
 | nlp-ddl | [RAG Evaluation Shared Task](https://openreview.net/) | manual/source-board follow-up | 人工整理的官方来源入口 |
@@ -213,6 +211,7 @@ This is an internal production-readiness report. It identifies items that need d
 | nlp-ddl | [Low Resource Languages Track](https://sigtyp.github.io) | manual/source-board follow-up | 人工整理的官方来源入口 |
 | nlp-ddl | [INLG 2027 Paper](https://aclweb.org/aclwiki/INLG) | manual/source-board follow-up | 人工整理的官方来源入口 |
 | nlp-ddl | [SIGDIAL 2027 Paper](https://www.sigdial.org) | manual/source-board follow-up | 人工整理的官方来源入口 |
+| academic-ddl | [NeurIPS 2026 Full Paper](https://neurips.cc) | manual/source-board follow-up | 会议公开来源入口 |
 | academic-ddl | [VLDB 2027 Monthly Deadline](https://vldb.org) | manual/source-board follow-up | 人工整理的官方来源入口 |
 | academic-ddl | [SIGMOD 2027 Round 1](https://sigmod.org) | manual/source-board follow-up | 人工整理的官方来源入口 |
 | academic-ddl | [AAAI 2027 Abstract](https://aaai.org) | manual/source-board follow-up | 人工整理的官方来源入口 |
@@ -247,6 +246,7 @@ This is an internal production-readiness report. It identifies items that need d
 | programming-ddl | [DMOJ Seasonal Contest](https://dmoj.ca/contests) | manual/source-board follow-up | 人工整理的官方来源入口 |
 | programming-ddl | [ICPC World Finals 2026](https://icpc.global) | manual/source-board follow-up | 人工整理的官方来源入口 |
 | programming-ddl | [Hash Code Legacy Practice Sprint](https://codingcompetitions.withgoogle.com/hashcode/archive) | manual/source-board follow-up | 人工整理的官方来源入口 |
+| programming-ddl | [Lanqiao Cup Provincial Round](https://dasai.lanqiao.cn) | manual/source-board follow-up | 会议公开来源入口 |
 | programming-ddl | [USACO 2026 December Contest](https://usaco.org) | manual/source-board follow-up | 人工整理的官方来源入口 |
 | programming-ddl | [CodeChef Starters Series](https://www.codechef.com/contests) | manual/source-board follow-up | 人工整理的官方来源入口 |
 | programming-ddl | [Google Code Jam Archive Practice](https://codingcompetitions.withgoogle.com/codejam/archive) | manual/source-board follow-up | 人工整理的官方来源入口 |
@@ -261,95 +261,10 @@ This is an internal production-readiness report. It identifies items that need d
 | multimodal-ddl | [CVPR VLM Workshop Paper](https://cvpr.thecvf.com) | manual/source-board follow-up | 人工整理的官方来源入口 |
 | multimodal-ddl | [MMBench Leaderboard Snapshot](https://opencompass.org.cn/leaderboard-multimodal) | manual/source-board follow-up | 人工整理的官方来源入口 |
 | multimodal-ddl | [Multimodal Safety Red Team](https://openreview.net/) | manual/source-board follow-up | 人工整理的官方来源入口 |
-| multimodal-ddl | [LLaVA Bench Refresh](https://llava-vl.github.io) | manual/source-board follow-up | 人工整理的官方来源入口 |
-| multimodal-ddl | [ACL Multimodal NLP Workshop](https://www.aclweb.org) | manual/source-board follow-up | 人工整理的官方来源入口 |
-| multimodal-ddl | [Speech-to-Image Evaluation Track](https://www.kaggle.com/competitions) | manual/source-board follow-up | 人工整理的官方来源入口 |
-| multimodal-ddl | [Robotics VLA Benchmark](https://openreview.net/) | manual/source-board follow-up | 人工整理的官方来源入口 |
 
 ## Seed / Demo Source Wording
 
-| Topic | Item | Reason | Source |
-|---|---|---|---|
-| nlp-ddl | [Chinese NLPCC 2026 Demo Track](http://tcci.ccf.org.cn) | seed/demo source wording | SinoConf-style seed |
-| nlp-ddl | [ACL 2027 ARR Commitment](https://www.aclweb.org) | seed/demo source wording | AllConfs-style seed |
-| nlp-ddl | [SemEval 2027 System Submission](https://semeval.github.io) | seed/demo source wording | Shared-task demo |
-| nlp-ddl | [CoNLL Shared Task 2027](https://www.conll.org) | seed/demo source wording | Shared-task demo |
-| nlp-ddl | [WMT 2027 Translation Task](https://www.statmt.org/wmt) | seed/demo source wording | Benchmark demo |
-| academic-ddl | [NeurIPS 2026 Full Paper](https://neurips.cc) | seed/demo source wording | AllConfs-style seed |
-| academic-ddl | [ICLR 2027 Submission](https://iclr.cc) | seed/demo source wording | OpenReview-style seed |
-| journal-ddl | [Metal-Air Batteries: Advances in Materials, Design, and Practical Deployment](https://www.sciencedirect.com/browse/calls-for-papers) | seed/demo source wording | Elsevier Chinese CFP seed |
-| journal-ddl | [Advances in Sustainable Materials and Interfaces for Emerging Solar Cells](https://www.sciencedirect.com/browse/calls-for-papers) | seed/demo source wording | Elsevier Chinese CFP seed |
-| journal-ddl | [AI-Driven Systematic Pathways to Green Transformation](https://www.sciencedirect.com/browse/calls-for-papers) | seed/demo source wording | Elsevier Chinese CFP seed |
-| journal-ddl | [Digital Twin and Scenario-Based Assessments for Sustainable Energy Technologies](https://www.sciencedirect.com/browse/calls-for-papers) | seed/demo source wording | Elsevier Chinese CFP seed |
-| journal-ddl | [Future Batteries for Sustainability](https://www.sciencedirect.com/browse/calls-for-papers) | seed/demo source wording | Elsevier Chinese CFP seed |
-| journal-ddl | [Heterogeneously Integrated Photonic Chips](https://www.sciencedirect.com/browse/calls-for-papers) | seed/demo source wording | Elsevier Chinese CFP seed |
-| journal-ddl | [Photo(Electro)catalytic Approaches for Clean Energy and Environment](https://www.sciencedirect.com/browse/calls-for-papers) | seed/demo source wording | Elsevier Chinese CFP seed |
-| journal-ddl | [Removal of Micropollutants](https://www.sciencedirect.com/browse/calls-for-papers) | seed/demo source wording | Elsevier Chinese CFP seed |
-| journal-ddl | [Sustainability and Circular Economy in Electric Energy Storage](https://www.sciencedirect.com/browse/calls-for-papers) | seed/demo source wording | Elsevier Chinese CFP seed |
-| journal-ddl | [Thermal and Fire Safety of Renewable Energy and Storage Systems](https://www.sciencedirect.com/browse/calls-for-papers) | seed/demo source wording | Elsevier Chinese CFP seed |
-| programming-ddl | [Lanqiao Cup Provincial Round](https://dasai.lanqiao.cn) | seed/demo source wording | SinoConf-style seed |
-| holiday-ddl | [小满 2026](https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm) | seed/demo source wording | Hong Kong Observatory almanac seed |
-| holiday-ddl | [芒种 2026](https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm) | seed/demo source wording | Hong Kong Observatory almanac seed |
-| holiday-ddl | [端午节 2026](https://www.gov.cn/) | seed/demo source wording | Gov calendar seed |
-| holiday-ddl | [夏至 2026](https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm) | seed/demo source wording | Hong Kong Observatory almanac seed |
-| holiday-ddl | [Father's Day 2026](https://www.timeanddate.com/holidays/) | seed/demo source wording | International calendar seed |
-| holiday-ddl | [小暑 2026](https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm) | seed/demo source wording | Hong Kong Observatory almanac seed |
-| holiday-ddl | [大暑 2026](https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm) | seed/demo source wording | Hong Kong Observatory almanac seed |
-| holiday-ddl | [立秋 2026](https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm) | seed/demo source wording | Hong Kong Observatory almanac seed |
-| holiday-ddl | [七夕 2026](https://www.timeanddate.com/holidays/) | seed/demo source wording | Lunar calendar seed |
-| holiday-ddl | [处暑 2026](https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm) | seed/demo source wording | Hong Kong Observatory almanac seed |
-| holiday-ddl | [中元节 2026](https://www.timeanddate.com/holidays/) | seed/demo source wording | Lunar calendar seed |
-| holiday-ddl | [白露 2026](https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm) | seed/demo source wording | Hong Kong Observatory almanac seed |
-| holiday-ddl | [秋分 2026](https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm) | seed/demo source wording | Hong Kong Observatory almanac seed |
-| holiday-ddl | [中秋节 2026](https://www.gov.cn/) | seed/demo source wording | Gov calendar seed |
-| holiday-ddl | [国庆节 2026](https://www.gov.cn/) | seed/demo source wording | Gov calendar seed |
-| holiday-ddl | [寒露 2026](https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm) | seed/demo source wording | Hong Kong Observatory almanac seed |
-| holiday-ddl | [重阳节 2026](https://www.timeanddate.com/holidays/) | seed/demo source wording | Lunar calendar seed |
-| holiday-ddl | [霜降 2026](https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm) | seed/demo source wording | Hong Kong Observatory almanac seed |
-| holiday-ddl | [Halloween 2026](https://www.timeanddate.com/holidays/) | seed/demo source wording | International calendar seed |
-| holiday-ddl | [立冬 2026](https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm) | seed/demo source wording | Hong Kong Observatory almanac seed |
-| holiday-ddl | [Singles Day 2026](https://www.timeanddate.com/holidays/) | seed/demo source wording | International calendar seed |
-| holiday-ddl | [小雪 2026](https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm) | seed/demo source wording | Hong Kong Observatory almanac seed |
-| holiday-ddl | [Black Friday 2026](https://www.timeanddate.com/holidays/) | seed/demo source wording | International calendar seed |
-| holiday-ddl | [大雪 2026](https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm) | seed/demo source wording | Hong Kong Observatory almanac seed |
-| holiday-ddl | [冬至 2026](https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm) | seed/demo source wording | Hong Kong Observatory almanac seed |
-| holiday-ddl | [Christmas Day 2026](https://www.timeanddate.com/holidays/) | seed/demo source wording | International calendar seed |
-| holiday-ddl | [New Year 2027](https://www.timeanddate.com/holidays/) | seed/demo source wording | International calendar seed |
-| holiday-ddl | [腊八节 2027](https://www.timeanddate.com/holidays/) | seed/demo source wording | Lunar calendar seed |
-| holiday-ddl | [元旦 2026](https://www.gov.cn/) | seed/demo source wording | Gov calendar seed |
-| holiday-ddl | [小寒 2026](https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm) | seed/demo source wording | Hong Kong Observatory almanac seed |
-| holiday-ddl | [大寒 2026](https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm) | seed/demo source wording | Hong Kong Observatory almanac seed |
-| holiday-ddl | [立春 2026](https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm) | seed/demo source wording | Hong Kong Observatory almanac seed |
-| holiday-ddl | [小年 2026](https://www.timeanddate.com/holidays/) | seed/demo source wording | Lunar calendar seed |
-| holiday-ddl | [Valentine's Day 2026](https://www.timeanddate.com/holidays/) | seed/demo source wording | International calendar seed |
-| holiday-ddl | [除夕 2026](https://www.gov.cn/) | seed/demo source wording | Lunar calendar seed |
-| holiday-ddl | [春节 2026](https://www.gov.cn/) | seed/demo source wording | Gov calendar seed |
-| holiday-ddl | [雨水 2026](https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm) | seed/demo source wording | Hong Kong Observatory almanac seed |
-| holiday-ddl | [元宵节 2026](https://www.timeanddate.com/holidays/) | seed/demo source wording | Lunar calendar seed |
-| holiday-ddl | [惊蛰 2026](https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm) | seed/demo source wording | Hong Kong Observatory almanac seed |
-| holiday-ddl | [St Patrick's Day 2026](https://www.timeanddate.com/holidays/) | seed/demo source wording | International calendar seed |
-| holiday-ddl | [春分 2026](https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm) | seed/demo source wording | Hong Kong Observatory almanac seed |
-| holiday-ddl | [龙抬头 2026](https://www.timeanddate.com/holidays/) | seed/demo source wording | Lunar calendar seed |
-| holiday-ddl | [April Fools' Day 2026](https://www.timeanddate.com/holidays/) | seed/demo source wording | International calendar seed |
-| holiday-ddl | [清明 2026](https://www.gov.cn/) | seed/demo source wording | Gov / almanac seed |
-| holiday-ddl | [谷雨 2026](https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm) | seed/demo source wording | Hong Kong Observatory almanac seed |
-| holiday-ddl | [Earth Day 2026](https://www.earthday.org) | seed/demo source wording | Official observance seed |
-| holiday-ddl | [劳动节 2026](https://www.gov.cn/) | seed/demo source wording | Gov calendar seed |
-| holiday-ddl | [立夏 2026](https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm) | seed/demo source wording | Hong Kong Observatory almanac seed |
-| holiday-ddl | [Mother's Day 2026](https://www.timeanddate.com/holidays/) | seed/demo source wording | International calendar seed |
-| multimodal-ddl | [VQA Challenge 2026](https://visualqa.org) | seed/demo source wording | Benchmark demo |
-| multimodal-ddl | [TextVQA Refresh](https://textvqa.org) | seed/demo source wording | Benchmark demo |
-| multimodal-ddl | [MMMU Challenge 2026](https://mmmu-benchmark.github.io) | seed/demo source wording | Benchmark demo |
-| multimodal-ddl | [AIGC Evaluation 2026](https://www.kaggle.com/competitions) | seed/demo source wording | Kaggle-style demo |
-| multimodal-ddl | [Video-MME Leaderboard Freeze](https://video-mme.github.io) | seed/demo source wording | Benchmark demo |
-| security-ddl | [DEF CON CTF Qualifier](https://defcon.org) | seed/demo source wording | DEF CON |
-| security-ddl | [Google CTF 2026](https://capturetheflag.withgoogle.com) | seed/demo source wording | Google CTF |
-| security-ddl | [Hack The Box Business CTF](https://ctf.hackthebox.com) | seed/demo source wording | Hack The Box CTF |
-| security-ddl | [SECCON CTF Quals](https://www.seccon.jp) | seed/demo source wording | SECCON |
-| security-ddl | [HITCON CTF](https://ctf.hitcon.org) | seed/demo source wording | HITCON CTF |
-| security-ddl | [Pwn2Own Entry Window](https://www.zerodayinitiative.com) | seed/demo source wording | Zero Day Initiative |
-| security-ddl | [Black Hat Arsenal Submission](https://www.blackhat.com) | seed/demo source wording | Black Hat |
-| security-ddl | [USENIX Security Artifact Evaluation](https://www.usenix.org/conferences) | seed/demo source wording | USENIX Conferences |
+_None._
 
 ## Aggregator Or Review-Platform Source
 

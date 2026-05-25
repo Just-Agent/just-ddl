@@ -17,7 +17,7 @@ const AGGREGATOR_HOSTS = new Set([
   'sinoconf.napstic.cn',
 ]);
 
-const SEED_SOURCE_PATTERN = /\b(?:seed|demo|style seed|source board|benchmark demo)\b/i;
+const SEED_SOURCE_PATTERN = /\b(?:seed|style seed|benchmark demo|shared-task demo|kaggle-style demo)\b/i;
 const SOURCE_BOARD_PATTERN = /\bsource board\b|来源入口|官方入口|报名入口|考位|待.*官方公告|以官方公告为准|按官方.*为准/i;
 
 function extractJsonAfter(source, marker, open, close) {
@@ -149,7 +149,7 @@ for (const [topicId, items] of Object.entries(ddlData)) {
     if (SOURCE_BOARD_PATTERN.test(text) || isPlaceholder) {
       rows.push(compactItem(topicId, item, 'manual/source-board follow-up'));
     }
-    if (SEED_SOURCE_PATTERN.test(item.source || '') || SEED_SOURCE_PATTERN.test(item.stage || '')) {
+    if (SEED_SOURCE_PATTERN.test(item.source || '')) {
       rows.push(compactItem(topicId, item, 'seed/demo source wording'));
     }
     if (AGGREGATOR_HOSTS.has(host)) {

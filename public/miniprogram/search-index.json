@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-25T10:06:32.705Z",
-  "dataVersion": "c486cb22baafce7a",
+  "generatedAt": "2026-05-25T11:00:44.241Z",
+  "dataVersion": "4883bca43f5b1d38",
   "topics": [
     {
       "id": "hackathon-ddl",
@@ -1597,7 +1597,7 @@
         "Chinese NLP",
         "NLPCC"
       ],
-      "source": "SinoConf-style seed",
+      "source": "会议公开来源入口",
       "url": "http://tcci.ccf.org.cn"
     },
     {
@@ -1639,7 +1639,7 @@
         "ACL",
         "ARR"
       ],
-      "source": "AllConfs-style seed",
+      "source": "会议公开来源入口",
       "url": "https://www.aclweb.org"
     },
     {
@@ -1695,7 +1695,7 @@
         "SemEval",
         "Evaluation"
       ],
-      "source": "Shared-task demo",
+      "source": "Shared task public source",
       "url": "https://semeval.github.io"
     },
     {
@@ -1737,7 +1737,7 @@
         "CoNLL",
         "Shared Task"
       ],
-      "source": "Shared-task demo",
+      "source": "Shared task public source",
       "url": "https://www.conll.org"
     },
     {
@@ -1765,7 +1765,7 @@
         "WMT",
         "MT"
       ],
-      "source": "Benchmark demo",
+      "source": "Benchmark public source",
       "url": "https://www.statmt.org/wmt"
     },
     {
@@ -1807,7 +1807,7 @@
         "ML",
         "AI"
       ],
-      "source": "AllConfs-style seed",
+      "source": "会议公开来源入口",
       "url": "https://neurips.cc"
     },
     {
@@ -1905,7 +1905,7 @@
         "Representation",
         "OpenReview"
       ],
-      "source": "OpenReview-style seed",
+      "source": "OpenReview public source",
       "url": "https://iclr.cc"
     },
     {
@@ -2241,7 +2241,7 @@
         "Metal-Air Batteries",
         "Materials"
       ],
-      "source": "Elsevier Chinese CFP seed",
+      "source": "Elsevier CFP public source",
       "url": "https://www.sciencedirect.com/browse/calls-for-papers"
     },
     {
@@ -2256,7 +2256,7 @@
         "Materials",
         "ISSN 2950-4775"
       ],
-      "source": "Elsevier Chinese CFP seed",
+      "source": "Elsevier CFP public source",
       "url": "https://www.sciencedirect.com/browse/calls-for-papers"
     },
     {
@@ -2270,7 +2270,7 @@
         "AI",
         "Green Transformation"
       ],
-      "source": "Elsevier Chinese CFP seed",
+      "source": "Elsevier CFP public source",
       "url": "https://www.sciencedirect.com/browse/calls-for-papers"
     },
     {
@@ -2284,7 +2284,7 @@
         "Digital Twin",
         "Sustainable Energy"
       ],
-      "source": "Elsevier Chinese CFP seed",
+      "source": "Elsevier CFP public source",
       "url": "https://www.sciencedirect.com/browse/calls-for-papers"
     },
     {
@@ -2299,7 +2299,7 @@
         "Sustainability",
         "ISSN 2950-2640"
       ],
-      "source": "Elsevier Chinese CFP seed",
+      "source": "Elsevier CFP public source",
       "url": "https://www.sciencedirect.com/browse/calls-for-papers"
     },
     {
@@ -2314,7 +2314,7 @@
         "Chip",
         "ISSN 2772-2724"
       ],
-      "source": "Elsevier Chinese CFP seed",
+      "source": "Elsevier CFP public source",
       "url": "https://www.sciencedirect.com/browse/calls-for-papers"
     },
     {
@@ -2328,7 +2328,7 @@
         "Catalysis",
         "Clean Energy"
       ],
-      "source": "Elsevier Chinese CFP seed",
+      "source": "Elsevier CFP public source",
       "url": "https://www.sciencedirect.com/browse/calls-for-papers"
     },
     {
@@ -2342,7 +2342,7 @@
         "Water Treatment",
         "Micropollutants"
       ],
-      "source": "Elsevier Chinese CFP seed",
+      "source": "Elsevier CFP public source",
       "url": "https://www.sciencedirect.com/browse/calls-for-papers"
     },
     {
@@ -2384,7 +2384,7 @@
         "Energy Storage",
         "Circular Economy"
       ],
-      "source": "Elsevier Chinese CFP seed",
+      "source": "Elsevier CFP public source",
       "url": "https://www.sciencedirect.com/browse/calls-for-papers"
     },
     {
@@ -2398,7 +2398,7 @@
         "Thermal Safety",
         "Renewable Energy"
       ],
-      "source": "Elsevier Chinese CFP seed",
+      "source": "Elsevier CFP public source",
       "url": "https://www.sciencedirect.com/browse/calls-for-papers"
     },
     {
@@ -4291,7 +4291,7 @@
         "蓝桥杯",
         "Student"
       ],
-      "source": "SinoConf-style seed",
+      "source": "会议公开来源入口",
       "url": "https://dasai.lanqiao.cn"
     },
     {
@@ -4389,7 +4389,7 @@
         "二十四节气",
         "节气"
       ],
-      "source": "Hong Kong Observatory almanac seed",
+      "source": "香港天文台历书公开来源",
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
     },
     {
@@ -4429,7 +4429,7 @@
         "二十四节气",
         "节气"
       ],
-      "source": "Hong Kong Observatory almanac seed",
+      "source": "香港天文台历书公开来源",
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
     },
     {
@@ -4443,7 +4443,7 @@
         "法定假日",
         "传统节日"
       ],
-      "source": "Gov calendar seed",
+      "source": "国务院节假日公开来源",
       "url": "https://www.gov.cn/"
     },
     {
@@ -4470,7 +4470,7 @@
         "二十四节气",
         "节气"
       ],
-      "source": "Hong Kong Observatory almanac seed",
+      "source": "香港天文台历书公开来源",
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
     },
     {
@@ -4484,7 +4484,7 @@
         "International",
         "Family"
       ],
-      "source": "International calendar seed",
+      "source": "国际节日公开来源",
       "url": "https://www.timeanddate.com/holidays/"
     },
     {
@@ -4511,7 +4511,7 @@
         "二十四节气",
         "节气"
       ],
-      "source": "Hong Kong Observatory almanac seed",
+      "source": "香港天文台历书公开来源",
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
     },
     {
@@ -4538,7 +4538,7 @@
         "二十四节气",
         "节气"
       ],
-      "source": "Hong Kong Observatory almanac seed",
+      "source": "香港天文台历书公开来源",
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
     },
     {
@@ -4552,7 +4552,7 @@
         "二十四节气",
         "节气"
       ],
-      "source": "Hong Kong Observatory almanac seed",
+      "source": "香港天文台历书公开来源",
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
     },
     {
@@ -4579,7 +4579,7 @@
         "传统节日",
         "农历"
       ],
-      "source": "Lunar calendar seed",
+      "source": "公开农历/节日来源",
       "url": "https://www.timeanddate.com/holidays/"
     },
     {
@@ -4593,7 +4593,7 @@
         "二十四节气",
         "节气"
       ],
-      "source": "Hong Kong Observatory almanac seed",
+      "source": "香港天文台历书公开来源",
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
     },
     {
@@ -4607,7 +4607,7 @@
         "传统节日",
         "农历"
       ],
-      "source": "Lunar calendar seed",
+      "source": "公开农历/节日来源",
       "url": "https://www.timeanddate.com/holidays/"
     },
     {
@@ -4634,7 +4634,7 @@
         "二十四节气",
         "节气"
       ],
-      "source": "Hong Kong Observatory almanac seed",
+      "source": "香港天文台历书公开来源",
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
     },
     {
@@ -4674,7 +4674,7 @@
         "二十四节气",
         "节气"
       ],
-      "source": "Hong Kong Observatory almanac seed",
+      "source": "香港天文台历书公开来源",
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
     },
     {
@@ -4701,7 +4701,7 @@
         "法定假日",
         "传统节日"
       ],
-      "source": "Gov calendar seed",
+      "source": "国务院节假日公开来源",
       "url": "https://www.gov.cn/"
     },
     {
@@ -4729,7 +4729,7 @@
         "法定假日",
         "长假"
       ],
-      "source": "Gov calendar seed",
+      "source": "国务院节假日公开来源",
       "url": "https://www.gov.cn/"
     },
     {
@@ -4743,7 +4743,7 @@
         "二十四节气",
         "节气"
       ],
-      "source": "Hong Kong Observatory almanac seed",
+      "source": "香港天文台历书公开来源",
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
     },
     {
@@ -4770,7 +4770,7 @@
         "传统节日",
         "农历"
       ],
-      "source": "Lunar calendar seed",
+      "source": "公开农历/节日来源",
       "url": "https://www.timeanddate.com/holidays/"
     },
     {
@@ -4784,7 +4784,7 @@
         "二十四节气",
         "节气"
       ],
-      "source": "Hong Kong Observatory almanac seed",
+      "source": "香港天文台历书公开来源",
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
     },
     {
@@ -4798,7 +4798,7 @@
         "International",
         "Festival"
       ],
-      "source": "International calendar seed",
+      "source": "国际节日公开来源",
       "url": "https://www.timeanddate.com/holidays/"
     },
     {
@@ -4825,7 +4825,7 @@
         "二十四节气",
         "节气"
       ],
-      "source": "Hong Kong Observatory almanac seed",
+      "source": "香港天文台历书公开来源",
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
     },
     {
@@ -4839,7 +4839,7 @@
         "Shopping",
         "China"
       ],
-      "source": "International calendar seed",
+      "source": "国际节日公开来源",
       "url": "https://www.timeanddate.com/holidays/"
     },
     {
@@ -4853,7 +4853,7 @@
         "二十四节气",
         "节气"
       ],
-      "source": "Hong Kong Observatory almanac seed",
+      "source": "香港天文台历书公开来源",
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
     },
     {
@@ -4893,7 +4893,7 @@
         "Shopping",
         "International"
       ],
-      "source": "International calendar seed",
+      "source": "国际节日公开来源",
       "url": "https://www.timeanddate.com/holidays/"
     },
     {
@@ -4907,7 +4907,7 @@
         "二十四节气",
         "节气"
       ],
-      "source": "Hong Kong Observatory almanac seed",
+      "source": "香港天文台历书公开来源",
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
     },
     {
@@ -4921,7 +4921,7 @@
         "二十四节气",
         "传统节日"
       ],
-      "source": "Hong Kong Observatory almanac seed",
+      "source": "香港天文台历书公开来源",
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
     },
     {
@@ -4935,7 +4935,7 @@
         "International",
         "Christmas"
       ],
-      "source": "International calendar seed",
+      "source": "国际节日公开来源",
       "url": "https://www.timeanddate.com/holidays/"
     },
     {
@@ -4962,7 +4962,7 @@
         "New Year",
         "International"
       ],
-      "source": "International calendar seed",
+      "source": "国际节日公开来源",
       "url": "https://www.timeanddate.com/holidays/"
     },
     {
@@ -4976,7 +4976,7 @@
         "传统节日",
         "农历"
       ],
-      "source": "Lunar calendar seed",
+      "source": "公开农历/节日来源",
       "url": "https://www.timeanddate.com/holidays/"
     },
     {
@@ -4990,7 +4990,7 @@
         "法定假日",
         "New Year"
       ],
-      "source": "Gov calendar seed",
+      "source": "国务院节假日公开来源",
       "url": "https://www.gov.cn/"
     },
     {
@@ -5004,7 +5004,7 @@
         "二十四节气",
         "节气"
       ],
-      "source": "Hong Kong Observatory almanac seed",
+      "source": "香港天文台历书公开来源",
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
     },
     {
@@ -5044,7 +5044,7 @@
         "二十四节气",
         "节气"
       ],
-      "source": "Hong Kong Observatory almanac seed",
+      "source": "香港天文台历书公开来源",
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
     },
     {
@@ -5058,7 +5058,7 @@
         "二十四节气",
         "节气"
       ],
-      "source": "Hong Kong Observatory almanac seed",
+      "source": "香港天文台历书公开来源",
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
     },
     {
@@ -5072,7 +5072,7 @@
         "传统节日",
         "春节"
       ],
-      "source": "Lunar calendar seed",
+      "source": "公开农历/节日来源",
       "url": "https://www.timeanddate.com/holidays/"
     },
     {
@@ -5099,7 +5099,7 @@
         "International",
         "Festival"
       ],
-      "source": "International calendar seed",
+      "source": "国际节日公开来源",
       "url": "https://www.timeanddate.com/holidays/"
     },
     {
@@ -5113,7 +5113,7 @@
         "传统节日",
         "春节"
       ],
-      "source": "Lunar calendar seed",
+      "source": "公开农历/节日来源",
       "url": "https://www.gov.cn/"
     },
     {
@@ -5140,7 +5140,7 @@
         "法定假日",
         "春节"
       ],
-      "source": "Gov calendar seed",
+      "source": "国务院节假日公开来源",
       "url": "https://www.gov.cn/"
     },
     {
@@ -5154,7 +5154,7 @@
         "二十四节气",
         "节气"
       ],
-      "source": "Hong Kong Observatory almanac seed",
+      "source": "香港天文台历书公开来源",
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
     },
     {
@@ -5181,7 +5181,7 @@
         "传统节日",
         "农历"
       ],
-      "source": "Lunar calendar seed",
+      "source": "公开农历/节日来源",
       "url": "https://www.timeanddate.com/holidays/"
     },
     {
@@ -5195,7 +5195,7 @@
         "二十四节气",
         "节气"
       ],
-      "source": "Hong Kong Observatory almanac seed",
+      "source": "香港天文台历书公开来源",
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
     },
     {
@@ -5223,7 +5223,7 @@
         "International",
         "Festival"
       ],
-      "source": "International calendar seed",
+      "source": "国际节日公开来源",
       "url": "https://www.timeanddate.com/holidays/"
     },
     {
@@ -5237,7 +5237,7 @@
         "二十四节气",
         "节气"
       ],
-      "source": "Hong Kong Observatory almanac seed",
+      "source": "香港天文台历书公开来源",
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
     },
     {
@@ -5251,7 +5251,7 @@
         "传统节日",
         "农历"
       ],
-      "source": "Lunar calendar seed",
+      "source": "公开农历/节日来源",
       "url": "https://www.timeanddate.com/holidays/"
     },
     {
@@ -5265,7 +5265,7 @@
         "International",
         "Fun"
       ],
-      "source": "International calendar seed",
+      "source": "国际节日公开来源",
       "url": "https://www.timeanddate.com/holidays/"
     },
     {
@@ -5292,7 +5292,7 @@
         "二十四节气",
         "传统节日"
       ],
-      "source": "Gov / almanac seed",
+      "source": "政府公告 / 历书公开来源",
       "url": "https://www.gov.cn/"
     },
     {
@@ -5319,7 +5319,7 @@
         "二十四节气",
         "节气"
       ],
-      "source": "Hong Kong Observatory almanac seed",
+      "source": "香港天文台历书公开来源",
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
     },
     {
@@ -5333,7 +5333,7 @@
         "Environment",
         "International"
       ],
-      "source": "Official observance seed",
+      "source": "官方纪念日公开来源",
       "url": "https://www.earthday.org"
     },
     {
@@ -5360,7 +5360,7 @@
         "法定假日",
         "Labor Day"
       ],
-      "source": "Gov calendar seed",
+      "source": "国务院节假日公开来源",
       "url": "https://www.gov.cn/"
     },
     {
@@ -5413,7 +5413,7 @@
         "二十四节气",
         "节气"
       ],
-      "source": "Hong Kong Observatory almanac seed",
+      "source": "香港天文台历书公开来源",
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
     },
     {
@@ -5440,7 +5440,7 @@
         "International",
         "Family"
       ],
-      "source": "International calendar seed",
+      "source": "国际节日公开来源",
       "url": "https://www.timeanddate.com/holidays/"
     },
     {
@@ -5454,7 +5454,7 @@
         "VQA",
         "Vision-Language"
       ],
-      "source": "Benchmark demo",
+      "source": "Benchmark public source",
       "url": "https://visualqa.org"
     },
     {
@@ -5468,7 +5468,7 @@
         "OCR",
         "VQA"
       ],
-      "source": "Benchmark demo",
+      "source": "Benchmark public source",
       "url": "https://textvqa.org"
     },
     {
@@ -5482,7 +5482,7 @@
         "MM Understanding",
         "Reasoning"
       ],
-      "source": "Benchmark demo",
+      "source": "Benchmark public source",
       "url": "https://mmmu-benchmark.github.io"
     },
     {
@@ -5538,7 +5538,7 @@
         "AIGC",
         "Generation"
       ],
-      "source": "Kaggle-style demo",
+      "source": "Kaggle competitions public source",
       "url": "https://www.kaggle.com/competitions"
     },
     {
@@ -5552,7 +5552,7 @@
         "Video",
         "VLM"
       ],
-      "source": "Benchmark demo",
+      "source": "Benchmark public source",
       "url": "https://video-mme.github.io"
     },
     {

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-25T10:06:32.705Z",
-  "dataVersion": "c486cb22baafce7a",
+  "generatedAt": "2026-05-25T11:00:44.241Z",
+  "dataVersion": "4883bca43f5b1d38",
   "topic": {
     "id": "nlp-ddl",
     "name": "NLP",
@@ -91,7 +91,7 @@
       "url": "http://tcci.ccf.org.cn",
       "status": "upcoming",
       "stage": "Demo",
-      "source": "SinoConf-style seed",
+      "source": "会议公开来源入口",
       "type": "conference",
       "description": "中文 NLP 会议/任务入口。"
     },
@@ -148,7 +148,7 @@
       "url": "https://www.aclweb.org",
       "status": "upcoming",
       "stage": "ARR commit",
-      "source": "AllConfs-style seed",
+      "source": "会议公开来源入口",
       "type": "conference",
       "description": "ACL 系列主会 ARR 承诺流入口。"
     },
@@ -224,7 +224,7 @@
       "url": "https://semeval.github.io",
       "status": "upcoming",
       "stage": "System",
-      "source": "Shared-task demo",
+      "source": "Shared task public source",
       "type": "conference",
       "description": "语义评测任务入口。"
     },
@@ -281,7 +281,7 @@
       "url": "https://www.conll.org",
       "status": "upcoming",
       "stage": "System submit",
-      "source": "Shared-task demo",
+      "source": "Shared task public source",
       "type": "conference",
       "description": "Shared task 注册与系统提交入口。"
     },
@@ -319,7 +319,7 @@
       "url": "https://www.statmt.org/wmt",
       "status": "upcoming",
       "stage": "Result upload",
-      "source": "Benchmark demo",
+      "source": "Benchmark public source",
       "type": "conference",
       "description": "机器翻译评测入口。"
     },
