@@ -1,5 +1,6 @@
 import fs from 'node:fs';
 import path from 'node:path';
+import crypto from 'node:crypto';
 
 const ROOT = process.cwd();
 const DDL_PATH = path.join(ROOT, 'src/data/ddl-data.ts');
@@ -123,6 +124,19 @@ function escapePipe(value) {
   return String(value || '').replace(/\|/g, '\\|').replace(/\r?\n/g, ' ');
 }
 
+function checksum(value) {
+  return crypto.createHash('sha256').update(JSON.stringify(value)).digest('hex');
+}
+
+function readExistingJson(filePath) {
+  if (!fs.existsSync(filePath)) return null;
+  try {
+    return JSON.parse(fs.readFileSync(filePath, 'utf8'));
+  } catch {
+    return null;
+  }
+}
+
 const ddlSource = fs.readFileSync(DDL_PATH, 'utf8');
 const ddlData = JSON.parse(extractJsonAfter(ddlSource, 'export const ddlData', '{', '}'));
 
@@ -175,8 +189,7 @@ const buckets = {
   aggregatorSource: uniqueRows.filter(row => row.reason === 'aggregator or review-platform source'),
 };
 
-const report = {
-  generatedAt: new Date().toISOString(),
+const reportPayload = {
   totalItems,
   officialDeadlineItems,
   buckets: Object.fromEntries(Object.entries(buckets).map(([name, bucket]) => [
@@ -187,6 +200,16 @@ const report = {
       sample: topRows(bucket, 30),
     },
   ])),
+};
+const dataVersion = checksum(reportPayload).slice(0, 16);
+const existingReport = readExistingJson(JSON_REPORT);
+const generatedAt = existingReport?.dataVersion === dataVersion && existingReport?.generatedAt
+  ? existingReport.generatedAt
+  : new Date().toISOString();
+const report = {
+  generatedAt,
+  dataVersion,
+  ...reportPayload,
 };
 
 fs.mkdirSync(REPORT_DIR, { recursive: true });

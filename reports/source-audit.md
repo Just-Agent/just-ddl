@@ -1,6 +1,6 @@
 # Just-DDL Source Audit
 
-Generated: 2026-05-25T11:05:36.075Z
+Generated: 2026-05-25T12:11:43.504Z
 
 This is an internal production-readiness report. It identifies items that need detail-page upgrades, sourceUrl completion, manual maintenance, or official-source verification. It is not published to GitHub Pages or miniprogram exports.
 

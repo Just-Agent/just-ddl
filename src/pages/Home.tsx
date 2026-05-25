@@ -23,16 +23,16 @@ function isSameLocalDay(time: number, base = new Date()) {
     && date.getDate() === base.getDate();
 }
 
-function isWithinDays(item: DDLItem, days: number) {
+function isWithinDays(item: DDLItem, days: number, now: number) {
   if (!hasOfficialDeadline(item)) return false;
   const time = ddlItemTime(item);
-  const now = Date.now();
   return time >= now && time <= now + days * DAY_MS;
 }
 
 export default function Home() {
   const [activeCategory, setActiveCategory] = useState('全部');
   const [search, setSearch] = useState('');
+  const [now] = useState(() => Date.now());
   const { subscribedIds } = useSubscriptions();
   const { language, copy, topicName, topicDescription, categoryName, tagName } = useLanguage();
 
@@ -86,9 +86,9 @@ export default function Home() {
   ), [activeOfficialItems]);
   const riskItems = useMemo(() => (
     activeOfficialItems
-      .filter(item => isWithinDays(item, 7))
+      .filter(item => isWithinDays(item, 7, now))
       .slice(0, 5)
-  ), [activeOfficialItems]);
+  ), [activeOfficialItems, now]);
   const featured = useMemo(() => {
     return [...topics]
       .sort((a, b) => {
@@ -103,14 +103,14 @@ export default function Home() {
       .map(topic => {
         const metrics = topicMetrics.get(topic.id);
         const nextTime = metrics?.next ? ddlItemTime(metrics.next) : Number.MAX_SAFE_INTEGER;
-        const days = Number.isFinite(nextTime) ? Math.max(0, Math.ceil((nextTime - Date.now()) / DAY_MS)) : 9999;
+        const days = Number.isFinite(nextTime) ? Math.max(0, Math.ceil((nextTime - now) / DAY_MS)) : 9999;
         const urgency = days <= 7 ? 24 : days <= 30 ? 12 : days <= 90 ? 4 : 0;
         const score = (metrics?.active || 0) * 3 + (metrics?.sources || 0) * 5 + urgency;
         return { topic, metrics, score };
       })
       .sort((a, b) => b.score - a.score || (b.metrics?.active || 0) - (a.metrics?.active || 0))
       .slice(0, 6);
-  }, [topicMetrics]);
+  }, [now, topicMetrics]);
 
   const heroStats = [
     { label: copy.home.topics, value: topics.length, icon: FolderOpen, color: '#D97706' },
