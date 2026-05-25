@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-24T23:14:53.142Z",
-  "dataVersion": "63cb7ff47fac4a49",
+  "generatedAt": "2026-05-25T02:14:55.338Z",
+  "dataVersion": "103962f86a707426",
   "topics": [
     {
       "id": "hackathon-ddl",
@@ -415,14 +415,14 @@
     {
       "id": "llm-release-ddl",
       "name": "大模型发布",
-      "description": "Kimi、GLM、MiniMax、DeepSeek 等主力模型版本历史节点、距上次发布时长与下一代预测窗口。",
+      "description": "Kimi、Qwen、GLM、MiniMax、DeepSeek 等主力模型版本历史节点、距上次发布时长与下一代预测窗口。",
       "category": "AI 发布",
       "tags": [
         "LLM",
         "model release",
         "forecast"
       ],
-      "itemCount": 19,
+      "itemCount": 24,
       "status": "published"
     },
     {
@@ -10270,6 +10270,24 @@
       "source": "DeepSeek API Docs"
     },
     {
+      "id": "qwen-next-major-forecast-2026",
+      "topicId": "llm-release-ddl",
+      "title": "下一代 Qwen 主线模型发布窗口预测",
+      "estimatedNextWindow": {
+        "start": "2026-04-16",
+        "end": "2026-05-31"
+      },
+      "type": "forecastWindow",
+      "status": "unannounced",
+      "tags": [
+        "Qwen",
+        "forecast",
+        "model cadence"
+      ],
+      "subtopic": "qwen",
+      "source": "Qwen Blog"
+    },
+    {
       "id": "glm-next-major-forecast-2026",
       "topicId": "llm-release-ddl",
       "title": "GLM 下一代主力模型预测窗口",
@@ -10342,6 +10360,51 @@
       "source": "MiniMax"
     },
     {
+      "id": "qwen-1-5-release",
+      "topicId": "llm-release-ddl",
+      "title": "Qwen1.5 发布",
+      "date": "2024-02-04",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "Qwen",
+        "Alibaba Cloud",
+        "foundation model"
+      ],
+      "subtopic": "qwen",
+      "source": "Qwen Blog"
+    },
+    {
+      "id": "qwen-2-release",
+      "topicId": "llm-release-ddl",
+      "title": "Qwen2 发布",
+      "date": "2024-06-07",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "Qwen",
+        "Qwen2",
+        "foundation model"
+      ],
+      "subtopic": "qwen",
+      "source": "Qwen Blog"
+    },
+    {
+      "id": "qwen-2-5-release",
+      "topicId": "llm-release-ddl",
+      "title": "Qwen2.5 发布",
+      "date": "2024-09-19",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "Qwen",
+        "Qwen2.5",
+        "foundation model"
+      ],
+      "subtopic": "qwen",
+      "source": "Qwen Blog"
+    },
+    {
       "id": "deepseek-r1-release",
       "topicId": "llm-release-ddl",
       "title": "DeepSeek-R1 发布",
@@ -10355,6 +10418,21 @@
       ],
       "subtopic": "deepseek",
       "source": "DeepSeek API Docs"
+    },
+    {
+      "id": "qwen-3-release",
+      "topicId": "llm-release-ddl",
+      "title": "Qwen3 发布",
+      "date": "2025-04-29",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "Qwen",
+        "Qwen3",
+        "thinking model"
+      ],
+      "subtopic": "qwen",
+      "source": "Qwen Blog"
     },
     {
       "id": "deepseek-r1-0528",

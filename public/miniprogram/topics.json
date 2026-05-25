@@ -555,7 +555,7 @@
   {
     "id": "llm-release-ddl",
     "name": "大模型发布",
-    "description": "Kimi、GLM、MiniMax、DeepSeek 等主力模型版本历史节点、距上次发布时长与下一代预测窗口。",
+    "description": "Kimi、Qwen、GLM、MiniMax、DeepSeek 等主力模型版本历史节点、距上次发布时长与下一代预测窗口。",
     "icon": "Bot",
     "color": "#7C3AED",
     "repo": "Just-Agent/ai-model-release-ddl",
@@ -566,7 +566,7 @@
       "model release",
       "forecast"
     ],
-    "itemCount": 19,
+    "itemCount": 24,
     "status": "published",
     "sourceMode": "cluster",
     "clusterId": "ai-model-release-ddl"

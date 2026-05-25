@@ -15047,6 +15047,42 @@ export const ddlData: Record<string, DDLItem[]> = {
       "status": "upcoming"
     },
     {
+      "id": "qwen-next-major-forecast-2026",
+      "topicId": "llm-release-ddl",
+      "title": "下一代 Qwen 主线模型发布窗口预测",
+      "type": "forecastWindow",
+      "isDatePlaceholder": true,
+      "lastOfficialDate": "2025-04-29",
+      "estimatedNextWindow": {
+        "start": "2026-04-16",
+        "end": "2026-05-31"
+      },
+      "basisEvents": [
+        "qwen-1-5-release",
+        "qwen-2-release",
+        "qwen-2-5-release",
+        "qwen-3-release"
+      ],
+      "confidence": "medium",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "source": "Qwen Blog",
+      "sourceUrl": "https://qwenlm.github.io/blog/qwen3/",
+      "stage": "Forecast, not official date",
+      "category": "AI 发布",
+      "subtopic": "qwen",
+      "subtopicName": "Qwen",
+      "tags": [
+        "Qwen",
+        "forecast",
+        "model cadence"
+      ],
+      "description": "下一代 Qwen 主线模型尚未官宣具体日期；该窗口仅按官方历史发布节奏估算，不作为官方倒计时。",
+      "dateRange": "2026-04-16 - 2026-05-31",
+      "location": "Online",
+      "isOnline": true,
+      "status": "unannounced"
+    },
+    {
       "id": "glm-next-major-forecast-2026",
       "topicId": "llm-release-ddl",
       "title": "GLM 下一代主力模型预测窗口",
@@ -15188,6 +15224,78 @@ export const ddlData: Record<string, DDLItem[]> = {
       "isOnline": true
     },
     {
+      "id": "qwen-1-5-release",
+      "topicId": "llm-release-ddl",
+      "title": "Qwen1.5 发布",
+      "type": "historyEvent",
+      "date": "2024-02-04",
+      "url": "https://qwenlm.github.io/blog/qwen1.5/",
+      "source": "Qwen Blog",
+      "sourceUrl": "https://qwenlm.github.io/blog/qwen1.5/",
+      "stage": "Model release",
+      "category": "AI 发布",
+      "subtopic": "qwen",
+      "subtopicName": "Qwen",
+      "tags": [
+        "Qwen",
+        "Alibaba Cloud",
+        "foundation model"
+      ],
+      "description": "Qwen 官方博客记录 Qwen1.5 系列模型发布。",
+      "dateRange": "2024-02-04",
+      "location": "Online",
+      "isOnline": true,
+      "status": "ended"
+    },
+    {
+      "id": "qwen-2-release",
+      "topicId": "llm-release-ddl",
+      "title": "Qwen2 发布",
+      "type": "historyEvent",
+      "date": "2024-06-07",
+      "url": "https://qwenlm.github.io/blog/qwen2/",
+      "source": "Qwen Blog",
+      "sourceUrl": "https://qwenlm.github.io/blog/qwen2/",
+      "stage": "Model release",
+      "category": "AI 发布",
+      "subtopic": "qwen",
+      "subtopicName": "Qwen",
+      "tags": [
+        "Qwen",
+        "Qwen2",
+        "foundation model"
+      ],
+      "description": "Qwen 官方博客记录 Qwen2 系列模型发布。",
+      "dateRange": "2024-06-07",
+      "location": "Online",
+      "isOnline": true,
+      "status": "ended"
+    },
+    {
+      "id": "qwen-2-5-release",
+      "topicId": "llm-release-ddl",
+      "title": "Qwen2.5 发布",
+      "type": "historyEvent",
+      "date": "2024-09-19",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "source": "Qwen Blog",
+      "sourceUrl": "https://qwenlm.github.io/blog/qwen2.5/",
+      "stage": "Model release",
+      "category": "AI 发布",
+      "subtopic": "qwen",
+      "subtopicName": "Qwen",
+      "tags": [
+        "Qwen",
+        "Qwen2.5",
+        "foundation model"
+      ],
+      "description": "Qwen 官方博客记录 Qwen2.5 系列基础模型发布。",
+      "dateRange": "2024-09-19",
+      "location": "Online",
+      "isOnline": true,
+      "status": "ended"
+    },
+    {
       "id": "deepseek-r1-release",
       "topicId": "llm-release-ddl",
       "title": "DeepSeek-R1 发布",
@@ -15207,6 +15315,30 @@ export const ddlData: Record<string, DDLItem[]> = {
       ],
       "description": "DeepSeek 官方 API News 记录 DeepSeek-R1 上线。",
       "dateRange": "2025-01-20",
+      "location": "Online",
+      "isOnline": true,
+      "status": "ended"
+    },
+    {
+      "id": "qwen-3-release",
+      "topicId": "llm-release-ddl",
+      "title": "Qwen3 发布",
+      "type": "historyEvent",
+      "date": "2025-04-29",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "source": "Qwen Blog",
+      "sourceUrl": "https://qwenlm.github.io/blog/qwen3/",
+      "stage": "Model release",
+      "category": "AI 发布",
+      "subtopic": "qwen",
+      "subtopicName": "Qwen",
+      "tags": [
+        "Qwen",
+        "Qwen3",
+        "thinking model"
+      ],
+      "description": "Qwen 官方博客记录 Qwen3 系列模型发布。",
+      "dateRange": "2025-04-29",
       "location": "Online",
       "isOnline": true,
       "status": "ended"

@@ -586,7 +586,7 @@ export const topics: Topic[] = [
   {
     "id": "llm-release-ddl",
     "name": "大模型发布",
-    "description": "Kimi、GLM、MiniMax、DeepSeek 等主力模型版本历史节点、距上次发布时长与下一代预测窗口。",
+    "description": "Kimi、Qwen、GLM、MiniMax、DeepSeek 等主力模型版本历史节点、距上次发布时长与下一代预测窗口。",
     "icon": "Bot",
     "color": "#7C3AED",
     "repo": "Just-Agent/ai-model-release-ddl",
@@ -596,7 +596,7 @@ export const topics: Topic[] = [
     "clusterId": "ai-model-release-ddl",
     "dataUrl": "public-data/topics/llm-release-ddl/items.json",
     "metricsUrl": "public-data/topics/llm-release-ddl/metrics.json",
-    "itemCount": 19,
+    "itemCount": 24,
     "category": "AI 发布",
     "tags": [
       "LLM",

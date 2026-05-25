@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-05-24T23:14:53.142Z",
-  "dataVersion": "63cb7ff47fac4a49",
+  "generatedAt": "2026-05-25T02:14:55.338Z",
+  "dataVersion": "103962f86a707426",
   "topic": {
     "id": "llm-release-ddl",
     "name": "大模型发布",
-    "description": "Kimi、GLM、MiniMax、DeepSeek 等主力模型版本历史节点、距上次发布时长与下一代预测窗口。",
+    "description": "Kimi、Qwen、GLM、MiniMax、DeepSeek 等主力模型版本历史节点、距上次发布时长与下一代预测窗口。",
     "icon": "Bot",
     "color": "#7C3AED",
     "repo": "Just-Agent/ai-model-release-ddl",
@@ -15,7 +15,7 @@
       "model release",
       "forecast"
     ],
-    "itemCount": 19,
+    "itemCount": 24,
     "status": "published",
     "sourceMode": "cluster",
     "clusterId": "ai-model-release-ddl"
@@ -67,6 +67,41 @@
       "description": "DeepSeek 官方说明 deepseek-chat 与 deepseek-reasoner 将在该时间后不可访问。",
       "subtopic": "deepseek",
       "subtopicName": "DeepSeek",
+      "category": "AI 发布"
+    },
+    {
+      "id": "qwen-next-major-forecast-2026",
+      "topicId": "llm-release-ddl",
+      "title": "下一代 Qwen 主线模型发布窗口预测",
+      "dateRange": "2026-04-16 - 2026-05-31",
+      "estimatedNextWindow": {
+        "start": "2026-04-16",
+        "end": "2026-05-31"
+      },
+      "lastOfficialDate": "2025-04-29",
+      "basisEvents": [
+        "qwen-1-5-release",
+        "qwen-2-release",
+        "qwen-2-5-release",
+        "qwen-3-release"
+      ],
+      "confidence": "medium",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "Qwen",
+        "forecast",
+        "model cadence"
+      ],
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "status": "unannounced",
+      "stage": "Forecast, not official date",
+      "source": "Qwen Blog",
+      "sourceUrl": "https://qwenlm.github.io/blog/qwen3/",
+      "type": "forecastWindow",
+      "description": "下一代 Qwen 主线模型尚未官宣具体日期；该窗口仅按官方历史发布节奏估算，不作为官方倒计时。",
+      "subtopic": "qwen",
+      "subtopicName": "Qwen",
       "category": "AI 发布"
     },
     {
@@ -207,6 +242,78 @@
       "category": "AI 发布"
     },
     {
+      "id": "qwen-1-5-release",
+      "topicId": "llm-release-ddl",
+      "title": "Qwen1.5 发布",
+      "date": "2024-02-04",
+      "dateRange": "2024-02-04",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "Qwen",
+        "Alibaba Cloud",
+        "foundation model"
+      ],
+      "url": "https://qwenlm.github.io/blog/qwen1.5/",
+      "status": "ended",
+      "stage": "Model release",
+      "source": "Qwen Blog",
+      "sourceUrl": "https://qwenlm.github.io/blog/qwen1.5/",
+      "type": "historyEvent",
+      "description": "Qwen 官方博客记录 Qwen1.5 系列模型发布。",
+      "subtopic": "qwen",
+      "subtopicName": "Qwen",
+      "category": "AI 发布"
+    },
+    {
+      "id": "qwen-2-release",
+      "topicId": "llm-release-ddl",
+      "title": "Qwen2 发布",
+      "date": "2024-06-07",
+      "dateRange": "2024-06-07",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "Qwen",
+        "Qwen2",
+        "foundation model"
+      ],
+      "url": "https://qwenlm.github.io/blog/qwen2/",
+      "status": "ended",
+      "stage": "Model release",
+      "source": "Qwen Blog",
+      "sourceUrl": "https://qwenlm.github.io/blog/qwen2/",
+      "type": "historyEvent",
+      "description": "Qwen 官方博客记录 Qwen2 系列模型发布。",
+      "subtopic": "qwen",
+      "subtopicName": "Qwen",
+      "category": "AI 发布"
+    },
+    {
+      "id": "qwen-2-5-release",
+      "topicId": "llm-release-ddl",
+      "title": "Qwen2.5 发布",
+      "date": "2024-09-19",
+      "dateRange": "2024-09-19",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "Qwen",
+        "Qwen2.5",
+        "foundation model"
+      ],
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "status": "ended",
+      "stage": "Model release",
+      "source": "Qwen Blog",
+      "sourceUrl": "https://qwenlm.github.io/blog/qwen2.5/",
+      "type": "historyEvent",
+      "description": "Qwen 官方博客记录 Qwen2.5 系列基础模型发布。",
+      "subtopic": "qwen",
+      "subtopicName": "Qwen",
+      "category": "AI 发布"
+    },
+    {
       "id": "deepseek-r1-release",
       "topicId": "llm-release-ddl",
       "title": "DeepSeek-R1 发布",
@@ -228,6 +335,30 @@
       "description": "DeepSeek 官方 API News 记录 DeepSeek-R1 上线。",
       "subtopic": "deepseek",
       "subtopicName": "DeepSeek",
+      "category": "AI 发布"
+    },
+    {
+      "id": "qwen-3-release",
+      "topicId": "llm-release-ddl",
+      "title": "Qwen3 发布",
+      "date": "2025-04-29",
+      "dateRange": "2025-04-29",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "Qwen",
+        "Qwen3",
+        "thinking model"
+      ],
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "status": "ended",
+      "stage": "Model release",
+      "source": "Qwen Blog",
+      "sourceUrl": "https://qwenlm.github.io/blog/qwen3/",
+      "type": "historyEvent",
+      "description": "Qwen 官方博客记录 Qwen3 系列模型发布。",
+      "subtopic": "qwen",
+      "subtopicName": "Qwen",
       "category": "AI 发布"
     },
     {
@@ -521,6 +652,36 @@
   ],
   "metrics": [
     {
+      "id": "deepseek-v4-pro-parameter-scale",
+      "topicId": "llm-release-ddl",
+      "type": "metricSnapshot",
+      "metric": "model_parameter_scale",
+      "value": "1.6T total / 49B active",
+      "asOfDate": "2026-04-24",
+      "source": "DeepSeek API Docs",
+      "url": "https://api-docs.deepseek.com/news/news260424"
+    },
+    {
+      "id": "deepseek-v4-flash-parameter-scale",
+      "topicId": "llm-release-ddl",
+      "type": "metricSnapshot",
+      "metric": "model_parameter_scale",
+      "value": "284B total / 13B active",
+      "asOfDate": "2026-04-24",
+      "source": "DeepSeek API Docs",
+      "url": "https://api-docs.deepseek.com/news/news260424"
+    },
+    {
+      "id": "deepseek-v4-context-standard",
+      "topicId": "llm-release-ddl",
+      "type": "metricSnapshot",
+      "metric": "context_window",
+      "value": "1M standard",
+      "asOfDate": "2026-04-24",
+      "source": "DeepSeek API Docs",
+      "url": "https://api-docs.deepseek.com/news/news260424"
+    },
+    {
       "id": "deepseek-v4-flash-output-price",
       "topicId": "llm-release-ddl",
       "type": "metricSnapshot",
@@ -539,46 +700,6 @@
       "asOfDate": "2026-05-24",
       "source": "DeepSeek API Docs",
       "url": "https://api-docs.deepseek.com/quick_start/pricing"
-    },
-    {
-      "id": "glm-5-availability",
-      "topicId": "llm-release-ddl",
-      "type": "metricSnapshot",
-      "metric": "availability",
-      "value": "API / chat / open weights",
-      "asOfDate": "2026-02-12",
-      "source": "Z.ai",
-      "url": "https://z.ai/blog/glm-5"
-    },
-    {
-      "id": "deepseek-v4-context-standard",
-      "topicId": "llm-release-ddl",
-      "type": "metricSnapshot",
-      "metric": "context_window",
-      "value": "1M standard",
-      "asOfDate": "2026-04-24",
-      "source": "DeepSeek API Docs",
-      "url": "https://api-docs.deepseek.com/news/news260424"
-    },
-    {
-      "id": "deepseek-v4-flash-parameter-scale",
-      "topicId": "llm-release-ddl",
-      "type": "metricSnapshot",
-      "metric": "model_parameter_scale",
-      "value": "284B total / 13B active",
-      "asOfDate": "2026-04-24",
-      "source": "DeepSeek API Docs",
-      "url": "https://api-docs.deepseek.com/news/news260424"
-    },
-    {
-      "id": "deepseek-v4-pro-parameter-scale",
-      "topicId": "llm-release-ddl",
-      "type": "metricSnapshot",
-      "metric": "model_parameter_scale",
-      "value": "1.6T total / 49B active",
-      "asOfDate": "2026-04-24",
-      "source": "DeepSeek API Docs",
-      "url": "https://api-docs.deepseek.com/news/news260424"
     },
     {
       "id": "glm-5-parameter-scale",
@@ -601,6 +722,16 @@
       "url": "https://z.ai/blog/glm-5"
     },
     {
+      "id": "glm-5-availability",
+      "topicId": "llm-release-ddl",
+      "type": "metricSnapshot",
+      "metric": "availability",
+      "value": "API / chat / open weights",
+      "asOfDate": "2026-02-12",
+      "source": "Z.ai",
+      "url": "https://z.ai/blog/glm-5"
+    },
+    {
       "id": "minimax-m2-5-positioning",
       "topicId": "llm-release-ddl",
       "type": "metricSnapshot",
@@ -609,6 +740,36 @@
       "asOfDate": "2026-05-24",
       "source": "MiniMax",
       "url": "https://www.minimaxi.com/en/news/minimax-m25"
+    },
+    {
+      "id": "qwen3-hf-model-card",
+      "topicId": "llm-release-ddl",
+      "type": "metricSnapshot",
+      "metric": "hf_model_card",
+      "value": "Qwen/Qwen3-235B-A22B",
+      "asOfDate": "2026-05-25",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/Qwen/Qwen3-235B-A22B"
+    },
+    {
+      "id": "qwen3-coder-hf-model-card",
+      "topicId": "llm-release-ddl",
+      "type": "metricSnapshot",
+      "metric": "hf_model_card",
+      "value": "Qwen/Qwen3-Coder-480B-A35B-Instruct",
+      "asOfDate": "2026-05-25",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/Qwen/Qwen3-Coder-480B-A35B-Instruct"
+    },
+    {
+      "id": "kimi-k2-hf-model-card",
+      "topicId": "llm-release-ddl",
+      "type": "metricSnapshot",
+      "metric": "hf_model_card",
+      "value": "moonshotai/Kimi-K2-Instruct",
+      "asOfDate": "2026-05-25",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/moonshotai/Kimi-K2-Instruct"
     }
   ],
   "subtopics": [
@@ -621,6 +782,12 @@
     {
       "id": "glm",
       "name": "GLM",
+      "itemCount": 5,
+      "nextItemId": null
+    },
+    {
+      "id": "qwen",
+      "name": "Qwen",
       "itemCount": 5,
       "nextItemId": null
     },
