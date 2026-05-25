@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-25T05:11:11.644Z",
-  "dataVersion": "d658c980aef4e9d6",
+  "generatedAt": "2026-05-25T06:37:35.383Z",
+  "dataVersion": "3a0686da3e78b774",
   "topic": {
     "id": "llm-release-ddl",
     "name": "大模型发布",
@@ -74,6 +74,7 @@
       "topicId": "llm-release-ddl",
       "title": "下一代 Qwen 主线模型发布窗口预测",
       "dateRange": "2026-04-16 - 2026-05-31",
+      "isDatePlaceholder": true,
       "estimatedNextWindow": {
         "start": "2026-04-16",
         "end": "2026-05-31"
@@ -109,6 +110,7 @@
       "topicId": "llm-release-ddl",
       "title": "GLM 下一代主力模型预测窗口",
       "dateRange": "2026-06-08 - 2026-07-04",
+      "isDatePlaceholder": true,
       "estimatedNextWindow": {
         "start": "2026-06-08",
         "end": "2026-07-04"
@@ -144,6 +146,7 @@
       "topicId": "llm-release-ddl",
       "title": "Kimi 下一代主力模型预测窗口",
       "dateRange": "2026-06-27 - 2026-07-03",
+      "isDatePlaceholder": true,
       "estimatedNextWindow": {
         "start": "2026-06-27",
         "end": "2026-07-03"
@@ -178,6 +181,7 @@
       "topicId": "llm-release-ddl",
       "title": "DeepSeek 下一代主力模型预测窗口",
       "dateRange": "2026-08-30 - 2026-10-14",
+      "isDatePlaceholder": true,
       "estimatedNextWindow": {
         "start": "2026-08-30",
         "end": "2026-10-14"
@@ -213,6 +217,7 @@
       "topicId": "llm-release-ddl",
       "title": "MiniMax 下一代主力模型预测窗口",
       "dateRange": "2026-11-07 - 2027-01-30",
+      "isDatePlaceholder": true,
       "estimatedNextWindow": {
         "start": "2026-11-07",
         "end": "2027-01-30"

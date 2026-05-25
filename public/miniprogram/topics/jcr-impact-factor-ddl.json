@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-25T05:11:11.644Z",
-  "dataVersion": "d658c980aef4e9d6",
+  "generatedAt": "2026-05-25T06:37:35.383Z",
+  "dataVersion": "3a0686da3e78b774",
   "topic": {
     "id": "jcr-impact-factor-ddl",
     "name": "JCR 影响因子",
@@ -300,6 +300,7 @@
       "topicId": "jcr-impact-factor-ddl",
       "title": "2026 JCR 年度发布预测窗口",
       "dateRange": "2026-06-18 - 2026-06-30",
+      "isDatePlaceholder": true,
       "estimatedNextWindow": {
         "start": "2026-06-18",
         "end": "2026-06-30"
@@ -336,6 +337,7 @@
       "topicId": "jcr-impact-factor-ddl",
       "title": "2026 JCR 后续修正观察窗口",
       "dateRange": "2026-10-15 - 2026-10-31",
+      "isDatePlaceholder": true,
       "estimatedNextWindow": {
         "start": "2026-10-15",
         "end": "2026-10-31"

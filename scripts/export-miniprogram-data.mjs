@@ -245,6 +245,7 @@ function itemLite(item, topicId) {
     'deadline',
     'date',
     'dateRange',
+    'isDatePlaceholder',
     'estimatedNextWindow',
     'lastOfficialDate',
     'basisEvents',
@@ -288,6 +289,35 @@ function metricLite(metric, topicId) {
   ]);
 }
 
+function parseTime(value) {
+  if (typeof value !== 'string' || !value.trim()) return Number.NaN;
+  const time = Date.parse(value);
+  return Number.isFinite(time) ? time : Number.NaN;
+}
+
+function isHistoryItem(item) {
+  return item.type === 'historyEvent' || item.type === 'officialRelease';
+}
+
+function isForecastItem(item) {
+  return item.type === 'forecastWindow' || Boolean(item.estimatedNextWindow);
+}
+
+function isPlaceholderItem(item) {
+  return item.isDatePlaceholder === true && !isForecastItem(item);
+}
+
+function hasOfficialDeadline(item) {
+  return !isHistoryItem(item)
+    && !isForecastItem(item)
+    && !isPlaceholderItem(item)
+    && Number.isFinite(parseTime(item.deadline));
+}
+
+function isNextItemCandidate(item) {
+  return hasOfficialDeadline(item) && String(item.status || '').toLowerCase() !== 'ended';
+}
+
 function subtopicGroups(items) {
   const groups = new Map();
   for (const item of items) {
@@ -297,13 +327,22 @@ function subtopicGroups(items) {
       id,
       name,
       itemCount: 0,
-      nextItemId: null
+      nextItemId: null,
+      nextItemTime: Number.POSITIVE_INFINITY
     };
     group.itemCount += 1;
-    if (!group.nextItemId && item.deadline) group.nextItemId = item.id;
+    if (isNextItemCandidate(item)) {
+      const itemTime = parseTime(item.deadline);
+      if (itemTime < group.nextItemTime) {
+        group.nextItemId = item.id;
+        group.nextItemTime = itemTime;
+      }
+    }
     groups.set(id, group);
   }
-  return Array.from(groups.values()).sort((a, b) => b.itemCount - a.itemCount || a.name.localeCompare(b.name, 'zh-CN'));
+  return Array.from(groups.values())
+    .map(({ nextItemTime, ...group }) => group)
+    .sort((a, b) => b.itemCount - a.itemCount || a.name.localeCompare(b.name, 'zh-CN'));
 }
 
 function checksum(value) {

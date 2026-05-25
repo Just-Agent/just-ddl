@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-25T05:11:11.644Z",
-  "dataVersion": "d658c980aef4e9d6",
+  "generatedAt": "2026-05-25T06:37:35.383Z",
+  "dataVersion": "3a0686da3e78b774",
   "topic": {
     "id": "phone-launch-ddl",
     "name": "Phone Launches",
@@ -72,6 +72,7 @@
       "topicId": "phone-launch-ddl",
       "title": "Apple 主线 iPhone 下一代发布预测窗口",
       "dateRange": "预计 2026 年 9 月上中旬（非官方）",
+      "isDatePlaceholder": true,
       "estimatedNextWindow": {
         "start": "2026-09-01",
         "end": "2026-09-22"
@@ -107,6 +108,7 @@
       "topicId": "phone-launch-ddl",
       "title": "Samsung Galaxy S 下一代发布预测窗口",
       "dateRange": "预计 2027 年 1 月中旬至 3 月上旬（非官方）",
+      "isDatePlaceholder": true,
       "estimatedNextWindow": {
         "start": "2027-01-15",
         "end": "2027-03-10"
@@ -257,6 +259,7 @@
       "topicId": "phone-launch-ddl",
       "title": "Google Pixel 官方发布入口",
       "dateRange": "待 Google 官方公告",
+      "isDatePlaceholder": true,
       "location": "Global",
       "isOnline": true,
       "tags": [
@@ -279,6 +282,7 @@
       "topicId": "phone-launch-ddl",
       "title": "OPPO Newsroom 官方发布入口",
       "dateRange": "待 OPPO 官方公告",
+      "isDatePlaceholder": true,
       "location": "Global",
       "isOnline": true,
       "tags": [
@@ -301,6 +305,7 @@
       "topicId": "phone-launch-ddl",
       "title": "Xiaomi Global Newsroom 发布入口",
       "dateRange": "待 Xiaomi 官方公告",
+      "isDatePlaceholder": true,
       "location": "Global",
       "isOnline": true,
       "tags": [

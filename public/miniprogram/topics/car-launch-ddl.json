@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-25T05:11:11.644Z",
-  "dataVersion": "d658c980aef4e9d6",
+  "generatedAt": "2026-05-25T06:37:35.383Z",
+  "dataVersion": "3a0686da3e78b774",
   "topic": {
     "id": "car-launch-ddl",
     "name": "Car Launches",
@@ -167,6 +167,7 @@
       "topicId": "car-launch-ddl",
       "title": "Auto Shanghai 下一届发布窗口预测",
       "dateRange": "预计 2029 年 4 月中下旬至 5 月上旬（非官方）",
+      "isDatePlaceholder": true,
       "estimatedNextWindow": {
         "start": "2029-04-15",
         "end": "2029-05-05"

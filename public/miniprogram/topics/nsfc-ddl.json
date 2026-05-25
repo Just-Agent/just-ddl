@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-25T05:11:11.644Z",
-  "dataVersion": "d658c980aef4e9d6",
+  "generatedAt": "2026-05-25T06:37:35.383Z",
+  "dataVersion": "3a0686da3e78b774",
   "topic": {
     "id": "nsfc-ddl",
     "name": "国家自然科学基金",
@@ -1442,6 +1442,7 @@
       "topicId": "nsfc-ddl",
       "title": "2027 年度集中接收申请预测窗口",
       "dateRange": "2027-03-01 - 2027-03-20",
+      "isDatePlaceholder": true,
       "estimatedNextWindow": {
         "start": "2027-03-01",
         "end": "2027-03-20"
@@ -1475,6 +1476,7 @@
       "topicId": "nsfc-ddl",
       "title": "2026 年度集中接收项目评审结果预测窗口",
       "dateRange": "2026-08-20 - 2026-09-05",
+      "isDatePlaceholder": true,
       "estimatedNextWindow": {
         "start": "2026-08-20",
         "end": "2026-09-05"

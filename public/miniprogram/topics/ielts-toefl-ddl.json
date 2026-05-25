@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-25T05:11:11.644Z",
-  "dataVersion": "d658c980aef4e9d6",
+  "generatedAt": "2026-05-25T06:37:35.383Z",
+  "dataVersion": "3a0686da3e78b774",
   "topic": {
     "id": "ielts-toefl-ddl",
     "name": "IELTS & TOEFL",
@@ -28,6 +28,7 @@
       "title": "雅思考试中国大陆报名入口",
       "deadline": "2026-12-31T23:59:59+08:00",
       "dateRange": "按官方考位与报名系统显示为准",
+      "isDatePlaceholder": true,
       "location": "中国大陆",
       "isOnline": true,
       "tags": [
@@ -51,6 +52,7 @@
       "title": "2026 年 IELTS 报名与收费安排",
       "deadline": "2026-12-31T23:59:59+08:00",
       "dateRange": "2026 年全年安排入口",
+      "isDatePlaceholder": true,
       "location": "中国大陆",
       "isOnline": true,
       "tags": [
@@ -74,6 +76,7 @@
       "title": "雅思 2026 年 4-6 月考期查询",
       "deadline": "2026-06-30T23:59:59+08:00",
       "dateRange": "2026 年 4-6 月考期",
+      "isDatePlaceholder": true,
       "location": "中国大陆",
       "isOnline": true,
       "tags": [
@@ -97,6 +100,7 @@
       "title": "TOEFL iBT 中国大陆报名入口",
       "deadline": "2026-12-31T23:59:59+08:00",
       "dateRange": "按官方考位与报名系统显示为准",
+      "isDatePlaceholder": true,
       "location": "中国大陆",
       "isOnline": true,
       "tags": [
@@ -120,6 +124,7 @@
       "title": "ETS TOEFL 中国大陆考试选项说明",
       "deadline": "2026-12-31T23:59:59+08:00",
       "dateRange": "按 ETS 与 NEEA 官方说明为准",
+      "isDatePlaceholder": true,
       "location": "中国大陆",
       "isOnline": true,
       "tags": [
@@ -143,6 +148,7 @@
       "title": "TOEFL iBT 全球报名与考位查询",
       "deadline": "2026-12-31T23:59:59+08:00",
       "dateRange": "按 ETS 官方报名系统为准",
+      "isDatePlaceholder": true,
       "location": "Global",
       "isOnline": true,
       "tags": [
@@ -167,13 +173,13 @@
       "id": "toefl",
       "name": "托福",
       "itemCount": 3,
-      "nextItemId": "ielts-toefl-ddl-toefl-neea-registration-portal-2026"
+      "nextItemId": null
     },
     {
       "id": "ielts",
       "name": "雅思",
       "itemCount": 3,
-      "nextItemId": "ielts-toefl-ddl-ielts-neea-registration-portal-2026"
+      "nextItemId": null
     }
   ]
 }

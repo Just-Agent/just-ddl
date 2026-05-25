@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-25T05:11:11.644Z",
-  "dataVersion": "d658c980aef4e9d6",
+  "generatedAt": "2026-05-25T06:37:35.383Z",
+  "dataVersion": "3a0686da3e78b774",
   "topic": {
     "id": "movie-tv-ddl",
     "name": "Movies & TV",
@@ -210,6 +210,7 @@
       "topicId": "movie-tv-ddl",
       "title": "Toy Story 系列下一部正片预测窗口",
       "dateRange": "预计 2032-11-12 至 2036-01-26（非官方）",
+      "isDatePlaceholder": true,
       "estimatedNextWindow": {
         "start": "2032-11-12",
         "end": "2036-01-26"
@@ -293,6 +294,7 @@
       "topicId": "movie-tv-ddl",
       "title": "ONE PIECE: The Battle of Alabasta",
       "dateRange": "2027（具体日期待公布）",
+      "isDatePlaceholder": true,
       "location": "Netflix",
       "isOnline": true,
       "tags": [
@@ -316,6 +318,7 @@
       "topicId": "movie-tv-ddl",
       "title": "THE ONE PIECE 动画 Season 1",
       "dateRange": "February 2027（具体日期待公布）",
+      "isDatePlaceholder": true,
       "location": "Netflix",
       "isOnline": true,
       "tags": [

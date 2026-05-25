@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-25T05:11:11.644Z",
-  "dataVersion": "d658c980aef4e9d6",
+  "generatedAt": "2026-05-25T06:37:35.383Z",
+  "dataVersion": "3a0686da3e78b774",
   "topic": {
     "id": "game-version-ddl",
     "name": "Game Versions",
@@ -464,6 +464,7 @@
       "topicId": "game-version-ddl",
       "title": "League of Legends 2027 首个 Patch 预测窗口",
       "dateRange": "预计 2027 年 1 月上中旬（非官方）",
+      "isDatePlaceholder": true,
       "estimatedNextWindow": {
         "start": "2027-01-07",
         "end": "2027-01-21"

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-25T05:11:11.644Z",
-  "dataVersion": "d658c980aef4e9d6",
+  "generatedAt": "2026-05-25T06:37:35.383Z",
+  "dataVersion": "3a0686da3e78b774",
   "topic": {
     "id": "civil-service-ddl",
     "name": "Civil Service",
@@ -213,6 +213,7 @@
       "title": "中央机关及其直属机构公务员考试公告与报名入口",
       "deadline": "2026-10-15T23:59:59+08:00",
       "dateRange": "以官方公告为准",
+      "isDatePlaceholder": true,
       "location": "中国",
       "isOnline": true,
       "tags": [
@@ -233,6 +234,7 @@
       "title": "中央机关公开遴选和公开选调公务员入口",
       "deadline": "2026-10-30T23:59:59+08:00",
       "dateRange": "以官方公告为准",
+      "isDatePlaceholder": true,
       "location": "中国",
       "isOnline": true,
       "tags": [
@@ -253,6 +255,7 @@
       "title": "北京市公务员与事业单位招录公告入口",
       "deadline": "2026-11-15T23:59:59+08:00",
       "dateRange": "以官方公告为准",
+      "isDatePlaceholder": true,
       "location": "北京",
       "isOnline": true,
       "tags": [
@@ -273,6 +276,7 @@
       "title": "广东省公务员与事业单位招录公告入口",
       "deadline": "2026-11-30T23:59:59+08:00",
       "dateRange": "以官方公告为准",
+      "isDatePlaceholder": true,
       "location": "广东",
       "isOnline": true,
       "tags": [
@@ -293,6 +297,7 @@
       "title": "事业单位公开招聘公告入口",
       "deadline": "2026-12-15T23:59:59+08:00",
       "dateRange": "以官方公告为准",
+      "isDatePlaceholder": true,
       "location": "中国",
       "isOnline": true,
       "tags": [
@@ -313,6 +318,7 @@
       "title": "陕西省公务员与事业单位招录公告入口",
       "deadline": "2026-12-31T23:59:59+08:00",
       "dateRange": "以官方公告为准",
+      "isDatePlaceholder": true,
       "location": "陕西",
       "isOnline": true,
       "tags": [
