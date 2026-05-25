@@ -71,6 +71,12 @@ function hostOf(value) {
   }
 }
 
+function hasTraceableEvidenceUrl(item) {
+  if (String(item.verificationLevel || '') === 'official_event_page') return true;
+  if (!item.sourceUrl || !/^https?:\/\//.test(String(item.sourceUrl))) return false;
+  return !isRootLikeUrl(item.sourceUrl);
+}
+
 function itemText(item) {
   return [
     item.title,
@@ -157,7 +163,7 @@ for (const [topicId, items] of Object.entries(ddlData)) {
     if (!item.sourceUrl) {
       rows.push(compactItem(topicId, item, 'missing sourceUrl'));
     }
-    if (isRootLikeUrl(item.url) && !SOURCE_BOARD_PATTERN.test(text)) {
+    if (isRootLikeUrl(item.url) && !hasTraceableEvidenceUrl(item) && !SOURCE_BOARD_PATTERN.test(text)) {
       rows.push(compactItem(topicId, item, 'root-like URL without source-board wording'));
     }
     if (SOURCE_BOARD_PATTERN.test(text) || isPlaceholder) {

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-25T13:46:24.891Z",
-  "dataVersion": "7613d5d84c079a6d",
+  "generatedAt": "2026-05-25T14:09:19.548Z",
+  "dataVersion": "00a581068dbb8bd1",
   "topics": [
     {
       "id": "hackathon-ddl",
@@ -38,7 +38,7 @@
         "ICCV",
         "ECCV"
       ],
-      "itemCount": 33,
+      "itemCount": 38,
       "status": "published"
     },
     {
@@ -1040,7 +1040,8 @@
         "2077AI"
       ],
       "source": "2077AI CVPR 2026 Challenges",
-      "url": "https://www.2077ai.com/challenge-pages/challenges.html"
+      "url": "https://www.2077ai.com/challenge-pages/challenges.html",
+      "sourceUrl": "https://www.2077ai.com/challenge-pages/challenges.html"
     },
     {
       "id": "cvpr2077ai-2077ai-datamfm-challenge-may-29-2026",
@@ -1055,7 +1056,8 @@
         "2077AI"
       ],
       "source": "2077AI CVPR 2026 Challenges",
-      "url": "https://www.2077ai.com/challenge-pages/challenges.html"
+      "url": "https://www.2077ai.com/challenge-pages/challenges.html",
+      "sourceUrl": "https://www.2077ai.com/challenge-pages/challenges.html"
     },
     {
       "id": "cvpr2026-cvpr-2026-1st-workshop-on-video-world-models-interaction-memory-and-efficiency-june-3-2026",
@@ -1071,7 +1073,8 @@
         "VideoWorldModel"
       ],
       "source": "CVPR 2026 Workshops",
-      "url": "https://videoworldmodel-workshop.github.io/"
+      "url": "https://videoworldmodel-workshop.github.io/",
+      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops"
     },
     {
       "id": "cvpr2026-cvpr-2026-3rd-workshop-on-scannet-novel-view-synthesis-and-3d-semantic-understanding-chall",
@@ -1087,7 +1090,8 @@
         "ScanNet++"
       ],
       "source": "CVPR 2026 Workshops",
-      "url": "https://scannetpp.mlsg.cit.tum.de/scannetpp/cvpr2026"
+      "url": "https://scannetpp.mlsg.cit.tum.de/scannetpp/cvpr2026",
+      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops"
     },
     {
       "id": "cvpr2026-cvpr-2026-ai4rwc-the-2nd-international-workshop-on-vision-intelligence-for-real-world-chal",
@@ -1103,7 +1107,8 @@
         "AI4RWC"
       ],
       "source": "CVPR 2026 Workshops",
-      "url": "https://sites.google.com/view/ai4rwc2026"
+      "url": "https://sites.google.com/view/ai4rwc2026",
+      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops"
     },
     {
       "id": "cvpr2026-cvpr-2026-gigabrain-challenge-2026-workshop-on-world-models-empowering-vision-language-act",
@@ -1119,7 +1124,8 @@
         "GigaBrain Challenge"
       ],
       "source": "CVPR 2026 Workshops",
-      "url": "https://gigaai-research.github.io/GigaBrain-Challenge-2026/"
+      "url": "https://gigaai-research.github.io/GigaBrain-Challenge-2026/",
+      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops"
     },
     {
       "id": "cvpr2026-cvpr-2026-multimodal-foundation-models-for-biomedicine-challenges-and-opportunities-june-3",
@@ -1135,7 +1141,8 @@
         "MMFM-BIOMED"
       ],
       "source": "CVPR 2026 Workshops",
-      "url": "https://mmfm-biomed.github.io/"
+      "url": "https://mmfm-biomed.github.io/",
+      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops"
     },
     {
       "id": "cvpr2026-cvpr-2026-the-2nd-international-workshop-challenge-on-subtle-visual-computing-cvpr-2026-ju",
@@ -1151,7 +1158,8 @@
         "SVC"
       ],
       "source": "CVPR 2026 Workshops",
-      "url": "https://sites.google.com/view/svc-cvpr26"
+      "url": "https://sites.google.com/view/svc-cvpr26",
+      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops"
     },
     {
       "id": "cvpr2026-cvpr-2026-the-3rd-ai-for-visual-arts-workshop-and-challenges-june-3-2026-wed-half-day",
@@ -1167,7 +1175,25 @@
         "AI4VA"
       ],
       "source": "CVPR 2026 Workshops",
-      "url": "https://ai4va-cvpr.github.io/"
+      "url": "https://ai4va-cvpr.github.io/",
+      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops"
+    },
+    {
+      "id": "cvpr2026-cvpr-2026-the-3rd-ai-for-visual-arts-workshop-and-challenges-june-3-2026-wed-am",
+      "topicId": "cv-ddl",
+      "title": "CVPR 2026 - The 3rd AI for Visual Arts Workshop and Challenges",
+      "deadline": "2026-06-03T23:59:59Z",
+      "type": "challenge",
+      "status": "upcoming",
+      "tags": [
+        "CVPR 2026",
+        "challenge",
+        "workshop",
+        "AI4VA"
+      ],
+      "source": "CVPR 2026 Workshops",
+      "url": "https://ai4va-cvpr.github.io/",
+      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops"
     },
     {
       "id": "cvpr2026-cvpr-2026-the-5th-datacv-workshop-and-challenge-june-3-2026-wed-half-day",
@@ -1183,7 +1209,25 @@
         "DataCV"
       ],
       "source": "CVPR 2026 Workshops",
-      "url": "https://sites.google.com/view/datacv-2026-cvpr/"
+      "url": "https://sites.google.com/view/datacv-2026-cvpr/",
+      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops"
+    },
+    {
+      "id": "cvpr2026-cvpr-2026-the-5th-datacv-workshop-and-challenge-june-3-2026-wed-am",
+      "topicId": "cv-ddl",
+      "title": "CVPR 2026 - The 5th DataCV Workshop and Challenge",
+      "deadline": "2026-06-03T23:59:59Z",
+      "type": "challenge",
+      "status": "upcoming",
+      "tags": [
+        "CVPR 2026",
+        "challenge",
+        "workshop",
+        "DataCV"
+      ],
+      "source": "CVPR 2026 Workshops",
+      "url": "https://sites.google.com/view/datacv-2026-cvpr/",
+      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops"
     },
     {
       "id": "cvpr2026-cvpr-2026-the-7th-international-workshop-and-cvml-challenge-on-agriculture-vision-challeng",
@@ -1199,7 +1243,8 @@
         "V4A"
       ],
       "source": "CVPR 2026 Workshops",
-      "url": "https://www.agriculture-vision.com/"
+      "url": "https://www.agriculture-vision.com/",
+      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops"
     },
     {
       "id": "cvpr2026-cvpr-2026-workshop-on-world-models-meet-active-sensing-and-closed-loop-planning-june-3-202",
@@ -1215,7 +1260,8 @@
         "WMAS"
       ],
       "source": "CVPR 2026 Workshops",
-      "url": "https://cvpr.thecvf.com/Conferences/2026/Workshops"
+      "url": "https://cvpr26wmas.github.io/",
+      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops"
     },
     {
       "id": "cvpr2026-cvpr-2026-11th-new-trends-in-image-restoration-and-enhancement-workshop-and-challenges-jun",
@@ -1231,7 +1277,8 @@
         "NTIRE"
       ],
       "source": "CVPR 2026 Workshops",
-      "url": "https://www.cvlai.net/ntire/2026/"
+      "url": "https://www.cvlai.net/ntire/2026/",
+      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops"
     },
     {
       "id": "cvpr2026-cvpr-2026-4d-world-models-bridging-generation-and-reconstruction-june-4-2026-thu-half-day",
@@ -1247,7 +1294,25 @@
         "ReGen4D"
       ],
       "source": "CVPR 2026 Workshops",
-      "url": "https://ivl.cs.brown.edu/4dworldmodels/"
+      "url": "https://ivl.cs.brown.edu/4dworldmodels/",
+      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops"
+    },
+    {
+      "id": "cvpr2026-cvpr-2026-4d-world-models-bridging-generation-and-reconstruction-june-4-2026-thu-pm",
+      "topicId": "cv-ddl",
+      "title": "CVPR 2026 - 4D World Models: Bridging Generation and Reconstruction",
+      "deadline": "2026-06-04T23:59:59Z",
+      "type": "challenge",
+      "status": "upcoming",
+      "tags": [
+        "CVPR 2026",
+        "challenge",
+        "workshop",
+        "ReGen4D"
+      ],
+      "source": "CVPR 2026 Workshops",
+      "url": "https://ivl.cs.brown.edu/4dworldmodels/",
+      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops"
     },
     {
       "id": "cvpr2026-cvpr-2026-6th-workshop-on-cv4animals-computer-vision-for-animal-behavior-tracking-and-mode",
@@ -1263,7 +1328,8 @@
         "CV4Animals"
       ],
       "source": "CVPR 2026 Workshops",
-      "url": "https://www.cv4animals.com/"
+      "url": "https://www.cv4animals.com/",
+      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops"
     },
     {
       "id": "cvpr2026-cvpr-2026-eighth-workshop-on-image-matching-local-features-and-beyond-june-4-2026-thu-half",
@@ -1279,7 +1345,25 @@
         "IMW"
       ],
       "source": "CVPR 2026 Workshops",
-      "url": "https://image-matching-workshop.github.io/"
+      "url": "https://image-matching-workshop.github.io/",
+      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops"
+    },
+    {
+      "id": "cvpr2026-cvpr-2026-eighth-workshop-on-image-matching-local-features-and-beyond-june-4-2026-thu-pm",
+      "topicId": "cv-ddl",
+      "title": "CVPR 2026 - Eighth Workshop on Image Matching: Local Features and Beyond",
+      "deadline": "2026-06-04T23:59:59Z",
+      "type": "challenge",
+      "status": "upcoming",
+      "tags": [
+        "CVPR 2026",
+        "challenge",
+        "workshop",
+        "IMW"
+      ],
+      "source": "CVPR 2026 Workshops",
+      "url": "https://image-matching-workshop.github.io/",
+      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops"
     },
     {
       "id": "cvpr2026-cvpr-2026-embodied-reasoning-in-action-workshop-and-challenge-on-embodied-reasoning-for-ro",
@@ -1295,7 +1379,8 @@
         "ERA"
       ],
       "source": "CVPR 2026 Workshops",
-      "url": "https://embodied-reasoning.github.io/"
+      "url": "https://embodied-reasoning.github.io/",
+      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops"
     },
     {
       "id": "cvpr2026-cvpr-2026-from-perception-to-persuasion-challenges-and-advances-in-misinformation-detectio",
@@ -1311,7 +1396,8 @@
         "PP-MisDet"
       ],
       "source": "CVPR 2026 Workshops",
-      "url": "https://eecs.uq.edu.au/CVPR2026"
+      "url": "https://eecs.uq.edu.au/CVPR2026",
+      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops"
     },
     {
       "id": "cvpr2026-cvpr-2026-mobile-ai-workshop-and-associated-challenges-6th-edition-june-4-2026-thu-full-da",
@@ -1327,7 +1413,8 @@
         "MAI 2026"
       ],
       "source": "CVPR 2026 Workshops",
-      "url": "https://ai-benchmark.com/workshops/mai/2026/"
+      "url": "https://ai-benchmark.com/workshops/mai/2026/",
+      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops"
     },
     {
       "id": "cvpr2026-cvpr-2026-multi-agent-embodied-intelligent-systems-meet-agentic-ai-era-opportunities-chall",
@@ -1343,7 +1430,8 @@
         "MEIS"
       ],
       "source": "CVPR 2026 Workshops",
-      "url": "https://coop-intelligence.github.io/"
+      "url": "https://coop-intelligence.github.io/",
+      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops"
     },
     {
       "id": "cvpr2026-cvpr-2026-pixel-level-video-understanding-in-the-wild-challenge-june-4-2026-thu-half-day",
@@ -1359,7 +1447,25 @@
         "PVUW"
       ],
       "source": "CVPR 2026 Workshops",
-      "url": "https://pvuw.github.io/"
+      "url": "https://pvuw.github.io/",
+      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops"
+    },
+    {
+      "id": "cvpr2026-cvpr-2026-pixel-level-video-understanding-in-the-wild-challenge-june-4-2026-thu-pm",
+      "topicId": "cv-ddl",
+      "title": "CVPR 2026 - Pixel-level Video Understanding in the Wild Challenge",
+      "deadline": "2026-06-04T23:59:59Z",
+      "type": "challenge",
+      "status": "upcoming",
+      "tags": [
+        "CVPR 2026",
+        "challenge",
+        "workshop",
+        "PVUW"
+      ],
+      "source": "CVPR 2026 Workshops",
+      "url": "https://pvuw.github.io/",
+      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops"
     },
     {
       "id": "cvpr2026-cvpr-2026-the-8th-ug2-workshop-and-challenge-bridging-the-gap-between-computational-photog",
@@ -1375,7 +1481,8 @@
         "UG2+"
       ],
       "source": "CVPR 2026 Workshops",
-      "url": "https://cvpr2026ug2challenge.github.io/"
+      "url": "https://cvpr2026ug2challenge.github.io/",
+      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops"
     },
     {
       "id": "cvpr2026-cvpr-2026-video-generative-models-benchmarks-and-evaluation-june-4-2026-thu-full-day",
@@ -1391,7 +1498,8 @@
         "VGBE"
       ],
       "source": "CVPR 2026 Workshops",
-      "url": "https://vidgen-bench-eval.github.io/"
+      "url": "https://vidgen-bench-eval.github.io/",
+      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops"
     },
     {
       "id": "cvpr2026-cvpr-2026-vizwiz-grand-challenge-interpreting-images-and-videos-taken-by-blind-people-june",
@@ -1407,7 +1515,8 @@
         "VizWiz"
       ],
       "source": "CVPR 2026 Workshops",
-      "url": "https://vizwiz.org/workshops/2026-vizwiz-grand-challenge-workshop/"
+      "url": "https://vizwiz.org/workshops/2026-vizwiz-grand-challenge-workshop/",
+      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops"
     },
     {
       "id": "eccv-ebmv-2026-ebmv-eccv-2026-challenge-submission-deadline-june-30-2026",
@@ -1422,7 +1531,8 @@
         "event-based vision"
       ],
       "source": "EBMV @ ECCV 2026",
-      "url": "https://eventbasemultimodalvision.github.io/"
+      "url": "https://eventbasemultimodalvision.github.io/",
+      "sourceUrl": "https://eventbasemultimodalvision.github.io/"
     },
     {
       "id": "eccv-ebmv-2026-ebmv-eccv-2026-challenge-results-announcement-july-5-2026",
@@ -1437,7 +1547,8 @@
         "event-based vision"
       ],
       "source": "EBMV @ ECCV 2026",
-      "url": "https://eventbasemultimodalvision.github.io/"
+      "url": "https://eventbasemultimodalvision.github.io/",
+      "sourceUrl": "https://eventbasemultimodalvision.github.io/"
     },
     {
       "id": "eccv-ebmv-2026-ebmv-eccv-2026-technical-report-deadline-july-10-2026",
@@ -1452,7 +1563,8 @@
         "event-based vision"
       ],
       "source": "EBMV @ ECCV 2026",
-      "url": "https://eventbasemultimodalvision.github.io/"
+      "url": "https://eventbasemultimodalvision.github.io/",
+      "sourceUrl": "https://eventbasemultimodalvision.github.io/"
     },
     {
       "id": "eccv-emr-2026-emr-eccv-2026-full-paper-submission-deadline-july-12-2026",
@@ -1467,7 +1579,8 @@
         "embodied AI"
       ],
       "source": "EMR @ ECCV 2026",
-      "url": "https://emr-workshop.github.io/"
+      "url": "https://emr-workshop.github.io/",
+      "sourceUrl": "https://emr-workshop.github.io/"
     },
     {
       "id": "eccv-ebmv-2026-ebmv-eccv-2026-workshop-paper-deadline-july-20-2026",
@@ -1482,7 +1595,8 @@
         "event-based vision"
       ],
       "source": "EBMV @ ECCV 2026",
-      "url": "https://eventbasemultimodalvision.github.io/"
+      "url": "https://eventbasemultimodalvision.github.io/",
+      "sourceUrl": "https://eventbasemultimodalvision.github.io/"
     },
     {
       "id": "eccv-emr-2026-emr-eccv-2026-extended-abstract-submission-july-24-2026",
@@ -1497,7 +1611,8 @@
         "embodied AI"
       ],
       "source": "EMR @ ECCV 2026",
-      "url": "https://emr-workshop.github.io/"
+      "url": "https://emr-workshop.github.io/",
+      "sourceUrl": "https://emr-workshop.github.io/"
     },
     {
       "id": "eccv-emr-2026-emr-eccv-2026-notification-july-31-2026",
@@ -1512,7 +1627,8 @@
         "embodied AI"
       ],
       "source": "EMR @ ECCV 2026",
-      "url": "https://emr-workshop.github.io/"
+      "url": "https://emr-workshop.github.io/",
+      "sourceUrl": "https://emr-workshop.github.io/"
     },
     {
       "id": "eccv-ebmv-2026-ebmv-eccv-2026-camera-ready-deadline-august-12-2026",
@@ -1527,7 +1643,8 @@
         "event-based vision"
       ],
       "source": "EBMV @ ECCV 2026",
-      "url": "https://eventbasemultimodalvision.github.io/"
+      "url": "https://eventbasemultimodalvision.github.io/",
+      "sourceUrl": "https://eventbasemultimodalvision.github.io/"
     },
     {
       "id": "eccv-emr-2026-emr-eccv-2026-final-version-august-14-2026",
@@ -1542,7 +1659,8 @@
         "embodied AI"
       ],
       "source": "EMR @ ECCV 2026",
-      "url": "https://emr-workshop.github.io/"
+      "url": "https://emr-workshop.github.io/",
+      "sourceUrl": "https://emr-workshop.github.io/"
     },
     {
       "id": "nlp-ddl-emnlp-2026-full-paper-2026-06-16",

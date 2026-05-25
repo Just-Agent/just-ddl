@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-25T13:46:24.891Z",
-  "dataVersion": "7613d5d84c079a6d",
+  "generatedAt": "2026-05-25T14:09:19.548Z",
+  "dataVersion": "00a581068dbb8bd1",
   "topic": {
     "id": "cv-ddl",
     "name": "Computer Vision",
@@ -15,7 +15,7 @@
       "ICCV",
       "ECCV"
     ],
-    "itemCount": 33,
+    "itemCount": 38,
     "status": "published"
   },
   "items": [
@@ -36,6 +36,7 @@
       "status": "upcoming",
       "stage": "Award application deadline",
       "source": "2077AI CVPR 2026 Challenges",
+      "sourceUrl": "https://www.2077ai.com/challenge-pages/challenges.html",
       "type": "challenge",
       "description": "Parsed from the official 2077AI CVPR 2026 challenge page."
     },
@@ -56,6 +57,7 @@
       "status": "upcoming",
       "stage": "Submission deadline",
       "source": "2077AI CVPR 2026 Challenges",
+      "sourceUrl": "https://www.2077ai.com/challenge-pages/challenges.html",
       "type": "challenge",
       "description": "Parsed from the official 2077AI CVPR 2026 challenge page."
     },
@@ -64,7 +66,7 @@
       "topicId": "cv-ddl",
       "title": "CVPR 2026 - 1st Workshop on Video World Models: Interaction, Memory, and Efficiency",
       "deadline": "2026-06-03T23:59:59Z",
-      "dateRange": "June 3, 2026 (Wed Half Day)",
+      "dateRange": "June 3, 2026 (Wed AM)",
       "location": "Denver, CO / Online",
       "isOnline": true,
       "tags": [
@@ -77,6 +79,7 @@
       "status": "upcoming",
       "stage": "Workshop / challenge session",
       "source": "CVPR 2026 Workshops",
+      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops",
       "type": "challenge",
       "description": "Parsed from the official CVPR 2026 workshops table."
     },
@@ -85,7 +88,7 @@
       "topicId": "cv-ddl",
       "title": "CVPR 2026 - 3rd Workshop on ScanNet++ Novel View Synthesis and 3D Semantic Understanding Challenge",
       "deadline": "2026-06-03T23:59:59Z",
-      "dateRange": "June 3, 2026 (Wed Half Day)",
+      "dateRange": "June 3, 2026 (Wed PM)",
       "location": "Denver, CO / Online",
       "isOnline": true,
       "tags": [
@@ -98,6 +101,7 @@
       "status": "upcoming",
       "stage": "Workshop / challenge session",
       "source": "CVPR 2026 Workshops",
+      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops",
       "type": "challenge",
       "description": "Parsed from the official CVPR 2026 workshops table."
     },
@@ -106,7 +110,7 @@
       "topicId": "cv-ddl",
       "title": "CVPR 2026 - AI4RWC: The 2nd International Workshop on Vision Intelligence for Real-world Challenges",
       "deadline": "2026-06-03T23:59:59Z",
-      "dateRange": "June 3, 2026 (Wed Half Day)",
+      "dateRange": "June 3, 2026 (Wed AM)",
       "location": "Denver, CO / Online",
       "isOnline": true,
       "tags": [
@@ -119,6 +123,7 @@
       "status": "upcoming",
       "stage": "Workshop / challenge session",
       "source": "CVPR 2026 Workshops",
+      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops",
       "type": "challenge",
       "description": "Parsed from the official CVPR 2026 workshops table."
     },
@@ -127,7 +132,7 @@
       "topicId": "cv-ddl",
       "title": "CVPR 2026 - GigaBrain Challenge 2026: Workshop on World Models Empowering Vision Language Action Model",
       "deadline": "2026-06-03T23:59:59Z",
-      "dateRange": "June 3, 2026 (Wed Half Day)",
+      "dateRange": "June 3, 2026 (Wed PM)",
       "location": "Denver, CO / Online",
       "isOnline": true,
       "tags": [
@@ -140,6 +145,7 @@
       "status": "upcoming",
       "stage": "Workshop / challenge session",
       "source": "CVPR 2026 Workshops",
+      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops",
       "type": "challenge",
       "description": "Parsed from the official CVPR 2026 workshops table."
     },
@@ -148,7 +154,7 @@
       "topicId": "cv-ddl",
       "title": "CVPR 2026 - Multimodal Foundation Models for Biomedicine: Challenges and Opportunities",
       "deadline": "2026-06-03T23:59:59Z",
-      "dateRange": "June 3, 2026 (Wed Half Day)",
+      "dateRange": "June 3, 2026 (Wed AM)",
       "location": "Denver, CO / Online",
       "isOnline": true,
       "tags": [
@@ -161,6 +167,7 @@
       "status": "upcoming",
       "stage": "Workshop / challenge session",
       "source": "CVPR 2026 Workshops",
+      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops",
       "type": "challenge",
       "description": "Parsed from the official CVPR 2026 workshops table."
     },
@@ -169,7 +176,7 @@
       "topicId": "cv-ddl",
       "title": "CVPR 2026 - The 2nd International Workshop & Challenge on Subtle Visual Computing @CVPR 2026",
       "deadline": "2026-06-03T23:59:59Z",
-      "dateRange": "June 3, 2026 (Wed Half Day)",
+      "dateRange": "June 3, 2026 (Wed AM)",
       "location": "Denver, CO / Online",
       "isOnline": true,
       "tags": [
@@ -182,6 +189,7 @@
       "status": "upcoming",
       "stage": "Workshop / challenge session",
       "source": "CVPR 2026 Workshops",
+      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops",
       "type": "challenge",
       "description": "Parsed from the official CVPR 2026 workshops table."
     },
@@ -203,6 +211,29 @@
       "status": "upcoming",
       "stage": "Workshop / challenge session",
       "source": "CVPR 2026 Workshops",
+      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops",
+      "type": "challenge",
+      "description": "Parsed from the official CVPR 2026 workshops table."
+    },
+    {
+      "id": "cvpr2026-cvpr-2026-the-3rd-ai-for-visual-arts-workshop-and-challenges-june-3-2026-wed-am",
+      "topicId": "cv-ddl",
+      "title": "CVPR 2026 - The 3rd AI for Visual Arts Workshop and Challenges",
+      "deadline": "2026-06-03T23:59:59Z",
+      "dateRange": "June 3, 2026 (Wed AM)",
+      "location": "Denver, CO / Online",
+      "isOnline": true,
+      "tags": [
+        "CVPR 2026",
+        "challenge",
+        "workshop",
+        "AI4VA"
+      ],
+      "url": "https://ai4va-cvpr.github.io/",
+      "status": "upcoming",
+      "stage": "Workshop / challenge session",
+      "source": "CVPR 2026 Workshops",
+      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops",
       "type": "challenge",
       "description": "Parsed from the official CVPR 2026 workshops table."
     },
@@ -224,6 +255,29 @@
       "status": "upcoming",
       "stage": "Workshop / challenge session",
       "source": "CVPR 2026 Workshops",
+      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops",
+      "type": "challenge",
+      "description": "Parsed from the official CVPR 2026 workshops table."
+    },
+    {
+      "id": "cvpr2026-cvpr-2026-the-5th-datacv-workshop-and-challenge-june-3-2026-wed-am",
+      "topicId": "cv-ddl",
+      "title": "CVPR 2026 - The 5th DataCV Workshop and Challenge",
+      "deadline": "2026-06-03T23:59:59Z",
+      "dateRange": "June 3, 2026 (Wed AM)",
+      "location": "Denver, CO / Online",
+      "isOnline": true,
+      "tags": [
+        "CVPR 2026",
+        "challenge",
+        "workshop",
+        "DataCV"
+      ],
+      "url": "https://sites.google.com/view/datacv-2026-cvpr/",
+      "status": "upcoming",
+      "stage": "Workshop / challenge session",
+      "source": "CVPR 2026 Workshops",
+      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops",
       "type": "challenge",
       "description": "Parsed from the official CVPR 2026 workshops table."
     },
@@ -232,7 +286,7 @@
       "topicId": "cv-ddl",
       "title": "CVPR 2026 - The 7th International Workshop and CVML Challenge on Agriculture-Vision: Challenges & Opportunities for Computer Vision in Agriculture",
       "deadline": "2026-06-03T23:59:59Z",
-      "dateRange": "June 3, 2026 (Wed Half Day)",
+      "dateRange": "June 3, 2026 (Wed PM)",
       "location": "Denver, CO / Online",
       "isOnline": true,
       "tags": [
@@ -245,6 +299,7 @@
       "status": "upcoming",
       "stage": "Workshop / challenge session",
       "source": "CVPR 2026 Workshops",
+      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops",
       "type": "challenge",
       "description": "Parsed from the official CVPR 2026 workshops table."
     },
@@ -253,7 +308,7 @@
       "topicId": "cv-ddl",
       "title": "CVPR 2026 - Workshop on World Models Meet Active Sensing and Closed-Loop Planning",
       "deadline": "2026-06-03T23:59:59Z",
-      "dateRange": "June 3, 2026 (Wed Half Day)",
+      "dateRange": "June 3, 2026 (Wed AM)",
       "location": "Denver, CO / Online",
       "isOnline": true,
       "tags": [
@@ -262,10 +317,11 @@
         "workshop",
         "WMAS"
       ],
-      "url": "https://cvpr.thecvf.com/Conferences/2026/Workshops",
+      "url": "https://cvpr26wmas.github.io/",
       "status": "upcoming",
       "stage": "Workshop / challenge session",
       "source": "CVPR 2026 Workshops",
+      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops",
       "type": "challenge",
       "description": "Parsed from the official CVPR 2026 workshops table."
     },
@@ -287,6 +343,7 @@
       "status": "upcoming",
       "stage": "Workshop / challenge session",
       "source": "CVPR 2026 Workshops",
+      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops",
       "type": "challenge",
       "description": "Parsed from the official CVPR 2026 workshops table."
     },
@@ -308,6 +365,29 @@
       "status": "upcoming",
       "stage": "Workshop / challenge session",
       "source": "CVPR 2026 Workshops",
+      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops",
+      "type": "challenge",
+      "description": "Parsed from the official CVPR 2026 workshops table."
+    },
+    {
+      "id": "cvpr2026-cvpr-2026-4d-world-models-bridging-generation-and-reconstruction-june-4-2026-thu-pm",
+      "topicId": "cv-ddl",
+      "title": "CVPR 2026 - 4D World Models: Bridging Generation and Reconstruction",
+      "deadline": "2026-06-04T23:59:59Z",
+      "dateRange": "June 4, 2026 (Thu PM)",
+      "location": "Denver, CO / Online",
+      "isOnline": true,
+      "tags": [
+        "CVPR 2026",
+        "challenge",
+        "workshop",
+        "ReGen4D"
+      ],
+      "url": "https://ivl.cs.brown.edu/4dworldmodels/",
+      "status": "upcoming",
+      "stage": "Workshop / challenge session",
+      "source": "CVPR 2026 Workshops",
+      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops",
       "type": "challenge",
       "description": "Parsed from the official CVPR 2026 workshops table."
     },
@@ -316,7 +396,7 @@
       "topicId": "cv-ddl",
       "title": "CVPR 2026 - 6th Workshop on CV4Animals: Computer Vision for Animal Behavior Tracking and Modeling",
       "deadline": "2026-06-04T23:59:59Z",
-      "dateRange": "June 4, 2026 (Thu Half Day)",
+      "dateRange": "June 4, 2026 (Thu AM)",
       "location": "Denver, CO / Online",
       "isOnline": true,
       "tags": [
@@ -329,6 +409,7 @@
       "status": "upcoming",
       "stage": "Workshop / challenge session",
       "source": "CVPR 2026 Workshops",
+      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops",
       "type": "challenge",
       "description": "Parsed from the official CVPR 2026 workshops table."
     },
@@ -350,6 +431,29 @@
       "status": "upcoming",
       "stage": "Workshop / challenge session",
       "source": "CVPR 2026 Workshops",
+      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops",
+      "type": "challenge",
+      "description": "Parsed from the official CVPR 2026 workshops table."
+    },
+    {
+      "id": "cvpr2026-cvpr-2026-eighth-workshop-on-image-matching-local-features-and-beyond-june-4-2026-thu-pm",
+      "topicId": "cv-ddl",
+      "title": "CVPR 2026 - Eighth Workshop on Image Matching: Local Features and Beyond",
+      "deadline": "2026-06-04T23:59:59Z",
+      "dateRange": "June 4, 2026 (Thu PM)",
+      "location": "Denver, CO / Online",
+      "isOnline": true,
+      "tags": [
+        "CVPR 2026",
+        "challenge",
+        "workshop",
+        "IMW"
+      ],
+      "url": "https://image-matching-workshop.github.io/",
+      "status": "upcoming",
+      "stage": "Workshop / challenge session",
+      "source": "CVPR 2026 Workshops",
+      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops",
       "type": "challenge",
       "description": "Parsed from the official CVPR 2026 workshops table."
     },
@@ -371,6 +475,7 @@
       "status": "upcoming",
       "stage": "Workshop / challenge session",
       "source": "CVPR 2026 Workshops",
+      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops",
       "type": "challenge",
       "description": "Parsed from the official CVPR 2026 workshops table."
     },
@@ -379,7 +484,7 @@
       "topicId": "cv-ddl",
       "title": "CVPR 2026 - From Perception to Persuasion: Challenges and Advances in Misinformation Detection in Society",
       "deadline": "2026-06-04T23:59:59Z",
-      "dateRange": "June 4, 2026 (Thu Half Day)",
+      "dateRange": "June 4, 2026 (Thu AM)",
       "location": "Denver, CO / Online",
       "isOnline": true,
       "tags": [
@@ -392,6 +497,7 @@
       "status": "upcoming",
       "stage": "Workshop / challenge session",
       "source": "CVPR 2026 Workshops",
+      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops",
       "type": "challenge",
       "description": "Parsed from the official CVPR 2026 workshops table."
     },
@@ -413,6 +519,7 @@
       "status": "upcoming",
       "stage": "Workshop / challenge session",
       "source": "CVPR 2026 Workshops",
+      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops",
       "type": "challenge",
       "description": "Parsed from the official CVPR 2026 workshops table."
     },
@@ -434,6 +541,7 @@
       "status": "upcoming",
       "stage": "Workshop / challenge session",
       "source": "CVPR 2026 Workshops",
+      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops",
       "type": "challenge",
       "description": "Parsed from the official CVPR 2026 workshops table."
     },
@@ -455,6 +563,29 @@
       "status": "upcoming",
       "stage": "Workshop / challenge session",
       "source": "CVPR 2026 Workshops",
+      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops",
+      "type": "challenge",
+      "description": "Parsed from the official CVPR 2026 workshops table."
+    },
+    {
+      "id": "cvpr2026-cvpr-2026-pixel-level-video-understanding-in-the-wild-challenge-june-4-2026-thu-pm",
+      "topicId": "cv-ddl",
+      "title": "CVPR 2026 - Pixel-level Video Understanding in the Wild Challenge",
+      "deadline": "2026-06-04T23:59:59Z",
+      "dateRange": "June 4, 2026 (Thu PM)",
+      "location": "Denver, CO / Online",
+      "isOnline": true,
+      "tags": [
+        "CVPR 2026",
+        "challenge",
+        "workshop",
+        "PVUW"
+      ],
+      "url": "https://pvuw.github.io/",
+      "status": "upcoming",
+      "stage": "Workshop / challenge session",
+      "source": "CVPR 2026 Workshops",
+      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops",
       "type": "challenge",
       "description": "Parsed from the official CVPR 2026 workshops table."
     },
@@ -463,7 +594,7 @@
       "topicId": "cv-ddl",
       "title": "CVPR 2026 - The 8th UG2+ Workshop and Challenge: Bridging the Gap between Computational Photography and Visual Perception",
       "deadline": "2026-06-04T23:59:59Z",
-      "dateRange": "June 4, 2026 (Thu Half Day)",
+      "dateRange": "June 4, 2026 (Thu AM)",
       "location": "Denver, CO / Online",
       "isOnline": true,
       "tags": [
@@ -476,6 +607,7 @@
       "status": "upcoming",
       "stage": "Workshop / challenge session",
       "source": "CVPR 2026 Workshops",
+      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops",
       "type": "challenge",
       "description": "Parsed from the official CVPR 2026 workshops table."
     },
@@ -497,6 +629,7 @@
       "status": "upcoming",
       "stage": "Workshop / challenge session",
       "source": "CVPR 2026 Workshops",
+      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops",
       "type": "challenge",
       "description": "Parsed from the official CVPR 2026 workshops table."
     },
@@ -505,7 +638,7 @@
       "topicId": "cv-ddl",
       "title": "CVPR 2026 - VizWiz Grand Challenge: Interpreting Images and Videos Taken by Blind People",
       "deadline": "2026-06-04T23:59:59Z",
-      "dateRange": "June 4, 2026 (Thu Half Day)",
+      "dateRange": "June 4, 2026 (Thu AM)",
       "location": "Denver, CO / Online",
       "isOnline": true,
       "tags": [
@@ -518,6 +651,7 @@
       "status": "upcoming",
       "stage": "Workshop / challenge session",
       "source": "CVPR 2026 Workshops",
+      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops",
       "type": "challenge",
       "description": "Parsed from the official CVPR 2026 workshops table."
     },
@@ -538,6 +672,7 @@
       "status": "upcoming",
       "stage": "Challenge submission deadline",
       "source": "EBMV @ ECCV 2026",
+      "sourceUrl": "https://eventbasemultimodalvision.github.io/",
       "type": "challenge",
       "description": "Parsed from the EBMV @ ECCV 2026 official workshop page."
     },
@@ -558,6 +693,7 @@
       "status": "upcoming",
       "stage": "Challenge results announcement",
       "source": "EBMV @ ECCV 2026",
+      "sourceUrl": "https://eventbasemultimodalvision.github.io/",
       "type": "challenge",
       "description": "Parsed from the EBMV @ ECCV 2026 official workshop page."
     },
@@ -578,6 +714,7 @@
       "status": "upcoming",
       "stage": "Technical report deadline",
       "source": "EBMV @ ECCV 2026",
+      "sourceUrl": "https://eventbasemultimodalvision.github.io/",
       "type": "challenge",
       "description": "Parsed from the EBMV @ ECCV 2026 official workshop page."
     },
@@ -598,6 +735,7 @@
       "status": "upcoming",
       "stage": "Full paper submission deadline",
       "source": "EMR @ ECCV 2026",
+      "sourceUrl": "https://emr-workshop.github.io/",
       "type": "challenge",
       "description": "Parsed from the EMR Workshop @ ECCV 2026 official page."
     },
@@ -618,6 +756,7 @@
       "status": "upcoming",
       "stage": "Workshop paper deadline",
       "source": "EBMV @ ECCV 2026",
+      "sourceUrl": "https://eventbasemultimodalvision.github.io/",
       "type": "challenge",
       "description": "Parsed from the EBMV @ ECCV 2026 official workshop page."
     },
@@ -638,6 +777,7 @@
       "status": "upcoming",
       "stage": "Extended abstract submission",
       "source": "EMR @ ECCV 2026",
+      "sourceUrl": "https://emr-workshop.github.io/",
       "type": "challenge",
       "description": "Parsed from the EMR Workshop @ ECCV 2026 official page."
     },
@@ -658,6 +798,7 @@
       "status": "upcoming",
       "stage": "Notification",
       "source": "EMR @ ECCV 2026",
+      "sourceUrl": "https://emr-workshop.github.io/",
       "type": "challenge",
       "description": "Parsed from the EMR Workshop @ ECCV 2026 official page."
     },
@@ -678,6 +819,7 @@
       "status": "upcoming",
       "stage": "Camera-ready deadline",
       "source": "EBMV @ ECCV 2026",
+      "sourceUrl": "https://eventbasemultimodalvision.github.io/",
       "type": "challenge",
       "description": "Parsed from the EBMV @ ECCV 2026 official workshop page."
     },
@@ -698,6 +840,7 @@
       "status": "upcoming",
       "stage": "Final version",
       "source": "EMR @ ECCV 2026",
+      "sourceUrl": "https://emr-workshop.github.io/",
       "type": "challenge",
       "description": "Parsed from the EMR Workshop @ ECCV 2026 official page."
     }
@@ -707,7 +850,7 @@
     {
       "id": "general",
       "name": "General",
-      "itemCount": 33,
+      "itemCount": 38,
       "nextItemId": "cvpr2077ai-2077ai-rising-star-award-may-22-2026"
     }
   ]

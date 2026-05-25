@@ -1,13 +1,13 @@
 # Just-DDL Source Audit
 
-Generated: 2026-05-25T13:46:24.804Z
+Generated: 2026-05-25T14:09:19.458Z
 
 This is an internal production-readiness report. It identifies items that need detail-page upgrades, sourceUrl completion, manual maintenance, or official-source verification. It is not published to GitHub Pages or miniprogram exports.
 
-- Total DDL items: 808
-- Official deadline candidates: 658
-- Missing sourceUrl: 505
-- Root-like URL follow-up: 66
+- Total DDL items: 813
+- Official deadline candidates: 663
+- Missing sourceUrl: 472
+- Root-like URL follow-up: 46
 - Manual/source-board follow-up: 184
 - Seed/demo source wording: 0
 - Aggregator/review-platform source: 21
@@ -34,39 +34,6 @@ This is an internal production-readiness report. It identifies items that need d
 | hackathon-ddl | [TreeHacks 2027](https://treehacks.com) | missing sourceUrl | 人工整理的官方来源入口 |
 | hackathon-ddl | [nwHacks 2027](https://nwhacks.io) | missing sourceUrl | 人工整理的官方来源入口 |
 | hackathon-ddl | [Hack Cambridge 2027](https://hackcambridge.com) | missing sourceUrl | 人工整理的官方来源入口 |
-| cv-ddl | [2077AI Rising Star Award](https://www.2077ai.com/challenge-pages/challenges.html) | missing sourceUrl | 2077AI CVPR 2026 Challenges |
-| cv-ddl | [2077AI DataMFM Challenge](https://www.2077ai.com/challenge-pages/challenges.html) | missing sourceUrl | 2077AI CVPR 2026 Challenges |
-| cv-ddl | [CVPR 2026 - 1st Workshop on Video World Models: Interaction, Memory, and Efficiency](https://videoworldmodel-workshop.github.io/) | missing sourceUrl | CVPR 2026 Workshops |
-| cv-ddl | [CVPR 2026 - 3rd Workshop on ScanNet++ Novel View Synthesis and 3D Semantic Understanding Challenge](https://scannetpp.mlsg.cit.tum.de/scannetpp/cvpr2026) | missing sourceUrl | CVPR 2026 Workshops |
-| cv-ddl | [CVPR 2026 - AI4RWC: The 2nd International Workshop on Vision Intelligence for Real-world Challenges](https://sites.google.com/view/ai4rwc2026) | missing sourceUrl | CVPR 2026 Workshops |
-| cv-ddl | [CVPR 2026 - GigaBrain Challenge 2026: Workshop on World Models Empowering Vision Language Action Model](https://gigaai-research.github.io/GigaBrain-Challenge-2026/) | missing sourceUrl | CVPR 2026 Workshops |
-| cv-ddl | [CVPR 2026 - Multimodal Foundation Models for Biomedicine: Challenges and Opportunities](https://mmfm-biomed.github.io/) | missing sourceUrl | CVPR 2026 Workshops |
-| cv-ddl | [CVPR 2026 - The 2nd International Workshop & Challenge on Subtle Visual Computing @CVPR 2026](https://sites.google.com/view/svc-cvpr26) | missing sourceUrl | CVPR 2026 Workshops |
-| cv-ddl | [CVPR 2026 - The 3rd AI for Visual Arts Workshop and Challenges](https://ai4va-cvpr.github.io/) | missing sourceUrl | CVPR 2026 Workshops |
-| cv-ddl | [CVPR 2026 - The 5th DataCV Workshop and Challenge](https://sites.google.com/view/datacv-2026-cvpr/) | missing sourceUrl | CVPR 2026 Workshops |
-| cv-ddl | [CVPR 2026 - The 7th International Workshop and CVML Challenge on Agriculture-Vision: Challenges & Opportunities for Computer Vision in Agriculture](https://www.agriculture-vision.com/) | missing sourceUrl | CVPR 2026 Workshops |
-| cv-ddl | [CVPR 2026 - Workshop on World Models Meet Active Sensing and Closed-Loop Planning](https://cvpr.thecvf.com/Conferences/2026/Workshops) | missing sourceUrl | CVPR 2026 Workshops |
-| cv-ddl | [CVPR 2026 - 11th New Trends in Image Restoration and Enhancement Workshop and Challenges](https://www.cvlai.net/ntire/2026/) | missing sourceUrl | CVPR 2026 Workshops |
-| cv-ddl | [CVPR 2026 - 4D World Models: Bridging Generation and Reconstruction](https://ivl.cs.brown.edu/4dworldmodels/) | missing sourceUrl | CVPR 2026 Workshops |
-| cv-ddl | [CVPR 2026 - 6th Workshop on CV4Animals: Computer Vision for Animal Behavior Tracking and Modeling](https://www.cv4animals.com/) | missing sourceUrl | CVPR 2026 Workshops |
-| cv-ddl | [CVPR 2026 - Eighth Workshop on Image Matching: Local Features and Beyond](https://image-matching-workshop.github.io/) | missing sourceUrl | CVPR 2026 Workshops |
-| cv-ddl | [CVPR 2026 - Embodied Reasoning in Action: Workshop and Challenge on Embodied Reasoning for Robotic Manipulation](https://embodied-reasoning.github.io/) | missing sourceUrl | CVPR 2026 Workshops |
-| cv-ddl | [CVPR 2026 - From Perception to Persuasion: Challenges and Advances in Misinformation Detection in Society](https://eecs.uq.edu.au/CVPR2026) | missing sourceUrl | CVPR 2026 Workshops |
-| cv-ddl | [CVPR 2026 - Mobile AI workshop and associated challenges, 6th edition](https://ai-benchmark.com/workshops/mai/2026/) | missing sourceUrl | CVPR 2026 Workshops |
-| cv-ddl | [CVPR 2026 - Multi-Agent Embodied Intelligent Systems Meet Agentic-AI era: Opportunities, Challenges and Futures](https://coop-intelligence.github.io/) | missing sourceUrl | CVPR 2026 Workshops |
-| cv-ddl | [CVPR 2026 - Pixel-level Video Understanding in the Wild Challenge](https://pvuw.github.io/) | missing sourceUrl | CVPR 2026 Workshops |
-| cv-ddl | [CVPR 2026 - The 8th UG2+ Workshop and Challenge: Bridging the Gap between Computational Photography and Visual Perception](https://cvpr2026ug2challenge.github.io/) | missing sourceUrl | CVPR 2026 Workshops |
-| cv-ddl | [CVPR 2026 - Video Generative Models: Benchmarks and Evaluation](https://vidgen-bench-eval.github.io/) | missing sourceUrl | CVPR 2026 Workshops |
-| cv-ddl | [CVPR 2026 - VizWiz Grand Challenge: Interpreting Images and Videos Taken by Blind People](https://vizwiz.org/workshops/2026-vizwiz-grand-challenge-workshop/) | missing sourceUrl | CVPR 2026 Workshops |
-| cv-ddl | [EBMV @ ECCV 2026 - Challenge submission deadline](https://eventbasemultimodalvision.github.io/) | missing sourceUrl | EBMV @ ECCV 2026 |
-| cv-ddl | [EBMV @ ECCV 2026 - Challenge results announcement](https://eventbasemultimodalvision.github.io/) | missing sourceUrl | EBMV @ ECCV 2026 |
-| cv-ddl | [EBMV @ ECCV 2026 - Technical report deadline](https://eventbasemultimodalvision.github.io/) | missing sourceUrl | EBMV @ ECCV 2026 |
-| cv-ddl | [EMR @ ECCV 2026 - Full paper submission deadline](https://emr-workshop.github.io/) | missing sourceUrl | EMR @ ECCV 2026 |
-| cv-ddl | [EBMV @ ECCV 2026 - Workshop paper deadline](https://eventbasemultimodalvision.github.io/) | missing sourceUrl | EBMV @ ECCV 2026 |
-| cv-ddl | [EMR @ ECCV 2026 - Extended abstract submission](https://emr-workshop.github.io/) | missing sourceUrl | EMR @ ECCV 2026 |
-| cv-ddl | [EMR @ ECCV 2026 - Notification](https://emr-workshop.github.io/) | missing sourceUrl | EMR @ ECCV 2026 |
-| cv-ddl | [EBMV @ ECCV 2026 - Camera-ready deadline](https://eventbasemultimodalvision.github.io/) | missing sourceUrl | EBMV @ ECCV 2026 |
-| cv-ddl | [EMR @ ECCV 2026 - Final version](https://emr-workshop.github.io/) | missing sourceUrl | EMR @ ECCV 2026 |
 | nlp-ddl | [EMNLP 2026 Full Paper](https://2026.emnlp.org) | missing sourceUrl | 人工整理的官方来源入口 |
 | nlp-ddl | [CLPsych Shared Task 2026](https://clpsych.org) | missing sourceUrl | 人工整理的官方来源入口 |
 | nlp-ddl | [BioNLP Workshop Paper](https://aclweb.org/aclwiki/BioNLP_Workshop) | missing sourceUrl | 人工整理的官方来源入口 |
@@ -96,6 +63,39 @@ This is an internal production-readiness report. It identifies items that need d
 | academic-ddl | [WWW 2027 Research Track](https://www2027.thewebconf.org) | missing sourceUrl | 人工整理的官方来源入口 |
 | academic-ddl | [AISTATS 2027 Paper](https://aistats.org) | missing sourceUrl | 人工整理的官方来源入口 |
 | academic-ddl | [UbiComp 2027 Full Paper](https://ubicomp.org) | missing sourceUrl | 人工整理的官方来源入口 |
+| academic-ddl | [ISCA 2027 Paper](https://iscaconf.org) | missing sourceUrl | 人工整理的官方来源入口 |
+| academic-ddl | [ICAPS 2027 Paper](https://icaps-conference.org) | missing sourceUrl | 人工整理的官方来源入口 |
+| academic-ddl | [ICML 2027 Abstract](https://icml.cc) | missing sourceUrl | 人工整理的官方来源入口 |
+| academic-ddl | [RSS 2027 Paper](https://roboticsconference.org) | missing sourceUrl | 人工整理的官方来源入口 |
+| academic-ddl | [SIGIR 2027 Full Paper](https://sigir.org) | missing sourceUrl | 人工整理的官方来源入口 |
+| academic-ddl | [OSDI 2027 Paper](https://www.usenix.org/conferences) | missing sourceUrl | 人工整理的官方来源入口 |
+| academic-ddl | [KDD 2027 Research Track](https://kdd.org) | missing sourceUrl | 人工整理的官方来源入口 |
+| academic-ddl | [UAI 2027 Paper](https://www.auai.org/uai) | missing sourceUrl | 人工整理的官方来源入口 |
+| academic-ddl | [ACM MM 2027 Paper](https://acmmm.org) | missing sourceUrl | 人工整理的官方来源入口 |
+| journal-ddl | [Digital Twins for Wireless Networks: Enabling Application-Aware and Closed-Loop Optimization](https://www.comsoc.org/publications/journals/ieee-jsac/cfp/digital-twins-wireless-networks-enabling-application-aware-and) | missing sourceUrl | IEEE JSAC CFP |
+| journal-ddl | [Explainable Artificial Intelligence for Wireless Communications](https://www.comsoc.org/publications/magazines/ieee-communications-magazine/cfp/explainable-artificial-intelligence) | missing sourceUrl | IEEE Communications Magazine CFP |
+| journal-ddl | [IEEE JSTSP Special Issue on Wireless Foundation Models for AI-native 6G and Beyond](https://signalprocessingsociety.org/events/ieee-jstsp-special-issue-wireless-foundation-models-ai-native-6g-and-beyond) | missing sourceUrl | IEEE SPS Special Issue Deadlines |
+| journal-ddl | [Design Methodologies and Applications on Compliant Mechanisms](https://www.sciencedirect.com/special-issue/333226/design-methodologies-and-applications-on-compliant-mechanisms) | missing sourceUrl | ScienceDirect Browse Calls for Papers |
+| journal-ddl | [Fluid Antennas: The Next Wave of MIMO Evolution for 6G and Beyond](https://www.comsoc.org/publications/magazines/ieee-communications-magazine/cfp/fluid-antennas-next-wave-mimo-evolution-6g) | missing sourceUrl | IEEE Communications Magazine CFP |
+| journal-ddl | [Journal of Materiomics](https://www.sciencedirect.com/journal/journal-of-materiomics) | missing sourceUrl | ScienceDirect Browse Calls for Papers |
+| journal-ddl | [Quantum-Enabled AI for Future Communications](https://www.comsoc.org/publications/magazines/ieee-communications-magazine/cfp/quantum-enabled-ai-future-communications) | missing sourceUrl | IEEE Communications Magazine CFP |
+| journal-ddl | [Artificial Intelligence and Machine Learning for Critical Infrastructure Protection and Homeland Security](https://www.sciencedirect.com/special-issue/333161/artificial-intelligence-and-machine-learning-for-critical-infrastructure-protection-and-homeland-security) | missing sourceUrl | ScienceDirect Browse Calls for Papers |
+| journal-ddl | [Sustainable Digital Research Infrastructures for the Edge-to-Cloud Continuum](https://www.sciencedirect.com/special-issue/333080/sustainable-digital-research-infrastructures-for-the-edge-to-cloud-continuum) | missing sourceUrl | ScienceDirect Browse Calls for Papers |
+| journal-ddl | [Call for papers for The Exercise as Medicine in Chronic Disease 2026 Symposium](https://www.sciencedirect.com/special-issue/333183/call-for-papers-for-the-exercise-as-medicine-in-chronic-disease-2026-symposium) | missing sourceUrl | ScienceDirect Browse Calls for Papers |
+| journal-ddl | [IEEE JSTSP Special Issue on Autonomous and Evolutive Optimization in Networked AI](https://signalprocessingsociety.org/events/ieee-jstsp-special-issue-autonomous-and-evolutive-optimization-networked-ai) | missing sourceUrl | IEEE SPS Special Issue Deadlines |
+| journal-ddl | [Metal-Air Batteries: Advances in Materials, Design, and Practical Deployment](https://www.sciencedirect.com/browse/calls-for-papers) | missing sourceUrl | Elsevier CFP public source |
+| journal-ddl | [Advances in Sustainable Materials and Interfaces for Emerging Solar Cells](https://www.sciencedirect.com/browse/calls-for-papers) | missing sourceUrl | Elsevier CFP public source |
+| journal-ddl | [AI-Driven Systematic Pathways to Green Transformation](https://www.sciencedirect.com/browse/calls-for-papers) | missing sourceUrl | Elsevier CFP public source |
+| journal-ddl | [Digital Twin and Scenario-Based Assessments for Sustainable Energy Technologies](https://www.sciencedirect.com/browse/calls-for-papers) | missing sourceUrl | Elsevier CFP public source |
+| journal-ddl | [Future Batteries for Sustainability](https://www.sciencedirect.com/browse/calls-for-papers) | missing sourceUrl | Elsevier CFP public source |
+| journal-ddl | [Heterogeneously Integrated Photonic Chips](https://www.sciencedirect.com/browse/calls-for-papers) | missing sourceUrl | Elsevier CFP public source |
+| journal-ddl | [Photo(Electro)catalytic Approaches for Clean Energy and Environment](https://www.sciencedirect.com/browse/calls-for-papers) | missing sourceUrl | Elsevier CFP public source |
+| journal-ddl | [Removal of Micropollutants](https://www.sciencedirect.com/browse/calls-for-papers) | missing sourceUrl | Elsevier CFP public source |
+| journal-ddl | [Selected and extended papers of the 6th International Workshop on Dynamic Logic: New Trends and Applications (DaLí 2025)](https://www.sciencedirect.com/special-issue/332989/selected-and-extended-papers-of-the-6th-international-workshop-on-dynamic-logic-new-trends-and-applications-dali-2025) | missing sourceUrl | ScienceDirect Browse Calls for Papers |
+| journal-ddl | [Special Issue: 24th European Transport Congress, Vienna 2026](https://www.sciencedirect.com/special-issue/333035/special-issue-24th-european-transport-congress-vienna-2026) | missing sourceUrl | ScienceDirect Browse Calls for Papers |
+| journal-ddl | [Sustainability and Circular Economy in Electric Energy Storage](https://www.sciencedirect.com/browse/calls-for-papers) | missing sourceUrl | Elsevier CFP public source |
+| journal-ddl | [Thermal and Fire Safety of Renewable Energy and Storage Systems](https://www.sciencedirect.com/browse/calls-for-papers) | missing sourceUrl | Elsevier CFP public source |
+| journal-ddl | [Review of Precision Electroweak Measurements, Theory and Phenomenology](https://www.sciencedirect.com/special-issue/332974/review-of-precision-electroweak-measurements-theory-and-phenomenology) | missing sourceUrl | ScienceDirect Browse Calls for Papers |
 
 ## Root-Like URL Follow-Up
 
@@ -114,26 +114,6 @@ This is an internal production-readiness report. It identifies items that need d
 | agent-ddl | [SunnyHacks June 2026](https://sunnyhacks-june-2026.devpost.com/) | root-like URL without source-board wording | SunnyHacks June 2026 Devpost |
 | agent-ddl | [Slack Agent Builder Challenge](https://slackhack.devpost.com/) | root-like URL without source-board wording | Slack Agent Builder Challenge Devpost |
 | agent-ddl | [Agents Assemble - The Healthcare AI Endgame](https://agents-assemble.devpost.com/) | root-like URL without source-board wording | Agents Assemble Devpost |
-| cv-ddl | [CVPR 2026 - 1st Workshop on Video World Models: Interaction, Memory, and Efficiency](https://videoworldmodel-workshop.github.io/) | root-like URL without source-board wording | CVPR 2026 Workshops |
-| cv-ddl | [CVPR 2026 - Multimodal Foundation Models for Biomedicine: Challenges and Opportunities](https://mmfm-biomed.github.io/) | root-like URL without source-board wording | CVPR 2026 Workshops |
-| cv-ddl | [CVPR 2026 - The 3rd AI for Visual Arts Workshop and Challenges](https://ai4va-cvpr.github.io/) | root-like URL without source-board wording | CVPR 2026 Workshops |
-| cv-ddl | [CVPR 2026 - The 7th International Workshop and CVML Challenge on Agriculture-Vision: Challenges & Opportunities for Computer Vision in Agriculture](https://www.agriculture-vision.com/) | root-like URL without source-board wording | CVPR 2026 Workshops |
-| cv-ddl | [CVPR 2026 - 6th Workshop on CV4Animals: Computer Vision for Animal Behavior Tracking and Modeling](https://www.cv4animals.com/) | root-like URL without source-board wording | CVPR 2026 Workshops |
-| cv-ddl | [CVPR 2026 - Eighth Workshop on Image Matching: Local Features and Beyond](https://image-matching-workshop.github.io/) | root-like URL without source-board wording | CVPR 2026 Workshops |
-| cv-ddl | [CVPR 2026 - Embodied Reasoning in Action: Workshop and Challenge on Embodied Reasoning for Robotic Manipulation](https://embodied-reasoning.github.io/) | root-like URL without source-board wording | CVPR 2026 Workshops |
-| cv-ddl | [CVPR 2026 - Multi-Agent Embodied Intelligent Systems Meet Agentic-AI era: Opportunities, Challenges and Futures](https://coop-intelligence.github.io/) | root-like URL without source-board wording | CVPR 2026 Workshops |
-| cv-ddl | [CVPR 2026 - Pixel-level Video Understanding in the Wild Challenge](https://pvuw.github.io/) | root-like URL without source-board wording | CVPR 2026 Workshops |
-| cv-ddl | [CVPR 2026 - The 8th UG2+ Workshop and Challenge: Bridging the Gap between Computational Photography and Visual Perception](https://cvpr2026ug2challenge.github.io/) | root-like URL without source-board wording | CVPR 2026 Workshops |
-| cv-ddl | [CVPR 2026 - Video Generative Models: Benchmarks and Evaluation](https://vidgen-bench-eval.github.io/) | root-like URL without source-board wording | CVPR 2026 Workshops |
-| cv-ddl | [EBMV @ ECCV 2026 - Challenge submission deadline](https://eventbasemultimodalvision.github.io/) | root-like URL without source-board wording | EBMV @ ECCV 2026 |
-| cv-ddl | [EBMV @ ECCV 2026 - Challenge results announcement](https://eventbasemultimodalvision.github.io/) | root-like URL without source-board wording | EBMV @ ECCV 2026 |
-| cv-ddl | [EBMV @ ECCV 2026 - Technical report deadline](https://eventbasemultimodalvision.github.io/) | root-like URL without source-board wording | EBMV @ ECCV 2026 |
-| cv-ddl | [EMR @ ECCV 2026 - Full paper submission deadline](https://emr-workshop.github.io/) | root-like URL without source-board wording | EMR @ ECCV 2026 |
-| cv-ddl | [EBMV @ ECCV 2026 - Workshop paper deadline](https://eventbasemultimodalvision.github.io/) | root-like URL without source-board wording | EBMV @ ECCV 2026 |
-| cv-ddl | [EMR @ ECCV 2026 - Extended abstract submission](https://emr-workshop.github.io/) | root-like URL without source-board wording | EMR @ ECCV 2026 |
-| cv-ddl | [EMR @ ECCV 2026 - Notification](https://emr-workshop.github.io/) | root-like URL without source-board wording | EMR @ ECCV 2026 |
-| cv-ddl | [EBMV @ ECCV 2026 - Camera-ready deadline](https://eventbasemultimodalvision.github.io/) | root-like URL without source-board wording | EBMV @ ECCV 2026 |
-| cv-ddl | [EMR @ ECCV 2026 - Final version](https://emr-workshop.github.io/) | root-like URL without source-board wording | EMR @ ECCV 2026 |
 | nlp-ddl | [SemEval 2027 System Submission](https://semeval.github.io) | root-like URL without source-board wording | Shared task public source |
 | nlp-ddl | [CoNLL Shared Task 2027](https://www.conll.org) | root-like URL without source-board wording | Shared task public source |
 | academic-ddl | [ICLR 2027 Submission](https://iclr.cc) | root-like URL without source-board wording | OpenReview public source |
