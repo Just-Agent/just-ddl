@@ -112,6 +112,7 @@ export const topics: Topic[] = [
     "repo": "Just-Agent/journal-ddl",
     "site": "https://just-agent.github.io/journal-ddl/",
     "status": "published",
+    "dataUrl": "public-data/items.json",
     "itemCount": 144,
     "category": "学术期刊",
     "tags": [
