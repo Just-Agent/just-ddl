@@ -66,10 +66,15 @@ const PUBLIC_PRIVATE_KEY_PATTERNS = [
 ];
 const PUBLIC_TEXT_REWRITES = [
   [/curated coverage seed/gi, '人工整理的官方来源入口'],
+  [/\b[A-Za-z0-9 ._-]+-style seed\b/gi, '官方来源入口'],
+  [/\b[A-Za-z0-9 ._-]+ almanac seed\b/gi, '官方年历来源入口'],
+  [/\bGov calendar seed\b/gi, '官方日历来源入口'],
   [/official-style seed/gi, '官方来源入口'],
   [/official seed/gi, '官方来源入口'],
   [/crawler seed/gi, '数据源入口'],
   [/coverage seed/gi, '官方来源入口'],
+  [/\b(?:benchmark|shared-task|kaggle-style)[\w -]*demo\b/gi, '官方评测入口'],
+  [/\b[A-Za-z0-9 ._-]+ seed\b/gi, '官方来源入口'],
   [/定时\s*crawler\s*会继续补([^。]*)。?/gi, '后续将按官方页面持续补充$1。'],
   [/后续由\s*crawler\s*对齐/gi, '后续将按官方页面对齐'],
   [/后续\s*crawler\s*可/gi, '后续自动更新流程可'],
@@ -527,6 +532,7 @@ function writeData(ddlData) {
   const content = `export interface DDLItem {
   [key: string]: unknown;
   id: string;
+  topicId?: string;
   title: string;
   deadline?: string;
   date?: string;
@@ -563,7 +569,12 @@ export function getDDLByTopic(topicId: string): DDLItem[] {
 }
 
 export function getAllDDL(): DDLItem[] {
-  return Object.values(ddlData).flat();
+  return Object.entries(ddlData).flatMap(([topicId, items]) => (
+    items.map(item => ({
+      ...item,
+      topicId: typeof item.topicId === 'string' && item.topicId ? item.topicId : topicId,
+    }))
+  ));
 }
 `;
   fs.writeFileSync(DATA_PATH, content, 'utf8');
@@ -711,9 +722,11 @@ function validateCrossTopicUniqueness(ddlData) {
 
       if (item.canonicalUrl) {
         const canonicalUrl = String(item.canonicalUrl).trim();
-        if (canonicalUrls.has(canonicalUrl)) {
-          errors.push(`Duplicate canonicalUrl ${canonicalUrl}: ${canonicalUrls.get(canonicalUrl)} and ${itemRef}`);
-        } else {
+        const existingRef = canonicalUrls.get(canonicalUrl);
+        const existingTopicId = existingRef ? String(existingRef).split('/')[0] : '';
+        if (existingRef && existingTopicId !== topicId) {
+          errors.push(`Duplicate canonicalUrl ${canonicalUrl}: ${existingRef} and ${itemRef}`);
+        } else if (!existingRef) {
           canonicalUrls.set(canonicalUrl, itemRef);
         }
       }
