@@ -84,6 +84,23 @@ function metricWhen(metric: MetricSnapshot, language: 'zh' | 'en') {
   return language === 'zh' ? '当前快照' : 'current snapshot';
 }
 
+function forecastHistoryItems(forecast: DDLItem, items: DDLItem[]) {
+  const basisIds = Array.isArray(forecast.basisEvents)
+    ? forecast.basisEvents.filter((id): id is string => typeof id === 'string' && id.trim().length > 0)
+    : [];
+  if (!basisIds.length) return [];
+
+  const byId = new Map(items.map(item => [item.id, item]));
+  return basisIds
+    .map(id => byId.get(id))
+    .filter((item): item is DDLItem => Boolean(item) && isHistoryItem(item))
+    .slice(-5);
+}
+
+function compactItemTitle(title: string) {
+  return title.replace(/^20\d{2}\s+/, '').replace(/\s+发布$/, '');
+}
+
 function TopicInsightRails({
   items,
   metrics,
@@ -110,6 +127,7 @@ function TopicInsightRails({
       metrics: '指标快照',
       confidence: '置信度',
       disclosure: '预测说明',
+      basis: '依据历史节点',
       source: '来源',
       empty: '暂无数据',
     }
@@ -122,6 +140,7 @@ function TopicInsightRails({
       metrics: 'Metrics',
       confidence: 'Confidence',
       disclosure: 'Forecast note',
+      basis: 'Basis history',
       source: 'Source',
       empty: 'No data yet',
     };
@@ -156,21 +175,39 @@ function TopicInsightRails({
         <article className="rounded-3xl border bg-slate-50 p-4" style={{ borderColor: '#E2E8F0' }}>
           <h3 className="text-sm font-black" style={{ color: '#0F172A' }}>{labels.forecast}</h3>
           <div className="mt-4 space-y-3">
-            {forecastItems.length ? forecastItems.map(item => (
-              <a key={item.id} href={item.url} target="_blank" rel="noopener noreferrer" className="block rounded-2xl border bg-white p-3 transition hover:-translate-y-0.5" style={{ borderColor: '#CFFAFE' }}>
-                <div className="flex flex-wrap items-center gap-2">
-                  <span className="rounded-full bg-cyan-50 px-2 py-0.5 text-[10px] font-black text-cyan-700">{formatItemDate(item, language)}</span>
-                  {typeof item.confidence === 'string' && (
-                    <span className="rounded-full bg-amber-50 px-2 py-0.5 text-[10px] font-black text-amber-700">{labels.confidence}: {item.confidence}</span>
+            {forecastItems.length ? forecastItems.map(item => {
+              const basis = forecastHistoryItems(item, items);
+              return (
+                <a key={item.id} href={item.url} target="_blank" rel="noopener noreferrer" className="block rounded-2xl border bg-white p-3 transition hover:-translate-y-0.5" style={{ borderColor: '#CFFAFE' }}>
+                  <div className="flex flex-wrap items-center gap-2">
+                    <span className="rounded-full bg-cyan-50 px-2 py-0.5 text-[10px] font-black text-cyan-700">{formatItemDate(item, language)}</span>
+                    {typeof item.confidence === 'string' && (
+                      <span className="rounded-full bg-amber-50 px-2 py-0.5 text-[10px] font-black text-amber-700">{labels.confidence}: {item.confidence}</span>
+                    )}
+                  </div>
+                  <p className="mt-2 line-clamp-2 text-xs font-black" style={{ color: '#0F172A' }}>{item.title}</p>
+                  <p className="mt-1 line-clamp-2 text-[11px]" style={{ color: '#64748B' }}>{item.description}</p>
+                  <p className="mt-2 rounded-xl bg-cyan-50 px-2 py-1 text-[11px] font-bold leading-5 text-cyan-700">
+                    {labels.disclosure}: {formatForecastDisclosure(item, language)}
+                  </p>
+                  {basis.length > 0 && (
+                    <div className="mt-2 rounded-xl border bg-slate-50 p-2" style={{ borderColor: '#E2E8F0' }}>
+                      <p className="text-[10px] font-black uppercase tracking-[0.12em]" style={{ color: '#64748B' }}>{labels.basis}</p>
+                      <div className="mt-1.5 space-y-1">
+                        {basis.map(history => (
+                          <div key={history.id} className="flex items-center gap-2 text-[11px] font-semibold" style={{ color: '#475569' }}>
+                            <span className="shrink-0 rounded-full bg-white px-1.5 py-0.5 font-black" style={{ color: topicColor }}>
+                              {formatItemDate(history, language)}
+                            </span>
+                            <span className="min-w-0 truncate">{compactItemTitle(history.title)}</span>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
                   )}
-                </div>
-                <p className="mt-2 line-clamp-2 text-xs font-black" style={{ color: '#0F172A' }}>{item.title}</p>
-                <p className="mt-1 line-clamp-2 text-[11px]" style={{ color: '#64748B' }}>{item.description}</p>
-                <p className="mt-2 rounded-xl bg-cyan-50 px-2 py-1 text-[11px] font-bold leading-5 text-cyan-700">
-                  {labels.disclosure}: {formatForecastDisclosure(item, language)}
-                </p>
-              </a>
-            )) : <p className="text-xs font-semibold" style={{ color: '#94A3B8' }}>{labels.empty}</p>}
+                </a>
+              );
+            }) : <p className="text-xs font-semibold" style={{ color: '#94A3B8' }}>{labels.empty}</p>}
           </div>
         </article>
 
