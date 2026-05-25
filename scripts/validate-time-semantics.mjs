@@ -64,14 +64,79 @@ function isNextItemCandidate(item) {
   return hasOfficialDeadline(item) && String(item.status || '').toLowerCase() !== 'ended';
 }
 
+function localDate(value) {
+  if (typeof value !== 'string' || !value.trim()) return '';
+  const match = value.match(/^(\d{4}-\d{2}-\d{2})/);
+  if (match) return match[1];
+  const time = parseTime(value);
+  return Number.isFinite(time) ? new Date(time).toISOString().slice(0, 10) : '';
+}
+
+function officialDate(item) {
+  return localDate(item.date || item.deadline);
+}
+
 function readDdlData() {
   const source = fs.readFileSync(DATA_PATH, 'utf8');
   return JSON.parse(extractJsonAfter(source, 'export const ddlData', '{', '}'));
 }
 
+function validateForecastRelationship(topicId, items, forecast) {
+  const errors = [];
+  const label = `${topicId}/${forecast.id || '<missing-id>'}`;
+  const itemsById = new Map(items.map(item => [item.id, item]));
+  const basisEvents = Array.isArray(forecast.basisEvents) ? forecast.basisEvents : [];
+  const windowStart = localDate(forecast.estimatedNextWindow?.start);
+  const windowEnd = localDate(forecast.estimatedNextWindow?.end);
+
+  if (basisEvents.length < 2) {
+    errors.push(`${label}: forecast item must include at least two basisEvents`);
+    return errors;
+  }
+  if (!['low', 'medium', 'high'].includes(String(forecast.confidence || ''))) {
+    errors.push(`${label}: forecast item must include confidence low/medium/high`);
+  }
+  if (!windowStart || !windowEnd) {
+    errors.push(`${label}: forecast item must include valid estimatedNextWindow.start/end`);
+  } else if (windowStart > windowEnd) {
+    errors.push(`${label}: forecast window start must be before end`);
+  }
+
+  const dates = [];
+  for (const basisId of basisEvents) {
+    const basis = itemsById.get(basisId);
+    if (!basis) {
+      errors.push(`${label}: missing basisEvent ${basisId}`);
+      continue;
+    }
+    if (isForecastItem(basis) || isPlaceholderItem(basis)) {
+      errors.push(`${label}: basisEvent ${basisId} must be an official dated node, not a forecast or placeholder`);
+      continue;
+    }
+    const date = officialDate(basis);
+    if (!date) {
+      errors.push(`${label}: basisEvent ${basisId} has no official date`);
+      continue;
+    }
+    dates.push(date);
+  }
+
+  if (dates.length !== basisEvents.length) return errors;
+  const sortedDates = [...dates].sort();
+  if (dates.some((date, index) => date !== sortedDates[index])) {
+    errors.push(`${label}: basisEvents must be chronological`);
+  }
+  if (localDate(forecast.lastOfficialDate) !== dates.at(-1)) {
+    errors.push(`${label}: lastOfficialDate must match the latest basisEvent date`);
+  }
+
+  return errors;
+}
+
 function validateSourceItems(ddlData) {
   const errors = [];
   let itemsCount = 0;
+  let forecastCount = 0;
 
   for (const [topicId, items] of Object.entries(ddlData)) {
     for (const item of items) {
@@ -84,6 +149,7 @@ function validateSourceItems(ddlData) {
       const isPlaceholder = isPlaceholderItem(item);
 
       if (isForecast) {
+        forecastCount += 1;
         const windowStart = parseTime(item.estimatedNextWindow?.start);
         const windowEnd = parseTime(item.estimatedNextWindow?.end);
         if (Number.isFinite(deadlineTime)) {
@@ -97,6 +163,7 @@ function validateSourceItems(ddlData) {
         } else if (windowStart > windowEnd) {
           errors.push(`${label}: forecast window start must be before end`);
         }
+        errors.push(...validateForecastRelationship(topicId, items, item));
         continue;
       }
 
@@ -117,12 +184,27 @@ function validateSourceItems(ddlData) {
     }
   }
 
-  return { errors, itemsCount };
+  return { errors, itemsCount, forecastCount };
+}
+
+function validateMiniprogramForecasts(payload) {
+  const errors = [];
+  let forecastCount = 0;
+  const topicId = payload.topic?.id || 'unknown-topic';
+  const items = payload.items || [];
+  for (const item of items) {
+    if (isForecastItem(item)) {
+      forecastCount += 1;
+      errors.push(...validateForecastRelationship(topicId, items, item));
+    }
+  }
+  return { errors, forecastCount };
 }
 
 function validateMiniprogramSubtopics() {
   const errors = [];
   let topicFiles = 0;
+  let forecastCount = 0;
 
   if (!fs.existsSync(MINIPROGRAM_TOPIC_DIR)) {
     return { errors, topicFiles };
@@ -133,6 +215,9 @@ function validateMiniprogramSubtopics() {
     const filePath = path.join(MINIPROGRAM_TOPIC_DIR, fileName);
     const payload = JSON.parse(fs.readFileSync(filePath, 'utf8'));
     const itemsById = new Map((payload.items || []).map(item => [item.id, item]));
+    const forecastResult = validateMiniprogramForecasts(payload);
+    errors.push(...forecastResult.errors);
+    forecastCount += forecastResult.forecastCount;
 
     for (const group of payload.subtopics || []) {
       if (!group.nextItemId) continue;
@@ -146,7 +231,7 @@ function validateMiniprogramSubtopics() {
     }
   }
 
-  return { errors, topicFiles };
+  return { errors, topicFiles, forecastCount };
 }
 
 function main() {
@@ -163,7 +248,9 @@ function main() {
   console.log(JSON.stringify({
     ok: true,
     sourceItems: sourceResult.itemsCount,
-    miniprogramTopicFiles: miniprogramResult.topicFiles
+    sourceForecasts: sourceResult.forecastCount,
+    miniprogramTopicFiles: miniprogramResult.topicFiles,
+    miniprogramForecasts: miniprogramResult.forecastCount
   }, null, 2));
 }
 
