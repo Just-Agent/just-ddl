@@ -669,6 +669,27 @@ export const topics: Topic[] = [
     ]
   },
   {
+    "id": "google-scholar-metrics-ddl",
+    "name": "Scholar Metrics",
+    "description": "Google Scholar Metrics 年度发布、h5-index / h5-median 指标快照，以及期刊与会议评价口径说明。",
+    "icon": "Database",
+    "color": "#2563EB",
+    "repo": "Just-Agent/journal-metrics-ddl",
+    "site": "https://just-agent.github.io/journal-metrics-ddl/#google-scholar-metrics-ddl",
+    "status": "published",
+    "sourceMode": "cluster",
+    "clusterId": "journal-metrics-ddl",
+    "dataUrl": "public-data/topics/google-scholar-metrics-ddl/items.json",
+    "metricsUrl": "public-data/topics/google-scholar-metrics-ddl/metrics.json",
+    "itemCount": 4,
+    "category": "学术期刊",
+    "tags": [
+      "Google Scholar",
+      "h5-index",
+      "conference metrics"
+    ]
+  },
+  {
     "id": "journal-volume-ddl",
     "name": "期刊发文量",
     "description": "Nature、Science、Cell 等期刊公开元数据发文量快照和年度趋势。",

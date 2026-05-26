@@ -19,6 +19,7 @@ const loaders: Record<string, DDLLoader> = {
   "game-ddl": () => import('./ddl-runtime/game-ddl').then((module) => module.ddlForGameDdl),
   "game-dev-ddl": () => import('./ddl-runtime/game-dev-ddl').then((module) => module.ddlForGameDevDdl),
   "game-version-ddl": () => import('./ddl-runtime/game-version-ddl').then((module) => module.ddlForGameVersionDdl),
+  "google-scholar-metrics-ddl": () => import('./ddl-runtime/google-scholar-metrics-ddl').then((module) => module.ddlForGoogleScholarMetricsDdl),
   "hackathon-ddl": () => import('./ddl-runtime/hackathon-ddl').then((module) => module.ddlForHackathonDdl),
   "holiday-ddl": () => import('./ddl-runtime/holiday-ddl').then((module) => module.ddlForHolidayDdl),
   "ielts-toefl-ddl": () => import('./ddl-runtime/ielts-toefl-ddl').then((module) => module.ddlForIeltsToeflDdl),

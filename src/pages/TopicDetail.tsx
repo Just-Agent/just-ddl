@@ -60,7 +60,7 @@ interface SubtopicGroup {
 type EventViewMode = 'list' | 'grid';
 type EventVisualMode = DDLCardVisualMode;
 
-const journalMetricTopicIds = ['cas-partition-ddl', 'jcr-impact-factor-ddl', 'journal-volume-ddl'] as const;
+const journalMetricTopicIds = ['cas-partition-ddl', 'jcr-impact-factor-ddl', 'google-scholar-metrics-ddl', 'journal-volume-ddl'] as const;
 
 function getItemSubtopic(item: DDLItem) {
   return {

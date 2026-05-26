@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-26T02:59:58.817Z",
-  "dataVersion": "a22c4cc8f842005e",
-  "totalItems": 822,
+  "generatedAt": "2026-05-26T03:53:49.323Z",
+  "dataVersion": "9b8fc08b86c6cfd2",
+  "totalItems": 826,
   "officialDeadlineItems": 667,
   "buckets": {
     "missingSourceUrl": {
@@ -180,7 +180,7 @@
       ]
     },
     "manualFollowUp": {
-      "count": 234,
+      "count": 235,
       "byTopic": {
         "holiday-ddl": 49,
         "academic-ddl": 20,
@@ -201,7 +201,8 @@
         "movie-tv-ddl": 3,
         "nsfc-ddl": 3,
         "jcr-impact-factor-ddl": 2,
-        "game-version-ddl": 1
+        "game-version-ddl": 1,
+        "google-scholar-metrics-ddl": 1
       },
       "sample": [
         {

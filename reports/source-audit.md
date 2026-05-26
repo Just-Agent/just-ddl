@@ -1,14 +1,14 @@
 # Just-DDL Source Audit
 
-Generated: 2026-05-26T02:59:58.817Z
+Generated: 2026-05-26T03:53:49.323Z
 
 This is an internal production-readiness report. It identifies items that need detail-page upgrades, sourceUrl completion, manual maintenance, or official-source verification. It is not published to GitHub Pages or miniprogram exports.
 
-- Total DDL items: 822
+- Total DDL items: 826
 - Official deadline candidates: 667
 - Missing sourceUrl: 0
 - Root-like URL follow-up: 13
-- Manual/source-board follow-up: 234
+- Manual/source-board follow-up: 235
 - Seed/demo source wording: 0
 - Aggregator/review-platform source: 21
 
