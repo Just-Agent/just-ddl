@@ -1,8 +1,14 @@
 {
-  "generatedAt": "2026-05-26T03:53:49.323Z",
-  "dataVersion": "9b8fc08b86c6cfd2",
+  "generatedAt": "2026-05-26T11:06:38.195Z",
+  "dataVersion": "9b7cd819afade28b",
   "totalItems": 826,
   "officialDeadlineItems": 667,
+  "priorityCounts": {
+    "P0": 0,
+    "P1": 34,
+    "P2": 235,
+    "P3": 0
+  },
   "buckets": {
     "missingSourceUrl": {
       "count": 0,
@@ -31,7 +37,9 @@
           "source": "Official site",
           "stage": "Registration",
           "type": "hackathon",
-          "isDatePlaceholder": false
+          "isDatePlaceholder": false,
+          "priority": "P1",
+          "nextAction": "优先寻找官方详情页；若官网只提供总入口，标明 official_index/source-board 语义"
         },
         {
           "topicId": "hackathon-ddl",
@@ -43,7 +51,9 @@
           "source": "Official site",
           "stage": "Local event",
           "type": "hackathon",
-          "isDatePlaceholder": false
+          "isDatePlaceholder": false,
+          "priority": "P1",
+          "nextAction": "优先寻找官方详情页；若官网只提供总入口，标明 official_index/source-board 语义"
         },
         {
           "topicId": "agent-ddl",
@@ -55,7 +65,9 @@
           "source": "IJCAI AI Olympics with RealAIGym",
           "stage": "Stage 1 report",
           "type": "challenge",
-          "isDatePlaceholder": false
+          "isDatePlaceholder": false,
+          "priority": "P1",
+          "nextAction": "优先寻找官方详情页；若官网只提供总入口，标明 official_index/source-board 语义"
         },
         {
           "topicId": "cv-ddl",
@@ -67,7 +79,9 @@
           "source": "CVPR 2026 Workshops",
           "stage": "Workshop / challenge session",
           "type": "challenge",
-          "isDatePlaceholder": false
+          "isDatePlaceholder": false,
+          "priority": "P1",
+          "nextAction": "优先寻找官方详情页；若官网只提供总入口，标明 official_index/source-board 语义"
         },
         {
           "topicId": "cv-ddl",
@@ -79,7 +93,9 @@
           "source": "CVPR 2026 Workshops",
           "stage": "Workshop / challenge session",
           "type": "challenge",
-          "isDatePlaceholder": false
+          "isDatePlaceholder": false,
+          "priority": "P1",
+          "nextAction": "优先寻找官方详情页；若官网只提供总入口，标明 official_index/source-board 语义"
         },
         {
           "topicId": "nlp-ddl",
@@ -91,7 +107,9 @@
           "source": "官方评测入口",
           "stage": "System submit",
           "type": "conference",
-          "isDatePlaceholder": false
+          "isDatePlaceholder": false,
+          "priority": "P1",
+          "nextAction": "优先寻找官方详情页；若官网只提供总入口，标明 official_index/source-board 语义"
         },
         {
           "topicId": "programming-ddl",
@@ -103,7 +121,9 @@
           "source": "Official site",
           "stage": "Contest",
           "type": "contest",
-          "isDatePlaceholder": false
+          "isDatePlaceholder": false,
+          "priority": "P1",
+          "nextAction": "优先寻找官方详情页；若官网只提供总入口，标明 official_index/source-board 语义"
         },
         {
           "topicId": "programming-ddl",
@@ -115,7 +135,9 @@
           "source": "Official site",
           "stage": "Contest",
           "type": "contest",
-          "isDatePlaceholder": false
+          "isDatePlaceholder": false,
+          "priority": "P1",
+          "nextAction": "优先寻找官方详情页；若官网只提供总入口，标明 official_index/source-board 语义"
         },
         {
           "topicId": "programming-ddl",
@@ -127,7 +149,9 @@
           "source": "Official site",
           "stage": "Event start",
           "type": "contest",
-          "isDatePlaceholder": false
+          "isDatePlaceholder": false,
+          "priority": "P1",
+          "nextAction": "优先寻找官方详情页；若官网只提供总入口，标明 official_index/source-board 语义"
         },
         {
           "topicId": "multimodal-ddl",
@@ -139,7 +163,9 @@
           "source": "官方评测入口",
           "stage": "Submission",
           "type": "challenge",
-          "isDatePlaceholder": false
+          "isDatePlaceholder": false,
+          "priority": "P1",
+          "nextAction": "优先寻找官方详情页；若官网只提供总入口，标明 official_index/source-board 语义"
         },
         {
           "topicId": "multimodal-ddl",
@@ -151,7 +177,9 @@
           "source": "官方评测入口",
           "stage": "Result upload",
           "type": "challenge",
-          "isDatePlaceholder": false
+          "isDatePlaceholder": false,
+          "priority": "P1",
+          "nextAction": "优先寻找官方详情页；若官网只提供总入口，标明 official_index/source-board 语义"
         },
         {
           "topicId": "concert-ddl",
@@ -163,7 +191,9 @@
           "source": "Wynonna official tour",
           "stage": "Concert date",
           "type": "concert",
-          "isDatePlaceholder": false
+          "isDatePlaceholder": false,
+          "priority": "P1",
+          "nextAction": "优先寻找官方详情页；若官网只提供总入口，标明 official_index/source-board 语义"
         },
         {
           "topicId": "concert-ddl",
@@ -175,7 +205,9 @@
           "source": "Wynonna official tour",
           "stage": "Concert date",
           "type": "concert",
-          "isDatePlaceholder": false
+          "isDatePlaceholder": false,
+          "priority": "P1",
+          "nextAction": "优先寻找官方详情页；若官网只提供总入口，标明 official_index/source-board 语义"
         }
       ]
     },
@@ -215,7 +247,9 @@
           "source": "人工整理的官方来源入口",
           "stage": "Event start",
           "type": "hackathon",
-          "isDatePlaceholder": false
+          "isDatePlaceholder": false,
+          "priority": "P2",
+          "nextAction": "从官方入口继续解析具体日期页；短期无法自动解析时保留人工核验记录"
         },
         {
           "topicId": "hackathon-ddl",
@@ -227,7 +261,9 @@
           "source": "人工整理的官方来源入口",
           "stage": "Submission",
           "type": "hackathon",
-          "isDatePlaceholder": false
+          "isDatePlaceholder": false,
+          "priority": "P2",
+          "nextAction": "从官方入口继续解析具体日期页；短期无法自动解析时保留人工核验记录"
         },
         {
           "topicId": "hackathon-ddl",
@@ -239,7 +275,9 @@
           "source": "官方来源入口",
           "stage": "Application",
           "type": "hackathon",
-          "isDatePlaceholder": false
+          "isDatePlaceholder": false,
+          "priority": "P2",
+          "nextAction": "从官方入口继续解析具体日期页；短期无法自动解析时保留人工核验记录"
         },
         {
           "topicId": "hackathon-ddl",
@@ -251,7 +289,9 @@
           "source": "人工整理的官方来源入口",
           "stage": "Application",
           "type": "hackathon",
-          "isDatePlaceholder": false
+          "isDatePlaceholder": false,
+          "priority": "P2",
+          "nextAction": "从官方入口继续解析具体日期页；短期无法自动解析时保留人工核验记录"
         },
         {
           "topicId": "hackathon-ddl",
@@ -263,7 +303,9 @@
           "source": "人工整理的官方来源入口",
           "stage": "Application",
           "type": "hackathon",
-          "isDatePlaceholder": false
+          "isDatePlaceholder": false,
+          "priority": "P2",
+          "nextAction": "从官方入口继续解析具体日期页；短期无法自动解析时保留人工核验记录"
         },
         {
           "topicId": "hackathon-ddl",
@@ -275,7 +317,9 @@
           "source": "人工整理的官方来源入口",
           "stage": "Application",
           "type": "hackathon",
-          "isDatePlaceholder": false
+          "isDatePlaceholder": false,
+          "priority": "P2",
+          "nextAction": "从官方入口继续解析具体日期页；短期无法自动解析时保留人工核验记录"
         },
         {
           "topicId": "hackathon-ddl",
@@ -287,7 +331,9 @@
           "source": "人工整理的官方来源入口",
           "stage": "Application",
           "type": "hackathon",
-          "isDatePlaceholder": false
+          "isDatePlaceholder": false,
+          "priority": "P2",
+          "nextAction": "从官方入口继续解析具体日期页；短期无法自动解析时保留人工核验记录"
         },
         {
           "topicId": "hackathon-ddl",
@@ -299,7 +345,9 @@
           "source": "人工整理的官方来源入口",
           "stage": "Registration",
           "type": "hackathon",
-          "isDatePlaceholder": false
+          "isDatePlaceholder": false,
+          "priority": "P2",
+          "nextAction": "从官方入口继续解析具体日期页；短期无法自动解析时保留人工核验记录"
         },
         {
           "topicId": "hackathon-ddl",
@@ -311,7 +359,9 @@
           "source": "人工整理的官方来源入口",
           "stage": "Registration",
           "type": "hackathon",
-          "isDatePlaceholder": false
+          "isDatePlaceholder": false,
+          "priority": "P2",
+          "nextAction": "从官方入口继续解析具体日期页；短期无法自动解析时保留人工核验记录"
         },
         {
           "topicId": "hackathon-ddl",
@@ -323,7 +373,9 @@
           "source": "人工整理的官方来源入口",
           "stage": "Hacking",
           "type": "hackathon",
-          "isDatePlaceholder": false
+          "isDatePlaceholder": false,
+          "priority": "P2",
+          "nextAction": "从官方入口继续解析具体日期页；短期无法自动解析时保留人工核验记录"
         },
         {
           "topicId": "hackathon-ddl",
@@ -335,7 +387,9 @@
           "source": "人工整理的官方来源入口",
           "stage": "Application",
           "type": "hackathon",
-          "isDatePlaceholder": false
+          "isDatePlaceholder": false,
+          "priority": "P2",
+          "nextAction": "从官方入口继续解析具体日期页；短期无法自动解析时保留人工核验记录"
         },
         {
           "topicId": "hackathon-ddl",
@@ -347,7 +401,9 @@
           "source": "人工整理的官方来源入口",
           "stage": "Bounty submit",
           "type": "hackathon",
-          "isDatePlaceholder": false
+          "isDatePlaceholder": false,
+          "priority": "P2",
+          "nextAction": "从官方入口继续解析具体日期页；短期无法自动解析时保留人工核验记录"
         },
         {
           "topicId": "hackathon-ddl",
@@ -359,7 +415,9 @@
           "source": "人工整理的官方来源入口",
           "stage": "Acceptance",
           "type": "hackathon",
-          "isDatePlaceholder": false
+          "isDatePlaceholder": false,
+          "priority": "P2",
+          "nextAction": "从官方入口继续解析具体日期页；短期无法自动解析时保留人工核验记录"
         },
         {
           "topicId": "hackathon-ddl",
@@ -371,7 +429,9 @@
           "source": "人工整理的官方来源入口",
           "stage": "Registration",
           "type": "hackathon",
-          "isDatePlaceholder": false
+          "isDatePlaceholder": false,
+          "priority": "P2",
+          "nextAction": "从官方入口继续解析具体日期页；短期无法自动解析时保留人工核验记录"
         },
         {
           "topicId": "hackathon-ddl",
@@ -383,7 +443,9 @@
           "source": "人工整理的官方来源入口",
           "stage": "Registration",
           "type": "hackathon",
-          "isDatePlaceholder": false
+          "isDatePlaceholder": false,
+          "priority": "P2",
+          "nextAction": "从官方入口继续解析具体日期页；短期无法自动解析时保留人工核验记录"
         },
         {
           "topicId": "nlp-ddl",
@@ -395,7 +457,9 @@
           "source": "人工整理的官方来源入口",
           "stage": "Paper",
           "type": "conference",
-          "isDatePlaceholder": false
+          "isDatePlaceholder": false,
+          "priority": "P2",
+          "nextAction": "从官方入口继续解析具体日期页；短期无法自动解析时保留人工核验记录"
         },
         {
           "topicId": "nlp-ddl",
@@ -407,7 +471,9 @@
           "source": "人工整理的官方来源入口",
           "stage": "System submit",
           "type": "conference",
-          "isDatePlaceholder": false
+          "isDatePlaceholder": false,
+          "priority": "P2",
+          "nextAction": "从官方入口继续解析具体日期页；短期无法自动解析时保留人工核验记录"
         },
         {
           "topicId": "nlp-ddl",
@@ -419,7 +485,9 @@
           "source": "人工整理的官方来源入口",
           "stage": "Paper",
           "type": "conference",
-          "isDatePlaceholder": false
+          "isDatePlaceholder": false,
+          "priority": "P2",
+          "nextAction": "从官方入口继续解析具体日期页；短期无法自动解析时保留人工核验记录"
         },
         {
           "topicId": "nlp-ddl",
@@ -431,7 +499,9 @@
           "source": "官方来源入口",
           "stage": "Demo",
           "type": "conference",
-          "isDatePlaceholder": false
+          "isDatePlaceholder": false,
+          "priority": "P2",
+          "nextAction": "从官方入口继续解析具体日期页；短期无法自动解析时保留人工核验记录"
         },
         {
           "topicId": "nlp-ddl",
@@ -443,7 +513,9 @@
           "source": "人工整理的官方来源入口",
           "stage": "Paper",
           "type": "conference",
-          "isDatePlaceholder": false
+          "isDatePlaceholder": false,
+          "priority": "P2",
+          "nextAction": "从官方入口继续解析具体日期页；短期无法自动解析时保留人工核验记录"
         },
         {
           "topicId": "nlp-ddl",
@@ -455,7 +527,9 @@
           "source": "人工整理的官方来源入口",
           "stage": "Long paper",
           "type": "conference",
-          "isDatePlaceholder": false
+          "isDatePlaceholder": false,
+          "priority": "P2",
+          "nextAction": "从官方入口继续解析具体日期页；短期无法自动解析时保留人工核验记录"
         },
         {
           "topicId": "nlp-ddl",
@@ -467,7 +541,9 @@
           "source": "官方来源入口",
           "stage": "ARR commit",
           "type": "conference",
-          "isDatePlaceholder": false
+          "isDatePlaceholder": false,
+          "priority": "P2",
+          "nextAction": "从官方入口继续解析具体日期页；短期无法自动解析时保留人工核验记录"
         },
         {
           "topicId": "nlp-ddl",
@@ -479,7 +555,9 @@
           "source": "人工整理的官方来源入口",
           "stage": "Submission",
           "type": "conference",
-          "isDatePlaceholder": false
+          "isDatePlaceholder": false,
+          "priority": "P2",
+          "nextAction": "从官方入口继续解析具体日期页；短期无法自动解析时保留人工核验记录"
         },
         {
           "topicId": "nlp-ddl",
@@ -491,7 +569,9 @@
           "source": "人工整理的官方来源入口",
           "stage": "Leaderboard",
           "type": "conference",
-          "isDatePlaceholder": false
+          "isDatePlaceholder": false,
+          "priority": "P2",
+          "nextAction": "从官方入口继续解析具体日期页；短期无法自动解析时保留人工核验记录"
         },
         {
           "topicId": "nlp-ddl",
@@ -503,7 +583,9 @@
           "source": "人工整理的官方来源入口",
           "stage": "System report",
           "type": "conference",
-          "isDatePlaceholder": false
+          "isDatePlaceholder": false,
+          "priority": "P2",
+          "nextAction": "从官方入口继续解析具体日期页；短期无法自动解析时保留人工核验记录"
         },
         {
           "topicId": "nlp-ddl",
@@ -515,7 +597,9 @@
           "source": "人工整理的官方来源入口",
           "stage": "Paper",
           "type": "conference",
-          "isDatePlaceholder": false
+          "isDatePlaceholder": false,
+          "priority": "P2",
+          "nextAction": "从官方入口继续解析具体日期页；短期无法自动解析时保留人工核验记录"
         },
         {
           "topicId": "nlp-ddl",
@@ -527,7 +611,9 @@
           "source": "人工整理的官方来源入口",
           "stage": "Leaderboard",
           "type": "conference",
-          "isDatePlaceholder": false
+          "isDatePlaceholder": false,
+          "priority": "P2",
+          "nextAction": "从官方入口继续解析具体日期页；短期无法自动解析时保留人工核验记录"
         },
         {
           "topicId": "nlp-ddl",
@@ -539,7 +625,9 @@
           "source": "人工整理的官方来源入口",
           "stage": "Paper / system",
           "type": "conference",
-          "isDatePlaceholder": false
+          "isDatePlaceholder": false,
+          "priority": "P2",
+          "nextAction": "从官方入口继续解析具体日期页；短期无法自动解析时保留人工核验记录"
         },
         {
           "topicId": "nlp-ddl",
@@ -551,7 +639,9 @@
           "source": "人工整理的官方来源入口",
           "stage": "Paper",
           "type": "conference",
-          "isDatePlaceholder": false
+          "isDatePlaceholder": false,
+          "priority": "P2",
+          "nextAction": "从官方入口继续解析具体日期页；短期无法自动解析时保留人工核验记录"
         },
         {
           "topicId": "nlp-ddl",
@@ -563,7 +653,9 @@
           "source": "人工整理的官方来源入口",
           "stage": "Paper",
           "type": "conference",
-          "isDatePlaceholder": false
+          "isDatePlaceholder": false,
+          "priority": "P2",
+          "nextAction": "从官方入口继续解析具体日期页；短期无法自动解析时保留人工核验记录"
         }
       ]
     },
@@ -590,7 +682,9 @@
           "source": "人工整理的官方来源入口",
           "stage": "System report",
           "type": "conference",
-          "isDatePlaceholder": false
+          "isDatePlaceholder": false,
+          "priority": "P1",
+          "nextAction": "用聚合页做线索，补官方主办方/赛题/投稿页；无法补齐时标注二级来源并进入人工复核"
         },
         {
           "topicId": "multimodal-ddl",
@@ -602,7 +696,9 @@
           "source": "人工整理的官方来源入口",
           "stage": "Report",
           "type": "challenge",
-          "isDatePlaceholder": false
+          "isDatePlaceholder": false,
+          "priority": "P1",
+          "nextAction": "用聚合页做线索，补官方主办方/赛题/投稿页；无法补齐时标注二级来源并进入人工复核"
         },
         {
           "topicId": "multimodal-ddl",
@@ -614,7 +710,9 @@
           "source": "人工整理的官方来源入口",
           "stage": "Leaderboard",
           "type": "challenge",
-          "isDatePlaceholder": false
+          "isDatePlaceholder": false,
+          "priority": "P1",
+          "nextAction": "用聚合页做线索，补官方主办方/赛题/投稿页；无法补齐时标注二级来源并进入人工复核"
         },
         {
           "topicId": "security-ddl",
@@ -626,7 +724,9 @@
           "source": "ctftime",
           "stage": "upcoming",
           "type": "contest",
-          "isDatePlaceholder": false
+          "isDatePlaceholder": false,
+          "priority": "P1",
+          "nextAction": "用聚合页做线索，补官方主办方/赛题/投稿页；无法补齐时标注二级来源并进入人工复核"
         },
         {
           "topicId": "security-ddl",
@@ -638,7 +738,9 @@
           "source": "ctftime",
           "stage": "upcoming",
           "type": "contest",
-          "isDatePlaceholder": false
+          "isDatePlaceholder": false,
+          "priority": "P1",
+          "nextAction": "用聚合页做线索，补官方主办方/赛题/投稿页；无法补齐时标注二级来源并进入人工复核"
         },
         {
           "topicId": "security-ddl",
@@ -650,7 +752,9 @@
           "source": "ctftime",
           "stage": "upcoming",
           "type": "contest",
-          "isDatePlaceholder": false
+          "isDatePlaceholder": false,
+          "priority": "P1",
+          "nextAction": "用聚合页做线索，补官方主办方/赛题/投稿页；无法补齐时标注二级来源并进入人工复核"
         },
         {
           "topicId": "security-ddl",
@@ -662,7 +766,9 @@
           "source": "ctftime",
           "stage": "upcoming",
           "type": "contest",
-          "isDatePlaceholder": false
+          "isDatePlaceholder": false,
+          "priority": "P1",
+          "nextAction": "用聚合页做线索，补官方主办方/赛题/投稿页；无法补齐时标注二级来源并进入人工复核"
         },
         {
           "topicId": "security-ddl",
@@ -674,7 +780,9 @@
           "source": "ctftime",
           "stage": "upcoming",
           "type": "contest",
-          "isDatePlaceholder": false
+          "isDatePlaceholder": false,
+          "priority": "P1",
+          "nextAction": "用聚合页做线索，补官方主办方/赛题/投稿页；无法补齐时标注二级来源并进入人工复核"
         },
         {
           "topicId": "security-ddl",
@@ -686,7 +794,9 @@
           "source": "ctftime",
           "stage": "upcoming",
           "type": "contest",
-          "isDatePlaceholder": false
+          "isDatePlaceholder": false,
+          "priority": "P1",
+          "nextAction": "用聚合页做线索，补官方主办方/赛题/投稿页；无法补齐时标注二级来源并进入人工复核"
         },
         {
           "topicId": "security-ddl",
@@ -698,7 +808,9 @@
           "source": "ctftime",
           "stage": "upcoming",
           "type": "contest",
-          "isDatePlaceholder": false
+          "isDatePlaceholder": false,
+          "priority": "P1",
+          "nextAction": "用聚合页做线索，补官方主办方/赛题/投稿页；无法补齐时标注二级来源并进入人工复核"
         },
         {
           "topicId": "security-ddl",
@@ -710,7 +822,9 @@
           "source": "ctftime",
           "stage": "upcoming",
           "type": "contest",
-          "isDatePlaceholder": false
+          "isDatePlaceholder": false,
+          "priority": "P1",
+          "nextAction": "用聚合页做线索，补官方主办方/赛题/投稿页；无法补齐时标注二级来源并进入人工复核"
         },
         {
           "topicId": "security-ddl",
@@ -722,7 +836,9 @@
           "source": "ctftime",
           "stage": "upcoming",
           "type": "contest",
-          "isDatePlaceholder": false
+          "isDatePlaceholder": false,
+          "priority": "P1",
+          "nextAction": "用聚合页做线索，补官方主办方/赛题/投稿页；无法补齐时标注二级来源并进入人工复核"
         },
         {
           "topicId": "security-ddl",
@@ -734,7 +850,9 @@
           "source": "ctftime",
           "stage": "upcoming",
           "type": "contest",
-          "isDatePlaceholder": false
+          "isDatePlaceholder": false,
+          "priority": "P1",
+          "nextAction": "用聚合页做线索，补官方主办方/赛题/投稿页；无法补齐时标注二级来源并进入人工复核"
         },
         {
           "topicId": "security-ddl",
@@ -746,7 +864,9 @@
           "source": "ctftime",
           "stage": "upcoming",
           "type": "contest",
-          "isDatePlaceholder": false
+          "isDatePlaceholder": false,
+          "priority": "P1",
+          "nextAction": "用聚合页做线索，补官方主办方/赛题/投稿页；无法补齐时标注二级来源并进入人工复核"
         },
         {
           "topicId": "security-ddl",
@@ -758,7 +878,9 @@
           "source": "ctftime",
           "stage": "upcoming",
           "type": "contest",
-          "isDatePlaceholder": false
+          "isDatePlaceholder": false,
+          "priority": "P1",
+          "nextAction": "用聚合页做线索，补官方主办方/赛题/投稿页；无法补齐时标注二级来源并进入人工复核"
         },
         {
           "topicId": "security-ddl",
@@ -770,7 +892,9 @@
           "source": "ctftime.org",
           "stage": "Source board",
           "type": "contest",
-          "isDatePlaceholder": false
+          "isDatePlaceholder": false,
+          "priority": "P1",
+          "nextAction": "用聚合页做线索，补官方主办方/赛题/投稿页；无法补齐时标注二级来源并进入人工复核"
         },
         {
           "topicId": "security-ddl",
@@ -782,7 +906,9 @@
           "source": "ctftime.org",
           "stage": "Source board",
           "type": "contest",
-          "isDatePlaceholder": false
+          "isDatePlaceholder": false,
+          "priority": "P1",
+          "nextAction": "用聚合页做线索，补官方主办方/赛题/投稿页；无法补齐时标注二级来源并进入人工复核"
         },
         {
           "topicId": "security-ddl",
@@ -794,7 +920,9 @@
           "source": "ctftime.org",
           "stage": "Source board",
           "type": "contest",
-          "isDatePlaceholder": false
+          "isDatePlaceholder": false,
+          "priority": "P1",
+          "nextAction": "用聚合页做线索，补官方主办方/赛题/投稿页；无法补齐时标注二级来源并进入人工复核"
         },
         {
           "topicId": "security-ddl",
@@ -806,7 +934,9 @@
           "source": "ctftime.org",
           "stage": "Source board",
           "type": "contest",
-          "isDatePlaceholder": false
+          "isDatePlaceholder": false,
+          "priority": "P1",
+          "nextAction": "用聚合页做线索，补官方主办方/赛题/投稿页；无法补齐时标注二级来源并进入人工复核"
         },
         {
           "topicId": "security-ddl",
@@ -818,7 +948,9 @@
           "source": "ctftime.org",
           "stage": "Source board",
           "type": "contest",
-          "isDatePlaceholder": false
+          "isDatePlaceholder": false,
+          "priority": "P1",
+          "nextAction": "用聚合页做线索，补官方主办方/赛题/投稿页；无法补齐时标注二级来源并进入人工复核"
         },
         {
           "topicId": "security-ddl",
@@ -830,7 +962,9 @@
           "source": "ctftime.org",
           "stage": "Source board",
           "type": "contest",
-          "isDatePlaceholder": false
+          "isDatePlaceholder": false,
+          "priority": "P1",
+          "nextAction": "用聚合页做线索，补官方主办方/赛题/投稿页；无法补齐时标注二级来源并进入人工复核"
         }
       ]
     }
