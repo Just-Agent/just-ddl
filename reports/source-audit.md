@@ -1,13 +1,13 @@
 # Just-DDL Source Audit
 
-Generated: 2026-05-26T01:03:55.613Z
+Generated: 2026-05-26T01:25:45.235Z
 
 This is an internal production-readiness report. It identifies items that need detail-page upgrades, sourceUrl completion, manual maintenance, or official-source verification. It is not published to GitHub Pages or miniprogram exports.
 
 - Total DDL items: 817
 - Official deadline candidates: 662
 - Missing sourceUrl: 0
-- Root-like URL follow-up: 61
+- Root-like URL follow-up: 26
 - Manual/source-board follow-up: 234
 - Seed/demo source wording: 0
 - Aggregator/review-platform source: 21
@@ -22,50 +22,15 @@ _None._
 |---|---|---|---|
 | hackathon-ddl | [Hack the North 2026](https://hackthenorth.com) | root-like URL without source-board wording | Official site |
 | hackathon-ddl | [NASA Space Apps Challenge 2026](https://www.spaceappschallenge.org/) | root-like URL without source-board wording | Official site |
-| agent-ddl | [DevNetwork [AI + ML] Hackathon 2026](https://devnetwork-ai-ml-hack-2026.devpost.com/) | root-like URL without source-board wording | DevNetwork AI + ML Hackathon Devpost |
-| agent-ddl | [International AI Agents Hackathon](https://ai-agents-hackathon1.devpost.com/) | root-like URL without source-board wording | International AI Agents Hackathon Devpost |
-| agent-ddl | [Google Cloud Rapid Agent Hackathon](https://rapid-agent.devpost.com/) | root-like URL without source-board wording | Google Cloud Rapid Agent Hackathon Devpost |
-| agent-ddl | [Mega Agent-A-Thon](https://mega-agent-a-thon.devpost.com/) | root-like URL without source-board wording | Mega Agent-A-Thon Devpost |
 | agent-ddl | [AI Olympics with RealAIGym - Stage 1](https://ai-olympics.dfki-bremen.de/) | root-like URL without source-board wording | IJCAI AI Olympics with RealAIGym |
-| agent-ddl | [Splunk Agentic Ops Hackathon](https://splunk.devpost.com/) | root-like URL without source-board wording | Splunk Agentic Ops Hackathon Devpost |
-| agent-ddl | [FIND EVIL!](https://findevil.devpost.com/) | root-like URL without source-board wording | FIND EVIL Devpost |
-| agent-ddl | [USAII Global AI Hackathon 2026](https://usaii-global-ai-hackathon-2026.devpost.com/) | root-like URL without source-board wording | USAII Global AI Hackathon Devpost |
-| agent-ddl | [SunnyHacks June 2026](https://sunnyhacks-june-2026.devpost.com/) | root-like URL without source-board wording | SunnyHacks June 2026 Devpost |
-| agent-ddl | [Slack Agent Builder Challenge](https://slackhack.devpost.com/) | root-like URL without source-board wording | Slack Agent Builder Challenge Devpost |
-| agent-ddl | [Agents Assemble - The Healthcare AI Endgame](https://agents-assemble.devpost.com/) | root-like URL without source-board wording | Agents Assemble Devpost |
-| cv-ddl | [CVPR 2026 - 1st Workshop on Video World Models: Interaction, Memory, and Efficiency](https://videoworldmodel-workshop.github.io/) | root-like URL without source-board wording | CVPR 2026 Workshops |
-| cv-ddl | [CVPR 2026 - Multimodal Foundation Models for Biomedicine: Challenges and Opportunities](https://mmfm-biomed.github.io/) | root-like URL without source-board wording | CVPR 2026 Workshops |
-| cv-ddl | [CVPR 2026 - The 3rd AI for Visual Arts Workshop and Challenges](https://ai4va-cvpr.github.io/) | root-like URL without source-board wording | CVPR 2026 Workshops |
-| cv-ddl | [CVPR 2026 - The 3rd AI for Visual Arts Workshop and Challenges](https://ai4va-cvpr.github.io/) | root-like URL without source-board wording | CVPR 2026 Workshops |
 | cv-ddl | [CVPR 2026 - The 7th International Workshop and CVML Challenge on Agriculture-Vision: Challenges & Opportunities for Computer Vision in Agriculture](https://www.agriculture-vision.com/) | root-like URL without source-board wording | CVPR 2026 Workshops |
-| cv-ddl | [CVPR 2026 - Workshop on World Models Meet Active Sensing and Closed-Loop Planning](https://cvpr26wmas.github.io/) | root-like URL without source-board wording | CVPR 2026 Workshops |
 | cv-ddl | [CVPR 2026 - 6th Workshop on CV4Animals: Computer Vision for Animal Behavior Tracking and Modeling](https://www.cv4animals.com/) | root-like URL without source-board wording | CVPR 2026 Workshops |
-| cv-ddl | [CVPR 2026 - Eighth Workshop on Image Matching: Local Features and Beyond](https://image-matching-workshop.github.io/) | root-like URL without source-board wording | CVPR 2026 Workshops |
-| cv-ddl | [CVPR 2026 - Eighth Workshop on Image Matching: Local Features and Beyond](https://image-matching-workshop.github.io/) | root-like URL without source-board wording | CVPR 2026 Workshops |
-| cv-ddl | [CVPR 2026 - Embodied Reasoning in Action: Workshop and Challenge on Embodied Reasoning for Robotic Manipulation](https://embodied-reasoning.github.io/) | root-like URL without source-board wording | CVPR 2026 Workshops |
-| cv-ddl | [CVPR 2026 - Multi-Agent Embodied Intelligent Systems Meet Agentic-AI era: Opportunities, Challenges and Futures](https://coop-intelligence.github.io/) | root-like URL without source-board wording | CVPR 2026 Workshops |
-| cv-ddl | [CVPR 2026 - Pixel-level Video Understanding in the Wild Challenge](https://pvuw.github.io/) | root-like URL without source-board wording | CVPR 2026 Workshops |
-| cv-ddl | [CVPR 2026 - Pixel-level Video Understanding in the Wild Challenge](https://pvuw.github.io/) | root-like URL without source-board wording | CVPR 2026 Workshops |
-| cv-ddl | [CVPR 2026 - The 8th UG2+ Workshop and Challenge: Bridging the Gap between Computational Photography and Visual Perception](https://cvpr2026ug2challenge.github.io/) | root-like URL without source-board wording | CVPR 2026 Workshops |
-| cv-ddl | [CVPR 2026 - Video Generative Models: Benchmarks and Evaluation](https://vidgen-bench-eval.github.io/) | root-like URL without source-board wording | CVPR 2026 Workshops |
-| cv-ddl | [EBMV @ ECCV 2026 - Challenge submission deadline](https://eventbasemultimodalvision.github.io/) | root-like URL without source-board wording | EBMV @ ECCV 2026 |
-| cv-ddl | [EBMV @ ECCV 2026 - Challenge results announcement](https://eventbasemultimodalvision.github.io/) | root-like URL without source-board wording | EBMV @ ECCV 2026 |
-| cv-ddl | [EBMV @ ECCV 2026 - Technical report deadline](https://eventbasemultimodalvision.github.io/) | root-like URL without source-board wording | EBMV @ ECCV 2026 |
-| cv-ddl | [EMR @ ECCV 2026 - Full paper submission deadline](https://emr-workshop.github.io/) | root-like URL without source-board wording | EMR @ ECCV 2026 |
-| cv-ddl | [EBMV @ ECCV 2026 - Workshop paper deadline](https://eventbasemultimodalvision.github.io/) | root-like URL without source-board wording | EBMV @ ECCV 2026 |
-| cv-ddl | [EMR @ ECCV 2026 - Extended abstract submission](https://emr-workshop.github.io/) | root-like URL without source-board wording | EMR @ ECCV 2026 |
-| cv-ddl | [EMR @ ECCV 2026 - Notification](https://emr-workshop.github.io/) | root-like URL without source-board wording | EMR @ ECCV 2026 |
-| cv-ddl | [EBMV @ ECCV 2026 - Camera-ready deadline](https://eventbasemultimodalvision.github.io/) | root-like URL without source-board wording | EBMV @ ECCV 2026 |
-| cv-ddl | [EMR @ ECCV 2026 - Final version](https://emr-workshop.github.io/) | root-like URL without source-board wording | EMR @ ECCV 2026 |
-| nlp-ddl | [SemEval 2027 System Submission](https://semeval.github.io) | root-like URL without source-board wording | 官方评测入口 |
 | nlp-ddl | [CoNLL Shared Task 2027](https://www.conll.org) | root-like URL without source-board wording | 官方评测入口 |
 | programming-ddl | [Codeforces Global Round](https://codeforces.com) | root-like URL without source-board wording | Official site |
 | programming-ddl | [AtCoder Grand Contest Demo Round](https://atcoder.jp) | root-like URL without source-board wording | Official site |
 | programming-ddl | [Advent of Code 2026 Day 1](https://adventofcode.com) | root-like URL without source-board wording | Official site |
 | multimodal-ddl | [VQA Challenge 2026](https://visualqa.org) | root-like URL without source-board wording | 官方评测入口 |
 | multimodal-ddl | [TextVQA Refresh](https://textvqa.org) | root-like URL without source-board wording | 官方评测入口 |
-| multimodal-ddl | [MMMU Challenge 2026](https://mmmu-benchmark.github.io) | root-like URL without source-board wording | 官方评测入口 |
-| multimodal-ddl | [Video-MME Leaderboard Freeze](https://video-mme.github.io) | root-like URL without source-board wording | 官方评测入口 |
 | robotics-ddl | [AI City Challenge 2026 - Registration opens](https://www.aicitychallenge.org) | root-like URL without source-board wording | AI City Challenge |
 | robotics-ddl | [AI City Challenge 2026 - Release of evaluation server and test data sets](https://www.aicitychallenge.org) | root-like URL without source-board wording | AI City Challenge |
 | robotics-ddl | [AI City Challenge 2026 - Release of evaluation server and test data sets](https://www.aicitychallenge.org) | root-like URL without source-board wording | AI City Challenge |

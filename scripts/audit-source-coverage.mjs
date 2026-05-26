@@ -63,6 +63,26 @@ function isRootLikeUrl(value) {
   }
 }
 
+function isDedicatedEventMicrositeUrl(value) {
+  if (typeof value !== 'string' || !value.trim()) return false;
+  try {
+    const url = new URL(value);
+    const host = url.hostname.toLowerCase();
+    const pathname = url.pathname.replace(/\/+$/, '');
+
+    if (!(pathname === '' || /^\/[a-z]{2}(?:-[a-z]{2})?$/i.test(pathname))) {
+      return false;
+    }
+
+    const isDevpostChallenge = host.endsWith('.devpost.com') && !['devpost.com', 'www.devpost.com'].includes(host);
+    const isGithubPagesProject = host.endsWith('.github.io') && host !== 'github.io';
+
+    return isDevpostChallenge || isGithubPagesProject;
+  } catch {
+    return false;
+  }
+}
+
 function hostOf(value) {
   try {
     return new URL(value).hostname.toLowerCase();
@@ -74,6 +94,7 @@ function hostOf(value) {
 function hasTraceableEvidenceUrl(item) {
   if (String(item.verificationLevel || '') === 'official_event_page') return true;
   if (!item.sourceUrl || !/^https?:\/\//.test(String(item.sourceUrl))) return false;
+  if (isDedicatedEventMicrositeUrl(item.sourceUrl)) return true;
   return !isRootLikeUrl(item.sourceUrl);
 }
 
