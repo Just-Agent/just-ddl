@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-26T03:00:22.387Z",
-  "dataVersion": "7b9c96d99c05c42c",
+  "generatedAt": "2026-05-26T04:35:35.726Z",
+  "dataVersion": "932b6423c3752540",
   "topic": {
     "id": "sports-ddl",
     "name": "Sports",
@@ -109,7 +109,7 @@
       "source": "BWF Tournament Calendar",
       "sourceUrl": "https://bwfbadminton.com/calendar/",
       "type": "contest",
-      "description": "BWF World Tour 新加坡公开赛节点，后续 crawler 可补签表和赛程详情。",
+      "description": "BWF World Tour 新加坡公开赛节点，后续自动更新流程可补签表和赛程详情。",
       "subtopic": "badminton",
       "subtopicName": "羽毛球"
     },
@@ -339,7 +339,7 @@
       "source": "WTT Events",
       "sourceUrl": "https://worldtabletennis.com/eventslist",
       "type": "contest",
-      "description": "WTT 职业赛历节点，后续 crawler 会继续补齐官方详情页与报名信息。",
+      "description": "WTT 职业赛历节点，后续 自动更新流程 会继续补齐官方详情页与报名信息。",
       "subtopic": "table-tennis",
       "subtopicName": "乒乓球"
     },
@@ -477,7 +477,7 @@
       "source": "FIBA Event Calendar",
       "sourceUrl": "https://www.fiba.basketball/en/events",
       "type": "contest",
-      "description": "FIBA 官方 event calendar 中的 U17 女篮世界杯节点，后续 crawler 可接入赛事详情页。",
+      "description": "FIBA 官方 event calendar 中的 U17 女篮世界杯节点，后续自动更新流程可接入赛事详情页。",
       "subtopic": "basketball",
       "subtopicName": "篮球"
     },
@@ -685,7 +685,7 @@
       "source": "Sydney Marathon",
       "sourceUrl": "https://sydneymarathon.com/",
       "type": "contest",
-      "description": "世界马拉松大满贯赛事节点，按比赛日倒计时，报名节点可在后续 crawler 中拆分。",
+      "description": "世界马拉松大满贯赛事节点，按比赛日倒计时，报名节点可在后续 自动更新流程 中拆分。",
       "subtopic": "running-athletics",
       "subtopicName": "路跑与田径"
     },
