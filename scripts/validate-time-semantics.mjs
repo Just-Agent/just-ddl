@@ -41,6 +41,14 @@ function parseTime(value) {
   return Number.isFinite(time) ? time : Number.NaN;
 }
 
+function hasHttpUrl(value) {
+  return typeof value === 'string' && /^https?:\/\/\S+$/i.test(value.trim());
+}
+
+function hasSourceName(item) {
+  return typeof item.source === 'string' && item.source.trim().length > 0;
+}
+
 function isHistoryItem(item) {
   return item.type === 'historyEvent' || item.type === 'officialRelease';
 }
@@ -74,6 +82,21 @@ function localDate(value) {
 
 function officialDate(item) {
   return localDate(item.date || item.deadline);
+}
+
+function validateHistoryItem(topicId, item) {
+  const errors = [];
+  const label = `${topicId}/${item.id || '<missing-id>'}`;
+  if (!Number.isFinite(parseTime(item.date))) {
+    errors.push(`${label}: history item must use a valid local calendar date`);
+  }
+  if (!hasSourceName(item)) {
+    errors.push(`${label}: history item must include a public source name`);
+  }
+  if (!hasHttpUrl(item.sourceUrl) && !hasHttpUrl(item.url)) {
+    errors.push(`${label}: history item must include an official http(s) url or sourceUrl`);
+  }
+  return errors;
 }
 
 function readDdlData() {
@@ -118,6 +141,14 @@ function validateForecastRelationship(topicId, items, forecast) {
       errors.push(`${label}: basisEvent ${basisId} has no official date`);
       continue;
     }
+    if (!hasSourceName(basis)) {
+      errors.push(`${label}: basisEvent ${basisId} must include a public source name`);
+      continue;
+    }
+    if (!hasHttpUrl(basis.sourceUrl) && !hasHttpUrl(basis.url)) {
+      errors.push(`${label}: basisEvent ${basisId} must include an official http(s) url or sourceUrl`);
+      continue;
+    }
     dates.push(date);
   }
 
@@ -138,13 +169,13 @@ function validateSourceItems(ddlData) {
   let itemsCount = 0;
   let forecastCount = 0;
   let placeholderCount = 0;
+  let historyCount = 0;
 
   for (const [topicId, items] of Object.entries(ddlData)) {
     for (const item of items) {
       itemsCount += 1;
       const label = `${topicId}/${item.id || '<missing-id>'}`;
       const deadlineTime = parseTime(item.deadline);
-      const dateTime = parseTime(item.date);
       const isHistory = isHistoryItem(item);
       const isForecast = isForecastItem(item);
       const isPlaceholder = isPlaceholderItem(item);
@@ -169,9 +200,8 @@ function validateSourceItems(ddlData) {
       }
 
       if (isHistory) {
-        if (!Number.isFinite(dateTime)) {
-          errors.push(`${label}: history item must use a valid local calendar date`);
-        }
+        historyCount += 1;
+        errors.push(...validateHistoryItem(topicId, item));
         continue;
       }
 
@@ -189,27 +219,33 @@ function validateSourceItems(ddlData) {
     }
   }
 
-  return { errors, itemsCount, forecastCount, placeholderCount };
+  return { errors, itemsCount, forecastCount, placeholderCount, historyCount };
 }
 
 function validateMiniprogramForecasts(payload) {
   const errors = [];
   let forecastCount = 0;
+  let historyCount = 0;
   const topicId = payload.topic?.id || 'unknown-topic';
   const items = payload.items || [];
   for (const item of items) {
+    if (isHistoryItem(item)) {
+      historyCount += 1;
+      errors.push(...validateHistoryItem(topicId, item));
+    }
     if (isForecastItem(item)) {
       forecastCount += 1;
       errors.push(...validateForecastRelationship(topicId, items, item));
     }
   }
-  return { errors, forecastCount };
+  return { errors, forecastCount, historyCount };
 }
 
 function validateMiniprogramSubtopics() {
   const errors = [];
   let topicFiles = 0;
   let forecastCount = 0;
+  let historyCount = 0;
 
   if (!fs.existsSync(MINIPROGRAM_TOPIC_DIR)) {
     return { errors, topicFiles };
@@ -223,6 +259,7 @@ function validateMiniprogramSubtopics() {
     const forecastResult = validateMiniprogramForecasts(payload);
     errors.push(...forecastResult.errors);
     forecastCount += forecastResult.forecastCount;
+    historyCount += forecastResult.historyCount;
 
     for (const group of payload.subtopics || []) {
       if (!group.nextItemId) continue;
@@ -236,7 +273,7 @@ function validateMiniprogramSubtopics() {
     }
   }
 
-  return { errors, topicFiles, forecastCount };
+  return { errors, topicFiles, forecastCount, historyCount };
 }
 
 function main() {
@@ -253,10 +290,12 @@ function main() {
   console.log(JSON.stringify({
     ok: true,
     sourceItems: sourceResult.itemsCount,
+    sourceHistoryItems: sourceResult.historyCount,
     sourceForecasts: sourceResult.forecastCount,
     sourcePlaceholders: sourceResult.placeholderCount,
     miniprogramTopicFiles: miniprogramResult.topicFiles,
-    miniprogramForecasts: miniprogramResult.forecastCount
+    miniprogramForecasts: miniprogramResult.forecastCount,
+    miniprogramHistoryItems: miniprogramResult.historyCount
   }, null, 2));
 }
 
