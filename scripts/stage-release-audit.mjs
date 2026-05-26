@@ -21,6 +21,11 @@ const checks = [
     name: 'build',
     command: 'npm run build',
     scope: 'production-build'
+  },
+  {
+    name: 'ui-regression',
+    command: 'npm run qa:ui',
+    scope: 'ui-regression'
   }
 ];
 

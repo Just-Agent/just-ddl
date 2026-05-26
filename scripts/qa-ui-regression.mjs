@@ -1,10 +1,11 @@
 import { spawn } from 'node:child_process';
-import { existsSync, mkdtempSync, rmSync } from 'node:fs';
+import { existsSync, mkdtempSync, readFileSync, rmSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import path from 'node:path';
 
 const rootDir = process.cwd();
 const distIndex = path.join(rootDir, 'dist', 'index.html');
+const miniprogramTopicsPath = path.join(rootDir, 'public', 'miniprogram', 'topics.json');
 const previewPort = Number(process.env.JUST_DDL_QA_PORT || 4187);
 const cdpPort = Number(process.env.JUST_DDL_CDP_PORT || 9237);
 const basePath = process.env.JUST_DDL_QA_BASE_PATH || '/';
@@ -39,6 +40,49 @@ function assert(condition, message) {
 
 function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+function readTopicList() {
+  if (!existsSync(miniprogramTopicsPath)) return [];
+  const parsed = JSON.parse(readFileSync(miniprogramTopicsPath, 'utf8'));
+  if (!Array.isArray(parsed)) return [];
+  return parsed
+    .filter(topic => topic && typeof topic.id === 'string' && topic.id.trim())
+    .map(topic => ({
+      id: topic.id,
+      name: typeof topic.name === 'string' ? topic.name : topic.id,
+      itemCount: Number(topic.itemCount || 0),
+    }));
+}
+
+function readTopicProbeItems(topicId) {
+  const topicPath = path.join(rootDir, 'public', 'miniprogram', 'topics', `${topicId}.json`);
+  if (!existsSync(topicPath)) return [];
+  const parsed = JSON.parse(readFileSync(topicPath, 'utf8'));
+  if (!Array.isArray(parsed.items)) return [];
+  return parsed.items
+    .map(item => ({
+      title: typeof item.title === 'string' ? item.title.trim() : '',
+      url: typeof item.url === 'string' ? item.url.trim() : '',
+    }))
+    .filter(item => item.title)
+    .slice(0, 5);
+}
+
+function comparableHttpUrls(items) {
+  return items
+    .map(item => item.url)
+    .filter(Boolean)
+    .map(url => {
+      try {
+        const parsed = new URL(url);
+        return parsed.protocol === 'http:' || parsed.protocol === 'https:' ? parsed.toString() : '';
+      } catch {
+        return '';
+      }
+    })
+    .filter(Boolean)
+    .slice(0, 3);
 }
 
 function findBrowser() {
@@ -283,6 +327,40 @@ async function runChecks(client) {
   await clickButtonByText(client, 'Vivid');
   await waitForExpression(client, `localStorage.getItem('just-ddl-my-visual-mode') === 'vivid'`, 'my ddl vivid mode persisted');
   checks.push('my ddl includes subscribed topics, custom cards, and display toggles');
+
+  const topics = readTopicList();
+  assert(topics.length >= 30, `Expected at least 30 topics in miniprogram export, got ${topics.length}`);
+  const missingDataTopics = [];
+  for (const topic of topics) {
+    await navigate(client, `#/topic/${topic.id}`);
+    text = await bodyText(client);
+    assert(text.includes('全部截止日'), `Topic ${topic.id} did not render the all-deadlines section`);
+    assert(text.includes(topic.name) || text.includes(topic.id) || text.length > 500, `Topic ${topic.id} rendered too little identifying content`);
+    assertNoForbiddenText(text, `topic ${topic.id}`);
+    if (topic.itemCount > 0) {
+      const probeItems = readTopicProbeItems(topic.id);
+      const matchedTitle = probeItems.find(item => text.includes(item.title));
+      if (!matchedTitle) missingDataTopics.push(topic.id);
+      const expectedLinks = comparableHttpUrls(probeItems);
+      if (expectedLinks.length) {
+        const missingLinks = await evaluate(client, `
+          (() => {
+            const expected = ${JSON.stringify(expectedLinks)};
+            const hrefs = new Set([...document.querySelectorAll('a[href]')]
+              .map(anchor => {
+                try { return new URL(anchor.href).toString(); }
+                catch { return ''; }
+              })
+              .filter(Boolean));
+            return expected.filter(url => !hrefs.has(url));
+          })()
+        `);
+        assert(!missingLinks.length, `Topic ${topic.id} did not render expected official links: ${missingLinks.join(', ')}`);
+      }
+    }
+  }
+  assert(!missingDataTopics.length, `Topics with itemCount > 0 did not render any probe item title: ${missingDataTopics.join(', ')}`);
+  checks.push(`all ${topics.length} topic detail routes render without data loss or public text leaks`);
 }
 
 async function main() {
