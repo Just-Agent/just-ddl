@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-26T04:35:35.726Z",
-  "dataVersion": "932b6423c3752540",
+  "generatedAt": "2026-05-26T08:52:10.172Z",
+  "dataVersion": "3c0313ed230397a6",
   "topics": [
     {
       "id": "hackathon-ddl",
@@ -465,6 +465,19 @@
       "status": "published"
     },
     {
+      "id": "google-scholar-metrics-ddl",
+      "name": "Scholar Metrics",
+      "description": "Google Scholar Metrics 年度发布、h5-index / h5-median 指标快照，以及期刊与会议评价口径说明。",
+      "category": "学术期刊",
+      "tags": [
+        "Google Scholar",
+        "h5-index",
+        "conference metrics"
+      ],
+      "itemCount": 4,
+      "status": "published"
+    },
+    {
       "id": "journal-volume-ddl",
       "name": "期刊发文量",
       "description": "Nature、Science、Cell 等期刊公开元数据发文量快照和年度趋势。",
@@ -850,6 +863,22 @@
       "sourceUrl": "https://mega-agent-a-thon.devpost.com/"
     },
     {
+      "id": "agent-ddl-ai-olympics-realaigym-stage1-2026-06-15",
+      "topicId": "agent-ddl",
+      "title": "AI Olympics with RealAIGym - Stage 1",
+      "deadline": "2026-06-15T23:59:59",
+      "type": "challenge",
+      "status": "upcoming",
+      "tags": [
+        "Robotics Agent",
+        "Reinforcement Learning",
+        "CloudPendulum"
+      ],
+      "source": "IJCAI AI Olympics with RealAIGym",
+      "url": "https://ai-olympics.dfki-bremen.de/",
+      "sourceUrl": "https://ai-olympics.dfki-bremen.de/"
+    },
+    {
       "id": "agent-ddl-splunk-agentic-ops-hackathon-2026-06-15",
       "topicId": "agent-ddl",
       "title": "Splunk Agentic Ops Hackathon",
@@ -865,22 +894,6 @@
       "source": "Splunk Agentic Ops Hackathon Devpost",
       "url": "https://splunk.devpost.com/",
       "sourceUrl": "https://splunk.devpost.com/"
-    },
-    {
-      "id": "agent-ddl-ai-olympics-realaigym-stage1-2026-06-15",
-      "topicId": "agent-ddl",
-      "title": "AI Olympics with RealAIGym - Stage 1",
-      "deadline": "2026-06-15T23:59:59",
-      "type": "challenge",
-      "status": "upcoming",
-      "tags": [
-        "Robotics Agent",
-        "Reinforcement Learning",
-        "CloudPendulum"
-      ],
-      "source": "IJCAI AI Olympics with RealAIGym",
-      "url": "https://ai-olympics.dfki-bremen.de/",
-      "sourceUrl": "https://ai-olympics.dfki-bremen.de/"
     },
     {
       "id": "agent-ddl-find-evil-ai-security-2026-06-15",
@@ -6804,21 +6817,6 @@
       "sourceUrl": "https://developers.google.com/open-source/gsoc/timeline?hl=en"
     },
     {
-      "id": "gsoc-2026-august-17-24-18-00-utc-final-week-gsoc-contributors-submit-their-final-work-prod",
-      "topicId": "open-source-ddl",
-      "title": "Final week: GSoC contributors submit their final work product and their final mentor evaluation (standard coding period)",
-      "deadline": "2026-08-24T18:00:00Z",
-      "type": "program",
-      "status": "upcoming",
-      "tags": [
-        "GSoC",
-        "open source"
-      ],
-      "source": "Google Summer of Code",
-      "url": "https://developers.google.com/open-source/gsoc/timeline?hl=en",
-      "sourceUrl": "https://developers.google.com/open-source/gsoc/timeline?hl=en"
-    },
-    {
       "id": "open-source-ddl-lfx-mentorship-spring-2026-08-24",
       "topicId": "open-source-ddl",
       "title": "LFX Mentorship Spring",
@@ -6833,6 +6831,21 @@
       "source": "LFX Mentorship",
       "url": "https://lfx.linuxfoundation.org/tools/mentorship/",
       "sourceUrl": "https://lfx.linuxfoundation.org/tools/mentorship/"
+    },
+    {
+      "id": "gsoc-2026-august-17-24-18-00-utc-final-week-gsoc-contributors-submit-their-final-work-prod",
+      "topicId": "open-source-ddl",
+      "title": "Final week: GSoC contributors submit their final work product and their final mentor evaluation (standard coding period)",
+      "deadline": "2026-08-24T18:00:00Z",
+      "type": "program",
+      "status": "upcoming",
+      "tags": [
+        "GSoC",
+        "open source"
+      ],
+      "source": "Google Summer of Code",
+      "url": "https://developers.google.com/open-source/gsoc/timeline?hl=en",
+      "sourceUrl": "https://developers.google.com/open-source/gsoc/timeline?hl=en"
     },
     {
       "id": "gsoc-2026-august-24-31-18-00-utc-mentors-submit-final-gsoc-contributor-evaluations-standar",
@@ -12300,23 +12313,6 @@
       "sourceUrl": "https://www.minimaxi.com/en/news/minimax-m25"
     },
     {
-      "id": "nsfc-2026-lump-sum-policy-filing",
-      "topicId": "nsfc-ddl",
-      "title": "2026 年度包干制管理规定备案",
-      "deadline": "2026-06-30T23:59:00+08:00",
-      "type": "officialDeadline",
-      "status": "upcoming",
-      "tags": [
-        "NSFC",
-        "管理规定",
-        "包干制"
-      ],
-      "subtopic": "nsfc-management",
-      "source": "国家自然科学基金委员会",
-      "url": "https://www.nsfc.gov.cn/p1/3381/2824/99667.html",
-      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/99667.html"
-    },
-    {
       "id": "nsfc-2026-preliminary-recheck-result",
       "topicId": "nsfc-ddl",
       "title": "2026 年度不予受理项目复审审查结果通知",
@@ -12334,67 +12330,16 @@
       "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2822/122579.html"
     },
     {
-      "id": "nsfc-2026-preliminary-recheck-deadline",
+      "id": "nsfc-2026-lump-sum-policy-filing",
       "topicId": "nsfc-ddl",
-      "title": "2026 年度不予受理项目复审申请截止",
-      "date": "2026-05-15",
-      "type": "historyEvent",
-      "status": "ended",
+      "title": "2026 年度包干制管理规定备案",
+      "deadline": "2026-06-30T23:59:00+08:00",
+      "type": "officialDeadline",
+      "status": "upcoming",
       "tags": [
         "NSFC",
-        "复审",
-        "初审结果"
-      ],
-      "subtopic": "nsfc-review",
-      "source": "国家自然科学基金委员会",
-      "url": "https://www.nsfc.gov.cn/p1/3381/2822/122579.html",
-      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2822/122579.html"
-    },
-    {
-      "id": "nsfc-2026-preliminary-review-announcement",
-      "topicId": "nsfc-ddl",
-      "title": "2026 年度申请初审结果正式公布",
-      "date": "2026-04-29",
-      "type": "historyEvent",
-      "status": "ended",
-      "tags": [
-        "NSFC",
-        "初审结果",
-        "受理情况"
-      ],
-      "subtopic": "nsfc-review",
-      "source": "国家自然科学基金委员会",
-      "url": "https://www.nsfc.gov.cn/p1/3381/2822/122579.html",
-      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2822/122579.html"
-    },
-    {
-      "id": "nsfc-2026-preliminary-review-result",
-      "topicId": "nsfc-ddl",
-      "title": "2026 年度申请初审结果公布节点",
-      "date": "2026-04-29",
-      "type": "historyEvent",
-      "status": "ended",
-      "tags": [
-        "NSFC",
-        "初审结果",
-        "评审"
-      ],
-      "subtopic": "nsfc-review",
-      "source": "国家自然科学基金委员会",
-      "url": "https://www.nsfc.gov.cn/p1/3381/2824/99667.html",
-      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/99667.html"
-    },
-    {
-      "id": "nsfc-2026-annual-management-report-deadline",
-      "topicId": "nsfc-ddl",
-      "title": "2026 年度管理报告提交截止",
-      "date": "2026-04-15",
-      "type": "historyEvent",
-      "status": "ended",
-      "tags": [
-        "NSFC",
-        "年度管理报告",
-        "依托单位"
+        "管理规定",
+        "包干制"
       ],
       "subtopic": "nsfc-management",
       "source": "国家自然科学基金委员会",
@@ -12402,389 +12347,18 @@
       "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/99667.html"
     },
     {
-      "id": "nsfc-2026-application-window",
+      "id": "nsfc-2026-review-result-forecast",
       "topicId": "nsfc-ddl",
-      "title": "2026 年度集中接收项目申请",
-      "date": "2026-03-20",
-      "type": "historyEvent",
-      "status": "ended",
+      "title": "2026 年度集中接收项目评审结果预测窗口",
+      "estimatedNextWindow": {
+        "start": "2026-08-20",
+        "end": "2026-09-05"
+      },
+      "type": "forecastWindow",
+      "status": "unannounced",
       "tags": [
         "NSFC",
-        "集中接收",
-        "申请截止"
-      ],
-      "subtopic": "nsfc-application",
-      "source": "国家自然科学基金委员会",
-      "url": "https://www.nsfc.gov.cn/p1/3381/2824/99667.html",
-      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/99667.html"
-    },
-    {
-      "id": "nsfc-2026-creative-research-team-window",
-      "topicId": "nsfc-ddl",
-      "title": "2026 年度合作创新研究团队项目集中接收",
-      "date": "2026-03-20",
-      "type": "historyEvent",
-      "status": "ended",
-      "tags": [
-        "NSFC",
-        "合作创新研究团队",
-        "国际科研资助"
-      ],
-      "subtopic": "nsfc-project-types",
-      "source": "国家自然科学基金委员会",
-      "url": "https://www.nsfc.gov.cn/p1/3381/2824/100064.html",
-      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/100064.html"
-    },
-    {
-      "id": "nsfc-2026-excellent-research-group-window",
-      "topicId": "nsfc-ddl",
-      "title": "2026 年度卓越研究群体项目集中接收",
-      "date": "2026-03-20",
-      "type": "historyEvent",
-      "status": "ended",
-      "tags": [
-        "NSFC",
-        "卓越研究群体",
-        "集中接收"
-      ],
-      "subtopic": "nsfc-project-types",
-      "source": "国家自然科学基金委员会",
-      "url": "https://www.nsfc.gov.cn/p1/3381/2824/99667.html",
-      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/99667.html"
-    },
-    {
-      "id": "nsfc-2026-foreign-scholars-window",
-      "topicId": "nsfc-ddl",
-      "title": "2026 年度外国学者研究基金项目集中接收",
-      "date": "2026-03-20",
-      "type": "historyEvent",
-      "status": "ended",
-      "tags": [
-        "NSFC",
-        "外国学者",
-        "国际科研资助"
-      ],
-      "subtopic": "nsfc-project-types",
-      "source": "国家自然科学基金委员会",
-      "url": "https://www.nsfc.gov.cn/p1/3381/2824/100065.html",
-      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/100065.html"
-    },
-    {
-      "id": "nsfc-2026-general-program-window",
-      "topicId": "nsfc-ddl",
-      "title": "2026 年度面上项目集中接收",
-      "date": "2026-03-20",
-      "type": "historyEvent",
-      "status": "ended",
-      "tags": [
-        "NSFC",
-        "面上项目",
-        "集中接收"
-      ],
-      "subtopic": "nsfc-project-types",
-      "source": "国家自然科学基金委员会",
-      "url": "https://www.nsfc.gov.cn/p1/3381/2824/99667.html",
-      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/99667.html"
-    },
-    {
-      "id": "nsfc-2026-innovative-research-group-window",
-      "topicId": "nsfc-ddl",
-      "title": "2026 年度创新研究群体项目集中接收",
-      "date": "2026-03-20",
-      "type": "historyEvent",
-      "status": "ended",
-      "tags": [
-        "NSFC",
-        "创新研究群体",
-        "集中接收"
-      ],
-      "subtopic": "nsfc-project-types",
-      "source": "国家自然科学基金委员会",
-      "url": "https://www.nsfc.gov.cn/p1/3381/2824/99667.html",
-      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/99667.html"
-    },
-    {
-      "id": "nsfc-2026-joint-fund-window",
-      "topicId": "nsfc-ddl",
-      "title": "2026 年度部分联合基金项目集中接收",
-      "date": "2026-03-20",
-      "type": "historyEvent",
-      "status": "ended",
-      "tags": [
-        "NSFC",
-        "联合基金",
-        "集中接收"
-      ],
-      "subtopic": "nsfc-project-types",
-      "source": "国家自然科学基金委员会",
-      "url": "https://www.nsfc.gov.cn/p1/3381/2824/99667.html",
-      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/99667.html"
-    },
-    {
-      "id": "nsfc-2026-key-international-cooperation-window",
-      "topicId": "nsfc-ddl",
-      "title": "2026 年度重点国际（地区）合作研究项目集中接收",
-      "date": "2026-03-20",
-      "type": "historyEvent",
-      "status": "ended",
-      "tags": [
-        "NSFC",
-        "国际合作",
-        "重点国际合作"
-      ],
-      "subtopic": "nsfc-project-types",
-      "source": "国家自然科学基金委员会",
-      "url": "https://www.nsfc.gov.cn/p1/3381/2824/99667.html",
-      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/99667.html"
-    },
-    {
-      "id": "nsfc-2026-key-program-window",
-      "topicId": "nsfc-ddl",
-      "title": "2026 年度重点项目集中接收",
-      "date": "2026-03-20",
-      "type": "historyEvent",
-      "status": "ended",
-      "tags": [
-        "NSFC",
-        "重点项目",
-        "集中接收"
-      ],
-      "subtopic": "nsfc-project-types",
-      "source": "国家自然科学基金委员会",
-      "url": "https://www.nsfc.gov.cn/p1/3381/2824/99667.html",
-      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/99667.html"
-    },
-    {
-      "id": "nsfc-2026-major-instrument-window",
-      "topicId": "nsfc-ddl",
-      "title": "2026 年度国家重大科研仪器研制项目（自由申请）集中接收",
-      "date": "2026-03-20",
-      "type": "historyEvent",
-      "status": "ended",
-      "tags": [
-        "NSFC",
-        "重大科研仪器",
-        "集中接收"
-      ],
-      "subtopic": "nsfc-project-types",
-      "source": "国家自然科学基金委员会",
-      "url": "https://www.nsfc.gov.cn/p1/3381/2824/99667.html",
-      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/99667.html"
-    },
-    {
-      "id": "nsfc-2026-major-research-plan-window",
-      "topicId": "nsfc-ddl",
-      "title": "2026 年度部分重大研究计划项目集中接收",
-      "date": "2026-03-20",
-      "type": "historyEvent",
-      "status": "ended",
-      "tags": [
-        "NSFC",
-        "重大研究计划",
-        "集中接收"
-      ],
-      "subtopic": "nsfc-project-types",
-      "source": "国家自然科学基金委员会",
-      "url": "https://www.nsfc.gov.cn/p1/3381/2824/99667.html",
-      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/99667.html"
-    },
-    {
-      "id": "nsfc-2026-math-tianyuan-window",
-      "topicId": "nsfc-ddl",
-      "title": "2026 年度部分数学天元基金项目集中接收",
-      "date": "2026-03-20",
-      "type": "historyEvent",
-      "status": "ended",
-      "tags": [
-        "NSFC",
-        "数学天元基金",
-        "集中接收"
-      ],
-      "subtopic": "nsfc-project-types",
-      "source": "国家自然科学基金委员会",
-      "url": "https://www.nsfc.gov.cn/p1/3381/2824/99667.html",
-      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/99667.html"
-    },
-    {
-      "id": "nsfc-2026-regional-fund-window",
-      "topicId": "nsfc-ddl",
-      "title": "2026 年度地区科学基金项目集中接收",
-      "date": "2026-03-20",
-      "type": "historyEvent",
-      "status": "ended",
-      "tags": [
-        "NSFC",
-        "地区科学基金",
-        "集中接收"
-      ],
-      "subtopic": "nsfc-project-types",
-      "source": "国家自然科学基金委员会",
-      "url": "https://www.nsfc.gov.cn/p1/3381/2824/99667.html",
-      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/99667.html"
-    },
-    {
-      "id": "nsfc-2026-young-scientists-a-window",
-      "topicId": "nsfc-ddl",
-      "title": "2026 年度青年科学基金项目（A类）集中接收",
-      "date": "2026-03-20",
-      "type": "historyEvent",
-      "status": "ended",
-      "tags": [
-        "NSFC",
-        "青年科学基金",
-        "A类"
-      ],
-      "subtopic": "nsfc-project-types",
-      "source": "国家自然科学基金委员会",
-      "url": "https://www.nsfc.gov.cn/p1/3381/2824/99667.html",
-      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/99667.html"
-    },
-    {
-      "id": "nsfc-2026-young-scientists-b-window",
-      "topicId": "nsfc-ddl",
-      "title": "2026 年度青年科学基金项目（B类）集中接收",
-      "date": "2026-03-20",
-      "type": "historyEvent",
-      "status": "ended",
-      "tags": [
-        "NSFC",
-        "青年科学基金",
-        "B类"
-      ],
-      "subtopic": "nsfc-project-types",
-      "source": "国家自然科学基金委员会",
-      "url": "https://www.nsfc.gov.cn/p1/3381/2824/99667.html",
-      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/99667.html"
-    },
-    {
-      "id": "nsfc-2026-young-scientists-c-window",
-      "topicId": "nsfc-ddl",
-      "title": "2026 年度青年科学基金项目（C类）集中接收",
-      "date": "2026-03-20",
-      "type": "historyEvent",
-      "status": "ended",
-      "tags": [
-        "NSFC",
-        "青年科学基金",
-        "C类"
-      ],
-      "subtopic": "nsfc-project-types",
-      "source": "国家自然科学基金委员会",
-      "url": "https://www.nsfc.gov.cn/p1/3381/2824/99667.html",
-      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/99667.html"
-    },
-    {
-      "id": "nsfc-2026-final-report-paper-deadline",
-      "topicId": "nsfc-ddl",
-      "title": "2026 年度结题纸质材料报送截止",
-      "date": "2026-03-09",
-      "type": "historyEvent",
-      "status": "ended",
-      "tags": [
-        "NSFC",
-        "结题",
-        "纸质材料"
-      ],
-      "subtopic": "nsfc-management",
-      "source": "国家自然科学基金委员会",
-      "url": "https://www.nsfc.gov.cn/p1/3381/2824/99667.html",
-      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/99667.html"
-    },
-    {
-      "id": "nsfc-2026-final-report-online-deadline",
-      "topicId": "nsfc-ddl",
-      "title": "2026 年度结题材料电子版确认截止",
-      "date": "2026-02-24",
-      "type": "historyEvent",
-      "status": "ended",
-      "tags": [
-        "NSFC",
-        "结题",
-        "成果报告"
-      ],
-      "subtopic": "nsfc-management",
-      "source": "国家自然科学基金委员会",
-      "url": "https://www.nsfc.gov.cn/p1/3381/2824/99667.html",
-      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/99667.html"
-    },
-    {
-      "id": "nsfc-2026-project-guide-release",
-      "topicId": "nsfc-ddl",
-      "title": "2026 年度国家自然科学基金项目指南发布",
-      "date": "2026-01-19",
-      "type": "historyEvent",
-      "status": "ended",
-      "tags": [
-        "NSFC",
-        "项目指南",
-        "年度指南"
-      ],
-      "subtopic": "nsfc-guide",
-      "source": "国家自然科学基金委员会",
-      "url": "https://www.nsfc.gov.cn/p1/2931/4077/2026nxmzn.html",
-      "sourceUrl": "https://www.nsfc.gov.cn/p1/2931/4077/2026nxmzn.html"
-    },
-    {
-      "id": "nsfc-2026-progress-report-deadline",
-      "topicId": "nsfc-ddl",
-      "title": "2026 年度项目进展报告依托单位确认截止",
-      "date": "2026-01-15",
-      "type": "historyEvent",
-      "status": "ended",
-      "tags": [
-        "NSFC",
-        "进展报告",
-        "依托单位"
-      ],
-      "subtopic": "nsfc-management",
-      "source": "国家自然科学基金委员会",
-      "url": "https://www.nsfc.gov.cn/p1/3381/2824/99667.html",
-      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/99667.html"
-    },
-    {
-      "id": "nsfc-2025-review-result-query",
-      "topicId": "nsfc-ddl",
-      "title": "2025 年国家自然科学基金集中接收申请项目评审结果公布",
-      "date": "2025-08-27",
-      "type": "historyEvent",
-      "status": "ended",
-      "tags": [
-        "NSFC",
-        "评审结果",
-        "资助结果"
-      ],
-      "subtopic": "nsfc-review",
-      "source": "国家自然科学基金委员会",
-      "url": "https://www.nsfc.gov.cn/p1/3381/2824/94026.html",
-      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/94026.html"
-    },
-    {
-      "id": "nsfc-2025-review-result-email-window",
-      "topicId": "nsfc-ddl",
-      "title": "2025 年评审结果邮件通知窗口",
-      "date": "2025-08-27",
-      "type": "historyEvent",
-      "status": "ended",
-      "tags": [
-        "NSFC",
-        "评审结果",
-        "邮件通知"
-      ],
-      "subtopic": "nsfc-review",
-      "source": "国家自然科学基金委员会",
-      "url": "https://www.nsfc.gov.cn/p1/3381/2824/94026.html",
-      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/94026.html"
-    },
-    {
-      "id": "nsfc-2025-review-recheck-deadline",
-      "topicId": "nsfc-ddl",
-      "title": "2025 年度评审结果复审申请截止",
-      "date": "2025-09-15",
-      "type": "historyEvent",
-      "status": "ended",
-      "tags": [
-        "NSFC",
-        "复审",
+        "预测窗口",
         "评审结果"
       ],
       "subtopic": "nsfc-review",
@@ -12793,446 +12367,24 @@
       "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/94026.html"
     },
     {
-      "id": "nsfc-2025-lump-sum-policy-filing",
+      "id": "nsfc-2027-application-forecast",
       "topicId": "nsfc-ddl",
-      "title": "2025 年度包干制管理规定备案",
-      "date": "2025-06-30",
-      "type": "historyEvent",
-      "status": "ended",
+      "title": "2027 年度集中接收申请预测窗口",
+      "estimatedNextWindow": {
+        "start": "2027-03-01",
+        "end": "2027-03-20"
+      },
+      "type": "forecastWindow",
+      "status": "unannounced",
       "tags": [
         "NSFC",
-        "包干制",
-        "基金管理"
-      ],
-      "subtopic": "nsfc-management",
-      "source": "国家自然科学基金委员会",
-      "url": "https://www.nsfc.gov.cn/p1/3381/2824/66780.html",
-      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/66780.html"
-    },
-    {
-      "id": "nsfc-2025-preliminary-review-plan",
-      "topicId": "nsfc-ddl",
-      "title": "2025 年度申请初审结果公布计划节点",
-      "date": "2025-04-29",
-      "type": "historyEvent",
-      "status": "ended",
-      "tags": [
-        "NSFC",
-        "初审结果",
-        "复审申请"
-      ],
-      "subtopic": "nsfc-review",
-      "source": "国家自然科学基金委员会",
-      "url": "https://www.nsfc.gov.cn/p1/3381/2824/66780.html",
-      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/66780.html"
-    },
-    {
-      "id": "nsfc-2025-preliminary-review-result",
-      "topicId": "nsfc-ddl",
-      "title": "2025 年度申请项目初审结果公布",
-      "date": "2025-04-29",
-      "type": "historyEvent",
-      "status": "ended",
-      "tags": [
-        "NSFC",
-        "初审结果",
-        "复审申请"
-      ],
-      "subtopic": "nsfc-review",
-      "source": "国家自然科学基金委员会",
-      "url": "https://www.nsfc.gov.cn/p1/3381/2824/79211.html",
-      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/79211.html"
-    },
-    {
-      "id": "nsfc-2025-preliminary-recheck-deadline",
-      "topicId": "nsfc-ddl",
-      "title": "2025 年度不予受理项目复审申请截止",
-      "date": "2025-05-15",
-      "type": "historyEvent",
-      "status": "ended",
-      "tags": [
-        "NSFC",
-        "复审申请",
-        "初审结果"
-      ],
-      "subtopic": "nsfc-review",
-      "source": "国家自然科学基金委员会",
-      "url": "https://www.nsfc.gov.cn/p1/3381/2824/79211.html",
-      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/79211.html"
-    },
-    {
-      "id": "nsfc-2025-annual-management-report-deadline",
-      "topicId": "nsfc-ddl",
-      "title": "2025 年度管理报告提交截止",
-      "date": "2025-04-15",
-      "type": "historyEvent",
-      "status": "ended",
-      "tags": [
-        "NSFC",
-        "年度管理报告",
-        "基金管理"
-      ],
-      "subtopic": "nsfc-management",
-      "source": "国家自然科学基金委员会",
-      "url": "https://www.nsfc.gov.cn/p1/3381/2824/66780.html",
-      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/66780.html"
-    },
-    {
-      "id": "nsfc-2025-application-window",
-      "topicId": "nsfc-ddl",
-      "title": "2025 年度集中接收项目申请",
-      "date": "2025-03-20",
-      "type": "historyEvent",
-      "status": "ended",
-      "tags": [
-        "NSFC",
-        "集中接收",
-        "申请截止"
+        "预测窗口",
+        "集中接收"
       ],
       "subtopic": "nsfc-application",
       "source": "国家自然科学基金委员会",
-      "url": "https://www.nsfc.gov.cn/p1/3381/2824/66780.html",
-      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/66780.html"
-    },
-    {
-      "id": "nsfc-2025-creative-research-team-window",
-      "topicId": "nsfc-ddl",
-      "title": "2025 年度合作创新研究团队项目集中接收",
-      "date": "2025-03-20",
-      "type": "historyEvent",
-      "status": "ended",
-      "tags": [
-        "NSFC",
-        "合作创新研究团队",
-        "集中接收"
-      ],
-      "subtopic": "nsfc-project-types",
-      "source": "国家自然科学基金委员会",
-      "url": "https://www.nsfc.gov.cn/p1/3381/2824/66780.html",
-      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/66780.html"
-    },
-    {
-      "id": "nsfc-2025-distinguished-young-scholars-window",
-      "topicId": "nsfc-ddl",
-      "title": "2025 年度国家杰出青年科学基金项目集中接收",
-      "date": "2025-03-20",
-      "type": "historyEvent",
-      "status": "ended",
-      "tags": [
-        "NSFC",
-        "杰青",
-        "集中接收"
-      ],
-      "subtopic": "nsfc-project-types",
-      "source": "国家自然科学基金委员会",
-      "url": "https://www.nsfc.gov.cn/p1/3381/2824/66780.html",
-      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/66780.html"
-    },
-    {
-      "id": "nsfc-2025-excellent-research-group-window",
-      "topicId": "nsfc-ddl",
-      "title": "2025 年度卓越研究群体项目集中接收",
-      "date": "2025-03-20",
-      "type": "historyEvent",
-      "status": "ended",
-      "tags": [
-        "NSFC",
-        "卓越研究群体",
-        "集中接收"
-      ],
-      "subtopic": "nsfc-project-types",
-      "source": "国家自然科学基金委员会",
-      "url": "https://www.nsfc.gov.cn/p1/3381/2824/66780.html",
-      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/66780.html"
-    },
-    {
-      "id": "nsfc-2025-excellent-young-scientists-window",
-      "topicId": "nsfc-ddl",
-      "title": "2025 年度优秀青年科学基金项目集中接收",
-      "date": "2025-03-20",
-      "type": "historyEvent",
-      "status": "ended",
-      "tags": [
-        "NSFC",
-        "优秀青年科学基金",
-        "集中接收"
-      ],
-      "subtopic": "nsfc-project-types",
-      "source": "国家自然科学基金委员会",
-      "url": "https://www.nsfc.gov.cn/p1/3381/2824/66780.html",
-      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/66780.html"
-    },
-    {
-      "id": "nsfc-2025-foreign-scholars-window",
-      "topicId": "nsfc-ddl",
-      "title": "2025 年度外国学者研究基金项目集中接收",
-      "date": "2025-03-20",
-      "type": "historyEvent",
-      "status": "ended",
-      "tags": [
-        "NSFC",
-        "外国学者",
-        "集中接收"
-      ],
-      "subtopic": "nsfc-project-types",
-      "source": "国家自然科学基金委员会",
-      "url": "https://www.nsfc.gov.cn/p1/3381/2824/66780.html",
-      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/66780.html"
-    },
-    {
-      "id": "nsfc-2025-general-program-window",
-      "topicId": "nsfc-ddl",
-      "title": "2025 年度面上项目集中接收",
-      "date": "2025-03-20",
-      "type": "historyEvent",
-      "status": "ended",
-      "tags": [
-        "NSFC",
-        "面上项目",
-        "集中接收"
-      ],
-      "subtopic": "nsfc-project-types",
-      "source": "国家自然科学基金委员会",
-      "url": "https://www.nsfc.gov.cn/p1/3381/2824/66780.html",
-      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/66780.html"
-    },
-    {
-      "id": "nsfc-2025-innovative-research-group-window",
-      "topicId": "nsfc-ddl",
-      "title": "2025 年度创新研究群体项目集中接收",
-      "date": "2025-03-20",
-      "type": "historyEvent",
-      "status": "ended",
-      "tags": [
-        "NSFC",
-        "创新研究群体",
-        "集中接收"
-      ],
-      "subtopic": "nsfc-project-types",
-      "source": "国家自然科学基金委员会",
-      "url": "https://www.nsfc.gov.cn/p1/3381/2824/66780.html",
-      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/66780.html"
-    },
-    {
-      "id": "nsfc-2025-joint-fund-window",
-      "topicId": "nsfc-ddl",
-      "title": "2025 年度部分联合基金项目集中接收",
-      "date": "2025-03-20",
-      "type": "historyEvent",
-      "status": "ended",
-      "tags": [
-        "NSFC",
-        "联合基金",
-        "集中接收"
-      ],
-      "subtopic": "nsfc-project-types",
-      "source": "国家自然科学基金委员会",
-      "url": "https://www.nsfc.gov.cn/p1/3381/2824/66780.html",
-      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/66780.html"
-    },
-    {
-      "id": "nsfc-2025-key-international-cooperation-window",
-      "topicId": "nsfc-ddl",
-      "title": "2025 年度重点国际（地区）合作研究项目集中接收",
-      "date": "2025-03-20",
-      "type": "historyEvent",
-      "status": "ended",
-      "tags": [
-        "NSFC",
-        "国际合作",
-        "集中接收"
-      ],
-      "subtopic": "nsfc-project-types",
-      "source": "国家自然科学基金委员会",
-      "url": "https://www.nsfc.gov.cn/p1/3381/2824/66780.html",
-      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/66780.html"
-    },
-    {
-      "id": "nsfc-2025-key-program-window",
-      "topicId": "nsfc-ddl",
-      "title": "2025 年度重点项目集中接收",
-      "date": "2025-03-20",
-      "type": "historyEvent",
-      "status": "ended",
-      "tags": [
-        "NSFC",
-        "重点项目",
-        "集中接收"
-      ],
-      "subtopic": "nsfc-project-types",
-      "source": "国家自然科学基金委员会",
-      "url": "https://www.nsfc.gov.cn/p1/3381/2824/66780.html",
-      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/66780.html"
-    },
-    {
-      "id": "nsfc-2025-major-instrument-window",
-      "topicId": "nsfc-ddl",
-      "title": "2025 年度国家重大科研仪器研制项目（自由申请）集中接收",
-      "date": "2025-03-20",
-      "type": "historyEvent",
-      "status": "ended",
-      "tags": [
-        "NSFC",
-        "科研仪器",
-        "集中接收"
-      ],
-      "subtopic": "nsfc-project-types",
-      "source": "国家自然科学基金委员会",
-      "url": "https://www.nsfc.gov.cn/p1/3381/2824/66780.html",
-      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/66780.html"
-    },
-    {
-      "id": "nsfc-2025-major-research-plan-window",
-      "topicId": "nsfc-ddl",
-      "title": "2025 年度部分重大研究计划项目集中接收",
-      "date": "2025-03-20",
-      "type": "historyEvent",
-      "status": "ended",
-      "tags": [
-        "NSFC",
-        "重大研究计划",
-        "集中接收"
-      ],
-      "subtopic": "nsfc-project-types",
-      "source": "国家自然科学基金委员会",
-      "url": "https://www.nsfc.gov.cn/p1/3381/2824/66780.html",
-      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/66780.html"
-    },
-    {
-      "id": "nsfc-2025-math-tianyuan-window",
-      "topicId": "nsfc-ddl",
-      "title": "2025 年度数学天元基金项目集中接收",
-      "date": "2025-03-20",
-      "type": "historyEvent",
-      "status": "ended",
-      "tags": [
-        "NSFC",
-        "数学天元基金",
-        "集中接收"
-      ],
-      "subtopic": "nsfc-project-types",
-      "source": "国家自然科学基金委员会",
-      "url": "https://www.nsfc.gov.cn/p1/3381/2824/66780.html",
-      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/66780.html"
-    },
-    {
-      "id": "nsfc-2025-regional-fund-window",
-      "topicId": "nsfc-ddl",
-      "title": "2025 年度地区科学基金项目集中接收",
-      "date": "2025-03-20",
-      "type": "historyEvent",
-      "status": "ended",
-      "tags": [
-        "NSFC",
-        "地区科学基金",
-        "集中接收"
-      ],
-      "subtopic": "nsfc-project-types",
-      "source": "国家自然科学基金委员会",
-      "url": "https://www.nsfc.gov.cn/p1/3381/2824/66780.html",
-      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/66780.html"
-    },
-    {
-      "id": "nsfc-2025-young-scientists-window",
-      "topicId": "nsfc-ddl",
-      "title": "2025 年度青年科学基金项目集中接收",
-      "date": "2025-03-20",
-      "type": "historyEvent",
-      "status": "ended",
-      "tags": [
-        "NSFC",
-        "青年科学基金",
-        "集中接收"
-      ],
-      "subtopic": "nsfc-project-types",
-      "source": "国家自然科学基金委员会",
-      "url": "https://www.nsfc.gov.cn/p1/3381/2824/66780.html",
-      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/66780.html"
-    },
-    {
-      "id": "nsfc-2025-final-report-paper-deadline",
-      "topicId": "nsfc-ddl",
-      "title": "2025 年度结题纸质材料报送截止",
-      "date": "2025-03-10",
-      "type": "historyEvent",
-      "status": "ended",
-      "tags": [
-        "NSFC",
-        "结题",
-        "纸质材料"
-      ],
-      "subtopic": "nsfc-management",
-      "source": "国家自然科学基金委员会",
-      "url": "https://www.nsfc.gov.cn/p1/3381/2824/66780.html",
-      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/66780.html"
-    },
-    {
-      "id": "nsfc-2025-final-report-online-deadline",
-      "topicId": "nsfc-ddl",
-      "title": "2025 年度结题材料电子版确认截止",
-      "date": "2025-02-24",
-      "type": "historyEvent",
-      "status": "ended",
-      "tags": [
-        "NSFC",
-        "结题",
-        "成果报告"
-      ],
-      "subtopic": "nsfc-management",
-      "source": "国家自然科学基金委员会",
-      "url": "https://www.nsfc.gov.cn/p1/3381/2824/66780.html",
-      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/66780.html"
-    },
-    {
-      "id": "nsfc-2025-progress-report-deadline",
-      "topicId": "nsfc-ddl",
-      "title": "2025 年度项目进展报告依托单位确认截止",
-      "date": "2025-01-15",
-      "type": "historyEvent",
-      "status": "ended",
-      "tags": [
-        "NSFC",
-        "进展报告",
-        "基金管理"
-      ],
-      "subtopic": "nsfc-management",
-      "source": "国家自然科学基金委员会",
-      "url": "https://www.nsfc.gov.cn/p1/3381/2824/66780.html",
-      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/66780.html"
-    },
-    {
-      "id": "nsfc-2025-project-guide-release",
-      "topicId": "nsfc-ddl",
-      "title": "2025 年度国家自然科学基金申请与结题通告发布",
-      "date": "2025-01-13",
-      "type": "historyEvent",
-      "status": "ended",
-      "tags": [
-        "NSFC",
-        "项目指南",
-        "年度通告"
-      ],
-      "subtopic": "nsfc-application",
-      "source": "国家自然科学基金委员会",
-      "url": "https://www.nsfc.gov.cn/p1/3381/2824/66780.html",
-      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/66780.html"
-    },
-    {
-      "id": "nsfc-2024-review-recheck-deadline",
-      "topicId": "nsfc-ddl",
-      "title": "2024 年度评审结果复审申请截止",
-      "date": "2024-09-06",
-      "type": "historyEvent",
-      "status": "ended",
-      "tags": [
-        "NSFC",
-        "复审",
-        "评审结果"
-      ],
-      "subtopic": "nsfc-review",
-      "source": "国家自然科学基金委员会",
-      "url": "https://www.nsfc.gov.cn/p1/3381/2824/66854.html",
-      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/66854.html"
+      "url": "https://www.nsfc.gov.cn/p1/3381/2824/99667.html",
+      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/99667.html"
     },
     {
       "id": "nsfc-2021-review-result-query",
@@ -13303,38 +12455,491 @@
       "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/66854.html"
     },
     {
-      "id": "nsfc-2027-application-forecast",
+      "id": "nsfc-2024-review-recheck-deadline",
       "topicId": "nsfc-ddl",
-      "title": "2027 年度集中接收申请预测窗口",
-      "estimatedNextWindow": {
-        "start": "2027-03-01",
-        "end": "2027-03-20"
-      },
-      "type": "forecastWindow",
-      "status": "unannounced",
+      "title": "2024 年度评审结果复审申请截止",
+      "date": "2024-09-06",
+      "type": "historyEvent",
+      "status": "ended",
       "tags": [
         "NSFC",
-        "预测窗口",
-        "集中接收"
+        "复审",
+        "评审结果"
+      ],
+      "subtopic": "nsfc-review",
+      "source": "国家自然科学基金委员会",
+      "url": "https://www.nsfc.gov.cn/p1/3381/2824/66854.html",
+      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/66854.html"
+    },
+    {
+      "id": "nsfc-2025-project-guide-release",
+      "topicId": "nsfc-ddl",
+      "title": "2025 年度国家自然科学基金申请与结题通告发布",
+      "date": "2025-01-13",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "NSFC",
+        "项目指南",
+        "年度通告"
       ],
       "subtopic": "nsfc-application",
       "source": "国家自然科学基金委员会",
-      "url": "https://www.nsfc.gov.cn/p1/3381/2824/99667.html",
-      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/99667.html"
+      "url": "https://www.nsfc.gov.cn/p1/3381/2824/66780.html",
+      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/66780.html"
     },
     {
-      "id": "nsfc-2026-review-result-forecast",
+      "id": "nsfc-2025-progress-report-deadline",
       "topicId": "nsfc-ddl",
-      "title": "2026 年度集中接收项目评审结果预测窗口",
-      "estimatedNextWindow": {
-        "start": "2026-08-20",
-        "end": "2026-09-05"
-      },
-      "type": "forecastWindow",
-      "status": "unannounced",
+      "title": "2025 年度项目进展报告依托单位确认截止",
+      "date": "2025-01-15",
+      "type": "historyEvent",
+      "status": "ended",
       "tags": [
         "NSFC",
-        "预测窗口",
+        "进展报告",
+        "基金管理"
+      ],
+      "subtopic": "nsfc-management",
+      "source": "国家自然科学基金委员会",
+      "url": "https://www.nsfc.gov.cn/p1/3381/2824/66780.html",
+      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/66780.html"
+    },
+    {
+      "id": "nsfc-2025-final-report-online-deadline",
+      "topicId": "nsfc-ddl",
+      "title": "2025 年度结题材料电子版确认截止",
+      "date": "2025-02-24",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "NSFC",
+        "结题",
+        "成果报告"
+      ],
+      "subtopic": "nsfc-management",
+      "source": "国家自然科学基金委员会",
+      "url": "https://www.nsfc.gov.cn/p1/3381/2824/66780.html",
+      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/66780.html"
+    },
+    {
+      "id": "nsfc-2025-final-report-paper-deadline",
+      "topicId": "nsfc-ddl",
+      "title": "2025 年度结题纸质材料报送截止",
+      "date": "2025-03-10",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "NSFC",
+        "结题",
+        "纸质材料"
+      ],
+      "subtopic": "nsfc-management",
+      "source": "国家自然科学基金委员会",
+      "url": "https://www.nsfc.gov.cn/p1/3381/2824/66780.html",
+      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/66780.html"
+    },
+    {
+      "id": "nsfc-2025-joint-fund-window",
+      "topicId": "nsfc-ddl",
+      "title": "2025 年度部分联合基金项目集中接收",
+      "date": "2025-03-20",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "NSFC",
+        "联合基金",
+        "集中接收"
+      ],
+      "subtopic": "nsfc-project-types",
+      "source": "国家自然科学基金委员会",
+      "url": "https://www.nsfc.gov.cn/p1/3381/2824/66780.html",
+      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/66780.html"
+    },
+    {
+      "id": "nsfc-2025-major-research-plan-window",
+      "topicId": "nsfc-ddl",
+      "title": "2025 年度部分重大研究计划项目集中接收",
+      "date": "2025-03-20",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "NSFC",
+        "重大研究计划",
+        "集中接收"
+      ],
+      "subtopic": "nsfc-project-types",
+      "source": "国家自然科学基金委员会",
+      "url": "https://www.nsfc.gov.cn/p1/3381/2824/66780.html",
+      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/66780.html"
+    },
+    {
+      "id": "nsfc-2025-innovative-research-group-window",
+      "topicId": "nsfc-ddl",
+      "title": "2025 年度创新研究群体项目集中接收",
+      "date": "2025-03-20",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "NSFC",
+        "创新研究群体",
+        "集中接收"
+      ],
+      "subtopic": "nsfc-project-types",
+      "source": "国家自然科学基金委员会",
+      "url": "https://www.nsfc.gov.cn/p1/3381/2824/66780.html",
+      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/66780.html"
+    },
+    {
+      "id": "nsfc-2025-regional-fund-window",
+      "topicId": "nsfc-ddl",
+      "title": "2025 年度地区科学基金项目集中接收",
+      "date": "2025-03-20",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "NSFC",
+        "地区科学基金",
+        "集中接收"
+      ],
+      "subtopic": "nsfc-project-types",
+      "source": "国家自然科学基金委员会",
+      "url": "https://www.nsfc.gov.cn/p1/3381/2824/66780.html",
+      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/66780.html"
+    },
+    {
+      "id": "nsfc-2025-distinguished-young-scholars-window",
+      "topicId": "nsfc-ddl",
+      "title": "2025 年度国家杰出青年科学基金项目集中接收",
+      "date": "2025-03-20",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "NSFC",
+        "杰青",
+        "集中接收"
+      ],
+      "subtopic": "nsfc-project-types",
+      "source": "国家自然科学基金委员会",
+      "url": "https://www.nsfc.gov.cn/p1/3381/2824/66780.html",
+      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/66780.html"
+    },
+    {
+      "id": "nsfc-2025-major-instrument-window",
+      "topicId": "nsfc-ddl",
+      "title": "2025 年度国家重大科研仪器研制项目（自由申请）集中接收",
+      "date": "2025-03-20",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "NSFC",
+        "科研仪器",
+        "集中接收"
+      ],
+      "subtopic": "nsfc-project-types",
+      "source": "国家自然科学基金委员会",
+      "url": "https://www.nsfc.gov.cn/p1/3381/2824/66780.html",
+      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/66780.html"
+    },
+    {
+      "id": "nsfc-2025-creative-research-team-window",
+      "topicId": "nsfc-ddl",
+      "title": "2025 年度合作创新研究团队项目集中接收",
+      "date": "2025-03-20",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "NSFC",
+        "合作创新研究团队",
+        "集中接收"
+      ],
+      "subtopic": "nsfc-project-types",
+      "source": "国家自然科学基金委员会",
+      "url": "https://www.nsfc.gov.cn/p1/3381/2824/66780.html",
+      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/66780.html"
+    },
+    {
+      "id": "nsfc-2025-application-window",
+      "topicId": "nsfc-ddl",
+      "title": "2025 年度集中接收项目申请",
+      "date": "2025-03-20",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "NSFC",
+        "集中接收",
+        "申请截止"
+      ],
+      "subtopic": "nsfc-application",
+      "source": "国家自然科学基金委员会",
+      "url": "https://www.nsfc.gov.cn/p1/3381/2824/66780.html",
+      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/66780.html"
+    },
+    {
+      "id": "nsfc-2025-general-program-window",
+      "topicId": "nsfc-ddl",
+      "title": "2025 年度面上项目集中接收",
+      "date": "2025-03-20",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "NSFC",
+        "面上项目",
+        "集中接收"
+      ],
+      "subtopic": "nsfc-project-types",
+      "source": "国家自然科学基金委员会",
+      "url": "https://www.nsfc.gov.cn/p1/3381/2824/66780.html",
+      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/66780.html"
+    },
+    {
+      "id": "nsfc-2025-young-scientists-window",
+      "topicId": "nsfc-ddl",
+      "title": "2025 年度青年科学基金项目集中接收",
+      "date": "2025-03-20",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "NSFC",
+        "青年科学基金",
+        "集中接收"
+      ],
+      "subtopic": "nsfc-project-types",
+      "source": "国家自然科学基金委员会",
+      "url": "https://www.nsfc.gov.cn/p1/3381/2824/66780.html",
+      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/66780.html"
+    },
+    {
+      "id": "nsfc-2025-math-tianyuan-window",
+      "topicId": "nsfc-ddl",
+      "title": "2025 年度数学天元基金项目集中接收",
+      "date": "2025-03-20",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "NSFC",
+        "数学天元基金",
+        "集中接收"
+      ],
+      "subtopic": "nsfc-project-types",
+      "source": "国家自然科学基金委员会",
+      "url": "https://www.nsfc.gov.cn/p1/3381/2824/66780.html",
+      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/66780.html"
+    },
+    {
+      "id": "nsfc-2025-foreign-scholars-window",
+      "topicId": "nsfc-ddl",
+      "title": "2025 年度外国学者研究基金项目集中接收",
+      "date": "2025-03-20",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "NSFC",
+        "外国学者",
+        "集中接收"
+      ],
+      "subtopic": "nsfc-project-types",
+      "source": "国家自然科学基金委员会",
+      "url": "https://www.nsfc.gov.cn/p1/3381/2824/66780.html",
+      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/66780.html"
+    },
+    {
+      "id": "nsfc-2025-excellent-young-scientists-window",
+      "topicId": "nsfc-ddl",
+      "title": "2025 年度优秀青年科学基金项目集中接收",
+      "date": "2025-03-20",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "NSFC",
+        "优秀青年科学基金",
+        "集中接收"
+      ],
+      "subtopic": "nsfc-project-types",
+      "source": "国家自然科学基金委员会",
+      "url": "https://www.nsfc.gov.cn/p1/3381/2824/66780.html",
+      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/66780.html"
+    },
+    {
+      "id": "nsfc-2025-key-international-cooperation-window",
+      "topicId": "nsfc-ddl",
+      "title": "2025 年度重点国际（地区）合作研究项目集中接收",
+      "date": "2025-03-20",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "NSFC",
+        "国际合作",
+        "集中接收"
+      ],
+      "subtopic": "nsfc-project-types",
+      "source": "国家自然科学基金委员会",
+      "url": "https://www.nsfc.gov.cn/p1/3381/2824/66780.html",
+      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/66780.html"
+    },
+    {
+      "id": "nsfc-2025-key-program-window",
+      "topicId": "nsfc-ddl",
+      "title": "2025 年度重点项目集中接收",
+      "date": "2025-03-20",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "NSFC",
+        "重点项目",
+        "集中接收"
+      ],
+      "subtopic": "nsfc-project-types",
+      "source": "国家自然科学基金委员会",
+      "url": "https://www.nsfc.gov.cn/p1/3381/2824/66780.html",
+      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/66780.html"
+    },
+    {
+      "id": "nsfc-2025-excellent-research-group-window",
+      "topicId": "nsfc-ddl",
+      "title": "2025 年度卓越研究群体项目集中接收",
+      "date": "2025-03-20",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "NSFC",
+        "卓越研究群体",
+        "集中接收"
+      ],
+      "subtopic": "nsfc-project-types",
+      "source": "国家自然科学基金委员会",
+      "url": "https://www.nsfc.gov.cn/p1/3381/2824/66780.html",
+      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/66780.html"
+    },
+    {
+      "id": "nsfc-2025-annual-management-report-deadline",
+      "topicId": "nsfc-ddl",
+      "title": "2025 年度管理报告提交截止",
+      "date": "2025-04-15",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "NSFC",
+        "年度管理报告",
+        "基金管理"
+      ],
+      "subtopic": "nsfc-management",
+      "source": "国家自然科学基金委员会",
+      "url": "https://www.nsfc.gov.cn/p1/3381/2824/66780.html",
+      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/66780.html"
+    },
+    {
+      "id": "nsfc-2025-preliminary-review-plan",
+      "topicId": "nsfc-ddl",
+      "title": "2025 年度申请初审结果公布计划节点",
+      "date": "2025-04-29",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "NSFC",
+        "初审结果",
+        "复审申请"
+      ],
+      "subtopic": "nsfc-review",
+      "source": "国家自然科学基金委员会",
+      "url": "https://www.nsfc.gov.cn/p1/3381/2824/66780.html",
+      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/66780.html"
+    },
+    {
+      "id": "nsfc-2025-preliminary-review-result",
+      "topicId": "nsfc-ddl",
+      "title": "2025 年度申请项目初审结果公布",
+      "date": "2025-04-29",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "NSFC",
+        "初审结果",
+        "复审申请"
+      ],
+      "subtopic": "nsfc-review",
+      "source": "国家自然科学基金委员会",
+      "url": "https://www.nsfc.gov.cn/p1/3381/2824/79211.html",
+      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/79211.html"
+    },
+    {
+      "id": "nsfc-2025-preliminary-recheck-deadline",
+      "topicId": "nsfc-ddl",
+      "title": "2025 年度不予受理项目复审申请截止",
+      "date": "2025-05-15",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "NSFC",
+        "复审申请",
+        "初审结果"
+      ],
+      "subtopic": "nsfc-review",
+      "source": "国家自然科学基金委员会",
+      "url": "https://www.nsfc.gov.cn/p1/3381/2824/79211.html",
+      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/79211.html"
+    },
+    {
+      "id": "nsfc-2025-lump-sum-policy-filing",
+      "topicId": "nsfc-ddl",
+      "title": "2025 年度包干制管理规定备案",
+      "date": "2025-06-30",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "NSFC",
+        "包干制",
+        "基金管理"
+      ],
+      "subtopic": "nsfc-management",
+      "source": "国家自然科学基金委员会",
+      "url": "https://www.nsfc.gov.cn/p1/3381/2824/66780.html",
+      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/66780.html"
+    },
+    {
+      "id": "nsfc-2025-review-result-query",
+      "topicId": "nsfc-ddl",
+      "title": "2025 年国家自然科学基金集中接收申请项目评审结果公布",
+      "date": "2025-08-27",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "NSFC",
+        "评审结果",
+        "资助结果"
+      ],
+      "subtopic": "nsfc-review",
+      "source": "国家自然科学基金委员会",
+      "url": "https://www.nsfc.gov.cn/p1/3381/2824/94026.html",
+      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/94026.html"
+    },
+    {
+      "id": "nsfc-2025-review-result-email-window",
+      "topicId": "nsfc-ddl",
+      "title": "2025 年评审结果邮件通知窗口",
+      "date": "2025-08-27",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "NSFC",
+        "评审结果",
+        "邮件通知"
+      ],
+      "subtopic": "nsfc-review",
+      "source": "国家自然科学基金委员会",
+      "url": "https://www.nsfc.gov.cn/p1/3381/2824/94026.html",
+      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/94026.html"
+    },
+    {
+      "id": "nsfc-2025-review-recheck-deadline",
+      "topicId": "nsfc-ddl",
+      "title": "2025 年度评审结果复审申请截止",
+      "date": "2025-09-15",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "NSFC",
+        "复审",
         "评审结果"
       ],
       "subtopic": "nsfc-review",
@@ -13343,72 +12948,412 @@
       "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/94026.html"
     },
     {
-      "id": "cas-partition-platform-history-policy",
-      "topicId": "cas-partition-ddl",
-      "title": "中科院期刊分区表：平台发布与历史查询口径",
-      "date": "2026-03-27",
+      "id": "nsfc-2026-progress-report-deadline",
+      "topicId": "nsfc-ddl",
+      "title": "2026 年度项目进展报告依托单位确认截止",
+      "date": "2026-01-15",
       "type": "historyEvent",
       "status": "ended",
       "tags": [
-        "CAS",
-        "历史轨迹",
-        "查询平台"
+        "NSFC",
+        "进展报告",
+        "依托单位"
       ],
-      "subtopic": "cas-access",
-      "source": "中科院期刊分区表在线平台帮助页",
-      "url": "https://www.fenqubiao.com/User/Help.aspx",
-      "sourceUrl": "https://www.fenqubiao.com/User/Help.aspx"
+      "subtopic": "nsfc-management",
+      "source": "国家自然科学基金委员会",
+      "url": "https://www.nsfc.gov.cn/p1/3381/2824/99667.html",
+      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/99667.html"
     },
     {
-      "id": "cas-partition-2026-stop-update-statement",
-      "topicId": "cas-partition-ddl",
-      "title": "中科院文献情报中心声明：2026 年起不再更新发布期刊分区表",
-      "date": "2026-03-27",
+      "id": "nsfc-2026-project-guide-release",
+      "topicId": "nsfc-ddl",
+      "title": "2026 年度国家自然科学基金项目指南发布",
+      "date": "2026-01-19",
       "type": "historyEvent",
       "status": "ended",
       "tags": [
-        "CAS",
-        "期刊分区",
-        "停更"
+        "NSFC",
+        "项目指南",
+        "年度指南"
       ],
-      "subtopic": "cas-policy",
-      "source": "中国科学院文献情报中心",
-      "url": "https://www.las.cas.cn/news/tzgg/202603/t20260327_8178738.html",
-      "sourceUrl": "https://www.las.cas.cn/news/tzgg/202603/t20260327_8178738.html"
+      "subtopic": "nsfc-guide",
+      "source": "国家自然科学基金委员会",
+      "url": "https://www.nsfc.gov.cn/p1/2931/4077/2026nxmzn.html",
+      "sourceUrl": "https://www.nsfc.gov.cn/p1/2931/4077/2026nxmzn.html"
     },
     {
-      "id": "cas-partition-history-data-policy",
-      "topicId": "cas-partition-ddl",
-      "title": "中科院期刊分区历史数据查询与授权边界",
-      "date": "2026-03-27",
+      "id": "nsfc-2026-final-report-online-deadline",
+      "topicId": "nsfc-ddl",
+      "title": "2026 年度结题材料电子版确认截止",
+      "date": "2026-02-24",
       "type": "historyEvent",
       "status": "ended",
       "tags": [
-        "CAS",
-        "历史轨迹",
-        "授权数据"
+        "NSFC",
+        "结题",
+        "成果报告"
       ],
-      "subtopic": "cas-access",
-      "source": "中科院期刊分区表在线平台数据来源说明",
-      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx",
-      "sourceUrl": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
+      "subtopic": "nsfc-management",
+      "source": "国家自然科学基金委员会",
+      "url": "https://www.nsfc.gov.cn/p1/3381/2824/99667.html",
+      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/99667.html"
     },
     {
-      "id": "cas-partition-authorized-import-ready",
-      "topicId": "cas-partition-ddl",
-      "title": "CAS 单刊分区轨迹授权导入接口已预留",
-      "date": "2026-05-24",
+      "id": "nsfc-2026-final-report-paper-deadline",
+      "topicId": "nsfc-ddl",
+      "title": "2026 年度结题纸质材料报送截止",
+      "date": "2026-03-09",
       "type": "historyEvent",
       "status": "ended",
       "tags": [
-        "CAS",
-        "CSV 导入",
-        "单刊轨迹"
+        "NSFC",
+        "结题",
+        "纸质材料"
       ],
-      "subtopic": "cas-import",
-      "source": "中科院期刊分区表在线平台使用协议",
-      "url": "https://www.fenqubiao.com/User/UseProtocol.aspx",
-      "sourceUrl": "https://www.fenqubiao.com/User/UseProtocol.aspx"
+      "subtopic": "nsfc-management",
+      "source": "国家自然科学基金委员会",
+      "url": "https://www.nsfc.gov.cn/p1/3381/2824/99667.html",
+      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/99667.html"
+    },
+    {
+      "id": "nsfc-2026-joint-fund-window",
+      "topicId": "nsfc-ddl",
+      "title": "2026 年度部分联合基金项目集中接收",
+      "date": "2026-03-20",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "NSFC",
+        "联合基金",
+        "集中接收"
+      ],
+      "subtopic": "nsfc-project-types",
+      "source": "国家自然科学基金委员会",
+      "url": "https://www.nsfc.gov.cn/p1/3381/2824/99667.html",
+      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/99667.html"
+    },
+    {
+      "id": "nsfc-2026-math-tianyuan-window",
+      "topicId": "nsfc-ddl",
+      "title": "2026 年度部分数学天元基金项目集中接收",
+      "date": "2026-03-20",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "NSFC",
+        "数学天元基金",
+        "集中接收"
+      ],
+      "subtopic": "nsfc-project-types",
+      "source": "国家自然科学基金委员会",
+      "url": "https://www.nsfc.gov.cn/p1/3381/2824/99667.html",
+      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/99667.html"
+    },
+    {
+      "id": "nsfc-2026-major-research-plan-window",
+      "topicId": "nsfc-ddl",
+      "title": "2026 年度部分重大研究计划项目集中接收",
+      "date": "2026-03-20",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "NSFC",
+        "重大研究计划",
+        "集中接收"
+      ],
+      "subtopic": "nsfc-project-types",
+      "source": "国家自然科学基金委员会",
+      "url": "https://www.nsfc.gov.cn/p1/3381/2824/99667.html",
+      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/99667.html"
+    },
+    {
+      "id": "nsfc-2026-innovative-research-group-window",
+      "topicId": "nsfc-ddl",
+      "title": "2026 年度创新研究群体项目集中接收",
+      "date": "2026-03-20",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "NSFC",
+        "创新研究群体",
+        "集中接收"
+      ],
+      "subtopic": "nsfc-project-types",
+      "source": "国家自然科学基金委员会",
+      "url": "https://www.nsfc.gov.cn/p1/3381/2824/99667.html",
+      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/99667.html"
+    },
+    {
+      "id": "nsfc-2026-regional-fund-window",
+      "topicId": "nsfc-ddl",
+      "title": "2026 年度地区科学基金项目集中接收",
+      "date": "2026-03-20",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "NSFC",
+        "地区科学基金",
+        "集中接收"
+      ],
+      "subtopic": "nsfc-project-types",
+      "source": "国家自然科学基金委员会",
+      "url": "https://www.nsfc.gov.cn/p1/3381/2824/99667.html",
+      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/99667.html"
+    },
+    {
+      "id": "nsfc-2026-major-instrument-window",
+      "topicId": "nsfc-ddl",
+      "title": "2026 年度国家重大科研仪器研制项目（自由申请）集中接收",
+      "date": "2026-03-20",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "NSFC",
+        "重大科研仪器",
+        "集中接收"
+      ],
+      "subtopic": "nsfc-project-types",
+      "source": "国家自然科学基金委员会",
+      "url": "https://www.nsfc.gov.cn/p1/3381/2824/99667.html",
+      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/99667.html"
+    },
+    {
+      "id": "nsfc-2026-creative-research-team-window",
+      "topicId": "nsfc-ddl",
+      "title": "2026 年度合作创新研究团队项目集中接收",
+      "date": "2026-03-20",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "NSFC",
+        "合作创新研究团队",
+        "国际科研资助"
+      ],
+      "subtopic": "nsfc-project-types",
+      "source": "国家自然科学基金委员会",
+      "url": "https://www.nsfc.gov.cn/p1/3381/2824/100064.html",
+      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/100064.html"
+    },
+    {
+      "id": "nsfc-2026-application-window",
+      "topicId": "nsfc-ddl",
+      "title": "2026 年度集中接收项目申请",
+      "date": "2026-03-20",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "NSFC",
+        "集中接收",
+        "申请截止"
+      ],
+      "subtopic": "nsfc-application",
+      "source": "国家自然科学基金委员会",
+      "url": "https://www.nsfc.gov.cn/p1/3381/2824/99667.html",
+      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/99667.html"
+    },
+    {
+      "id": "nsfc-2026-general-program-window",
+      "topicId": "nsfc-ddl",
+      "title": "2026 年度面上项目集中接收",
+      "date": "2026-03-20",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "NSFC",
+        "面上项目",
+        "集中接收"
+      ],
+      "subtopic": "nsfc-project-types",
+      "source": "国家自然科学基金委员会",
+      "url": "https://www.nsfc.gov.cn/p1/3381/2824/99667.html",
+      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/99667.html"
+    },
+    {
+      "id": "nsfc-2026-young-scientists-a-window",
+      "topicId": "nsfc-ddl",
+      "title": "2026 年度青年科学基金项目（A类）集中接收",
+      "date": "2026-03-20",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "NSFC",
+        "青年科学基金",
+        "A类"
+      ],
+      "subtopic": "nsfc-project-types",
+      "source": "国家自然科学基金委员会",
+      "url": "https://www.nsfc.gov.cn/p1/3381/2824/99667.html",
+      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/99667.html"
+    },
+    {
+      "id": "nsfc-2026-young-scientists-b-window",
+      "topicId": "nsfc-ddl",
+      "title": "2026 年度青年科学基金项目（B类）集中接收",
+      "date": "2026-03-20",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "NSFC",
+        "青年科学基金",
+        "B类"
+      ],
+      "subtopic": "nsfc-project-types",
+      "source": "国家自然科学基金委员会",
+      "url": "https://www.nsfc.gov.cn/p1/3381/2824/99667.html",
+      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/99667.html"
+    },
+    {
+      "id": "nsfc-2026-young-scientists-c-window",
+      "topicId": "nsfc-ddl",
+      "title": "2026 年度青年科学基金项目（C类）集中接收",
+      "date": "2026-03-20",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "NSFC",
+        "青年科学基金",
+        "C类"
+      ],
+      "subtopic": "nsfc-project-types",
+      "source": "国家自然科学基金委员会",
+      "url": "https://www.nsfc.gov.cn/p1/3381/2824/99667.html",
+      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/99667.html"
+    },
+    {
+      "id": "nsfc-2026-foreign-scholars-window",
+      "topicId": "nsfc-ddl",
+      "title": "2026 年度外国学者研究基金项目集中接收",
+      "date": "2026-03-20",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "NSFC",
+        "外国学者",
+        "国际科研资助"
+      ],
+      "subtopic": "nsfc-project-types",
+      "source": "国家自然科学基金委员会",
+      "url": "https://www.nsfc.gov.cn/p1/3381/2824/100065.html",
+      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/100065.html"
+    },
+    {
+      "id": "nsfc-2026-key-international-cooperation-window",
+      "topicId": "nsfc-ddl",
+      "title": "2026 年度重点国际（地区）合作研究项目集中接收",
+      "date": "2026-03-20",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "NSFC",
+        "国际合作",
+        "重点国际合作"
+      ],
+      "subtopic": "nsfc-project-types",
+      "source": "国家自然科学基金委员会",
+      "url": "https://www.nsfc.gov.cn/p1/3381/2824/99667.html",
+      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/99667.html"
+    },
+    {
+      "id": "nsfc-2026-key-program-window",
+      "topicId": "nsfc-ddl",
+      "title": "2026 年度重点项目集中接收",
+      "date": "2026-03-20",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "NSFC",
+        "重点项目",
+        "集中接收"
+      ],
+      "subtopic": "nsfc-project-types",
+      "source": "国家自然科学基金委员会",
+      "url": "https://www.nsfc.gov.cn/p1/3381/2824/99667.html",
+      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/99667.html"
+    },
+    {
+      "id": "nsfc-2026-excellent-research-group-window",
+      "topicId": "nsfc-ddl",
+      "title": "2026 年度卓越研究群体项目集中接收",
+      "date": "2026-03-20",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "NSFC",
+        "卓越研究群体",
+        "集中接收"
+      ],
+      "subtopic": "nsfc-project-types",
+      "source": "国家自然科学基金委员会",
+      "url": "https://www.nsfc.gov.cn/p1/3381/2824/99667.html",
+      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/99667.html"
+    },
+    {
+      "id": "nsfc-2026-annual-management-report-deadline",
+      "topicId": "nsfc-ddl",
+      "title": "2026 年度管理报告提交截止",
+      "date": "2026-04-15",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "NSFC",
+        "年度管理报告",
+        "依托单位"
+      ],
+      "subtopic": "nsfc-management",
+      "source": "国家自然科学基金委员会",
+      "url": "https://www.nsfc.gov.cn/p1/3381/2824/99667.html",
+      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/99667.html"
+    },
+    {
+      "id": "nsfc-2026-preliminary-review-result",
+      "topicId": "nsfc-ddl",
+      "title": "2026 年度申请初审结果公布节点",
+      "date": "2026-04-29",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "NSFC",
+        "初审结果",
+        "评审"
+      ],
+      "subtopic": "nsfc-review",
+      "source": "国家自然科学基金委员会",
+      "url": "https://www.nsfc.gov.cn/p1/3381/2824/99667.html",
+      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2824/99667.html"
+    },
+    {
+      "id": "nsfc-2026-preliminary-review-announcement",
+      "topicId": "nsfc-ddl",
+      "title": "2026 年度申请初审结果正式公布",
+      "date": "2026-04-29",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "NSFC",
+        "初审结果",
+        "受理情况"
+      ],
+      "subtopic": "nsfc-review",
+      "source": "国家自然科学基金委员会",
+      "url": "https://www.nsfc.gov.cn/p1/3381/2822/122579.html",
+      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2822/122579.html"
+    },
+    {
+      "id": "nsfc-2026-preliminary-recheck-deadline",
+      "topicId": "nsfc-ddl",
+      "title": "2026 年度不予受理项目复审申请截止",
+      "date": "2026-05-15",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "NSFC",
+        "复审",
+        "初审结果"
+      ],
+      "subtopic": "nsfc-review",
+      "source": "国家自然科学基金委员会",
+      "url": "https://www.nsfc.gov.cn/p1/3381/2822/122579.html",
+      "sourceUrl": "https://www.nsfc.gov.cn/p1/3381/2822/122579.html"
     },
     {
       "id": "cas-partition-no-2026-official-release",
@@ -13428,6 +13373,74 @@
       "sourceUrl": "https://www.las.cas.cn/news/tzgg/202603/t20260327_8178738.html"
     },
     {
+      "id": "cas-partition-platform-history-policy",
+      "topicId": "cas-partition-ddl",
+      "title": "中科院期刊分区表：平台发布与历史查询口径",
+      "date": "2026-03-27",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "CAS",
+        "历史轨迹",
+        "查询平台"
+      ],
+      "subtopic": "cas-access",
+      "source": "中科院期刊分区表在线平台帮助页",
+      "url": "https://www.fenqubiao.com/User/Help.aspx",
+      "sourceUrl": "https://www.fenqubiao.com/User/Help.aspx"
+    },
+    {
+      "id": "cas-partition-history-data-policy",
+      "topicId": "cas-partition-ddl",
+      "title": "中科院期刊分区历史数据查询与授权边界",
+      "date": "2026-03-27",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "CAS",
+        "历史轨迹",
+        "授权数据"
+      ],
+      "subtopic": "cas-access",
+      "source": "中科院期刊分区表在线平台数据来源说明",
+      "url": "https://www.fenqubiao.com/User/DataIntroduction.aspx",
+      "sourceUrl": "https://www.fenqubiao.com/User/DataIntroduction.aspx"
+    },
+    {
+      "id": "cas-partition-2026-stop-update-statement",
+      "topicId": "cas-partition-ddl",
+      "title": "中科院文献情报中心声明：2026 年起不再更新发布期刊分区表",
+      "date": "2026-03-27",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "CAS",
+        "期刊分区",
+        "停更"
+      ],
+      "subtopic": "cas-policy",
+      "source": "中国科学院文献情报中心",
+      "url": "https://www.las.cas.cn/news/tzgg/202603/t20260327_8178738.html",
+      "sourceUrl": "https://www.las.cas.cn/news/tzgg/202603/t20260327_8178738.html"
+    },
+    {
+      "id": "cas-partition-authorized-import-ready",
+      "topicId": "cas-partition-ddl",
+      "title": "CAS 单刊分区轨迹授权导入接口已预留",
+      "date": "2026-05-24",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "CAS",
+        "CSV 导入",
+        "单刊轨迹"
+      ],
+      "subtopic": "cas-import",
+      "source": "中科院期刊分区表在线平台使用协议",
+      "url": "https://www.fenqubiao.com/User/UseProtocol.aspx",
+      "sourceUrl": "https://www.fenqubiao.com/User/UseProtocol.aspx"
+    },
+    {
       "id": "jcr-2026-official-webinar",
       "topicId": "jcr-impact-factor-ddl",
       "title": "2026 Journal Citation Reports 官方说明活动",
@@ -13443,186 +13456,6 @@
       "source": "Clarivate",
       "url": "https://clarivate.com/academia-government/events/journal-citation-reports-2026-2/",
       "sourceUrl": "https://clarivate.com/academia-government/events/journal-citation-reports-2026-2/"
-    },
-    {
-      "id": "jcr-2025-release",
-      "topicId": "jcr-impact-factor-ddl",
-      "title": "2025 Journal Citation Reports 发布",
-      "date": "2025-06-18",
-      "type": "historyEvent",
-      "status": "ended",
-      "tags": [
-        "JCR",
-        "影响因子",
-        "年度发布",
-        "2025"
-      ],
-      "subtopic": "jcr-release",
-      "source": "Clarivate",
-      "url": "https://clarivate.com/news/clarivate-unveils-the-2025-journal-citation-reports/",
-      "sourceUrl": "https://clarivate.com/news/clarivate-unveils-the-2025-journal-citation-reports/"
-    },
-    {
-      "id": "jcr-2024-release",
-      "topicId": "jcr-impact-factor-ddl",
-      "title": "2024 Journal Citation Reports 发布",
-      "date": "2024-06-20",
-      "type": "historyEvent",
-      "status": "ended",
-      "tags": [
-        "JCR",
-        "影响因子",
-        "年度发布",
-        "2024"
-      ],
-      "subtopic": "jcr-release",
-      "source": "Clarivate",
-      "url": "https://clarivate.com/news/clarivate-reveals-worlds-leading-and-trusted-journals-with-the-2024-journal-citation-reports/",
-      "sourceUrl": "https://clarivate.com/news/clarivate-reveals-worlds-leading-and-trusted-journals-with-the-2024-journal-citation-reports/"
-    },
-    {
-      "id": "jcr-2023-release",
-      "topicId": "jcr-impact-factor-ddl",
-      "title": "2023 Journal Citation Reports 发布",
-      "date": "2023-06-28",
-      "type": "historyEvent",
-      "status": "ended",
-      "tags": [
-        "JCR",
-        "影响因子",
-        "年度发布",
-        "2023"
-      ],
-      "subtopic": "jcr-release",
-      "source": "Clarivate",
-      "url": "https://clarivate.com/news/clarivate-unveils-journal-citation-reports-2023-a-trusted-resource-to-support-research-integrity-and-promote-accurate-journal-evaluation/",
-      "sourceUrl": "https://clarivate.com/news/clarivate-unveils-journal-citation-reports-2023-a-trusted-resource-to-support-research-integrity-and-promote-accurate-journal-evaluation/"
-    },
-    {
-      "id": "jcr-2022-release",
-      "topicId": "jcr-impact-factor-ddl",
-      "title": "2022 Journal Citation Reports 发布",
-      "date": "2022-06-28",
-      "type": "historyEvent",
-      "status": "ended",
-      "tags": [
-        "JCR",
-        "影响因子",
-        "年度发布",
-        "2022"
-      ],
-      "subtopic": "jcr-release",
-      "source": "Clarivate",
-      "url": "https://ir.clarivate.com/news-events/press-releases/news-details/2022/Clarivate-Names-Worlds-Leading-Journals-with-the-2022-Journal-Citation-Reports/default.aspx?sf257796683=1",
-      "sourceUrl": "https://ir.clarivate.com/news-events/press-releases/news-details/2022/Clarivate-Names-Worlds-Leading-Journals-with-the-2022-Journal-Citation-Reports/default.aspx?sf257796683=1"
-    },
-    {
-      "id": "jcr-2021-release",
-      "topicId": "jcr-impact-factor-ddl",
-      "title": "2021 Journal Citation Reports 发布",
-      "date": "2021-06-30",
-      "type": "historyEvent",
-      "status": "ended",
-      "tags": [
-        "JCR",
-        "影响因子",
-        "年度发布",
-        "2021"
-      ],
-      "subtopic": "jcr-release",
-      "source": "Clarivate",
-      "url": "https://ir.clarivate.com/news-events/press-releases/news-details/2021/Clarivate-Releases-Journal-Citation-Reports-Naming-the-Worlds-Leading-Journals/default.aspx/1000/",
-      "sourceUrl": "https://ir.clarivate.com/news-events/press-releases/news-details/2021/Clarivate-Releases-Journal-Citation-Reports-Naming-the-Worlds-Leading-Journals/default.aspx/1000/"
-    },
-    {
-      "id": "jcr-2025-correction-record",
-      "topicId": "jcr-impact-factor-ddl",
-      "title": "2025 JCR 后续更正记录",
-      "date": "2025-10-15",
-      "type": "historyEvent",
-      "status": "ended",
-      "tags": [
-        "JCR",
-        "数据修正",
-        "reload",
-        "2025"
-      ],
-      "subtopic": "jcr-corrections",
-      "source": "Clarivate JCR Help Center",
-      "url": "https://journalcitationreports.zendesk.com/hc/en-gb/articles/36310787349521-2025",
-      "sourceUrl": "https://journalcitationreports.zendesk.com/hc/en-gb/articles/36310787349521-2025"
-    },
-    {
-      "id": "jcr-2024-correction-record",
-      "topicId": "jcr-impact-factor-ddl",
-      "title": "2024 JCR 后续更正记录",
-      "date": "2024-10-23",
-      "type": "historyEvent",
-      "status": "ended",
-      "tags": [
-        "JCR",
-        "数据修正",
-        "reload",
-        "2024"
-      ],
-      "subtopic": "jcr-corrections",
-      "source": "Clarivate JCR Help Center",
-      "url": "https://journalcitationreports.zendesk.com/hc/en-gb/articles/28351055638801-2024",
-      "sourceUrl": "https://journalcitationreports.zendesk.com/hc/en-gb/articles/28351055638801-2024"
-    },
-    {
-      "id": "jcr-2023-correction-record",
-      "topicId": "jcr-impact-factor-ddl",
-      "title": "2023 JCR 后续更正记录",
-      "date": "2023-10-18",
-      "type": "historyEvent",
-      "status": "ended",
-      "tags": [
-        "JCR",
-        "数据修正",
-        "reload",
-        "2023"
-      ],
-      "subtopic": "jcr-corrections",
-      "source": "Clarivate JCR Help Center",
-      "url": "https://journalcitationreports.zendesk.com/hc/en-gb/articles/28351122662289-2023",
-      "sourceUrl": "https://journalcitationreports.zendesk.com/hc/en-gb/articles/28351122662289-2023"
-    },
-    {
-      "id": "jcr-2022-correction-record",
-      "topicId": "jcr-impact-factor-ddl",
-      "title": "2022 JCR 后续更正记录",
-      "date": "2022-10-19",
-      "type": "historyEvent",
-      "status": "ended",
-      "tags": [
-        "JCR",
-        "数据修正",
-        "reload",
-        "2022"
-      ],
-      "subtopic": "jcr-corrections",
-      "source": "Clarivate JCR Help Center",
-      "url": "https://journalcitationreports.zendesk.com/hc/en-gb/articles/28351163576721-2022",
-      "sourceUrl": "https://journalcitationreports.zendesk.com/hc/en-gb/articles/28351163576721-2022"
-    },
-    {
-      "id": "jcr-2021-correction-record",
-      "topicId": "jcr-impact-factor-ddl",
-      "title": "2021 JCR 后续更正记录",
-      "date": "2021-10-25",
-      "type": "historyEvent",
-      "status": "ended",
-      "tags": [
-        "JCR",
-        "数据修正",
-        "reload",
-        "2021"
-      ],
-      "subtopic": "jcr-corrections",
-      "source": "Clarivate JCR Help Center",
-      "url": "https://journalcitationreports.zendesk.com/hc/en-gb/articles/28351153135761-2021",
-      "sourceUrl": "https://journalcitationreports.zendesk.com/hc/en-gb/articles/28351153135761-2021"
     },
     {
       "id": "jcr-2026-release-forecast",
@@ -13663,6 +13496,257 @@
       "source": "Clarivate JCR Help Center",
       "url": "https://journalcitationreports.zendesk.com/hc/en-gb/sections/201245195-Journal-Citation-Reports",
       "sourceUrl": "https://journalcitationreports.zendesk.com/hc/en-gb/articles/36310787349521-2025"
+    },
+    {
+      "id": "jcr-2021-release",
+      "topicId": "jcr-impact-factor-ddl",
+      "title": "2021 Journal Citation Reports 发布",
+      "date": "2021-06-30",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "JCR",
+        "影响因子",
+        "年度发布",
+        "2021"
+      ],
+      "subtopic": "jcr-release",
+      "source": "Clarivate",
+      "url": "https://ir.clarivate.com/news-events/press-releases/news-details/2021/Clarivate-Releases-Journal-Citation-Reports-Naming-the-Worlds-Leading-Journals/default.aspx/1000/",
+      "sourceUrl": "https://ir.clarivate.com/news-events/press-releases/news-details/2021/Clarivate-Releases-Journal-Citation-Reports-Naming-the-Worlds-Leading-Journals/default.aspx/1000/"
+    },
+    {
+      "id": "jcr-2021-correction-record",
+      "topicId": "jcr-impact-factor-ddl",
+      "title": "2021 JCR 后续更正记录",
+      "date": "2021-10-25",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "JCR",
+        "数据修正",
+        "reload",
+        "2021"
+      ],
+      "subtopic": "jcr-corrections",
+      "source": "Clarivate JCR Help Center",
+      "url": "https://journalcitationreports.zendesk.com/hc/en-gb/articles/28351153135761-2021",
+      "sourceUrl": "https://journalcitationreports.zendesk.com/hc/en-gb/articles/28351153135761-2021"
+    },
+    {
+      "id": "jcr-2022-release",
+      "topicId": "jcr-impact-factor-ddl",
+      "title": "2022 Journal Citation Reports 发布",
+      "date": "2022-06-28",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "JCR",
+        "影响因子",
+        "年度发布",
+        "2022"
+      ],
+      "subtopic": "jcr-release",
+      "source": "Clarivate",
+      "url": "https://ir.clarivate.com/news-events/press-releases/news-details/2022/Clarivate-Names-Worlds-Leading-Journals-with-the-2022-Journal-Citation-Reports/default.aspx?sf257796683=1",
+      "sourceUrl": "https://ir.clarivate.com/news-events/press-releases/news-details/2022/Clarivate-Names-Worlds-Leading-Journals-with-the-2022-Journal-Citation-Reports/default.aspx?sf257796683=1"
+    },
+    {
+      "id": "jcr-2022-correction-record",
+      "topicId": "jcr-impact-factor-ddl",
+      "title": "2022 JCR 后续更正记录",
+      "date": "2022-10-19",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "JCR",
+        "数据修正",
+        "reload",
+        "2022"
+      ],
+      "subtopic": "jcr-corrections",
+      "source": "Clarivate JCR Help Center",
+      "url": "https://journalcitationreports.zendesk.com/hc/en-gb/articles/28351163576721-2022",
+      "sourceUrl": "https://journalcitationreports.zendesk.com/hc/en-gb/articles/28351163576721-2022"
+    },
+    {
+      "id": "jcr-2023-release",
+      "topicId": "jcr-impact-factor-ddl",
+      "title": "2023 Journal Citation Reports 发布",
+      "date": "2023-06-28",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "JCR",
+        "影响因子",
+        "年度发布",
+        "2023"
+      ],
+      "subtopic": "jcr-release",
+      "source": "Clarivate",
+      "url": "https://clarivate.com/news/clarivate-unveils-journal-citation-reports-2023-a-trusted-resource-to-support-research-integrity-and-promote-accurate-journal-evaluation/",
+      "sourceUrl": "https://clarivate.com/news/clarivate-unveils-journal-citation-reports-2023-a-trusted-resource-to-support-research-integrity-and-promote-accurate-journal-evaluation/"
+    },
+    {
+      "id": "jcr-2023-correction-record",
+      "topicId": "jcr-impact-factor-ddl",
+      "title": "2023 JCR 后续更正记录",
+      "date": "2023-10-18",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "JCR",
+        "数据修正",
+        "reload",
+        "2023"
+      ],
+      "subtopic": "jcr-corrections",
+      "source": "Clarivate JCR Help Center",
+      "url": "https://journalcitationreports.zendesk.com/hc/en-gb/articles/28351122662289-2023",
+      "sourceUrl": "https://journalcitationreports.zendesk.com/hc/en-gb/articles/28351122662289-2023"
+    },
+    {
+      "id": "jcr-2024-release",
+      "topicId": "jcr-impact-factor-ddl",
+      "title": "2024 Journal Citation Reports 发布",
+      "date": "2024-06-20",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "JCR",
+        "影响因子",
+        "年度发布",
+        "2024"
+      ],
+      "subtopic": "jcr-release",
+      "source": "Clarivate",
+      "url": "https://clarivate.com/news/clarivate-reveals-worlds-leading-and-trusted-journals-with-the-2024-journal-citation-reports/",
+      "sourceUrl": "https://clarivate.com/news/clarivate-reveals-worlds-leading-and-trusted-journals-with-the-2024-journal-citation-reports/"
+    },
+    {
+      "id": "jcr-2024-correction-record",
+      "topicId": "jcr-impact-factor-ddl",
+      "title": "2024 JCR 后续更正记录",
+      "date": "2024-10-23",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "JCR",
+        "数据修正",
+        "reload",
+        "2024"
+      ],
+      "subtopic": "jcr-corrections",
+      "source": "Clarivate JCR Help Center",
+      "url": "https://journalcitationreports.zendesk.com/hc/en-gb/articles/28351055638801-2024",
+      "sourceUrl": "https://journalcitationreports.zendesk.com/hc/en-gb/articles/28351055638801-2024"
+    },
+    {
+      "id": "jcr-2025-release",
+      "topicId": "jcr-impact-factor-ddl",
+      "title": "2025 Journal Citation Reports 发布",
+      "date": "2025-06-18",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "JCR",
+        "影响因子",
+        "年度发布",
+        "2025"
+      ],
+      "subtopic": "jcr-release",
+      "source": "Clarivate",
+      "url": "https://clarivate.com/news/clarivate-unveils-the-2025-journal-citation-reports/",
+      "sourceUrl": "https://clarivate.com/news/clarivate-unveils-the-2025-journal-citation-reports/"
+    },
+    {
+      "id": "jcr-2025-correction-record",
+      "topicId": "jcr-impact-factor-ddl",
+      "title": "2025 JCR 后续更正记录",
+      "date": "2025-10-15",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "JCR",
+        "数据修正",
+        "reload",
+        "2025"
+      ],
+      "subtopic": "jcr-corrections",
+      "source": "Clarivate JCR Help Center",
+      "url": "https://journalcitationreports.zendesk.com/hc/en-gb/articles/36310787349521-2025",
+      "sourceUrl": "https://journalcitationreports.zendesk.com/hc/en-gb/articles/36310787349521-2025"
+    },
+    {
+      "id": "google-scholar-metrics-2026-forecast-window",
+      "topicId": "google-scholar-metrics-ddl",
+      "title": "2026 Scholar Metrics 发布窗口预测",
+      "estimatedNextWindow": {
+        "start": "2026-07-01",
+        "end": "2026-07-31"
+      },
+      "type": "forecastWindow",
+      "status": "upcoming",
+      "tags": [
+        "Google Scholar",
+        "forecast",
+        "h5-index"
+      ],
+      "subtopic": "scholar-metrics-release",
+      "source": "Google Scholar Blog",
+      "url": "https://scholar.googleblog.com/2025/07/2025-scholar-metrics-released.html",
+      "sourceUrl": "https://scholar.googleblog.com/2025/07/2025-scholar-metrics-released.html"
+    },
+    {
+      "id": "google-scholar-metrics-2023-release",
+      "topicId": "google-scholar-metrics-ddl",
+      "title": "2023 Scholar Metrics 发布",
+      "date": "2023-07-19",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "Google Scholar",
+        "h5-index",
+        "2023"
+      ],
+      "subtopic": "scholar-metrics-release",
+      "source": "Google Scholar Blog",
+      "url": "https://scholar.googleblog.com/2023/07/2023-scholar-metrics-released.html",
+      "sourceUrl": "https://scholar.googleblog.com/2023/07/2023-scholar-metrics-released.html"
+    },
+    {
+      "id": "google-scholar-metrics-2024-release",
+      "topicId": "google-scholar-metrics-ddl",
+      "title": "2024 Scholar Metrics 发布",
+      "date": "2024-07-09",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "Google Scholar",
+        "h5-index",
+        "2024"
+      ],
+      "subtopic": "scholar-metrics-release",
+      "source": "Google Scholar Blog",
+      "url": "https://scholar.googleblog.com/2024/07/2024-scholar-metrics-released.html",
+      "sourceUrl": "https://scholar.googleblog.com/2024/07/2024-scholar-metrics-released.html"
+    },
+    {
+      "id": "google-scholar-metrics-2025-release",
+      "topicId": "google-scholar-metrics-ddl",
+      "title": "2025 Scholar Metrics 发布",
+      "date": "2025-07-22",
+      "type": "historyEvent",
+      "status": "ended",
+      "tags": [
+        "Google Scholar",
+        "h5-index",
+        "2025"
+      ],
+      "subtopic": "scholar-metrics-release",
+      "source": "Google Scholar Blog",
+      "url": "https://scholar.googleblog.com/2025/07/2025-scholar-metrics-released.html",
+      "sourceUrl": "https://scholar.googleblog.com/2025/07/2025-scholar-metrics-released.html"
     },
     {
       "id": "journal-volume-openalex-snapshot",

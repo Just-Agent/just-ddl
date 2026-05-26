@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-26T04:35:35.726Z",
-  "dataVersion": "932b6423c3752540",
+  "generatedAt": "2026-05-26T08:52:10.172Z",
+  "dataVersion": "3c0313ed230397a6",
   "topic": {
     "id": "journal-volume-ddl",
     "name": "期刊发文量",
@@ -47,23 +47,6 @@
     }
   ],
   "metrics": [
-    {
-      "id": "openalex-acm-computing-surveys-openalex_works_count_total-total",
-      "topicId": "journal-volume-ddl",
-      "type": "metricSnapshot",
-      "sourceLabel": "公开来源",
-      "journalId": "acm-computing-surveys",
-      "journalTitle": "ACM Computing Surveys",
-      "issn": "0360-0300",
-      "metric": "openalex_works_count_total",
-      "value": 3742,
-      "asOfDate": "2026-05-24",
-      "source": "OpenAlex",
-      "url": "https://openalex.org/S157921468",
-      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
-      "openAlexId": "https://openalex.org/S157921468",
-      "homepageUrl": "http://csur.acm.org/"
-    },
     {
       "id": "openalex-acm-computing-surveys-openalex_works_count_by_year-2026",
       "topicId": "journal-volume-ddl",
@@ -155,21 +138,21 @@
       "openAlexId": "https://openalex.org/S157921468"
     },
     {
-      "id": "openalex-acm-tog-openalex_works_count_total-total",
+      "id": "openalex-acm-computing-surveys-openalex_works_count_total-total",
       "topicId": "journal-volume-ddl",
       "type": "metricSnapshot",
       "sourceLabel": "公开来源",
-      "journalId": "acm-tog",
-      "journalTitle": "ACM Transactions on Graphics",
-      "issn": "0730-0301",
+      "journalId": "acm-computing-surveys",
+      "journalTitle": "ACM Computing Surveys",
+      "issn": "0360-0300",
       "metric": "openalex_works_count_total",
-      "value": 6479,
+      "value": 3742,
       "asOfDate": "2026-05-24",
       "source": "OpenAlex",
-      "url": "https://openalex.org/S185367456",
+      "url": "https://openalex.org/S157921468",
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
-      "openAlexId": "https://openalex.org/S185367456",
-      "homepageUrl": "https://tog.acm.org/"
+      "openAlexId": "https://openalex.org/S157921468",
+      "homepageUrl": "http://csur.acm.org/"
     },
     {
       "id": "openalex-acm-tog-openalex_works_count_by_year-2026",
@@ -262,21 +245,21 @@
       "openAlexId": "https://openalex.org/S185367456"
     },
     {
-      "id": "openalex-artificial-intelligence-openalex_works_count_total-total",
+      "id": "openalex-acm-tog-openalex_works_count_total-total",
       "topicId": "journal-volume-ddl",
       "type": "metricSnapshot",
       "sourceLabel": "公开来源",
-      "journalId": "artificial-intelligence",
-      "journalTitle": "Artificial Intelligence",
-      "issn": "0004-3702",
+      "journalId": "acm-tog",
+      "journalTitle": "ACM Transactions on Graphics",
+      "issn": "0730-0301",
       "metric": "openalex_works_count_total",
-      "value": 4815,
+      "value": 6479,
       "asOfDate": "2026-05-24",
       "source": "OpenAlex",
-      "url": "https://openalex.org/S196139623",
+      "url": "https://openalex.org/S185367456",
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
-      "openAlexId": "https://openalex.org/S196139623",
-      "homepageUrl": "http://www.elsevier.com/locate/artint"
+      "openAlexId": "https://openalex.org/S185367456",
+      "homepageUrl": "https://tog.acm.org/"
     },
     {
       "id": "openalex-artificial-intelligence-openalex_works_count_by_year-2026",
@@ -369,21 +352,21 @@
       "openAlexId": "https://openalex.org/S196139623"
     },
     {
-      "id": "openalex-bioinformatics-openalex_works_count_total-total",
+      "id": "openalex-artificial-intelligence-openalex_works_count_total-total",
       "topicId": "journal-volume-ddl",
       "type": "metricSnapshot",
       "sourceLabel": "公开来源",
-      "journalId": "bioinformatics",
-      "journalTitle": "Bioinformatics",
-      "issn": "1367-4811",
+      "journalId": "artificial-intelligence",
+      "journalTitle": "Artificial Intelligence",
+      "issn": "0004-3702",
       "metric": "openalex_works_count_total",
-      "value": 19377,
+      "value": 4815,
       "asOfDate": "2026-05-24",
       "source": "OpenAlex",
-      "url": "https://openalex.org/S52395412",
+      "url": "https://openalex.org/S196139623",
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
-      "openAlexId": "https://openalex.org/S52395412",
-      "homepageUrl": "http://bioinformatics.oxfordjournals.org/"
+      "openAlexId": "https://openalex.org/S196139623",
+      "homepageUrl": "http://www.elsevier.com/locate/artint"
     },
     {
       "id": "openalex-bioinformatics-openalex_works_count_by_year-2026",
@@ -476,20 +459,21 @@
       "openAlexId": "https://openalex.org/S52395412"
     },
     {
-      "id": "openalex-bmj-openalex_works_count_total-total",
+      "id": "openalex-bioinformatics-openalex_works_count_total-total",
       "topicId": "journal-volume-ddl",
       "type": "metricSnapshot",
       "sourceLabel": "公开来源",
-      "journalId": "bmj",
-      "journalTitle": "BMJ",
-      "issn": "1756-1833",
+      "journalId": "bioinformatics",
+      "journalTitle": "Bioinformatics",
+      "issn": "1367-4811",
       "metric": "openalex_works_count_total",
-      "value": 63373,
+      "value": 19377,
       "asOfDate": "2026-05-24",
       "source": "OpenAlex",
-      "url": "https://openalex.org/S4393917726",
+      "url": "https://openalex.org/S52395412",
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
-      "openAlexId": "https://openalex.org/S4393917726"
+      "openAlexId": "https://openalex.org/S52395412",
+      "homepageUrl": "http://bioinformatics.oxfordjournals.org/"
     },
     {
       "id": "openalex-bmj-openalex_works_count_by_year-2026",
@@ -582,21 +566,20 @@
       "openAlexId": "https://openalex.org/S4393917726"
     },
     {
-      "id": "openalex-cell-openalex_works_count_total-total",
+      "id": "openalex-bmj-openalex_works_count_total-total",
       "topicId": "journal-volume-ddl",
       "type": "metricSnapshot",
       "sourceLabel": "公开来源",
-      "journalId": "cell",
-      "journalTitle": "Cell",
-      "issn": "0092-8674",
+      "journalId": "bmj",
+      "journalTitle": "BMJ",
+      "issn": "1756-1833",
       "metric": "openalex_works_count_total",
-      "value": 26933,
+      "value": 63373,
       "asOfDate": "2026-05-24",
       "source": "OpenAlex",
-      "url": "https://openalex.org/S110447773",
+      "url": "https://openalex.org/S4393917726",
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
-      "openAlexId": "https://openalex.org/S110447773",
-      "homepageUrl": "https://www.sciencedirect.com/journal/cell"
+      "openAlexId": "https://openalex.org/S4393917726"
     },
     {
       "id": "openalex-cell-openalex_works_count_by_year-2026",
@@ -689,21 +672,21 @@
       "openAlexId": "https://openalex.org/S110447773"
     },
     {
-      "id": "openalex-computational-linguistics-openalex_works_count_total-total",
+      "id": "openalex-cell-openalex_works_count_total-total",
       "topicId": "journal-volume-ddl",
       "type": "metricSnapshot",
       "sourceLabel": "公开来源",
-      "journalId": "computational-linguistics",
-      "journalTitle": "Computational Linguistics",
-      "issn": "0891-2017",
+      "journalId": "cell",
+      "journalTitle": "Cell",
+      "issn": "0092-8674",
       "metric": "openalex_works_count_total",
-      "value": 1743,
+      "value": 26933,
       "asOfDate": "2026-05-24",
       "source": "OpenAlex",
-      "url": "https://openalex.org/S155526855",
+      "url": "https://openalex.org/S110447773",
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
-      "openAlexId": "https://openalex.org/S155526855",
-      "homepageUrl": "http://mitpress.mit.edu/catalog/item/default.asp?ttype=4&tid=10"
+      "openAlexId": "https://openalex.org/S110447773",
+      "homepageUrl": "https://www.sciencedirect.com/journal/cell"
     },
     {
       "id": "openalex-computational-linguistics-openalex_works_count_by_year-2026",
@@ -796,21 +779,21 @@
       "openAlexId": "https://openalex.org/S155526855"
     },
     {
-      "id": "openalex-cviu-openalex_works_count_total-total",
+      "id": "openalex-computational-linguistics-openalex_works_count_total-total",
       "topicId": "journal-volume-ddl",
       "type": "metricSnapshot",
       "sourceLabel": "公开来源",
-      "journalId": "cviu",
-      "journalTitle": "Computer Vision and Image Understanding",
-      "issn": "1077-3142",
+      "journalId": "computational-linguistics",
+      "journalTitle": "Computational Linguistics",
+      "issn": "0891-2017",
       "metric": "openalex_works_count_total",
-      "value": 4256,
+      "value": 1743,
       "asOfDate": "2026-05-24",
       "source": "OpenAlex",
-      "url": "https://openalex.org/S185008460",
+      "url": "https://openalex.org/S155526855",
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
-      "openAlexId": "https://openalex.org/S185008460",
-      "homepageUrl": "https://www.journals.elsevier.com/computer-vision-and-image-understanding"
+      "openAlexId": "https://openalex.org/S155526855",
+      "homepageUrl": "http://mitpress.mit.edu/catalog/item/default.asp?ttype=4&tid=10"
     },
     {
       "id": "openalex-cviu-openalex_works_count_by_year-2026",
@@ -903,21 +886,21 @@
       "openAlexId": "https://openalex.org/S185008460"
     },
     {
-      "id": "openalex-elife-openalex_works_count_total-total",
+      "id": "openalex-cviu-openalex_works_count_total-total",
       "topicId": "journal-volume-ddl",
       "type": "metricSnapshot",
       "sourceLabel": "公开来源",
-      "journalId": "elife",
-      "journalTitle": "eLife",
-      "issn": "2050-084X",
+      "journalId": "cviu",
+      "journalTitle": "Computer Vision and Image Understanding",
+      "issn": "1077-3142",
       "metric": "openalex_works_count_total",
-      "value": 30133,
+      "value": 4256,
       "asOfDate": "2026-05-24",
       "source": "OpenAlex",
-      "url": "https://openalex.org/S1336409049",
+      "url": "https://openalex.org/S185008460",
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
-      "openAlexId": "https://openalex.org/S1336409049",
-      "homepageUrl": "http://elifesciences.org/"
+      "openAlexId": "https://openalex.org/S185008460",
+      "homepageUrl": "https://www.journals.elsevier.com/computer-vision-and-image-understanding"
     },
     {
       "id": "openalex-elife-openalex_works_count_by_year-2026",
@@ -1010,21 +993,21 @@
       "openAlexId": "https://openalex.org/S1336409049"
     },
     {
-      "id": "openalex-ieee-tip-openalex_works_count_total-total",
+      "id": "openalex-elife-openalex_works_count_total-total",
       "topicId": "journal-volume-ddl",
       "type": "metricSnapshot",
       "sourceLabel": "公开来源",
-      "journalId": "ieee-tip",
-      "journalTitle": "IEEE Transactions on Image Processing",
-      "issn": "1057-7149",
+      "journalId": "elife",
+      "journalTitle": "eLife",
+      "issn": "2050-084X",
       "metric": "openalex_works_count_total",
-      "value": 12970,
+      "value": 30133,
       "asOfDate": "2026-05-24",
       "source": "OpenAlex",
-      "url": "https://openalex.org/S4210173141",
+      "url": "https://openalex.org/S1336409049",
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
-      "openAlexId": "https://openalex.org/S4210173141",
-      "homepageUrl": "http://ieeexplore.ieee.org/servlet/opac?punumber=83"
+      "openAlexId": "https://openalex.org/S1336409049",
+      "homepageUrl": "http://elifesciences.org/"
     },
     {
       "id": "openalex-ieee-tip-openalex_works_count_by_year-2026",
@@ -1117,21 +1100,21 @@
       "openAlexId": "https://openalex.org/S4210173141"
     },
     {
-      "id": "openalex-ieee-tkde-openalex_works_count_total-total",
+      "id": "openalex-ieee-tip-openalex_works_count_total-total",
       "topicId": "journal-volume-ddl",
       "type": "metricSnapshot",
       "sourceLabel": "公开来源",
-      "journalId": "ieee-tkde",
-      "journalTitle": "IEEE Transactions on Knowledge and Data Engineering",
-      "issn": "1041-4347",
+      "journalId": "ieee-tip",
+      "journalTitle": "IEEE Transactions on Image Processing",
+      "issn": "1057-7149",
       "metric": "openalex_works_count_total",
-      "value": 7968,
+      "value": 12970,
       "asOfDate": "2026-05-24",
       "source": "OpenAlex",
-      "url": "https://openalex.org/S30698027",
+      "url": "https://openalex.org/S4210173141",
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
-      "openAlexId": "https://openalex.org/S30698027",
-      "homepageUrl": "https://www.computer.org/web/tkde"
+      "openAlexId": "https://openalex.org/S4210173141",
+      "homepageUrl": "http://ieeexplore.ieee.org/servlet/opac?punumber=83"
     },
     {
       "id": "openalex-ieee-tkde-openalex_works_count_by_year-2026",
@@ -1224,21 +1207,21 @@
       "openAlexId": "https://openalex.org/S30698027"
     },
     {
-      "id": "openalex-ieee-tmi-openalex_works_count_total-total",
+      "id": "openalex-ieee-tkde-openalex_works_count_total-total",
       "topicId": "journal-volume-ddl",
       "type": "metricSnapshot",
       "sourceLabel": "公开来源",
-      "journalId": "ieee-tmi",
-      "journalTitle": "IEEE Transactions on Medical Imaging",
-      "issn": "0278-0062",
+      "journalId": "ieee-tkde",
+      "journalTitle": "IEEE Transactions on Knowledge and Data Engineering",
+      "issn": "1041-4347",
       "metric": "openalex_works_count_total",
-      "value": 8684,
+      "value": 7968,
       "asOfDate": "2026-05-24",
       "source": "OpenAlex",
-      "url": "https://openalex.org/S58069681",
+      "url": "https://openalex.org/S30698027",
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
-      "openAlexId": "https://openalex.org/S58069681",
-      "homepageUrl": "http://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=42"
+      "openAlexId": "https://openalex.org/S30698027",
+      "homepageUrl": "https://www.computer.org/web/tkde"
     },
     {
       "id": "openalex-ieee-tmi-openalex_works_count_by_year-2026",
@@ -1331,21 +1314,21 @@
       "openAlexId": "https://openalex.org/S58069681"
     },
     {
-      "id": "openalex-ieee-tnnls-openalex_works_count_total-total",
+      "id": "openalex-ieee-tmi-openalex_works_count_total-total",
       "topicId": "journal-volume-ddl",
       "type": "metricSnapshot",
       "sourceLabel": "公开来源",
-      "journalId": "ieee-tnnls",
-      "journalTitle": "IEEE Transactions on Neural Networks and Learning Systems",
-      "issn": "2162-237X",
+      "journalId": "ieee-tmi",
+      "journalTitle": "IEEE Transactions on Medical Imaging",
+      "issn": "0278-0062",
       "metric": "openalex_works_count_total",
-      "value": 8866,
+      "value": 8684,
       "asOfDate": "2026-05-24",
       "source": "OpenAlex",
-      "url": "https://openalex.org/S4210175523",
+      "url": "https://openalex.org/S58069681",
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
-      "openAlexId": "https://openalex.org/S4210175523",
-      "homepageUrl": "http://cis.ieee.org/ieee-transactions-on-neural-networks-and-learning-systems.html"
+      "openAlexId": "https://openalex.org/S58069681",
+      "homepageUrl": "http://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=42"
     },
     {
       "id": "openalex-ieee-tnnls-openalex_works_count_by_year-2026",
@@ -1438,21 +1421,21 @@
       "openAlexId": "https://openalex.org/S4210175523"
     },
     {
-      "id": "openalex-tpami-openalex_works_count_total-total",
+      "id": "openalex-ieee-tnnls-openalex_works_count_total-total",
       "topicId": "journal-volume-ddl",
       "type": "metricSnapshot",
       "sourceLabel": "公开来源",
-      "journalId": "tpami",
-      "journalTitle": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
-      "issn": "0162-8828",
+      "journalId": "ieee-tnnls",
+      "journalTitle": "IEEE Transactions on Neural Networks and Learning Systems",
+      "issn": "2162-237X",
       "metric": "openalex_works_count_total",
-      "value": 12247,
+      "value": 8866,
       "asOfDate": "2026-05-24",
       "source": "OpenAlex",
-      "url": "https://openalex.org/S199944782",
+      "url": "https://openalex.org/S4210175523",
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
-      "openAlexId": "https://openalex.org/S199944782",
-      "homepageUrl": "http://www.computer.org/portal/web/tpami"
+      "openAlexId": "https://openalex.org/S4210175523",
+      "homepageUrl": "http://cis.ieee.org/ieee-transactions-on-neural-networks-and-learning-systems.html"
     },
     {
       "id": "openalex-tpami-openalex_works_count_by_year-2026",
@@ -1545,21 +1528,21 @@
       "openAlexId": "https://openalex.org/S199944782"
     },
     {
-      "id": "openalex-ieee-tse-openalex_works_count_total-total",
+      "id": "openalex-tpami-openalex_works_count_total-total",
       "topicId": "journal-volume-ddl",
       "type": "metricSnapshot",
       "sourceLabel": "公开来源",
-      "journalId": "ieee-tse",
-      "journalTitle": "IEEE Transactions on Software Engineering",
-      "issn": "0098-5589",
+      "journalId": "tpami",
+      "journalTitle": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "issn": "0162-8828",
       "metric": "openalex_works_count_total",
-      "value": 6133,
+      "value": 12247,
       "asOfDate": "2026-05-24",
       "source": "OpenAlex",
-      "url": "https://openalex.org/S8351582",
+      "url": "https://openalex.org/S199944782",
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
-      "openAlexId": "https://openalex.org/S8351582",
-      "homepageUrl": "http://www.computer.org/portal/web/tse/about"
+      "openAlexId": "https://openalex.org/S199944782",
+      "homepageUrl": "http://www.computer.org/portal/web/tpami"
     },
     {
       "id": "openalex-ieee-tse-openalex_works_count_by_year-2026",
@@ -1652,21 +1635,21 @@
       "openAlexId": "https://openalex.org/S8351582"
     },
     {
-      "id": "openalex-information-fusion-openalex_works_count_total-total",
+      "id": "openalex-ieee-tse-openalex_works_count_total-total",
       "topicId": "journal-volume-ddl",
       "type": "metricSnapshot",
       "sourceLabel": "公开来源",
-      "journalId": "information-fusion",
-      "journalTitle": "Information Fusion",
-      "issn": "1566-2535",
+      "journalId": "ieee-tse",
+      "journalTitle": "IEEE Transactions on Software Engineering",
+      "issn": "0098-5589",
       "metric": "openalex_works_count_total",
-      "value": 4319,
+      "value": 6133,
       "asOfDate": "2026-05-24",
       "source": "OpenAlex",
-      "url": "https://openalex.org/S7560371",
+      "url": "https://openalex.org/S8351582",
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
-      "openAlexId": "https://openalex.org/S7560371",
-      "homepageUrl": "https://www.journals.elsevier.com/information-fusion"
+      "openAlexId": "https://openalex.org/S8351582",
+      "homepageUrl": "http://www.computer.org/portal/web/tse/about"
     },
     {
       "id": "openalex-information-fusion-openalex_works_count_by_year-2026",
@@ -1759,21 +1742,21 @@
       "openAlexId": "https://openalex.org/S7560371"
     },
     {
-      "id": "openalex-ijcv-openalex_works_count_total-total",
+      "id": "openalex-information-fusion-openalex_works_count_total-total",
       "topicId": "journal-volume-ddl",
       "type": "metricSnapshot",
       "sourceLabel": "公开来源",
-      "journalId": "ijcv",
-      "journalTitle": "International Journal of Computer Vision",
-      "issn": "0920-5691",
+      "journalId": "information-fusion",
+      "journalTitle": "Information Fusion",
+      "issn": "1566-2535",
       "metric": "openalex_works_count_total",
-      "value": 3873,
+      "value": 4319,
       "asOfDate": "2026-05-24",
       "source": "OpenAlex",
-      "url": "https://openalex.org/S25538012",
+      "url": "https://openalex.org/S7560371",
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
-      "openAlexId": "https://openalex.org/S25538012",
-      "homepageUrl": "http://link.springer.com/journal/11263"
+      "openAlexId": "https://openalex.org/S7560371",
+      "homepageUrl": "https://www.journals.elsevier.com/information-fusion"
     },
     {
       "id": "openalex-ijcv-openalex_works_count_by_year-2026",
@@ -1866,21 +1849,21 @@
       "openAlexId": "https://openalex.org/S25538012"
     },
     {
-      "id": "openalex-jama-openalex_works_count_total-total",
+      "id": "openalex-ijcv-openalex_works_count_total-total",
       "topicId": "journal-volume-ddl",
       "type": "metricSnapshot",
       "sourceLabel": "公开来源",
-      "journalId": "jama",
-      "journalTitle": "JAMA",
-      "issn": "0098-7484",
+      "journalId": "ijcv",
+      "journalTitle": "International Journal of Computer Vision",
+      "issn": "0920-5691",
       "metric": "openalex_works_count_total",
-      "value": 268895,
+      "value": 3873,
       "asOfDate": "2026-05-24",
       "source": "OpenAlex",
-      "url": "https://openalex.org/S172573765",
+      "url": "https://openalex.org/S25538012",
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
-      "openAlexId": "https://openalex.org/S172573765",
-      "homepageUrl": "http://jama.ama-assn.org/"
+      "openAlexId": "https://openalex.org/S25538012",
+      "homepageUrl": "http://link.springer.com/journal/11263"
     },
     {
       "id": "openalex-jama-openalex_works_count_by_year-2026",
@@ -1973,21 +1956,21 @@
       "openAlexId": "https://openalex.org/S172573765"
     },
     {
-      "id": "openalex-jair-openalex_works_count_total-total",
+      "id": "openalex-jama-openalex_works_count_total-total",
       "topicId": "journal-volume-ddl",
       "type": "metricSnapshot",
       "sourceLabel": "公开来源",
-      "journalId": "jair",
-      "journalTitle": "Journal of Artificial Intelligence Research",
-      "issn": "1076-9757",
+      "journalId": "jama",
+      "journalTitle": "JAMA",
+      "issn": "0098-7484",
       "metric": "openalex_works_count_total",
-      "value": 1808,
+      "value": 268895,
       "asOfDate": "2026-05-24",
       "source": "OpenAlex",
-      "url": "https://openalex.org/S139930977",
+      "url": "https://openalex.org/S172573765",
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
-      "openAlexId": "https://openalex.org/S139930977",
-      "homepageUrl": "http://www.jair.org/"
+      "openAlexId": "https://openalex.org/S172573765",
+      "homepageUrl": "http://jama.ama-assn.org/"
     },
     {
       "id": "openalex-jair-openalex_works_count_by_year-2026",
@@ -2080,6 +2063,23 @@
       "openAlexId": "https://openalex.org/S139930977"
     },
     {
+      "id": "openalex-jair-openalex_works_count_total-total",
+      "topicId": "journal-volume-ddl",
+      "type": "metricSnapshot",
+      "sourceLabel": "公开来源",
+      "journalId": "jair",
+      "journalTitle": "Journal of Artificial Intelligence Research",
+      "issn": "1076-9757",
+      "metric": "openalex_works_count_total",
+      "value": 1808,
+      "asOfDate": "2026-05-24",
+      "source": "OpenAlex",
+      "url": "https://openalex.org/S139930977",
+      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
+      "openAlexId": "https://openalex.org/S139930977",
+      "homepageUrl": "http://www.jair.org/"
+    },
+    {
       "id": "openalex-jmlr-openalex_works_count_total-total",
       "topicId": "journal-volume-ddl",
       "type": "metricSnapshot",
@@ -2095,23 +2095,6 @@
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
       "openAlexId": "https://openalex.org/S118988714",
       "homepageUrl": "http://www.jmlr.org/"
-    },
-    {
-      "id": "openalex-machine-learning-openalex_works_count_total-total",
-      "topicId": "journal-volume-ddl",
-      "type": "metricSnapshot",
-      "sourceLabel": "公开来源",
-      "journalId": "machine-learning",
-      "journalTitle": "Machine Learning",
-      "issn": "0885-6125",
-      "metric": "openalex_works_count_total",
-      "value": 3981,
-      "asOfDate": "2026-05-24",
-      "source": "OpenAlex",
-      "url": "https://openalex.org/S62148650",
-      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
-      "openAlexId": "https://openalex.org/S62148650",
-      "homepageUrl": "http://www.springer.com/west/home/computer/artificial?SGWID=4-147-70-35726603-0"
     },
     {
       "id": "openalex-machine-learning-openalex_works_count_by_year-2026",
@@ -2204,21 +2187,21 @@
       "openAlexId": "https://openalex.org/S62148650"
     },
     {
-      "id": "openalex-medical-image-analysis-openalex_works_count_total-total",
+      "id": "openalex-machine-learning-openalex_works_count_total-total",
       "topicId": "journal-volume-ddl",
       "type": "metricSnapshot",
       "sourceLabel": "公开来源",
-      "journalId": "medical-image-analysis",
-      "journalTitle": "Medical Image Analysis",
-      "issn": "1361-8415",
+      "journalId": "machine-learning",
+      "journalTitle": "Machine Learning",
+      "issn": "0885-6125",
       "metric": "openalex_works_count_total",
-      "value": 3985,
+      "value": 3981,
       "asOfDate": "2026-05-24",
       "source": "OpenAlex",
-      "url": "https://openalex.org/S116571295",
+      "url": "https://openalex.org/S62148650",
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
-      "openAlexId": "https://openalex.org/S116571295",
-      "homepageUrl": "https://www.journals.elsevier.com/medical-image-analysis"
+      "openAlexId": "https://openalex.org/S62148650",
+      "homepageUrl": "http://www.springer.com/west/home/computer/artificial?SGWID=4-147-70-35726603-0"
     },
     {
       "id": "openalex-medical-image-analysis-openalex_works_count_by_year-2026",
@@ -2311,21 +2294,21 @@
       "openAlexId": "https://openalex.org/S116571295"
     },
     {
-      "id": "openalex-natural-language-engineering-openalex_works_count_total-total",
+      "id": "openalex-medical-image-analysis-openalex_works_count_total-total",
       "topicId": "journal-volume-ddl",
       "type": "metricSnapshot",
       "sourceLabel": "公开来源",
-      "journalId": "natural-language-engineering",
-      "journalTitle": "Natural Language Engineering",
-      "issn": "1351-3249",
+      "journalId": "medical-image-analysis",
+      "journalTitle": "Medical Image Analysis",
+      "issn": "1361-8415",
       "metric": "openalex_works_count_total",
-      "value": 1047,
+      "value": 3985,
       "asOfDate": "2026-05-24",
       "source": "OpenAlex",
-      "url": "https://openalex.org/S18088403",
+      "url": "https://openalex.org/S116571295",
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
-      "openAlexId": "https://openalex.org/S18088403",
-      "homepageUrl": "https://www.cambridge.org/core/journals/natural-language-engineering"
+      "openAlexId": "https://openalex.org/S116571295",
+      "homepageUrl": "https://www.journals.elsevier.com/medical-image-analysis"
     },
     {
       "id": "openalex-natural-language-engineering-openalex_works_count_by_year-2024",
@@ -2382,21 +2365,21 @@
       "openAlexId": "https://openalex.org/S18088403"
     },
     {
-      "id": "openalex-nature-openalex_works_count_total-total",
+      "id": "openalex-natural-language-engineering-openalex_works_count_total-total",
       "topicId": "journal-volume-ddl",
       "type": "metricSnapshot",
       "sourceLabel": "公开来源",
-      "journalId": "nature",
-      "journalTitle": "Nature",
-      "issn": "0028-0836",
+      "journalId": "natural-language-engineering",
+      "journalTitle": "Natural Language Engineering",
+      "issn": "1351-3249",
       "metric": "openalex_works_count_total",
-      "value": 448565,
+      "value": 1047,
       "asOfDate": "2026-05-24",
       "source": "OpenAlex",
-      "url": "https://openalex.org/S137773608",
+      "url": "https://openalex.org/S18088403",
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
-      "openAlexId": "https://openalex.org/S137773608",
-      "homepageUrl": "https://www.nature.com/nature/"
+      "openAlexId": "https://openalex.org/S18088403",
+      "homepageUrl": "https://www.cambridge.org/core/journals/natural-language-engineering"
     },
     {
       "id": "openalex-nature-openalex_works_count_by_year-2026",
@@ -2489,21 +2472,21 @@
       "openAlexId": "https://openalex.org/S137773608"
     },
     {
-      "id": "openalex-nature-biotechnology-openalex_works_count_total-total",
+      "id": "openalex-nature-openalex_works_count_total-total",
       "topicId": "journal-volume-ddl",
       "type": "metricSnapshot",
       "sourceLabel": "公开来源",
-      "journalId": "nature-biotechnology",
-      "journalTitle": "Nature Biotechnology",
-      "issn": "1087-0156",
+      "journalId": "nature",
+      "journalTitle": "Nature",
+      "issn": "0028-0836",
       "metric": "openalex_works_count_total",
-      "value": 19412,
+      "value": 448565,
       "asOfDate": "2026-05-24",
       "source": "OpenAlex",
-      "url": "https://openalex.org/S106963461",
+      "url": "https://openalex.org/S137773608",
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
-      "openAlexId": "https://openalex.org/S106963461",
-      "homepageUrl": "http://www.nature.com/nbt"
+      "openAlexId": "https://openalex.org/S137773608",
+      "homepageUrl": "https://www.nature.com/nature/"
     },
     {
       "id": "openalex-nature-biotechnology-openalex_works_count_by_year-2026",
@@ -2596,21 +2579,21 @@
       "openAlexId": "https://openalex.org/S106963461"
     },
     {
-      "id": "openalex-nature-communications-openalex_works_count_total-total",
+      "id": "openalex-nature-biotechnology-openalex_works_count_total-total",
       "topicId": "journal-volume-ddl",
       "type": "metricSnapshot",
       "sourceLabel": "公开来源",
-      "journalId": "nature-communications",
-      "journalTitle": "Nature Communications",
-      "issn": "2041-1723",
+      "journalId": "nature-biotechnology",
+      "journalTitle": "Nature Biotechnology",
+      "issn": "1087-0156",
       "metric": "openalex_works_count_total",
-      "value": 88680,
+      "value": 19412,
       "asOfDate": "2026-05-24",
       "source": "OpenAlex",
-      "url": "https://openalex.org/S64187185",
+      "url": "https://openalex.org/S106963461",
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
-      "openAlexId": "https://openalex.org/S64187185",
-      "homepageUrl": "http://www.nature.com/ncomms/index.html"
+      "openAlexId": "https://openalex.org/S106963461",
+      "homepageUrl": "http://www.nature.com/nbt"
     },
     {
       "id": "openalex-nature-communications-openalex_works_count_by_year-2026",
@@ -2703,21 +2686,21 @@
       "openAlexId": "https://openalex.org/S64187185"
     },
     {
-      "id": "openalex-nature-machine-intelligence-openalex_works_count_total-total",
+      "id": "openalex-nature-communications-openalex_works_count_total-total",
       "topicId": "journal-volume-ddl",
       "type": "metricSnapshot",
       "sourceLabel": "公开来源",
-      "journalId": "nature-machine-intelligence",
-      "journalTitle": "Nature Machine Intelligence",
-      "issn": "2522-5839",
+      "journalId": "nature-communications",
+      "journalTitle": "Nature Communications",
+      "issn": "2041-1723",
       "metric": "openalex_works_count_total",
-      "value": 1240,
+      "value": 88680,
       "asOfDate": "2026-05-24",
       "source": "OpenAlex",
-      "url": "https://openalex.org/S2912241403",
+      "url": "https://openalex.org/S64187185",
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
-      "openAlexId": "https://openalex.org/S2912241403",
-      "homepageUrl": "https://www.nature.com/natmachintell/"
+      "openAlexId": "https://openalex.org/S64187185",
+      "homepageUrl": "http://www.nature.com/ncomms/index.html"
     },
     {
       "id": "openalex-nature-machine-intelligence-openalex_works_count_by_year-2026",
@@ -2810,21 +2793,21 @@
       "openAlexId": "https://openalex.org/S2912241403"
     },
     {
-      "id": "openalex-nature-medicine-openalex_works_count_total-total",
+      "id": "openalex-nature-machine-intelligence-openalex_works_count_total-total",
       "topicId": "journal-volume-ddl",
       "type": "metricSnapshot",
       "sourceLabel": "公开来源",
-      "journalId": "nature-medicine",
-      "journalTitle": "Nature Medicine",
-      "issn": "1078-8956",
+      "journalId": "nature-machine-intelligence",
+      "journalTitle": "Nature Machine Intelligence",
+      "issn": "2522-5839",
       "metric": "openalex_works_count_total",
-      "value": 16295,
+      "value": 1240,
       "asOfDate": "2026-05-24",
       "source": "OpenAlex",
-      "url": "https://openalex.org/S203256638",
+      "url": "https://openalex.org/S2912241403",
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
-      "openAlexId": "https://openalex.org/S203256638",
-      "homepageUrl": "http://www.nature.com/nm/index.html"
+      "openAlexId": "https://openalex.org/S2912241403",
+      "homepageUrl": "https://www.nature.com/natmachintell/"
     },
     {
       "id": "openalex-nature-medicine-openalex_works_count_by_year-2026",
@@ -2917,21 +2900,21 @@
       "openAlexId": "https://openalex.org/S203256638"
     },
     {
-      "id": "openalex-nejm-openalex_works_count_total-total",
+      "id": "openalex-nature-medicine-openalex_works_count_total-total",
       "topicId": "journal-volume-ddl",
       "type": "metricSnapshot",
       "sourceLabel": "公开来源",
-      "journalId": "nejm",
-      "journalTitle": "New England Journal of Medicine",
-      "issn": "0028-4793",
+      "journalId": "nature-medicine",
+      "journalTitle": "Nature Medicine",
+      "issn": "1078-8956",
       "metric": "openalex_works_count_total",
-      "value": 190259,
+      "value": 16295,
       "asOfDate": "2026-05-24",
       "source": "OpenAlex",
-      "url": "https://openalex.org/S62468778",
+      "url": "https://openalex.org/S203256638",
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
-      "openAlexId": "https://openalex.org/S62468778",
-      "homepageUrl": "http://www.nejm.org/"
+      "openAlexId": "https://openalex.org/S203256638",
+      "homepageUrl": "http://www.nature.com/nm/index.html"
     },
     {
       "id": "openalex-nejm-openalex_works_count_by_year-2026",
@@ -3024,21 +3007,21 @@
       "openAlexId": "https://openalex.org/S62468778"
     },
     {
-      "id": "openalex-npj-digital-medicine-openalex_works_count_total-total",
+      "id": "openalex-nejm-openalex_works_count_total-total",
       "topicId": "journal-volume-ddl",
       "type": "metricSnapshot",
       "sourceLabel": "公开来源",
-      "journalId": "npj-digital-medicine",
-      "journalTitle": "npj Digital Medicine",
-      "issn": "2398-6352",
+      "journalId": "nejm",
+      "journalTitle": "New England Journal of Medicine",
+      "issn": "0028-4793",
       "metric": "openalex_works_count_total",
-      "value": 2750,
+      "value": 190259,
       "asOfDate": "2026-05-24",
       "source": "OpenAlex",
-      "url": "https://openalex.org/S4210195431",
+      "url": "https://openalex.org/S62468778",
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
-      "openAlexId": "https://openalex.org/S4210195431",
-      "homepageUrl": "https://www.nature.com/npjdigitalmed/"
+      "openAlexId": "https://openalex.org/S62468778",
+      "homepageUrl": "http://www.nejm.org/"
     },
     {
       "id": "openalex-npj-digital-medicine-openalex_works_count_by_year-2026",
@@ -3131,21 +3114,21 @@
       "openAlexId": "https://openalex.org/S4210195431"
     },
     {
-      "id": "openalex-pattern-recognition-openalex_works_count_total-total",
+      "id": "openalex-npj-digital-medicine-openalex_works_count_total-total",
       "topicId": "journal-volume-ddl",
       "type": "metricSnapshot",
       "sourceLabel": "公开来源",
-      "journalId": "pattern-recognition",
-      "journalTitle": "Pattern Recognition",
-      "issn": "0031-3203",
+      "journalId": "npj-digital-medicine",
+      "journalTitle": "npj Digital Medicine",
+      "issn": "2398-6352",
       "metric": "openalex_works_count_total",
-      "value": 16250,
+      "value": 2750,
       "asOfDate": "2026-05-24",
       "source": "OpenAlex",
-      "url": "https://openalex.org/S414566",
+      "url": "https://openalex.org/S4210195431",
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
-      "openAlexId": "https://openalex.org/S414566",
-      "homepageUrl": "https://www.journals.elsevier.com/pattern-recognition"
+      "openAlexId": "https://openalex.org/S4210195431",
+      "homepageUrl": "https://www.nature.com/npjdigitalmed/"
     },
     {
       "id": "openalex-pattern-recognition-openalex_works_count_by_year-2026",
@@ -3238,21 +3221,21 @@
       "openAlexId": "https://openalex.org/S414566"
     },
     {
-      "id": "openalex-pnas-openalex_works_count_total-total",
+      "id": "openalex-pattern-recognition-openalex_works_count_total-total",
       "topicId": "journal-volume-ddl",
       "type": "metricSnapshot",
       "sourceLabel": "公开来源",
-      "journalId": "pnas",
-      "journalTitle": "Proceedings of the National Academy of Sciences",
-      "issn": "0027-8424",
+      "journalId": "pattern-recognition",
+      "journalTitle": "Pattern Recognition",
+      "issn": "0031-3203",
       "metric": "openalex_works_count_total",
-      "value": 170590,
+      "value": 16250,
       "asOfDate": "2026-05-24",
       "source": "OpenAlex",
-      "url": "https://openalex.org/S125754415",
+      "url": "https://openalex.org/S414566",
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
-      "openAlexId": "https://openalex.org/S125754415",
-      "homepageUrl": "http://www.pnas.org/"
+      "openAlexId": "https://openalex.org/S414566",
+      "homepageUrl": "https://www.journals.elsevier.com/pattern-recognition"
     },
     {
       "id": "openalex-pnas-openalex_works_count_by_year-2026",
@@ -3345,21 +3328,21 @@
       "openAlexId": "https://openalex.org/S125754415"
     },
     {
-      "id": "openalex-pvldb-openalex_works_count_total-total",
+      "id": "openalex-pnas-openalex_works_count_total-total",
       "topicId": "journal-volume-ddl",
       "type": "metricSnapshot",
       "sourceLabel": "公开来源",
-      "journalId": "pvldb",
-      "journalTitle": "Proceedings of the VLDB Endowment",
-      "issn": "2150-8097",
+      "journalId": "pnas",
+      "journalTitle": "Proceedings of the National Academy of Sciences",
+      "issn": "0027-8424",
       "metric": "openalex_works_count_total",
-      "value": 4876,
+      "value": 170590,
       "asOfDate": "2026-05-24",
       "source": "OpenAlex",
-      "url": "https://openalex.org/S4210226185",
+      "url": "https://openalex.org/S125754415",
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
-      "openAlexId": "https://openalex.org/S4210226185",
-      "homepageUrl": "http://www.eecs.umich.edu/db/pvldb/"
+      "openAlexId": "https://openalex.org/S125754415",
+      "homepageUrl": "http://www.pnas.org/"
     },
     {
       "id": "openalex-pvldb-openalex_works_count_by_year-2026",
@@ -3452,21 +3435,21 @@
       "openAlexId": "https://openalex.org/S4210226185"
     },
     {
-      "id": "openalex-robotics-autonomous-systems-openalex_works_count_total-total",
+      "id": "openalex-pvldb-openalex_works_count_total-total",
       "topicId": "journal-volume-ddl",
       "type": "metricSnapshot",
       "sourceLabel": "公开来源",
-      "journalId": "robotics-autonomous-systems",
-      "journalTitle": "Robotics and Autonomous Systems",
-      "issn": "0921-8890",
+      "journalId": "pvldb",
+      "journalTitle": "Proceedings of the VLDB Endowment",
+      "issn": "2150-8097",
       "metric": "openalex_works_count_total",
-      "value": 5360,
+      "value": 4876,
       "asOfDate": "2026-05-24",
       "source": "OpenAlex",
-      "url": "https://openalex.org/S133768115",
+      "url": "https://openalex.org/S4210226185",
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
-      "openAlexId": "https://openalex.org/S133768115",
-      "homepageUrl": "https://www.journals.elsevier.com/robotics-and-autonomous-systems"
+      "openAlexId": "https://openalex.org/S4210226185",
+      "homepageUrl": "http://www.eecs.umich.edu/db/pvldb/"
     },
     {
       "id": "openalex-robotics-autonomous-systems-openalex_works_count_by_year-2026",
@@ -3559,21 +3542,21 @@
       "openAlexId": "https://openalex.org/S133768115"
     },
     {
-      "id": "openalex-science-openalex_works_count_total-total",
+      "id": "openalex-robotics-autonomous-systems-openalex_works_count_total-total",
       "topicId": "journal-volume-ddl",
       "type": "metricSnapshot",
       "sourceLabel": "公开来源",
-      "journalId": "science",
-      "journalTitle": "Science",
-      "issn": "0036-8075",
+      "journalId": "robotics-autonomous-systems",
+      "journalTitle": "Robotics and Autonomous Systems",
+      "issn": "0921-8890",
       "metric": "openalex_works_count_total",
-      "value": 386819,
+      "value": 5360,
       "asOfDate": "2026-05-24",
       "source": "OpenAlex",
-      "url": "https://openalex.org/S3880285",
+      "url": "https://openalex.org/S133768115",
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
-      "openAlexId": "https://openalex.org/S3880285",
-      "homepageUrl": "http://www.sciencemag.org/"
+      "openAlexId": "https://openalex.org/S133768115",
+      "homepageUrl": "https://www.journals.elsevier.com/robotics-and-autonomous-systems"
     },
     {
       "id": "openalex-science-openalex_works_count_by_year-2026",
@@ -3666,21 +3649,21 @@
       "openAlexId": "https://openalex.org/S3880285"
     },
     {
-      "id": "openalex-science-advances-openalex_works_count_total-total",
+      "id": "openalex-science-openalex_works_count_total-total",
       "topicId": "journal-volume-ddl",
       "type": "metricSnapshot",
       "sourceLabel": "公开来源",
-      "journalId": "science-advances",
-      "journalTitle": "Science Advances",
-      "issn": "2375-2548",
+      "journalId": "science",
+      "journalTitle": "Science",
+      "issn": "0036-8075",
       "metric": "openalex_works_count_total",
-      "value": 19008,
+      "value": 386819,
       "asOfDate": "2026-05-24",
       "source": "OpenAlex",
-      "url": "https://openalex.org/S2737427234",
+      "url": "https://openalex.org/S3880285",
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
-      "openAlexId": "https://openalex.org/S2737427234",
-      "homepageUrl": "https://www.science.org/journal/sciadv"
+      "openAlexId": "https://openalex.org/S3880285",
+      "homepageUrl": "http://www.sciencemag.org/"
     },
     {
       "id": "openalex-science-advances-openalex_works_count_by_year-2026",
@@ -3773,21 +3756,21 @@
       "openAlexId": "https://openalex.org/S2737427234"
     },
     {
-      "id": "openalex-science-robotics-openalex_works_count_total-total",
+      "id": "openalex-science-advances-openalex_works_count_total-total",
       "topicId": "journal-volume-ddl",
       "type": "metricSnapshot",
       "sourceLabel": "公开来源",
-      "journalId": "science-robotics",
-      "journalTitle": "Science Robotics",
-      "issn": "2470-9476",
+      "journalId": "science-advances",
+      "journalTitle": "Science Advances",
+      "issn": "2375-2548",
       "metric": "openalex_works_count_total",
-      "value": 937,
+      "value": 19008,
       "asOfDate": "2026-05-24",
       "source": "OpenAlex",
-      "url": "https://openalex.org/S4210213233",
+      "url": "https://openalex.org/S2737427234",
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
-      "openAlexId": "https://openalex.org/S4210213233",
-      "homepageUrl": "http://robotics.sciencemag.org/"
+      "openAlexId": "https://openalex.org/S2737427234",
+      "homepageUrl": "https://www.science.org/journal/sciadv"
     },
     {
       "id": "openalex-science-robotics-openalex_works_count_by_year-2026",
@@ -3880,21 +3863,21 @@
       "openAlexId": "https://openalex.org/S4210213233"
     },
     {
-      "id": "openalex-ijrr-openalex_works_count_total-total",
+      "id": "openalex-science-robotics-openalex_works_count_total-total",
       "topicId": "journal-volume-ddl",
       "type": "metricSnapshot",
       "sourceLabel": "公开来源",
-      "journalId": "ijrr",
-      "journalTitle": "The International Journal of Robotics Research",
-      "issn": "0278-3649",
+      "journalId": "science-robotics",
+      "journalTitle": "Science Robotics",
+      "issn": "2470-9476",
       "metric": "openalex_works_count_total",
-      "value": 3214,
+      "value": 937,
       "asOfDate": "2026-05-24",
       "source": "OpenAlex",
-      "url": "https://openalex.org/S73484101",
+      "url": "https://openalex.org/S4210213233",
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
-      "openAlexId": "https://openalex.org/S73484101",
-      "homepageUrl": "http://www.sagepub.com/journals/Journal201324/title"
+      "openAlexId": "https://openalex.org/S4210213233",
+      "homepageUrl": "http://robotics.sciencemag.org/"
     },
     {
       "id": "openalex-ijrr-openalex_works_count_by_year-2026",
@@ -3987,21 +3970,21 @@
       "openAlexId": "https://openalex.org/S73484101"
     },
     {
-      "id": "openalex-lancet-openalex_works_count_total-total",
+      "id": "openalex-ijrr-openalex_works_count_total-total",
       "topicId": "journal-volume-ddl",
       "type": "metricSnapshot",
       "sourceLabel": "公开来源",
-      "journalId": "lancet",
-      "journalTitle": "The Lancet",
-      "issn": "0140-6736",
+      "journalId": "ijrr",
+      "journalTitle": "The International Journal of Robotics Research",
+      "issn": "0278-3649",
       "metric": "openalex_works_count_total",
-      "value": 475499,
+      "value": 3214,
       "asOfDate": "2026-05-24",
       "source": "OpenAlex",
-      "url": "https://openalex.org/S49861241",
+      "url": "https://openalex.org/S73484101",
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
-      "openAlexId": "https://openalex.org/S49861241",
-      "homepageUrl": "https://www.sciencedirect.com/journal/the-lancet"
+      "openAlexId": "https://openalex.org/S73484101",
+      "homepageUrl": "http://www.sagepub.com/journals/Journal201324/title"
     },
     {
       "id": "openalex-lancet-openalex_works_count_by_year-2026",
@@ -4094,21 +4077,21 @@
       "openAlexId": "https://openalex.org/S49861241"
     },
     {
-      "id": "openalex-lancet-digital-health-openalex_works_count_total-total",
+      "id": "openalex-lancet-openalex_works_count_total-total",
       "topicId": "journal-volume-ddl",
       "type": "metricSnapshot",
       "sourceLabel": "公开来源",
-      "journalId": "lancet-digital-health",
-      "journalTitle": "The Lancet Digital Health",
-      "issn": "2589-7500",
+      "journalId": "lancet",
+      "journalTitle": "The Lancet",
+      "issn": "0140-6736",
       "metric": "openalex_works_count_total",
-      "value": 1001,
+      "value": 475499,
       "asOfDate": "2026-05-24",
       "source": "OpenAlex",
-      "url": "https://openalex.org/S4210237014",
+      "url": "https://openalex.org/S49861241",
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
-      "openAlexId": "https://openalex.org/S4210237014",
-      "homepageUrl": "https://www.journals.elsevier.com/the-lancet-digital-health"
+      "openAlexId": "https://openalex.org/S49861241",
+      "homepageUrl": "https://www.sciencedirect.com/journal/the-lancet"
     },
     {
       "id": "openalex-lancet-digital-health-openalex_works_count_by_year-2026",
@@ -4201,21 +4184,21 @@
       "openAlexId": "https://openalex.org/S4210237014"
     },
     {
-      "id": "openalex-vldb-journal-openalex_works_count_total-total",
+      "id": "openalex-lancet-digital-health-openalex_works_count_total-total",
       "topicId": "journal-volume-ddl",
       "type": "metricSnapshot",
       "sourceLabel": "公开来源",
-      "journalId": "vldb-journal",
-      "journalTitle": "The VLDB Journal",
-      "issn": "0949-877X",
+      "journalId": "lancet-digital-health",
+      "journalTitle": "The Lancet Digital Health",
+      "issn": "2589-7500",
       "metric": "openalex_works_count_total",
-      "value": 1272,
+      "value": 1001,
       "asOfDate": "2026-05-24",
       "source": "OpenAlex",
-      "url": "https://openalex.org/S78926909",
+      "url": "https://openalex.org/S4210237014",
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
-      "openAlexId": "https://openalex.org/S78926909",
-      "homepageUrl": "https://www.springer.com/journal/778"
+      "openAlexId": "https://openalex.org/S4210237014",
+      "homepageUrl": "https://www.journals.elsevier.com/the-lancet-digital-health"
     },
     {
       "id": "openalex-vldb-journal-openalex_works_count_by_year-2026",
@@ -4308,21 +4291,21 @@
       "openAlexId": "https://openalex.org/S78926909"
     },
     {
-      "id": "openalex-tacl-openalex_works_count_total-total",
+      "id": "openalex-vldb-journal-openalex_works_count_total-total",
       "topicId": "journal-volume-ddl",
       "type": "metricSnapshot",
       "sourceLabel": "公开来源",
-      "journalId": "tacl",
-      "journalTitle": "Transactions of the Association for Computational Linguistics",
-      "issn": "2307-387X",
+      "journalId": "vldb-journal",
+      "journalTitle": "The VLDB Journal",
+      "issn": "0949-877X",
       "metric": "openalex_works_count_total",
-      "value": 848,
+      "value": 1272,
       "asOfDate": "2026-05-24",
       "source": "OpenAlex",
-      "url": "https://openalex.org/S2729999759",
+      "url": "https://openalex.org/S78926909",
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
-      "openAlexId": "https://openalex.org/S2729999759",
-      "homepageUrl": "https://www.mitpressjournals.org/loi/tacl"
+      "openAlexId": "https://openalex.org/S78926909",
+      "homepageUrl": "https://www.springer.com/journal/778"
     },
     {
       "id": "openalex-tacl-openalex_works_count_by_year-2026",
@@ -4413,6 +4396,23 @@
       "url": "https://openalex.org/S2729999759",
       "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
       "openAlexId": "https://openalex.org/S2729999759"
+    },
+    {
+      "id": "openalex-tacl-openalex_works_count_total-total",
+      "topicId": "journal-volume-ddl",
+      "type": "metricSnapshot",
+      "sourceLabel": "公开来源",
+      "journalId": "tacl",
+      "journalTitle": "Transactions of the Association for Computational Linguistics",
+      "issn": "2307-387X",
+      "metric": "openalex_works_count_total",
+      "value": 848,
+      "asOfDate": "2026-05-24",
+      "source": "OpenAlex",
+      "url": "https://openalex.org/S2729999759",
+      "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
+      "openAlexId": "https://openalex.org/S2729999759",
+      "homepageUrl": "https://www.mitpressjournals.org/loi/tacl"
     }
   ],
   "subtopics": [

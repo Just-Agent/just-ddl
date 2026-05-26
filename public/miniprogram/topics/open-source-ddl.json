@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-26T04:35:35.726Z",
-  "dataVersion": "932b6423c3752540",
+  "generatedAt": "2026-05-26T08:52:10.172Z",
+  "dataVersion": "3c0313ed230397a6",
   "topic": {
     "id": "open-source-ddl",
     "name": "Open Source",
@@ -183,26 +183,6 @@
       "description": "Parsed from the official GSoC 2026 timeline. Milestone event."
     },
     {
-      "id": "gsoc-2026-august-17-24-18-00-utc-final-week-gsoc-contributors-submit-their-final-work-prod",
-      "topicId": "open-source-ddl",
-      "title": "Final week: GSoC contributors submit their final work product and their final mentor evaluation (standard coding period)",
-      "deadline": "2026-08-24T18:00:00Z",
-      "dateRange": "August 17 - 24 - 18:00 UTC",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "GSoC",
-        "open source"
-      ],
-      "url": "https://developers.google.com/open-source/gsoc/timeline?hl=en",
-      "status": "upcoming",
-      "stage": "Deadline",
-      "source": "Google Summer of Code",
-      "sourceUrl": "https://developers.google.com/open-source/gsoc/timeline?hl=en",
-      "type": "program",
-      "description": "Parsed from the official GSoC 2026 timeline. Deadline event."
-    },
-    {
       "id": "open-source-ddl-lfx-mentorship-spring-2026-08-24",
       "topicId": "open-source-ddl",
       "title": "LFX Mentorship Spring",
@@ -222,6 +202,26 @@
       "sourceUrl": "https://lfx.linuxfoundation.org/tools/mentorship/",
       "type": "program",
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。"
+    },
+    {
+      "id": "gsoc-2026-august-17-24-18-00-utc-final-week-gsoc-contributors-submit-their-final-work-prod",
+      "topicId": "open-source-ddl",
+      "title": "Final week: GSoC contributors submit their final work product and their final mentor evaluation (standard coding period)",
+      "deadline": "2026-08-24T18:00:00Z",
+      "dateRange": "August 17 - 24 - 18:00 UTC",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "GSoC",
+        "open source"
+      ],
+      "url": "https://developers.google.com/open-source/gsoc/timeline?hl=en",
+      "status": "upcoming",
+      "stage": "Deadline",
+      "source": "Google Summer of Code",
+      "sourceUrl": "https://developers.google.com/open-source/gsoc/timeline?hl=en",
+      "type": "program",
+      "description": "Parsed from the official GSoC 2026 timeline. Deadline event."
     },
     {
       "id": "gsoc-2026-august-24-31-18-00-utc-mentors-submit-final-gsoc-contributor-evaluations-standar",

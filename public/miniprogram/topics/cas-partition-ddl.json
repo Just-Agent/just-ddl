@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-26T04:35:35.726Z",
-  "dataVersion": "932b6423c3752540",
+  "generatedAt": "2026-05-26T08:52:10.172Z",
+  "dataVersion": "3c0313ed230397a6",
   "topic": {
     "id": "cas-partition-ddl",
     "name": "中科院期刊分区",
@@ -21,6 +21,30 @@
     "clusterId": "journal-metrics-ddl"
   },
   "items": [
+    {
+      "id": "cas-partition-no-2026-official-release",
+      "topicId": "cas-partition-ddl",
+      "title": "2026 起无官方年度分区表更新窗口",
+      "date": "2026-03-27",
+      "dateRange": "2026-03-27",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "CAS",
+        "无官方 DDL",
+        "停更"
+      ],
+      "url": "https://www.las.cas.cn/news/tzgg/202603/t20260327_8178738.html",
+      "status": "ended",
+      "stage": "No official release window",
+      "source": "中国科学院文献情报中心",
+      "sourceUrl": "https://www.las.cas.cn/news/tzgg/202603/t20260327_8178738.html",
+      "type": "historyEvent",
+      "description": "由于官方已声明不再更新发布，CAS 分区专题不再生成 2026 及以后年度官方分区表倒计时；后续只追踪官方声明变化或授权历史数据导入。",
+      "subtopic": "cas-policy",
+      "subtopicName": "停更后状态",
+      "category": "期刊评价"
+    },
     {
       "id": "cas-partition-platform-history-policy",
       "topicId": "cas-partition-ddl",
@@ -43,30 +67,6 @@
       "description": "官方帮助页说明期刊分区表发布沿革、查询入口与平台使用边界；公开专题只记录平台与合规查询入口。",
       "subtopic": "cas-access",
       "subtopicName": "历史查询",
-      "category": "期刊评价"
-    },
-    {
-      "id": "cas-partition-2026-stop-update-statement",
-      "topicId": "cas-partition-ddl",
-      "title": "中科院文献情报中心声明：2026 年起不再更新发布期刊分区表",
-      "date": "2026-03-27",
-      "dateRange": "2026-03-27",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "CAS",
-        "期刊分区",
-        "停更"
-      ],
-      "url": "https://www.las.cas.cn/news/tzgg/202603/t20260327_8178738.html",
-      "status": "ended",
-      "stage": "Official statement",
-      "source": "中国科学院文献情报中心",
-      "sourceUrl": "https://www.las.cas.cn/news/tzgg/202603/t20260327_8178738.html",
-      "type": "historyEvent",
-      "description": "官方声明明确自 2026 年起不再更新与发布期刊分区表，任何其他机构发布的期刊分区表均与文献中心无关。",
-      "subtopic": "cas-policy",
-      "subtopicName": "官方声明",
       "category": "期刊评价"
     },
     {
@@ -94,6 +94,30 @@
       "category": "期刊评价"
     },
     {
+      "id": "cas-partition-2026-stop-update-statement",
+      "topicId": "cas-partition-ddl",
+      "title": "中科院文献情报中心声明：2026 年起不再更新发布期刊分区表",
+      "date": "2026-03-27",
+      "dateRange": "2026-03-27",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "CAS",
+        "期刊分区",
+        "停更"
+      ],
+      "url": "https://www.las.cas.cn/news/tzgg/202603/t20260327_8178738.html",
+      "status": "ended",
+      "stage": "Official statement",
+      "source": "中国科学院文献情报中心",
+      "sourceUrl": "https://www.las.cas.cn/news/tzgg/202603/t20260327_8178738.html",
+      "type": "historyEvent",
+      "description": "官方声明明确自 2026 年起不再更新与发布期刊分区表，任何其他机构发布的期刊分区表均与文献中心无关。",
+      "subtopic": "cas-policy",
+      "subtopicName": "官方声明",
+      "category": "期刊评价"
+    },
+    {
       "id": "cas-partition-authorized-import-ready",
       "topicId": "cas-partition-ddl",
       "title": "CAS 单刊分区轨迹授权导入接口已预留",
@@ -116,44 +140,9 @@
       "subtopic": "cas-import",
       "subtopicName": "授权导入",
       "category": "期刊评价"
-    },
-    {
-      "id": "cas-partition-no-2026-official-release",
-      "topicId": "cas-partition-ddl",
-      "title": "2026 起无官方年度分区表更新窗口",
-      "date": "2026-03-27",
-      "dateRange": "2026-03-27",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "CAS",
-        "无官方 DDL",
-        "停更"
-      ],
-      "url": "https://www.las.cas.cn/news/tzgg/202603/t20260327_8178738.html",
-      "status": "ended",
-      "stage": "No official release window",
-      "source": "中国科学院文献情报中心",
-      "sourceUrl": "https://www.las.cas.cn/news/tzgg/202603/t20260327_8178738.html",
-      "type": "historyEvent",
-      "description": "由于官方已声明不再更新发布，CAS 分区专题不再生成 2026 及以后年度官方分区表倒计时；后续只追踪官方声明变化或授权历史数据导入。",
-      "subtopic": "cas-policy",
-      "subtopicName": "停更后状态",
-      "category": "期刊评价"
     }
   ],
   "metrics": [
-    {
-      "id": "cas-partition-platform-release-history-boundary",
-      "topicId": "cas-partition-ddl",
-      "type": "metricSnapshot",
-      "sourceLabel": "人工核验来源",
-      "metric": "cas_platform_release_history_boundary",
-      "value": "2004_release_2019_upgrade_2022_upgrade_only_2026_stopped",
-      "asOfDate": "2026-05-24",
-      "source": "中科院期刊分区表在线平台帮助页",
-      "url": "https://www.fenqubiao.com/User/Help.aspx"
-    },
     {
       "id": "cas-partition-official-release-status-after-2026",
       "topicId": "cas-partition-ddl",
@@ -175,6 +164,17 @@
       "asOfDate": "2026-05-24",
       "source": "中科院期刊分区表在线平台使用协议",
       "url": "https://www.fenqubiao.com/User/UseProtocol.aspx"
+    },
+    {
+      "id": "cas-partition-platform-release-history-boundary",
+      "topicId": "cas-partition-ddl",
+      "type": "metricSnapshot",
+      "sourceLabel": "人工核验来源",
+      "metric": "cas_platform_release_history_boundary",
+      "value": "2004_release_2019_upgrade_2022_upgrade_only_2026_stopped",
+      "asOfDate": "2026-05-24",
+      "source": "中科院期刊分区表在线平台帮助页",
+      "url": "https://www.fenqubiao.com/User/Help.aspx"
     },
     {
       "id": "cas-acm-computing-surveys-2026-journal",
@@ -2819,14 +2819,14 @@
   ],
   "subtopics": [
     {
-      "id": "cas-policy",
-      "name": "官方声明",
+      "id": "cas-access",
+      "name": "历史查询",
       "itemCount": 2,
       "nextItemId": null
     },
     {
-      "id": "cas-access",
-      "name": "历史查询",
+      "id": "cas-policy",
+      "name": "停更后状态",
       "itemCount": 2,
       "nextItemId": null
     },

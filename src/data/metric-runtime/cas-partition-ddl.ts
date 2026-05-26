@@ -2,17 +2,6 @@ import type { MetricSnapshot } from '../metric-data';
 
 export const metricsForCasPartitionDdl: MetricSnapshot[] = [
   {
-    "sourceLabel": "人工核验来源",
-    "id": "cas-partition-platform-release-history-boundary",
-    "topicId": "cas-partition-ddl",
-    "type": "metricSnapshot",
-    "metric": "cas_platform_release_history_boundary",
-    "value": "2004_release_2019_upgrade_2022_upgrade_only_2026_stopped",
-    "asOfDate": "2026-05-24",
-    "source": "中科院期刊分区表在线平台帮助页",
-    "url": "https://www.fenqubiao.com/User/Help.aspx"
-  },
-  {
     "sourceLabel": "公开来源",
     "id": "cas-partition-official-release-status-after-2026",
     "topicId": "cas-partition-ddl",
@@ -33,6 +22,17 @@ export const metricsForCasPartitionDdl: MetricSnapshot[] = [
     "asOfDate": "2026-05-24",
     "source": "中科院期刊分区表在线平台使用协议",
     "url": "https://www.fenqubiao.com/User/UseProtocol.aspx"
+  },
+  {
+    "sourceLabel": "人工核验来源",
+    "id": "cas-partition-platform-release-history-boundary",
+    "topicId": "cas-partition-ddl",
+    "type": "metricSnapshot",
+    "metric": "cas_platform_release_history_boundary",
+    "value": "2004_release_2019_upgrade_2022_upgrade_only_2026_stopped",
+    "asOfDate": "2026-05-24",
+    "source": "中科院期刊分区表在线平台帮助页",
+    "url": "https://www.fenqubiao.com/User/Help.aspx"
   },
   {
     "sourceLabel": "授权导入来源",
