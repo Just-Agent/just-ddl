@@ -236,49 +236,6 @@ export const ddlForAgentDdl: DDLItem[] = [
     ]
   },
   {
-    "id": "agent-ddl-ai-olympics-realaigym-stage1-2026-06-15",
-    "title": "AI Olympics with RealAIGym - Stage 1",
-    "deadline": "2026-06-15T23:59:59",
-    "dateRange": "First stage solutions and reports: May 1 - Jun 15, 2026",
-    "location": "IJCAI-ECAI 2026 / DFKI Bremen",
-    "isOnline": true,
-    "tags": [
-      "Robotics Agent",
-      "Reinforcement Learning",
-      "CloudPendulum"
-    ],
-    "url": "https://ai-olympics.dfki-bremen.de/",
-    "status": "upcoming",
-    "stage": "Stage 1 report",
-    "source": "IJCAI AI Olympics with RealAIGym",
-    "type": "challenge",
-    "description": "Hardware benchmark for global swing-up policies on CloudPendulum hardware, evaluating robotics and RL agents.",
-    "prize": "N/A",
-    "platform": "IJCAI",
-    "evaluationMode": "Automated",
-    "organizer": "DFKI Bremen / IJCAI-ECAI 2026",
-    "submissionType": "Controller solution and report",
-    "sourceUrl": "https://ai-olympics.dfki-bremen.de/",
-    "phases": [
-      {
-        "name": "Registration deadline",
-        "deadline": "2026-05-31T23:59:59"
-      },
-      {
-        "name": "First stage solutions and reports due",
-        "deadline": "2026-06-15T23:59:59"
-      },
-      {
-        "name": "Second stage starts",
-        "deadline": "2026-07-01T23:59:59"
-      },
-      {
-        "name": "Second stage ends",
-        "deadline": "2026-08-15T23:59:59"
-      }
-    ]
-  },
-  {
     "id": "agent-ddl-splunk-agentic-ops-hackathon-2026-06-15",
     "title": "Splunk Agentic Ops Hackathon",
     "deadline": "2026-06-15T09:00:00-07:00",
@@ -325,6 +282,49 @@ export const ddlForAgentDdl: DDLItem[] = [
       {
         "name": "Platform & Developer Experience",
         "description": "Developer workflows and Splunk app/platform automation."
+      }
+    ]
+  },
+  {
+    "id": "agent-ddl-ai-olympics-realaigym-stage1-2026-06-15",
+    "title": "AI Olympics with RealAIGym - Stage 1",
+    "deadline": "2026-06-15T23:59:59",
+    "dateRange": "First stage solutions and reports: May 1 - Jun 15, 2026",
+    "location": "IJCAI-ECAI 2026 / DFKI Bremen",
+    "isOnline": true,
+    "tags": [
+      "Robotics Agent",
+      "Reinforcement Learning",
+      "CloudPendulum"
+    ],
+    "url": "https://ai-olympics.dfki-bremen.de/",
+    "status": "upcoming",
+    "stage": "Stage 1 report",
+    "source": "IJCAI AI Olympics with RealAIGym",
+    "type": "challenge",
+    "description": "Hardware benchmark for global swing-up policies on CloudPendulum hardware, evaluating robotics and RL agents.",
+    "prize": "N/A",
+    "platform": "IJCAI",
+    "evaluationMode": "Automated",
+    "organizer": "DFKI Bremen / IJCAI-ECAI 2026",
+    "submissionType": "Controller solution and report",
+    "sourceUrl": "https://ai-olympics.dfki-bremen.de/",
+    "phases": [
+      {
+        "name": "Registration deadline",
+        "deadline": "2026-05-31T23:59:59"
+      },
+      {
+        "name": "First stage solutions and reports due",
+        "deadline": "2026-06-15T23:59:59"
+      },
+      {
+        "name": "Second stage starts",
+        "deadline": "2026-07-01T23:59:59"
+      },
+      {
+        "name": "Second stage ends",
+        "deadline": "2026-08-15T23:59:59"
       }
     ]
   },

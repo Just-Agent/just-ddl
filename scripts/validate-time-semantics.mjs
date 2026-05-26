@@ -49,6 +49,44 @@ function hasSourceName(item) {
   return typeof item.source === 'string' && item.source.trim().length > 0;
 }
 
+const DISALLOWED_FORECAST_EVIDENCE_LEVELS = new Set([
+  'secondary',
+  'media',
+  'media_only',
+  'news_only',
+  'aggregator',
+  'lead',
+  'lead_only',
+  'rumor',
+  'rumour',
+  'leak',
+  'unverified'
+]);
+
+const DISALLOWED_FORECAST_TEXT = [
+  /传闻/,
+  /爆料/,
+  /小道消息/,
+  /未证实/,
+  /未经证实/,
+  /媒体猜测/,
+  /\brumou?r\b/i,
+  /\bleak(?:ed|s)?\b/i,
+  /\bunverified\b/i,
+  /\bspeculation\b/i
+];
+
+const FORECAST_DISCLOSURE_TEXT = [
+  /预测/,
+  /不是.*官方/,
+  /不代表.*(官方|已宣布|已发布)/,
+  /不作为官方/,
+  /not official/i,
+  /not .*official/i,
+  /not .*announced/i,
+  /does not represent/i
+];
+
 function isHistoryItem(item) {
   return item.type === 'historyEvent' || item.type === 'officialRelease';
 }
@@ -82,6 +120,66 @@ function localDate(value) {
 
 function officialDate(item) {
   return localDate(item.date || item.deadline);
+}
+
+function normalizeEvidenceLevel(value) {
+  return String(value || '')
+    .normalize('NFKC')
+    .toLowerCase()
+    .replace(/[\s-]+/g, '_')
+    .trim();
+}
+
+function evidenceLevel(item) {
+  return normalizeEvidenceLevel(
+    item.verificationLevel
+      || item.evidenceLevel
+      || item.sourceTier
+      || item.sourceLevel
+      || item.verificationSource
+      || item.sourceMode
+  );
+}
+
+function textForEvidenceScan(item) {
+  return [
+    item.title,
+    item.source,
+    item.stage,
+    item.description,
+    ...(Array.isArray(item.tags) ? item.tags : [])
+  ]
+    .filter(value => typeof value === 'string')
+    .join(' ');
+}
+
+function validateForecastEvidence(label, item, role) {
+  const errors = [];
+  const level = evidenceLevel(item);
+  if (DISALLOWED_FORECAST_EVIDENCE_LEVELS.has(level)) {
+    errors.push(`${label}: ${role} must not use ${level} as forecast evidence`);
+  }
+
+  const evidenceText = textForEvidenceScan(item);
+  if (DISALLOWED_FORECAST_TEXT.some(pattern => pattern.test(evidenceText))) {
+    errors.push(`${label}: ${role} must not rely on rumor, leak, media guess, or unverified evidence`);
+  }
+
+  return errors;
+}
+
+function validateForecastDisclosure(topicId, forecast) {
+  const errors = [];
+  const label = `${topicId}/${forecast.id || '<missing-id>'}`;
+  const description = typeof forecast.description === 'string' ? forecast.description.trim() : '';
+  if (!description) {
+    errors.push(`${label}: forecast item must include a public disclosure description`);
+    return errors;
+  }
+  if (!FORECAST_DISCLOSURE_TEXT.some(pattern => pattern.test(description))) {
+    errors.push(`${label}: forecast description must clearly say this is a forecast and not an official date`);
+  }
+  return errors;
 }
 
 function validateHistoryItem(topicId, item) {
@@ -119,6 +217,7 @@ function validateForecastRelationship(topicId, items, forecast) {
   if (!['low', 'medium', 'high'].includes(String(forecast.confidence || ''))) {
     errors.push(`${label}: forecast item must include confidence low/medium/high`);
   }
+  errors.push(...validateForecastEvidence(label, forecast, 'forecast item'));
   if (!windowStart || !windowEnd) {
     errors.push(`${label}: forecast item must include valid estimatedNextWindow.start/end`);
   } else if (windowStart > windowEnd) {
@@ -149,6 +248,7 @@ function validateForecastRelationship(topicId, items, forecast) {
       errors.push(`${label}: basisEvent ${basisId} must include an official http(s) url or sourceUrl`);
       continue;
     }
+    errors.push(...validateForecastEvidence(label, basis, `basisEvent ${basisId}`));
     dates.push(date);
   }
 
@@ -195,6 +295,7 @@ function validateSourceItems(ddlData) {
         } else if (windowStart > windowEnd) {
           errors.push(`${label}: forecast window start must be before end`);
         }
+        errors.push(...validateForecastDisclosure(topicId, item));
         errors.push(...validateForecastRelationship(topicId, items, item));
         continue;
       }
@@ -235,6 +336,7 @@ function validateMiniprogramForecasts(payload) {
     }
     if (isForecastItem(item)) {
       forecastCount += 1;
+      errors.push(...validateForecastDisclosure(topicId, item));
       errors.push(...validateForecastRelationship(topicId, items, item));
     }
   }

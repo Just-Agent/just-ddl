@@ -10,15 +10,15 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "journalTitle": "ACM Computing Surveys",
     "issn": "0360-0300",
     "metric": "openalex_works_count_by_year",
-    "value": 130,
+    "value": 131,
     "year": 2026,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S157921468",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S157921468",
     "yearCompleteness": "partial_ytd",
-    "oaWorksCount": 105,
+    "oaWorksCount": 106,
     "citedByCount": 185
   },
   {
@@ -32,14 +32,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 398,
     "year": 2025,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S157921468",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S157921468",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 234,
-    "citedByCount": 4385
+    "citedByCount": 4388
   },
   {
     "sourceLabel": "公开来源",
@@ -50,16 +50,16 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "journalTitle": "ACM Computing Surveys",
     "issn": "0360-0300",
     "metric": "openalex_works_count_by_year",
-    "value": 293,
+    "value": 292,
     "year": 2024,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S157921468",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S157921468",
     "yearCompleteness": "complete_observed",
-    "oaWorksCount": 234,
-    "citedByCount": 10793
+    "oaWorksCount": 233,
+    "citedByCount": 10798
   },
   {
     "sourceLabel": "公开来源",
@@ -72,14 +72,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 242,
     "year": 2023,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S157921468",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S157921468",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 124,
-    "citedByCount": 17512
+    "citedByCount": 17515
   },
   {
     "sourceLabel": "公开来源",
@@ -92,14 +92,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 285,
     "year": 2022,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S157921468",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S157921468",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 161,
-    "citedByCount": 38361
+    "citedByCount": 38373
   },
   {
     "sourceLabel": "公开来源",
@@ -111,13 +111,13 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "issn": "0360-0300",
     "metric": "openalex_works_count_total",
     "value": 3742,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S157921468",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S157921468",
     "homepageUrl": "http://csur.acm.org/",
-    "citedByCount": 488101
+    "citedByCount": 488140
   },
   {
     "sourceLabel": "公开来源",
@@ -130,7 +130,7 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 29,
     "year": 2026,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S185367456",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
@@ -150,7 +150,7 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 283,
     "year": 2025,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S185367456",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
@@ -170,7 +170,7 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 272,
     "year": 2024,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S185367456",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
@@ -190,14 +190,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 268,
     "year": 2023,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S185367456",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S185367456",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 159,
-    "citedByCount": 10546
+    "citedByCount": 10550
   },
   {
     "sourceLabel": "公开来源",
@@ -210,14 +210,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 291,
     "year": 2022,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S185367456",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S185367456",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 180,
-    "citedByCount": 12935
+    "citedByCount": 12936
   },
   {
     "sourceLabel": "公开来源",
@@ -229,13 +229,13 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "issn": "0730-0301",
     "metric": "openalex_works_count_total",
     "value": 6479,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S185367456",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S185367456",
     "homepageUrl": "https://tog.acm.org/",
-    "citedByCount": 539808
+    "citedByCount": 539843
   },
   {
     "sourceLabel": "公开来源",
@@ -248,13 +248,13 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 48,
     "year": 2026,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S196139623",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S196139623",
     "yearCompleteness": "partial_ytd",
-    "oaWorksCount": 20,
+    "oaWorksCount": 21,
     "citedByCount": 10
   },
   {
@@ -268,7 +268,7 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 110,
     "year": 2025,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S196139623",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
@@ -288,7 +288,7 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 132,
     "year": 2024,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S196139623",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
@@ -308,7 +308,7 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 139,
     "year": 2023,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S196139623",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
@@ -328,7 +328,7 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 115,
     "year": 2022,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S196139623",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
@@ -347,13 +347,13 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "issn": "0004-3702",
     "metric": "openalex_works_count_total",
     "value": 4815,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S196139623",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S196139623",
     "homepageUrl": "http://www.elsevier.com/locate/artint",
-    "citedByCount": 438058
+    "citedByCount": 438067
   },
   {
     "sourceLabel": "公开来源",
@@ -366,14 +366,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 236,
     "year": 2026,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S52395412",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S52395412",
     "yearCompleteness": "partial_ytd",
     "oaWorksCount": 236,
-    "citedByCount": 24
+    "citedByCount": 25
   },
   {
     "sourceLabel": "公开来源",
@@ -386,7 +386,7 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 677,
     "year": 2025,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S52395412",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
@@ -406,14 +406,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 804,
     "year": 2024,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S52395412",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S52395412",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 804,
-    "citedByCount": 7886
+    "citedByCount": 7887
   },
   {
     "sourceLabel": "公开来源",
@@ -426,14 +426,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 810,
     "year": 2023,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S52395412",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S52395412",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 810,
-    "citedByCount": 14529
+    "citedByCount": 14534
   },
   {
     "sourceLabel": "公开来源",
@@ -446,14 +446,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 861,
     "year": 2022,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S52395412",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S52395412",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 713,
-    "citedByCount": 28852
+    "citedByCount": 28861
   },
   {
     "sourceLabel": "公开来源",
@@ -465,13 +465,13 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "issn": "1367-4811",
     "metric": "openalex_works_count_total",
     "value": 19377,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S52395412",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S52395412",
     "homepageUrl": "http://bioinformatics.oxfordjournals.org/",
-    "citedByCount": 2782542
+    "citedByCount": 2782676
   },
   {
     "sourceLabel": "公开来源",
@@ -484,14 +484,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 1109,
     "year": 2026,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S4393917726",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S4393917726",
     "yearCompleteness": "partial_ytd",
     "oaWorksCount": 319,
-    "citedByCount": 760
+    "citedByCount": 761
   },
   {
     "sourceLabel": "公开来源",
@@ -504,14 +504,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 2851,
     "year": 2025,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S4393917726",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S4393917726",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 1096,
-    "citedByCount": 8074
+    "citedByCount": 8078
   },
   {
     "sourceLabel": "公开来源",
@@ -524,14 +524,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 3151,
     "year": 2024,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S4393917726",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S4393917726",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 1152,
-    "citedByCount": 18256
+    "citedByCount": 18263
   },
   {
     "sourceLabel": "公开来源",
@@ -544,14 +544,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 3278,
     "year": 2023,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S4393917726",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S4393917726",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 1315,
-    "citedByCount": 22072
+    "citedByCount": 22075
   },
   {
     "sourceLabel": "公开来源",
@@ -564,14 +564,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 3392,
     "year": 2022,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S4393917726",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S4393917726",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 1562,
-    "citedByCount": 37783
+    "citedByCount": 37792
   },
   {
     "sourceLabel": "公开来源",
@@ -583,13 +583,13 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "issn": "1756-1833",
     "metric": "openalex_works_count_total",
     "value": 63373,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S4393917726",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S4393917726",
     "homepageUrl": null,
-    "citedByCount": 1201886
+    "citedByCount": 1202012
   },
   {
     "sourceLabel": "公开来源",
@@ -602,14 +602,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 208,
     "year": 2026,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S110447773",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S110447773",
     "yearCompleteness": "partial_ytd",
     "oaWorksCount": 119,
-    "citedByCount": 414
+    "citedByCount": 416
   },
   {
     "sourceLabel": "公开来源",
@@ -622,14 +622,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 518,
     "year": 2025,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S110447773",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S110447773",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 346,
-    "citedByCount": 10372
+    "citedByCount": 10385
   },
   {
     "sourceLabel": "公开来源",
@@ -642,14 +642,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 582,
     "year": 2024,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S110447773",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S110447773",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 477,
-    "citedByCount": 35932
+    "citedByCount": 35946
   },
   {
     "sourceLabel": "公开来源",
@@ -662,14 +662,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 457,
     "year": 2023,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S110447773",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S110447773",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 383,
-    "citedByCount": 51839
+    "citedByCount": 51852
   },
   {
     "sourceLabel": "公开来源",
@@ -682,14 +682,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 424,
     "year": 2022,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S110447773",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S110447773",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 324,
-    "citedByCount": 67565
+    "citedByCount": 67576
   },
   {
     "sourceLabel": "公开来源",
@@ -701,13 +701,13 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "issn": "0092-8674",
     "metric": "openalex_works_count_total",
     "value": 26933,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S110447773",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S110447773",
     "homepageUrl": "https://www.sciencedirect.com/journal/cell",
-    "citedByCount": 8926359
+    "citedByCount": 8926620
   },
   {
     "sourceLabel": "公开来源",
@@ -720,7 +720,7 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 17,
     "year": 2026,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S155526855",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
@@ -740,7 +740,7 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 44,
     "year": 2025,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S155526855",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
@@ -760,14 +760,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 39,
     "year": 2024,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S155526855",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S155526855",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 39,
-    "citedByCount": 799
+    "citedByCount": 800
   },
   {
     "sourceLabel": "公开来源",
@@ -780,14 +780,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 35,
     "year": 2023,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S155526855",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S155526855",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 35,
-    "citedByCount": 902
+    "citedByCount": 903
   },
   {
     "sourceLabel": "公开来源",
@@ -800,7 +800,7 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 43,
     "year": 2022,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S155526855",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
@@ -819,13 +819,13 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "issn": "0891-2017",
     "metric": "openalex_works_count_total",
     "value": 1743,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S155526855",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S155526855",
     "homepageUrl": "http://mitpress.mit.edu/catalog/item/default.asp?ttype=4&tid=10",
-    "citedByCount": 83620
+    "citedByCount": 83622
   },
   {
     "sourceLabel": "公开来源",
@@ -838,7 +838,7 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 141,
     "year": 2026,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S185008460",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
@@ -858,7 +858,7 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 268,
     "year": 2025,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S185008460",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
@@ -878,14 +878,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 272,
     "year": 2024,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S185008460",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S185008460",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 75,
-    "citedByCount": 1741
+    "citedByCount": 1742
   },
   {
     "sourceLabel": "公开来源",
@@ -898,7 +898,7 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 209,
     "year": 2023,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S185008460",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
@@ -918,14 +918,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 125,
     "year": 2022,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S185008460",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S185008460",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 32,
-    "citedByCount": 2417
+    "citedByCount": 2418
   },
   {
     "sourceLabel": "公开来源",
@@ -937,13 +937,13 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "issn": "1077-3142",
     "metric": "openalex_works_count_total",
     "value": 4256,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S185008460",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S185008460",
     "homepageUrl": "https://www.journals.elsevier.com/computer-vision-and-image-understanding",
-    "citedByCount": 182785
+    "citedByCount": 182791
   },
   {
     "sourceLabel": "公开来源",
@@ -956,7 +956,7 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 1402,
     "year": 2026,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S1336409049",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
@@ -976,14 +976,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 5273,
     "year": 2025,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S1336409049",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S1336409049",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 5273,
-    "citedByCount": 3890
+    "citedByCount": 3893
   },
   {
     "sourceLabel": "公开来源",
@@ -996,14 +996,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 6456,
     "year": 2024,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S1336409049",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S1336409049",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 6456,
-    "citedByCount": 16623
+    "citedByCount": 16634
   },
   {
     "sourceLabel": "公开来源",
@@ -1016,14 +1016,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 2770,
     "year": 2023,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S1336409049",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S1336409049",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 2770,
-    "citedByCount": 41977
+    "citedByCount": 41989
   },
   {
     "sourceLabel": "公开来源",
@@ -1036,14 +1036,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 2034,
     "year": 2022,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S1336409049",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S1336409049",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 2034,
-    "citedByCount": 64508
+    "citedByCount": 64517
   },
   {
     "sourceLabel": "公开来源",
@@ -1055,13 +1055,13 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "issn": "2050-084X",
     "metric": "openalex_works_count_total",
     "value": 30133,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S1336409049",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S1336409049",
     "homepageUrl": "http://elifesciences.org/",
-    "citedByCount": 1090225
+    "citedByCount": 1090308
   },
   {
     "sourceLabel": "公开来源",
@@ -1074,7 +1074,7 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 366,
     "year": 2026,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S4210173141",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
@@ -1094,14 +1094,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 611,
     "year": 2025,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S4210173141",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S4210173141",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 42,
-    "citedByCount": 2465
+    "citedByCount": 2466
   },
   {
     "sourceLabel": "公开来源",
@@ -1114,7 +1114,7 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 478,
     "year": 2024,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S4210173141",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
@@ -1134,14 +1134,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 484,
     "year": 2023,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S4210173141",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S4210173141",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 68,
-    "citedByCount": 18794
+    "citedByCount": 18797
   },
   {
     "sourceLabel": "公开来源",
@@ -1154,14 +1154,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 527,
     "year": 2022,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S4210173141",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S4210173141",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 151,
-    "citedByCount": 24923
+    "citedByCount": 24926
   },
   {
     "sourceLabel": "公开来源",
@@ -1173,13 +1173,13 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "issn": "1057-7149",
     "metric": "openalex_works_count_total",
     "value": 12970,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S4210173141",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S4210173141",
     "homepageUrl": "http://ieeexplore.ieee.org/servlet/opac?punumber=83",
-    "citedByCount": 1036021
+    "citedByCount": 1036078
   },
   {
     "sourceLabel": "公开来源",
@@ -1192,7 +1192,7 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 251,
     "year": 2026,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S30698027",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
@@ -1212,7 +1212,7 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 509,
     "year": 2025,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S30698027",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
@@ -1232,14 +1232,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 503,
     "year": 2024,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S30698027",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S30698027",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 54,
-    "citedByCount": 8134
+    "citedByCount": 8135
   },
   {
     "sourceLabel": "公开来源",
@@ -1252,14 +1252,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 464,
     "year": 2023,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S30698027",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S30698027",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 68,
-    "citedByCount": 12499
+    "citedByCount": 12502
   },
   {
     "sourceLabel": "公开来源",
@@ -1272,7 +1272,7 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 431,
     "year": 2022,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S30698027",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
@@ -1291,13 +1291,13 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "issn": "1041-4347",
     "metric": "openalex_works_count_total",
     "value": 7968,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S30698027",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S30698027",
     "homepageUrl": "https://www.computer.org/web/tkde",
-    "citedByCount": 455683
+    "citedByCount": 455695
   },
   {
     "sourceLabel": "公开来源",
@@ -1310,7 +1310,7 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 156,
     "year": 2026,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S58069681",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
@@ -1330,14 +1330,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 423,
     "year": 2025,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S58069681",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S58069681",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 95,
-    "citedByCount": 1918
+    "citedByCount": 1919
   },
   {
     "sourceLabel": "公开来源",
@@ -1350,14 +1350,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 401,
     "year": 2024,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S58069681",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S58069681",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 129,
-    "citedByCount": 5795
+    "citedByCount": 5798
   },
   {
     "sourceLabel": "公开来源",
@@ -1370,14 +1370,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 335,
     "year": 2023,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S58069681",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S58069681",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 122,
-    "citedByCount": 9455
+    "citedByCount": 9457
   },
   {
     "sourceLabel": "公开来源",
@@ -1390,14 +1390,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 361,
     "year": 2022,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S58069681",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S58069681",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 164,
-    "citedByCount": 14398
+    "citedByCount": 14405
   },
   {
     "sourceLabel": "公开来源",
@@ -1409,13 +1409,13 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "issn": "0278-0062",
     "metric": "openalex_works_count_total",
     "value": 8684,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S58069681",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S58069681",
     "homepageUrl": "http://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=42",
-    "citedByCount": 638377
+    "citedByCount": 638401
   },
   {
     "sourceLabel": "公开来源",
@@ -1428,7 +1428,7 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 227,
     "year": 2026,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S4210175523",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
@@ -1448,14 +1448,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 808,
     "year": 2025,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S4210175523",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S4210175523",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 63,
-    "citedByCount": 2683
+    "citedByCount": 2684
   },
   {
     "sourceLabel": "公开来源",
@@ -1468,14 +1468,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 842,
     "year": 2024,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S4210175523",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S4210175523",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 112,
-    "citedByCount": 11075
+    "citedByCount": 11078
   },
   {
     "sourceLabel": "公开来源",
@@ -1488,14 +1488,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 1036,
     "year": 2023,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S4210175523",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S4210175523",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 169,
-    "citedByCount": 25421
+    "citedByCount": 25426
   },
   {
     "sourceLabel": "公开来源",
@@ -1508,14 +1508,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 1092,
     "year": 2022,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S4210175523",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S4210175523",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 212,
-    "citedByCount": 42800
+    "citedByCount": 42805
   },
   {
     "sourceLabel": "公开来源",
@@ -1527,13 +1527,13 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "issn": "2162-237X",
     "metric": "openalex_works_count_total",
     "value": 8866,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S4210175523",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S4210175523",
     "homepageUrl": "http://cis.ieee.org/ieee-transactions-on-neural-networks-and-learning-systems.html",
-    "citedByCount": 433855
+    "citedByCount": 433885
   },
   {
     "sourceLabel": "公开来源",
@@ -1546,7 +1546,7 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 431,
     "year": 2026,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S199944782",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
@@ -1566,14 +1566,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 942,
     "year": 2025,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S199944782",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S199944782",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 115,
-    "citedByCount": 4768
+    "citedByCount": 4770
   },
   {
     "sourceLabel": "公开来源",
@@ -1586,14 +1586,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 676,
     "year": 2024,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S199944782",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S199944782",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 128,
-    "citedByCount": 19214
+    "citedByCount": 19221
   },
   {
     "sourceLabel": "公开来源",
@@ -1606,14 +1606,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 681,
     "year": 2023,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S199944782",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S199944782",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 138,
-    "citedByCount": 29585
+    "citedByCount": 29591
   },
   {
     "sourceLabel": "公开来源",
@@ -1626,14 +1626,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 656,
     "year": 2022,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S199944782",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S199944782",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 250,
-    "citedByCount": 38256
+    "citedByCount": 38261
   },
   {
     "sourceLabel": "公开来源",
@@ -1645,13 +1645,13 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "issn": "0162-8828",
     "metric": "openalex_works_count_total",
     "value": 12247,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S199944782",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S199944782",
     "homepageUrl": "http://www.computer.org/portal/web/tpami",
-    "citedByCount": 1856447
+    "citedByCount": 1856519
   },
   {
     "sourceLabel": "公开来源",
@@ -1664,7 +1664,7 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 94,
     "year": 2026,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S8351582",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
@@ -1684,7 +1684,7 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 242,
     "year": 2025,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S8351582",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
@@ -1704,14 +1704,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 195,
     "year": 2024,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S8351582",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S8351582",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 60,
-    "citedByCount": 2274
+    "citedByCount": 2275
   },
   {
     "sourceLabel": "公开来源",
@@ -1724,7 +1724,7 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 148,
     "year": 2023,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S8351582",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
@@ -1744,7 +1744,7 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 153,
     "year": 2022,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S8351582",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
@@ -1763,13 +1763,13 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "issn": "0098-5589",
     "metric": "openalex_works_count_total",
     "value": 6133,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S8351582",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S8351582",
     "homepageUrl": "http://www.computer.org/portal/web/tse/about",
-    "citedByCount": 416436
+    "citedByCount": 416441
   },
   {
     "sourceLabel": "公开来源",
@@ -1782,7 +1782,7 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 323,
     "year": 2026,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S7560371",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
@@ -1802,14 +1802,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 1071,
     "year": 2025,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S7560371",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S7560371",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 202,
-    "citedByCount": 5477
+    "citedByCount": 5486
   },
   {
     "sourceLabel": "公开来源",
@@ -1822,14 +1822,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 578,
     "year": 2024,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S7560371",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S7560371",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 132,
-    "citedByCount": 14394
+    "citedByCount": 14397
   },
   {
     "sourceLabel": "公开来源",
@@ -1842,14 +1842,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 450,
     "year": 2023,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S7560371",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S7560371",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 111,
-    "citedByCount": 24353
+    "citedByCount": 24361
   },
   {
     "sourceLabel": "公开来源",
@@ -1862,14 +1862,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 224,
     "year": 2022,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S7560371",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S7560371",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 62,
-    "citedByCount": 15664
+    "citedByCount": 15666
   },
   {
     "sourceLabel": "公开来源",
@@ -1881,13 +1881,13 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "issn": "1566-2535",
     "metric": "openalex_works_count_total",
     "value": 4319,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S7560371",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S7560371",
     "homepageUrl": "https://www.journals.elsevier.com/information-fusion",
-    "citedByCount": 217080
+    "citedByCount": 217113
   },
   {
     "sourceLabel": "公开来源",
@@ -1898,9 +1898,9 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "journalTitle": "International Journal of Computer Vision",
     "issn": "0920-5691",
     "metric": "openalex_works_count_by_year",
-    "value": 256,
+    "value": 257,
     "year": 2026,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S25538012",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
@@ -1920,14 +1920,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 287,
     "year": 2025,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S25538012",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S25538012",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 87,
-    "citedByCount": 1273
+    "citedByCount": 1274
   },
   {
     "sourceLabel": "公开来源",
@@ -1940,14 +1940,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 356,
     "year": 2024,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S25538012",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S25538012",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 101,
-    "citedByCount": 5908
+    "citedByCount": 5909
   },
   {
     "sourceLabel": "公开来源",
@@ -1960,14 +1960,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 229,
     "year": 2023,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S25538012",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S25538012",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 92,
-    "citedByCount": 6336
+    "citedByCount": 6337
   },
   {
     "sourceLabel": "公开来源",
@@ -1980,14 +1980,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 193,
     "year": 2022,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S25538012",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S25538012",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 78,
-    "citedByCount": 10760
+    "citedByCount": 10761
   },
   {
     "sourceLabel": "公开来源",
@@ -1998,14 +1998,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "journalTitle": "International Journal of Computer Vision",
     "issn": "0920-5691",
     "metric": "openalex_works_count_total",
-    "value": 3873,
-    "asOfDate": "2026-05-24",
+    "value": 3874,
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S25538012",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S25538012",
     "homepageUrl": "http://link.springer.com/journal/11263",
-    "citedByCount": 587880
+    "citedByCount": 587906
   },
   {
     "sourceLabel": "公开来源",
@@ -2018,14 +2018,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 733,
     "year": 2026,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S172573765",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S172573765",
     "yearCompleteness": "partial_ytd",
     "oaWorksCount": 102,
-    "citedByCount": 280
+    "citedByCount": 281
   },
   {
     "sourceLabel": "公开来源",
@@ -2038,14 +2038,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 1837,
     "year": 2025,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S172573765",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S172573765",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 331,
-    "citedByCount": 8280
+    "citedByCount": 8289
   },
   {
     "sourceLabel": "公开来源",
@@ -2058,14 +2058,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 1867,
     "year": 2024,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S172573765",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S172573765",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 387,
-    "citedByCount": 25987
+    "citedByCount": 26001
   },
   {
     "sourceLabel": "公开来源",
@@ -2078,14 +2078,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 1853,
     "year": 2023,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S172573765",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S172573765",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 538,
-    "citedByCount": 44258
+    "citedByCount": 44276
   },
   {
     "sourceLabel": "公开来源",
@@ -2098,14 +2098,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 1696,
     "year": 2022,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S172573765",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S172573765",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 579,
-    "citedByCount": 52485
+    "citedByCount": 52498
   },
   {
     "sourceLabel": "公开来源",
@@ -2117,13 +2117,13 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "issn": "0098-7484",
     "metric": "openalex_works_count_total",
     "value": 268895,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S172573765",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S172573765",
     "homepageUrl": "http://jama.ama-assn.org/",
-    "citedByCount": 6961830
+    "citedByCount": 6962059
   },
   {
     "sourceLabel": "公开来源",
@@ -2136,7 +2136,7 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 51,
     "year": 2026,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S139930977",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
@@ -2156,14 +2156,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 131,
     "year": 2025,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S139930977",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S139930977",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 131,
-    "citedByCount": 352
+    "citedByCount": 353
   },
   {
     "sourceLabel": "公开来源",
@@ -2176,7 +2176,7 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 105,
     "year": 2024,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S139930977",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
@@ -2196,7 +2196,7 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 98,
     "year": 2023,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S139930977",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
@@ -2216,14 +2216,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 119,
     "year": 2022,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S139930977",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S139930977",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 119,
-    "citedByCount": 3231
+    "citedByCount": 3232
   },
   {
     "sourceLabel": "公开来源",
@@ -2235,13 +2235,13 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "issn": "1076-9757",
     "metric": "openalex_works_count_total",
     "value": 1808,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S139930977",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S139930977",
     "homepageUrl": "http://www.jair.org/",
-    "citedByCount": 158765
+    "citedByCount": 158771
   },
   {
     "sourceLabel": "公开来源",
@@ -2253,7 +2253,7 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "issn": "1532-4435",
     "metric": "openalex_works_count_total",
     "value": 1411,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S118988714",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
@@ -2270,15 +2270,15 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "journalTitle": "Machine Learning",
     "issn": "0885-6125",
     "metric": "openalex_works_count_by_year",
-    "value": 142,
+    "value": 144,
     "year": 2026,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S62148650",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S62148650",
     "yearCompleteness": "partial_ytd",
-    "oaWorksCount": 64,
+    "oaWorksCount": 66,
     "citedByCount": 32
   },
   {
@@ -2290,15 +2290,15 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "journalTitle": "Machine Learning",
     "issn": "0885-6125",
     "metric": "openalex_works_count_by_year",
-    "value": 353,
+    "value": 352,
     "year": 2025,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S62148650",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S62148650",
     "yearCompleteness": "complete_observed",
-    "oaWorksCount": 170,
+    "oaWorksCount": 169,
     "citedByCount": 602
   },
   {
@@ -2310,15 +2310,15 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "journalTitle": "Machine Learning",
     "issn": "0885-6125",
     "metric": "openalex_works_count_by_year",
-    "value": 191,
+    "value": 190,
     "year": 2024,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S62148650",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S62148650",
     "yearCompleteness": "complete_observed",
-    "oaWorksCount": 169,
+    "oaWorksCount": 168,
     "citedByCount": 1358
   },
   {
@@ -2332,14 +2332,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 209,
     "year": 2023,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S62148650",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S62148650",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 174,
-    "citedByCount": 2463
+    "citedByCount": 2464
   },
   {
     "sourceLabel": "公开来源",
@@ -2352,7 +2352,7 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 223,
     "year": 2022,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S62148650",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
@@ -2371,13 +2371,13 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "issn": "0885-6125",
     "metric": "openalex_works_count_total",
     "value": 3981,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S62148650",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S62148650",
     "homepageUrl": "http://www.springer.com/west/home/computer/artificial?SGWID=4-147-70-35726603-0",
-    "citedByCount": 628256
+    "citedByCount": 628295
   },
   {
     "sourceLabel": "公开来源",
@@ -2390,7 +2390,7 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 179,
     "year": 2026,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S116571295",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
@@ -2410,7 +2410,7 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 420,
     "year": 2025,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S116571295",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
@@ -2430,14 +2430,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 305,
     "year": 2024,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S116571295",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S116571295",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 166,
-    "citedByCount": 6401
+    "citedByCount": 6403
   },
   {
     "sourceLabel": "公开来源",
@@ -2450,14 +2450,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 311,
     "year": 2023,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S116571295",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S116571295",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 153,
-    "citedByCount": 12755
+    "citedByCount": 12762
   },
   {
     "sourceLabel": "公开来源",
@@ -2470,14 +2470,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 302,
     "year": 2022,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S116571295",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S116571295",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 151,
-    "citedByCount": 18075
+    "citedByCount": 18080
   },
   {
     "sourceLabel": "公开来源",
@@ -2489,13 +2489,13 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "issn": "1361-8415",
     "metric": "openalex_works_count_total",
     "value": 3985,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S116571295",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S116571295",
     "homepageUrl": "https://www.journals.elsevier.com/medical-image-analysis",
-    "citedByCount": 279129
+    "citedByCount": 279162
   },
   {
     "sourceLabel": "公开来源",
@@ -2508,7 +2508,7 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 12,
     "year": 2024,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S18088403",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
@@ -2528,7 +2528,7 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 52,
     "year": 2023,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S18088403",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
@@ -2548,7 +2548,7 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 66,
     "year": 2022,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S18088403",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
@@ -2567,7 +2567,7 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "issn": "1351-3249",
     "metric": "openalex_works_count_total",
     "value": 1047,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S18088403",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
@@ -2586,14 +2586,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 1811,
     "year": 2026,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S137773608",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S137773608",
     "yearCompleteness": "partial_ytd",
     "oaWorksCount": 570,
-    "citedByCount": 1510
+    "citedByCount": 1518
   },
   {
     "sourceLabel": "公开来源",
@@ -2606,14 +2606,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 4558,
     "year": 2025,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S137773608",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S137773608",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 1752,
-    "citedByCount": 44948
+    "citedByCount": 44984
   },
   {
     "sourceLabel": "公开来源",
@@ -2626,14 +2626,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 4389,
     "year": 2024,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S137773608",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S137773608",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 1814,
-    "citedByCount": 131734
+    "citedByCount": 131784
   },
   {
     "sourceLabel": "公开来源",
@@ -2646,14 +2646,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 4323,
     "year": 2023,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S137773608",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S137773608",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 1612,
-    "citedByCount": 220730
+    "citedByCount": 220779
   },
   {
     "sourceLabel": "公开来源",
@@ -2666,14 +2666,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 4106,
     "year": 2022,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S137773608",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S137773608",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 1736,
-    "citedByCount": 246880
+    "citedByCount": 246904
   },
   {
     "sourceLabel": "公开来源",
@@ -2685,13 +2685,13 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "issn": "0028-0836",
     "metric": "openalex_works_count_total",
     "value": 448565,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S137773608",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S137773608",
     "homepageUrl": "https://www.nature.com/nature/",
-    "citedByCount": 26885522
+    "citedByCount": 26886402
   },
   {
     "sourceLabel": "公开来源",
@@ -2704,7 +2704,7 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 189,
     "year": 2026,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S106963461",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
@@ -2724,7 +2724,7 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 437,
     "year": 2025,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S106963461",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
@@ -2744,14 +2744,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 468,
     "year": 2024,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S106963461",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S106963461",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 170,
-    "citedByCount": 10383
+    "citedByCount": 10391
   },
   {
     "sourceLabel": "公开来源",
@@ -2764,14 +2764,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 466,
     "year": 2023,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S106963461",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S106963461",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 218,
-    "citedByCount": 30103
+    "citedByCount": 30112
   },
   {
     "sourceLabel": "公开来源",
@@ -2784,14 +2784,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 429,
     "year": 2022,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S106963461",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S106963461",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 201,
-    "citedByCount": 31984
+    "citedByCount": 31990
   },
   {
     "sourceLabel": "公开来源",
@@ -2803,13 +2803,13 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "issn": "1087-0156",
     "metric": "openalex_works_count_total",
     "value": 19412,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S106963461",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S106963461",
     "homepageUrl": "http://www.nature.com/nbt",
-    "citedByCount": 1862529
+    "citedByCount": 1862612
   },
   {
     "sourceLabel": "公开来源",
@@ -2820,16 +2820,16 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "journalTitle": "Nature Communications",
     "issn": "2041-1723",
     "metric": "openalex_works_count_by_year",
-    "value": 5305,
+    "value": 5311,
     "year": 2026,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S64187185",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S64187185",
     "yearCompleteness": "partial_ytd",
-    "oaWorksCount": 5305,
-    "citedByCount": 2219
+    "oaWorksCount": 5311,
+    "citedByCount": 2227
   },
   {
     "sourceLabel": "公开来源",
@@ -2842,14 +2842,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 12796,
     "year": 2025,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S64187185",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S64187185",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 12796,
-    "citedByCount": 116652
+    "citedByCount": 116782
   },
   {
     "sourceLabel": "公开来源",
@@ -2862,14 +2862,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 10962,
     "year": 2024,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S64187185",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S64187185",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 10962,
-    "citedByCount": 325191
+    "citedByCount": 325314
   },
   {
     "sourceLabel": "公开来源",
@@ -2882,14 +2882,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 8533,
     "year": 2023,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S64187185",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S64187185",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 8533,
-    "citedByCount": 413827
+    "citedByCount": 413930
   },
   {
     "sourceLabel": "公开来源",
@@ -2902,14 +2902,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 7977,
     "year": 2022,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S64187185",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S64187185",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 7977,
-    "citedByCount": 537582
+    "citedByCount": 537682
   },
   {
     "sourceLabel": "公开来源",
@@ -2920,14 +2920,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "journalTitle": "Nature Communications",
     "issn": "2041-1723",
     "metric": "openalex_works_count_total",
-    "value": 88680,
-    "asOfDate": "2026-05-24",
+    "value": 88686,
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S64187185",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S64187185",
     "homepageUrl": "http://www.nature.com/ncomms/index.html",
-    "citedByCount": 7390540
+    "citedByCount": 7391400
   },
   {
     "sourceLabel": "公开来源",
@@ -2940,7 +2940,7 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 76,
     "year": 2026,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S2912241403",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
@@ -2960,14 +2960,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 208,
     "year": 2025,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S2912241403",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S2912241403",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 88,
-    "citedByCount": 2499
+    "citedByCount": 2501
   },
   {
     "sourceLabel": "公开来源",
@@ -2980,14 +2980,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 184,
     "year": 2024,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S2912241403",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S2912241403",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 87,
-    "citedByCount": 6402
+    "citedByCount": 6406
   },
   {
     "sourceLabel": "公开来源",
@@ -3000,14 +3000,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 178,
     "year": 2023,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S2912241403",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S2912241403",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 101,
-    "citedByCount": 11421
+    "citedByCount": 11423
   },
   {
     "sourceLabel": "公开来源",
@@ -3020,14 +3020,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 167,
     "year": 2022,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S2912241403",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S2912241403",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 98,
-    "citedByCount": 13483
+    "citedByCount": 13484
   },
   {
     "sourceLabel": "公开来源",
@@ -3039,13 +3039,13 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "issn": "2522-5839",
     "metric": "openalex_works_count_total",
     "value": 1240,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S2912241403",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S2912241403",
     "homepageUrl": "https://www.nature.com/natmachintell/",
-    "citedByCount": 100542
+    "citedByCount": 100565
   },
   {
     "sourceLabel": "公开来源",
@@ -3058,14 +3058,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 348,
     "year": 2026,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S203256638",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S203256638",
     "yearCompleteness": "partial_ytd",
     "oaWorksCount": 158,
-    "citedByCount": 520
+    "citedByCount": 522
   },
   {
     "sourceLabel": "公开来源",
@@ -3078,14 +3078,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 746,
     "year": 2025,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S203256638",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S203256638",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 407,
-    "citedByCount": 15211
+    "citedByCount": 15226
   },
   {
     "sourceLabel": "公开来源",
@@ -3098,14 +3098,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 714,
     "year": 2024,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S203256638",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S203256638",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 400,
-    "citedByCount": 32994
+    "citedByCount": 33006
   },
   {
     "sourceLabel": "公开来源",
@@ -3118,14 +3118,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 639,
     "year": 2023,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S203256638",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S203256638",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 362,
-    "citedByCount": 45530
+    "citedByCount": 45536
   },
   {
     "sourceLabel": "公开来源",
@@ -3138,14 +3138,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 572,
     "year": 2022,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S203256638",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S203256638",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 354,
-    "citedByCount": 66424
+    "citedByCount": 66440
   },
   {
     "sourceLabel": "公开来源",
@@ -3157,13 +3157,13 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "issn": "1078-8956",
     "metric": "openalex_works_count_total",
     "value": 16295,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S203256638",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S203256638",
     "homepageUrl": "http://www.nature.com/nm/index.html",
-    "citedByCount": 2532835
+    "citedByCount": 2532971
   },
   {
     "sourceLabel": "公开来源",
@@ -3176,14 +3176,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 402,
     "year": 2026,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S62468778",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S62468778",
     "yearCompleteness": "partial_ytd",
     "oaWorksCount": 27,
-    "citedByCount": 363
+    "citedByCount": 367
   },
   {
     "sourceLabel": "公开来源",
@@ -3196,14 +3196,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 987,
     "year": 2025,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S62468778",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S62468778",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 140,
-    "citedByCount": 14890
+    "citedByCount": 14910
   },
   {
     "sourceLabel": "公开来源",
@@ -3216,14 +3216,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 1056,
     "year": 2024,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S62468778",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S62468778",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 229,
-    "citedByCount": 51004
+    "citedByCount": 51032
   },
   {
     "sourceLabel": "公开来源",
@@ -3236,14 +3236,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 1059,
     "year": 2023,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S62468778",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S62468778",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 312,
-    "citedByCount": 78061
+    "citedByCount": 78091
   },
   {
     "sourceLabel": "公开来源",
@@ -3256,14 +3256,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 1110,
     "year": 2022,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S62468778",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S62468778",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 463,
-    "citedByCount": 118216
+    "citedByCount": 118245
   },
   {
     "sourceLabel": "公开来源",
@@ -3275,13 +3275,13 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "issn": "0028-4793",
     "metric": "openalex_works_count_total",
     "value": 190259,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S62468778",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S62468778",
     "homepageUrl": "http://www.nejm.org/",
-    "citedByCount": 12279321
+    "citedByCount": 12279802
   },
   {
     "sourceLabel": "公开来源",
@@ -3292,16 +3292,16 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "journalTitle": "npj Digital Medicine",
     "issn": "2398-6352",
     "metric": "openalex_works_count_by_year",
-    "value": 483,
+    "value": 484,
     "year": 2026,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S4210195431",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S4210195431",
     "yearCompleteness": "partial_ytd",
-    "oaWorksCount": 483,
-    "citedByCount": 159
+    "oaWorksCount": 484,
+    "citedByCount": 161
   },
   {
     "sourceLabel": "公开来源",
@@ -3312,16 +3312,16 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "journalTitle": "npj Digital Medicine",
     "issn": "2398-6352",
     "metric": "openalex_works_count_by_year",
-    "value": 894,
+    "value": 893,
     "year": 2025,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S4210195431",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S4210195431",
     "yearCompleteness": "complete_observed",
-    "oaWorksCount": 894,
-    "citedByCount": 7519
+    "oaWorksCount": 893,
+    "citedByCount": 7527
   },
   {
     "sourceLabel": "公开来源",
@@ -3334,14 +3334,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 386,
     "year": 2024,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S4210195431",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S4210195431",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 386,
-    "citedByCount": 12300
+    "citedByCount": 12308
   },
   {
     "sourceLabel": "公开来源",
@@ -3354,14 +3354,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 239,
     "year": 2023,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S4210195431",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S4210195431",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 239,
-    "citedByCount": 14300
+    "citedByCount": 14305
   },
   {
     "sourceLabel": "公开来源",
@@ -3374,14 +3374,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 197,
     "year": 2022,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S4210195431",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S4210195431",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 197,
-    "citedByCount": 13412
+    "citedByCount": 13413
   },
   {
     "sourceLabel": "公开来源",
@@ -3393,13 +3393,13 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "issn": "2398-6352",
     "metric": "openalex_works_count_total",
     "value": 2750,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S4210195431",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S4210195431",
     "homepageUrl": "https://www.nature.com/npjdigitalmed/",
-    "citedByCount": 116373
+    "citedByCount": 116405
   },
   {
     "sourceLabel": "公开来源",
@@ -3410,16 +3410,16 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "journalTitle": "Pattern Recognition",
     "issn": "0031-3203",
     "metric": "openalex_works_count_by_year",
-    "value": 951,
+    "value": 952,
     "year": 2026,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S414566",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S414566",
     "yearCompleteness": "partial_ytd",
-    "oaWorksCount": 101,
-    "citedByCount": 290
+    "oaWorksCount": 102,
+    "citedByCount": 291
   },
   {
     "sourceLabel": "公开来源",
@@ -3430,16 +3430,16 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "journalTitle": "Pattern Recognition",
     "issn": "0031-3203",
     "metric": "openalex_works_count_by_year",
-    "value": 1580,
+    "value": 1579,
     "year": 2025,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S414566",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S414566",
     "yearCompleteness": "complete_observed",
-    "oaWorksCount": 241,
-    "citedByCount": 5191
+    "oaWorksCount": 240,
+    "citedByCount": 5193
   },
   {
     "sourceLabel": "公开来源",
@@ -3452,14 +3452,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 1003,
     "year": 2024,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S414566",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S414566",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 172,
-    "citedByCount": 14685
+    "citedByCount": 14691
   },
   {
     "sourceLabel": "公开来源",
@@ -3472,14 +3472,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 829,
     "year": 2023,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S414566",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S414566",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 197,
-    "citedByCount": 20702
+    "citedByCount": 20704
   },
   {
     "sourceLabel": "公开来源",
@@ -3492,14 +3492,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 677,
     "year": 2022,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S414566",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S414566",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 142,
-    "citedByCount": 22165
+    "citedByCount": 22167
   },
   {
     "sourceLabel": "公开来源",
@@ -3511,13 +3511,13 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "issn": "0031-3203",
     "metric": "openalex_works_count_total",
     "value": 16250,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S414566",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S414566",
     "homepageUrl": "https://www.journals.elsevier.com/pattern-recognition",
-    "citedByCount": 731852
+    "citedByCount": 731885
   },
   {
     "sourceLabel": "公开来源",
@@ -3530,14 +3530,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 1854,
     "year": 2026,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S125754415",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S125754415",
     "yearCompleteness": "partial_ytd",
     "oaWorksCount": 1836,
-    "citedByCount": 605
+    "citedByCount": 606
   },
   {
     "sourceLabel": "公开来源",
@@ -3550,14 +3550,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 4423,
     "year": 2025,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S125754415",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S125754415",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 4421,
-    "citedByCount": 18451
+    "citedByCount": 18475
   },
   {
     "sourceLabel": "公开来源",
@@ -3570,14 +3570,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 3958,
     "year": 2024,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S125754415",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S125754415",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 3956,
-    "citedByCount": 58258
+    "citedByCount": 58287
   },
   {
     "sourceLabel": "公开来源",
@@ -3590,14 +3590,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 3629,
     "year": 2023,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S125754415",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S125754415",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 3624,
-    "citedByCount": 96397
+    "citedByCount": 96414
   },
   {
     "sourceLabel": "公开来源",
@@ -3610,14 +3610,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 3938,
     "year": 2022,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S125754415",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S125754415",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 3931,
-    "citedByCount": 146315
+    "citedByCount": 146340
   },
   {
     "sourceLabel": "公开来源",
@@ -3629,13 +3629,13 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "issn": "0027-8424",
     "metric": "openalex_works_count_total",
     "value": 170590,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S125754415",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S125754415",
     "homepageUrl": "http://www.pnas.org/",
-    "citedByCount": 22734948
+    "citedByCount": 22735681
   },
   {
     "sourceLabel": "公开来源",
@@ -3648,7 +3648,7 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 46,
     "year": 2026,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S4210226185",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
@@ -3668,7 +3668,7 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 446,
     "year": 2025,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S4210226185",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
@@ -3688,7 +3688,7 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 447,
     "year": 2024,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S4210226185",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
@@ -3708,13 +3708,13 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 372,
     "year": 2023,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S4210226185",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S4210226185",
     "yearCompleteness": "complete_observed",
-    "oaWorksCount": 61,
+    "oaWorksCount": 62,
     "citedByCount": 5041
   },
   {
@@ -3728,14 +3728,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 357,
     "year": 2022,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S4210226185",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S4210226185",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 63,
-    "citedByCount": 7887
+    "citedByCount": 7888
   },
   {
     "sourceLabel": "公开来源",
@@ -3747,13 +3747,13 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "issn": "2150-8097",
     "metric": "openalex_works_count_total",
     "value": 4876,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S4210226185",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S4210226185",
     "homepageUrl": "http://www.eecs.umich.edu/db/pvldb/",
-    "citedByCount": 201169
+    "citedByCount": 201170
   },
   {
     "sourceLabel": "公开来源",
@@ -3766,7 +3766,7 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 180,
     "year": 2026,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S133768115",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
@@ -3786,7 +3786,7 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 339,
     "year": 2025,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S133768115",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
@@ -3806,7 +3806,7 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 212,
     "year": 2024,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S133768115",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
@@ -3826,7 +3826,7 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 186,
     "year": 2023,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S133768115",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
@@ -3846,7 +3846,7 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 180,
     "year": 2022,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S133768115",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
@@ -3865,13 +3865,13 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "issn": "0921-8890",
     "metric": "openalex_works_count_total",
     "value": 5360,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S133768115",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S133768115",
     "homepageUrl": "https://www.journals.elsevier.com/robotics-and-autonomous-systems",
-    "citedByCount": 186612
+    "citedByCount": 186622
   },
   {
     "sourceLabel": "公开来源",
@@ -3884,14 +3884,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 810,
     "year": 2026,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S3880285",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S3880285",
     "yearCompleteness": "partial_ytd",
     "oaWorksCount": 114,
-    "citedByCount": 822
+    "citedByCount": 824
   },
   {
     "sourceLabel": "公开来源",
@@ -3904,14 +3904,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 2059,
     "year": 2025,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S3880285",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S3880285",
     "yearCompleteness": "complete_observed",
-    "oaWorksCount": 514,
-    "citedByCount": 23082
+    "oaWorksCount": 515,
+    "citedByCount": 23112
   },
   {
     "sourceLabel": "公开来源",
@@ -3924,14 +3924,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 2046,
     "year": 2024,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S3880285",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S3880285",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 674,
-    "citedByCount": 65885
+    "citedByCount": 65916
   },
   {
     "sourceLabel": "公开来源",
@@ -3944,14 +3944,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 1969,
     "year": 2023,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S3880285",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S3880285",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 608,
-    "citedByCount": 112532
+    "citedByCount": 112563
   },
   {
     "sourceLabel": "公开来源",
@@ -3964,14 +3964,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 2055,
     "year": 2022,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S3880285",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S3880285",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 671,
-    "citedByCount": 166350
+    "citedByCount": 166388
   },
   {
     "sourceLabel": "公开来源",
@@ -3983,13 +3983,13 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "issn": "0036-8075",
     "metric": "openalex_works_count_total",
     "value": 386819,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S3880285",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S3880285",
     "homepageUrl": "http://www.sciencemag.org/",
-    "citedByCount": 22597411
+    "citedByCount": 22598230
   },
   {
     "sourceLabel": "公开来源",
@@ -4002,14 +4002,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 1208,
     "year": 2026,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S2737427234",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S2737427234",
     "yearCompleteness": "partial_ytd",
     "oaWorksCount": 1208,
-    "citedByCount": 673
+    "citedByCount": 674
   },
   {
     "sourceLabel": "公开来源",
@@ -4022,14 +4022,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 3186,
     "year": 2025,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S2737427234",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S2737427234",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 3186,
-    "citedByCount": 22902
+    "citedByCount": 22924
   },
   {
     "sourceLabel": "公开来源",
@@ -4042,14 +4042,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 2319,
     "year": 2024,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S2737427234",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S2737427234",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 2319,
-    "citedByCount": 52167
+    "citedByCount": 52193
   },
   {
     "sourceLabel": "公开来源",
@@ -4062,14 +4062,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 2139,
     "year": 2023,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S2737427234",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S2737427234",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 2139,
-    "citedByCount": 87374
+    "citedByCount": 87399
   },
   {
     "sourceLabel": "公开来源",
@@ -4082,14 +4082,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 2212,
     "year": 2022,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S2737427234",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S2737427234",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 2212,
-    "citedByCount": 121502
+    "citedByCount": 121526
   },
   {
     "sourceLabel": "公开来源",
@@ -4101,13 +4101,13 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "issn": "2375-2548",
     "metric": "openalex_works_count_total",
     "value": 19008,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S2737427234",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S2737427234",
     "homepageUrl": "https://www.science.org/journal/sciadv",
-    "citedByCount": 1221473
+    "citedByCount": 1221662
   },
   {
     "sourceLabel": "公开来源",
@@ -4120,7 +4120,7 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 44,
     "year": 2026,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S4210213233",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
@@ -4140,14 +4140,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 132,
     "year": 2025,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S4210213233",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S4210213233",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 38,
-    "citedByCount": 1085
+    "citedByCount": 1086
   },
   {
     "sourceLabel": "公开来源",
@@ -4160,7 +4160,7 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 138,
     "year": 2024,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S4210213233",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
@@ -4180,14 +4180,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 95,
     "year": 2023,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S4210213233",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S4210213233",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 29,
-    "citedByCount": 3941
+    "citedByCount": 3942
   },
   {
     "sourceLabel": "公开来源",
@@ -4200,14 +4200,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 90,
     "year": 2022,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S4210213233",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S4210213233",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 34,
-    "citedByCount": 9311
+    "citedByCount": 9315
   },
   {
     "sourceLabel": "公开来源",
@@ -4219,13 +4219,13 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "issn": "2470-9476",
     "metric": "openalex_works_count_total",
     "value": 937,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S4210213233",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S4210213233",
     "homepageUrl": "http://robotics.sciencemag.org/",
-    "citedByCount": 90208
+    "citedByCount": 90221
   },
   {
     "sourceLabel": "公开来源",
@@ -4238,7 +4238,7 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 47,
     "year": 2026,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S73484101",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
@@ -4258,7 +4258,7 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 124,
     "year": 2025,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S73484101",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
@@ -4278,14 +4278,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 115,
     "year": 2024,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S73484101",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S73484101",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 52,
-    "citedByCount": 1851
+    "citedByCount": 1852
   },
   {
     "sourceLabel": "公开来源",
@@ -4298,7 +4298,7 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 95,
     "year": 2023,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S73484101",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
@@ -4318,7 +4318,7 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 35,
     "year": 2022,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S73484101",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
@@ -4337,13 +4337,13 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "issn": "0278-3649",
     "metric": "openalex_works_count_total",
     "value": 3214,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S73484101",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S73484101",
     "homepageUrl": "http://www.sagepub.com/journals/Journal201324/title",
-    "citedByCount": 314593
+    "citedByCount": 314596
   },
   {
     "sourceLabel": "公开来源",
@@ -4356,14 +4356,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 596,
     "year": 2026,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S49861241",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S49861241",
     "yearCompleteness": "partial_ytd",
     "oaWorksCount": 89,
-    "citedByCount": 334
+    "citedByCount": 335
   },
   {
     "sourceLabel": "公开来源",
@@ -4376,14 +4376,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 1484,
     "year": 2025,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S49861241",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S49861241",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 507,
-    "citedByCount": 14152
+    "citedByCount": 14176
   },
   {
     "sourceLabel": "公开来源",
@@ -4396,14 +4396,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 1704,
     "year": 2024,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S49861241",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S49861241",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 565,
-    "citedByCount": 52529
+    "citedByCount": 52544
   },
   {
     "sourceLabel": "公开来源",
@@ -4416,14 +4416,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 1560,
     "year": 2023,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S49861241",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S49861241",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 842,
-    "citedByCount": 60776
+    "citedByCount": 60796
   },
   {
     "sourceLabel": "公开来源",
@@ -4436,14 +4436,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 1446,
     "year": 2022,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S49861241",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S49861241",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 705,
-    "citedByCount": 101340
+    "citedByCount": 101367
   },
   {
     "sourceLabel": "公开来源",
@@ -4455,13 +4455,13 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "issn": "0140-6736",
     "metric": "openalex_works_count_total",
     "value": 475499,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S49861241",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S49861241",
     "homepageUrl": "https://www.sciencedirect.com/journal/the-lancet",
-    "citedByCount": 10303541
+    "citedByCount": 10303912
   },
   {
     "sourceLabel": "公开来源",
@@ -4474,7 +4474,7 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 58,
     "year": 2026,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S4210237014",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
@@ -4494,14 +4494,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 107,
     "year": 2025,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S4210237014",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S4210237014",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 107,
-    "citedByCount": 869
+    "citedByCount": 870
   },
   {
     "sourceLabel": "公开来源",
@@ -4514,14 +4514,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 150,
     "year": 2024,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S4210237014",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S4210237014",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 150,
-    "citedByCount": 3480
+    "citedByCount": 3484
   },
   {
     "sourceLabel": "公开来源",
@@ -4534,14 +4534,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 141,
     "year": 2023,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S4210237014",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S4210237014",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 141,
-    "citedByCount": 7541
+    "citedByCount": 7543
   },
   {
     "sourceLabel": "公开来源",
@@ -4554,14 +4554,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 134,
     "year": 2022,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S4210237014",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S4210237014",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 134,
-    "citedByCount": 8812
+    "citedByCount": 8814
   },
   {
     "sourceLabel": "公开来源",
@@ -4573,13 +4573,13 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "issn": "2589-7500",
     "metric": "openalex_works_count_total",
     "value": 1001,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S4210237014",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S4210237014",
     "homepageUrl": "https://www.journals.elsevier.com/the-lancet-digital-health",
-    "citedByCount": 58185
+    "citedByCount": 58197
   },
   {
     "sourceLabel": "公开来源",
@@ -4592,7 +4592,7 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 22,
     "year": 2026,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S78926909",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
@@ -4612,7 +4612,7 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 65,
     "year": 2025,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S78926909",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
@@ -4632,7 +4632,7 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 57,
     "year": 2024,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S78926909",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
@@ -4652,7 +4652,7 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 59,
     "year": 2023,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S78926909",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
@@ -4672,7 +4672,7 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 58,
     "year": 2022,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S78926909",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
@@ -4691,13 +4691,13 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "issn": "0949-877X",
     "metric": "openalex_works_count_total",
     "value": 1272,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S78926909",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S78926909",
     "homepageUrl": "https://www.springer.com/journal/778",
-    "citedByCount": 70174
+    "citedByCount": 70176
   },
   {
     "sourceLabel": "公开来源",
@@ -4710,7 +4710,7 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 34,
     "year": 2026,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S2729999759",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
@@ -4730,7 +4730,7 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 80,
     "year": 2025,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S2729999759",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
@@ -4750,14 +4750,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 96,
     "year": 2024,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S2729999759",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S2729999759",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 96,
-    "citedByCount": 2486
+    "citedByCount": 2487
   },
   {
     "sourceLabel": "公开来源",
@@ -4770,7 +4770,7 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 99,
     "year": 2023,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S2729999759",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
@@ -4790,14 +4790,14 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "metric": "openalex_works_count_by_year",
     "value": 84,
     "year": 2022,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S2729999759",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S2729999759",
     "yearCompleteness": "complete_observed",
     "oaWorksCount": 84,
-    "citedByCount": 3542
+    "citedByCount": 3544
   },
   {
     "sourceLabel": "公开来源",
@@ -4809,12 +4809,12 @@ export const metricsForJournalVolumeDdl: MetricSnapshot[] = [
     "issn": "2307-387X",
     "metric": "openalex_works_count_total",
     "value": 848,
-    "asOfDate": "2026-05-24",
+    "asOfDate": "2026-05-26",
     "source": "OpenAlex",
     "url": "https://openalex.org/S2729999759",
     "sourceUrl": "https://docs.openalex.org/api-entities/sources/source-object",
     "openAlexId": "https://openalex.org/S2729999759",
     "homepageUrl": "https://www.mitpressjournals.org/loi/tacl",
-    "citedByCount": 57695
+    "citedByCount": 57699
   }
 ];
