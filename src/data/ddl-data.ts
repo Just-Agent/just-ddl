@@ -18463,7 +18463,7 @@ export const ddlData: Record<string, DDLItem[]> = {
         "修正观察",
         "reload"
       ],
-      "description": "用于提醒用户关注 JCR 官方支持页是否出现 reload 或 correction；这不是 Clarivate 固定承诺，也不进入正式 DDL 统计。"
+      "description": "用于提醒用户关注 JCR 官方支持页是否出现 reload 或 correction；这是基于历史 reload 节奏的预测观察窗口，不是 Clarivate 官方日期或固定承诺，也不进入正式 DDL 统计。"
     },
     {
       "topicId": "jcr-impact-factor-ddl",
