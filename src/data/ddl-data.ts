@@ -9553,7 +9553,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Registration",
       "source": "AI City Challenge",
       "type": "challenge",
-      "sourceUrl": "https://www.aicitychallenge.org"
+      "sourceUrl": "https://www.aicitychallenge.org",
+      "canonicalUrl": "https://www.aicitychallenge.org",
+      "verificationLevel": "official_event_page"
     },
     {
       "id": "aicity-2026-release-of-evaluation-server-and-test-data-sets-may-18-2026",
@@ -9574,7 +9576,9 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Milestone",
       "source": "AI City Challenge",
       "type": "challenge",
-      "sourceUrl": "https://www.aicitychallenge.org"
+      "sourceUrl": "https://www.aicitychallenge.org",
+      "canonicalUrl": "https://www.aicitychallenge.org",
+      "verificationLevel": "official_event_page"
     },
     {
       "id": "aicity-2026-release-of-evaluation-server-and-test-data-sets-may-25-2026",
@@ -9590,12 +9594,14 @@ export const ddlData: Record<string, DDLItem[]> = {
         "AI City"
       ],
       "url": "https://www.aicitychallenge.org",
+      "sourceUrl": "https://www.aicitychallenge.org",
+      "canonicalUrl": "https://www.aicitychallenge.org",
+      "verificationLevel": "official_event_page",
       "status": "upcoming",
       "description": "Parsed from official AI City Challenge Important Dates section.",
       "stage": "Milestone",
       "source": "AI City Challenge",
-      "type": "challenge",
-      "sourceUrl": "https://www.aicitychallenge.org"
+      "type": "challenge"
     },
     {
       "id": "aicity-2026-challenge-track-submissions-due-july-10-2026",
@@ -9611,12 +9617,14 @@ export const ddlData: Record<string, DDLItem[]> = {
         "AI City"
       ],
       "url": "https://www.aicitychallenge.org",
+      "sourceUrl": "https://www.aicitychallenge.org",
+      "canonicalUrl": "https://www.aicitychallenge.org",
+      "verificationLevel": "official_event_page",
       "status": "upcoming",
       "description": "Parsed from official AI City Challenge Important Dates section.",
       "stage": "Deadline",
       "source": "AI City Challenge",
-      "type": "challenge",
-      "sourceUrl": "https://www.aicitychallenge.org"
+      "type": "challenge"
     },
     {
       "id": "aicity-2026-anywhere-on-earth-workshop-papers-due-july-24-2026",
@@ -9632,12 +9640,14 @@ export const ddlData: Record<string, DDLItem[]> = {
         "AI City"
       ],
       "url": "https://www.aicitychallenge.org",
+      "sourceUrl": "https://www.aicitychallenge.org",
+      "canonicalUrl": "https://www.aicitychallenge.org",
+      "verificationLevel": "official_event_page",
       "status": "upcoming",
       "description": "Parsed from official AI City Challenge Important Dates section.",
       "stage": "Deadline",
       "source": "AI City Challenge",
-      "type": "challenge",
-      "sourceUrl": "https://www.aicitychallenge.org"
+      "type": "challenge"
     },
     {
       "id": "aicity-2026-anywhere-on-earth-acceptance-notification-august-1-2026",
@@ -9653,12 +9663,14 @@ export const ddlData: Record<string, DDLItem[]> = {
         "AI City"
       ],
       "url": "https://www.aicitychallenge.org",
+      "sourceUrl": "https://www.aicitychallenge.org",
+      "canonicalUrl": "https://www.aicitychallenge.org",
+      "verificationLevel": "official_event_page",
       "status": "upcoming",
       "description": "Parsed from official AI City Challenge Important Dates section.",
       "stage": "Milestone",
       "source": "AI City Challenge",
-      "type": "challenge",
-      "sourceUrl": "https://www.aicitychallenge.org"
+      "type": "challenge"
     },
     {
       "id": "aicity-2026-open-source-by-awards-candidates-due-august-7-2026",
@@ -9674,12 +9686,14 @@ export const ddlData: Record<string, DDLItem[]> = {
         "AI City"
       ],
       "url": "https://www.aicitychallenge.org",
+      "sourceUrl": "https://www.aicitychallenge.org",
+      "canonicalUrl": "https://www.aicitychallenge.org",
+      "verificationLevel": "official_event_page",
       "status": "upcoming",
       "description": "Parsed from official AI City Challenge Important Dates section.",
       "stage": "Deadline",
       "source": "AI City Challenge",
-      "type": "challenge",
-      "sourceUrl": "https://www.aicitychallenge.org"
+      "type": "challenge"
     },
     {
       "id": "aicity-2026-anywhere-on-earth-camera-ready-papers-due-august-15-2026",
@@ -9695,12 +9709,14 @@ export const ddlData: Record<string, DDLItem[]> = {
         "AI City"
       ],
       "url": "https://www.aicitychallenge.org",
+      "sourceUrl": "https://www.aicitychallenge.org",
+      "canonicalUrl": "https://www.aicitychallenge.org",
+      "verificationLevel": "official_event_page",
       "status": "upcoming",
       "description": "Parsed from official AI City Challenge Important Dates section.",
       "stage": "Deadline",
       "source": "AI City Challenge",
-      "type": "challenge",
-      "sourceUrl": "https://www.aicitychallenge.org"
+      "type": "challenge"
     },
     {
       "id": "aicity-2026-presentation-of-papers-and-announcement-of-awards-at-eccv-2026-september-8-9-2026",
@@ -9716,12 +9732,14 @@ export const ddlData: Record<string, DDLItem[]> = {
         "AI City"
       ],
       "url": "https://www.aicitychallenge.org",
+      "sourceUrl": "https://www.aicitychallenge.org",
+      "canonicalUrl": "https://www.aicitychallenge.org",
+      "verificationLevel": "official_event_page",
       "status": "upcoming",
       "description": "Parsed from official AI City Challenge Important Dates section.",
       "stage": "Milestone",
       "source": "AI City Challenge",
-      "type": "challenge",
-      "sourceUrl": "https://www.aicitychallenge.org"
+      "type": "challenge"
     }
   ],
   "startup-ddl": [

@@ -1,13 +1,13 @@
 # Just-DDL Source Audit
 
-Generated: 2026-05-26T01:25:45.235Z
+Generated: 2026-05-26T01:48:09.527Z
 
 This is an internal production-readiness report. It identifies items that need detail-page upgrades, sourceUrl completion, manual maintenance, or official-source verification. It is not published to GitHub Pages or miniprogram exports.
 
 - Total DDL items: 817
 - Official deadline candidates: 662
 - Missing sourceUrl: 0
-- Root-like URL follow-up: 26
+- Root-like URL follow-up: 17
 - Manual/source-board follow-up: 234
 - Seed/demo source wording: 0
 - Aggregator/review-platform source: 21
@@ -31,15 +31,6 @@ _None._
 | programming-ddl | [Advent of Code 2026 Day 1](https://adventofcode.com) | root-like URL without source-board wording | Official site |
 | multimodal-ddl | [VQA Challenge 2026](https://visualqa.org) | root-like URL without source-board wording | 官方评测入口 |
 | multimodal-ddl | [TextVQA Refresh](https://textvqa.org) | root-like URL without source-board wording | 官方评测入口 |
-| robotics-ddl | [AI City Challenge 2026 - Registration opens](https://www.aicitychallenge.org) | root-like URL without source-board wording | AI City Challenge |
-| robotics-ddl | [AI City Challenge 2026 - Release of evaluation server and test data sets](https://www.aicitychallenge.org) | root-like URL without source-board wording | AI City Challenge |
-| robotics-ddl | [AI City Challenge 2026 - Release of evaluation server and test data sets](https://www.aicitychallenge.org) | root-like URL without source-board wording | AI City Challenge |
-| robotics-ddl | [AI City Challenge 2026 - Challenge track submissions due](https://www.aicitychallenge.org) | root-like URL without source-board wording | AI City Challenge |
-| robotics-ddl | [AI City Challenge 2026 - (Anywhere on Earth) Workshop papers due](https://www.aicitychallenge.org) | root-like URL without source-board wording | AI City Challenge |
-| robotics-ddl | [AI City Challenge 2026 - (Anywhere on Earth) Acceptance notification](https://www.aicitychallenge.org) | root-like URL without source-board wording | AI City Challenge |
-| robotics-ddl | [AI City Challenge 2026 - Open source by awards candidates due](https://www.aicitychallenge.org) | root-like URL without source-board wording | AI City Challenge |
-| robotics-ddl | [AI City Challenge 2026 - (Anywhere on Earth) Camera-ready papers due](https://www.aicitychallenge.org) | root-like URL without source-board wording | AI City Challenge |
-| robotics-ddl | [AI City Challenge 2026 - Presentation of papers and announcement of awards at ECCV 2026](https://www.aicitychallenge.org) | root-like URL without source-board wording | AI City Challenge |
 | sports-ddl | [Sydney Marathon 2026](https://sydneymarathon.com/) | root-like URL without source-board wording | Sydney Marathon |
 | sports-ddl | [BMW Berlin Marathon 2026](https://www.bmw-berlin-marathon.com/) | root-like URL without source-board wording | BMW Berlin Marathon |
 | sports-ddl | [Bank of America Chicago Marathon 2026](https://www.chicagomarathon.com/) | root-like URL without source-board wording | Chicago Marathon |

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-26T01:25:45.235Z",
-  "dataVersion": "bdc25847182e6c58",
+  "generatedAt": "2026-05-26T01:48:09.527Z",
+  "dataVersion": "93e7504d0ad918f6",
   "totalItems": 817,
   "officialDeadlineItems": 662,
   "buckets": {
@@ -10,9 +10,8 @@
       "sample": []
     },
     "rootLikeUrl": {
-      "count": 26,
+      "count": 17,
       "byTopic": {
-        "robotics-ddl": 9,
         "sports-ddl": 4,
         "programming-ddl": 3,
         "concert-ddl": 2,
@@ -152,114 +151,6 @@
           "sourceUrl": "https://textvqa.org",
           "source": "官方评测入口",
           "stage": "Result upload",
-          "type": "challenge",
-          "isDatePlaceholder": false
-        },
-        {
-          "topicId": "robotics-ddl",
-          "id": "aicity-2026-registration-opens",
-          "title": "AI City Challenge 2026 - Registration opens",
-          "reason": "root-like URL without source-board wording",
-          "url": "https://www.aicitychallenge.org",
-          "sourceUrl": "https://www.aicitychallenge.org",
-          "source": "AI City Challenge",
-          "stage": "Registration",
-          "type": "challenge",
-          "isDatePlaceholder": false
-        },
-        {
-          "topicId": "robotics-ddl",
-          "id": "aicity-2026-release-of-evaluation-server-and-test-data-sets-may-18-2026",
-          "title": "AI City Challenge 2026 - Release of evaluation server and test data sets",
-          "reason": "root-like URL without source-board wording",
-          "url": "https://www.aicitychallenge.org",
-          "sourceUrl": "https://www.aicitychallenge.org",
-          "source": "AI City Challenge",
-          "stage": "Milestone",
-          "type": "challenge",
-          "isDatePlaceholder": false
-        },
-        {
-          "topicId": "robotics-ddl",
-          "id": "aicity-2026-release-of-evaluation-server-and-test-data-sets-may-25-2026",
-          "title": "AI City Challenge 2026 - Release of evaluation server and test data sets",
-          "reason": "root-like URL without source-board wording",
-          "url": "https://www.aicitychallenge.org",
-          "sourceUrl": "https://www.aicitychallenge.org",
-          "source": "AI City Challenge",
-          "stage": "Milestone",
-          "type": "challenge",
-          "isDatePlaceholder": false
-        },
-        {
-          "topicId": "robotics-ddl",
-          "id": "aicity-2026-challenge-track-submissions-due-july-10-2026",
-          "title": "AI City Challenge 2026 - Challenge track submissions due",
-          "reason": "root-like URL without source-board wording",
-          "url": "https://www.aicitychallenge.org",
-          "sourceUrl": "https://www.aicitychallenge.org",
-          "source": "AI City Challenge",
-          "stage": "Deadline",
-          "type": "challenge",
-          "isDatePlaceholder": false
-        },
-        {
-          "topicId": "robotics-ddl",
-          "id": "aicity-2026-anywhere-on-earth-workshop-papers-due-july-24-2026",
-          "title": "AI City Challenge 2026 - (Anywhere on Earth) Workshop papers due",
-          "reason": "root-like URL without source-board wording",
-          "url": "https://www.aicitychallenge.org",
-          "sourceUrl": "https://www.aicitychallenge.org",
-          "source": "AI City Challenge",
-          "stage": "Deadline",
-          "type": "challenge",
-          "isDatePlaceholder": false
-        },
-        {
-          "topicId": "robotics-ddl",
-          "id": "aicity-2026-anywhere-on-earth-acceptance-notification-august-1-2026",
-          "title": "AI City Challenge 2026 - (Anywhere on Earth) Acceptance notification",
-          "reason": "root-like URL without source-board wording",
-          "url": "https://www.aicitychallenge.org",
-          "sourceUrl": "https://www.aicitychallenge.org",
-          "source": "AI City Challenge",
-          "stage": "Milestone",
-          "type": "challenge",
-          "isDatePlaceholder": false
-        },
-        {
-          "topicId": "robotics-ddl",
-          "id": "aicity-2026-open-source-by-awards-candidates-due-august-7-2026",
-          "title": "AI City Challenge 2026 - Open source by awards candidates due",
-          "reason": "root-like URL without source-board wording",
-          "url": "https://www.aicitychallenge.org",
-          "sourceUrl": "https://www.aicitychallenge.org",
-          "source": "AI City Challenge",
-          "stage": "Deadline",
-          "type": "challenge",
-          "isDatePlaceholder": false
-        },
-        {
-          "topicId": "robotics-ddl",
-          "id": "aicity-2026-anywhere-on-earth-camera-ready-papers-due-august-15-2026",
-          "title": "AI City Challenge 2026 - (Anywhere on Earth) Camera-ready papers due",
-          "reason": "root-like URL without source-board wording",
-          "url": "https://www.aicitychallenge.org",
-          "sourceUrl": "https://www.aicitychallenge.org",
-          "source": "AI City Challenge",
-          "stage": "Deadline",
-          "type": "challenge",
-          "isDatePlaceholder": false
-        },
-        {
-          "topicId": "robotics-ddl",
-          "id": "aicity-2026-presentation-of-papers-and-announcement-of-awards-at-eccv-2026-september-8-9-2026",
-          "title": "AI City Challenge 2026 - Presentation of papers and announcement of awards at ECCV 2026",
-          "reason": "root-like URL without source-board wording",
-          "url": "https://www.aicitychallenge.org",
-          "sourceUrl": "https://www.aicitychallenge.org",
-          "source": "AI City Challenge",
-          "stage": "Milestone",
           "type": "challenge",
           "isDatePlaceholder": false
         },
