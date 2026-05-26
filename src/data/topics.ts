@@ -393,7 +393,7 @@ export const topics: Topic[] = [
     "repo": "Just-Agent/sports-ddl",
     "site": "https://just-agent.github.io/sports-ddl/",
     "status": "published",
-    "itemCount": 44,
+    "itemCount": 49,
     "category": "体育赛事",
     "tags": [
       "table tennis",

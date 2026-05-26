@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-05-26T01:48:09.527Z",
-  "dataVersion": "93e7504d0ad918f6",
-  "totalItems": 817,
-  "officialDeadlineItems": 662,
+  "generatedAt": "2026-05-26T02:59:58.817Z",
+  "dataVersion": "a22c4cc8f842005e",
+  "totalItems": 822,
+  "officialDeadlineItems": 667,
   "buckets": {
     "missingSourceUrl": {
       "count": 0,
@@ -10,9 +10,8 @@
       "sample": []
     },
     "rootLikeUrl": {
-      "count": 17,
+      "count": 13,
       "byTopic": {
-        "sports-ddl": 4,
         "programming-ddl": 3,
         "concert-ddl": 2,
         "cv-ddl": 2,
@@ -152,54 +151,6 @@
           "source": "官方评测入口",
           "stage": "Result upload",
           "type": "challenge",
-          "isDatePlaceholder": false
-        },
-        {
-          "topicId": "sports-ddl",
-          "id": "sports-ddl-sydney-marathon-2026-08-30",
-          "title": "Sydney Marathon 2026",
-          "reason": "root-like URL without source-board wording",
-          "url": "https://sydneymarathon.com/",
-          "sourceUrl": "https://sydneymarathon.com/",
-          "source": "Sydney Marathon",
-          "stage": "Race day",
-          "type": "contest",
-          "isDatePlaceholder": false
-        },
-        {
-          "topicId": "sports-ddl",
-          "id": "sports-ddl-berlin-marathon-2026-09-27",
-          "title": "BMW Berlin Marathon 2026",
-          "reason": "root-like URL without source-board wording",
-          "url": "https://www.bmw-berlin-marathon.com/",
-          "sourceUrl": "https://www.bmw-berlin-marathon.com/",
-          "source": "BMW Berlin Marathon",
-          "stage": "Race day",
-          "type": "contest",
-          "isDatePlaceholder": false
-        },
-        {
-          "topicId": "sports-ddl",
-          "id": "sports-ddl-chicago-marathon-2026-10-11",
-          "title": "Bank of America Chicago Marathon 2026",
-          "reason": "root-like URL without source-board wording",
-          "url": "https://www.chicagomarathon.com/",
-          "sourceUrl": "https://www.chicagomarathon.com/",
-          "source": "Chicago Marathon",
-          "stage": "Race day",
-          "type": "contest",
-          "isDatePlaceholder": false
-        },
-        {
-          "topicId": "sports-ddl",
-          "id": "sports-ddl-new-york-city-marathon-2026-11-01",
-          "title": "TCS New York City Marathon 2026",
-          "reason": "root-like URL without source-board wording",
-          "url": "https://www.tcsnewyorkcitymarathon.org/",
-          "sourceUrl": "https://www.tcsnewyorkcitymarathon.org/",
-          "source": "TCS New York City Marathon",
-          "stage": "Race day",
-          "type": "contest",
           "isDatePlaceholder": false
         },
         {

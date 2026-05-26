@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-26T01:07:11.250Z",
-  "dataVersion": "0784691de0f1f631",
+  "generatedAt": "2026-05-26T03:00:22.387Z",
+  "dataVersion": "7b9c96d99c05c42c",
   "topic": {
     "id": "sports-ddl",
     "name": "Sports",
@@ -17,7 +17,7 @@
       "billiards",
       "pickleball"
     ],
-    "itemCount": 44,
+    "itemCount": 49,
     "status": "published"
   },
   "items": [
@@ -109,7 +109,7 @@
       "source": "BWF Tournament Calendar",
       "sourceUrl": "https://bwfbadminton.com/calendar/",
       "type": "contest",
-      "description": "BWF World Tour 新加坡公开赛节点，后续自动更新流程可补签表和赛程详情。",
+      "description": "BWF World Tour 新加坡公开赛节点，后续 crawler 可补签表和赛程详情。",
       "subtopic": "badminton",
       "subtopicName": "羽毛球"
     },
@@ -275,6 +275,29 @@
       "subtopicName": "羽毛球"
     },
     {
+      "id": "sports-ddl-fifa-world-cup-opening-2026-06-11",
+      "topicId": "sports-ddl",
+      "title": "FIFA World Cup 2026 Opening Match",
+      "deadline": "2026-06-11T23:59:59",
+      "dateRange": "Jun 11, 2026",
+      "location": "Mexico City, Mexico",
+      "isOnline": false,
+      "tags": [
+        "足球",
+        "FIFA",
+        "World Cup"
+      ],
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+      "status": "upcoming",
+      "stage": "Event start",
+      "source": "FIFA World Cup 2026 Match Schedule",
+      "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+      "type": "contest",
+      "description": "FIFA 官方 2026 世界杯赛程入口中的揭幕战节点，按开赛日倒计时。",
+      "subtopic": "football",
+      "subtopicName": "足球"
+    },
+    {
       "id": "sports-ddl-bwf-macau-open-2026-06-16",
       "topicId": "sports-ddl",
       "title": "Macau Open 2026",
@@ -316,7 +339,7 @@
       "source": "WTT Events",
       "sourceUrl": "https://worldtabletennis.com/eventslist",
       "type": "contest",
-      "description": "WTT 职业赛历节点，后续 自动更新流程 会继续补齐官方详情页与报名信息。",
+      "description": "WTT 职业赛历节点，后续 crawler 会继续补齐官方详情页与报名信息。",
       "subtopic": "table-tennis",
       "subtopicName": "乒乓球"
     },
@@ -454,7 +477,7 @@
       "source": "FIBA Event Calendar",
       "sourceUrl": "https://www.fiba.basketball/en/events",
       "type": "contest",
-      "description": "FIBA 官方 event calendar 中的 U17 女篮世界杯节点，后续自动更新流程可接入赛事详情页。",
+      "description": "FIBA 官方 event calendar 中的 U17 女篮世界杯节点，后续 crawler 可接入赛事详情页。",
       "subtopic": "basketball",
       "subtopicName": "篮球"
     },
@@ -480,6 +503,29 @@
       "description": "BWF 日本公开赛节点，适合跟踪签表、赛程与转播提醒。",
       "subtopic": "badminton",
       "subtopicName": "羽毛球"
+    },
+    {
+      "id": "sports-ddl-fifa-world-cup-final-2026-07-19",
+      "topicId": "sports-ddl",
+      "title": "FIFA World Cup 2026 Final",
+      "deadline": "2026-07-19T23:59:59",
+      "dateRange": "Jul 19, 2026",
+      "location": "New York New Jersey, USA",
+      "isOnline": false,
+      "tags": [
+        "足球",
+        "FIFA",
+        "Final"
+      ],
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+      "status": "upcoming",
+      "stage": "Final",
+      "source": "FIFA World Cup 2026 Match Schedule",
+      "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+      "type": "contest",
+      "description": "FIFA 官方 2026 世界杯赛程入口中的决赛节点，按比赛日倒计时。",
+      "subtopic": "football",
+      "subtopicName": "足球"
     },
     {
       "id": "sports-ddl-bwf-china-open-2026-07-21",
@@ -575,6 +621,29 @@
       "subtopicName": "乒乓球"
     },
     {
+      "id": "sports-ddl-uefa-super-cup-salzburg-2026-08-12",
+      "topicId": "sports-ddl",
+      "title": "UEFA Super Cup Salzburg 2026",
+      "deadline": "2026-08-12T23:59:59",
+      "dateRange": "Aug 12, 2026",
+      "location": "Salzburg, Austria",
+      "isOnline": false,
+      "tags": [
+        "足球",
+        "UEFA",
+        "Super Cup"
+      ],
+      "url": "https://www.uefa.com/uefasupercup/news/02a4-2056c25ced6f-cc7862c2721f-1000--the-2026-uefa-super-cup-in-salzburg-all-you-need-to-know/",
+      "status": "upcoming",
+      "stage": "Event start",
+      "source": "UEFA Super Cup",
+      "sourceUrl": "https://www.uefa.com/uefasupercup/news/02a4-2056c25ced6f-cc7862c2721f-1000--the-2026-uefa-super-cup-in-salzburg-all-you-need-to-know/",
+      "type": "contest",
+      "description": "UEFA 官方 Super Cup 2026 页面确认的萨尔茨堡节点，按比赛日倒计时。",
+      "subtopic": "football",
+      "subtopicName": "足球"
+    },
+    {
       "id": "sports-ddl-wtt-europe-smash-sweden-2026-08-13",
       "topicId": "sports-ddl",
       "title": "WTT Europe Smash Sweden 2026",
@@ -616,7 +685,7 @@
       "source": "Sydney Marathon",
       "sourceUrl": "https://sydneymarathon.com/",
       "type": "contest",
-      "description": "世界马拉松大满贯赛事节点，按比赛日倒计时，报名节点可在后续 自动更新流程 中拆分。",
+      "description": "世界马拉松大满贯赛事节点，按比赛日倒计时，报名节点可在后续 crawler 中拆分。",
       "subtopic": "running-athletics",
       "subtopicName": "路跑与田径"
     },
@@ -688,6 +757,29 @@
       "description": "FIBA 官方女篮世界杯页面确认的柏林赛事窗口，当前按小组赛首日倒计时。",
       "subtopic": "basketball",
       "subtopicName": "篮球"
+    },
+    {
+      "id": "sports-ddl-fifa-u20-womens-world-cup-poland-2026-09-05",
+      "topicId": "sports-ddl",
+      "title": "FIFA U-20 Women's World Cup Poland 2026",
+      "deadline": "2026-09-05T23:59:59",
+      "dateRange": "Sep 5-27, 2026",
+      "location": "Poland",
+      "isOnline": false,
+      "tags": [
+        "足球",
+        "FIFA",
+        "U20"
+      ],
+      "url": "https://www.fifa.com/en/tournaments/womens/u20womensworldcup/poland-2026",
+      "status": "upcoming",
+      "stage": "Event start",
+      "source": "FIFA U-20 Women's World Cup",
+      "sourceUrl": "https://www.fifa.com/en/tournaments/womens/u20womensworldcup/poland-2026",
+      "type": "contest",
+      "description": "FIFA 官方赛事页中的女足 U20 世界杯波兰 2026 节点，按开赛日倒计时。",
+      "subtopic": "football",
+      "subtopicName": "足球"
     },
     {
       "id": "sports-ddl-bwf-hong-kong-open-2026-09-08",
@@ -849,6 +941,29 @@
       "description": "BWF 丹麦公开赛节点，欧洲秋季重点赛事。",
       "subtopic": "badminton",
       "subtopicName": "羽毛球"
+    },
+    {
+      "id": "sports-ddl-fifa-u17-womens-world-cup-morocco-2026-10-17",
+      "topicId": "sports-ddl",
+      "title": "FIFA U-17 Women's World Cup Morocco 2026",
+      "deadline": "2026-10-17T23:59:59",
+      "dateRange": "Oct 17 - Nov 8, 2026",
+      "location": "Morocco",
+      "isOnline": false,
+      "tags": [
+        "足球",
+        "FIFA",
+        "U17"
+      ],
+      "url": "https://www.fifa.com/en/tournaments/womens/u17womensworldcup/morocco-2026",
+      "status": "upcoming",
+      "stage": "Event start",
+      "source": "FIFA U-17 Women's World Cup",
+      "sourceUrl": "https://www.fifa.com/en/tournaments/womens/u17womensworldcup/morocco-2026",
+      "type": "contest",
+      "description": "FIFA 官方赛事页中的女足 U17 世界杯摩洛哥 2026 节点，按开赛日倒计时。",
+      "subtopic": "football",
+      "subtopicName": "足球"
     },
     {
       "id": "sports-ddl-northern-ireland-open-snooker-2026-10-18",
@@ -1060,6 +1175,12 @@
       "name": "匹克球",
       "itemCount": 5,
       "nextItemId": "sports-ddl-mlp-dallas-2026-05-22"
+    },
+    {
+      "id": "football",
+      "name": "足球",
+      "itemCount": 5,
+      "nextItemId": "sports-ddl-fifa-world-cup-opening-2026-06-11"
     },
     {
       "id": "basketball",

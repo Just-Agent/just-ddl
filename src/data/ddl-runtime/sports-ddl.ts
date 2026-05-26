@@ -81,7 +81,7 @@ export const ddlForSportsDdl: DDLItem[] = [
     ],
     "url": "https://bwfbadminton.com/calendar/",
     "status": "upcoming",
-    "description": "BWF World Tour 新加坡公开赛节点，后续自动更新流程可补签表和赛程详情。",
+    "description": "BWF World Tour 新加坡公开赛节点，后续 crawler 可补签表和赛程详情。",
     "stage": "Event start",
     "source": "BWF Tournament Calendar",
     "type": "contest",
@@ -244,6 +244,28 @@ export const ddlForSportsDdl: DDLItem[] = [
     "sourceUrl": "https://bwfbadminton.com/calendar/"
   },
   {
+    "id": "sports-ddl-fifa-world-cup-opening-2026-06-11",
+    "title": "FIFA World Cup 2026 Opening Match",
+    "deadline": "2026-06-11T23:59:59",
+    "dateRange": "Jun 11, 2026",
+    "location": "Mexico City, Mexico",
+    "isOnline": false,
+    "tags": [
+      "足球",
+      "FIFA",
+      "World Cup"
+    ],
+    "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+    "status": "upcoming",
+    "description": "FIFA 官方 2026 世界杯赛程入口中的揭幕战节点，按开赛日倒计时。",
+    "stage": "Event start",
+    "source": "FIFA World Cup 2026 Match Schedule",
+    "type": "contest",
+    "subtopic": "football",
+    "subtopicName": "足球",
+    "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums"
+  },
+  {
     "id": "sports-ddl-bwf-macau-open-2026-06-16",
     "title": "Macau Open 2026",
     "deadline": "2026-06-16T23:59:59",
@@ -279,7 +301,7 @@ export const ddlForSportsDdl: DDLItem[] = [
     ],
     "url": "https://worldtabletennis.com/eventslist",
     "status": "upcoming",
-    "description": "WTT 职业赛历节点，后续 自动更新流程 会继续补齐官方详情页与报名信息。",
+    "description": "WTT 职业赛历节点，后续 crawler 会继续补齐官方详情页与报名信息。",
     "stage": "Event start",
     "source": "WTT Events",
     "type": "contest",
@@ -411,7 +433,7 @@ export const ddlForSportsDdl: DDLItem[] = [
     ],
     "url": "https://www.fiba.basketball/en/events",
     "status": "upcoming",
-    "description": "FIBA 官方 event calendar 中的 U17 女篮世界杯节点，后续自动更新流程可接入赛事详情页。",
+    "description": "FIBA 官方 event calendar 中的 U17 女篮世界杯节点，后续 crawler 可接入赛事详情页。",
     "stage": "Event start",
     "source": "FIBA Event Calendar",
     "type": "contest",
@@ -440,6 +462,28 @@ export const ddlForSportsDdl: DDLItem[] = [
     "subtopic": "badminton",
     "subtopicName": "羽毛球",
     "sourceUrl": "https://bwfbadminton.com/calendar/"
+  },
+  {
+    "id": "sports-ddl-fifa-world-cup-final-2026-07-19",
+    "title": "FIFA World Cup 2026 Final",
+    "deadline": "2026-07-19T23:59:59",
+    "dateRange": "Jul 19, 2026",
+    "location": "New York New Jersey, USA",
+    "isOnline": false,
+    "tags": [
+      "足球",
+      "FIFA",
+      "Final"
+    ],
+    "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+    "status": "upcoming",
+    "description": "FIFA 官方 2026 世界杯赛程入口中的决赛节点，按比赛日倒计时。",
+    "stage": "Final",
+    "source": "FIFA World Cup 2026 Match Schedule",
+    "type": "contest",
+    "subtopic": "football",
+    "subtopicName": "足球",
+    "sourceUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums"
   },
   {
     "id": "sports-ddl-bwf-china-open-2026-07-21",
@@ -531,6 +575,28 @@ export const ddlForSportsDdl: DDLItem[] = [
     "sourceUrl": "https://worldtabletennis.com/eventslist"
   },
   {
+    "id": "sports-ddl-uefa-super-cup-salzburg-2026-08-12",
+    "title": "UEFA Super Cup Salzburg 2026",
+    "deadline": "2026-08-12T23:59:59",
+    "dateRange": "Aug 12, 2026",
+    "location": "Salzburg, Austria",
+    "isOnline": false,
+    "tags": [
+      "足球",
+      "UEFA",
+      "Super Cup"
+    ],
+    "url": "https://www.uefa.com/uefasupercup/news/02a4-2056c25ced6f-cc7862c2721f-1000--the-2026-uefa-super-cup-in-salzburg-all-you-need-to-know/",
+    "status": "upcoming",
+    "description": "UEFA 官方 Super Cup 2026 页面确认的萨尔茨堡节点，按比赛日倒计时。",
+    "stage": "Event start",
+    "source": "UEFA Super Cup",
+    "type": "contest",
+    "subtopic": "football",
+    "subtopicName": "足球",
+    "sourceUrl": "https://www.uefa.com/uefasupercup/news/02a4-2056c25ced6f-cc7862c2721f-1000--the-2026-uefa-super-cup-in-salzburg-all-you-need-to-know/"
+  },
+  {
     "id": "sports-ddl-wtt-europe-smash-sweden-2026-08-13",
     "title": "WTT Europe Smash Sweden 2026",
     "deadline": "2026-08-13T23:59:59",
@@ -566,13 +632,15 @@ export const ddlForSportsDdl: DDLItem[] = [
     ],
     "url": "https://sydneymarathon.com/",
     "status": "upcoming",
-    "description": "世界马拉松大满贯赛事节点，按比赛日倒计时，报名节点可在后续 自动更新流程 中拆分。",
+    "description": "世界马拉松大满贯赛事节点，按比赛日倒计时，报名节点可在后续 crawler 中拆分。",
     "stage": "Race day",
     "source": "Sydney Marathon",
     "type": "contest",
     "subtopic": "running-athletics",
     "subtopicName": "路跑与田径",
-    "sourceUrl": "https://sydneymarathon.com/"
+    "sourceUrl": "https://sydneymarathon.com/",
+    "canonicalUrl": "https://sydneymarathon.com/",
+    "verificationLevel": "official_event_page"
   },
   {
     "id": "sports-ddl-veolia-pickleball-national-championships-2026-08-31",
@@ -641,6 +709,28 @@ export const ddlForSportsDdl: DDLItem[] = [
     "sourceUrl": "https://www.fiba.basketball/en/events/fiba-womens-basketball-world-cup-2026"
   },
   {
+    "id": "sports-ddl-fifa-u20-womens-world-cup-poland-2026-09-05",
+    "title": "FIFA U-20 Women's World Cup Poland 2026",
+    "deadline": "2026-09-05T23:59:59",
+    "dateRange": "Sep 5-27, 2026",
+    "location": "Poland",
+    "isOnline": false,
+    "tags": [
+      "足球",
+      "FIFA",
+      "U20"
+    ],
+    "url": "https://www.fifa.com/en/tournaments/womens/u20womensworldcup/poland-2026",
+    "status": "upcoming",
+    "description": "FIFA 官方赛事页中的女足 U20 世界杯波兰 2026 节点，按开赛日倒计时。",
+    "stage": "Event start",
+    "source": "FIFA U-20 Women's World Cup",
+    "type": "contest",
+    "subtopic": "football",
+    "subtopicName": "足球",
+    "sourceUrl": "https://www.fifa.com/en/tournaments/womens/u20womensworldcup/poland-2026"
+  },
+  {
     "id": "sports-ddl-bwf-hong-kong-open-2026-09-08",
     "title": "Hong Kong Open 2026",
     "deadline": "2026-09-08T23:59:59",
@@ -682,7 +772,9 @@ export const ddlForSportsDdl: DDLItem[] = [
     "type": "contest",
     "subtopic": "running-athletics",
     "subtopicName": "路跑与田径",
-    "sourceUrl": "https://www.bmw-berlin-marathon.com/"
+    "sourceUrl": "https://www.bmw-berlin-marathon.com/",
+    "canonicalUrl": "https://www.bmw-berlin-marathon.com/",
+    "verificationLevel": "official_event_page"
   },
   {
     "id": "sports-ddl-wtt-china-smash-2026-10-01",
@@ -748,7 +840,9 @@ export const ddlForSportsDdl: DDLItem[] = [
     "type": "contest",
     "subtopic": "running-athletics",
     "subtopicName": "路跑与田径",
-    "sourceUrl": "https://www.chicagomarathon.com/"
+    "sourceUrl": "https://www.chicagomarathon.com/",
+    "canonicalUrl": "https://www.chicagomarathon.com/",
+    "verificationLevel": "official_event_page"
   },
   {
     "id": "sports-ddl-attu-asian-table-tennis-championships-2026-10-12",
@@ -793,6 +887,28 @@ export const ddlForSportsDdl: DDLItem[] = [
     "subtopic": "badminton",
     "subtopicName": "羽毛球",
     "sourceUrl": "https://bwfbadminton.com/calendar/"
+  },
+  {
+    "id": "sports-ddl-fifa-u17-womens-world-cup-morocco-2026-10-17",
+    "title": "FIFA U-17 Women's World Cup Morocco 2026",
+    "deadline": "2026-10-17T23:59:59",
+    "dateRange": "Oct 17 - Nov 8, 2026",
+    "location": "Morocco",
+    "isOnline": false,
+    "tags": [
+      "足球",
+      "FIFA",
+      "U17"
+    ],
+    "url": "https://www.fifa.com/en/tournaments/womens/u17womensworldcup/morocco-2026",
+    "status": "upcoming",
+    "description": "FIFA 官方赛事页中的女足 U17 世界杯摩洛哥 2026 节点，按开赛日倒计时。",
+    "stage": "Event start",
+    "source": "FIFA U-17 Women's World Cup",
+    "type": "contest",
+    "subtopic": "football",
+    "subtopicName": "足球",
+    "sourceUrl": "https://www.fifa.com/en/tournaments/womens/u17womensworldcup/morocco-2026"
   },
   {
     "id": "sports-ddl-northern-ireland-open-snooker-2026-10-18",
@@ -880,7 +996,9 @@ export const ddlForSportsDdl: DDLItem[] = [
     "type": "contest",
     "subtopic": "running-athletics",
     "subtopicName": "路跑与田径",
-    "sourceUrl": "https://www.tcsnewyorkcitymarathon.org/"
+    "sourceUrl": "https://www.tcsnewyorkcitymarathon.org/",
+    "canonicalUrl": "https://www.tcsnewyorkcitymarathon.org/",
+    "verificationLevel": "official_event_page"
   },
   {
     "id": "sports-ddl-apa-us-amateur-championship-2026-11-13",
