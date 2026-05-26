@@ -20,7 +20,8 @@ export const ddlForDataScienceDdl: DDLItem[] = [
     "description": "Parsed from official DrivenData listing. Deadline is read from the card end-date tooltip.",
     "stage": "Deadline",
     "source": "DrivenData Competitions",
-    "type": "challenge"
+    "type": "challenge",
+    "sourceUrl": "https://www.drivendata.org/competitions/297/whats-up-docs/"
   },
   {
     "id": "drivendata-66-flu-shot-learning",
@@ -40,7 +41,8 @@ export const ddlForDataScienceDdl: DDLItem[] = [
     "description": "Parsed from official DrivenData listing. Deadline is read from the card end-date tooltip.",
     "stage": "Deadline",
     "source": "DrivenData Competitions",
-    "type": "challenge"
+    "type": "challenge",
+    "sourceUrl": "https://www.drivendata.org/competitions/66/flu-shot-learning/"
   },
   {
     "id": "drivendata-87-competition-image-classification-wildlife-conservation",
@@ -60,7 +62,8 @@ export const ddlForDataScienceDdl: DDLItem[] = [
     "description": "Parsed from official DrivenData listing. Deadline is read from the card end-date tooltip.",
     "stage": "Deadline",
     "source": "DrivenData Competitions",
-    "type": "challenge"
+    "type": "challenge",
+    "sourceUrl": "https://www.drivendata.org/competitions/87/competition-image-classification-wildlife-conservation/"
   },
   {
     "id": "drivendata-44-dengai-predicting-disease-spread",
@@ -80,7 +83,8 @@ export const ddlForDataScienceDdl: DDLItem[] = [
     "description": "Parsed from official DrivenData listing. Deadline is read from the card end-date tooltip.",
     "stage": "Deadline",
     "source": "DrivenData Competitions",
-    "type": "challenge"
+    "type": "challenge",
+    "sourceUrl": "https://www.drivendata.org/competitions/44/dengai-predicting-disease-spread/"
   },
   {
     "id": "drivendata-7-pump-it-up-data-mining-the-water-table",
@@ -100,7 +104,8 @@ export const ddlForDataScienceDdl: DDLItem[] = [
     "description": "Parsed from official DrivenData listing. Deadline is read from the card end-date tooltip.",
     "stage": "Deadline",
     "source": "DrivenData Competitions",
-    "type": "challenge"
+    "type": "challenge",
+    "sourceUrl": "https://www.drivendata.org/competitions/7/pump-it-up-data-mining-the-water-table/"
   },
   {
     "id": "drivendata-57-nepal-earthquake",
@@ -120,6 +125,7 @@ export const ddlForDataScienceDdl: DDLItem[] = [
     "description": "Parsed from official DrivenData listing. Deadline is read from the card end-date tooltip.",
     "stage": "Deadline",
     "source": "DrivenData Competitions",
-    "type": "challenge"
+    "type": "challenge",
+    "sourceUrl": "https://www.drivendata.org/competitions/57/nepal-earthquake/"
   }
 ];

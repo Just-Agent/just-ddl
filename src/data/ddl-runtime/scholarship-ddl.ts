@@ -18,6 +18,7 @@ export const ddlForScholarshipDdl: DDLItem[] = [
     "description": "Parsed from the official Chevening application timeline.",
     "stage": "Offer deadline",
     "source": "Chevening Scholarships",
-    "type": "program"
+    "type": "program",
+    "sourceUrl": "https://www.chevening.org/scholarships/application-timeline/"
   }
 ];

@@ -18,7 +18,8 @@ export const ddlForSecurityDdl: DDLItem[] = [
     "description": "Parsed from CTFtime upcoming events. Deadline represents the event start time, not a registration deadline.",
     "stage": "upcoming",
     "source": "ctftime",
-    "type": "contest"
+    "type": "contest",
+    "sourceUrl": "https://ctftime.org/event/3277"
   },
   {
     "id": "ctftime-3205",
@@ -37,7 +38,8 @@ export const ddlForSecurityDdl: DDLItem[] = [
     "description": "Parsed from CTFtime upcoming events. Deadline represents the event start time, not a registration deadline.",
     "stage": "upcoming",
     "source": "ctftime",
-    "type": "contest"
+    "type": "contest",
+    "sourceUrl": "https://ctftime.org/event/3205"
   },
   {
     "id": "ctftime-3284",
@@ -56,7 +58,8 @@ export const ddlForSecurityDdl: DDLItem[] = [
     "description": "Parsed from CTFtime upcoming events. Deadline represents the event start time, not a registration deadline.",
     "stage": "upcoming",
     "source": "ctftime",
-    "type": "contest"
+    "type": "contest",
+    "sourceUrl": "https://ctftime.org/event/3284"
   },
   {
     "id": "ctftime-3136",
@@ -75,7 +78,8 @@ export const ddlForSecurityDdl: DDLItem[] = [
     "description": "Parsed from CTFtime upcoming events. Deadline represents the event start time, not a registration deadline.",
     "stage": "upcoming",
     "source": "ctftime",
-    "type": "contest"
+    "type": "contest",
+    "sourceUrl": "https://ctftime.org/event/3136"
   },
   {
     "id": "ctftime-3271",
@@ -94,7 +98,8 @@ export const ddlForSecurityDdl: DDLItem[] = [
     "description": "Parsed from CTFtime upcoming events. Deadline represents the event start time, not a registration deadline.",
     "stage": "upcoming",
     "source": "ctftime",
-    "type": "contest"
+    "type": "contest",
+    "sourceUrl": "https://ctftime.org/event/3271"
   },
   {
     "id": "ctftime-3270",
@@ -113,7 +118,8 @@ export const ddlForSecurityDdl: DDLItem[] = [
     "description": "Parsed from CTFtime upcoming events. Deadline represents the event start time, not a registration deadline.",
     "stage": "upcoming",
     "source": "ctftime",
-    "type": "contest"
+    "type": "contest",
+    "sourceUrl": "https://ctftime.org/event/3270"
   },
   {
     "id": "ctftime-3174",
@@ -132,7 +138,8 @@ export const ddlForSecurityDdl: DDLItem[] = [
     "description": "Parsed from CTFtime upcoming events. Deadline represents the event start time, not a registration deadline.",
     "stage": "upcoming",
     "source": "ctftime",
-    "type": "contest"
+    "type": "contest",
+    "sourceUrl": "https://ctftime.org/event/3174"
   },
   {
     "id": "ctftime-3209",
@@ -151,7 +158,8 @@ export const ddlForSecurityDdl: DDLItem[] = [
     "description": "Parsed from CTFtime upcoming events. Deadline represents the event start time, not a registration deadline.",
     "stage": "upcoming",
     "source": "ctftime",
-    "type": "contest"
+    "type": "contest",
+    "sourceUrl": "https://ctftime.org/event/3209"
   },
   {
     "id": "ctftime-3247",
@@ -170,7 +178,8 @@ export const ddlForSecurityDdl: DDLItem[] = [
     "description": "Parsed from CTFtime upcoming events. Deadline represents the event start time, not a registration deadline.",
     "stage": "upcoming",
     "source": "ctftime",
-    "type": "contest"
+    "type": "contest",
+    "sourceUrl": "https://ctftime.org/event/3247"
   },
   {
     "id": "ctftime-3178",
@@ -189,7 +198,8 @@ export const ddlForSecurityDdl: DDLItem[] = [
     "description": "Parsed from CTFtime upcoming events. Deadline represents the event start time, not a registration deadline.",
     "stage": "upcoming",
     "source": "ctftime",
-    "type": "contest"
+    "type": "contest",
+    "sourceUrl": "https://ctftime.org/event/3178"
   },
   {
     "id": "ctftime-3220",
@@ -208,7 +218,8 @@ export const ddlForSecurityDdl: DDLItem[] = [
     "description": "Parsed from CTFtime upcoming events. Deadline represents the event start time, not a registration deadline.",
     "stage": "upcoming",
     "source": "ctftime",
-    "type": "contest"
+    "type": "contest",
+    "sourceUrl": "https://ctftime.org/event/3220"
   },
   {
     "id": "ctftime-3243",
@@ -227,7 +238,8 @@ export const ddlForSecurityDdl: DDLItem[] = [
     "description": "Parsed from CTFtime upcoming events. Deadline represents the event start time, not a registration deadline.",
     "stage": "upcoming",
     "source": "ctftime",
-    "type": "contest"
+    "type": "contest",
+    "sourceUrl": "https://ctftime.org/event/3243"
   },
   {
     "id": "security-ddl-def-con-ctf-qualifier-2026-07-01",
@@ -246,7 +258,8 @@ export const ddlForSecurityDdl: DDLItem[] = [
     "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
     "stage": "Source board",
     "source": "DEF CON",
-    "type": "contest"
+    "type": "contest",
+    "sourceUrl": "https://defcon.org"
   },
   {
     "id": "security-ddl-google-ctf-2026-2026-07-19",
@@ -265,7 +278,8 @@ export const ddlForSecurityDdl: DDLItem[] = [
     "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
     "stage": "Source board",
     "source": "Google CTF",
-    "type": "contest"
+    "type": "contest",
+    "sourceUrl": "https://capturetheflag.withgoogle.com"
   },
   {
     "id": "security-ddl-hack-the-box-business-ctf-2026-08-06",
@@ -284,7 +298,8 @@ export const ddlForSecurityDdl: DDLItem[] = [
     "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
     "stage": "Source board",
     "source": "Hack The Box CTF",
-    "type": "contest"
+    "type": "contest",
+    "sourceUrl": "https://ctf.hackthebox.com"
   },
   {
     "id": "security-ddl-seccon-ctf-quals-2026-08-24",
@@ -303,7 +318,8 @@ export const ddlForSecurityDdl: DDLItem[] = [
     "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
     "stage": "Source board",
     "source": "SECCON",
-    "type": "contest"
+    "type": "contest",
+    "sourceUrl": "https://www.seccon.jp"
   },
   {
     "id": "security-ddl-hitcon-ctf-2026-09-11",
@@ -322,7 +338,8 @@ export const ddlForSecurityDdl: DDLItem[] = [
     "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
     "stage": "Source board",
     "source": "HITCON CTF",
-    "type": "contest"
+    "type": "contest",
+    "sourceUrl": "https://ctf.hitcon.org"
   },
   {
     "id": "security-ddl-pwn2own-entry-window-2026-09-29",
@@ -341,7 +358,8 @@ export const ddlForSecurityDdl: DDLItem[] = [
     "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
     "stage": "Source board",
     "source": "Zero Day Initiative",
-    "type": "contest"
+    "type": "contest",
+    "sourceUrl": "https://www.zerodayinitiative.com"
   },
   {
     "id": "security-ddl-black-hat-arsenal-submission-2026-10-17",
@@ -360,7 +378,8 @@ export const ddlForSecurityDdl: DDLItem[] = [
     "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
     "stage": "Source board",
     "source": "Black Hat",
-    "type": "contest"
+    "type": "contest",
+    "sourceUrl": "https://www.blackhat.com"
   },
   {
     "id": "security-ddl-usenix-security-artifact-evaluation-2026-11-04",
@@ -379,7 +398,8 @@ export const ddlForSecurityDdl: DDLItem[] = [
     "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
     "stage": "Source board",
     "source": "USENIX Conferences",
-    "type": "contest"
+    "type": "contest",
+    "sourceUrl": "https://www.usenix.org/conferences"
   },
   {
     "id": "security-ddl-blue-team-village-challenge-2026-11-22",
@@ -398,7 +418,8 @@ export const ddlForSecurityDdl: DDLItem[] = [
     "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
     "stage": "Source board",
     "source": "ctftime.org",
-    "type": "contest"
+    "type": "contest",
+    "sourceUrl": "https://ctftime.org"
   },
   {
     "id": "security-ddl-bug-bounty-quarterly-review-2026-12-10",
@@ -417,7 +438,8 @@ export const ddlForSecurityDdl: DDLItem[] = [
     "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
     "stage": "Source board",
     "source": "HackerOne Hacktivity",
-    "type": "contest"
+    "type": "contest",
+    "sourceUrl": "https://hackerone.com/hacktivity"
   },
   {
     "id": "security-ddl-real-world-crypto-paper-2026-12-28",
@@ -436,7 +458,8 @@ export const ddlForSecurityDdl: DDLItem[] = [
     "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
     "stage": "Source board",
     "source": "Real World Crypto",
-    "type": "contest"
+    "type": "contest",
+    "sourceUrl": "https://rwc.iacr.org"
   },
   {
     "id": "security-ddl-s-p-workshop-paper-2027-01-15",
@@ -455,7 +478,8 @@ export const ddlForSecurityDdl: DDLItem[] = [
     "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
     "stage": "Source board",
     "source": "ctftime.org",
-    "type": "contest"
+    "type": "contest",
+    "sourceUrl": "https://ctftime.org"
   },
   {
     "id": "security-ddl-cyber-defense-exercise-registration-2027-02-02",
@@ -474,7 +498,8 @@ export const ddlForSecurityDdl: DDLItem[] = [
     "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
     "stage": "Source board",
     "source": "ctftime.org",
-    "type": "contest"
+    "type": "contest",
+    "sourceUrl": "https://ctftime.org"
   },
   {
     "id": "security-ddl-mobile-security-challenge-2027-02-20",
@@ -493,7 +518,8 @@ export const ddlForSecurityDdl: DDLItem[] = [
     "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
     "stage": "Source board",
     "source": "ctftime.org",
-    "type": "contest"
+    "type": "contest",
+    "sourceUrl": "https://ctftime.org"
   },
   {
     "id": "security-ddl-iot-security-testbed-sprint-2027-03-10",
@@ -512,7 +538,8 @@ export const ddlForSecurityDdl: DDLItem[] = [
     "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
     "stage": "Source board",
     "source": "ctftime.org",
-    "type": "contest"
+    "type": "contest",
+    "sourceUrl": "https://ctftime.org"
   },
   {
     "id": "security-ddl-cloud-native-security-hackathon-2027-03-28",
@@ -531,6 +558,7 @@ export const ddlForSecurityDdl: DDLItem[] = [
     "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
     "stage": "Source board",
     "source": "ctftime.org",
-    "type": "contest"
+    "type": "contest",
+    "sourceUrl": "https://ctftime.org"
   }
 ];

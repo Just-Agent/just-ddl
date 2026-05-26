@@ -15,9 +15,10 @@ export const ddlForMultimodalDdl: DDLItem[] = [
     "url": "https://visualqa.org",
     "status": "upcoming",
     "stage": "Submission",
-    "source": "Benchmark public source",
+    "source": "官方评测入口",
     "type": "challenge",
-    "description": "视觉问答评测入口。"
+    "description": "视觉问答评测入口。",
+    "sourceUrl": "https://visualqa.org"
   },
   {
     "id": "multimodal-ddl-textvqa-refresh-2026-08-01",
@@ -33,9 +34,10 @@ export const ddlForMultimodalDdl: DDLItem[] = [
     "url": "https://textvqa.org",
     "status": "upcoming",
     "stage": "Result upload",
-    "source": "Benchmark public source",
+    "source": "官方评测入口",
     "type": "challenge",
-    "description": "OCR + VQA 评测入口。"
+    "description": "OCR + VQA 评测入口。",
+    "sourceUrl": "https://textvqa.org"
   },
   {
     "id": "multimodal-ddl-mmmu-challenge-2026-2026-08-15",
@@ -51,9 +53,10 @@ export const ddlForMultimodalDdl: DDLItem[] = [
     "url": "https://mmmu-benchmark.github.io",
     "status": "upcoming",
     "stage": "Leaderboard",
-    "source": "Benchmark public source",
+    "source": "官方评测入口",
     "type": "challenge",
-    "description": "多模态理解 benchmark 入口。"
+    "description": "多模态理解 benchmark 入口。",
+    "sourceUrl": "https://mmmu-benchmark.github.io"
   },
   {
     "id": "multimodal-ddl-image-captioning-challenge-2026-08-28",
@@ -71,7 +74,8 @@ export const ddlForMultimodalDdl: DDLItem[] = [
     "stage": "Submission",
     "source": "人工整理的官方来源入口",
     "type": "challenge",
-    "description": "图像描述挑战入口。"
+    "description": "图像描述挑战入口。",
+    "sourceUrl": "https://cocodataset.org"
   },
   {
     "id": "multimodal-ddl-mmlu-pro-vision-reasoning-track-2026-09-18",
@@ -89,7 +93,8 @@ export const ddlForMultimodalDdl: DDLItem[] = [
     "stage": "Leaderboard",
     "source": "人工整理的官方来源入口",
     "type": "challenge",
-    "description": "多模态推理榜单入口。"
+    "description": "多模态推理榜单入口。",
+    "sourceUrl": "https://www.kaggle.com/competitions"
   },
   {
     "id": "multimodal-ddl-video-captioning-challenge-2026-09-25",
@@ -107,7 +112,8 @@ export const ddlForMultimodalDdl: DDLItem[] = [
     "stage": "Submission",
     "source": "人工整理的官方来源入口",
     "type": "challenge",
-    "description": "视频描述挑战入口。"
+    "description": "视频描述挑战入口。",
+    "sourceUrl": "https://www.kaggle.com/competitions"
   },
   {
     "id": "multimodal-ddl-aigc-evaluation-2026-2026-09-30",
@@ -123,9 +129,10 @@ export const ddlForMultimodalDdl: DDLItem[] = [
     "url": "https://www.kaggle.com/competitions",
     "status": "upcoming",
     "stage": "Final submit",
-    "source": "Kaggle competitions public source",
+    "source": "官方评测入口",
     "type": "challenge",
-    "description": "生成式 AI 评测入口。"
+    "description": "生成式 AI 评测入口。",
+    "sourceUrl": "https://www.kaggle.com/competitions"
   },
   {
     "id": "multimodal-ddl-video-mme-leaderboard-freeze-2026-10-12",
@@ -141,9 +148,10 @@ export const ddlForMultimodalDdl: DDLItem[] = [
     "url": "https://video-mme.github.io",
     "status": "upcoming",
     "stage": "Leaderboard",
-    "source": "Benchmark public source",
+    "source": "官方评测入口",
     "type": "challenge",
-    "description": "视频理解评测入口。"
+    "description": "视频理解评测入口。",
+    "sourceUrl": "https://video-mme.github.io"
   },
   {
     "id": "multimodal-ddl-chartqa-challenge-2026-10-22",
@@ -161,7 +169,8 @@ export const ddlForMultimodalDdl: DDLItem[] = [
     "stage": "Submission",
     "source": "人工整理的官方来源入口",
     "type": "challenge",
-    "description": "图表问答评测入口。"
+    "description": "图表问答评测入口。",
+    "sourceUrl": "https://github.com/vis-nlp/ChartQA"
   },
   {
     "id": "multimodal-ddl-audio-visual-scene-challenge-2026-11-05",
@@ -179,7 +188,8 @@ export const ddlForMultimodalDdl: DDLItem[] = [
     "stage": "Submission",
     "source": "人工整理的官方来源入口",
     "type": "challenge",
-    "description": "音视频多模态挑战入口。"
+    "description": "音视频多模态挑战入口。",
+    "sourceUrl": "https://www.kaggle.com/competitions"
   },
   {
     "id": "multimodal-ddl-docvqa-task-refresh-2026-11-18",
@@ -197,7 +207,8 @@ export const ddlForMultimodalDdl: DDLItem[] = [
     "stage": "Result upload",
     "source": "人工整理的官方来源入口",
     "type": "challenge",
-    "description": "文档问答评测入口。"
+    "description": "文档问答评测入口。",
+    "sourceUrl": "https://rrc.cvc.uab.es/?ch=17"
   },
   {
     "id": "multimodal-ddl-cvpr-vlm-workshop-paper-2026-12-01",
@@ -215,7 +226,8 @@ export const ddlForMultimodalDdl: DDLItem[] = [
     "stage": "Workshop paper",
     "source": "人工整理的官方来源入口",
     "type": "program",
-    "description": "VLM workshop paper 入口。"
+    "description": "VLM workshop paper 入口。",
+    "sourceUrl": "https://cvpr.thecvf.com"
   },
   {
     "id": "multimodal-ddl-mmbench-leaderboard-snapshot-2026-12-12",
@@ -233,7 +245,8 @@ export const ddlForMultimodalDdl: DDLItem[] = [
     "stage": "Leaderboard",
     "source": "人工整理的官方来源入口",
     "type": "challenge",
-    "description": "多模态综合评测入口。"
+    "description": "多模态综合评测入口。",
+    "sourceUrl": "https://opencompass.org.cn/leaderboard-multimodal"
   },
   {
     "id": "multimodal-ddl-multimodal-safety-red-team-2026-12-20",
@@ -251,7 +264,8 @@ export const ddlForMultimodalDdl: DDLItem[] = [
     "stage": "Report",
     "source": "人工整理的官方来源入口",
     "type": "challenge",
-    "description": "多模态安全评测入口。"
+    "description": "多模态安全评测入口。",
+    "sourceUrl": "https://openreview.net/"
   },
   {
     "id": "multimodal-ddl-llava-bench-refresh-2027-01-05",
@@ -269,7 +283,8 @@ export const ddlForMultimodalDdl: DDLItem[] = [
     "stage": "Evaluation",
     "source": "人工整理的官方来源入口",
     "type": "challenge",
-    "description": "VLM 对话能力评测入口。"
+    "description": "VLM 对话能力评测入口。",
+    "sourceUrl": "https://llava-vl.github.io"
   },
   {
     "id": "multimodal-ddl-acl-multimodal-nlp-workshop-2027-01-25",
@@ -287,7 +302,8 @@ export const ddlForMultimodalDdl: DDLItem[] = [
     "stage": "Paper",
     "source": "人工整理的官方来源入口",
     "type": "program",
-    "description": "多模态 NLP workshop 入口。"
+    "description": "多模态 NLP workshop 入口。",
+    "sourceUrl": "https://www.aclweb.org"
   },
   {
     "id": "multimodal-ddl-speech-to-image-evaluation-track-2027-02-08",
@@ -305,7 +321,8 @@ export const ddlForMultimodalDdl: DDLItem[] = [
     "stage": "Submission",
     "source": "人工整理的官方来源入口",
     "type": "challenge",
-    "description": "语音到图像生成评测入口。"
+    "description": "语音到图像生成评测入口。",
+    "sourceUrl": "https://www.kaggle.com/competitions"
   },
   {
     "id": "multimodal-ddl-robotics-vla-benchmark-2027-03-10",
@@ -323,6 +340,7 @@ export const ddlForMultimodalDdl: DDLItem[] = [
     "stage": "Leaderboard",
     "source": "人工整理的官方来源入口",
     "type": "challenge",
-    "description": "视觉-语言-动作模型评测入口。"
+    "description": "视觉-语言-动作模型评测入口。",
+    "sourceUrl": "https://openreview.net/"
   }
 ];

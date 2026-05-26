@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-25T23:04:19.374Z",
-  "dataVersion": "65b78becb1005ce4",
+  "generatedAt": "2026-05-26T01:07:11.250Z",
+  "dataVersion": "0784691de0f1f631",
   "topic": {
     "id": "open-source-ddl",
     "name": "Open Source",
@@ -35,6 +35,7 @@
       "status": "upcoming",
       "stage": "Milestone",
       "source": "Google Summer of Code",
+      "sourceUrl": "https://developers.google.com/open-source/gsoc/timeline?hl=en",
       "type": "program",
       "description": "Parsed from the official GSoC 2026 timeline. Milestone event."
     },
@@ -54,6 +55,7 @@
       "status": "upcoming",
       "stage": "Milestone",
       "source": "Google Summer of Code",
+      "sourceUrl": "https://developers.google.com/open-source/gsoc/timeline?hl=en",
       "type": "program",
       "description": "Parsed from the official GSoC 2026 timeline. Milestone event."
     },
@@ -74,6 +76,7 @@
       "status": "upcoming",
       "stage": "Source board",
       "source": "Google Summer of Code",
+      "sourceUrl": "https://summerofcode.withgoogle.com",
       "type": "program",
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。"
     },
@@ -93,6 +96,7 @@
       "status": "upcoming",
       "stage": "Milestone",
       "source": "Google Summer of Code",
+      "sourceUrl": "https://developers.google.com/open-source/gsoc/timeline?hl=en",
       "type": "program",
       "description": "Parsed from the official GSoC 2026 timeline. Milestone event."
     },
@@ -112,6 +116,7 @@
       "status": "upcoming",
       "stage": "Deadline",
       "source": "Google Summer of Code",
+      "sourceUrl": "https://developers.google.com/open-source/gsoc/timeline?hl=en",
       "type": "program",
       "description": "Parsed from the official GSoC 2026 timeline. Deadline event."
     },
@@ -132,6 +137,7 @@
       "status": "upcoming",
       "stage": "Source board",
       "source": "Google Summer of Code",
+      "sourceUrl": "https://summerofcode.withgoogle.com",
       "type": "program",
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。"
     },
@@ -152,6 +158,7 @@
       "status": "upcoming",
       "stage": "Source board",
       "source": "开源之夏",
+      "sourceUrl": "https://summer-ospp.ac.cn",
       "type": "program",
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。"
     },
@@ -171,6 +178,7 @@
       "status": "upcoming",
       "stage": "Milestone",
       "source": "Google Summer of Code",
+      "sourceUrl": "https://developers.google.com/open-source/gsoc/timeline?hl=en",
       "type": "program",
       "description": "Parsed from the official GSoC 2026 timeline. Milestone event."
     },
@@ -191,6 +199,7 @@
       "status": "upcoming",
       "stage": "Source board",
       "source": "LFX Mentorship",
+      "sourceUrl": "https://lfx.linuxfoundation.org/tools/mentorship/",
       "type": "program",
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。"
     },
@@ -210,6 +219,7 @@
       "status": "upcoming",
       "stage": "Deadline",
       "source": "Google Summer of Code",
+      "sourceUrl": "https://developers.google.com/open-source/gsoc/timeline?hl=en",
       "type": "program",
       "description": "Parsed from the official GSoC 2026 timeline. Deadline event."
     },
@@ -229,6 +239,7 @@
       "status": "upcoming",
       "stage": "Deadline",
       "source": "Google Summer of Code",
+      "sourceUrl": "https://developers.google.com/open-source/gsoc/timeline?hl=en",
       "type": "program",
       "description": "Parsed from the official GSoC 2026 timeline. Deadline event."
     },
@@ -249,6 +260,7 @@
       "status": "upcoming",
       "stage": "Source board",
       "source": "Outreachy",
+      "sourceUrl": "https://www.outreachy.org",
       "type": "program",
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。"
     },
@@ -269,6 +281,7 @@
       "status": "upcoming",
       "stage": "Source board",
       "source": "summerofcode.withgoogle.com",
+      "sourceUrl": "https://summerofcode.withgoogle.com",
       "type": "program",
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。"
     },
@@ -289,6 +302,7 @@
       "status": "upcoming",
       "stage": "Source board",
       "source": "NumFOCUS Grants",
+      "sourceUrl": "https://numfocus.org/programs/small-development-grants",
       "type": "program",
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。"
     },
@@ -308,6 +322,7 @@
       "status": "upcoming",
       "stage": "Deadline",
       "source": "Google Summer of Code",
+      "sourceUrl": "https://developers.google.com/open-source/gsoc/timeline?hl=en",
       "type": "program",
       "description": "Parsed from the official GSoC 2026 timeline. Deadline event."
     },
@@ -327,6 +342,7 @@
       "status": "upcoming",
       "stage": "Milestone",
       "source": "Google Summer of Code",
+      "sourceUrl": "https://developers.google.com/open-source/gsoc/timeline?hl=en",
       "type": "program",
       "description": "Parsed from the official GSoC 2026 timeline. Milestone event."
     },
@@ -347,6 +363,7 @@
       "status": "upcoming",
       "stage": "Source board",
       "source": "summerofcode.withgoogle.com",
+      "sourceUrl": "https://summerofcode.withgoogle.com",
       "type": "program",
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。"
     },
@@ -366,6 +383,7 @@
       "status": "upcoming",
       "stage": "Deadline",
       "source": "Google Summer of Code",
+      "sourceUrl": "https://developers.google.com/open-source/gsoc/timeline?hl=en",
       "type": "program",
       "description": "Parsed from the official GSoC 2026 timeline. Deadline event."
     },
@@ -386,6 +404,7 @@
       "status": "upcoming",
       "stage": "Source board",
       "source": "summerofcode.withgoogle.com",
+      "sourceUrl": "https://summerofcode.withgoogle.com",
       "type": "program",
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。"
     },
@@ -406,6 +425,7 @@
       "status": "upcoming",
       "stage": "Source board",
       "source": "CNCF Mentoring",
+      "sourceUrl": "https://github.com/cncf/mentoring",
       "type": "program",
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。"
     },
@@ -426,6 +446,7 @@
       "status": "upcoming",
       "stage": "Source board",
       "source": "Apache Community Over Code",
+      "sourceUrl": "https://communityovercode.org",
       "type": "program",
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。"
     },
@@ -446,6 +467,7 @@
       "status": "upcoming",
       "stage": "Source board",
       "source": "PyCon US",
+      "sourceUrl": "https://us.pycon.org",
       "type": "program",
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。"
     },
@@ -466,6 +488,7 @@
       "status": "upcoming",
       "stage": "Source board",
       "source": "summerofcode.withgoogle.com",
+      "sourceUrl": "https://summerofcode.withgoogle.com",
       "type": "program",
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。"
     },
@@ -486,6 +509,7 @@
       "status": "upcoming",
       "stage": "Source board",
       "source": "summerofcode.withgoogle.com",
+      "sourceUrl": "https://summerofcode.withgoogle.com",
       "type": "program",
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。"
     },
@@ -506,6 +530,7 @@
       "status": "upcoming",
       "stage": "Source board",
       "source": "OpenSSF",
+      "sourceUrl": "https://openssf.org",
       "type": "program",
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。"
     },
@@ -526,6 +551,7 @@
       "status": "upcoming",
       "stage": "Source board",
       "source": "FOSSASIA Summit",
+      "sourceUrl": "https://summit.fossasia.org",
       "type": "program",
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。"
     }

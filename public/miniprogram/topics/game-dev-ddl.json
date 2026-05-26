@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-25T23:04:19.374Z",
-  "dataVersion": "65b78becb1005ce4",
+  "generatedAt": "2026-05-26T01:07:11.250Z",
+  "dataVersion": "0784691de0f1f631",
   "topic": {
     "id": "game-dev-ddl",
     "name": "Game Dev",
@@ -34,6 +34,7 @@
       "status": "upcoming",
       "stage": "upcoming",
       "source": "itch.io Jams",
+      "sourceUrl": "https://itch.io/jam/gdevelop-big-game-jam-9",
       "type": "contest",
       "description": "Parsed from itch.io/jams. Deadline is the jam end time."
     },
@@ -52,6 +53,7 @@
       "status": "upcoming",
       "stage": "upcoming",
       "source": "itch.io Jams",
+      "sourceUrl": "https://itch.io/jam/coolmath-game-jam-2026",
       "type": "contest",
       "description": "Parsed from itch.io/jams. Deadline is the jam end time."
     },
@@ -70,6 +72,7 @@
       "status": "upcoming",
       "stage": "upcoming",
       "source": "itch.io Jams",
+      "sourceUrl": "https://itch.io/jam/noise-jam-3",
       "type": "contest",
       "description": "Parsed from itch.io/jams. Deadline is the jam end time."
     },
@@ -88,6 +91,7 @@
       "status": "upcoming",
       "stage": "upcoming",
       "source": "itch.io Jams",
+      "sourceUrl": "https://itch.io/jam/nes-jam-2026",
       "type": "contest",
       "description": "Parsed from itch.io/jams. Deadline is computed from the listed start time plus jam duration."
     },
@@ -106,6 +110,7 @@
       "status": "upcoming",
       "stage": "upcoming",
       "source": "itch.io Jams",
+      "sourceUrl": "https://itch.io/jam/metroidvania-month-32",
       "type": "contest",
       "description": "Parsed from itch.io/jams. Deadline is the jam end time."
     },
@@ -124,6 +129,7 @@
       "status": "upcoming",
       "stage": "upcoming",
       "source": "itch.io Jams",
+      "sourceUrl": "https://itch.io/jam/comfy-jam-summer-2026",
       "type": "contest",
       "description": "Parsed from itch.io/jams. Deadline is computed from the listed start time plus jam duration."
     },
@@ -144,6 +150,7 @@
       "status": "upcoming",
       "stage": "Source board",
       "source": "Global Game Jam",
+      "sourceUrl": "https://globalgamejam.org",
       "type": "contest",
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。"
     },
@@ -162,6 +169,7 @@
       "status": "upcoming",
       "stage": "upcoming",
       "source": "itch.io Jams",
+      "sourceUrl": "https://itch.io/jam/toxic-yuri-vn-jam-2",
       "type": "contest",
       "description": "Parsed from itch.io/jams. Deadline is computed from the listed start time plus jam duration."
     },
@@ -182,6 +190,7 @@
       "status": "upcoming",
       "stage": "Source board",
       "source": "Ludum Dare",
+      "sourceUrl": "https://ldjam.com",
       "type": "contest",
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。"
     },
@@ -200,6 +209,7 @@
       "status": "upcoming",
       "stage": "upcoming",
       "source": "itch.io Jams",
+      "sourceUrl": "https://itch.io/jam/gmtk-jam-2026",
       "type": "contest",
       "description": "Parsed from itch.io/jams. Deadline is computed from the listed start time plus jam duration."
     },
@@ -220,6 +230,7 @@
       "status": "upcoming",
       "stage": "Source board",
       "source": "itch.io Jams",
+      "sourceUrl": "https://itch.io/jams",
       "type": "contest",
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。"
     },
@@ -240,6 +251,7 @@
       "status": "upcoming",
       "stage": "Source board",
       "source": "itch.io Jams",
+      "sourceUrl": "https://itch.io/jams",
       "type": "contest",
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。"
     },
@@ -258,6 +270,7 @@
       "status": "upcoming",
       "stage": "upcoming",
       "source": "itch.io Jams",
+      "sourceUrl": "https://itch.io/jam/brackeys-16",
       "type": "contest",
       "description": "Parsed from itch.io/jams. Deadline is computed from the listed start time plus jam duration."
     },
@@ -278,6 +291,7 @@
       "status": "upcoming",
       "stage": "Source board",
       "source": "Independent Games Festival",
+      "sourceUrl": "https://igf.com",
       "type": "contest",
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。"
     },
@@ -296,6 +310,7 @@
       "status": "upcoming",
       "stage": "upcoming",
       "source": "itch.io Jams",
+      "sourceUrl": "https://itch.io/jam/gbjam-14",
       "type": "contest",
       "description": "Parsed from itch.io/jams. Deadline is computed from the listed start time plus jam duration."
     },
@@ -316,6 +331,7 @@
       "status": "upcoming",
       "stage": "Source board",
       "source": "itch.io",
+      "sourceUrl": "https://itch.io/jams",
       "type": "contest",
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。"
     },
@@ -336,6 +352,7 @@
       "status": "upcoming",
       "stage": "Source board",
       "source": "Unreal Engine",
+      "sourceUrl": "https://www.unrealengine.com",
       "type": "contest",
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。"
     },
@@ -356,6 +373,7 @@
       "status": "upcoming",
       "stage": "Source board",
       "source": "Unity",
+      "sourceUrl": "https://unity.com",
       "type": "contest",
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。"
     },
@@ -376,6 +394,7 @@
       "status": "upcoming",
       "stage": "Source board",
       "source": "itch.io Jams",
+      "sourceUrl": "https://itch.io/jams",
       "type": "contest",
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。"
     },
@@ -396,6 +415,7 @@
       "status": "upcoming",
       "stage": "Source board",
       "source": "GitHub Game Off",
+      "sourceUrl": "https://itch.io/jam/game-off",
       "type": "contest",
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。"
     },
@@ -416,6 +436,7 @@
       "status": "upcoming",
       "stage": "Source board",
       "source": "A MAZE.",
+      "sourceUrl": "https://amaze-berlin.de",
       "type": "contest",
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。"
     },
@@ -436,6 +457,7 @@
       "status": "upcoming",
       "stage": "Source board",
       "source": "IndieCade",
+      "sourceUrl": "https://www.indiecade.com",
       "type": "contest",
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。"
     },
@@ -456,6 +478,7 @@
       "status": "upcoming",
       "stage": "Source board",
       "source": "Games for Change",
+      "sourceUrl": "https://www.gamesforchange.org",
       "type": "contest",
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。"
     },
@@ -476,6 +499,7 @@
       "status": "upcoming",
       "stage": "Source board",
       "source": "itch.io",
+      "sourceUrl": "https://itch.io/jams",
       "type": "contest",
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。"
     },
@@ -496,6 +520,7 @@
       "status": "upcoming",
       "stage": "Source board",
       "source": "itch.io",
+      "sourceUrl": "https://itch.io/jams",
       "type": "contest",
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。"
     },
@@ -516,6 +541,7 @@
       "status": "upcoming",
       "stage": "Source board",
       "source": "itch.io",
+      "sourceUrl": "https://itch.io/jams",
       "type": "contest",
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。"
     }

@@ -15,9 +15,10 @@ export const ddlForAcademicDdl: DDLItem[] = [
     "url": "https://neurips.cc",
     "status": "upcoming",
     "stage": "Paper",
-    "source": "会议公开来源入口",
+    "source": "官方来源入口",
     "type": "conference",
-    "description": "机器学习主会投稿入口。"
+    "description": "机器学习主会投稿入口。",
+    "sourceUrl": "https://neurips.cc"
   },
   {
     "id": "academic-ddl-vldb-2027-monthly-deadline-2026-06-01",
@@ -35,7 +36,8 @@ export const ddlForAcademicDdl: DDLItem[] = [
     "stage": "Monthly cycle",
     "source": "人工整理的官方来源入口",
     "type": "conference",
-    "description": "VLDB 月度投稿入口。"
+    "description": "VLDB 月度投稿入口。",
+    "sourceUrl": "https://vldb.org"
   },
   {
     "id": "academic-ddl-sigmod-2027-round-1-2026-07-15",
@@ -53,7 +55,8 @@ export const ddlForAcademicDdl: DDLItem[] = [
     "stage": "Round 1",
     "source": "人工整理的官方来源入口",
     "type": "conference",
-    "description": "数据库会议滚动投稿入口。"
+    "description": "数据库会议滚动投稿入口。",
+    "sourceUrl": "https://sigmod.org"
   },
   {
     "id": "academic-ddl-aaai-2027-abstract-2026-08-12",
@@ -71,7 +74,8 @@ export const ddlForAcademicDdl: DDLItem[] = [
     "stage": "Abstract",
     "source": "人工整理的官方来源入口",
     "type": "conference",
-    "description": "AAAI abstract 阶段入口。"
+    "description": "AAAI abstract 阶段入口。",
+    "sourceUrl": "https://aaai.org"
   },
   {
     "id": "academic-ddl-chi-2027-papers-2026-09-10",
@@ -89,7 +93,8 @@ export const ddlForAcademicDdl: DDLItem[] = [
     "stage": "Paper",
     "source": "人工整理的官方来源入口",
     "type": "conference",
-    "description": "人机交互会议入口。"
+    "description": "人机交互会议入口。",
+    "sourceUrl": "https://chi2027.acm.org"
   },
   {
     "id": "academic-ddl-icra-2027-paper-2026-09-15",
@@ -107,7 +112,8 @@ export const ddlForAcademicDdl: DDLItem[] = [
     "stage": "Paper",
     "source": "人工整理的官方来源入口",
     "type": "conference",
-    "description": "机器人会议入口。"
+    "description": "机器人会议入口。",
+    "sourceUrl": "https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra"
   },
   {
     "id": "academic-ddl-nsf-proposal-calendar-reminder-2026-09-30",
@@ -125,7 +131,8 @@ export const ddlForAcademicDdl: DDLItem[] = [
     "stage": "Proposal window",
     "source": "人工整理的官方来源入口",
     "type": "program",
-    "description": "科研基金/项目申请入口，后续可拆分到独立 grant-ddl。"
+    "description": "科研基金/项目申请入口，后续可拆分到独立 grant-ddl。",
+    "sourceUrl": "https://www.nsf.gov/funding"
   },
   {
     "id": "academic-ddl-iclr-2027-submission-2026-10-01",
@@ -141,9 +148,10 @@ export const ddlForAcademicDdl: DDLItem[] = [
     "url": "https://iclr.cc",
     "status": "upcoming",
     "stage": "OpenReview",
-    "source": "OpenReview public source",
+    "source": "官方来源入口",
     "type": "conference",
-    "description": "ICLR 投稿入口。"
+    "description": "ICLR 投稿入口。",
+    "sourceUrl": "https://iclr.cc"
   },
   {
     "id": "academic-ddl-www-2027-research-track-2026-10-07",
@@ -161,7 +169,8 @@ export const ddlForAcademicDdl: DDLItem[] = [
     "stage": "Paper",
     "source": "人工整理的官方来源入口",
     "type": "conference",
-    "description": "Web Conference 研究论文入口。"
+    "description": "Web Conference 研究论文入口。",
+    "sourceUrl": "https://www2027.thewebconf.org"
   },
   {
     "id": "academic-ddl-aistats-2027-paper-2026-10-08",
@@ -179,7 +188,8 @@ export const ddlForAcademicDdl: DDLItem[] = [
     "stage": "Paper",
     "source": "人工整理的官方来源入口",
     "type": "conference",
-    "description": "统计学习会议入口。"
+    "description": "统计学习会议入口。",
+    "sourceUrl": "https://aistats.org"
   },
   {
     "id": "academic-ddl-ubicomp-2027-full-paper-2026-10-20",
@@ -197,7 +207,8 @@ export const ddlForAcademicDdl: DDLItem[] = [
     "stage": "Paper",
     "source": "人工整理的官方来源入口",
     "type": "conference",
-    "description": "普适计算会议入口。"
+    "description": "普适计算会议入口。",
+    "sourceUrl": "https://ubicomp.org"
   },
   {
     "id": "academic-ddl-isca-2027-paper-2026-11-18",
@@ -215,7 +226,8 @@ export const ddlForAcademicDdl: DDLItem[] = [
     "stage": "Paper",
     "source": "人工整理的官方来源入口",
     "type": "conference",
-    "description": "计算机体系结构会议入口。"
+    "description": "计算机体系结构会议入口。",
+    "sourceUrl": "https://iscaconf.org"
   },
   {
     "id": "academic-ddl-icaps-2027-paper-2026-11-20",
@@ -233,7 +245,8 @@ export const ddlForAcademicDdl: DDLItem[] = [
     "stage": "Paper",
     "source": "人工整理的官方来源入口",
     "type": "conference",
-    "description": "规划与调度会议入口。"
+    "description": "规划与调度会议入口。",
+    "sourceUrl": "https://icaps-conference.org"
   },
   {
     "id": "academic-ddl-icml-2027-abstract-2027-01-23",
@@ -251,7 +264,8 @@ export const ddlForAcademicDdl: DDLItem[] = [
     "stage": "Abstract",
     "source": "人工整理的官方来源入口",
     "type": "conference",
-    "description": "ICML abstract 阶段入口。"
+    "description": "ICML abstract 阶段入口。",
+    "sourceUrl": "https://icml.cc"
   },
   {
     "id": "academic-ddl-rss-2027-paper-2027-01-25",
@@ -269,7 +283,8 @@ export const ddlForAcademicDdl: DDLItem[] = [
     "stage": "Paper",
     "source": "人工整理的官方来源入口",
     "type": "conference",
-    "description": "Robotics: Science and Systems 投稿入口。"
+    "description": "Robotics: Science and Systems 投稿入口。",
+    "sourceUrl": "https://roboticsconference.org"
   },
   {
     "id": "academic-ddl-sigir-2027-full-paper-2027-01-30",
@@ -287,7 +302,8 @@ export const ddlForAcademicDdl: DDLItem[] = [
     "stage": "Paper",
     "source": "人工整理的官方来源入口",
     "type": "conference",
-    "description": "信息检索会议入口。"
+    "description": "信息检索会议入口。",
+    "sourceUrl": "https://sigir.org"
   },
   {
     "id": "academic-ddl-osdi-2027-paper-2027-02-01",
@@ -305,7 +321,8 @@ export const ddlForAcademicDdl: DDLItem[] = [
     "stage": "Paper",
     "source": "人工整理的官方来源入口",
     "type": "conference",
-    "description": "系统研究会议入口。"
+    "description": "系统研究会议入口。",
+    "sourceUrl": "https://www.usenix.org/conferences"
   },
   {
     "id": "academic-ddl-kdd-2027-research-track-2027-02-04",
@@ -323,7 +340,8 @@ export const ddlForAcademicDdl: DDLItem[] = [
     "stage": "Research",
     "source": "人工整理的官方来源入口",
     "type": "conference",
-    "description": "数据挖掘会议入口。"
+    "description": "数据挖掘会议入口。",
+    "sourceUrl": "https://kdd.org"
   },
   {
     "id": "academic-ddl-uai-2027-paper-2027-02-14",
@@ -341,7 +359,8 @@ export const ddlForAcademicDdl: DDLItem[] = [
     "stage": "Paper",
     "source": "人工整理的官方来源入口",
     "type": "conference",
-    "description": "不确定性人工智能会议入口。"
+    "description": "不确定性人工智能会议入口。",
+    "sourceUrl": "https://www.auai.org/uai"
   },
   {
     "id": "academic-ddl-acm-mm-2027-paper-2027-03-31",
@@ -359,6 +378,7 @@ export const ddlForAcademicDdl: DDLItem[] = [
     "stage": "Paper",
     "source": "人工整理的官方来源入口",
     "type": "conference",
-    "description": "多媒体会议主会入口。"
+    "description": "多媒体会议主会入口。",
+    "sourceUrl": "https://acmmm.org"
   }
 ];

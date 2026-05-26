@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-25T23:04:19.374Z",
-  "dataVersion": "65b78becb1005ce4",
+  "generatedAt": "2026-05-26T01:07:11.250Z",
+  "dataVersion": "0784691de0f1f631",
   "topic": {
     "id": "cv-ddl",
     "name": "Computer Vision",
@@ -79,7 +79,7 @@
       "status": "upcoming",
       "stage": "Workshop / challenge session",
       "source": "CVPR 2026 Workshops",
-      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops",
+      "sourceUrl": "https://videoworldmodel-workshop.github.io/",
       "type": "challenge",
       "description": "Parsed from the official CVPR 2026 workshops table."
     },
@@ -101,7 +101,7 @@
       "status": "upcoming",
       "stage": "Workshop / challenge session",
       "source": "CVPR 2026 Workshops",
-      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops",
+      "sourceUrl": "https://scannetpp.mlsg.cit.tum.de/scannetpp/cvpr2026",
       "type": "challenge",
       "description": "Parsed from the official CVPR 2026 workshops table."
     },
@@ -123,7 +123,7 @@
       "status": "upcoming",
       "stage": "Workshop / challenge session",
       "source": "CVPR 2026 Workshops",
-      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops",
+      "sourceUrl": "https://sites.google.com/view/ai4rwc2026",
       "type": "challenge",
       "description": "Parsed from the official CVPR 2026 workshops table."
     },
@@ -145,7 +145,7 @@
       "status": "upcoming",
       "stage": "Workshop / challenge session",
       "source": "CVPR 2026 Workshops",
-      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops",
+      "sourceUrl": "https://gigaai-research.github.io/GigaBrain-Challenge-2026/",
       "type": "challenge",
       "description": "Parsed from the official CVPR 2026 workshops table."
     },
@@ -167,7 +167,7 @@
       "status": "upcoming",
       "stage": "Workshop / challenge session",
       "source": "CVPR 2026 Workshops",
-      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops",
+      "sourceUrl": "https://mmfm-biomed.github.io/",
       "type": "challenge",
       "description": "Parsed from the official CVPR 2026 workshops table."
     },
@@ -189,7 +189,7 @@
       "status": "upcoming",
       "stage": "Workshop / challenge session",
       "source": "CVPR 2026 Workshops",
-      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops",
+      "sourceUrl": "https://sites.google.com/view/svc-cvpr26",
       "type": "challenge",
       "description": "Parsed from the official CVPR 2026 workshops table."
     },
@@ -211,7 +211,7 @@
       "status": "upcoming",
       "stage": "Workshop / challenge session",
       "source": "CVPR 2026 Workshops",
-      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops",
+      "sourceUrl": "https://ai4va-cvpr.github.io/",
       "type": "challenge",
       "description": "Parsed from the official CVPR 2026 workshops table."
     },
@@ -233,7 +233,7 @@
       "status": "upcoming",
       "stage": "Workshop / challenge session",
       "source": "CVPR 2026 Workshops",
-      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops",
+      "sourceUrl": "https://ai4va-cvpr.github.io/",
       "type": "challenge",
       "description": "Parsed from the official CVPR 2026 workshops table."
     },
@@ -255,7 +255,7 @@
       "status": "upcoming",
       "stage": "Workshop / challenge session",
       "source": "CVPR 2026 Workshops",
-      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops",
+      "sourceUrl": "https://sites.google.com/view/datacv-2026-cvpr/",
       "type": "challenge",
       "description": "Parsed from the official CVPR 2026 workshops table."
     },
@@ -277,7 +277,7 @@
       "status": "upcoming",
       "stage": "Workshop / challenge session",
       "source": "CVPR 2026 Workshops",
-      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops",
+      "sourceUrl": "https://sites.google.com/view/datacv-2026-cvpr/",
       "type": "challenge",
       "description": "Parsed from the official CVPR 2026 workshops table."
     },
@@ -299,7 +299,7 @@
       "status": "upcoming",
       "stage": "Workshop / challenge session",
       "source": "CVPR 2026 Workshops",
-      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops",
+      "sourceUrl": "https://www.agriculture-vision.com/",
       "type": "challenge",
       "description": "Parsed from the official CVPR 2026 workshops table."
     },
@@ -321,6 +321,7 @@
       "status": "upcoming",
       "stage": "Workshop / challenge session",
       "source": "CVPR 2026 Workshops",
+      "sourceUrl": "https://cvpr26wmas.github.io/",
       "type": "challenge",
       "description": "Parsed from the official CVPR 2026 workshops table."
     },
@@ -342,7 +343,7 @@
       "status": "upcoming",
       "stage": "Workshop / challenge session",
       "source": "CVPR 2026 Workshops",
-      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops",
+      "sourceUrl": "https://www.cvlai.net/ntire/2026/",
       "type": "challenge",
       "description": "Parsed from the official CVPR 2026 workshops table."
     },
@@ -364,7 +365,7 @@
       "status": "upcoming",
       "stage": "Workshop / challenge session",
       "source": "CVPR 2026 Workshops",
-      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops",
+      "sourceUrl": "https://ivl.cs.brown.edu/4dworldmodels/",
       "type": "challenge",
       "description": "Parsed from the official CVPR 2026 workshops table."
     },
@@ -386,7 +387,7 @@
       "status": "upcoming",
       "stage": "Workshop / challenge session",
       "source": "CVPR 2026 Workshops",
-      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops",
+      "sourceUrl": "https://ivl.cs.brown.edu/4dworldmodels/",
       "type": "challenge",
       "description": "Parsed from the official CVPR 2026 workshops table."
     },
@@ -408,7 +409,7 @@
       "status": "upcoming",
       "stage": "Workshop / challenge session",
       "source": "CVPR 2026 Workshops",
-      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops",
+      "sourceUrl": "https://www.cv4animals.com/",
       "type": "challenge",
       "description": "Parsed from the official CVPR 2026 workshops table."
     },
@@ -430,7 +431,7 @@
       "status": "upcoming",
       "stage": "Workshop / challenge session",
       "source": "CVPR 2026 Workshops",
-      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops",
+      "sourceUrl": "https://image-matching-workshop.github.io/",
       "type": "challenge",
       "description": "Parsed from the official CVPR 2026 workshops table."
     },
@@ -452,7 +453,7 @@
       "status": "upcoming",
       "stage": "Workshop / challenge session",
       "source": "CVPR 2026 Workshops",
-      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops",
+      "sourceUrl": "https://image-matching-workshop.github.io/",
       "type": "challenge",
       "description": "Parsed from the official CVPR 2026 workshops table."
     },
@@ -474,7 +475,7 @@
       "status": "upcoming",
       "stage": "Workshop / challenge session",
       "source": "CVPR 2026 Workshops",
-      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops",
+      "sourceUrl": "https://embodied-reasoning.github.io/",
       "type": "challenge",
       "description": "Parsed from the official CVPR 2026 workshops table."
     },
@@ -496,7 +497,7 @@
       "status": "upcoming",
       "stage": "Workshop / challenge session",
       "source": "CVPR 2026 Workshops",
-      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops",
+      "sourceUrl": "https://eecs.uq.edu.au/CVPR2026",
       "type": "challenge",
       "description": "Parsed from the official CVPR 2026 workshops table."
     },
@@ -518,7 +519,7 @@
       "status": "upcoming",
       "stage": "Workshop / challenge session",
       "source": "CVPR 2026 Workshops",
-      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops",
+      "sourceUrl": "https://ai-benchmark.com/workshops/mai/2026/",
       "type": "challenge",
       "description": "Parsed from the official CVPR 2026 workshops table."
     },
@@ -540,7 +541,7 @@
       "status": "upcoming",
       "stage": "Workshop / challenge session",
       "source": "CVPR 2026 Workshops",
-      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops",
+      "sourceUrl": "https://coop-intelligence.github.io/",
       "type": "challenge",
       "description": "Parsed from the official CVPR 2026 workshops table."
     },
@@ -562,7 +563,7 @@
       "status": "upcoming",
       "stage": "Workshop / challenge session",
       "source": "CVPR 2026 Workshops",
-      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops",
+      "sourceUrl": "https://pvuw.github.io/",
       "type": "challenge",
       "description": "Parsed from the official CVPR 2026 workshops table."
     },
@@ -584,7 +585,7 @@
       "status": "upcoming",
       "stage": "Workshop / challenge session",
       "source": "CVPR 2026 Workshops",
-      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops",
+      "sourceUrl": "https://pvuw.github.io/",
       "type": "challenge",
       "description": "Parsed from the official CVPR 2026 workshops table."
     },
@@ -606,7 +607,7 @@
       "status": "upcoming",
       "stage": "Workshop / challenge session",
       "source": "CVPR 2026 Workshops",
-      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops",
+      "sourceUrl": "https://cvpr2026ug2challenge.github.io/",
       "type": "challenge",
       "description": "Parsed from the official CVPR 2026 workshops table."
     },
@@ -628,7 +629,7 @@
       "status": "upcoming",
       "stage": "Workshop / challenge session",
       "source": "CVPR 2026 Workshops",
-      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops",
+      "sourceUrl": "https://vidgen-bench-eval.github.io/",
       "type": "challenge",
       "description": "Parsed from the official CVPR 2026 workshops table."
     },
@@ -650,7 +651,7 @@
       "status": "upcoming",
       "stage": "Workshop / challenge session",
       "source": "CVPR 2026 Workshops",
-      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops",
+      "sourceUrl": "https://vizwiz.org/workshops/2026-vizwiz-grand-challenge-workshop/",
       "type": "challenge",
       "description": "Parsed from the official CVPR 2026 workshops table."
     },

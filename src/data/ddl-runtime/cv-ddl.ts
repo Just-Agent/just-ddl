@@ -14,15 +14,12 @@ export const ddlForCvDdl: DDLItem[] = [
       "2077AI"
     ],
     "url": "https://www.2077ai.com/challenge-pages/challenges.html",
-    "sourceUrl": "https://www.2077ai.com/challenge-pages/challenges.html",
-    "canonicalUrl": "https://www.2077ai.com/challenge-pages/challenges.html#cvpr2077ai-2077ai-rising-star-award-may-22-2026",
     "status": "upcoming",
     "description": "Parsed from the official 2077AI CVPR 2026 challenge page.",
     "stage": "Award application deadline",
     "source": "2077AI CVPR 2026 Challenges",
-    "sourceLabel": "官方挑战页面",
-    "verificationLevel": "official_event_page",
-    "type": "challenge"
+    "type": "challenge",
+    "sourceUrl": "https://www.2077ai.com/challenge-pages/challenges.html"
   },
   {
     "id": "cvpr2077ai-2077ai-datamfm-challenge-may-29-2026",
@@ -37,15 +34,12 @@ export const ddlForCvDdl: DDLItem[] = [
       "2077AI"
     ],
     "url": "https://www.2077ai.com/challenge-pages/challenges.html",
-    "sourceUrl": "https://www.2077ai.com/challenge-pages/challenges.html",
-    "canonicalUrl": "https://www.2077ai.com/challenge-pages/challenges.html#cvpr2077ai-2077ai-datamfm-challenge-may-29-2026",
     "status": "upcoming",
     "description": "Parsed from the official 2077AI CVPR 2026 challenge page.",
     "stage": "Submission deadline",
     "source": "2077AI CVPR 2026 Challenges",
-    "sourceLabel": "官方挑战页面",
-    "verificationLevel": "official_event_page",
-    "type": "challenge"
+    "type": "challenge",
+    "sourceUrl": "https://www.2077ai.com/challenge-pages/challenges.html"
   },
   {
     "id": "cvpr2026-cvpr-2026-1st-workshop-on-video-world-models-interaction-memory-and-efficiency-june-3-2026",
@@ -61,15 +55,12 @@ export const ddlForCvDdl: DDLItem[] = [
       "VideoWorldModel"
     ],
     "url": "https://videoworldmodel-workshop.github.io/",
-    "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops",
-    "canonicalUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops#cvpr2026-cvpr-2026-1st-workshop-on-video-world-models-interaction-memory-and-efficiency-june-3-2026",
     "status": "upcoming",
     "description": "Parsed from the official CVPR 2026 workshops table.",
     "stage": "Workshop / challenge session",
     "source": "CVPR 2026 Workshops",
-    "sourceLabel": "官方工作坊列表",
-    "verificationLevel": "official_event_page",
-    "type": "challenge"
+    "type": "challenge",
+    "sourceUrl": "https://videoworldmodel-workshop.github.io/"
   },
   {
     "id": "cvpr2026-cvpr-2026-3rd-workshop-on-scannet-novel-view-synthesis-and-3d-semantic-understanding-chall",
@@ -85,15 +76,12 @@ export const ddlForCvDdl: DDLItem[] = [
       "ScanNet++"
     ],
     "url": "https://scannetpp.mlsg.cit.tum.de/scannetpp/cvpr2026",
-    "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops",
-    "canonicalUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops#cvpr2026-cvpr-2026-3rd-workshop-on-scannet-novel-view-synthesis-and-3d-semantic-understanding-chall",
     "status": "upcoming",
     "description": "Parsed from the official CVPR 2026 workshops table.",
     "stage": "Workshop / challenge session",
     "source": "CVPR 2026 Workshops",
-    "sourceLabel": "官方工作坊列表",
-    "verificationLevel": "official_event_page",
-    "type": "challenge"
+    "type": "challenge",
+    "sourceUrl": "https://scannetpp.mlsg.cit.tum.de/scannetpp/cvpr2026"
   },
   {
     "id": "cvpr2026-cvpr-2026-ai4rwc-the-2nd-international-workshop-on-vision-intelligence-for-real-world-chal",
@@ -109,15 +97,12 @@ export const ddlForCvDdl: DDLItem[] = [
       "AI4RWC"
     ],
     "url": "https://sites.google.com/view/ai4rwc2026",
-    "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops",
-    "canonicalUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops#cvpr2026-cvpr-2026-ai4rwc-the-2nd-international-workshop-on-vision-intelligence-for-real-world-chal",
     "status": "upcoming",
     "description": "Parsed from the official CVPR 2026 workshops table.",
     "stage": "Workshop / challenge session",
     "source": "CVPR 2026 Workshops",
-    "sourceLabel": "官方工作坊列表",
-    "verificationLevel": "official_event_page",
-    "type": "challenge"
+    "type": "challenge",
+    "sourceUrl": "https://sites.google.com/view/ai4rwc2026"
   },
   {
     "id": "cvpr2026-cvpr-2026-gigabrain-challenge-2026-workshop-on-world-models-empowering-vision-language-act",
@@ -133,15 +118,12 @@ export const ddlForCvDdl: DDLItem[] = [
       "GigaBrain Challenge"
     ],
     "url": "https://gigaai-research.github.io/GigaBrain-Challenge-2026/",
-    "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops",
-    "canonicalUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops#cvpr2026-cvpr-2026-gigabrain-challenge-2026-workshop-on-world-models-empowering-vision-language-act",
     "status": "upcoming",
     "description": "Parsed from the official CVPR 2026 workshops table.",
     "stage": "Workshop / challenge session",
     "source": "CVPR 2026 Workshops",
-    "sourceLabel": "官方工作坊列表",
-    "verificationLevel": "official_event_page",
-    "type": "challenge"
+    "type": "challenge",
+    "sourceUrl": "https://gigaai-research.github.io/GigaBrain-Challenge-2026/"
   },
   {
     "id": "cvpr2026-cvpr-2026-multimodal-foundation-models-for-biomedicine-challenges-and-opportunities-june-3",
@@ -157,15 +139,12 @@ export const ddlForCvDdl: DDLItem[] = [
       "MMFM-BIOMED"
     ],
     "url": "https://mmfm-biomed.github.io/",
-    "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops",
-    "canonicalUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops#cvpr2026-cvpr-2026-multimodal-foundation-models-for-biomedicine-challenges-and-opportunities-june-3",
     "status": "upcoming",
     "description": "Parsed from the official CVPR 2026 workshops table.",
     "stage": "Workshop / challenge session",
     "source": "CVPR 2026 Workshops",
-    "sourceLabel": "官方工作坊列表",
-    "verificationLevel": "official_event_page",
-    "type": "challenge"
+    "type": "challenge",
+    "sourceUrl": "https://mmfm-biomed.github.io/"
   },
   {
     "id": "cvpr2026-cvpr-2026-the-2nd-international-workshop-challenge-on-subtle-visual-computing-cvpr-2026-ju",
@@ -181,15 +160,12 @@ export const ddlForCvDdl: DDLItem[] = [
       "SVC"
     ],
     "url": "https://sites.google.com/view/svc-cvpr26",
-    "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops",
-    "canonicalUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops#cvpr2026-cvpr-2026-the-2nd-international-workshop-challenge-on-subtle-visual-computing-cvpr-2026-ju",
     "status": "upcoming",
     "description": "Parsed from the official CVPR 2026 workshops table.",
     "stage": "Workshop / challenge session",
     "source": "CVPR 2026 Workshops",
-    "sourceLabel": "官方工作坊列表",
-    "verificationLevel": "official_event_page",
-    "type": "challenge"
+    "type": "challenge",
+    "sourceUrl": "https://sites.google.com/view/svc-cvpr26"
   },
   {
     "id": "cvpr2026-cvpr-2026-the-3rd-ai-for-visual-arts-workshop-and-challenges-june-3-2026-wed-half-day",
@@ -210,10 +186,7 @@ export const ddlForCvDdl: DDLItem[] = [
     "stage": "Workshop / challenge session",
     "source": "CVPR 2026 Workshops",
     "type": "challenge",
-    "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops",
-    "canonicalUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops#cvpr2026-cvpr-2026-the-3rd-ai-for-visual-arts-workshop-and-challenges-june-3-2026-wed-half-day",
-    "sourceLabel": "官方工作坊列表",
-    "verificationLevel": "official_event_page"
+    "sourceUrl": "https://ai4va-cvpr.github.io/"
   },
   {
     "id": "cvpr2026-cvpr-2026-the-3rd-ai-for-visual-arts-workshop-and-challenges-june-3-2026-wed-am",
@@ -229,15 +202,12 @@ export const ddlForCvDdl: DDLItem[] = [
       "AI4VA"
     ],
     "url": "https://ai4va-cvpr.github.io/",
-    "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops",
-    "canonicalUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops#cvpr2026-cvpr-2026-the-3rd-ai-for-visual-arts-workshop-and-challenges-june-3-2026-wed-am",
     "status": "upcoming",
     "description": "Parsed from the official CVPR 2026 workshops table.",
     "stage": "Workshop / challenge session",
     "source": "CVPR 2026 Workshops",
-    "sourceLabel": "官方工作坊列表",
-    "verificationLevel": "official_event_page",
-    "type": "challenge"
+    "type": "challenge",
+    "sourceUrl": "https://ai4va-cvpr.github.io/"
   },
   {
     "id": "cvpr2026-cvpr-2026-the-5th-datacv-workshop-and-challenge-june-3-2026-wed-half-day",
@@ -258,10 +228,7 @@ export const ddlForCvDdl: DDLItem[] = [
     "stage": "Workshop / challenge session",
     "source": "CVPR 2026 Workshops",
     "type": "challenge",
-    "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops",
-    "canonicalUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops#cvpr2026-cvpr-2026-the-5th-datacv-workshop-and-challenge-june-3-2026-wed-half-day",
-    "sourceLabel": "官方工作坊列表",
-    "verificationLevel": "official_event_page"
+    "sourceUrl": "https://sites.google.com/view/datacv-2026-cvpr/"
   },
   {
     "id": "cvpr2026-cvpr-2026-the-5th-datacv-workshop-and-challenge-june-3-2026-wed-am",
@@ -277,15 +244,12 @@ export const ddlForCvDdl: DDLItem[] = [
       "DataCV"
     ],
     "url": "https://sites.google.com/view/datacv-2026-cvpr/",
-    "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops",
-    "canonicalUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops#cvpr2026-cvpr-2026-the-5th-datacv-workshop-and-challenge-june-3-2026-wed-am",
     "status": "upcoming",
     "description": "Parsed from the official CVPR 2026 workshops table.",
     "stage": "Workshop / challenge session",
     "source": "CVPR 2026 Workshops",
-    "sourceLabel": "官方工作坊列表",
-    "verificationLevel": "official_event_page",
-    "type": "challenge"
+    "type": "challenge",
+    "sourceUrl": "https://sites.google.com/view/datacv-2026-cvpr/"
   },
   {
     "id": "cvpr2026-cvpr-2026-the-7th-international-workshop-and-cvml-challenge-on-agriculture-vision-challeng",
@@ -301,15 +265,12 @@ export const ddlForCvDdl: DDLItem[] = [
       "V4A"
     ],
     "url": "https://www.agriculture-vision.com/",
-    "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops",
-    "canonicalUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops#cvpr2026-cvpr-2026-the-7th-international-workshop-and-cvml-challenge-on-agriculture-vision-challeng",
     "status": "upcoming",
     "description": "Parsed from the official CVPR 2026 workshops table.",
     "stage": "Workshop / challenge session",
     "source": "CVPR 2026 Workshops",
-    "sourceLabel": "官方工作坊列表",
-    "verificationLevel": "official_event_page",
-    "type": "challenge"
+    "type": "challenge",
+    "sourceUrl": "https://www.agriculture-vision.com/"
   },
   {
     "id": "cvpr2026-cvpr-2026-workshop-on-world-models-meet-active-sensing-and-closed-loop-planning-june-3-202",
@@ -329,9 +290,8 @@ export const ddlForCvDdl: DDLItem[] = [
     "description": "Parsed from the official CVPR 2026 workshops table.",
     "stage": "Workshop / challenge session",
     "source": "CVPR 2026 Workshops",
-    "sourceLabel": "官方工作坊列表",
-    "verificationLevel": "official_event_page",
-    "type": "challenge"
+    "type": "challenge",
+    "sourceUrl": "https://cvpr26wmas.github.io/"
   },
   {
     "id": "cvpr2026-cvpr-2026-11th-new-trends-in-image-restoration-and-enhancement-workshop-and-challenges-jun",
@@ -347,15 +307,12 @@ export const ddlForCvDdl: DDLItem[] = [
       "NTIRE"
     ],
     "url": "https://www.cvlai.net/ntire/2026/",
-    "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops",
-    "canonicalUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops#cvpr2026-cvpr-2026-11th-new-trends-in-image-restoration-and-enhancement-workshop-and-challenges-jun",
     "status": "upcoming",
     "description": "Parsed from the official CVPR 2026 workshops table.",
     "stage": "Workshop / challenge session",
     "source": "CVPR 2026 Workshops",
-    "sourceLabel": "官方工作坊列表",
-    "verificationLevel": "official_event_page",
-    "type": "challenge"
+    "type": "challenge",
+    "sourceUrl": "https://www.cvlai.net/ntire/2026/"
   },
   {
     "id": "cvpr2026-cvpr-2026-4d-world-models-bridging-generation-and-reconstruction-june-4-2026-thu-half-day",
@@ -376,10 +333,7 @@ export const ddlForCvDdl: DDLItem[] = [
     "stage": "Workshop / challenge session",
     "source": "CVPR 2026 Workshops",
     "type": "challenge",
-    "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops",
-    "canonicalUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops#cvpr2026-cvpr-2026-4d-world-models-bridging-generation-and-reconstruction-june-4-2026-thu-half-day",
-    "sourceLabel": "官方工作坊列表",
-    "verificationLevel": "official_event_page"
+    "sourceUrl": "https://ivl.cs.brown.edu/4dworldmodels/"
   },
   {
     "id": "cvpr2026-cvpr-2026-4d-world-models-bridging-generation-and-reconstruction-june-4-2026-thu-pm",
@@ -395,15 +349,12 @@ export const ddlForCvDdl: DDLItem[] = [
       "ReGen4D"
     ],
     "url": "https://ivl.cs.brown.edu/4dworldmodels/",
-    "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops",
-    "canonicalUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops#cvpr2026-cvpr-2026-4d-world-models-bridging-generation-and-reconstruction-june-4-2026-thu-pm",
     "status": "upcoming",
     "description": "Parsed from the official CVPR 2026 workshops table.",
     "stage": "Workshop / challenge session",
     "source": "CVPR 2026 Workshops",
-    "sourceLabel": "官方工作坊列表",
-    "verificationLevel": "official_event_page",
-    "type": "challenge"
+    "type": "challenge",
+    "sourceUrl": "https://ivl.cs.brown.edu/4dworldmodels/"
   },
   {
     "id": "cvpr2026-cvpr-2026-6th-workshop-on-cv4animals-computer-vision-for-animal-behavior-tracking-and-mode",
@@ -419,15 +370,12 @@ export const ddlForCvDdl: DDLItem[] = [
       "CV4Animals"
     ],
     "url": "https://www.cv4animals.com/",
-    "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops",
-    "canonicalUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops#cvpr2026-cvpr-2026-6th-workshop-on-cv4animals-computer-vision-for-animal-behavior-tracking-and-mode",
     "status": "upcoming",
     "description": "Parsed from the official CVPR 2026 workshops table.",
     "stage": "Workshop / challenge session",
     "source": "CVPR 2026 Workshops",
-    "sourceLabel": "官方工作坊列表",
-    "verificationLevel": "official_event_page",
-    "type": "challenge"
+    "type": "challenge",
+    "sourceUrl": "https://www.cv4animals.com/"
   },
   {
     "id": "cvpr2026-cvpr-2026-eighth-workshop-on-image-matching-local-features-and-beyond-june-4-2026-thu-half",
@@ -448,10 +396,7 @@ export const ddlForCvDdl: DDLItem[] = [
     "stage": "Workshop / challenge session",
     "source": "CVPR 2026 Workshops",
     "type": "challenge",
-    "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops",
-    "canonicalUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops#cvpr2026-cvpr-2026-eighth-workshop-on-image-matching-local-features-and-beyond-june-4-2026-thu-half",
-    "sourceLabel": "官方工作坊列表",
-    "verificationLevel": "official_event_page"
+    "sourceUrl": "https://image-matching-workshop.github.io/"
   },
   {
     "id": "cvpr2026-cvpr-2026-eighth-workshop-on-image-matching-local-features-and-beyond-june-4-2026-thu-pm",
@@ -467,15 +412,12 @@ export const ddlForCvDdl: DDLItem[] = [
       "IMW"
     ],
     "url": "https://image-matching-workshop.github.io/",
-    "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops",
-    "canonicalUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops#cvpr2026-cvpr-2026-eighth-workshop-on-image-matching-local-features-and-beyond-june-4-2026-thu-pm",
     "status": "upcoming",
     "description": "Parsed from the official CVPR 2026 workshops table.",
     "stage": "Workshop / challenge session",
     "source": "CVPR 2026 Workshops",
-    "sourceLabel": "官方工作坊列表",
-    "verificationLevel": "official_event_page",
-    "type": "challenge"
+    "type": "challenge",
+    "sourceUrl": "https://image-matching-workshop.github.io/"
   },
   {
     "id": "cvpr2026-cvpr-2026-embodied-reasoning-in-action-workshop-and-challenge-on-embodied-reasoning-for-ro",
@@ -491,15 +433,12 @@ export const ddlForCvDdl: DDLItem[] = [
       "ERA"
     ],
     "url": "https://embodied-reasoning.github.io/",
-    "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops",
-    "canonicalUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops#cvpr2026-cvpr-2026-embodied-reasoning-in-action-workshop-and-challenge-on-embodied-reasoning-for-ro",
     "status": "upcoming",
     "description": "Parsed from the official CVPR 2026 workshops table.",
     "stage": "Workshop / challenge session",
     "source": "CVPR 2026 Workshops",
-    "sourceLabel": "官方工作坊列表",
-    "verificationLevel": "official_event_page",
-    "type": "challenge"
+    "type": "challenge",
+    "sourceUrl": "https://embodied-reasoning.github.io/"
   },
   {
     "id": "cvpr2026-cvpr-2026-from-perception-to-persuasion-challenges-and-advances-in-misinformation-detectio",
@@ -515,15 +454,12 @@ export const ddlForCvDdl: DDLItem[] = [
       "PP-MisDet"
     ],
     "url": "https://eecs.uq.edu.au/CVPR2026",
-    "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops",
-    "canonicalUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops#cvpr2026-cvpr-2026-from-perception-to-persuasion-challenges-and-advances-in-misinformation-detectio",
     "status": "upcoming",
     "description": "Parsed from the official CVPR 2026 workshops table.",
     "stage": "Workshop / challenge session",
     "source": "CVPR 2026 Workshops",
-    "sourceLabel": "官方工作坊列表",
-    "verificationLevel": "official_event_page",
-    "type": "challenge"
+    "type": "challenge",
+    "sourceUrl": "https://eecs.uq.edu.au/CVPR2026"
   },
   {
     "id": "cvpr2026-cvpr-2026-mobile-ai-workshop-and-associated-challenges-6th-edition-june-4-2026-thu-full-da",
@@ -539,15 +475,12 @@ export const ddlForCvDdl: DDLItem[] = [
       "MAI 2026"
     ],
     "url": "https://ai-benchmark.com/workshops/mai/2026/",
-    "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops",
-    "canonicalUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops#cvpr2026-cvpr-2026-mobile-ai-workshop-and-associated-challenges-6th-edition-june-4-2026-thu-full-da",
     "status": "upcoming",
     "description": "Parsed from the official CVPR 2026 workshops table.",
     "stage": "Workshop / challenge session",
     "source": "CVPR 2026 Workshops",
-    "sourceLabel": "官方工作坊列表",
-    "verificationLevel": "official_event_page",
-    "type": "challenge"
+    "type": "challenge",
+    "sourceUrl": "https://ai-benchmark.com/workshops/mai/2026/"
   },
   {
     "id": "cvpr2026-cvpr-2026-multi-agent-embodied-intelligent-systems-meet-agentic-ai-era-opportunities-chall",
@@ -563,15 +496,12 @@ export const ddlForCvDdl: DDLItem[] = [
       "MEIS"
     ],
     "url": "https://coop-intelligence.github.io/",
-    "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops",
-    "canonicalUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops#cvpr2026-cvpr-2026-multi-agent-embodied-intelligent-systems-meet-agentic-ai-era-opportunities-chall",
     "status": "upcoming",
     "description": "Parsed from the official CVPR 2026 workshops table.",
     "stage": "Workshop / challenge session",
     "source": "CVPR 2026 Workshops",
-    "sourceLabel": "官方工作坊列表",
-    "verificationLevel": "official_event_page",
-    "type": "challenge"
+    "type": "challenge",
+    "sourceUrl": "https://coop-intelligence.github.io/"
   },
   {
     "id": "cvpr2026-cvpr-2026-pixel-level-video-understanding-in-the-wild-challenge-june-4-2026-thu-half-day",
@@ -592,10 +522,7 @@ export const ddlForCvDdl: DDLItem[] = [
     "stage": "Workshop / challenge session",
     "source": "CVPR 2026 Workshops",
     "type": "challenge",
-    "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops",
-    "canonicalUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops#cvpr2026-cvpr-2026-pixel-level-video-understanding-in-the-wild-challenge-june-4-2026-thu-half-day",
-    "sourceLabel": "官方工作坊列表",
-    "verificationLevel": "official_event_page"
+    "sourceUrl": "https://pvuw.github.io/"
   },
   {
     "id": "cvpr2026-cvpr-2026-pixel-level-video-understanding-in-the-wild-challenge-june-4-2026-thu-pm",
@@ -611,15 +538,12 @@ export const ddlForCvDdl: DDLItem[] = [
       "PVUW"
     ],
     "url": "https://pvuw.github.io/",
-    "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops",
-    "canonicalUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops#cvpr2026-cvpr-2026-pixel-level-video-understanding-in-the-wild-challenge-june-4-2026-thu-pm",
     "status": "upcoming",
     "description": "Parsed from the official CVPR 2026 workshops table.",
     "stage": "Workshop / challenge session",
     "source": "CVPR 2026 Workshops",
-    "sourceLabel": "官方工作坊列表",
-    "verificationLevel": "official_event_page",
-    "type": "challenge"
+    "type": "challenge",
+    "sourceUrl": "https://pvuw.github.io/"
   },
   {
     "id": "cvpr2026-cvpr-2026-the-8th-ug2-workshop-and-challenge-bridging-the-gap-between-computational-photog",
@@ -635,15 +559,12 @@ export const ddlForCvDdl: DDLItem[] = [
       "UG2+"
     ],
     "url": "https://cvpr2026ug2challenge.github.io/",
-    "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops",
-    "canonicalUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops#cvpr2026-cvpr-2026-the-8th-ug2-workshop-and-challenge-bridging-the-gap-between-computational-photog",
     "status": "upcoming",
     "description": "Parsed from the official CVPR 2026 workshops table.",
     "stage": "Workshop / challenge session",
     "source": "CVPR 2026 Workshops",
-    "sourceLabel": "官方工作坊列表",
-    "verificationLevel": "official_event_page",
-    "type": "challenge"
+    "type": "challenge",
+    "sourceUrl": "https://cvpr2026ug2challenge.github.io/"
   },
   {
     "id": "cvpr2026-cvpr-2026-video-generative-models-benchmarks-and-evaluation-june-4-2026-thu-full-day",
@@ -659,15 +580,12 @@ export const ddlForCvDdl: DDLItem[] = [
       "VGBE"
     ],
     "url": "https://vidgen-bench-eval.github.io/",
-    "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops",
-    "canonicalUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops#cvpr2026-cvpr-2026-video-generative-models-benchmarks-and-evaluation-june-4-2026-thu-full-day",
     "status": "upcoming",
     "description": "Parsed from the official CVPR 2026 workshops table.",
     "stage": "Workshop / challenge session",
     "source": "CVPR 2026 Workshops",
-    "sourceLabel": "官方工作坊列表",
-    "verificationLevel": "official_event_page",
-    "type": "challenge"
+    "type": "challenge",
+    "sourceUrl": "https://vidgen-bench-eval.github.io/"
   },
   {
     "id": "cvpr2026-cvpr-2026-vizwiz-grand-challenge-interpreting-images-and-videos-taken-by-blind-people-june",
@@ -683,15 +601,12 @@ export const ddlForCvDdl: DDLItem[] = [
       "VizWiz"
     ],
     "url": "https://vizwiz.org/workshops/2026-vizwiz-grand-challenge-workshop/",
-    "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops",
-    "canonicalUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops#cvpr2026-cvpr-2026-vizwiz-grand-challenge-interpreting-images-and-videos-taken-by-blind-people-june",
     "status": "upcoming",
     "description": "Parsed from the official CVPR 2026 workshops table.",
     "stage": "Workshop / challenge session",
     "source": "CVPR 2026 Workshops",
-    "sourceLabel": "官方工作坊列表",
-    "verificationLevel": "official_event_page",
-    "type": "challenge"
+    "type": "challenge",
+    "sourceUrl": "https://vizwiz.org/workshops/2026-vizwiz-grand-challenge-workshop/"
   },
   {
     "id": "eccv-ebmv-2026-ebmv-eccv-2026-challenge-submission-deadline-june-30-2026",
@@ -706,15 +621,12 @@ export const ddlForCvDdl: DDLItem[] = [
       "event-based vision"
     ],
     "url": "https://eventbasemultimodalvision.github.io/",
-    "sourceUrl": "https://eventbasemultimodalvision.github.io/",
-    "canonicalUrl": "https://eventbasemultimodalvision.github.io/#eccv-ebmv-2026-ebmv-eccv-2026-challenge-submission-deadline-june-30-2026",
     "status": "upcoming",
     "description": "Parsed from the EBMV @ ECCV 2026 official workshop page.",
     "stage": "Challenge submission deadline",
     "source": "EBMV @ ECCV 2026",
-    "sourceLabel": "官方工作坊页面",
-    "verificationLevel": "official_event_page",
-    "type": "challenge"
+    "type": "challenge",
+    "sourceUrl": "https://eventbasemultimodalvision.github.io/"
   },
   {
     "id": "eccv-ebmv-2026-ebmv-eccv-2026-challenge-results-announcement-july-5-2026",
@@ -729,15 +641,12 @@ export const ddlForCvDdl: DDLItem[] = [
       "event-based vision"
     ],
     "url": "https://eventbasemultimodalvision.github.io/",
-    "sourceUrl": "https://eventbasemultimodalvision.github.io/",
-    "canonicalUrl": "https://eventbasemultimodalvision.github.io/#eccv-ebmv-2026-ebmv-eccv-2026-challenge-results-announcement-july-5-2026",
     "status": "upcoming",
     "description": "Parsed from the EBMV @ ECCV 2026 official workshop page.",
     "stage": "Challenge results announcement",
     "source": "EBMV @ ECCV 2026",
-    "sourceLabel": "官方工作坊页面",
-    "verificationLevel": "official_event_page",
-    "type": "challenge"
+    "type": "challenge",
+    "sourceUrl": "https://eventbasemultimodalvision.github.io/"
   },
   {
     "id": "eccv-ebmv-2026-ebmv-eccv-2026-technical-report-deadline-july-10-2026",
@@ -752,15 +661,12 @@ export const ddlForCvDdl: DDLItem[] = [
       "event-based vision"
     ],
     "url": "https://eventbasemultimodalvision.github.io/",
-    "sourceUrl": "https://eventbasemultimodalvision.github.io/",
-    "canonicalUrl": "https://eventbasemultimodalvision.github.io/#eccv-ebmv-2026-ebmv-eccv-2026-technical-report-deadline-july-10-2026",
     "status": "upcoming",
     "description": "Parsed from the EBMV @ ECCV 2026 official workshop page.",
     "stage": "Technical report deadline",
     "source": "EBMV @ ECCV 2026",
-    "sourceLabel": "官方工作坊页面",
-    "verificationLevel": "official_event_page",
-    "type": "challenge"
+    "type": "challenge",
+    "sourceUrl": "https://eventbasemultimodalvision.github.io/"
   },
   {
     "id": "eccv-emr-2026-emr-eccv-2026-full-paper-submission-deadline-july-12-2026",
@@ -775,15 +681,12 @@ export const ddlForCvDdl: DDLItem[] = [
       "embodied AI"
     ],
     "url": "https://emr-workshop.github.io/",
-    "sourceUrl": "https://emr-workshop.github.io/",
-    "canonicalUrl": "https://emr-workshop.github.io/#eccv-emr-2026-emr-eccv-2026-full-paper-submission-deadline-july-12-2026",
     "status": "upcoming",
     "description": "Parsed from the EMR Workshop @ ECCV 2026 official page.",
     "stage": "Full paper submission deadline",
     "source": "EMR @ ECCV 2026",
-    "sourceLabel": "官方工作坊页面",
-    "verificationLevel": "official_event_page",
-    "type": "challenge"
+    "type": "challenge",
+    "sourceUrl": "https://emr-workshop.github.io/"
   },
   {
     "id": "eccv-ebmv-2026-ebmv-eccv-2026-workshop-paper-deadline-july-20-2026",
@@ -798,15 +701,12 @@ export const ddlForCvDdl: DDLItem[] = [
       "event-based vision"
     ],
     "url": "https://eventbasemultimodalvision.github.io/",
-    "sourceUrl": "https://eventbasemultimodalvision.github.io/",
-    "canonicalUrl": "https://eventbasemultimodalvision.github.io/#eccv-ebmv-2026-ebmv-eccv-2026-workshop-paper-deadline-july-20-2026",
     "status": "upcoming",
     "description": "Parsed from the EBMV @ ECCV 2026 official workshop page.",
     "stage": "Workshop paper deadline",
     "source": "EBMV @ ECCV 2026",
-    "sourceLabel": "官方工作坊页面",
-    "verificationLevel": "official_event_page",
-    "type": "challenge"
+    "type": "challenge",
+    "sourceUrl": "https://eventbasemultimodalvision.github.io/"
   },
   {
     "id": "eccv-emr-2026-emr-eccv-2026-extended-abstract-submission-july-24-2026",
@@ -821,15 +721,12 @@ export const ddlForCvDdl: DDLItem[] = [
       "embodied AI"
     ],
     "url": "https://emr-workshop.github.io/",
-    "sourceUrl": "https://emr-workshop.github.io/",
-    "canonicalUrl": "https://emr-workshop.github.io/#eccv-emr-2026-emr-eccv-2026-extended-abstract-submission-july-24-2026",
     "status": "upcoming",
     "description": "Parsed from the EMR Workshop @ ECCV 2026 official page.",
     "stage": "Extended abstract submission",
     "source": "EMR @ ECCV 2026",
-    "sourceLabel": "官方工作坊页面",
-    "verificationLevel": "official_event_page",
-    "type": "challenge"
+    "type": "challenge",
+    "sourceUrl": "https://emr-workshop.github.io/"
   },
   {
     "id": "eccv-emr-2026-emr-eccv-2026-notification-july-31-2026",
@@ -844,15 +741,12 @@ export const ddlForCvDdl: DDLItem[] = [
       "embodied AI"
     ],
     "url": "https://emr-workshop.github.io/",
-    "sourceUrl": "https://emr-workshop.github.io/",
-    "canonicalUrl": "https://emr-workshop.github.io/#eccv-emr-2026-emr-eccv-2026-notification-july-31-2026",
     "status": "upcoming",
     "description": "Parsed from the EMR Workshop @ ECCV 2026 official page.",
     "stage": "Notification",
     "source": "EMR @ ECCV 2026",
-    "sourceLabel": "官方工作坊页面",
-    "verificationLevel": "official_event_page",
-    "type": "challenge"
+    "type": "challenge",
+    "sourceUrl": "https://emr-workshop.github.io/"
   },
   {
     "id": "eccv-ebmv-2026-ebmv-eccv-2026-camera-ready-deadline-august-12-2026",
@@ -867,15 +761,12 @@ export const ddlForCvDdl: DDLItem[] = [
       "event-based vision"
     ],
     "url": "https://eventbasemultimodalvision.github.io/",
-    "sourceUrl": "https://eventbasemultimodalvision.github.io/",
-    "canonicalUrl": "https://eventbasemultimodalvision.github.io/#eccv-ebmv-2026-ebmv-eccv-2026-camera-ready-deadline-august-12-2026",
     "status": "upcoming",
     "description": "Parsed from the EBMV @ ECCV 2026 official workshop page.",
     "stage": "Camera-ready deadline",
     "source": "EBMV @ ECCV 2026",
-    "sourceLabel": "官方工作坊页面",
-    "verificationLevel": "official_event_page",
-    "type": "challenge"
+    "type": "challenge",
+    "sourceUrl": "https://eventbasemultimodalvision.github.io/"
   },
   {
     "id": "eccv-emr-2026-emr-eccv-2026-final-version-august-14-2026",
@@ -890,14 +781,11 @@ export const ddlForCvDdl: DDLItem[] = [
       "embodied AI"
     ],
     "url": "https://emr-workshop.github.io/",
-    "sourceUrl": "https://emr-workshop.github.io/",
-    "canonicalUrl": "https://emr-workshop.github.io/#eccv-emr-2026-emr-eccv-2026-final-version-august-14-2026",
     "status": "upcoming",
     "description": "Parsed from the EMR Workshop @ ECCV 2026 official page.",
     "stage": "Final version",
     "source": "EMR @ ECCV 2026",
-    "sourceLabel": "官方工作坊页面",
-    "verificationLevel": "official_event_page",
-    "type": "challenge"
+    "type": "challenge",
+    "sourceUrl": "https://emr-workshop.github.io/"
   }
 ];

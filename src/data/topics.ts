@@ -341,7 +341,7 @@ export const topics: Topic[] = [
     "sourceMode": "external",
     "maintainer": "pengpoom",
     "dataUrl": "https://raw.githubusercontent.com/pengpoom/civil-service-ddl/main/data/items.json",
-    "itemCount": 37,
+    "itemCount": 29,
     "category": "考试申请",
     "tags": [
       "公务员",

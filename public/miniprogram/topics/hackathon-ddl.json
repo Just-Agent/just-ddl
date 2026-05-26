@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-25T23:04:19.374Z",
-  "dataVersion": "65b78becb1005ce4",
+  "generatedAt": "2026-05-26T01:07:11.250Z",
+  "dataVersion": "0784691de0f1f631",
   "topic": {
     "id": "hackathon-ddl",
     "name": "Hackathon",
@@ -35,6 +35,7 @@
       "status": "upcoming",
       "stage": "Event start",
       "source": "人工整理的官方来源入口",
+      "sourceUrl": "https://mlh.io/seasons",
       "type": "hackathon",
       "description": "MLH 系列活动入口，适合专题按周滚动展示。"
     },
@@ -54,6 +55,7 @@
       "status": "upcoming",
       "stage": "Submission",
       "source": "人工整理的官方来源入口",
+      "sourceUrl": "https://devpost.com/hackathons",
       "type": "hackathon",
       "prize": "$25,000+",
       "description": "Devpost AI 应用类比赛 官方来源入口，后续将按官方页面持续补充官方详情。"
@@ -74,6 +76,7 @@
       "status": "upcoming",
       "stage": "Application",
       "source": "官方来源入口",
+      "sourceUrl": "https://pennapps.com",
       "type": "hackathon",
       "description": "高校黑客松 官方来源入口，用于补足北美校园赛历。"
     },
@@ -94,6 +97,7 @@
       "status": "upcoming",
       "stage": "Registration",
       "source": "Official site",
+      "sourceUrl": "https://hackthenorth.com",
       "type": "hackathon",
       "prize": "$50,000+",
       "description": "大型校园黑客松，追踪报名、确认、项目提交和 Demo Day 节点。"
@@ -114,6 +118,7 @@
       "status": "upcoming",
       "stage": "Application",
       "source": "人工整理的官方来源入口",
+      "sourceUrl": "https://hackzurich.com",
       "type": "hackathon",
       "description": "欧洲大型企业/创新黑客松入口。"
     },
@@ -133,6 +138,7 @@
       "status": "upcoming",
       "stage": "Application",
       "source": "人工整理的官方来源入口",
+      "sourceUrl": "https://hackmit.org",
       "type": "hackathon",
       "prize": "$40,000+",
       "description": "校园线下黑客松入口，等待官方申请时间校验。"
@@ -153,6 +159,7 @@
       "status": "upcoming",
       "stage": "Application",
       "source": "人工整理的官方来源入口",
+      "sourceUrl": "https://hackharvard.io",
       "type": "hackathon",
       "description": "哈佛校园黑客松入口。"
     },
@@ -172,6 +179,7 @@
       "status": "upcoming",
       "stage": "Application",
       "source": "人工整理的官方来源入口",
+      "sourceUrl": "https://hackprinceton.com",
       "type": "hackathon",
       "description": "普林斯顿校园黑客松入口。"
     },
@@ -191,6 +199,7 @@
       "status": "upcoming",
       "stage": "Local event",
       "source": "Official site",
+      "sourceUrl": "https://www.spaceappschallenge.org/",
       "type": "hackathon",
       "description": "全球开放数据与空间科学挑战入口。"
     },
@@ -210,6 +219,7 @@
       "status": "upcoming",
       "stage": "Registration",
       "source": "人工整理的官方来源入口",
+      "sourceUrl": "https://lahacks.com",
       "type": "hackathon",
       "description": "UCLA 黑客松入口。"
     },
@@ -230,6 +240,7 @@
       "status": "upcoming",
       "stage": "Project submit",
       "source": "ETHGlobal events board",
+      "sourceUrl": "https://ethglobal.com/events",
       "type": "hackathon",
       "prize": "$150,000+",
       "description": "Web3 生态黑客松入口，后续将按官方页面对齐具体城市站详情页。"
@@ -250,6 +261,7 @@
       "status": "upcoming",
       "stage": "Registration",
       "source": "人工整理的官方来源入口",
+      "sourceUrl": "https://hackupc.com",
       "type": "hackathon",
       "description": "欧洲学生黑客松 官方来源入口。"
     },
@@ -269,6 +281,7 @@
       "status": "upcoming",
       "stage": "Hacking",
       "source": "人工整理的官方来源入口",
+      "sourceUrl": "https://calhacks.io",
       "type": "hackathon",
       "prize": "$30,000+",
       "description": "美国西海岸高校黑客松 官方来源入口。"
@@ -289,6 +302,7 @@
       "status": "upcoming",
       "stage": "Application",
       "source": "人工整理的官方来源入口",
+      "sourceUrl": "https://www.hackjunction.com",
       "type": "hackathon",
       "description": "欧洲综合创新黑客松入口。"
     },
@@ -308,6 +322,7 @@
       "status": "upcoming",
       "stage": "Bounty submit",
       "source": "人工整理的官方来源入口",
+      "sourceUrl": "https://dorahacks.io",
       "type": "hackathon",
       "prize": "$80,000+",
       "description": "开源赏金与项目提交通道 官方来源入口。"
@@ -328,6 +343,7 @@
       "status": "upcoming",
       "stage": "Acceptance",
       "source": "人工整理的官方来源入口",
+      "sourceUrl": "https://treehacks.com",
       "type": "hackathon",
       "prize": "$35,000+",
       "description": "斯坦福黑客松入口，后续由官方页面校准。"
@@ -348,6 +364,7 @@
       "status": "upcoming",
       "stage": "Registration",
       "source": "人工整理的官方来源入口",
+      "sourceUrl": "https://nwhacks.io",
       "type": "hackathon",
       "prize": "$28,000+",
       "description": "加拿大西海岸校园黑客松入口。"
@@ -368,6 +385,7 @@
       "status": "upcoming",
       "stage": "Registration",
       "source": "人工整理的官方来源入口",
+      "sourceUrl": "https://hackcambridge.com",
       "type": "hackathon",
       "description": "英国高校黑客松入口。"
     }

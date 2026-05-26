@@ -18,7 +18,8 @@ export const ddlForStartupDdl: DDLItem[] = [
     "description": "Parsed from official Techstars accelerators listing. Deadline is read from the Apply by card and embedded earliestCurrentDeadline.",
     "stage": "Application deadline",
     "source": "Techstars Accelerators",
-    "type": "program"
+    "type": "program",
+    "sourceUrl": "https://www.techstars.com/accelerators/abn-amro-techstars-future-of-finance-accelerator"
   },
   {
     "id": "techstars-baltimore-ai-health",
@@ -37,7 +38,8 @@ export const ddlForStartupDdl: DDLItem[] = [
     "description": "Parsed from official Techstars accelerators listing. Deadline is read from the Apply by card and embedded earliestCurrentDeadline.",
     "stage": "Application deadline",
     "source": "Techstars Accelerators",
-    "type": "program"
+    "type": "program",
+    "sourceUrl": "https://www.techstars.com/accelerators/baltimore-ai-health"
   },
   {
     "id": "techstars-alabama-power",
@@ -56,7 +58,8 @@ export const ddlForStartupDdl: DDLItem[] = [
     "description": "Parsed from official Techstars accelerators listing. Deadline is read from the Apply by card and embedded earliestCurrentDeadline.",
     "stage": "Application deadline",
     "source": "Techstars Accelerators",
-    "type": "program"
+    "type": "program",
+    "sourceUrl": "https://www.techstars.com/accelerators/alabama-power"
   },
   {
     "id": "techstars-anywhere",
@@ -75,7 +78,8 @@ export const ddlForStartupDdl: DDLItem[] = [
     "description": "Parsed from official Techstars accelerators listing. Deadline is read from the Apply by card and embedded earliestCurrentDeadline.",
     "stage": "Application deadline",
     "source": "Techstars Accelerators",
-    "type": "program"
+    "type": "program",
+    "sourceUrl": "https://www.techstars.com/accelerators/anywhere"
   },
   {
     "id": "techstars-boulder-accelerator",
@@ -94,7 +98,8 @@ export const ddlForStartupDdl: DDLItem[] = [
     "description": "Parsed from official Techstars accelerators listing. Deadline is read from the Apply by card and embedded earliestCurrentDeadline.",
     "stage": "Application deadline",
     "source": "Techstars Accelerators",
-    "type": "program"
+    "type": "program",
+    "sourceUrl": "https://www.techstars.com/accelerators/boulder-accelerator"
   },
   {
     "id": "techstars-ohio-state-university-accelerator",
@@ -113,7 +118,8 @@ export const ddlForStartupDdl: DDLItem[] = [
     "description": "Parsed from official Techstars accelerators listing. Deadline is read from the Apply by card and embedded earliestCurrentDeadline.",
     "stage": "Application deadline",
     "source": "Techstars Accelerators",
-    "type": "program"
+    "type": "program",
+    "sourceUrl": "https://www.techstars.com/accelerators/ohio-state-university-accelerator"
   },
   {
     "id": "techstars-future-of-food",
@@ -132,7 +138,8 @@ export const ddlForStartupDdl: DDLItem[] = [
     "description": "Parsed from official Techstars accelerators listing. Deadline is read from the Apply by card and embedded earliestCurrentDeadline.",
     "stage": "Application deadline",
     "source": "Techstars Accelerators",
-    "type": "program"
+    "type": "program",
+    "sourceUrl": "https://www.techstars.com/accelerators/future-of-food"
   },
   {
     "id": "techstars-permanente-medicine",
@@ -151,7 +158,8 @@ export const ddlForStartupDdl: DDLItem[] = [
     "description": "Parsed from official Techstars accelerators listing. Deadline is read from the Apply by card and embedded earliestCurrentDeadline.",
     "stage": "Application deadline",
     "source": "Techstars Accelerators",
-    "type": "program"
+    "type": "program",
+    "sourceUrl": "https://www.techstars.com/accelerators/permanente-medicine"
   },
   {
     "id": "techstars-nyc",
@@ -170,7 +178,8 @@ export const ddlForStartupDdl: DDLItem[] = [
     "description": "Parsed from official Techstars accelerators listing. Deadline is read from the Apply by card and embedded earliestCurrentDeadline.",
     "stage": "Application deadline",
     "source": "Techstars Accelerators",
-    "type": "program"
+    "type": "program",
+    "sourceUrl": "https://www.techstars.com/accelerators/nyc"
   },
   {
     "id": "techstars-space",
@@ -189,6 +198,7 @@ export const ddlForStartupDdl: DDLItem[] = [
     "description": "Parsed from official Techstars accelerators listing. Deadline is read from the Apply by card and embedded earliestCurrentDeadline.",
     "stage": "Application deadline",
     "source": "Techstars Accelerators",
-    "type": "program"
+    "type": "program",
+    "sourceUrl": "https://www.techstars.com/accelerators/space"
   }
 ];

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-25T23:04:19.374Z",
-  "dataVersion": "65b78becb1005ce4",
+  "generatedAt": "2026-05-26T01:07:11.250Z",
+  "dataVersion": "0784691de0f1f631",
   "topic": {
     "id": "exam-ddl",
     "name": "Exams",
@@ -36,6 +36,7 @@
       "status": "upcoming",
       "stage": "Source board",
       "source": "yz.chsi.com.cn",
+      "sourceUrl": "https://yz.chsi.com.cn",
       "type": "program",
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。"
     },
@@ -56,6 +57,7 @@
       "status": "upcoming",
       "stage": "Source board",
       "source": "yz.chsi.com.cn",
+      "sourceUrl": "https://yz.chsi.com.cn",
       "type": "program",
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。"
     },
@@ -76,6 +78,7 @@
       "status": "upcoming",
       "stage": "Source board",
       "source": "cet.neea.edu.cn",
+      "sourceUrl": "https://cet.neea.edu.cn",
       "type": "program",
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。"
     },
@@ -96,6 +99,7 @@
       "status": "upcoming",
       "stage": "Source board",
       "source": "ielts.neea.cn",
+      "sourceUrl": "https://ielts.neea.cn",
       "type": "program",
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。"
     },
@@ -116,6 +120,7 @@
       "status": "upcoming",
       "stage": "Source board",
       "source": "toefl.neea.cn",
+      "sourceUrl": "https://toefl.neea.cn",
       "type": "program",
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。"
     },
@@ -136,6 +141,7 @@
       "status": "upcoming",
       "stage": "Source board",
       "source": "ETS GRE",
+      "sourceUrl": "https://www.ets.org/gre.html",
       "type": "program",
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。"
     },
@@ -156,6 +162,7 @@
       "status": "upcoming",
       "stage": "Source board",
       "source": "GMAC GMAT",
+      "sourceUrl": "https://www.mba.com/exams/gmat-exam",
       "type": "program",
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。"
     },
@@ -176,6 +183,7 @@
       "status": "upcoming",
       "stage": "Source board",
       "source": "中国政府网",
+      "sourceUrl": "https://bm.scs.gov.cn",
       "type": "program",
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。"
     },
@@ -196,6 +204,7 @@
       "status": "upcoming",
       "stage": "Source board",
       "source": "ntce.neea.edu.cn",
+      "sourceUrl": "https://ntce.neea.edu.cn",
       "type": "program",
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。"
     },
@@ -216,6 +225,7 @@
       "status": "upcoming",
       "stage": "Source board",
       "source": "ncre.neea.edu.cn",
+      "sourceUrl": "https://ncre.neea.edu.cn",
       "type": "program",
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。"
     },
@@ -236,6 +246,7 @@
       "status": "upcoming",
       "stage": "Source board",
       "source": "ruankao.org.cn",
+      "sourceUrl": "https://www.ruankao.org.cn",
       "type": "program",
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。"
     },
@@ -256,6 +267,7 @@
       "status": "upcoming",
       "stage": "Source board",
       "source": "cpaexam.cicpa.org.cn",
+      "sourceUrl": "https://cpaexam.cicpa.org.cn",
       "type": "program",
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。"
     },
@@ -276,6 +288,7 @@
       "status": "upcoming",
       "stage": "Source board",
       "source": "中国政府网",
+      "sourceUrl": "https://www.moj.gov.cn",
       "type": "program",
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。"
     },
@@ -296,6 +309,7 @@
       "status": "upcoming",
       "stage": "Source board",
       "source": "AWS Certification",
+      "sourceUrl": "https://aws.amazon.com/certification/",
       "type": "program",
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。"
     },
@@ -316,6 +330,7 @@
       "status": "upcoming",
       "stage": "Source board",
       "source": "PMI PMP Certification",
+      "sourceUrl": "https://www.pmi.org/certifications/project-management-pmp",
       "type": "program",
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。"
     },
@@ -336,6 +351,7 @@
       "status": "upcoming",
       "stage": "Source board",
       "source": "CFA Institute",
+      "sourceUrl": "https://www.cfainstitute.org",
       "type": "program",
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。"
     }

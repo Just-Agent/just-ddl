@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-25T23:04:19.374Z",
-  "dataVersion": "65b78becb1005ce4",
+  "generatedAt": "2026-05-26T01:07:11.250Z",
+  "dataVersion": "0784691de0f1f631",
   "topic": {
     "id": "nlp-ddl",
     "name": "NLP",
@@ -35,6 +35,7 @@
       "status": "upcoming",
       "stage": "Paper",
       "source": "人工整理的官方来源入口",
+      "sourceUrl": "https://2026.emnlp.org",
       "type": "conference",
       "description": "EMNLP 主会全文提交入口。"
     },
@@ -54,6 +55,7 @@
       "status": "upcoming",
       "stage": "System submit",
       "source": "人工整理的官方来源入口",
+      "sourceUrl": "https://clpsych.org",
       "type": "conference",
       "description": "临床 NLP shared task 入口。"
     },
@@ -73,6 +75,7 @@
       "status": "upcoming",
       "stage": "Paper",
       "source": "人工整理的官方来源入口",
+      "sourceUrl": "https://aclweb.org/aclwiki/BioNLP_Workshop",
       "type": "conference",
       "description": "生物医学 NLP workshop 入口。"
     },
@@ -91,7 +94,8 @@
       "url": "http://tcci.ccf.org.cn",
       "status": "upcoming",
       "stage": "Demo",
-      "source": "会议公开来源入口",
+      "source": "官方来源入口",
+      "sourceUrl": "http://tcci.ccf.org.cn",
       "type": "conference",
       "description": "中文 NLP 会议/任务入口。"
     },
@@ -111,6 +115,7 @@
       "status": "upcoming",
       "stage": "Paper",
       "source": "人工整理的官方来源入口",
+      "sourceUrl": "https://blackboxnlp.github.io",
       "type": "conference",
       "description": "NLP 可解释性 workshop 入口。"
     },
@@ -130,6 +135,7 @@
       "status": "upcoming",
       "stage": "Long paper",
       "source": "人工整理的官方来源入口",
+      "sourceUrl": "https://coling2026.org",
       "type": "conference",
       "description": "COLING 长文提交入口。"
     },
@@ -148,7 +154,8 @@
       "url": "https://www.aclweb.org",
       "status": "upcoming",
       "stage": "ARR commit",
-      "source": "会议公开来源入口",
+      "source": "官方来源入口",
+      "sourceUrl": "https://www.aclweb.org",
       "type": "conference",
       "description": "ACL 系列主会 ARR 承诺流入口。"
     },
@@ -168,6 +175,7 @@
       "status": "upcoming",
       "stage": "Submission",
       "source": "人工整理的官方来源入口",
+      "sourceUrl": "https://www.kaggle.com/competitions",
       "type": "conference",
       "description": "法律文本处理挑战入口。"
     },
@@ -187,6 +195,7 @@
       "status": "upcoming",
       "stage": "Leaderboard",
       "source": "人工整理的官方来源入口",
+      "sourceUrl": "https://mrqa.github.io",
       "type": "conference",
       "description": "阅读理解与问答评测入口。"
     },
@@ -206,6 +215,7 @@
       "status": "upcoming",
       "stage": "System report",
       "source": "人工整理的官方来源入口",
+      "sourceUrl": "https://openreview.net/",
       "type": "conference",
       "description": "检索增强生成评测入口。"
     },
@@ -224,7 +234,8 @@
       "url": "https://semeval.github.io",
       "status": "upcoming",
       "stage": "System",
-      "source": "Shared task public source",
+      "source": "官方评测入口",
+      "sourceUrl": "https://semeval.github.io",
       "type": "conference",
       "description": "语义评测任务入口。"
     },
@@ -244,6 +255,7 @@
       "status": "upcoming",
       "stage": "Paper",
       "source": "人工整理的官方来源入口",
+      "sourceUrl": "https://naacl.org",
       "type": "conference",
       "description": "NAACL 投稿入口。"
     },
@@ -263,6 +275,7 @@
       "status": "upcoming",
       "stage": "Leaderboard",
       "source": "人工整理的官方来源入口",
+      "sourceUrl": "https://www.kaggle.com/competitions",
       "type": "conference",
       "description": "长上下文 NLP benchmark 入口。"
     },
@@ -281,7 +294,8 @@
       "url": "https://www.conll.org",
       "status": "upcoming",
       "stage": "System submit",
-      "source": "Shared task public source",
+      "source": "官方评测入口",
+      "sourceUrl": "https://www.conll.org",
       "type": "conference",
       "description": "Shared task 注册与系统提交入口。"
     },
@@ -301,6 +315,7 @@
       "status": "upcoming",
       "stage": "Paper / system",
       "source": "人工整理的官方来源入口",
+      "sourceUrl": "https://sigtyp.github.io",
       "type": "conference",
       "description": "低资源语言 shared task 入口。"
     },
@@ -319,7 +334,8 @@
       "url": "https://www.statmt.org/wmt",
       "status": "upcoming",
       "stage": "Result upload",
-      "source": "Benchmark public source",
+      "source": "官方评测入口",
+      "sourceUrl": "https://www.statmt.org/wmt",
       "type": "conference",
       "description": "机器翻译评测入口。"
     },
@@ -339,6 +355,7 @@
       "status": "upcoming",
       "stage": "Paper",
       "source": "人工整理的官方来源入口",
+      "sourceUrl": "https://aclweb.org/aclwiki/INLG",
       "type": "conference",
       "description": "自然语言生成会议入口。"
     },
@@ -358,6 +375,7 @@
       "status": "upcoming",
       "stage": "Paper",
       "source": "人工整理的官方来源入口",
+      "sourceUrl": "https://www.sigdial.org",
       "type": "conference",
       "description": "对话系统会议入口。"
     }

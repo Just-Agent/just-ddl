@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-25T23:04:19.374Z",
-  "dataVersion": "65b78becb1005ce4",
+  "generatedAt": "2026-05-26T01:07:11.250Z",
+  "dataVersion": "0784691de0f1f631",
   "topic": {
     "id": "multimodal-ddl",
     "name": "Multimodal",
@@ -34,7 +34,8 @@
       "url": "https://visualqa.org",
       "status": "upcoming",
       "stage": "Submission",
-      "source": "Benchmark public source",
+      "source": "官方评测入口",
+      "sourceUrl": "https://visualqa.org",
       "type": "challenge",
       "description": "视觉问答评测入口。"
     },
@@ -53,7 +54,8 @@
       "url": "https://textvqa.org",
       "status": "upcoming",
       "stage": "Result upload",
-      "source": "Benchmark public source",
+      "source": "官方评测入口",
+      "sourceUrl": "https://textvqa.org",
       "type": "challenge",
       "description": "OCR + VQA 评测入口。"
     },
@@ -72,7 +74,8 @@
       "url": "https://mmmu-benchmark.github.io",
       "status": "upcoming",
       "stage": "Leaderboard",
-      "source": "Benchmark public source",
+      "source": "官方评测入口",
+      "sourceUrl": "https://mmmu-benchmark.github.io",
       "type": "challenge",
       "description": "多模态理解 benchmark 入口。"
     },
@@ -92,6 +95,7 @@
       "status": "upcoming",
       "stage": "Submission",
       "source": "人工整理的官方来源入口",
+      "sourceUrl": "https://cocodataset.org",
       "type": "challenge",
       "description": "图像描述挑战入口。"
     },
@@ -111,6 +115,7 @@
       "status": "upcoming",
       "stage": "Leaderboard",
       "source": "人工整理的官方来源入口",
+      "sourceUrl": "https://www.kaggle.com/competitions",
       "type": "challenge",
       "description": "多模态推理榜单入口。"
     },
@@ -130,6 +135,7 @@
       "status": "upcoming",
       "stage": "Submission",
       "source": "人工整理的官方来源入口",
+      "sourceUrl": "https://www.kaggle.com/competitions",
       "type": "challenge",
       "description": "视频描述挑战入口。"
     },
@@ -148,7 +154,8 @@
       "url": "https://www.kaggle.com/competitions",
       "status": "upcoming",
       "stage": "Final submit",
-      "source": "Kaggle competitions public source",
+      "source": "官方评测入口",
+      "sourceUrl": "https://www.kaggle.com/competitions",
       "type": "challenge",
       "description": "生成式 AI 评测入口。"
     },
@@ -167,7 +174,8 @@
       "url": "https://video-mme.github.io",
       "status": "upcoming",
       "stage": "Leaderboard",
-      "source": "Benchmark public source",
+      "source": "官方评测入口",
+      "sourceUrl": "https://video-mme.github.io",
       "type": "challenge",
       "description": "视频理解评测入口。"
     },
@@ -187,6 +195,7 @@
       "status": "upcoming",
       "stage": "Submission",
       "source": "人工整理的官方来源入口",
+      "sourceUrl": "https://github.com/vis-nlp/ChartQA",
       "type": "challenge",
       "description": "图表问答评测入口。"
     },
@@ -206,6 +215,7 @@
       "status": "upcoming",
       "stage": "Submission",
       "source": "人工整理的官方来源入口",
+      "sourceUrl": "https://www.kaggle.com/competitions",
       "type": "challenge",
       "description": "音视频多模态挑战入口。"
     },
@@ -225,6 +235,7 @@
       "status": "upcoming",
       "stage": "Result upload",
       "source": "人工整理的官方来源入口",
+      "sourceUrl": "https://rrc.cvc.uab.es/?ch=17",
       "type": "challenge",
       "description": "文档问答评测入口。"
     },
@@ -244,6 +255,7 @@
       "status": "upcoming",
       "stage": "Workshop paper",
       "source": "人工整理的官方来源入口",
+      "sourceUrl": "https://cvpr.thecvf.com",
       "type": "program",
       "description": "VLM workshop paper 入口。"
     },
@@ -263,6 +275,7 @@
       "status": "upcoming",
       "stage": "Leaderboard",
       "source": "人工整理的官方来源入口",
+      "sourceUrl": "https://opencompass.org.cn/leaderboard-multimodal",
       "type": "challenge",
       "description": "多模态综合评测入口。"
     },
@@ -282,6 +295,7 @@
       "status": "upcoming",
       "stage": "Report",
       "source": "人工整理的官方来源入口",
+      "sourceUrl": "https://openreview.net/",
       "type": "challenge",
       "description": "多模态安全评测入口。"
     },
@@ -301,6 +315,7 @@
       "status": "upcoming",
       "stage": "Evaluation",
       "source": "人工整理的官方来源入口",
+      "sourceUrl": "https://llava-vl.github.io",
       "type": "challenge",
       "description": "VLM 对话能力评测入口。"
     },
@@ -320,6 +335,7 @@
       "status": "upcoming",
       "stage": "Paper",
       "source": "人工整理的官方来源入口",
+      "sourceUrl": "https://www.aclweb.org",
       "type": "program",
       "description": "多模态 NLP workshop 入口。"
     },
@@ -339,6 +355,7 @@
       "status": "upcoming",
       "stage": "Submission",
       "source": "人工整理的官方来源入口",
+      "sourceUrl": "https://www.kaggle.com/competitions",
       "type": "challenge",
       "description": "语音到图像生成评测入口。"
     },
@@ -358,6 +375,7 @@
       "status": "upcoming",
       "stage": "Leaderboard",
       "source": "人工整理的官方来源入口",
+      "sourceUrl": "https://openreview.net/",
       "type": "challenge",
       "description": "视觉-语言-动作模型评测入口。"
     }

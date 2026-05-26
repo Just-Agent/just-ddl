@@ -49,7 +49,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Event start",
       "source": "人工整理的官方来源入口",
       "type": "hackathon",
-      "description": "MLH 系列活动入口，适合专题按周滚动展示。"
+      "description": "MLH 系列活动入口，适合专题按周滚动展示。",
+      "sourceUrl": "https://mlh.io/seasons"
     },
     {
       "id": "hackathon-ddl-devpost-ai-builders-challenge-2026-08-18",
@@ -68,7 +69,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "source": "人工整理的官方来源入口",
       "type": "hackathon",
       "description": "Devpost AI 应用类比赛 官方来源入口，后续将按官方页面持续补充官方详情。",
-      "prize": "$25,000+"
+      "prize": "$25,000+",
+      "sourceUrl": "https://devpost.com/hackathons"
     },
     {
       "id": "hackathon-ddl-pennapps-2026-fall-2026-08-25",
@@ -86,7 +88,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Application",
       "source": "官方来源入口",
       "type": "hackathon",
-      "description": "高校黑客松 官方来源入口，用于补足北美校园赛历。"
+      "description": "高校黑客松 官方来源入口，用于补足北美校园赛历。",
+      "sourceUrl": "https://pennapps.com"
     },
     {
       "id": "hackathon-ddl-hack-the-north-2026-2026-09-01",
@@ -106,7 +109,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "source": "Official site",
       "type": "hackathon",
       "description": "大型校园黑客松，追踪报名、确认、项目提交和 Demo Day 节点。",
-      "prize": "$50,000+"
+      "prize": "$50,000+",
+      "sourceUrl": "https://hackthenorth.com"
     },
     {
       "id": "hackathon-ddl-hackzurich-2026-2026-09-11",
@@ -124,7 +128,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Application",
       "source": "人工整理的官方来源入口",
       "type": "hackathon",
-      "description": "欧洲大型企业/创新黑客松入口。"
+      "description": "欧洲大型企业/创新黑客松入口。",
+      "sourceUrl": "https://hackzurich.com"
     },
     {
       "id": "hackathon-ddl-hackmit-2026-2026-09-15",
@@ -143,7 +148,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "source": "人工整理的官方来源入口",
       "type": "hackathon",
       "description": "校园线下黑客松入口，等待官方申请时间校验。",
-      "prize": "$40,000+"
+      "prize": "$40,000+",
+      "sourceUrl": "https://hackmit.org"
     },
     {
       "id": "hackathon-ddl-hackharvard-2026-2026-09-20",
@@ -161,7 +167,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Application",
       "source": "人工整理的官方来源入口",
       "type": "hackathon",
-      "description": "哈佛校园黑客松入口。"
+      "description": "哈佛校园黑客松入口。",
+      "sourceUrl": "https://hackharvard.io"
     },
     {
       "id": "hackathon-ddl-hackprinceton-2026-fall-2026-10-01",
@@ -179,7 +186,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Application",
       "source": "人工整理的官方来源入口",
       "type": "hackathon",
-      "description": "普林斯顿校园黑客松入口。"
+      "description": "普林斯顿校园黑客松入口。",
+      "sourceUrl": "https://hackprinceton.com"
     },
     {
       "id": "hackathon-ddl-nasa-space-apps-challenge-2026-2026-10-01",
@@ -197,7 +205,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Local event",
       "source": "Official site",
       "type": "hackathon",
-      "description": "全球开放数据与空间科学挑战入口。"
+      "description": "全球开放数据与空间科学挑战入口。",
+      "sourceUrl": "https://www.spaceappschallenge.org/"
     },
     {
       "id": "hackathon-ddl-la-hacks-2026-2026-10-05",
@@ -215,7 +224,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Registration",
       "source": "人工整理的官方来源入口",
       "type": "hackathon",
-      "description": "UCLA 黑客松入口。"
+      "description": "UCLA 黑客松入口。",
+      "sourceUrl": "https://lahacks.com"
     },
     {
       "id": "hackathon-ddl-ethglobal-new-york-2026-2026-10-10",
@@ -235,7 +245,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "source": "ETHGlobal events board",
       "type": "hackathon",
       "description": "Web3 生态黑客松入口，后续将按官方页面对齐具体城市站详情页。",
-      "prize": "$150,000+"
+      "prize": "$150,000+",
+      "sourceUrl": "https://ethglobal.com/events"
     },
     {
       "id": "hackathon-ddl-hackupc-2026-2026-10-18",
@@ -253,7 +264,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Registration",
       "source": "人工整理的官方来源入口",
       "type": "hackathon",
-      "description": "欧洲学生黑客松 官方来源入口。"
+      "description": "欧洲学生黑客松 官方来源入口。",
+      "sourceUrl": "https://hackupc.com"
     },
     {
       "id": "hackathon-ddl-cal-hacks-2026-2026-10-24",
@@ -272,7 +284,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "source": "人工整理的官方来源入口",
       "type": "hackathon",
       "description": "美国西海岸高校黑客松 官方来源入口。",
-      "prize": "$30,000+"
+      "prize": "$30,000+",
+      "sourceUrl": "https://calhacks.io"
     },
     {
       "id": "hackathon-ddl-junction-2026-2026-11-06",
@@ -290,7 +303,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Application",
       "source": "人工整理的官方来源入口",
       "type": "hackathon",
-      "description": "欧洲综合创新黑客松入口。"
+      "description": "欧洲综合创新黑客松入口。",
+      "sourceUrl": "https://www.hackjunction.com"
     },
     {
       "id": "hackathon-ddl-dorahacks-open-innovation-sprint-2026-11-15",
@@ -309,7 +323,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "source": "人工整理的官方来源入口",
       "type": "hackathon",
       "description": "开源赏金与项目提交通道 官方来源入口。",
-      "prize": "$80,000+"
+      "prize": "$80,000+",
+      "sourceUrl": "https://dorahacks.io"
     },
     {
       "id": "hackathon-ddl-treehacks-2027-2026-11-15",
@@ -328,7 +343,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "source": "人工整理的官方来源入口",
       "type": "hackathon",
       "description": "斯坦福黑客松入口，后续由官方页面校准。",
-      "prize": "$35,000+"
+      "prize": "$35,000+",
+      "sourceUrl": "https://treehacks.com"
     },
     {
       "id": "hackathon-ddl-nwhacks-2027-2026-12-10",
@@ -347,7 +363,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "source": "人工整理的官方来源入口",
       "type": "hackathon",
       "description": "加拿大西海岸校园黑客松入口。",
-      "prize": "$28,000+"
+      "prize": "$28,000+",
+      "sourceUrl": "https://nwhacks.io"
     },
     {
       "id": "hackathon-ddl-hack-cambridge-2027-2026-12-20",
@@ -365,56 +382,11 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Registration",
       "source": "人工整理的官方来源入口",
       "type": "hackathon",
-      "description": "英国高校黑客松入口。"
+      "description": "英国高校黑客松入口。",
+      "sourceUrl": "https://hackcambridge.com"
     }
   ],
   "agent-ddl": [
-    {
-      "id": "agent-ddl-agents-assemble-healthcare-ai-2026-05-11",
-      "title": "Agents Assemble - The Healthcare AI Endgame",
-      "deadline": "2026-05-11T23:59:59-07:00",
-      "dateRange": "Mar 4 - May 11, 2026",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "Healthcare",
-        "MCP",
-        "A2A",
-        "FHIR"
-      ],
-      "url": "https://agents-assemble.devpost.com/",
-      "status": "ended",
-      "stage": "Submission",
-      "source": "Agents Assemble Devpost",
-      "type": "hackathon",
-      "description": "Healthcare AI agent hackathon focused on interoperable agents at the intersection of MCP, A2A, and FHIR.",
-      "prize": "$25,000",
-      "platform": "Devpost",
-      "evaluationMode": "Hybrid",
-      "organizer": "Prompt Opinion (Darena Health)",
-      "submissionType": "Demo video + Devpost project",
-      "sourceUrl": "https://agents-assemble.devpost.com/",
-      "phases": [
-        {
-          "name": "Submission period ends",
-          "deadline": "2026-05-11T23:59:59-07:00"
-        },
-        {
-          "name": "Winners announced",
-          "deadline": "2026-05-27T23:59:59-07:00"
-        }
-      ],
-      "tracks": [
-        {
-          "name": "Build a Superpower",
-          "description": "Create an MCP server that exposes healthcare tools for agents."
-        },
-        {
-          "name": "Build an Agent",
-          "description": "Configure an A2A-capable healthcare workflow agent on the Prompt Opinion platform."
-        }
-      ]
-    },
     {
       "id": "agent-ddl-devnetwork-ai-ml-hackathon-2026-05-28",
       "title": "DevNetwork [AI + ML] Hackathon 2026",
@@ -650,6 +622,49 @@ export const ddlData: Record<string, DDLItem[]> = {
       ]
     },
     {
+      "id": "agent-ddl-ai-olympics-realaigym-stage1-2026-06-15",
+      "title": "AI Olympics with RealAIGym - Stage 1",
+      "deadline": "2026-06-15T23:59:59",
+      "dateRange": "First stage solutions and reports: May 1 - Jun 15, 2026",
+      "location": "IJCAI-ECAI 2026 / DFKI Bremen",
+      "isOnline": true,
+      "tags": [
+        "Robotics Agent",
+        "Reinforcement Learning",
+        "CloudPendulum"
+      ],
+      "url": "https://ai-olympics.dfki-bremen.de/",
+      "status": "upcoming",
+      "stage": "Stage 1 report",
+      "source": "IJCAI AI Olympics with RealAIGym",
+      "type": "challenge",
+      "description": "Hardware benchmark for global swing-up policies on CloudPendulum hardware, evaluating robotics and RL agents.",
+      "prize": "N/A",
+      "platform": "IJCAI",
+      "evaluationMode": "Automated",
+      "organizer": "DFKI Bremen / IJCAI-ECAI 2026",
+      "submissionType": "Controller solution and report",
+      "sourceUrl": "https://ai-olympics.dfki-bremen.de/",
+      "phases": [
+        {
+          "name": "Registration deadline",
+          "deadline": "2026-05-31T23:59:59"
+        },
+        {
+          "name": "First stage solutions and reports due",
+          "deadline": "2026-06-15T23:59:59"
+        },
+        {
+          "name": "Second stage starts",
+          "deadline": "2026-07-01T23:59:59"
+        },
+        {
+          "name": "Second stage ends",
+          "deadline": "2026-08-15T23:59:59"
+        }
+      ]
+    },
+    {
       "id": "agent-ddl-splunk-agentic-ops-hackathon-2026-06-15",
       "title": "Splunk Agentic Ops Hackathon",
       "deadline": "2026-06-15T09:00:00-07:00",
@@ -696,49 +711,6 @@ export const ddlData: Record<string, DDLItem[]> = {
         {
           "name": "Platform & Developer Experience",
           "description": "Developer workflows and Splunk app/platform automation."
-        }
-      ]
-    },
-    {
-      "id": "agent-ddl-ai-olympics-realaigym-stage1-2026-06-15",
-      "title": "AI Olympics with RealAIGym - Stage 1",
-      "deadline": "2026-06-15T23:59:59",
-      "dateRange": "First stage solutions and reports: May 1 - Jun 15, 2026",
-      "location": "IJCAI-ECAI 2026 / DFKI Bremen",
-      "isOnline": true,
-      "tags": [
-        "Robotics Agent",
-        "Reinforcement Learning",
-        "CloudPendulum"
-      ],
-      "url": "https://ai-olympics.dfki-bremen.de/",
-      "status": "upcoming",
-      "stage": "Stage 1 report",
-      "source": "IJCAI AI Olympics with RealAIGym",
-      "type": "challenge",
-      "description": "Hardware benchmark for global swing-up policies on CloudPendulum hardware, evaluating robotics and RL agents.",
-      "prize": "N/A",
-      "platform": "IJCAI",
-      "evaluationMode": "Automated",
-      "organizer": "DFKI Bremen / IJCAI-ECAI 2026",
-      "submissionType": "Controller solution and report",
-      "sourceUrl": "https://ai-olympics.dfki-bremen.de/",
-      "phases": [
-        {
-          "name": "Registration deadline",
-          "deadline": "2026-05-31T23:59:59"
-        },
-        {
-          "name": "First stage solutions and reports due",
-          "deadline": "2026-06-15T23:59:59"
-        },
-        {
-          "name": "Second stage starts",
-          "deadline": "2026-07-01T23:59:59"
-        },
-        {
-          "name": "Second stage ends",
-          "deadline": "2026-08-15T23:59:59"
         }
       ]
     },
@@ -1152,6 +1124,52 @@ export const ddlData: Record<string, DDLItem[]> = {
           "deadline": "2026-08-15T23:59:59"
         }
       ]
+    },
+    {
+      "id": "agent-ddl-agents-assemble-healthcare-ai-2026-05-11",
+      "title": "Agents Assemble - The Healthcare AI Endgame",
+      "deadline": "2026-05-11T23:59:59-07:00",
+      "dateRange": "Mar 4 - May 11, 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "Healthcare",
+        "MCP",
+        "A2A",
+        "FHIR"
+      ],
+      "url": "https://agents-assemble.devpost.com/",
+      "status": "ended",
+      "stage": "Submission",
+      "source": "Agents Assemble Devpost",
+      "type": "hackathon",
+      "description": "Healthcare AI agent hackathon focused on interoperable agents at the intersection of MCP, A2A, and FHIR.",
+      "prize": "$25,000",
+      "platform": "Devpost",
+      "evaluationMode": "Hybrid",
+      "organizer": "Prompt Opinion (Darena Health)",
+      "submissionType": "Demo video + Devpost project",
+      "sourceUrl": "https://agents-assemble.devpost.com/",
+      "phases": [
+        {
+          "name": "Submission period ends",
+          "deadline": "2026-05-11T23:59:59-07:00"
+        },
+        {
+          "name": "Winners announced",
+          "deadline": "2026-05-27T23:59:59-07:00"
+        }
+      ],
+      "tracks": [
+        {
+          "name": "Build a Superpower",
+          "description": "Create an MCP server that exposes healthcare tools for agents."
+        },
+        {
+          "name": "Build an Agent",
+          "description": "Configure an A2A-capable healthcare workflow agent on the Prompt Opinion platform."
+        }
+      ]
     }
   ],
   "cv-ddl": [
@@ -1168,15 +1186,12 @@ export const ddlData: Record<string, DDLItem[]> = {
         "2077AI"
       ],
       "url": "https://www.2077ai.com/challenge-pages/challenges.html",
-      "sourceUrl": "https://www.2077ai.com/challenge-pages/challenges.html",
-      "canonicalUrl": "https://www.2077ai.com/challenge-pages/challenges.html#cvpr2077ai-2077ai-rising-star-award-may-22-2026",
       "status": "upcoming",
       "description": "Parsed from the official 2077AI CVPR 2026 challenge page.",
       "stage": "Award application deadline",
       "source": "2077AI CVPR 2026 Challenges",
-      "sourceLabel": "官方挑战页面",
-      "verificationLevel": "official_event_page",
-      "type": "challenge"
+      "type": "challenge",
+      "sourceUrl": "https://www.2077ai.com/challenge-pages/challenges.html"
     },
     {
       "id": "cvpr2077ai-2077ai-datamfm-challenge-may-29-2026",
@@ -1191,15 +1206,12 @@ export const ddlData: Record<string, DDLItem[]> = {
         "2077AI"
       ],
       "url": "https://www.2077ai.com/challenge-pages/challenges.html",
-      "sourceUrl": "https://www.2077ai.com/challenge-pages/challenges.html",
-      "canonicalUrl": "https://www.2077ai.com/challenge-pages/challenges.html#cvpr2077ai-2077ai-datamfm-challenge-may-29-2026",
       "status": "upcoming",
       "description": "Parsed from the official 2077AI CVPR 2026 challenge page.",
       "stage": "Submission deadline",
       "source": "2077AI CVPR 2026 Challenges",
-      "sourceLabel": "官方挑战页面",
-      "verificationLevel": "official_event_page",
-      "type": "challenge"
+      "type": "challenge",
+      "sourceUrl": "https://www.2077ai.com/challenge-pages/challenges.html"
     },
     {
       "id": "cvpr2026-cvpr-2026-1st-workshop-on-video-world-models-interaction-memory-and-efficiency-june-3-2026",
@@ -1215,15 +1227,12 @@ export const ddlData: Record<string, DDLItem[]> = {
         "VideoWorldModel"
       ],
       "url": "https://videoworldmodel-workshop.github.io/",
-      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops",
-      "canonicalUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops#cvpr2026-cvpr-2026-1st-workshop-on-video-world-models-interaction-memory-and-efficiency-june-3-2026",
       "status": "upcoming",
       "description": "Parsed from the official CVPR 2026 workshops table.",
       "stage": "Workshop / challenge session",
       "source": "CVPR 2026 Workshops",
-      "sourceLabel": "官方工作坊列表",
-      "verificationLevel": "official_event_page",
-      "type": "challenge"
+      "type": "challenge",
+      "sourceUrl": "https://videoworldmodel-workshop.github.io/"
     },
     {
       "id": "cvpr2026-cvpr-2026-3rd-workshop-on-scannet-novel-view-synthesis-and-3d-semantic-understanding-chall",
@@ -1239,15 +1248,12 @@ export const ddlData: Record<string, DDLItem[]> = {
         "ScanNet++"
       ],
       "url": "https://scannetpp.mlsg.cit.tum.de/scannetpp/cvpr2026",
-      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops",
-      "canonicalUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops#cvpr2026-cvpr-2026-3rd-workshop-on-scannet-novel-view-synthesis-and-3d-semantic-understanding-chall",
       "status": "upcoming",
       "description": "Parsed from the official CVPR 2026 workshops table.",
       "stage": "Workshop / challenge session",
       "source": "CVPR 2026 Workshops",
-      "sourceLabel": "官方工作坊列表",
-      "verificationLevel": "official_event_page",
-      "type": "challenge"
+      "type": "challenge",
+      "sourceUrl": "https://scannetpp.mlsg.cit.tum.de/scannetpp/cvpr2026"
     },
     {
       "id": "cvpr2026-cvpr-2026-ai4rwc-the-2nd-international-workshop-on-vision-intelligence-for-real-world-chal",
@@ -1263,15 +1269,12 @@ export const ddlData: Record<string, DDLItem[]> = {
         "AI4RWC"
       ],
       "url": "https://sites.google.com/view/ai4rwc2026",
-      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops",
-      "canonicalUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops#cvpr2026-cvpr-2026-ai4rwc-the-2nd-international-workshop-on-vision-intelligence-for-real-world-chal",
       "status": "upcoming",
       "description": "Parsed from the official CVPR 2026 workshops table.",
       "stage": "Workshop / challenge session",
       "source": "CVPR 2026 Workshops",
-      "sourceLabel": "官方工作坊列表",
-      "verificationLevel": "official_event_page",
-      "type": "challenge"
+      "type": "challenge",
+      "sourceUrl": "https://sites.google.com/view/ai4rwc2026"
     },
     {
       "id": "cvpr2026-cvpr-2026-gigabrain-challenge-2026-workshop-on-world-models-empowering-vision-language-act",
@@ -1287,15 +1290,12 @@ export const ddlData: Record<string, DDLItem[]> = {
         "GigaBrain Challenge"
       ],
       "url": "https://gigaai-research.github.io/GigaBrain-Challenge-2026/",
-      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops",
-      "canonicalUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops#cvpr2026-cvpr-2026-gigabrain-challenge-2026-workshop-on-world-models-empowering-vision-language-act",
       "status": "upcoming",
       "description": "Parsed from the official CVPR 2026 workshops table.",
       "stage": "Workshop / challenge session",
       "source": "CVPR 2026 Workshops",
-      "sourceLabel": "官方工作坊列表",
-      "verificationLevel": "official_event_page",
-      "type": "challenge"
+      "type": "challenge",
+      "sourceUrl": "https://gigaai-research.github.io/GigaBrain-Challenge-2026/"
     },
     {
       "id": "cvpr2026-cvpr-2026-multimodal-foundation-models-for-biomedicine-challenges-and-opportunities-june-3",
@@ -1311,15 +1311,12 @@ export const ddlData: Record<string, DDLItem[]> = {
         "MMFM-BIOMED"
       ],
       "url": "https://mmfm-biomed.github.io/",
-      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops",
-      "canonicalUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops#cvpr2026-cvpr-2026-multimodal-foundation-models-for-biomedicine-challenges-and-opportunities-june-3",
       "status": "upcoming",
       "description": "Parsed from the official CVPR 2026 workshops table.",
       "stage": "Workshop / challenge session",
       "source": "CVPR 2026 Workshops",
-      "sourceLabel": "官方工作坊列表",
-      "verificationLevel": "official_event_page",
-      "type": "challenge"
+      "type": "challenge",
+      "sourceUrl": "https://mmfm-biomed.github.io/"
     },
     {
       "id": "cvpr2026-cvpr-2026-the-2nd-international-workshop-challenge-on-subtle-visual-computing-cvpr-2026-ju",
@@ -1335,15 +1332,12 @@ export const ddlData: Record<string, DDLItem[]> = {
         "SVC"
       ],
       "url": "https://sites.google.com/view/svc-cvpr26",
-      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops",
-      "canonicalUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops#cvpr2026-cvpr-2026-the-2nd-international-workshop-challenge-on-subtle-visual-computing-cvpr-2026-ju",
       "status": "upcoming",
       "description": "Parsed from the official CVPR 2026 workshops table.",
       "stage": "Workshop / challenge session",
       "source": "CVPR 2026 Workshops",
-      "sourceLabel": "官方工作坊列表",
-      "verificationLevel": "official_event_page",
-      "type": "challenge"
+      "type": "challenge",
+      "sourceUrl": "https://sites.google.com/view/svc-cvpr26"
     },
     {
       "id": "cvpr2026-cvpr-2026-the-3rd-ai-for-visual-arts-workshop-and-challenges-june-3-2026-wed-half-day",
@@ -1364,10 +1358,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Workshop / challenge session",
       "source": "CVPR 2026 Workshops",
       "type": "challenge",
-      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops",
-      "canonicalUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops#cvpr2026-cvpr-2026-the-3rd-ai-for-visual-arts-workshop-and-challenges-june-3-2026-wed-half-day",
-      "sourceLabel": "官方工作坊列表",
-      "verificationLevel": "official_event_page"
+      "sourceUrl": "https://ai4va-cvpr.github.io/"
     },
     {
       "id": "cvpr2026-cvpr-2026-the-3rd-ai-for-visual-arts-workshop-and-challenges-june-3-2026-wed-am",
@@ -1383,15 +1374,12 @@ export const ddlData: Record<string, DDLItem[]> = {
         "AI4VA"
       ],
       "url": "https://ai4va-cvpr.github.io/",
-      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops",
-      "canonicalUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops#cvpr2026-cvpr-2026-the-3rd-ai-for-visual-arts-workshop-and-challenges-june-3-2026-wed-am",
       "status": "upcoming",
       "description": "Parsed from the official CVPR 2026 workshops table.",
       "stage": "Workshop / challenge session",
       "source": "CVPR 2026 Workshops",
-      "sourceLabel": "官方工作坊列表",
-      "verificationLevel": "official_event_page",
-      "type": "challenge"
+      "type": "challenge",
+      "sourceUrl": "https://ai4va-cvpr.github.io/"
     },
     {
       "id": "cvpr2026-cvpr-2026-the-5th-datacv-workshop-and-challenge-june-3-2026-wed-half-day",
@@ -1412,10 +1400,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Workshop / challenge session",
       "source": "CVPR 2026 Workshops",
       "type": "challenge",
-      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops",
-      "canonicalUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops#cvpr2026-cvpr-2026-the-5th-datacv-workshop-and-challenge-june-3-2026-wed-half-day",
-      "sourceLabel": "官方工作坊列表",
-      "verificationLevel": "official_event_page"
+      "sourceUrl": "https://sites.google.com/view/datacv-2026-cvpr/"
     },
     {
       "id": "cvpr2026-cvpr-2026-the-5th-datacv-workshop-and-challenge-june-3-2026-wed-am",
@@ -1431,15 +1416,12 @@ export const ddlData: Record<string, DDLItem[]> = {
         "DataCV"
       ],
       "url": "https://sites.google.com/view/datacv-2026-cvpr/",
-      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops",
-      "canonicalUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops#cvpr2026-cvpr-2026-the-5th-datacv-workshop-and-challenge-june-3-2026-wed-am",
       "status": "upcoming",
       "description": "Parsed from the official CVPR 2026 workshops table.",
       "stage": "Workshop / challenge session",
       "source": "CVPR 2026 Workshops",
-      "sourceLabel": "官方工作坊列表",
-      "verificationLevel": "official_event_page",
-      "type": "challenge"
+      "type": "challenge",
+      "sourceUrl": "https://sites.google.com/view/datacv-2026-cvpr/"
     },
     {
       "id": "cvpr2026-cvpr-2026-the-7th-international-workshop-and-cvml-challenge-on-agriculture-vision-challeng",
@@ -1455,15 +1437,12 @@ export const ddlData: Record<string, DDLItem[]> = {
         "V4A"
       ],
       "url": "https://www.agriculture-vision.com/",
-      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops",
-      "canonicalUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops#cvpr2026-cvpr-2026-the-7th-international-workshop-and-cvml-challenge-on-agriculture-vision-challeng",
       "status": "upcoming",
       "description": "Parsed from the official CVPR 2026 workshops table.",
       "stage": "Workshop / challenge session",
       "source": "CVPR 2026 Workshops",
-      "sourceLabel": "官方工作坊列表",
-      "verificationLevel": "official_event_page",
-      "type": "challenge"
+      "type": "challenge",
+      "sourceUrl": "https://www.agriculture-vision.com/"
     },
     {
       "id": "cvpr2026-cvpr-2026-workshop-on-world-models-meet-active-sensing-and-closed-loop-planning-june-3-202",
@@ -1483,9 +1462,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Parsed from the official CVPR 2026 workshops table.",
       "stage": "Workshop / challenge session",
       "source": "CVPR 2026 Workshops",
-      "sourceLabel": "官方工作坊列表",
-      "verificationLevel": "official_event_page",
-      "type": "challenge"
+      "type": "challenge",
+      "sourceUrl": "https://cvpr26wmas.github.io/"
     },
     {
       "id": "cvpr2026-cvpr-2026-11th-new-trends-in-image-restoration-and-enhancement-workshop-and-challenges-jun",
@@ -1501,15 +1479,12 @@ export const ddlData: Record<string, DDLItem[]> = {
         "NTIRE"
       ],
       "url": "https://www.cvlai.net/ntire/2026/",
-      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops",
-      "canonicalUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops#cvpr2026-cvpr-2026-11th-new-trends-in-image-restoration-and-enhancement-workshop-and-challenges-jun",
       "status": "upcoming",
       "description": "Parsed from the official CVPR 2026 workshops table.",
       "stage": "Workshop / challenge session",
       "source": "CVPR 2026 Workshops",
-      "sourceLabel": "官方工作坊列表",
-      "verificationLevel": "official_event_page",
-      "type": "challenge"
+      "type": "challenge",
+      "sourceUrl": "https://www.cvlai.net/ntire/2026/"
     },
     {
       "id": "cvpr2026-cvpr-2026-4d-world-models-bridging-generation-and-reconstruction-june-4-2026-thu-half-day",
@@ -1530,10 +1505,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Workshop / challenge session",
       "source": "CVPR 2026 Workshops",
       "type": "challenge",
-      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops",
-      "canonicalUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops#cvpr2026-cvpr-2026-4d-world-models-bridging-generation-and-reconstruction-june-4-2026-thu-half-day",
-      "sourceLabel": "官方工作坊列表",
-      "verificationLevel": "official_event_page"
+      "sourceUrl": "https://ivl.cs.brown.edu/4dworldmodels/"
     },
     {
       "id": "cvpr2026-cvpr-2026-4d-world-models-bridging-generation-and-reconstruction-june-4-2026-thu-pm",
@@ -1549,15 +1521,12 @@ export const ddlData: Record<string, DDLItem[]> = {
         "ReGen4D"
       ],
       "url": "https://ivl.cs.brown.edu/4dworldmodels/",
-      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops",
-      "canonicalUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops#cvpr2026-cvpr-2026-4d-world-models-bridging-generation-and-reconstruction-june-4-2026-thu-pm",
       "status": "upcoming",
       "description": "Parsed from the official CVPR 2026 workshops table.",
       "stage": "Workshop / challenge session",
       "source": "CVPR 2026 Workshops",
-      "sourceLabel": "官方工作坊列表",
-      "verificationLevel": "official_event_page",
-      "type": "challenge"
+      "type": "challenge",
+      "sourceUrl": "https://ivl.cs.brown.edu/4dworldmodels/"
     },
     {
       "id": "cvpr2026-cvpr-2026-6th-workshop-on-cv4animals-computer-vision-for-animal-behavior-tracking-and-mode",
@@ -1573,15 +1542,12 @@ export const ddlData: Record<string, DDLItem[]> = {
         "CV4Animals"
       ],
       "url": "https://www.cv4animals.com/",
-      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops",
-      "canonicalUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops#cvpr2026-cvpr-2026-6th-workshop-on-cv4animals-computer-vision-for-animal-behavior-tracking-and-mode",
       "status": "upcoming",
       "description": "Parsed from the official CVPR 2026 workshops table.",
       "stage": "Workshop / challenge session",
       "source": "CVPR 2026 Workshops",
-      "sourceLabel": "官方工作坊列表",
-      "verificationLevel": "official_event_page",
-      "type": "challenge"
+      "type": "challenge",
+      "sourceUrl": "https://www.cv4animals.com/"
     },
     {
       "id": "cvpr2026-cvpr-2026-eighth-workshop-on-image-matching-local-features-and-beyond-june-4-2026-thu-half",
@@ -1602,10 +1568,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Workshop / challenge session",
       "source": "CVPR 2026 Workshops",
       "type": "challenge",
-      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops",
-      "canonicalUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops#cvpr2026-cvpr-2026-eighth-workshop-on-image-matching-local-features-and-beyond-june-4-2026-thu-half",
-      "sourceLabel": "官方工作坊列表",
-      "verificationLevel": "official_event_page"
+      "sourceUrl": "https://image-matching-workshop.github.io/"
     },
     {
       "id": "cvpr2026-cvpr-2026-eighth-workshop-on-image-matching-local-features-and-beyond-june-4-2026-thu-pm",
@@ -1621,15 +1584,12 @@ export const ddlData: Record<string, DDLItem[]> = {
         "IMW"
       ],
       "url": "https://image-matching-workshop.github.io/",
-      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops",
-      "canonicalUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops#cvpr2026-cvpr-2026-eighth-workshop-on-image-matching-local-features-and-beyond-june-4-2026-thu-pm",
       "status": "upcoming",
       "description": "Parsed from the official CVPR 2026 workshops table.",
       "stage": "Workshop / challenge session",
       "source": "CVPR 2026 Workshops",
-      "sourceLabel": "官方工作坊列表",
-      "verificationLevel": "official_event_page",
-      "type": "challenge"
+      "type": "challenge",
+      "sourceUrl": "https://image-matching-workshop.github.io/"
     },
     {
       "id": "cvpr2026-cvpr-2026-embodied-reasoning-in-action-workshop-and-challenge-on-embodied-reasoning-for-ro",
@@ -1645,15 +1605,12 @@ export const ddlData: Record<string, DDLItem[]> = {
         "ERA"
       ],
       "url": "https://embodied-reasoning.github.io/",
-      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops",
-      "canonicalUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops#cvpr2026-cvpr-2026-embodied-reasoning-in-action-workshop-and-challenge-on-embodied-reasoning-for-ro",
       "status": "upcoming",
       "description": "Parsed from the official CVPR 2026 workshops table.",
       "stage": "Workshop / challenge session",
       "source": "CVPR 2026 Workshops",
-      "sourceLabel": "官方工作坊列表",
-      "verificationLevel": "official_event_page",
-      "type": "challenge"
+      "type": "challenge",
+      "sourceUrl": "https://embodied-reasoning.github.io/"
     },
     {
       "id": "cvpr2026-cvpr-2026-from-perception-to-persuasion-challenges-and-advances-in-misinformation-detectio",
@@ -1669,15 +1626,12 @@ export const ddlData: Record<string, DDLItem[]> = {
         "PP-MisDet"
       ],
       "url": "https://eecs.uq.edu.au/CVPR2026",
-      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops",
-      "canonicalUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops#cvpr2026-cvpr-2026-from-perception-to-persuasion-challenges-and-advances-in-misinformation-detectio",
       "status": "upcoming",
       "description": "Parsed from the official CVPR 2026 workshops table.",
       "stage": "Workshop / challenge session",
       "source": "CVPR 2026 Workshops",
-      "sourceLabel": "官方工作坊列表",
-      "verificationLevel": "official_event_page",
-      "type": "challenge"
+      "type": "challenge",
+      "sourceUrl": "https://eecs.uq.edu.au/CVPR2026"
     },
     {
       "id": "cvpr2026-cvpr-2026-mobile-ai-workshop-and-associated-challenges-6th-edition-june-4-2026-thu-full-da",
@@ -1693,15 +1647,12 @@ export const ddlData: Record<string, DDLItem[]> = {
         "MAI 2026"
       ],
       "url": "https://ai-benchmark.com/workshops/mai/2026/",
-      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops",
-      "canonicalUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops#cvpr2026-cvpr-2026-mobile-ai-workshop-and-associated-challenges-6th-edition-june-4-2026-thu-full-da",
       "status": "upcoming",
       "description": "Parsed from the official CVPR 2026 workshops table.",
       "stage": "Workshop / challenge session",
       "source": "CVPR 2026 Workshops",
-      "sourceLabel": "官方工作坊列表",
-      "verificationLevel": "official_event_page",
-      "type": "challenge"
+      "type": "challenge",
+      "sourceUrl": "https://ai-benchmark.com/workshops/mai/2026/"
     },
     {
       "id": "cvpr2026-cvpr-2026-multi-agent-embodied-intelligent-systems-meet-agentic-ai-era-opportunities-chall",
@@ -1717,15 +1668,12 @@ export const ddlData: Record<string, DDLItem[]> = {
         "MEIS"
       ],
       "url": "https://coop-intelligence.github.io/",
-      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops",
-      "canonicalUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops#cvpr2026-cvpr-2026-multi-agent-embodied-intelligent-systems-meet-agentic-ai-era-opportunities-chall",
       "status": "upcoming",
       "description": "Parsed from the official CVPR 2026 workshops table.",
       "stage": "Workshop / challenge session",
       "source": "CVPR 2026 Workshops",
-      "sourceLabel": "官方工作坊列表",
-      "verificationLevel": "official_event_page",
-      "type": "challenge"
+      "type": "challenge",
+      "sourceUrl": "https://coop-intelligence.github.io/"
     },
     {
       "id": "cvpr2026-cvpr-2026-pixel-level-video-understanding-in-the-wild-challenge-june-4-2026-thu-half-day",
@@ -1746,10 +1694,7 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Workshop / challenge session",
       "source": "CVPR 2026 Workshops",
       "type": "challenge",
-      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops",
-      "canonicalUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops#cvpr2026-cvpr-2026-pixel-level-video-understanding-in-the-wild-challenge-june-4-2026-thu-half-day",
-      "sourceLabel": "官方工作坊列表",
-      "verificationLevel": "official_event_page"
+      "sourceUrl": "https://pvuw.github.io/"
     },
     {
       "id": "cvpr2026-cvpr-2026-pixel-level-video-understanding-in-the-wild-challenge-june-4-2026-thu-pm",
@@ -1765,15 +1710,12 @@ export const ddlData: Record<string, DDLItem[]> = {
         "PVUW"
       ],
       "url": "https://pvuw.github.io/",
-      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops",
-      "canonicalUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops#cvpr2026-cvpr-2026-pixel-level-video-understanding-in-the-wild-challenge-june-4-2026-thu-pm",
       "status": "upcoming",
       "description": "Parsed from the official CVPR 2026 workshops table.",
       "stage": "Workshop / challenge session",
       "source": "CVPR 2026 Workshops",
-      "sourceLabel": "官方工作坊列表",
-      "verificationLevel": "official_event_page",
-      "type": "challenge"
+      "type": "challenge",
+      "sourceUrl": "https://pvuw.github.io/"
     },
     {
       "id": "cvpr2026-cvpr-2026-the-8th-ug2-workshop-and-challenge-bridging-the-gap-between-computational-photog",
@@ -1789,15 +1731,12 @@ export const ddlData: Record<string, DDLItem[]> = {
         "UG2+"
       ],
       "url": "https://cvpr2026ug2challenge.github.io/",
-      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops",
-      "canonicalUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops#cvpr2026-cvpr-2026-the-8th-ug2-workshop-and-challenge-bridging-the-gap-between-computational-photog",
       "status": "upcoming",
       "description": "Parsed from the official CVPR 2026 workshops table.",
       "stage": "Workshop / challenge session",
       "source": "CVPR 2026 Workshops",
-      "sourceLabel": "官方工作坊列表",
-      "verificationLevel": "official_event_page",
-      "type": "challenge"
+      "type": "challenge",
+      "sourceUrl": "https://cvpr2026ug2challenge.github.io/"
     },
     {
       "id": "cvpr2026-cvpr-2026-video-generative-models-benchmarks-and-evaluation-june-4-2026-thu-full-day",
@@ -1813,15 +1752,12 @@ export const ddlData: Record<string, DDLItem[]> = {
         "VGBE"
       ],
       "url": "https://vidgen-bench-eval.github.io/",
-      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops",
-      "canonicalUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops#cvpr2026-cvpr-2026-video-generative-models-benchmarks-and-evaluation-june-4-2026-thu-full-day",
       "status": "upcoming",
       "description": "Parsed from the official CVPR 2026 workshops table.",
       "stage": "Workshop / challenge session",
       "source": "CVPR 2026 Workshops",
-      "sourceLabel": "官方工作坊列表",
-      "verificationLevel": "official_event_page",
-      "type": "challenge"
+      "type": "challenge",
+      "sourceUrl": "https://vidgen-bench-eval.github.io/"
     },
     {
       "id": "cvpr2026-cvpr-2026-vizwiz-grand-challenge-interpreting-images-and-videos-taken-by-blind-people-june",
@@ -1837,15 +1773,12 @@ export const ddlData: Record<string, DDLItem[]> = {
         "VizWiz"
       ],
       "url": "https://vizwiz.org/workshops/2026-vizwiz-grand-challenge-workshop/",
-      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops",
-      "canonicalUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops#cvpr2026-cvpr-2026-vizwiz-grand-challenge-interpreting-images-and-videos-taken-by-blind-people-june",
       "status": "upcoming",
       "description": "Parsed from the official CVPR 2026 workshops table.",
       "stage": "Workshop / challenge session",
       "source": "CVPR 2026 Workshops",
-      "sourceLabel": "官方工作坊列表",
-      "verificationLevel": "official_event_page",
-      "type": "challenge"
+      "type": "challenge",
+      "sourceUrl": "https://vizwiz.org/workshops/2026-vizwiz-grand-challenge-workshop/"
     },
     {
       "id": "eccv-ebmv-2026-ebmv-eccv-2026-challenge-submission-deadline-june-30-2026",
@@ -1860,15 +1793,12 @@ export const ddlData: Record<string, DDLItem[]> = {
         "event-based vision"
       ],
       "url": "https://eventbasemultimodalvision.github.io/",
-      "sourceUrl": "https://eventbasemultimodalvision.github.io/",
-      "canonicalUrl": "https://eventbasemultimodalvision.github.io/#eccv-ebmv-2026-ebmv-eccv-2026-challenge-submission-deadline-june-30-2026",
       "status": "upcoming",
       "description": "Parsed from the EBMV @ ECCV 2026 official workshop page.",
       "stage": "Challenge submission deadline",
       "source": "EBMV @ ECCV 2026",
-      "sourceLabel": "官方工作坊页面",
-      "verificationLevel": "official_event_page",
-      "type": "challenge"
+      "type": "challenge",
+      "sourceUrl": "https://eventbasemultimodalvision.github.io/"
     },
     {
       "id": "eccv-ebmv-2026-ebmv-eccv-2026-challenge-results-announcement-july-5-2026",
@@ -1883,15 +1813,12 @@ export const ddlData: Record<string, DDLItem[]> = {
         "event-based vision"
       ],
       "url": "https://eventbasemultimodalvision.github.io/",
-      "sourceUrl": "https://eventbasemultimodalvision.github.io/",
-      "canonicalUrl": "https://eventbasemultimodalvision.github.io/#eccv-ebmv-2026-ebmv-eccv-2026-challenge-results-announcement-july-5-2026",
       "status": "upcoming",
       "description": "Parsed from the EBMV @ ECCV 2026 official workshop page.",
       "stage": "Challenge results announcement",
       "source": "EBMV @ ECCV 2026",
-      "sourceLabel": "官方工作坊页面",
-      "verificationLevel": "official_event_page",
-      "type": "challenge"
+      "type": "challenge",
+      "sourceUrl": "https://eventbasemultimodalvision.github.io/"
     },
     {
       "id": "eccv-ebmv-2026-ebmv-eccv-2026-technical-report-deadline-july-10-2026",
@@ -1906,15 +1833,12 @@ export const ddlData: Record<string, DDLItem[]> = {
         "event-based vision"
       ],
       "url": "https://eventbasemultimodalvision.github.io/",
-      "sourceUrl": "https://eventbasemultimodalvision.github.io/",
-      "canonicalUrl": "https://eventbasemultimodalvision.github.io/#eccv-ebmv-2026-ebmv-eccv-2026-technical-report-deadline-july-10-2026",
       "status": "upcoming",
       "description": "Parsed from the EBMV @ ECCV 2026 official workshop page.",
       "stage": "Technical report deadline",
       "source": "EBMV @ ECCV 2026",
-      "sourceLabel": "官方工作坊页面",
-      "verificationLevel": "official_event_page",
-      "type": "challenge"
+      "type": "challenge",
+      "sourceUrl": "https://eventbasemultimodalvision.github.io/"
     },
     {
       "id": "eccv-emr-2026-emr-eccv-2026-full-paper-submission-deadline-july-12-2026",
@@ -1929,15 +1853,12 @@ export const ddlData: Record<string, DDLItem[]> = {
         "embodied AI"
       ],
       "url": "https://emr-workshop.github.io/",
-      "sourceUrl": "https://emr-workshop.github.io/",
-      "canonicalUrl": "https://emr-workshop.github.io/#eccv-emr-2026-emr-eccv-2026-full-paper-submission-deadline-july-12-2026",
       "status": "upcoming",
       "description": "Parsed from the EMR Workshop @ ECCV 2026 official page.",
       "stage": "Full paper submission deadline",
       "source": "EMR @ ECCV 2026",
-      "sourceLabel": "官方工作坊页面",
-      "verificationLevel": "official_event_page",
-      "type": "challenge"
+      "type": "challenge",
+      "sourceUrl": "https://emr-workshop.github.io/"
     },
     {
       "id": "eccv-ebmv-2026-ebmv-eccv-2026-workshop-paper-deadline-july-20-2026",
@@ -1952,15 +1873,12 @@ export const ddlData: Record<string, DDLItem[]> = {
         "event-based vision"
       ],
       "url": "https://eventbasemultimodalvision.github.io/",
-      "sourceUrl": "https://eventbasemultimodalvision.github.io/",
-      "canonicalUrl": "https://eventbasemultimodalvision.github.io/#eccv-ebmv-2026-ebmv-eccv-2026-workshop-paper-deadline-july-20-2026",
       "status": "upcoming",
       "description": "Parsed from the EBMV @ ECCV 2026 official workshop page.",
       "stage": "Workshop paper deadline",
       "source": "EBMV @ ECCV 2026",
-      "sourceLabel": "官方工作坊页面",
-      "verificationLevel": "official_event_page",
-      "type": "challenge"
+      "type": "challenge",
+      "sourceUrl": "https://eventbasemultimodalvision.github.io/"
     },
     {
       "id": "eccv-emr-2026-emr-eccv-2026-extended-abstract-submission-july-24-2026",
@@ -1975,15 +1893,12 @@ export const ddlData: Record<string, DDLItem[]> = {
         "embodied AI"
       ],
       "url": "https://emr-workshop.github.io/",
-      "sourceUrl": "https://emr-workshop.github.io/",
-      "canonicalUrl": "https://emr-workshop.github.io/#eccv-emr-2026-emr-eccv-2026-extended-abstract-submission-july-24-2026",
       "status": "upcoming",
       "description": "Parsed from the EMR Workshop @ ECCV 2026 official page.",
       "stage": "Extended abstract submission",
       "source": "EMR @ ECCV 2026",
-      "sourceLabel": "官方工作坊页面",
-      "verificationLevel": "official_event_page",
-      "type": "challenge"
+      "type": "challenge",
+      "sourceUrl": "https://emr-workshop.github.io/"
     },
     {
       "id": "eccv-emr-2026-emr-eccv-2026-notification-july-31-2026",
@@ -1998,15 +1913,12 @@ export const ddlData: Record<string, DDLItem[]> = {
         "embodied AI"
       ],
       "url": "https://emr-workshop.github.io/",
-      "sourceUrl": "https://emr-workshop.github.io/",
-      "canonicalUrl": "https://emr-workshop.github.io/#eccv-emr-2026-emr-eccv-2026-notification-july-31-2026",
       "status": "upcoming",
       "description": "Parsed from the EMR Workshop @ ECCV 2026 official page.",
       "stage": "Notification",
       "source": "EMR @ ECCV 2026",
-      "sourceLabel": "官方工作坊页面",
-      "verificationLevel": "official_event_page",
-      "type": "challenge"
+      "type": "challenge",
+      "sourceUrl": "https://emr-workshop.github.io/"
     },
     {
       "id": "eccv-ebmv-2026-ebmv-eccv-2026-camera-ready-deadline-august-12-2026",
@@ -2021,15 +1933,12 @@ export const ddlData: Record<string, DDLItem[]> = {
         "event-based vision"
       ],
       "url": "https://eventbasemultimodalvision.github.io/",
-      "sourceUrl": "https://eventbasemultimodalvision.github.io/",
-      "canonicalUrl": "https://eventbasemultimodalvision.github.io/#eccv-ebmv-2026-ebmv-eccv-2026-camera-ready-deadline-august-12-2026",
       "status": "upcoming",
       "description": "Parsed from the EBMV @ ECCV 2026 official workshop page.",
       "stage": "Camera-ready deadline",
       "source": "EBMV @ ECCV 2026",
-      "sourceLabel": "官方工作坊页面",
-      "verificationLevel": "official_event_page",
-      "type": "challenge"
+      "type": "challenge",
+      "sourceUrl": "https://eventbasemultimodalvision.github.io/"
     },
     {
       "id": "eccv-emr-2026-emr-eccv-2026-final-version-august-14-2026",
@@ -2044,15 +1953,12 @@ export const ddlData: Record<string, DDLItem[]> = {
         "embodied AI"
       ],
       "url": "https://emr-workshop.github.io/",
-      "sourceUrl": "https://emr-workshop.github.io/",
-      "canonicalUrl": "https://emr-workshop.github.io/#eccv-emr-2026-emr-eccv-2026-final-version-august-14-2026",
       "status": "upcoming",
       "description": "Parsed from the EMR Workshop @ ECCV 2026 official page.",
       "stage": "Final version",
       "source": "EMR @ ECCV 2026",
-      "sourceLabel": "官方工作坊页面",
-      "verificationLevel": "official_event_page",
-      "type": "challenge"
+      "type": "challenge",
+      "sourceUrl": "https://emr-workshop.github.io/"
     }
   ],
   "nlp-ddl": [
@@ -2072,7 +1978,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Paper",
       "source": "人工整理的官方来源入口",
       "type": "conference",
-      "description": "EMNLP 主会全文提交入口。"
+      "description": "EMNLP 主会全文提交入口。",
+      "sourceUrl": "https://2026.emnlp.org"
     },
     {
       "id": "nlp-ddl-clpsych-shared-task-2026-2026-07-10",
@@ -2090,7 +1997,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "System submit",
       "source": "人工整理的官方来源入口",
       "type": "conference",
-      "description": "临床 NLP shared task 入口。"
+      "description": "临床 NLP shared task 入口。",
+      "sourceUrl": "https://clpsych.org"
     },
     {
       "id": "nlp-ddl-bionlp-workshop-paper-2026-08-05",
@@ -2108,7 +2016,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Paper",
       "source": "人工整理的官方来源入口",
       "type": "conference",
-      "description": "生物医学 NLP workshop 入口。"
+      "description": "生物医学 NLP workshop 入口。",
+      "sourceUrl": "https://aclweb.org/aclwiki/BioNLP_Workshop"
     },
     {
       "id": "nlp-ddl-chinese-nlpcc-2026-demo-track-2026-08-21",
@@ -2124,9 +2033,10 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "http://tcci.ccf.org.cn",
       "status": "upcoming",
       "stage": "Demo",
-      "source": "会议公开来源入口",
+      "source": "官方来源入口",
       "type": "conference",
-      "description": "中文 NLP 会议/任务入口。"
+      "description": "中文 NLP 会议/任务入口。",
+      "sourceUrl": "http://tcci.ccf.org.cn"
     },
     {
       "id": "nlp-ddl-blackboxnlp-workshop-2026-09-01",
@@ -2144,7 +2054,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Paper",
       "source": "人工整理的官方来源入口",
       "type": "conference",
-      "description": "NLP 可解释性 workshop 入口。"
+      "description": "NLP 可解释性 workshop 入口。",
+      "sourceUrl": "https://blackboxnlp.github.io"
     },
     {
       "id": "nlp-ddl-coling-2027-long-paper-2026-09-18",
@@ -2162,7 +2073,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Long paper",
       "source": "人工整理的官方来源入口",
       "type": "conference",
-      "description": "COLING 长文提交入口。"
+      "description": "COLING 长文提交入口。",
+      "sourceUrl": "https://coling2026.org"
     },
     {
       "id": "nlp-ddl-acl-2027-arr-commitment-2026-10-15",
@@ -2178,9 +2090,10 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.aclweb.org",
       "status": "upcoming",
       "stage": "ARR commit",
-      "source": "会议公开来源入口",
+      "source": "官方来源入口",
       "type": "conference",
-      "description": "ACL 系列主会 ARR 承诺流入口。"
+      "description": "ACL 系列主会 ARR 承诺流入口。",
+      "sourceUrl": "https://www.aclweb.org"
     },
     {
       "id": "nlp-ddl-legal-nlp-challenge-2026-2026-10-30",
@@ -2198,7 +2111,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Submission",
       "source": "人工整理的官方来源入口",
       "type": "conference",
-      "description": "法律文本处理挑战入口。"
+      "description": "法律文本处理挑战入口。",
+      "sourceUrl": "https://www.kaggle.com/competitions"
     },
     {
       "id": "nlp-ddl-mrqa-shared-task-refresh-2026-11-10",
@@ -2216,7 +2130,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Leaderboard",
       "source": "人工整理的官方来源入口",
       "type": "conference",
-      "description": "阅读理解与问答评测入口。"
+      "description": "阅读理解与问答评测入口。",
+      "sourceUrl": "https://mrqa.github.io"
     },
     {
       "id": "nlp-ddl-rag-evaluation-shared-task-2026-11-28",
@@ -2234,7 +2149,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "System report",
       "source": "人工整理的官方来源入口",
       "type": "conference",
-      "description": "检索增强生成评测入口。"
+      "description": "检索增强生成评测入口。",
+      "sourceUrl": "https://openreview.net/"
     },
     {
       "id": "nlp-ddl-semeval-2027-system-submission-2026-12-05",
@@ -2250,9 +2166,10 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://semeval.github.io",
       "status": "upcoming",
       "stage": "System",
-      "source": "Shared task public source",
+      "source": "官方评测入口",
       "type": "conference",
-      "description": "语义评测任务入口。"
+      "description": "语义评测任务入口。",
+      "sourceUrl": "https://semeval.github.io"
     },
     {
       "id": "nlp-ddl-naacl-2027-paper-submission-2026-12-18",
@@ -2270,7 +2187,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Paper",
       "source": "人工整理的官方来源入口",
       "type": "conference",
-      "description": "NAACL 投稿入口。"
+      "description": "NAACL 投稿入口。",
+      "sourceUrl": "https://naacl.org"
     },
     {
       "id": "nlp-ddl-long-context-nlp-benchmark-2027-01-08",
@@ -2288,7 +2206,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Leaderboard",
       "source": "人工整理的官方来源入口",
       "type": "conference",
-      "description": "长上下文 NLP benchmark 入口。"
+      "description": "长上下文 NLP benchmark 入口。",
+      "sourceUrl": "https://www.kaggle.com/competitions"
     },
     {
       "id": "nlp-ddl-conll-shared-task-2027-2027-01-20",
@@ -2304,9 +2223,10 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.conll.org",
       "status": "upcoming",
       "stage": "System submit",
-      "source": "Shared task public source",
+      "source": "官方评测入口",
       "type": "conference",
-      "description": "Shared task 注册与系统提交入口。"
+      "description": "Shared task 注册与系统提交入口。",
+      "sourceUrl": "https://www.conll.org"
     },
     {
       "id": "nlp-ddl-low-resource-languages-track-2027-02-01",
@@ -2324,7 +2244,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Paper / system",
       "source": "人工整理的官方来源入口",
       "type": "conference",
-      "description": "低资源语言 shared task 入口。"
+      "description": "低资源语言 shared task 入口。",
+      "sourceUrl": "https://sigtyp.github.io"
     },
     {
       "id": "nlp-ddl-wmt-2027-translation-task-2027-02-12",
@@ -2340,9 +2261,10 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.statmt.org/wmt",
       "status": "upcoming",
       "stage": "Result upload",
-      "source": "Benchmark public source",
+      "source": "官方评测入口",
       "type": "conference",
-      "description": "机器翻译评测入口。"
+      "description": "机器翻译评测入口。",
+      "sourceUrl": "https://www.statmt.org/wmt"
     },
     {
       "id": "nlp-ddl-inlg-2027-paper-2027-02-20",
@@ -2360,7 +2282,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Paper",
       "source": "人工整理的官方来源入口",
       "type": "conference",
-      "description": "自然语言生成会议入口。"
+      "description": "自然语言生成会议入口。",
+      "sourceUrl": "https://aclweb.org/aclwiki/INLG"
     },
     {
       "id": "nlp-ddl-sigdial-2027-paper-2027-03-01",
@@ -2378,7 +2301,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Paper",
       "source": "人工整理的官方来源入口",
       "type": "conference",
-      "description": "对话系统会议入口。"
+      "description": "对话系统会议入口。",
+      "sourceUrl": "https://www.sigdial.org"
     }
   ],
   "academic-ddl": [
@@ -2396,9 +2320,10 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://neurips.cc",
       "status": "upcoming",
       "stage": "Paper",
-      "source": "会议公开来源入口",
+      "source": "官方来源入口",
       "type": "conference",
-      "description": "机器学习主会投稿入口。"
+      "description": "机器学习主会投稿入口。",
+      "sourceUrl": "https://neurips.cc"
     },
     {
       "id": "academic-ddl-vldb-2027-monthly-deadline-2026-06-01",
@@ -2416,7 +2341,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Monthly cycle",
       "source": "人工整理的官方来源入口",
       "type": "conference",
-      "description": "VLDB 月度投稿入口。"
+      "description": "VLDB 月度投稿入口。",
+      "sourceUrl": "https://vldb.org"
     },
     {
       "id": "academic-ddl-sigmod-2027-round-1-2026-07-15",
@@ -2434,7 +2360,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Round 1",
       "source": "人工整理的官方来源入口",
       "type": "conference",
-      "description": "数据库会议滚动投稿入口。"
+      "description": "数据库会议滚动投稿入口。",
+      "sourceUrl": "https://sigmod.org"
     },
     {
       "id": "academic-ddl-aaai-2027-abstract-2026-08-12",
@@ -2452,7 +2379,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Abstract",
       "source": "人工整理的官方来源入口",
       "type": "conference",
-      "description": "AAAI abstract 阶段入口。"
+      "description": "AAAI abstract 阶段入口。",
+      "sourceUrl": "https://aaai.org"
     },
     {
       "id": "academic-ddl-chi-2027-papers-2026-09-10",
@@ -2470,7 +2398,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Paper",
       "source": "人工整理的官方来源入口",
       "type": "conference",
-      "description": "人机交互会议入口。"
+      "description": "人机交互会议入口。",
+      "sourceUrl": "https://chi2027.acm.org"
     },
     {
       "id": "academic-ddl-icra-2027-paper-2026-09-15",
@@ -2488,7 +2417,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Paper",
       "source": "人工整理的官方来源入口",
       "type": "conference",
-      "description": "机器人会议入口。"
+      "description": "机器人会议入口。",
+      "sourceUrl": "https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra"
     },
     {
       "id": "academic-ddl-nsf-proposal-calendar-reminder-2026-09-30",
@@ -2506,7 +2436,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Proposal window",
       "source": "人工整理的官方来源入口",
       "type": "program",
-      "description": "科研基金/项目申请入口，后续可拆分到独立 grant-ddl。"
+      "description": "科研基金/项目申请入口，后续可拆分到独立 grant-ddl。",
+      "sourceUrl": "https://www.nsf.gov/funding"
     },
     {
       "id": "academic-ddl-iclr-2027-submission-2026-10-01",
@@ -2522,9 +2453,10 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://iclr.cc",
       "status": "upcoming",
       "stage": "OpenReview",
-      "source": "OpenReview public source",
+      "source": "官方来源入口",
       "type": "conference",
-      "description": "ICLR 投稿入口。"
+      "description": "ICLR 投稿入口。",
+      "sourceUrl": "https://iclr.cc"
     },
     {
       "id": "academic-ddl-www-2027-research-track-2026-10-07",
@@ -2542,7 +2474,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Paper",
       "source": "人工整理的官方来源入口",
       "type": "conference",
-      "description": "Web Conference 研究论文入口。"
+      "description": "Web Conference 研究论文入口。",
+      "sourceUrl": "https://www2027.thewebconf.org"
     },
     {
       "id": "academic-ddl-aistats-2027-paper-2026-10-08",
@@ -2560,7 +2493,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Paper",
       "source": "人工整理的官方来源入口",
       "type": "conference",
-      "description": "统计学习会议入口。"
+      "description": "统计学习会议入口。",
+      "sourceUrl": "https://aistats.org"
     },
     {
       "id": "academic-ddl-ubicomp-2027-full-paper-2026-10-20",
@@ -2578,7 +2512,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Paper",
       "source": "人工整理的官方来源入口",
       "type": "conference",
-      "description": "普适计算会议入口。"
+      "description": "普适计算会议入口。",
+      "sourceUrl": "https://ubicomp.org"
     },
     {
       "id": "academic-ddl-isca-2027-paper-2026-11-18",
@@ -2596,7 +2531,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Paper",
       "source": "人工整理的官方来源入口",
       "type": "conference",
-      "description": "计算机体系结构会议入口。"
+      "description": "计算机体系结构会议入口。",
+      "sourceUrl": "https://iscaconf.org"
     },
     {
       "id": "academic-ddl-icaps-2027-paper-2026-11-20",
@@ -2614,7 +2550,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Paper",
       "source": "人工整理的官方来源入口",
       "type": "conference",
-      "description": "规划与调度会议入口。"
+      "description": "规划与调度会议入口。",
+      "sourceUrl": "https://icaps-conference.org"
     },
     {
       "id": "academic-ddl-icml-2027-abstract-2027-01-23",
@@ -2632,7 +2569,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Abstract",
       "source": "人工整理的官方来源入口",
       "type": "conference",
-      "description": "ICML abstract 阶段入口。"
+      "description": "ICML abstract 阶段入口。",
+      "sourceUrl": "https://icml.cc"
     },
     {
       "id": "academic-ddl-rss-2027-paper-2027-01-25",
@@ -2650,7 +2588,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Paper",
       "source": "人工整理的官方来源入口",
       "type": "conference",
-      "description": "Robotics: Science and Systems 投稿入口。"
+      "description": "Robotics: Science and Systems 投稿入口。",
+      "sourceUrl": "https://roboticsconference.org"
     },
     {
       "id": "academic-ddl-sigir-2027-full-paper-2027-01-30",
@@ -2668,7 +2607,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Paper",
       "source": "人工整理的官方来源入口",
       "type": "conference",
-      "description": "信息检索会议入口。"
+      "description": "信息检索会议入口。",
+      "sourceUrl": "https://sigir.org"
     },
     {
       "id": "academic-ddl-osdi-2027-paper-2027-02-01",
@@ -2686,7 +2626,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Paper",
       "source": "人工整理的官方来源入口",
       "type": "conference",
-      "description": "系统研究会议入口。"
+      "description": "系统研究会议入口。",
+      "sourceUrl": "https://www.usenix.org/conferences"
     },
     {
       "id": "academic-ddl-kdd-2027-research-track-2027-02-04",
@@ -2704,7 +2645,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Research",
       "source": "人工整理的官方来源入口",
       "type": "conference",
-      "description": "数据挖掘会议入口。"
+      "description": "数据挖掘会议入口。",
+      "sourceUrl": "https://kdd.org"
     },
     {
       "id": "academic-ddl-uai-2027-paper-2027-02-14",
@@ -2722,7 +2664,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Paper",
       "source": "人工整理的官方来源入口",
       "type": "conference",
-      "description": "不确定性人工智能会议入口。"
+      "description": "不确定性人工智能会议入口。",
+      "sourceUrl": "https://www.auai.org/uai"
     },
     {
       "id": "academic-ddl-acm-mm-2027-paper-2027-03-31",
@@ -2740,7 +2683,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Paper",
       "source": "人工整理的官方来源入口",
       "type": "conference",
-      "description": "多媒体会议主会入口。"
+      "description": "多媒体会议主会入口。",
+      "sourceUrl": "https://acmmm.org"
     }
   ],
   "journal-ddl": [
@@ -6220,7 +6164,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Contest",
       "source": "Official site",
       "type": "contest",
-      "description": "Codeforces 轮次入口。"
+      "description": "Codeforces 轮次入口。",
+      "sourceUrl": "https://codeforces.com"
     },
     {
       "id": "programming-ddl-noi-online-training-camp-2026-07-05",
@@ -6238,7 +6183,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Registration",
       "source": "人工整理的官方来源入口",
       "type": "contest",
-      "description": "信息学竞赛训练营入口。"
+      "description": "信息学竞赛训练营入口。",
+      "sourceUrl": "https://www.noi.cn"
     },
     {
       "id": "programming-ddl-kaggle-playground-series-2026-07-31",
@@ -6256,7 +6202,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Submission",
       "source": "人工整理的官方来源入口",
       "type": "contest",
-      "description": "月度机器学习竞赛入口。"
+      "description": "月度机器学习竞赛入口。",
+      "sourceUrl": "https://www.kaggle.com/competitions"
     },
     {
       "id": "programming-ddl-hackerrank-interview-preparation-kit-sprint-2026-08-15",
@@ -6274,7 +6221,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Practice",
       "source": "人工整理的官方来源入口",
       "type": "contest",
-      "description": "面试编程训练专题入口。"
+      "description": "面试编程训练专题入口。",
+      "sourceUrl": "https://www.hackerrank.com/domains/tutorials/10-days-of-javascript"
     },
     {
       "id": "programming-ddl-tianchi-algorithm-competition-2026-08-31",
@@ -6292,7 +6240,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Submission",
       "source": "人工整理的官方来源入口",
       "type": "contest",
-      "description": "国内算法竞赛入口。"
+      "description": "国内算法竞赛入口。",
+      "sourceUrl": "https://tianchi.aliyun.com/competition"
     },
     {
       "id": "programming-ddl-meta-hacker-cup-2026-qualification-2026-09-01",
@@ -6310,7 +6259,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Qualification",
       "source": "人工整理的官方来源入口",
       "type": "contest",
-      "description": "算法竞赛资格赛入口。"
+      "description": "算法竞赛资格赛入口。",
+      "sourceUrl": "https://www.facebook.com/codingcompetitions/hacker-cup"
     },
     {
       "id": "programming-ddl-icpc-asia-regional-registration-2026-09-15",
@@ -6328,7 +6278,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Registration",
       "source": "官方来源入口",
       "type": "contest",
-      "description": "区域赛报名入口。"
+      "description": "区域赛报名入口。",
+      "sourceUrl": "https://icpc.global"
     },
     {
       "id": "programming-ddl-ccf-csp-certification-2026-09-20",
@@ -6346,7 +6297,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Registration",
       "source": "人工整理的官方来源入口",
       "type": "contest",
-      "description": "软件能力认证/竞赛入口。"
+      "description": "软件能力认证/竞赛入口。",
+      "sourceUrl": "https://www.cspro.org"
     },
     {
       "id": "programming-ddl-dmoj-seasonal-contest-2026-10-10",
@@ -6364,7 +6316,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Contest",
       "source": "人工整理的官方来源入口",
       "type": "contest",
-      "description": "在线评测竞赛入口。"
+      "description": "在线评测竞赛入口。",
+      "sourceUrl": "https://dmoj.ca/contests"
     },
     {
       "id": "programming-ddl-icpc-world-finals-2026-2026-10-30",
@@ -6382,7 +6335,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Contest",
       "source": "人工整理的官方来源入口",
       "type": "contest",
-      "description": "世界总决赛赛程入口。"
+      "description": "世界总决赛赛程入口。",
+      "sourceUrl": "https://icpc.global"
     },
     {
       "id": "programming-ddl-atcoder-grand-contest-demo-round-2026-11-01",
@@ -6400,7 +6354,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Contest",
       "source": "Official site",
       "type": "contest",
-      "description": "AtCoder 高难度比赛入口。"
+      "description": "AtCoder 高难度比赛入口。",
+      "sourceUrl": "https://atcoder.jp"
     },
     {
       "id": "programming-ddl-hash-code-legacy-practice-sprint-2026-11-30",
@@ -6418,7 +6373,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Practice",
       "source": "人工整理的官方来源入口",
       "type": "contest",
-      "description": "优化类编程挑战归档入口。"
+      "description": "优化类编程挑战归档入口。",
+      "sourceUrl": "https://codingcompetitions.withgoogle.com/hashcode/archive"
     },
     {
       "id": "programming-ddl-advent-of-code-2026-day-1-2026-12-01",
@@ -6436,7 +6392,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Event start",
       "source": "Official site",
       "type": "contest",
-      "description": "年度编程挑战入口。"
+      "description": "年度编程挑战入口。",
+      "sourceUrl": "https://adventofcode.com"
     },
     {
       "id": "programming-ddl-lanqiao-cup-provincial-round-2026-12-10",
@@ -6452,9 +6409,10 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://dasai.lanqiao.cn",
       "status": "upcoming",
       "stage": "Registration",
-      "source": "会议公开来源入口",
+      "source": "官方来源入口",
       "type": "contest",
-      "description": "国内编程竞赛入口。"
+      "description": "国内编程竞赛入口。",
+      "sourceUrl": "https://dasai.lanqiao.cn"
     },
     {
       "id": "programming-ddl-usaco-2026-december-contest-2026-12-18",
@@ -6472,7 +6430,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Contest",
       "source": "人工整理的官方来源入口",
       "type": "contest",
-      "description": "美国信息学竞赛入口。"
+      "description": "美国信息学竞赛入口。",
+      "sourceUrl": "https://usaco.org"
     },
     {
       "id": "programming-ddl-codechef-starters-series-2026-12-31",
@@ -6490,7 +6449,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Recurring",
       "source": "人工整理的官方来源入口",
       "type": "contest",
-      "description": "CodeChef 周赛入口。"
+      "description": "CodeChef 周赛入口。",
+      "sourceUrl": "https://www.codechef.com/contests"
     },
     {
       "id": "programming-ddl-google-code-jam-archive-practice-2026-12-31",
@@ -6508,7 +6468,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Archive",
       "source": "人工整理的官方来源入口",
       "type": "contest",
-      "description": "经典题库入口，用于训练专题。"
+      "description": "经典题库入口，用于训练专题。",
+      "sourceUrl": "https://codingcompetitions.withgoogle.com/codejam/archive"
     },
     {
       "id": "programming-ddl-leetcode-weekly-contest-2026-12-31",
@@ -6526,7 +6487,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Recurring",
       "source": "Official site",
       "type": "contest",
-      "description": "重复赛事入口，后续可转为 RRULE 或周规则。"
+      "description": "重复赛事入口，后续可转为 RRULE 或周规则。",
+      "sourceUrl": "https://leetcode.com/contest"
     },
     {
       "id": "programming-ddl-project-euler-monthly-challenge-2026-12-31",
@@ -6544,7 +6506,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Recurring",
       "source": "人工整理的官方来源入口",
       "type": "contest",
-      "description": "长期数学编程题入口。"
+      "description": "长期数学编程题入口。",
+      "sourceUrl": "https://projecteuler.net"
     },
     {
       "id": "programming-ddl-topcoder-srm-series-2026-12-31",
@@ -6562,7 +6525,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Recurring",
       "source": "人工整理的官方来源入口",
       "type": "contest",
-      "description": "Topcoder 赛事入口。"
+      "description": "Topcoder 赛事入口。",
+      "sourceUrl": "https://www.topcoder.com/challenges"
     }
   ],
   "holiday-ddl": [
@@ -6580,9 +6544,10 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "status": "upcoming",
       "stage": "Solar term",
-      "source": "香港天文台历书公开来源",
+      "source": "官方年历来源入口",
       "type": "holiday",
-      "description": "夏季节气。"
+      "description": "夏季节气。",
+      "sourceUrl": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
     },
     {
       "id": "holiday-ddl-memorial-day-2026-2026-05-25",
@@ -6599,7 +6564,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Federal holiday",
       "source": "US OPM federal holidays",
       "type": "holiday",
-      "description": "美国联邦假日。"
+      "description": "美国联邦假日。",
+      "sourceUrl": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
     },
     {
       "id": "holiday-ddl-spring-bank-holiday-2026-2026-05-25",
@@ -6616,7 +6582,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Bank holiday",
       "source": "UK bank holidays",
       "type": "holiday",
-      "description": "英国银行假日。"
+      "description": "英国银行假日。",
+      "sourceUrl": "https://www.gov.uk/bank-holidays"
     },
     {
       "id": "holiday-ddl-芒种-2026-2026-06-05",
@@ -6632,9 +6599,10 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "status": "upcoming",
       "stage": "Solar term",
-      "source": "香港天文台历书公开来源",
+      "source": "官方年历来源入口",
       "type": "holiday",
-      "description": "仲夏农事节气。"
+      "description": "仲夏农事节气。",
+      "sourceUrl": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
     },
     {
       "id": "holiday-ddl-端午节-2026-2026-06-19",
@@ -6650,9 +6618,10 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.gov.cn/",
       "status": "upcoming",
       "stage": "Holiday",
-      "source": "国务院节假日公开来源",
+      "source": "官方日历来源入口",
       "type": "holiday",
-      "description": "农历五月初五。"
+      "description": "农历五月初五。",
+      "sourceUrl": "https://www.gov.cn/"
     },
     {
       "id": "holiday-ddl-juneteenth-2026-2026-06-19",
@@ -6669,7 +6638,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Federal holiday",
       "source": "US OPM federal holidays",
       "type": "holiday",
-      "description": "美国联邦假日。"
+      "description": "美国联邦假日。",
+      "sourceUrl": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
     },
     {
       "id": "holiday-ddl-夏至-2026-2026-06-21",
@@ -6685,9 +6655,10 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "status": "upcoming",
       "stage": "Solar term",
-      "source": "香港天文台历书公开来源",
+      "source": "官方年历来源入口",
       "type": "holiday",
-      "description": "北半球白昼较长。"
+      "description": "北半球白昼较长。",
+      "sourceUrl": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
     },
     {
       "id": "holiday-ddl-father-s-day-2026-2026-06-21",
@@ -6703,9 +6674,10 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.timeanddate.com/holidays/",
       "status": "upcoming",
       "stage": "Observance",
-      "source": "国际节日公开来源",
+      "source": "官方来源入口",
       "type": "holiday",
-      "description": "父亲节。"
+      "description": "父亲节。",
+      "sourceUrl": "https://www.timeanddate.com/holidays/"
     },
     {
       "id": "holiday-ddl-independence-day-2026-2026-07-04",
@@ -6722,7 +6694,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Federal holiday",
       "source": "US OPM federal holidays",
       "type": "holiday",
-      "description": "美国独立日。"
+      "description": "美国独立日。",
+      "sourceUrl": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
     },
     {
       "id": "holiday-ddl-小暑-2026-2026-07-07",
@@ -6738,9 +6711,10 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "status": "upcoming",
       "stage": "Solar term",
-      "source": "香港天文台历书公开来源",
+      "source": "官方年历来源入口",
       "type": "holiday",
-      "description": "暑热开始。"
+      "description": "暑热开始。",
+      "sourceUrl": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
     },
     {
       "id": "holiday-ddl-marine-day-2026-2026-07-20",
@@ -6757,7 +6731,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "National holiday",
       "source": "Japan Cabinet Office",
       "type": "holiday",
-      "description": "海之日。"
+      "description": "海之日。",
+      "sourceUrl": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html"
     },
     {
       "id": "holiday-ddl-大暑-2026-2026-07-23",
@@ -6773,9 +6748,10 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "status": "upcoming",
       "stage": "Solar term",
-      "source": "香港天文台历书公开来源",
+      "source": "官方年历来源入口",
       "type": "holiday",
-      "description": "暑热高峰。"
+      "description": "暑热高峰。",
+      "sourceUrl": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
     },
     {
       "id": "holiday-ddl-立秋-2026-2026-08-07",
@@ -6791,9 +6767,10 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "status": "upcoming",
       "stage": "Solar term",
-      "source": "香港天文台历书公开来源",
+      "source": "官方年历来源入口",
       "type": "holiday",
-      "description": "秋季开始。"
+      "description": "秋季开始。",
+      "sourceUrl": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
     },
     {
       "id": "holiday-ddl-mountain-day-2026-2026-08-11",
@@ -6810,7 +6787,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "National holiday",
       "source": "Japan Cabinet Office",
       "type": "holiday",
-      "description": "山之日。"
+      "description": "山之日。",
+      "sourceUrl": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html"
     },
     {
       "id": "holiday-ddl-七夕-2026-2026-08-19",
@@ -6826,9 +6804,10 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.timeanddate.com/holidays/",
       "status": "upcoming",
       "stage": "Traditional festival",
-      "source": "公开农历/节日来源",
+      "source": "官方来源入口",
       "type": "holiday",
-      "description": "农历七月初七。"
+      "description": "农历七月初七。",
+      "sourceUrl": "https://www.timeanddate.com/holidays/"
     },
     {
       "id": "holiday-ddl-处暑-2026-2026-08-23",
@@ -6844,9 +6823,10 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "status": "upcoming",
       "stage": "Solar term",
-      "source": "香港天文台历书公开来源",
+      "source": "官方年历来源入口",
       "type": "holiday",
-      "description": "暑热渐退。"
+      "description": "暑热渐退。",
+      "sourceUrl": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
     },
     {
       "id": "holiday-ddl-中元节-2026-2026-08-27",
@@ -6862,9 +6842,10 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.timeanddate.com/holidays/",
       "status": "upcoming",
       "stage": "Traditional festival",
-      "source": "公开农历/节日来源",
+      "source": "官方来源入口",
       "type": "holiday",
-      "description": "农历七月十五。"
+      "description": "农历七月十五。",
+      "sourceUrl": "https://www.timeanddate.com/holidays/"
     },
     {
       "id": "holiday-ddl-summer-bank-holiday-2026-2026-08-31",
@@ -6881,7 +6862,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Bank holiday",
       "source": "UK bank holidays",
       "type": "holiday",
-      "description": "英国银行假日。"
+      "description": "英国银行假日。",
+      "sourceUrl": "https://www.gov.uk/bank-holidays"
     },
     {
       "id": "holiday-ddl-白露-2026-2026-09-07",
@@ -6897,9 +6879,10 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "status": "upcoming",
       "stage": "Solar term",
-      "source": "香港天文台历书公开来源",
+      "source": "官方年历来源入口",
       "type": "holiday",
-      "description": "秋季节气。"
+      "description": "秋季节气。",
+      "sourceUrl": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
     },
     {
       "id": "holiday-ddl-labor-day-2026-2026-09-07",
@@ -6916,7 +6899,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Federal holiday",
       "source": "US OPM federal holidays",
       "type": "holiday",
-      "description": "美国劳动节。"
+      "description": "美国劳动节。",
+      "sourceUrl": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
     },
     {
       "id": "holiday-ddl-respect-for-the-aged-day-2026-2026-09-21",
@@ -6933,7 +6917,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "National holiday",
       "source": "Japan Cabinet Office",
       "type": "holiday",
-      "description": "敬老日。"
+      "description": "敬老日。",
+      "sourceUrl": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html"
     },
     {
       "id": "holiday-ddl-秋分-2026-2026-09-23",
@@ -6949,9 +6934,10 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "status": "upcoming",
       "stage": "Solar term",
-      "source": "香港天文台历书公开来源",
+      "source": "官方年历来源入口",
       "type": "holiday",
-      "description": "昼夜近等长。"
+      "description": "昼夜近等长。",
+      "sourceUrl": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
     },
     {
       "id": "holiday-ddl-autumnal-equinox-day-2026-2026-09-23",
@@ -6968,7 +6954,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "National holiday",
       "source": "Japan Cabinet Office",
       "type": "holiday",
-      "description": "秋分日。"
+      "description": "秋分日。",
+      "sourceUrl": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html"
     },
     {
       "id": "holiday-ddl-中秋节-2026-2026-09-25",
@@ -6984,9 +6971,10 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.gov.cn/",
       "status": "upcoming",
       "stage": "Holiday",
-      "source": "国务院节假日公开来源",
+      "source": "官方日历来源入口",
       "type": "holiday",
-      "description": "农历八月十五。"
+      "description": "农历八月十五。",
+      "sourceUrl": "https://www.gov.cn/"
     },
     {
       "id": "holiday-ddl-world-tourism-day-2026-2026-09-27",
@@ -7004,7 +6992,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "UN observance",
       "source": "UN observances",
       "type": "holiday",
-      "description": "世界旅游日。"
+      "description": "世界旅游日。",
+      "sourceUrl": "https://www.un.org/en/observances"
     },
     {
       "id": "holiday-ddl-国庆节-2026-2026-10-01",
@@ -7020,9 +7009,10 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.gov.cn/",
       "status": "upcoming",
       "stage": "Holiday",
-      "source": "国务院节假日公开来源",
+      "source": "官方日历来源入口",
       "type": "holiday",
-      "description": "国庆假期入口。"
+      "description": "国庆假期入口。",
+      "sourceUrl": "https://www.gov.cn/"
     },
     {
       "id": "holiday-ddl-寒露-2026-2026-10-08",
@@ -7038,9 +7028,10 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "status": "upcoming",
       "stage": "Solar term",
-      "source": "香港天文台历书公开来源",
+      "source": "官方年历来源入口",
       "type": "holiday",
-      "description": "深秋节气。"
+      "description": "深秋节气。",
+      "sourceUrl": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
     },
     {
       "id": "holiday-ddl-sports-day-2026-2026-10-12",
@@ -7057,7 +7048,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "National holiday",
       "source": "Japan Cabinet Office",
       "type": "holiday",
-      "description": "体育日。"
+      "description": "体育日。",
+      "sourceUrl": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html"
     },
     {
       "id": "holiday-ddl-重阳节-2026-2026-10-18",
@@ -7073,9 +7065,10 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.timeanddate.com/holidays/",
       "status": "upcoming",
       "stage": "Traditional festival",
-      "source": "公开农历/节日来源",
+      "source": "官方来源入口",
       "type": "holiday",
-      "description": "农历九月初九。"
+      "description": "农历九月初九。",
+      "sourceUrl": "https://www.timeanddate.com/holidays/"
     },
     {
       "id": "holiday-ddl-霜降-2026-2026-10-23",
@@ -7091,9 +7084,10 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "status": "upcoming",
       "stage": "Solar term",
-      "source": "香港天文台历书公开来源",
+      "source": "官方年历来源入口",
       "type": "holiday",
-      "description": "秋季最后一个节气。"
+      "description": "秋季最后一个节气。",
+      "sourceUrl": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
     },
     {
       "id": "holiday-ddl-halloween-2026-2026-10-31",
@@ -7109,9 +7103,10 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.timeanddate.com/holidays/",
       "status": "upcoming",
       "stage": "Observance",
-      "source": "国际节日公开来源",
+      "source": "官方来源入口",
       "type": "holiday",
-      "description": "万圣夜。"
+      "description": "万圣夜。",
+      "sourceUrl": "https://www.timeanddate.com/holidays/"
     },
     {
       "id": "holiday-ddl-culture-day-2026-2026-11-03",
@@ -7128,7 +7123,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "National holiday",
       "source": "Japan Cabinet Office",
       "type": "holiday",
-      "description": "文化日。"
+      "description": "文化日。",
+      "sourceUrl": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html"
     },
     {
       "id": "holiday-ddl-立冬-2026-2026-11-07",
@@ -7144,9 +7140,10 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "status": "upcoming",
       "stage": "Solar term",
-      "source": "香港天文台历书公开来源",
+      "source": "官方年历来源入口",
       "type": "holiday",
-      "description": "冬季开始。"
+      "description": "冬季开始。",
+      "sourceUrl": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
     },
     {
       "id": "holiday-ddl-singles-day-2026-2026-11-11",
@@ -7162,9 +7159,10 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.timeanddate.com/holidays/",
       "status": "upcoming",
       "stage": "Observance",
-      "source": "国际节日公开来源",
+      "source": "官方来源入口",
       "type": "holiday",
-      "description": "双十一。"
+      "description": "双十一。",
+      "sourceUrl": "https://www.timeanddate.com/holidays/"
     },
     {
       "id": "holiday-ddl-小雪-2026-2026-11-22",
@@ -7180,9 +7178,10 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "status": "upcoming",
       "stage": "Solar term",
-      "source": "香港天文台历书公开来源",
+      "source": "官方年历来源入口",
       "type": "holiday",
-      "description": "冬季节气。"
+      "description": "冬季节气。",
+      "sourceUrl": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
     },
     {
       "id": "holiday-ddl-labor-thanksgiving-day-2026-2026-11-23",
@@ -7199,7 +7198,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "National holiday",
       "source": "Japan Cabinet Office",
       "type": "holiday",
-      "description": "勤劳感谢日。"
+      "description": "勤劳感谢日。",
+      "sourceUrl": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html"
     },
     {
       "id": "holiday-ddl-thanksgiving-day-2026-2026-11-26",
@@ -7216,7 +7216,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Federal holiday",
       "source": "US OPM federal holidays",
       "type": "holiday",
-      "description": "美国感恩节。"
+      "description": "美国感恩节。",
+      "sourceUrl": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
     },
     {
       "id": "holiday-ddl-black-friday-2026-2026-11-27",
@@ -7232,9 +7233,10 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.timeanddate.com/holidays/",
       "status": "upcoming",
       "stage": "Observance",
-      "source": "国际节日公开来源",
+      "source": "官方来源入口",
       "type": "holiday",
-      "description": "黑色星期五。"
+      "description": "黑色星期五。",
+      "sourceUrl": "https://www.timeanddate.com/holidays/"
     },
     {
       "id": "holiday-ddl-大雪-2026-2026-12-07",
@@ -7250,9 +7252,10 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "status": "upcoming",
       "stage": "Solar term",
-      "source": "香港天文台历书公开来源",
+      "source": "官方年历来源入口",
       "type": "holiday",
-      "description": "仲冬节气。"
+      "description": "仲冬节气。",
+      "sourceUrl": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
     },
     {
       "id": "holiday-ddl-冬至-2026-2026-12-22",
@@ -7268,9 +7271,10 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "status": "upcoming",
       "stage": "Solar term",
-      "source": "香港天文台历书公开来源",
+      "source": "官方年历来源入口",
       "type": "holiday",
-      "description": "冬至节气。"
+      "description": "冬至节气。",
+      "sourceUrl": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
     },
     {
       "id": "holiday-ddl-christmas-day-2026-2026-12-25",
@@ -7286,9 +7290,10 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.timeanddate.com/holidays/",
       "status": "upcoming",
       "stage": "Holiday",
-      "source": "国际节日公开来源",
+      "source": "官方来源入口",
       "type": "holiday",
-      "description": "圣诞节。"
+      "description": "圣诞节。",
+      "sourceUrl": "https://www.timeanddate.com/holidays/"
     },
     {
       "id": "holiday-ddl-boxing-day-substitute-2026-2026-12-28",
@@ -7305,7 +7310,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Bank holiday",
       "source": "UK bank holidays",
       "type": "holiday",
-      "description": "英国节礼日补假。"
+      "description": "英国节礼日补假。",
+      "sourceUrl": "https://www.gov.uk/bank-holidays"
     },
     {
       "id": "holiday-ddl-new-year-2027-2027-01-01",
@@ -7321,9 +7327,10 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.timeanddate.com/holidays/",
       "status": "upcoming",
       "stage": "Holiday",
-      "source": "国际节日公开来源",
+      "source": "官方来源入口",
       "type": "holiday",
-      "description": "跨年与新年假日。"
+      "description": "跨年与新年假日。",
+      "sourceUrl": "https://www.timeanddate.com/holidays/"
     },
     {
       "id": "holiday-ddl-腊八节-2027-2027-01-15",
@@ -7339,9 +7346,10 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.timeanddate.com/holidays/",
       "status": "upcoming",
       "stage": "Traditional festival",
-      "source": "公开农历/节日来源",
+      "source": "官方来源入口",
       "type": "holiday",
-      "description": "农历腊月初八。"
+      "description": "农历腊月初八。",
+      "sourceUrl": "https://www.timeanddate.com/holidays/"
     },
     {
       "id": "holiday-ddl-元旦-2026-2026-01-01",
@@ -7357,9 +7365,10 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.gov.cn/",
       "status": "ended",
       "stage": "Holiday",
-      "source": "国务院节假日公开来源",
+      "source": "官方日历来源入口",
       "type": "holiday",
-      "description": "新年假日。"
+      "description": "新年假日。",
+      "sourceUrl": "https://www.gov.cn/"
     },
     {
       "id": "holiday-ddl-小寒-2026-2026-01-05",
@@ -7375,9 +7384,10 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "status": "ended",
       "stage": "Solar term",
-      "source": "香港天文台历书公开来源",
+      "source": "官方年历来源入口",
       "type": "holiday",
-      "description": "冬季节气。"
+      "description": "冬季节气。",
+      "sourceUrl": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
     },
     {
       "id": "holiday-ddl-coming-of-age-day-2026-2026-01-12",
@@ -7394,7 +7404,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "National holiday",
       "source": "Japan Cabinet Office",
       "type": "holiday",
-      "description": "日本成人之日。"
+      "description": "日本成人之日。",
+      "sourceUrl": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html"
     },
     {
       "id": "holiday-ddl-martin-luther-king-jr-day-2026-2026-01-19",
@@ -7411,7 +7422,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Federal holiday",
       "source": "US OPM federal holidays",
       "type": "holiday",
-      "description": "美国联邦假日。"
+      "description": "美国联邦假日。",
+      "sourceUrl": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
     },
     {
       "id": "holiday-ddl-大寒-2026-2026-01-20",
@@ -7427,9 +7439,10 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "status": "ended",
       "stage": "Solar term",
-      "source": "香港天文台历书公开来源",
+      "source": "官方年历来源入口",
       "type": "holiday",
-      "description": "冬季最后一个节气。"
+      "description": "冬季最后一个节气。",
+      "sourceUrl": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
     },
     {
       "id": "holiday-ddl-立春-2026-2026-02-04",
@@ -7445,9 +7458,10 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "status": "ended",
       "stage": "Solar term",
-      "source": "香港天文台历书公开来源",
+      "source": "官方年历来源入口",
       "type": "holiday",
-      "description": "春季开始。"
+      "description": "春季开始。",
+      "sourceUrl": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
     },
     {
       "id": "holiday-ddl-小年-2026-2026-02-10",
@@ -7463,9 +7477,10 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.timeanddate.com/holidays/",
       "status": "ended",
       "stage": "Traditional festival",
-      "source": "公开农历/节日来源",
+      "source": "官方来源入口",
       "type": "holiday",
-      "description": "北方小年。"
+      "description": "北方小年。",
+      "sourceUrl": "https://www.timeanddate.com/holidays/"
     },
     {
       "id": "holiday-ddl-national-foundation-day-2026-2026-02-11",
@@ -7482,7 +7497,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "National holiday",
       "source": "Japan Cabinet Office",
       "type": "holiday",
-      "description": "日本建国纪念日。"
+      "description": "日本建国纪念日。",
+      "sourceUrl": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html"
     },
     {
       "id": "holiday-ddl-valentine-s-day-2026-2026-02-14",
@@ -7498,9 +7514,10 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.timeanddate.com/holidays/",
       "status": "ended",
       "stage": "Observance",
-      "source": "国际节日公开来源",
+      "source": "官方来源入口",
       "type": "holiday",
-      "description": "情人节。"
+      "description": "情人节。",
+      "sourceUrl": "https://www.timeanddate.com/holidays/"
     },
     {
       "id": "holiday-ddl-除夕-2026-2026-02-16",
@@ -7516,9 +7533,10 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.gov.cn/",
       "status": "ended",
       "stage": "Traditional festival",
-      "source": "公开农历/节日来源",
+      "source": "官方来源入口",
       "type": "holiday",
-      "description": "农历岁末。"
+      "description": "农历岁末。",
+      "sourceUrl": "https://www.gov.cn/"
     },
     {
       "id": "holiday-ddl-washington-s-birthday-2026-2026-02-16",
@@ -7535,7 +7553,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Federal holiday",
       "source": "US OPM federal holidays",
       "type": "holiday",
-      "description": "美国联邦假日。"
+      "description": "美国联邦假日。",
+      "sourceUrl": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
     },
     {
       "id": "holiday-ddl-春节-2026-2026-02-17",
@@ -7551,9 +7570,10 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.gov.cn/",
       "status": "ended",
       "stage": "Holiday",
-      "source": "国务院节假日公开来源",
+      "source": "官方日历来源入口",
       "type": "holiday",
-      "description": "农历新年。"
+      "description": "农历新年。",
+      "sourceUrl": "https://www.gov.cn/"
     },
     {
       "id": "holiday-ddl-雨水-2026-2026-02-19",
@@ -7569,9 +7589,10 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "status": "ended",
       "stage": "Solar term",
-      "source": "香港天文台历书公开来源",
+      "source": "官方年历来源入口",
       "type": "holiday",
-      "description": "降水增多。"
+      "description": "降水增多。",
+      "sourceUrl": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
     },
     {
       "id": "holiday-ddl-emperor-s-birthday-2026-2026-02-23",
@@ -7588,7 +7609,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "National holiday",
       "source": "Japan Cabinet Office",
       "type": "holiday",
-      "description": "日本天皇诞生日。"
+      "description": "日本天皇诞生日。",
+      "sourceUrl": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html"
     },
     {
       "id": "holiday-ddl-元宵节-2026-2026-03-03",
@@ -7604,9 +7626,10 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.timeanddate.com/holidays/",
       "status": "ended",
       "stage": "Traditional festival",
-      "source": "公开农历/节日来源",
+      "source": "官方来源入口",
       "type": "holiday",
-      "description": "正月十五。"
+      "description": "正月十五。",
+      "sourceUrl": "https://www.timeanddate.com/holidays/"
     },
     {
       "id": "holiday-ddl-惊蛰-2026-2026-03-05",
@@ -7622,9 +7645,10 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "status": "ended",
       "stage": "Solar term",
-      "source": "香港天文台历书公开来源",
+      "source": "官方年历来源入口",
       "type": "holiday",
-      "description": "仲春节气。"
+      "description": "仲春节气。",
+      "sourceUrl": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
     },
     {
       "id": "holiday-ddl-international-women-s-day-2026-2026-03-08",
@@ -7642,7 +7666,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "UN observance",
       "source": "UN observances",
       "type": "holiday",
-      "description": "国际妇女节。"
+      "description": "国际妇女节。",
+      "sourceUrl": "https://www.un.org/en/observances"
     },
     {
       "id": "holiday-ddl-st-patrick-s-day-2026-2026-03-17",
@@ -7658,9 +7683,10 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.timeanddate.com/holidays/",
       "status": "ended",
       "stage": "Observance",
-      "source": "国际节日公开来源",
+      "source": "官方来源入口",
       "type": "holiday",
-      "description": "圣帕特里克节。"
+      "description": "圣帕特里克节。",
+      "sourceUrl": "https://www.timeanddate.com/holidays/"
     },
     {
       "id": "holiday-ddl-春分-2026-2026-03-20",
@@ -7676,9 +7702,10 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "status": "ended",
       "stage": "Solar term",
-      "source": "香港天文台历书公开来源",
+      "source": "官方年历来源入口",
       "type": "holiday",
-      "description": "昼夜近等长。"
+      "description": "昼夜近等长。",
+      "sourceUrl": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
     },
     {
       "id": "holiday-ddl-龙抬头-2026-2026-03-20",
@@ -7694,9 +7721,10 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.timeanddate.com/holidays/",
       "status": "ended",
       "stage": "Traditional festival",
-      "source": "公开农历/节日来源",
+      "source": "官方来源入口",
       "type": "holiday",
-      "description": "农历二月初二。"
+      "description": "农历二月初二。",
+      "sourceUrl": "https://www.timeanddate.com/holidays/"
     },
     {
       "id": "holiday-ddl-april-fools-day-2026-2026-04-01",
@@ -7712,9 +7740,10 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.timeanddate.com/holidays/",
       "status": "ended",
       "stage": "Observance",
-      "source": "国际节日公开来源",
+      "source": "官方来源入口",
       "type": "holiday",
-      "description": "愚人节。"
+      "description": "愚人节。",
+      "sourceUrl": "https://www.timeanddate.com/holidays/"
     },
     {
       "id": "holiday-ddl-good-friday-2026-2026-04-03",
@@ -7731,7 +7760,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Bank holiday",
       "source": "UK bank holidays",
       "type": "holiday",
-      "description": "英国银行假日。"
+      "description": "英国银行假日。",
+      "sourceUrl": "https://www.gov.uk/bank-holidays"
     },
     {
       "id": "holiday-ddl-清明-2026-2026-04-05",
@@ -7747,9 +7777,10 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.gov.cn/",
       "status": "ended",
       "stage": "Solar term",
-      "source": "政府公告 / 历书公开来源",
+      "source": "Gov / 官方来源入口",
       "type": "holiday",
-      "description": "节气与传统节日。"
+      "description": "节气与传统节日。",
+      "sourceUrl": "https://www.gov.cn/"
     },
     {
       "id": "holiday-ddl-easter-monday-2026-2026-04-06",
@@ -7766,7 +7797,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Bank holiday",
       "source": "UK bank holidays",
       "type": "holiday",
-      "description": "英国银行假日。"
+      "description": "英国银行假日。",
+      "sourceUrl": "https://www.gov.uk/bank-holidays"
     },
     {
       "id": "holiday-ddl-谷雨-2026-2026-04-20",
@@ -7782,9 +7814,10 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "status": "ended",
       "stage": "Solar term",
-      "source": "香港天文台历书公开来源",
+      "source": "官方年历来源入口",
       "type": "holiday",
-      "description": "春季最后一个节气。"
+      "description": "春季最后一个节气。",
+      "sourceUrl": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
     },
     {
       "id": "holiday-ddl-earth-day-2026-2026-04-22",
@@ -7800,9 +7833,10 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.earthday.org",
       "status": "ended",
       "stage": "Observance",
-      "source": "官方纪念日公开来源",
+      "source": "官方来源入口",
       "type": "holiday",
-      "description": "世界地球日。"
+      "description": "世界地球日。",
+      "sourceUrl": "https://www.earthday.org"
     },
     {
       "id": "holiday-ddl-showa-day-2026-2026-04-29",
@@ -7819,7 +7853,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "National holiday",
       "source": "Japan Cabinet Office",
       "type": "holiday",
-      "description": "昭和之日。"
+      "description": "昭和之日。",
+      "sourceUrl": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html"
     },
     {
       "id": "holiday-ddl-劳动节-2026-2026-05-01",
@@ -7835,9 +7870,10 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.gov.cn/",
       "status": "ended",
       "stage": "Holiday",
-      "source": "国务院节假日公开来源",
+      "source": "官方日历来源入口",
       "type": "holiday",
-      "description": "劳动节假期入口。"
+      "description": "劳动节假期入口。",
+      "sourceUrl": "https://www.gov.cn/"
     },
     {
       "id": "holiday-ddl-constitution-memorial-day-2026-2026-05-03",
@@ -7854,7 +7890,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "National holiday",
       "source": "Japan Cabinet Office",
       "type": "holiday",
-      "description": "宪法纪念日。"
+      "description": "宪法纪念日。",
+      "sourceUrl": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html"
     },
     {
       "id": "holiday-ddl-early-may-bank-holiday-2026-2026-05-04",
@@ -7871,7 +7908,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Bank holiday",
       "source": "UK bank holidays",
       "type": "holiday",
-      "description": "英国银行假日。"
+      "description": "英国银行假日。",
+      "sourceUrl": "https://www.gov.uk/bank-holidays"
     },
     {
       "id": "holiday-ddl-greenery-day-2026-2026-05-04",
@@ -7888,7 +7926,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "National holiday",
       "source": "Japan Cabinet Office",
       "type": "holiday",
-      "description": "绿之日。"
+      "description": "绿之日。",
+      "sourceUrl": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html"
     },
     {
       "id": "holiday-ddl-立夏-2026-2026-05-05",
@@ -7904,9 +7943,10 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "status": "ended",
       "stage": "Solar term",
-      "source": "香港天文台历书公开来源",
+      "source": "官方年历来源入口",
       "type": "holiday",
-      "description": "夏季开始。"
+      "description": "夏季开始。",
+      "sourceUrl": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
     },
     {
       "id": "holiday-ddl-children-s-day-2026-2026-05-05",
@@ -7923,7 +7963,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "National holiday",
       "source": "Japan Cabinet Office",
       "type": "holiday",
-      "description": "日本儿童节。"
+      "description": "日本儿童节。",
+      "sourceUrl": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html"
     },
     {
       "id": "holiday-ddl-mother-s-day-2026-2026-05-10",
@@ -7939,9 +7980,10 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.timeanddate.com/holidays/",
       "status": "ended",
       "stage": "Observance",
-      "source": "国际节日公开来源",
+      "source": "官方来源入口",
       "type": "holiday",
-      "description": "母亲节。"
+      "description": "母亲节。",
+      "sourceUrl": "https://www.timeanddate.com/holidays/"
     }
   ],
   "multimodal-ddl": [
@@ -7959,9 +8001,10 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://visualqa.org",
       "status": "upcoming",
       "stage": "Submission",
-      "source": "Benchmark public source",
+      "source": "官方评测入口",
       "type": "challenge",
-      "description": "视觉问答评测入口。"
+      "description": "视觉问答评测入口。",
+      "sourceUrl": "https://visualqa.org"
     },
     {
       "id": "multimodal-ddl-textvqa-refresh-2026-08-01",
@@ -7977,9 +8020,10 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://textvqa.org",
       "status": "upcoming",
       "stage": "Result upload",
-      "source": "Benchmark public source",
+      "source": "官方评测入口",
       "type": "challenge",
-      "description": "OCR + VQA 评测入口。"
+      "description": "OCR + VQA 评测入口。",
+      "sourceUrl": "https://textvqa.org"
     },
     {
       "id": "multimodal-ddl-mmmu-challenge-2026-2026-08-15",
@@ -7995,9 +8039,10 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://mmmu-benchmark.github.io",
       "status": "upcoming",
       "stage": "Leaderboard",
-      "source": "Benchmark public source",
+      "source": "官方评测入口",
       "type": "challenge",
-      "description": "多模态理解 benchmark 入口。"
+      "description": "多模态理解 benchmark 入口。",
+      "sourceUrl": "https://mmmu-benchmark.github.io"
     },
     {
       "id": "multimodal-ddl-image-captioning-challenge-2026-08-28",
@@ -8015,7 +8060,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Submission",
       "source": "人工整理的官方来源入口",
       "type": "challenge",
-      "description": "图像描述挑战入口。"
+      "description": "图像描述挑战入口。",
+      "sourceUrl": "https://cocodataset.org"
     },
     {
       "id": "multimodal-ddl-mmlu-pro-vision-reasoning-track-2026-09-18",
@@ -8033,7 +8079,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Leaderboard",
       "source": "人工整理的官方来源入口",
       "type": "challenge",
-      "description": "多模态推理榜单入口。"
+      "description": "多模态推理榜单入口。",
+      "sourceUrl": "https://www.kaggle.com/competitions"
     },
     {
       "id": "multimodal-ddl-video-captioning-challenge-2026-09-25",
@@ -8051,7 +8098,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Submission",
       "source": "人工整理的官方来源入口",
       "type": "challenge",
-      "description": "视频描述挑战入口。"
+      "description": "视频描述挑战入口。",
+      "sourceUrl": "https://www.kaggle.com/competitions"
     },
     {
       "id": "multimodal-ddl-aigc-evaluation-2026-2026-09-30",
@@ -8067,9 +8115,10 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://www.kaggle.com/competitions",
       "status": "upcoming",
       "stage": "Final submit",
-      "source": "Kaggle competitions public source",
+      "source": "官方评测入口",
       "type": "challenge",
-      "description": "生成式 AI 评测入口。"
+      "description": "生成式 AI 评测入口。",
+      "sourceUrl": "https://www.kaggle.com/competitions"
     },
     {
       "id": "multimodal-ddl-video-mme-leaderboard-freeze-2026-10-12",
@@ -8085,9 +8134,10 @@ export const ddlData: Record<string, DDLItem[]> = {
       "url": "https://video-mme.github.io",
       "status": "upcoming",
       "stage": "Leaderboard",
-      "source": "Benchmark public source",
+      "source": "官方评测入口",
       "type": "challenge",
-      "description": "视频理解评测入口。"
+      "description": "视频理解评测入口。",
+      "sourceUrl": "https://video-mme.github.io"
     },
     {
       "id": "multimodal-ddl-chartqa-challenge-2026-10-22",
@@ -8105,7 +8155,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Submission",
       "source": "人工整理的官方来源入口",
       "type": "challenge",
-      "description": "图表问答评测入口。"
+      "description": "图表问答评测入口。",
+      "sourceUrl": "https://github.com/vis-nlp/ChartQA"
     },
     {
       "id": "multimodal-ddl-audio-visual-scene-challenge-2026-11-05",
@@ -8123,7 +8174,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Submission",
       "source": "人工整理的官方来源入口",
       "type": "challenge",
-      "description": "音视频多模态挑战入口。"
+      "description": "音视频多模态挑战入口。",
+      "sourceUrl": "https://www.kaggle.com/competitions"
     },
     {
       "id": "multimodal-ddl-docvqa-task-refresh-2026-11-18",
@@ -8141,7 +8193,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Result upload",
       "source": "人工整理的官方来源入口",
       "type": "challenge",
-      "description": "文档问答评测入口。"
+      "description": "文档问答评测入口。",
+      "sourceUrl": "https://rrc.cvc.uab.es/?ch=17"
     },
     {
       "id": "multimodal-ddl-cvpr-vlm-workshop-paper-2026-12-01",
@@ -8159,7 +8212,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Workshop paper",
       "source": "人工整理的官方来源入口",
       "type": "program",
-      "description": "VLM workshop paper 入口。"
+      "description": "VLM workshop paper 入口。",
+      "sourceUrl": "https://cvpr.thecvf.com"
     },
     {
       "id": "multimodal-ddl-mmbench-leaderboard-snapshot-2026-12-12",
@@ -8177,7 +8231,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Leaderboard",
       "source": "人工整理的官方来源入口",
       "type": "challenge",
-      "description": "多模态综合评测入口。"
+      "description": "多模态综合评测入口。",
+      "sourceUrl": "https://opencompass.org.cn/leaderboard-multimodal"
     },
     {
       "id": "multimodal-ddl-multimodal-safety-red-team-2026-12-20",
@@ -8195,7 +8250,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Report",
       "source": "人工整理的官方来源入口",
       "type": "challenge",
-      "description": "多模态安全评测入口。"
+      "description": "多模态安全评测入口。",
+      "sourceUrl": "https://openreview.net/"
     },
     {
       "id": "multimodal-ddl-llava-bench-refresh-2027-01-05",
@@ -8213,7 +8269,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Evaluation",
       "source": "人工整理的官方来源入口",
       "type": "challenge",
-      "description": "VLM 对话能力评测入口。"
+      "description": "VLM 对话能力评测入口。",
+      "sourceUrl": "https://llava-vl.github.io"
     },
     {
       "id": "multimodal-ddl-acl-multimodal-nlp-workshop-2027-01-25",
@@ -8231,7 +8288,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Paper",
       "source": "人工整理的官方来源入口",
       "type": "program",
-      "description": "多模态 NLP workshop 入口。"
+      "description": "多模态 NLP workshop 入口。",
+      "sourceUrl": "https://www.aclweb.org"
     },
     {
       "id": "multimodal-ddl-speech-to-image-evaluation-track-2027-02-08",
@@ -8249,7 +8307,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Submission",
       "source": "人工整理的官方来源入口",
       "type": "challenge",
-      "description": "语音到图像生成评测入口。"
+      "description": "语音到图像生成评测入口。",
+      "sourceUrl": "https://www.kaggle.com/competitions"
     },
     {
       "id": "multimodal-ddl-robotics-vla-benchmark-2027-03-10",
@@ -8267,7 +8326,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Leaderboard",
       "source": "人工整理的官方来源入口",
       "type": "challenge",
-      "description": "视觉-语言-动作模型评测入口。"
+      "description": "视觉-语言-动作模型评测入口。",
+      "sourceUrl": "https://openreview.net/"
     }
   ],
   "security-ddl": [
@@ -8288,7 +8348,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Parsed from CTFtime upcoming events. Deadline represents the event start time, not a registration deadline.",
       "stage": "upcoming",
       "source": "ctftime",
-      "type": "contest"
+      "type": "contest",
+      "sourceUrl": "https://ctftime.org/event/3277"
     },
     {
       "id": "ctftime-3205",
@@ -8307,7 +8368,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Parsed from CTFtime upcoming events. Deadline represents the event start time, not a registration deadline.",
       "stage": "upcoming",
       "source": "ctftime",
-      "type": "contest"
+      "type": "contest",
+      "sourceUrl": "https://ctftime.org/event/3205"
     },
     {
       "id": "ctftime-3284",
@@ -8326,7 +8388,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Parsed from CTFtime upcoming events. Deadline represents the event start time, not a registration deadline.",
       "stage": "upcoming",
       "source": "ctftime",
-      "type": "contest"
+      "type": "contest",
+      "sourceUrl": "https://ctftime.org/event/3284"
     },
     {
       "id": "ctftime-3136",
@@ -8345,7 +8408,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Parsed from CTFtime upcoming events. Deadline represents the event start time, not a registration deadline.",
       "stage": "upcoming",
       "source": "ctftime",
-      "type": "contest"
+      "type": "contest",
+      "sourceUrl": "https://ctftime.org/event/3136"
     },
     {
       "id": "ctftime-3271",
@@ -8364,7 +8428,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Parsed from CTFtime upcoming events. Deadline represents the event start time, not a registration deadline.",
       "stage": "upcoming",
       "source": "ctftime",
-      "type": "contest"
+      "type": "contest",
+      "sourceUrl": "https://ctftime.org/event/3271"
     },
     {
       "id": "ctftime-3270",
@@ -8383,7 +8448,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Parsed from CTFtime upcoming events. Deadline represents the event start time, not a registration deadline.",
       "stage": "upcoming",
       "source": "ctftime",
-      "type": "contest"
+      "type": "contest",
+      "sourceUrl": "https://ctftime.org/event/3270"
     },
     {
       "id": "ctftime-3174",
@@ -8402,7 +8468,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Parsed from CTFtime upcoming events. Deadline represents the event start time, not a registration deadline.",
       "stage": "upcoming",
       "source": "ctftime",
-      "type": "contest"
+      "type": "contest",
+      "sourceUrl": "https://ctftime.org/event/3174"
     },
     {
       "id": "ctftime-3209",
@@ -8421,7 +8488,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Parsed from CTFtime upcoming events. Deadline represents the event start time, not a registration deadline.",
       "stage": "upcoming",
       "source": "ctftime",
-      "type": "contest"
+      "type": "contest",
+      "sourceUrl": "https://ctftime.org/event/3209"
     },
     {
       "id": "ctftime-3247",
@@ -8440,7 +8508,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Parsed from CTFtime upcoming events. Deadline represents the event start time, not a registration deadline.",
       "stage": "upcoming",
       "source": "ctftime",
-      "type": "contest"
+      "type": "contest",
+      "sourceUrl": "https://ctftime.org/event/3247"
     },
     {
       "id": "ctftime-3178",
@@ -8459,7 +8528,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Parsed from CTFtime upcoming events. Deadline represents the event start time, not a registration deadline.",
       "stage": "upcoming",
       "source": "ctftime",
-      "type": "contest"
+      "type": "contest",
+      "sourceUrl": "https://ctftime.org/event/3178"
     },
     {
       "id": "ctftime-3220",
@@ -8478,7 +8548,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Parsed from CTFtime upcoming events. Deadline represents the event start time, not a registration deadline.",
       "stage": "upcoming",
       "source": "ctftime",
-      "type": "contest"
+      "type": "contest",
+      "sourceUrl": "https://ctftime.org/event/3220"
     },
     {
       "id": "ctftime-3243",
@@ -8497,7 +8568,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Parsed from CTFtime upcoming events. Deadline represents the event start time, not a registration deadline.",
       "stage": "upcoming",
       "source": "ctftime",
-      "type": "contest"
+      "type": "contest",
+      "sourceUrl": "https://ctftime.org/event/3243"
     },
     {
       "id": "security-ddl-def-con-ctf-qualifier-2026-07-01",
@@ -8516,7 +8588,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "DEF CON",
-      "type": "contest"
+      "type": "contest",
+      "sourceUrl": "https://defcon.org"
     },
     {
       "id": "security-ddl-google-ctf-2026-2026-07-19",
@@ -8535,7 +8608,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "Google CTF",
-      "type": "contest"
+      "type": "contest",
+      "sourceUrl": "https://capturetheflag.withgoogle.com"
     },
     {
       "id": "security-ddl-hack-the-box-business-ctf-2026-08-06",
@@ -8554,7 +8628,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "Hack The Box CTF",
-      "type": "contest"
+      "type": "contest",
+      "sourceUrl": "https://ctf.hackthebox.com"
     },
     {
       "id": "security-ddl-seccon-ctf-quals-2026-08-24",
@@ -8573,7 +8648,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "SECCON",
-      "type": "contest"
+      "type": "contest",
+      "sourceUrl": "https://www.seccon.jp"
     },
     {
       "id": "security-ddl-hitcon-ctf-2026-09-11",
@@ -8592,7 +8668,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "HITCON CTF",
-      "type": "contest"
+      "type": "contest",
+      "sourceUrl": "https://ctf.hitcon.org"
     },
     {
       "id": "security-ddl-pwn2own-entry-window-2026-09-29",
@@ -8611,7 +8688,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "Zero Day Initiative",
-      "type": "contest"
+      "type": "contest",
+      "sourceUrl": "https://www.zerodayinitiative.com"
     },
     {
       "id": "security-ddl-black-hat-arsenal-submission-2026-10-17",
@@ -8630,7 +8708,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "Black Hat",
-      "type": "contest"
+      "type": "contest",
+      "sourceUrl": "https://www.blackhat.com"
     },
     {
       "id": "security-ddl-usenix-security-artifact-evaluation-2026-11-04",
@@ -8649,7 +8728,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "USENIX Conferences",
-      "type": "contest"
+      "type": "contest",
+      "sourceUrl": "https://www.usenix.org/conferences"
     },
     {
       "id": "security-ddl-blue-team-village-challenge-2026-11-22",
@@ -8668,7 +8748,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "ctftime.org",
-      "type": "contest"
+      "type": "contest",
+      "sourceUrl": "https://ctftime.org"
     },
     {
       "id": "security-ddl-bug-bounty-quarterly-review-2026-12-10",
@@ -8687,7 +8768,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "HackerOne Hacktivity",
-      "type": "contest"
+      "type": "contest",
+      "sourceUrl": "https://hackerone.com/hacktivity"
     },
     {
       "id": "security-ddl-real-world-crypto-paper-2026-12-28",
@@ -8706,7 +8788,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "Real World Crypto",
-      "type": "contest"
+      "type": "contest",
+      "sourceUrl": "https://rwc.iacr.org"
     },
     {
       "id": "security-ddl-s-p-workshop-paper-2027-01-15",
@@ -8725,7 +8808,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "ctftime.org",
-      "type": "contest"
+      "type": "contest",
+      "sourceUrl": "https://ctftime.org"
     },
     {
       "id": "security-ddl-cyber-defense-exercise-registration-2027-02-02",
@@ -8744,7 +8828,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "ctftime.org",
-      "type": "contest"
+      "type": "contest",
+      "sourceUrl": "https://ctftime.org"
     },
     {
       "id": "security-ddl-mobile-security-challenge-2027-02-20",
@@ -8763,7 +8848,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "ctftime.org",
-      "type": "contest"
+      "type": "contest",
+      "sourceUrl": "https://ctftime.org"
     },
     {
       "id": "security-ddl-iot-security-testbed-sprint-2027-03-10",
@@ -8782,7 +8868,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "ctftime.org",
-      "type": "contest"
+      "type": "contest",
+      "sourceUrl": "https://ctftime.org"
     },
     {
       "id": "security-ddl-cloud-native-security-hackathon-2027-03-28",
@@ -8801,7 +8888,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "ctftime.org",
-      "type": "contest"
+      "type": "contest",
+      "sourceUrl": "https://ctftime.org"
     }
   ],
   "data-science-ddl": [
@@ -8824,7 +8912,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Parsed from official DrivenData listing. Deadline is read from the card end-date tooltip.",
       "stage": "Deadline",
       "source": "DrivenData Competitions",
-      "type": "challenge"
+      "type": "challenge",
+      "sourceUrl": "https://www.drivendata.org/competitions/297/whats-up-docs/"
     },
     {
       "id": "drivendata-66-flu-shot-learning",
@@ -8844,7 +8933,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Parsed from official DrivenData listing. Deadline is read from the card end-date tooltip.",
       "stage": "Deadline",
       "source": "DrivenData Competitions",
-      "type": "challenge"
+      "type": "challenge",
+      "sourceUrl": "https://www.drivendata.org/competitions/66/flu-shot-learning/"
     },
     {
       "id": "drivendata-87-competition-image-classification-wildlife-conservation",
@@ -8864,7 +8954,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Parsed from official DrivenData listing. Deadline is read from the card end-date tooltip.",
       "stage": "Deadline",
       "source": "DrivenData Competitions",
-      "type": "challenge"
+      "type": "challenge",
+      "sourceUrl": "https://www.drivendata.org/competitions/87/competition-image-classification-wildlife-conservation/"
     },
     {
       "id": "drivendata-44-dengai-predicting-disease-spread",
@@ -8884,7 +8975,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Parsed from official DrivenData listing. Deadline is read from the card end-date tooltip.",
       "stage": "Deadline",
       "source": "DrivenData Competitions",
-      "type": "challenge"
+      "type": "challenge",
+      "sourceUrl": "https://www.drivendata.org/competitions/44/dengai-predicting-disease-spread/"
     },
     {
       "id": "drivendata-7-pump-it-up-data-mining-the-water-table",
@@ -8904,7 +8996,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Parsed from official DrivenData listing. Deadline is read from the card end-date tooltip.",
       "stage": "Deadline",
       "source": "DrivenData Competitions",
-      "type": "challenge"
+      "type": "challenge",
+      "sourceUrl": "https://www.drivendata.org/competitions/7/pump-it-up-data-mining-the-water-table/"
     },
     {
       "id": "drivendata-57-nepal-earthquake",
@@ -8924,7 +9017,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Parsed from official DrivenData listing. Deadline is read from the card end-date tooltip.",
       "stage": "Deadline",
       "source": "DrivenData Competitions",
-      "type": "challenge"
+      "type": "challenge",
+      "sourceUrl": "https://www.drivendata.org/competitions/57/nepal-earthquake/"
     }
   ],
   "open-source-ddl": [
@@ -8944,7 +9038,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Parsed from the official GSoC 2026 timeline. Milestone event.",
       "stage": "Milestone",
       "source": "Google Summer of Code",
-      "type": "program"
+      "type": "program",
+      "sourceUrl": "https://developers.google.com/open-source/gsoc/timeline?hl=en"
     },
     {
       "id": "gsoc-2026-may-25-coding-officially-begins",
@@ -8962,7 +9057,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Parsed from the official GSoC 2026 timeline. Milestone event.",
       "stage": "Milestone",
       "source": "Google Summer of Code",
-      "type": "program"
+      "type": "program",
+      "sourceUrl": "https://developers.google.com/open-source/gsoc/timeline?hl=en"
     },
     {
       "id": "open-source-ddl-google-summer-of-code-org-application-2026-07-01",
@@ -8981,7 +9077,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "Google Summer of Code",
-      "type": "program"
+      "type": "program",
+      "sourceUrl": "https://summerofcode.withgoogle.com"
     },
     {
       "id": "gsoc-2026-july-6-18-00-utc-mentors-and-gsoc-contributors-can-begin-submitting-midterm-eval",
@@ -8999,7 +9096,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Parsed from the official GSoC 2026 timeline. Milestone event.",
       "stage": "Milestone",
       "source": "Google Summer of Code",
-      "type": "program"
+      "type": "program",
+      "sourceUrl": "https://developers.google.com/open-source/gsoc/timeline?hl=en"
     },
     {
       "id": "gsoc-2026-july-10-18-00-utc-midterm-evaluation-deadline-standard-coding-period",
@@ -9017,7 +9115,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Parsed from the official GSoC 2026 timeline. Deadline event.",
       "stage": "Deadline",
       "source": "Google Summer of Code",
-      "type": "program"
+      "type": "program",
+      "sourceUrl": "https://developers.google.com/open-source/gsoc/timeline?hl=en"
     },
     {
       "id": "open-source-ddl-google-summer-of-code-contributor-application-2026-07-19",
@@ -9036,7 +9135,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "Google Summer of Code",
-      "type": "program"
+      "type": "program",
+      "sourceUrl": "https://summerofcode.withgoogle.com"
     },
     {
       "id": "open-source-ddl-open-source-promotion-plan-application-2026-08-06",
@@ -9055,7 +9155,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "开源之夏",
-      "type": "program"
+      "type": "program",
+      "sourceUrl": "https://summer-ospp.ac.cn"
     },
     {
       "id": "gsoc-2026-july-6-august-16-work-period-gsoc-contributors-work-on-their-project-with-guidan",
@@ -9073,7 +9174,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Parsed from the official GSoC 2026 timeline. Milestone event.",
       "stage": "Milestone",
       "source": "Google Summer of Code",
-      "type": "program"
+      "type": "program",
+      "sourceUrl": "https://developers.google.com/open-source/gsoc/timeline?hl=en"
     },
     {
       "id": "open-source-ddl-lfx-mentorship-spring-2026-08-24",
@@ -9092,7 +9194,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "LFX Mentorship",
-      "type": "program"
+      "type": "program",
+      "sourceUrl": "https://lfx.linuxfoundation.org/tools/mentorship/"
     },
     {
       "id": "gsoc-2026-august-17-24-18-00-utc-final-week-gsoc-contributors-submit-their-final-work-prod",
@@ -9110,7 +9213,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Parsed from the official GSoC 2026 timeline. Deadline event.",
       "stage": "Deadline",
       "source": "Google Summer of Code",
-      "type": "program"
+      "type": "program",
+      "sourceUrl": "https://developers.google.com/open-source/gsoc/timeline?hl=en"
     },
     {
       "id": "gsoc-2026-august-24-31-18-00-utc-mentors-submit-final-gsoc-contributor-evaluations-standar",
@@ -9128,7 +9232,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Parsed from the official GSoC 2026 timeline. Deadline event.",
       "stage": "Deadline",
       "source": "Google Summer of Code",
-      "type": "program"
+      "type": "program",
+      "sourceUrl": "https://developers.google.com/open-source/gsoc/timeline?hl=en"
     },
     {
       "id": "open-source-ddl-outreachy-internship-application-2026-09-11",
@@ -9147,7 +9252,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "Outreachy",
-      "type": "program"
+      "type": "program",
+      "sourceUrl": "https://www.outreachy.org"
     },
     {
       "id": "open-source-ddl-rails-girls-summer-of-code-2026-09-29",
@@ -9166,7 +9272,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "summerofcode.withgoogle.com",
-      "type": "program"
+      "type": "program",
+      "sourceUrl": "https://summerofcode.withgoogle.com"
     },
     {
       "id": "open-source-ddl-numfocus-small-development-grants-2026-10-17",
@@ -9185,7 +9292,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "NumFOCUS Grants",
-      "type": "program"
+      "type": "program",
+      "sourceUrl": "https://numfocus.org/programs/small-development-grants"
     },
     {
       "id": "gsoc-2026-november-2-18-00-utc-final-date-for-all-gsoc-contributors-to-submit-their-final-",
@@ -9203,7 +9311,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Parsed from the official GSoC 2026 timeline. Deadline event.",
       "stage": "Deadline",
       "source": "Google Summer of Code",
-      "type": "program"
+      "type": "program",
+      "sourceUrl": "https://developers.google.com/open-source/gsoc/timeline?hl=en"
     },
     {
       "id": "gsoc-2026-august-24-november-2-gsoc-contributors-with-extended-timelines-continue-coding",
@@ -9221,7 +9330,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Parsed from the official GSoC 2026 timeline. Milestone event.",
       "stage": "Milestone",
       "source": "Google Summer of Code",
-      "type": "program"
+      "type": "program",
+      "sourceUrl": "https://developers.google.com/open-source/gsoc/timeline?hl=en"
     },
     {
       "id": "open-source-ddl-mozilla-builders-incubator-2026-11-04",
@@ -9240,7 +9350,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "summerofcode.withgoogle.com",
-      "type": "program"
+      "type": "program",
+      "sourceUrl": "https://summerofcode.withgoogle.com"
     },
     {
       "id": "gsoc-2026-november-9-18-00-utc-final-date-for-mentors-to-submit-evaluations-for-gsoc-contr",
@@ -9258,7 +9369,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Parsed from the official GSoC 2026 timeline. Deadline event.",
       "stage": "Deadline",
       "source": "Google Summer of Code",
-      "type": "program"
+      "type": "program",
+      "sourceUrl": "https://developers.google.com/open-source/gsoc/timeline?hl=en"
     },
     {
       "id": "open-source-ddl-hacktoberfest-maintainer-prep-2026-11-22",
@@ -9277,7 +9389,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "summerofcode.withgoogle.com",
-      "type": "program"
+      "type": "program",
+      "sourceUrl": "https://summerofcode.withgoogle.com"
     },
     {
       "id": "open-source-ddl-cncf-mentoring-program-2026-12-10",
@@ -9296,7 +9409,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "CNCF Mentoring",
-      "type": "program"
+      "type": "program",
+      "sourceUrl": "https://github.com/cncf/mentoring"
     },
     {
       "id": "open-source-ddl-apache-community-over-code-cfp-2026-12-28",
@@ -9315,7 +9429,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "Apache Community Over Code",
-      "type": "program"
+      "type": "program",
+      "sourceUrl": "https://communityovercode.org"
     },
     {
       "id": "open-source-ddl-pycon-open-spaces-proposal-2027-01-15",
@@ -9334,7 +9449,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "PyCon US",
-      "type": "program"
+      "type": "program",
+      "sourceUrl": "https://us.pycon.org"
     },
     {
       "id": "open-source-ddl-openjs-collaborator-summit-cfp-2027-02-02",
@@ -9353,7 +9469,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "summerofcode.withgoogle.com",
-      "type": "program"
+      "type": "program",
+      "sourceUrl": "https://summerofcode.withgoogle.com"
     },
     {
       "id": "open-source-ddl-rust-project-fellowship-window-2027-02-20",
@@ -9372,7 +9489,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "summerofcode.withgoogle.com",
-      "type": "program"
+      "type": "program",
+      "sourceUrl": "https://summerofcode.withgoogle.com"
     },
     {
       "id": "open-source-ddl-openssf-security-tooling-grant-2027-03-10",
@@ -9391,7 +9509,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "OpenSSF",
-      "type": "program"
+      "type": "program",
+      "sourceUrl": "https://openssf.org"
     },
     {
       "id": "open-source-ddl-fossasia-summit-cfp-2027-03-28",
@@ -9410,7 +9529,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "FOSSASIA Summit",
-      "type": "program"
+      "type": "program",
+      "sourceUrl": "https://summit.fossasia.org"
     }
   ],
   "robotics-ddl": [
@@ -9432,7 +9552,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Parsed from official AI City Challenge page.",
       "stage": "Registration",
       "source": "AI City Challenge",
-      "type": "challenge"
+      "type": "challenge",
+      "sourceUrl": "https://www.aicitychallenge.org"
     },
     {
       "id": "aicity-2026-release-of-evaluation-server-and-test-data-sets-may-18-2026",
@@ -9452,7 +9573,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Parsed from official AI City Challenge Important Dates section.",
       "stage": "Milestone",
       "source": "AI City Challenge",
-      "type": "challenge"
+      "type": "challenge",
+      "sourceUrl": "https://www.aicitychallenge.org"
     },
     {
       "id": "aicity-2026-release-of-evaluation-server-and-test-data-sets-may-25-2026",
@@ -9472,7 +9594,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Parsed from official AI City Challenge Important Dates section.",
       "stage": "Milestone",
       "source": "AI City Challenge",
-      "type": "challenge"
+      "type": "challenge",
+      "sourceUrl": "https://www.aicitychallenge.org"
     },
     {
       "id": "aicity-2026-challenge-track-submissions-due-july-10-2026",
@@ -9492,7 +9615,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Parsed from official AI City Challenge Important Dates section.",
       "stage": "Deadline",
       "source": "AI City Challenge",
-      "type": "challenge"
+      "type": "challenge",
+      "sourceUrl": "https://www.aicitychallenge.org"
     },
     {
       "id": "aicity-2026-anywhere-on-earth-workshop-papers-due-july-24-2026",
@@ -9512,7 +9636,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Parsed from official AI City Challenge Important Dates section.",
       "stage": "Deadline",
       "source": "AI City Challenge",
-      "type": "challenge"
+      "type": "challenge",
+      "sourceUrl": "https://www.aicitychallenge.org"
     },
     {
       "id": "aicity-2026-anywhere-on-earth-acceptance-notification-august-1-2026",
@@ -9532,7 +9657,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Parsed from official AI City Challenge Important Dates section.",
       "stage": "Milestone",
       "source": "AI City Challenge",
-      "type": "challenge"
+      "type": "challenge",
+      "sourceUrl": "https://www.aicitychallenge.org"
     },
     {
       "id": "aicity-2026-open-source-by-awards-candidates-due-august-7-2026",
@@ -9552,7 +9678,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Parsed from official AI City Challenge Important Dates section.",
       "stage": "Deadline",
       "source": "AI City Challenge",
-      "type": "challenge"
+      "type": "challenge",
+      "sourceUrl": "https://www.aicitychallenge.org"
     },
     {
       "id": "aicity-2026-anywhere-on-earth-camera-ready-papers-due-august-15-2026",
@@ -9572,7 +9699,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Parsed from official AI City Challenge Important Dates section.",
       "stage": "Deadline",
       "source": "AI City Challenge",
-      "type": "challenge"
+      "type": "challenge",
+      "sourceUrl": "https://www.aicitychallenge.org"
     },
     {
       "id": "aicity-2026-presentation-of-papers-and-announcement-of-awards-at-eccv-2026-september-8-9-2026",
@@ -9592,7 +9720,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Parsed from official AI City Challenge Important Dates section.",
       "stage": "Milestone",
       "source": "AI City Challenge",
-      "type": "challenge"
+      "type": "challenge",
+      "sourceUrl": "https://www.aicitychallenge.org"
     }
   ],
   "startup-ddl": [
@@ -9613,7 +9742,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Parsed from official Techstars accelerators listing. Deadline is read from the Apply by card and embedded earliestCurrentDeadline.",
       "stage": "Application deadline",
       "source": "Techstars Accelerators",
-      "type": "program"
+      "type": "program",
+      "sourceUrl": "https://www.techstars.com/accelerators/abn-amro-techstars-future-of-finance-accelerator"
     },
     {
       "id": "techstars-baltimore-ai-health",
@@ -9632,7 +9762,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Parsed from official Techstars accelerators listing. Deadline is read from the Apply by card and embedded earliestCurrentDeadline.",
       "stage": "Application deadline",
       "source": "Techstars Accelerators",
-      "type": "program"
+      "type": "program",
+      "sourceUrl": "https://www.techstars.com/accelerators/baltimore-ai-health"
     },
     {
       "id": "techstars-alabama-power",
@@ -9651,7 +9782,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Parsed from official Techstars accelerators listing. Deadline is read from the Apply by card and embedded earliestCurrentDeadline.",
       "stage": "Application deadline",
       "source": "Techstars Accelerators",
-      "type": "program"
+      "type": "program",
+      "sourceUrl": "https://www.techstars.com/accelerators/alabama-power"
     },
     {
       "id": "techstars-anywhere",
@@ -9670,7 +9802,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Parsed from official Techstars accelerators listing. Deadline is read from the Apply by card and embedded earliestCurrentDeadline.",
       "stage": "Application deadline",
       "source": "Techstars Accelerators",
-      "type": "program"
+      "type": "program",
+      "sourceUrl": "https://www.techstars.com/accelerators/anywhere"
     },
     {
       "id": "techstars-boulder-accelerator",
@@ -9689,7 +9822,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Parsed from official Techstars accelerators listing. Deadline is read from the Apply by card and embedded earliestCurrentDeadline.",
       "stage": "Application deadline",
       "source": "Techstars Accelerators",
-      "type": "program"
+      "type": "program",
+      "sourceUrl": "https://www.techstars.com/accelerators/boulder-accelerator"
     },
     {
       "id": "techstars-ohio-state-university-accelerator",
@@ -9708,7 +9842,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Parsed from official Techstars accelerators listing. Deadline is read from the Apply by card and embedded earliestCurrentDeadline.",
       "stage": "Application deadline",
       "source": "Techstars Accelerators",
-      "type": "program"
+      "type": "program",
+      "sourceUrl": "https://www.techstars.com/accelerators/ohio-state-university-accelerator"
     },
     {
       "id": "techstars-future-of-food",
@@ -9727,7 +9862,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Parsed from official Techstars accelerators listing. Deadline is read from the Apply by card and embedded earliestCurrentDeadline.",
       "stage": "Application deadline",
       "source": "Techstars Accelerators",
-      "type": "program"
+      "type": "program",
+      "sourceUrl": "https://www.techstars.com/accelerators/future-of-food"
     },
     {
       "id": "techstars-permanente-medicine",
@@ -9746,7 +9882,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Parsed from official Techstars accelerators listing. Deadline is read from the Apply by card and embedded earliestCurrentDeadline.",
       "stage": "Application deadline",
       "source": "Techstars Accelerators",
-      "type": "program"
+      "type": "program",
+      "sourceUrl": "https://www.techstars.com/accelerators/permanente-medicine"
     },
     {
       "id": "techstars-nyc",
@@ -9765,7 +9902,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Parsed from official Techstars accelerators listing. Deadline is read from the Apply by card and embedded earliestCurrentDeadline.",
       "stage": "Application deadline",
       "source": "Techstars Accelerators",
-      "type": "program"
+      "type": "program",
+      "sourceUrl": "https://www.techstars.com/accelerators/nyc"
     },
     {
       "id": "techstars-space",
@@ -9784,7 +9922,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Parsed from official Techstars accelerators listing. Deadline is read from the Apply by card and embedded earliestCurrentDeadline.",
       "stage": "Application deadline",
       "source": "Techstars Accelerators",
-      "type": "program"
+      "type": "program",
+      "sourceUrl": "https://www.techstars.com/accelerators/space"
     }
   ],
   "design-ddl": [
@@ -9806,7 +9945,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Parsed from official UX Design Awards Dates page.",
       "stage": "Deadline",
       "source": "UX Design Awards",
-      "type": "contest"
+      "type": "contest",
+      "sourceUrl": "https://ux-design-awards.com/enter/dates"
     },
     {
       "id": "uxda-autumn-2026-nomination-review-closes",
@@ -9826,7 +9966,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Parsed from official UX Design Awards Dates page.",
       "stage": "Milestone",
       "source": "UX Design Awards",
-      "type": "contest"
+      "type": "contest",
+      "sourceUrl": "https://ux-design-awards.com/enter/dates"
     },
     {
       "id": "uxda-autumn-2026-notification-of-nominees",
@@ -9846,7 +9987,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Parsed from official UX Design Awards Dates page.",
       "stage": "Milestone",
       "source": "UX Design Awards",
-      "type": "contest"
+      "type": "contest",
+      "sourceUrl": "https://ux-design-awards.com/enter/dates"
     },
     {
       "id": "uxda-autumn-2026-public-nominee-announcement",
@@ -9866,7 +10008,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Parsed from official UX Design Awards Dates page.",
       "stage": "Milestone",
       "source": "UX Design Awards",
-      "type": "contest"
+      "type": "contest",
+      "sourceUrl": "https://ux-design-awards.com/enter/dates"
     },
     {
       "id": "uxda-autumn-2026-public-choice-award-voting-closes",
@@ -9886,7 +10029,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Parsed from official UX Design Awards Dates page.",
       "stage": "Deadline",
       "source": "UX Design Awards",
-      "type": "contest"
+      "type": "contest",
+      "sourceUrl": "https://ux-design-awards.com/enter/dates"
     },
     {
       "id": "uxda-autumn-2026-winner-announcement",
@@ -9906,7 +10050,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Parsed from official UX Design Awards Dates page.",
       "stage": "Milestone",
       "source": "UX Design Awards",
-      "type": "contest"
+      "type": "contest",
+      "sourceUrl": "https://ux-design-awards.com/enter/dates"
     },
     {
       "id": "uxda-autumn-2027-call-for-participation-closes",
@@ -9926,7 +10071,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Parsed from official UX Design Awards Dates page.",
       "stage": "Deadline",
       "source": "UX Design Awards",
-      "type": "contest"
+      "type": "contest",
+      "sourceUrl": "https://ux-design-awards.com/enter/dates"
     }
   ],
   "exam-ddl": [
@@ -9947,7 +10093,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "yz.chsi.com.cn",
-      "type": "program"
+      "type": "program",
+      "sourceUrl": "https://yz.chsi.com.cn"
     },
     {
       "id": "exam-ddl-item-2026-07-19",
@@ -9966,7 +10113,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "yz.chsi.com.cn",
-      "type": "program"
+      "type": "program",
+      "sourceUrl": "https://yz.chsi.com.cn"
     },
     {
       "id": "exam-ddl-item-2026-08-06",
@@ -9985,7 +10133,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "cet.neea.edu.cn",
-      "type": "program"
+      "type": "program",
+      "sourceUrl": "https://cet.neea.edu.cn"
     },
     {
       "id": "exam-ddl-item-2026-08-24",
@@ -10004,7 +10153,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "ielts.neea.cn",
-      "type": "program"
+      "type": "program",
+      "sourceUrl": "https://ielts.neea.cn"
     },
     {
       "id": "exam-ddl-item-2026-09-11",
@@ -10023,7 +10173,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "toefl.neea.cn",
-      "type": "program"
+      "type": "program",
+      "sourceUrl": "https://toefl.neea.cn"
     },
     {
       "id": "exam-ddl-gre-general-test-planning-2026-09-29",
@@ -10042,7 +10193,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "ETS GRE",
-      "type": "program"
+      "type": "program",
+      "sourceUrl": "https://www.ets.org/gre.html"
     },
     {
       "id": "exam-ddl-gmat-focus-exam-planning-2026-10-17",
@@ -10061,7 +10213,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "GMAC GMAT",
-      "type": "program"
+      "type": "program",
+      "sourceUrl": "https://www.mba.com/exams/gmat-exam"
     },
     {
       "id": "exam-ddl-item-2026-11-04",
@@ -10080,7 +10233,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "中国政府网",
-      "type": "program"
+      "type": "program",
+      "sourceUrl": "https://bm.scs.gov.cn"
     },
     {
       "id": "exam-ddl-item-2026-11-22",
@@ -10099,7 +10253,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "ntce.neea.edu.cn",
-      "type": "program"
+      "type": "program",
+      "sourceUrl": "https://ntce.neea.edu.cn"
     },
     {
       "id": "exam-ddl-item-2026-12-10",
@@ -10118,7 +10273,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "ncre.neea.edu.cn",
-      "type": "program"
+      "type": "program",
+      "sourceUrl": "https://ncre.neea.edu.cn"
     },
     {
       "id": "exam-ddl-item-2026-12-28",
@@ -10137,7 +10293,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "ruankao.org.cn",
-      "type": "program"
+      "type": "program",
+      "sourceUrl": "https://www.ruankao.org.cn"
     },
     {
       "id": "exam-ddl-item-2027-01-15",
@@ -10156,7 +10313,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "cpaexam.cicpa.org.cn",
-      "type": "program"
+      "type": "program",
+      "sourceUrl": "https://cpaexam.cicpa.org.cn"
     },
     {
       "id": "exam-ddl-item-2027-02-02",
@@ -10175,7 +10333,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "中国政府网",
-      "type": "program"
+      "type": "program",
+      "sourceUrl": "https://www.moj.gov.cn"
     },
     {
       "id": "exam-ddl-aws-certification-voucher-window-2027-02-20",
@@ -10194,7 +10353,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "AWS Certification",
-      "type": "program"
+      "type": "program",
+      "sourceUrl": "https://aws.amazon.com/certification/"
     },
     {
       "id": "exam-ddl-pmp-exam-application-window-2027-03-10",
@@ -10213,7 +10373,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "PMI PMP Certification",
-      "type": "program"
+      "type": "program",
+      "sourceUrl": "https://www.pmi.org/certifications/project-management-pmp"
     },
     {
       "id": "exam-ddl-cfa-exam-registration-deadline-2027-03-28",
@@ -10232,7 +10393,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "CFA Institute",
-      "type": "program"
+      "type": "program",
+      "sourceUrl": "https://www.cfainstitute.org"
     }
   ],
   "scholarship-ddl": [
@@ -10253,7 +10415,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Parsed from the official Chevening application timeline.",
       "stage": "Offer deadline",
       "source": "Chevening Scholarships",
-      "type": "program"
+      "type": "program",
+      "sourceUrl": "https://www.chevening.org/scholarships/application-timeline/"
     }
   ],
   "game-dev-ddl": [
@@ -10273,7 +10436,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "type": "contest",
       "dateRange": "2026-05-24",
       "location": "Online",
-      "isOnline": true
+      "isOnline": true,
+      "sourceUrl": "https://itch.io/jam/gdevelop-big-game-jam-9"
     },
     {
       "id": "itchio-jam-coolmath-game-jam-2026",
@@ -10291,7 +10455,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "type": "contest",
       "dateRange": "2026-06-08",
       "location": "Online",
-      "isOnline": true
+      "isOnline": true,
+      "sourceUrl": "https://itch.io/jam/coolmath-game-jam-2026"
     },
     {
       "id": "itchio-jam-noise-jam-3",
@@ -10309,7 +10474,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "type": "contest",
       "dateRange": "2026-06-13",
       "location": "Online",
-      "isOnline": true
+      "isOnline": true,
+      "sourceUrl": "https://itch.io/jam/noise-jam-3"
     },
     {
       "id": "itchio-jam-nes-jam-2026",
@@ -10327,7 +10493,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "type": "contest",
       "dateRange": "2026-06-15",
       "location": "Online",
-      "isOnline": true
+      "isOnline": true,
+      "sourceUrl": "https://itch.io/jam/nes-jam-2026"
     },
     {
       "id": "itchio-jam-metroidvania-month-32",
@@ -10345,7 +10512,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "type": "contest",
       "dateRange": "2026-06-16",
       "location": "Online",
-      "isOnline": true
+      "isOnline": true,
+      "sourceUrl": "https://itch.io/jam/metroidvania-month-32"
     },
     {
       "id": "itchio-jam-comfy-jam-summer-2026",
@@ -10363,7 +10531,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "type": "contest",
       "dateRange": "2026-06-19",
       "location": "Online",
-      "isOnline": true
+      "isOnline": true,
+      "sourceUrl": "https://itch.io/jam/comfy-jam-summer-2026"
     },
     {
       "id": "game-dev-ddl-global-game-jam-site-registration-2026-07-01",
@@ -10382,7 +10551,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "Global Game Jam",
-      "type": "contest"
+      "type": "contest",
+      "sourceUrl": "https://globalgamejam.org"
     },
     {
       "id": "itchio-jam-toxic-yuri-vn-jam-2",
@@ -10400,7 +10570,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "type": "contest",
       "dateRange": "2026-07-13",
       "location": "Online",
-      "isOnline": true
+      "isOnline": true,
+      "sourceUrl": "https://itch.io/jam/toxic-yuri-vn-jam-2"
     },
     {
       "id": "game-dev-ddl-ludum-dare-60-2026-07-19",
@@ -10419,7 +10590,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "Ludum Dare",
-      "type": "contest"
+      "type": "contest",
+      "sourceUrl": "https://ldjam.com"
     },
     {
       "id": "itchio-jam-gmtk-jam-2026",
@@ -10437,7 +10609,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "type": "contest",
       "dateRange": "2026-07-26",
       "location": "Online",
-      "isOnline": true
+      "isOnline": true,
+      "sourceUrl": "https://itch.io/jam/gmtk-jam-2026"
     },
     {
       "id": "game-dev-ddl-gmtk-game-jam-2026-08-06",
@@ -10456,7 +10629,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "itch.io Jams",
-      "type": "contest"
+      "type": "contest",
+      "sourceUrl": "https://itch.io/jams"
     },
     {
       "id": "game-dev-ddl-itch-io-brackeys-game-jam-2026-08-24",
@@ -10475,7 +10649,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "itch.io Jams",
-      "type": "contest"
+      "type": "contest",
+      "sourceUrl": "https://itch.io/jams"
     },
     {
       "id": "itchio-jam-brackeys-16",
@@ -10493,7 +10668,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "type": "contest",
       "dateRange": "2026-08-30",
       "location": "Online",
-      "isOnline": true
+      "isOnline": true,
+      "sourceUrl": "https://itch.io/jam/brackeys-16"
     },
     {
       "id": "game-dev-ddl-independent-games-festival-submission-2026-09-11",
@@ -10512,7 +10688,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "Independent Games Festival",
-      "type": "contest"
+      "type": "contest",
+      "sourceUrl": "https://igf.com"
     },
     {
       "id": "itchio-jam-gbjam-14",
@@ -10530,7 +10707,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "type": "contest",
       "dateRange": "2026-09-21",
       "location": "Online",
-      "isOnline": true
+      "isOnline": true,
+      "sourceUrl": "https://itch.io/jam/gbjam-14"
     },
     {
       "id": "game-dev-ddl-student-game-competition-entry-2026-09-29",
@@ -10549,7 +10727,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "itch.io",
-      "type": "contest"
+      "type": "contest",
+      "sourceUrl": "https://itch.io/jams"
     },
     {
       "id": "game-dev-ddl-unreal-engine-challenge-2026-10-17",
@@ -10568,7 +10747,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "Unreal Engine",
-      "type": "contest"
+      "type": "contest",
+      "sourceUrl": "https://www.unrealengine.com"
     },
     {
       "id": "game-dev-ddl-unity-student-challenge-2026-11-04",
@@ -10587,7 +10767,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "Unity",
-      "type": "contest"
+      "type": "contest",
+      "sourceUrl": "https://unity.com"
     },
     {
       "id": "game-dev-ddl-godot-wild-jam-2026-11-22",
@@ -10606,7 +10787,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "itch.io Jams",
-      "type": "contest"
+      "type": "contest",
+      "sourceUrl": "https://itch.io/jams"
     },
     {
       "id": "game-dev-ddl-game-off-by-github-2026-12-10",
@@ -10625,7 +10807,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "GitHub Game Off",
-      "type": "contest"
+      "type": "contest",
+      "sourceUrl": "https://itch.io/jam/game-off"
     },
     {
       "id": "game-dev-ddl-a-maze-awards-submission-2026-12-28",
@@ -10644,7 +10827,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "A MAZE.",
-      "type": "contest"
+      "type": "contest",
+      "sourceUrl": "https://amaze-berlin.de"
     },
     {
       "id": "game-dev-ddl-indiecade-submission-2027-01-15",
@@ -10663,7 +10847,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "IndieCade",
-      "type": "contest"
+      "type": "contest",
+      "sourceUrl": "https://www.indiecade.com"
     },
     {
       "id": "game-dev-ddl-games-for-change-awards-2027-02-02",
@@ -10682,7 +10867,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "Games for Change",
-      "type": "contest"
+      "type": "contest",
+      "sourceUrl": "https://www.gamesforchange.org"
     },
     {
       "id": "game-dev-ddl-ai-npc-challenge-2027-02-20",
@@ -10701,7 +10887,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "itch.io",
-      "type": "contest"
+      "type": "contest",
+      "sourceUrl": "https://itch.io/jams"
     },
     {
       "id": "game-dev-ddl-procedural-generation-jam-2027-03-10",
@@ -10720,7 +10907,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "itch.io",
-      "type": "contest"
+      "type": "contest",
+      "sourceUrl": "https://itch.io/jams"
     },
     {
       "id": "game-dev-ddl-serious-games-health-track-2027-03-28",
@@ -10739,7 +10927,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
       "stage": "Source board",
       "source": "itch.io",
-      "type": "contest"
+      "type": "contest",
+      "sourceUrl": "https://itch.io/jams"
     }
   ],
   "biotech-ddl": [
@@ -10761,7 +10950,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Parsed from DrivenData health competitions listing. Deadline is read from the card end-date tooltip.",
       "stage": "Deadline",
       "source": "DrivenData Health Competitions",
-      "type": "challenge"
+      "type": "challenge",
+      "sourceUrl": "https://www.drivendata.org/competitions/66/flu-shot-learning/"
     },
     {
       "id": "dd-health-44-dengai-predicting-disease-spread",
@@ -10781,7 +10971,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "description": "Parsed from DrivenData health competitions listing. Deadline is read from the card end-date tooltip.",
       "stage": "Deadline",
       "source": "DrivenData Health Competitions",
-      "type": "challenge"
+      "type": "challenge",
+      "sourceUrl": "https://www.drivendata.org/competitions/44/dengai-predicting-disease-spread/"
     }
   ],
   "game-ddl": [
@@ -12111,88 +12302,6 @@ export const ddlData: Record<string, DDLItem[]> = {
   ],
   "civil-service-ddl": [
     {
-      "id": "civil-service-ddl-beijing-public-recruitment-2b7549c412",
-      "title": "中共北京市石景山区委党校（区行政学院、区社会主义学院）2026年公开招聘事业单位工作人员公告",
-      "deadline": "2026-05-18T16:00:00+08:00",
-      "dateRange": "报名截止：2026年5月18日 16:00",
-      "location": "北京",
-      "isOnline": true,
-      "tags": [
-        "事业单位",
-        "招聘",
-        "报名"
-      ],
-      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260509_4642649.html",
-      "status": "ended",
-      "description": "北京公开招聘公告，已解析报名截止时间。",
-      "stage": "报名截止",
-      "source": "北京市人力资源和社会保障局公开招聘",
-      "type": "program",
-      "publishedAt": "2026-05-09"
-    },
-    {
-      "id": "civil-service-ddl-beijing-public-recruitment-a60e44f9d6",
-      "title": "​北京市体育局所属事业单位2026年上半年公开招聘运动员公告",
-      "deadline": "2026-05-18T23:59:00+08:00",
-      "dateRange": "报名截止：2026年5月18日 23:59",
-      "location": "北京",
-      "isOnline": true,
-      "tags": [
-        "事业单位",
-        "招聘",
-        "报名"
-      ],
-      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260508_4640696.html",
-      "status": "ended",
-      "description": "北京公开招聘公告，已解析报名截止时间。",
-      "stage": "报名截止",
-      "source": "北京市人力资源和社会保障局公开招聘",
-      "type": "program",
-      "publishedAt": "2026-05-08"
-    },
-    {
-      "id": "civil-service-ddl-beijing-public-recruitment-783d6b6f07",
-      "title": "首都医科大学附属北京安贞医院2026年第二批面向应届毕业生（含社会人员）公开招聘公告",
-      "deadline": "2026-05-18T23:59:00+08:00",
-      "dateRange": "报名截止：2026年5月18日 23:59",
-      "location": "北京",
-      "isOnline": true,
-      "tags": [
-        "事业单位",
-        "招聘",
-        "报名",
-        "医疗"
-      ],
-      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260507_4639284.html",
-      "status": "ended",
-      "description": "北京公开招聘公告，已解析报名截止时间。",
-      "stage": "报名截止",
-      "source": "北京市人力资源和社会保障局公开招聘",
-      "type": "program",
-      "publishedAt": "2026-05-07"
-    },
-    {
-      "id": "civil-service-ddl-beijing-public-recruitment-ccea664114",
-      "title": "石景山区教育系统事业单位2026年第二次公开招聘工作人员公告",
-      "deadline": "2026-05-19T17:00:00+08:00",
-      "dateRange": "报名截止：2026年5月19日 17:00",
-      "location": "北京",
-      "isOnline": true,
-      "tags": [
-        "事业单位",
-        "招聘",
-        "报名",
-        "教师"
-      ],
-      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260509_4643573.html",
-      "status": "ended",
-      "description": "北京公开招聘公告，已解析报名截止时间。",
-      "stage": "报名截止",
-      "source": "北京市人力资源和社会保障局公开招聘",
-      "type": "program",
-      "publishedAt": "2026-05-09"
-    },
-    {
       "id": "civil-service-ddl-beijing-public-recruitment-14a8e5c312",
       "title": "北京市东城区教育委员会所属事业单位2026年第二批公开招聘公告",
       "deadline": "2026-05-27T10:00:00+08:00",
@@ -12211,7 +12320,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "报名截止",
       "source": "北京市人力资源和社会保障局公开招聘",
       "type": "program",
-      "publishedAt": "2026-05-18"
+      "publishedAt": "2026-05-18",
+      "sourceUrl": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260518_4656090.html"
     },
     {
       "id": "civil-service-ddl-beijing-public-recruitment-fb7add6215",
@@ -12232,7 +12342,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "报名截止",
       "source": "北京市人力资源和社会保障局公开招聘",
       "type": "program",
-      "publishedAt": "2026-05-18"
+      "publishedAt": "2026-05-18",
+      "sourceUrl": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260518_4655204.html"
     },
     {
       "id": "civil-service-ddl-beijing-public-recruitment-796b267fed",
@@ -12253,7 +12364,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "报名截止",
       "source": "北京市人力资源和社会保障局公开招聘",
       "type": "program",
-      "publishedAt": "2026-05-18"
+      "publishedAt": "2026-05-18",
+      "sourceUrl": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260518_4655797.html"
     },
     {
       "id": "civil-service-ddl-beijing-public-recruitment-2c84541cb0",
@@ -12273,7 +12385,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "报名截止",
       "source": "北京市人力资源和社会保障局公开招聘",
       "type": "program",
-      "publishedAt": "2026-05-18"
+      "publishedAt": "2026-05-18",
+      "sourceUrl": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260518_4655772.html"
     },
     {
       "id": "civil-service-ddl-beijing-public-recruitment-4f8f8125ab",
@@ -12293,7 +12406,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "报名截止",
       "source": "北京市人力资源和社会保障局公开招聘",
       "type": "program",
-      "publishedAt": "2026-05-18"
+      "publishedAt": "2026-05-18",
+      "sourceUrl": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260518_4655277.html"
     },
     {
       "id": "civil-service-ddl-beijing-public-recruitment-af9cc3a513",
@@ -12313,7 +12427,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "报名截止",
       "source": "北京市人力资源和社会保障局公开招聘",
       "type": "program",
-      "publishedAt": "2026-05-19"
+      "publishedAt": "2026-05-19",
+      "sourceUrl": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260519_4657708.html"
     },
     {
       "id": "civil-service-ddl-beijing-public-recruitment-5effb7edce",
@@ -12334,7 +12449,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "报名截止",
       "source": "北京市人力资源和社会保障局公开招聘",
       "type": "program",
-      "publishedAt": "2026-05-21"
+      "publishedAt": "2026-05-21",
+      "sourceUrl": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260521_4659979.html"
     },
     {
       "id": "civil-service-ddl-beijing-public-recruitment-8e7ccd9050",
@@ -12354,7 +12470,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "报名截止",
       "source": "北京市人力资源和社会保障局公开招聘",
       "type": "program",
-      "publishedAt": "2026-05-21"
+      "publishedAt": "2026-05-21",
+      "sourceUrl": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260521_4659997.html"
     },
     {
       "id": "civil-service-ddl-beijing-public-recruitment-494e7574b0",
@@ -12375,7 +12492,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "报名截止",
       "source": "北京市人力资源和社会保障局公开招聘",
       "type": "program",
-      "publishedAt": "2026-05-13"
+      "publishedAt": "2026-05-13",
+      "sourceUrl": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260513_4648579.html"
     },
     {
       "id": "civil-service-ddl-beijing-public-recruitment-acd1e4ae58",
@@ -12396,7 +12514,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "报名截止",
       "source": "北京市人力资源和社会保障局公开招聘",
       "type": "program",
-      "publishedAt": "2026-05-18"
+      "publishedAt": "2026-05-18",
+      "sourceUrl": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260518_4655221.html"
     },
     {
       "id": "civil-service-ddl-beijing-public-recruitment-ebbe1f08de",
@@ -12416,7 +12535,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "报名截止",
       "source": "北京市人力资源和社会保障局公开招聘",
       "type": "program",
-      "publishedAt": "2026-05-22"
+      "publishedAt": "2026-05-22",
+      "sourceUrl": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260522_4662600.html"
     },
     {
       "id": "civil-service-ddl-beijing-public-recruitment-24e7f535df",
@@ -12437,7 +12557,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "报名截止",
       "source": "北京市人力资源和社会保障局公开招聘",
       "type": "program",
-      "publishedAt": "2026-05-22"
+      "publishedAt": "2026-05-22",
+      "sourceUrl": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260522_4661685.html"
     },
     {
       "id": "civil-service-ddl-beijing-public-recruitment-d55ed1f135",
@@ -12457,7 +12578,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "报名截止",
       "source": "北京市人力资源和社会保障局公开招聘",
       "type": "program",
-      "publishedAt": "2026-05-22"
+      "publishedAt": "2026-05-22",
+      "sourceUrl": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260522_4661672.html"
     },
     {
       "id": "civil-service-ddl-beijing-public-recruitment-8cf8fc9697",
@@ -12478,7 +12600,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "报名截止",
       "source": "北京市人力资源和社会保障局公开招聘",
       "type": "program",
-      "publishedAt": "2026-05-21"
+      "publishedAt": "2026-05-21",
+      "sourceUrl": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260521_4659984.html"
     },
     {
       "id": "civil-service-ddl-beijing-public-recruitment-e1609b537b",
@@ -12498,7 +12621,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "报名截止",
       "source": "北京市人力资源和社会保障局公开招聘",
       "type": "program",
-      "publishedAt": "2026-05-22"
+      "publishedAt": "2026-05-22",
+      "sourceUrl": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260522_4661677.html"
     },
     {
       "id": "civil-service-ddl-beijing-public-recruitment-166c92a8c2",
@@ -12518,7 +12642,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "报名截止",
       "source": "北京市人力资源和社会保障局公开招聘",
       "type": "program",
-      "publishedAt": "2026-05-25"
+      "publishedAt": "2026-05-25",
+      "sourceUrl": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260525_4664395.html"
     },
     {
       "id": "civil-service-ddl-beijing-public-recruitment-ccfd6758eb",
@@ -12538,7 +12663,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "报名截止",
       "source": "北京市人力资源和社会保障局公开招聘",
       "type": "program",
-      "publishedAt": "2026-05-25"
+      "publishedAt": "2026-05-25",
+      "sourceUrl": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260525_4664393.html"
     },
     {
       "id": "civil-service-ddl-beijing-public-recruitment-66e0fd5ea3",
@@ -12558,7 +12684,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "报名截止",
       "source": "北京市人力资源和社会保障局公开招聘",
       "type": "program",
-      "publishedAt": "2026-05-22"
+      "publishedAt": "2026-05-22",
+      "sourceUrl": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260522_4661696.html"
     },
     {
       "id": "civil-service-ddl-beijing-public-recruitment-e1e09ba32b",
@@ -12579,7 +12706,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "报名截止",
       "source": "北京市人力资源和社会保障局公开招聘",
       "type": "program",
-      "publishedAt": "2026-05-09"
+      "publishedAt": "2026-05-09",
+      "sourceUrl": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260509_4642680.html"
     },
     {
       "id": "civil-service-ddl-national-civil-service-source-board-2026-10-15",
@@ -12599,7 +12727,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Source board",
       "source": "国家公务员局",
       "type": "program",
-      "isDatePlaceholder": true
+      "isDatePlaceholder": true,
+      "sourceUrl": "http://bm.scs.gov.cn/kl2026"
     },
     {
       "id": "civil-service-ddl-central-selection-source-board-2026-10-30",
@@ -12619,7 +12748,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Source board",
       "source": "国家公务员局",
       "type": "program",
-      "isDatePlaceholder": true
+      "isDatePlaceholder": true,
+      "sourceUrl": "http://subb.scs.gov.cn/lx2026"
     },
     {
       "id": "civil-service-ddl-beijing-public-service-source-board-2026-11-15",
@@ -12639,7 +12769,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Source board",
       "source": "北京市人事考试服务频道",
       "type": "program",
-      "isDatePlaceholder": true
+      "isDatePlaceholder": true,
+      "sourceUrl": "https://rsj.beijing.gov.cn/ywsite/bjpta/"
     },
     {
       "id": "civil-service-ddl-guangdong-public-service-source-board-2026-11-30",
@@ -12659,7 +12790,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Source board",
       "source": "广东人事考试网",
       "type": "program",
-      "isDatePlaceholder": true
+      "isDatePlaceholder": true,
+      "sourceUrl": "https://rsks.gd.gov.cn/"
     },
     {
       "id": "civil-service-ddl-public-institution-source-board-2026-12-15",
@@ -12679,7 +12811,8 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Source board",
       "source": "中国公共招聘网",
       "type": "program",
-      "isDatePlaceholder": true
+      "isDatePlaceholder": true,
+      "sourceUrl": "https://chinajob.mohrss.gov.cn/"
     },
     {
       "id": "civil-service-ddl-shaanxi-public-service-source-board-2026-12-31",
@@ -12699,139 +12832,14 @@ export const ddlData: Record<string, DDLItem[]> = {
       "stage": "Source board",
       "source": "陕西人事考试网",
       "type": "program",
-      "isDatePlaceholder": true
+      "isDatePlaceholder": true,
+      "sourceUrl": "https://www.sxrsks.cn/"
     },
     {
-      "id": "civil-service-ddl-beijing-public-recruitment-8162cde1bf",
-      "title": "2026年丰台区卫生健康委直属事业单位第二批公开招聘医疗卫生专业工作人员公告",
-      "deadline": "2026-05-13T16:00:00+08:00",
-      "dateRange": "报名截止：2026年5月13日 16:00",
-      "location": "北京",
-      "isOnline": true,
-      "tags": [
-        "事业单位",
-        "招聘",
-        "报名",
-        "医疗"
-      ],
-      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202604/t20260429_4622415.html",
-      "status": "ended",
-      "description": "北京公开招聘公告，已解析报名截止时间。",
-      "stage": "报名截止",
-      "source": "北京市人力资源和社会保障局公开招聘",
-      "type": "program",
-      "publishedAt": "2026-04-29"
-    },
-    {
-      "id": "civil-service-ddl-beijing-public-recruitment-006d73fb67",
-      "title": "房山区燕山教育委员会所属事业单位2026年第二批公开招聘教师的公告",
-      "deadline": "2026-05-14T15:00:00+08:00",
-      "dateRange": "报名截止：2026年5月14日 15:00",
-      "location": "北京",
-      "isOnline": true,
-      "tags": [
-        "事业单位",
-        "招聘",
-        "报名",
-        "教师"
-      ],
-      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260507_4639213.html",
-      "status": "ended",
-      "description": "北京公开招聘公告，已解析报名截止时间。",
-      "stage": "报名截止",
-      "source": "北京市人力资源和社会保障局公开招聘",
-      "type": "program",
-      "publishedAt": "2026-05-07"
-    },
-    {
-      "id": "civil-service-ddl-beijing-public-recruitment-3c6abc993a",
-      "title": "北京市卫生健康委员会直属事业单位2026年公开招聘工作人员公告",
-      "deadline": "2026-05-14T16:00:00+08:00",
-      "dateRange": "报名截止：2026年5月14日 16:00",
-      "location": "北京",
-      "isOnline": true,
-      "tags": [
-        "事业单位",
-        "招聘",
-        "报名",
-        "医疗"
-      ],
-      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202604/t20260430_4625871.html",
-      "status": "ended",
-      "description": "北京公开招聘公告，已解析报名截止时间。",
-      "stage": "报名截止",
-      "source": "北京市人力资源和社会保障局公开招聘",
-      "type": "program",
-      "publishedAt": "2026-04-30"
-    },
-    {
-      "id": "civil-service-ddl-beijing-public-recruitment-a8e0362052",
-      "title": "北京市大兴区卫生健康委员会2026年第二批事业单位公开招聘工作人员公告",
-      "deadline": "2026-05-14T17:00:00+08:00",
-      "dateRange": "报名截止：2026年5月14日 17:00",
-      "location": "北京",
-      "isOnline": true,
-      "tags": [
-        "事业单位",
-        "招聘",
-        "报名",
-        "医疗"
-      ],
-      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260506_4636745.html",
-      "status": "ended",
-      "description": "北京公开招聘公告，已解析报名截止时间。",
-      "stage": "报名截止",
-      "source": "北京市人力资源和社会保障局公开招聘",
-      "type": "program",
-      "publishedAt": "2026-05-06"
-    },
-    {
-      "id": "civil-service-ddl-beijing-public-recruitment-98c8f37664",
-      "title": "石景山区教育系统事业单位2026年第二次面向应届博士毕业生公开招聘公告",
-      "deadline": "2026-05-14T17:00:00+08:00",
-      "dateRange": "报名截止：2026年5月14日 17:00",
-      "location": "北京",
-      "isOnline": true,
-      "tags": [
-        "事业单位",
-        "招聘",
-        "报名",
-        "教师"
-      ],
-      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260506_4637818.html",
-      "status": "ended",
-      "description": "北京公开招聘公告，已解析报名截止时间。",
-      "stage": "报名截止",
-      "source": "北京市人力资源和社会保障局公开招聘",
-      "type": "program",
-      "publishedAt": "2026-05-06"
-    },
-    {
-      "id": "civil-service-ddl-beijing-public-recruitment-cb5b2154a3",
-      "title": "首都医科大学附属北京口腔医院2026年公开招聘（第三批）公告",
-      "deadline": "2026-05-15T23:59:00+08:00",
-      "dateRange": "报名截止：2026年5月15日 23:59",
-      "location": "北京",
-      "isOnline": true,
-      "tags": [
-        "事业单位",
-        "招聘",
-        "报名",
-        "医疗"
-      ],
-      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202604/t20260430_4625873.html",
-      "status": "ended",
-      "description": "北京公开招聘公告，已解析报名截止时间。",
-      "stage": "报名截止",
-      "source": "北京市人力资源和社会保障局公开招聘",
-      "type": "program",
-      "publishedAt": "2026-04-30"
-    },
-    {
-      "id": "civil-service-ddl-beijing-public-recruitment-abcafd562f",
-      "title": "北京财贸职业学院2026年公开招聘公告（第二批）",
-      "deadline": "2026-05-17T16:00:00+08:00",
-      "dateRange": "报名截止：2026年5月17日 16:00",
+      "id": "civil-service-ddl-beijing-public-recruitment-2b7549c412",
+      "title": "中共北京市石景山区委党校（区行政学院、区社会主义学院）2026年公开招聘事业单位工作人员公告",
+      "deadline": "2026-05-18T16:00:00+08:00",
+      "dateRange": "报名截止：2026年5月18日 16:00",
       "location": "北京",
       "isOnline": true,
       "tags": [
@@ -12839,19 +12847,41 @@ export const ddlData: Record<string, DDLItem[]> = {
         "招聘",
         "报名"
       ],
-      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202604/t20260430_4625674.html",
+      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260509_4642649.html",
       "status": "ended",
       "description": "北京公开招聘公告，已解析报名截止时间。",
       "stage": "报名截止",
       "source": "北京市人力资源和社会保障局公开招聘",
       "type": "program",
-      "publishedAt": "2026-04-30"
+      "publishedAt": "2026-05-09",
+      "sourceUrl": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260509_4642649.html"
     },
     {
-      "id": "civil-service-ddl-beijing-public-recruitment-c956b6dcbc",
-      "title": "首都医科大学2026年度事业编制岗位公开招聘公告（第二批）",
-      "deadline": "2026-05-17T22:00:00+08:00",
-      "dateRange": "报名截止：2026年5月17日 22:00",
+      "id": "civil-service-ddl-beijing-public-recruitment-a60e44f9d6",
+      "title": "​北京市体育局所属事业单位2026年上半年公开招聘运动员公告",
+      "deadline": "2026-05-18T23:59:00+08:00",
+      "dateRange": "报名截止：2026年5月18日 23:59",
+      "location": "北京",
+      "isOnline": true,
+      "tags": [
+        "事业单位",
+        "招聘",
+        "报名"
+      ],
+      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260508_4640696.html",
+      "status": "ended",
+      "description": "北京公开招聘公告，已解析报名截止时间。",
+      "stage": "报名截止",
+      "source": "北京市人力资源和社会保障局公开招聘",
+      "type": "program",
+      "publishedAt": "2026-05-08",
+      "sourceUrl": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260508_4640696.html"
+    },
+    {
+      "id": "civil-service-ddl-beijing-public-recruitment-783d6b6f07",
+      "title": "首都医科大学附属北京安贞医院2026年第二批面向应届毕业生（含社会人员）公开招聘公告",
+      "deadline": "2026-05-18T23:59:00+08:00",
+      "dateRange": "报名截止：2026年5月18日 23:59",
       "location": "北京",
       "isOnline": true,
       "tags": [
@@ -12860,13 +12890,36 @@ export const ddlData: Record<string, DDLItem[]> = {
         "报名",
         "医疗"
       ],
-      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202604/t20260430_4625644.html",
+      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260507_4639284.html",
       "status": "ended",
       "description": "北京公开招聘公告，已解析报名截止时间。",
       "stage": "报名截止",
       "source": "北京市人力资源和社会保障局公开招聘",
       "type": "program",
-      "publishedAt": "2026-04-30"
+      "publishedAt": "2026-05-07",
+      "sourceUrl": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260507_4639284.html"
+    },
+    {
+      "id": "civil-service-ddl-beijing-public-recruitment-ccea664114",
+      "title": "石景山区教育系统事业单位2026年第二次公开招聘工作人员公告",
+      "deadline": "2026-05-19T17:00:00+08:00",
+      "dateRange": "报名截止：2026年5月19日 17:00",
+      "location": "北京",
+      "isOnline": true,
+      "tags": [
+        "事业单位",
+        "招聘",
+        "报名",
+        "教师"
+      ],
+      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260509_4643573.html",
+      "status": "ended",
+      "description": "北京公开招聘公告，已解析报名截止时间。",
+      "stage": "报名截止",
+      "source": "北京市人力资源和社会保障局公开招聘",
+      "type": "program",
+      "publishedAt": "2026-05-09",
+      "sourceUrl": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260509_4643573.html"
     }
   ],
   "game-version-ddl": [

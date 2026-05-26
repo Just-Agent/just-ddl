@@ -17,7 +17,8 @@ export const ddlForHackathonDdl: DDLItem[] = [
     "stage": "Event start",
     "source": "人工整理的官方来源入口",
     "type": "hackathon",
-    "description": "MLH 系列活动入口，适合专题按周滚动展示。"
+    "description": "MLH 系列活动入口，适合专题按周滚动展示。",
+    "sourceUrl": "https://mlh.io/seasons"
   },
   {
     "id": "hackathon-ddl-devpost-ai-builders-challenge-2026-08-18",
@@ -36,7 +37,8 @@ export const ddlForHackathonDdl: DDLItem[] = [
     "source": "人工整理的官方来源入口",
     "type": "hackathon",
     "description": "Devpost AI 应用类比赛 官方来源入口，后续将按官方页面持续补充官方详情。",
-    "prize": "$25,000+"
+    "prize": "$25,000+",
+    "sourceUrl": "https://devpost.com/hackathons"
   },
   {
     "id": "hackathon-ddl-pennapps-2026-fall-2026-08-25",
@@ -54,7 +56,8 @@ export const ddlForHackathonDdl: DDLItem[] = [
     "stage": "Application",
     "source": "官方来源入口",
     "type": "hackathon",
-    "description": "高校黑客松 官方来源入口，用于补足北美校园赛历。"
+    "description": "高校黑客松 官方来源入口，用于补足北美校园赛历。",
+    "sourceUrl": "https://pennapps.com"
   },
   {
     "id": "hackathon-ddl-hack-the-north-2026-2026-09-01",
@@ -74,7 +77,8 @@ export const ddlForHackathonDdl: DDLItem[] = [
     "source": "Official site",
     "type": "hackathon",
     "description": "大型校园黑客松，追踪报名、确认、项目提交和 Demo Day 节点。",
-    "prize": "$50,000+"
+    "prize": "$50,000+",
+    "sourceUrl": "https://hackthenorth.com"
   },
   {
     "id": "hackathon-ddl-hackzurich-2026-2026-09-11",
@@ -92,7 +96,8 @@ export const ddlForHackathonDdl: DDLItem[] = [
     "stage": "Application",
     "source": "人工整理的官方来源入口",
     "type": "hackathon",
-    "description": "欧洲大型企业/创新黑客松入口。"
+    "description": "欧洲大型企业/创新黑客松入口。",
+    "sourceUrl": "https://hackzurich.com"
   },
   {
     "id": "hackathon-ddl-hackmit-2026-2026-09-15",
@@ -111,7 +116,8 @@ export const ddlForHackathonDdl: DDLItem[] = [
     "source": "人工整理的官方来源入口",
     "type": "hackathon",
     "description": "校园线下黑客松入口，等待官方申请时间校验。",
-    "prize": "$40,000+"
+    "prize": "$40,000+",
+    "sourceUrl": "https://hackmit.org"
   },
   {
     "id": "hackathon-ddl-hackharvard-2026-2026-09-20",
@@ -129,7 +135,8 @@ export const ddlForHackathonDdl: DDLItem[] = [
     "stage": "Application",
     "source": "人工整理的官方来源入口",
     "type": "hackathon",
-    "description": "哈佛校园黑客松入口。"
+    "description": "哈佛校园黑客松入口。",
+    "sourceUrl": "https://hackharvard.io"
   },
   {
     "id": "hackathon-ddl-hackprinceton-2026-fall-2026-10-01",
@@ -147,7 +154,8 @@ export const ddlForHackathonDdl: DDLItem[] = [
     "stage": "Application",
     "source": "人工整理的官方来源入口",
     "type": "hackathon",
-    "description": "普林斯顿校园黑客松入口。"
+    "description": "普林斯顿校园黑客松入口。",
+    "sourceUrl": "https://hackprinceton.com"
   },
   {
     "id": "hackathon-ddl-nasa-space-apps-challenge-2026-2026-10-01",
@@ -165,7 +173,8 @@ export const ddlForHackathonDdl: DDLItem[] = [
     "stage": "Local event",
     "source": "Official site",
     "type": "hackathon",
-    "description": "全球开放数据与空间科学挑战入口。"
+    "description": "全球开放数据与空间科学挑战入口。",
+    "sourceUrl": "https://www.spaceappschallenge.org/"
   },
   {
     "id": "hackathon-ddl-la-hacks-2026-2026-10-05",
@@ -183,7 +192,8 @@ export const ddlForHackathonDdl: DDLItem[] = [
     "stage": "Registration",
     "source": "人工整理的官方来源入口",
     "type": "hackathon",
-    "description": "UCLA 黑客松入口。"
+    "description": "UCLA 黑客松入口。",
+    "sourceUrl": "https://lahacks.com"
   },
   {
     "id": "hackathon-ddl-ethglobal-new-york-2026-2026-10-10",
@@ -203,7 +213,8 @@ export const ddlForHackathonDdl: DDLItem[] = [
     "source": "ETHGlobal events board",
     "type": "hackathon",
     "description": "Web3 生态黑客松入口，后续将按官方页面对齐具体城市站详情页。",
-    "prize": "$150,000+"
+    "prize": "$150,000+",
+    "sourceUrl": "https://ethglobal.com/events"
   },
   {
     "id": "hackathon-ddl-hackupc-2026-2026-10-18",
@@ -221,7 +232,8 @@ export const ddlForHackathonDdl: DDLItem[] = [
     "stage": "Registration",
     "source": "人工整理的官方来源入口",
     "type": "hackathon",
-    "description": "欧洲学生黑客松 官方来源入口。"
+    "description": "欧洲学生黑客松 官方来源入口。",
+    "sourceUrl": "https://hackupc.com"
   },
   {
     "id": "hackathon-ddl-cal-hacks-2026-2026-10-24",
@@ -240,7 +252,8 @@ export const ddlForHackathonDdl: DDLItem[] = [
     "source": "人工整理的官方来源入口",
     "type": "hackathon",
     "description": "美国西海岸高校黑客松 官方来源入口。",
-    "prize": "$30,000+"
+    "prize": "$30,000+",
+    "sourceUrl": "https://calhacks.io"
   },
   {
     "id": "hackathon-ddl-junction-2026-2026-11-06",
@@ -258,7 +271,8 @@ export const ddlForHackathonDdl: DDLItem[] = [
     "stage": "Application",
     "source": "人工整理的官方来源入口",
     "type": "hackathon",
-    "description": "欧洲综合创新黑客松入口。"
+    "description": "欧洲综合创新黑客松入口。",
+    "sourceUrl": "https://www.hackjunction.com"
   },
   {
     "id": "hackathon-ddl-dorahacks-open-innovation-sprint-2026-11-15",
@@ -277,7 +291,8 @@ export const ddlForHackathonDdl: DDLItem[] = [
     "source": "人工整理的官方来源入口",
     "type": "hackathon",
     "description": "开源赏金与项目提交通道 官方来源入口。",
-    "prize": "$80,000+"
+    "prize": "$80,000+",
+    "sourceUrl": "https://dorahacks.io"
   },
   {
     "id": "hackathon-ddl-treehacks-2027-2026-11-15",
@@ -296,7 +311,8 @@ export const ddlForHackathonDdl: DDLItem[] = [
     "source": "人工整理的官方来源入口",
     "type": "hackathon",
     "description": "斯坦福黑客松入口，后续由官方页面校准。",
-    "prize": "$35,000+"
+    "prize": "$35,000+",
+    "sourceUrl": "https://treehacks.com"
   },
   {
     "id": "hackathon-ddl-nwhacks-2027-2026-12-10",
@@ -315,7 +331,8 @@ export const ddlForHackathonDdl: DDLItem[] = [
     "source": "人工整理的官方来源入口",
     "type": "hackathon",
     "description": "加拿大西海岸校园黑客松入口。",
-    "prize": "$28,000+"
+    "prize": "$28,000+",
+    "sourceUrl": "https://nwhacks.io"
   },
   {
     "id": "hackathon-ddl-hack-cambridge-2027-2026-12-20",
@@ -333,6 +350,7 @@ export const ddlForHackathonDdl: DDLItem[] = [
     "stage": "Registration",
     "source": "人工整理的官方来源入口",
     "type": "hackathon",
-    "description": "英国高校黑客松入口。"
+    "description": "英国高校黑客松入口。",
+    "sourceUrl": "https://hackcambridge.com"
   }
 ];

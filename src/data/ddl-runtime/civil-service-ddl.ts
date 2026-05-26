@@ -2,88 +2,6 @@ import type { DDLItem } from '../ddl-data';
 
 export const ddlForCivilServiceDdl: DDLItem[] = [
   {
-    "id": "civil-service-ddl-beijing-public-recruitment-2b7549c412",
-    "title": "中共北京市石景山区委党校（区行政学院、区社会主义学院）2026年公开招聘事业单位工作人员公告",
-    "deadline": "2026-05-18T16:00:00+08:00",
-    "dateRange": "报名截止：2026年5月18日 16:00",
-    "location": "北京",
-    "isOnline": true,
-    "tags": [
-      "事业单位",
-      "招聘",
-      "报名"
-    ],
-    "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260509_4642649.html",
-    "status": "ended",
-    "description": "北京公开招聘公告，已解析报名截止时间。",
-    "stage": "报名截止",
-    "source": "北京市人力资源和社会保障局公开招聘",
-    "type": "program",
-    "publishedAt": "2026-05-09"
-  },
-  {
-    "id": "civil-service-ddl-beijing-public-recruitment-a60e44f9d6",
-    "title": "​北京市体育局所属事业单位2026年上半年公开招聘运动员公告",
-    "deadline": "2026-05-18T23:59:00+08:00",
-    "dateRange": "报名截止：2026年5月18日 23:59",
-    "location": "北京",
-    "isOnline": true,
-    "tags": [
-      "事业单位",
-      "招聘",
-      "报名"
-    ],
-    "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260508_4640696.html",
-    "status": "ended",
-    "description": "北京公开招聘公告，已解析报名截止时间。",
-    "stage": "报名截止",
-    "source": "北京市人力资源和社会保障局公开招聘",
-    "type": "program",
-    "publishedAt": "2026-05-08"
-  },
-  {
-    "id": "civil-service-ddl-beijing-public-recruitment-783d6b6f07",
-    "title": "首都医科大学附属北京安贞医院2026年第二批面向应届毕业生（含社会人员）公开招聘公告",
-    "deadline": "2026-05-18T23:59:00+08:00",
-    "dateRange": "报名截止：2026年5月18日 23:59",
-    "location": "北京",
-    "isOnline": true,
-    "tags": [
-      "事业单位",
-      "招聘",
-      "报名",
-      "医疗"
-    ],
-    "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260507_4639284.html",
-    "status": "ended",
-    "description": "北京公开招聘公告，已解析报名截止时间。",
-    "stage": "报名截止",
-    "source": "北京市人力资源和社会保障局公开招聘",
-    "type": "program",
-    "publishedAt": "2026-05-07"
-  },
-  {
-    "id": "civil-service-ddl-beijing-public-recruitment-ccea664114",
-    "title": "石景山区教育系统事业单位2026年第二次公开招聘工作人员公告",
-    "deadline": "2026-05-19T17:00:00+08:00",
-    "dateRange": "报名截止：2026年5月19日 17:00",
-    "location": "北京",
-    "isOnline": true,
-    "tags": [
-      "事业单位",
-      "招聘",
-      "报名",
-      "教师"
-    ],
-    "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260509_4643573.html",
-    "status": "ended",
-    "description": "北京公开招聘公告，已解析报名截止时间。",
-    "stage": "报名截止",
-    "source": "北京市人力资源和社会保障局公开招聘",
-    "type": "program",
-    "publishedAt": "2026-05-09"
-  },
-  {
     "id": "civil-service-ddl-beijing-public-recruitment-14a8e5c312",
     "title": "北京市东城区教育委员会所属事业单位2026年第二批公开招聘公告",
     "deadline": "2026-05-27T10:00:00+08:00",
@@ -102,7 +20,8 @@ export const ddlForCivilServiceDdl: DDLItem[] = [
     "stage": "报名截止",
     "source": "北京市人力资源和社会保障局公开招聘",
     "type": "program",
-    "publishedAt": "2026-05-18"
+    "publishedAt": "2026-05-18",
+    "sourceUrl": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260518_4656090.html"
   },
   {
     "id": "civil-service-ddl-beijing-public-recruitment-fb7add6215",
@@ -123,7 +42,8 @@ export const ddlForCivilServiceDdl: DDLItem[] = [
     "stage": "报名截止",
     "source": "北京市人力资源和社会保障局公开招聘",
     "type": "program",
-    "publishedAt": "2026-05-18"
+    "publishedAt": "2026-05-18",
+    "sourceUrl": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260518_4655204.html"
   },
   {
     "id": "civil-service-ddl-beijing-public-recruitment-796b267fed",
@@ -144,7 +64,8 @@ export const ddlForCivilServiceDdl: DDLItem[] = [
     "stage": "报名截止",
     "source": "北京市人力资源和社会保障局公开招聘",
     "type": "program",
-    "publishedAt": "2026-05-18"
+    "publishedAt": "2026-05-18",
+    "sourceUrl": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260518_4655797.html"
   },
   {
     "id": "civil-service-ddl-beijing-public-recruitment-2c84541cb0",
@@ -164,7 +85,8 @@ export const ddlForCivilServiceDdl: DDLItem[] = [
     "stage": "报名截止",
     "source": "北京市人力资源和社会保障局公开招聘",
     "type": "program",
-    "publishedAt": "2026-05-18"
+    "publishedAt": "2026-05-18",
+    "sourceUrl": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260518_4655772.html"
   },
   {
     "id": "civil-service-ddl-beijing-public-recruitment-4f8f8125ab",
@@ -184,7 +106,8 @@ export const ddlForCivilServiceDdl: DDLItem[] = [
     "stage": "报名截止",
     "source": "北京市人力资源和社会保障局公开招聘",
     "type": "program",
-    "publishedAt": "2026-05-18"
+    "publishedAt": "2026-05-18",
+    "sourceUrl": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260518_4655277.html"
   },
   {
     "id": "civil-service-ddl-beijing-public-recruitment-af9cc3a513",
@@ -204,7 +127,8 @@ export const ddlForCivilServiceDdl: DDLItem[] = [
     "stage": "报名截止",
     "source": "北京市人力资源和社会保障局公开招聘",
     "type": "program",
-    "publishedAt": "2026-05-19"
+    "publishedAt": "2026-05-19",
+    "sourceUrl": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260519_4657708.html"
   },
   {
     "id": "civil-service-ddl-beijing-public-recruitment-5effb7edce",
@@ -225,7 +149,8 @@ export const ddlForCivilServiceDdl: DDLItem[] = [
     "stage": "报名截止",
     "source": "北京市人力资源和社会保障局公开招聘",
     "type": "program",
-    "publishedAt": "2026-05-21"
+    "publishedAt": "2026-05-21",
+    "sourceUrl": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260521_4659979.html"
   },
   {
     "id": "civil-service-ddl-beijing-public-recruitment-8e7ccd9050",
@@ -245,7 +170,8 @@ export const ddlForCivilServiceDdl: DDLItem[] = [
     "stage": "报名截止",
     "source": "北京市人力资源和社会保障局公开招聘",
     "type": "program",
-    "publishedAt": "2026-05-21"
+    "publishedAt": "2026-05-21",
+    "sourceUrl": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260521_4659997.html"
   },
   {
     "id": "civil-service-ddl-beijing-public-recruitment-494e7574b0",
@@ -266,7 +192,8 @@ export const ddlForCivilServiceDdl: DDLItem[] = [
     "stage": "报名截止",
     "source": "北京市人力资源和社会保障局公开招聘",
     "type": "program",
-    "publishedAt": "2026-05-13"
+    "publishedAt": "2026-05-13",
+    "sourceUrl": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260513_4648579.html"
   },
   {
     "id": "civil-service-ddl-beijing-public-recruitment-acd1e4ae58",
@@ -287,7 +214,8 @@ export const ddlForCivilServiceDdl: DDLItem[] = [
     "stage": "报名截止",
     "source": "北京市人力资源和社会保障局公开招聘",
     "type": "program",
-    "publishedAt": "2026-05-18"
+    "publishedAt": "2026-05-18",
+    "sourceUrl": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260518_4655221.html"
   },
   {
     "id": "civil-service-ddl-beijing-public-recruitment-ebbe1f08de",
@@ -307,7 +235,8 @@ export const ddlForCivilServiceDdl: DDLItem[] = [
     "stage": "报名截止",
     "source": "北京市人力资源和社会保障局公开招聘",
     "type": "program",
-    "publishedAt": "2026-05-22"
+    "publishedAt": "2026-05-22",
+    "sourceUrl": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260522_4662600.html"
   },
   {
     "id": "civil-service-ddl-beijing-public-recruitment-24e7f535df",
@@ -328,7 +257,8 @@ export const ddlForCivilServiceDdl: DDLItem[] = [
     "stage": "报名截止",
     "source": "北京市人力资源和社会保障局公开招聘",
     "type": "program",
-    "publishedAt": "2026-05-22"
+    "publishedAt": "2026-05-22",
+    "sourceUrl": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260522_4661685.html"
   },
   {
     "id": "civil-service-ddl-beijing-public-recruitment-d55ed1f135",
@@ -348,7 +278,8 @@ export const ddlForCivilServiceDdl: DDLItem[] = [
     "stage": "报名截止",
     "source": "北京市人力资源和社会保障局公开招聘",
     "type": "program",
-    "publishedAt": "2026-05-22"
+    "publishedAt": "2026-05-22",
+    "sourceUrl": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260522_4661672.html"
   },
   {
     "id": "civil-service-ddl-beijing-public-recruitment-8cf8fc9697",
@@ -369,7 +300,8 @@ export const ddlForCivilServiceDdl: DDLItem[] = [
     "stage": "报名截止",
     "source": "北京市人力资源和社会保障局公开招聘",
     "type": "program",
-    "publishedAt": "2026-05-21"
+    "publishedAt": "2026-05-21",
+    "sourceUrl": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260521_4659984.html"
   },
   {
     "id": "civil-service-ddl-beijing-public-recruitment-e1609b537b",
@@ -389,7 +321,8 @@ export const ddlForCivilServiceDdl: DDLItem[] = [
     "stage": "报名截止",
     "source": "北京市人力资源和社会保障局公开招聘",
     "type": "program",
-    "publishedAt": "2026-05-22"
+    "publishedAt": "2026-05-22",
+    "sourceUrl": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260522_4661677.html"
   },
   {
     "id": "civil-service-ddl-beijing-public-recruitment-166c92a8c2",
@@ -409,7 +342,8 @@ export const ddlForCivilServiceDdl: DDLItem[] = [
     "stage": "报名截止",
     "source": "北京市人力资源和社会保障局公开招聘",
     "type": "program",
-    "publishedAt": "2026-05-25"
+    "publishedAt": "2026-05-25",
+    "sourceUrl": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260525_4664395.html"
   },
   {
     "id": "civil-service-ddl-beijing-public-recruitment-ccfd6758eb",
@@ -429,7 +363,8 @@ export const ddlForCivilServiceDdl: DDLItem[] = [
     "stage": "报名截止",
     "source": "北京市人力资源和社会保障局公开招聘",
     "type": "program",
-    "publishedAt": "2026-05-25"
+    "publishedAt": "2026-05-25",
+    "sourceUrl": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260525_4664393.html"
   },
   {
     "id": "civil-service-ddl-beijing-public-recruitment-66e0fd5ea3",
@@ -449,7 +384,8 @@ export const ddlForCivilServiceDdl: DDLItem[] = [
     "stage": "报名截止",
     "source": "北京市人力资源和社会保障局公开招聘",
     "type": "program",
-    "publishedAt": "2026-05-22"
+    "publishedAt": "2026-05-22",
+    "sourceUrl": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260522_4661696.html"
   },
   {
     "id": "civil-service-ddl-beijing-public-recruitment-e1e09ba32b",
@@ -470,7 +406,8 @@ export const ddlForCivilServiceDdl: DDLItem[] = [
     "stage": "报名截止",
     "source": "北京市人力资源和社会保障局公开招聘",
     "type": "program",
-    "publishedAt": "2026-05-09"
+    "publishedAt": "2026-05-09",
+    "sourceUrl": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260509_4642680.html"
   },
   {
     "id": "civil-service-ddl-national-civil-service-source-board-2026-10-15",
@@ -490,7 +427,8 @@ export const ddlForCivilServiceDdl: DDLItem[] = [
     "stage": "Source board",
     "source": "国家公务员局",
     "type": "program",
-    "isDatePlaceholder": true
+    "isDatePlaceholder": true,
+    "sourceUrl": "http://bm.scs.gov.cn/kl2026"
   },
   {
     "id": "civil-service-ddl-central-selection-source-board-2026-10-30",
@@ -510,7 +448,8 @@ export const ddlForCivilServiceDdl: DDLItem[] = [
     "stage": "Source board",
     "source": "国家公务员局",
     "type": "program",
-    "isDatePlaceholder": true
+    "isDatePlaceholder": true,
+    "sourceUrl": "http://subb.scs.gov.cn/lx2026"
   },
   {
     "id": "civil-service-ddl-beijing-public-service-source-board-2026-11-15",
@@ -530,7 +469,8 @@ export const ddlForCivilServiceDdl: DDLItem[] = [
     "stage": "Source board",
     "source": "北京市人事考试服务频道",
     "type": "program",
-    "isDatePlaceholder": true
+    "isDatePlaceholder": true,
+    "sourceUrl": "https://rsj.beijing.gov.cn/ywsite/bjpta/"
   },
   {
     "id": "civil-service-ddl-guangdong-public-service-source-board-2026-11-30",
@@ -550,7 +490,8 @@ export const ddlForCivilServiceDdl: DDLItem[] = [
     "stage": "Source board",
     "source": "广东人事考试网",
     "type": "program",
-    "isDatePlaceholder": true
+    "isDatePlaceholder": true,
+    "sourceUrl": "https://rsks.gd.gov.cn/"
   },
   {
     "id": "civil-service-ddl-public-institution-source-board-2026-12-15",
@@ -570,7 +511,8 @@ export const ddlForCivilServiceDdl: DDLItem[] = [
     "stage": "Source board",
     "source": "中国公共招聘网",
     "type": "program",
-    "isDatePlaceholder": true
+    "isDatePlaceholder": true,
+    "sourceUrl": "https://chinajob.mohrss.gov.cn/"
   },
   {
     "id": "civil-service-ddl-shaanxi-public-service-source-board-2026-12-31",
@@ -590,139 +532,14 @@ export const ddlForCivilServiceDdl: DDLItem[] = [
     "stage": "Source board",
     "source": "陕西人事考试网",
     "type": "program",
-    "isDatePlaceholder": true
+    "isDatePlaceholder": true,
+    "sourceUrl": "https://www.sxrsks.cn/"
   },
   {
-    "id": "civil-service-ddl-beijing-public-recruitment-8162cde1bf",
-    "title": "2026年丰台区卫生健康委直属事业单位第二批公开招聘医疗卫生专业工作人员公告",
-    "deadline": "2026-05-13T16:00:00+08:00",
-    "dateRange": "报名截止：2026年5月13日 16:00",
-    "location": "北京",
-    "isOnline": true,
-    "tags": [
-      "事业单位",
-      "招聘",
-      "报名",
-      "医疗"
-    ],
-    "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202604/t20260429_4622415.html",
-    "status": "ended",
-    "description": "北京公开招聘公告，已解析报名截止时间。",
-    "stage": "报名截止",
-    "source": "北京市人力资源和社会保障局公开招聘",
-    "type": "program",
-    "publishedAt": "2026-04-29"
-  },
-  {
-    "id": "civil-service-ddl-beijing-public-recruitment-006d73fb67",
-    "title": "房山区燕山教育委员会所属事业单位2026年第二批公开招聘教师的公告",
-    "deadline": "2026-05-14T15:00:00+08:00",
-    "dateRange": "报名截止：2026年5月14日 15:00",
-    "location": "北京",
-    "isOnline": true,
-    "tags": [
-      "事业单位",
-      "招聘",
-      "报名",
-      "教师"
-    ],
-    "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260507_4639213.html",
-    "status": "ended",
-    "description": "北京公开招聘公告，已解析报名截止时间。",
-    "stage": "报名截止",
-    "source": "北京市人力资源和社会保障局公开招聘",
-    "type": "program",
-    "publishedAt": "2026-05-07"
-  },
-  {
-    "id": "civil-service-ddl-beijing-public-recruitment-3c6abc993a",
-    "title": "北京市卫生健康委员会直属事业单位2026年公开招聘工作人员公告",
-    "deadline": "2026-05-14T16:00:00+08:00",
-    "dateRange": "报名截止：2026年5月14日 16:00",
-    "location": "北京",
-    "isOnline": true,
-    "tags": [
-      "事业单位",
-      "招聘",
-      "报名",
-      "医疗"
-    ],
-    "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202604/t20260430_4625871.html",
-    "status": "ended",
-    "description": "北京公开招聘公告，已解析报名截止时间。",
-    "stage": "报名截止",
-    "source": "北京市人力资源和社会保障局公开招聘",
-    "type": "program",
-    "publishedAt": "2026-04-30"
-  },
-  {
-    "id": "civil-service-ddl-beijing-public-recruitment-a8e0362052",
-    "title": "北京市大兴区卫生健康委员会2026年第二批事业单位公开招聘工作人员公告",
-    "deadline": "2026-05-14T17:00:00+08:00",
-    "dateRange": "报名截止：2026年5月14日 17:00",
-    "location": "北京",
-    "isOnline": true,
-    "tags": [
-      "事业单位",
-      "招聘",
-      "报名",
-      "医疗"
-    ],
-    "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260506_4636745.html",
-    "status": "ended",
-    "description": "北京公开招聘公告，已解析报名截止时间。",
-    "stage": "报名截止",
-    "source": "北京市人力资源和社会保障局公开招聘",
-    "type": "program",
-    "publishedAt": "2026-05-06"
-  },
-  {
-    "id": "civil-service-ddl-beijing-public-recruitment-98c8f37664",
-    "title": "石景山区教育系统事业单位2026年第二次面向应届博士毕业生公开招聘公告",
-    "deadline": "2026-05-14T17:00:00+08:00",
-    "dateRange": "报名截止：2026年5月14日 17:00",
-    "location": "北京",
-    "isOnline": true,
-    "tags": [
-      "事业单位",
-      "招聘",
-      "报名",
-      "教师"
-    ],
-    "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260506_4637818.html",
-    "status": "ended",
-    "description": "北京公开招聘公告，已解析报名截止时间。",
-    "stage": "报名截止",
-    "source": "北京市人力资源和社会保障局公开招聘",
-    "type": "program",
-    "publishedAt": "2026-05-06"
-  },
-  {
-    "id": "civil-service-ddl-beijing-public-recruitment-cb5b2154a3",
-    "title": "首都医科大学附属北京口腔医院2026年公开招聘（第三批）公告",
-    "deadline": "2026-05-15T23:59:00+08:00",
-    "dateRange": "报名截止：2026年5月15日 23:59",
-    "location": "北京",
-    "isOnline": true,
-    "tags": [
-      "事业单位",
-      "招聘",
-      "报名",
-      "医疗"
-    ],
-    "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202604/t20260430_4625873.html",
-    "status": "ended",
-    "description": "北京公开招聘公告，已解析报名截止时间。",
-    "stage": "报名截止",
-    "source": "北京市人力资源和社会保障局公开招聘",
-    "type": "program",
-    "publishedAt": "2026-04-30"
-  },
-  {
-    "id": "civil-service-ddl-beijing-public-recruitment-abcafd562f",
-    "title": "北京财贸职业学院2026年公开招聘公告（第二批）",
-    "deadline": "2026-05-17T16:00:00+08:00",
-    "dateRange": "报名截止：2026年5月17日 16:00",
+    "id": "civil-service-ddl-beijing-public-recruitment-2b7549c412",
+    "title": "中共北京市石景山区委党校（区行政学院、区社会主义学院）2026年公开招聘事业单位工作人员公告",
+    "deadline": "2026-05-18T16:00:00+08:00",
+    "dateRange": "报名截止：2026年5月18日 16:00",
     "location": "北京",
     "isOnline": true,
     "tags": [
@@ -730,19 +547,41 @@ export const ddlForCivilServiceDdl: DDLItem[] = [
       "招聘",
       "报名"
     ],
-    "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202604/t20260430_4625674.html",
+    "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260509_4642649.html",
     "status": "ended",
     "description": "北京公开招聘公告，已解析报名截止时间。",
     "stage": "报名截止",
     "source": "北京市人力资源和社会保障局公开招聘",
     "type": "program",
-    "publishedAt": "2026-04-30"
+    "publishedAt": "2026-05-09",
+    "sourceUrl": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260509_4642649.html"
   },
   {
-    "id": "civil-service-ddl-beijing-public-recruitment-c956b6dcbc",
-    "title": "首都医科大学2026年度事业编制岗位公开招聘公告（第二批）",
-    "deadline": "2026-05-17T22:00:00+08:00",
-    "dateRange": "报名截止：2026年5月17日 22:00",
+    "id": "civil-service-ddl-beijing-public-recruitment-a60e44f9d6",
+    "title": "​北京市体育局所属事业单位2026年上半年公开招聘运动员公告",
+    "deadline": "2026-05-18T23:59:00+08:00",
+    "dateRange": "报名截止：2026年5月18日 23:59",
+    "location": "北京",
+    "isOnline": true,
+    "tags": [
+      "事业单位",
+      "招聘",
+      "报名"
+    ],
+    "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260508_4640696.html",
+    "status": "ended",
+    "description": "北京公开招聘公告，已解析报名截止时间。",
+    "stage": "报名截止",
+    "source": "北京市人力资源和社会保障局公开招聘",
+    "type": "program",
+    "publishedAt": "2026-05-08",
+    "sourceUrl": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260508_4640696.html"
+  },
+  {
+    "id": "civil-service-ddl-beijing-public-recruitment-783d6b6f07",
+    "title": "首都医科大学附属北京安贞医院2026年第二批面向应届毕业生（含社会人员）公开招聘公告",
+    "deadline": "2026-05-18T23:59:00+08:00",
+    "dateRange": "报名截止：2026年5月18日 23:59",
     "location": "北京",
     "isOnline": true,
     "tags": [
@@ -751,12 +590,35 @@ export const ddlForCivilServiceDdl: DDLItem[] = [
       "报名",
       "医疗"
     ],
-    "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202604/t20260430_4625644.html",
+    "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260507_4639284.html",
     "status": "ended",
     "description": "北京公开招聘公告，已解析报名截止时间。",
     "stage": "报名截止",
     "source": "北京市人力资源和社会保障局公开招聘",
     "type": "program",
-    "publishedAt": "2026-04-30"
+    "publishedAt": "2026-05-07",
+    "sourceUrl": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260507_4639284.html"
+  },
+  {
+    "id": "civil-service-ddl-beijing-public-recruitment-ccea664114",
+    "title": "石景山区教育系统事业单位2026年第二次公开招聘工作人员公告",
+    "deadline": "2026-05-19T17:00:00+08:00",
+    "dateRange": "报名截止：2026年5月19日 17:00",
+    "location": "北京",
+    "isOnline": true,
+    "tags": [
+      "事业单位",
+      "招聘",
+      "报名",
+      "教师"
+    ],
+    "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260509_4643573.html",
+    "status": "ended",
+    "description": "北京公开招聘公告，已解析报名截止时间。",
+    "stage": "报名截止",
+    "source": "北京市人力资源和社会保障局公开招聘",
+    "type": "program",
+    "publishedAt": "2026-05-09",
+    "sourceUrl": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260509_4643573.html"
   }
 ];

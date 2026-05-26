@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-25T23:04:19.374Z",
-  "dataVersion": "65b78becb1005ce4",
+  "generatedAt": "2026-05-26T01:07:11.250Z",
+  "dataVersion": "0784691de0f1f631",
   "topic": {
     "id": "academic-ddl",
     "name": "Academic",
@@ -34,7 +34,8 @@
       "url": "https://neurips.cc",
       "status": "upcoming",
       "stage": "Paper",
-      "source": "会议公开来源入口",
+      "source": "官方来源入口",
+      "sourceUrl": "https://neurips.cc",
       "type": "conference",
       "description": "机器学习主会投稿入口。"
     },
@@ -54,6 +55,7 @@
       "status": "ongoing",
       "stage": "Monthly cycle",
       "source": "人工整理的官方来源入口",
+      "sourceUrl": "https://vldb.org",
       "type": "conference",
       "description": "VLDB 月度投稿入口。"
     },
@@ -73,6 +75,7 @@
       "status": "upcoming",
       "stage": "Round 1",
       "source": "人工整理的官方来源入口",
+      "sourceUrl": "https://sigmod.org",
       "type": "conference",
       "description": "数据库会议滚动投稿入口。"
     },
@@ -92,6 +95,7 @@
       "status": "upcoming",
       "stage": "Abstract",
       "source": "人工整理的官方来源入口",
+      "sourceUrl": "https://aaai.org",
       "type": "conference",
       "description": "AAAI abstract 阶段入口。"
     },
@@ -111,6 +115,7 @@
       "status": "upcoming",
       "stage": "Paper",
       "source": "人工整理的官方来源入口",
+      "sourceUrl": "https://chi2027.acm.org",
       "type": "conference",
       "description": "人机交互会议入口。"
     },
@@ -130,6 +135,7 @@
       "status": "upcoming",
       "stage": "Paper",
       "source": "人工整理的官方来源入口",
+      "sourceUrl": "https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra",
       "type": "conference",
       "description": "机器人会议入口。"
     },
@@ -149,6 +155,7 @@
       "status": "upcoming",
       "stage": "Proposal window",
       "source": "人工整理的官方来源入口",
+      "sourceUrl": "https://www.nsf.gov/funding",
       "type": "program",
       "description": "科研基金/项目申请入口，后续可拆分到独立 grant-ddl。"
     },
@@ -167,7 +174,8 @@
       "url": "https://iclr.cc",
       "status": "upcoming",
       "stage": "OpenReview",
-      "source": "OpenReview public source",
+      "source": "官方来源入口",
+      "sourceUrl": "https://iclr.cc",
       "type": "conference",
       "description": "ICLR 投稿入口。"
     },
@@ -187,6 +195,7 @@
       "status": "upcoming",
       "stage": "Paper",
       "source": "人工整理的官方来源入口",
+      "sourceUrl": "https://www2027.thewebconf.org",
       "type": "conference",
       "description": "Web Conference 研究论文入口。"
     },
@@ -206,6 +215,7 @@
       "status": "upcoming",
       "stage": "Paper",
       "source": "人工整理的官方来源入口",
+      "sourceUrl": "https://aistats.org",
       "type": "conference",
       "description": "统计学习会议入口。"
     },
@@ -225,6 +235,7 @@
       "status": "upcoming",
       "stage": "Paper",
       "source": "人工整理的官方来源入口",
+      "sourceUrl": "https://ubicomp.org",
       "type": "conference",
       "description": "普适计算会议入口。"
     },
@@ -244,6 +255,7 @@
       "status": "upcoming",
       "stage": "Paper",
       "source": "人工整理的官方来源入口",
+      "sourceUrl": "https://iscaconf.org",
       "type": "conference",
       "description": "计算机体系结构会议入口。"
     },
@@ -263,6 +275,7 @@
       "status": "upcoming",
       "stage": "Paper",
       "source": "人工整理的官方来源入口",
+      "sourceUrl": "https://icaps-conference.org",
       "type": "conference",
       "description": "规划与调度会议入口。"
     },
@@ -282,6 +295,7 @@
       "status": "upcoming",
       "stage": "Abstract",
       "source": "人工整理的官方来源入口",
+      "sourceUrl": "https://icml.cc",
       "type": "conference",
       "description": "ICML abstract 阶段入口。"
     },
@@ -301,6 +315,7 @@
       "status": "upcoming",
       "stage": "Paper",
       "source": "人工整理的官方来源入口",
+      "sourceUrl": "https://roboticsconference.org",
       "type": "conference",
       "description": "Robotics: Science and Systems 投稿入口。"
     },
@@ -320,6 +335,7 @@
       "status": "upcoming",
       "stage": "Paper",
       "source": "人工整理的官方来源入口",
+      "sourceUrl": "https://sigir.org",
       "type": "conference",
       "description": "信息检索会议入口。"
     },
@@ -339,6 +355,7 @@
       "status": "upcoming",
       "stage": "Paper",
       "source": "人工整理的官方来源入口",
+      "sourceUrl": "https://www.usenix.org/conferences",
       "type": "conference",
       "description": "系统研究会议入口。"
     },
@@ -358,6 +375,7 @@
       "status": "upcoming",
       "stage": "Research",
       "source": "人工整理的官方来源入口",
+      "sourceUrl": "https://kdd.org",
       "type": "conference",
       "description": "数据挖掘会议入口。"
     },
@@ -377,6 +395,7 @@
       "status": "upcoming",
       "stage": "Paper",
       "source": "人工整理的官方来源入口",
+      "sourceUrl": "https://www.auai.org/uai",
       "type": "conference",
       "description": "不确定性人工智能会议入口。"
     },
@@ -396,6 +415,7 @@
       "status": "upcoming",
       "stage": "Paper",
       "source": "人工整理的官方来源入口",
+      "sourceUrl": "https://acmmm.org",
       "type": "conference",
       "description": "多媒体会议主会入口。"
     }

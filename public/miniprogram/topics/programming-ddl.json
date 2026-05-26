@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-25T23:04:19.374Z",
-  "dataVersion": "65b78becb1005ce4",
+  "generatedAt": "2026-05-26T01:07:11.250Z",
+  "dataVersion": "0784691de0f1f631",
   "topic": {
     "id": "programming-ddl",
     "name": "Programming",
@@ -35,6 +35,7 @@
       "status": "upcoming",
       "stage": "Contest",
       "source": "Official site",
+      "sourceUrl": "https://codeforces.com",
       "type": "contest",
       "description": "Codeforces 轮次入口。"
     },
@@ -54,6 +55,7 @@
       "status": "upcoming",
       "stage": "Registration",
       "source": "人工整理的官方来源入口",
+      "sourceUrl": "https://www.noi.cn",
       "type": "contest",
       "description": "信息学竞赛训练营入口。"
     },
@@ -73,6 +75,7 @@
       "status": "upcoming",
       "stage": "Submission",
       "source": "人工整理的官方来源入口",
+      "sourceUrl": "https://www.kaggle.com/competitions",
       "type": "contest",
       "description": "月度机器学习竞赛入口。"
     },
@@ -92,6 +95,7 @@
       "status": "upcoming",
       "stage": "Practice",
       "source": "人工整理的官方来源入口",
+      "sourceUrl": "https://www.hackerrank.com/domains/tutorials/10-days-of-javascript",
       "type": "contest",
       "description": "面试编程训练专题入口。"
     },
@@ -111,6 +115,7 @@
       "status": "upcoming",
       "stage": "Submission",
       "source": "人工整理的官方来源入口",
+      "sourceUrl": "https://tianchi.aliyun.com/competition",
       "type": "contest",
       "description": "国内算法竞赛入口。"
     },
@@ -130,6 +135,7 @@
       "status": "upcoming",
       "stage": "Qualification",
       "source": "人工整理的官方来源入口",
+      "sourceUrl": "https://www.facebook.com/codingcompetitions/hacker-cup",
       "type": "contest",
       "description": "算法竞赛资格赛入口。"
     },
@@ -149,6 +155,7 @@
       "status": "upcoming",
       "stage": "Registration",
       "source": "官方来源入口",
+      "sourceUrl": "https://icpc.global",
       "type": "contest",
       "description": "区域赛报名入口。"
     },
@@ -168,6 +175,7 @@
       "status": "upcoming",
       "stage": "Registration",
       "source": "人工整理的官方来源入口",
+      "sourceUrl": "https://www.cspro.org",
       "type": "contest",
       "description": "软件能力认证/竞赛入口。"
     },
@@ -187,6 +195,7 @@
       "status": "upcoming",
       "stage": "Contest",
       "source": "人工整理的官方来源入口",
+      "sourceUrl": "https://dmoj.ca/contests",
       "type": "contest",
       "description": "在线评测竞赛入口。"
     },
@@ -206,6 +215,7 @@
       "status": "upcoming",
       "stage": "Contest",
       "source": "人工整理的官方来源入口",
+      "sourceUrl": "https://icpc.global",
       "type": "contest",
       "description": "世界总决赛赛程入口。"
     },
@@ -225,6 +235,7 @@
       "status": "upcoming",
       "stage": "Contest",
       "source": "Official site",
+      "sourceUrl": "https://atcoder.jp",
       "type": "contest",
       "description": "AtCoder 高难度比赛入口。"
     },
@@ -244,6 +255,7 @@
       "status": "upcoming",
       "stage": "Practice",
       "source": "人工整理的官方来源入口",
+      "sourceUrl": "https://codingcompetitions.withgoogle.com/hashcode/archive",
       "type": "contest",
       "description": "优化类编程挑战归档入口。"
     },
@@ -263,6 +275,7 @@
       "status": "upcoming",
       "stage": "Event start",
       "source": "Official site",
+      "sourceUrl": "https://adventofcode.com",
       "type": "contest",
       "description": "年度编程挑战入口。"
     },
@@ -281,7 +294,8 @@
       "url": "https://dasai.lanqiao.cn",
       "status": "upcoming",
       "stage": "Registration",
-      "source": "会议公开来源入口",
+      "source": "官方来源入口",
+      "sourceUrl": "https://dasai.lanqiao.cn",
       "type": "contest",
       "description": "国内编程竞赛入口。"
     },
@@ -301,6 +315,7 @@
       "status": "upcoming",
       "stage": "Contest",
       "source": "人工整理的官方来源入口",
+      "sourceUrl": "https://usaco.org",
       "type": "contest",
       "description": "美国信息学竞赛入口。"
     },
@@ -320,6 +335,7 @@
       "status": "ongoing",
       "stage": "Recurring",
       "source": "人工整理的官方来源入口",
+      "sourceUrl": "https://www.codechef.com/contests",
       "type": "contest",
       "description": "CodeChef 周赛入口。"
     },
@@ -339,6 +355,7 @@
       "status": "ongoing",
       "stage": "Archive",
       "source": "人工整理的官方来源入口",
+      "sourceUrl": "https://codingcompetitions.withgoogle.com/codejam/archive",
       "type": "contest",
       "description": "经典题库入口，用于训练专题。"
     },
@@ -358,6 +375,7 @@
       "status": "ongoing",
       "stage": "Recurring",
       "source": "Official site",
+      "sourceUrl": "https://leetcode.com/contest",
       "type": "contest",
       "description": "重复赛事入口，后续可转为 RRULE 或周规则。"
     },
@@ -377,6 +395,7 @@
       "status": "ongoing",
       "stage": "Recurring",
       "source": "人工整理的官方来源入口",
+      "sourceUrl": "https://projecteuler.net",
       "type": "contest",
       "description": "长期数学编程题入口。"
     },
@@ -396,6 +415,7 @@
       "status": "ongoing",
       "stage": "Recurring",
       "source": "人工整理的官方来源入口",
+      "sourceUrl": "https://www.topcoder.com/challenges",
       "type": "contest",
       "description": "Topcoder 赛事入口。"
     }

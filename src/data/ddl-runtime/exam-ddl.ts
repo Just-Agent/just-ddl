@@ -18,7 +18,8 @@ export const ddlForExamDdl: DDLItem[] = [
     "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
     "stage": "Source board",
     "source": "yz.chsi.com.cn",
-    "type": "program"
+    "type": "program",
+    "sourceUrl": "https://yz.chsi.com.cn"
   },
   {
     "id": "exam-ddl-item-2026-07-19",
@@ -37,7 +38,8 @@ export const ddlForExamDdl: DDLItem[] = [
     "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
     "stage": "Source board",
     "source": "yz.chsi.com.cn",
-    "type": "program"
+    "type": "program",
+    "sourceUrl": "https://yz.chsi.com.cn"
   },
   {
     "id": "exam-ddl-item-2026-08-06",
@@ -56,7 +58,8 @@ export const ddlForExamDdl: DDLItem[] = [
     "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
     "stage": "Source board",
     "source": "cet.neea.edu.cn",
-    "type": "program"
+    "type": "program",
+    "sourceUrl": "https://cet.neea.edu.cn"
   },
   {
     "id": "exam-ddl-item-2026-08-24",
@@ -75,7 +78,8 @@ export const ddlForExamDdl: DDLItem[] = [
     "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
     "stage": "Source board",
     "source": "ielts.neea.cn",
-    "type": "program"
+    "type": "program",
+    "sourceUrl": "https://ielts.neea.cn"
   },
   {
     "id": "exam-ddl-item-2026-09-11",
@@ -94,7 +98,8 @@ export const ddlForExamDdl: DDLItem[] = [
     "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
     "stage": "Source board",
     "source": "toefl.neea.cn",
-    "type": "program"
+    "type": "program",
+    "sourceUrl": "https://toefl.neea.cn"
   },
   {
     "id": "exam-ddl-gre-general-test-planning-2026-09-29",
@@ -113,7 +118,8 @@ export const ddlForExamDdl: DDLItem[] = [
     "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
     "stage": "Source board",
     "source": "ETS GRE",
-    "type": "program"
+    "type": "program",
+    "sourceUrl": "https://www.ets.org/gre.html"
   },
   {
     "id": "exam-ddl-gmat-focus-exam-planning-2026-10-17",
@@ -132,7 +138,8 @@ export const ddlForExamDdl: DDLItem[] = [
     "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
     "stage": "Source board",
     "source": "GMAC GMAT",
-    "type": "program"
+    "type": "program",
+    "sourceUrl": "https://www.mba.com/exams/gmat-exam"
   },
   {
     "id": "exam-ddl-item-2026-11-04",
@@ -151,7 +158,8 @@ export const ddlForExamDdl: DDLItem[] = [
     "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
     "stage": "Source board",
     "source": "中国政府网",
-    "type": "program"
+    "type": "program",
+    "sourceUrl": "https://bm.scs.gov.cn"
   },
   {
     "id": "exam-ddl-item-2026-11-22",
@@ -170,7 +178,8 @@ export const ddlForExamDdl: DDLItem[] = [
     "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
     "stage": "Source board",
     "source": "ntce.neea.edu.cn",
-    "type": "program"
+    "type": "program",
+    "sourceUrl": "https://ntce.neea.edu.cn"
   },
   {
     "id": "exam-ddl-item-2026-12-10",
@@ -189,7 +198,8 @@ export const ddlForExamDdl: DDLItem[] = [
     "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
     "stage": "Source board",
     "source": "ncre.neea.edu.cn",
-    "type": "program"
+    "type": "program",
+    "sourceUrl": "https://ncre.neea.edu.cn"
   },
   {
     "id": "exam-ddl-item-2026-12-28",
@@ -208,7 +218,8 @@ export const ddlForExamDdl: DDLItem[] = [
     "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
     "stage": "Source board",
     "source": "ruankao.org.cn",
-    "type": "program"
+    "type": "program",
+    "sourceUrl": "https://www.ruankao.org.cn"
   },
   {
     "id": "exam-ddl-item-2027-01-15",
@@ -227,7 +238,8 @@ export const ddlForExamDdl: DDLItem[] = [
     "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
     "stage": "Source board",
     "source": "cpaexam.cicpa.org.cn",
-    "type": "program"
+    "type": "program",
+    "sourceUrl": "https://cpaexam.cicpa.org.cn"
   },
   {
     "id": "exam-ddl-item-2027-02-02",
@@ -246,7 +258,8 @@ export const ddlForExamDdl: DDLItem[] = [
     "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
     "stage": "Source board",
     "source": "中国政府网",
-    "type": "program"
+    "type": "program",
+    "sourceUrl": "https://www.moj.gov.cn"
   },
   {
     "id": "exam-ddl-aws-certification-voucher-window-2027-02-20",
@@ -265,7 +278,8 @@ export const ddlForExamDdl: DDLItem[] = [
     "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
     "stage": "Source board",
     "source": "AWS Certification",
-    "type": "program"
+    "type": "program",
+    "sourceUrl": "https://aws.amazon.com/certification/"
   },
   {
     "id": "exam-ddl-pmp-exam-application-window-2027-03-10",
@@ -284,7 +298,8 @@ export const ddlForExamDdl: DDLItem[] = [
     "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
     "stage": "Source board",
     "source": "PMI PMP Certification",
-    "type": "program"
+    "type": "program",
+    "sourceUrl": "https://www.pmi.org/certifications/project-management-pmp"
   },
   {
     "id": "exam-ddl-cfa-exam-registration-deadline-2027-03-28",
@@ -303,6 +318,7 @@ export const ddlForExamDdl: DDLItem[] = [
     "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
     "stage": "Source board",
     "source": "CFA Institute",
-    "type": "program"
+    "type": "program",
+    "sourceUrl": "https://www.cfainstitute.org"
   }
 ];

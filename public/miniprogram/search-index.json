@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-25T23:04:19.374Z",
-  "dataVersion": "65b78becb1005ce4",
+  "generatedAt": "2026-05-26T01:07:11.250Z",
+  "dataVersion": "0784691de0f1f631",
   "topics": [
     {
       "id": "hackathon-ddl",
@@ -248,7 +248,7 @@
         "选调生",
         "遴选"
       ],
-      "itemCount": 37,
+      "itemCount": 29,
       "status": "published"
     },
     {
@@ -491,7 +491,8 @@
         "Workshop"
       ],
       "source": "人工整理的官方来源入口",
-      "url": "https://mlh.io/seasons"
+      "url": "https://mlh.io/seasons",
+      "sourceUrl": "https://mlh.io/seasons"
     },
     {
       "id": "hackathon-ddl-devpost-ai-builders-challenge-2026-08-18",
@@ -505,7 +506,8 @@
         "Devpost"
       ],
       "source": "人工整理的官方来源入口",
-      "url": "https://devpost.com/hackathons"
+      "url": "https://devpost.com/hackathons",
+      "sourceUrl": "https://devpost.com/hackathons"
     },
     {
       "id": "hackathon-ddl-pennapps-2026-fall-2026-08-25",
@@ -519,7 +521,8 @@
         "Prototype"
       ],
       "source": "官方来源入口",
-      "url": "https://pennapps.com"
+      "url": "https://pennapps.com",
+      "sourceUrl": "https://pennapps.com"
     },
     {
       "id": "hackathon-ddl-hack-the-north-2026-2026-09-01",
@@ -534,7 +537,8 @@
         "Global"
       ],
       "source": "Official site",
-      "url": "https://hackthenorth.com"
+      "url": "https://hackthenorth.com",
+      "sourceUrl": "https://hackthenorth.com"
     },
     {
       "id": "hackathon-ddl-hackzurich-2026-2026-09-11",
@@ -548,7 +552,8 @@
         "Europe"
       ],
       "source": "人工整理的官方来源入口",
-      "url": "https://hackzurich.com"
+      "url": "https://hackzurich.com",
+      "sourceUrl": "https://hackzurich.com"
     },
     {
       "id": "hackathon-ddl-hackmit-2026-2026-09-15",
@@ -562,7 +567,8 @@
         "Hardware"
       ],
       "source": "人工整理的官方来源入口",
-      "url": "https://hackmit.org"
+      "url": "https://hackmit.org",
+      "sourceUrl": "https://hackmit.org"
     },
     {
       "id": "hackathon-ddl-hackharvard-2026-2026-09-20",
@@ -576,7 +582,8 @@
         "Social Impact"
       ],
       "source": "人工整理的官方来源入口",
-      "url": "https://hackharvard.io"
+      "url": "https://hackharvard.io",
+      "sourceUrl": "https://hackharvard.io"
     },
     {
       "id": "hackathon-ddl-hackprinceton-2026-fall-2026-10-01",
@@ -590,7 +597,8 @@
         "Product"
       ],
       "source": "人工整理的官方来源入口",
-      "url": "https://hackprinceton.com"
+      "url": "https://hackprinceton.com",
+      "sourceUrl": "https://hackprinceton.com"
     },
     {
       "id": "hackathon-ddl-nasa-space-apps-challenge-2026-2026-10-01",
@@ -604,7 +612,8 @@
         "Open Data"
       ],
       "source": "Official site",
-      "url": "https://www.spaceappschallenge.org/"
+      "url": "https://www.spaceappschallenge.org/",
+      "sourceUrl": "https://www.spaceappschallenge.org/"
     },
     {
       "id": "hackathon-ddl-la-hacks-2026-2026-10-05",
@@ -618,7 +627,8 @@
         "AI"
       ],
       "source": "人工整理的官方来源入口",
-      "url": "https://lahacks.com"
+      "url": "https://lahacks.com",
+      "sourceUrl": "https://lahacks.com"
     },
     {
       "id": "hackathon-ddl-ethglobal-new-york-2026-2026-10-10",
@@ -633,7 +643,8 @@
         "Infra"
       ],
       "source": "ETHGlobal events board",
-      "url": "https://ethglobal.com/events"
+      "url": "https://ethglobal.com/events",
+      "sourceUrl": "https://ethglobal.com/events"
     },
     {
       "id": "hackathon-ddl-hackupc-2026-2026-10-18",
@@ -647,7 +658,8 @@
         "Student"
       ],
       "source": "人工整理的官方来源入口",
-      "url": "https://hackupc.com"
+      "url": "https://hackupc.com",
+      "sourceUrl": "https://hackupc.com"
     },
     {
       "id": "hackathon-ddl-cal-hacks-2026-2026-10-24",
@@ -661,7 +673,8 @@
         "Healthcare"
       ],
       "source": "人工整理的官方来源入口",
-      "url": "https://calhacks.io"
+      "url": "https://calhacks.io",
+      "sourceUrl": "https://calhacks.io"
     },
     {
       "id": "hackathon-ddl-junction-2026-2026-11-06",
@@ -675,7 +688,8 @@
         "Startup"
       ],
       "source": "人工整理的官方来源入口",
-      "url": "https://www.hackjunction.com"
+      "url": "https://www.hackjunction.com",
+      "sourceUrl": "https://www.hackjunction.com"
     },
     {
       "id": "hackathon-ddl-dorahacks-open-innovation-sprint-2026-11-15",
@@ -689,7 +703,8 @@
         "Bounty"
       ],
       "source": "人工整理的官方来源入口",
-      "url": "https://dorahacks.io"
+      "url": "https://dorahacks.io",
+      "sourceUrl": "https://dorahacks.io"
     },
     {
       "id": "hackathon-ddl-treehacks-2027-2026-11-15",
@@ -703,7 +718,8 @@
         "Climate"
       ],
       "source": "人工整理的官方来源入口",
-      "url": "https://treehacks.com"
+      "url": "https://treehacks.com",
+      "sourceUrl": "https://treehacks.com"
     },
     {
       "id": "hackathon-ddl-nwhacks-2027-2026-12-10",
@@ -717,7 +733,8 @@
         "Product"
       ],
       "source": "人工整理的官方来源入口",
-      "url": "https://nwhacks.io"
+      "url": "https://nwhacks.io",
+      "sourceUrl": "https://nwhacks.io"
     },
     {
       "id": "hackathon-ddl-hack-cambridge-2027-2026-12-20",
@@ -731,24 +748,8 @@
         "Student"
       ],
       "source": "人工整理的官方来源入口",
-      "url": "https://hackcambridge.com"
-    },
-    {
-      "id": "agent-ddl-agents-assemble-healthcare-ai-2026-05-11",
-      "topicId": "agent-ddl",
-      "title": "Agents Assemble - The Healthcare AI Endgame",
-      "deadline": "2026-05-11T23:59:59-07:00",
-      "type": "hackathon",
-      "status": "ended",
-      "tags": [
-        "Healthcare",
-        "MCP",
-        "A2A",
-        "FHIR"
-      ],
-      "source": "Agents Assemble Devpost",
-      "url": "https://agents-assemble.devpost.com/",
-      "sourceUrl": "https://agents-assemble.devpost.com/"
+      "url": "https://hackcambridge.com",
+      "sourceUrl": "https://hackcambridge.com"
     },
     {
       "id": "agent-ddl-devnetwork-ai-ml-hackathon-2026-05-28",
@@ -849,6 +850,22 @@
       "sourceUrl": "https://mega-agent-a-thon.devpost.com/"
     },
     {
+      "id": "agent-ddl-ai-olympics-realaigym-stage1-2026-06-15",
+      "topicId": "agent-ddl",
+      "title": "AI Olympics with RealAIGym - Stage 1",
+      "deadline": "2026-06-15T23:59:59",
+      "type": "challenge",
+      "status": "upcoming",
+      "tags": [
+        "Robotics Agent",
+        "Reinforcement Learning",
+        "CloudPendulum"
+      ],
+      "source": "IJCAI AI Olympics with RealAIGym",
+      "url": "https://ai-olympics.dfki-bremen.de/",
+      "sourceUrl": "https://ai-olympics.dfki-bremen.de/"
+    },
+    {
       "id": "agent-ddl-splunk-agentic-ops-hackathon-2026-06-15",
       "topicId": "agent-ddl",
       "title": "Splunk Agentic Ops Hackathon",
@@ -864,22 +881,6 @@
       "source": "Splunk Agentic Ops Hackathon Devpost",
       "url": "https://splunk.devpost.com/",
       "sourceUrl": "https://splunk.devpost.com/"
-    },
-    {
-      "id": "agent-ddl-ai-olympics-realaigym-stage1-2026-06-15",
-      "topicId": "agent-ddl",
-      "title": "AI Olympics with RealAIGym - Stage 1",
-      "deadline": "2026-06-15T23:59:59",
-      "type": "challenge",
-      "status": "upcoming",
-      "tags": [
-        "Robotics Agent",
-        "Reinforcement Learning",
-        "CloudPendulum"
-      ],
-      "source": "IJCAI AI Olympics with RealAIGym",
-      "url": "https://ai-olympics.dfki-bremen.de/",
-      "sourceUrl": "https://ai-olympics.dfki-bremen.de/"
     },
     {
       "id": "agent-ddl-find-evil-ai-security-2026-06-15",
@@ -1028,6 +1029,23 @@
       "sourceUrl": "https://chinatravel-competition.github.io/IJCAI2026/"
     },
     {
+      "id": "agent-ddl-agents-assemble-healthcare-ai-2026-05-11",
+      "topicId": "agent-ddl",
+      "title": "Agents Assemble - The Healthcare AI Endgame",
+      "deadline": "2026-05-11T23:59:59-07:00",
+      "type": "hackathon",
+      "status": "ended",
+      "tags": [
+        "Healthcare",
+        "MCP",
+        "A2A",
+        "FHIR"
+      ],
+      "source": "Agents Assemble Devpost",
+      "url": "https://agents-assemble.devpost.com/",
+      "sourceUrl": "https://agents-assemble.devpost.com/"
+    },
+    {
       "id": "cvpr2077ai-2077ai-rising-star-award-may-22-2026",
       "topicId": "cv-ddl",
       "title": "2077AI Rising Star Award",
@@ -1074,7 +1092,7 @@
       ],
       "source": "CVPR 2026 Workshops",
       "url": "https://videoworldmodel-workshop.github.io/",
-      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops"
+      "sourceUrl": "https://videoworldmodel-workshop.github.io/"
     },
     {
       "id": "cvpr2026-cvpr-2026-3rd-workshop-on-scannet-novel-view-synthesis-and-3d-semantic-understanding-chall",
@@ -1091,7 +1109,7 @@
       ],
       "source": "CVPR 2026 Workshops",
       "url": "https://scannetpp.mlsg.cit.tum.de/scannetpp/cvpr2026",
-      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops"
+      "sourceUrl": "https://scannetpp.mlsg.cit.tum.de/scannetpp/cvpr2026"
     },
     {
       "id": "cvpr2026-cvpr-2026-ai4rwc-the-2nd-international-workshop-on-vision-intelligence-for-real-world-chal",
@@ -1108,7 +1126,7 @@
       ],
       "source": "CVPR 2026 Workshops",
       "url": "https://sites.google.com/view/ai4rwc2026",
-      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops"
+      "sourceUrl": "https://sites.google.com/view/ai4rwc2026"
     },
     {
       "id": "cvpr2026-cvpr-2026-gigabrain-challenge-2026-workshop-on-world-models-empowering-vision-language-act",
@@ -1125,7 +1143,7 @@
       ],
       "source": "CVPR 2026 Workshops",
       "url": "https://gigaai-research.github.io/GigaBrain-Challenge-2026/",
-      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops"
+      "sourceUrl": "https://gigaai-research.github.io/GigaBrain-Challenge-2026/"
     },
     {
       "id": "cvpr2026-cvpr-2026-multimodal-foundation-models-for-biomedicine-challenges-and-opportunities-june-3",
@@ -1142,7 +1160,7 @@
       ],
       "source": "CVPR 2026 Workshops",
       "url": "https://mmfm-biomed.github.io/",
-      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops"
+      "sourceUrl": "https://mmfm-biomed.github.io/"
     },
     {
       "id": "cvpr2026-cvpr-2026-the-2nd-international-workshop-challenge-on-subtle-visual-computing-cvpr-2026-ju",
@@ -1159,7 +1177,7 @@
       ],
       "source": "CVPR 2026 Workshops",
       "url": "https://sites.google.com/view/svc-cvpr26",
-      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops"
+      "sourceUrl": "https://sites.google.com/view/svc-cvpr26"
     },
     {
       "id": "cvpr2026-cvpr-2026-the-3rd-ai-for-visual-arts-workshop-and-challenges-june-3-2026-wed-half-day",
@@ -1176,7 +1194,7 @@
       ],
       "source": "CVPR 2026 Workshops",
       "url": "https://ai4va-cvpr.github.io/",
-      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops"
+      "sourceUrl": "https://ai4va-cvpr.github.io/"
     },
     {
       "id": "cvpr2026-cvpr-2026-the-3rd-ai-for-visual-arts-workshop-and-challenges-june-3-2026-wed-am",
@@ -1193,7 +1211,7 @@
       ],
       "source": "CVPR 2026 Workshops",
       "url": "https://ai4va-cvpr.github.io/",
-      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops"
+      "sourceUrl": "https://ai4va-cvpr.github.io/"
     },
     {
       "id": "cvpr2026-cvpr-2026-the-5th-datacv-workshop-and-challenge-june-3-2026-wed-half-day",
@@ -1210,7 +1228,7 @@
       ],
       "source": "CVPR 2026 Workshops",
       "url": "https://sites.google.com/view/datacv-2026-cvpr/",
-      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops"
+      "sourceUrl": "https://sites.google.com/view/datacv-2026-cvpr/"
     },
     {
       "id": "cvpr2026-cvpr-2026-the-5th-datacv-workshop-and-challenge-june-3-2026-wed-am",
@@ -1227,7 +1245,7 @@
       ],
       "source": "CVPR 2026 Workshops",
       "url": "https://sites.google.com/view/datacv-2026-cvpr/",
-      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops"
+      "sourceUrl": "https://sites.google.com/view/datacv-2026-cvpr/"
     },
     {
       "id": "cvpr2026-cvpr-2026-the-7th-international-workshop-and-cvml-challenge-on-agriculture-vision-challeng",
@@ -1244,7 +1262,7 @@
       ],
       "source": "CVPR 2026 Workshops",
       "url": "https://www.agriculture-vision.com/",
-      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops"
+      "sourceUrl": "https://www.agriculture-vision.com/"
     },
     {
       "id": "cvpr2026-cvpr-2026-workshop-on-world-models-meet-active-sensing-and-closed-loop-planning-june-3-202",
@@ -1260,7 +1278,8 @@
         "WMAS"
       ],
       "source": "CVPR 2026 Workshops",
-      "url": "https://cvpr26wmas.github.io/"
+      "url": "https://cvpr26wmas.github.io/",
+      "sourceUrl": "https://cvpr26wmas.github.io/"
     },
     {
       "id": "cvpr2026-cvpr-2026-11th-new-trends-in-image-restoration-and-enhancement-workshop-and-challenges-jun",
@@ -1277,7 +1296,7 @@
       ],
       "source": "CVPR 2026 Workshops",
       "url": "https://www.cvlai.net/ntire/2026/",
-      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops"
+      "sourceUrl": "https://www.cvlai.net/ntire/2026/"
     },
     {
       "id": "cvpr2026-cvpr-2026-4d-world-models-bridging-generation-and-reconstruction-june-4-2026-thu-half-day",
@@ -1294,7 +1313,7 @@
       ],
       "source": "CVPR 2026 Workshops",
       "url": "https://ivl.cs.brown.edu/4dworldmodels/",
-      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops"
+      "sourceUrl": "https://ivl.cs.brown.edu/4dworldmodels/"
     },
     {
       "id": "cvpr2026-cvpr-2026-4d-world-models-bridging-generation-and-reconstruction-june-4-2026-thu-pm",
@@ -1311,7 +1330,7 @@
       ],
       "source": "CVPR 2026 Workshops",
       "url": "https://ivl.cs.brown.edu/4dworldmodels/",
-      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops"
+      "sourceUrl": "https://ivl.cs.brown.edu/4dworldmodels/"
     },
     {
       "id": "cvpr2026-cvpr-2026-6th-workshop-on-cv4animals-computer-vision-for-animal-behavior-tracking-and-mode",
@@ -1328,7 +1347,7 @@
       ],
       "source": "CVPR 2026 Workshops",
       "url": "https://www.cv4animals.com/",
-      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops"
+      "sourceUrl": "https://www.cv4animals.com/"
     },
     {
       "id": "cvpr2026-cvpr-2026-eighth-workshop-on-image-matching-local-features-and-beyond-june-4-2026-thu-half",
@@ -1345,7 +1364,7 @@
       ],
       "source": "CVPR 2026 Workshops",
       "url": "https://image-matching-workshop.github.io/",
-      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops"
+      "sourceUrl": "https://image-matching-workshop.github.io/"
     },
     {
       "id": "cvpr2026-cvpr-2026-eighth-workshop-on-image-matching-local-features-and-beyond-june-4-2026-thu-pm",
@@ -1362,7 +1381,7 @@
       ],
       "source": "CVPR 2026 Workshops",
       "url": "https://image-matching-workshop.github.io/",
-      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops"
+      "sourceUrl": "https://image-matching-workshop.github.io/"
     },
     {
       "id": "cvpr2026-cvpr-2026-embodied-reasoning-in-action-workshop-and-challenge-on-embodied-reasoning-for-ro",
@@ -1379,7 +1398,7 @@
       ],
       "source": "CVPR 2026 Workshops",
       "url": "https://embodied-reasoning.github.io/",
-      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops"
+      "sourceUrl": "https://embodied-reasoning.github.io/"
     },
     {
       "id": "cvpr2026-cvpr-2026-from-perception-to-persuasion-challenges-and-advances-in-misinformation-detectio",
@@ -1396,7 +1415,7 @@
       ],
       "source": "CVPR 2026 Workshops",
       "url": "https://eecs.uq.edu.au/CVPR2026",
-      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops"
+      "sourceUrl": "https://eecs.uq.edu.au/CVPR2026"
     },
     {
       "id": "cvpr2026-cvpr-2026-mobile-ai-workshop-and-associated-challenges-6th-edition-june-4-2026-thu-full-da",
@@ -1413,7 +1432,7 @@
       ],
       "source": "CVPR 2026 Workshops",
       "url": "https://ai-benchmark.com/workshops/mai/2026/",
-      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops"
+      "sourceUrl": "https://ai-benchmark.com/workshops/mai/2026/"
     },
     {
       "id": "cvpr2026-cvpr-2026-multi-agent-embodied-intelligent-systems-meet-agentic-ai-era-opportunities-chall",
@@ -1430,7 +1449,7 @@
       ],
       "source": "CVPR 2026 Workshops",
       "url": "https://coop-intelligence.github.io/",
-      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops"
+      "sourceUrl": "https://coop-intelligence.github.io/"
     },
     {
       "id": "cvpr2026-cvpr-2026-pixel-level-video-understanding-in-the-wild-challenge-june-4-2026-thu-half-day",
@@ -1447,7 +1466,7 @@
       ],
       "source": "CVPR 2026 Workshops",
       "url": "https://pvuw.github.io/",
-      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops"
+      "sourceUrl": "https://pvuw.github.io/"
     },
     {
       "id": "cvpr2026-cvpr-2026-pixel-level-video-understanding-in-the-wild-challenge-june-4-2026-thu-pm",
@@ -1464,7 +1483,7 @@
       ],
       "source": "CVPR 2026 Workshops",
       "url": "https://pvuw.github.io/",
-      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops"
+      "sourceUrl": "https://pvuw.github.io/"
     },
     {
       "id": "cvpr2026-cvpr-2026-the-8th-ug2-workshop-and-challenge-bridging-the-gap-between-computational-photog",
@@ -1481,7 +1500,7 @@
       ],
       "source": "CVPR 2026 Workshops",
       "url": "https://cvpr2026ug2challenge.github.io/",
-      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops"
+      "sourceUrl": "https://cvpr2026ug2challenge.github.io/"
     },
     {
       "id": "cvpr2026-cvpr-2026-video-generative-models-benchmarks-and-evaluation-june-4-2026-thu-full-day",
@@ -1498,7 +1517,7 @@
       ],
       "source": "CVPR 2026 Workshops",
       "url": "https://vidgen-bench-eval.github.io/",
-      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops"
+      "sourceUrl": "https://vidgen-bench-eval.github.io/"
     },
     {
       "id": "cvpr2026-cvpr-2026-vizwiz-grand-challenge-interpreting-images-and-videos-taken-by-blind-people-june",
@@ -1515,7 +1534,7 @@
       ],
       "source": "CVPR 2026 Workshops",
       "url": "https://vizwiz.org/workshops/2026-vizwiz-grand-challenge-workshop/",
-      "sourceUrl": "https://cvpr.thecvf.com/Conferences/2026/Workshops"
+      "sourceUrl": "https://vizwiz.org/workshops/2026-vizwiz-grand-challenge-workshop/"
     },
     {
       "id": "eccv-ebmv-2026-ebmv-eccv-2026-challenge-submission-deadline-june-30-2026",
@@ -1673,7 +1692,8 @@
         "NLP"
       ],
       "source": "人工整理的官方来源入口",
-      "url": "https://2026.emnlp.org"
+      "url": "https://2026.emnlp.org",
+      "sourceUrl": "https://2026.emnlp.org"
     },
     {
       "id": "nlp-ddl-clpsych-shared-task-2026-2026-07-10",
@@ -1687,7 +1707,8 @@
         "Shared Task"
       ],
       "source": "人工整理的官方来源入口",
-      "url": "https://clpsych.org"
+      "url": "https://clpsych.org",
+      "sourceUrl": "https://clpsych.org"
     },
     {
       "id": "nlp-ddl-bionlp-workshop-paper-2026-08-05",
@@ -1701,7 +1722,8 @@
         "Workshop"
       ],
       "source": "人工整理的官方来源入口",
-      "url": "https://aclweb.org/aclwiki/BioNLP_Workshop"
+      "url": "https://aclweb.org/aclwiki/BioNLP_Workshop",
+      "sourceUrl": "https://aclweb.org/aclwiki/BioNLP_Workshop"
     },
     {
       "id": "nlp-ddl-chinese-nlpcc-2026-demo-track-2026-08-21",
@@ -1714,8 +1736,9 @@
         "Chinese NLP",
         "NLPCC"
       ],
-      "source": "会议公开来源入口",
-      "url": "http://tcci.ccf.org.cn"
+      "source": "官方来源入口",
+      "url": "http://tcci.ccf.org.cn",
+      "sourceUrl": "http://tcci.ccf.org.cn"
     },
     {
       "id": "nlp-ddl-blackboxnlp-workshop-2026-09-01",
@@ -1729,7 +1752,8 @@
         "Workshop"
       ],
       "source": "人工整理的官方来源入口",
-      "url": "https://blackboxnlp.github.io"
+      "url": "https://blackboxnlp.github.io",
+      "sourceUrl": "https://blackboxnlp.github.io"
     },
     {
       "id": "nlp-ddl-coling-2027-long-paper-2026-09-18",
@@ -1743,7 +1767,8 @@
         "Long Paper"
       ],
       "source": "人工整理的官方来源入口",
-      "url": "https://coling2026.org"
+      "url": "https://coling2026.org",
+      "sourceUrl": "https://coling2026.org"
     },
     {
       "id": "nlp-ddl-acl-2027-arr-commitment-2026-10-15",
@@ -1756,8 +1781,9 @@
         "ACL",
         "ARR"
       ],
-      "source": "会议公开来源入口",
-      "url": "https://www.aclweb.org"
+      "source": "官方来源入口",
+      "url": "https://www.aclweb.org",
+      "sourceUrl": "https://www.aclweb.org"
     },
     {
       "id": "nlp-ddl-legal-nlp-challenge-2026-2026-10-30",
@@ -1771,7 +1797,8 @@
         "Chinese"
       ],
       "source": "人工整理的官方来源入口",
-      "url": "https://www.kaggle.com/competitions"
+      "url": "https://www.kaggle.com/competitions",
+      "sourceUrl": "https://www.kaggle.com/competitions"
     },
     {
       "id": "nlp-ddl-mrqa-shared-task-refresh-2026-11-10",
@@ -1785,7 +1812,8 @@
         "Reading Comprehension"
       ],
       "source": "人工整理的官方来源入口",
-      "url": "https://mrqa.github.io"
+      "url": "https://mrqa.github.io",
+      "sourceUrl": "https://mrqa.github.io"
     },
     {
       "id": "nlp-ddl-rag-evaluation-shared-task-2026-11-28",
@@ -1799,7 +1827,8 @@
         "Evaluation"
       ],
       "source": "人工整理的官方来源入口",
-      "url": "https://openreview.net/"
+      "url": "https://openreview.net/",
+      "sourceUrl": "https://openreview.net/"
     },
     {
       "id": "nlp-ddl-semeval-2027-system-submission-2026-12-05",
@@ -1812,8 +1841,9 @@
         "SemEval",
         "Evaluation"
       ],
-      "source": "Shared task public source",
-      "url": "https://semeval.github.io"
+      "source": "官方评测入口",
+      "url": "https://semeval.github.io",
+      "sourceUrl": "https://semeval.github.io"
     },
     {
       "id": "nlp-ddl-naacl-2027-paper-submission-2026-12-18",
@@ -1827,7 +1857,8 @@
         "NLP"
       ],
       "source": "人工整理的官方来源入口",
-      "url": "https://naacl.org"
+      "url": "https://naacl.org",
+      "sourceUrl": "https://naacl.org"
     },
     {
       "id": "nlp-ddl-long-context-nlp-benchmark-2027-01-08",
@@ -1841,7 +1872,8 @@
         "Benchmark"
       ],
       "source": "人工整理的官方来源入口",
-      "url": "https://www.kaggle.com/competitions"
+      "url": "https://www.kaggle.com/competitions",
+      "sourceUrl": "https://www.kaggle.com/competitions"
     },
     {
       "id": "nlp-ddl-conll-shared-task-2027-2027-01-20",
@@ -1854,8 +1886,9 @@
         "CoNLL",
         "Shared Task"
       ],
-      "source": "Shared task public source",
-      "url": "https://www.conll.org"
+      "source": "官方评测入口",
+      "url": "https://www.conll.org",
+      "sourceUrl": "https://www.conll.org"
     },
     {
       "id": "nlp-ddl-low-resource-languages-track-2027-02-01",
@@ -1869,7 +1902,8 @@
         "Multilingual"
       ],
       "source": "人工整理的官方来源入口",
-      "url": "https://sigtyp.github.io"
+      "url": "https://sigtyp.github.io",
+      "sourceUrl": "https://sigtyp.github.io"
     },
     {
       "id": "nlp-ddl-wmt-2027-translation-task-2027-02-12",
@@ -1882,8 +1916,9 @@
         "WMT",
         "MT"
       ],
-      "source": "Benchmark public source",
-      "url": "https://www.statmt.org/wmt"
+      "source": "官方评测入口",
+      "url": "https://www.statmt.org/wmt",
+      "sourceUrl": "https://www.statmt.org/wmt"
     },
     {
       "id": "nlp-ddl-inlg-2027-paper-2027-02-20",
@@ -1897,7 +1932,8 @@
         "Generation"
       ],
       "source": "人工整理的官方来源入口",
-      "url": "https://aclweb.org/aclwiki/INLG"
+      "url": "https://aclweb.org/aclwiki/INLG",
+      "sourceUrl": "https://aclweb.org/aclwiki/INLG"
     },
     {
       "id": "nlp-ddl-sigdial-2027-paper-2027-03-01",
@@ -1911,7 +1947,8 @@
         "SIGDIAL"
       ],
       "source": "人工整理的官方来源入口",
-      "url": "https://www.sigdial.org"
+      "url": "https://www.sigdial.org",
+      "sourceUrl": "https://www.sigdial.org"
     },
     {
       "id": "academic-ddl-neurips-2026-full-paper-2026-05-28",
@@ -1924,8 +1961,9 @@
         "ML",
         "AI"
       ],
-      "source": "会议公开来源入口",
-      "url": "https://neurips.cc"
+      "source": "官方来源入口",
+      "url": "https://neurips.cc",
+      "sourceUrl": "https://neurips.cc"
     },
     {
       "id": "academic-ddl-vldb-2027-monthly-deadline-2026-06-01",
@@ -1939,7 +1977,8 @@
         "VLDB"
       ],
       "source": "人工整理的官方来源入口",
-      "url": "https://vldb.org"
+      "url": "https://vldb.org",
+      "sourceUrl": "https://vldb.org"
     },
     {
       "id": "academic-ddl-sigmod-2027-round-1-2026-07-15",
@@ -1953,7 +1992,8 @@
         "SIGMOD"
       ],
       "source": "人工整理的官方来源入口",
-      "url": "https://sigmod.org"
+      "url": "https://sigmod.org",
+      "sourceUrl": "https://sigmod.org"
     },
     {
       "id": "academic-ddl-aaai-2027-abstract-2026-08-12",
@@ -1967,7 +2007,8 @@
         "AAAI"
       ],
       "source": "人工整理的官方来源入口",
-      "url": "https://aaai.org"
+      "url": "https://aaai.org",
+      "sourceUrl": "https://aaai.org"
     },
     {
       "id": "academic-ddl-chi-2027-papers-2026-09-10",
@@ -1981,7 +2022,8 @@
         "CHI"
       ],
       "source": "人工整理的官方来源入口",
-      "url": "https://chi2027.acm.org"
+      "url": "https://chi2027.acm.org",
+      "sourceUrl": "https://chi2027.acm.org"
     },
     {
       "id": "academic-ddl-icra-2027-paper-2026-09-15",
@@ -1995,7 +2037,8 @@
         "ICRA"
       ],
       "source": "人工整理的官方来源入口",
-      "url": "https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra"
+      "url": "https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra",
+      "sourceUrl": "https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra"
     },
     {
       "id": "academic-ddl-nsf-proposal-calendar-reminder-2026-09-30",
@@ -2009,7 +2052,8 @@
         "Proposal"
       ],
       "source": "人工整理的官方来源入口",
-      "url": "https://www.nsf.gov/funding"
+      "url": "https://www.nsf.gov/funding",
+      "sourceUrl": "https://www.nsf.gov/funding"
     },
     {
       "id": "academic-ddl-iclr-2027-submission-2026-10-01",
@@ -2022,8 +2066,9 @@
         "Representation",
         "OpenReview"
       ],
-      "source": "OpenReview public source",
-      "url": "https://iclr.cc"
+      "source": "官方来源入口",
+      "url": "https://iclr.cc",
+      "sourceUrl": "https://iclr.cc"
     },
     {
       "id": "academic-ddl-www-2027-research-track-2026-10-07",
@@ -2037,7 +2082,8 @@
         "Graph"
       ],
       "source": "人工整理的官方来源入口",
-      "url": "https://www2027.thewebconf.org"
+      "url": "https://www2027.thewebconf.org",
+      "sourceUrl": "https://www2027.thewebconf.org"
     },
     {
       "id": "academic-ddl-aistats-2027-paper-2026-10-08",
@@ -2051,7 +2097,8 @@
         "ML"
       ],
       "source": "人工整理的官方来源入口",
-      "url": "https://aistats.org"
+      "url": "https://aistats.org",
+      "sourceUrl": "https://aistats.org"
     },
     {
       "id": "academic-ddl-ubicomp-2027-full-paper-2026-10-20",
@@ -2065,7 +2112,8 @@
         "HCI"
       ],
       "source": "人工整理的官方来源入口",
-      "url": "https://ubicomp.org"
+      "url": "https://ubicomp.org",
+      "sourceUrl": "https://ubicomp.org"
     },
     {
       "id": "academic-ddl-isca-2027-paper-2026-11-18",
@@ -2079,7 +2127,8 @@
         "Systems"
       ],
       "source": "人工整理的官方来源入口",
-      "url": "https://iscaconf.org"
+      "url": "https://iscaconf.org",
+      "sourceUrl": "https://iscaconf.org"
     },
     {
       "id": "academic-ddl-icaps-2027-paper-2026-11-20",
@@ -2093,7 +2142,8 @@
         "Scheduling"
       ],
       "source": "人工整理的官方来源入口",
-      "url": "https://icaps-conference.org"
+      "url": "https://icaps-conference.org",
+      "sourceUrl": "https://icaps-conference.org"
     },
     {
       "id": "academic-ddl-icml-2027-abstract-2027-01-23",
@@ -2107,7 +2157,8 @@
         "Optimization"
       ],
       "source": "人工整理的官方来源入口",
-      "url": "https://icml.cc"
+      "url": "https://icml.cc",
+      "sourceUrl": "https://icml.cc"
     },
     {
       "id": "academic-ddl-rss-2027-paper-2027-01-25",
@@ -2121,7 +2172,8 @@
         "RSS"
       ],
       "source": "人工整理的官方来源入口",
-      "url": "https://roboticsconference.org"
+      "url": "https://roboticsconference.org",
+      "sourceUrl": "https://roboticsconference.org"
     },
     {
       "id": "academic-ddl-sigir-2027-full-paper-2027-01-30",
@@ -2135,7 +2187,8 @@
         "Search"
       ],
       "source": "人工整理的官方来源入口",
-      "url": "https://sigir.org"
+      "url": "https://sigir.org",
+      "sourceUrl": "https://sigir.org"
     },
     {
       "id": "academic-ddl-osdi-2027-paper-2027-02-01",
@@ -2149,7 +2202,8 @@
         "OSDI"
       ],
       "source": "人工整理的官方来源入口",
-      "url": "https://www.usenix.org/conferences"
+      "url": "https://www.usenix.org/conferences",
+      "sourceUrl": "https://www.usenix.org/conferences"
     },
     {
       "id": "academic-ddl-kdd-2027-research-track-2027-02-04",
@@ -2163,7 +2217,8 @@
         "KDD"
       ],
       "source": "人工整理的官方来源入口",
-      "url": "https://kdd.org"
+      "url": "https://kdd.org",
+      "sourceUrl": "https://kdd.org"
     },
     {
       "id": "academic-ddl-uai-2027-paper-2027-02-14",
@@ -2177,7 +2232,8 @@
         "AI"
       ],
       "source": "人工整理的官方来源入口",
-      "url": "https://www.auai.org/uai"
+      "url": "https://www.auai.org/uai",
+      "sourceUrl": "https://www.auai.org/uai"
     },
     {
       "id": "academic-ddl-acm-mm-2027-paper-2027-03-31",
@@ -2191,7 +2247,8 @@
         "ACM"
       ],
       "source": "人工整理的官方来源入口",
-      "url": "https://acmmm.org"
+      "url": "https://acmmm.org",
+      "sourceUrl": "https://acmmm.org"
     },
     {
       "id": "journal-ddl-ieee-jsac-digital-twins-for-wireless-networks-enabling-appli",
@@ -4371,7 +4428,8 @@
         "Rating"
       ],
       "source": "Official site",
-      "url": "https://codeforces.com"
+      "url": "https://codeforces.com",
+      "sourceUrl": "https://codeforces.com"
     },
     {
       "id": "programming-ddl-noi-online-training-camp-2026-07-05",
@@ -4385,7 +4443,8 @@
         "OI"
       ],
       "source": "人工整理的官方来源入口",
-      "url": "https://www.noi.cn"
+      "url": "https://www.noi.cn",
+      "sourceUrl": "https://www.noi.cn"
     },
     {
       "id": "programming-ddl-kaggle-playground-series-2026-07-31",
@@ -4399,7 +4458,8 @@
         "ML"
       ],
       "source": "人工整理的官方来源入口",
-      "url": "https://www.kaggle.com/competitions"
+      "url": "https://www.kaggle.com/competitions",
+      "sourceUrl": "https://www.kaggle.com/competitions"
     },
     {
       "id": "programming-ddl-hackerrank-interview-preparation-kit-sprint-2026-08-15",
@@ -4413,7 +4473,8 @@
         "Practice"
       ],
       "source": "人工整理的官方来源入口",
-      "url": "https://www.hackerrank.com/domains/tutorials/10-days-of-javascript"
+      "url": "https://www.hackerrank.com/domains/tutorials/10-days-of-javascript",
+      "sourceUrl": "https://www.hackerrank.com/domains/tutorials/10-days-of-javascript"
     },
     {
       "id": "programming-ddl-tianchi-algorithm-competition-2026-08-31",
@@ -4427,7 +4488,8 @@
         "ML"
       ],
       "source": "人工整理的官方来源入口",
-      "url": "https://tianchi.aliyun.com/competition"
+      "url": "https://tianchi.aliyun.com/competition",
+      "sourceUrl": "https://tianchi.aliyun.com/competition"
     },
     {
       "id": "programming-ddl-meta-hacker-cup-2026-qualification-2026-09-01",
@@ -4441,7 +4503,8 @@
         "Algorithm"
       ],
       "source": "人工整理的官方来源入口",
-      "url": "https://www.facebook.com/codingcompetitions/hacker-cup"
+      "url": "https://www.facebook.com/codingcompetitions/hacker-cup",
+      "sourceUrl": "https://www.facebook.com/codingcompetitions/hacker-cup"
     },
     {
       "id": "programming-ddl-icpc-asia-regional-registration-2026-09-15",
@@ -4455,7 +4518,8 @@
         "Algorithm"
       ],
       "source": "官方来源入口",
-      "url": "https://icpc.global"
+      "url": "https://icpc.global",
+      "sourceUrl": "https://icpc.global"
     },
     {
       "id": "programming-ddl-ccf-csp-certification-2026-09-20",
@@ -4469,7 +4533,8 @@
         "CSP"
       ],
       "source": "人工整理的官方来源入口",
-      "url": "https://www.cspro.org"
+      "url": "https://www.cspro.org",
+      "sourceUrl": "https://www.cspro.org"
     },
     {
       "id": "programming-ddl-dmoj-seasonal-contest-2026-10-10",
@@ -4483,7 +4548,8 @@
         "OI"
       ],
       "source": "人工整理的官方来源入口",
-      "url": "https://dmoj.ca/contests"
+      "url": "https://dmoj.ca/contests",
+      "sourceUrl": "https://dmoj.ca/contests"
     },
     {
       "id": "programming-ddl-icpc-world-finals-2026-2026-10-30",
@@ -4497,7 +4563,8 @@
         "World Finals"
       ],
       "source": "人工整理的官方来源入口",
-      "url": "https://icpc.global"
+      "url": "https://icpc.global",
+      "sourceUrl": "https://icpc.global"
     },
     {
       "id": "programming-ddl-atcoder-grand-contest-demo-round-2026-11-01",
@@ -4511,7 +4578,8 @@
         "AGC"
       ],
       "source": "Official site",
-      "url": "https://atcoder.jp"
+      "url": "https://atcoder.jp",
+      "sourceUrl": "https://atcoder.jp"
     },
     {
       "id": "programming-ddl-hash-code-legacy-practice-sprint-2026-11-30",
@@ -4525,7 +4593,8 @@
         "Practice"
       ],
       "source": "人工整理的官方来源入口",
-      "url": "https://codingcompetitions.withgoogle.com/hashcode/archive"
+      "url": "https://codingcompetitions.withgoogle.com/hashcode/archive",
+      "sourceUrl": "https://codingcompetitions.withgoogle.com/hashcode/archive"
     },
     {
       "id": "programming-ddl-advent-of-code-2026-day-1-2026-12-01",
@@ -4539,7 +4608,8 @@
         "Daily"
       ],
       "source": "Official site",
-      "url": "https://adventofcode.com"
+      "url": "https://adventofcode.com",
+      "sourceUrl": "https://adventofcode.com"
     },
     {
       "id": "programming-ddl-lanqiao-cup-provincial-round-2026-12-10",
@@ -4552,8 +4622,9 @@
         "蓝桥杯",
         "Student"
       ],
-      "source": "会议公开来源入口",
-      "url": "https://dasai.lanqiao.cn"
+      "source": "官方来源入口",
+      "url": "https://dasai.lanqiao.cn",
+      "sourceUrl": "https://dasai.lanqiao.cn"
     },
     {
       "id": "programming-ddl-usaco-2026-december-contest-2026-12-18",
@@ -4567,7 +4638,8 @@
         "OI"
       ],
       "source": "人工整理的官方来源入口",
-      "url": "https://usaco.org"
+      "url": "https://usaco.org",
+      "sourceUrl": "https://usaco.org"
     },
     {
       "id": "programming-ddl-codechef-starters-series-2026-12-31",
@@ -4581,7 +4653,8 @@
         "Weekly"
       ],
       "source": "人工整理的官方来源入口",
-      "url": "https://www.codechef.com/contests"
+      "url": "https://www.codechef.com/contests",
+      "sourceUrl": "https://www.codechef.com/contests"
     },
     {
       "id": "programming-ddl-google-code-jam-archive-practice-2026-12-31",
@@ -4595,7 +4668,8 @@
         "Archive"
       ],
       "source": "人工整理的官方来源入口",
-      "url": "https://codingcompetitions.withgoogle.com/codejam/archive"
+      "url": "https://codingcompetitions.withgoogle.com/codejam/archive",
+      "sourceUrl": "https://codingcompetitions.withgoogle.com/codejam/archive"
     },
     {
       "id": "programming-ddl-leetcode-weekly-contest-2026-12-31",
@@ -4609,7 +4683,8 @@
         "Weekly"
       ],
       "source": "Official site",
-      "url": "https://leetcode.com/contest"
+      "url": "https://leetcode.com/contest",
+      "sourceUrl": "https://leetcode.com/contest"
     },
     {
       "id": "programming-ddl-project-euler-monthly-challenge-2026-12-31",
@@ -4623,7 +4698,8 @@
         "Programming"
       ],
       "source": "人工整理的官方来源入口",
-      "url": "https://projecteuler.net"
+      "url": "https://projecteuler.net",
+      "sourceUrl": "https://projecteuler.net"
     },
     {
       "id": "programming-ddl-topcoder-srm-series-2026-12-31",
@@ -4637,7 +4713,8 @@
         "SRM"
       ],
       "source": "人工整理的官方来源入口",
-      "url": "https://www.topcoder.com/challenges"
+      "url": "https://www.topcoder.com/challenges",
+      "sourceUrl": "https://www.topcoder.com/challenges"
     },
     {
       "id": "holiday-ddl-小满-2026-2026-05-21",
@@ -4650,8 +4727,9 @@
         "二十四节气",
         "节气"
       ],
-      "source": "香港天文台历书公开来源",
-      "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
+      "source": "官方年历来源入口",
+      "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
+      "sourceUrl": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
     },
     {
       "id": "holiday-ddl-memorial-day-2026-2026-05-25",
@@ -4664,7 +4742,8 @@
         "US Federal Holiday"
       ],
       "source": "US OPM federal holidays",
-      "url": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
+      "url": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/",
+      "sourceUrl": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
     },
     {
       "id": "holiday-ddl-spring-bank-holiday-2026-2026-05-25",
@@ -4677,7 +4756,8 @@
         "UK Bank Holiday"
       ],
       "source": "UK bank holidays",
-      "url": "https://www.gov.uk/bank-holidays"
+      "url": "https://www.gov.uk/bank-holidays",
+      "sourceUrl": "https://www.gov.uk/bank-holidays"
     },
     {
       "id": "holiday-ddl-芒种-2026-2026-06-05",
@@ -4690,8 +4770,9 @@
         "二十四节气",
         "节气"
       ],
-      "source": "香港天文台历书公开来源",
-      "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
+      "source": "官方年历来源入口",
+      "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
+      "sourceUrl": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
     },
     {
       "id": "holiday-ddl-端午节-2026-2026-06-19",
@@ -4704,8 +4785,9 @@
         "法定假日",
         "传统节日"
       ],
-      "source": "国务院节假日公开来源",
-      "url": "https://www.gov.cn/"
+      "source": "官方日历来源入口",
+      "url": "https://www.gov.cn/",
+      "sourceUrl": "https://www.gov.cn/"
     },
     {
       "id": "holiday-ddl-juneteenth-2026-2026-06-19",
@@ -4718,7 +4800,8 @@
         "US Federal Holiday"
       ],
       "source": "US OPM federal holidays",
-      "url": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
+      "url": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/",
+      "sourceUrl": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
     },
     {
       "id": "holiday-ddl-夏至-2026-2026-06-21",
@@ -4731,8 +4814,9 @@
         "二十四节气",
         "节气"
       ],
-      "source": "香港天文台历书公开来源",
-      "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
+      "source": "官方年历来源入口",
+      "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
+      "sourceUrl": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
     },
     {
       "id": "holiday-ddl-father-s-day-2026-2026-06-21",
@@ -4745,8 +4829,9 @@
         "International",
         "Family"
       ],
-      "source": "国际节日公开来源",
-      "url": "https://www.timeanddate.com/holidays/"
+      "source": "官方来源入口",
+      "url": "https://www.timeanddate.com/holidays/",
+      "sourceUrl": "https://www.timeanddate.com/holidays/"
     },
     {
       "id": "holiday-ddl-independence-day-2026-2026-07-04",
@@ -4759,7 +4844,8 @@
         "US Federal Holiday"
       ],
       "source": "US OPM federal holidays",
-      "url": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
+      "url": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/",
+      "sourceUrl": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
     },
     {
       "id": "holiday-ddl-小暑-2026-2026-07-07",
@@ -4772,8 +4858,9 @@
         "二十四节气",
         "节气"
       ],
-      "source": "香港天文台历书公开来源",
-      "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
+      "source": "官方年历来源入口",
+      "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
+      "sourceUrl": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
     },
     {
       "id": "holiday-ddl-marine-day-2026-2026-07-20",
@@ -4786,7 +4873,8 @@
         "Japan National Holiday"
       ],
       "source": "Japan Cabinet Office",
-      "url": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html"
+      "url": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html",
+      "sourceUrl": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html"
     },
     {
       "id": "holiday-ddl-大暑-2026-2026-07-23",
@@ -4799,8 +4887,9 @@
         "二十四节气",
         "节气"
       ],
-      "source": "香港天文台历书公开来源",
-      "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
+      "source": "官方年历来源入口",
+      "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
+      "sourceUrl": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
     },
     {
       "id": "holiday-ddl-立秋-2026-2026-08-07",
@@ -4813,8 +4902,9 @@
         "二十四节气",
         "节气"
       ],
-      "source": "香港天文台历书公开来源",
-      "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
+      "source": "官方年历来源入口",
+      "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
+      "sourceUrl": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
     },
     {
       "id": "holiday-ddl-mountain-day-2026-2026-08-11",
@@ -4827,7 +4917,8 @@
         "Japan National Holiday"
       ],
       "source": "Japan Cabinet Office",
-      "url": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html"
+      "url": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html",
+      "sourceUrl": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html"
     },
     {
       "id": "holiday-ddl-七夕-2026-2026-08-19",
@@ -4840,8 +4931,9 @@
         "传统节日",
         "农历"
       ],
-      "source": "公开农历/节日来源",
-      "url": "https://www.timeanddate.com/holidays/"
+      "source": "官方来源入口",
+      "url": "https://www.timeanddate.com/holidays/",
+      "sourceUrl": "https://www.timeanddate.com/holidays/"
     },
     {
       "id": "holiday-ddl-处暑-2026-2026-08-23",
@@ -4854,8 +4946,9 @@
         "二十四节气",
         "节气"
       ],
-      "source": "香港天文台历书公开来源",
-      "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
+      "source": "官方年历来源入口",
+      "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
+      "sourceUrl": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
     },
     {
       "id": "holiday-ddl-中元节-2026-2026-08-27",
@@ -4868,8 +4961,9 @@
         "传统节日",
         "农历"
       ],
-      "source": "公开农历/节日来源",
-      "url": "https://www.timeanddate.com/holidays/"
+      "source": "官方来源入口",
+      "url": "https://www.timeanddate.com/holidays/",
+      "sourceUrl": "https://www.timeanddate.com/holidays/"
     },
     {
       "id": "holiday-ddl-summer-bank-holiday-2026-2026-08-31",
@@ -4882,7 +4976,8 @@
         "UK Bank Holiday"
       ],
       "source": "UK bank holidays",
-      "url": "https://www.gov.uk/bank-holidays"
+      "url": "https://www.gov.uk/bank-holidays",
+      "sourceUrl": "https://www.gov.uk/bank-holidays"
     },
     {
       "id": "holiday-ddl-白露-2026-2026-09-07",
@@ -4895,8 +4990,9 @@
         "二十四节气",
         "节气"
       ],
-      "source": "香港天文台历书公开来源",
-      "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
+      "source": "官方年历来源入口",
+      "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
+      "sourceUrl": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
     },
     {
       "id": "holiday-ddl-labor-day-2026-2026-09-07",
@@ -4909,7 +5005,8 @@
         "US Federal Holiday"
       ],
       "source": "US OPM federal holidays",
-      "url": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
+      "url": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/",
+      "sourceUrl": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
     },
     {
       "id": "holiday-ddl-respect-for-the-aged-day-2026-2026-09-21",
@@ -4922,7 +5019,8 @@
         "Japan National Holiday"
       ],
       "source": "Japan Cabinet Office",
-      "url": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html"
+      "url": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html",
+      "sourceUrl": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html"
     },
     {
       "id": "holiday-ddl-秋分-2026-2026-09-23",
@@ -4935,8 +5033,9 @@
         "二十四节气",
         "节气"
       ],
-      "source": "香港天文台历书公开来源",
-      "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
+      "source": "官方年历来源入口",
+      "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
+      "sourceUrl": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
     },
     {
       "id": "holiday-ddl-autumnal-equinox-day-2026-2026-09-23",
@@ -4949,7 +5048,8 @@
         "Japan National Holiday"
       ],
       "source": "Japan Cabinet Office",
-      "url": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html"
+      "url": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html",
+      "sourceUrl": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html"
     },
     {
       "id": "holiday-ddl-中秋节-2026-2026-09-25",
@@ -4962,8 +5062,9 @@
         "法定假日",
         "传统节日"
       ],
-      "source": "国务院节假日公开来源",
-      "url": "https://www.gov.cn/"
+      "source": "官方日历来源入口",
+      "url": "https://www.gov.cn/",
+      "sourceUrl": "https://www.gov.cn/"
     },
     {
       "id": "holiday-ddl-world-tourism-day-2026-2026-09-27",
@@ -4977,7 +5078,8 @@
         "Travel"
       ],
       "source": "UN observances",
-      "url": "https://www.un.org/en/observances"
+      "url": "https://www.un.org/en/observances",
+      "sourceUrl": "https://www.un.org/en/observances"
     },
     {
       "id": "holiday-ddl-国庆节-2026-2026-10-01",
@@ -4990,8 +5092,9 @@
         "法定假日",
         "长假"
       ],
-      "source": "国务院节假日公开来源",
-      "url": "https://www.gov.cn/"
+      "source": "官方日历来源入口",
+      "url": "https://www.gov.cn/",
+      "sourceUrl": "https://www.gov.cn/"
     },
     {
       "id": "holiday-ddl-寒露-2026-2026-10-08",
@@ -5004,8 +5107,9 @@
         "二十四节气",
         "节气"
       ],
-      "source": "香港天文台历书公开来源",
-      "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
+      "source": "官方年历来源入口",
+      "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
+      "sourceUrl": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
     },
     {
       "id": "holiday-ddl-sports-day-2026-2026-10-12",
@@ -5018,7 +5122,8 @@
         "Japan National Holiday"
       ],
       "source": "Japan Cabinet Office",
-      "url": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html"
+      "url": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html",
+      "sourceUrl": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html"
     },
     {
       "id": "holiday-ddl-重阳节-2026-2026-10-18",
@@ -5031,8 +5136,9 @@
         "传统节日",
         "农历"
       ],
-      "source": "公开农历/节日来源",
-      "url": "https://www.timeanddate.com/holidays/"
+      "source": "官方来源入口",
+      "url": "https://www.timeanddate.com/holidays/",
+      "sourceUrl": "https://www.timeanddate.com/holidays/"
     },
     {
       "id": "holiday-ddl-霜降-2026-2026-10-23",
@@ -5045,8 +5151,9 @@
         "二十四节气",
         "节气"
       ],
-      "source": "香港天文台历书公开来源",
-      "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
+      "source": "官方年历来源入口",
+      "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
+      "sourceUrl": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
     },
     {
       "id": "holiday-ddl-halloween-2026-2026-10-31",
@@ -5059,8 +5166,9 @@
         "International",
         "Festival"
       ],
-      "source": "国际节日公开来源",
-      "url": "https://www.timeanddate.com/holidays/"
+      "source": "官方来源入口",
+      "url": "https://www.timeanddate.com/holidays/",
+      "sourceUrl": "https://www.timeanddate.com/holidays/"
     },
     {
       "id": "holiday-ddl-culture-day-2026-2026-11-03",
@@ -5073,7 +5181,8 @@
         "Japan National Holiday"
       ],
       "source": "Japan Cabinet Office",
-      "url": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html"
+      "url": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html",
+      "sourceUrl": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html"
     },
     {
       "id": "holiday-ddl-立冬-2026-2026-11-07",
@@ -5086,8 +5195,9 @@
         "二十四节气",
         "节气"
       ],
-      "source": "香港天文台历书公开来源",
-      "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
+      "source": "官方年历来源入口",
+      "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
+      "sourceUrl": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
     },
     {
       "id": "holiday-ddl-singles-day-2026-2026-11-11",
@@ -5100,8 +5210,9 @@
         "Shopping",
         "China"
       ],
-      "source": "国际节日公开来源",
-      "url": "https://www.timeanddate.com/holidays/"
+      "source": "官方来源入口",
+      "url": "https://www.timeanddate.com/holidays/",
+      "sourceUrl": "https://www.timeanddate.com/holidays/"
     },
     {
       "id": "holiday-ddl-小雪-2026-2026-11-22",
@@ -5114,8 +5225,9 @@
         "二十四节气",
         "节气"
       ],
-      "source": "香港天文台历书公开来源",
-      "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
+      "source": "官方年历来源入口",
+      "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
+      "sourceUrl": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
     },
     {
       "id": "holiday-ddl-labor-thanksgiving-day-2026-2026-11-23",
@@ -5128,7 +5240,8 @@
         "Japan National Holiday"
       ],
       "source": "Japan Cabinet Office",
-      "url": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html"
+      "url": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html",
+      "sourceUrl": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html"
     },
     {
       "id": "holiday-ddl-thanksgiving-day-2026-2026-11-26",
@@ -5141,7 +5254,8 @@
         "US Federal Holiday"
       ],
       "source": "US OPM federal holidays",
-      "url": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
+      "url": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/",
+      "sourceUrl": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
     },
     {
       "id": "holiday-ddl-black-friday-2026-2026-11-27",
@@ -5154,8 +5268,9 @@
         "Shopping",
         "International"
       ],
-      "source": "国际节日公开来源",
-      "url": "https://www.timeanddate.com/holidays/"
+      "source": "官方来源入口",
+      "url": "https://www.timeanddate.com/holidays/",
+      "sourceUrl": "https://www.timeanddate.com/holidays/"
     },
     {
       "id": "holiday-ddl-大雪-2026-2026-12-07",
@@ -5168,8 +5283,9 @@
         "二十四节气",
         "节气"
       ],
-      "source": "香港天文台历书公开来源",
-      "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
+      "source": "官方年历来源入口",
+      "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
+      "sourceUrl": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
     },
     {
       "id": "holiday-ddl-冬至-2026-2026-12-22",
@@ -5182,8 +5298,9 @@
         "二十四节气",
         "传统节日"
       ],
-      "source": "香港天文台历书公开来源",
-      "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
+      "source": "官方年历来源入口",
+      "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
+      "sourceUrl": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
     },
     {
       "id": "holiday-ddl-christmas-day-2026-2026-12-25",
@@ -5196,8 +5313,9 @@
         "International",
         "Christmas"
       ],
-      "source": "国际节日公开来源",
-      "url": "https://www.timeanddate.com/holidays/"
+      "source": "官方来源入口",
+      "url": "https://www.timeanddate.com/holidays/",
+      "sourceUrl": "https://www.timeanddate.com/holidays/"
     },
     {
       "id": "holiday-ddl-boxing-day-substitute-2026-2026-12-28",
@@ -5210,7 +5328,8 @@
         "UK Bank Holiday"
       ],
       "source": "UK bank holidays",
-      "url": "https://www.gov.uk/bank-holidays"
+      "url": "https://www.gov.uk/bank-holidays",
+      "sourceUrl": "https://www.gov.uk/bank-holidays"
     },
     {
       "id": "holiday-ddl-new-year-2027-2027-01-01",
@@ -5223,8 +5342,9 @@
         "New Year",
         "International"
       ],
-      "source": "国际节日公开来源",
-      "url": "https://www.timeanddate.com/holidays/"
+      "source": "官方来源入口",
+      "url": "https://www.timeanddate.com/holidays/",
+      "sourceUrl": "https://www.timeanddate.com/holidays/"
     },
     {
       "id": "holiday-ddl-腊八节-2027-2027-01-15",
@@ -5237,8 +5357,9 @@
         "传统节日",
         "农历"
       ],
-      "source": "公开农历/节日来源",
-      "url": "https://www.timeanddate.com/holidays/"
+      "source": "官方来源入口",
+      "url": "https://www.timeanddate.com/holidays/",
+      "sourceUrl": "https://www.timeanddate.com/holidays/"
     },
     {
       "id": "holiday-ddl-元旦-2026-2026-01-01",
@@ -5251,8 +5372,9 @@
         "法定假日",
         "New Year"
       ],
-      "source": "国务院节假日公开来源",
-      "url": "https://www.gov.cn/"
+      "source": "官方日历来源入口",
+      "url": "https://www.gov.cn/",
+      "sourceUrl": "https://www.gov.cn/"
     },
     {
       "id": "holiday-ddl-小寒-2026-2026-01-05",
@@ -5265,8 +5387,9 @@
         "二十四节气",
         "节气"
       ],
-      "source": "香港天文台历书公开来源",
-      "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
+      "source": "官方年历来源入口",
+      "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
+      "sourceUrl": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
     },
     {
       "id": "holiday-ddl-coming-of-age-day-2026-2026-01-12",
@@ -5279,7 +5402,8 @@
         "Japan National Holiday"
       ],
       "source": "Japan Cabinet Office",
-      "url": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html"
+      "url": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html",
+      "sourceUrl": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html"
     },
     {
       "id": "holiday-ddl-martin-luther-king-jr-day-2026-2026-01-19",
@@ -5292,7 +5416,8 @@
         "US Federal Holiday"
       ],
       "source": "US OPM federal holidays",
-      "url": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
+      "url": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/",
+      "sourceUrl": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
     },
     {
       "id": "holiday-ddl-大寒-2026-2026-01-20",
@@ -5305,8 +5430,9 @@
         "二十四节气",
         "节气"
       ],
-      "source": "香港天文台历书公开来源",
-      "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
+      "source": "官方年历来源入口",
+      "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
+      "sourceUrl": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
     },
     {
       "id": "holiday-ddl-立春-2026-2026-02-04",
@@ -5319,8 +5445,9 @@
         "二十四节气",
         "节气"
       ],
-      "source": "香港天文台历书公开来源",
-      "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
+      "source": "官方年历来源入口",
+      "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
+      "sourceUrl": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
     },
     {
       "id": "holiday-ddl-小年-2026-2026-02-10",
@@ -5333,8 +5460,9 @@
         "传统节日",
         "春节"
       ],
-      "source": "公开农历/节日来源",
-      "url": "https://www.timeanddate.com/holidays/"
+      "source": "官方来源入口",
+      "url": "https://www.timeanddate.com/holidays/",
+      "sourceUrl": "https://www.timeanddate.com/holidays/"
     },
     {
       "id": "holiday-ddl-national-foundation-day-2026-2026-02-11",
@@ -5347,7 +5475,8 @@
         "Japan National Holiday"
       ],
       "source": "Japan Cabinet Office",
-      "url": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html"
+      "url": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html",
+      "sourceUrl": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html"
     },
     {
       "id": "holiday-ddl-valentine-s-day-2026-2026-02-14",
@@ -5360,8 +5489,9 @@
         "International",
         "Festival"
       ],
-      "source": "国际节日公开来源",
-      "url": "https://www.timeanddate.com/holidays/"
+      "source": "官方来源入口",
+      "url": "https://www.timeanddate.com/holidays/",
+      "sourceUrl": "https://www.timeanddate.com/holidays/"
     },
     {
       "id": "holiday-ddl-除夕-2026-2026-02-16",
@@ -5374,8 +5504,9 @@
         "传统节日",
         "春节"
       ],
-      "source": "公开农历/节日来源",
-      "url": "https://www.gov.cn/"
+      "source": "官方来源入口",
+      "url": "https://www.gov.cn/",
+      "sourceUrl": "https://www.gov.cn/"
     },
     {
       "id": "holiday-ddl-washington-s-birthday-2026-2026-02-16",
@@ -5388,7 +5519,8 @@
         "US Federal Holiday"
       ],
       "source": "US OPM federal holidays",
-      "url": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
+      "url": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/",
+      "sourceUrl": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
     },
     {
       "id": "holiday-ddl-春节-2026-2026-02-17",
@@ -5401,8 +5533,9 @@
         "法定假日",
         "春节"
       ],
-      "source": "国务院节假日公开来源",
-      "url": "https://www.gov.cn/"
+      "source": "官方日历来源入口",
+      "url": "https://www.gov.cn/",
+      "sourceUrl": "https://www.gov.cn/"
     },
     {
       "id": "holiday-ddl-雨水-2026-2026-02-19",
@@ -5415,8 +5548,9 @@
         "二十四节气",
         "节气"
       ],
-      "source": "香港天文台历书公开来源",
-      "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
+      "source": "官方年历来源入口",
+      "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
+      "sourceUrl": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
     },
     {
       "id": "holiday-ddl-emperor-s-birthday-2026-2026-02-23",
@@ -5429,7 +5563,8 @@
         "Japan National Holiday"
       ],
       "source": "Japan Cabinet Office",
-      "url": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html"
+      "url": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html",
+      "sourceUrl": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html"
     },
     {
       "id": "holiday-ddl-元宵节-2026-2026-03-03",
@@ -5442,8 +5577,9 @@
         "传统节日",
         "农历"
       ],
-      "source": "公开农历/节日来源",
-      "url": "https://www.timeanddate.com/holidays/"
+      "source": "官方来源入口",
+      "url": "https://www.timeanddate.com/holidays/",
+      "sourceUrl": "https://www.timeanddate.com/holidays/"
     },
     {
       "id": "holiday-ddl-惊蛰-2026-2026-03-05",
@@ -5456,8 +5592,9 @@
         "二十四节气",
         "节气"
       ],
-      "source": "香港天文台历书公开来源",
-      "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
+      "source": "官方年历来源入口",
+      "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
+      "sourceUrl": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
     },
     {
       "id": "holiday-ddl-international-women-s-day-2026-2026-03-08",
@@ -5471,7 +5608,8 @@
         "International"
       ],
       "source": "UN observances",
-      "url": "https://www.un.org/en/observances"
+      "url": "https://www.un.org/en/observances",
+      "sourceUrl": "https://www.un.org/en/observances"
     },
     {
       "id": "holiday-ddl-st-patrick-s-day-2026-2026-03-17",
@@ -5484,8 +5622,9 @@
         "International",
         "Festival"
       ],
-      "source": "国际节日公开来源",
-      "url": "https://www.timeanddate.com/holidays/"
+      "source": "官方来源入口",
+      "url": "https://www.timeanddate.com/holidays/",
+      "sourceUrl": "https://www.timeanddate.com/holidays/"
     },
     {
       "id": "holiday-ddl-春分-2026-2026-03-20",
@@ -5498,8 +5637,9 @@
         "二十四节气",
         "节气"
       ],
-      "source": "香港天文台历书公开来源",
-      "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
+      "source": "官方年历来源入口",
+      "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
+      "sourceUrl": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
     },
     {
       "id": "holiday-ddl-龙抬头-2026-2026-03-20",
@@ -5512,8 +5652,9 @@
         "传统节日",
         "农历"
       ],
-      "source": "公开农历/节日来源",
-      "url": "https://www.timeanddate.com/holidays/"
+      "source": "官方来源入口",
+      "url": "https://www.timeanddate.com/holidays/",
+      "sourceUrl": "https://www.timeanddate.com/holidays/"
     },
     {
       "id": "holiday-ddl-april-fools-day-2026-2026-04-01",
@@ -5526,8 +5667,9 @@
         "International",
         "Fun"
       ],
-      "source": "国际节日公开来源",
-      "url": "https://www.timeanddate.com/holidays/"
+      "source": "官方来源入口",
+      "url": "https://www.timeanddate.com/holidays/",
+      "sourceUrl": "https://www.timeanddate.com/holidays/"
     },
     {
       "id": "holiday-ddl-good-friday-2026-2026-04-03",
@@ -5540,7 +5682,8 @@
         "UK Bank Holiday"
       ],
       "source": "UK bank holidays",
-      "url": "https://www.gov.uk/bank-holidays"
+      "url": "https://www.gov.uk/bank-holidays",
+      "sourceUrl": "https://www.gov.uk/bank-holidays"
     },
     {
       "id": "holiday-ddl-清明-2026-2026-04-05",
@@ -5553,8 +5696,9 @@
         "二十四节气",
         "传统节日"
       ],
-      "source": "政府公告 / 历书公开来源",
-      "url": "https://www.gov.cn/"
+      "source": "Gov / 官方来源入口",
+      "url": "https://www.gov.cn/",
+      "sourceUrl": "https://www.gov.cn/"
     },
     {
       "id": "holiday-ddl-easter-monday-2026-2026-04-06",
@@ -5567,7 +5711,8 @@
         "UK Bank Holiday"
       ],
       "source": "UK bank holidays",
-      "url": "https://www.gov.uk/bank-holidays"
+      "url": "https://www.gov.uk/bank-holidays",
+      "sourceUrl": "https://www.gov.uk/bank-holidays"
     },
     {
       "id": "holiday-ddl-谷雨-2026-2026-04-20",
@@ -5580,8 +5725,9 @@
         "二十四节气",
         "节气"
       ],
-      "source": "香港天文台历书公开来源",
-      "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
+      "source": "官方年历来源入口",
+      "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
+      "sourceUrl": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
     },
     {
       "id": "holiday-ddl-earth-day-2026-2026-04-22",
@@ -5594,8 +5740,9 @@
         "Environment",
         "International"
       ],
-      "source": "官方纪念日公开来源",
-      "url": "https://www.earthday.org"
+      "source": "官方来源入口",
+      "url": "https://www.earthday.org",
+      "sourceUrl": "https://www.earthday.org"
     },
     {
       "id": "holiday-ddl-showa-day-2026-2026-04-29",
@@ -5608,7 +5755,8 @@
         "Japan National Holiday"
       ],
       "source": "Japan Cabinet Office",
-      "url": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html"
+      "url": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html",
+      "sourceUrl": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html"
     },
     {
       "id": "holiday-ddl-劳动节-2026-2026-05-01",
@@ -5621,8 +5769,9 @@
         "法定假日",
         "Labor Day"
       ],
-      "source": "国务院节假日公开来源",
-      "url": "https://www.gov.cn/"
+      "source": "官方日历来源入口",
+      "url": "https://www.gov.cn/",
+      "sourceUrl": "https://www.gov.cn/"
     },
     {
       "id": "holiday-ddl-constitution-memorial-day-2026-2026-05-03",
@@ -5635,7 +5784,8 @@
         "Japan National Holiday"
       ],
       "source": "Japan Cabinet Office",
-      "url": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html"
+      "url": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html",
+      "sourceUrl": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html"
     },
     {
       "id": "holiday-ddl-early-may-bank-holiday-2026-2026-05-04",
@@ -5648,7 +5798,8 @@
         "UK Bank Holiday"
       ],
       "source": "UK bank holidays",
-      "url": "https://www.gov.uk/bank-holidays"
+      "url": "https://www.gov.uk/bank-holidays",
+      "sourceUrl": "https://www.gov.uk/bank-holidays"
     },
     {
       "id": "holiday-ddl-greenery-day-2026-2026-05-04",
@@ -5661,7 +5812,8 @@
         "Japan National Holiday"
       ],
       "source": "Japan Cabinet Office",
-      "url": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html"
+      "url": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html",
+      "sourceUrl": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html"
     },
     {
       "id": "holiday-ddl-立夏-2026-2026-05-05",
@@ -5674,8 +5826,9 @@
         "二十四节气",
         "节气"
       ],
-      "source": "香港天文台历书公开来源",
-      "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
+      "source": "官方年历来源入口",
+      "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
+      "sourceUrl": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
     },
     {
       "id": "holiday-ddl-children-s-day-2026-2026-05-05",
@@ -5688,7 +5841,8 @@
         "Japan National Holiday"
       ],
       "source": "Japan Cabinet Office",
-      "url": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html"
+      "url": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html",
+      "sourceUrl": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html"
     },
     {
       "id": "holiday-ddl-mother-s-day-2026-2026-05-10",
@@ -5701,8 +5855,9 @@
         "International",
         "Family"
       ],
-      "source": "国际节日公开来源",
-      "url": "https://www.timeanddate.com/holidays/"
+      "source": "官方来源入口",
+      "url": "https://www.timeanddate.com/holidays/",
+      "sourceUrl": "https://www.timeanddate.com/holidays/"
     },
     {
       "id": "multimodal-ddl-vqa-challenge-2026-2026-07-01",
@@ -5715,8 +5870,9 @@
         "VQA",
         "Vision-Language"
       ],
-      "source": "Benchmark public source",
-      "url": "https://visualqa.org"
+      "source": "官方评测入口",
+      "url": "https://visualqa.org",
+      "sourceUrl": "https://visualqa.org"
     },
     {
       "id": "multimodal-ddl-textvqa-refresh-2026-08-01",
@@ -5729,8 +5885,9 @@
         "OCR",
         "VQA"
       ],
-      "source": "Benchmark public source",
-      "url": "https://textvqa.org"
+      "source": "官方评测入口",
+      "url": "https://textvqa.org",
+      "sourceUrl": "https://textvqa.org"
     },
     {
       "id": "multimodal-ddl-mmmu-challenge-2026-2026-08-15",
@@ -5743,8 +5900,9 @@
         "MM Understanding",
         "Reasoning"
       ],
-      "source": "Benchmark public source",
-      "url": "https://mmmu-benchmark.github.io"
+      "source": "官方评测入口",
+      "url": "https://mmmu-benchmark.github.io",
+      "sourceUrl": "https://mmmu-benchmark.github.io"
     },
     {
       "id": "multimodal-ddl-image-captioning-challenge-2026-08-28",
@@ -5758,7 +5916,8 @@
         "COCO"
       ],
       "source": "人工整理的官方来源入口",
-      "url": "https://cocodataset.org"
+      "url": "https://cocodataset.org",
+      "sourceUrl": "https://cocodataset.org"
     },
     {
       "id": "multimodal-ddl-mmlu-pro-vision-reasoning-track-2026-09-18",
@@ -5772,7 +5931,8 @@
         "VLM"
       ],
       "source": "人工整理的官方来源入口",
-      "url": "https://www.kaggle.com/competitions"
+      "url": "https://www.kaggle.com/competitions",
+      "sourceUrl": "https://www.kaggle.com/competitions"
     },
     {
       "id": "multimodal-ddl-video-captioning-challenge-2026-09-25",
@@ -5786,7 +5946,8 @@
         "Generation"
       ],
       "source": "人工整理的官方来源入口",
-      "url": "https://www.kaggle.com/competitions"
+      "url": "https://www.kaggle.com/competitions",
+      "sourceUrl": "https://www.kaggle.com/competitions"
     },
     {
       "id": "multimodal-ddl-aigc-evaluation-2026-2026-09-30",
@@ -5799,8 +5960,9 @@
         "AIGC",
         "Generation"
       ],
-      "source": "Kaggle competitions public source",
-      "url": "https://www.kaggle.com/competitions"
+      "source": "官方评测入口",
+      "url": "https://www.kaggle.com/competitions",
+      "sourceUrl": "https://www.kaggle.com/competitions"
     },
     {
       "id": "multimodal-ddl-video-mme-leaderboard-freeze-2026-10-12",
@@ -5813,8 +5975,9 @@
         "Video",
         "VLM"
       ],
-      "source": "Benchmark public source",
-      "url": "https://video-mme.github.io"
+      "source": "官方评测入口",
+      "url": "https://video-mme.github.io",
+      "sourceUrl": "https://video-mme.github.io"
     },
     {
       "id": "multimodal-ddl-chartqa-challenge-2026-10-22",
@@ -5828,7 +5991,8 @@
         "Document"
       ],
       "source": "人工整理的官方来源入口",
-      "url": "https://github.com/vis-nlp/ChartQA"
+      "url": "https://github.com/vis-nlp/ChartQA",
+      "sourceUrl": "https://github.com/vis-nlp/ChartQA"
     },
     {
       "id": "multimodal-ddl-audio-visual-scene-challenge-2026-11-05",
@@ -5842,7 +6006,8 @@
         "Video"
       ],
       "source": "人工整理的官方来源入口",
-      "url": "https://www.kaggle.com/competitions"
+      "url": "https://www.kaggle.com/competitions",
+      "sourceUrl": "https://www.kaggle.com/competitions"
     },
     {
       "id": "multimodal-ddl-docvqa-task-refresh-2026-11-18",
@@ -5856,7 +6021,8 @@
         "OCR"
       ],
       "source": "人工整理的官方来源入口",
-      "url": "https://rrc.cvc.uab.es/?ch=17"
+      "url": "https://rrc.cvc.uab.es/?ch=17",
+      "sourceUrl": "https://rrc.cvc.uab.es/?ch=17"
     },
     {
       "id": "multimodal-ddl-cvpr-vlm-workshop-paper-2026-12-01",
@@ -5870,7 +6036,8 @@
         "Workshop"
       ],
       "source": "人工整理的官方来源入口",
-      "url": "https://cvpr.thecvf.com"
+      "url": "https://cvpr.thecvf.com",
+      "sourceUrl": "https://cvpr.thecvf.com"
     },
     {
       "id": "multimodal-ddl-mmbench-leaderboard-snapshot-2026-12-12",
@@ -5884,7 +6051,8 @@
         "VLM"
       ],
       "source": "人工整理的官方来源入口",
-      "url": "https://opencompass.org.cn/leaderboard-multimodal"
+      "url": "https://opencompass.org.cn/leaderboard-multimodal",
+      "sourceUrl": "https://opencompass.org.cn/leaderboard-multimodal"
     },
     {
       "id": "multimodal-ddl-multimodal-safety-red-team-2026-12-20",
@@ -5898,7 +6066,8 @@
         "Red Team"
       ],
       "source": "人工整理的官方来源入口",
-      "url": "https://openreview.net/"
+      "url": "https://openreview.net/",
+      "sourceUrl": "https://openreview.net/"
     },
     {
       "id": "multimodal-ddl-llava-bench-refresh-2027-01-05",
@@ -5912,7 +6081,8 @@
         "VLM"
       ],
       "source": "人工整理的官方来源入口",
-      "url": "https://llava-vl.github.io"
+      "url": "https://llava-vl.github.io",
+      "sourceUrl": "https://llava-vl.github.io"
     },
     {
       "id": "multimodal-ddl-acl-multimodal-nlp-workshop-2027-01-25",
@@ -5926,7 +6096,8 @@
         "Workshop"
       ],
       "source": "人工整理的官方来源入口",
-      "url": "https://www.aclweb.org"
+      "url": "https://www.aclweb.org",
+      "sourceUrl": "https://www.aclweb.org"
     },
     {
       "id": "multimodal-ddl-speech-to-image-evaluation-track-2027-02-08",
@@ -5940,7 +6111,8 @@
         "Generation"
       ],
       "source": "人工整理的官方来源入口",
-      "url": "https://www.kaggle.com/competitions"
+      "url": "https://www.kaggle.com/competitions",
+      "sourceUrl": "https://www.kaggle.com/competitions"
     },
     {
       "id": "multimodal-ddl-robotics-vla-benchmark-2027-03-10",
@@ -5954,7 +6126,8 @@
         "Robotics"
       ],
       "source": "人工整理的官方来源入口",
-      "url": "https://openreview.net/"
+      "url": "https://openreview.net/",
+      "sourceUrl": "https://openreview.net/"
     },
     {
       "id": "ctftime-3277",
@@ -5969,7 +6142,8 @@
         "Jeopardy"
       ],
       "source": "ctftime",
-      "url": "https://ctftime.org/event/3277"
+      "url": "https://ctftime.org/event/3277",
+      "sourceUrl": "https://ctftime.org/event/3277"
     },
     {
       "id": "ctftime-3205",
@@ -5984,7 +6158,8 @@
         "Jeopardy"
       ],
       "source": "ctftime",
-      "url": "https://ctftime.org/event/3205"
+      "url": "https://ctftime.org/event/3205",
+      "sourceUrl": "https://ctftime.org/event/3205"
     },
     {
       "id": "ctftime-3284",
@@ -5999,7 +6174,8 @@
         "Jeopardy"
       ],
       "source": "ctftime",
-      "url": "https://ctftime.org/event/3284"
+      "url": "https://ctftime.org/event/3284",
+      "sourceUrl": "https://ctftime.org/event/3284"
     },
     {
       "id": "ctftime-3136",
@@ -6014,7 +6190,8 @@
         "Jeopardy"
       ],
       "source": "ctftime",
-      "url": "https://ctftime.org/event/3136"
+      "url": "https://ctftime.org/event/3136",
+      "sourceUrl": "https://ctftime.org/event/3136"
     },
     {
       "id": "ctftime-3271",
@@ -6029,7 +6206,8 @@
         "Jeopardy"
       ],
       "source": "ctftime",
-      "url": "https://ctftime.org/event/3271"
+      "url": "https://ctftime.org/event/3271",
+      "sourceUrl": "https://ctftime.org/event/3271"
     },
     {
       "id": "ctftime-3270",
@@ -6044,7 +6222,8 @@
         "Jeopardy"
       ],
       "source": "ctftime",
-      "url": "https://ctftime.org/event/3270"
+      "url": "https://ctftime.org/event/3270",
+      "sourceUrl": "https://ctftime.org/event/3270"
     },
     {
       "id": "ctftime-3174",
@@ -6059,7 +6238,8 @@
         "Jeopardy"
       ],
       "source": "ctftime",
-      "url": "https://ctftime.org/event/3174"
+      "url": "https://ctftime.org/event/3174",
+      "sourceUrl": "https://ctftime.org/event/3174"
     },
     {
       "id": "ctftime-3209",
@@ -6074,7 +6254,8 @@
         "Jeopardy"
       ],
       "source": "ctftime",
-      "url": "https://ctftime.org/event/3209"
+      "url": "https://ctftime.org/event/3209",
+      "sourceUrl": "https://ctftime.org/event/3209"
     },
     {
       "id": "ctftime-3247",
@@ -6089,7 +6270,8 @@
         "Jeopardy"
       ],
       "source": "ctftime",
-      "url": "https://ctftime.org/event/3247"
+      "url": "https://ctftime.org/event/3247",
+      "sourceUrl": "https://ctftime.org/event/3247"
     },
     {
       "id": "ctftime-3178",
@@ -6104,7 +6286,8 @@
         "Jeopardy"
       ],
       "source": "ctftime",
-      "url": "https://ctftime.org/event/3178"
+      "url": "https://ctftime.org/event/3178",
+      "sourceUrl": "https://ctftime.org/event/3178"
     },
     {
       "id": "ctftime-3220",
@@ -6119,7 +6302,8 @@
         "Jeopardy"
       ],
       "source": "ctftime",
-      "url": "https://ctftime.org/event/3220"
+      "url": "https://ctftime.org/event/3220",
+      "sourceUrl": "https://ctftime.org/event/3220"
     },
     {
       "id": "ctftime-3243",
@@ -6134,7 +6318,8 @@
         "Jeopardy"
       ],
       "source": "ctftime",
-      "url": "https://ctftime.org/event/3243"
+      "url": "https://ctftime.org/event/3243",
+      "sourceUrl": "https://ctftime.org/event/3243"
     },
     {
       "id": "security-ddl-def-con-ctf-qualifier-2026-07-01",
@@ -6149,7 +6334,8 @@
         "bug bounty"
       ],
       "source": "DEF CON",
-      "url": "https://defcon.org"
+      "url": "https://defcon.org",
+      "sourceUrl": "https://defcon.org"
     },
     {
       "id": "security-ddl-google-ctf-2026-2026-07-19",
@@ -6164,7 +6350,8 @@
         "bug bounty"
       ],
       "source": "Google CTF",
-      "url": "https://capturetheflag.withgoogle.com"
+      "url": "https://capturetheflag.withgoogle.com",
+      "sourceUrl": "https://capturetheflag.withgoogle.com"
     },
     {
       "id": "security-ddl-hack-the-box-business-ctf-2026-08-06",
@@ -6179,7 +6366,8 @@
         "bug bounty"
       ],
       "source": "Hack The Box CTF",
-      "url": "https://ctf.hackthebox.com"
+      "url": "https://ctf.hackthebox.com",
+      "sourceUrl": "https://ctf.hackthebox.com"
     },
     {
       "id": "security-ddl-seccon-ctf-quals-2026-08-24",
@@ -6194,7 +6382,8 @@
         "bug bounty"
       ],
       "source": "SECCON",
-      "url": "https://www.seccon.jp"
+      "url": "https://www.seccon.jp",
+      "sourceUrl": "https://www.seccon.jp"
     },
     {
       "id": "security-ddl-hitcon-ctf-2026-09-11",
@@ -6209,7 +6398,8 @@
         "bug bounty"
       ],
       "source": "HITCON CTF",
-      "url": "https://ctf.hitcon.org"
+      "url": "https://ctf.hitcon.org",
+      "sourceUrl": "https://ctf.hitcon.org"
     },
     {
       "id": "security-ddl-pwn2own-entry-window-2026-09-29",
@@ -6224,7 +6414,8 @@
         "bug bounty"
       ],
       "source": "Zero Day Initiative",
-      "url": "https://www.zerodayinitiative.com"
+      "url": "https://www.zerodayinitiative.com",
+      "sourceUrl": "https://www.zerodayinitiative.com"
     },
     {
       "id": "security-ddl-black-hat-arsenal-submission-2026-10-17",
@@ -6239,7 +6430,8 @@
         "bug bounty"
       ],
       "source": "Black Hat",
-      "url": "https://www.blackhat.com"
+      "url": "https://www.blackhat.com",
+      "sourceUrl": "https://www.blackhat.com"
     },
     {
       "id": "security-ddl-usenix-security-artifact-evaluation-2026-11-04",
@@ -6254,7 +6446,8 @@
         "bug bounty"
       ],
       "source": "USENIX Conferences",
-      "url": "https://www.usenix.org/conferences"
+      "url": "https://www.usenix.org/conferences",
+      "sourceUrl": "https://www.usenix.org/conferences"
     },
     {
       "id": "security-ddl-blue-team-village-challenge-2026-11-22",
@@ -6269,7 +6462,8 @@
         "bug bounty"
       ],
       "source": "ctftime.org",
-      "url": "https://ctftime.org"
+      "url": "https://ctftime.org",
+      "sourceUrl": "https://ctftime.org"
     },
     {
       "id": "security-ddl-bug-bounty-quarterly-review-2026-12-10",
@@ -6284,7 +6478,8 @@
         "bug bounty"
       ],
       "source": "HackerOne Hacktivity",
-      "url": "https://hackerone.com/hacktivity"
+      "url": "https://hackerone.com/hacktivity",
+      "sourceUrl": "https://hackerone.com/hacktivity"
     },
     {
       "id": "security-ddl-real-world-crypto-paper-2026-12-28",
@@ -6299,7 +6494,8 @@
         "bug bounty"
       ],
       "source": "Real World Crypto",
-      "url": "https://rwc.iacr.org"
+      "url": "https://rwc.iacr.org",
+      "sourceUrl": "https://rwc.iacr.org"
     },
     {
       "id": "security-ddl-s-p-workshop-paper-2027-01-15",
@@ -6314,7 +6510,8 @@
         "bug bounty"
       ],
       "source": "ctftime.org",
-      "url": "https://ctftime.org"
+      "url": "https://ctftime.org",
+      "sourceUrl": "https://ctftime.org"
     },
     {
       "id": "security-ddl-cyber-defense-exercise-registration-2027-02-02",
@@ -6329,7 +6526,8 @@
         "bug bounty"
       ],
       "source": "ctftime.org",
-      "url": "https://ctftime.org"
+      "url": "https://ctftime.org",
+      "sourceUrl": "https://ctftime.org"
     },
     {
       "id": "security-ddl-mobile-security-challenge-2027-02-20",
@@ -6344,7 +6542,8 @@
         "bug bounty"
       ],
       "source": "ctftime.org",
-      "url": "https://ctftime.org"
+      "url": "https://ctftime.org",
+      "sourceUrl": "https://ctftime.org"
     },
     {
       "id": "security-ddl-iot-security-testbed-sprint-2027-03-10",
@@ -6359,7 +6558,8 @@
         "bug bounty"
       ],
       "source": "ctftime.org",
-      "url": "https://ctftime.org"
+      "url": "https://ctftime.org",
+      "sourceUrl": "https://ctftime.org"
     },
     {
       "id": "security-ddl-cloud-native-security-hackathon-2027-03-28",
@@ -6374,7 +6574,8 @@
         "bug bounty"
       ],
       "source": "ctftime.org",
-      "url": "https://ctftime.org"
+      "url": "https://ctftime.org",
+      "sourceUrl": "https://ctftime.org"
     },
     {
       "id": "drivendata-297-whats-up-docs",
@@ -6391,7 +6592,8 @@
         "science"
       ],
       "source": "DrivenData Competitions",
-      "url": "https://www.drivendata.org/competitions/297/whats-up-docs/"
+      "url": "https://www.drivendata.org/competitions/297/whats-up-docs/",
+      "sourceUrl": "https://www.drivendata.org/competitions/297/whats-up-docs/"
     },
     {
       "id": "drivendata-66-flu-shot-learning",
@@ -6407,7 +6609,8 @@
         "health"
       ],
       "source": "DrivenData Competitions",
-      "url": "https://www.drivendata.org/competitions/66/flu-shot-learning/"
+      "url": "https://www.drivendata.org/competitions/66/flu-shot-learning/",
+      "sourceUrl": "https://www.drivendata.org/competitions/66/flu-shot-learning/"
     },
     {
       "id": "drivendata-87-competition-image-classification-wildlife-conservation",
@@ -6423,7 +6626,8 @@
         "climate"
       ],
       "source": "DrivenData Competitions",
-      "url": "https://www.drivendata.org/competitions/87/competition-image-classification-wildlife-conservation/"
+      "url": "https://www.drivendata.org/competitions/87/competition-image-classification-wildlife-conservation/",
+      "sourceUrl": "https://www.drivendata.org/competitions/87/competition-image-classification-wildlife-conservation/"
     },
     {
       "id": "drivendata-44-dengai-predicting-disease-spread",
@@ -6439,7 +6643,8 @@
         "health"
       ],
       "source": "DrivenData Competitions",
-      "url": "https://www.drivendata.org/competitions/44/dengai-predicting-disease-spread/"
+      "url": "https://www.drivendata.org/competitions/44/dengai-predicting-disease-spread/",
+      "sourceUrl": "https://www.drivendata.org/competitions/44/dengai-predicting-disease-spread/"
     },
     {
       "id": "drivendata-7-pump-it-up-data-mining-the-water-table",
@@ -6455,7 +6660,8 @@
         "development"
       ],
       "source": "DrivenData Competitions",
-      "url": "https://www.drivendata.org/competitions/7/pump-it-up-data-mining-the-water-table/"
+      "url": "https://www.drivendata.org/competitions/7/pump-it-up-data-mining-the-water-table/",
+      "sourceUrl": "https://www.drivendata.org/competitions/7/pump-it-up-data-mining-the-water-table/"
     },
     {
       "id": "drivendata-57-nepal-earthquake",
@@ -6471,7 +6677,8 @@
         "disasters"
       ],
       "source": "DrivenData Competitions",
-      "url": "https://www.drivendata.org/competitions/57/nepal-earthquake/"
+      "url": "https://www.drivendata.org/competitions/57/nepal-earthquake/",
+      "sourceUrl": "https://www.drivendata.org/competitions/57/nepal-earthquake/"
     },
     {
       "id": "gsoc-2026-may-1-24-community-bonding-period-gsoc-contributors-get-to-know-mentors-read-doc",
@@ -6485,7 +6692,8 @@
         "open source"
       ],
       "source": "Google Summer of Code",
-      "url": "https://developers.google.com/open-source/gsoc/timeline?hl=en"
+      "url": "https://developers.google.com/open-source/gsoc/timeline?hl=en",
+      "sourceUrl": "https://developers.google.com/open-source/gsoc/timeline?hl=en"
     },
     {
       "id": "gsoc-2026-may-25-coding-officially-begins",
@@ -6499,7 +6707,8 @@
         "open source"
       ],
       "source": "Google Summer of Code",
-      "url": "https://developers.google.com/open-source/gsoc/timeline?hl=en"
+      "url": "https://developers.google.com/open-source/gsoc/timeline?hl=en",
+      "sourceUrl": "https://developers.google.com/open-source/gsoc/timeline?hl=en"
     },
     {
       "id": "open-source-ddl-google-summer-of-code-org-application-2026-07-01",
@@ -6514,7 +6723,8 @@
         "LFX"
       ],
       "source": "Google Summer of Code",
-      "url": "https://summerofcode.withgoogle.com"
+      "url": "https://summerofcode.withgoogle.com",
+      "sourceUrl": "https://summerofcode.withgoogle.com"
     },
     {
       "id": "gsoc-2026-july-6-18-00-utc-mentors-and-gsoc-contributors-can-begin-submitting-midterm-eval",
@@ -6528,7 +6738,8 @@
         "open source"
       ],
       "source": "Google Summer of Code",
-      "url": "https://developers.google.com/open-source/gsoc/timeline?hl=en"
+      "url": "https://developers.google.com/open-source/gsoc/timeline?hl=en",
+      "sourceUrl": "https://developers.google.com/open-source/gsoc/timeline?hl=en"
     },
     {
       "id": "gsoc-2026-july-10-18-00-utc-midterm-evaluation-deadline-standard-coding-period",
@@ -6542,7 +6753,8 @@
         "open source"
       ],
       "source": "Google Summer of Code",
-      "url": "https://developers.google.com/open-source/gsoc/timeline?hl=en"
+      "url": "https://developers.google.com/open-source/gsoc/timeline?hl=en",
+      "sourceUrl": "https://developers.google.com/open-source/gsoc/timeline?hl=en"
     },
     {
       "id": "open-source-ddl-google-summer-of-code-contributor-application-2026-07-19",
@@ -6557,7 +6769,8 @@
         "LFX"
       ],
       "source": "Google Summer of Code",
-      "url": "https://summerofcode.withgoogle.com"
+      "url": "https://summerofcode.withgoogle.com",
+      "sourceUrl": "https://summerofcode.withgoogle.com"
     },
     {
       "id": "open-source-ddl-open-source-promotion-plan-application-2026-08-06",
@@ -6572,7 +6785,8 @@
         "LFX"
       ],
       "source": "开源之夏",
-      "url": "https://summer-ospp.ac.cn"
+      "url": "https://summer-ospp.ac.cn",
+      "sourceUrl": "https://summer-ospp.ac.cn"
     },
     {
       "id": "gsoc-2026-july-6-august-16-work-period-gsoc-contributors-work-on-their-project-with-guidan",
@@ -6586,7 +6800,8 @@
         "open source"
       ],
       "source": "Google Summer of Code",
-      "url": "https://developers.google.com/open-source/gsoc/timeline?hl=en"
+      "url": "https://developers.google.com/open-source/gsoc/timeline?hl=en",
+      "sourceUrl": "https://developers.google.com/open-source/gsoc/timeline?hl=en"
     },
     {
       "id": "open-source-ddl-lfx-mentorship-spring-2026-08-24",
@@ -6601,7 +6816,8 @@
         "LFX"
       ],
       "source": "LFX Mentorship",
-      "url": "https://lfx.linuxfoundation.org/tools/mentorship/"
+      "url": "https://lfx.linuxfoundation.org/tools/mentorship/",
+      "sourceUrl": "https://lfx.linuxfoundation.org/tools/mentorship/"
     },
     {
       "id": "gsoc-2026-august-17-24-18-00-utc-final-week-gsoc-contributors-submit-their-final-work-prod",
@@ -6615,7 +6831,8 @@
         "open source"
       ],
       "source": "Google Summer of Code",
-      "url": "https://developers.google.com/open-source/gsoc/timeline?hl=en"
+      "url": "https://developers.google.com/open-source/gsoc/timeline?hl=en",
+      "sourceUrl": "https://developers.google.com/open-source/gsoc/timeline?hl=en"
     },
     {
       "id": "gsoc-2026-august-24-31-18-00-utc-mentors-submit-final-gsoc-contributor-evaluations-standar",
@@ -6629,7 +6846,8 @@
         "open source"
       ],
       "source": "Google Summer of Code",
-      "url": "https://developers.google.com/open-source/gsoc/timeline?hl=en"
+      "url": "https://developers.google.com/open-source/gsoc/timeline?hl=en",
+      "sourceUrl": "https://developers.google.com/open-source/gsoc/timeline?hl=en"
     },
     {
       "id": "open-source-ddl-outreachy-internship-application-2026-09-11",
@@ -6644,7 +6862,8 @@
         "LFX"
       ],
       "source": "Outreachy",
-      "url": "https://www.outreachy.org"
+      "url": "https://www.outreachy.org",
+      "sourceUrl": "https://www.outreachy.org"
     },
     {
       "id": "open-source-ddl-rails-girls-summer-of-code-2026-09-29",
@@ -6659,7 +6878,8 @@
         "LFX"
       ],
       "source": "summerofcode.withgoogle.com",
-      "url": "https://summerofcode.withgoogle.com"
+      "url": "https://summerofcode.withgoogle.com",
+      "sourceUrl": "https://summerofcode.withgoogle.com"
     },
     {
       "id": "open-source-ddl-numfocus-small-development-grants-2026-10-17",
@@ -6674,7 +6894,8 @@
         "LFX"
       ],
       "source": "NumFOCUS Grants",
-      "url": "https://numfocus.org/programs/small-development-grants"
+      "url": "https://numfocus.org/programs/small-development-grants",
+      "sourceUrl": "https://numfocus.org/programs/small-development-grants"
     },
     {
       "id": "gsoc-2026-november-2-18-00-utc-final-date-for-all-gsoc-contributors-to-submit-their-final-",
@@ -6688,7 +6909,8 @@
         "open source"
       ],
       "source": "Google Summer of Code",
-      "url": "https://developers.google.com/open-source/gsoc/timeline?hl=en"
+      "url": "https://developers.google.com/open-source/gsoc/timeline?hl=en",
+      "sourceUrl": "https://developers.google.com/open-source/gsoc/timeline?hl=en"
     },
     {
       "id": "gsoc-2026-august-24-november-2-gsoc-contributors-with-extended-timelines-continue-coding",
@@ -6702,7 +6924,8 @@
         "open source"
       ],
       "source": "Google Summer of Code",
-      "url": "https://developers.google.com/open-source/gsoc/timeline?hl=en"
+      "url": "https://developers.google.com/open-source/gsoc/timeline?hl=en",
+      "sourceUrl": "https://developers.google.com/open-source/gsoc/timeline?hl=en"
     },
     {
       "id": "open-source-ddl-mozilla-builders-incubator-2026-11-04",
@@ -6717,7 +6940,8 @@
         "LFX"
       ],
       "source": "summerofcode.withgoogle.com",
-      "url": "https://summerofcode.withgoogle.com"
+      "url": "https://summerofcode.withgoogle.com",
+      "sourceUrl": "https://summerofcode.withgoogle.com"
     },
     {
       "id": "gsoc-2026-november-9-18-00-utc-final-date-for-mentors-to-submit-evaluations-for-gsoc-contr",
@@ -6731,7 +6955,8 @@
         "open source"
       ],
       "source": "Google Summer of Code",
-      "url": "https://developers.google.com/open-source/gsoc/timeline?hl=en"
+      "url": "https://developers.google.com/open-source/gsoc/timeline?hl=en",
+      "sourceUrl": "https://developers.google.com/open-source/gsoc/timeline?hl=en"
     },
     {
       "id": "open-source-ddl-hacktoberfest-maintainer-prep-2026-11-22",
@@ -6746,7 +6971,8 @@
         "LFX"
       ],
       "source": "summerofcode.withgoogle.com",
-      "url": "https://summerofcode.withgoogle.com"
+      "url": "https://summerofcode.withgoogle.com",
+      "sourceUrl": "https://summerofcode.withgoogle.com"
     },
     {
       "id": "open-source-ddl-cncf-mentoring-program-2026-12-10",
@@ -6761,7 +6987,8 @@
         "LFX"
       ],
       "source": "CNCF Mentoring",
-      "url": "https://github.com/cncf/mentoring"
+      "url": "https://github.com/cncf/mentoring",
+      "sourceUrl": "https://github.com/cncf/mentoring"
     },
     {
       "id": "open-source-ddl-apache-community-over-code-cfp-2026-12-28",
@@ -6776,7 +7003,8 @@
         "LFX"
       ],
       "source": "Apache Community Over Code",
-      "url": "https://communityovercode.org"
+      "url": "https://communityovercode.org",
+      "sourceUrl": "https://communityovercode.org"
     },
     {
       "id": "open-source-ddl-pycon-open-spaces-proposal-2027-01-15",
@@ -6791,7 +7019,8 @@
         "LFX"
       ],
       "source": "PyCon US",
-      "url": "https://us.pycon.org"
+      "url": "https://us.pycon.org",
+      "sourceUrl": "https://us.pycon.org"
     },
     {
       "id": "open-source-ddl-openjs-collaborator-summit-cfp-2027-02-02",
@@ -6806,7 +7035,8 @@
         "LFX"
       ],
       "source": "summerofcode.withgoogle.com",
-      "url": "https://summerofcode.withgoogle.com"
+      "url": "https://summerofcode.withgoogle.com",
+      "sourceUrl": "https://summerofcode.withgoogle.com"
     },
     {
       "id": "open-source-ddl-rust-project-fellowship-window-2027-02-20",
@@ -6821,7 +7051,8 @@
         "LFX"
       ],
       "source": "summerofcode.withgoogle.com",
-      "url": "https://summerofcode.withgoogle.com"
+      "url": "https://summerofcode.withgoogle.com",
+      "sourceUrl": "https://summerofcode.withgoogle.com"
     },
     {
       "id": "open-source-ddl-openssf-security-tooling-grant-2027-03-10",
@@ -6836,7 +7067,8 @@
         "LFX"
       ],
       "source": "OpenSSF",
-      "url": "https://openssf.org"
+      "url": "https://openssf.org",
+      "sourceUrl": "https://openssf.org"
     },
     {
       "id": "open-source-ddl-fossasia-summit-cfp-2027-03-28",
@@ -6851,7 +7083,8 @@
         "LFX"
       ],
       "source": "FOSSASIA Summit",
-      "url": "https://summit.fossasia.org"
+      "url": "https://summit.fossasia.org",
+      "sourceUrl": "https://summit.fossasia.org"
     },
     {
       "id": "aicity-2026-registration-opens",
@@ -6867,7 +7100,8 @@
         "AI City"
       ],
       "source": "AI City Challenge",
-      "url": "https://www.aicitychallenge.org"
+      "url": "https://www.aicitychallenge.org",
+      "sourceUrl": "https://www.aicitychallenge.org"
     },
     {
       "id": "aicity-2026-release-of-evaluation-server-and-test-data-sets-may-18-2026",
@@ -6883,7 +7117,8 @@
         "AI City"
       ],
       "source": "AI City Challenge",
-      "url": "https://www.aicitychallenge.org"
+      "url": "https://www.aicitychallenge.org",
+      "sourceUrl": "https://www.aicitychallenge.org"
     },
     {
       "id": "aicity-2026-release-of-evaluation-server-and-test-data-sets-may-25-2026",
@@ -6899,7 +7134,8 @@
         "AI City"
       ],
       "source": "AI City Challenge",
-      "url": "https://www.aicitychallenge.org"
+      "url": "https://www.aicitychallenge.org",
+      "sourceUrl": "https://www.aicitychallenge.org"
     },
     {
       "id": "aicity-2026-challenge-track-submissions-due-july-10-2026",
@@ -6915,7 +7151,8 @@
         "AI City"
       ],
       "source": "AI City Challenge",
-      "url": "https://www.aicitychallenge.org"
+      "url": "https://www.aicitychallenge.org",
+      "sourceUrl": "https://www.aicitychallenge.org"
     },
     {
       "id": "aicity-2026-anywhere-on-earth-workshop-papers-due-july-24-2026",
@@ -6931,7 +7168,8 @@
         "AI City"
       ],
       "source": "AI City Challenge",
-      "url": "https://www.aicitychallenge.org"
+      "url": "https://www.aicitychallenge.org",
+      "sourceUrl": "https://www.aicitychallenge.org"
     },
     {
       "id": "aicity-2026-anywhere-on-earth-acceptance-notification-august-1-2026",
@@ -6947,7 +7185,8 @@
         "AI City"
       ],
       "source": "AI City Challenge",
-      "url": "https://www.aicitychallenge.org"
+      "url": "https://www.aicitychallenge.org",
+      "sourceUrl": "https://www.aicitychallenge.org"
     },
     {
       "id": "aicity-2026-open-source-by-awards-candidates-due-august-7-2026",
@@ -6963,7 +7202,8 @@
         "AI City"
       ],
       "source": "AI City Challenge",
-      "url": "https://www.aicitychallenge.org"
+      "url": "https://www.aicitychallenge.org",
+      "sourceUrl": "https://www.aicitychallenge.org"
     },
     {
       "id": "aicity-2026-anywhere-on-earth-camera-ready-papers-due-august-15-2026",
@@ -6979,7 +7219,8 @@
         "AI City"
       ],
       "source": "AI City Challenge",
-      "url": "https://www.aicitychallenge.org"
+      "url": "https://www.aicitychallenge.org",
+      "sourceUrl": "https://www.aicitychallenge.org"
     },
     {
       "id": "aicity-2026-presentation-of-papers-and-announcement-of-awards-at-eccv-2026-september-8-9-2026",
@@ -6995,7 +7236,8 @@
         "AI City"
       ],
       "source": "AI City Challenge",
-      "url": "https://www.aicitychallenge.org"
+      "url": "https://www.aicitychallenge.org",
+      "sourceUrl": "https://www.aicitychallenge.org"
     },
     {
       "id": "techstars-abn-amro-techstars-future-of-finance-accelerator",
@@ -7010,7 +7252,8 @@
         "Techstars"
       ],
       "source": "Techstars Accelerators",
-      "url": "https://www.techstars.com/accelerators/abn-amro-techstars-future-of-finance-accelerator"
+      "url": "https://www.techstars.com/accelerators/abn-amro-techstars-future-of-finance-accelerator",
+      "sourceUrl": "https://www.techstars.com/accelerators/abn-amro-techstars-future-of-finance-accelerator"
     },
     {
       "id": "techstars-baltimore-ai-health",
@@ -7025,7 +7268,8 @@
         "Techstars"
       ],
       "source": "Techstars Accelerators",
-      "url": "https://www.techstars.com/accelerators/baltimore-ai-health"
+      "url": "https://www.techstars.com/accelerators/baltimore-ai-health",
+      "sourceUrl": "https://www.techstars.com/accelerators/baltimore-ai-health"
     },
     {
       "id": "techstars-alabama-power",
@@ -7040,7 +7284,8 @@
         "Techstars"
       ],
       "source": "Techstars Accelerators",
-      "url": "https://www.techstars.com/accelerators/alabama-power"
+      "url": "https://www.techstars.com/accelerators/alabama-power",
+      "sourceUrl": "https://www.techstars.com/accelerators/alabama-power"
     },
     {
       "id": "techstars-anywhere",
@@ -7055,7 +7300,8 @@
         "Techstars"
       ],
       "source": "Techstars Accelerators",
-      "url": "https://www.techstars.com/accelerators/anywhere"
+      "url": "https://www.techstars.com/accelerators/anywhere",
+      "sourceUrl": "https://www.techstars.com/accelerators/anywhere"
     },
     {
       "id": "techstars-boulder-accelerator",
@@ -7070,7 +7316,8 @@
         "Techstars"
       ],
       "source": "Techstars Accelerators",
-      "url": "https://www.techstars.com/accelerators/boulder-accelerator"
+      "url": "https://www.techstars.com/accelerators/boulder-accelerator",
+      "sourceUrl": "https://www.techstars.com/accelerators/boulder-accelerator"
     },
     {
       "id": "techstars-ohio-state-university-accelerator",
@@ -7085,7 +7332,8 @@
         "Techstars"
       ],
       "source": "Techstars Accelerators",
-      "url": "https://www.techstars.com/accelerators/ohio-state-university-accelerator"
+      "url": "https://www.techstars.com/accelerators/ohio-state-university-accelerator",
+      "sourceUrl": "https://www.techstars.com/accelerators/ohio-state-university-accelerator"
     },
     {
       "id": "techstars-future-of-food",
@@ -7100,7 +7348,8 @@
         "Techstars"
       ],
       "source": "Techstars Accelerators",
-      "url": "https://www.techstars.com/accelerators/future-of-food"
+      "url": "https://www.techstars.com/accelerators/future-of-food",
+      "sourceUrl": "https://www.techstars.com/accelerators/future-of-food"
     },
     {
       "id": "techstars-permanente-medicine",
@@ -7115,7 +7364,8 @@
         "Techstars"
       ],
       "source": "Techstars Accelerators",
-      "url": "https://www.techstars.com/accelerators/permanente-medicine"
+      "url": "https://www.techstars.com/accelerators/permanente-medicine",
+      "sourceUrl": "https://www.techstars.com/accelerators/permanente-medicine"
     },
     {
       "id": "techstars-nyc",
@@ -7130,7 +7380,8 @@
         "Techstars"
       ],
       "source": "Techstars Accelerators",
-      "url": "https://www.techstars.com/accelerators/nyc"
+      "url": "https://www.techstars.com/accelerators/nyc",
+      "sourceUrl": "https://www.techstars.com/accelerators/nyc"
     },
     {
       "id": "techstars-space",
@@ -7145,7 +7396,8 @@
         "Techstars"
       ],
       "source": "Techstars Accelerators",
-      "url": "https://www.techstars.com/accelerators/space"
+      "url": "https://www.techstars.com/accelerators/space",
+      "sourceUrl": "https://www.techstars.com/accelerators/space"
     },
     {
       "id": "uxda-autumn-2026-submission-period-deadline",
@@ -7161,7 +7413,8 @@
         "Autumn"
       ],
       "source": "UX Design Awards",
-      "url": "https://ux-design-awards.com/enter/dates"
+      "url": "https://ux-design-awards.com/enter/dates",
+      "sourceUrl": "https://ux-design-awards.com/enter/dates"
     },
     {
       "id": "uxda-autumn-2026-nomination-review-closes",
@@ -7177,7 +7430,8 @@
         "Autumn"
       ],
       "source": "UX Design Awards",
-      "url": "https://ux-design-awards.com/enter/dates"
+      "url": "https://ux-design-awards.com/enter/dates",
+      "sourceUrl": "https://ux-design-awards.com/enter/dates"
     },
     {
       "id": "uxda-autumn-2026-notification-of-nominees",
@@ -7193,7 +7447,8 @@
         "Autumn"
       ],
       "source": "UX Design Awards",
-      "url": "https://ux-design-awards.com/enter/dates"
+      "url": "https://ux-design-awards.com/enter/dates",
+      "sourceUrl": "https://ux-design-awards.com/enter/dates"
     },
     {
       "id": "uxda-autumn-2026-public-nominee-announcement",
@@ -7209,7 +7464,8 @@
         "Autumn"
       ],
       "source": "UX Design Awards",
-      "url": "https://ux-design-awards.com/enter/dates"
+      "url": "https://ux-design-awards.com/enter/dates",
+      "sourceUrl": "https://ux-design-awards.com/enter/dates"
     },
     {
       "id": "uxda-autumn-2026-public-choice-award-voting-closes",
@@ -7225,7 +7481,8 @@
         "Autumn"
       ],
       "source": "UX Design Awards",
-      "url": "https://ux-design-awards.com/enter/dates"
+      "url": "https://ux-design-awards.com/enter/dates",
+      "sourceUrl": "https://ux-design-awards.com/enter/dates"
     },
     {
       "id": "uxda-autumn-2026-winner-announcement",
@@ -7241,7 +7498,8 @@
         "Autumn"
       ],
       "source": "UX Design Awards",
-      "url": "https://ux-design-awards.com/enter/dates"
+      "url": "https://ux-design-awards.com/enter/dates",
+      "sourceUrl": "https://ux-design-awards.com/enter/dates"
     },
     {
       "id": "uxda-autumn-2027-call-for-participation-closes",
@@ -7257,7 +7515,8 @@
         "Autumn"
       ],
       "source": "UX Design Awards",
-      "url": "https://ux-design-awards.com/enter/dates"
+      "url": "https://ux-design-awards.com/enter/dates",
+      "sourceUrl": "https://ux-design-awards.com/enter/dates"
     },
     {
       "id": "exam-ddl-item-2026-07-01",
@@ -7272,7 +7531,8 @@
         "registration"
       ],
       "source": "yz.chsi.com.cn",
-      "url": "https://yz.chsi.com.cn"
+      "url": "https://yz.chsi.com.cn",
+      "sourceUrl": "https://yz.chsi.com.cn"
     },
     {
       "id": "exam-ddl-item-2026-07-19",
@@ -7287,7 +7547,8 @@
         "registration"
       ],
       "source": "yz.chsi.com.cn",
-      "url": "https://yz.chsi.com.cn"
+      "url": "https://yz.chsi.com.cn",
+      "sourceUrl": "https://yz.chsi.com.cn"
     },
     {
       "id": "exam-ddl-item-2026-08-06",
@@ -7302,7 +7563,8 @@
         "registration"
       ],
       "source": "cet.neea.edu.cn",
-      "url": "https://cet.neea.edu.cn"
+      "url": "https://cet.neea.edu.cn",
+      "sourceUrl": "https://cet.neea.edu.cn"
     },
     {
       "id": "exam-ddl-item-2026-08-24",
@@ -7317,7 +7579,8 @@
         "registration"
       ],
       "source": "ielts.neea.cn",
-      "url": "https://ielts.neea.cn"
+      "url": "https://ielts.neea.cn",
+      "sourceUrl": "https://ielts.neea.cn"
     },
     {
       "id": "exam-ddl-item-2026-09-11",
@@ -7332,7 +7595,8 @@
         "registration"
       ],
       "source": "toefl.neea.cn",
-      "url": "https://toefl.neea.cn"
+      "url": "https://toefl.neea.cn",
+      "sourceUrl": "https://toefl.neea.cn"
     },
     {
       "id": "exam-ddl-gre-general-test-planning-2026-09-29",
@@ -7347,7 +7611,8 @@
         "registration"
       ],
       "source": "ETS GRE",
-      "url": "https://www.ets.org/gre.html"
+      "url": "https://www.ets.org/gre.html",
+      "sourceUrl": "https://www.ets.org/gre.html"
     },
     {
       "id": "exam-ddl-gmat-focus-exam-planning-2026-10-17",
@@ -7362,7 +7627,8 @@
         "registration"
       ],
       "source": "GMAC GMAT",
-      "url": "https://www.mba.com/exams/gmat-exam"
+      "url": "https://www.mba.com/exams/gmat-exam",
+      "sourceUrl": "https://www.mba.com/exams/gmat-exam"
     },
     {
       "id": "exam-ddl-item-2026-11-04",
@@ -7377,7 +7643,8 @@
         "registration"
       ],
       "source": "中国政府网",
-      "url": "https://bm.scs.gov.cn"
+      "url": "https://bm.scs.gov.cn",
+      "sourceUrl": "https://bm.scs.gov.cn"
     },
     {
       "id": "exam-ddl-item-2026-11-22",
@@ -7392,7 +7659,8 @@
         "registration"
       ],
       "source": "ntce.neea.edu.cn",
-      "url": "https://ntce.neea.edu.cn"
+      "url": "https://ntce.neea.edu.cn",
+      "sourceUrl": "https://ntce.neea.edu.cn"
     },
     {
       "id": "exam-ddl-item-2026-12-10",
@@ -7407,7 +7675,8 @@
         "registration"
       ],
       "source": "ncre.neea.edu.cn",
-      "url": "https://ncre.neea.edu.cn"
+      "url": "https://ncre.neea.edu.cn",
+      "sourceUrl": "https://ncre.neea.edu.cn"
     },
     {
       "id": "exam-ddl-item-2026-12-28",
@@ -7422,7 +7691,8 @@
         "registration"
       ],
       "source": "ruankao.org.cn",
-      "url": "https://www.ruankao.org.cn"
+      "url": "https://www.ruankao.org.cn",
+      "sourceUrl": "https://www.ruankao.org.cn"
     },
     {
       "id": "exam-ddl-item-2027-01-15",
@@ -7437,7 +7707,8 @@
         "registration"
       ],
       "source": "cpaexam.cicpa.org.cn",
-      "url": "https://cpaexam.cicpa.org.cn"
+      "url": "https://cpaexam.cicpa.org.cn",
+      "sourceUrl": "https://cpaexam.cicpa.org.cn"
     },
     {
       "id": "exam-ddl-item-2027-02-02",
@@ -7452,7 +7723,8 @@
         "registration"
       ],
       "source": "中国政府网",
-      "url": "https://www.moj.gov.cn"
+      "url": "https://www.moj.gov.cn",
+      "sourceUrl": "https://www.moj.gov.cn"
     },
     {
       "id": "exam-ddl-aws-certification-voucher-window-2027-02-20",
@@ -7467,7 +7739,8 @@
         "registration"
       ],
       "source": "AWS Certification",
-      "url": "https://aws.amazon.com/certification/"
+      "url": "https://aws.amazon.com/certification/",
+      "sourceUrl": "https://aws.amazon.com/certification/"
     },
     {
       "id": "exam-ddl-pmp-exam-application-window-2027-03-10",
@@ -7482,7 +7755,8 @@
         "registration"
       ],
       "source": "PMI PMP Certification",
-      "url": "https://www.pmi.org/certifications/project-management-pmp"
+      "url": "https://www.pmi.org/certifications/project-management-pmp",
+      "sourceUrl": "https://www.pmi.org/certifications/project-management-pmp"
     },
     {
       "id": "exam-ddl-cfa-exam-registration-deadline-2027-03-28",
@@ -7497,7 +7771,8 @@
         "registration"
       ],
       "source": "CFA Institute",
-      "url": "https://www.cfainstitute.org"
+      "url": "https://www.cfainstitute.org",
+      "sourceUrl": "https://www.cfainstitute.org"
     },
     {
       "id": "ielts-toefl-ddl-ielts-neea-registration-portal-2026",
@@ -7614,69 +7889,8 @@
         "UK"
       ],
       "source": "Chevening Scholarships",
-      "url": "https://www.chevening.org/scholarships/application-timeline/"
-    },
-    {
-      "id": "civil-service-ddl-beijing-public-recruitment-2b7549c412",
-      "topicId": "civil-service-ddl",
-      "title": "中共北京市石景山区委党校（区行政学院、区社会主义学院）2026年公开招聘事业单位工作人员公告",
-      "deadline": "2026-05-18T16:00:00+08:00",
-      "type": "program",
-      "status": "ended",
-      "tags": [
-        "事业单位",
-        "招聘",
-        "报名"
-      ],
-      "source": "北京市人力资源和社会保障局公开招聘",
-      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260509_4642649.html"
-    },
-    {
-      "id": "civil-service-ddl-beijing-public-recruitment-a60e44f9d6",
-      "topicId": "civil-service-ddl",
-      "title": "​北京市体育局所属事业单位2026年上半年公开招聘运动员公告",
-      "deadline": "2026-05-18T23:59:00+08:00",
-      "type": "program",
-      "status": "ended",
-      "tags": [
-        "事业单位",
-        "招聘",
-        "报名"
-      ],
-      "source": "北京市人力资源和社会保障局公开招聘",
-      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260508_4640696.html"
-    },
-    {
-      "id": "civil-service-ddl-beijing-public-recruitment-783d6b6f07",
-      "topicId": "civil-service-ddl",
-      "title": "首都医科大学附属北京安贞医院2026年第二批面向应届毕业生（含社会人员）公开招聘公告",
-      "deadline": "2026-05-18T23:59:00+08:00",
-      "type": "program",
-      "status": "ended",
-      "tags": [
-        "事业单位",
-        "招聘",
-        "报名",
-        "医疗"
-      ],
-      "source": "北京市人力资源和社会保障局公开招聘",
-      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260507_4639284.html"
-    },
-    {
-      "id": "civil-service-ddl-beijing-public-recruitment-ccea664114",
-      "topicId": "civil-service-ddl",
-      "title": "石景山区教育系统事业单位2026年第二次公开招聘工作人员公告",
-      "deadline": "2026-05-19T17:00:00+08:00",
-      "type": "program",
-      "status": "ended",
-      "tags": [
-        "事业单位",
-        "招聘",
-        "报名",
-        "教师"
-      ],
-      "source": "北京市人力资源和社会保障局公开招聘",
-      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260509_4643573.html"
+      "url": "https://www.chevening.org/scholarships/application-timeline/",
+      "sourceUrl": "https://www.chevening.org/scholarships/application-timeline/"
     },
     {
       "id": "civil-service-ddl-beijing-public-recruitment-14a8e5c312",
@@ -7692,7 +7906,8 @@
         "教师"
       ],
       "source": "北京市人力资源和社会保障局公开招聘",
-      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260518_4656090.html"
+      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260518_4656090.html",
+      "sourceUrl": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260518_4656090.html"
     },
     {
       "id": "civil-service-ddl-beijing-public-recruitment-fb7add6215",
@@ -7708,7 +7923,8 @@
         "教师"
       ],
       "source": "北京市人力资源和社会保障局公开招聘",
-      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260518_4655204.html"
+      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260518_4655204.html",
+      "sourceUrl": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260518_4655204.html"
     },
     {
       "id": "civil-service-ddl-beijing-public-recruitment-796b267fed",
@@ -7724,7 +7940,8 @@
         "教师"
       ],
       "source": "北京市人力资源和社会保障局公开招聘",
-      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260518_4655797.html"
+      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260518_4655797.html",
+      "sourceUrl": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260518_4655797.html"
     },
     {
       "id": "civil-service-ddl-beijing-public-recruitment-2c84541cb0",
@@ -7739,7 +7956,8 @@
         "报名"
       ],
       "source": "北京市人力资源和社会保障局公开招聘",
-      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260518_4655772.html"
+      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260518_4655772.html",
+      "sourceUrl": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260518_4655772.html"
     },
     {
       "id": "civil-service-ddl-beijing-public-recruitment-4f8f8125ab",
@@ -7754,7 +7972,8 @@
         "报名"
       ],
       "source": "北京市人力资源和社会保障局公开招聘",
-      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260518_4655277.html"
+      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260518_4655277.html",
+      "sourceUrl": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260518_4655277.html"
     },
     {
       "id": "civil-service-ddl-beijing-public-recruitment-af9cc3a513",
@@ -7769,7 +7988,8 @@
         "报名"
       ],
       "source": "北京市人力资源和社会保障局公开招聘",
-      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260519_4657708.html"
+      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260519_4657708.html",
+      "sourceUrl": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260519_4657708.html"
     },
     {
       "id": "civil-service-ddl-beijing-public-recruitment-5effb7edce",
@@ -7785,7 +8005,8 @@
         "教师"
       ],
       "source": "北京市人力资源和社会保障局公开招聘",
-      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260521_4659979.html"
+      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260521_4659979.html",
+      "sourceUrl": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260521_4659979.html"
     },
     {
       "id": "civil-service-ddl-beijing-public-recruitment-8e7ccd9050",
@@ -7800,7 +8021,8 @@
         "报名"
       ],
       "source": "北京市人力资源和社会保障局公开招聘",
-      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260521_4659997.html"
+      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260521_4659997.html",
+      "sourceUrl": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260521_4659997.html"
     },
     {
       "id": "civil-service-ddl-beijing-public-recruitment-494e7574b0",
@@ -7816,7 +8038,8 @@
         "医疗"
       ],
       "source": "北京市人力资源和社会保障局公开招聘",
-      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260513_4648579.html"
+      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260513_4648579.html",
+      "sourceUrl": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260513_4648579.html"
     },
     {
       "id": "civil-service-ddl-beijing-public-recruitment-acd1e4ae58",
@@ -7832,7 +8055,8 @@
         "医疗"
       ],
       "source": "北京市人力资源和社会保障局公开招聘",
-      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260518_4655221.html"
+      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260518_4655221.html",
+      "sourceUrl": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260518_4655221.html"
     },
     {
       "id": "civil-service-ddl-beijing-public-recruitment-ebbe1f08de",
@@ -7847,7 +8071,8 @@
         "报名"
       ],
       "source": "北京市人力资源和社会保障局公开招聘",
-      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260522_4662600.html"
+      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260522_4662600.html",
+      "sourceUrl": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260522_4662600.html"
     },
     {
       "id": "civil-service-ddl-beijing-public-recruitment-24e7f535df",
@@ -7863,7 +8088,8 @@
         "教师"
       ],
       "source": "北京市人力资源和社会保障局公开招聘",
-      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260522_4661685.html"
+      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260522_4661685.html",
+      "sourceUrl": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260522_4661685.html"
     },
     {
       "id": "civil-service-ddl-beijing-public-recruitment-d55ed1f135",
@@ -7878,7 +8104,8 @@
         "报名"
       ],
       "source": "北京市人力资源和社会保障局公开招聘",
-      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260522_4661672.html"
+      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260522_4661672.html",
+      "sourceUrl": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260522_4661672.html"
     },
     {
       "id": "civil-service-ddl-beijing-public-recruitment-8cf8fc9697",
@@ -7894,7 +8121,8 @@
         "医疗"
       ],
       "source": "北京市人力资源和社会保障局公开招聘",
-      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260521_4659984.html"
+      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260521_4659984.html",
+      "sourceUrl": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260521_4659984.html"
     },
     {
       "id": "civil-service-ddl-beijing-public-recruitment-e1609b537b",
@@ -7909,7 +8137,8 @@
         "报名"
       ],
       "source": "北京市人力资源和社会保障局公开招聘",
-      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260522_4661677.html"
+      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260522_4661677.html",
+      "sourceUrl": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260522_4661677.html"
     },
     {
       "id": "civil-service-ddl-beijing-public-recruitment-166c92a8c2",
@@ -7924,7 +8153,8 @@
         "报名"
       ],
       "source": "北京市人力资源和社会保障局公开招聘",
-      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260525_4664395.html"
+      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260525_4664395.html",
+      "sourceUrl": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260525_4664395.html"
     },
     {
       "id": "civil-service-ddl-beijing-public-recruitment-ccfd6758eb",
@@ -7939,7 +8169,8 @@
         "报名"
       ],
       "source": "北京市人力资源和社会保障局公开招聘",
-      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260525_4664393.html"
+      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260525_4664393.html",
+      "sourceUrl": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260525_4664393.html"
     },
     {
       "id": "civil-service-ddl-beijing-public-recruitment-66e0fd5ea3",
@@ -7954,7 +8185,8 @@
         "报名"
       ],
       "source": "北京市人力资源和社会保障局公开招聘",
-      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260522_4661696.html"
+      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260522_4661696.html",
+      "sourceUrl": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260522_4661696.html"
     },
     {
       "id": "civil-service-ddl-beijing-public-recruitment-e1e09ba32b",
@@ -7970,7 +8202,8 @@
         "医疗"
       ],
       "source": "北京市人力资源和社会保障局公开招聘",
-      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260509_4642680.html"
+      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260509_4642680.html",
+      "sourceUrl": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260509_4642680.html"
     },
     {
       "id": "civil-service-ddl-national-civil-service-source-board-2026-10-15",
@@ -7985,7 +8218,8 @@
         "报名"
       ],
       "source": "国家公务员局",
-      "url": "http://bm.scs.gov.cn/kl2026"
+      "url": "http://bm.scs.gov.cn/kl2026",
+      "sourceUrl": "http://bm.scs.gov.cn/kl2026"
     },
     {
       "id": "civil-service-ddl-central-selection-source-board-2026-10-30",
@@ -8000,7 +8234,8 @@
         "选调"
       ],
       "source": "国家公务员局",
-      "url": "http://subb.scs.gov.cn/lx2026"
+      "url": "http://subb.scs.gov.cn/lx2026",
+      "sourceUrl": "http://subb.scs.gov.cn/lx2026"
     },
     {
       "id": "civil-service-ddl-beijing-public-service-source-board-2026-11-15",
@@ -8015,7 +8250,8 @@
         "报名"
       ],
       "source": "北京市人事考试服务频道",
-      "url": "https://rsj.beijing.gov.cn/ywsite/bjpta/"
+      "url": "https://rsj.beijing.gov.cn/ywsite/bjpta/",
+      "sourceUrl": "https://rsj.beijing.gov.cn/ywsite/bjpta/"
     },
     {
       "id": "civil-service-ddl-guangdong-public-service-source-board-2026-11-30",
@@ -8030,7 +8266,8 @@
         "招聘"
       ],
       "source": "广东人事考试网",
-      "url": "https://rsks.gd.gov.cn/"
+      "url": "https://rsks.gd.gov.cn/",
+      "sourceUrl": "https://rsks.gd.gov.cn/"
     },
     {
       "id": "civil-service-ddl-public-institution-source-board-2026-12-15",
@@ -8045,7 +8282,8 @@
         "报名"
       ],
       "source": "中国公共招聘网",
-      "url": "https://chinajob.mohrss.gov.cn/"
+      "url": "https://chinajob.mohrss.gov.cn/",
+      "sourceUrl": "https://chinajob.mohrss.gov.cn/"
     },
     {
       "id": "civil-service-ddl-shaanxi-public-service-source-board-2026-12-31",
@@ -8060,109 +8298,14 @@
         "招聘"
       ],
       "source": "陕西人事考试网",
-      "url": "https://www.sxrsks.cn/"
+      "url": "https://www.sxrsks.cn/",
+      "sourceUrl": "https://www.sxrsks.cn/"
     },
     {
-      "id": "civil-service-ddl-beijing-public-recruitment-8162cde1bf",
+      "id": "civil-service-ddl-beijing-public-recruitment-2b7549c412",
       "topicId": "civil-service-ddl",
-      "title": "2026年丰台区卫生健康委直属事业单位第二批公开招聘医疗卫生专业工作人员公告",
-      "deadline": "2026-05-13T16:00:00+08:00",
-      "type": "program",
-      "status": "ended",
-      "tags": [
-        "事业单位",
-        "招聘",
-        "报名",
-        "医疗"
-      ],
-      "source": "北京市人力资源和社会保障局公开招聘",
-      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202604/t20260429_4622415.html"
-    },
-    {
-      "id": "civil-service-ddl-beijing-public-recruitment-006d73fb67",
-      "topicId": "civil-service-ddl",
-      "title": "房山区燕山教育委员会所属事业单位2026年第二批公开招聘教师的公告",
-      "deadline": "2026-05-14T15:00:00+08:00",
-      "type": "program",
-      "status": "ended",
-      "tags": [
-        "事业单位",
-        "招聘",
-        "报名",
-        "教师"
-      ],
-      "source": "北京市人力资源和社会保障局公开招聘",
-      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260507_4639213.html"
-    },
-    {
-      "id": "civil-service-ddl-beijing-public-recruitment-3c6abc993a",
-      "topicId": "civil-service-ddl",
-      "title": "北京市卫生健康委员会直属事业单位2026年公开招聘工作人员公告",
-      "deadline": "2026-05-14T16:00:00+08:00",
-      "type": "program",
-      "status": "ended",
-      "tags": [
-        "事业单位",
-        "招聘",
-        "报名",
-        "医疗"
-      ],
-      "source": "北京市人力资源和社会保障局公开招聘",
-      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202604/t20260430_4625871.html"
-    },
-    {
-      "id": "civil-service-ddl-beijing-public-recruitment-a8e0362052",
-      "topicId": "civil-service-ddl",
-      "title": "北京市大兴区卫生健康委员会2026年第二批事业单位公开招聘工作人员公告",
-      "deadline": "2026-05-14T17:00:00+08:00",
-      "type": "program",
-      "status": "ended",
-      "tags": [
-        "事业单位",
-        "招聘",
-        "报名",
-        "医疗"
-      ],
-      "source": "北京市人力资源和社会保障局公开招聘",
-      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260506_4636745.html"
-    },
-    {
-      "id": "civil-service-ddl-beijing-public-recruitment-98c8f37664",
-      "topicId": "civil-service-ddl",
-      "title": "石景山区教育系统事业单位2026年第二次面向应届博士毕业生公开招聘公告",
-      "deadline": "2026-05-14T17:00:00+08:00",
-      "type": "program",
-      "status": "ended",
-      "tags": [
-        "事业单位",
-        "招聘",
-        "报名",
-        "教师"
-      ],
-      "source": "北京市人力资源和社会保障局公开招聘",
-      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260506_4637818.html"
-    },
-    {
-      "id": "civil-service-ddl-beijing-public-recruitment-cb5b2154a3",
-      "topicId": "civil-service-ddl",
-      "title": "首都医科大学附属北京口腔医院2026年公开招聘（第三批）公告",
-      "deadline": "2026-05-15T23:59:00+08:00",
-      "type": "program",
-      "status": "ended",
-      "tags": [
-        "事业单位",
-        "招聘",
-        "报名",
-        "医疗"
-      ],
-      "source": "北京市人力资源和社会保障局公开招聘",
-      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202604/t20260430_4625873.html"
-    },
-    {
-      "id": "civil-service-ddl-beijing-public-recruitment-abcafd562f",
-      "topicId": "civil-service-ddl",
-      "title": "北京财贸职业学院2026年公开招聘公告（第二批）",
-      "deadline": "2026-05-17T16:00:00+08:00",
+      "title": "中共北京市石景山区委党校（区行政学院、区社会主义学院）2026年公开招聘事业单位工作人员公告",
+      "deadline": "2026-05-18T16:00:00+08:00",
       "type": "program",
       "status": "ended",
       "tags": [
@@ -8171,13 +8314,30 @@
         "报名"
       ],
       "source": "北京市人力资源和社会保障局公开招聘",
-      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202604/t20260430_4625674.html"
+      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260509_4642649.html",
+      "sourceUrl": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260509_4642649.html"
     },
     {
-      "id": "civil-service-ddl-beijing-public-recruitment-c956b6dcbc",
+      "id": "civil-service-ddl-beijing-public-recruitment-a60e44f9d6",
       "topicId": "civil-service-ddl",
-      "title": "首都医科大学2026年度事业编制岗位公开招聘公告（第二批）",
-      "deadline": "2026-05-17T22:00:00+08:00",
+      "title": "​北京市体育局所属事业单位2026年上半年公开招聘运动员公告",
+      "deadline": "2026-05-18T23:59:00+08:00",
+      "type": "program",
+      "status": "ended",
+      "tags": [
+        "事业单位",
+        "招聘",
+        "报名"
+      ],
+      "source": "北京市人力资源和社会保障局公开招聘",
+      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260508_4640696.html",
+      "sourceUrl": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260508_4640696.html"
+    },
+    {
+      "id": "civil-service-ddl-beijing-public-recruitment-783d6b6f07",
+      "topicId": "civil-service-ddl",
+      "title": "首都医科大学附属北京安贞医院2026年第二批面向应届毕业生（含社会人员）公开招聘公告",
+      "deadline": "2026-05-18T23:59:00+08:00",
       "type": "program",
       "status": "ended",
       "tags": [
@@ -8187,7 +8347,25 @@
         "医疗"
       ],
       "source": "北京市人力资源和社会保障局公开招聘",
-      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202604/t20260430_4625644.html"
+      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260507_4639284.html",
+      "sourceUrl": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260507_4639284.html"
+    },
+    {
+      "id": "civil-service-ddl-beijing-public-recruitment-ccea664114",
+      "topicId": "civil-service-ddl",
+      "title": "石景山区教育系统事业单位2026年第二次公开招聘工作人员公告",
+      "deadline": "2026-05-19T17:00:00+08:00",
+      "type": "program",
+      "status": "ended",
+      "tags": [
+        "事业单位",
+        "招聘",
+        "报名",
+        "教师"
+      ],
+      "source": "北京市人力资源和社会保障局公开招聘",
+      "url": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260509_4643573.html",
+      "sourceUrl": "https://rsj.beijing.gov.cn/xxgk/gkzp/202605/t20260509_4643573.html"
     },
     {
       "id": "itchio-jam-gdevelop-big-game-jam-9",
@@ -8200,7 +8378,8 @@
         "game jam"
       ],
       "source": "itch.io Jams",
-      "url": "https://itch.io/jam/gdevelop-big-game-jam-9"
+      "url": "https://itch.io/jam/gdevelop-big-game-jam-9",
+      "sourceUrl": "https://itch.io/jam/gdevelop-big-game-jam-9"
     },
     {
       "id": "itchio-jam-coolmath-game-jam-2026",
@@ -8213,7 +8392,8 @@
         "game jam"
       ],
       "source": "itch.io Jams",
-      "url": "https://itch.io/jam/coolmath-game-jam-2026"
+      "url": "https://itch.io/jam/coolmath-game-jam-2026",
+      "sourceUrl": "https://itch.io/jam/coolmath-game-jam-2026"
     },
     {
       "id": "itchio-jam-noise-jam-3",
@@ -8226,7 +8406,8 @@
         "game jam"
       ],
       "source": "itch.io Jams",
-      "url": "https://itch.io/jam/noise-jam-3"
+      "url": "https://itch.io/jam/noise-jam-3",
+      "sourceUrl": "https://itch.io/jam/noise-jam-3"
     },
     {
       "id": "itchio-jam-nes-jam-2026",
@@ -8239,7 +8420,8 @@
         "game jam"
       ],
       "source": "itch.io Jams",
-      "url": "https://itch.io/jam/nes-jam-2026"
+      "url": "https://itch.io/jam/nes-jam-2026",
+      "sourceUrl": "https://itch.io/jam/nes-jam-2026"
     },
     {
       "id": "itchio-jam-metroidvania-month-32",
@@ -8252,7 +8434,8 @@
         "game jam"
       ],
       "source": "itch.io Jams",
-      "url": "https://itch.io/jam/metroidvania-month-32"
+      "url": "https://itch.io/jam/metroidvania-month-32",
+      "sourceUrl": "https://itch.io/jam/metroidvania-month-32"
     },
     {
       "id": "itchio-jam-comfy-jam-summer-2026",
@@ -8265,7 +8448,8 @@
         "game jam"
       ],
       "source": "itch.io Jams",
-      "url": "https://itch.io/jam/comfy-jam-summer-2026"
+      "url": "https://itch.io/jam/comfy-jam-summer-2026",
+      "sourceUrl": "https://itch.io/jam/comfy-jam-summer-2026"
     },
     {
       "id": "game-dev-ddl-global-game-jam-site-registration-2026-07-01",
@@ -8280,7 +8464,8 @@
         "Unity"
       ],
       "source": "Global Game Jam",
-      "url": "https://globalgamejam.org"
+      "url": "https://globalgamejam.org",
+      "sourceUrl": "https://globalgamejam.org"
     },
     {
       "id": "itchio-jam-toxic-yuri-vn-jam-2",
@@ -8293,7 +8478,8 @@
         "game jam"
       ],
       "source": "itch.io Jams",
-      "url": "https://itch.io/jam/toxic-yuri-vn-jam-2"
+      "url": "https://itch.io/jam/toxic-yuri-vn-jam-2",
+      "sourceUrl": "https://itch.io/jam/toxic-yuri-vn-jam-2"
     },
     {
       "id": "game-dev-ddl-ludum-dare-60-2026-07-19",
@@ -8308,7 +8494,8 @@
         "Unity"
       ],
       "source": "Ludum Dare",
-      "url": "https://ldjam.com"
+      "url": "https://ldjam.com",
+      "sourceUrl": "https://ldjam.com"
     },
     {
       "id": "itchio-jam-gmtk-jam-2026",
@@ -8321,7 +8508,8 @@
         "game jam"
       ],
       "source": "itch.io Jams",
-      "url": "https://itch.io/jam/gmtk-jam-2026"
+      "url": "https://itch.io/jam/gmtk-jam-2026",
+      "sourceUrl": "https://itch.io/jam/gmtk-jam-2026"
     },
     {
       "id": "game-dev-ddl-gmtk-game-jam-2026-08-06",
@@ -8336,7 +8524,8 @@
         "Unity"
       ],
       "source": "itch.io Jams",
-      "url": "https://itch.io/jams"
+      "url": "https://itch.io/jams",
+      "sourceUrl": "https://itch.io/jams"
     },
     {
       "id": "game-dev-ddl-itch-io-brackeys-game-jam-2026-08-24",
@@ -8351,7 +8540,8 @@
         "Unity"
       ],
       "source": "itch.io Jams",
-      "url": "https://itch.io/jams"
+      "url": "https://itch.io/jams",
+      "sourceUrl": "https://itch.io/jams"
     },
     {
       "id": "itchio-jam-brackeys-16",
@@ -8364,7 +8554,8 @@
         "game jam"
       ],
       "source": "itch.io Jams",
-      "url": "https://itch.io/jam/brackeys-16"
+      "url": "https://itch.io/jam/brackeys-16",
+      "sourceUrl": "https://itch.io/jam/brackeys-16"
     },
     {
       "id": "game-dev-ddl-independent-games-festival-submission-2026-09-11",
@@ -8379,7 +8570,8 @@
         "Unity"
       ],
       "source": "Independent Games Festival",
-      "url": "https://igf.com"
+      "url": "https://igf.com",
+      "sourceUrl": "https://igf.com"
     },
     {
       "id": "itchio-jam-gbjam-14",
@@ -8392,7 +8584,8 @@
         "game jam"
       ],
       "source": "itch.io Jams",
-      "url": "https://itch.io/jam/gbjam-14"
+      "url": "https://itch.io/jam/gbjam-14",
+      "sourceUrl": "https://itch.io/jam/gbjam-14"
     },
     {
       "id": "game-dev-ddl-student-game-competition-entry-2026-09-29",
@@ -8407,7 +8600,8 @@
         "Unity"
       ],
       "source": "itch.io",
-      "url": "https://itch.io/jams"
+      "url": "https://itch.io/jams",
+      "sourceUrl": "https://itch.io/jams"
     },
     {
       "id": "game-dev-ddl-unreal-engine-challenge-2026-10-17",
@@ -8422,7 +8616,8 @@
         "Unity"
       ],
       "source": "Unreal Engine",
-      "url": "https://www.unrealengine.com"
+      "url": "https://www.unrealengine.com",
+      "sourceUrl": "https://www.unrealengine.com"
     },
     {
       "id": "game-dev-ddl-unity-student-challenge-2026-11-04",
@@ -8437,7 +8632,8 @@
         "Unity"
       ],
       "source": "Unity",
-      "url": "https://unity.com"
+      "url": "https://unity.com",
+      "sourceUrl": "https://unity.com"
     },
     {
       "id": "game-dev-ddl-godot-wild-jam-2026-11-22",
@@ -8452,7 +8648,8 @@
         "Unity"
       ],
       "source": "itch.io Jams",
-      "url": "https://itch.io/jams"
+      "url": "https://itch.io/jams",
+      "sourceUrl": "https://itch.io/jams"
     },
     {
       "id": "game-dev-ddl-game-off-by-github-2026-12-10",
@@ -8467,7 +8664,8 @@
         "Unity"
       ],
       "source": "GitHub Game Off",
-      "url": "https://itch.io/jam/game-off"
+      "url": "https://itch.io/jam/game-off",
+      "sourceUrl": "https://itch.io/jam/game-off"
     },
     {
       "id": "game-dev-ddl-a-maze-awards-submission-2026-12-28",
@@ -8482,7 +8680,8 @@
         "Unity"
       ],
       "source": "A MAZE.",
-      "url": "https://amaze-berlin.de"
+      "url": "https://amaze-berlin.de",
+      "sourceUrl": "https://amaze-berlin.de"
     },
     {
       "id": "game-dev-ddl-indiecade-submission-2027-01-15",
@@ -8497,7 +8696,8 @@
         "Unity"
       ],
       "source": "IndieCade",
-      "url": "https://www.indiecade.com"
+      "url": "https://www.indiecade.com",
+      "sourceUrl": "https://www.indiecade.com"
     },
     {
       "id": "game-dev-ddl-games-for-change-awards-2027-02-02",
@@ -8512,7 +8712,8 @@
         "Unity"
       ],
       "source": "Games for Change",
-      "url": "https://www.gamesforchange.org"
+      "url": "https://www.gamesforchange.org",
+      "sourceUrl": "https://www.gamesforchange.org"
     },
     {
       "id": "game-dev-ddl-ai-npc-challenge-2027-02-20",
@@ -8527,7 +8728,8 @@
         "Unity"
       ],
       "source": "itch.io",
-      "url": "https://itch.io/jams"
+      "url": "https://itch.io/jams",
+      "sourceUrl": "https://itch.io/jams"
     },
     {
       "id": "game-dev-ddl-procedural-generation-jam-2027-03-10",
@@ -8542,7 +8744,8 @@
         "Unity"
       ],
       "source": "itch.io",
-      "url": "https://itch.io/jams"
+      "url": "https://itch.io/jams",
+      "sourceUrl": "https://itch.io/jams"
     },
     {
       "id": "game-dev-ddl-serious-games-health-track-2027-03-28",
@@ -8557,7 +8760,8 @@
         "Unity"
       ],
       "source": "itch.io",
-      "url": "https://itch.io/jams"
+      "url": "https://itch.io/jams",
+      "sourceUrl": "https://itch.io/jams"
     },
     {
       "id": "dd-health-66-flu-shot-learning",
@@ -8573,7 +8777,8 @@
         "competition"
       ],
       "source": "DrivenData Health Competitions",
-      "url": "https://www.drivendata.org/competitions/66/flu-shot-learning/"
+      "url": "https://www.drivendata.org/competitions/66/flu-shot-learning/",
+      "sourceUrl": "https://www.drivendata.org/competitions/66/flu-shot-learning/"
     },
     {
       "id": "dd-health-44-dengai-predicting-disease-spread",
@@ -8589,7 +8794,8 @@
         "competition"
       ],
       "source": "DrivenData Health Competitions",
-      "url": "https://www.drivendata.org/competitions/44/dengai-predicting-disease-spread/"
+      "url": "https://www.drivendata.org/competitions/44/dengai-predicting-disease-spread/",
+      "sourceUrl": "https://www.drivendata.org/competitions/44/dengai-predicting-disease-spread/"
     },
     {
       "id": "sports-ddl-bwf-malaysia-masters-2026-05-19",

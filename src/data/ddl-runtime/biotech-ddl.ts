@@ -19,7 +19,8 @@ export const ddlForBiotechDdl: DDLItem[] = [
     "description": "Parsed from DrivenData health competitions listing. Deadline is read from the card end-date tooltip.",
     "stage": "Deadline",
     "source": "DrivenData Health Competitions",
-    "type": "challenge"
+    "type": "challenge",
+    "sourceUrl": "https://www.drivendata.org/competitions/66/flu-shot-learning/"
   },
   {
     "id": "dd-health-44-dengai-predicting-disease-spread",
@@ -39,6 +40,7 @@ export const ddlForBiotechDdl: DDLItem[] = [
     "description": "Parsed from DrivenData health competitions listing. Deadline is read from the card end-date tooltip.",
     "stage": "Deadline",
     "source": "DrivenData Health Competitions",
-    "type": "challenge"
+    "type": "challenge",
+    "sourceUrl": "https://www.drivendata.org/competitions/44/dengai-predicting-disease-spread/"
   }
 ];

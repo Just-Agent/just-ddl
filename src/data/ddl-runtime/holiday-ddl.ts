@@ -15,9 +15,10 @@ export const ddlForHolidayDdl: DDLItem[] = [
     "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
     "status": "upcoming",
     "stage": "Solar term",
-    "source": "香港天文台历书公开来源",
+    "source": "官方年历来源入口",
     "type": "holiday",
-    "description": "夏季节气。"
+    "description": "夏季节气。",
+    "sourceUrl": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
   },
   {
     "id": "holiday-ddl-memorial-day-2026-2026-05-25",
@@ -34,7 +35,8 @@ export const ddlForHolidayDdl: DDLItem[] = [
     "stage": "Federal holiday",
     "source": "US OPM federal holidays",
     "type": "holiday",
-    "description": "美国联邦假日。"
+    "description": "美国联邦假日。",
+    "sourceUrl": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
   },
   {
     "id": "holiday-ddl-spring-bank-holiday-2026-2026-05-25",
@@ -51,7 +53,8 @@ export const ddlForHolidayDdl: DDLItem[] = [
     "stage": "Bank holiday",
     "source": "UK bank holidays",
     "type": "holiday",
-    "description": "英国银行假日。"
+    "description": "英国银行假日。",
+    "sourceUrl": "https://www.gov.uk/bank-holidays"
   },
   {
     "id": "holiday-ddl-芒种-2026-2026-06-05",
@@ -67,9 +70,10 @@ export const ddlForHolidayDdl: DDLItem[] = [
     "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
     "status": "upcoming",
     "stage": "Solar term",
-    "source": "香港天文台历书公开来源",
+    "source": "官方年历来源入口",
     "type": "holiday",
-    "description": "仲夏农事节气。"
+    "description": "仲夏农事节气。",
+    "sourceUrl": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
   },
   {
     "id": "holiday-ddl-端午节-2026-2026-06-19",
@@ -85,9 +89,10 @@ export const ddlForHolidayDdl: DDLItem[] = [
     "url": "https://www.gov.cn/",
     "status": "upcoming",
     "stage": "Holiday",
-    "source": "国务院节假日公开来源",
+    "source": "官方日历来源入口",
     "type": "holiday",
-    "description": "农历五月初五。"
+    "description": "农历五月初五。",
+    "sourceUrl": "https://www.gov.cn/"
   },
   {
     "id": "holiday-ddl-juneteenth-2026-2026-06-19",
@@ -104,7 +109,8 @@ export const ddlForHolidayDdl: DDLItem[] = [
     "stage": "Federal holiday",
     "source": "US OPM federal holidays",
     "type": "holiday",
-    "description": "美国联邦假日。"
+    "description": "美国联邦假日。",
+    "sourceUrl": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
   },
   {
     "id": "holiday-ddl-夏至-2026-2026-06-21",
@@ -120,9 +126,10 @@ export const ddlForHolidayDdl: DDLItem[] = [
     "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
     "status": "upcoming",
     "stage": "Solar term",
-    "source": "香港天文台历书公开来源",
+    "source": "官方年历来源入口",
     "type": "holiday",
-    "description": "北半球白昼较长。"
+    "description": "北半球白昼较长。",
+    "sourceUrl": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
   },
   {
     "id": "holiday-ddl-father-s-day-2026-2026-06-21",
@@ -138,9 +145,10 @@ export const ddlForHolidayDdl: DDLItem[] = [
     "url": "https://www.timeanddate.com/holidays/",
     "status": "upcoming",
     "stage": "Observance",
-    "source": "国际节日公开来源",
+    "source": "官方来源入口",
     "type": "holiday",
-    "description": "父亲节。"
+    "description": "父亲节。",
+    "sourceUrl": "https://www.timeanddate.com/holidays/"
   },
   {
     "id": "holiday-ddl-independence-day-2026-2026-07-04",
@@ -157,7 +165,8 @@ export const ddlForHolidayDdl: DDLItem[] = [
     "stage": "Federal holiday",
     "source": "US OPM federal holidays",
     "type": "holiday",
-    "description": "美国独立日。"
+    "description": "美国独立日。",
+    "sourceUrl": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
   },
   {
     "id": "holiday-ddl-小暑-2026-2026-07-07",
@@ -173,9 +182,10 @@ export const ddlForHolidayDdl: DDLItem[] = [
     "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
     "status": "upcoming",
     "stage": "Solar term",
-    "source": "香港天文台历书公开来源",
+    "source": "官方年历来源入口",
     "type": "holiday",
-    "description": "暑热开始。"
+    "description": "暑热开始。",
+    "sourceUrl": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
   },
   {
     "id": "holiday-ddl-marine-day-2026-2026-07-20",
@@ -192,7 +202,8 @@ export const ddlForHolidayDdl: DDLItem[] = [
     "stage": "National holiday",
     "source": "Japan Cabinet Office",
     "type": "holiday",
-    "description": "海之日。"
+    "description": "海之日。",
+    "sourceUrl": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html"
   },
   {
     "id": "holiday-ddl-大暑-2026-2026-07-23",
@@ -208,9 +219,10 @@ export const ddlForHolidayDdl: DDLItem[] = [
     "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
     "status": "upcoming",
     "stage": "Solar term",
-    "source": "香港天文台历书公开来源",
+    "source": "官方年历来源入口",
     "type": "holiday",
-    "description": "暑热高峰。"
+    "description": "暑热高峰。",
+    "sourceUrl": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
   },
   {
     "id": "holiday-ddl-立秋-2026-2026-08-07",
@@ -226,9 +238,10 @@ export const ddlForHolidayDdl: DDLItem[] = [
     "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
     "status": "upcoming",
     "stage": "Solar term",
-    "source": "香港天文台历书公开来源",
+    "source": "官方年历来源入口",
     "type": "holiday",
-    "description": "秋季开始。"
+    "description": "秋季开始。",
+    "sourceUrl": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
   },
   {
     "id": "holiday-ddl-mountain-day-2026-2026-08-11",
@@ -245,7 +258,8 @@ export const ddlForHolidayDdl: DDLItem[] = [
     "stage": "National holiday",
     "source": "Japan Cabinet Office",
     "type": "holiday",
-    "description": "山之日。"
+    "description": "山之日。",
+    "sourceUrl": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html"
   },
   {
     "id": "holiday-ddl-七夕-2026-2026-08-19",
@@ -261,9 +275,10 @@ export const ddlForHolidayDdl: DDLItem[] = [
     "url": "https://www.timeanddate.com/holidays/",
     "status": "upcoming",
     "stage": "Traditional festival",
-    "source": "公开农历/节日来源",
+    "source": "官方来源入口",
     "type": "holiday",
-    "description": "农历七月初七。"
+    "description": "农历七月初七。",
+    "sourceUrl": "https://www.timeanddate.com/holidays/"
   },
   {
     "id": "holiday-ddl-处暑-2026-2026-08-23",
@@ -279,9 +294,10 @@ export const ddlForHolidayDdl: DDLItem[] = [
     "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
     "status": "upcoming",
     "stage": "Solar term",
-    "source": "香港天文台历书公开来源",
+    "source": "官方年历来源入口",
     "type": "holiday",
-    "description": "暑热渐退。"
+    "description": "暑热渐退。",
+    "sourceUrl": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
   },
   {
     "id": "holiday-ddl-中元节-2026-2026-08-27",
@@ -297,9 +313,10 @@ export const ddlForHolidayDdl: DDLItem[] = [
     "url": "https://www.timeanddate.com/holidays/",
     "status": "upcoming",
     "stage": "Traditional festival",
-    "source": "公开农历/节日来源",
+    "source": "官方来源入口",
     "type": "holiday",
-    "description": "农历七月十五。"
+    "description": "农历七月十五。",
+    "sourceUrl": "https://www.timeanddate.com/holidays/"
   },
   {
     "id": "holiday-ddl-summer-bank-holiday-2026-2026-08-31",
@@ -316,7 +333,8 @@ export const ddlForHolidayDdl: DDLItem[] = [
     "stage": "Bank holiday",
     "source": "UK bank holidays",
     "type": "holiday",
-    "description": "英国银行假日。"
+    "description": "英国银行假日。",
+    "sourceUrl": "https://www.gov.uk/bank-holidays"
   },
   {
     "id": "holiday-ddl-白露-2026-2026-09-07",
@@ -332,9 +350,10 @@ export const ddlForHolidayDdl: DDLItem[] = [
     "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
     "status": "upcoming",
     "stage": "Solar term",
-    "source": "香港天文台历书公开来源",
+    "source": "官方年历来源入口",
     "type": "holiday",
-    "description": "秋季节气。"
+    "description": "秋季节气。",
+    "sourceUrl": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
   },
   {
     "id": "holiday-ddl-labor-day-2026-2026-09-07",
@@ -351,7 +370,8 @@ export const ddlForHolidayDdl: DDLItem[] = [
     "stage": "Federal holiday",
     "source": "US OPM federal holidays",
     "type": "holiday",
-    "description": "美国劳动节。"
+    "description": "美国劳动节。",
+    "sourceUrl": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
   },
   {
     "id": "holiday-ddl-respect-for-the-aged-day-2026-2026-09-21",
@@ -368,7 +388,8 @@ export const ddlForHolidayDdl: DDLItem[] = [
     "stage": "National holiday",
     "source": "Japan Cabinet Office",
     "type": "holiday",
-    "description": "敬老日。"
+    "description": "敬老日。",
+    "sourceUrl": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html"
   },
   {
     "id": "holiday-ddl-秋分-2026-2026-09-23",
@@ -384,9 +405,10 @@ export const ddlForHolidayDdl: DDLItem[] = [
     "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
     "status": "upcoming",
     "stage": "Solar term",
-    "source": "香港天文台历书公开来源",
+    "source": "官方年历来源入口",
     "type": "holiday",
-    "description": "昼夜近等长。"
+    "description": "昼夜近等长。",
+    "sourceUrl": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
   },
   {
     "id": "holiday-ddl-autumnal-equinox-day-2026-2026-09-23",
@@ -403,7 +425,8 @@ export const ddlForHolidayDdl: DDLItem[] = [
     "stage": "National holiday",
     "source": "Japan Cabinet Office",
     "type": "holiday",
-    "description": "秋分日。"
+    "description": "秋分日。",
+    "sourceUrl": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html"
   },
   {
     "id": "holiday-ddl-中秋节-2026-2026-09-25",
@@ -419,9 +442,10 @@ export const ddlForHolidayDdl: DDLItem[] = [
     "url": "https://www.gov.cn/",
     "status": "upcoming",
     "stage": "Holiday",
-    "source": "国务院节假日公开来源",
+    "source": "官方日历来源入口",
     "type": "holiday",
-    "description": "农历八月十五。"
+    "description": "农历八月十五。",
+    "sourceUrl": "https://www.gov.cn/"
   },
   {
     "id": "holiday-ddl-world-tourism-day-2026-2026-09-27",
@@ -439,7 +463,8 @@ export const ddlForHolidayDdl: DDLItem[] = [
     "stage": "UN observance",
     "source": "UN observances",
     "type": "holiday",
-    "description": "世界旅游日。"
+    "description": "世界旅游日。",
+    "sourceUrl": "https://www.un.org/en/observances"
   },
   {
     "id": "holiday-ddl-国庆节-2026-2026-10-01",
@@ -455,9 +480,10 @@ export const ddlForHolidayDdl: DDLItem[] = [
     "url": "https://www.gov.cn/",
     "status": "upcoming",
     "stage": "Holiday",
-    "source": "国务院节假日公开来源",
+    "source": "官方日历来源入口",
     "type": "holiday",
-    "description": "国庆假期入口。"
+    "description": "国庆假期入口。",
+    "sourceUrl": "https://www.gov.cn/"
   },
   {
     "id": "holiday-ddl-寒露-2026-2026-10-08",
@@ -473,9 +499,10 @@ export const ddlForHolidayDdl: DDLItem[] = [
     "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
     "status": "upcoming",
     "stage": "Solar term",
-    "source": "香港天文台历书公开来源",
+    "source": "官方年历来源入口",
     "type": "holiday",
-    "description": "深秋节气。"
+    "description": "深秋节气。",
+    "sourceUrl": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
   },
   {
     "id": "holiday-ddl-sports-day-2026-2026-10-12",
@@ -492,7 +519,8 @@ export const ddlForHolidayDdl: DDLItem[] = [
     "stage": "National holiday",
     "source": "Japan Cabinet Office",
     "type": "holiday",
-    "description": "体育日。"
+    "description": "体育日。",
+    "sourceUrl": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html"
   },
   {
     "id": "holiday-ddl-重阳节-2026-2026-10-18",
@@ -508,9 +536,10 @@ export const ddlForHolidayDdl: DDLItem[] = [
     "url": "https://www.timeanddate.com/holidays/",
     "status": "upcoming",
     "stage": "Traditional festival",
-    "source": "公开农历/节日来源",
+    "source": "官方来源入口",
     "type": "holiday",
-    "description": "农历九月初九。"
+    "description": "农历九月初九。",
+    "sourceUrl": "https://www.timeanddate.com/holidays/"
   },
   {
     "id": "holiday-ddl-霜降-2026-2026-10-23",
@@ -526,9 +555,10 @@ export const ddlForHolidayDdl: DDLItem[] = [
     "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
     "status": "upcoming",
     "stage": "Solar term",
-    "source": "香港天文台历书公开来源",
+    "source": "官方年历来源入口",
     "type": "holiday",
-    "description": "秋季最后一个节气。"
+    "description": "秋季最后一个节气。",
+    "sourceUrl": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
   },
   {
     "id": "holiday-ddl-halloween-2026-2026-10-31",
@@ -544,9 +574,10 @@ export const ddlForHolidayDdl: DDLItem[] = [
     "url": "https://www.timeanddate.com/holidays/",
     "status": "upcoming",
     "stage": "Observance",
-    "source": "国际节日公开来源",
+    "source": "官方来源入口",
     "type": "holiday",
-    "description": "万圣夜。"
+    "description": "万圣夜。",
+    "sourceUrl": "https://www.timeanddate.com/holidays/"
   },
   {
     "id": "holiday-ddl-culture-day-2026-2026-11-03",
@@ -563,7 +594,8 @@ export const ddlForHolidayDdl: DDLItem[] = [
     "stage": "National holiday",
     "source": "Japan Cabinet Office",
     "type": "holiday",
-    "description": "文化日。"
+    "description": "文化日。",
+    "sourceUrl": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html"
   },
   {
     "id": "holiday-ddl-立冬-2026-2026-11-07",
@@ -579,9 +611,10 @@ export const ddlForHolidayDdl: DDLItem[] = [
     "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
     "status": "upcoming",
     "stage": "Solar term",
-    "source": "香港天文台历书公开来源",
+    "source": "官方年历来源入口",
     "type": "holiday",
-    "description": "冬季开始。"
+    "description": "冬季开始。",
+    "sourceUrl": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
   },
   {
     "id": "holiday-ddl-singles-day-2026-2026-11-11",
@@ -597,9 +630,10 @@ export const ddlForHolidayDdl: DDLItem[] = [
     "url": "https://www.timeanddate.com/holidays/",
     "status": "upcoming",
     "stage": "Observance",
-    "source": "国际节日公开来源",
+    "source": "官方来源入口",
     "type": "holiday",
-    "description": "双十一。"
+    "description": "双十一。",
+    "sourceUrl": "https://www.timeanddate.com/holidays/"
   },
   {
     "id": "holiday-ddl-小雪-2026-2026-11-22",
@@ -615,9 +649,10 @@ export const ddlForHolidayDdl: DDLItem[] = [
     "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
     "status": "upcoming",
     "stage": "Solar term",
-    "source": "香港天文台历书公开来源",
+    "source": "官方年历来源入口",
     "type": "holiday",
-    "description": "冬季节气。"
+    "description": "冬季节气。",
+    "sourceUrl": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
   },
   {
     "id": "holiday-ddl-labor-thanksgiving-day-2026-2026-11-23",
@@ -634,7 +669,8 @@ export const ddlForHolidayDdl: DDLItem[] = [
     "stage": "National holiday",
     "source": "Japan Cabinet Office",
     "type": "holiday",
-    "description": "勤劳感谢日。"
+    "description": "勤劳感谢日。",
+    "sourceUrl": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html"
   },
   {
     "id": "holiday-ddl-thanksgiving-day-2026-2026-11-26",
@@ -651,7 +687,8 @@ export const ddlForHolidayDdl: DDLItem[] = [
     "stage": "Federal holiday",
     "source": "US OPM federal holidays",
     "type": "holiday",
-    "description": "美国感恩节。"
+    "description": "美国感恩节。",
+    "sourceUrl": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
   },
   {
     "id": "holiday-ddl-black-friday-2026-2026-11-27",
@@ -667,9 +704,10 @@ export const ddlForHolidayDdl: DDLItem[] = [
     "url": "https://www.timeanddate.com/holidays/",
     "status": "upcoming",
     "stage": "Observance",
-    "source": "国际节日公开来源",
+    "source": "官方来源入口",
     "type": "holiday",
-    "description": "黑色星期五。"
+    "description": "黑色星期五。",
+    "sourceUrl": "https://www.timeanddate.com/holidays/"
   },
   {
     "id": "holiday-ddl-大雪-2026-2026-12-07",
@@ -685,9 +723,10 @@ export const ddlForHolidayDdl: DDLItem[] = [
     "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
     "status": "upcoming",
     "stage": "Solar term",
-    "source": "香港天文台历书公开来源",
+    "source": "官方年历来源入口",
     "type": "holiday",
-    "description": "仲冬节气。"
+    "description": "仲冬节气。",
+    "sourceUrl": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
   },
   {
     "id": "holiday-ddl-冬至-2026-2026-12-22",
@@ -703,9 +742,10 @@ export const ddlForHolidayDdl: DDLItem[] = [
     "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
     "status": "upcoming",
     "stage": "Solar term",
-    "source": "香港天文台历书公开来源",
+    "source": "官方年历来源入口",
     "type": "holiday",
-    "description": "冬至节气。"
+    "description": "冬至节气。",
+    "sourceUrl": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
   },
   {
     "id": "holiday-ddl-christmas-day-2026-2026-12-25",
@@ -721,9 +761,10 @@ export const ddlForHolidayDdl: DDLItem[] = [
     "url": "https://www.timeanddate.com/holidays/",
     "status": "upcoming",
     "stage": "Holiday",
-    "source": "国际节日公开来源",
+    "source": "官方来源入口",
     "type": "holiday",
-    "description": "圣诞节。"
+    "description": "圣诞节。",
+    "sourceUrl": "https://www.timeanddate.com/holidays/"
   },
   {
     "id": "holiday-ddl-boxing-day-substitute-2026-2026-12-28",
@@ -740,7 +781,8 @@ export const ddlForHolidayDdl: DDLItem[] = [
     "stage": "Bank holiday",
     "source": "UK bank holidays",
     "type": "holiday",
-    "description": "英国节礼日补假。"
+    "description": "英国节礼日补假。",
+    "sourceUrl": "https://www.gov.uk/bank-holidays"
   },
   {
     "id": "holiday-ddl-new-year-2027-2027-01-01",
@@ -756,9 +798,10 @@ export const ddlForHolidayDdl: DDLItem[] = [
     "url": "https://www.timeanddate.com/holidays/",
     "status": "upcoming",
     "stage": "Holiday",
-    "source": "国际节日公开来源",
+    "source": "官方来源入口",
     "type": "holiday",
-    "description": "跨年与新年假日。"
+    "description": "跨年与新年假日。",
+    "sourceUrl": "https://www.timeanddate.com/holidays/"
   },
   {
     "id": "holiday-ddl-腊八节-2027-2027-01-15",
@@ -774,9 +817,10 @@ export const ddlForHolidayDdl: DDLItem[] = [
     "url": "https://www.timeanddate.com/holidays/",
     "status": "upcoming",
     "stage": "Traditional festival",
-    "source": "公开农历/节日来源",
+    "source": "官方来源入口",
     "type": "holiday",
-    "description": "农历腊月初八。"
+    "description": "农历腊月初八。",
+    "sourceUrl": "https://www.timeanddate.com/holidays/"
   },
   {
     "id": "holiday-ddl-元旦-2026-2026-01-01",
@@ -792,9 +836,10 @@ export const ddlForHolidayDdl: DDLItem[] = [
     "url": "https://www.gov.cn/",
     "status": "ended",
     "stage": "Holiday",
-    "source": "国务院节假日公开来源",
+    "source": "官方日历来源入口",
     "type": "holiday",
-    "description": "新年假日。"
+    "description": "新年假日。",
+    "sourceUrl": "https://www.gov.cn/"
   },
   {
     "id": "holiday-ddl-小寒-2026-2026-01-05",
@@ -810,9 +855,10 @@ export const ddlForHolidayDdl: DDLItem[] = [
     "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
     "status": "ended",
     "stage": "Solar term",
-    "source": "香港天文台历书公开来源",
+    "source": "官方年历来源入口",
     "type": "holiday",
-    "description": "冬季节气。"
+    "description": "冬季节气。",
+    "sourceUrl": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
   },
   {
     "id": "holiday-ddl-coming-of-age-day-2026-2026-01-12",
@@ -829,7 +875,8 @@ export const ddlForHolidayDdl: DDLItem[] = [
     "stage": "National holiday",
     "source": "Japan Cabinet Office",
     "type": "holiday",
-    "description": "日本成人之日。"
+    "description": "日本成人之日。",
+    "sourceUrl": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html"
   },
   {
     "id": "holiday-ddl-martin-luther-king-jr-day-2026-2026-01-19",
@@ -846,7 +893,8 @@ export const ddlForHolidayDdl: DDLItem[] = [
     "stage": "Federal holiday",
     "source": "US OPM federal holidays",
     "type": "holiday",
-    "description": "美国联邦假日。"
+    "description": "美国联邦假日。",
+    "sourceUrl": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
   },
   {
     "id": "holiday-ddl-大寒-2026-2026-01-20",
@@ -862,9 +910,10 @@ export const ddlForHolidayDdl: DDLItem[] = [
     "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
     "status": "ended",
     "stage": "Solar term",
-    "source": "香港天文台历书公开来源",
+    "source": "官方年历来源入口",
     "type": "holiday",
-    "description": "冬季最后一个节气。"
+    "description": "冬季最后一个节气。",
+    "sourceUrl": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
   },
   {
     "id": "holiday-ddl-立春-2026-2026-02-04",
@@ -880,9 +929,10 @@ export const ddlForHolidayDdl: DDLItem[] = [
     "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
     "status": "ended",
     "stage": "Solar term",
-    "source": "香港天文台历书公开来源",
+    "source": "官方年历来源入口",
     "type": "holiday",
-    "description": "春季开始。"
+    "description": "春季开始。",
+    "sourceUrl": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
   },
   {
     "id": "holiday-ddl-小年-2026-2026-02-10",
@@ -898,9 +948,10 @@ export const ddlForHolidayDdl: DDLItem[] = [
     "url": "https://www.timeanddate.com/holidays/",
     "status": "ended",
     "stage": "Traditional festival",
-    "source": "公开农历/节日来源",
+    "source": "官方来源入口",
     "type": "holiday",
-    "description": "北方小年。"
+    "description": "北方小年。",
+    "sourceUrl": "https://www.timeanddate.com/holidays/"
   },
   {
     "id": "holiday-ddl-national-foundation-day-2026-2026-02-11",
@@ -917,7 +968,8 @@ export const ddlForHolidayDdl: DDLItem[] = [
     "stage": "National holiday",
     "source": "Japan Cabinet Office",
     "type": "holiday",
-    "description": "日本建国纪念日。"
+    "description": "日本建国纪念日。",
+    "sourceUrl": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html"
   },
   {
     "id": "holiday-ddl-valentine-s-day-2026-2026-02-14",
@@ -933,9 +985,10 @@ export const ddlForHolidayDdl: DDLItem[] = [
     "url": "https://www.timeanddate.com/holidays/",
     "status": "ended",
     "stage": "Observance",
-    "source": "国际节日公开来源",
+    "source": "官方来源入口",
     "type": "holiday",
-    "description": "情人节。"
+    "description": "情人节。",
+    "sourceUrl": "https://www.timeanddate.com/holidays/"
   },
   {
     "id": "holiday-ddl-除夕-2026-2026-02-16",
@@ -951,9 +1004,10 @@ export const ddlForHolidayDdl: DDLItem[] = [
     "url": "https://www.gov.cn/",
     "status": "ended",
     "stage": "Traditional festival",
-    "source": "公开农历/节日来源",
+    "source": "官方来源入口",
     "type": "holiday",
-    "description": "农历岁末。"
+    "description": "农历岁末。",
+    "sourceUrl": "https://www.gov.cn/"
   },
   {
     "id": "holiday-ddl-washington-s-birthday-2026-2026-02-16",
@@ -970,7 +1024,8 @@ export const ddlForHolidayDdl: DDLItem[] = [
     "stage": "Federal holiday",
     "source": "US OPM federal holidays",
     "type": "holiday",
-    "description": "美国联邦假日。"
+    "description": "美国联邦假日。",
+    "sourceUrl": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
   },
   {
     "id": "holiday-ddl-春节-2026-2026-02-17",
@@ -986,9 +1041,10 @@ export const ddlForHolidayDdl: DDLItem[] = [
     "url": "https://www.gov.cn/",
     "status": "ended",
     "stage": "Holiday",
-    "source": "国务院节假日公开来源",
+    "source": "官方日历来源入口",
     "type": "holiday",
-    "description": "农历新年。"
+    "description": "农历新年。",
+    "sourceUrl": "https://www.gov.cn/"
   },
   {
     "id": "holiday-ddl-雨水-2026-2026-02-19",
@@ -1004,9 +1060,10 @@ export const ddlForHolidayDdl: DDLItem[] = [
     "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
     "status": "ended",
     "stage": "Solar term",
-    "source": "香港天文台历书公开来源",
+    "source": "官方年历来源入口",
     "type": "holiday",
-    "description": "降水增多。"
+    "description": "降水增多。",
+    "sourceUrl": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
   },
   {
     "id": "holiday-ddl-emperor-s-birthday-2026-2026-02-23",
@@ -1023,7 +1080,8 @@ export const ddlForHolidayDdl: DDLItem[] = [
     "stage": "National holiday",
     "source": "Japan Cabinet Office",
     "type": "holiday",
-    "description": "日本天皇诞生日。"
+    "description": "日本天皇诞生日。",
+    "sourceUrl": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html"
   },
   {
     "id": "holiday-ddl-元宵节-2026-2026-03-03",
@@ -1039,9 +1097,10 @@ export const ddlForHolidayDdl: DDLItem[] = [
     "url": "https://www.timeanddate.com/holidays/",
     "status": "ended",
     "stage": "Traditional festival",
-    "source": "公开农历/节日来源",
+    "source": "官方来源入口",
     "type": "holiday",
-    "description": "正月十五。"
+    "description": "正月十五。",
+    "sourceUrl": "https://www.timeanddate.com/holidays/"
   },
   {
     "id": "holiday-ddl-惊蛰-2026-2026-03-05",
@@ -1057,9 +1116,10 @@ export const ddlForHolidayDdl: DDLItem[] = [
     "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
     "status": "ended",
     "stage": "Solar term",
-    "source": "香港天文台历书公开来源",
+    "source": "官方年历来源入口",
     "type": "holiday",
-    "description": "仲春节气。"
+    "description": "仲春节气。",
+    "sourceUrl": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
   },
   {
     "id": "holiday-ddl-international-women-s-day-2026-2026-03-08",
@@ -1077,7 +1137,8 @@ export const ddlForHolidayDdl: DDLItem[] = [
     "stage": "UN observance",
     "source": "UN observances",
     "type": "holiday",
-    "description": "国际妇女节。"
+    "description": "国际妇女节。",
+    "sourceUrl": "https://www.un.org/en/observances"
   },
   {
     "id": "holiday-ddl-st-patrick-s-day-2026-2026-03-17",
@@ -1093,9 +1154,10 @@ export const ddlForHolidayDdl: DDLItem[] = [
     "url": "https://www.timeanddate.com/holidays/",
     "status": "ended",
     "stage": "Observance",
-    "source": "国际节日公开来源",
+    "source": "官方来源入口",
     "type": "holiday",
-    "description": "圣帕特里克节。"
+    "description": "圣帕特里克节。",
+    "sourceUrl": "https://www.timeanddate.com/holidays/"
   },
   {
     "id": "holiday-ddl-春分-2026-2026-03-20",
@@ -1111,9 +1173,10 @@ export const ddlForHolidayDdl: DDLItem[] = [
     "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
     "status": "ended",
     "stage": "Solar term",
-    "source": "香港天文台历书公开来源",
+    "source": "官方年历来源入口",
     "type": "holiday",
-    "description": "昼夜近等长。"
+    "description": "昼夜近等长。",
+    "sourceUrl": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
   },
   {
     "id": "holiday-ddl-龙抬头-2026-2026-03-20",
@@ -1129,9 +1192,10 @@ export const ddlForHolidayDdl: DDLItem[] = [
     "url": "https://www.timeanddate.com/holidays/",
     "status": "ended",
     "stage": "Traditional festival",
-    "source": "公开农历/节日来源",
+    "source": "官方来源入口",
     "type": "holiday",
-    "description": "农历二月初二。"
+    "description": "农历二月初二。",
+    "sourceUrl": "https://www.timeanddate.com/holidays/"
   },
   {
     "id": "holiday-ddl-april-fools-day-2026-2026-04-01",
@@ -1147,9 +1211,10 @@ export const ddlForHolidayDdl: DDLItem[] = [
     "url": "https://www.timeanddate.com/holidays/",
     "status": "ended",
     "stage": "Observance",
-    "source": "国际节日公开来源",
+    "source": "官方来源入口",
     "type": "holiday",
-    "description": "愚人节。"
+    "description": "愚人节。",
+    "sourceUrl": "https://www.timeanddate.com/holidays/"
   },
   {
     "id": "holiday-ddl-good-friday-2026-2026-04-03",
@@ -1166,7 +1231,8 @@ export const ddlForHolidayDdl: DDLItem[] = [
     "stage": "Bank holiday",
     "source": "UK bank holidays",
     "type": "holiday",
-    "description": "英国银行假日。"
+    "description": "英国银行假日。",
+    "sourceUrl": "https://www.gov.uk/bank-holidays"
   },
   {
     "id": "holiday-ddl-清明-2026-2026-04-05",
@@ -1182,9 +1248,10 @@ export const ddlForHolidayDdl: DDLItem[] = [
     "url": "https://www.gov.cn/",
     "status": "ended",
     "stage": "Solar term",
-    "source": "政府公告 / 历书公开来源",
+    "source": "Gov / 官方来源入口",
     "type": "holiday",
-    "description": "节气与传统节日。"
+    "description": "节气与传统节日。",
+    "sourceUrl": "https://www.gov.cn/"
   },
   {
     "id": "holiday-ddl-easter-monday-2026-2026-04-06",
@@ -1201,7 +1268,8 @@ export const ddlForHolidayDdl: DDLItem[] = [
     "stage": "Bank holiday",
     "source": "UK bank holidays",
     "type": "holiday",
-    "description": "英国银行假日。"
+    "description": "英国银行假日。",
+    "sourceUrl": "https://www.gov.uk/bank-holidays"
   },
   {
     "id": "holiday-ddl-谷雨-2026-2026-04-20",
@@ -1217,9 +1285,10 @@ export const ddlForHolidayDdl: DDLItem[] = [
     "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
     "status": "ended",
     "stage": "Solar term",
-    "source": "香港天文台历书公开来源",
+    "source": "官方年历来源入口",
     "type": "holiday",
-    "description": "春季最后一个节气。"
+    "description": "春季最后一个节气。",
+    "sourceUrl": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
   },
   {
     "id": "holiday-ddl-earth-day-2026-2026-04-22",
@@ -1235,9 +1304,10 @@ export const ddlForHolidayDdl: DDLItem[] = [
     "url": "https://www.earthday.org",
     "status": "ended",
     "stage": "Observance",
-    "source": "官方纪念日公开来源",
+    "source": "官方来源入口",
     "type": "holiday",
-    "description": "世界地球日。"
+    "description": "世界地球日。",
+    "sourceUrl": "https://www.earthday.org"
   },
   {
     "id": "holiday-ddl-showa-day-2026-2026-04-29",
@@ -1254,7 +1324,8 @@ export const ddlForHolidayDdl: DDLItem[] = [
     "stage": "National holiday",
     "source": "Japan Cabinet Office",
     "type": "holiday",
-    "description": "昭和之日。"
+    "description": "昭和之日。",
+    "sourceUrl": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html"
   },
   {
     "id": "holiday-ddl-劳动节-2026-2026-05-01",
@@ -1270,9 +1341,10 @@ export const ddlForHolidayDdl: DDLItem[] = [
     "url": "https://www.gov.cn/",
     "status": "ended",
     "stage": "Holiday",
-    "source": "国务院节假日公开来源",
+    "source": "官方日历来源入口",
     "type": "holiday",
-    "description": "劳动节假期入口。"
+    "description": "劳动节假期入口。",
+    "sourceUrl": "https://www.gov.cn/"
   },
   {
     "id": "holiday-ddl-constitution-memorial-day-2026-2026-05-03",
@@ -1289,7 +1361,8 @@ export const ddlForHolidayDdl: DDLItem[] = [
     "stage": "National holiday",
     "source": "Japan Cabinet Office",
     "type": "holiday",
-    "description": "宪法纪念日。"
+    "description": "宪法纪念日。",
+    "sourceUrl": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html"
   },
   {
     "id": "holiday-ddl-early-may-bank-holiday-2026-2026-05-04",
@@ -1306,7 +1379,8 @@ export const ddlForHolidayDdl: DDLItem[] = [
     "stage": "Bank holiday",
     "source": "UK bank holidays",
     "type": "holiday",
-    "description": "英国银行假日。"
+    "description": "英国银行假日。",
+    "sourceUrl": "https://www.gov.uk/bank-holidays"
   },
   {
     "id": "holiday-ddl-greenery-day-2026-2026-05-04",
@@ -1323,7 +1397,8 @@ export const ddlForHolidayDdl: DDLItem[] = [
     "stage": "National holiday",
     "source": "Japan Cabinet Office",
     "type": "holiday",
-    "description": "绿之日。"
+    "description": "绿之日。",
+    "sourceUrl": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html"
   },
   {
     "id": "holiday-ddl-立夏-2026-2026-05-05",
@@ -1339,9 +1414,10 @@ export const ddlForHolidayDdl: DDLItem[] = [
     "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
     "status": "ended",
     "stage": "Solar term",
-    "source": "香港天文台历书公开来源",
+    "source": "官方年历来源入口",
     "type": "holiday",
-    "description": "夏季开始。"
+    "description": "夏季开始。",
+    "sourceUrl": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm"
   },
   {
     "id": "holiday-ddl-children-s-day-2026-2026-05-05",
@@ -1358,7 +1434,8 @@ export const ddlForHolidayDdl: DDLItem[] = [
     "stage": "National holiday",
     "source": "Japan Cabinet Office",
     "type": "holiday",
-    "description": "日本儿童节。"
+    "description": "日本儿童节。",
+    "sourceUrl": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html"
   },
   {
     "id": "holiday-ddl-mother-s-day-2026-2026-05-10",
@@ -1374,8 +1451,9 @@ export const ddlForHolidayDdl: DDLItem[] = [
     "url": "https://www.timeanddate.com/holidays/",
     "status": "ended",
     "stage": "Observance",
-    "source": "国际节日公开来源",
+    "source": "官方来源入口",
     "type": "holiday",
-    "description": "母亲节。"
+    "description": "母亲节。",
+    "sourceUrl": "https://www.timeanddate.com/holidays/"
   }
 ];

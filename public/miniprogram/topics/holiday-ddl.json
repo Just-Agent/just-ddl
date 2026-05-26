@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-25T23:04:19.374Z",
-  "dataVersion": "65b78becb1005ce4",
+  "generatedAt": "2026-05-26T01:07:11.250Z",
+  "dataVersion": "0784691de0f1f631",
   "topic": {
     "id": "holiday-ddl",
     "name": "Holidays",
@@ -34,7 +34,8 @@
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "status": "upcoming",
       "stage": "Solar term",
-      "source": "香港天文台历书公开来源",
+      "source": "官方年历来源入口",
+      "sourceUrl": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "type": "holiday",
       "description": "夏季节气。"
     },
@@ -53,6 +54,7 @@
       "status": "upcoming",
       "stage": "Federal holiday",
       "source": "US OPM federal holidays",
+      "sourceUrl": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/",
       "type": "holiday",
       "description": "美国联邦假日。"
     },
@@ -71,6 +73,7 @@
       "status": "upcoming",
       "stage": "Bank holiday",
       "source": "UK bank holidays",
+      "sourceUrl": "https://www.gov.uk/bank-holidays",
       "type": "holiday",
       "description": "英国银行假日。"
     },
@@ -89,7 +92,8 @@
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "status": "upcoming",
       "stage": "Solar term",
-      "source": "香港天文台历书公开来源",
+      "source": "官方年历来源入口",
+      "sourceUrl": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "type": "holiday",
       "description": "仲夏农事节气。"
     },
@@ -108,7 +112,8 @@
       "url": "https://www.gov.cn/",
       "status": "upcoming",
       "stage": "Holiday",
-      "source": "国务院节假日公开来源",
+      "source": "官方日历来源入口",
+      "sourceUrl": "https://www.gov.cn/",
       "type": "holiday",
       "description": "农历五月初五。"
     },
@@ -127,6 +132,7 @@
       "status": "upcoming",
       "stage": "Federal holiday",
       "source": "US OPM federal holidays",
+      "sourceUrl": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/",
       "type": "holiday",
       "description": "美国联邦假日。"
     },
@@ -145,7 +151,8 @@
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "status": "upcoming",
       "stage": "Solar term",
-      "source": "香港天文台历书公开来源",
+      "source": "官方年历来源入口",
+      "sourceUrl": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "type": "holiday",
       "description": "北半球白昼较长。"
     },
@@ -164,7 +171,8 @@
       "url": "https://www.timeanddate.com/holidays/",
       "status": "upcoming",
       "stage": "Observance",
-      "source": "国际节日公开来源",
+      "source": "官方来源入口",
+      "sourceUrl": "https://www.timeanddate.com/holidays/",
       "type": "holiday",
       "description": "父亲节。"
     },
@@ -183,6 +191,7 @@
       "status": "upcoming",
       "stage": "Federal holiday",
       "source": "US OPM federal holidays",
+      "sourceUrl": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/",
       "type": "holiday",
       "description": "美国独立日。"
     },
@@ -201,7 +210,8 @@
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "status": "upcoming",
       "stage": "Solar term",
-      "source": "香港天文台历书公开来源",
+      "source": "官方年历来源入口",
+      "sourceUrl": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "type": "holiday",
       "description": "暑热开始。"
     },
@@ -220,6 +230,7 @@
       "status": "upcoming",
       "stage": "National holiday",
       "source": "Japan Cabinet Office",
+      "sourceUrl": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html",
       "type": "holiday",
       "description": "海之日。"
     },
@@ -238,7 +249,8 @@
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "status": "upcoming",
       "stage": "Solar term",
-      "source": "香港天文台历书公开来源",
+      "source": "官方年历来源入口",
+      "sourceUrl": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "type": "holiday",
       "description": "暑热高峰。"
     },
@@ -257,7 +269,8 @@
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "status": "upcoming",
       "stage": "Solar term",
-      "source": "香港天文台历书公开来源",
+      "source": "官方年历来源入口",
+      "sourceUrl": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "type": "holiday",
       "description": "秋季开始。"
     },
@@ -276,6 +289,7 @@
       "status": "upcoming",
       "stage": "National holiday",
       "source": "Japan Cabinet Office",
+      "sourceUrl": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html",
       "type": "holiday",
       "description": "山之日。"
     },
@@ -294,7 +308,8 @@
       "url": "https://www.timeanddate.com/holidays/",
       "status": "upcoming",
       "stage": "Traditional festival",
-      "source": "公开农历/节日来源",
+      "source": "官方来源入口",
+      "sourceUrl": "https://www.timeanddate.com/holidays/",
       "type": "holiday",
       "description": "农历七月初七。"
     },
@@ -313,7 +328,8 @@
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "status": "upcoming",
       "stage": "Solar term",
-      "source": "香港天文台历书公开来源",
+      "source": "官方年历来源入口",
+      "sourceUrl": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "type": "holiday",
       "description": "暑热渐退。"
     },
@@ -332,7 +348,8 @@
       "url": "https://www.timeanddate.com/holidays/",
       "status": "upcoming",
       "stage": "Traditional festival",
-      "source": "公开农历/节日来源",
+      "source": "官方来源入口",
+      "sourceUrl": "https://www.timeanddate.com/holidays/",
       "type": "holiday",
       "description": "农历七月十五。"
     },
@@ -351,6 +368,7 @@
       "status": "upcoming",
       "stage": "Bank holiday",
       "source": "UK bank holidays",
+      "sourceUrl": "https://www.gov.uk/bank-holidays",
       "type": "holiday",
       "description": "英国银行假日。"
     },
@@ -369,7 +387,8 @@
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "status": "upcoming",
       "stage": "Solar term",
-      "source": "香港天文台历书公开来源",
+      "source": "官方年历来源入口",
+      "sourceUrl": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "type": "holiday",
       "description": "秋季节气。"
     },
@@ -388,6 +407,7 @@
       "status": "upcoming",
       "stage": "Federal holiday",
       "source": "US OPM federal holidays",
+      "sourceUrl": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/",
       "type": "holiday",
       "description": "美国劳动节。"
     },
@@ -406,6 +426,7 @@
       "status": "upcoming",
       "stage": "National holiday",
       "source": "Japan Cabinet Office",
+      "sourceUrl": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html",
       "type": "holiday",
       "description": "敬老日。"
     },
@@ -424,7 +445,8 @@
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "status": "upcoming",
       "stage": "Solar term",
-      "source": "香港天文台历书公开来源",
+      "source": "官方年历来源入口",
+      "sourceUrl": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "type": "holiday",
       "description": "昼夜近等长。"
     },
@@ -443,6 +465,7 @@
       "status": "upcoming",
       "stage": "National holiday",
       "source": "Japan Cabinet Office",
+      "sourceUrl": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html",
       "type": "holiday",
       "description": "秋分日。"
     },
@@ -461,7 +484,8 @@
       "url": "https://www.gov.cn/",
       "status": "upcoming",
       "stage": "Holiday",
-      "source": "国务院节假日公开来源",
+      "source": "官方日历来源入口",
+      "sourceUrl": "https://www.gov.cn/",
       "type": "holiday",
       "description": "农历八月十五。"
     },
@@ -481,6 +505,7 @@
       "status": "upcoming",
       "stage": "UN observance",
       "source": "UN observances",
+      "sourceUrl": "https://www.un.org/en/observances",
       "type": "holiday",
       "description": "世界旅游日。"
     },
@@ -499,7 +524,8 @@
       "url": "https://www.gov.cn/",
       "status": "upcoming",
       "stage": "Holiday",
-      "source": "国务院节假日公开来源",
+      "source": "官方日历来源入口",
+      "sourceUrl": "https://www.gov.cn/",
       "type": "holiday",
       "description": "国庆假期入口。"
     },
@@ -518,7 +544,8 @@
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "status": "upcoming",
       "stage": "Solar term",
-      "source": "香港天文台历书公开来源",
+      "source": "官方年历来源入口",
+      "sourceUrl": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "type": "holiday",
       "description": "深秋节气。"
     },
@@ -537,6 +564,7 @@
       "status": "upcoming",
       "stage": "National holiday",
       "source": "Japan Cabinet Office",
+      "sourceUrl": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html",
       "type": "holiday",
       "description": "体育日。"
     },
@@ -555,7 +583,8 @@
       "url": "https://www.timeanddate.com/holidays/",
       "status": "upcoming",
       "stage": "Traditional festival",
-      "source": "公开农历/节日来源",
+      "source": "官方来源入口",
+      "sourceUrl": "https://www.timeanddate.com/holidays/",
       "type": "holiday",
       "description": "农历九月初九。"
     },
@@ -574,7 +603,8 @@
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "status": "upcoming",
       "stage": "Solar term",
-      "source": "香港天文台历书公开来源",
+      "source": "官方年历来源入口",
+      "sourceUrl": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "type": "holiday",
       "description": "秋季最后一个节气。"
     },
@@ -593,7 +623,8 @@
       "url": "https://www.timeanddate.com/holidays/",
       "status": "upcoming",
       "stage": "Observance",
-      "source": "国际节日公开来源",
+      "source": "官方来源入口",
+      "sourceUrl": "https://www.timeanddate.com/holidays/",
       "type": "holiday",
       "description": "万圣夜。"
     },
@@ -612,6 +643,7 @@
       "status": "upcoming",
       "stage": "National holiday",
       "source": "Japan Cabinet Office",
+      "sourceUrl": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html",
       "type": "holiday",
       "description": "文化日。"
     },
@@ -630,7 +662,8 @@
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "status": "upcoming",
       "stage": "Solar term",
-      "source": "香港天文台历书公开来源",
+      "source": "官方年历来源入口",
+      "sourceUrl": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "type": "holiday",
       "description": "冬季开始。"
     },
@@ -649,7 +682,8 @@
       "url": "https://www.timeanddate.com/holidays/",
       "status": "upcoming",
       "stage": "Observance",
-      "source": "国际节日公开来源",
+      "source": "官方来源入口",
+      "sourceUrl": "https://www.timeanddate.com/holidays/",
       "type": "holiday",
       "description": "双十一。"
     },
@@ -668,7 +702,8 @@
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "status": "upcoming",
       "stage": "Solar term",
-      "source": "香港天文台历书公开来源",
+      "source": "官方年历来源入口",
+      "sourceUrl": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "type": "holiday",
       "description": "冬季节气。"
     },
@@ -687,6 +722,7 @@
       "status": "upcoming",
       "stage": "National holiday",
       "source": "Japan Cabinet Office",
+      "sourceUrl": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html",
       "type": "holiday",
       "description": "勤劳感谢日。"
     },
@@ -705,6 +741,7 @@
       "status": "upcoming",
       "stage": "Federal holiday",
       "source": "US OPM federal holidays",
+      "sourceUrl": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/",
       "type": "holiday",
       "description": "美国感恩节。"
     },
@@ -723,7 +760,8 @@
       "url": "https://www.timeanddate.com/holidays/",
       "status": "upcoming",
       "stage": "Observance",
-      "source": "国际节日公开来源",
+      "source": "官方来源入口",
+      "sourceUrl": "https://www.timeanddate.com/holidays/",
       "type": "holiday",
       "description": "黑色星期五。"
     },
@@ -742,7 +780,8 @@
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "status": "upcoming",
       "stage": "Solar term",
-      "source": "香港天文台历书公开来源",
+      "source": "官方年历来源入口",
+      "sourceUrl": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "type": "holiday",
       "description": "仲冬节气。"
     },
@@ -761,7 +800,8 @@
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "status": "upcoming",
       "stage": "Solar term",
-      "source": "香港天文台历书公开来源",
+      "source": "官方年历来源入口",
+      "sourceUrl": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "type": "holiday",
       "description": "冬至节气。"
     },
@@ -780,7 +820,8 @@
       "url": "https://www.timeanddate.com/holidays/",
       "status": "upcoming",
       "stage": "Holiday",
-      "source": "国际节日公开来源",
+      "source": "官方来源入口",
+      "sourceUrl": "https://www.timeanddate.com/holidays/",
       "type": "holiday",
       "description": "圣诞节。"
     },
@@ -799,6 +840,7 @@
       "status": "upcoming",
       "stage": "Bank holiday",
       "source": "UK bank holidays",
+      "sourceUrl": "https://www.gov.uk/bank-holidays",
       "type": "holiday",
       "description": "英国节礼日补假。"
     },
@@ -817,7 +859,8 @@
       "url": "https://www.timeanddate.com/holidays/",
       "status": "upcoming",
       "stage": "Holiday",
-      "source": "国际节日公开来源",
+      "source": "官方来源入口",
+      "sourceUrl": "https://www.timeanddate.com/holidays/",
       "type": "holiday",
       "description": "跨年与新年假日。"
     },
@@ -836,7 +879,8 @@
       "url": "https://www.timeanddate.com/holidays/",
       "status": "upcoming",
       "stage": "Traditional festival",
-      "source": "公开农历/节日来源",
+      "source": "官方来源入口",
+      "sourceUrl": "https://www.timeanddate.com/holidays/",
       "type": "holiday",
       "description": "农历腊月初八。"
     },
@@ -855,7 +899,8 @@
       "url": "https://www.gov.cn/",
       "status": "ended",
       "stage": "Holiday",
-      "source": "国务院节假日公开来源",
+      "source": "官方日历来源入口",
+      "sourceUrl": "https://www.gov.cn/",
       "type": "holiday",
       "description": "新年假日。"
     },
@@ -874,7 +919,8 @@
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "status": "ended",
       "stage": "Solar term",
-      "source": "香港天文台历书公开来源",
+      "source": "官方年历来源入口",
+      "sourceUrl": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "type": "holiday",
       "description": "冬季节气。"
     },
@@ -893,6 +939,7 @@
       "status": "ended",
       "stage": "National holiday",
       "source": "Japan Cabinet Office",
+      "sourceUrl": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html",
       "type": "holiday",
       "description": "日本成人之日。"
     },
@@ -911,6 +958,7 @@
       "status": "ended",
       "stage": "Federal holiday",
       "source": "US OPM federal holidays",
+      "sourceUrl": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/",
       "type": "holiday",
       "description": "美国联邦假日。"
     },
@@ -929,7 +977,8 @@
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "status": "ended",
       "stage": "Solar term",
-      "source": "香港天文台历书公开来源",
+      "source": "官方年历来源入口",
+      "sourceUrl": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "type": "holiday",
       "description": "冬季最后一个节气。"
     },
@@ -948,7 +997,8 @@
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "status": "ended",
       "stage": "Solar term",
-      "source": "香港天文台历书公开来源",
+      "source": "官方年历来源入口",
+      "sourceUrl": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "type": "holiday",
       "description": "春季开始。"
     },
@@ -967,7 +1017,8 @@
       "url": "https://www.timeanddate.com/holidays/",
       "status": "ended",
       "stage": "Traditional festival",
-      "source": "公开农历/节日来源",
+      "source": "官方来源入口",
+      "sourceUrl": "https://www.timeanddate.com/holidays/",
       "type": "holiday",
       "description": "北方小年。"
     },
@@ -986,6 +1037,7 @@
       "status": "ended",
       "stage": "National holiday",
       "source": "Japan Cabinet Office",
+      "sourceUrl": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html",
       "type": "holiday",
       "description": "日本建国纪念日。"
     },
@@ -1004,7 +1056,8 @@
       "url": "https://www.timeanddate.com/holidays/",
       "status": "ended",
       "stage": "Observance",
-      "source": "国际节日公开来源",
+      "source": "官方来源入口",
+      "sourceUrl": "https://www.timeanddate.com/holidays/",
       "type": "holiday",
       "description": "情人节。"
     },
@@ -1023,7 +1076,8 @@
       "url": "https://www.gov.cn/",
       "status": "ended",
       "stage": "Traditional festival",
-      "source": "公开农历/节日来源",
+      "source": "官方来源入口",
+      "sourceUrl": "https://www.gov.cn/",
       "type": "holiday",
       "description": "农历岁末。"
     },
@@ -1042,6 +1096,7 @@
       "status": "ended",
       "stage": "Federal holiday",
       "source": "US OPM federal holidays",
+      "sourceUrl": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/",
       "type": "holiday",
       "description": "美国联邦假日。"
     },
@@ -1060,7 +1115,8 @@
       "url": "https://www.gov.cn/",
       "status": "ended",
       "stage": "Holiday",
-      "source": "国务院节假日公开来源",
+      "source": "官方日历来源入口",
+      "sourceUrl": "https://www.gov.cn/",
       "type": "holiday",
       "description": "农历新年。"
     },
@@ -1079,7 +1135,8 @@
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "status": "ended",
       "stage": "Solar term",
-      "source": "香港天文台历书公开来源",
+      "source": "官方年历来源入口",
+      "sourceUrl": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "type": "holiday",
       "description": "降水增多。"
     },
@@ -1098,6 +1155,7 @@
       "status": "ended",
       "stage": "National holiday",
       "source": "Japan Cabinet Office",
+      "sourceUrl": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html",
       "type": "holiday",
       "description": "日本天皇诞生日。"
     },
@@ -1116,7 +1174,8 @@
       "url": "https://www.timeanddate.com/holidays/",
       "status": "ended",
       "stage": "Traditional festival",
-      "source": "公开农历/节日来源",
+      "source": "官方来源入口",
+      "sourceUrl": "https://www.timeanddate.com/holidays/",
       "type": "holiday",
       "description": "正月十五。"
     },
@@ -1135,7 +1194,8 @@
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "status": "ended",
       "stage": "Solar term",
-      "source": "香港天文台历书公开来源",
+      "source": "官方年历来源入口",
+      "sourceUrl": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "type": "holiday",
       "description": "仲春节气。"
     },
@@ -1155,6 +1215,7 @@
       "status": "ended",
       "stage": "UN observance",
       "source": "UN observances",
+      "sourceUrl": "https://www.un.org/en/observances",
       "type": "holiday",
       "description": "国际妇女节。"
     },
@@ -1173,7 +1234,8 @@
       "url": "https://www.timeanddate.com/holidays/",
       "status": "ended",
       "stage": "Observance",
-      "source": "国际节日公开来源",
+      "source": "官方来源入口",
+      "sourceUrl": "https://www.timeanddate.com/holidays/",
       "type": "holiday",
       "description": "圣帕特里克节。"
     },
@@ -1192,7 +1254,8 @@
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "status": "ended",
       "stage": "Solar term",
-      "source": "香港天文台历书公开来源",
+      "source": "官方年历来源入口",
+      "sourceUrl": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "type": "holiday",
       "description": "昼夜近等长。"
     },
@@ -1211,7 +1274,8 @@
       "url": "https://www.timeanddate.com/holidays/",
       "status": "ended",
       "stage": "Traditional festival",
-      "source": "公开农历/节日来源",
+      "source": "官方来源入口",
+      "sourceUrl": "https://www.timeanddate.com/holidays/",
       "type": "holiday",
       "description": "农历二月初二。"
     },
@@ -1230,7 +1294,8 @@
       "url": "https://www.timeanddate.com/holidays/",
       "status": "ended",
       "stage": "Observance",
-      "source": "国际节日公开来源",
+      "source": "官方来源入口",
+      "sourceUrl": "https://www.timeanddate.com/holidays/",
       "type": "holiday",
       "description": "愚人节。"
     },
@@ -1249,6 +1314,7 @@
       "status": "ended",
       "stage": "Bank holiday",
       "source": "UK bank holidays",
+      "sourceUrl": "https://www.gov.uk/bank-holidays",
       "type": "holiday",
       "description": "英国银行假日。"
     },
@@ -1267,7 +1333,8 @@
       "url": "https://www.gov.cn/",
       "status": "ended",
       "stage": "Solar term",
-      "source": "政府公告 / 历书公开来源",
+      "source": "Gov / 官方来源入口",
+      "sourceUrl": "https://www.gov.cn/",
       "type": "holiday",
       "description": "节气与传统节日。"
     },
@@ -1286,6 +1353,7 @@
       "status": "ended",
       "stage": "Bank holiday",
       "source": "UK bank holidays",
+      "sourceUrl": "https://www.gov.uk/bank-holidays",
       "type": "holiday",
       "description": "英国银行假日。"
     },
@@ -1304,7 +1372,8 @@
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "status": "ended",
       "stage": "Solar term",
-      "source": "香港天文台历书公开来源",
+      "source": "官方年历来源入口",
+      "sourceUrl": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "type": "holiday",
       "description": "春季最后一个节气。"
     },
@@ -1323,7 +1392,8 @@
       "url": "https://www.earthday.org",
       "status": "ended",
       "stage": "Observance",
-      "source": "官方纪念日公开来源",
+      "source": "官方来源入口",
+      "sourceUrl": "https://www.earthday.org",
       "type": "holiday",
       "description": "世界地球日。"
     },
@@ -1342,6 +1412,7 @@
       "status": "ended",
       "stage": "National holiday",
       "source": "Japan Cabinet Office",
+      "sourceUrl": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html",
       "type": "holiday",
       "description": "昭和之日。"
     },
@@ -1360,7 +1431,8 @@
       "url": "https://www.gov.cn/",
       "status": "ended",
       "stage": "Holiday",
-      "source": "国务院节假日公开来源",
+      "source": "官方日历来源入口",
+      "sourceUrl": "https://www.gov.cn/",
       "type": "holiday",
       "description": "劳动节假期入口。"
     },
@@ -1379,6 +1451,7 @@
       "status": "ended",
       "stage": "National holiday",
       "source": "Japan Cabinet Office",
+      "sourceUrl": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html",
       "type": "holiday",
       "description": "宪法纪念日。"
     },
@@ -1397,6 +1470,7 @@
       "status": "ended",
       "stage": "Bank holiday",
       "source": "UK bank holidays",
+      "sourceUrl": "https://www.gov.uk/bank-holidays",
       "type": "holiday",
       "description": "英国银行假日。"
     },
@@ -1415,6 +1489,7 @@
       "status": "ended",
       "stage": "National holiday",
       "source": "Japan Cabinet Office",
+      "sourceUrl": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html",
       "type": "holiday",
       "description": "绿之日。"
     },
@@ -1433,7 +1508,8 @@
       "url": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "status": "ended",
       "stage": "Solar term",
-      "source": "香港天文台历书公开来源",
+      "source": "官方年历来源入口",
+      "sourceUrl": "https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm",
       "type": "holiday",
       "description": "夏季开始。"
     },
@@ -1452,6 +1528,7 @@
       "status": "ended",
       "stage": "National holiday",
       "source": "Japan Cabinet Office",
+      "sourceUrl": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html",
       "type": "holiday",
       "description": "日本儿童节。"
     },
@@ -1470,7 +1547,8 @@
       "url": "https://www.timeanddate.com/holidays/",
       "status": "ended",
       "stage": "Observance",
-      "source": "国际节日公开来源",
+      "source": "官方来源入口",
+      "sourceUrl": "https://www.timeanddate.com/holidays/",
       "type": "holiday",
       "description": "母亲节。"
     }

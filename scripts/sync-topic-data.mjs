@@ -429,6 +429,20 @@ function publicStatus(item) {
   return 'upcoming';
 }
 
+function isHttpUrl(value) {
+  return typeof value === 'string' && /^https?:\/\//.test(value.trim());
+}
+
+function withTraceableSourceFields(item) {
+  const url = typeof item.url === 'string' ? item.url.trim() : '';
+  const sourceUrl = typeof item.sourceUrl === 'string' ? item.sourceUrl.trim() : '';
+  if (sourceUrl || !isHttpUrl(url)) return item;
+  return {
+    ...item,
+    sourceUrl: url
+  };
+}
+
 function sortTime(item) {
   const candidates = [
     item.deadline,
@@ -452,14 +466,14 @@ function normalizeItems(topic, items) {
     throw new Error(`${topic.id}: fetched items.json is empty or not an array`);
   }
   const normalized = items.map(item => {
-    return {
+    return withTraceableSourceFields({
       ...item,
       dateRange: publicDateRange(item),
       location: item.location || (item.isOnline === false ? 'TBD' : 'Online'),
       isOnline: typeof item.isOnline === 'boolean' ? item.isOnline : true,
       tags: Array.isArray(item.tags) ? item.tags : [],
       status: publicStatus(item)
-    };
+    });
   });
 
   const errors = normalized.flatMap(item => validateItem(topic.id, item));
@@ -736,6 +750,13 @@ function validateCrossTopicUniqueness(ddlData) {
   if (errors.length) throw new Error(errors.join('\n'));
 }
 
+function normalizeAllTraceableSourceFields(ddlData) {
+  for (const [topicId, items] of Object.entries(ddlData)) {
+    if (!Array.isArray(items)) continue;
+    ddlData[topicId] = items.map(withTraceableSourceFields);
+  }
+}
+
 async function main() {
   const { topics, categories, ddlData, metricData } = readModel();
   const contribCount = mergeContribTopics(topics, ddlData, metricData);
@@ -788,6 +809,7 @@ async function main() {
     }
   }
 
+  normalizeAllTraceableSourceFields(ddlData);
   validateCrossTopicUniqueness(ddlData);
   writeTopics(topics, categories);
   writeData(ddlData);

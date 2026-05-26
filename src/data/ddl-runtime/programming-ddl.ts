@@ -17,7 +17,8 @@ export const ddlForProgrammingDdl: DDLItem[] = [
     "stage": "Contest",
     "source": "Official site",
     "type": "contest",
-    "description": "Codeforces 轮次入口。"
+    "description": "Codeforces 轮次入口。",
+    "sourceUrl": "https://codeforces.com"
   },
   {
     "id": "programming-ddl-noi-online-training-camp-2026-07-05",
@@ -35,7 +36,8 @@ export const ddlForProgrammingDdl: DDLItem[] = [
     "stage": "Registration",
     "source": "人工整理的官方来源入口",
     "type": "contest",
-    "description": "信息学竞赛训练营入口。"
+    "description": "信息学竞赛训练营入口。",
+    "sourceUrl": "https://www.noi.cn"
   },
   {
     "id": "programming-ddl-kaggle-playground-series-2026-07-31",
@@ -53,7 +55,8 @@ export const ddlForProgrammingDdl: DDLItem[] = [
     "stage": "Submission",
     "source": "人工整理的官方来源入口",
     "type": "contest",
-    "description": "月度机器学习竞赛入口。"
+    "description": "月度机器学习竞赛入口。",
+    "sourceUrl": "https://www.kaggle.com/competitions"
   },
   {
     "id": "programming-ddl-hackerrank-interview-preparation-kit-sprint-2026-08-15",
@@ -71,7 +74,8 @@ export const ddlForProgrammingDdl: DDLItem[] = [
     "stage": "Practice",
     "source": "人工整理的官方来源入口",
     "type": "contest",
-    "description": "面试编程训练专题入口。"
+    "description": "面试编程训练专题入口。",
+    "sourceUrl": "https://www.hackerrank.com/domains/tutorials/10-days-of-javascript"
   },
   {
     "id": "programming-ddl-tianchi-algorithm-competition-2026-08-31",
@@ -89,7 +93,8 @@ export const ddlForProgrammingDdl: DDLItem[] = [
     "stage": "Submission",
     "source": "人工整理的官方来源入口",
     "type": "contest",
-    "description": "国内算法竞赛入口。"
+    "description": "国内算法竞赛入口。",
+    "sourceUrl": "https://tianchi.aliyun.com/competition"
   },
   {
     "id": "programming-ddl-meta-hacker-cup-2026-qualification-2026-09-01",
@@ -107,7 +112,8 @@ export const ddlForProgrammingDdl: DDLItem[] = [
     "stage": "Qualification",
     "source": "人工整理的官方来源入口",
     "type": "contest",
-    "description": "算法竞赛资格赛入口。"
+    "description": "算法竞赛资格赛入口。",
+    "sourceUrl": "https://www.facebook.com/codingcompetitions/hacker-cup"
   },
   {
     "id": "programming-ddl-icpc-asia-regional-registration-2026-09-15",
@@ -125,7 +131,8 @@ export const ddlForProgrammingDdl: DDLItem[] = [
     "stage": "Registration",
     "source": "官方来源入口",
     "type": "contest",
-    "description": "区域赛报名入口。"
+    "description": "区域赛报名入口。",
+    "sourceUrl": "https://icpc.global"
   },
   {
     "id": "programming-ddl-ccf-csp-certification-2026-09-20",
@@ -143,7 +150,8 @@ export const ddlForProgrammingDdl: DDLItem[] = [
     "stage": "Registration",
     "source": "人工整理的官方来源入口",
     "type": "contest",
-    "description": "软件能力认证/竞赛入口。"
+    "description": "软件能力认证/竞赛入口。",
+    "sourceUrl": "https://www.cspro.org"
   },
   {
     "id": "programming-ddl-dmoj-seasonal-contest-2026-10-10",
@@ -161,7 +169,8 @@ export const ddlForProgrammingDdl: DDLItem[] = [
     "stage": "Contest",
     "source": "人工整理的官方来源入口",
     "type": "contest",
-    "description": "在线评测竞赛入口。"
+    "description": "在线评测竞赛入口。",
+    "sourceUrl": "https://dmoj.ca/contests"
   },
   {
     "id": "programming-ddl-icpc-world-finals-2026-2026-10-30",
@@ -179,7 +188,8 @@ export const ddlForProgrammingDdl: DDLItem[] = [
     "stage": "Contest",
     "source": "人工整理的官方来源入口",
     "type": "contest",
-    "description": "世界总决赛赛程入口。"
+    "description": "世界总决赛赛程入口。",
+    "sourceUrl": "https://icpc.global"
   },
   {
     "id": "programming-ddl-atcoder-grand-contest-demo-round-2026-11-01",
@@ -197,7 +207,8 @@ export const ddlForProgrammingDdl: DDLItem[] = [
     "stage": "Contest",
     "source": "Official site",
     "type": "contest",
-    "description": "AtCoder 高难度比赛入口。"
+    "description": "AtCoder 高难度比赛入口。",
+    "sourceUrl": "https://atcoder.jp"
   },
   {
     "id": "programming-ddl-hash-code-legacy-practice-sprint-2026-11-30",
@@ -215,7 +226,8 @@ export const ddlForProgrammingDdl: DDLItem[] = [
     "stage": "Practice",
     "source": "人工整理的官方来源入口",
     "type": "contest",
-    "description": "优化类编程挑战归档入口。"
+    "description": "优化类编程挑战归档入口。",
+    "sourceUrl": "https://codingcompetitions.withgoogle.com/hashcode/archive"
   },
   {
     "id": "programming-ddl-advent-of-code-2026-day-1-2026-12-01",
@@ -233,7 +245,8 @@ export const ddlForProgrammingDdl: DDLItem[] = [
     "stage": "Event start",
     "source": "Official site",
     "type": "contest",
-    "description": "年度编程挑战入口。"
+    "description": "年度编程挑战入口。",
+    "sourceUrl": "https://adventofcode.com"
   },
   {
     "id": "programming-ddl-lanqiao-cup-provincial-round-2026-12-10",
@@ -249,9 +262,10 @@ export const ddlForProgrammingDdl: DDLItem[] = [
     "url": "https://dasai.lanqiao.cn",
     "status": "upcoming",
     "stage": "Registration",
-    "source": "会议公开来源入口",
+    "source": "官方来源入口",
     "type": "contest",
-    "description": "国内编程竞赛入口。"
+    "description": "国内编程竞赛入口。",
+    "sourceUrl": "https://dasai.lanqiao.cn"
   },
   {
     "id": "programming-ddl-usaco-2026-december-contest-2026-12-18",
@@ -269,7 +283,8 @@ export const ddlForProgrammingDdl: DDLItem[] = [
     "stage": "Contest",
     "source": "人工整理的官方来源入口",
     "type": "contest",
-    "description": "美国信息学竞赛入口。"
+    "description": "美国信息学竞赛入口。",
+    "sourceUrl": "https://usaco.org"
   },
   {
     "id": "programming-ddl-codechef-starters-series-2026-12-31",
@@ -287,7 +302,8 @@ export const ddlForProgrammingDdl: DDLItem[] = [
     "stage": "Recurring",
     "source": "人工整理的官方来源入口",
     "type": "contest",
-    "description": "CodeChef 周赛入口。"
+    "description": "CodeChef 周赛入口。",
+    "sourceUrl": "https://www.codechef.com/contests"
   },
   {
     "id": "programming-ddl-google-code-jam-archive-practice-2026-12-31",
@@ -305,7 +321,8 @@ export const ddlForProgrammingDdl: DDLItem[] = [
     "stage": "Archive",
     "source": "人工整理的官方来源入口",
     "type": "contest",
-    "description": "经典题库入口，用于训练专题。"
+    "description": "经典题库入口，用于训练专题。",
+    "sourceUrl": "https://codingcompetitions.withgoogle.com/codejam/archive"
   },
   {
     "id": "programming-ddl-leetcode-weekly-contest-2026-12-31",
@@ -323,7 +340,8 @@ export const ddlForProgrammingDdl: DDLItem[] = [
     "stage": "Recurring",
     "source": "Official site",
     "type": "contest",
-    "description": "重复赛事入口，后续可转为 RRULE 或周规则。"
+    "description": "重复赛事入口，后续可转为 RRULE 或周规则。",
+    "sourceUrl": "https://leetcode.com/contest"
   },
   {
     "id": "programming-ddl-project-euler-monthly-challenge-2026-12-31",
@@ -341,7 +359,8 @@ export const ddlForProgrammingDdl: DDLItem[] = [
     "stage": "Recurring",
     "source": "人工整理的官方来源入口",
     "type": "contest",
-    "description": "长期数学编程题入口。"
+    "description": "长期数学编程题入口。",
+    "sourceUrl": "https://projecteuler.net"
   },
   {
     "id": "programming-ddl-topcoder-srm-series-2026-12-31",
@@ -359,6 +378,7 @@ export const ddlForProgrammingDdl: DDLItem[] = [
     "stage": "Recurring",
     "source": "人工整理的官方来源入口",
     "type": "contest",
-    "description": "Topcoder 赛事入口。"
+    "description": "Topcoder 赛事入口。",
+    "sourceUrl": "https://www.topcoder.com/challenges"
   }
 ];

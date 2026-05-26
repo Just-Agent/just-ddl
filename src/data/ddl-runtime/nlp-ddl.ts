@@ -17,7 +17,8 @@ export const ddlForNlpDdl: DDLItem[] = [
     "stage": "Paper",
     "source": "人工整理的官方来源入口",
     "type": "conference",
-    "description": "EMNLP 主会全文提交入口。"
+    "description": "EMNLP 主会全文提交入口。",
+    "sourceUrl": "https://2026.emnlp.org"
   },
   {
     "id": "nlp-ddl-clpsych-shared-task-2026-2026-07-10",
@@ -35,7 +36,8 @@ export const ddlForNlpDdl: DDLItem[] = [
     "stage": "System submit",
     "source": "人工整理的官方来源入口",
     "type": "conference",
-    "description": "临床 NLP shared task 入口。"
+    "description": "临床 NLP shared task 入口。",
+    "sourceUrl": "https://clpsych.org"
   },
   {
     "id": "nlp-ddl-bionlp-workshop-paper-2026-08-05",
@@ -53,7 +55,8 @@ export const ddlForNlpDdl: DDLItem[] = [
     "stage": "Paper",
     "source": "人工整理的官方来源入口",
     "type": "conference",
-    "description": "生物医学 NLP workshop 入口。"
+    "description": "生物医学 NLP workshop 入口。",
+    "sourceUrl": "https://aclweb.org/aclwiki/BioNLP_Workshop"
   },
   {
     "id": "nlp-ddl-chinese-nlpcc-2026-demo-track-2026-08-21",
@@ -69,9 +72,10 @@ export const ddlForNlpDdl: DDLItem[] = [
     "url": "http://tcci.ccf.org.cn",
     "status": "upcoming",
     "stage": "Demo",
-    "source": "会议公开来源入口",
+    "source": "官方来源入口",
     "type": "conference",
-    "description": "中文 NLP 会议/任务入口。"
+    "description": "中文 NLP 会议/任务入口。",
+    "sourceUrl": "http://tcci.ccf.org.cn"
   },
   {
     "id": "nlp-ddl-blackboxnlp-workshop-2026-09-01",
@@ -89,7 +93,8 @@ export const ddlForNlpDdl: DDLItem[] = [
     "stage": "Paper",
     "source": "人工整理的官方来源入口",
     "type": "conference",
-    "description": "NLP 可解释性 workshop 入口。"
+    "description": "NLP 可解释性 workshop 入口。",
+    "sourceUrl": "https://blackboxnlp.github.io"
   },
   {
     "id": "nlp-ddl-coling-2027-long-paper-2026-09-18",
@@ -107,7 +112,8 @@ export const ddlForNlpDdl: DDLItem[] = [
     "stage": "Long paper",
     "source": "人工整理的官方来源入口",
     "type": "conference",
-    "description": "COLING 长文提交入口。"
+    "description": "COLING 长文提交入口。",
+    "sourceUrl": "https://coling2026.org"
   },
   {
     "id": "nlp-ddl-acl-2027-arr-commitment-2026-10-15",
@@ -123,9 +129,10 @@ export const ddlForNlpDdl: DDLItem[] = [
     "url": "https://www.aclweb.org",
     "status": "upcoming",
     "stage": "ARR commit",
-    "source": "会议公开来源入口",
+    "source": "官方来源入口",
     "type": "conference",
-    "description": "ACL 系列主会 ARR 承诺流入口。"
+    "description": "ACL 系列主会 ARR 承诺流入口。",
+    "sourceUrl": "https://www.aclweb.org"
   },
   {
     "id": "nlp-ddl-legal-nlp-challenge-2026-2026-10-30",
@@ -143,7 +150,8 @@ export const ddlForNlpDdl: DDLItem[] = [
     "stage": "Submission",
     "source": "人工整理的官方来源入口",
     "type": "conference",
-    "description": "法律文本处理挑战入口。"
+    "description": "法律文本处理挑战入口。",
+    "sourceUrl": "https://www.kaggle.com/competitions"
   },
   {
     "id": "nlp-ddl-mrqa-shared-task-refresh-2026-11-10",
@@ -161,7 +169,8 @@ export const ddlForNlpDdl: DDLItem[] = [
     "stage": "Leaderboard",
     "source": "人工整理的官方来源入口",
     "type": "conference",
-    "description": "阅读理解与问答评测入口。"
+    "description": "阅读理解与问答评测入口。",
+    "sourceUrl": "https://mrqa.github.io"
   },
   {
     "id": "nlp-ddl-rag-evaluation-shared-task-2026-11-28",
@@ -179,7 +188,8 @@ export const ddlForNlpDdl: DDLItem[] = [
     "stage": "System report",
     "source": "人工整理的官方来源入口",
     "type": "conference",
-    "description": "检索增强生成评测入口。"
+    "description": "检索增强生成评测入口。",
+    "sourceUrl": "https://openreview.net/"
   },
   {
     "id": "nlp-ddl-semeval-2027-system-submission-2026-12-05",
@@ -195,9 +205,10 @@ export const ddlForNlpDdl: DDLItem[] = [
     "url": "https://semeval.github.io",
     "status": "upcoming",
     "stage": "System",
-    "source": "Shared task public source",
+    "source": "官方评测入口",
     "type": "conference",
-    "description": "语义评测任务入口。"
+    "description": "语义评测任务入口。",
+    "sourceUrl": "https://semeval.github.io"
   },
   {
     "id": "nlp-ddl-naacl-2027-paper-submission-2026-12-18",
@@ -215,7 +226,8 @@ export const ddlForNlpDdl: DDLItem[] = [
     "stage": "Paper",
     "source": "人工整理的官方来源入口",
     "type": "conference",
-    "description": "NAACL 投稿入口。"
+    "description": "NAACL 投稿入口。",
+    "sourceUrl": "https://naacl.org"
   },
   {
     "id": "nlp-ddl-long-context-nlp-benchmark-2027-01-08",
@@ -233,7 +245,8 @@ export const ddlForNlpDdl: DDLItem[] = [
     "stage": "Leaderboard",
     "source": "人工整理的官方来源入口",
     "type": "conference",
-    "description": "长上下文 NLP benchmark 入口。"
+    "description": "长上下文 NLP benchmark 入口。",
+    "sourceUrl": "https://www.kaggle.com/competitions"
   },
   {
     "id": "nlp-ddl-conll-shared-task-2027-2027-01-20",
@@ -249,9 +262,10 @@ export const ddlForNlpDdl: DDLItem[] = [
     "url": "https://www.conll.org",
     "status": "upcoming",
     "stage": "System submit",
-    "source": "Shared task public source",
+    "source": "官方评测入口",
     "type": "conference",
-    "description": "Shared task 注册与系统提交入口。"
+    "description": "Shared task 注册与系统提交入口。",
+    "sourceUrl": "https://www.conll.org"
   },
   {
     "id": "nlp-ddl-low-resource-languages-track-2027-02-01",
@@ -269,7 +283,8 @@ export const ddlForNlpDdl: DDLItem[] = [
     "stage": "Paper / system",
     "source": "人工整理的官方来源入口",
     "type": "conference",
-    "description": "低资源语言 shared task 入口。"
+    "description": "低资源语言 shared task 入口。",
+    "sourceUrl": "https://sigtyp.github.io"
   },
   {
     "id": "nlp-ddl-wmt-2027-translation-task-2027-02-12",
@@ -285,9 +300,10 @@ export const ddlForNlpDdl: DDLItem[] = [
     "url": "https://www.statmt.org/wmt",
     "status": "upcoming",
     "stage": "Result upload",
-    "source": "Benchmark public source",
+    "source": "官方评测入口",
     "type": "conference",
-    "description": "机器翻译评测入口。"
+    "description": "机器翻译评测入口。",
+    "sourceUrl": "https://www.statmt.org/wmt"
   },
   {
     "id": "nlp-ddl-inlg-2027-paper-2027-02-20",
@@ -305,7 +321,8 @@ export const ddlForNlpDdl: DDLItem[] = [
     "stage": "Paper",
     "source": "人工整理的官方来源入口",
     "type": "conference",
-    "description": "自然语言生成会议入口。"
+    "description": "自然语言生成会议入口。",
+    "sourceUrl": "https://aclweb.org/aclwiki/INLG"
   },
   {
     "id": "nlp-ddl-sigdial-2027-paper-2027-03-01",
@@ -323,6 +340,7 @@ export const ddlForNlpDdl: DDLItem[] = [
     "stage": "Paper",
     "source": "人工整理的官方来源入口",
     "type": "conference",
-    "description": "对话系统会议入口。"
+    "description": "对话系统会议入口。",
+    "sourceUrl": "https://www.sigdial.org"
   }
 ];

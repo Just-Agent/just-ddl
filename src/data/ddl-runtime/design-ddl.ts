@@ -19,7 +19,8 @@ export const ddlForDesignDdl: DDLItem[] = [
     "description": "Parsed from official UX Design Awards Dates page.",
     "stage": "Deadline",
     "source": "UX Design Awards",
-    "type": "contest"
+    "type": "contest",
+    "sourceUrl": "https://ux-design-awards.com/enter/dates"
   },
   {
     "id": "uxda-autumn-2026-nomination-review-closes",
@@ -39,7 +40,8 @@ export const ddlForDesignDdl: DDLItem[] = [
     "description": "Parsed from official UX Design Awards Dates page.",
     "stage": "Milestone",
     "source": "UX Design Awards",
-    "type": "contest"
+    "type": "contest",
+    "sourceUrl": "https://ux-design-awards.com/enter/dates"
   },
   {
     "id": "uxda-autumn-2026-notification-of-nominees",
@@ -59,7 +61,8 @@ export const ddlForDesignDdl: DDLItem[] = [
     "description": "Parsed from official UX Design Awards Dates page.",
     "stage": "Milestone",
     "source": "UX Design Awards",
-    "type": "contest"
+    "type": "contest",
+    "sourceUrl": "https://ux-design-awards.com/enter/dates"
   },
   {
     "id": "uxda-autumn-2026-public-nominee-announcement",
@@ -79,7 +82,8 @@ export const ddlForDesignDdl: DDLItem[] = [
     "description": "Parsed from official UX Design Awards Dates page.",
     "stage": "Milestone",
     "source": "UX Design Awards",
-    "type": "contest"
+    "type": "contest",
+    "sourceUrl": "https://ux-design-awards.com/enter/dates"
   },
   {
     "id": "uxda-autumn-2026-public-choice-award-voting-closes",
@@ -99,7 +103,8 @@ export const ddlForDesignDdl: DDLItem[] = [
     "description": "Parsed from official UX Design Awards Dates page.",
     "stage": "Deadline",
     "source": "UX Design Awards",
-    "type": "contest"
+    "type": "contest",
+    "sourceUrl": "https://ux-design-awards.com/enter/dates"
   },
   {
     "id": "uxda-autumn-2026-winner-announcement",
@@ -119,7 +124,8 @@ export const ddlForDesignDdl: DDLItem[] = [
     "description": "Parsed from official UX Design Awards Dates page.",
     "stage": "Milestone",
     "source": "UX Design Awards",
-    "type": "contest"
+    "type": "contest",
+    "sourceUrl": "https://ux-design-awards.com/enter/dates"
   },
   {
     "id": "uxda-autumn-2027-call-for-participation-closes",
@@ -139,6 +145,7 @@ export const ddlForDesignDdl: DDLItem[] = [
     "description": "Parsed from official UX Design Awards Dates page.",
     "stage": "Deadline",
     "source": "UX Design Awards",
-    "type": "contest"
+    "type": "contest",
+    "sourceUrl": "https://ux-design-awards.com/enter/dates"
   }
 ];

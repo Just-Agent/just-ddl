@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-25T23:04:19.374Z",
-  "dataVersion": "65b78becb1005ce4",
+  "generatedAt": "2026-05-26T01:07:11.250Z",
+  "dataVersion": "0784691de0f1f631",
   "topic": {
     "id": "startup-ddl",
     "name": "Startup",
@@ -36,6 +36,7 @@
       "status": "upcoming",
       "stage": "Application deadline",
       "source": "Techstars Accelerators",
+      "sourceUrl": "https://www.techstars.com/accelerators/abn-amro-techstars-future-of-finance-accelerator",
       "type": "program",
       "description": "Parsed from official Techstars accelerators listing. Deadline is read from the Apply by card and embedded earliestCurrentDeadline."
     },
@@ -56,6 +57,7 @@
       "status": "upcoming",
       "stage": "Application deadline",
       "source": "Techstars Accelerators",
+      "sourceUrl": "https://www.techstars.com/accelerators/baltimore-ai-health",
       "type": "program",
       "description": "Parsed from official Techstars accelerators listing. Deadline is read from the Apply by card and embedded earliestCurrentDeadline."
     },
@@ -76,6 +78,7 @@
       "status": "upcoming",
       "stage": "Application deadline",
       "source": "Techstars Accelerators",
+      "sourceUrl": "https://www.techstars.com/accelerators/alabama-power",
       "type": "program",
       "description": "Parsed from official Techstars accelerators listing. Deadline is read from the Apply by card and embedded earliestCurrentDeadline."
     },
@@ -96,6 +99,7 @@
       "status": "upcoming",
       "stage": "Application deadline",
       "source": "Techstars Accelerators",
+      "sourceUrl": "https://www.techstars.com/accelerators/anywhere",
       "type": "program",
       "description": "Parsed from official Techstars accelerators listing. Deadline is read from the Apply by card and embedded earliestCurrentDeadline."
     },
@@ -116,6 +120,7 @@
       "status": "upcoming",
       "stage": "Application deadline",
       "source": "Techstars Accelerators",
+      "sourceUrl": "https://www.techstars.com/accelerators/boulder-accelerator",
       "type": "program",
       "description": "Parsed from official Techstars accelerators listing. Deadline is read from the Apply by card and embedded earliestCurrentDeadline."
     },
@@ -136,6 +141,7 @@
       "status": "upcoming",
       "stage": "Application deadline",
       "source": "Techstars Accelerators",
+      "sourceUrl": "https://www.techstars.com/accelerators/ohio-state-university-accelerator",
       "type": "program",
       "description": "Parsed from official Techstars accelerators listing. Deadline is read from the Apply by card and embedded earliestCurrentDeadline."
     },
@@ -156,6 +162,7 @@
       "status": "upcoming",
       "stage": "Application deadline",
       "source": "Techstars Accelerators",
+      "sourceUrl": "https://www.techstars.com/accelerators/future-of-food",
       "type": "program",
       "description": "Parsed from official Techstars accelerators listing. Deadline is read from the Apply by card and embedded earliestCurrentDeadline."
     },
@@ -176,6 +183,7 @@
       "status": "upcoming",
       "stage": "Application deadline",
       "source": "Techstars Accelerators",
+      "sourceUrl": "https://www.techstars.com/accelerators/permanente-medicine",
       "type": "program",
       "description": "Parsed from official Techstars accelerators listing. Deadline is read from the Apply by card and embedded earliestCurrentDeadline."
     },
@@ -196,6 +204,7 @@
       "status": "upcoming",
       "stage": "Application deadline",
       "source": "Techstars Accelerators",
+      "sourceUrl": "https://www.techstars.com/accelerators/nyc",
       "type": "program",
       "description": "Parsed from official Techstars accelerators listing. Deadline is read from the Apply by card and embedded earliestCurrentDeadline."
     },
@@ -216,6 +225,7 @@
       "status": "upcoming",
       "stage": "Application deadline",
       "source": "Techstars Accelerators",
+      "sourceUrl": "https://www.techstars.com/accelerators/space",
       "type": "program",
       "description": "Parsed from official Techstars accelerators listing. Deadline is read from the Apply by card and embedded earliestCurrentDeadline."
     }

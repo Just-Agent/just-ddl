@@ -17,7 +17,8 @@ export const ddlForOpenSourceDdl: DDLItem[] = [
     "description": "Parsed from the official GSoC 2026 timeline. Milestone event.",
     "stage": "Milestone",
     "source": "Google Summer of Code",
-    "type": "program"
+    "type": "program",
+    "sourceUrl": "https://developers.google.com/open-source/gsoc/timeline?hl=en"
   },
   {
     "id": "gsoc-2026-may-25-coding-officially-begins",
@@ -35,7 +36,8 @@ export const ddlForOpenSourceDdl: DDLItem[] = [
     "description": "Parsed from the official GSoC 2026 timeline. Milestone event.",
     "stage": "Milestone",
     "source": "Google Summer of Code",
-    "type": "program"
+    "type": "program",
+    "sourceUrl": "https://developers.google.com/open-source/gsoc/timeline?hl=en"
   },
   {
     "id": "open-source-ddl-google-summer-of-code-org-application-2026-07-01",
@@ -54,7 +56,8 @@ export const ddlForOpenSourceDdl: DDLItem[] = [
     "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
     "stage": "Source board",
     "source": "Google Summer of Code",
-    "type": "program"
+    "type": "program",
+    "sourceUrl": "https://summerofcode.withgoogle.com"
   },
   {
     "id": "gsoc-2026-july-6-18-00-utc-mentors-and-gsoc-contributors-can-begin-submitting-midterm-eval",
@@ -72,7 +75,8 @@ export const ddlForOpenSourceDdl: DDLItem[] = [
     "description": "Parsed from the official GSoC 2026 timeline. Milestone event.",
     "stage": "Milestone",
     "source": "Google Summer of Code",
-    "type": "program"
+    "type": "program",
+    "sourceUrl": "https://developers.google.com/open-source/gsoc/timeline?hl=en"
   },
   {
     "id": "gsoc-2026-july-10-18-00-utc-midterm-evaluation-deadline-standard-coding-period",
@@ -90,7 +94,8 @@ export const ddlForOpenSourceDdl: DDLItem[] = [
     "description": "Parsed from the official GSoC 2026 timeline. Deadline event.",
     "stage": "Deadline",
     "source": "Google Summer of Code",
-    "type": "program"
+    "type": "program",
+    "sourceUrl": "https://developers.google.com/open-source/gsoc/timeline?hl=en"
   },
   {
     "id": "open-source-ddl-google-summer-of-code-contributor-application-2026-07-19",
@@ -109,7 +114,8 @@ export const ddlForOpenSourceDdl: DDLItem[] = [
     "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
     "stage": "Source board",
     "source": "Google Summer of Code",
-    "type": "program"
+    "type": "program",
+    "sourceUrl": "https://summerofcode.withgoogle.com"
   },
   {
     "id": "open-source-ddl-open-source-promotion-plan-application-2026-08-06",
@@ -128,7 +134,8 @@ export const ddlForOpenSourceDdl: DDLItem[] = [
     "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
     "stage": "Source board",
     "source": "开源之夏",
-    "type": "program"
+    "type": "program",
+    "sourceUrl": "https://summer-ospp.ac.cn"
   },
   {
     "id": "gsoc-2026-july-6-august-16-work-period-gsoc-contributors-work-on-their-project-with-guidan",
@@ -146,7 +153,8 @@ export const ddlForOpenSourceDdl: DDLItem[] = [
     "description": "Parsed from the official GSoC 2026 timeline. Milestone event.",
     "stage": "Milestone",
     "source": "Google Summer of Code",
-    "type": "program"
+    "type": "program",
+    "sourceUrl": "https://developers.google.com/open-source/gsoc/timeline?hl=en"
   },
   {
     "id": "open-source-ddl-lfx-mentorship-spring-2026-08-24",
@@ -165,7 +173,8 @@ export const ddlForOpenSourceDdl: DDLItem[] = [
     "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
     "stage": "Source board",
     "source": "LFX Mentorship",
-    "type": "program"
+    "type": "program",
+    "sourceUrl": "https://lfx.linuxfoundation.org/tools/mentorship/"
   },
   {
     "id": "gsoc-2026-august-17-24-18-00-utc-final-week-gsoc-contributors-submit-their-final-work-prod",
@@ -183,7 +192,8 @@ export const ddlForOpenSourceDdl: DDLItem[] = [
     "description": "Parsed from the official GSoC 2026 timeline. Deadline event.",
     "stage": "Deadline",
     "source": "Google Summer of Code",
-    "type": "program"
+    "type": "program",
+    "sourceUrl": "https://developers.google.com/open-source/gsoc/timeline?hl=en"
   },
   {
     "id": "gsoc-2026-august-24-31-18-00-utc-mentors-submit-final-gsoc-contributor-evaluations-standar",
@@ -201,7 +211,8 @@ export const ddlForOpenSourceDdl: DDLItem[] = [
     "description": "Parsed from the official GSoC 2026 timeline. Deadline event.",
     "stage": "Deadline",
     "source": "Google Summer of Code",
-    "type": "program"
+    "type": "program",
+    "sourceUrl": "https://developers.google.com/open-source/gsoc/timeline?hl=en"
   },
   {
     "id": "open-source-ddl-outreachy-internship-application-2026-09-11",
@@ -220,7 +231,8 @@ export const ddlForOpenSourceDdl: DDLItem[] = [
     "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
     "stage": "Source board",
     "source": "Outreachy",
-    "type": "program"
+    "type": "program",
+    "sourceUrl": "https://www.outreachy.org"
   },
   {
     "id": "open-source-ddl-rails-girls-summer-of-code-2026-09-29",
@@ -239,7 +251,8 @@ export const ddlForOpenSourceDdl: DDLItem[] = [
     "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
     "stage": "Source board",
     "source": "summerofcode.withgoogle.com",
-    "type": "program"
+    "type": "program",
+    "sourceUrl": "https://summerofcode.withgoogle.com"
   },
   {
     "id": "open-source-ddl-numfocus-small-development-grants-2026-10-17",
@@ -258,7 +271,8 @@ export const ddlForOpenSourceDdl: DDLItem[] = [
     "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
     "stage": "Source board",
     "source": "NumFOCUS Grants",
-    "type": "program"
+    "type": "program",
+    "sourceUrl": "https://numfocus.org/programs/small-development-grants"
   },
   {
     "id": "gsoc-2026-november-2-18-00-utc-final-date-for-all-gsoc-contributors-to-submit-their-final-",
@@ -276,7 +290,8 @@ export const ddlForOpenSourceDdl: DDLItem[] = [
     "description": "Parsed from the official GSoC 2026 timeline. Deadline event.",
     "stage": "Deadline",
     "source": "Google Summer of Code",
-    "type": "program"
+    "type": "program",
+    "sourceUrl": "https://developers.google.com/open-source/gsoc/timeline?hl=en"
   },
   {
     "id": "gsoc-2026-august-24-november-2-gsoc-contributors-with-extended-timelines-continue-coding",
@@ -294,7 +309,8 @@ export const ddlForOpenSourceDdl: DDLItem[] = [
     "description": "Parsed from the official GSoC 2026 timeline. Milestone event.",
     "stage": "Milestone",
     "source": "Google Summer of Code",
-    "type": "program"
+    "type": "program",
+    "sourceUrl": "https://developers.google.com/open-source/gsoc/timeline?hl=en"
   },
   {
     "id": "open-source-ddl-mozilla-builders-incubator-2026-11-04",
@@ -313,7 +329,8 @@ export const ddlForOpenSourceDdl: DDLItem[] = [
     "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
     "stage": "Source board",
     "source": "summerofcode.withgoogle.com",
-    "type": "program"
+    "type": "program",
+    "sourceUrl": "https://summerofcode.withgoogle.com"
   },
   {
     "id": "gsoc-2026-november-9-18-00-utc-final-date-for-mentors-to-submit-evaluations-for-gsoc-contr",
@@ -331,7 +348,8 @@ export const ddlForOpenSourceDdl: DDLItem[] = [
     "description": "Parsed from the official GSoC 2026 timeline. Deadline event.",
     "stage": "Deadline",
     "source": "Google Summer of Code",
-    "type": "program"
+    "type": "program",
+    "sourceUrl": "https://developers.google.com/open-source/gsoc/timeline?hl=en"
   },
   {
     "id": "open-source-ddl-hacktoberfest-maintainer-prep-2026-11-22",
@@ -350,7 +368,8 @@ export const ddlForOpenSourceDdl: DDLItem[] = [
     "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
     "stage": "Source board",
     "source": "summerofcode.withgoogle.com",
-    "type": "program"
+    "type": "program",
+    "sourceUrl": "https://summerofcode.withgoogle.com"
   },
   {
     "id": "open-source-ddl-cncf-mentoring-program-2026-12-10",
@@ -369,7 +388,8 @@ export const ddlForOpenSourceDdl: DDLItem[] = [
     "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
     "stage": "Source board",
     "source": "CNCF Mentoring",
-    "type": "program"
+    "type": "program",
+    "sourceUrl": "https://github.com/cncf/mentoring"
   },
   {
     "id": "open-source-ddl-apache-community-over-code-cfp-2026-12-28",
@@ -388,7 +408,8 @@ export const ddlForOpenSourceDdl: DDLItem[] = [
     "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
     "stage": "Source board",
     "source": "Apache Community Over Code",
-    "type": "program"
+    "type": "program",
+    "sourceUrl": "https://communityovercode.org"
   },
   {
     "id": "open-source-ddl-pycon-open-spaces-proposal-2027-01-15",
@@ -407,7 +428,8 @@ export const ddlForOpenSourceDdl: DDLItem[] = [
     "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
     "stage": "Source board",
     "source": "PyCon US",
-    "type": "program"
+    "type": "program",
+    "sourceUrl": "https://us.pycon.org"
   },
   {
     "id": "open-source-ddl-openjs-collaborator-summit-cfp-2027-02-02",
@@ -426,7 +448,8 @@ export const ddlForOpenSourceDdl: DDLItem[] = [
     "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
     "stage": "Source board",
     "source": "summerofcode.withgoogle.com",
-    "type": "program"
+    "type": "program",
+    "sourceUrl": "https://summerofcode.withgoogle.com"
   },
   {
     "id": "open-source-ddl-rust-project-fellowship-window-2027-02-20",
@@ -445,7 +468,8 @@ export const ddlForOpenSourceDdl: DDLItem[] = [
     "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
     "stage": "Source board",
     "source": "summerofcode.withgoogle.com",
-    "type": "program"
+    "type": "program",
+    "sourceUrl": "https://summerofcode.withgoogle.com"
   },
   {
     "id": "open-source-ddl-openssf-security-tooling-grant-2027-03-10",
@@ -464,7 +488,8 @@ export const ddlForOpenSourceDdl: DDLItem[] = [
     "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
     "stage": "Source board",
     "source": "OpenSSF",
-    "type": "program"
+    "type": "program",
+    "sourceUrl": "https://openssf.org"
   },
   {
     "id": "open-source-ddl-fossasia-summit-cfp-2027-03-28",
@@ -483,6 +508,7 @@ export const ddlForOpenSourceDdl: DDLItem[] = [
     "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
     "stage": "Source board",
     "source": "FOSSASIA Summit",
-    "type": "program"
+    "type": "program",
+    "sourceUrl": "https://summit.fossasia.org"
   }
 ];

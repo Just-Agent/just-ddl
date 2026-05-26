@@ -1,101 +1,20 @@
 # Just-DDL Source Audit
 
-Generated: 2026-05-25T23:04:11.639Z
+Generated: 2026-05-26T01:03:55.613Z
 
 This is an internal production-readiness report. It identifies items that need detail-page upgrades, sourceUrl completion, manual maintenance, or official-source verification. It is not published to GitHub Pages or miniprogram exports.
 
-- Total DDL items: 825
-- Official deadline candidates: 670
-- Missing sourceUrl: 341
-- Root-like URL follow-up: 47
-- Manual/source-board follow-up: 184
+- Total DDL items: 817
+- Official deadline candidates: 662
+- Missing sourceUrl: 0
+- Root-like URL follow-up: 61
+- Manual/source-board follow-up: 234
 - Seed/demo source wording: 0
 - Aggregator/review-platform source: 21
 
 ## Missing sourceUrl
 
-| Topic | Item | Reason | Source |
-|---|---|---|---|
-| hackathon-ddl | [MLH Global Hack Week](https://mlh.io/seasons) | missing sourceUrl | 人工整理的官方来源入口 |
-| hackathon-ddl | [Devpost AI Builders Challenge](https://devpost.com/hackathons) | missing sourceUrl | 人工整理的官方来源入口 |
-| hackathon-ddl | [PennApps 2026 Fall](https://pennapps.com) | missing sourceUrl | 官方来源入口 |
-| hackathon-ddl | [Hack the North 2026](https://hackthenorth.com) | missing sourceUrl | Official site |
-| hackathon-ddl | [HackZurich 2026](https://hackzurich.com) | missing sourceUrl | 人工整理的官方来源入口 |
-| hackathon-ddl | [HackMIT 2026](https://hackmit.org) | missing sourceUrl | 人工整理的官方来源入口 |
-| hackathon-ddl | [HackHarvard 2026](https://hackharvard.io) | missing sourceUrl | 人工整理的官方来源入口 |
-| hackathon-ddl | [HackPrinceton 2026 Fall](https://hackprinceton.com) | missing sourceUrl | 人工整理的官方来源入口 |
-| hackathon-ddl | [NASA Space Apps Challenge 2026](https://www.spaceappschallenge.org/) | missing sourceUrl | Official site |
-| hackathon-ddl | [LA Hacks 2026](https://lahacks.com) | missing sourceUrl | 人工整理的官方来源入口 |
-| hackathon-ddl | [ETHGlobal New York 2026](https://ethglobal.com/events) | missing sourceUrl | ETHGlobal events board |
-| hackathon-ddl | [HackUPC 2026](https://hackupc.com) | missing sourceUrl | 人工整理的官方来源入口 |
-| hackathon-ddl | [Cal Hacks 2026](https://calhacks.io) | missing sourceUrl | 人工整理的官方来源入口 |
-| hackathon-ddl | [Junction 2026](https://www.hackjunction.com) | missing sourceUrl | 人工整理的官方来源入口 |
-| hackathon-ddl | [DoraHacks Open Innovation Sprint](https://dorahacks.io) | missing sourceUrl | 人工整理的官方来源入口 |
-| hackathon-ddl | [TreeHacks 2027](https://treehacks.com) | missing sourceUrl | 人工整理的官方来源入口 |
-| hackathon-ddl | [nwHacks 2027](https://nwhacks.io) | missing sourceUrl | 人工整理的官方来源入口 |
-| hackathon-ddl | [Hack Cambridge 2027](https://hackcambridge.com) | missing sourceUrl | 人工整理的官方来源入口 |
-| cv-ddl | [CVPR 2026 - Workshop on World Models Meet Active Sensing and Closed-Loop Planning](https://cvpr26wmas.github.io/) | missing sourceUrl | CVPR 2026 Workshops |
-| nlp-ddl | [EMNLP 2026 Full Paper](https://2026.emnlp.org) | missing sourceUrl | 人工整理的官方来源入口 |
-| nlp-ddl | [CLPsych Shared Task 2026](https://clpsych.org) | missing sourceUrl | 人工整理的官方来源入口 |
-| nlp-ddl | [BioNLP Workshop Paper](https://aclweb.org/aclwiki/BioNLP_Workshop) | missing sourceUrl | 人工整理的官方来源入口 |
-| nlp-ddl | [Chinese NLPCC 2026 Demo Track](http://tcci.ccf.org.cn) | missing sourceUrl | 会议公开来源入口 |
-| nlp-ddl | [BlackboxNLP Workshop](https://blackboxnlp.github.io) | missing sourceUrl | 人工整理的官方来源入口 |
-| nlp-ddl | [COLING 2027 Long Paper](https://coling2026.org) | missing sourceUrl | 人工整理的官方来源入口 |
-| nlp-ddl | [ACL 2027 ARR Commitment](https://www.aclweb.org) | missing sourceUrl | 会议公开来源入口 |
-| nlp-ddl | [Legal NLP Challenge 2026](https://www.kaggle.com/competitions) | missing sourceUrl | 人工整理的官方来源入口 |
-| nlp-ddl | [MRQA Shared Task Refresh](https://mrqa.github.io) | missing sourceUrl | 人工整理的官方来源入口 |
-| nlp-ddl | [RAG Evaluation Shared Task](https://openreview.net/) | missing sourceUrl | 人工整理的官方来源入口 |
-| nlp-ddl | [SemEval 2027 System Submission](https://semeval.github.io) | missing sourceUrl | Shared task public source |
-| nlp-ddl | [NAACL 2027 Paper Submission](https://naacl.org) | missing sourceUrl | 人工整理的官方来源入口 |
-| nlp-ddl | [Long Context NLP Benchmark](https://www.kaggle.com/competitions) | missing sourceUrl | 人工整理的官方来源入口 |
-| nlp-ddl | [CoNLL Shared Task 2027](https://www.conll.org) | missing sourceUrl | Shared task public source |
-| nlp-ddl | [Low Resource Languages Track](https://sigtyp.github.io) | missing sourceUrl | 人工整理的官方来源入口 |
-| nlp-ddl | [WMT 2027 Translation Task](https://www.statmt.org/wmt) | missing sourceUrl | Benchmark public source |
-| nlp-ddl | [INLG 2027 Paper](https://aclweb.org/aclwiki/INLG) | missing sourceUrl | 人工整理的官方来源入口 |
-| nlp-ddl | [SIGDIAL 2027 Paper](https://www.sigdial.org) | missing sourceUrl | 人工整理的官方来源入口 |
-| academic-ddl | [NeurIPS 2026 Full Paper](https://neurips.cc) | missing sourceUrl | 会议公开来源入口 |
-| academic-ddl | [VLDB 2027 Monthly Deadline](https://vldb.org) | missing sourceUrl | 人工整理的官方来源入口 |
-| academic-ddl | [SIGMOD 2027 Round 1](https://sigmod.org) | missing sourceUrl | 人工整理的官方来源入口 |
-| academic-ddl | [AAAI 2027 Abstract](https://aaai.org) | missing sourceUrl | 人工整理的官方来源入口 |
-| academic-ddl | [CHI 2027 Papers](https://chi2027.acm.org) | missing sourceUrl | 人工整理的官方来源入口 |
-| academic-ddl | [ICRA 2027 Paper](https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra) | missing sourceUrl | 人工整理的官方来源入口 |
-| academic-ddl | [NSF Proposal Calendar Reminder](https://www.nsf.gov/funding) | missing sourceUrl | 人工整理的官方来源入口 |
-| academic-ddl | [ICLR 2027 Submission](https://iclr.cc) | missing sourceUrl | OpenReview public source |
-| academic-ddl | [WWW 2027 Research Track](https://www2027.thewebconf.org) | missing sourceUrl | 人工整理的官方来源入口 |
-| academic-ddl | [AISTATS 2027 Paper](https://aistats.org) | missing sourceUrl | 人工整理的官方来源入口 |
-| academic-ddl | [UbiComp 2027 Full Paper](https://ubicomp.org) | missing sourceUrl | 人工整理的官方来源入口 |
-| academic-ddl | [ISCA 2027 Paper](https://iscaconf.org) | missing sourceUrl | 人工整理的官方来源入口 |
-| academic-ddl | [ICAPS 2027 Paper](https://icaps-conference.org) | missing sourceUrl | 人工整理的官方来源入口 |
-| academic-ddl | [ICML 2027 Abstract](https://icml.cc) | missing sourceUrl | 人工整理的官方来源入口 |
-| academic-ddl | [RSS 2027 Paper](https://roboticsconference.org) | missing sourceUrl | 人工整理的官方来源入口 |
-| academic-ddl | [SIGIR 2027 Full Paper](https://sigir.org) | missing sourceUrl | 人工整理的官方来源入口 |
-| academic-ddl | [OSDI 2027 Paper](https://www.usenix.org/conferences) | missing sourceUrl | 人工整理的官方来源入口 |
-| academic-ddl | [KDD 2027 Research Track](https://kdd.org) | missing sourceUrl | 人工整理的官方来源入口 |
-| academic-ddl | [UAI 2027 Paper](https://www.auai.org/uai) | missing sourceUrl | 人工整理的官方来源入口 |
-| academic-ddl | [ACM MM 2027 Paper](https://acmmm.org) | missing sourceUrl | 人工整理的官方来源入口 |
-| programming-ddl | [Codeforces Global Round](https://codeforces.com) | missing sourceUrl | Official site |
-| programming-ddl | [NOI Online Training Camp](https://www.noi.cn) | missing sourceUrl | 人工整理的官方来源入口 |
-| programming-ddl | [Kaggle Playground Series](https://www.kaggle.com/competitions) | missing sourceUrl | 人工整理的官方来源入口 |
-| programming-ddl | [HackerRank Interview Preparation Kit Sprint](https://www.hackerrank.com/domains/tutorials/10-days-of-javascript) | missing sourceUrl | 人工整理的官方来源入口 |
-| programming-ddl | [Tianchi Algorithm Competition](https://tianchi.aliyun.com/competition) | missing sourceUrl | 人工整理的官方来源入口 |
-| programming-ddl | [Meta Hacker Cup 2026 Qualification](https://www.facebook.com/codingcompetitions/hacker-cup) | missing sourceUrl | 人工整理的官方来源入口 |
-| programming-ddl | [ICPC Asia Regional Registration](https://icpc.global) | missing sourceUrl | 官方来源入口 |
-| programming-ddl | [CCF CSP Certification](https://www.cspro.org) | missing sourceUrl | 人工整理的官方来源入口 |
-| programming-ddl | [DMOJ Seasonal Contest](https://dmoj.ca/contests) | missing sourceUrl | 人工整理的官方来源入口 |
-| programming-ddl | [ICPC World Finals 2026](https://icpc.global) | missing sourceUrl | 人工整理的官方来源入口 |
-| programming-ddl | [AtCoder Grand Contest Demo Round](https://atcoder.jp) | missing sourceUrl | Official site |
-| programming-ddl | [Hash Code Legacy Practice Sprint](https://codingcompetitions.withgoogle.com/hashcode/archive) | missing sourceUrl | 人工整理的官方来源入口 |
-| programming-ddl | [Advent of Code 2026 Day 1](https://adventofcode.com) | missing sourceUrl | Official site |
-| programming-ddl | [Lanqiao Cup Provincial Round](https://dasai.lanqiao.cn) | missing sourceUrl | 会议公开来源入口 |
-| programming-ddl | [USACO 2026 December Contest](https://usaco.org) | missing sourceUrl | 人工整理的官方来源入口 |
-| programming-ddl | [CodeChef Starters Series](https://www.codechef.com/contests) | missing sourceUrl | 人工整理的官方来源入口 |
-| programming-ddl | [Google Code Jam Archive Practice](https://codingcompetitions.withgoogle.com/codejam/archive) | missing sourceUrl | 人工整理的官方来源入口 |
-| programming-ddl | [LeetCode Weekly Contest](https://leetcode.com/contest) | missing sourceUrl | Official site |
-| programming-ddl | [Project Euler Monthly Challenge](https://projecteuler.net) | missing sourceUrl | 人工整理的官方来源入口 |
-| programming-ddl | [Topcoder SRM Series](https://www.topcoder.com/challenges) | missing sourceUrl | 人工整理的官方来源入口 |
-| holiday-ddl | [小满 2026](https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm) | missing sourceUrl | 香港天文台历书公开来源 |
-| holiday-ddl | [Memorial Day 2026](https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/) | missing sourceUrl | US OPM federal holidays |
-| holiday-ddl | [Spring Bank Holiday 2026](https://www.gov.uk/bank-holidays) | missing sourceUrl | UK bank holidays |
+_None._
 
 ## Root-Like URL Follow-Up
 
@@ -103,36 +22,50 @@ This is an internal production-readiness report. It identifies items that need d
 |---|---|---|---|
 | hackathon-ddl | [Hack the North 2026](https://hackthenorth.com) | root-like URL without source-board wording | Official site |
 | hackathon-ddl | [NASA Space Apps Challenge 2026](https://www.spaceappschallenge.org/) | root-like URL without source-board wording | Official site |
-| agent-ddl | [Agents Assemble - The Healthcare AI Endgame](https://agents-assemble.devpost.com/) | root-like URL without source-board wording | Agents Assemble Devpost |
 | agent-ddl | [DevNetwork [AI + ML] Hackathon 2026](https://devnetwork-ai-ml-hack-2026.devpost.com/) | root-like URL without source-board wording | DevNetwork AI + ML Hackathon Devpost |
 | agent-ddl | [International AI Agents Hackathon](https://ai-agents-hackathon1.devpost.com/) | root-like URL without source-board wording | International AI Agents Hackathon Devpost |
 | agent-ddl | [Google Cloud Rapid Agent Hackathon](https://rapid-agent.devpost.com/) | root-like URL without source-board wording | Google Cloud Rapid Agent Hackathon Devpost |
 | agent-ddl | [Mega Agent-A-Thon](https://mega-agent-a-thon.devpost.com/) | root-like URL without source-board wording | Mega Agent-A-Thon Devpost |
-| agent-ddl | [Splunk Agentic Ops Hackathon](https://splunk.devpost.com/) | root-like URL without source-board wording | Splunk Agentic Ops Hackathon Devpost |
 | agent-ddl | [AI Olympics with RealAIGym - Stage 1](https://ai-olympics.dfki-bremen.de/) | root-like URL without source-board wording | IJCAI AI Olympics with RealAIGym |
+| agent-ddl | [Splunk Agentic Ops Hackathon](https://splunk.devpost.com/) | root-like URL without source-board wording | Splunk Agentic Ops Hackathon Devpost |
 | agent-ddl | [FIND EVIL!](https://findevil.devpost.com/) | root-like URL without source-board wording | FIND EVIL Devpost |
 | agent-ddl | [USAII Global AI Hackathon 2026](https://usaii-global-ai-hackathon-2026.devpost.com/) | root-like URL without source-board wording | USAII Global AI Hackathon Devpost |
 | agent-ddl | [SunnyHacks June 2026](https://sunnyhacks-june-2026.devpost.com/) | root-like URL without source-board wording | SunnyHacks June 2026 Devpost |
 | agent-ddl | [Slack Agent Builder Challenge](https://slackhack.devpost.com/) | root-like URL without source-board wording | Slack Agent Builder Challenge Devpost |
-| nlp-ddl | [SemEval 2027 System Submission](https://semeval.github.io) | root-like URL without source-board wording | Shared task public source |
-| nlp-ddl | [CoNLL Shared Task 2027](https://www.conll.org) | root-like URL without source-board wording | Shared task public source |
-| academic-ddl | [ICLR 2027 Submission](https://iclr.cc) | root-like URL without source-board wording | OpenReview public source |
+| agent-ddl | [Agents Assemble - The Healthcare AI Endgame](https://agents-assemble.devpost.com/) | root-like URL without source-board wording | Agents Assemble Devpost |
+| cv-ddl | [CVPR 2026 - 1st Workshop on Video World Models: Interaction, Memory, and Efficiency](https://videoworldmodel-workshop.github.io/) | root-like URL without source-board wording | CVPR 2026 Workshops |
+| cv-ddl | [CVPR 2026 - Multimodal Foundation Models for Biomedicine: Challenges and Opportunities](https://mmfm-biomed.github.io/) | root-like URL without source-board wording | CVPR 2026 Workshops |
+| cv-ddl | [CVPR 2026 - The 3rd AI for Visual Arts Workshop and Challenges](https://ai4va-cvpr.github.io/) | root-like URL without source-board wording | CVPR 2026 Workshops |
+| cv-ddl | [CVPR 2026 - The 3rd AI for Visual Arts Workshop and Challenges](https://ai4va-cvpr.github.io/) | root-like URL without source-board wording | CVPR 2026 Workshops |
+| cv-ddl | [CVPR 2026 - The 7th International Workshop and CVML Challenge on Agriculture-Vision: Challenges & Opportunities for Computer Vision in Agriculture](https://www.agriculture-vision.com/) | root-like URL without source-board wording | CVPR 2026 Workshops |
+| cv-ddl | [CVPR 2026 - Workshop on World Models Meet Active Sensing and Closed-Loop Planning](https://cvpr26wmas.github.io/) | root-like URL without source-board wording | CVPR 2026 Workshops |
+| cv-ddl | [CVPR 2026 - 6th Workshop on CV4Animals: Computer Vision for Animal Behavior Tracking and Modeling](https://www.cv4animals.com/) | root-like URL without source-board wording | CVPR 2026 Workshops |
+| cv-ddl | [CVPR 2026 - Eighth Workshop on Image Matching: Local Features and Beyond](https://image-matching-workshop.github.io/) | root-like URL without source-board wording | CVPR 2026 Workshops |
+| cv-ddl | [CVPR 2026 - Eighth Workshop on Image Matching: Local Features and Beyond](https://image-matching-workshop.github.io/) | root-like URL without source-board wording | CVPR 2026 Workshops |
+| cv-ddl | [CVPR 2026 - Embodied Reasoning in Action: Workshop and Challenge on Embodied Reasoning for Robotic Manipulation](https://embodied-reasoning.github.io/) | root-like URL without source-board wording | CVPR 2026 Workshops |
+| cv-ddl | [CVPR 2026 - Multi-Agent Embodied Intelligent Systems Meet Agentic-AI era: Opportunities, Challenges and Futures](https://coop-intelligence.github.io/) | root-like URL without source-board wording | CVPR 2026 Workshops |
+| cv-ddl | [CVPR 2026 - Pixel-level Video Understanding in the Wild Challenge](https://pvuw.github.io/) | root-like URL without source-board wording | CVPR 2026 Workshops |
+| cv-ddl | [CVPR 2026 - Pixel-level Video Understanding in the Wild Challenge](https://pvuw.github.io/) | root-like URL without source-board wording | CVPR 2026 Workshops |
+| cv-ddl | [CVPR 2026 - The 8th UG2+ Workshop and Challenge: Bridging the Gap between Computational Photography and Visual Perception](https://cvpr2026ug2challenge.github.io/) | root-like URL without source-board wording | CVPR 2026 Workshops |
+| cv-ddl | [CVPR 2026 - Video Generative Models: Benchmarks and Evaluation](https://vidgen-bench-eval.github.io/) | root-like URL without source-board wording | CVPR 2026 Workshops |
+| cv-ddl | [EBMV @ ECCV 2026 - Challenge submission deadline](https://eventbasemultimodalvision.github.io/) | root-like URL without source-board wording | EBMV @ ECCV 2026 |
+| cv-ddl | [EBMV @ ECCV 2026 - Challenge results announcement](https://eventbasemultimodalvision.github.io/) | root-like URL without source-board wording | EBMV @ ECCV 2026 |
+| cv-ddl | [EBMV @ ECCV 2026 - Technical report deadline](https://eventbasemultimodalvision.github.io/) | root-like URL without source-board wording | EBMV @ ECCV 2026 |
+| cv-ddl | [EMR @ ECCV 2026 - Full paper submission deadline](https://emr-workshop.github.io/) | root-like URL without source-board wording | EMR @ ECCV 2026 |
+| cv-ddl | [EBMV @ ECCV 2026 - Workshop paper deadline](https://eventbasemultimodalvision.github.io/) | root-like URL without source-board wording | EBMV @ ECCV 2026 |
+| cv-ddl | [EMR @ ECCV 2026 - Extended abstract submission](https://emr-workshop.github.io/) | root-like URL without source-board wording | EMR @ ECCV 2026 |
+| cv-ddl | [EMR @ ECCV 2026 - Notification](https://emr-workshop.github.io/) | root-like URL without source-board wording | EMR @ ECCV 2026 |
+| cv-ddl | [EBMV @ ECCV 2026 - Camera-ready deadline](https://eventbasemultimodalvision.github.io/) | root-like URL without source-board wording | EBMV @ ECCV 2026 |
+| cv-ddl | [EMR @ ECCV 2026 - Final version](https://emr-workshop.github.io/) | root-like URL without source-board wording | EMR @ ECCV 2026 |
+| nlp-ddl | [SemEval 2027 System Submission](https://semeval.github.io) | root-like URL without source-board wording | 官方评测入口 |
+| nlp-ddl | [CoNLL Shared Task 2027](https://www.conll.org) | root-like URL without source-board wording | 官方评测入口 |
 | programming-ddl | [Codeforces Global Round](https://codeforces.com) | root-like URL without source-board wording | Official site |
 | programming-ddl | [AtCoder Grand Contest Demo Round](https://atcoder.jp) | root-like URL without source-board wording | Official site |
 | programming-ddl | [Advent of Code 2026 Day 1](https://adventofcode.com) | root-like URL without source-board wording | Official site |
-| holiday-ddl | [端午节 2026](https://www.gov.cn/) | root-like URL without source-board wording | 国务院节假日公开来源 |
-| holiday-ddl | [中秋节 2026](https://www.gov.cn/) | root-like URL without source-board wording | 国务院节假日公开来源 |
-| holiday-ddl | [国庆节 2026](https://www.gov.cn/) | root-like URL without source-board wording | 国务院节假日公开来源 |
-| holiday-ddl | [元旦 2026](https://www.gov.cn/) | root-like URL without source-board wording | 国务院节假日公开来源 |
-| holiday-ddl | [除夕 2026](https://www.gov.cn/) | root-like URL without source-board wording | 公开农历/节日来源 |
-| holiday-ddl | [春节 2026](https://www.gov.cn/) | root-like URL without source-board wording | 国务院节假日公开来源 |
-| holiday-ddl | [清明 2026](https://www.gov.cn/) | root-like URL without source-board wording | 政府公告 / 历书公开来源 |
-| holiday-ddl | [Earth Day 2026](https://www.earthday.org) | root-like URL without source-board wording | 官方纪念日公开来源 |
-| holiday-ddl | [劳动节 2026](https://www.gov.cn/) | root-like URL without source-board wording | 国务院节假日公开来源 |
-| multimodal-ddl | [VQA Challenge 2026](https://visualqa.org) | root-like URL without source-board wording | Benchmark public source |
-| multimodal-ddl | [TextVQA Refresh](https://textvqa.org) | root-like URL without source-board wording | Benchmark public source |
-| multimodal-ddl | [MMMU Challenge 2026](https://mmmu-benchmark.github.io) | root-like URL without source-board wording | Benchmark public source |
-| multimodal-ddl | [Video-MME Leaderboard Freeze](https://video-mme.github.io) | root-like URL without source-board wording | Benchmark public source |
+| multimodal-ddl | [VQA Challenge 2026](https://visualqa.org) | root-like URL without source-board wording | 官方评测入口 |
+| multimodal-ddl | [TextVQA Refresh](https://textvqa.org) | root-like URL without source-board wording | 官方评测入口 |
+| multimodal-ddl | [MMMU Challenge 2026](https://mmmu-benchmark.github.io) | root-like URL without source-board wording | 官方评测入口 |
+| multimodal-ddl | [Video-MME Leaderboard Freeze](https://video-mme.github.io) | root-like URL without source-board wording | 官方评测入口 |
 | robotics-ddl | [AI City Challenge 2026 - Registration opens](https://www.aicitychallenge.org) | root-like URL without source-board wording | AI City Challenge |
 | robotics-ddl | [AI City Challenge 2026 - Release of evaluation server and test data sets](https://www.aicitychallenge.org) | root-like URL without source-board wording | AI City Challenge |
 | robotics-ddl | [AI City Challenge 2026 - Release of evaluation server and test data sets](https://www.aicitychallenge.org) | root-like URL without source-board wording | AI City Challenge |
@@ -171,10 +104,10 @@ This is an internal production-readiness report. It identifies items that need d
 | nlp-ddl | [EMNLP 2026 Full Paper](https://2026.emnlp.org) | manual/source-board follow-up | 人工整理的官方来源入口 |
 | nlp-ddl | [CLPsych Shared Task 2026](https://clpsych.org) | manual/source-board follow-up | 人工整理的官方来源入口 |
 | nlp-ddl | [BioNLP Workshop Paper](https://aclweb.org/aclwiki/BioNLP_Workshop) | manual/source-board follow-up | 人工整理的官方来源入口 |
-| nlp-ddl | [Chinese NLPCC 2026 Demo Track](http://tcci.ccf.org.cn) | manual/source-board follow-up | 会议公开来源入口 |
+| nlp-ddl | [Chinese NLPCC 2026 Demo Track](http://tcci.ccf.org.cn) | manual/source-board follow-up | 官方来源入口 |
 | nlp-ddl | [BlackboxNLP Workshop](https://blackboxnlp.github.io) | manual/source-board follow-up | 人工整理的官方来源入口 |
 | nlp-ddl | [COLING 2027 Long Paper](https://coling2026.org) | manual/source-board follow-up | 人工整理的官方来源入口 |
-| nlp-ddl | [ACL 2027 ARR Commitment](https://www.aclweb.org) | manual/source-board follow-up | 会议公开来源入口 |
+| nlp-ddl | [ACL 2027 ARR Commitment](https://www.aclweb.org) | manual/source-board follow-up | 官方来源入口 |
 | nlp-ddl | [Legal NLP Challenge 2026](https://www.kaggle.com/competitions) | manual/source-board follow-up | 人工整理的官方来源入口 |
 | nlp-ddl | [MRQA Shared Task Refresh](https://mrqa.github.io) | manual/source-board follow-up | 人工整理的官方来源入口 |
 | nlp-ddl | [RAG Evaluation Shared Task](https://openreview.net/) | manual/source-board follow-up | 人工整理的官方来源入口 |
@@ -183,13 +116,14 @@ This is an internal production-readiness report. It identifies items that need d
 | nlp-ddl | [Low Resource Languages Track](https://sigtyp.github.io) | manual/source-board follow-up | 人工整理的官方来源入口 |
 | nlp-ddl | [INLG 2027 Paper](https://aclweb.org/aclwiki/INLG) | manual/source-board follow-up | 人工整理的官方来源入口 |
 | nlp-ddl | [SIGDIAL 2027 Paper](https://www.sigdial.org) | manual/source-board follow-up | 人工整理的官方来源入口 |
-| academic-ddl | [NeurIPS 2026 Full Paper](https://neurips.cc) | manual/source-board follow-up | 会议公开来源入口 |
+| academic-ddl | [NeurIPS 2026 Full Paper](https://neurips.cc) | manual/source-board follow-up | 官方来源入口 |
 | academic-ddl | [VLDB 2027 Monthly Deadline](https://vldb.org) | manual/source-board follow-up | 人工整理的官方来源入口 |
 | academic-ddl | [SIGMOD 2027 Round 1](https://sigmod.org) | manual/source-board follow-up | 人工整理的官方来源入口 |
 | academic-ddl | [AAAI 2027 Abstract](https://aaai.org) | manual/source-board follow-up | 人工整理的官方来源入口 |
 | academic-ddl | [CHI 2027 Papers](https://chi2027.acm.org) | manual/source-board follow-up | 人工整理的官方来源入口 |
 | academic-ddl | [ICRA 2027 Paper](https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra) | manual/source-board follow-up | 人工整理的官方来源入口 |
 | academic-ddl | [NSF Proposal Calendar Reminder](https://www.nsf.gov/funding) | manual/source-board follow-up | 人工整理的官方来源入口 |
+| academic-ddl | [ICLR 2027 Submission](https://iclr.cc) | manual/source-board follow-up | 官方来源入口 |
 | academic-ddl | [WWW 2027 Research Track](https://www2027.thewebconf.org) | manual/source-board follow-up | 人工整理的官方来源入口 |
 | academic-ddl | [AISTATS 2027 Paper](https://aistats.org) | manual/source-board follow-up | 人工整理的官方来源入口 |
 | academic-ddl | [UbiComp 2027 Full Paper](https://ubicomp.org) | manual/source-board follow-up | 人工整理的官方来源入口 |
@@ -218,21 +152,20 @@ This is an internal production-readiness report. It identifies items that need d
 | programming-ddl | [DMOJ Seasonal Contest](https://dmoj.ca/contests) | manual/source-board follow-up | 人工整理的官方来源入口 |
 | programming-ddl | [ICPC World Finals 2026](https://icpc.global) | manual/source-board follow-up | 人工整理的官方来源入口 |
 | programming-ddl | [Hash Code Legacy Practice Sprint](https://codingcompetitions.withgoogle.com/hashcode/archive) | manual/source-board follow-up | 人工整理的官方来源入口 |
-| programming-ddl | [Lanqiao Cup Provincial Round](https://dasai.lanqiao.cn) | manual/source-board follow-up | 会议公开来源入口 |
+| programming-ddl | [Lanqiao Cup Provincial Round](https://dasai.lanqiao.cn) | manual/source-board follow-up | 官方来源入口 |
 | programming-ddl | [USACO 2026 December Contest](https://usaco.org) | manual/source-board follow-up | 人工整理的官方来源入口 |
 | programming-ddl | [CodeChef Starters Series](https://www.codechef.com/contests) | manual/source-board follow-up | 人工整理的官方来源入口 |
 | programming-ddl | [Google Code Jam Archive Practice](https://codingcompetitions.withgoogle.com/codejam/archive) | manual/source-board follow-up | 人工整理的官方来源入口 |
 | programming-ddl | [Project Euler Monthly Challenge](https://projecteuler.net) | manual/source-board follow-up | 人工整理的官方来源入口 |
 | programming-ddl | [Topcoder SRM Series](https://www.topcoder.com/challenges) | manual/source-board follow-up | 人工整理的官方来源入口 |
-| multimodal-ddl | [Image Captioning Challenge](https://cocodataset.org) | manual/source-board follow-up | 人工整理的官方来源入口 |
-| multimodal-ddl | [MMLU-Pro Vision Reasoning Track](https://www.kaggle.com/competitions) | manual/source-board follow-up | 人工整理的官方来源入口 |
-| multimodal-ddl | [Video Captioning Challenge](https://www.kaggle.com/competitions) | manual/source-board follow-up | 人工整理的官方来源入口 |
-| multimodal-ddl | [ChartQA Challenge](https://github.com/vis-nlp/ChartQA) | manual/source-board follow-up | 人工整理的官方来源入口 |
-| multimodal-ddl | [Audio-Visual Scene Challenge](https://www.kaggle.com/competitions) | manual/source-board follow-up | 人工整理的官方来源入口 |
-| multimodal-ddl | [DocVQA Task Refresh](https://rrc.cvc.uab.es/?ch=17) | manual/source-board follow-up | 人工整理的官方来源入口 |
-| multimodal-ddl | [CVPR VLM Workshop Paper](https://cvpr.thecvf.com) | manual/source-board follow-up | 人工整理的官方来源入口 |
-| multimodal-ddl | [MMBench Leaderboard Snapshot](https://opencompass.org.cn/leaderboard-multimodal) | manual/source-board follow-up | 人工整理的官方来源入口 |
-| multimodal-ddl | [Multimodal Safety Red Team](https://openreview.net/) | manual/source-board follow-up | 人工整理的官方来源入口 |
+| holiday-ddl | [小满 2026](https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm) | manual/source-board follow-up | 官方年历来源入口 |
+| holiday-ddl | [芒种 2026](https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm) | manual/source-board follow-up | 官方年历来源入口 |
+| holiday-ddl | [端午节 2026](https://www.gov.cn/) | manual/source-board follow-up | 官方日历来源入口 |
+| holiday-ddl | [夏至 2026](https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm) | manual/source-board follow-up | 官方年历来源入口 |
+| holiday-ddl | [Father's Day 2026](https://www.timeanddate.com/holidays/) | manual/source-board follow-up | 官方来源入口 |
+| holiday-ddl | [小暑 2026](https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm) | manual/source-board follow-up | 官方年历来源入口 |
+| holiday-ddl | [大暑 2026](https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm) | manual/source-board follow-up | 官方年历来源入口 |
+| holiday-ddl | [立秋 2026](https://www.weather.gov.hk/en/gts/astron2026/almanac2026_index.htm) | manual/source-board follow-up | 官方年历来源入口 |
 
 ## Seed / Demo Source Wording
 

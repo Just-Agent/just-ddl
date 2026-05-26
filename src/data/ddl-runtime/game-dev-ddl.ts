@@ -17,7 +17,8 @@ export const ddlForGameDevDdl: DDLItem[] = [
     "type": "contest",
     "dateRange": "2026-05-24",
     "location": "Online",
-    "isOnline": true
+    "isOnline": true,
+    "sourceUrl": "https://itch.io/jam/gdevelop-big-game-jam-9"
   },
   {
     "id": "itchio-jam-coolmath-game-jam-2026",
@@ -35,7 +36,8 @@ export const ddlForGameDevDdl: DDLItem[] = [
     "type": "contest",
     "dateRange": "2026-06-08",
     "location": "Online",
-    "isOnline": true
+    "isOnline": true,
+    "sourceUrl": "https://itch.io/jam/coolmath-game-jam-2026"
   },
   {
     "id": "itchio-jam-noise-jam-3",
@@ -53,7 +55,8 @@ export const ddlForGameDevDdl: DDLItem[] = [
     "type": "contest",
     "dateRange": "2026-06-13",
     "location": "Online",
-    "isOnline": true
+    "isOnline": true,
+    "sourceUrl": "https://itch.io/jam/noise-jam-3"
   },
   {
     "id": "itchio-jam-nes-jam-2026",
@@ -71,7 +74,8 @@ export const ddlForGameDevDdl: DDLItem[] = [
     "type": "contest",
     "dateRange": "2026-06-15",
     "location": "Online",
-    "isOnline": true
+    "isOnline": true,
+    "sourceUrl": "https://itch.io/jam/nes-jam-2026"
   },
   {
     "id": "itchio-jam-metroidvania-month-32",
@@ -89,7 +93,8 @@ export const ddlForGameDevDdl: DDLItem[] = [
     "type": "contest",
     "dateRange": "2026-06-16",
     "location": "Online",
-    "isOnline": true
+    "isOnline": true,
+    "sourceUrl": "https://itch.io/jam/metroidvania-month-32"
   },
   {
     "id": "itchio-jam-comfy-jam-summer-2026",
@@ -107,7 +112,8 @@ export const ddlForGameDevDdl: DDLItem[] = [
     "type": "contest",
     "dateRange": "2026-06-19",
     "location": "Online",
-    "isOnline": true
+    "isOnline": true,
+    "sourceUrl": "https://itch.io/jam/comfy-jam-summer-2026"
   },
   {
     "id": "game-dev-ddl-global-game-jam-site-registration-2026-07-01",
@@ -126,7 +132,8 @@ export const ddlForGameDevDdl: DDLItem[] = [
     "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
     "stage": "Source board",
     "source": "Global Game Jam",
-    "type": "contest"
+    "type": "contest",
+    "sourceUrl": "https://globalgamejam.org"
   },
   {
     "id": "itchio-jam-toxic-yuri-vn-jam-2",
@@ -144,7 +151,8 @@ export const ddlForGameDevDdl: DDLItem[] = [
     "type": "contest",
     "dateRange": "2026-07-13",
     "location": "Online",
-    "isOnline": true
+    "isOnline": true,
+    "sourceUrl": "https://itch.io/jam/toxic-yuri-vn-jam-2"
   },
   {
     "id": "game-dev-ddl-ludum-dare-60-2026-07-19",
@@ -163,7 +171,8 @@ export const ddlForGameDevDdl: DDLItem[] = [
     "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
     "stage": "Source board",
     "source": "Ludum Dare",
-    "type": "contest"
+    "type": "contest",
+    "sourceUrl": "https://ldjam.com"
   },
   {
     "id": "itchio-jam-gmtk-jam-2026",
@@ -181,7 +190,8 @@ export const ddlForGameDevDdl: DDLItem[] = [
     "type": "contest",
     "dateRange": "2026-07-26",
     "location": "Online",
-    "isOnline": true
+    "isOnline": true,
+    "sourceUrl": "https://itch.io/jam/gmtk-jam-2026"
   },
   {
     "id": "game-dev-ddl-gmtk-game-jam-2026-08-06",
@@ -200,7 +210,8 @@ export const ddlForGameDevDdl: DDLItem[] = [
     "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
     "stage": "Source board",
     "source": "itch.io Jams",
-    "type": "contest"
+    "type": "contest",
+    "sourceUrl": "https://itch.io/jams"
   },
   {
     "id": "game-dev-ddl-itch-io-brackeys-game-jam-2026-08-24",
@@ -219,7 +230,8 @@ export const ddlForGameDevDdl: DDLItem[] = [
     "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
     "stage": "Source board",
     "source": "itch.io Jams",
-    "type": "contest"
+    "type": "contest",
+    "sourceUrl": "https://itch.io/jams"
   },
   {
     "id": "itchio-jam-brackeys-16",
@@ -237,7 +249,8 @@ export const ddlForGameDevDdl: DDLItem[] = [
     "type": "contest",
     "dateRange": "2026-08-30",
     "location": "Online",
-    "isOnline": true
+    "isOnline": true,
+    "sourceUrl": "https://itch.io/jam/brackeys-16"
   },
   {
     "id": "game-dev-ddl-independent-games-festival-submission-2026-09-11",
@@ -256,7 +269,8 @@ export const ddlForGameDevDdl: DDLItem[] = [
     "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
     "stage": "Source board",
     "source": "Independent Games Festival",
-    "type": "contest"
+    "type": "contest",
+    "sourceUrl": "https://igf.com"
   },
   {
     "id": "itchio-jam-gbjam-14",
@@ -274,7 +288,8 @@ export const ddlForGameDevDdl: DDLItem[] = [
     "type": "contest",
     "dateRange": "2026-09-21",
     "location": "Online",
-    "isOnline": true
+    "isOnline": true,
+    "sourceUrl": "https://itch.io/jam/gbjam-14"
   },
   {
     "id": "game-dev-ddl-student-game-competition-entry-2026-09-29",
@@ -293,7 +308,8 @@ export const ddlForGameDevDdl: DDLItem[] = [
     "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
     "stage": "Source board",
     "source": "itch.io",
-    "type": "contest"
+    "type": "contest",
+    "sourceUrl": "https://itch.io/jams"
   },
   {
     "id": "game-dev-ddl-unreal-engine-challenge-2026-10-17",
@@ -312,7 +328,8 @@ export const ddlForGameDevDdl: DDLItem[] = [
     "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
     "stage": "Source board",
     "source": "Unreal Engine",
-    "type": "contest"
+    "type": "contest",
+    "sourceUrl": "https://www.unrealengine.com"
   },
   {
     "id": "game-dev-ddl-unity-student-challenge-2026-11-04",
@@ -331,7 +348,8 @@ export const ddlForGameDevDdl: DDLItem[] = [
     "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
     "stage": "Source board",
     "source": "Unity",
-    "type": "contest"
+    "type": "contest",
+    "sourceUrl": "https://unity.com"
   },
   {
     "id": "game-dev-ddl-godot-wild-jam-2026-11-22",
@@ -350,7 +368,8 @@ export const ddlForGameDevDdl: DDLItem[] = [
     "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
     "stage": "Source board",
     "source": "itch.io Jams",
-    "type": "contest"
+    "type": "contest",
+    "sourceUrl": "https://itch.io/jams"
   },
   {
     "id": "game-dev-ddl-game-off-by-github-2026-12-10",
@@ -369,7 +388,8 @@ export const ddlForGameDevDdl: DDLItem[] = [
     "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
     "stage": "Source board",
     "source": "GitHub Game Off",
-    "type": "contest"
+    "type": "contest",
+    "sourceUrl": "https://itch.io/jam/game-off"
   },
   {
     "id": "game-dev-ddl-a-maze-awards-submission-2026-12-28",
@@ -388,7 +408,8 @@ export const ddlForGameDevDdl: DDLItem[] = [
     "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
     "stage": "Source board",
     "source": "A MAZE.",
-    "type": "contest"
+    "type": "contest",
+    "sourceUrl": "https://amaze-berlin.de"
   },
   {
     "id": "game-dev-ddl-indiecade-submission-2027-01-15",
@@ -407,7 +428,8 @@ export const ddlForGameDevDdl: DDLItem[] = [
     "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
     "stage": "Source board",
     "source": "IndieCade",
-    "type": "contest"
+    "type": "contest",
+    "sourceUrl": "https://www.indiecade.com"
   },
   {
     "id": "game-dev-ddl-games-for-change-awards-2027-02-02",
@@ -426,7 +448,8 @@ export const ddlForGameDevDdl: DDLItem[] = [
     "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
     "stage": "Source board",
     "source": "Games for Change",
-    "type": "contest"
+    "type": "contest",
+    "sourceUrl": "https://www.gamesforchange.org"
   },
   {
     "id": "game-dev-ddl-ai-npc-challenge-2027-02-20",
@@ -445,7 +468,8 @@ export const ddlForGameDevDdl: DDLItem[] = [
     "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
     "stage": "Source board",
     "source": "itch.io",
-    "type": "contest"
+    "type": "contest",
+    "sourceUrl": "https://itch.io/jams"
   },
   {
     "id": "game-dev-ddl-procedural-generation-jam-2027-03-10",
@@ -464,7 +488,8 @@ export const ddlForGameDevDdl: DDLItem[] = [
     "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
     "stage": "Source board",
     "source": "itch.io",
-    "type": "contest"
+    "type": "contest",
+    "sourceUrl": "https://itch.io/jams"
   },
   {
     "id": "game-dev-ddl-serious-games-health-track-2027-03-28",
@@ -483,6 +508,7 @@ export const ddlForGameDevDdl: DDLItem[] = [
     "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。",
     "stage": "Source board",
     "source": "itch.io",
-    "type": "contest"
+    "type": "contest",
+    "sourceUrl": "https://itch.io/jams"
   }
 ];

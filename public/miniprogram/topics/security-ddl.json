@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-25T23:04:19.374Z",
-  "dataVersion": "65b78becb1005ce4",
+  "generatedAt": "2026-05-26T01:07:11.250Z",
+  "dataVersion": "0784691de0f1f631",
   "topic": {
     "id": "security-ddl",
     "name": "Security & CTF",
@@ -36,6 +36,7 @@
       "status": "upcoming",
       "stage": "upcoming",
       "source": "ctftime",
+      "sourceUrl": "https://ctftime.org/event/3277",
       "type": "contest",
       "description": "Parsed from CTFtime upcoming events. Deadline represents the event start time, not a registration deadline."
     },
@@ -56,6 +57,7 @@
       "status": "upcoming",
       "stage": "upcoming",
       "source": "ctftime",
+      "sourceUrl": "https://ctftime.org/event/3205",
       "type": "contest",
       "description": "Parsed from CTFtime upcoming events. Deadline represents the event start time, not a registration deadline."
     },
@@ -76,6 +78,7 @@
       "status": "upcoming",
       "stage": "upcoming",
       "source": "ctftime",
+      "sourceUrl": "https://ctftime.org/event/3284",
       "type": "contest",
       "description": "Parsed from CTFtime upcoming events. Deadline represents the event start time, not a registration deadline."
     },
@@ -96,6 +99,7 @@
       "status": "upcoming",
       "stage": "upcoming",
       "source": "ctftime",
+      "sourceUrl": "https://ctftime.org/event/3136",
       "type": "contest",
       "description": "Parsed from CTFtime upcoming events. Deadline represents the event start time, not a registration deadline."
     },
@@ -116,6 +120,7 @@
       "status": "upcoming",
       "stage": "upcoming",
       "source": "ctftime",
+      "sourceUrl": "https://ctftime.org/event/3271",
       "type": "contest",
       "description": "Parsed from CTFtime upcoming events. Deadline represents the event start time, not a registration deadline."
     },
@@ -136,6 +141,7 @@
       "status": "upcoming",
       "stage": "upcoming",
       "source": "ctftime",
+      "sourceUrl": "https://ctftime.org/event/3270",
       "type": "contest",
       "description": "Parsed from CTFtime upcoming events. Deadline represents the event start time, not a registration deadline."
     },
@@ -156,6 +162,7 @@
       "status": "upcoming",
       "stage": "upcoming",
       "source": "ctftime",
+      "sourceUrl": "https://ctftime.org/event/3174",
       "type": "contest",
       "description": "Parsed from CTFtime upcoming events. Deadline represents the event start time, not a registration deadline."
     },
@@ -176,6 +183,7 @@
       "status": "upcoming",
       "stage": "upcoming",
       "source": "ctftime",
+      "sourceUrl": "https://ctftime.org/event/3209",
       "type": "contest",
       "description": "Parsed from CTFtime upcoming events. Deadline represents the event start time, not a registration deadline."
     },
@@ -196,6 +204,7 @@
       "status": "upcoming",
       "stage": "upcoming",
       "source": "ctftime",
+      "sourceUrl": "https://ctftime.org/event/3247",
       "type": "contest",
       "description": "Parsed from CTFtime upcoming events. Deadline represents the event start time, not a registration deadline."
     },
@@ -216,6 +225,7 @@
       "status": "upcoming",
       "stage": "upcoming",
       "source": "ctftime",
+      "sourceUrl": "https://ctftime.org/event/3178",
       "type": "contest",
       "description": "Parsed from CTFtime upcoming events. Deadline represents the event start time, not a registration deadline."
     },
@@ -236,6 +246,7 @@
       "status": "upcoming",
       "stage": "upcoming",
       "source": "ctftime",
+      "sourceUrl": "https://ctftime.org/event/3220",
       "type": "contest",
       "description": "Parsed from CTFtime upcoming events. Deadline represents the event start time, not a registration deadline."
     },
@@ -256,6 +267,7 @@
       "status": "upcoming",
       "stage": "upcoming",
       "source": "ctftime",
+      "sourceUrl": "https://ctftime.org/event/3243",
       "type": "contest",
       "description": "Parsed from CTFtime upcoming events. Deadline represents the event start time, not a registration deadline."
     },
@@ -276,6 +288,7 @@
       "status": "upcoming",
       "stage": "Source board",
       "source": "DEF CON",
+      "sourceUrl": "https://defcon.org",
       "type": "contest",
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。"
     },
@@ -296,6 +309,7 @@
       "status": "upcoming",
       "stage": "Source board",
       "source": "Google CTF",
+      "sourceUrl": "https://capturetheflag.withgoogle.com",
       "type": "contest",
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。"
     },
@@ -316,6 +330,7 @@
       "status": "upcoming",
       "stage": "Source board",
       "source": "Hack The Box CTF",
+      "sourceUrl": "https://ctf.hackthebox.com",
       "type": "contest",
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。"
     },
@@ -336,6 +351,7 @@
       "status": "upcoming",
       "stage": "Source board",
       "source": "SECCON",
+      "sourceUrl": "https://www.seccon.jp",
       "type": "contest",
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。"
     },
@@ -356,6 +372,7 @@
       "status": "upcoming",
       "stage": "Source board",
       "source": "HITCON CTF",
+      "sourceUrl": "https://ctf.hitcon.org",
       "type": "contest",
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。"
     },
@@ -376,6 +393,7 @@
       "status": "upcoming",
       "stage": "Source board",
       "source": "Zero Day Initiative",
+      "sourceUrl": "https://www.zerodayinitiative.com",
       "type": "contest",
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。"
     },
@@ -396,6 +414,7 @@
       "status": "upcoming",
       "stage": "Source board",
       "source": "Black Hat",
+      "sourceUrl": "https://www.blackhat.com",
       "type": "contest",
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。"
     },
@@ -416,6 +435,7 @@
       "status": "upcoming",
       "stage": "Source board",
       "source": "USENIX Conferences",
+      "sourceUrl": "https://www.usenix.org/conferences",
       "type": "contest",
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。"
     },
@@ -436,6 +456,7 @@
       "status": "upcoming",
       "stage": "Source board",
       "source": "ctftime.org",
+      "sourceUrl": "https://ctftime.org",
       "type": "contest",
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。"
     },
@@ -456,6 +477,7 @@
       "status": "upcoming",
       "stage": "Source board",
       "source": "HackerOne Hacktivity",
+      "sourceUrl": "https://hackerone.com/hacktivity",
       "type": "contest",
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。"
     },
@@ -476,6 +498,7 @@
       "status": "upcoming",
       "stage": "Source board",
       "source": "Real World Crypto",
+      "sourceUrl": "https://rwc.iacr.org",
       "type": "contest",
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。"
     },
@@ -496,6 +519,7 @@
       "status": "upcoming",
       "stage": "Source board",
       "source": "ctftime.org",
+      "sourceUrl": "https://ctftime.org",
       "type": "contest",
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。"
     },
@@ -516,6 +540,7 @@
       "status": "upcoming",
       "stage": "Source board",
       "source": "ctftime.org",
+      "sourceUrl": "https://ctftime.org",
       "type": "contest",
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。"
     },
@@ -536,6 +561,7 @@
       "status": "upcoming",
       "stage": "Source board",
       "source": "ctftime.org",
+      "sourceUrl": "https://ctftime.org",
       "type": "contest",
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。"
     },
@@ -556,6 +582,7 @@
       "status": "upcoming",
       "stage": "Source board",
       "source": "ctftime.org",
+      "sourceUrl": "https://ctftime.org",
       "type": "contest",
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。"
     },
@@ -576,6 +603,7 @@
       "status": "upcoming",
       "stage": "Source board",
       "source": "ctftime.org",
+      "sourceUrl": "https://ctftime.org",
       "type": "contest",
       "description": "已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 自动更新流程 抽取并校验。"
     }

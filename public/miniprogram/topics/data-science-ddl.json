@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-25T23:04:19.374Z",
-  "dataVersion": "65b78becb1005ce4",
+  "generatedAt": "2026-05-26T01:07:11.250Z",
+  "dataVersion": "0784691de0f1f631",
   "topic": {
     "id": "data-science-ddl",
     "name": "Data Science",
@@ -38,6 +38,7 @@
       "status": "upcoming",
       "stage": "Deadline",
       "source": "DrivenData Competitions",
+      "sourceUrl": "https://www.drivendata.org/competitions/297/whats-up-docs/",
       "type": "challenge",
       "description": "Parsed from official DrivenData listing. Deadline is read from the card end-date tooltip."
     },
@@ -59,6 +60,7 @@
       "status": "upcoming",
       "stage": "Deadline",
       "source": "DrivenData Competitions",
+      "sourceUrl": "https://www.drivendata.org/competitions/66/flu-shot-learning/",
       "type": "challenge",
       "description": "Parsed from official DrivenData listing. Deadline is read from the card end-date tooltip."
     },
@@ -80,6 +82,7 @@
       "status": "upcoming",
       "stage": "Deadline",
       "source": "DrivenData Competitions",
+      "sourceUrl": "https://www.drivendata.org/competitions/87/competition-image-classification-wildlife-conservation/",
       "type": "challenge",
       "description": "Parsed from official DrivenData listing. Deadline is read from the card end-date tooltip."
     },
@@ -101,6 +104,7 @@
       "status": "upcoming",
       "stage": "Deadline",
       "source": "DrivenData Competitions",
+      "sourceUrl": "https://www.drivendata.org/competitions/44/dengai-predicting-disease-spread/",
       "type": "challenge",
       "description": "Parsed from official DrivenData listing. Deadline is read from the card end-date tooltip."
     },
@@ -122,6 +126,7 @@
       "status": "upcoming",
       "stage": "Deadline",
       "source": "DrivenData Competitions",
+      "sourceUrl": "https://www.drivendata.org/competitions/7/pump-it-up-data-mining-the-water-table/",
       "type": "challenge",
       "description": "Parsed from official DrivenData listing. Deadline is read from the card end-date tooltip."
     },
@@ -143,6 +148,7 @@
       "status": "upcoming",
       "stage": "Deadline",
       "source": "DrivenData Competitions",
+      "sourceUrl": "https://www.drivendata.org/competitions/57/nepal-earthquake/",
       "type": "challenge",
       "description": "Parsed from official DrivenData listing. Deadline is read from the card end-date tooltip."
     }
