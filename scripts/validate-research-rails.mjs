@@ -17,6 +17,11 @@ const RESEARCH_TOPIC_IDS = [
 
 const GOOGLE_SCHOLAR_TOPIC_ID = 'google-scholar-metrics-ddl';
 const GOOGLE_SCHOLAR_TOP_VENUES_URL = 'https://scholar.google.com/citations?view_op=top_venues&hl=en';
+const GOOGLE_SCHOLAR_RELEASE_COVERAGE_WINDOWS = new Map([
+  ['google-scholar-metrics-2025-release', '2020-2024'],
+  ['google-scholar-metrics-2024-release', '2019-2023'],
+  ['google-scholar-metrics-2023-release', '2018-2022']
+]);
 
 const NSFC_REQUIRED_PROJECT_TYPES = {
   2025: [
@@ -395,6 +400,11 @@ function validateGoogleScholarMetrics(items, metrics, scopeLabel) {
     assert(release.source === 'Google Scholar Blog', `${label} source must be Google Scholar Blog`, errors);
     assert(isHttpUrl(release.sourceUrl), `${label} missing official sourceUrl`, errors);
     assert(/^20\d{2}-\d{2}-\d{2}$/.test(String(release.date || '')), `${label} date must be YYYY-MM-DD`, errors);
+    assert(
+      release.coverageWindow === GOOGLE_SCHOLAR_RELEASE_COVERAGE_WINDOWS.get(release.id),
+      `${label} coverageWindow must be ${GOOGLE_SCHOLAR_RELEASE_COVERAGE_WINDOWS.get(release.id)}`,
+      errors
+    );
   }
 
   assert(Boolean(forecast), `${scopeLabel}: ${GOOGLE_SCHOLAR_TOPIC_ID} missing forecast window`, errors);
@@ -433,6 +443,7 @@ function validateGoogleScholarMetrics(items, metrics, scopeLabel) {
     assert(metric.sourceUrl === GOOGLE_SCHOLAR_TOP_VENUES_URL, `${label} sourceUrl must be the Top publications page`, errors);
     assert(['journal', 'conference'].includes(metric.venueType), `${label} venueType must be journal or conference`, errors);
     assert(hasText(metric.publicationTitle) && hasText(metric.journalTitle), `${label} missing publicationTitle/journalTitle`, errors);
+    assert(metric.coverageWindow === '2020-2024', `${label} coverageWindow must be 2020-2024`, errors);
     const key = normalizeText(metric.publicationTitle || metric.journalTitle || metric.id);
     const group = groups.get(key) || [];
     group.push(metric);

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-26T04:18:28.607Z",
-  "dataVersion": "7edbc4991d5d223d",
+  "generatedAt": "2026-05-26T06:55:27.253Z",
+  "dataVersion": "96c4ac6074784b45",
   "topic": {
     "id": "google-scholar-metrics-ddl",
     "name": "Scholar Metrics",
@@ -27,6 +27,7 @@
       "title": "2025 Scholar Metrics 发布",
       "date": "2025-07-22",
       "dateRange": "2025-07-22",
+      "coverageWindow": "2020-2024",
       "location": "Online",
       "isOnline": true,
       "tags": [
@@ -51,6 +52,7 @@
       "title": "2024 Scholar Metrics 发布",
       "date": "2024-07-09",
       "dateRange": "2024-07-09",
+      "coverageWindow": "2019-2023",
       "location": "Online",
       "isOnline": true,
       "tags": [
@@ -75,6 +77,7 @@
       "title": "2023 Scholar Metrics 发布",
       "date": "2023-07-19",
       "dateRange": "2023-07-19",
+      "coverageWindow": "2018-2022",
       "location": "Online",
       "isOnline": true,
       "tags": [
@@ -142,6 +145,7 @@
       "value": 490,
       "year": 2025,
       "rank": 1,
+      "coverageWindow": "2020-2024",
       "source": "Google Scholar Metrics",
       "url": "https://scholar.google.com/citations?view_op=top_venues&hl=en",
       "sourceUrl": "https://scholar.google.com/citations?view_op=top_venues&hl=en"
@@ -158,6 +162,7 @@
       "value": 784,
       "year": 2025,
       "rank": 1,
+      "coverageWindow": "2020-2024",
       "source": "Google Scholar Metrics",
       "url": "https://scholar.google.com/citations?view_op=top_venues&hl=en",
       "sourceUrl": "https://scholar.google.com/citations?view_op=top_venues&hl=en"
@@ -174,6 +179,7 @@
       "value": 450,
       "year": 2025,
       "rank": 2,
+      "coverageWindow": "2020-2024",
       "source": "Google Scholar Metrics",
       "url": "https://scholar.google.com/citations?view_op=top_venues&hl=en",
       "sourceUrl": "https://scholar.google.com/citations?view_op=top_venues&hl=en"
@@ -190,6 +196,7 @@
       "value": 702,
       "year": 2025,
       "rank": 2,
+      "coverageWindow": "2020-2024",
       "source": "Google Scholar Metrics",
       "url": "https://scholar.google.com/citations?view_op=top_venues&hl=en",
       "sourceUrl": "https://scholar.google.com/citations?view_op=top_venues&hl=en"
@@ -206,6 +213,7 @@
       "value": 441,
       "year": 2025,
       "rank": 3,
+      "coverageWindow": "2020-2024",
       "source": "Google Scholar Metrics",
       "url": "https://scholar.google.com/citations?view_op=top_venues&hl=en",
       "sourceUrl": "https://scholar.google.com/citations?view_op=top_venues&hl=en"
@@ -222,6 +230,7 @@
       "value": 854,
       "year": 2025,
       "rank": 3,
+      "coverageWindow": "2020-2024",
       "source": "Google Scholar Metrics",
       "url": "https://scholar.google.com/citations?view_op=top_venues&hl=en",
       "sourceUrl": "https://scholar.google.com/citations?view_op=top_venues&hl=en"
@@ -238,6 +247,7 @@
       "value": 415,
       "year": 2025,
       "rank": 4,
+      "coverageWindow": "2020-2024",
       "source": "Google Scholar Metrics",
       "url": "https://scholar.google.com/citations?view_op=top_venues&hl=en",
       "sourceUrl": "https://scholar.google.com/citations?view_op=top_venues&hl=en"
@@ -254,6 +264,7 @@
       "value": 653,
       "year": 2025,
       "rank": 4,
+      "coverageWindow": "2020-2024",
       "source": "Google Scholar Metrics",
       "url": "https://scholar.google.com/citations?view_op=top_venues&hl=en",
       "sourceUrl": "https://scholar.google.com/citations?view_op=top_venues&hl=en"
@@ -270,6 +281,7 @@
       "value": 399,
       "year": 2025,
       "rank": 5,
+      "coverageWindow": "2020-2024",
       "source": "Google Scholar Metrics",
       "url": "https://scholar.google.com/citations?view_op=top_venues&hl=en",
       "sourceUrl": "https://scholar.google.com/citations?view_op=top_venues&hl=en"
@@ -286,6 +298,7 @@
       "value": 509,
       "year": 2025,
       "rank": 5,
+      "coverageWindow": "2020-2024",
       "source": "Google Scholar Metrics",
       "url": "https://scholar.google.com/citations?view_op=top_venues&hl=en",
       "sourceUrl": "https://scholar.google.com/citations?view_op=top_venues&hl=en"
@@ -302,6 +315,7 @@
       "value": 375,
       "year": 2025,
       "rank": 6,
+      "coverageWindow": "2020-2024",
       "source": "Google Scholar Metrics",
       "url": "https://scholar.google.com/citations?view_op=top_venues&hl=en",
       "sourceUrl": "https://scholar.google.com/citations?view_op=top_venues&hl=en"
@@ -318,6 +332,7 @@
       "value": 712,
       "year": 2025,
       "rank": 6,
+      "coverageWindow": "2020-2024",
       "source": "Google Scholar Metrics",
       "url": "https://scholar.google.com/citations?view_op=top_venues&hl=en",
       "sourceUrl": "https://scholar.google.com/citations?view_op=top_venues&hl=en"
@@ -334,6 +349,7 @@
       "value": 371,
       "year": 2025,
       "rank": 7,
+      "coverageWindow": "2020-2024",
       "source": "Google Scholar Metrics",
       "url": "https://scholar.google.com/citations?view_op=top_venues&hl=en",
       "sourceUrl": "https://scholar.google.com/citations?view_op=top_venues&hl=en"
@@ -350,6 +366,7 @@
       "value": 637,
       "year": 2025,
       "rank": 7,
+      "coverageWindow": "2020-2024",
       "source": "Google Scholar Metrics",
       "url": "https://scholar.google.com/citations?view_op=top_venues&hl=en",
       "sourceUrl": "https://scholar.google.com/citations?view_op=top_venues&hl=en"
@@ -366,6 +383,7 @@
       "value": 362,
       "year": 2025,
       "rank": 8,
+      "coverageWindow": "2020-2024",
       "source": "Google Scholar Metrics",
       "url": "https://scholar.google.com/citations?view_op=top_venues&hl=en",
       "sourceUrl": "https://scholar.google.com/citations?view_op=top_venues&hl=en"
@@ -382,6 +400,7 @@
       "value": 652,
       "year": 2025,
       "rank": 8,
+      "coverageWindow": "2020-2024",
       "source": "Google Scholar Metrics",
       "url": "https://scholar.google.com/citations?view_op=top_venues&hl=en",
       "sourceUrl": "https://scholar.google.com/citations?view_op=top_venues&hl=en"
@@ -398,6 +417,7 @@
       "value": 330,
       "year": 2025,
       "rank": 9,
+      "coverageWindow": "2020-2024",
       "source": "Google Scholar Metrics",
       "url": "https://scholar.google.com/citations?view_op=top_venues&hl=en",
       "sourceUrl": "https://scholar.google.com/citations?view_op=top_venues&hl=en"
@@ -414,6 +434,7 @@
       "value": 440,
       "year": 2025,
       "rank": 9,
+      "coverageWindow": "2020-2024",
       "source": "Google Scholar Metrics",
       "url": "https://scholar.google.com/citations?view_op=top_venues&hl=en",
       "sourceUrl": "https://scholar.google.com/citations?view_op=top_venues&hl=en"
@@ -430,6 +451,7 @@
       "value": 317,
       "year": 2025,
       "rank": 10,
+      "coverageWindow": "2020-2024",
       "source": "Google Scholar Metrics",
       "url": "https://scholar.google.com/citations?view_op=top_venues&hl=en",
       "sourceUrl": "https://scholar.google.com/citations?view_op=top_venues&hl=en"
@@ -446,6 +468,7 @@
       "value": 528,
       "year": 2025,
       "rank": 10,
+      "coverageWindow": "2020-2024",
       "source": "Google Scholar Metrics",
       "url": "https://scholar.google.com/citations?view_op=top_venues&hl=en",
       "sourceUrl": "https://scholar.google.com/citations?view_op=top_venues&hl=en"

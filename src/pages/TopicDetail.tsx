@@ -88,6 +88,12 @@ function metricWhen(metric: MetricSnapshot, language: 'zh' | 'en') {
   return language === 'zh' ? '当前快照' : 'current snapshot';
 }
 
+function metricCoverageLabel(metric: MetricSnapshot, language: 'zh' | 'en') {
+  const coverageWindow = typeof metric.coverageWindow === 'string' ? metric.coverageWindow.trim() : '';
+  if (!coverageWindow) return '';
+  return language === 'zh' ? `统计窗口 ${coverageWindow}` : `coverage ${coverageWindow}`;
+}
+
 function forecastHistoryItems(forecast: DDLItem, items: DDLItem[]) {
   const basisIds = Array.isArray(forecast.basisEvents)
     ? forecast.basisEvents.filter((id): id is string => typeof id === 'string' && id.trim().length > 0)
@@ -570,7 +576,9 @@ function TopicInsightRails({
                 <div className="mt-2 flex items-end justify-between gap-3">
                   <div>
                     <p className="text-xl font-black" style={{ color: '#0F172A' }}>{String(metric.value)}</p>
-                    <p className="text-[11px] font-semibold" style={{ color: '#64748B' }}>{metricTitle(metric, language)} · {metricWhen(metric, language)}</p>
+                    <p className="text-[11px] font-semibold" style={{ color: '#64748B' }}>
+                      {[metricTitle(metric, language), metricWhen(metric, language), metricCoverageLabel(metric, language)].filter(Boolean).join(' · ')}
+                    </p>
                   </div>
                   <ExternalLink size={13} style={{ color: '#94A3B8' }} />
                 </div>

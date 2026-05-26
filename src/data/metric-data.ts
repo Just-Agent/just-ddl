@@ -22231,7 +22231,8 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "rank": 1,
       "source": "Google Scholar Metrics",
       "url": "https://scholar.google.com/citations?view_op=top_venues&hl=en",
-      "sourceUrl": "https://scholar.google.com/citations?view_op=top_venues&hl=en"
+      "sourceUrl": "https://scholar.google.com/citations?view_op=top_venues&hl=en",
+      "coverageWindow": "2020-2024"
     },
     {
       "sourceLabel": "Google Scholar Metrics Top publications",
@@ -22247,7 +22248,8 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "rank": 1,
       "source": "Google Scholar Metrics",
       "url": "https://scholar.google.com/citations?view_op=top_venues&hl=en",
-      "sourceUrl": "https://scholar.google.com/citations?view_op=top_venues&hl=en"
+      "sourceUrl": "https://scholar.google.com/citations?view_op=top_venues&hl=en",
+      "coverageWindow": "2020-2024"
     },
     {
       "sourceLabel": "Google Scholar Metrics Top publications",
@@ -22263,7 +22265,8 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "rank": 2,
       "source": "Google Scholar Metrics",
       "url": "https://scholar.google.com/citations?view_op=top_venues&hl=en",
-      "sourceUrl": "https://scholar.google.com/citations?view_op=top_venues&hl=en"
+      "sourceUrl": "https://scholar.google.com/citations?view_op=top_venues&hl=en",
+      "coverageWindow": "2020-2024"
     },
     {
       "sourceLabel": "Google Scholar Metrics Top publications",
@@ -22279,7 +22282,8 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "rank": 2,
       "source": "Google Scholar Metrics",
       "url": "https://scholar.google.com/citations?view_op=top_venues&hl=en",
-      "sourceUrl": "https://scholar.google.com/citations?view_op=top_venues&hl=en"
+      "sourceUrl": "https://scholar.google.com/citations?view_op=top_venues&hl=en",
+      "coverageWindow": "2020-2024"
     },
     {
       "sourceLabel": "Google Scholar Metrics Top publications",
@@ -22295,7 +22299,8 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "rank": 3,
       "source": "Google Scholar Metrics",
       "url": "https://scholar.google.com/citations?view_op=top_venues&hl=en",
-      "sourceUrl": "https://scholar.google.com/citations?view_op=top_venues&hl=en"
+      "sourceUrl": "https://scholar.google.com/citations?view_op=top_venues&hl=en",
+      "coverageWindow": "2020-2024"
     },
     {
       "sourceLabel": "Google Scholar Metrics Top publications",
@@ -22311,7 +22316,8 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "rank": 3,
       "source": "Google Scholar Metrics",
       "url": "https://scholar.google.com/citations?view_op=top_venues&hl=en",
-      "sourceUrl": "https://scholar.google.com/citations?view_op=top_venues&hl=en"
+      "sourceUrl": "https://scholar.google.com/citations?view_op=top_venues&hl=en",
+      "coverageWindow": "2020-2024"
     },
     {
       "sourceLabel": "Google Scholar Metrics Top publications",
@@ -22327,7 +22333,8 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "rank": 4,
       "source": "Google Scholar Metrics",
       "url": "https://scholar.google.com/citations?view_op=top_venues&hl=en",
-      "sourceUrl": "https://scholar.google.com/citations?view_op=top_venues&hl=en"
+      "sourceUrl": "https://scholar.google.com/citations?view_op=top_venues&hl=en",
+      "coverageWindow": "2020-2024"
     },
     {
       "sourceLabel": "Google Scholar Metrics Top publications",
@@ -22343,7 +22350,8 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "rank": 4,
       "source": "Google Scholar Metrics",
       "url": "https://scholar.google.com/citations?view_op=top_venues&hl=en",
-      "sourceUrl": "https://scholar.google.com/citations?view_op=top_venues&hl=en"
+      "sourceUrl": "https://scholar.google.com/citations?view_op=top_venues&hl=en",
+      "coverageWindow": "2020-2024"
     },
     {
       "sourceLabel": "Google Scholar Metrics Top publications",
@@ -22359,7 +22367,8 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "rank": 5,
       "source": "Google Scholar Metrics",
       "url": "https://scholar.google.com/citations?view_op=top_venues&hl=en",
-      "sourceUrl": "https://scholar.google.com/citations?view_op=top_venues&hl=en"
+      "sourceUrl": "https://scholar.google.com/citations?view_op=top_venues&hl=en",
+      "coverageWindow": "2020-2024"
     },
     {
       "sourceLabel": "Google Scholar Metrics Top publications",
@@ -22375,7 +22384,8 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "rank": 5,
       "source": "Google Scholar Metrics",
       "url": "https://scholar.google.com/citations?view_op=top_venues&hl=en",
-      "sourceUrl": "https://scholar.google.com/citations?view_op=top_venues&hl=en"
+      "sourceUrl": "https://scholar.google.com/citations?view_op=top_venues&hl=en",
+      "coverageWindow": "2020-2024"
     },
     {
       "sourceLabel": "Google Scholar Metrics Top publications",
@@ -22391,7 +22401,8 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "rank": 6,
       "source": "Google Scholar Metrics",
       "url": "https://scholar.google.com/citations?view_op=top_venues&hl=en",
-      "sourceUrl": "https://scholar.google.com/citations?view_op=top_venues&hl=en"
+      "sourceUrl": "https://scholar.google.com/citations?view_op=top_venues&hl=en",
+      "coverageWindow": "2020-2024"
     },
     {
       "sourceLabel": "Google Scholar Metrics Top publications",
@@ -22407,7 +22418,8 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "rank": 6,
       "source": "Google Scholar Metrics",
       "url": "https://scholar.google.com/citations?view_op=top_venues&hl=en",
-      "sourceUrl": "https://scholar.google.com/citations?view_op=top_venues&hl=en"
+      "sourceUrl": "https://scholar.google.com/citations?view_op=top_venues&hl=en",
+      "coverageWindow": "2020-2024"
     },
     {
       "sourceLabel": "Google Scholar Metrics Top publications",
@@ -22423,7 +22435,8 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "rank": 7,
       "source": "Google Scholar Metrics",
       "url": "https://scholar.google.com/citations?view_op=top_venues&hl=en",
-      "sourceUrl": "https://scholar.google.com/citations?view_op=top_venues&hl=en"
+      "sourceUrl": "https://scholar.google.com/citations?view_op=top_venues&hl=en",
+      "coverageWindow": "2020-2024"
     },
     {
       "sourceLabel": "Google Scholar Metrics Top publications",
@@ -22439,7 +22452,8 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "rank": 7,
       "source": "Google Scholar Metrics",
       "url": "https://scholar.google.com/citations?view_op=top_venues&hl=en",
-      "sourceUrl": "https://scholar.google.com/citations?view_op=top_venues&hl=en"
+      "sourceUrl": "https://scholar.google.com/citations?view_op=top_venues&hl=en",
+      "coverageWindow": "2020-2024"
     },
     {
       "sourceLabel": "Google Scholar Metrics Top publications",
@@ -22455,7 +22469,8 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "rank": 8,
       "source": "Google Scholar Metrics",
       "url": "https://scholar.google.com/citations?view_op=top_venues&hl=en",
-      "sourceUrl": "https://scholar.google.com/citations?view_op=top_venues&hl=en"
+      "sourceUrl": "https://scholar.google.com/citations?view_op=top_venues&hl=en",
+      "coverageWindow": "2020-2024"
     },
     {
       "sourceLabel": "Google Scholar Metrics Top publications",
@@ -22471,7 +22486,8 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "rank": 8,
       "source": "Google Scholar Metrics",
       "url": "https://scholar.google.com/citations?view_op=top_venues&hl=en",
-      "sourceUrl": "https://scholar.google.com/citations?view_op=top_venues&hl=en"
+      "sourceUrl": "https://scholar.google.com/citations?view_op=top_venues&hl=en",
+      "coverageWindow": "2020-2024"
     },
     {
       "sourceLabel": "Google Scholar Metrics Top publications",
@@ -22487,7 +22503,8 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "rank": 9,
       "source": "Google Scholar Metrics",
       "url": "https://scholar.google.com/citations?view_op=top_venues&hl=en",
-      "sourceUrl": "https://scholar.google.com/citations?view_op=top_venues&hl=en"
+      "sourceUrl": "https://scholar.google.com/citations?view_op=top_venues&hl=en",
+      "coverageWindow": "2020-2024"
     },
     {
       "sourceLabel": "Google Scholar Metrics Top publications",
@@ -22503,7 +22520,8 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "rank": 9,
       "source": "Google Scholar Metrics",
       "url": "https://scholar.google.com/citations?view_op=top_venues&hl=en",
-      "sourceUrl": "https://scholar.google.com/citations?view_op=top_venues&hl=en"
+      "sourceUrl": "https://scholar.google.com/citations?view_op=top_venues&hl=en",
+      "coverageWindow": "2020-2024"
     },
     {
       "sourceLabel": "Google Scholar Metrics Top publications",
@@ -22519,7 +22537,8 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "rank": 10,
       "source": "Google Scholar Metrics",
       "url": "https://scholar.google.com/citations?view_op=top_venues&hl=en",
-      "sourceUrl": "https://scholar.google.com/citations?view_op=top_venues&hl=en"
+      "sourceUrl": "https://scholar.google.com/citations?view_op=top_venues&hl=en",
+      "coverageWindow": "2020-2024"
     },
     {
       "sourceLabel": "Google Scholar Metrics Top publications",
@@ -22535,7 +22554,8 @@ export const metricData: Record<string, MetricSnapshot[]> = {
       "rank": 10,
       "source": "Google Scholar Metrics",
       "url": "https://scholar.google.com/citations?view_op=top_venues&hl=en",
-      "sourceUrl": "https://scholar.google.com/citations?view_op=top_venues&hl=en"
+      "sourceUrl": "https://scholar.google.com/citations?view_op=top_venues&hl=en",
+      "coverageWindow": "2020-2024"
     }
   ]
 };
