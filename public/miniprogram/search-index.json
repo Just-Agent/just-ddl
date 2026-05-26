@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-26T10:19:02.253Z",
-  "dataVersion": "19345f0f170db844",
+  "generatedAt": "2026-05-26T16:09:22.272Z",
+  "dataVersion": "d979996a09caf389",
   "topics": [
     {
       "id": "hackathon-ddl",
@@ -6154,8 +6154,8 @@
         "security",
         "Jeopardy"
       ],
-      "source": "ctftime",
-      "url": "https://ctftime.org/event/3277",
+      "source": "CTFtime event page + official URL",
+      "url": "https://www.hackforachange.org/",
       "sourceUrl": "https://ctftime.org/event/3277"
     },
     {
@@ -6170,8 +6170,8 @@
         "security",
         "Jeopardy"
       ],
-      "source": "ctftime",
-      "url": "https://ctftime.org/event/3205",
+      "source": "CTFtime event page + official URL",
+      "url": "https://bbbirds.org/",
       "sourceUrl": "https://ctftime.org/event/3205"
     },
     {
@@ -6186,8 +6186,8 @@
         "security",
         "Jeopardy"
       ],
-      "source": "ctftime",
-      "url": "https://ctftime.org/event/3284",
+      "source": "CTFtime event page + official URL",
+      "url": "https://hack4krak.pl/",
       "sourceUrl": "https://ctftime.org/event/3284"
     },
     {
@@ -6202,8 +6202,8 @@
         "security",
         "Jeopardy"
       ],
-      "source": "ctftime",
-      "url": "https://ctftime.org/event/3136",
+      "source": "CTFtime event page + official URL",
+      "url": "https://ctf.secleaf.tech/",
       "sourceUrl": "https://ctftime.org/event/3136"
     },
     {
@@ -6218,7 +6218,7 @@
         "security",
         "Jeopardy"
       ],
-      "source": "ctftime",
+      "source": "CTFtime event page",
       "url": "https://ctftime.org/event/3271",
       "sourceUrl": "https://ctftime.org/event/3271"
     },
@@ -6234,7 +6234,7 @@
         "security",
         "Jeopardy"
       ],
-      "source": "ctftime",
+      "source": "CTFtime event page",
       "url": "https://ctftime.org/event/3270",
       "sourceUrl": "https://ctftime.org/event/3270"
     },
@@ -6250,8 +6250,8 @@
         "security",
         "Jeopardy"
       ],
-      "source": "ctftime",
-      "url": "https://ctftime.org/event/3174",
+      "source": "CTFtime event page + official URL",
+      "url": "https://hwc.tf/",
       "sourceUrl": "https://ctftime.org/event/3174"
     },
     {
@@ -6266,8 +6266,8 @@
         "security",
         "Jeopardy"
       ],
-      "source": "ctftime",
-      "url": "https://ctftime.org/event/3209",
+      "source": "CTFtime event page + official URL",
+      "url": "https://themctf.com/",
       "sourceUrl": "https://ctftime.org/event/3209"
     },
     {
@@ -6282,8 +6282,8 @@
         "security",
         "Jeopardy"
       ],
-      "source": "ctftime",
-      "url": "https://ctftime.org/event/3247",
+      "source": "CTFtime event page + official URL",
+      "url": "https://ctfd.cyberjousting.com/",
       "sourceUrl": "https://ctftime.org/event/3247"
     },
     {
@@ -6298,8 +6298,8 @@
         "security",
         "Jeopardy"
       ],
-      "source": "ctftime",
-      "url": "https://ctftime.org/event/3178",
+      "source": "CTFtime event page + official URL",
+      "url": "https://ctf.nusgreyhats.org/",
       "sourceUrl": "https://ctftime.org/event/3178"
     },
     {
@@ -6314,7 +6314,7 @@
         "security",
         "Jeopardy"
       ],
-      "source": "ctftime",
+      "source": "CTFtime event page",
       "url": "https://ctftime.org/event/3220",
       "sourceUrl": "https://ctftime.org/event/3220"
     },
@@ -6330,8 +6330,8 @@
         "security",
         "Jeopardy"
       ],
-      "source": "ctftime",
-      "url": "https://ctftime.org/event/3243",
+      "source": "CTFtime event page + official URL",
+      "url": "https://eshatrojan.nl/trojanctf",
       "sourceUrl": "https://ctftime.org/event/3243"
     },
     {
