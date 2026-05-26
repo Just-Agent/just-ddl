@@ -622,49 +622,6 @@ export const ddlData: Record<string, DDLItem[]> = {
       ]
     },
     {
-      "id": "agent-ddl-ai-olympics-realaigym-stage1-2026-06-15",
-      "title": "AI Olympics with RealAIGym - Stage 1",
-      "deadline": "2026-06-15T23:59:59",
-      "dateRange": "First stage solutions and reports: May 1 - Jun 15, 2026",
-      "location": "IJCAI-ECAI 2026 / DFKI Bremen",
-      "isOnline": true,
-      "tags": [
-        "Robotics Agent",
-        "Reinforcement Learning",
-        "CloudPendulum"
-      ],
-      "url": "https://ai-olympics.dfki-bremen.de/",
-      "status": "upcoming",
-      "stage": "Stage 1 report",
-      "source": "IJCAI AI Olympics with RealAIGym",
-      "type": "challenge",
-      "description": "Hardware benchmark for global swing-up policies on CloudPendulum hardware, evaluating robotics and RL agents.",
-      "prize": "N/A",
-      "platform": "IJCAI",
-      "evaluationMode": "Automated",
-      "organizer": "DFKI Bremen / IJCAI-ECAI 2026",
-      "submissionType": "Controller solution and report",
-      "sourceUrl": "https://ai-olympics.dfki-bremen.de/",
-      "phases": [
-        {
-          "name": "Registration deadline",
-          "deadline": "2026-05-31T23:59:59"
-        },
-        {
-          "name": "First stage solutions and reports due",
-          "deadline": "2026-06-15T23:59:59"
-        },
-        {
-          "name": "Second stage starts",
-          "deadline": "2026-07-01T23:59:59"
-        },
-        {
-          "name": "Second stage ends",
-          "deadline": "2026-08-15T23:59:59"
-        }
-      ]
-    },
-    {
       "id": "agent-ddl-splunk-agentic-ops-hackathon-2026-06-15",
       "title": "Splunk Agentic Ops Hackathon",
       "deadline": "2026-06-15T09:00:00-07:00",
@@ -711,6 +668,49 @@ export const ddlData: Record<string, DDLItem[]> = {
         {
           "name": "Platform & Developer Experience",
           "description": "Developer workflows and Splunk app/platform automation."
+        }
+      ]
+    },
+    {
+      "id": "agent-ddl-ai-olympics-realaigym-stage1-2026-06-15",
+      "title": "AI Olympics with RealAIGym - Stage 1",
+      "deadline": "2026-06-15T23:59:59",
+      "dateRange": "First stage solutions and reports: May 1 - Jun 15, 2026",
+      "location": "IJCAI-ECAI 2026 / DFKI Bremen",
+      "isOnline": true,
+      "tags": [
+        "Robotics Agent",
+        "Reinforcement Learning",
+        "CloudPendulum"
+      ],
+      "url": "https://ai-olympics.dfki-bremen.de/",
+      "status": "upcoming",
+      "stage": "Stage 1 report",
+      "source": "IJCAI AI Olympics with RealAIGym",
+      "type": "challenge",
+      "description": "Hardware benchmark for global swing-up policies on CloudPendulum hardware, evaluating robotics and RL agents.",
+      "prize": "N/A",
+      "platform": "IJCAI",
+      "evaluationMode": "Automated",
+      "organizer": "DFKI Bremen / IJCAI-ECAI 2026",
+      "submissionType": "Controller solution and report",
+      "sourceUrl": "https://ai-olympics.dfki-bremen.de/",
+      "phases": [
+        {
+          "name": "Registration deadline",
+          "deadline": "2026-05-31T23:59:59"
+        },
+        {
+          "name": "First stage solutions and reports due",
+          "deadline": "2026-06-15T23:59:59"
+        },
+        {
+          "name": "Second stage starts",
+          "deadline": "2026-07-01T23:59:59"
+        },
+        {
+          "name": "Second stage ends",
+          "deadline": "2026-08-15T23:59:59"
         }
       ]
     },
@@ -9178,6 +9178,25 @@ export const ddlData: Record<string, DDLItem[]> = {
       "sourceUrl": "https://developers.google.com/open-source/gsoc/timeline?hl=en"
     },
     {
+      "id": "gsoc-2026-august-17-24-18-00-utc-final-week-gsoc-contributors-submit-their-final-work-prod",
+      "title": "Final week: GSoC contributors submit their final work product and their final mentor evaluation (standard coding period)",
+      "deadline": "2026-08-24T18:00:00Z",
+      "dateRange": "August 17 - 24 - 18:00 UTC",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "GSoC",
+        "open source"
+      ],
+      "url": "https://developers.google.com/open-source/gsoc/timeline?hl=en",
+      "status": "upcoming",
+      "description": "Parsed from the official GSoC 2026 timeline. Deadline event.",
+      "stage": "Deadline",
+      "source": "Google Summer of Code",
+      "type": "program",
+      "sourceUrl": "https://developers.google.com/open-source/gsoc/timeline?hl=en"
+    },
+    {
       "id": "open-source-ddl-lfx-mentorship-spring-2026-08-24",
       "title": "LFX Mentorship Spring",
       "deadline": "2026-08-24T23:59:59",
@@ -9196,25 +9215,6 @@ export const ddlData: Record<string, DDLItem[]> = {
       "source": "LFX Mentorship",
       "type": "program",
       "sourceUrl": "https://lfx.linuxfoundation.org/tools/mentorship/"
-    },
-    {
-      "id": "gsoc-2026-august-17-24-18-00-utc-final-week-gsoc-contributors-submit-their-final-work-prod",
-      "title": "Final week: GSoC contributors submit their final work product and their final mentor evaluation (standard coding period)",
-      "deadline": "2026-08-24T18:00:00Z",
-      "dateRange": "August 17 - 24 - 18:00 UTC",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "GSoC",
-        "open source"
-      ],
-      "url": "https://developers.google.com/open-source/gsoc/timeline?hl=en",
-      "status": "upcoming",
-      "description": "Parsed from the official GSoC 2026 timeline. Deadline event.",
-      "stage": "Deadline",
-      "source": "Google Summer of Code",
-      "type": "program",
-      "sourceUrl": "https://developers.google.com/open-source/gsoc/timeline?hl=en"
     },
     {
       "id": "gsoc-2026-august-24-31-18-00-utc-mentors-submit-final-gsoc-contributor-evaluations-standar",

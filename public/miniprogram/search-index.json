@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-26T08:52:10.172Z",
-  "dataVersion": "3c0313ed230397a6",
+  "generatedAt": "2026-05-26T09:28:46.871Z",
+  "dataVersion": "bfc25183635e127c",
   "topics": [
     {
       "id": "hackathon-ddl",
@@ -863,22 +863,6 @@
       "sourceUrl": "https://mega-agent-a-thon.devpost.com/"
     },
     {
-      "id": "agent-ddl-ai-olympics-realaigym-stage1-2026-06-15",
-      "topicId": "agent-ddl",
-      "title": "AI Olympics with RealAIGym - Stage 1",
-      "deadline": "2026-06-15T23:59:59",
-      "type": "challenge",
-      "status": "upcoming",
-      "tags": [
-        "Robotics Agent",
-        "Reinforcement Learning",
-        "CloudPendulum"
-      ],
-      "source": "IJCAI AI Olympics with RealAIGym",
-      "url": "https://ai-olympics.dfki-bremen.de/",
-      "sourceUrl": "https://ai-olympics.dfki-bremen.de/"
-    },
-    {
       "id": "agent-ddl-splunk-agentic-ops-hackathon-2026-06-15",
       "topicId": "agent-ddl",
       "title": "Splunk Agentic Ops Hackathon",
@@ -894,6 +878,22 @@
       "source": "Splunk Agentic Ops Hackathon Devpost",
       "url": "https://splunk.devpost.com/",
       "sourceUrl": "https://splunk.devpost.com/"
+    },
+    {
+      "id": "agent-ddl-ai-olympics-realaigym-stage1-2026-06-15",
+      "topicId": "agent-ddl",
+      "title": "AI Olympics with RealAIGym - Stage 1",
+      "deadline": "2026-06-15T23:59:59",
+      "type": "challenge",
+      "status": "upcoming",
+      "tags": [
+        "Robotics Agent",
+        "Reinforcement Learning",
+        "CloudPendulum"
+      ],
+      "source": "IJCAI AI Olympics with RealAIGym",
+      "url": "https://ai-olympics.dfki-bremen.de/",
+      "sourceUrl": "https://ai-olympics.dfki-bremen.de/"
     },
     {
       "id": "agent-ddl-find-evil-ai-security-2026-06-15",
@@ -6817,6 +6817,21 @@
       "sourceUrl": "https://developers.google.com/open-source/gsoc/timeline?hl=en"
     },
     {
+      "id": "gsoc-2026-august-17-24-18-00-utc-final-week-gsoc-contributors-submit-their-final-work-prod",
+      "topicId": "open-source-ddl",
+      "title": "Final week: GSoC contributors submit their final work product and their final mentor evaluation (standard coding period)",
+      "deadline": "2026-08-24T18:00:00Z",
+      "type": "program",
+      "status": "upcoming",
+      "tags": [
+        "GSoC",
+        "open source"
+      ],
+      "source": "Google Summer of Code",
+      "url": "https://developers.google.com/open-source/gsoc/timeline?hl=en",
+      "sourceUrl": "https://developers.google.com/open-source/gsoc/timeline?hl=en"
+    },
+    {
       "id": "open-source-ddl-lfx-mentorship-spring-2026-08-24",
       "topicId": "open-source-ddl",
       "title": "LFX Mentorship Spring",
@@ -6831,21 +6846,6 @@
       "source": "LFX Mentorship",
       "url": "https://lfx.linuxfoundation.org/tools/mentorship/",
       "sourceUrl": "https://lfx.linuxfoundation.org/tools/mentorship/"
-    },
-    {
-      "id": "gsoc-2026-august-17-24-18-00-utc-final-week-gsoc-contributors-submit-their-final-work-prod",
-      "topicId": "open-source-ddl",
-      "title": "Final week: GSoC contributors submit their final work product and their final mentor evaluation (standard coding period)",
-      "deadline": "2026-08-24T18:00:00Z",
-      "type": "program",
-      "status": "upcoming",
-      "tags": [
-        "GSoC",
-        "open source"
-      ],
-      "source": "Google Summer of Code",
-      "url": "https://developers.google.com/open-source/gsoc/timeline?hl=en",
-      "sourceUrl": "https://developers.google.com/open-source/gsoc/timeline?hl=en"
     },
     {
       "id": "gsoc-2026-august-24-31-18-00-utc-mentors-submit-final-gsoc-contributor-evaluations-standar",
