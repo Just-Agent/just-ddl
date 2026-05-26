@@ -16,6 +16,7 @@
     "validate:time": "node scripts/validate-time-semantics.mjs",
     "validate:research": "node scripts/validate-research-rails.mjs",
     "validate:public:dist": "node scripts/validate-public-surface.mjs --dist",
+    "qa:ui": "node scripts/qa-ui-regression.mjs",
     "audit:sources": "node scripts/audit-source-coverage.mjs",
     "audit:release": "node scripts/stage-release-audit.mjs"
   },
