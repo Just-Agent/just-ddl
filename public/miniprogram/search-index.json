@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-26T16:09:22.272Z",
-  "dataVersion": "d979996a09caf389",
+  "generatedAt": "2026-06-01T07:25:11.199Z",
+  "dataVersion": "a654ef453963b1b3",
   "topics": [
     {
       "id": "hackathon-ddl",
@@ -168,7 +168,7 @@
         "embodied AI",
         "autonomous"
       ],
-      "itemCount": 9,
+      "itemCount": 10,
       "status": "published"
     },
     {
@@ -7138,6 +7138,23 @@
       "topicId": "robotics-ddl",
       "title": "AI City Challenge 2026 - Release of evaluation server and test data sets",
       "deadline": "2026-05-25T23:59:59Z",
+      "type": "challenge",
+      "status": "upcoming",
+      "tags": [
+        "robotics",
+        "autonomous",
+        "smart city",
+        "AI City"
+      ],
+      "source": "AI City Challenge",
+      "url": "https://www.aicitychallenge.org",
+      "sourceUrl": "https://www.aicitychallenge.org"
+    },
+    {
+      "id": "aicity-2026-release-of-evaluation-server-and-test-data-sets-may-28-2026",
+      "topicId": "robotics-ddl",
+      "title": "AI City Challenge 2026 - Release of evaluation server and test data sets",
+      "deadline": "2026-05-28T23:59:59Z",
       "type": "challenge",
       "status": "upcoming",
       "tags": [
