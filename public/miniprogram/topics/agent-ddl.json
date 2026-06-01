@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-01T07:25:11.199Z",
-  "dataVersion": "a654ef453963b1b3",
+  "generatedAt": "2026-06-01T07:27:30.666Z",
+  "dataVersion": "5b7f5b0fb956b0bb",
   "topic": {
     "id": "agent-ddl",
     "name": "AI Agent",
@@ -19,51 +19,6 @@
     "status": "published"
   },
   "items": [
-    {
-      "id": "agent-ddl-devnetwork-ai-ml-hackathon-2026-05-28",
-      "topicId": "agent-ddl",
-      "title": "DevNetwork [AI + ML] Hackathon 2026",
-      "deadline": "2026-05-28T10:00:00-07:00",
-      "dateRange": "May 11 - May 28, 2026",
-      "location": "South San Francisco + Online",
-      "isOnline": false,
-      "tags": [
-        "AI/ML",
-        "Enterprise",
-        "Crusoe",
-        "Nemotron"
-      ],
-      "url": "https://devnetwork-ai-ml-hack-2026.devpost.com/",
-      "status": "upcoming",
-      "stage": "Submission",
-      "source": "DevNetwork AI + ML Hackathon Devpost",
-      "sourceUrl": "https://devnetwork-ai-ml-hack-2026.devpost.com/",
-      "type": "hackathon",
-      "prize": "$8,000+",
-      "description": "Challenge-driven AI/ML hackathon at AI DevSummit 2026, including a Crusoe agent track for Hermes / NemoClaw on Nvidia Nemotron."
-    },
-    {
-      "id": "agent-ddl-international-ai-agents-hackathon-2026-05-29",
-      "topicId": "agent-ddl",
-      "title": "International AI Agents Hackathon",
-      "deadline": "2026-05-29T13:00:00-04:00",
-      "dateRange": "Deadline: May 29, 2026",
-      "location": "Online",
-      "isOnline": true,
-      "tags": [
-        "AI Agents",
-        "Workflow Automation",
-        "Student"
-      ],
-      "url": "https://ai-agents-hackathon1.devpost.com/",
-      "status": "upcoming",
-      "stage": "Submission",
-      "source": "International AI Agents Hackathon Devpost",
-      "sourceUrl": "https://ai-agents-hackathon1.devpost.com/",
-      "type": "hackathon",
-      "prize": "$100",
-      "description": "Student-focused AI agents hackathon for workflow automation tools and intelligent work-flow applications."
-    },
     {
       "id": "agent-ddl-anac-2026-submission-2026-06-01",
       "topicId": "agent-ddl",
@@ -420,6 +375,51 @@
       "type": "hackathon",
       "prize": "$25,000",
       "description": "Healthcare AI agent hackathon focused on interoperable agents at the intersection of MCP, A2A, and FHIR."
+    },
+    {
+      "id": "agent-ddl-devnetwork-ai-ml-hackathon-2026-05-28",
+      "topicId": "agent-ddl",
+      "title": "DevNetwork [AI + ML] Hackathon 2026",
+      "deadline": "2026-05-28T10:00:00-07:00",
+      "dateRange": "May 11 - May 28, 2026",
+      "location": "South San Francisco + Online",
+      "isOnline": false,
+      "tags": [
+        "AI/ML",
+        "Enterprise",
+        "Crusoe",
+        "Nemotron"
+      ],
+      "url": "https://devnetwork-ai-ml-hack-2026.devpost.com/",
+      "status": "ended",
+      "stage": "Submission",
+      "source": "DevNetwork AI + ML Hackathon Devpost",
+      "sourceUrl": "https://devnetwork-ai-ml-hack-2026.devpost.com/",
+      "type": "hackathon",
+      "prize": "$8,000+",
+      "description": "Challenge-driven AI/ML hackathon at AI DevSummit 2026, including a Crusoe agent track for Hermes / NemoClaw on Nvidia Nemotron."
+    },
+    {
+      "id": "agent-ddl-international-ai-agents-hackathon-2026-05-29",
+      "topicId": "agent-ddl",
+      "title": "International AI Agents Hackathon",
+      "deadline": "2026-05-29T13:00:00-04:00",
+      "dateRange": "Deadline: May 29, 2026",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "AI Agents",
+        "Workflow Automation",
+        "Student"
+      ],
+      "url": "https://ai-agents-hackathon1.devpost.com/",
+      "status": "ended",
+      "stage": "Submission",
+      "source": "International AI Agents Hackathon Devpost",
+      "sourceUrl": "https://ai-agents-hackathon1.devpost.com/",
+      "type": "hackathon",
+      "prize": "$100",
+      "description": "Student-focused AI agents hackathon for workflow automation tools and intelligent work-flow applications."
     }
   ],
   "metrics": [],
@@ -428,7 +428,7 @@
       "id": "general",
       "name": "General",
       "itemCount": 18,
-      "nextItemId": "agent-ddl-devnetwork-ai-ml-hackathon-2026-05-28"
+      "nextItemId": "agent-ddl-anac-2026-submission-2026-06-01"
     }
   ]
 }
