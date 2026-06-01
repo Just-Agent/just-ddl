@@ -341,7 +341,7 @@ export const topics: Topic[] = [
     "sourceMode": "external",
     "maintainer": "pengpoom",
     "dataUrl": "https://raw.githubusercontent.com/pengpoom/civil-service-ddl/main/data/items.json",
-    "itemCount": 29,
+    "itemCount": 28,
     "category": "考试申请",
     "tags": [
       "公务员",
@@ -359,7 +359,7 @@ export const topics: Topic[] = [
     "repo": "Just-Agent/game-dev-ddl",
     "site": "https://just-agent.github.io/game-dev-ddl/",
     "status": "published",
-    "itemCount": 26,
+    "itemCount": 29,
     "category": "设计创作",
     "tags": [
       "game jam",

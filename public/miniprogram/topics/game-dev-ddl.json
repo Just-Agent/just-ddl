@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-01T07:27:30.666Z",
-  "dataVersion": "5b7f5b0fb956b0bb",
+  "generatedAt": "2026-06-01T12:09:51.868Z",
+  "dataVersion": "fffbbb870dc63240",
   "topic": {
     "id": "game-dev-ddl",
     "name": "Game Dev",
@@ -15,7 +15,7 @@
       "indie game",
       "Unity"
     ],
-    "itemCount": 26,
+    "itemCount": 29,
     "status": "published"
   },
   "items": [
@@ -35,6 +35,25 @@
       "stage": "upcoming",
       "source": "itch.io Jams",
       "sourceUrl": "https://itch.io/jam/gdevelop-big-game-jam-9",
+      "type": "contest",
+      "description": "Parsed from itch.io/jams. Deadline is the jam end time."
+    },
+    {
+      "id": "itchio-jam-major-jam-8-wonder",
+      "topicId": "game-dev-ddl",
+      "title": "Major Jam 8: Wonder",
+      "deadline": "2026-06-05T04:00:00Z",
+      "dateRange": "2026-06-05",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "game jam"
+      ],
+      "url": "https://itch.io/jam/major-jam-8-wonder",
+      "status": "upcoming",
+      "stage": "upcoming",
+      "source": "itch.io Jams",
+      "sourceUrl": "https://itch.io/jam/major-jam-8-wonder",
       "type": "contest",
       "description": "Parsed from itch.io/jams. Deadline is the jam end time."
     },
@@ -93,7 +112,7 @@
       "source": "itch.io Jams",
       "sourceUrl": "https://itch.io/jam/nes-jam-2026",
       "type": "contest",
-      "description": "Parsed from itch.io/jams. Deadline is computed from the listed start time plus jam duration."
+      "description": "Parsed from itch.io/jams. Deadline is the jam end time."
     },
     {
       "id": "itchio-jam-metroidvania-month-32",
@@ -134,6 +153,44 @@
       "description": "Parsed from itch.io/jams. Deadline is computed from the listed start time plus jam duration."
     },
     {
+      "id": "itchio-jam-godot-wild-jam-94",
+      "topicId": "game-dev-ddl",
+      "title": "Godot Wild Jam #94",
+      "deadline": "2026-06-21T20:00:00Z",
+      "dateRange": "2026-06-21",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "game jam"
+      ],
+      "url": "https://itch.io/jam/godot-wild-jam-94",
+      "status": "upcoming",
+      "stage": "upcoming",
+      "source": "itch.io Jams",
+      "sourceUrl": "https://itch.io/jam/godot-wild-jam-94",
+      "type": "contest",
+      "description": "Parsed from itch.io/jams. Deadline is computed from the listed start time plus jam duration."
+    },
+    {
+      "id": "itchio-jam-theveryseriousjuniperdevgamejam",
+      "topicId": "game-dev-ddl",
+      "title": "The Very Serious Juniper Dev Game Jam",
+      "deadline": "2026-06-26T14:00:00Z",
+      "dateRange": "2026-06-26",
+      "location": "Online",
+      "isOnline": true,
+      "tags": [
+        "game jam"
+      ],
+      "url": "https://itch.io/jam/theveryseriousjuniperdevgamejam",
+      "status": "upcoming",
+      "stage": "upcoming",
+      "source": "itch.io Jams",
+      "sourceUrl": "https://itch.io/jam/theveryseriousjuniperdevgamejam",
+      "type": "contest",
+      "description": "Parsed from itch.io/jams. Deadline is computed from the listed start time plus jam duration."
+    },
+    {
       "id": "game-dev-ddl-global-game-jam-site-registration-2026-07-01",
       "topicId": "game-dev-ddl",
       "title": "Global Game Jam Site Registration",
@@ -158,7 +215,7 @@
       "id": "itchio-jam-toxic-yuri-vn-jam-2",
       "topicId": "game-dev-ddl",
       "title": "TOXIC YURI VN JAM 2",
-      "deadline": "2026-07-13T04:00:00Z",
+      "deadline": "2026-07-13T22:00:00Z",
       "dateRange": "2026-07-13",
       "location": "Online",
       "isOnline": true,
@@ -171,7 +228,7 @@
       "source": "itch.io Jams",
       "sourceUrl": "https://itch.io/jam/toxic-yuri-vn-jam-2",
       "type": "contest",
-      "description": "Parsed from itch.io/jams. Deadline is computed from the listed start time plus jam duration."
+      "description": "Parsed from itch.io/jams. Deadline is the jam end time."
     },
     {
       "id": "game-dev-ddl-ludum-dare-60-2026-07-19",
@@ -551,7 +608,7 @@
     {
       "id": "general",
       "name": "General",
-      "itemCount": 26,
+      "itemCount": 29,
       "nextItemId": "itchio-jam-gdevelop-big-game-jam-9"
     }
   ]
