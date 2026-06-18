@@ -71,6 +71,29 @@ export const ddlForRoboticsDdl: DDLItem[] = [
     "type": "challenge"
   },
   {
+    "id": "aicity-2026-release-of-evaluation-server-and-test-data-sets-may-28-2026",
+    "title": "AI City Challenge 2026 - Release of evaluation server and test data sets",
+    "deadline": "2026-05-28T23:59:59Z",
+    "dateRange": "May 28, 2026",
+    "location": "Online / CVPR workshop",
+    "isOnline": true,
+    "tags": [
+      "robotics",
+      "autonomous",
+      "smart city",
+      "AI City"
+    ],
+    "url": "https://www.aicitychallenge.org",
+    "sourceUrl": "https://www.aicitychallenge.org",
+    "canonicalUrl": "https://www.aicitychallenge.org",
+    "verificationLevel": "official_event_page",
+    "status": "upcoming",
+    "description": "Parsed from official AI City Challenge Important Dates section.",
+    "stage": "Milestone",
+    "source": "AI City Challenge",
+    "type": "challenge"
+  },
+  {
     "id": "aicity-2026-challenge-track-submissions-due-july-10-2026",
     "title": "AI City Challenge 2026 - Challenge track submissions due",
     "deadline": "2026-07-10T23:59:59Z",

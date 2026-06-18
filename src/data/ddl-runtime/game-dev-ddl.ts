@@ -21,6 +21,25 @@ export const ddlForGameDevDdl: DDLItem[] = [
     "sourceUrl": "https://itch.io/jam/gdevelop-big-game-jam-9"
   },
   {
+    "id": "itchio-jam-major-jam-8-wonder",
+    "title": "Major Jam 8: Wonder",
+    "deadline": "2026-06-05T04:00:00Z",
+    "deadlineType": "end",
+    "tags": [
+      "game jam"
+    ],
+    "url": "https://itch.io/jam/major-jam-8-wonder",
+    "status": "upcoming",
+    "description": "Parsed from itch.io/jams. Deadline is the jam end time.",
+    "stage": "upcoming",
+    "source": "itch.io Jams",
+    "type": "contest",
+    "dateRange": "2026-06-05",
+    "location": "Online",
+    "isOnline": true,
+    "sourceUrl": "https://itch.io/jam/major-jam-8-wonder"
+  },
+  {
     "id": "itchio-jam-coolmath-game-jam-2026",
     "title": "The $20K Coolmath Game Jam 2026",
     "deadline": "2026-06-08T06:59:59Z",
@@ -62,13 +81,13 @@ export const ddlForGameDevDdl: DDLItem[] = [
     "id": "itchio-jam-nes-jam-2026",
     "title": "NES Jam 2026",
     "deadline": "2026-06-15T11:00:00Z",
-    "deadlineType": "end-computed",
+    "deadlineType": "end",
     "tags": [
       "game jam"
     ],
     "url": "https://itch.io/jam/nes-jam-2026",
     "status": "upcoming",
-    "description": "Parsed from itch.io/jams. Deadline is computed from the listed start time plus jam duration.",
+    "description": "Parsed from itch.io/jams. Deadline is the jam end time.",
     "stage": "upcoming",
     "source": "itch.io Jams",
     "type": "contest",
@@ -116,6 +135,44 @@ export const ddlForGameDevDdl: DDLItem[] = [
     "sourceUrl": "https://itch.io/jam/comfy-jam-summer-2026"
   },
   {
+    "id": "itchio-jam-godot-wild-jam-94",
+    "title": "Godot Wild Jam #94",
+    "deadline": "2026-06-21T20:00:00Z",
+    "deadlineType": "end-computed",
+    "tags": [
+      "game jam"
+    ],
+    "url": "https://itch.io/jam/godot-wild-jam-94",
+    "status": "upcoming",
+    "description": "Parsed from itch.io/jams. Deadline is computed from the listed start time plus jam duration.",
+    "stage": "upcoming",
+    "source": "itch.io Jams",
+    "type": "contest",
+    "dateRange": "2026-06-21",
+    "location": "Online",
+    "isOnline": true,
+    "sourceUrl": "https://itch.io/jam/godot-wild-jam-94"
+  },
+  {
+    "id": "itchio-jam-theveryseriousjuniperdevgamejam",
+    "title": "The Very Serious Juniper Dev Game Jam",
+    "deadline": "2026-06-26T14:00:00Z",
+    "deadlineType": "end-computed",
+    "tags": [
+      "game jam"
+    ],
+    "url": "https://itch.io/jam/theveryseriousjuniperdevgamejam",
+    "status": "upcoming",
+    "description": "Parsed from itch.io/jams. Deadline is computed from the listed start time plus jam duration.",
+    "stage": "upcoming",
+    "source": "itch.io Jams",
+    "type": "contest",
+    "dateRange": "2026-06-26",
+    "location": "Online",
+    "isOnline": true,
+    "sourceUrl": "https://itch.io/jam/theveryseriousjuniperdevgamejam"
+  },
+  {
     "id": "game-dev-ddl-global-game-jam-site-registration-2026-07-01",
     "title": "Global Game Jam Site Registration",
     "deadline": "2026-07-01T23:59:59",
@@ -138,14 +195,14 @@ export const ddlForGameDevDdl: DDLItem[] = [
   {
     "id": "itchio-jam-toxic-yuri-vn-jam-2",
     "title": "TOXIC YURI VN JAM 2",
-    "deadline": "2026-07-13T04:00:00Z",
-    "deadlineType": "end-computed",
+    "deadline": "2026-07-13T22:00:00Z",
+    "deadlineType": "end",
     "tags": [
       "game jam"
     ],
     "url": "https://itch.io/jam/toxic-yuri-vn-jam-2",
     "status": "upcoming",
-    "description": "Parsed from itch.io/jams. Deadline is computed from the listed start time plus jam duration.",
+    "description": "Parsed from itch.io/jams. Deadline is the jam end time.",
     "stage": "upcoming",
     "source": "itch.io Jams",
     "type": "contest",

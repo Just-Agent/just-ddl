@@ -2,73 +2,6 @@ import type { DDLItem } from '../ddl-data';
 
 export const ddlForAgentDdl: DDLItem[] = [
   {
-    "id": "agent-ddl-devnetwork-ai-ml-hackathon-2026-05-28",
-    "title": "DevNetwork [AI + ML] Hackathon 2026",
-    "deadline": "2026-05-28T10:00:00-07:00",
-    "dateRange": "May 11 - May 28, 2026",
-    "location": "South San Francisco + Online",
-    "isOnline": false,
-    "tags": [
-      "AI/ML",
-      "Enterprise",
-      "Crusoe",
-      "Nemotron"
-    ],
-    "url": "https://devnetwork-ai-ml-hack-2026.devpost.com/",
-    "status": "upcoming",
-    "stage": "Submission",
-    "source": "DevNetwork AI + ML Hackathon Devpost",
-    "type": "hackathon",
-    "description": "Challenge-driven AI/ML hackathon at AI DevSummit 2026, including a Crusoe agent track for Hermes / NemoClaw on Nvidia Nemotron.",
-    "prize": "$8,000+",
-    "platform": "Devpost",
-    "evaluationMode": "Human",
-    "organizer": "DevNetwork",
-    "submissionType": "Devpost project + sponsor challenge deliverables",
-    "sourceUrl": "https://devnetwork-ai-ml-hack-2026.devpost.com/",
-    "phases": [
-      {
-        "name": "Online hackathon starts",
-        "deadline": "2026-05-11T00:00:00-07:00"
-      },
-      {
-        "name": "Submission deadline",
-        "deadline": "2026-05-28T10:00:00-07:00"
-      }
-    ]
-  },
-  {
-    "id": "agent-ddl-international-ai-agents-hackathon-2026-05-29",
-    "title": "International AI Agents Hackathon",
-    "deadline": "2026-05-29T13:00:00-04:00",
-    "dateRange": "Deadline: May 29, 2026",
-    "location": "Online",
-    "isOnline": true,
-    "tags": [
-      "AI Agents",
-      "Workflow Automation",
-      "Student"
-    ],
-    "url": "https://ai-agents-hackathon1.devpost.com/",
-    "status": "upcoming",
-    "stage": "Submission",
-    "source": "International AI Agents Hackathon Devpost",
-    "type": "hackathon",
-    "description": "Student-focused AI agents hackathon for workflow automation tools and intelligent work-flow applications.",
-    "prize": "$100",
-    "platform": "Devpost",
-    "evaluationMode": "Human",
-    "organizer": "AI HackWorld",
-    "submissionType": "Live tool link + pitch deck + code evidence",
-    "sourceUrl": "https://ai-agents-hackathon1.devpost.com/",
-    "phases": [
-      {
-        "name": "Submission deadline",
-        "deadline": "2026-05-29T13:00:00-04:00"
-      }
-    ]
-  },
-  {
     "id": "agent-ddl-anac-2026-submission-2026-06-01",
     "title": "The 17th Automated Negotiating Agents Competition - ANAC 2026",
     "deadline": "2026-06-01T23:59:59",
@@ -782,6 +715,73 @@ export const ddlForAgentDdl: DDLItem[] = [
       {
         "name": "Build an Agent",
         "description": "Configure an A2A-capable healthcare workflow agent on the Prompt Opinion platform."
+      }
+    ]
+  },
+  {
+    "id": "agent-ddl-devnetwork-ai-ml-hackathon-2026-05-28",
+    "title": "DevNetwork [AI + ML] Hackathon 2026",
+    "deadline": "2026-05-28T10:00:00-07:00",
+    "dateRange": "May 11 - May 28, 2026",
+    "location": "South San Francisco + Online",
+    "isOnline": false,
+    "tags": [
+      "AI/ML",
+      "Enterprise",
+      "Crusoe",
+      "Nemotron"
+    ],
+    "url": "https://devnetwork-ai-ml-hack-2026.devpost.com/",
+    "status": "ended",
+    "stage": "Submission",
+    "source": "DevNetwork AI + ML Hackathon Devpost",
+    "type": "hackathon",
+    "description": "Challenge-driven AI/ML hackathon at AI DevSummit 2026, including a Crusoe agent track for Hermes / NemoClaw on Nvidia Nemotron.",
+    "prize": "$8,000+",
+    "platform": "Devpost",
+    "evaluationMode": "Human",
+    "organizer": "DevNetwork",
+    "submissionType": "Devpost project + sponsor challenge deliverables",
+    "sourceUrl": "https://devnetwork-ai-ml-hack-2026.devpost.com/",
+    "phases": [
+      {
+        "name": "Online hackathon starts",
+        "deadline": "2026-05-11T00:00:00-07:00"
+      },
+      {
+        "name": "Submission deadline",
+        "deadline": "2026-05-28T10:00:00-07:00"
+      }
+    ]
+  },
+  {
+    "id": "agent-ddl-international-ai-agents-hackathon-2026-05-29",
+    "title": "International AI Agents Hackathon",
+    "deadline": "2026-05-29T13:00:00-04:00",
+    "dateRange": "Deadline: May 29, 2026",
+    "location": "Online",
+    "isOnline": true,
+    "tags": [
+      "AI Agents",
+      "Workflow Automation",
+      "Student"
+    ],
+    "url": "https://ai-agents-hackathon1.devpost.com/",
+    "status": "ended",
+    "stage": "Submission",
+    "source": "International AI Agents Hackathon Devpost",
+    "type": "hackathon",
+    "description": "Student-focused AI agents hackathon for workflow automation tools and intelligent work-flow applications.",
+    "prize": "$100",
+    "platform": "Devpost",
+    "evaluationMode": "Human",
+    "organizer": "AI HackWorld",
+    "submissionType": "Live tool link + pitch deck + code evidence",
+    "sourceUrl": "https://ai-agents-hackathon1.devpost.com/",
+    "phases": [
+      {
+        "name": "Submission deadline",
+        "deadline": "2026-05-29T13:00:00-04:00"
       }
     ]
   }

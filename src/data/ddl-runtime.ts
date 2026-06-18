@@ -40,6 +40,7 @@ const loaders: Record<string, DDLLoader> = {
   "security-ddl": () => import('./ddl-runtime/security-ddl').then((module) => module.ddlForSecurityDdl),
   "sports-ddl": () => import('./ddl-runtime/sports-ddl').then((module) => module.ddlForSportsDdl),
   "startup-ddl": () => import('./ddl-runtime/startup-ddl').then((module) => module.ddlForStartupDdl),
+  "steamgame-ddl": () => import('./ddl-runtime/steamgame-ddl').then((module) => module.ddlForSteamgameDdl),
   "student-contest-ddl": () => import('./ddl-runtime/student-contest-ddl').then((module) => module.ddlForStudentContestDdl),
 };
 

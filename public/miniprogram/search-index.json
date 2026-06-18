@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-02T08:08:14.201Z",
-  "dataVersion": "577e1c14e9e647d3",
+  "generatedAt": "2026-06-18T14:10:57.860Z",
+  "dataVersion": "aebe9fa7e98df366",
   "topics": [
     {
       "id": "hackathon-ddl",
@@ -319,6 +319,20 @@
         "Teamfight Tactics"
       ],
       "itemCount": 30,
+      "status": "published"
+    },
+    {
+      "id": "steamgame-ddl",
+      "name": "Steam Upcoming",
+      "description": "Steam Coming Soon 与 Popular Upcoming 预发布游戏倒计时；精确发行日期进入 DDL，模糊日期显示待官方公告。",
+      "category": "电竞赛事",
+      "tags": [
+        "Steam",
+        "PC game",
+        "upcoming",
+        "release"
+      ],
+      "itemCount": 88,
       "status": "published"
     },
     {
@@ -10468,6 +10482,1598 @@
       "source": "League of Legends Support",
       "url": "https://support-leagueoflegends.riotgames.com/hc/en-us/articles/360018987893-Patch-Schedule-League-of-Legends",
       "sourceUrl": "https://support-leagueoflegends.riotgames.com/hc/en-us/articles/360018987893-Patch-Schedule-League-of-Legends"
+    },
+    {
+      "id": "steamgame-ddl-4123600",
+      "topicId": "steamgame-ddl",
+      "title": "Alisa’s Incident Report",
+      "deadline": "2026-06-18T23:59:59-07:00",
+      "type": "officialDeadline",
+      "status": "upcoming",
+      "tags": [
+        "steam",
+        "pc game",
+        "upcoming",
+        "date-first"
+      ],
+      "subtopic": "steam",
+      "source": "Steam Coming Soon",
+      "url": "https://store.steampowered.com/app/4123600/Alisas__Incident_Report/",
+      "sourceUrl": "https://store.steampowered.com/search/?filter=comingsoon"
+    },
+    {
+      "id": "steamgame-ddl-3541590",
+      "topicId": "steamgame-ddl",
+      "title": "Arcadie II: Cold Lands",
+      "deadline": "2026-06-18T23:59:59-07:00",
+      "type": "officialDeadline",
+      "status": "upcoming",
+      "tags": [
+        "steam",
+        "pc game",
+        "upcoming",
+        "date-first"
+      ],
+      "subtopic": "steam",
+      "source": "Steam Coming Soon",
+      "url": "https://store.steampowered.com/app/3541590/Arcadie_II_Cold_Lands/",
+      "sourceUrl": "https://store.steampowered.com/search/?filter=comingsoon"
+    },
+    {
+      "id": "steamgame-ddl-4719820",
+      "topicId": "steamgame-ddl",
+      "title": "Arkada",
+      "deadline": "2026-06-18T23:59:59-07:00",
+      "type": "officialDeadline",
+      "status": "upcoming",
+      "tags": [
+        "steam",
+        "pc game",
+        "upcoming",
+        "date-first"
+      ],
+      "subtopic": "steam",
+      "source": "Steam Coming Soon",
+      "url": "https://store.steampowered.com/app/4719820/Arkada/",
+      "sourceUrl": "https://store.steampowered.com/search/?filter=comingsoon"
+    },
+    {
+      "id": "steamgame-ddl-4777760",
+      "topicId": "steamgame-ddl",
+      "title": "Axing Ice",
+      "deadline": "2026-06-18T23:59:59-07:00",
+      "type": "officialDeadline",
+      "status": "upcoming",
+      "tags": [
+        "steam",
+        "pc game",
+        "upcoming",
+        "date-first"
+      ],
+      "subtopic": "steam",
+      "source": "Steam Coming Soon",
+      "url": "https://store.steampowered.com/app/4777760/Axing_Ice/",
+      "sourceUrl": "https://store.steampowered.com/search/?filter=comingsoon"
+    },
+    {
+      "id": "steamgame-ddl-4585830",
+      "topicId": "steamgame-ddl",
+      "title": "Barbecue",
+      "deadline": "2026-06-18T23:59:59-07:00",
+      "type": "officialDeadline",
+      "status": "upcoming",
+      "tags": [
+        "steam",
+        "pc game",
+        "upcoming",
+        "date-first",
+        "popular-upcoming"
+      ],
+      "subtopic": "steam",
+      "source": "Steam Coming Soon",
+      "url": "https://store.steampowered.com/app/4585830/Barbecue/",
+      "sourceUrl": "https://store.steampowered.com/search/?filter=comingsoon"
+    },
+    {
+      "id": "steamgame-ddl-4159000",
+      "topicId": "steamgame-ddl",
+      "title": "BunnyBakery",
+      "deadline": "2026-06-18T23:59:59-07:00",
+      "type": "officialDeadline",
+      "status": "upcoming",
+      "tags": [
+        "steam",
+        "pc game",
+        "upcoming",
+        "date-first",
+        "popular-upcoming"
+      ],
+      "subtopic": "steam",
+      "source": "Steam Coming Soon",
+      "url": "https://store.steampowered.com/app/4159000/BunnyBakery/",
+      "sourceUrl": "https://store.steampowered.com/search/?filter=comingsoon"
+    },
+    {
+      "id": "steamgame-ddl-4227010",
+      "topicId": "steamgame-ddl",
+      "title": "Cave Of Treats",
+      "deadline": "2026-06-18T23:59:59-07:00",
+      "type": "officialDeadline",
+      "status": "upcoming",
+      "tags": [
+        "steam",
+        "pc game",
+        "upcoming",
+        "date-first"
+      ],
+      "subtopic": "steam",
+      "source": "Steam Coming Soon",
+      "url": "https://store.steampowered.com/app/4227010/Cave_Of_Treats/",
+      "sourceUrl": "https://store.steampowered.com/search/?filter=comingsoon"
+    },
+    {
+      "id": "steamgame-ddl-4756480",
+      "topicId": "steamgame-ddl",
+      "title": "Cricket Captain 2026",
+      "deadline": "2026-06-18T23:59:59-07:00",
+      "type": "officialDeadline",
+      "status": "upcoming",
+      "tags": [
+        "steam",
+        "pc game",
+        "upcoming",
+        "date-first"
+      ],
+      "subtopic": "steam",
+      "source": "Steam Coming Soon",
+      "url": "https://store.steampowered.com/app/4756480/Cricket_Captain_2026/",
+      "sourceUrl": "https://store.steampowered.com/search/?filter=comingsoon"
+    },
+    {
+      "id": "steamgame-ddl-4764960",
+      "topicId": "steamgame-ddl",
+      "title": "Desktop Mascot Nunu-nui",
+      "deadline": "2026-06-18T23:59:59-07:00",
+      "type": "officialDeadline",
+      "status": "upcoming",
+      "tags": [
+        "steam",
+        "pc game",
+        "upcoming",
+        "date-first"
+      ],
+      "subtopic": "steam",
+      "source": "Steam Coming Soon",
+      "url": "https://store.steampowered.com/app/4764960/Desktop_Mascot_Nununui/",
+      "sourceUrl": "https://store.steampowered.com/search/?filter=comingsoon"
+    },
+    {
+      "id": "steamgame-ddl-4734250",
+      "topicId": "steamgame-ddl",
+      "title": "Enduro Unleashed",
+      "deadline": "2026-06-18T23:59:59-07:00",
+      "type": "officialDeadline",
+      "status": "upcoming",
+      "tags": [
+        "steam",
+        "pc game",
+        "upcoming",
+        "date-first",
+        "popular-upcoming"
+      ],
+      "subtopic": "steam",
+      "source": "Steam Coming Soon",
+      "url": "https://store.steampowered.com/app/4734250/Enduro_Unleashed/",
+      "sourceUrl": "https://store.steampowered.com/search/?filter=comingsoon"
+    },
+    {
+      "id": "steamgame-ddl-4627700",
+      "topicId": "steamgame-ddl",
+      "title": "Eyes in the Woods",
+      "deadline": "2026-06-18T23:59:59-07:00",
+      "type": "officialDeadline",
+      "status": "upcoming",
+      "tags": [
+        "steam",
+        "pc game",
+        "upcoming",
+        "date-first"
+      ],
+      "subtopic": "steam",
+      "source": "Steam Coming Soon",
+      "url": "https://store.steampowered.com/app/4627700/Eyes_in_the_Woods/",
+      "sourceUrl": "https://store.steampowered.com/search/?filter=comingsoon"
+    },
+    {
+      "id": "steamgame-ddl-4766950",
+      "topicId": "steamgame-ddl",
+      "title": "Fury Journey",
+      "deadline": "2026-06-18T23:59:59-07:00",
+      "type": "officialDeadline",
+      "status": "upcoming",
+      "tags": [
+        "steam",
+        "pc game",
+        "upcoming",
+        "date-first"
+      ],
+      "subtopic": "steam",
+      "source": "Steam Coming Soon",
+      "url": "https://store.steampowered.com/app/4766950/Fury_Journey/",
+      "sourceUrl": "https://store.steampowered.com/search/?filter=comingsoon"
+    },
+    {
+      "id": "steamgame-ddl-3252380",
+      "topicId": "steamgame-ddl",
+      "title": "Git Gud",
+      "deadline": "2026-06-18T23:59:59-07:00",
+      "type": "officialDeadline",
+      "status": "upcoming",
+      "tags": [
+        "steam",
+        "pc game",
+        "upcoming",
+        "date-first"
+      ],
+      "subtopic": "steam",
+      "source": "Steam Coming Soon",
+      "url": "https://store.steampowered.com/app/3252380/Git_Gud/",
+      "sourceUrl": "https://store.steampowered.com/search/?filter=comingsoon"
+    },
+    {
+      "id": "steamgame-ddl-4731130",
+      "topicId": "steamgame-ddl",
+      "title": "Gospel Snow Town",
+      "deadline": "2026-06-18T23:59:59-07:00",
+      "type": "officialDeadline",
+      "status": "upcoming",
+      "tags": [
+        "steam",
+        "pc game",
+        "upcoming",
+        "date-first"
+      ],
+      "subtopic": "steam",
+      "source": "Steam Coming Soon",
+      "url": "https://store.steampowered.com/app/4731130/Gospel_Snow_Town/",
+      "sourceUrl": "https://store.steampowered.com/search/?filter=comingsoon"
+    },
+    {
+      "id": "steamgame-ddl-4820980",
+      "topicId": "steamgame-ddl",
+      "title": "Greed and Greed",
+      "deadline": "2026-06-18T23:59:59-07:00",
+      "type": "officialDeadline",
+      "status": "upcoming",
+      "tags": [
+        "steam",
+        "pc game",
+        "upcoming",
+        "date-first"
+      ],
+      "subtopic": "steam",
+      "source": "Steam Coming Soon",
+      "url": "https://store.steampowered.com/app/4820980/Greed_and_Greed/",
+      "sourceUrl": "https://store.steampowered.com/search/?filter=comingsoon"
+    },
+    {
+      "id": "steamgame-ddl-4727880",
+      "topicId": "steamgame-ddl",
+      "title": "Hold The Line",
+      "deadline": "2026-06-18T23:59:59-07:00",
+      "type": "officialDeadline",
+      "status": "upcoming",
+      "tags": [
+        "steam",
+        "pc game",
+        "upcoming",
+        "date-first"
+      ],
+      "subtopic": "steam",
+      "source": "Steam Coming Soon",
+      "url": "https://store.steampowered.com/app/4727880/Hold_The_Line/",
+      "sourceUrl": "https://store.steampowered.com/search/?filter=comingsoon"
+    },
+    {
+      "id": "steamgame-ddl-4807110",
+      "topicId": "steamgame-ddl",
+      "title": "Kepler 186F Soundtrack - Battlecry",
+      "deadline": "2026-06-18T23:59:59-07:00",
+      "type": "officialDeadline",
+      "status": "upcoming",
+      "tags": [
+        "steam",
+        "pc game",
+        "upcoming",
+        "date-first"
+      ],
+      "subtopic": "steam",
+      "source": "Steam Coming Soon",
+      "url": "https://store.steampowered.com/app/4807110/Kepler_186F_Soundtrack__Battlecry/",
+      "sourceUrl": "https://store.steampowered.com/search/?filter=comingsoon"
+    },
+    {
+      "id": "steamgame-ddl-4738420",
+      "topicId": "steamgame-ddl",
+      "title": "Lil' Quests",
+      "deadline": "2026-06-18T23:59:59-07:00",
+      "type": "officialDeadline",
+      "status": "upcoming",
+      "tags": [
+        "steam",
+        "pc game",
+        "upcoming",
+        "date-first"
+      ],
+      "subtopic": "steam",
+      "source": "Steam Coming Soon",
+      "url": "https://store.steampowered.com/app/4738420/Lil_Quests/",
+      "sourceUrl": "https://store.steampowered.com/search/?filter=comingsoon"
+    },
+    {
+      "id": "steamgame-ddl-4490010",
+      "topicId": "steamgame-ddl",
+      "title": "Mana Fracture",
+      "deadline": "2026-06-18T23:59:59-07:00",
+      "type": "officialDeadline",
+      "status": "upcoming",
+      "tags": [
+        "steam",
+        "pc game",
+        "upcoming",
+        "date-first"
+      ],
+      "subtopic": "steam",
+      "source": "Steam Coming Soon",
+      "url": "https://store.steampowered.com/app/4490010/Mana_Fracture/",
+      "sourceUrl": "https://store.steampowered.com/search/?filter=comingsoon"
+    },
+    {
+      "id": "steamgame-ddl-4192860",
+      "topicId": "steamgame-ddl",
+      "title": "NEED: No End",
+      "deadline": "2026-06-18T23:59:59-07:00",
+      "type": "officialDeadline",
+      "status": "upcoming",
+      "tags": [
+        "steam",
+        "pc game",
+        "upcoming",
+        "date-first"
+      ],
+      "subtopic": "steam",
+      "source": "Steam Coming Soon",
+      "url": "https://store.steampowered.com/app/4192860/NEED_No_End/",
+      "sourceUrl": "https://store.steampowered.com/search/?filter=comingsoon"
+    },
+    {
+      "id": "steamgame-ddl-4755370",
+      "topicId": "steamgame-ddl",
+      "title": "Obstacles: Gems of Power",
+      "deadline": "2026-06-18T23:59:59-07:00",
+      "type": "officialDeadline",
+      "status": "upcoming",
+      "tags": [
+        "steam",
+        "pc game",
+        "upcoming",
+        "date-first"
+      ],
+      "subtopic": "steam",
+      "source": "Steam Coming Soon",
+      "url": "https://store.steampowered.com/app/4755370/Obstacles_Gems_of_Power/",
+      "sourceUrl": "https://store.steampowered.com/search/?filter=comingsoon"
+    },
+    {
+      "id": "steamgame-ddl-4788930",
+      "topicId": "steamgame-ddl",
+      "title": "Oleander-X",
+      "deadline": "2026-06-18T23:59:59-07:00",
+      "type": "officialDeadline",
+      "status": "upcoming",
+      "tags": [
+        "steam",
+        "pc game",
+        "upcoming",
+        "date-first"
+      ],
+      "subtopic": "steam",
+      "source": "Steam Coming Soon",
+      "url": "https://store.steampowered.com/app/4788930/OleanderX/",
+      "sourceUrl": "https://store.steampowered.com/search/?filter=comingsoon"
+    },
+    {
+      "id": "steamgame-ddl-4138190",
+      "topicId": "steamgame-ddl",
+      "title": "One Tower Defense",
+      "deadline": "2026-06-18T23:59:59-07:00",
+      "type": "officialDeadline",
+      "status": "upcoming",
+      "tags": [
+        "steam",
+        "pc game",
+        "upcoming",
+        "date-first"
+      ],
+      "subtopic": "steam",
+      "source": "Steam Coming Soon",
+      "url": "https://store.steampowered.com/app/4138190/One_Tower_Defense/",
+      "sourceUrl": "https://store.steampowered.com/search/?filter=comingsoon"
+    },
+    {
+      "id": "steamgame-ddl-4055400",
+      "topicId": "steamgame-ddl",
+      "title": "PAPARAZZI",
+      "deadline": "2026-06-18T23:59:59-07:00",
+      "type": "officialDeadline",
+      "status": "upcoming",
+      "tags": [
+        "steam",
+        "pc game",
+        "upcoming",
+        "date-first"
+      ],
+      "subtopic": "steam",
+      "source": "Steam Coming Soon",
+      "url": "https://store.steampowered.com/app/4055400/PAPARAZZI/",
+      "sourceUrl": "https://store.steampowered.com/search/?filter=comingsoon"
+    },
+    {
+      "id": "steamgame-ddl-4735230",
+      "topicId": "steamgame-ddl",
+      "title": "Pile 'Em High Episode 3: Convalescence",
+      "deadline": "2026-06-18T23:59:59-07:00",
+      "type": "officialDeadline",
+      "status": "upcoming",
+      "tags": [
+        "steam",
+        "pc game",
+        "upcoming",
+        "date-first"
+      ],
+      "subtopic": "steam",
+      "source": "Steam Coming Soon",
+      "url": "https://store.steampowered.com/app/4735230/Pile_Em_High_Episode_3_Convalescence/",
+      "sourceUrl": "https://store.steampowered.com/search/?filter=comingsoon"
+    },
+    {
+      "id": "steamgame-ddl-4675980",
+      "topicId": "steamgame-ddl",
+      "title": "PrivaEmanator",
+      "deadline": "2026-06-18T23:59:59-07:00",
+      "type": "officialDeadline",
+      "status": "upcoming",
+      "tags": [
+        "steam",
+        "pc game",
+        "upcoming",
+        "date-first"
+      ],
+      "subtopic": "steam",
+      "source": "Steam Coming Soon",
+      "url": "https://store.steampowered.com/app/4675980/PrivaEmanator/",
+      "sourceUrl": "https://store.steampowered.com/search/?filter=comingsoon"
+    },
+    {
+      "id": "steamgame-ddl-2169930",
+      "topicId": "steamgame-ddl",
+      "title": "R-Type Tactics I • II Cosmos",
+      "deadline": "2026-06-18T23:59:59-07:00",
+      "type": "officialDeadline",
+      "status": "upcoming",
+      "tags": [
+        "steam",
+        "pc game",
+        "upcoming",
+        "date-first",
+        "popular-upcoming"
+      ],
+      "subtopic": "steam",
+      "source": "Steam Coming Soon",
+      "url": "https://store.steampowered.com/app/2169930/RType_Tactics_I_o_II_Cosmos/",
+      "sourceUrl": "https://store.steampowered.com/search/?filter=comingsoon"
+    },
+    {
+      "id": "steamgame-ddl-4192480",
+      "topicId": "steamgame-ddl",
+      "title": "RE-TAPED",
+      "deadline": "2026-06-18T23:59:59-07:00",
+      "type": "officialDeadline",
+      "status": "upcoming",
+      "tags": [
+        "steam",
+        "pc game",
+        "upcoming",
+        "date-first"
+      ],
+      "subtopic": "steam",
+      "source": "Steam Coming Soon",
+      "url": "https://store.steampowered.com/app/4192480/RETAPED/",
+      "sourceUrl": "https://store.steampowered.com/search/?filter=comingsoon"
+    },
+    {
+      "id": "steamgame-ddl-3125690",
+      "topicId": "steamgame-ddl",
+      "title": "RELOADIAN",
+      "deadline": "2026-06-18T23:59:59-07:00",
+      "type": "officialDeadline",
+      "status": "upcoming",
+      "tags": [
+        "steam",
+        "pc game",
+        "upcoming",
+        "date-first",
+        "popular-upcoming"
+      ],
+      "subtopic": "steam",
+      "source": "Steam Coming Soon",
+      "url": "https://store.steampowered.com/app/3125690/RELOADIAN/",
+      "sourceUrl": "https://store.steampowered.com/search/?filter=comingsoon"
+    },
+    {
+      "id": "steamgame-ddl-4696030",
+      "topicId": "steamgame-ddl",
+      "title": "Return to Lumia",
+      "deadline": "2026-06-18T23:59:59-07:00",
+      "type": "officialDeadline",
+      "status": "upcoming",
+      "tags": [
+        "steam",
+        "pc game",
+        "upcoming",
+        "date-first"
+      ],
+      "subtopic": "steam",
+      "source": "Steam Coming Soon",
+      "url": "https://store.steampowered.com/app/4696030/Return_to_Lumia/",
+      "sourceUrl": "https://store.steampowered.com/search/?filter=comingsoon"
+    },
+    {
+      "id": "steamgame-ddl-4657010",
+      "topicId": "steamgame-ddl",
+      "title": "Reversible Routing+",
+      "deadline": "2026-06-18T23:59:59-07:00",
+      "type": "officialDeadline",
+      "status": "upcoming",
+      "tags": [
+        "steam",
+        "pc game",
+        "upcoming",
+        "date-first"
+      ],
+      "subtopic": "steam",
+      "source": "Steam Coming Soon",
+      "url": "https://store.steampowered.com/app/4657010/Reversible_Routing/",
+      "sourceUrl": "https://store.steampowered.com/search/?filter=comingsoon"
+    },
+    {
+      "id": "steamgame-ddl-4550750",
+      "topicId": "steamgame-ddl",
+      "title": "Subside - Makoa Shelf",
+      "deadline": "2026-06-18T23:59:59-07:00",
+      "type": "officialDeadline",
+      "status": "upcoming",
+      "tags": [
+        "steam",
+        "pc game",
+        "upcoming",
+        "date-first"
+      ],
+      "subtopic": "steam",
+      "source": "Steam Coming Soon",
+      "url": "https://store.steampowered.com/app/4550750/Subside__Makoa_Shelf/",
+      "sourceUrl": "https://store.steampowered.com/search/?filter=comingsoon"
+    },
+    {
+      "id": "steamgame-ddl-4753590",
+      "topicId": "steamgame-ddl",
+      "title": "TEAM PANIC",
+      "deadline": "2026-06-18T23:59:59-07:00",
+      "type": "officialDeadline",
+      "status": "upcoming",
+      "tags": [
+        "steam",
+        "pc game",
+        "upcoming",
+        "date-first",
+        "popular-upcoming"
+      ],
+      "subtopic": "steam",
+      "source": "Steam Coming Soon",
+      "url": "https://store.steampowered.com/app/4753590/TEAM_PANIC/",
+      "sourceUrl": "https://store.steampowered.com/search/?filter=comingsoon"
+    },
+    {
+      "id": "steamgame-ddl-4770560",
+      "topicId": "steamgame-ddl",
+      "title": "TernStory",
+      "deadline": "2026-06-18T23:59:59-07:00",
+      "type": "officialDeadline",
+      "status": "upcoming",
+      "tags": [
+        "steam",
+        "pc game",
+        "upcoming",
+        "date-first"
+      ],
+      "subtopic": "steam",
+      "source": "Steam Coming Soon",
+      "url": "https://store.steampowered.com/app/4770560/TernStory/",
+      "sourceUrl": "https://store.steampowered.com/search/?filter=comingsoon"
+    },
+    {
+      "id": "steamgame-ddl-3483510",
+      "topicId": "steamgame-ddl",
+      "title": "The Adventures of Elliot: The Millennium Tales",
+      "deadline": "2026-06-18T23:59:59-07:00",
+      "type": "officialDeadline",
+      "status": "upcoming",
+      "tags": [
+        "steam",
+        "pc game",
+        "upcoming",
+        "date-first",
+        "popular-upcoming"
+      ],
+      "subtopic": "steam",
+      "source": "Steam Coming Soon",
+      "url": "https://store.steampowered.com/app/3483510/The_Adventures_of_Elliot_The_Millennium_Tales/",
+      "sourceUrl": "https://store.steampowered.com/search/?filter=comingsoon"
+    },
+    {
+      "id": "steamgame-ddl-3975750",
+      "topicId": "steamgame-ddl",
+      "title": "The Gate Must Stand",
+      "deadline": "2026-06-18T23:59:59-07:00",
+      "type": "officialDeadline",
+      "status": "upcoming",
+      "tags": [
+        "steam",
+        "pc game",
+        "upcoming",
+        "date-first",
+        "popular-upcoming"
+      ],
+      "subtopic": "steam",
+      "source": "Steam Coming Soon",
+      "url": "https://store.steampowered.com/app/3975750/The_Gate_Must_Stand/",
+      "sourceUrl": "https://store.steampowered.com/search/?filter=comingsoon"
+    },
+    {
+      "id": "steamgame-ddl-2288520",
+      "topicId": "steamgame-ddl",
+      "title": "The Quiet Things",
+      "deadline": "2026-06-18T23:59:59-07:00",
+      "type": "officialDeadline",
+      "status": "upcoming",
+      "tags": [
+        "steam",
+        "pc game",
+        "upcoming",
+        "date-first",
+        "popular-upcoming"
+      ],
+      "subtopic": "steam",
+      "source": "Steam Coming Soon",
+      "url": "https://store.steampowered.com/app/2288520/The_Quiet_Things/",
+      "sourceUrl": "https://store.steampowered.com/search/?filter=comingsoon"
+    },
+    {
+      "id": "steamgame-ddl-3663950",
+      "topicId": "steamgame-ddl",
+      "title": "Train Sim World® 6: West Coast Main Line: Crewe - Preston Route Add-On",
+      "deadline": "2026-06-18T23:59:59-07:00",
+      "type": "officialDeadline",
+      "status": "upcoming",
+      "tags": [
+        "steam",
+        "pc game",
+        "upcoming",
+        "date-first",
+        "popular-upcoming"
+      ],
+      "subtopic": "steam",
+      "source": "Steam Coming Soon",
+      "url": "https://store.steampowered.com/app/3663950/Train_Sim_World_6_West_Coast_Main_Line_Crewe__Preston_Route_AddOn/",
+      "sourceUrl": "https://store.steampowered.com/search/?filter=comingsoon"
+    },
+    {
+      "id": "steamgame-ddl-4654770",
+      "topicId": "steamgame-ddl",
+      "title": "Tumble Type",
+      "deadline": "2026-06-18T23:59:59-07:00",
+      "type": "officialDeadline",
+      "status": "upcoming",
+      "tags": [
+        "steam",
+        "pc game",
+        "upcoming",
+        "date-first"
+      ],
+      "subtopic": "steam",
+      "source": "Steam Coming Soon",
+      "url": "https://store.steampowered.com/app/4654770/Tumble_Type/",
+      "sourceUrl": "https://store.steampowered.com/search/?filter=comingsoon"
+    },
+    {
+      "id": "steamgame-ddl-3902750",
+      "topicId": "steamgame-ddl",
+      "title": "Until Then: Afterimages",
+      "deadline": "2026-06-18T23:59:59-07:00",
+      "type": "officialDeadline",
+      "status": "upcoming",
+      "tags": [
+        "steam",
+        "pc game",
+        "upcoming",
+        "date-first",
+        "popular-upcoming"
+      ],
+      "subtopic": "steam",
+      "source": "Steam Coming Soon",
+      "url": "https://store.steampowered.com/app/3902750/Until_Then_Afterimages/",
+      "sourceUrl": "https://store.steampowered.com/search/?filter=comingsoon"
+    },
+    {
+      "id": "steamgame-ddl-3986670",
+      "topicId": "steamgame-ddl",
+      "title": "YOU ARE THE MONSTER",
+      "deadline": "2026-06-18T23:59:59-07:00",
+      "type": "officialDeadline",
+      "status": "upcoming",
+      "tags": [
+        "steam",
+        "pc game",
+        "upcoming",
+        "date-first",
+        "popular-upcoming"
+      ],
+      "subtopic": "steam",
+      "source": "Steam Coming Soon",
+      "url": "https://store.steampowered.com/app/3986670/YOU_ARE_THE_MONSTER/",
+      "sourceUrl": "https://store.steampowered.com/search/?filter=comingsoon"
+    },
+    {
+      "id": "steamgame-ddl-4787300",
+      "topicId": "steamgame-ddl",
+      "title": "Zerion: Infinite Space",
+      "deadline": "2026-06-18T23:59:59-07:00",
+      "type": "officialDeadline",
+      "status": "upcoming",
+      "tags": [
+        "steam",
+        "pc game",
+        "upcoming",
+        "date-first"
+      ],
+      "subtopic": "steam",
+      "source": "Steam Coming Soon",
+      "url": "https://store.steampowered.com/app/4787300/Zerion_Infinite_Space/",
+      "sourceUrl": "https://store.steampowered.com/search/?filter=comingsoon"
+    },
+    {
+      "id": "steamgame-ddl-4691080",
+      "topicId": "steamgame-ddl",
+      "title": "Zyntaris",
+      "deadline": "2026-06-18T23:59:59-07:00",
+      "type": "officialDeadline",
+      "status": "upcoming",
+      "tags": [
+        "steam",
+        "pc game",
+        "upcoming",
+        "date-first"
+      ],
+      "subtopic": "steam",
+      "source": "Steam Coming Soon",
+      "url": "https://store.steampowered.com/app/4691080/Zyntaris/",
+      "sourceUrl": "https://store.steampowered.com/search/?filter=comingsoon"
+    },
+    {
+      "id": "steamgame-ddl-4808720",
+      "topicId": "steamgame-ddl",
+      "title": "2026 U.S. Election Simulator",
+      "deadline": "2026-06-19T23:59:59-07:00",
+      "type": "officialDeadline",
+      "status": "upcoming",
+      "tags": [
+        "steam",
+        "pc game",
+        "upcoming",
+        "date-first"
+      ],
+      "subtopic": "steam",
+      "source": "Steam Coming Soon",
+      "url": "https://store.steampowered.com/app/4808720/2026_US_Election_Simulator/",
+      "sourceUrl": "https://store.steampowered.com/search/?filter=comingsoon"
+    },
+    {
+      "id": "steamgame-ddl-4603110",
+      "topicId": "steamgame-ddl",
+      "title": "Dusk City - Beacon of Tranquility",
+      "deadline": "2026-06-19T23:59:59-07:00",
+      "type": "officialDeadline",
+      "status": "upcoming",
+      "tags": [
+        "steam",
+        "pc game",
+        "upcoming",
+        "date-first"
+      ],
+      "subtopic": "steam",
+      "source": "Steam Coming Soon",
+      "url": "https://store.steampowered.com/app/4603110/Dusk_City__Beacon_of_Tranquility/",
+      "sourceUrl": "https://store.steampowered.com/search/?filter=comingsoon"
+    },
+    {
+      "id": "steamgame-ddl-4808760",
+      "topicId": "steamgame-ddl",
+      "title": "Free Loop Tower Defense 人生是旷野塔防 FLTD",
+      "deadline": "2026-06-19T23:59:59-07:00",
+      "type": "officialDeadline",
+      "status": "upcoming",
+      "tags": [
+        "steam",
+        "pc game",
+        "upcoming",
+        "date-first"
+      ],
+      "subtopic": "steam",
+      "source": "Steam Coming Soon",
+      "url": "https://store.steampowered.com/app/4808760/Free_Loop_Tower_Defense__FLTD/",
+      "sourceUrl": "https://store.steampowered.com/search/?filter=comingsoon"
+    },
+    {
+      "id": "steamgame-ddl-4791330",
+      "topicId": "steamgame-ddl",
+      "title": "Gaslamp Cases 6: Haunted Waters",
+      "deadline": "2026-06-19T23:59:59-07:00",
+      "type": "officialDeadline",
+      "status": "upcoming",
+      "tags": [
+        "steam",
+        "pc game",
+        "upcoming",
+        "date-first"
+      ],
+      "subtopic": "steam",
+      "source": "Steam Coming Soon",
+      "url": "https://store.steampowered.com/app/4791330/Gaslamp_Cases_6_Haunted_Waters/",
+      "sourceUrl": "https://store.steampowered.com/search/?filter=comingsoon"
+    },
+    {
+      "id": "steamgame-ddl-4746520",
+      "topicId": "steamgame-ddl",
+      "title": "Illmatic Envelope Swamp Original Soundtrack",
+      "deadline": "2026-06-19T23:59:59-07:00",
+      "type": "officialDeadline",
+      "status": "upcoming",
+      "tags": [
+        "steam",
+        "pc game",
+        "upcoming",
+        "date-first"
+      ],
+      "subtopic": "steam",
+      "source": "Steam Coming Soon",
+      "url": "https://store.steampowered.com/app/4746520/Illmatic_Envelope_Swamp_Original_Soundtrack/",
+      "sourceUrl": "https://store.steampowered.com/search/?filter=comingsoon"
+    },
+    {
+      "id": "steamgame-ddl-4539580",
+      "topicId": "steamgame-ddl",
+      "title": "Illvelo Swamp",
+      "deadline": "2026-06-19T23:59:59-07:00",
+      "type": "officialDeadline",
+      "status": "upcoming",
+      "tags": [
+        "steam",
+        "pc game",
+        "upcoming",
+        "date-first"
+      ],
+      "subtopic": "steam",
+      "source": "Steam Coming Soon",
+      "url": "https://store.steampowered.com/app/4539580/Illvelo_Swamp/",
+      "sourceUrl": "https://store.steampowered.com/search/?filter=comingsoon"
+    },
+    {
+      "id": "steamgame-ddl-4791730",
+      "topicId": "steamgame-ddl",
+      "title": "Market Simulator: Miami Beach",
+      "deadline": "2026-06-19T23:59:59-07:00",
+      "type": "officialDeadline",
+      "status": "upcoming",
+      "tags": [
+        "steam",
+        "pc game",
+        "upcoming",
+        "popular-upcoming"
+      ],
+      "subtopic": "steam",
+      "source": "Steam Popular Upcoming",
+      "url": "https://store.steampowered.com/app/4791730/Market_Simulator_Miami_Beach/",
+      "sourceUrl": "https://store.steampowered.com/search/?filter=popularcomingsoon"
+    },
+    {
+      "id": "steamgame-ddl-2938870",
+      "topicId": "steamgame-ddl",
+      "title": "Maseylia : Echoes of the Past",
+      "deadline": "2026-06-19T23:59:59-07:00",
+      "type": "officialDeadline",
+      "status": "upcoming",
+      "tags": [
+        "steam",
+        "pc game",
+        "upcoming",
+        "popular-upcoming"
+      ],
+      "subtopic": "steam",
+      "source": "Steam Popular Upcoming",
+      "url": "https://store.steampowered.com/app/2938870/Maseylia__Echoes_of_the_Past/",
+      "sourceUrl": "https://store.steampowered.com/search/?filter=popularcomingsoon"
+    },
+    {
+      "id": "steamgame-ddl-3392490",
+      "topicId": "steamgame-ddl",
+      "title": "Moon River",
+      "deadline": "2026-06-19T23:59:59-07:00",
+      "type": "officialDeadline",
+      "status": "upcoming",
+      "tags": [
+        "steam",
+        "pc game",
+        "upcoming",
+        "popular-upcoming"
+      ],
+      "subtopic": "steam",
+      "source": "Steam Popular Upcoming",
+      "url": "https://store.steampowered.com/app/3392490/Moon_River/",
+      "sourceUrl": "https://store.steampowered.com/search/?filter=popularcomingsoon"
+    },
+    {
+      "id": "steamgame-ddl-3975500",
+      "topicId": "steamgame-ddl",
+      "title": "Poem of the Starherd",
+      "deadline": "2026-06-19T23:59:59-07:00",
+      "type": "officialDeadline",
+      "status": "upcoming",
+      "tags": [
+        "steam",
+        "pc game",
+        "upcoming",
+        "popular-upcoming"
+      ],
+      "subtopic": "steam",
+      "source": "Steam Popular Upcoming",
+      "url": "https://store.steampowered.com/app/3975500/Poem_of_the_Starherd/",
+      "sourceUrl": "https://store.steampowered.com/search/?filter=popularcomingsoon"
+    },
+    {
+      "id": "steamgame-ddl-4353630",
+      "topicId": "steamgame-ddl",
+      "title": "Summer Sisters",
+      "deadline": "2026-06-19T23:59:59-07:00",
+      "type": "officialDeadline",
+      "status": "upcoming",
+      "tags": [
+        "steam",
+        "pc game",
+        "upcoming",
+        "popular-upcoming"
+      ],
+      "subtopic": "steam",
+      "source": "Steam Popular Upcoming",
+      "url": "https://store.steampowered.com/app/4353630/Summer_Sisters/",
+      "sourceUrl": "https://store.steampowered.com/search/?filter=popularcomingsoon"
+    },
+    {
+      "id": "steamgame-ddl-4642310",
+      "topicId": "steamgame-ddl",
+      "title": "Taktari",
+      "deadline": "2026-06-19T23:59:59-07:00",
+      "type": "officialDeadline",
+      "status": "upcoming",
+      "tags": [
+        "steam",
+        "pc game",
+        "upcoming",
+        "date-first"
+      ],
+      "subtopic": "steam",
+      "source": "Steam Coming Soon",
+      "url": "https://store.steampowered.com/app/4642310/Taktari/",
+      "sourceUrl": "https://store.steampowered.com/search/?filter=comingsoon"
+    },
+    {
+      "id": "steamgame-ddl-2881370",
+      "topicId": "steamgame-ddl",
+      "title": "Thank You For Your Application",
+      "deadline": "2026-06-19T23:59:59-07:00",
+      "type": "officialDeadline",
+      "status": "upcoming",
+      "tags": [
+        "steam",
+        "pc game",
+        "upcoming",
+        "popular-upcoming"
+      ],
+      "subtopic": "steam",
+      "source": "Steam Popular Upcoming",
+      "url": "https://store.steampowered.com/app/2881370/Thank_You_For_Your_Application/",
+      "sourceUrl": "https://store.steampowered.com/search/?filter=popularcomingsoon"
+    },
+    {
+      "id": "steamgame-ddl-3939700",
+      "topicId": "steamgame-ddl",
+      "title": "Treasure Beach",
+      "deadline": "2026-06-20T23:59:59-07:00",
+      "type": "officialDeadline",
+      "status": "upcoming",
+      "tags": [
+        "steam",
+        "pc game",
+        "upcoming",
+        "popular-upcoming"
+      ],
+      "subtopic": "steam",
+      "source": "Steam Popular Upcoming",
+      "url": "https://store.steampowered.com/app/3939700/Treasure_Beach/",
+      "sourceUrl": "https://store.steampowered.com/search/?filter=popularcomingsoon"
+    },
+    {
+      "id": "steamgame-ddl-2742710",
+      "topicId": "steamgame-ddl",
+      "title": "Cozy Cleaner",
+      "deadline": "2026-06-22T23:59:59-07:00",
+      "type": "officialDeadline",
+      "status": "upcoming",
+      "tags": [
+        "steam",
+        "pc game",
+        "upcoming",
+        "popular-upcoming"
+      ],
+      "subtopic": "steam",
+      "source": "Steam Popular Upcoming",
+      "url": "https://store.steampowered.com/app/2742710/Cozy_Cleaner/",
+      "sourceUrl": "https://store.steampowered.com/search/?filter=popularcomingsoon"
+    },
+    {
+      "id": "steamgame-ddl-4312850",
+      "topicId": "steamgame-ddl",
+      "title": "FISH",
+      "deadline": "2026-06-22T23:59:59-07:00",
+      "type": "officialDeadline",
+      "status": "upcoming",
+      "tags": [
+        "steam",
+        "pc game",
+        "upcoming",
+        "popular-upcoming"
+      ],
+      "subtopic": "steam",
+      "source": "Steam Popular Upcoming",
+      "url": "https://store.steampowered.com/app/4312850/FISH/",
+      "sourceUrl": "https://store.steampowered.com/search/?filter=popularcomingsoon"
+    },
+    {
+      "id": "steamgame-ddl-3759220",
+      "topicId": "steamgame-ddl",
+      "title": "Pawsome Resort",
+      "deadline": "2026-06-22T23:59:59-07:00",
+      "type": "officialDeadline",
+      "status": "upcoming",
+      "tags": [
+        "steam",
+        "pc game",
+        "upcoming",
+        "popular-upcoming"
+      ],
+      "subtopic": "steam",
+      "source": "Steam Popular Upcoming",
+      "url": "https://store.steampowered.com/app/3759220/Pawsome_Resort/",
+      "sourceUrl": "https://store.steampowered.com/search/?filter=popularcomingsoon"
+    },
+    {
+      "id": "steamgame-ddl-1431300",
+      "topicId": "steamgame-ddl",
+      "title": "SAND: Raiders of Sophie",
+      "deadline": "2026-06-22T23:59:59-07:00",
+      "type": "officialDeadline",
+      "status": "upcoming",
+      "tags": [
+        "steam",
+        "pc game",
+        "upcoming",
+        "popular-upcoming"
+      ],
+      "subtopic": "steam",
+      "source": "Steam Popular Upcoming",
+      "url": "https://store.steampowered.com/app/1431300/SAND_Raiders_of_Sophie/",
+      "sourceUrl": "https://store.steampowered.com/search/?filter=popularcomingsoon"
+    },
+    {
+      "id": "steamgame-ddl-4227400",
+      "topicId": "steamgame-ddl",
+      "title": "Sineus Arena Survivors",
+      "deadline": "2026-06-22T23:59:59-07:00",
+      "type": "officialDeadline",
+      "status": "upcoming",
+      "tags": [
+        "steam",
+        "pc game",
+        "upcoming",
+        "popular-upcoming"
+      ],
+      "subtopic": "steam",
+      "source": "Steam Popular Upcoming",
+      "url": "https://store.steampowered.com/app/4227400/Sineus_Arena_Survivors/",
+      "sourceUrl": "https://store.steampowered.com/search/?filter=popularcomingsoon"
+    },
+    {
+      "id": "steamgame-ddl-1803140",
+      "topicId": "steamgame-ddl",
+      "title": "Deer & Boy",
+      "deadline": "2026-06-23T23:59:59-07:00",
+      "type": "officialDeadline",
+      "status": "upcoming",
+      "tags": [
+        "steam",
+        "pc game",
+        "upcoming",
+        "popular-upcoming"
+      ],
+      "subtopic": "steam",
+      "source": "Steam Popular Upcoming",
+      "url": "https://store.steampowered.com/app/1803140/Deer__Boy/",
+      "sourceUrl": "https://store.steampowered.com/search/?filter=popularcomingsoon"
+    },
+    {
+      "id": "steamgame-ddl-2458980",
+      "topicId": "steamgame-ddl",
+      "title": "Dimhaven - The Lost Source",
+      "deadline": "2026-06-23T23:59:59-07:00",
+      "type": "officialDeadline",
+      "status": "upcoming",
+      "tags": [
+        "steam",
+        "pc game",
+        "upcoming",
+        "popular-upcoming"
+      ],
+      "subtopic": "steam",
+      "source": "Steam Popular Upcoming",
+      "url": "https://store.steampowered.com/app/2458980/Dimhaven__The_Lost_Source/",
+      "sourceUrl": "https://store.steampowered.com/search/?filter=popularcomingsoon"
+    },
+    {
+      "id": "steamgame-ddl-3688130",
+      "topicId": "steamgame-ddl",
+      "title": "Moldwasher",
+      "deadline": "2026-06-23T23:59:59-07:00",
+      "type": "officialDeadline",
+      "status": "upcoming",
+      "tags": [
+        "steam",
+        "pc game",
+        "upcoming",
+        "popular-upcoming"
+      ],
+      "subtopic": "steam",
+      "source": "Steam Popular Upcoming",
+      "url": "https://store.steampowered.com/app/3688130/Moldwasher/",
+      "sourceUrl": "https://store.steampowered.com/search/?filter=popularcomingsoon"
+    },
+    {
+      "id": "steamgame-ddl-4355570",
+      "topicId": "steamgame-ddl",
+      "title": "Warhammer 40,000: Darktide - Skitarii Class",
+      "deadline": "2026-06-23T23:59:59-07:00",
+      "type": "officialDeadline",
+      "status": "upcoming",
+      "tags": [
+        "steam",
+        "pc game",
+        "upcoming",
+        "popular-upcoming"
+      ],
+      "subtopic": "steam",
+      "source": "Steam Popular Upcoming",
+      "url": "https://store.steampowered.com/app/4355570/Warhammer_40000_Darktide__Skitarii_Class/",
+      "sourceUrl": "https://store.steampowered.com/search/?filter=popularcomingsoon"
+    },
+    {
+      "id": "steamgame-ddl-4355580",
+      "topicId": "steamgame-ddl",
+      "title": "Warhammer 40,000: Darktide - Skitarii Class Deluxe Edition",
+      "deadline": "2026-06-23T23:59:59-07:00",
+      "type": "officialDeadline",
+      "status": "upcoming",
+      "tags": [
+        "steam",
+        "pc game",
+        "upcoming",
+        "popular-upcoming"
+      ],
+      "subtopic": "steam",
+      "source": "Steam Popular Upcoming",
+      "url": "https://store.steampowered.com/app/4355580/Warhammer_40000_Darktide__Skitarii_Class_Deluxe_Edition/",
+      "sourceUrl": "https://store.steampowered.com/search/?filter=popularcomingsoon"
+    },
+    {
+      "id": "steamgame-ddl-4144680",
+      "topicId": "steamgame-ddl",
+      "title": "DEAD OR ALIVE 6 Last Round",
+      "deadline": "2026-06-24T23:59:59-07:00",
+      "type": "officialDeadline",
+      "status": "upcoming",
+      "tags": [
+        "steam",
+        "pc game",
+        "upcoming",
+        "popular-upcoming"
+      ],
+      "subtopic": "steam",
+      "source": "Steam Popular Upcoming",
+      "url": "https://store.steampowered.com/app/4144680/DEAD_OR_ALIVE_6_Last_Round/",
+      "sourceUrl": "https://store.steampowered.com/search/?filter=popularcomingsoon"
+    },
+    {
+      "id": "steamgame-ddl-4323990",
+      "topicId": "steamgame-ddl",
+      "title": "EMPULSE",
+      "deadline": "2026-06-24T23:59:59-07:00",
+      "type": "officialDeadline",
+      "status": "upcoming",
+      "tags": [
+        "steam",
+        "pc game",
+        "upcoming",
+        "popular-upcoming"
+      ],
+      "subtopic": "steam",
+      "source": "Steam Popular Upcoming",
+      "url": "https://store.steampowered.com/app/4323990/EMPULSE/",
+      "sourceUrl": "https://store.steampowered.com/search/?filter=popularcomingsoon"
+    },
+    {
+      "id": "steamgame-ddl-3979330",
+      "topicId": "steamgame-ddl",
+      "title": "nophenia",
+      "deadline": "2026-06-25T23:59:59-07:00",
+      "type": "officialDeadline",
+      "status": "upcoming",
+      "tags": [
+        "steam",
+        "pc game",
+        "upcoming",
+        "popular-upcoming"
+      ],
+      "subtopic": "steam",
+      "source": "Steam Popular Upcoming",
+      "url": "https://store.steampowered.com/app/3979330/nophenia/",
+      "sourceUrl": "https://store.steampowered.com/search/?filter=popularcomingsoon"
+    },
+    {
+      "id": "steamgame-ddl-3469450",
+      "topicId": "steamgame-ddl",
+      "title": "DOOM: The Dark Ages | Revelations",
+      "deadline": "2026-07-07T23:59:59-07:00",
+      "type": "officialDeadline",
+      "status": "upcoming",
+      "tags": [
+        "steam",
+        "pc game",
+        "upcoming",
+        "popular-upcoming"
+      ],
+      "subtopic": "steam",
+      "source": "Steam Popular Upcoming",
+      "url": "https://store.steampowered.com/app/3469450/DOOM_The_Dark_Ages__Revelations/",
+      "sourceUrl": "https://store.steampowered.com/search/?filter=popularcomingsoon"
+    },
+    {
+      "id": "steamgame-ddl-2209900",
+      "topicId": "steamgame-ddl",
+      "title": "Moonlight Peaks",
+      "deadline": "2026-07-07T23:59:59-07:00",
+      "type": "officialDeadline",
+      "status": "upcoming",
+      "tags": [
+        "steam",
+        "pc game",
+        "upcoming",
+        "popular-upcoming"
+      ],
+      "subtopic": "steam",
+      "source": "Steam Popular Upcoming",
+      "url": "https://store.steampowered.com/app/2209900/Moonlight_Peaks/",
+      "sourceUrl": "https://store.steampowered.com/search/?filter=popularcomingsoon"
+    },
+    {
+      "id": "steamgame-ddl-4306890",
+      "topicId": "steamgame-ddl",
+      "title": "Granblue Fantasy: Relink - Endless Ragnarok Upgrade Kit (Special Edition)",
+      "deadline": "2026-07-08T23:59:59-07:00",
+      "type": "officialDeadline",
+      "status": "upcoming",
+      "tags": [
+        "steam",
+        "pc game",
+        "upcoming",
+        "popular-upcoming"
+      ],
+      "subtopic": "steam",
+      "source": "Steam Popular Upcoming",
+      "url": "https://store.steampowered.com/app/4306890/Granblue_Fantasy_Relink__Endless_Ragnarok_Upgrade_Kit_Special_Edition/",
+      "sourceUrl": "https://store.steampowered.com/search/?filter=popularcomingsoon"
+    },
+    {
+      "id": "steamgame-ddl-3751950",
+      "topicId": "steamgame-ddl",
+      "title": "Assassin's Creed Black Flag Resynced",
+      "deadline": "2026-07-09T23:59:59-07:00",
+      "type": "officialDeadline",
+      "status": "upcoming",
+      "tags": [
+        "steam",
+        "pc game",
+        "upcoming",
+        "popular-upcoming"
+      ],
+      "subtopic": "steam",
+      "source": "Steam Popular Upcoming",
+      "url": "https://store.steampowered.com/app/3751950/Assassins_Creed_Black_Flag_Resynced/",
+      "sourceUrl": "https://store.steampowered.com/search/?filter=popularcomingsoon"
+    },
+    {
+      "id": "steamgame-ddl-2244210",
+      "topicId": "steamgame-ddl",
+      "title": "Echoes of Aincrad",
+      "deadline": "2026-07-09T23:59:59-07:00",
+      "type": "officialDeadline",
+      "status": "upcoming",
+      "tags": [
+        "steam",
+        "pc game",
+        "upcoming",
+        "popular-upcoming"
+      ],
+      "subtopic": "steam",
+      "source": "Steam Popular Upcoming",
+      "url": "https://store.steampowered.com/app/2244210/Echoes_of_Aincrad/",
+      "sourceUrl": "https://store.steampowered.com/search/?filter=popularcomingsoon"
+    },
+    {
+      "id": "steamgame-ddl-2569760",
+      "topicId": "steamgame-ddl",
+      "title": "The Mound: Omen of Cthulhu",
+      "deadline": "2026-07-15T23:59:59-07:00",
+      "type": "officialDeadline",
+      "status": "upcoming",
+      "tags": [
+        "steam",
+        "pc game",
+        "upcoming",
+        "popular-upcoming"
+      ],
+      "subtopic": "steam",
+      "source": "Steam Popular Upcoming",
+      "url": "https://store.steampowered.com/app/2569760/The_Mound_Omen_of_Cthulhu/",
+      "sourceUrl": "https://store.steampowered.com/search/?filter=popularcomingsoon"
+    },
+    {
+      "id": "steamgame-ddl-3453910",
+      "topicId": "steamgame-ddl",
+      "title": "Happy's Humble BURGATORY",
+      "deadline": "2026-07-16T23:59:59-07:00",
+      "type": "officialDeadline",
+      "status": "upcoming",
+      "tags": [
+        "steam",
+        "pc game",
+        "upcoming",
+        "popular-upcoming"
+      ],
+      "subtopic": "steam",
+      "source": "Steam Popular Upcoming",
+      "url": "https://store.steampowered.com/app/3453910/Happys_Humble_BURGATORY/",
+      "sourceUrl": "https://store.steampowered.com/search/?filter=popularcomingsoon"
+    },
+    {
+      "id": "steamgame-ddl-2806050",
+      "topicId": "steamgame-ddl",
+      "title": "Halo: Campaign Evolved",
+      "deadline": "2026-07-28T23:59:59-07:00",
+      "type": "officialDeadline",
+      "status": "upcoming",
+      "tags": [
+        "steam",
+        "pc game",
+        "upcoming",
+        "popular-upcoming"
+      ],
+      "subtopic": "steam",
+      "source": "Steam Popular Upcoming",
+      "url": "https://store.steampowered.com/app/2806050/Halo_Campaign_Evolved/",
+      "sourceUrl": "https://store.steampowered.com/search/?filter=popularcomingsoon"
+    },
+    {
+      "id": "steamgame-ddl-3282300",
+      "topicId": "steamgame-ddl",
+      "title": "Mistfall Hunter",
+      "deadline": "2026-07-29T23:59:59-07:00",
+      "type": "officialDeadline",
+      "status": "upcoming",
+      "tags": [
+        "steam",
+        "pc game",
+        "upcoming",
+        "popular-upcoming"
+      ],
+      "subtopic": "steam",
+      "source": "Steam Popular Upcoming",
+      "url": "https://store.steampowered.com/app/3282300/Mistfall_Hunter/",
+      "sourceUrl": "https://store.steampowered.com/search/?filter=popularcomingsoon"
+    },
+    {
+      "id": "steamgame-ddl-2075800",
+      "topicId": "steamgame-ddl",
+      "title": "STAR WARS Zero Company™",
+      "deadline": "2026-08-27T23:59:59-07:00",
+      "type": "officialDeadline",
+      "status": "upcoming",
+      "tags": [
+        "steam",
+        "pc game",
+        "upcoming",
+        "popular-upcoming"
+      ],
+      "subtopic": "steam",
+      "source": "Steam Popular Upcoming",
+      "url": "https://store.steampowered.com/app/2075800/STAR_WARS_Zero_Company/",
+      "sourceUrl": "https://store.steampowered.com/search/?filter=popularcomingsoon"
+    },
+    {
+      "id": "steamgame-ddl-3751260",
+      "topicId": "steamgame-ddl",
+      "title": "The Blood of Dawnwalker",
+      "deadline": "2026-09-02T23:59:59-07:00",
+      "type": "officialDeadline",
+      "status": "upcoming",
+      "tags": [
+        "steam",
+        "pc game",
+        "upcoming",
+        "popular-upcoming"
+      ],
+      "subtopic": "steam",
+      "source": "Steam Popular Upcoming",
+      "url": "https://store.steampowered.com/app/3751260/The_Blood_of_Dawnwalker/",
+      "sourceUrl": "https://store.steampowered.com/search/?filter=popularcomingsoon"
+    },
+    {
+      "id": "steamgame-ddl-3669870",
+      "topicId": "steamgame-ddl",
+      "title": "CONTROL Resonant",
+      "deadline": "2026-09-24T23:59:59-07:00",
+      "type": "officialDeadline",
+      "status": "upcoming",
+      "tags": [
+        "steam",
+        "pc game",
+        "upcoming",
+        "popular-upcoming"
+      ],
+      "subtopic": "steam",
+      "source": "Steam Popular Upcoming",
+      "url": "https://store.steampowered.com/app/3669870/CONTROL_Resonant/",
+      "sourceUrl": "https://store.steampowered.com/search/?filter=popularcomingsoon"
+    },
+    {
+      "id": "steamgame-ddl-3259780",
+      "topicId": "steamgame-ddl",
+      "title": "FINAL FANTASY RESONANCE",
+      "deadline": "2026-10-22T23:59:59-07:00",
+      "type": "officialDeadline",
+      "status": "upcoming",
+      "tags": [
+        "steam",
+        "pc game",
+        "upcoming",
+        "popular-upcoming"
+      ],
+      "subtopic": "steam",
+      "source": "Steam Popular Upcoming",
+      "url": "https://store.steampowered.com/app/3259780/FINAL_FANTASY_RESONANCE/",
+      "sourceUrl": "https://store.steampowered.com/search/?filter=popularcomingsoon"
+    },
+    {
+      "id": "steamgame-ddl-2963950",
+      "topicId": "steamgame-ddl",
+      "title": "Persona 4 Revival",
+      "deadline": "2027-02-17T23:59:59-08:00",
+      "type": "officialDeadline",
+      "status": "upcoming",
+      "tags": [
+        "steam",
+        "pc game",
+        "upcoming",
+        "popular-upcoming"
+      ],
+      "subtopic": "steam",
+      "source": "Steam Popular Upcoming",
+      "url": "https://store.steampowered.com/app/2963950/Persona_4_Revival/",
+      "sourceUrl": "https://store.steampowered.com/search/?filter=popularcomingsoon"
+    },
+    {
+      "id": "steamgame-ddl-3393110",
+      "topicId": "steamgame-ddl",
+      "title": "AION 2",
+      "type": "placeholder",
+      "status": "upcoming",
+      "tags": [
+        "steam",
+        "pc game",
+        "upcoming",
+        "popular-upcoming"
+      ],
+      "subtopic": "steam",
+      "source": "Steam Popular Upcoming",
+      "url": "https://store.steampowered.com/app/3393110/AION_2/",
+      "sourceUrl": "https://store.steampowered.com/search/?filter=popularcomingsoon"
+    },
+    {
+      "id": "steamgame-ddl-2584270",
+      "topicId": "steamgame-ddl",
+      "title": "Mortal Shell II",
+      "type": "placeholder",
+      "status": "upcoming",
+      "tags": [
+        "steam",
+        "pc game",
+        "upcoming",
+        "popular-upcoming"
+      ],
+      "subtopic": "steam",
+      "source": "Steam Popular Upcoming",
+      "url": "https://store.steampowered.com/app/2584270/Mortal_Shell_II/",
+      "sourceUrl": "https://store.steampowered.com/search/?filter=popularcomingsoon"
+    },
+    {
+      "id": "steamgame-ddl-4824610",
+      "topicId": "steamgame-ddl",
+      "title": "Resident Evil Veronica",
+      "type": "placeholder",
+      "status": "upcoming",
+      "tags": [
+        "steam",
+        "pc game",
+        "upcoming",
+        "popular-upcoming"
+      ],
+      "subtopic": "steam",
+      "source": "Steam Popular Upcoming",
+      "url": "https://store.steampowered.com/app/4824610/Resident_Evil_Veronica/",
+      "sourceUrl": "https://store.steampowered.com/search/?filter=popularcomingsoon"
+    },
+    {
+      "id": "steamgame-ddl-2153760",
+      "topicId": "steamgame-ddl",
+      "title": "Stronghold 4",
+      "type": "placeholder",
+      "status": "upcoming",
+      "tags": [
+        "steam",
+        "pc game",
+        "upcoming",
+        "popular-upcoming"
+      ],
+      "subtopic": "steam",
+      "source": "Steam Popular Upcoming",
+      "url": "https://store.steampowered.com/app/2153760/Stronghold_4/",
+      "sourceUrl": "https://store.steampowered.com/search/?filter=popularcomingsoon"
     },
     {
       "id": "concert-ddl-metallica-athens-2026-05-09",

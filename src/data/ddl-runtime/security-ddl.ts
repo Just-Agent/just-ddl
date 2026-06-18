@@ -13,13 +13,15 @@ export const ddlForSecurityDdl: DDLItem[] = [
       "security",
       "Jeopardy"
     ],
-    "url": "https://ctftime.org/event/3277",
+    "url": "https://www.hackforachange.org/",
     "status": "upcoming",
-    "description": "Parsed from CTFtime upcoming events. Deadline represents the event start time, not a registration deadline.",
+    "description": "Parsed from CTFtime upcoming events; official URL extracted from the event detail page. Deadline represents the event start time, not a registration deadline.",
     "stage": "upcoming",
-    "source": "ctftime",
+    "source": "CTFtime event page + official URL",
     "type": "contest",
-    "sourceUrl": "https://ctftime.org/event/3277"
+    "canonicalUrl": "https://www.hackforachange.org/",
+    "sourceUrl": "https://ctftime.org/event/3277",
+    "verificationLevel": "official_via_ctftime"
   },
   {
     "id": "ctftime-3205",
@@ -33,13 +35,15 @@ export const ddlForSecurityDdl: DDLItem[] = [
       "security",
       "Jeopardy"
     ],
-    "url": "https://ctftime.org/event/3205",
+    "url": "https://bbbirds.org/",
     "status": "upcoming",
-    "description": "Parsed from CTFtime upcoming events. Deadline represents the event start time, not a registration deadline.",
+    "description": "Parsed from CTFtime upcoming events; official URL extracted from the event detail page. Deadline represents the event start time, not a registration deadline.",
     "stage": "upcoming",
-    "source": "ctftime",
+    "source": "CTFtime event page + official URL",
     "type": "contest",
-    "sourceUrl": "https://ctftime.org/event/3205"
+    "canonicalUrl": "https://bbbirds.org/",
+    "sourceUrl": "https://ctftime.org/event/3205",
+    "verificationLevel": "official_via_ctftime"
   },
   {
     "id": "ctftime-3284",
@@ -53,13 +57,15 @@ export const ddlForSecurityDdl: DDLItem[] = [
       "security",
       "Jeopardy"
     ],
-    "url": "https://ctftime.org/event/3284",
+    "url": "https://hack4krak.pl/",
     "status": "upcoming",
-    "description": "Parsed from CTFtime upcoming events. Deadline represents the event start time, not a registration deadline.",
+    "description": "Parsed from CTFtime upcoming events; official URL extracted from the event detail page. Deadline represents the event start time, not a registration deadline.",
     "stage": "upcoming",
-    "source": "ctftime",
+    "source": "CTFtime event page + official URL",
     "type": "contest",
-    "sourceUrl": "https://ctftime.org/event/3284"
+    "canonicalUrl": "https://hack4krak.pl/",
+    "sourceUrl": "https://ctftime.org/event/3284",
+    "verificationLevel": "official_via_ctftime"
   },
   {
     "id": "ctftime-3136",
@@ -73,13 +79,15 @@ export const ddlForSecurityDdl: DDLItem[] = [
       "security",
       "Jeopardy"
     ],
-    "url": "https://ctftime.org/event/3136",
+    "url": "https://ctf.secleaf.tech/",
     "status": "upcoming",
-    "description": "Parsed from CTFtime upcoming events. Deadline represents the event start time, not a registration deadline.",
+    "description": "Parsed from CTFtime upcoming events; official URL extracted from the event detail page. Deadline represents the event start time, not a registration deadline.",
     "stage": "upcoming",
-    "source": "ctftime",
+    "source": "CTFtime event page + official URL",
     "type": "contest",
-    "sourceUrl": "https://ctftime.org/event/3136"
+    "canonicalUrl": "https://ctf.secleaf.tech/",
+    "sourceUrl": "https://ctftime.org/event/3136",
+    "verificationLevel": "official_via_ctftime"
   },
   {
     "id": "ctftime-3271",
@@ -97,7 +105,7 @@ export const ddlForSecurityDdl: DDLItem[] = [
     "status": "upcoming",
     "description": "Parsed from CTFtime upcoming events. Deadline represents the event start time, not a registration deadline.",
     "stage": "upcoming",
-    "source": "ctftime",
+    "source": "CTFtime event page",
     "type": "contest",
     "sourceUrl": "https://ctftime.org/event/3271"
   },
@@ -114,12 +122,12 @@ export const ddlForSecurityDdl: DDLItem[] = [
       "Jeopardy"
     ],
     "url": "https://ctftime.org/event/3270",
+    "sourceUrl": "https://ctftime.org/event/3270",
     "status": "upcoming",
     "description": "Parsed from CTFtime upcoming events. Deadline represents the event start time, not a registration deadline.",
     "stage": "upcoming",
-    "source": "ctftime",
-    "type": "contest",
-    "sourceUrl": "https://ctftime.org/event/3270"
+    "source": "CTFtime event page",
+    "type": "contest"
   },
   {
     "id": "ctftime-3174",
@@ -133,13 +141,15 @@ export const ddlForSecurityDdl: DDLItem[] = [
       "security",
       "Jeopardy"
     ],
-    "url": "https://ctftime.org/event/3174",
+    "url": "https://hwc.tf/",
+    "sourceUrl": "https://ctftime.org/event/3174",
     "status": "upcoming",
-    "description": "Parsed from CTFtime upcoming events. Deadline represents the event start time, not a registration deadline.",
+    "description": "Parsed from CTFtime upcoming events; official URL extracted from the event detail page. Deadline represents the event start time, not a registration deadline.",
     "stage": "upcoming",
-    "source": "ctftime",
+    "source": "CTFtime event page + official URL",
     "type": "contest",
-    "sourceUrl": "https://ctftime.org/event/3174"
+    "canonicalUrl": "https://hwc.tf/",
+    "verificationLevel": "official_via_ctftime"
   },
   {
     "id": "ctftime-3209",
@@ -153,13 +163,15 @@ export const ddlForSecurityDdl: DDLItem[] = [
       "security",
       "Jeopardy"
     ],
-    "url": "https://ctftime.org/event/3209",
+    "url": "https://themctf.com/",
+    "sourceUrl": "https://ctftime.org/event/3209",
     "status": "upcoming",
-    "description": "Parsed from CTFtime upcoming events. Deadline represents the event start time, not a registration deadline.",
+    "description": "Parsed from CTFtime upcoming events; official URL extracted from the event detail page. Deadline represents the event start time, not a registration deadline.",
     "stage": "upcoming",
-    "source": "ctftime",
+    "source": "CTFtime event page + official URL",
     "type": "contest",
-    "sourceUrl": "https://ctftime.org/event/3209"
+    "canonicalUrl": "https://themctf.com/",
+    "verificationLevel": "official_via_ctftime"
   },
   {
     "id": "ctftime-3247",
@@ -173,13 +185,15 @@ export const ddlForSecurityDdl: DDLItem[] = [
       "security",
       "Jeopardy"
     ],
-    "url": "https://ctftime.org/event/3247",
+    "url": "https://ctfd.cyberjousting.com/",
+    "sourceUrl": "https://ctftime.org/event/3247",
     "status": "upcoming",
-    "description": "Parsed from CTFtime upcoming events. Deadline represents the event start time, not a registration deadline.",
+    "description": "Parsed from CTFtime upcoming events; official URL extracted from the event detail page. Deadline represents the event start time, not a registration deadline.",
     "stage": "upcoming",
-    "source": "ctftime",
+    "source": "CTFtime event page + official URL",
     "type": "contest",
-    "sourceUrl": "https://ctftime.org/event/3247"
+    "canonicalUrl": "https://ctfd.cyberjousting.com/",
+    "verificationLevel": "official_via_ctftime"
   },
   {
     "id": "ctftime-3178",
@@ -193,13 +207,15 @@ export const ddlForSecurityDdl: DDLItem[] = [
       "security",
       "Jeopardy"
     ],
-    "url": "https://ctftime.org/event/3178",
+    "url": "https://ctf.nusgreyhats.org/",
+    "sourceUrl": "https://ctftime.org/event/3178",
     "status": "upcoming",
-    "description": "Parsed from CTFtime upcoming events. Deadline represents the event start time, not a registration deadline.",
+    "description": "Parsed from CTFtime upcoming events; official URL extracted from the event detail page. Deadline represents the event start time, not a registration deadline.",
     "stage": "upcoming",
-    "source": "ctftime",
+    "source": "CTFtime event page + official URL",
     "type": "contest",
-    "sourceUrl": "https://ctftime.org/event/3178"
+    "canonicalUrl": "https://ctf.nusgreyhats.org/",
+    "verificationLevel": "official_via_ctftime"
   },
   {
     "id": "ctftime-3220",
@@ -214,12 +230,12 @@ export const ddlForSecurityDdl: DDLItem[] = [
       "Jeopardy"
     ],
     "url": "https://ctftime.org/event/3220",
+    "sourceUrl": "https://ctftime.org/event/3220",
     "status": "upcoming",
     "description": "Parsed from CTFtime upcoming events. Deadline represents the event start time, not a registration deadline.",
     "stage": "upcoming",
-    "source": "ctftime",
-    "type": "contest",
-    "sourceUrl": "https://ctftime.org/event/3220"
+    "source": "CTFtime event page",
+    "type": "contest"
   },
   {
     "id": "ctftime-3243",
@@ -233,13 +249,15 @@ export const ddlForSecurityDdl: DDLItem[] = [
       "security",
       "Jeopardy"
     ],
-    "url": "https://ctftime.org/event/3243",
+    "url": "https://eshatrojan.nl/trojanctf",
+    "sourceUrl": "https://ctftime.org/event/3243",
     "status": "upcoming",
-    "description": "Parsed from CTFtime upcoming events. Deadline represents the event start time, not a registration deadline.",
+    "description": "Parsed from CTFtime upcoming events; official URL extracted from the event detail page. Deadline represents the event start time, not a registration deadline.",
     "stage": "upcoming",
-    "source": "ctftime",
+    "source": "CTFtime event page + official URL",
     "type": "contest",
-    "sourceUrl": "https://ctftime.org/event/3243"
+    "canonicalUrl": "https://eshatrojan.nl/trojanctf",
+    "verificationLevel": "official_via_ctftime"
   },
   {
     "id": "security-ddl-def-con-ctf-qualifier-2026-07-01",

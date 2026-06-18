@@ -445,6 +445,27 @@ export const topics: Topic[] = [
     ]
   },
   {
+    "id": "steamgame-ddl",
+    "name": "Steam Upcoming",
+    "description": "Steam Coming Soon 与 Popular Upcoming 预发布游戏倒计时；精确发行日期进入 DDL，模糊日期显示待官方公告。",
+    "icon": "Gamepad2",
+    "color": "#16A34A",
+    "repo": "Just-Agent/game-ddl",
+    "site": "https://just-agent.github.io/game-ddl/#steamgame-ddl",
+    "status": "published",
+    "sourceMode": "cluster",
+    "clusterId": "game-ddl",
+    "dataUrl": "public-data/steamgame-ddl/items.json",
+    "itemCount": 88,
+    "category": "电竞赛事",
+    "tags": [
+      "Steam",
+      "PC game",
+      "upcoming",
+      "release"
+    ]
+  },
+  {
     "id": "concert-ddl",
     "name": "Concerts",
     "description": "演唱会、巡演、官方场馆活动和开票/演出日期倒计时。",
